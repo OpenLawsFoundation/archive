@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2020-12-18/173/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2020-12-18/173"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2020-12-18;173"/>
+                    <FRBRalias name="eli" value="eli/id/2020/12/19/20G00195/ORIGINAL"/>
+                    <FRBRdate date="2020-12-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/12/19/20G00195/ORIGINAL" aknrelname="eli/id/2020/12/19/20G00195/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 21 ottobre 2020, n. 130, recante disposizioni urgenti in materia di immigrazione, protezione internazionale e complementare, modifiche agli articoli 131-bis, 391-bis, 391-ter e 588 del codice penale, nonche' misure in materia di divieto di accesso agli esercizi pubblici ed ai locali di pubblico trattenimento, di contrasto all'utilizzo distorto del web e di disciplina del Garante nazionale dei diritti delle persone private della liberta' personale. (20G00195)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="20G00195" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2020-12-18" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2020-12-18/173/ita@2020-12-20/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2020-12-18/173/ita@2020-12-20"/>
+                    <FRBRdate date="2020-12-20" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/12/19/20G00195/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2020/12/19/20G00195/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2020/12/19/20G00195/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2020-12-18/173/ita@2020-12-20/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2020-12-18/173/ita@2020-12-20.xml"/>
+                    <FRBRdate date="2020-12-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/12/19/20G00195/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2020-12-19" name="" number="314" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2020-12-19" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2020-12-18" refersTo="#C.2727"/>
+                <step by="#senato" date="2020-12-18" refersTo="#S.2040"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 131 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 391 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 391 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 588"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:1989-12-30;416#1 sexies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:legge:1992-02-05;91#9 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1998-07-25;286#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1998-07-25;286#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1998-07-25;286#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1998-07-25;286#12"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1998-07-25;286#14"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1998-07-25;286#19"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1998-07-25;286#27 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1998-07-25;286#38 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2008-01-28;25#12"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2008-01-28;25#28"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2008-01-28;25#28 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2008-01-28;25#29 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2008-01-28;25#35 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2013-12-23;146#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2015-08-18;142#5 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2015-08-18;142#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2015-08-18;142#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2015-08-18;142#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2015-08-18;142#22 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2017-02-20;14#13"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 ottobre 2020, n. 130 (in G.U. 21/10/2020, n. 261).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, lettere a), b), e) e g), e 2 e l'introduzione delle lettere 0a) e i-bis) all'art. 1, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#1 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1, lettere a), b), d) ed f) e l'introduzione della lettera 0a) all'art. 2, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, lettera c), 2, lettere a) e b) e 4, lettera b) e l'introduzione della lettera b-bis) all'art. 3, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 1, lettere b), c) ed e), 2, 3, lettere b) e c), 5 e 6.
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 2, alinea e lettere a), b) e c) e l'introduzione della lettera b-bis) all'art. 5, comma 2.
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, comma 1, lettera d) e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#9"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#10"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, comma 1, lettera a) e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#11"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 11, comma 1, lettera a).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#12"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 12, commi 1,3 e 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#13"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 13, comma 1, lettere b) e c) e l'introduzione della lettera c-bis) all'art. 13, comma 1. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#14"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 14, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-12-18;173#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-10-21;130#15"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 15, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2020-12-18/173/!main" showAs=""/>
+                <passiveRef eId="C.2727" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;2727" showAs=""/>
+                <passiveRef eId="S.2040" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2040" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2020/12/19/20G00195/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 21 ottobre 2020, n. 130, recante disposizioni urgenti in materia di immigrazione, protezione internazionale e complementare, modifiche agli articoli 131-bis, 391-bis, 391-ter e 588 del codice penale, nonche' misure in materia di divieto di accesso agli esercizi pubblici ed ai locali di pubblico trattenimento, di contrasto all'utilizzo distorto del web e di disciplina del Garante nazionale dei diritti delle persone private della liberta' personale. (20G00195)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>20G00195</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2020-12-18</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2020/12/19/20G00195/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2020/12/19/20G00195/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2020/12/19/20G00195/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2020/12/19/20G00195/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2020/173" nativeUrn="urn:nir:stato:legge:2020-12-18;173" jurisdiction="it"/><ns0:lifecycle inForceFrom="2020-12-19"><ns0:event type="enacted" date="2020-12-18"/><ns0:event type="published" date="2020-12-19"/><ns0:event type="commenced" date="2020-12-19"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/a917c088-4a27-4098-81c6-f69bd417633f" sourceSha256="0a6507d188d88a6d451254de8fafd2921aac2590d4c5c2cf14db5f28798c150e" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T22:04:59.473538Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2020-12-18">18 dicembre 2020</docDate>
+                <docNumber>173</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 21 ottobre 2020, n. 130, recante disposizioni urgenti in materia di immigrazione, protezione internazionale e complementare, modifiche agli articoli 131-bis, 391-bis, 391-ter e 588 del codice penale, nonche' misure in materia di divieto di accesso agli esercizi pubblici ed ai locali di pubblico trattenimento, di contrasto all'utilizzo distorto del web e di disciplina del Garante nazionale dei diritti delle persone private della liberta' personale. (20G00195) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 20/12/2020</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2020-10-21/130/!main" ns1:target="olf:it/decreto-legge/stato/2020/130" ns1:relation="amends">decreto-legge 21 ottobre 2020, n. 130</ref>, recante disposizioni urgenti in materia di immigrazione, protezione internazionale e complementare, modifiche agli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_131bis" ns2:target="olf:it/regio-decreto/stato/1930/1398/art_131bis" ns2:relation="amends">articoli 131-bis</ref>, <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_391bis" ns3:target="olf:it/regio-decreto/stato/1930/1398/art_391bis" ns3:relation="amends">391-bis</ref>, <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_391ter" ns4:target="olf:it/regio-decreto/stato/1930/1398/art_391ter" ns4:relation="amends">391-ter</ref> e <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_588" ns5:target="olf:it/regio-decreto/stato/1930/1398/art_588" ns5:relation="amends">588 del codice penale</ref>, nonche' misure in materia di divieto di accesso agli esercizi pubblici ed ai locali di pubblico trattenimento, di contrasto all'utilizzo distorto del web e di disciplina del Garante nazionale dei diritti delle persone private della liberta' personale, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ 
+ Il <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2020-10-21/130/!main" ns6:target="olf:it/decreto-legge/stato/2020/130" ns6:relation="amends">decreto-legge 21 ottobre 2020, n. 130</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 261 del 21 ottobre 2020. 
+ A norma dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns7:target="olf:it/legge/stato/1988/400/art_15-com5" ns7:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 72. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 18 dicembre 2020 </p>
+            <p>MATTARELLA Conte, Presidente del Consiglio dei ministri Lamorgese, Ministro dell'interno Visto, il Guardasigilli: Bonafede</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2020-12-18/173/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2020-12-18/173"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2020-12-18;173"/>
+                                <FRBRalias name="eli" value="eli/id/2020/12/19/20G00195/ORIGINAL"/>
+                                <FRBRdate date="2020-12-20" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2020-12-18/173/ita@2020-12-20/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2020-12-18/173/ita@2020-12-20"/>
+                                <FRBRdate date="2020-12-20" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2020-12-18/173/ita@2020-12-20/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2020-12-18/173/ita@2020-12-20.xml"/>
+                                <FRBRdate date="2020-12-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 21 OTTOBRE 2020, N. 130 
+ 
+ All'articolo 1: 
+ al comma 1: 
+ alla lettera a) e' premessa la seguente: 
+ «0a) all'articolo 3, comma 4, quarto periodo, le parole: ", entro il 30 novembre, nel limite delle quote stabilite nell'ultimo decreto emanato" sono soppresse»; 
+ la lettera a) e' sostituita dalla seguente: 
+ «a) all'articolo 5: 
+ 1) dopo il comma 1 e' inserito il seguente: 
+ "1-bis. Nei casi di cui all'articolo 38-bis, possono soggiornare nel territorio dello Stato gli studenti stranieri che sono entrati secondo le modalita' e alle condizioni previste dall'articolo 4 e che sono in possesso del visto per motivi di studio rilasciato per l'intera durata del corso di studio e della relativa dichiarazione di presenza"; 
+ 2) al comma 6, dopo le parole: "Stati contraenti" sono aggiunte le seguenti: ", fatto salvo il rispetto degli obblighi costituzionali o internazionali dello Stato italiano"»; 
+ alla lettera b), capoverso 1-bis): 
+ all'alinea, la parola: «1-bis)» e' sostituita dalla seguente: «1-bis.»; 
+ alla lettera a), le parole: «e 16,» sono sostituite dalle seguenti: «e 16»; 
+ alla lettera d), le parole: «per richiesta asilo» sono sostituite dalle seguenti: «per richiesta di asilo»; 
+ alla lettera h), le parole: «per assistenza minori» sono sostituite dalle seguenti: «per assistenza di minori»; 
+ dopo la lettera h) e' aggiunta la seguente: 
+ «h-bis) permesso di soggiorno per cure mediche, di cui all'articolo 19, comma 2, lettera d-bis)»; 
+ alla lettera e): 
+ al numero 1) e' premesso il seguente: 
+ «01) al comma 1, dopo la parola: "sesso," sono inserite le seguenti: "di orientamento sessuale, di identita' di genere,"»; 
+ al numero 1), capoverso 1.1: 
+ al primo periodo, dopo le parole: «inumani o degradanti» sono aggiunte le seguenti: «o qualora ricorrano gli obblighi di cui all'articolo 5, comma 6»; 
+ al terzo periodo, la parola: «propria» e' sostituita dalla seguente: «sua» e le parole da: «non sia necessario» fino alla fine del periodo sono sostituite dalle seguenti: «sia necessario per ragioni di sicurezza nazionale, di ordine e sicurezza pubblica nonche' di protezione della salute nel rispetto della Convenzione relativa allo statuto dei rifugiati, firmata a Ginevra il 28 luglio 1951, resa esecutiva dalla <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/1954-07-24/722/!main" ns8:target="olf:it/legge/stato/1954/722" ns8:relation="cites">legge 24 luglio 1954, n. 722</ref>, e della Carta dei diritti fondamentali dell'Unione europea»; 
+ il numero 3) e' sostituito dal seguente: 
+ «3) al comma 2, lettera d-bis): 
+ 3.1) al primo periodo, le parole: "condizioni di salute di particolare gravita'" sono sostituite dalle seguenti: "gravi condizioni psicofisiche o derivanti da gravi patologie"; 
+ 3.2) al secondo periodo, le parole: "di salute di particolare gravita'" sono sostituite dalle seguenti: "di cui al periodo precedente" e sono aggiunte, in fine, le seguenti parole: "e convertibile in permesso di soggiorno per motivi di lavoro"»; 
+ la lettera g) e' sostituita dalla seguente: 
+ «g) all'articolo 27-ter: 
+ 1) al comma 9-bis, le parole: "In presenza dei requisiti reddituali di cui all'articolo 29, comma 3, lettera b), e fermo restando il rispetto dell'obbligo di cui all'articolo 34, comma 3, lo" sono sostituite dalla seguente: "Lo"; 
+ 2) al comma 9-ter, le parole: ", oltre alla documentazione relativa al possesso dei requisiti reddituali e al rispetto dell'obbligo di cui all'articolo 34, comma 3," sono soppresse»; 
+ dopo la lettera i) e' aggiunta la seguente: 
+ «i-bis) dopo l'articolo 38 e' inserito il seguente: 
+ "Art. 38-bis (Disposizioni in materia di soggiorni di breve durata per gli studenti delle filiazioni in Italia di universita' e istituti superiori di insegnamento a livello universitario stranieri). - 1. Le disposizioni della <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2007-05-28/68/!main" ns9:target="olf:it/legge/stato/2007/68" ns9:relation="cites">legge 28 maggio 2007, n. 68</ref>, si applicano agli studenti delle filiazioni in Italia di universita' e istituti superiori di insegnamento a livello universitario di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/1999-01-14/4/!main#art_2" ns10:target="olf:it/legge/stato/1999/4/art_2" ns10:relation="cites">articolo 2 della legge 14 gennaio 1999, n. 4</ref>, nel caso in cui il soggiorno in Italia dei predetti studenti non sia superiore a centocinquanta giorni. Si applicano le disposizioni dell'articolo 6, comma 8, del presente testo unico. 
+ 2. Nei casi di cui al comma 1, la dichiarazione di presenza e' accompagnata da una dichiarazione di garanzia del legale rappresentante della filiazione o di un suo delegato, che si obbliga a comunicare entro quarantotto ore al questore territorialmente competente ogni variazione relativa alla presenza dello studente durante il suo soggiorno per motivi di studio. Le violazioni delle disposizioni del presente comma sono soggette alla sanzione amministrativa di cui all'articolo 7, comma 2-bis"»; 
+ il comma 2 e' sostituito dal seguente: 
+ «2. Fermo restando quanto previsto dall'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/regio.decreto/stato/1942-03-30/327/!main#art_83" ns11:target="olf:it/regio-decreto/stato/1942/327/art_83" ns11:relation="cites">articolo 83 del codice della navigazione</ref>, per motivi di ordine e sicurezza pubblica, in conformita' alle previsioni della Convenzione delle Nazioni Unite sul diritto del mare, con allegati e atto finale, fatta a Montego Bay il 10 dicembre 1982, resa esecutiva dalla <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/1994-12-02/689/!main" ns12:target="olf:it/legge/stato/1994/689" ns12:relation="cites">legge 2 dicembre 1994, n. 689</ref>, il Ministro dell'interno, di concerto con il Ministro della difesa e con il Ministro delle infrastrutture e dei trasporti, previa informazione al Presidente del Consiglio dei ministri, puo' limitare o vietare il transito e la sosta di navi nel mare territoriale, salvo che si tratti di naviglio militare o di navi in servizio governativo non commerciale. Le disposizioni del presente comma non trovano comunque applicazione nell'ipotesi di operazioni di soccorso immediatamente comunicate al centro di coordinamento competente per il soccorso marittimo e allo Stato di bandiera ed effettuate nel rispetto delle indicazioni della competente autorita' per la ricerca e il soccorso in mare, emesse sulla base degli obblighi derivanti dalle convenzioni internazionali in materia di diritto del mare, della Convenzione europea per la salvaguardia dei diritti dell'uomo e delle liberta' fondamentali e delle norme nazionali, internazionali ed europee in materia di diritto di asilo, fermo restando quanto previsto dal Protocollo addizionale della Convenzione delle Nazioni Unite contro la criminalita' transnazionale organizzata per combattere il traffico illecito di migranti via terra, via mare e via aria, reso esecutivo dalla <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2006-03-16/146/!main" ns13:target="olf:it/legge/stato/2006/146" ns13:relation="cites">legge 16 marzo 2006, n. 146</ref>. Nei casi di inosservanza del divieto o del limite di navigazione stabilito ai sensi del primo periodo, si applica l'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/regio.decreto/stato/1942-03-30/327/!main#art_1102" ns14:target="olf:it/regio-decreto/stato/1942/327/art_1102" ns14:relation="cites">articolo 1102 del codice della navigazione</ref> e la multa e' da euro 10.000 ad euro 50.000». 
+ Dopo l'articolo 1 e' inserito il seguente: 
+ «Art. 1-bis (Modifiche all'articolo 12 del testo unico di cui al <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/1998-07-25/286/!main" ns15:target="olf:it/decreto-legislativo/stato/1998/286" ns15:relation="amends">decreto legislativo 25 luglio 1998, n. 286</ref>, in materia di assegnazione di beni sequestrati o confiscati). - 1. All'articolo 12 del testo unico delle disposizioni concernenti la disciplina dell'immigrazione e norme sulla condizione dello straniero, di cui al <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/1998-07-25/286/!main" ns16:target="olf:it/decreto-legislativo/stato/1998/286" ns16:relation="amends">decreto legislativo 25 luglio 1998, n. 286</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 8, primo periodo, sono aggiunte, in fine, le seguenti parole: "o a enti del Terzo settore, disciplinati dal codice del Terzo settore, di cui al <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns17:target="olf:it/decreto-legislativo/stato/2017/117" ns17:relation="cites">decreto legislativo 3 luglio 2017, n. 117</ref>, che ne abbiano fatto espressamente richiesta per fini di interesse generale o per finalita' sociali o culturali, i quali provvedono con oneri a proprio carico allo smaltimento delle imbarcazioni eventualmente loro affidate, previa autorizzazione dell'autorita' giudiziaria competente. Fino all'operativita' del Registro unico nazionale del Terzo settore, istituito dall'articolo 45 del citato codice di cui al <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/2017/117/!main" ns18:resolution="unresolved">decreto legislativo n. 117 del 2017</ref>, si considerano enti del Terzo settore gli enti di cui all'articolo 104, comma 1, del medesimo codice"; 
+ b) al comma 8-quinquies: 
+ 1) al primo periodo, dopo la parola: "assegnati" sono inserite le seguenti: "in via prioritaria" e dopo le parole: "o trasferiti all'ente" sono inserite le seguenti: "o, in subordine, agli enti del Terzo settore di cui al comma 8"; 
+ 2) dopo il primo periodo e' inserito il seguente: "Resta fermo che gli enti del Terzo settore di cui al comma 8 provvedono con oneri a proprio carico allo smaltimento delle imbarcazioni eventualmente loro trasferite, previa autorizzazione dell'autorita' giudiziaria competente" ». 
+ All'articolo 2: 
+ al comma 1: 
+ alla lettera a) e' premessa la seguente: 
+ «0a) all'articolo 12, comma 1, dopo le parole: "dispongono l'audizione dell'interessato" sono inserite le seguenti: ", ove possibile, utilizzando le risorse umane, strumentali e finanziarie disponibili a legislazione vigente, anche mediante collegamenti audiovisivi a distanza, nel rispetto delle esigenze di riservatezza dei dati che riguardano l'identita' e le dichiarazioni del richiedente, fermo restando quanto previsto dagli articoli 13 e 14,"»; 
+ la lettera a) e' sostituita dalla seguente: 
+ «a) l'articolo 28 e' sostituito dal seguente: 
+ "Art. 28 (Esame prioritario). - 1. Il presidente della Commissione territoriale, previo esame preliminare delle domande, determina i casi di trattazione prioritaria, secondo i criteri enumerati al comma 2, e quelli per i quali applicare la procedura accelerata, ai sensi dell'articolo 28-bis. La Commissione territoriale informa tempestivamente il richiedente delle determinazioni procedurali assunte ai sensi del periodo precedente. 
+ 2. La domanda e' esaminata in via prioritaria, conformemente ai principi fondamentali e alle garanzie di cui al capo II, quando: 
+ a) ad una prima valutazione, e' verosimilmente fondata; 
+ b) e' presentata da un richiedente appartenente a categorie di persone vulnerabili, in particolare da un minore non accompagnato, ovvero che necessita di garanzie procedurali particolari; 
+ c) e' esaminata ai sensi dell'articolo 12, comma 2-bis"»;  alla lettera b), capoverso Art. 28-bis: 
+ al comma 1, lettera b), le parole: «ovvero e' stato condannato» sono sostituite dalle seguenti: «o il richiedente e' stato condannato»; 
+ al comma 6 sono aggiunte, in fine, le seguenti parole: «e agli stranieri portatori di esigenze particolari ai sensi dell'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegislativo/stato/2015-08-18/142/!main#art_17" ns19:target="olf:it/decreto-legislativo/stato/2015/142/art_17" ns19:relation="amends">articolo 17 del decreto legislativo 18 agosto 2015, n. 142</ref>»; 
+ la lettera d) e' sostituita dalla seguente: 
+ «d) l'articolo 29-bis e' sostituito dal seguente: 
+ "Art. 29-bis (Domanda reiterata in fase di esecuzione di un provvedimento di allontanamento). - 1. Se lo straniero presenta una prima domanda reiterata nella fase di esecuzione di un provvedimento che ne comporterebbe l'imminente allontanamento dal territorio nazionale, la domanda e' trasmessa con immediatezza al presidente della Commissione territoriale competente, che procede all'esame preliminare entro tre giorni, valutati anche i rischi di respingimento diretti e indiretti, e contestualmente ne dichiara l'inammissibilita' ove non siano stati addotti nuovi elementi, ai sensi dell'articolo 29, comma 1, lettera b)"»; 
+ alla lettera f), numero 2.1, le parole: «ed e);» sono sostituite dalle seguenti: «ed e)». 
+ All'articolo 3: 
+ al comma 1, lettera c), numero 3), lettera b), la parola: «prorogabile» e' sostituita dalla seguente: «, prorogabile»; 
+ al comma 2: 
+ alla lettera a), capoverso Art. 5-bis: 
+ al comma 1, dopo le parole: «<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1989-05-30/223/!main" ns20:target="olf:it/dpr/stato/1989/223" ns20:relation="cites">decreto del Presidente della Repubblica 30 maggio 1989, n. 223</ref>» sono aggiunte le seguenti: «, in particolare degli articoli 3, 5 e 7»; 
+ al comma 3, dopo le parole: «richiedente protezione internazionale» sono inserite le seguenti: «, ospitato nei centri di cui agli articoli 9 e 11 del presente decreto, nonche' nelle strutture del sistema di accoglienza e integrazione, di cui all'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegge/stato/1989-12-30/416/!main#art_1sexies" ns21:target="olf:it/decreto-legge/stato/1989/416/art_1sexies" ns21:relation="amends">articolo 1-sexies del decreto-legge 30 dicembre 1989, n. 416</ref>, convertito, con modificazioni, dalla <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/1990-02-28/39/!main" ns22:target="olf:it/legge/stato/1990/39" ns22:relation="cites">legge 28 febbraio 1990, n. 39</ref>,»; 
+ alla lettera b): 
+ al numero 1.1, le parole: «o nelle condizioni» sono sostituite dalle seguenti: «, o nelle condizioni»; 
+ al numero 2), dopo le parole: «novanta giorni» e' inserito il seguente segno d'interpunzione: «,» e la parola: «rimpatri.» e' sostituita dalla seguente: «rimpatri»; 
+ dopo il numero 3) e' aggiunto il seguente: 
+ «3-bis) dopo il comma 10 e' aggiunto il seguente: 
+ "10-bis. Nel caso in cui sussistano fondati dubbi relativi all'eta' dichiarata da un minore si applicano le disposizioni dell'articolo 19-bis, comma 2"»; 
+ dopo la lettera b) e' aggiunta la seguente: 
+ «b-bis) all'articolo 9, dopo il comma 4-bis e' aggiunto il seguente: 
+ "4-ter. La verifica della sussistenza di esigenze particolari e di specifiche situazioni di vulnerabilita', anche ai fini del trasferimento prioritario del richiedente di cui al comma 4-bis e dell'adozione di idonee misure di accoglienza di cui all'articolo 10, e' effettuata secondo le linee guida emanate dal Ministero della salute, d'intesa con il Ministero dell'interno e con le altre amministrazioni eventualmente interessate, da applicare nei centri di cui al presente articolo e all'articolo 11"»; 
+ al comma 4, lettera b), capoverso 2-bis), la parola: «2-bis)» e' sostituita dalla seguente: «2-bis.», le parole: «garante nazionale» sono sostituite dalle seguenti: «Garante nazionale» e le parole: «detenute o» sono soppresse. 
+ All'articolo 4: 
+ al comma 1: 
+ alla lettera b): 
+ dopo il numero 1) e' inserito il seguente: 
+ «1-bis) al comma 4, dopo le parole: "Il prefetto," sono inserite le seguenti: "informato il sindaco del comune nel cui territorio e' situato il centro di prima accoglienza e"»; 
+ al numero 2), capoverso 4-bis, primo periodo, sono aggiunte, in fine, le seguenti parole: «, del presente decreto»; 
+ alla lettera c), capoverso 1, primo periodo, dopo le parole: «comma 1» e' inserito il seguente segno d'interpunzione: «,» e le parole: «ed abitativi» sono sostituite dalle seguenti: «, abitativi e di sicurezza nonche' idonee misure di prevenzione, controllo e vigilanza relativamente alla partecipazione o alla propaganda attiva a favore di organizzazioni terroristiche internazionali»; 
+ la lettera e) e' sostituita dalla seguente: 
+ «e) all'articolo 22-bis: 
+ 1) al comma 1, dopo la parola: "impiego" sono inserite le seguenti: "di richiedenti protezione internazionale e"; 
+ 2) al comma 3, dopo la parola: "coinvolgimento" sono inserite le seguenti: "dei richiedenti protezione internazionale e".»; 
+ al comma 2, le parole: «n. 1 e c)» sono sostituite dalle seguenti: «numero 1), e c),»; 
+ al comma 3: 
+ alla lettera b): 
+ al capoverso 1: 
+ la lettera a) e' sostituita dalle seguenti: 
+ «a) protezione speciale, di cui agli articoli 19, commi 1 e 1.1, del <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegislativo/stato/1998-07-25/286/!main" ns23:target="olf:it/decreto-legislativo/stato/1998/286" ns23:relation="amends">decreto legislativo 25 luglio 1998, n. 286</ref>, ad eccezione dei casi per i quali siano state applicate le cause di esclusione della protezione internazionale, di cui agli articoli 10, comma 2, 12, comma 1, lettere b) e c), e 16 del <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegislativo/stato/2007-11-19/251/!main" ns24:target="olf:it/decreto-legislativo/stato/2007/251" ns24:relation="cites">decreto legislativo 19 novembre 2007, n. 251</ref>; 
+ a-bis) cure mediche, di cui all'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegislativo/stato/1998-07-25/286/!main#art_19-com2-letdbis" ns25:target="olf:it/decreto-legislativo/stato/1998/286/art_19-com2-letdbis" ns25:relation="amends">articolo 19, comma 2, lettera d-bis), del decreto legislativo 25 luglio 1998, n. 286</ref>»; 
+ alla lettera e), dopo le parole: «comma 12-quater» e' inserito il seguente segno d'interpunzione: «,»; 
+ alla lettera g), le parole: «decreto-legge» sono sostituite dalle seguenti: «del decreto-legge»; 
+ al capoverso 1-bis, le parole: «precedente periodo» sono sostituite dalle seguenti: «comma 1»; 
+ dopo il capoverso 1-bis e' aggiunto il seguente: 
+ «1-ter. L'accoglienza dei titolari dei permessi di soggiorno indicati alla lettera b) del comma 1 avviene con le modalita' previste dalla normativa nazionale e internazionale in vigore per le categorie vulnerabili, con particolare riferimento alla Convenzione del Consiglio d'Europa sulla prevenzione e la lotta contro la violenza nei confronti delle donne e la violenza domestica, fatta a Istanbul l'11 maggio 2011, ratificata ai sensi della <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/legge/stato/2013-06-27/77/!main" ns26:target="olf:it/legge/stato/2013/77" ns26:relation="cites">legge 27 giugno 2013, n. 77</ref>, e in collegamento con i percorsi di protezione dedicati alle vittime di tratta e di violenza domestica»; 
+ alla lettera c), capoverso 2-bis), alinea, la parola: «2-bis)» e' sostituita dalla seguente: «2-bis.»; 
+ al comma 5, capoverso 1, sono premesse le seguenti parole:
+«Art. 9-ter. -» e le parole: «massimo trentasei mesi» sono sostituite dalle seguenti: «ventiquattro mesi prorogabili fino al massimo di trentasei mesi»; 
+ al comma 6, le parole: «di cui al comma 4» sono sostituite dalle seguenti: «di cui all'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/1992-02-05/91/!main#art_9ter" ns27:target="olf:it/legge/stato/1992/91/art_9ter" ns27:relation="amends">articolo 9-ter della legge 5 febbraio 1992, n. 91</ref>, come sostituito dal comma 5 del presente articolo,». 
+ All'articolo 5: 
+ al comma 2: 
+ all'alinea, le parole: «primo comma» sono sostituite dalle seguenti: «comma 1»; 
+ le lettere a), b) e c) sono sostituite dalle seguenti: 
+ «a) formazione linguistica finalizzata alla conoscenza della lingua italiana almeno di livello A1 del Quadro comune europeo di riferimento per la conoscenza delle lingue; 
+ b) conoscenza dei diritti e dei doveri fondamentali sanciti nella Costituzione della Repubblica italiana; 
+ b-bis) orientamento ai servizi pubblici essenziali; 
+ c) orientamento all'inserimento lavorativo». 
+ All'articolo 6: 
+ al comma 1, capoverso 7-bis, le parole: «risulta l'autore» sono sostituite dalle seguenti: «risulta essere autore». 
+ All'articolo 7: 
+ al comma 1, le parole: «delle proprie funzioni e» sono sostituite dalle seguenti: «delle proprie funzioni, e». 
+ All'articolo 8: 
+ al comma 1, lettera d), capoverso, dopo le parole: «n. 354» e' inserito il seguente segno d'interpunzione: «,»; 
+ alla rubrica, la parola: «Modifica » e' sostituita dalla seguente: «Modifiche». 
+ All'articolo 9: 
+ al comma 1, capoverso Art. 391-ter, primo comma, le parole: «Fuori dai casi» sono sostituite dalle seguenti: «Fuori dei casi» e le parole: «al fine renderlo» sono sostituite dalle seguenti: «al fine di renderlo». 
+ All'articolo 10: 
+ al comma 1, lettera a), la cifra: «2.000,00» e' sostituita dalla seguente: «2.000»; 
+ alla rubrica, le parole: «Modifica dell'» sono sostituite dalle seguenti: «Modifiche all'». 
+ All'articolo 11: 
+ al comma 1, lettera a): 
+ al numero 1), capoverso 1, le parole: «o condannate» sono sostituite dalle seguenti: «o siano state condannate»; 
+ al numero 2), capoverso, le parole: «La violazione di divieti» sono sostituite dalle seguenti: «6. La violazione dei divieti». 
+ All'articolo 12: 
+ al comma 1, al primo periodo, la parola: «implementare» e' sostituita dalla seguente: «rafforzare» e, al secondo periodo, le parole: «all'articolo 1, della» sono sostituite dalle seguenti: «all'articolo 1 della»; 
+ al comma 3, terzo periodo, le parole: «all'articolo 16, della» sono sostituite dalle seguenti: «all'articolo 16 della»; 
+ al comma 4, dopo le parole: «dalle sanzioni amministrative pecuniarie» sono inserite le seguenti: «irrogate ai sensi del comma 3» e la parola: «riassegnate» e' sostituita dalla seguente:
+«riassegnati». 
+ All'articolo 13: 
+ al comma 1: 
+ alla lettera b), capoverso 1-bis, le parole: «contro tortura» sono sostituite dalle seguenti: «contro la tortura» e le parole: «ratificato con legge» sono sostituite dalle seguenti: «ratificato ai sensi della legge»; 
+ la lettera c) e' sostituita dalla seguente: 
+ «c) dopo il comma 5 e' inserito il seguente: 
+ "5.1. Il Garante nazionale puo' delegare i garanti territoriali per l'esercizio delle proprie funzioni relativamente alle strutture sanitarie, sociosanitarie e assistenziali, alle comunita' terapeutiche e di accoglienza, per adulti e per minori, nonche' alle strutture di cui alla lettera e) del comma 5, quando particolari circostanze lo richiedano. La delega ha una durata massima di sei mesi"»; 
+ dopo la lettera c) e' aggiunta la seguente: 
+ «c-bis) al comma 5-bis e' aggiunto, in fine, il seguente periodo: "Nell'ambito delle funzioni attribuite dall'articolo 4 del regolamento di cui al <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decreto/presidente.consiglio/2019-04-10/89/!main" ns28:target="olf:it/decreto/presidente-consiglio/2019/89" ns28:relation="cites">decreto del Presidente del Consiglio dei ministri 10 aprile 2019, n. 89</ref>, e con le modalita' ivi previste, il Garante nazionale adotta i piani annuali di spesa, in coerenza e nei limiti dell'autorizzazione di spesa di cui al presente comma, modulando le voci di spesa in base a criteri oggettivi e funzionali alle necessita' dell'ufficio, nell'ambito delle determinazioni adottate ai sensi dei commi 3, 4 e 5 del presente articolo"». 
+ All'articolo 14: 
+ al comma 3, le parole: «all'U.d.V.» sono sostituite dalle seguenti: «all'unita' di voto» e le parole: «con le ordinarie procedure contabili previste a legislazione vigente» sono sostituite dalle seguenti: «ai sensi dell'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_33-com4" ns29:target="olf:it/legge/stato/2009/196/art_33-com4" ns29:relation="cites">articolo 33, comma 4, della legge 31 dicembre 2009, n. 196</ref>». 
+ All'articolo 15: 
+ al comma 1, le parole: «comma 2» sono sostituite dalle seguenti: «secondo comma,» e la parola: «civile;» e' sostituita dalla seguente: «civile.». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
