@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto/MINISTERO_DELLA_GIUSTIZIA/2020-03-03/61/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto/MINISTERO_DELLA_GIUSTIZIA/2020-03-03/61"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:ministero.giustizia:decreto:2020-03-03;61"/>
+                    <FRBRalias name="eli" value="eli/id/2020/06/20/20G00077/ORIGINAL"/>
+                    <FRBRdate date="2020-03-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/06/20/20G00077/ORIGINAL" aknrelname="eli/id/2020/06/20/20G00077/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Regolamento recante la determinazione delle modalita' di destinazione alla Corte penale internazionale di somme, beni e utilita' confiscati. (20G00077)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="20G00077" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO"/>
+                            <nrdfa:span content="2020-03-03" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto/MINISTERO_DELLA_GIUSTIZIA/2020-03-03/61/ita@2020-07-05/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto/MINISTERO_DELLA_GIUSTIZIA/2020-03-03/61/ita@2020-07-05"/>
+                    <FRBRdate date="2020-07-05" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/06/20/20G00077/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2020/06/20/20G00077/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2020/06/20/20G00077/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto/MINISTERO_DELLA_GIUSTIZIA/2020-03-03/61/ita@2020-07-05/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto/MINISTERO_DELLA_GIUSTIZIA/2020-03-03/61/ita@2020-07-05.xml"/>
+                    <FRBRdate date="2020-03-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/06/20/20G00077/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2020-06-20" name="" number="155" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2020-06-20" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO/MINISTERO_DELLA_GIUSTIZIA/2020-03-03/61/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2020/06/20/20G00077/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Regolamento recante la determinazione delle modalita' di destinazione alla Corte penale internazionale di somme, beni e utilita' confiscati. (20G00077)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>20G00077</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO"/>
+                        <eli:date_document rdf:datatype="xsd:date">2020-03-03</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2020/06/20/20G00077/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2020/06/20/20G00077/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2020/06/20/20G00077/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2020/06/20/20G00077/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto/ministero-della-giustizia/2020/61" nativeUrn="urn:nir:ministero.giustizia:decreto:2020-03-03;61" jurisdiction="it"/><ns0:lifecycle inForceFrom="2020-06-20"><ns0:event type="enacted" date="2020-03-03"/><ns0:event type="published" date="2020-06-20"/><ns0:event type="commenced" date="2020-06-20"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/af0aed23-18b0-42e4-b0bb-a995d2c25f37" sourceSha256="5460696d070f3c02b8eb6b99ce67292e255f64ccc311d8c0e834ec4b259d4c73" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T22:37:38.606334Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO</docType>
+                <docDate date="2020-03-03">03 marzo 2020</docDate>
+                <docNumber>61</docNumber>
+                <docTitle>Regolamento recante la determinazione delle modalita' di destinazione alla Corte penale internazionale di somme, beni e utilita' confiscati. (20G00077) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 05/07/2020</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL MINISTRO DELLA GIUSTIZIA</p>
+            </formula>
+            <p>di concerto con</p>
+            <p>IL MINISTRO DELL'ECONOMIA</p>
+            <p>E DELLE FINANZE</p>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Vista la <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_1" href="/akn/it/act/legge/stato/1988-08-23/400/!main" ns1:target="olf:it/legge/stato/1988/400" ns1:relation="cites">legge 23 agosto 1988, n. 400</ref>, recante «Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri», e, in particolare, l'articolo 17, comma 3;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Vista la <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/legge/stato/2012-12-20/237/!main" ns2:target="olf:it/legge/stato/2012/237" ns2:relation="cites">legge 20 dicembre 2012, n. 237</ref>, recante «Norme per l'adeguamento alle disposizioni dello statuto istitutivo della Corte penale internazionale», e, in particolare, l'articolo 21, comma 5, che rinvia a un decreto del Ministro della giustizia, di concerto con il Ministro dell'economia e delle finanze, la individuazione delle modalita' di messa a disposizione della Corte penale internazionale delle somme, beni e utilita' confiscati;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Visto il <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main" ns3:target="olf:it/dpr/stato/2002/115" ns3:relation="cites">decreto del Presidente della Repubblica 30 maggio 2002, n. 115</ref>, recante «Teso unico delle disposizioni legislative e regolamentari in materia di spese di giustizia», in particolare gli articoli 149-156;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_4">
+                <citation eId="cits_4__cit_1">
+                    <p>Visto il <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/decretoLegislativo/stato/2015-08-07/137/!main" ns4:target="olf:it/decreto-legislativo/stato/2015/137" ns4:relation="cites">decreto legislativo 7 agosto 2015, n. 137</ref>, recante «Attuazione della decisione quadro 2006/783/GAI relativa all'applicazione del principio del reciproco riconoscimento delle decisioni di confisca», in particolare l'articolo 14;</p>
+                </citation>
+            </citations>
+            <p>Udito il parere del Consiglio di Stato, espresso dalla sezione consultiva per gli atti normativi nell'adunanza di sezione del 28 settembre 2017;</p>
+            <citations eId="cits_5">
+                <citation eId="cits_5__cit_1">
+                    <p>Vista la comunicazione al Presidente del Consiglio dei ministri con nota del 26 novembre 2019;</p>
+                </citation>
+            </citations>
+            <p>Considerata la necessita' di determinare i criteri con cui destinare alla Corte penale internazionale somme, beni e utilita' confiscati;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Adotta il seguente regolamento:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Determinazione delle modalita' di messa a disposizione di somme, beni e utilita' alla Corte penale internazionale 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Salvo diverso accordo con la Corte penale internazionale, le somme conseguite dalla Corte di appello di Roma in esecuzione dei provvedimenti di confisca emessi dalla Corte penale internazionale, secondo quanto previsto dall'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2012-12-20/237/!main#art_21-com5" ns5:target="olf:it/legge/stato/2012/237/art_21-com5" ns5:relation="cites">articolo 21, comma 5, della legge 20 dicembre 2012, n. 237</ref>, sono versate all'entrata del bilancio dello Stato, al capo XI - capitolo n. 3530 - articolo 5, per essere riassegnate, con uno o piu' decreti del Ministro dell'economia e delle finanze, ad appositi capitoli dello stato di previsione del Ministero della giustizia. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il Ministero della giustizia trasferisce alla Corte penale internazionale le somme oggetto di riassegnazione di cui al comma 1, dedotti i diritti del concessionario, le spese di custodia ed ogni altro onere della procedura di confisca. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Nei casi in cui l'esecuzione ha avuto ad oggetto un bene diverso dal denaro e il bene puo' essere venduto, la Corte di appello di' Roma procede alla vendita dello stesso bene secondo le modalita' previste dall'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main#art_152" ns6:target="olf:it/dpr/stato/2002/115/art_152" ns6:relation="cites">articolo 152 del decreto del Presidente della Repubblica 30 maggio 2002, n. 115</ref>, anticipando le spese della procedura ai sensi dell'articolo 156 del citato decreto. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Alle somme ricavate dalla vendita dei beni di cui al comma 3 si applicano le disposizioni di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Il Ministero della giustizia trasferisce alla Corte penale internazionale le somme ricavate dalla vendita dei beni di cui al comma 3, dedotte le spese di amministrazione e gli oneri della procedura di confisca e di vendita. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Nel caso in cui i beni oggetto di confisca rimangano invenduti o non sia possibile il loro trasferimento, il Procuratore generale presso la Corte di appello di Roma ne informa il Ministro della giustizia per l'avvio delle procedure di consultazione con la Corte penale internazionale ai sensi dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2012-12-20/237/!main#art_22" ns7:target="olf:it/legge/stato/2012/237/art_22" ns7:relation="cites">articolo 22 della legge 20 dicembre 2012, n. 237</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>In ogni caso non si provvede alla vendita o alla destinazione alla Corte penale internazionale del bene oggetto della decisione di confisca quando esso costituisce bene culturale appartenente al patrimonio culturale nazionale. Rispetto a tali beni si applicano le norme di settore vigenti. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'Amministrazione competente per materia, ai sensi dell'articolo 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns8:target="olf:it/dpr/stato/1985/1092" ns8:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ Note alle premesse: 
+ - Si riporta il testo del comma 3 dell'articolo 17 della citata <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/1988-08-23/400/!main" ns9:target="olf:it/legge/stato/1988/400" ns9:relation="cites">legge 23 agosto 1988, n. 400</ref>: 
+ «3. Con decreto ministeriale possono essere adottati regolamenti nelle materie di competenza del ministro o di autorita' sottordinate al ministro, quando la legge espressamente conferisca tale potere. Tali regolamenti, per materie di competenza di piu' ministri, possono essere adottati con decreti interministeriali, ferma restando la necessita' di apposita autorizzazione da parte della legge.
+ I regolamenti ministeriali ed interministeriali non possono dettare norme contrarie a quelle dei regolamenti emanati dal Governo. Essi debbono essere comunicati al Presidente del Consiglio dei ministri prima della loro emanazione.». 
+ - Si riporta il testo del comma 5 dell'articolo 21 della citata <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2012-12-20/237/!main" ns10:target="olf:it/legge/stato/2012/237" ns10:relation="cites">legge 20 dicembre 2012, n. 237</ref>: 
+ «Art. 21 (Esecuzione di pene pecuniarie e degli ordini di riparazione). - 1. - 4. (Omissis). 
+ 5. Le somme, i beni e le utilita' confiscati sono messi a disposizione della Corte penale internazionale dal Ministro della giustizia, secondo modalita' individuate con decreto dello stesso Ministro della giustizia, di concerto con il Ministro dell'economia e delle finanze, da adottare ai sensi dell'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_17-com3" ns11:target="olf:it/legge/stato/1988/400/art_17-com3" ns11:relation="cites">articolo 17, comma 3, della legge 23 agosto 1988, n. 400</ref>». 
+ - Si riporta il testo degli <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main#art_149" ns12:target="olf:it/dpr/stato/2002/115/art_149" ns12:relation="cites">articoli 149</ref>, <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main#art_150" ns13:target="olf:it/dpr/stato/2002/115/art_150" ns13:relation="cites">150</ref>, <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main#art_151" ns14:target="olf:it/dpr/stato/2002/115/art_151" ns14:relation="cites">151</ref>, <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main#art_152" ns15:target="olf:it/dpr/stato/2002/115/art_152" ns15:relation="cites">152</ref>, <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main#art_153" ns16:target="olf:it/dpr/stato/2002/115/art_153" ns16:relation="cites">153</ref>, <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main#art_154" ns17:target="olf:it/dpr/stato/2002/115/art_154" ns17:relation="cites">154</ref>, <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main#art_155" ns18:target="olf:it/dpr/stato/2002/115/art_155" ns18:relation="cites">155</ref> e <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main#art_156" ns19:target="olf:it/dpr/stato/2002/115/art_156" ns19:relation="cites">156 del decreto del Presidente della Repubblica 30 maggio 2002, n. 115</ref>: 
+ «Art. 149 ( (R) Raccordo). - 1. La restituzione e la vendita di beni sottoposti a sequestro penale e' regolata dalle norme del presente capo, se non diversamente previsto da norme speciali. 
+ Art. 150 ( (L) Restituzione di beni sequestrati). - 1. La restituzione dei beni sequestrati e' disposta dal magistrato d'ufficio o su richiesta dell'interessato esente da bollo; e' comunque disposta dal magistrato quando la sentenza e' diventata inoppugnabile. Della avvenuta restituzione e' redatto verbale. 
+ 2. La restituzione e' concessa a condizione che prima siano pagate le spese per la custodia e la conservazione delle cose sequestrate, salvo che siano stati pronunciati provvedimento di archiviazione, sentenza di non luogo a procedere o sentenza di proscioglimento ovvero che le cose sequestrate appartengano a persona diversa dall'imputato o che il decreto di sequestro sia stato revocato a norma dell'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_324" ns20:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_324" ns20:relation="cites">articolo 324 del codice di procedura penale</ref>. 
+ 3. Le spese di custodia e di conservazione sono in ogni caso dovute dall'avente diritto alla restituzione per il periodo successivo al trentesimo giorno decorrente dalla data in cui il medesimo ha ricevuto la comunicazione del provvedimento di restituzione. 
+ 4. Il provvedimento di restituzione e' comunicato all'avente diritto ed al custode. Con il medesimo provvedimento e' data comunicazione che le spese di custodia e conservazione delle cose sequestrate, decorsi trenta giorni dalla ricezione della comunicazione, sono in ogni caso a carico dell'avente diritto alla restituzione e che le somme o valori sequestrati, decorsi tre mesi dalla rituale comunicazione senza che l'avente diritto abbia provveduto al ritiro, sono devoluti alla cassa delle ammende. 
+ Art. 151 ( (L) Provvedimenti in caso di mancato ritiro del bene restituito e vendita in casi particolari).
+ - 1. Se l'avente diritto alla restituzione delle cose affidate in custodia a terzi, ovvero alla cancelleria, e' ignoto o irreperibile, il cancelliere presenta gli atti al magistrato, il quale ordina la vendita delle cose sequestrate da eseguirsi non oltre sessanta giorni dalla data del provvedimento. 
+ 2. Con il provvedimento che ordina la vendita delle cose sequestrate, il magistrato stabilisce le modalita' della vendita ed il luogo in cui deve eseguirsi. 
+ 3. La vendita e' disposta dal magistrato, in ogni momento, se i beni non possono essere custoditi senza pericolo di deterioramento o senza rilevante dispendio. Il provvedimento e' comunicato all'avente diritto. 
+ 4. Il provvedimento che dispone la vendita deve essere affisso per dieci giorni continui nell'albo del tribunale e degli altri uffici giudiziari del circondario  5. L'elenco dei beni rimasti invenduti deve essere presentato al magistrato che ne dispone la distruzione. 
+ 6. Le operazioni di distruzione sono esentate dal pagamento di qualsiasi tributo od onere ai fini degli adempimenti relativi alle formalita' per l'annotazione nei pubblici registri. 
+ 7. Allo stesso modo si provvede per i beni affidati alla cancelleria per i quali l'avente diritto non ha comunque provveduto al ritiro. 
+ Art. 152 ( (R) Vendita). - 1. La vendita dei beni, secondo la loro qualita', e' eseguita a cura dell'ufficio anche a mezzo degli istituti di vendite giudiziarie. 
+ 2. Se i beni hanno interesse scientifico o pregio di antichita' o di arte, prima della vendita, e' avvisato il Ministero della giustizia per l'eventuale destinazione di questi beni al museo criminale presso il Ministero o altri istituti. 
+ 3. Il comma 2 si applica anche in caso di beni su cui e' stata disposta la confisca. 
+ Art. 153 ( (R) Modalita' di deposito delle somme ricavate dalla vendita dei beni sequestrati e delle somme e dei valori sequestrati). - 1. Le somme e i valori in sequestro e le somme ricavate dalla vendita dei beni sequestrati sono depositate presso i concessionari. 
+ 2. Con apposita convenzione con i concessionari, da approvarsi con decreto del Ministero della giustizia, di concerto con il Ministero dell'economia e delle finanze, sono individuate le modalita' tecniche e le forme piu' idonee e proficue per assicurare alle somme ricavate dalla vendita e alle somme e ai valori in sequestro il vincolo di destinazione di cui all'articolo 154. 
+ Art. 154 ( (L) Destinazione del ricavato della vendita e di somme e valori). - 1. Decorsi tre mesi dalla vendita delle cose sequestrate, se nessuno ha provato di avervi diritto, le somme ricavate dalla vendita sono devolute alla cassa delle ammende, dedotte le spese di cui all'articolo 155. 
+ 2. Le somme e i valori sequestrati sono devoluti alla cassa delle ammende decorsi tre mesi dalla rituale comunicazione dell'avviso di cui all'articolo 150, comma 4, senza che l'avente diritto abbia provveduto al ritiro. 
+ 3. Se l'avente diritto alla restituzione di somme o di valori sequestrati e' ignoto o irreperibile, le somme e i valori sono devoluti alla cassa delle ammende decorsi sei mesi dalla data in cui la sentenza e' passata in giudicato o il provvedimento e' divenuto definitivo. 
+ Art. 155 ( (L) Spese nella procedura di vendita di beni sequestrati). - 1. Nella procedura di vendita di beni sottoposti a sequestro penale, alcune spese sono prenotate a debito, altre sono anticipate dall'erario. 
+ 2. Sono spese prenotate a debito: 
+ a) il contributo unificato; 
+ b) i diritti di copia. 
+ 3. Sono spese anticipate dall'erario: 
+ a) le spese di spedizione o l'indennita' di trasferta degli ufficiali giudiziari per le notificazioni civili a richiesta d'ufficio; 
+ b) le spese ed onorari agli ausiliari del magistrato; 
+ c) l'indennita' di custodia; 
+ d) le spese per gli strumenti di pubblicita' dei provvedimenti dell'autorita' giudiziaria. 
+ Art. 156 ( (R) Spese nella procedura di vendita di beni confiscati). - 1. Le spese anticipate dall'erario nella procedura di vendita di beni confiscati sono: 
+ a) le spese di spedizione o l'indennita' di trasferta degli ufficiali giudiziari per le notificazioni civili a richiesta d'ufficio; 
+ b) le spese ed onorari agli ausiliari del magistrato; 
+ c) l'indennita' di custodia; 
+ d) le spese per gli strumenti di pubblicita' legale dei provvedimenti del magistrato.». 
+ - Si riporta il testo dell'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2015-08-07/137/!main#art_14" ns21:target="olf:it/decreto-legislativo/stato/2015/137/art_14" ns21:relation="cites">articolo 14 del decreto legislativo 7 agosto 2015, n. 137</ref>: 
+ «Art. 14 (Destinazione delle somme e dei beni confiscati). - 1. Salvo diverso accordo con lo Stato di emissione, le somme conseguite dallo Stato italiano quale Stato di esecuzione affluiscono, previo versamento all'entrata del bilancio dello Stato, al Fondo unico giustizia, di cui all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegge/stato/2008-06-25/112/!main#art_61-com23" ns22:target="olf:it/decreto-legge/stato/2008/112/art_61-com23" ns22:relation="cites">articolo 61, comma 23, del decreto-legge 25 giugno 2008, n. 112</ref>, convertito, con modificazioni, dalla <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2008-08-06/133/!main" ns23:target="olf:it/legge/stato/2008/133" ns23:relation="cites">legge 6 agosto 2008, n. 133</ref>, e successive modificazioni, secondo i seguenti criteri: 
+ a) nei casi in cui l'esecuzione ha riguardato una somma pari o inferiore ad euro 10.000, per l'intero importo; 
+ b) nei casi in cui l'esecuzione ha riguardato una somma superiore a euro 10.000, per una misura pari al 50 per cento dell'importo ottenuto, con restituzione allo Stato di emissione del residuo. 
+ 2. Nei casi in cui l'esecuzione ha avuto ad oggetto un bene diverso dal denaro e il bene puo' essere venduto, le somme ricavate dalla vendita dei beni sono ripartite secondo i criteri di cui al comma 1. 
+ 3. Ai beni diversi dalle somme di denaro, che non possono essere venduti o trasferiti allo Stato di emissione si applica la disciplina relativa alla destinazione dei beni oggetto di confisca: quando la confisca sia stata disposta ai sensi dell'articolo 3 della decisione quadro 2005/212/GAI del Consiglio, del 24 febbraio 2005, i beni sono trasferiti al patrimonio disponibile dello Stato e sono destinati all'Agenzia nazionale dei beni sequestrati e confiscati alla criminalita' organizzata, secondo le disposizioni del Libro I, Titolo III, del <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns24:target="olf:it/decreto-legislativo/stato/2011/159" ns24:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref>. 
+ 4. L'Italia, quale Stato di esecuzione, non e' tenuta a vendere o restituire il bene specifico oggetto della decisione di confisca quando esso costituisce bene culturale appartenente al patrimonio culturale nazionale.
+ Rispetto a tali beni restano applicabili le norme vigenti.». 
+ 
+ Note all'art. 1: 
+ - Per l'articolo 21, comma 5, della citata <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/2012-12-20/237/!main" ns25:target="olf:it/legge/stato/2012/237" ns25:relation="cites">legge 20 dicembre 2012, n. 237</ref>, si veda nelle note alle premesse. 
+ - Per gli articoli 152 e 156 del citato <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main" ns26:target="olf:it/dpr/stato/2002/115" ns26:relation="cites">decreto del Presidente della Repubblica 30 maggio 2002, n. 115</ref>, si veda nelle note alle premesse. 
+ - Si riporta il testo dell'articolo 22 della citata <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2012-12-20/237/!main" ns27:target="olf:it/legge/stato/2012/237" ns27:relation="cites">legge 20 dicembre 2012, n. 237</ref>: 
+ «Art. 22 (Consultazioni con la Corte penale internazionale per l'esecuzione di pene pecuniarie, di misure patrimoniali e degli ordini di riparazione). - 1.
+ Se, a seguito di richiesta di sequestro o di confisca di beni o di esecuzione degli ordini di riparazione a favore delle vittime o per il risarcimento delle persone arrestate o condannate, ai sensi degli articoli 75 e 85 dello statuto, da parte della Corte penale internazionale, insorgono difficolta' nell'esecuzione, il procuratore generale presso la corte d'appello di Roma ne informa preventivamente il Ministro della giustizia per l'avvio delle procedure di consultazione anche ai fini della conservazione dei mezzi di prova.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella raccolta ufficiale degli atti normativi della Repubblica italiana. </p>
+            </formula>
+            <p> E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            <p>Roma, 3 marzo 2020 Il Ministro della giustizia Bonafede Il Ministro dell'economia e delle finanze Gualtieri Visto, il Guardasigilli: Bonafede Registrato alla Corte dei conti il 1° giugno 2020 Ufficio controllo atti P.C.M. Ministeri della giustizia e degli affari esteri e della cooperazione internazionale, reg.ne succ. n. 1173</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
