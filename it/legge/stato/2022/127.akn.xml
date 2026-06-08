@@ -1,0 +1,1259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/127/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/127"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-08-04;127"/>
+                    <FRBRalias name="eli" value="eli/id/2022/08/26/22G00136/CONSOLIDATED/20230228"/>
+                    <FRBRdate date="2022-08-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/08/26/22G00136/CONSOLIDATED/20230228" aknrelname="eli/id/2022/08/26/22G00136/CONSOLIDATED/20230228">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Delega al Governo per il recepimento delle direttive europee e l'attuazione di altri atti normativi dell'Unione europea - Legge di delegazione europea 2021. (22G00136)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00136" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2022-08-04" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/127/ita@2023-02-28/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/127/ita@2023-02-28"/>
+                    <FRBRdate date="2023-02-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/08/26/22G00136/CONSOLIDATED/20230228/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/08/26/22G00136/CONSOLIDATED/20230228"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/08/26/22G00136/CONSOLIDATED/20230228/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/127/ita@2023-02-28/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/127/ita@2023-02-28.xml"/>
+                    <FRBRdate date="2022-08-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/08/26/22G00136/CONSOLIDATED/20230228/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-08-26" name="" number="199" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-08-26" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2023-02-27" eId="eventRef_1" source="rp1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2022-08-04" refersTo="#C.3208"/>
+                <step by="#senato" date="2022-08-04" refersTo="#S.2481"/>
+                <step by="#camera" date="2022-08-04" refersTo="#C.3208-B"/>
+            </workflow>
+            <analysis source="">
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((entro il 31 maggio 2023,))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2022-08-04/127/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/LEGGE/stato/2023-02-24/14/!main" showAs=""/>
+                <passiveRef eId="C.3208" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3208" showAs=""/>
+                <passiveRef eId="S.2481" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2481" showAs=""/>
+                <passiveRef eId="C.3208-B" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3208-B" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/08/26/22G00136/CONSOLIDATED/20230228">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Delega al Governo per il recepimento delle direttive europee e l'attuazione di altri atti normativi dell'Unione europea - Legge di delegazione europea 2021. (22G00136)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00136</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-08-04</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/08/26/22G00136/CONSOLIDATED/20230228/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/08/26/22G00136/CONSOLIDATED/20230228"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/08/26/22G00136/CONSOLIDATED/20230228/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/08/26/22G00136/CONSOLIDATED/20230228/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2022/127" nativeUrn="urn:nir:stato:legge:2022-08-04;127" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-08-26"><ns0:event type="enacted" date="2022-08-04"/><ns0:event type="published" date="2022-08-26"/><ns0:event type="commenced" date="2022-08-26"/><ns0:event type="amended" date="2023-02-27"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/027872e0-ab95-4497-841d-1e465504e4a2" sourceSha256="6266fb2871ce8f85709c100c10e6d44a93dfe40d104d487c44686fb1821feaa5" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T20:09:57.006588Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2022-08-04">04 agosto 2022</docDate>
+                <docNumber>127</docNumber>
+                <docTitle>Delega al Governo per il recepimento delle direttive europee e l'attuazione di altri atti normativi dell'Unione europea - Legge di delegazione europea 2021. (22G00136) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 10/09/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Delega al Governo per l'attuazione e il recepimento 
+ degli atti normativi dell'Unione europea</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, secondo i termini, le procedure e i principi e criteri direttivi di cui agli <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_31" ns1:target="olf:it/legge/stato/2012/234/art_31" ns1:relation="cites">articoli 31</ref> e <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns2:target="olf:it/legge/stato/2012/234/art_32" ns2:relation="cites">32 della legge 24 dicembre 2012, n. 234</ref>, nonche' quelli specifici stabiliti dalla presente legge, i decreti legislativi per l'attuazione e il recepimento degli atti dell'Unione europea di cui agli articoli da 2 a 21 della presente legge e all'annesso allegato A. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Gli schemi dei decreti legislativi di cui al comma 1 sono trasmessi, dopo l'acquisizione degli altri pareri previsti dalla legge, alla Camera dei deputati e al Senato della Repubblica affinche' su di essi sia espresso il parere dei competenti organi parlamentari. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Eventuali spese non contemplate da leggi vigenti e che non riguardano l'attivita' ordinaria delle amministrazioni statali o regionali possono essere previste nei decreti legislativi di cui al comma 1, nei soli limiti occorrenti per l'adempimento degli obblighi derivanti dall'esercizio delle deleghe di cui al medesimo comma 1.
+Alla relativa copertura, nonche' alla copertura delle minori entrate eventualmente derivanti dall'attuazione delle deleghe, laddove non sia possibile farvi fronte con i fondi gia' assegnati alle competenti amministrazioni, si provvede mediante riduzione del fondo per il recepimento della normativa europea di cui all'articolo 41-bis della citata <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2012/234/!main" ns3:resolution="unresolved">legge n. 234 del 2012</ref>. Qualora la dotazione del predetto fondo si rivelasse insufficiente, i decreti legislativi dai quali derivino nuovi o maggiori oneri sono emanati solo successivamente all'entrata in vigore dei provvedimenti legislativi che stanziano le occorrenti risorse finanziarie, in conformita' all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_17-com2" ns4:target="olf:it/legge/stato/2009/196/art_17-com2" ns4:relation="cites">articolo 17, comma 2, della legge 31 dicembre 2009, n. 196</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ La presente legge e' pubblicata, per motivi di massima urgenza, senza note, ai sensi dell'art. 8, comma 3 del regolamento di esecuzione del testo unico delle disposizioni sulla promulgazione delle leggi, sulla emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-03-14/217/!main" ns5:target="olf:it/dpr/stato/1986/217" ns5:relation="cites">decreto del Presidente della Repubblica 14 marzo 1986, n. 217</ref>. 
+ Nella Gazzetta Ufficiale - Serie generale - del 12 settembre 2022, si procedera' alla ripubblicazione del testo della presente legge, corredata delle relative note, ai sensi dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main#art_10-com3" ns6:target="olf:it/dpr/stato/1985/1092/art_10-com3" ns6:relation="cites">art. 10, comma 3 del decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Delega al Governo per la disciplina sanzionatoria di 
+ violazioni di atti normativi dell'Unione europea</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo, fatte salve le norme penali vigenti, e' delegato ad adottare, ai sensi dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_33" ns7:target="olf:it/legge/stato/2012/234/art_33" ns7:relation="cites">articolo 33 della legge 24 dicembre 2012, n. 234</ref>, e secondo i principi e criteri direttivi di cui all'articolo 32, comma 1, lettera d), della medesima legge, entro diciotto mesi dalla data di entrata in vigore della presente legge, disposizioni recanti sanzioni penali o amministrative per le violazioni di obblighi contenuti in direttive europee recepite in via regolamentare o amministrativa ovvero in regolamenti dell'Unione europea pubblicati alla data di entrata in vigore della presente legge, per le quali non siano gia' previste sanzioni penali o amministrative. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Principi e criteri direttivi per il recepimento della <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/direttivaUe/eu/2019/2121/!main" ns8:resolution="unresolved">direttiva (UE) 2019/2121</ref>, che modifica la <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/direttivaUe/eu/2017/1132/!main" ns9:resolution="unresolved">direttiva (UE) 2017/1132</ref> per quanto riguarda le trasformazioni, le fusioni e le scissioni transfrontaliere. 
+ 
+ 1. Nell'esercizio della delega per l'attuazione della <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/direttivaUe/eu/2019/2121/!main" ns10:resolution="unresolved">direttiva (UE) 2019/2121 del Parlamento europeo e del Consiglio, del 27 novembre 2019</ref>, il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns11:target="olf:it/legge/stato/2012/234/art_32" ns11:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ a) estendere, in quanto compatibili, le disposizioni di recepimento della <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/direttivaUe/eu/2019/2121/!main" ns12:resolution="unresolved">direttiva (UE) 2019/2121</ref> alle societa' diverse dalle societa' di capitali, purche' iscritte nel registro delle imprese, con esclusione delle societa' cooperative a mutualita' prevalente di cui all'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2512" ns13:target="olf:it/codice-civile/stato/1942/262/art_2512" ns13:relation="cites">articolo 2512 del codice civile</ref>, e alle societa' regolate dalla legge di uno Stato membro diverse dalle societa' di capitali; 
+ b) estendere, in quanto compatibili, le disposizioni di recepimento della <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/direttivaUe/eu/2019/2121/!main" ns14:resolution="unresolved">direttiva (UE) 2019/2121</ref> alle trasformazioni, fusioni e scissioni alle quali partecipano, o da cui risultano, una o piu' societa' non aventi la sede statutaria, l'amministrazione centrale o il centro di attivita' principale nel territorio dell'Unione europea; 
+ c) disciplinare le trasformazioni, le fusioni e le scissioni di societa' regolate dalla legge italiana a cui partecipano, o da cui risultano, societa' regolate dalla legge di altro Stato anche non appartenente all'Unione europea; 
+ d) disciplinare le trasformazioni, le fusioni e le scissioni a cui partecipano, o da cui risultano, altri enti non societari i quali abbiano quale oggetto esclusivo o principale l'esercizio di un'attivita' di impresa, purche' regolati dalla legge di uno Stato membro e aventi la sede statutaria, l'amministrazione centrale o il centro di attivita' principale nel territorio dell'Unione europea; 
+ e) disciplinare le scissioni transfrontaliere, totali o parziali, che comportano il trasferimento del patrimonio attivo e passivo a una o piu' societa' preesistenti; 
+ f) disciplinare il trasferimento della sede sociale all'estero da parte di una societa' regolata dalla legge italiana senza mutamento della legge regolatrice, con integrazione delle relative disposizioni del <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_25" ns15:target="olf:it/codice-civile/stato/1942/262/art_25" ns15:relation="cites">codice civile e dell'articolo 25</ref> della <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/1995-05-31/218/!main" ns16:target="olf:it/legge/stato/1995/218" ns16:relation="cites">legge 31 maggio 1995, n. 218</ref>, precisando se e a quali condizioni l'operazione sia ammissibile e prevedendo, ove ritenuto ammissibile, opportuni controlli di legalita' e tutele equivalenti a quelle previste dalla <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/direttivaUe/eu/2019/2121/!main" ns17:resolution="unresolved">direttiva (UE) 2019/2121</ref> e stabilendo, infine, un regime transitorio, applicabile prima della data di entrata in vigore delle nuove disposizioni, per le societa' che alla medesima data hanno trasferito la sede all'estero mantenendo la legge italiana; 
+ g) disciplinare i procedimenti giurisdizionali, anche di natura cautelare, per la tutela avverso le determinazioni dell'autorita' competente in materia di rilascio del certificato preliminare di cui agli <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act///2017/1132/!main#art_86quaterdecies" ns18:resolution="unresolved">articoli 86-quaterdecies</ref>, <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act///2017/1132/!main#art_127" ns19:resolution="unresolved">127</ref> e <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/direttivaUe/eu/2017/1132/!main" ns20:resolution="unresolved">160-quaterdecies della direttiva (UE) 2017/1132</ref>, anche per il caso di mancata determinazione, nonche' avverso le determinazioni della medesima autorita' in materia di controllo di legalita' di cui agli articoli 86-sexdecies, 128 e 160-sexdecies della predetta direttiva, prevedendo la competenza delle sezioni specializzate in materia di impresa; 
+ h) prevedere, per i creditori i cui crediti sono anteriori all'iscrizione del progetto di operazione transfrontaliera nel registro delle imprese, tutele non inferiori a quelle stabilite dal <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2008-05-30/108/!main" ns21:target="olf:it/decreto-legislativo/stato/2008/108" ns21:relation="cites">decreto legislativo 30 maggio 2008, n. 108</ref>; 
+ i) individuare i canali informativi utilizzabili dall'autorita' competente per la verifica delle pendenze delle societa' verso creditori pubblici, anche in funzione della richiesta di adeguate garanzie per il pagamento di tali crediti; 
+ l) disciplinare gli effetti sui procedimenti di rilascio del certificato preliminare e di controllo previsti dagli <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act///2017/1132/!main#art_86quaterdecies" ns22:resolution="unresolved">articoli 86-quaterdecies</ref>, <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act///2017/1132/!main#art_86sexdecies" ns23:resolution="unresolved">86-sexdecies</ref>, <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act///2017/1132/!main#art_127" ns24:resolution="unresolved">127</ref>, <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act///2017/1132/!main#art_128" ns25:resolution="unresolved">128</ref>, <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act///2017/1132/!main#art_160quaterdecies" ns26:resolution="unresolved">160-quaterdecies</ref> e <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/direttivaUe/eu/2017/1132/!main" ns27:resolution="unresolved">160-sexdecies della direttiva (UE) 2017/1132</ref>, derivanti dal mancato adempimento e dal mancato rilascio delle garanzie da parte della societa' per le obbligazioni, anche non pecuniarie e in corso di accertamento, esistenti nei confronti di amministrazioni o enti pubblici; 
+ m) individuare, nell'ambito della procedura per il rilascio del certificato preliminare di cui agli <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act///2017/1132/!main#art_86quaterdecies" ns28:resolution="unresolved">articoli 86-quaterdecies</ref>, <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act///2017/1132/!main#art_127" ns29:resolution="unresolved">127</ref> e <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/direttivaUe/eu/2017/1132/!main" ns30:resolution="unresolved">160-quaterdecies della direttiva (UE) 2017/1132</ref>, i criteri per la qualificazione di un'operazione transfrontaliera come abusiva o fraudolenta in quanto volta all'elusione del diritto dell'Unione europea o nazionale o posta in essere per scopi criminali; 
+ n) disciplinare i criteri e le modalita' di semplificazione dello scambio dei certificati preliminari tra le autorita' competenti; 
+ o) apportare le necessarie modifiche alle disposizioni dettate dal <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decretoLegislativo/stato/2003-06-27/168/!main" ns31:target="olf:it/decreto-legislativo/stato/2003/168" ns31:relation="cites">decreto legislativo 27 giugno 2003, n. 168</ref>, sulla competenza delle sezioni specializzate in materia di impresa in relazione ai procedimenti indicati alla lettera g) nonche' per gli strumenti di tutela giurisdizionale previsti ai sensi della lettera h); 
+ p) prevedere che la societa', ai fini del trasferimento di attivita' e passivita' a una o piu' societa' di nuova costituzione regolate dal diritto interno, possa avvalersi della disciplina prevista per la scissione, con le semplificazioni previste dall'<ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/direttivaUe/eu/2017/1132/!main" ns32:resolution="unresolved">articolo 160-vicies della direttiva (UE) 2017/1132</ref>, e stabilire che le partecipazioni siano assegnate alla societa' scorporante; 
+ q) prevedere una disciplina transitoria delle fusioni transfrontaliere che rientrano nell'ambito di applicazione del <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2008-05-30/108/!main" ns33:target="olf:it/decreto-legislativo/stato/2008/108" ns33:relation="cites">decreto legislativo 30 maggio 2008, n. 108</ref>, a cui partecipi o da cui risulti una societa' regolata dalla legge di uno Stato che non ha ancora recepito la <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/direttivaUe/eu/2019/2121/!main" ns34:resolution="unresolved">direttiva (UE) 2019/2121</ref>; 
+ r) prevedere, per le violazioni delle disposizioni di recepimento della direttiva, l'applicazione di sanzioni penali e amministrative efficaci, dissuasive e proporzionate alla gravita' delle violazioni delle disposizioni stesse, nel limite, per le sanzioni penali, della pena detentiva non inferiore nel minimo a sei mesi e non superiore nel massimo a cinque anni, ferma restando la disciplina vigente per le fattispecie penali gia' previste. 
+ 2. Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri per la finanza pubblica. Le amministrazioni interessate provvedono ai relativi adempimenti con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Principi e criteri direttivi per il recepimento della <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/direttivaUe/eu/2019/2161/!main" ns35:resolution="unresolved">direttiva (UE) 2019/2161</ref>, che modifica la <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/direttivaUe/eu/1993/13/!main" ns36:resolution="unresolved">direttiva 93/13/CEE del Consiglio</ref> e le <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/direttivaUe/eu/1998/6/!main" ns37:resolution="unresolved">direttive 98/6/CE</ref>, <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/direttivaUe/eu/2005/29/!main" ns38:resolution="unresolved">2005/29/CE</ref> e <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/direttivaUe/eu/2011/83/!main" ns39:resolution="unresolved">2011/83/UE del Parlamento europeo e del Consiglio</ref> per una migliore applicazione e una modernizzazione delle norme dell'Unione relative alla protezione dei consumatori. 
+ 
+ 1. Nell'esercizio della delega per l'attuazione della <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/direttivaUe/eu/2019/2161/!main" ns40:resolution="unresolved">direttiva (UE) 2019/2161 del Parlamento europeo e del Consiglio, del 27 novembre 2019</ref>, il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns41:target="olf:it/legge/stato/2012/234/art_32" ns41:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ a) apportare alle disposizioni del <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/decretoLegislativo/stato/2005-09-06/206/!main" ns42:target="olf:it/decreto-legislativo/stato/2005/206" ns42:relation="cites">codice del consumo</ref>, di cui al <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/decretoLegislativo/stato/2005-09-06/206/!main" ns43:target="olf:it/decreto-legislativo/stato/2005/206" ns43:relation="cites">decreto legislativo 6 settembre 2005, n. 206</ref>, le modifiche e le integrazioni necessarie per il recepimento delle disposizioni contenute nella direttiva; 
+ b) coordinare le disposizioni relative all'indicazione di prezzi, da introdurre nel <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/decretoLegislativo/stato/2005-09-06/206/!main" ns44:target="olf:it/decreto-legislativo/stato/2005/206" ns44:relation="cites">codice del consumo</ref>, di cui al <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/decretoLegislativo/stato/2005/206/!main" ns45:resolution="unresolved">decreto legislativo n. 206 del 2005</ref>, in attuazione delle modifiche apportate alla <ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/direttivaUe/eu/1998/6/!main" ns46:resolution="unresolved">direttiva 98/6/CE</ref>, con le altre disposizioni vigenti in materia di indicazione di prezzi e, in particolare, con le disposizioni dell'<ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/decretoLegislativo/stato/1998-03-31/114/!main#art_15" ns47:target="olf:it/decreto-legislativo/stato/1998/114/art_15" ns47:relation="cites">articolo 15 del decreto legislativo 31 marzo 1998, n. 114</ref>; 
+ c) revisionare e adeguare l'apparato sanzionatorio amministrativo, gia' previsto dal <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/decretoLegislativo/stato/2005-09-06/206/!main" ns48:target="olf:it/decreto-legislativo/stato/2005/206" ns48:relation="cites">codice del consumo</ref>, di cui al <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/decretoLegislativo/stato/2005/206/!main" ns49:resolution="unresolved">decreto legislativo n. 206 del 2005</ref>, nelle materie oggetto della <ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/direttivaUe/eu/2019/2161/!main" ns50:resolution="unresolved">direttiva (UE) 2019/2161</ref>, attraverso la previsione di sanzioni efficaci, dissuasive e proporzionate alla gravita' delle relative violazioni; 
+ d) stabilire che i poteri sanzionatori di cui agli <ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act///2019/2161/!main#art_1" ns51:resolution="unresolved">articoli 1</ref>, <ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act///2019/2161/!main#art_3" ns52:resolution="unresolved">3</ref> e <ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/direttivaUe/eu/2019/2161/!main" ns53:resolution="unresolved">4 della direttiva (UE) 2019/2161</ref> siano esercitati dall'Autorita' garante della concorrenza e del mercato anche in relazione alle fattispecie di esclusivo rilievo nazionale, cui si applicano le disposizioni del <ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/decretoLegislativo/stato/2005-09-06/206/!main" ns54:target="olf:it/decreto-legislativo/stato/2005/206" ns54:relation="cites">codice del consumo</ref>, di cui al <ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/decretoLegislativo/stato/2005/206/!main" ns55:resolution="unresolved">decreto legislativo n. 206 del 2005</ref>, fermo restando quanto previsto dall'articolo 27, comma 1-bis, del medesimo codice; 
+ e) prevedere che il massimo edittale delle sanzioni inflitte a norma dell'articolo 21 del regolamento (UE) 2017/2394 del Parlamento europeo e del Consiglio, del 12 dicembre 2017, sia almeno pari al 4 per cento del fatturato annuo del professionista nello Stato membro o negli Stati membri interessati; 
+ f) stabilire le specifiche modalita' di indicazione del prezzo precedente in caso di riduzioni di prezzo per prodotti immessi sul mercato da meno di trenta giorni, nonche' in caso di aumenti progressivi della riduzione di prezzo, ed escludere, in ogni caso, dalla disciplina della indicazione del prezzo precedente i beni che possono deteriorarsi o scadere rapidamente; prolungare altresi' a trenta giorni il termine di recesso per i contratti stipulati nel contesto di visite a domicilio non richieste e di escursioni organizzate per vendere prodotti e prevedere che non si applichino, nei medesimi casi, le esclusioni del diritto di recesso. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Principi e criteri direttivi per l'adeguamento della normativa nazionale alle disposizioni del <ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/regolamento//2020/1503/!main" ns56:resolution="unresolved">regolamento (UE) 2020/1503</ref>, relativo ai fornitori di servizi di crowdfunding per le imprese, e che modifica il <ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/direttivaUe/eu/2017/1129/!main" ns57:resolution="unresolved">regolamento (UE) 2017/1129 e la direttiva</ref> <ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/direttivaUe/eu/2019/1937/!main" ns58:resolution="unresolved">(UE) 2019/1937</ref>. 
+ 
+ 1. Nell'esercizio della delega per l'adeguamento della normativa nazionale al regolamento (UE) 2020/1503 del Parlamento europeo e del Consiglio, del 7 ottobre 2020, il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns59:target="olf:it/legge/stato/2012/234/art_32" ns59:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ a) prevedere che la responsabilita' delle informazioni fornite in una scheda contenente le informazioni chiave sull'investimento, comprese le sue eventuali traduzioni, sia attribuita, ai sensi dell'<ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/regolamento//2020/1503/!main#art_23-par9" ns60:resolution="unresolved">articolo 23, paragrafo 9, del regolamento (UE) 2020/1503</ref>, al titolare del progetto o ai suoi organi di amministrazione, direzione o controllo, nei casi previsti dall'articolo 23, paragrafo 10, del medesimo <ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/regolamento//2020/1503/!main" ns61:resolution="unresolved">regolamento (UE) 2020/1503</ref>; 
+ b) prevedere che la responsabilita' delle informazioni fornite in una scheda contenente le informazioni chiave sull'investimento a livello di piattaforma, comprese le sue eventuali traduzioni, sia attribuita, ai sensi dell'<ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/regolamento//2020/1503/!main#art_24-par4" ns62:resolution="unresolved">articolo 24, paragrafo 4, del regolamento (UE) 2020/1503</ref>, al fornitore di servizi di crowdfunding, nei casi previsti dall'articolo 24, paragrafo 5, del medesimo <ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/regolamento//2020/1503/!main" ns63:resolution="unresolved">regolamento (UE) 2020/1503</ref>; 
+ c) individuare la Banca d'Italia e la Commissione nazionale per le societa' e la borsa (CONSOB) quali autorita' competenti ai sensi dell'<ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/regolamento//2020/1503/!main#art_29-par1" ns64:resolution="unresolved">articolo 29, paragrafo 1, del regolamento (UE) 2020/1503</ref>, avendo riguardo alle rispettive funzioni, anche prevedendo forme di opportuno coordinamento per evitare duplicazioni e sovrapposizioni e ridurre al minimo gli oneri gravanti sui soggetti vigilati; 
+ d) individuare la CONSOB quale punto di contatto unico con l'Autorita' europea degli strumenti finanziari e dei mercati, ai sensi dell'<ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/regolamento//2020/1503/!main#art_29-par2" ns65:resolution="unresolved">articolo 29, paragrafo 2, del regolamento (UE) 2020/1503</ref>; 
+ e) prevedere il ricorso alla disciplina secondaria adottata dalle autorita' individuate ai sensi della lettera c), nel rispetto delle competenze alle stesse spettanti, nell'ambito e per le finalita' specificamente previsti dal <ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/regolamento//2020/1503/!main" ns66:resolution="unresolved">regolamento (UE) 2020/1503</ref> e dalla legislazione dell'Unione europea attuativa del medesimo regolamento, anche con riferimento a procedure di autorizzazione semplificate per i soggetti che, alla data di entrata in vigore del <ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/regolamento//2020/1503/!main" ns67:resolution="unresolved">regolamento (UE) 2020/1503</ref>, risultino gia' autorizzati a norma del diritto nazionale a prestare servizi di crowdfunding, ai sensi dell'articolo 48 del medesimo regolamento; 
+ f) prevedere che le autorita' individuate ai sensi della lettera c) dispongano di tutti i poteri di indagine e di vigilanza necessari allo svolgimento dei loro compiti, in conformita' a quanto previsto dall'<ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/regolamento//2020/1503/!main#art_30" ns68:resolution="unresolved">articolo 30 del regolamento (UE) 2020/1503</ref> e in coerenza con i poteri di cui esse dispongono in base alla legislazione vigente; 
+ g) attuare l'<ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/regolamento//2020/1503/!main#art_39" ns69:resolution="unresolved">articolo 39 del regolamento (UE) 2020/1503</ref> coordinando le sanzioni ivi previste e quelle disciplinate dalle disposizioni nazionali vigenti sull'esercizio del potere sanzionatorio da parte della Banca d'Italia e della CONSOB, nel rispetto dei criteri, dei limiti, delle procedure e del regime di pubblicazione previsti dallo stesso regolamento, e prevedendo, per le violazioni individuate dal medesimo articolo 39, le misure amministrative e le sanzioni amministrative pecuniarie ivi previste, fermi restando i massimi edittali ivi stabiliti e quanto previsto dall'articolo 39, paragrafo 2, lettera d), in coerenza con i minimi edittali stabiliti dal testo unico di cui al <ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/decretoLegislativo/stato/1998-02-24/58/!main" ns70:target="olf:it/decreto-legislativo/stato/1998/58" ns70:relation="cites">decreto legislativo 24 febbraio 1998, n. 58</ref>, per le violazioni della disciplina in materia di gestione di portali. 
+ 2. Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono agli adempimenti di cui al presente articolo con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Delega al Governo per il recepimento della raccomandazione CERS/2011/3 del Comitato europeo per il rischio sistemico, del 22 dicembre 2011, relativa al mandato macroprudenziale delle autorita' nazionali, e per l'attuazione degli articoli 23-ter, paragrafo 7, e 28, <ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/regolamento//2016/1011/!main#art_par2" ns71:resolution="unresolved">paragrafo 2, del regolamento (UE) 2016/1011</ref>, come modificato dal <ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/regolamento//2021/168/!main" ns72:resolution="unresolved">regolamento (UE) 2021/168</ref>. 
+ 
+ 1. Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, su proposta del Presidente del Consiglio dei ministri e del Ministro dell'economia e delle finanze, con le procedure di cui all'<ref xmlns:ns73="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_73" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_31" ns73:target="olf:it/legge/stato/2012/234/art_31" ns73:relation="cites">articolo 31 della legge 24 dicembre 2012, n. 234</ref>, acquisito il parere delle competenti Commissioni parlamentari, uno o piu' decreti legislativi per l'attuazione della raccomandazione CERS/2011/3 del Comitato europeo per il rischio sistemico, del 22 dicembre 2011, relativa al mandato macroprudenziale delle autorita' nazionali, e per l'attuazione degli articoli 23-ter, paragrafo 7, e 28, paragrafo 2, del regolamento (UE) 2016/1011 del Parlamento europeo e del Consiglio, dell'8 giugno 2016, come modificato dal regolamento (UE) 2021/168 del Parlamento europeo e del Consiglio, del 10 febbraio 2021. 
+ 2. Nell'esercizio della delega per l'attuazione della raccomandazione CERS/2011/3 del Comitato europeo per il rischio sistemico, del 22 dicembre 2011, relativa al mandato macroprudenziale delle autorita' nazionali, il Governo si attiene, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns74="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_74" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns74:target="olf:it/legge/stato/2012/234/art_32" ns74:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche ai seguenti principi e criteri direttivi specifici: 
+ a) istituire un Comitato per le politiche macroprudenziali privo di personalita' giuridica, quale autorita' indipendente designata, ai sensi della raccomandazione CERS/2011/3, per la conduzione delle politiche macroprudenziali con la finalita' di perseguire la stabilita' del sistema finanziario nel suo complesso, anche attraverso il rafforzamento della capacita' del sistema finanziario di assorbire le conseguenze di eventi che ne minacciano la stabilita', nonche' la prevenzione e il contrasto dei rischi sistemici, promuovendo cosi' un contributo sostenibile del settore finanziario alla crescita economica; 
+ b) prevedere che al Comitato partecipino la Banca d'Italia, alla quale e' attribuita la presidenza, la CONSOB, l'Istituto per la vigilanza sulle assicurazioni (IVASS) e la Commissione di vigilanza sui fondi pensione (COVIP), che condividono l'obiettivo di salvaguardia della stabilita' del sistema finanziario; 
+ c) prevedere che alle sedute del Comitato assista una rappresentanza del Ministero dell'economia e delle finanze, senza diritto di voto, e che il presidente possa invitare, anche su proposta degli altri membri, soggetti terzi ad assistere, a fini consultivi, alle sedute; 
+ d) prevedere le regole di funzionamento e di voto del Comitato stabilendo: 
+ 1) che il Comitato deliberi, di regola, con il voto favorevole della maggioranza dei suoi partecipanti; 
+ 2) che, in caso di parita', il voto del presidente valga doppio; 
+ 3) che le raccomandazioni di cui alla lettera l), nonche' le segnalazioni e i pareri di cui alla lettera m), espressi su iniziativa del Comitato, siano approvati con il consenso o l'astensione dell'autorita' cui la raccomandazione e' indirizzata o che sia specificamente competente per la materia che costituisce l'oggetto principale della segnalazione o del parere; 
+ 4) i casi in cui le decisioni sono rese pubbliche; 
+ e) attribuire il ruolo di guida nelle politiche macroprudenziali alla Banca d'Italia, che svolge le funzioni di segreteria del Comitato; 
+ f) attribuire al Comitato il compito di identificare, analizzare, classificare, sorvegliare e valutare i rischi per la stabilita' del sistema finanziario nel suo complesso; 
+ g) attribuire al Comitato le funzioni, i poteri, gli strumenti e i compiti di cooperazione con altre autorita', nazionali ed europee, previsti dalla raccomandazione CERS/2011/3; 
+ h) attribuire al Comitato il compito di definire indicatori per il monitoraggio del rischio sistemico e per l'uso degli strumenti macroprudenziali; 
+ i) attribuire al Comitato il potere di definire e perseguire strategie e obiettivi intermedi rispetto a quelli di cui alla lettera a) e di rivederli periodicamente in considerazione dei rischi per la stabilita' finanziaria; 
+ l) attribuire al Comitato il potere di indirizzare raccomandazioni alla Banca d'Italia, alla CONSOB, all'IVASS e alla COVIP e prevedere che tali autorita' motivino l'eventuale mancata attuazione delle raccomandazioni stesse; 
+ m) attribuire al Comitato il potere di effettuare segnalazioni alle Camere, al Governo, ad altre autorita', enti pubblici e organismi dello Stato, aventi a oggetto l'opportunita' di adottare misure, anche normative, nonche' di esprimere pareri, ove richiesto o di propria iniziativa, sugli schemi di atti normativi rilevanti per i suoi obiettivi; 
+ n) prevedere che il Comitato possa elaborare metodologie e procedure per identificare le istituzioni e le strutture finanziarie aventi rilevanza sistemica e provvedere alla loro identificazione, fatti salvi i poteri in materia attribuiti a singole autorita' partecipanti al Comitato dalle rispettive normative di settore; 
+ o) attribuire al Comitato il potere di richiedere alla Banca d'Italia, alla CONSOB, all'IVASS e alla COVIP tutti i dati e le informazioni necessari all'esercizio delle sue funzioni; 
+ p) prevedere che il Comitato possa acquisire, tramite la Banca d'Italia, la CONSOB, l'IVASS e la COVIP in base alle rispettive competenze, le informazioni necessarie per lo svolgimento delle proprie funzioni da soggetti privati che svolgono attivita' economiche rilevanti ai fini della stabilita' finanziaria e da soggetti pubblici, secondo quanto previsto dalla raccomandazione CERS/2011/3, e che, quando le informazioni non possono essere acquisite tramite le autorita' di cui alla presente lettera ai sensi delle rispettive legislazioni di settore, il Comitato ne chieda l'acquisizione alla Banca d'Italia, alla quale sono attribuiti i necessari poteri; prevedere che il Comitato condivida con le autorita' i dati e le informazioni necessari all'esercizio delle loro funzioni; 
+ q) prevedere che ai soggetti privati che non ottemperano agli obblighi di fornire le informazioni richieste dalla Banca d'Italia, dalla CONSOB, dall'IVASS e dalla COVIP ai sensi delle rispettive legislazioni di settore, secondo quanto previsto dalla lettera p), siano applicate le sanzioni amministrative pecuniarie previste dalle medesime legislazioni di settore; negli altri casi prevedere che la Banca d'Italia possa irrogare ai soggetti privati che non ottemperano agli obblighi di fornire le informazioni da essa richieste una sanzione amministrativa pecuniaria tale da assicurare il rispetto dei principi di proporzionalita', dissuasivita' e adeguatezza, secondo un'articolazione che preveda un minimo non inferiore a 5.000 euro e un massimo non superiore a 5 milioni di euro; prevedere che alle violazioni delle richieste di informazioni della Banca d'Italia si applichino gli articoli 144-quater, 145 e 145-quater del testo unico delle leggi in materia bancaria e creditizia, di cui al <ref xmlns:ns75="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_75" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns75:target="olf:it/decreto-legislativo/stato/1993/385" ns75:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>, e che la Banca d'Italia possa avvalersi del Corpo della guardia di finanza per i necessari accertamenti; 
+ r) prevedere che il Comitato presenti annualmente al Governo e alle Camere una relazione sulla propria attivita'; 
+ s) apportare alle legislazioni di settore relative alla Banca d'Italia, alla CONSOB, all'IVASS e alla COVIP le modifiche necessarie alla corretta e integrale attuazione della raccomandazione CERS/2011/3 e, in particolare, prevedere modifiche all'<ref xmlns:ns76="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_76" href="/akn/it/act/decretoLegislativo/stato/2005-09-07/209/!main#art_188" ns76:target="olf:it/decreto-legislativo/stato/2005/209/art_188" ns76:relation="cites">articolo 188 del codice delle assicurazioni private</ref>, di cui al <ref xmlns:ns77="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_77" href="/akn/it/act/decretoLegislativo/stato/2005-09-07/209/!main" ns77:target="olf:it/decreto-legislativo/stato/2005/209" ns77:relation="cites">decreto legislativo 7 settembre 2005, n. 209</ref>, al fine di assicurare l'adeguato coordinamento con le disposizioni di attuazione della presente delega, prevedendo, in particolare, in coerenza con le disposizioni europee che regolano la gestione dei casi di difficolta' di imprese di assicurazione e di riassicurazione, condizioni e modalita' di esercizio dei poteri ivi previsti. 
+ 3. Nell'esercizio della delega per l'attuazione degli articoli 23-ter, paragrafo 7, e 28, <ref xmlns:ns78="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_78" href="/akn/it/act/regolamento//2016/1011/!main#art_par2" ns78:resolution="unresolved">paragrafo 2, del regolamento (UE) 2016/1011</ref>, come modificato dal <ref xmlns:ns79="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_79" href="/akn/it/act/regolamento//2021/168/!main" ns79:resolution="unresolved">regolamento (UE) 2021/168</ref>, il Governo si attiene ai seguenti principi e criteri direttivi specifici: 
+ a) designare il Comitato per le politiche macroprudenziali, ai sensi dell'<ref xmlns:ns80="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_80" href="/akn/it/act/regolamento//2016/1011/!main#art_23ter-par7" ns80:resolution="unresolved">articolo 23-ter, paragrafo 7, del regolamento (UE) 2016/1011</ref>, quale autorita' competente a valutare se una clausola di riserva di uno specifico tipo di accordo originariamente convenuta non rispecchi piu', oppure rispecchi con differenze significative, il mercato o la realta' economica che l'indice di riferimento in via di cessazione intendeva misurare e se l'applicazione di tale clausola possa costituire una minaccia per la stabilita' finanziaria; 
+ b) prevedere che il Comitato renda pubblici gli elementi considerati alla base della valutazione di cui alla lettera a); 
+ c) prevedere che il Comitato si doti delle procedure necessarie per l'effettuazione della valutazione di cui alla lettera a); 
+ d) apportare al testo unico delle leggi in materia bancaria e creditizia, di cui al <ref xmlns:ns81="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_81" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns81:target="olf:it/decreto-legislativo/stato/1993/385" ns81:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>, le opportune modificazioni volte a consentire una gestione ordinata delle conseguenze derivanti dalla cessazione di un indice di riferimento ai sensi dell'<ref xmlns:ns82="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_82" href="/akn/it/act/regolamento//2016/1011/!main#art_28-par2" ns82:resolution="unresolved">articolo 28, paragrafo 2, del regolamento (UE) 2016/1011</ref>; 
+ e) prevedere che le banche e gli intermediari finanziari pubblichino, anche per estratto, e mantengano costantemente aggiornati nel proprio sito internet i piani previsti dall'<ref xmlns:ns83="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_83" href="/akn/it/act/regolamento//2016/1011/!main#art_28-par2" ns83:resolution="unresolved">articolo 28, paragrafo 2, del regolamento (UE) 2016/1011</ref> e che gli aggiornamenti di tali piani siano portati a conoscenza della clientela tramite un'informativa relativa all'avvenuto aggiornamento del piano e che rimandi alla versione aggiornata pubblicata nei siti internet delle banche e degli intermediari finanziari, con le modalita' previste dall'articolo 119 del testo unico di cui al <ref xmlns:ns84="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_84" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns84:target="olf:it/decreto-legislativo/stato/1993/385" ns84:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>; 
+ f) prevedere che le clausole contrattuali aventi ad oggetto i tassi di interesse consentano di individuare, anche per rinvio ai piani di cui alla lettera e), le modifiche all'indice di riferimento o l'indice sostitutivo per le ipotesi di variazione sostanziale o di cessazione dell'indice di riferimento applicato al contratto; 
+ g) prevedere che, al verificarsi di una variazione sostanziale o della cessazione dell'indice di riferimento, le modifiche all'indice di riferimento o l'indice sostitutivo, individuati ai sensi della lettera f), siano comunicati al cliente trenta giorni prima che la modifica o la cessazione dell'indice di riferimento assumano efficacia; la modifica si intende approvata ove il cliente non receda, senza spese, dal contratto entro due mesi dalla ricezione della comunicazione; in quest'ultimo caso prevedere che il cliente abbia diritto, in sede di liquidazione del rapporto, all'applicazione delle condizioni precedentemente praticate; 
+ h) stabilire che le modifiche o la sostituzione dell'indice di riferimento per le quali non siano state osservate le prescrizioni di cui alle lettere da e) a g) siano inefficaci e che in tale caso si applichi l'indice sostitutivo definito ai sensi del <ref xmlns:ns85="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_85" href="/akn/it/act/regolamento//2016/1011/!main" ns85:resolution="unresolved">regolamento (UE) 2016/1011</ref>; prevedere che, ove non sia definito tale indice, si applichi il tasso previsto dall'articolo 117, comma 7, lettera a), del testo unico di cui al <ref xmlns:ns86="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_86" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns86:target="olf:it/decreto-legislativo/stato/1993/385" ns86:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>, o, per i contratti di credito di cui al capo II del titolo VI del medesimo testo unico, il tasso previsto dall'articolo 125-bis, comma 7, lettera a), dello stesso; 
+ i) prevedere che le disposizioni di cui alle lettere da f) a h) si applichino ai contratti aventi a oggetto operazioni e servizi disciplinati ai sensi del titolo VI del testo unico di cui al <ref xmlns:ns87="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_87" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns87:target="olf:it/decreto-legislativo/stato/1993/385" ns87:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>, anche ove diversi da quelli di cui all'<ref xmlns:ns88="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_88" href="/akn/it/act/regolamento//2016/1011/!main#art_3-par1-num18" ns88:resolution="unresolved">articolo 3, paragrafo 1, numero 18), del regolamento (UE) 2016/1011</ref>; prevedere che in tali casi non si applichi l'articolo 118 del testo unico di cui al <ref xmlns:ns89="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_89" href="/akn/it/act/decretoLegislativo/stato/1993/385/!main" ns89:resolution="unresolved">decreto legislativo n. 385 del 1993</ref>; 
+ l) prevedere che entro un anno dalla data di entrata in vigore delle disposizioni attuative del presente comma le banche e gli intermediari finanziari: 
+ 1) rendano nota alla clientela la pubblicazione dei piani secondo quanto indicato alla lettera e); 
+ 2) comunichino ai clienti le variazioni contrattuali necessarie per introdurre le clausole previste alla lettera f); la modifica si intende approvata ove il cliente non receda, senza spese, dal contratto entro due mesi dalla ricezione della comunicazione; in quest'ultimo caso egli ha diritto, in sede di liquidazione del rapporto, all'applicazione delle condizioni precedentemente praticate; 
+ m) prevedere che le variazioni contrattuali per le quali non siano state osservate le prescrizioni di cui alla lettera l) siano inefficaci; in caso di inefficacia della modifica e di successiva variazione sostanziale o cessazione dell'indice di riferimento applicato al contratto, prevedere che si applichi l'indice sostitutivo definito ai sensi del <ref xmlns:ns90="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_90" href="/akn/it/act/regolamento//2016/1011/!main" ns90:resolution="unresolved">regolamento (UE) 2016/1011</ref>; prevedere che, ove non sia definito tale indice, si applichi il tasso previsto dall'articolo 117, comma 7, lettera a), del testo unico di cui al <ref xmlns:ns91="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_91" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns91:target="olf:it/decreto-legislativo/stato/1993/385" ns91:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>, o, per i contratti di credito di cui al capo II del titolo VI del medesimo testo unico, il tasso previsto dall'articolo 125-bis, comma 7, lettera a), dello stesso; 
+ n) prevedere che le disposizioni di cui alle lettere l), numero 2), e m) si applichino ai contratti aventi a oggetto operazioni e servizi disciplinati ai sensi del titolo VI del testo unico di cui al <ref xmlns:ns92="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_92" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns92:target="olf:it/decreto-legislativo/stato/1993/385" ns92:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>, anche ove diversi da quelli di cui all'<ref xmlns:ns93="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_93" href="/akn/it/act/regolamento//2016/1011/!main#art_3-par1-num18" ns93:resolution="unresolved">articolo 3, paragrafo 1, numero 18), del regolamento (UE) 2016/1011</ref>, e ai soggetti che prestano i relativi servizi; prevedere che in tali casi non si applichi l'articolo 118 del testo unico di cui al <ref xmlns:ns94="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_94" href="/akn/it/act/decretoLegislativo/stato/1993/385/!main" ns94:resolution="unresolved">decreto legislativo n. 385 del 1993</ref>. 
+ 4. Entro ventiquattro mesi dalla data di entrata in vigore di ciascuno dei decreti legislativi di cui al comma 1, il Governo, con la procedura ivi prevista e nel rispetto dei principi e criteri direttivi di cui ai commi 2 e 3, puo' emanare disposizioni correttive e integrative dei medesimi decreti legislativi. 
+ 5. Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono agli adempimenti di cui al presente articolo con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading>Delega al Governo per l'adeguamento dell'ordinamento nazionale e per l'attuazione del regolamento (UE) 2021/23, relativo a un quadro di risanamento e risoluzione delle controparti centrali e recante modifica dei regolamenti (UE) n. 1095/2010, (UE) n. 648/2012, (UE) n. 600/2014, (UE) n. 806/2014 e (UE) 2015/2365 e delle direttive 2002/47/CE, 2004/25/CE, 2007/36/CE, 2014/59/UE e (UE) 2017/1132.</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, con le procedure di cui all'<ref xmlns:ns95="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_95" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_31" ns95:target="olf:it/legge/stato/2012/234/art_31" ns95:relation="cites">articolo 31 della legge 24 dicembre 2012, n. 234</ref>, acquisito il parere delle competenti Commissioni parlamentari, uno o piu' decreti legislativi per l'adeguamento della normativa nazionale al regolamento (UE) 2021/23 del Parlamento europeo e del Consiglio, del 16 dicembre 2020. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_7__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_7__para_2__intro_1">
+                            <p>Nell'esercizio della delega di cui al comma 1 il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns96="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_96" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns96:target="olf:it/legge/stato/2012/234/art_32" ns96:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_7__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>ferme restando le attribuzioni previste dal regolamento (UE) n. 648/2012 del Parlamento europeo e del Consiglio, del 4 luglio 2012, in capo alle autorita' competenti di cui all'<ref xmlns:ns97="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_97" href="/akn/it/act/regolamento//2021/23/!main#art_2-num7" ns97:resolution="unresolved">articolo 2, numero 7), del regolamento (UE) 2021/23</ref>, designare la Banca d'Italia quale unica autorita' di risoluzione nazionale, ai sensi dell'<ref xmlns:ns98="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_98" href="/akn/it/act/regolamento//2021/23/!main#art_3-par1" ns98:resolution="unresolved">articolo 3, paragrafo 1, del regolamento (UE) 2021/23</ref>, attribuendo a quest'ultima tutti i poteri assegnati all'autorita' di risoluzione dal citato regolamento; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>designare il Ministero dell'economia e delle finanze quale Ministero incaricato, ai sensi dell'<ref xmlns:ns99="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_99" href="/akn/it/act/regolamento//2021/23/!main#art_3-par8" ns99:resolution="unresolved">articolo 3, paragrafo 8, del regolamento (UE) 2021/23</ref>, dell'esercizio delle funzioni previste dal regolamento medesimo, definendo le opportune modalita' di scambio di informazioni con la Banca d'Italia e con la CONSOB al fine dell'esercizio di tali funzioni e di quanto previsto dalla lettera c); 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>prevedere l'approvazione del Ministero dell'economia e delle finanze prima di dare attuazione a decisioni dell'autorita' di risoluzione che, alternativamente o congiuntamente: 
+ 1) abbiano un impatto diretto sul bilancio dello Stato; 
+ 2) abbiano implicazioni sistemiche che possano verosimilmente causare un impatto diretto sul bilancio dello Stato; 
+ 3) diano avvio alla risoluzione di una controparte centrale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>definire la ripartizione tra la Banca d'Italia e la CONSOB dei poteri previsti dai titoli III, IV e V del <ref xmlns:ns100="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_100" href="/akn/it/act/regolamento//2021/23/!main" ns100:resolution="unresolved">regolamento (UE) 2021/23</ref> e assegnati alle autorita' competenti di cui all'articolo 2, numero 7), del medesimo regolamento, avendo particolare riguardo all'esigenza di assicurare la tempestivita' degli interventi e la celerita' delle procedure e tenendo conto del riparto di attribuzioni previsto dalla legislazione vigente e dal regolamento (UE) n. 648/2012; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>attribuire alla Banca d'Italia e alla CONSOB il potere di ricorrere alla disciplina secondaria, nel rispetto delle competenze alle stesse spettanti e nell'ambito e per le finalita' specificamente previsti dal <ref xmlns:ns101="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_101" href="/akn/it/act/regolamento//2021/23/!main" ns101:resolution="unresolved">regolamento (UE) 2021/23</ref>. Nell'esercizio dei poteri regolamentari la Banca d'Italia e la CONSOB tengono conto delle linee guida emanate dall'Autorita' europea degli strumenti finanziari e dei mercati (AESFEM) ai sensi del <ref xmlns:ns102="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_102" href="/akn/it/act/regolamento//2021/23/!main" ns102:resolution="unresolved">regolamento (UE) 2021/23</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>prevedere che il regime di responsabilita' di cui all'<ref xmlns:ns103="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_103" href="/akn/it/act/legge/stato/2005-12-28/262/!main#art_24-com6bis" ns103:target="olf:it/legge/stato/2005/262/art_24-com6bis" ns103:relation="cites">articolo 24, comma 6-bis, della legge 28 dicembre 2005, n. 262</ref>, sia esteso: 
+ 1) all'esercizio delle funzioni disciplinate dal <ref xmlns:ns104="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_104" href="/akn/it/act/regolamento//2021/23/!main" ns104:resolution="unresolved">regolamento (UE) 2021/23</ref>, con riferimento alla Banca d'Italia e alla CONSOB, ai componenti dei loro organi, ai loro dipendenti, nonche' agli organi delle procedure di risoluzione, compresi i commissari, la controparte centrale-ponte e i componenti dei suoi organi; 
+ 2) all'esercizio, da parte della Banca d'Italia e della CONSOB, secondo le rispettive competenze, dei poteri di intervento precoce disciplinati dal <ref xmlns:ns105="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_105" href="/akn/it/act/regolamento//2021/23/!main" ns105:resolution="unresolved">regolamento (UE) 2021/23</ref>, nonche' agli organi delle procedure di intervento precoce e ai loro componenti, compresi i commissari; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>prevedere che, per gli atti compiuti in attuazione di provvedimenti dell'autorita' di risoluzione, la responsabilita' dei componenti degli organi di amministrazione e di controllo, ai sensi dell'articolo 2, numero 23), e dell'alta dirigenza, ai sensi dell'<ref xmlns:ns106="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_106" href="/akn/it/act/regolamento//2021/23/!main#art_2-num37" ns106:resolution="unresolved">articolo 2, numero 37), del regolamento (UE) 2021/23</ref>, della controparte centrale sottoposta a risoluzione sia limitata ai casi di dolo o colpa grave; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_h">
+                            <num>h)</num>
+                            <content>
+                                <p>non avvalersi della facolta' di imporre l'approvazione ex ante da parte dell'autorita' giudiziaria della decisione di adottare una misura di prevenzione o di gestione della crisi prevista dall'<ref xmlns:ns107="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_107" href="/akn/it/act/regolamento//2021/23/!main#art_74-par1" ns107:resolution="unresolved">articolo 74, paragrafo 1, del regolamento (UE) 2021/23</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_i">
+                            <num>i)</num>
+                            <content>
+                                <p>mediante estensione dell'ambito applicativo dell'<ref xmlns:ns108="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_108" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2638-com3bis" ns108:target="olf:it/codice-civile/stato/1942/262/art_2638-com3bis" ns108:relation="cites">articolo 2638, comma 3-bis, del codice civile</ref>, disporre l'equiparazione, agli effetti della legge penale, delle autorita' e delle funzioni di risoluzione di cui al <ref xmlns:ns109="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_109" href="/akn/it/act/regolamento//2021/23/!main" ns109:resolution="unresolved">regolamento (UE) 2021/23</ref> alle autorita' e alle funzioni di vigilanza; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_l">
+                            <num>l)</num>
+                            <content>
+                                <p>disporre che la violazione dell'obbligo di segreto previsto dall'<ref xmlns:ns110="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_110" href="/akn/it/act/regolamento//2021/23/!main#art_73" ns110:resolution="unresolved">articolo 73 del regolamento (UE) 2021/23</ref> da parte di soggetti che non rivestono la qualifica di pubblico ufficiale o incaricato di pubblico servizio sia punita a norma dell'<ref xmlns:ns111="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_111" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_622" ns111:target="olf:it/regio-decreto/stato/1930/1398/art_622" ns111:relation="cites">articolo 622 del codice penale</ref>, con procedibilita' d'ufficio; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_m">
+                            <num>m)</num>
+                            <content>
+                                <p>con riferimento alla disciplina delle sanzioni previste dal <ref xmlns:ns112="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_112" href="/akn/it/act/regolamento//2021/23/!main" ns112:resolution="unresolved">regolamento (UE) 2021/23</ref>: 
+ 1) introdurre nell'ordinamento nazionale, tenuto conto di quanto previsto dall'<ref xmlns:ns113="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_113" href="/akn/it/act/regolamento//2021/23/!main#art_82-par1" ns113:resolution="unresolved">articolo 82, paragrafo 1, del regolamento (UE) 2021/23</ref>, nuove fattispecie di illeciti amministrativi per violazione delle disposizioni del medesimo regolamento, stabilendo: 
+ 1.1) l'applicazione delle sanzioni amministrative pecuniarie a controparti centrali o a partecipanti diretti delle stesse controparti centrali nei cui confronti siano accertate le violazioni e i presupposti che determinano una responsabilita' da parte dei soggetti che svolgono funzioni di amministrazione, direzione o controllo nonche' dei dipendenti o di coloro che operano sulla base di rapporti che ne determinano l'inserimento nell'organizzazione del soggetto vigilato, anche in forma diversa dal rapporto di lavoro subordinato; 
+ 1.2) l'entita' delle sanzioni amministrative pecuniarie, in modo tale che: 
+ 1.2.1) la sanzione applicabile alle persone giuridiche sia compresa tra il minimo di 30.000 euro e il massimo del 10 per cento del fatturato; 
+ 1.2.2) la sanzione applicabile alle persone fisiche sia compresa tra il minimo di 5.000 euro e il massimo di 5 milioni di euro; 
+ 1.2.3) qualora il vantaggio ottenuto dall'autore della violazione sia superiore ai limiti massimi indicati ai numeri 1.2.1) e 1.2.2), le sanzioni siano elevate fino al doppio dell'ammontare del vantaggio ottenuto, purche' tale ammontare sia determinabile; 
+ 2) attribuire alla Banca d'Italia e alla CONSOB, secondo le rispettive competenze, il potere di irrogare le sanzioni; definire, tenuto anche conto di quanto previsto dall'<ref xmlns:ns114="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_114" href="/akn/it/act/regolamento//2021/23/!main#art_85" ns114:resolution="unresolved">articolo 85 del regolamento (UE) 2021/23</ref>, i criteri cui la Banca d'Italia e la CONSOB devono attenersi nella determinazione dell'ammontare della sanzione, anche in deroga alle disposizioni della <ref xmlns:ns115="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_115" href="/akn/it/act/legge/stato/1981-11-24/689/!main" ns115:target="olf:it/legge/stato/1981/689" ns115:relation="cites">legge 24 novembre 1981, n. 689</ref>; 
+ 3) attribuire alla Banca d'Italia e alla CONSOB, secondo le rispettive competenze, il compito di comunicare all'AESFEM, ai sensi dell'<ref xmlns:ns116="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_116" href="/akn/it/act/regolamento//2021/23/!main#art_84" ns116:resolution="unresolved">articolo 84 del regolamento (UE) 2021/23</ref>, le informazioni previste dal medesimo regolamento sulle sanzioni applicate da ciascuna di esse; 
+ 4) attribuire alla Banca d'Italia e alla CONSOB, secondo le rispettive competenze, il potere di definire disposizioni attuative, anche con riferimento alla definizione della nozione di fatturato utile per la determinazione della sanzione, alla procedura sanzionatoria e alle modalita' di pubblicazione dei provvedimenti che irrogano le sanzioni; 
+ 5) prevedere, ove compatibili con il <ref xmlns:ns117="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_117" href="/akn/it/act/regolamento//2021/23/!main" ns117:resolution="unresolved">regolamento (UE) 2021/23</ref>, efficaci strumenti per la deflazione del contenzioso o per la semplificazione dei procedimenti di applicazione della sanzione, anche conferendo alla Banca d'Italia e alla CONSOB, secondo le rispettive competenze, la facolta' di escludere l'applicazione della sanzione per condotte prive di effettiva offensivita' o pericolosita'; 
+ 6) attribuire alla Banca d'Italia e alla CONSOB, secondo le rispettive competenze, il potere di adottare le misure previste dal <ref xmlns:ns118="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_118" href="/akn/it/act/regolamento//2021/23/!main" ns118:resolution="unresolved">regolamento (UE) 2021/23</ref> relative alla reprimenda pubblica, all'ordine di cessare o di porre rimedio a condotte irregolari e alla sospensione temporanea dall'incarico; 
+ 7) introdurre la possibilita' di una dichiarazione giudiziale dello stato di insolvenza in caso di avvio della risoluzione, ai fini dell'applicazione delle disposizioni contenute nel titolo VI del <ref xmlns:ns119="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_119" href="/akn/it/act/regio.decreto/stato/1942-03-16/267/!main" ns119:target="olf:it/regio-decreto/stato/1942/267" ns119:relation="cites">regio decreto 16 marzo 1942, n. 267</ref>, e, a seguito dell'entrata in vigore del codice della crisi d'impresa e dell'insolvenza, di cui al <ref xmlns:ns120="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_120" href="/akn/it/act/decretoLegislativo/stato/2019-01-12/14/!main" ns120:target="olf:it/decreto-legislativo/stato/2019/14" ns120:relation="cites">decreto legislativo 12 gennaio 2019, n. 14</ref>, nel titolo IX della parte prima del medesimo codice, senza che in tal caso assuma rilievo esimente l'eventuale superamento dello stato di insolvenza per effetto della risoluzione; 
+ 8) stabilire l'applicabilita' agli organi della risoluzione delle fattispecie penali previste nel titolo VI del <ref xmlns:ns121="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_121" href="/akn/it/act/regio.decreto/stato/1942-03-16/267/!main" ns121:target="olf:it/regio-decreto/stato/1942/267" ns121:relation="cites">regio decreto 16 marzo 1942, n. 267</ref>, in coerenza con l'articolo 237, secondo comma, del citato <ref xmlns:ns122="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_122" href="/akn/it/act/regio.decreto/stato/1942/267/!main" ns122:resolution="unresolved">regio decreto n. 267 del 1942</ref>, nonche', a seguito dell'entrata in vigore del codice della crisi d'impresa e dell'insolvenza, di cui al <ref xmlns:ns123="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_123" href="/akn/it/act/decretoLegislativo/stato/2019-01-12/14/!main" ns123:target="olf:it/decreto-legislativo/stato/2019/14" ns123:relation="cites">decreto legislativo 12 gennaio 2019, n. 14</ref>, nel titolo IX della parte prima del citato codice di cui al <ref xmlns:ns124="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_124" href="/akn/it/act/decretoLegislativo/stato/2019/14/!main" ns124:resolution="unresolved">decreto legislativo n. 14 del 2019</ref>, in coerenza con l'articolo 343, commi 2 e 3, del medesimo codice; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_n">
+                            <num>n)</num>
+                            <content>
+                                <p>apportare alla normativa vigente tutte le modificazioni necessarie ad assicurare la corretta e integrale applicazione e attuazione del <ref xmlns:ns125="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_125" href="/akn/it/act/regolamento//2021/23/!main" ns125:resolution="unresolved">regolamento (UE) 2021/23</ref> e a garantire il coordinamento con le altre disposizioni vigenti per i settori interessati dalla normativa da attuare, avendo riguardo al riparto di funzioni tra la Banca d'Italia e la CONSOB previsto dalla legislazione vigente, nonche' prevedendo opportune forme di coordinamento tra le due autorita'; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_o">
+                            <num>o)</num>
+                            <content>
+                                <p>fermo restando quanto previsto dalla lettera n), apportare al testo unico delle leggi in materia bancaria e creditizia, di cui al <ref xmlns:ns126="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_126" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns126:target="olf:it/decreto-legislativo/stato/1993/385" ns126:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>, al <ref xmlns:ns127="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_127" href="/akn/it/act/decretoLegislativo/stato/2015-11-16/180/!main" ns127:target="olf:it/decreto-legislativo/stato/2015/180" ns127:relation="cites">decreto legislativo 16 novembre 2015, n. 180</ref>, e al testo unico delle disposizioni in materia di intermediazione finanziaria, di cui al <ref xmlns:ns128="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_128" href="/akn/it/act/decretoLegislativo/stato/1998-02-24/58/!main" ns128:target="olf:it/decreto-legislativo/stato/1998/58" ns128:relation="cites">decreto legislativo 24 febbraio 1998, n. 58</ref>, ogni altra modifica necessaria per chiarire la disciplina applicabile, per assicurare maggiore efficacia ed efficienza alla gestione delle crisi di tutti gli intermediari ivi disciplinati e per il coordinamento con la disciplina prevista nel <ref xmlns:ns129="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_129" href="/akn/it/act/regolamento//2021/23/!main" ns129:resolution="unresolved">regolamento (UE) 2021/23</ref>, anche tenendo conto di quanto previsto dal <ref xmlns:ns130="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_130" href="/akn/it/act/regio.decreto/stato/1942-03-16/267/!main" ns130:target="olf:it/regio-decreto/stato/1942/267" ns130:relation="cites">regio decreto 16 marzo 1942, n. 267</ref>, dal codice della crisi d'impresa e dell'insolvenza, di cui al <ref xmlns:ns131="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_131" href="/akn/it/act/decretoLegislativo/stato/2019-01-12/14/!main" ns131:target="olf:it/decreto-legislativo/stato/2019/14" ns131:relation="cites">decreto legislativo 12 gennaio 2019, n. 14</ref>, e delle esigenze di proporzionalita' della disciplina e di celerita' delle procedure; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_p">
+                            <num>p)</num>
+                            <content>
+                                <p>prevedere che la Banca d'Italia e la CONSOB adottino la disciplina secondaria di cui al presente articolo entro centottanta giorni dalla data di entrata in vigore del primo dei decreti legislativi di attuazione della delega di cui al presente articolo. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_7__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono all'adempimento dei compiti derivanti dall'esercizio della delega di cui al presente articolo con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading>Delega al Governo per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2021/557, che modifica il regolamento (UE) 2017/2402 che stabilisce un quadro generale per la cartolarizzazione e instaura un quadro specifico per cartolarizzazioni semplici, trasparenti e standardizzate per sostenere la ripresa dalla crisi COVID-19.</heading>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, con le procedure di cui all'<ref xmlns:ns132="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_132" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_31" ns132:target="olf:it/legge/stato/2012/234/art_31" ns132:relation="cites">articolo 31 della legge 24 dicembre 2012, n. 234</ref>, acquisito il parere delle competenti Commissioni parlamentari, uno o piu' decreti legislativi per l'adeguamento della normativa nazionale al regolamento (UE) 2021/557 del Parlamento europeo e del Consiglio, del 31 marzo 2021. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_8__para_2__intro_1">
+                            <p>Nell'esercizio della delega di cui al comma 1 il Governo si attiene, oltre che ai principi e criteri direttivi generali di cui all'<ref xmlns:ns133="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_133" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns133:target="olf:it/legge/stato/2012/234/art_32" ns133:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, ai seguenti principi e criteri direttivi specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_8__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>apportare alla normativa vigente tutte le modificazioni necessarie ad assicurare la corretta applicazione del <ref xmlns:ns134="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_134" href="/akn/it/act/regolamento//2021/557/!main" ns134:resolution="unresolved">regolamento (UE) 2021/557</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_8__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>individuare la Banca d'Italia, l'IVASS, la CONSOB e la COVIP, secondo le relative attribuzioni, quali autorita' competenti, ai sensi dell'articolo 29, paragrafo 5, del regolamento (UE) 2017/2402 del Parlamento europeo e del Consiglio, del 12 dicembre 2017, come modificato dall'<ref xmlns:ns135="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_135" href="/akn/it/act/regolamento//2021/557/!main#art_1-num13" ns135:resolution="unresolved">articolo 1, numero 13), del regolamento (UE) 2021/557</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_8__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>prevedere, ove opportuno, il ricorso alla disciplina secondaria adottata dalle autorita' individuate ai sensi della lettera b) nell'ambito e per le finalita' specificamente previste dal <ref xmlns:ns136="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_136" href="/akn/it/act/regolamento//2021/557/!main" ns136:resolution="unresolved">regolamento (UE) 2021/557</ref> e dalla legislazione dell'Unione europea attuativa del medesimo regolamento; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_8__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>estendere la disciplina delle sanzioni amministrative introdotta in attuazione del <ref xmlns:ns137="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_137" href="/akn/it/act/regolamento//2017/2402/!main" ns137:resolution="unresolved">regolamento (UE) 2017/2402</ref> alle violazioni delle disposizioni del <ref xmlns:ns138="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_138" href="/akn/it/act/regolamento//2021/557/!main" ns138:resolution="unresolved">regolamento (UE) 2021/557</ref>. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_8__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono all'adempimento dei compiti derivanti dall'esercizio della delega di cui al presente articolo con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_9">
+                <num>Art. 9.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Delega al Governo per il compiuto adeguamento della normativa nazionale al <ref xmlns:ns139="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_139" href="/akn/it/act/regolamento//2017/1939/!main" ns139:resolution="unresolved">regolamento (UE) 2017/1939</ref>, relativo all'attuazione di una cooperazione rafforzata sull'istituzione della Procura europea («EPPO»). 
+ 
+ 1. Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, nel rispetto dei principi e criteri direttivi generali di cui all'<ref xmlns:ns140="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_140" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns140:target="olf:it/legge/stato/2012/234/art_32" ns140:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, uno o piu' decreti legislativi per il compiuto adeguamento della normativa nazionale al regolamento (UE) 2017/1939 del Consiglio, del 12 ottobre 2017, attuato con il <ref xmlns:ns141="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_141" href="/akn/it/act/decretoLegislativo/stato/2021-02-02/9/!main" ns141:target="olf:it/decreto-legislativo/stato/2021/9" ns141:relation="cites">decreto legislativo 2 febbraio 2021, n. 9</ref>, modificando la disciplina della competenza prevista dal <ref xmlns:ns142="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_142" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns142:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns142:relation="cites">codice di procedura penale</ref> in modo da concentrare negli uffici giudiziari distrettuali la trattazione dei procedimenti per i reati che offendono gli interessi finanziari dell'Unione europea in ordine ai quali la Procura europea puo' esercitare la sua competenza, indipendentemente dalla circostanza che detta competenza sia esercitata. 
+ 2. Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri per la finanza pubblica. Le amministrazioni interessate provvedono ai relativi adempimenti con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_10">
+                <num>Art. 10.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Delega al Governo per l'adeguamento alle disposizioni del <ref xmlns:ns143="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_143" href="/akn/it/act/regolamento//2018/848/!main" ns143:resolution="unresolved">regolamento (UE) 2018/848</ref>, relativo alla produzione biologica e all'etichettatura dei prodotti biologici e alle disposizioni del <ref xmlns:ns144="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_144" href="/akn/it/act/regolamento//2017/625/!main" ns144:resolution="unresolved">regolamento (UE) 2017/625</ref>, relativo ai controlli ufficiali e alle altre attivita' ufficiali effettuati per garantire l'applicazione della legislazione sugli alimenti e sui mangimi, delle norme sulla salute e sul benessere degli animali, sulla sanita' delle piante nonche' sui prodotti fitosanitari. 
+ 
+ 1. Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, ai sensi dell'<ref xmlns:ns145="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_145" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_3" ns145:target="olf:it/decreto-legislativo/stato/1997/281/art_3" ns145:relation="cites">articolo 3 del decreto legislativo 28 agosto 1997, n. 281</ref>, uno o piu' decreti legislativi per l'adeguamento della normativa nazionale al regolamento (UE) 2018/848 del Parlamento europeo e del Consiglio, del 30 maggio 2018, relativo alla produzione biologica e all'etichettatura dei prodotti biologici, e, limitatamente ai controlli ufficiali e altre attivita' ufficiali riguardanti la produzione biologica e l'etichettatura dei prodotti biologici, al regolamento (UE) 2017/625 del Parlamento europeo e del Consiglio, del 15 marzo 2017, relativo ai controlli ufficiali e alle altre attivita' ufficiali effettuati per garantire l'applicazione della legislazione sugli alimenti e sui mangimi, delle norme sulla salute e sul benessere degli animali, sulla sanita' delle piante nonche' sui prodotti fitosanitari. 
+ 2. Nell'esercizio della delega di cui al comma 1 il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns146="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_146" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns146:target="olf:it/legge/stato/2012/234/art_32" ns146:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, i seguenti principi e criteri direttivi specifici: 
+ a) adeguare il procedimento di autorizzazione e il sistema di vigilanza sugli organismi di controllo e di certificazione nonche' la disciplina degli adempimenti connessi alle attivita' svolte dai suddetti organismi, comprese le cause di sospensione e di revoca delle deleghe di cui all'<ref xmlns:ns147="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_147" href="/akn/it/act/regolamento//2018/848/!main#art_40" ns147:resolution="unresolved">articolo 40 del regolamento (UE) 2018/848</ref> e di cui agli <ref xmlns:ns148="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_148" href="/akn/it/act/regolamento//2017/625/!main#art_28" ns148:resolution="unresolved">articoli 28</ref>, <ref xmlns:ns149="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_149" href="/akn/it/act/regolamento//2017/625/!main#art_29" ns149:resolution="unresolved">29</ref>, <ref xmlns:ns150="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_150" href="/akn/it/act/regolamento//2017/625/!main#art_31" ns150:resolution="unresolved">31</ref>, <ref xmlns:ns151="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_151" href="/akn/it/act/regolamento//2017/625/!main#art_32" ns151:resolution="unresolved">32</ref> e <ref xmlns:ns152="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_152" href="/akn/it/act/regolamento//2017/625/!main#art_33" ns152:resolution="unresolved">33 del regolamento (UE) 2017/625</ref>; 
+ b) adeguare i procedimenti amministrativi relativi alla notifica alle autorita' competenti dello Stato membro di cui all'<ref xmlns:ns153="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_153" href="/akn/it/act/regolamento//2018/848/!main#art_34" ns153:resolution="unresolved">articolo 34 del regolamento (UE) 2018/848</ref> per includere le attivita' con metodo biologico; 
+ c) definire i criteri e le modalita' di etichettatura di fertilizzanti e prodotti fitosanitari, ai sensi dell'<ref xmlns:ns154="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_154" href="/akn/it/act/regolamento//2018/848/!main#art_31" ns154:resolution="unresolved">articolo 31 del regolamento (UE) 2018/848</ref>; 
+ d) dettare le disposizioni necessarie per procedere alla designazione dei laboratori nazionali di riferimento e dei laboratori ufficiali di cui al <ref xmlns:ns155="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_155" href="/akn/it/act/regolamento//2017/625/!main" ns155:resolution="unresolved">regolamento (UE) 2017/625</ref> per l'effettuazione di analisi, prove e diagnosi di laboratorio nell'ambito dei controlli ufficiali intesi a verificare il rispetto della normativa in materia di produzione biologica e etichettatura dei prodotti biologici, compresi quelli indicati nell'allegato I al <ref xmlns:ns156="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_156" href="/akn/it/act/regolamento//2018/848/!main" ns156:resolution="unresolved">regolamento (UE) 2018/848</ref>; 
+ e) adeguare il sistema sanzionatorio per gli organismi di controllo e per gli operatori biologici, compresi i gruppi di operatori, che adottano condotte non conformi al <ref xmlns:ns157="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_157" href="/akn/it/act/regolamento//2018/848/!main" ns157:resolution="unresolved">regolamento (UE) 2018/848</ref>, compreso l'illecito utilizzo dei termini riferiti all'agricoltura biologica da parte di operatori non assoggettati al sistema di controllo. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_11">
+                <num>Art. 11.</num>
+                <heading>Delega al Governo per l'adeguamento della normativa nazionale al regolamento (UE) 2018/1727, che istituisce l'Agenzia dell'Unione europea per la cooperazione giudiziaria penale (Eurojust) e che sostituisce e abroga la decisione 2002/187/GAI del Consiglio.</heading>
+                <paragraph eId="art_11__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, uno o piu' decreti legislativi per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2018/1727 del Parlamento europeo e del Consiglio, del 14 novembre 2018. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_11__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_11__para_2__intro_1">
+                            <p>Nell'esercizio della delega di cui al comma 1 il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns158="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_158" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns158:target="olf:it/legge/stato/2012/234/art_32" ns158:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_11__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>definire le procedure di nomina, la disciplina economica e la posizione ordinamentale del membro nazionale dell'Agenzia dell'Unione europea per la cooperazione giudiziaria penale (Eurojust) e dell'aggiunto, nonche' dell'assistente, in coerenza sistematica con le disposizioni relative ad altri incarichi in sede internazionale e sovranazionale analoghi in relazione alle attivita' svolte, fermo restando, per il profilo economico, quanto previsto dall'<ref xmlns:ns159="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_159" href="/akn/it/act/decretoLegge/stato/2014-04-24/66/!main#art_13" ns159:target="olf:it/decreto-legge/stato/2014/66/art_13" ns159:relation="cites">articolo 13 del decreto-legge 24 aprile 2014, n. 66</ref>, convertito, con modificazioni, dalla <ref xmlns:ns160="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_160" href="/akn/it/act/legge/stato/2014-06-23/89/!main" ns160:target="olf:it/legge/stato/2014/89" ns160:relation="cites">legge 23 giugno 2014, n. 89</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_11__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>individuare il luogo ordinario di lavoro dell'aggiunto e dell'assistente presso la sede dell'Eurojust; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_11__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>prevedere i presupposti in presenza dei quali il membro nazionale puo' essere assistito da aggiunti o assistenti ulteriori rispetto a quelli previsti dall'<ref xmlns:ns161="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_161" href="/akn/it/act/regolamento//2018/1727/!main#art_7-par2" ns161:resolution="unresolved">articolo 7, paragrafo 2, del regolamento (UE) 2018/1727</ref>; prevedere che il numero complessivo degli ulteriori aggiunti o assistenti non sia superiore a tre unita', tra le quali, in ogni caso, non puo' essere nominato piu' di un aggiunto; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_11__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>armonizzare il diritto nazionale per consentire l'effettivo esercizio dei poteri di cui all'<ref xmlns:ns162="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_162" href="/akn/it/act/regolamento//2018/1727/!main#art_8-com3-par1" ns162:resolution="unresolved">articolo 8, paragrafi 1, 3</ref>, <ref xmlns:ns163="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_163" href="/akn/it/act/regolamento//2018/1727/!main#art_8-com4" ns163:resolution="unresolved">4</ref> e <ref xmlns:ns164="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_164" href="/akn/it/act/regolamento//2018/1727/!main#art_8-com5" ns164:resolution="unresolved">5, del regolamento (UE) 2018/1727</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_11__para_2.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>regolamentare le procedure per consentire al membro nazionale di accedere alle informazioni contenute nei registri nazionali di cui all'<ref xmlns:ns165="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_165" href="/akn/it/act/regolamento//2018/1727/!main#art_9" ns165:resolution="unresolved">articolo 9 del regolamento (UE) 2018/1727</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_11__para_2.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>disciplinare i criteri di nomina dei corrispondenti nazionali di cui all'<ref xmlns:ns166="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_166" href="/akn/it/act/regolamento//2018/1727/!main#art_20" ns166:resolution="unresolved">articolo 20 del regolamento (UE) 2018/1727</ref>, nonche', quando sono nominati piu' corrispondenti, i criteri di individuazione del responsabile, e disciplinare le modalita' per rendere efficace il sistema di coordinamento nazionale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_11__para_2.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>apportare ogni opportuna modifica alle norme processuali e ordinamentali al fine di dare piena attuazione alle previsioni del <ref xmlns:ns167="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_167" href="/akn/it/act/regolamento//2018/1727/!main" ns167:resolution="unresolved">regolamento (UE) 2018/1727</ref>, con particolare riguardo alle disposizioni non direttamente applicabili, e per coordinare le norme interne vigenti con quanto in esso previsto, prevedendo anche l'abrogazione della <ref xmlns:ns168="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_168" href="/akn/it/act/legge/stato/2005-03-14/41/!main" ns168:target="olf:it/legge/stato/2005/41" ns168:relation="cites">legge 14 marzo 2005, n. 41</ref>, e delle disposizioni incompatibili con quelle contenute nel regolamento. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_11__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Per l'attuazione delle disposizioni di cui al presente articolo e' autorizzata la spesa di 273.862 euro annui a decorrere dall'anno 2022, cui si provvede mediante corrispondente riduzione del fondo per il recepimento della normativa europea, di cui all'<ref xmlns:ns169="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_169" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_41bis" ns169:target="olf:it/legge/stato/2012/234/art_41bis" ns169:relation="cites">articolo 41-bis della legge 24 dicembre 2012, n. 234</ref>. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_12">
+                <num>Art. 12.</num>
+                <heading>Delega al Governo per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2018/1805, relativo al riconoscimento reciproco dei provvedimenti di congelamento e di confisca.</heading>
+                <paragraph eId="art_12__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, uno o piu' decreti legislativi per l'adeguamento della normativa nazionale al regolamento (UE) 2018/1805 del Parlamento europeo e del Consiglio, del 14 novembre 2018. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_12__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_12__para_2__intro_1">
+                            <p>Nell'esercizio della delega di cui al comma 1 il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns170="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_170" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns170:target="olf:it/legge/stato/2012/234/art_32" ns170:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_12__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>prevedere che, fermo restando quanto previsto dagli articoli 3, paragrafo 1, 8, paragrafo 1, lettera e), e 19, <ref xmlns:ns171="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_171" href="/akn/it/act/regolamento//2018/1805/!main#art_par1-letf" ns171:resolution="unresolved">paragrafo 1, lettera f), del regolamento (UE) 2018/1805</ref>, il riconoscimento e l'esecuzione dei provvedimenti di sequestro o di confisca sono subordinati alla condizione che i fatti che hanno dato luogo all'adozione dei provvedimenti medesimi siano previsti come reato dalla legge italiana, indipendentemente dagli elementi costitutivi o dalla qualificazione ad essi attribuita nell'ordinamento giuridico dello Stato di emissione; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_12__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>prevedere che ai certificati di sequestro o di confisca sia allegata una copia autentica del provvedimento di cui si chiedono il riconoscimento e l'esecuzione, fermo restando il potere dell'autorita' di esecuzione di chiedere la trasmissione dell'originale del provvedimento, ove necessario ai fini della decisione; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_12__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>individuare il Ministero della giustizia quale autorita' centrale ai sensi dell'<ref xmlns:ns172="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_172" href="/akn/it/act/regolamento//2018/1805/!main#art_24-par2" ns172:resolution="unresolved">articolo 24, paragrafo 2, del regolamento (UE) 2018/1805</ref>, consentendo comunque la possibilita' di trasmissione diretta dei certificati tra autorita' di emissione e autorita' di esecuzione e prevedendo, per tale ipotesi, che l'autorita' giudiziaria nazionale informi, anche a fini statistici, il Ministero della giustizia dei provvedimenti di sequestro e di confisca ricevuti o trasmessi per l'esecuzione; prevedere che, in ogni caso, copia dei certificati sia trasmessa al Procuratore nazionale antimafia e antiterrorismo, se essi si riferiscono a procedimenti per i delitti di cui all'<ref xmlns:ns173="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_173" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_51-com3bis" ns173:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_51-com3bis" ns173:relation="cites">articolo 51, commi 3-bis</ref> e <ref xmlns:ns174="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_174" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_51-com3quater" ns174:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_51-com3quater" ns174:relation="cites">3-quater, del codice di procedura penale</ref>, e al procuratore generale presso la corte di appello, se essi si riferiscono a procedimenti per i delitti di cui all'<ref xmlns:ns175="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_175" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_407-com2-leta" ns175:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_407-com2-leta" ns175:relation="cites">articolo 407, comma 2, lettera a), del codice di procedura penale</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_12__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>prevedere che il Ministro della giustizia sia competente a chiedere allo Stato di emissione il rimborso, totale o parziale, degli importi versati a titolo di risarcimento nei casi di cui all'<ref xmlns:ns176="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_176" href="/akn/it/act/regolamento//2018/1805/!main#art_34" ns176:resolution="unresolved">articolo 34 del regolamento (UE) 2018/1805</ref>, destinando tali importi, previo versamento all'entrata del bilancio dello Stato, al Fondo unico giustizia, di cui all'<ref xmlns:ns177="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_177" href="/akn/it/act/decretoLegge/stato/2008-06-25/112/!main#art_61-com23" ns177:target="olf:it/decreto-legge/stato/2008/112/art_61-com23" ns177:relation="cites">articolo 61, comma 23, del decreto-legge 25 giugno 2008, n. 112</ref>, convertito, con modificazioni, dalla <ref xmlns:ns178="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_178" href="/akn/it/act/legge/stato/2008-08-06/133/!main" ns178:target="olf:it/legge/stato/2008/133" ns178:relation="cites">legge 6 agosto 2008, n. 133</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_12__para_2.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>determinare le regole di competenza nelle ipotesi di concorso di provvedimenti di sequestro o confisca di cui all'<ref xmlns:ns179="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_179" href="/akn/it/act/regolamento//2018/1805/!main#art_26" ns179:resolution="unresolved">articolo 26 del regolamento (UE) 2018/1805</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_12__para_2.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>in relazione ai provvedimenti di sequestro: 
+ 1) individuare, quale autorita' di esecuzione ai sensi dell'<ref xmlns:ns180="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_180" href="/akn/it/act/regolamento//2018/1805/!main#art_2-num9" ns180:resolution="unresolved">articolo 2, numero 9), del regolamento (UE) 2018/1805</ref>, il giudice per le indagini preliminari presso il tribunale del capoluogo del distretto, determinando i criteri di attribuzione della competenza territoriale; 
+ 2) disciplinare la procedura di riconoscimento ed esecuzione del provvedimento di sequestro e i relativi termini, prevedendo l'acquisizione del parere del pubblico ministero e l'applicazione, nei limiti della compatibilita', delle disposizioni del <ref xmlns:ns181="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_181" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns181:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns181:relation="cites">codice di procedura penale</ref> in materia di esecuzione, di revoca e di impugnazione del decreto di sequestro preventivo; 
+ 3) prevedere che dell'esecuzione del sequestro, delle istanze di revoca e della proposizione di atti di impugnazione l'autorita' giudiziaria procedente dia tempestiva comunicazione all'autorita' emittente e, quando il provvedimento di sequestro ha ad oggetto un bene culturale appartenente al patrimonio culturale nazionale, altresi' al Ministero della cultura, con avviso della facolta' di presentare osservazioni e dei termini entro i quali essa puo' essere esercitata; 
+ 4) individuare quale autorita' di emissione, ai sensi dell'<ref xmlns:ns182="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_182" href="/akn/it/act/regolamento//2018/1805/!main#art_2-num8" ns182:resolution="unresolved">articolo 2, numero 8), del regolamento (UE) 2018/1805</ref>, la medesima autorita' giudiziaria che ha adottato il provvedimento di sequestro; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_12__para_2.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>in relazione ai provvedimenti di confisca: 
+ 1) individuare quale autorita' di esecuzione, ai sensi dell'<ref xmlns:ns183="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_183" href="/akn/it/act/regolamento//2018/1805/!main#art_2-num9" ns183:resolution="unresolved">articolo 2, numero 9), del regolamento (UE) 2018/1805</ref>, la corte di appello, determinandone la competenza territoriale con criteri omogenei a quelli individuati in forza del numero 1) della lettera f) del presente comma; 
+ 2) prevedere che, nei casi previsti dall'<ref xmlns:ns184="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_184" href="/akn/it/act/regolamento//2018/1805/!main#art_21" ns184:resolution="unresolved">articolo 21 del regolamento (UE) 2018/1805</ref>, la corte di appello disponga il rinvio del riconoscimento e dell'esecuzione del provvedimento di confisca con decreto motivato adottato senza formalita'; 
+ 3) disciplinare la procedura di riconoscimento ed esecuzione del provvedimento di confisca e i relativi termini, prevedendo la partecipazione anche dell'autorita' di emissione, di coloro che, sulla base degli atti, risultano essere titolari di diritti reali sul bene oggetto della confisca e, quando il provvedimento di confisca ha ad oggetto un bene culturale appartenente al patrimonio culturale nazionale, del Ministero della cultura; 
+ 4) prevedere che contro la decisione sul riconoscimento del provvedimento di confisca sia ammesso ricorso per cassazione solo per violazione di legge, stabilendo, ove necessario, specifiche norme procedurali per la trattazione del ricorso; 
+ 5) prevedere che la sentenza di riconoscimento del provvedimento di confisca sia eseguita solo dopo che sia divenuta irrevocabile e che al procedimento esecutivo si applichino, in quanto compatibili, le disposizioni del <ref xmlns:ns185="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_185" href="/akn/it/act/decretoLegislativo/stato/2015-08-07/137/!main" ns185:target="olf:it/decreto-legislativo/stato/2015/137" ns185:relation="cites">decreto legislativo 7 agosto 2015, n. 137</ref>; 
+ 6) prevedere che, fermo restando quanto disposto dall'<ref xmlns:ns186="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_186" href="/akn/it/act/regolamento//2018/1805/!main#art_30" ns186:resolution="unresolved">articolo 30 del regolamento (UE) 2018/1805</ref>, per la destinazione dei beni confiscati si osservino, in quanto compatibili, le disposizioni dell'<ref xmlns:ns187="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_187" href="/akn/it/act/decretoLegislativo/stato/2015-08-07/137/!main#art_14" ns187:target="olf:it/decreto-legislativo/stato/2015/137/art_14" ns187:relation="cites">articolo 14 del decreto legislativo 7 agosto 2015, n. 137</ref>; 
+ 7) individuare quale autorita' di emissione ai sensi dell'<ref xmlns:ns188="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_188" href="/akn/it/act/regolamento//2018/1805/!main#art_2-num8" ns188:resolution="unresolved">articolo 2, numero 8), del regolamento (UE) 2018/1805</ref>, il pubblico ministero presso il giudice dell'esecuzione e, nei procedimenti per l'applicazione delle misure di prevenzione patrimoniali previste dal codice di cui al <ref xmlns:ns189="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_189" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns189:target="olf:it/decreto-legislativo/stato/2011/159" ns189:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref>, il pubblico ministero presso il giudice che ha emesso il provvedimento di confisca; 
+ 8) predisporre, attraverso la previsione dell'accesso a un rimedio restitutorio, la disciplina necessaria ad assicurare l'esecuzione delle confische ordinate con sentenze emesse all'esito di processi celebrati in assenza, ovvero disposte dal giudice dell'esecuzione a seguito di sentenze emesse all'esito di processi celebrati in assenza, quando non ricorrono le condizioni di cui all'<ref xmlns:ns190="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_190" href="/akn/it/act/regolamento//2018/1805/!main#art_19-par1-letg" ns190:resolution="unresolved">articolo 19, paragrafo 1, lettera g), del regolamento (UE) 2018/1805</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_12__para_2.__point_h">
+                            <num>h)</num>
+                            <content>
+                                <p>provvedere, ove necessario, a modificare o abrogare le disposizioni del <ref xmlns:ns191="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_191" href="/akn/it/act/decretoLegislativo/stato/2016-02-15/35/!main" ns191:target="olf:it/decreto-legislativo/stato/2016/35" ns191:relation="cites">decreto legislativo 15 febbraio 2016, n. 35</ref>, e del <ref xmlns:ns192="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_192" href="/akn/it/act/decretoLegislativo/stato/2015-08-07/137/!main" ns192:target="olf:it/decreto-legislativo/stato/2015/137" ns192:relation="cites">decreto legislativo 7 agosto 2015, n. 137</ref>, al fine di armonizzarle con quelle introdotte in esecuzione della delega di cui al comma 1, eventualmente anche accorpando la complessiva disciplina in un testo normativo unitario; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_12__para_2.__point_i">
+                            <num>i)</num>
+                            <content>
+                                <p>apportare le necessarie modifiche agli <ref xmlns:ns193="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_193" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_419" ns193:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_419" ns193:relation="cites">articoli 419</ref>, <ref xmlns:ns194="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_194" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_429" ns194:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_429" ns194:relation="cites">429</ref> e <ref xmlns:ns195="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_195" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_552" ns195:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_552" ns195:relation="cites">552 del codice di procedura penale</ref>, prevedendo l'avvertimento all'imputato della possibile adozione del provvedimento di confisca nel processo celebrato in sua assenza, conformemente a quanto previsto dall'articolo 19, paragrafo 1, lettera g), punto i), del <ref xmlns:ns196="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_196" href="/akn/it/act/regolamento//2018/1805/!main" ns196:resolution="unresolved">regolamento (UE) 2018/1805</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_12__para_2.__point_l">
+                            <num>l)</num>
+                            <content>
+                                <p>apportare ogni ulteriore opportuna modifica alle norme dell'ordinamento interno al fine di dare piena attuazione alle previsioni del <ref xmlns:ns197="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_197" href="/akn/it/act/regolamento//2018/1805/!main" ns197:resolution="unresolved">regolamento (UE) 2018/1805</ref>, con particolare riguardo alle disposizioni non direttamente applicabili, e abrogare espressamente le norme interne che risultino incompatibili con quelle del medesimo regolamento. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_12__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri per la finanza pubblica. Le amministrazioni interessate provvedono ai relativi adempimenti con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_13">
+                <num>Art. 13.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Principi e criteri direttivi per l'attuazione della <ref xmlns:ns198="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_198" href="/akn/it/act/direttivaUe/eu/2019/1937/!main" ns198:resolution="unresolved">direttiva (UE) 2019/1937</ref>, riguardante la protezione delle persone che segnalano violazioni del diritto dell'Unione. 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_13__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_13__para_1__intro_1">
+                            <p>Nell'esercizio della delega per l'attuazione della <ref xmlns:ns199="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_199" href="/akn/it/act/direttivaUe/eu/2019/1937/!main" ns199:resolution="unresolved">direttiva (UE) 2019/1937 del Parlamento europeo e del Consiglio, del 23 ottobre 2019</ref>, il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns200="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_200" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns200:target="olf:it/legge/stato/2012/234/art_32" ns200:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_13__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>modificare, in conformita' alla disciplina della <ref xmlns:ns201="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_201" href="/akn/it/act/direttivaUe/eu/2019/1937/!main" ns201:resolution="unresolved">direttiva (UE) 2019/1937</ref>, la normativa vigente in materia di tutela degli autori di segnalazioni delle violazioni di cui all'articolo 2 della citata direttiva, di cui siano venuti a conoscenza nell'ambito di un contesto lavorativo pubblico o privato, e dei soggetti indicati all'articolo 4, paragrafo 4, della stessa direttiva; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_13__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>curare il coordinamento con le disposizioni vigenti, assicurando un alto grado di protezione e tutela dei soggetti di cui alla lettera a), operando le necessarie abrogazioni e adottando le opportune disposizioni transitorie; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_13__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>esercitare l'opzione di cui all'<ref xmlns:ns202="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_202" href="/akn/it/act/direttivaUe/eu/2019/1937/!main" ns202:resolution="unresolved">articolo 25, paragrafo 1, della direttiva (UE) 2019/1937</ref>, che consente l'introduzione o il mantenimento delle disposizioni piu' favorevoli ai diritti delle persone segnalanti e di quelle indicate dalla direttiva, al fine di assicurare comunque il massimo livello di protezione e tutela dei medesimi soggetti; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_13__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>operare gli opportuni adattamenti delle disposizioni vigenti al fine di conformare la normativa nazionale a quella europea, anche in relazione a violazioni di diritto interno riconducibili a reati o comportamenti impropri che compromettono la cura imparziale dell'interesse pubblico o la regolare organizzazione e gestione dell'ente. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_14">
+                <num>Art. 14.</num>
+                <heading>Delega al Governo per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2019/816, che istituisce un sistema centralizzato per individuare gli Stati membri in possesso di informazioni sulle condanne pronunciate a carico di cittadini di paesi terzi e apolidi (ECRIS-TCN) e integrare il sistema europeo di informazione sui casellari giudiziali, e che modifica il regolamento (UE) 2018/1726.</heading>
+                <paragraph eId="art_14__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, con le procedure di cui all'<ref xmlns:ns203="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_203" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_31" ns203:target="olf:it/legge/stato/2012/234/art_31" ns203:relation="cites">articolo 31 della legge 24 dicembre 2012, n. 234</ref>, acquisito il parere delle competenti Commissioni parlamentari, uno o piu' decreti legislativi per l'adeguamento della normativa nazionale al regolamento (UE) 2019/816 del Parlamento europeo e del Consiglio, del 17 aprile 2019. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_14__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_14__para_2__intro_1">
+                            <p>Nell'esercizio della delega di cui al comma 1 del presente articolo, il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns204="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_204" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns204:target="olf:it/legge/stato/2012/234/art_32" ns204:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_14__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>apportare alle norme di rango primario in materia di identificazione di cittadini di Stati terzi, apolidi e persone la cui cittadinanza e' ignota, di casellario giudiziale e di scambio delle relative informazioni, nonche' al <ref xmlns:ns205="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_205" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns205:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns205:relation="cites">codice di procedura penale</ref> e alle norme di attuazione, di coordinamento e transitorie del <ref xmlns:ns206="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_206" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns206:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns206:relation="cites">codice di procedura penale</ref>, di cui al <ref xmlns:ns207="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_207" href="/akn/it/act/decretoLegislativo/stato/1989-07-28/271/!main" ns207:target="olf:it/decreto-legislativo/stato/1989/271" ns207:relation="cites">decreto legislativo 28 luglio 1989, n. 271</ref>, le modifiche e le integrazioni necessarie per l'adeguamento della normativa interna alle disposizioni del <ref xmlns:ns208="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_208" href="/akn/it/act/regolamento//2019/816/!main" ns208:resolution="unresolved">regolamento (UE) 2019/816</ref>, con particolare riguardo a quelle non direttamente applicabili; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_14__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>assicurare la conformita' delle disposizioni nazionali di adeguamento di cui alla lettera a) ai principi e alle norme sovranazionali in materia di protezione dei dati personali; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_14__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>adottare ogni opportuna modifica alle norme del <ref xmlns:ns209="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_209" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns209:target="olf:it/regio-decreto/stato/1930/1398" ns209:relation="cites">codice penale</ref>, del <ref xmlns:ns210="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_210" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns210:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns210:relation="cites">codice di procedura penale</ref>, alle norme sul casellario giudiziale e a quelle dei decreti legislativi emanati in attuazione della decisione quadro 2008/675/GAI del Consiglio, del 24 luglio 2008, relativa alla considerazione delle decisioni di condanna tra Stati membri dell'Unione europea in occasione di un nuovo procedimento penale, della decisione quadro 2009/315/GAI del Consiglio, del 26 febbraio 2009, relativa all'organizzazione e al contenuto degli scambi fra gli Stati membri di informazioni estratte dal casellario giudiziario, della decisione 2009/316/GAI del Consiglio, del 6 aprile 2009, che istituisce il sistema europeo di informazione sui casellari giudiziari (ECRIS) in applicazione dell'articolo 11 della decisione quadro 2009/315/GAI, nonche' della <ref xmlns:ns211="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_211" href="/akn/it/act/direttivaUe/eu/2019/884/!main" ns211:resolution="unresolved">direttiva (UE) 2019/884 del Parlamento europeo e del Consiglio, del 17 aprile 2019</ref>, che modifica la decisione quadro 2009/315/GAI del Consiglio per quanto riguarda lo scambio di informazioni sui cittadini di paesi terzi e il sistema europeo di informazione sui casellari giudiziali (ECRIS), e che sostituisce la decisione 2009/316/GAI del Consiglio, al fine di armonizzare il quadro giuridico nazionale e di favorire il piu' efficace perseguimento delle finalita' dei citati atti dell'Unione europea. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_15">
+                <num>Art. 15.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Principi e criteri direttivi per l'adeguamento della normativa nazionale alle disposizioni del <ref xmlns:ns212="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_212" href="/akn/it/act/regolamento//2021/784/!main" ns212:resolution="unresolved">regolamento (UE) 2021/784</ref>, relativo al contrasto della diffusione di contenuti terroristici online. 
+ 
+ 1. Nell'esercizio della delega per il completo adeguamento della normativa nazionale al regolamento (UE) 2021/784 del Parlamento europeo e del Consiglio, del 29 aprile 2021, <ins eId="ins_1">((entro il 31 maggio 2023,))</ins> il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns213="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_213" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns213:target="olf:it/legge/stato/2012/234/art_32" ns213:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ a) individuare le autorita' competenti ad emettere ed esaminare gli ordini di rimozione ai sensi dell'<ref xmlns:ns214="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_214" href="/akn/it/act/regolamento//2021/784/!main#art_12-par1-leta" ns214:resolution="unresolved">articolo 12, paragrafo 1, lettere a)</ref> e <ref xmlns:ns215="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_215" href="/akn/it/act/regolamento//2021/784/!main#art_12-par1-letb" ns215:resolution="unresolved">b), del regolamento (UE) 2021/784</ref>, disciplinando il procedimento per l'adozione delle predette misure in modo da prevedere l'immediata informativa del Procuratore nazionale antimafia e antiterrorismo e l'acquisizione di elementi informativi e valutativi anche presso il Comitato di analisi strategica antiterrorismo di cui all'<ref xmlns:ns216="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_216" href="/akn/it/act/legge/stato/2007-08-03/124/!main#art_12-com3" ns216:target="olf:it/legge/stato/2007/124/art_12-com3" ns216:relation="cites">articolo 12, comma 3, della legge 3 agosto 2007, n. 124</ref>; 
+ b) individuare l'organo del Ministero dell'interno per la sicurezza e la regolarita' dei servizi di telecomunicazione di cui all'<ref xmlns:ns217="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_217" href="/akn/it/act/legge/stato/1998-08-03/269/!main#art_14-com2" ns217:target="olf:it/legge/stato/1998/269/art_14-com2" ns217:relation="cites">articolo 14, comma 2, della legge 3 agosto 1998, n. 269</ref>, e all'<ref xmlns:ns218="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_218" href="/akn/it/act/decretoLegge/stato/2015-02-18/7/!main#art_2-com2" ns218:target="olf:it/decreto-legge/stato/2015/7/art_2-com2" ns218:relation="cites">articolo 2, comma 2, del decreto-legge 18 febbraio 2015, n. 7</ref>, convertito, con modificazioni, dalla <ref xmlns:ns219="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_219" href="/akn/it/act/legge/stato/2015-04-17/43/!main" ns219:target="olf:it/legge/stato/2015/43" ns219:relation="cites">legge 17 aprile 2015, n. 43</ref>, quale autorita' competente per sorvegliare l'attuazione delle misure di cui all'<ref xmlns:ns220="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_220" href="/akn/it/act/regolamento//2021/784/!main#art_5" ns220:resolution="unresolved">articolo 5 del regolamento (UE) 2021/784</ref>, ai sensi dell'articolo 12, paragrafo 1, lettera c), del medesimo regolamento, nonche' quale struttura di supporto tecnico al punto di contatto designato ai sensi dell'articolo 12, paragrafo 2, del regolamento; 
+ c) prevedere, per le violazioni delle disposizioni indicate all'<ref xmlns:ns221="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_221" href="/akn/it/act/regolamento//2021/784/!main#art_18" ns221:resolution="unresolved">articolo 18 del regolamento (UE) 2021/784</ref>, sanzioni efficaci, dissuasive e proporzionate alla gravita' delle violazioni medesime; 
+ d) individuare le autorita' competenti a irrogare le sanzioni di cui alla lettera c) e a vigilare sull'osservanza delle disposizioni del <ref xmlns:ns222="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_222" href="/akn/it/act/regolamento//2021/784/!main" ns222:resolution="unresolved">regolamento (UE) 2021/784</ref>, diverse dalle misure di cui alla lettera b); 
+ e) prevedere effettivi strumenti di tutela in favore dei prestatori di servizi di hosting e dei fornitori di contenuti nei casi previsti dall'<ref xmlns:ns223="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_223" href="/akn/it/act/regolamento//2021/784/!main#art_9" ns223:resolution="unresolved">articolo 9 del regolamento (UE) 2021/784</ref>; 
+ f) apportare ogni necessaria modifica alle norme in materia di terrorismo gia' vigenti e, in particolare, alle disposizioni di cui all'<ref xmlns:ns224="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_224" href="/akn/it/act/decretoLegge/stato/2015-02-18/7/!main#art_2" ns224:target="olf:it/decreto-legge/stato/2015/7/art_2" ns224:relation="cites">articolo 2 del decreto-legge 18 febbraio 2015, n. 7</ref>, convertito, con modificazioni, dalla <ref xmlns:ns225="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_225" href="/akn/it/act/legge/stato/2015-04-17/43/!main" ns225:target="olf:it/legge/stato/2015/43" ns225:relation="cites">legge 17 aprile 2015, n. 43</ref>, al fine di dare piena attuazione alle previsioni del <ref xmlns:ns226="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_226" href="/akn/it/act/regolamento//2021/784/!main" ns226:resolution="unresolved">regolamento (UE) 2021/784</ref>, con particolare riguardo alle disposizioni non direttamente applicabili, prevedendo anche l'abrogazione delle disposizioni incompatibili con quelle contenute nel regolamento medesimo. 
+ 2. Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono all'adempimento dei compiti derivanti dall'esercizio della delega di cui al presente articolo con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_16">
+                <num>Art. 16.</num>
+                <heading>Delega al Governo per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2019/4, relativo alla fabbricazione, all'immissione sul mercato e all'utilizzo di mangimi medicati, che modifica il regolamento (CE) n. 183/2005 del Parlamento europeo e del Consiglio e che abroga la direttiva 90/167/CEE del Consiglio.</heading>
+                <paragraph eId="art_16__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, ai sensi dell'<ref xmlns:ns227="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_227" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_3" ns227:target="olf:it/decreto-legislativo/stato/1997/281/art_3" ns227:relation="cites">articolo 3 del decreto legislativo 28 agosto 1997, n. 281</ref>, uno o piu' decreti legislativi per l'adeguamento della normativa nazionale al regolamento (UE) 2019/4 del Parlamento europeo e del Consiglio, dell'11 dicembre 2018. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_16__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_16__para_2__intro_1">
+                            <p>Nell'esercizio della delega di cui al comma 1 il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns228="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_228" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns228:target="olf:it/legge/stato/2012/234/art_32" ns228:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_16__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>individuare il Ministero della salute, le regioni e le province autonome di Trento e di Bolzano quali autorita' competenti a svolgere i compiti previsti dal <ref xmlns:ns229="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_229" href="/akn/it/act/regolamento//2019/4/!main" ns229:resolution="unresolved">regolamento (UE) 2019/4</ref>, specificando le rispettive competenze; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_16__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>adeguare e semplificare le norme vigenti al fine di eliminare processi e vincoli ormai obsoleti; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_16__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>ridefinire il sistema sanzionatorio per la violazione delle disposizioni del <ref xmlns:ns230="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_230" href="/akn/it/act/regolamento//2019/4/!main" ns230:resolution="unresolved">regolamento (UE) 2019/4</ref> attraverso la previsione di sanzioni efficaci, dissuasive e proporzionate alla gravita' delle relative violazioni. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_17">
+                <num>Art. 17.</num>
+                <heading>Delega al Governo per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2019/6, relativo ai medicinali veterinari e che abroga la direttiva 2001/82/CE.</heading>
+                <paragraph eId="art_17__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, uno o piu' decreti legislativi per l'adeguamento della normativa nazionale al regolamento (UE) 2019/6 del Parlamento europeo e del Consiglio, dell'11 dicembre 2018. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_17__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_17__para_2__intro_1">
+                            <p>Nell'esercizio della delega di cui al comma 1 il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns231="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_231" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns231:target="olf:it/legge/stato/2012/234/art_32" ns231:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_17__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>individuare, ai sensi dell'<ref xmlns:ns232="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_232" href="/akn/it/act/regolamento/ministero.salute/2019/6/!main#art_137" ns232:resolution="unresolved">articolo 137 del regolamento (UE) 2019/6, il Ministero della salute</ref>, le regioni e le province autonome di Trento e di Bolzano quali autorita' competenti a svolgere i compiti previsti, secondo le rispettive competenze, e prevedere forme di coordinamento tra le medesime autorita'; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_17__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>stabilire i contenuti, i tempi e le modalita' di registrazione delle informazioni che i fabbricanti e i distributori all'ingrosso nonche' le farmacie e altri rivenditori al dettaglio, i veterinari e gli allevatori sono tenuti a comunicare al Ministero della salute, alle regioni e alle province autonome di Trento e di Bolzano; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_17__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>rimodulare il sistema delle tariffe sulla base dei compiti effettivi previsti dal <ref xmlns:ns233="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_233" href="/akn/it/act/regolamento//2019/6/!main" ns233:resolution="unresolved">regolamento (UE) 2019/6</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_17__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>consentire la pubblicita' dei medicinali veterinari immunologici, soggetti a prescrizione veterinaria, rivolta ad allevatori professionisti, come previsto dall'<ref xmlns:ns234="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_234" href="/akn/it/act/regolamento//2019/6/!main#art_120-par2" ns234:resolution="unresolved">articolo 120, paragrafo 2, del regolamento (UE) 2019/6</ref>, purche' la pubblicita' inviti esplicitamente gli allevatori professionisti a consultare il veterinario in merito al medicinale veterinario immunologico; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_17__para_2.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>prevedere l'adeguamento e il coordinamento dei sistemi informatici nazionali rispetto ai sistemi informatici istituiti con il <ref xmlns:ns235="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_235" href="/akn/it/act/regolamento//2019/6/!main" ns235:resolution="unresolved">regolamento (UE) 2019/6</ref> e gestiti dall'Agenzia europea per i medicinali per le finalita' previste dagli articoli 6, 55, 57, 58, 61, 67, 74, 76, 81, 88, 91, 92, 94, 95, 100, 132 e 155 del medesimo regolamento; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_17__para_2.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>ridefinire il sistema sanzionatorio per la violazione delle disposizioni del <ref xmlns:ns236="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_236" href="/akn/it/act/regolamento//2019/6/!main" ns236:resolution="unresolved">regolamento (UE) 2019/6</ref> attraverso la previsione di sanzioni efficaci, dissuasive e proporzionate alla gravita' delle relative violazioni; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_17__para_2.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>prevedere che il medico veterinario, nell'ambito della propria attivita', possa consegnare all'allevatore o al proprietario degli animali medicinali veterinari della propria scorta, anche da confezioni multiple in frazioni distribuibili singolarmente, ove disponibili sul mercato, corredate di supporto informativo conforme, allo scopo di attuare la terapia prescritta in modo da garantire la tutela immediata del benessere animale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_17__para_2.__point_h">
+                            <num>h)</num>
+                            <content>
+                                <p>prevedere, nel caso di medicinali registrati anche per animali destinati alla produzione di alimenti, che il medico veterinario registri in un sistema digitale lo scarico delle confezioni o quantita' di medicinali veterinari della propria scorta da lui utilizzate nell'ambito dell'attivita' zooiatrica ai sensi dell'<ref xmlns:ns237="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_237" href="/akn/it/act/decretoLegislativo/stato/2006-04-06/193/!main#art_85-com3" ns237:target="olf:it/decreto-legislativo/stato/2006/193/art_85-com3" ns237:relation="cites">articolo 85, comma 3, del decreto legislativo 6 aprile 2006, n. 193</ref>, o cedute. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_18">
+                <num>Art. 18.</num>
+                <heading>Delega al Governo per l'attuazione del regolamento (CE) n. 1099/2009, relativo alla protezione degli animali durante l'abbattimento.</heading>
+                <paragraph eId="art_18__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, con le procedure di cui all'<ref xmlns:ns238="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_238" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_31" ns238:target="olf:it/legge/stato/2012/234/art_31" ns238:relation="cites">articolo 31 della legge 24 dicembre 2012, n. 234</ref>, acquisito il parere delle competenti Commissioni parlamentari, uno o piu' decreti legislativi per l'attuazione del regolamento (CE) n. 1099/2009 del Consiglio, del 24 settembre 2009. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_18__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_18__para_2__intro_1">
+                            <p>Nell'esercizio della delega di cui al comma 1 il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns239="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_239" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns239:target="olf:it/legge/stato/2012/234/art_32" ns239:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_18__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>prevedere specifiche e progressive misure finalizzate ad introdurre, entro il 31 dicembre 2026, il divieto di abbattimento selettivo dei pulcini di linea maschile delle galline della specie Gallus gallus domesticus provenienti da linee di allevamento orientate alla produzione di uova non destinate alla cova, ad eccezione dei casi in cui l'abbattimento dei pulcini sia stato prescritto ai sensi della normativa vigente che disciplina le malattie animali oppure sia necessario, in casi specifici, per motivi connessi alla protezione degli animali; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_18__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>garantire alle aziende di produzione di pulcini (incubatoi), di cui all'ambito di applicazione del presente articolo, anche attraverso il coinvolgimento delle associazioni nazionali di categoria, nel rispetto dei termini di decorrenza di cui alla lettera a), congrui tempi di adeguamento alla normativa per l'aggiornamento delle procedure di lavoro e dello stato tecnologico delle medesime imprese; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_18__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>favorire l'introduzione e lo sviluppo e promuovere la conoscenza di tecnologie e strumenti per il sessaggio degli embrioni in ovo (cosiddetto «in ovo sexing») in grado di identificare il sesso del pulcino ancora prima della schiusa, al fine di scartare le uova che contengano pulcini maschi, o di altre tecnologie innovative che offrano una valida alternativa alla pratica dell'abbattimento dei pulcini; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_18__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>promuovere appropriate politiche di incentivazione, promozione e sostegno delle tecnologie e degli strumenti di cui alla lettera c), anche al fine di favorire la tutela del benessere degli animali; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_18__para_2.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>adottare i provvedimenti necessari affinche' le autorita' sanitarie territorialmente competenti procedano ad ispezioni negli stabilimenti di allevamento di galline ovaiole per la verifica del rispetto delle disposizioni di cui al presente articolo. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_19">
+                <num>Art. 19.</num>
+                <heading>Delega al Governo per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2019/1009, che stabilisce norme relative alla messa a disposizione sul mercato di prodotti fertilizzanti dell'UE, che modifica i regolamenti (CE) n. 1069/2009 e (CE) n. 1107/2009 e che abroga il regolamento (CE) n. 2003/2003.</heading>
+                <paragraph eId="art_19__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, ai sensi dell'<ref xmlns:ns240="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_240" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_3" ns240:target="olf:it/decreto-legislativo/stato/1997/281/art_3" ns240:relation="cites">articolo 3 del decreto legislativo 28 agosto 1997, n. 281</ref>, uno o piu' decreti legislativi per adeguare la normativa nazionale alle disposizioni del regolamento (UE) 2019/1009 del Parlamento europeo e del Consiglio, del 5 giugno 2019. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_19__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_19__para_2__intro_1">
+                            <p>Nell'esercizio della delega di cui al comma 1 il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns241="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_241" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns241:target="olf:it/legge/stato/2012/234/art_32" ns241:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_19__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>indicare il Ministero delle politiche agricole alimentari e forestali quale autorita' competente nazionale e autorita' di notifica, nonche' l'Ente unico nazionale di accreditamento (Accredia) quale organismo di valutazione e controllo della conformita' per l'applicazione del <ref xmlns:ns242="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_242" href="/akn/it/act/regolamento//2019/1009/!main" ns242:resolution="unresolved">regolamento (UE) 2019/1009</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_19__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>definire le procedure di controllo dei prodotti fertilizzanti forniti di marchio CE di cui al <ref xmlns:ns243="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_243" href="/akn/it/act/regolamento//2019/1009/!main" ns243:resolution="unresolved">regolamento (UE) 2019/1009</ref> e dei prodotti fertilizzanti nazionali; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_19__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>definire un Piano di controllo nazionale pluriennale per i prodotti fertilizzanti forniti di marchio CE e per i prodotti fertilizzanti nazionali, tenuto conto delle caratteristiche dei singoli prodotti; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_19__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>adeguare e semplificare le norme vigenti in materia di prodotti fertilizzanti nazionali sulla base delle conoscenze tecnico-scientifiche; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_19__para_2.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>in adeguamento ai nuovi obblighi introdotti dal <ref xmlns:ns244="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_244" href="/akn/it/act/regolamento//2019/1009/!main" ns244:resolution="unresolved">regolamento (UE) 2019/1009</ref>, in ordine alla responsabilita' degli operatori economici sulla conformita' dei prodotti fertilizzanti dell'Unione europea e per un piu' elevato livello di protezione della salute, della sicurezza dei consumatori e dell'ambiente, ridurre e semplificare gli oneri informativi e i procedimenti amministrativi a carico degli operatori professionali, con particolare riguardo alle piccole e medie imprese, al fine di ridurre costi e termini procedimentali; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_19__para_2.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>predisporre un sistema informativo per la raccolta delle informazioni relative al settore dei prodotti fertilizzanti, da collegare con i sistemi informativi dell'Unione europea e delle regioni; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_19__para_2.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>definire le tariffe per la valutazione di nuove categorie di prodotto, le tariffe per i controlli dei prodotti fertilizzanti inseriti nel registro nazionale nonche' le tariffe per i controlli dei prodotti fertilizzanti immessi in commercio; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_19__para_2.__point_h">
+                            <num>h)</num>
+                            <content>
+                                <p>apportare ogni opportuna modifica alle norme dell'ordinamento interno, al fine di dare piena attuazione alle previsioni del <ref xmlns:ns245="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_245" href="/akn/it/act/regolamento//2019/1009/!main" ns245:resolution="unresolved">regolamento (UE) 2019/1009</ref>, con particolare riguardo alle disposizioni non direttamente applicabili, e abrogare espressamente le norme interne che risultino incompatibili con quelle del medesimo regolamento, provvedendo qualora necessario all'introduzione di una normativa organica in materia di fertilizzanti; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_19__para_2.__point_i">
+                            <num>i)</num>
+                            <content>
+                                <p>ridefinire il sistema sanzionatorio per la violazione delle disposizioni del <ref xmlns:ns246="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_246" href="/akn/it/act/regolamento//2019/1009/!main" ns246:resolution="unresolved">regolamento (UE) 2019/1009</ref> attraverso la previsione di sanzioni amministrative efficaci, dissuasive e proporzionate alla gravita' delle relative violazioni, anche con riguardo all'utilizzo dei fanghi di depurazione, salvo che il fatto costituisca reato; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_19__para_2.__point_l">
+                            <num>l)</num>
+                            <content>
+                                <p>destinare i proventi derivanti dalle sanzioni amministrative pecuniarie previste dai decreti legislativi di cui al comma 1 al miglioramento dell'attivita' di sorveglianza sul settore dei fertilizzanti e sul ciclo di trattamento dei fanghi di depurazione nonche' delle campagne comunicative di sensibilizzazione; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_19__para_2.__point_m">
+                            <num>m)</num>
+                            <content>
+                                <p>evitare la creazione di appesantimenti burocratici non indispensabili alle aziende agricole utilizzatrici. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_20">
+                <num>Art. 20.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Delega al Governo per l'adeguamento della normativa nazionale alle disposizioni dei regolamenti (CE) n. 1071/2009, n. 1072/2009 e n. 1073/2009, in materia di trasporto su strada di merci e persone, nonche' alle disposizioni dei <ref xmlns:ns247="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_247" href="/akn/it/act/regolamento//2020/1054/!main" ns247:resolution="unresolved">regolamenti (UE) 2020/1054</ref> e <ref xmlns:ns248="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_248" href="/akn/it/act/regolamento//2016/403/!main" ns248:resolution="unresolved">2016/403</ref>, in materia di condizioni di lavoro dei conducenti e sull'uso dei tachigrafi, al regolamento (UE) n. 165/2014, in materia di tachigrafi nel settore dei trasporti su strada, e al <ref xmlns:ns249="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_249" href="/akn/it/act/regolamento//2020/1055/!main" ns249:resolution="unresolved">regolamento (UE) 2020/1055</ref>, che modifica i regolamenti (CE) n. 1071/2009, (CE) n. 1072/2009 e (UE) n. 1024/2012 per adeguarli all'evoluzione del settore del trasporto su strada. 
+ 
+ 1. Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, ai sensi dell'<ref xmlns:ns250="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_250" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_3" ns250:target="olf:it/decreto-legislativo/stato/1997/281/art_3" ns250:relation="cites">articolo 3 del decreto legislativo 28 agosto 1997, n. 281</ref>, uno o piu' decreti legislativi per l'adeguamento della normativa nazionale ai regolamenti (CE) n. 1071/2009, n. 1072/2009 e n. 1073/2009 del Parlamento europeo e del Consiglio, del 21 ottobre 2009, (UE) 2020/1054 del Parlamento europeo e del Consiglio, del 15 luglio 2020, (UE) 2016/403 della Commissione, del 18 marzo 2016, (UE) n. 165/2014 del Parlamento europeo e del Consiglio, del 4 febbraio 2014, e (UE) 2020/1055 del Parlamento europeo e del Consiglio, del 15 luglio 2020. 
+ 2. Nell'esercizio della delega di cui al comma 1 il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns251="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_251" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns251:target="olf:it/legge/stato/2012/234/art_32" ns251:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ a) provvedere alla semplificazione degli adempimenti amministrativi connessi all'attivita' di trasporto su strada e allo snellimento delle relative procedure, favorendo l'utilizzo delle tecnologie dell'informazione e della comunicazione; 
+ b) ridefinire il sistema sanzionatorio per la violazione delle disposizioni in materia di trasporto su strada nonche' di condizioni di lavoro per i conducenti e di uso dei tachigrafi, attraverso la previsione di sanzioni efficaci, dissuasive e proporzionate alla gravita' delle relative violazioni, determinando altresi' le modalita' di contestazione delle violazioni e di notificazione delle sanzioni; 
+ c) potenziare la collaborazione informatica tra i soggetti istituzionali coinvolti nello scambio di comunicazioni con le autorita' competenti degli altri Stati membri dell'Unione europea sulle sanzioni irrogate per violazioni della normativa europea in materia di trasporto su strada. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_21">
+                <num>Art. 21.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Principi e criteri direttivi per il recepimento della <ref xmlns:ns252="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_252" href="/akn/it/act/direttivaUe/eu/2020/2184/!main" ns252:resolution="unresolved">direttiva (UE) 2020/2184</ref>, concernente la qualita' delle acque destinate al consumo umano. 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_21__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_21__para_1__intro_1">
+                            <p>Nell'esercizio della delega per l'attuazione della <ref xmlns:ns253="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_253" href="/akn/it/act/direttivaUe/eu/2020/2184/!main" ns253:resolution="unresolved">direttiva (UE) 2020/2184 del Parlamento europeo e del Consiglio, del 16 dicembre 2020</ref>, il Governo osserva, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns254="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_254" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns254:target="olf:it/legge/stato/2012/234/art_32" ns254:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_21__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>adeguare e coordinare i sistemi informatici nazionali ai sistemi informatici istituiti a livello di Unione europea, al fine di garantire lo scambio di informazioni e di comunicazioni tra le autorita' competenti nazionali e degli Stati membri, in coerenza con il generale assetto ed il riparto delle competenze previste a livello nazionale, mediante l'istituzione di un sistema informativo centralizzato, denominato Anagrafe territoriale dinamica delle acque potabili (AnTeA), contenente dati sanitari e ambientali al fine di acquisire informazioni relative al controllo dell'attuazione delle nuove prescrizioni e di garantire un idoneo accesso al pubblico nonche' la comunicazione e la condivisione dei dati tra le autorita' pubbliche e tra queste e gli operatori del settore idropotabile; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_21__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>introdurre una normativa in materia di procedimenti volti al rilascio delle approvazioni per l'impiego di reagenti chimici, mezzi di filtrazione e mezzi di trattamento (ReMM) a contatto con acqua potabile, di organismi di certificazione e di indicazioni in etichettatura; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_21__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>introdurre una normativa volta alla revisione del sistema di vigilanza, sorveglianza della sicurezza dell'acqua potabile e controllo, anche attraverso l'introduzione di obblighi di controllo su sistemi idrici e sulle acque destinate ad edifici prioritari, tra cui ospedali, strutture sanitarie, case di riposo, strutture per l'infanzia, scuole, istituti di istruzione, edifici dotati di strutture ricettive, ristoranti, bar, centri sportivi e commerciali, strutture per il tempo libero, ricreative ed espositive, istituti penitenziari e campeggi; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_21__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>attribuire all'Istituto superiore di sanita' le funzioni di Centro nazionale per la sicurezza delle acque (CeNSiA), ai fini dell'approvazione dei Piani di sicurezza delle acque (PSA), nell'ambito della valutazione della qualita' tecnica dell'acqua e del servizio idrico di competenza dell'Autorita' di regolazione per energia, reti e ambiente (ARERA), del rilascio delle approvazioni per l'impiego di reagenti chimici, mezzi di filtrazione e mezzi di trattamento (ReMM) a contatto con acqua potabile, nonche' della gestione del sistema informativo centralizzato AnTeA; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_21__para_1.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>prevedere una disciplina volta a consentire e favorire l'accesso all'acqua, che comprenda obblighi di punti di acceso alle acque per edifici prioritari, aeroporti, stazioni, stabilimenti balneari; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_21__para_1.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>ridefinire il sistema sanzionatorio per la violazione delle disposizioni della <ref xmlns:ns255="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_255" href="/akn/it/act/direttivaUe/eu/2020/2184/!main" ns255:resolution="unresolved">direttiva (UE) 2020/2184</ref> attraverso la previsione di sanzioni efficaci, dissuasive e proporzionate alla gravita' delle relative violazioni. 
+ </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 4 agosto 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato A">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/127/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/127"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-08-04;127"/>
+                                <FRBRalias name="eli" value="eli/id/2022/08/26/22G00136/CONSOLIDATED/20230228"/>
+                                <FRBRdate date="2022-09-10" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/127/ita@2023-02-28/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/127/ita@2023-02-28"/>
+                                <FRBRdate date="2023-02-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/127/ita@2023-02-28/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/127/ita@2023-02-28.xml"/>
+                                <FRBRdate date="2022-08-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato A 
+ 
+ (Articolo 1, comma 1) 
+ 
+ 1) <ref xmlns:ns256="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_256" href="/akn/it/act/direttivaUe/eu/2019/1937/!main" ns256:resolution="unresolved">direttiva (UE) 2019/1937 del Parlamento europeo e del Consiglio, del 23 ottobre 2019</ref>, riguardante la protezione delle persone che segnalano violazioni del diritto dell'Unione; 
+ 2) <ref xmlns:ns257="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_257" href="/akn/it/act/direttivaUe/eu/2019/2121/!main" ns257:resolution="unresolved">direttiva (UE) 2019/2121 del Parlamento europeo e del Consiglio, del 27 novembre 2019</ref>, che modifica la <ref xmlns:ns258="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_258" href="/akn/it/act/direttivaUe/eu/2017/1132/!main" ns258:resolution="unresolved">direttiva (UE) 2017/1132</ref> per quanto riguarda le trasformazioni, le fusioni e le scissioni transfrontaliere (Testo rilevante ai fini del SEE); 
+ 3) <ref xmlns:ns259="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_259" href="/akn/it/act/direttivaUe/eu/2019/2161/!main" ns259:resolution="unresolved">direttiva (UE) 2019/2161 del Parlamento europeo e del Consiglio, del 27 novembre 2019</ref>, che modifica la <ref xmlns:ns260="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_260" href="/akn/it/act/direttivaUe/eu/1993/13/!main" ns260:resolution="unresolved">direttiva 93/13/CEE del Consiglio</ref> e le <ref xmlns:ns261="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_261" href="/akn/it/act/direttivaUe/eu/1998/6/!main" ns261:resolution="unresolved">direttive 98/6/CE</ref>, <ref xmlns:ns262="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_262" href="/akn/it/act/direttivaUe/eu/2005/29/!main" ns262:resolution="unresolved">2005/29/CE</ref> e <ref xmlns:ns263="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_263" href="/akn/it/act/direttivaUe/eu/2011/83/!main" ns263:resolution="unresolved">2011/83/UE del Parlamento europeo e del Consiglio</ref> per una migliore applicazione e una modernizzazione delle norme dell'Unione relative alla protezione dei consumatori (Testo rilevante ai fini del SEE); 
+ 4) <ref xmlns:ns264="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_264" href="/akn/it/act/direttivaUe/eu/2019/2177/!main" ns264:resolution="unresolved">direttiva (UE) 2019/2177 del Parlamento europeo e del Consiglio, del 18 dicembre 2019</ref>, che modifica la <ref xmlns:ns265="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_265" href="/akn/it/act/direttivaUe/eu/2009/138/!main" ns265:resolution="unresolved">direttiva 2009/138/CE</ref>, in materia di accesso ed esercizio delle attivita' di assicurazione e di riassicurazione (solvibilita' II), la <ref xmlns:ns266="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_266" href="/akn/it/act/direttivaUe/eu/2014/65/!main" ns266:resolution="unresolved">direttiva 2014/65/UE</ref>, relativa ai mercati degli strumenti finanziari, e la <ref xmlns:ns267="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_267" href="/akn/it/act/direttivaUe/eu/2015/849/!main" ns267:resolution="unresolved">direttiva (UE) 2015/849</ref>, relativa alla prevenzione dell'uso del sistema finanziario a fini di riciclaggio o finanziamento del terrorismo (Testo rilevante ai fini del SEE); 
+ 5) <ref xmlns:ns268="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_268" href="/akn/it/act/direttivaUe/eu/2020/1057/!main" ns268:resolution="unresolved">direttiva (UE) 2020/1057 del Parlamento europeo e del Consiglio, del 15 luglio 2020</ref>, che stabilisce norme specifiche per quanto riguarda la <ref xmlns:ns269="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_269" href="/akn/it/act/direttivaUe/eu/1996/71/!main" ns269:resolution="unresolved">direttiva 96/71/CE</ref> e la <ref xmlns:ns270="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_270" href="/akn/it/act/direttivaUe/eu/2014/67/!main" ns270:resolution="unresolved">direttiva 2014/67/UE</ref> sul distacco dei conducenti nel settore del trasporto su strada e che modifica la <ref xmlns:ns271="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_271" href="/akn/it/act/direttivaUe/eu/2006/22/!main" ns271:resolution="unresolved">direttiva 2006/22/CE</ref> per quanto riguarda gli obblighi di applicazione e il regolamento (UE) n. 1024/2012; 
+ 6) <ref xmlns:ns272="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_272" href="/akn/it/act/direttivaUe/eu/2020/1504/!main" ns272:resolution="unresolved">direttiva (UE) 2020/1504 del Parlamento europeo e del Consiglio, del 7 ottobre 2020</ref>, che modifica la <ref xmlns:ns273="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_273" href="/akn/it/act/direttivaUe/eu/2014/65/!main" ns273:resolution="unresolved">direttiva 2014/65/UE</ref> relativa ai mercati degli strumenti finanziari (Testo rilevante ai fini del SEE); 
+ 7) <ref xmlns:ns274="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_274" href="/akn/it/act/direttivaUe/eu/2020/1828/!main" ns274:resolution="unresolved">direttiva (UE) 2020/1828 del Parlamento europeo e del Consiglio, del 25 novembre 2020</ref>, relativa alle azioni rappresentative a tutela degli interessi collettivi dei consumatori e che abroga la <ref xmlns:ns275="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_275" href="/akn/it/act/direttivaUe/eu/2009/22/!main" ns275:resolution="unresolved">direttiva 2009/22/CE</ref> (Testo rilevante ai fini del SEE); 
+ 8) <ref xmlns:ns276="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_276" href="/akn/it/act/direttivaUe/eu/2020/2184/!main" ns276:resolution="unresolved">direttiva (UE) 2020/2184 del Parlamento europeo e del Consiglio, del 16 dicembre 2020</ref>, concernente la qualita' delle acque destinate al consumo umano (rifusione) (Testo rilevante ai fini del SEE); 
+ 9) <ref xmlns:ns277="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_277" href="/akn/it/act/direttivaUe/eu/2021/338/!main" ns277:resolution="unresolved">direttiva (UE) 2021/338 del Parlamento europeo e del Consiglio, del 16 febbraio 2021</ref>, che modifica la <ref xmlns:ns278="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_278" href="/akn/it/act/direttivaUe/eu/2014/65/!main" ns278:resolution="unresolved">direttiva 2014/65/UE</ref> per quanto riguarda gli obblighi di informazione, la governance del prodotto e i limiti di posizione, e le <ref xmlns:ns279="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_279" href="/akn/it/act/direttivaUe/eu/2013/36/!main" ns279:resolution="unresolved">direttive 2013/36/UE</ref> e <ref xmlns:ns280="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_280" href="/akn/it/act/direttivaUe/eu/2019/878/!main" ns280:resolution="unresolved">(UE) 2019/878</ref> per quanto riguarda la loro applicazione alle imprese di investimento, per sostenere la ripresa dalla crisi COVID-19 (Testo rilevante ai fini del SEE); 
+ 10) <ref xmlns:ns281="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_281" href="/akn/it/act/direttivaUe/eu/2021/514/!main" ns281:resolution="unresolved">direttiva (UE) 2021/514 del Consiglio, del 22 marzo 2021</ref>, recante modifica della <ref xmlns:ns282="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_282" href="/akn/it/act/direttivaUe/eu/2011/16/!main" ns282:resolution="unresolved">direttiva 2011/16/UE</ref> relativa alla cooperazione amministrativa nel settore fiscale; 
+ 11) <ref xmlns:ns283="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_283" href="/akn/it/act/direttivaUe/eu/2021/1187/!main" ns283:resolution="unresolved">direttiva (UE) 2021/1187 del Parlamento europeo e del Consiglio, del 7 luglio 2021</ref>, sulla razionalizzazione delle misure per promuovere la realizzazione della rete transeuropea dei trasporti (TEN-T); 
+ 12) <ref xmlns:ns284="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_284" href="/akn/it/act/direttivaUe/eu/2021/1883/!main" ns284:resolution="unresolved">direttiva (UE) 2021/1883 del Parlamento europeo e del Consiglio, del 20 ottobre 2021</ref>, sulle condizioni di ingresso e soggiorno dei cittadini di paesi terzi che intendano svolgere lavori altamente qualificati, e che abroga la <ref xmlns:ns285="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_285" href="/akn/it/act/direttivaUe/eu/2009/50/!main" ns285:resolution="unresolved">direttiva 2009/50/CE del Consiglio</ref>; 
+ 13) <ref xmlns:ns286="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_286" href="/akn/it/act/direttivaUe/eu/2021/2118/!main" ns286:resolution="unresolved">direttiva (UE) 2021/2118 del Parlamento europeo e del Consiglio, del 24 novembre 2021</ref>, recante modifica della <ref xmlns:ns287="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_287" href="/akn/it/act/direttivaUe/eu/2009/103/!main" ns287:resolution="unresolved">direttiva 2009/103/CE</ref> concernente l'assicurazione della responsabilita' civile risultante dalla circolazione di autoveicoli e il controllo dell'obbligo di assicurare tale responsabilita' (Testo rilevante ai fini del SEE); 
+ 14) <ref xmlns:ns288="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_288" href="/akn/it/act/direttivaUe/eu/2021/2261/!main" ns288:resolution="unresolved">direttiva (UE) 2021/2261 del Parlamento europeo e del Consiglio, del 15 dicembre 2021</ref>, che modifica la <ref xmlns:ns289="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_289" href="/akn/it/act/direttivaUe/eu/2009/65/!main" ns289:resolution="unresolved">direttiva 2009/65/CE</ref> per quanto riguarda l'uso dei documenti contenenti le informazioni chiave da parte delle societa' di gestione di organismi d'investimento collettivo in valori mobiliari (OICVM) (Testo rilevante ai fini del SEE). 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
