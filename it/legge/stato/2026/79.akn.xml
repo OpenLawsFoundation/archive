@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2026-05-13/79/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2026-05-13/79"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2026-05-13;79"/>
+                    <FRBRalias name="eli" value="eli/id/2026/05/16/26G00102/ORIGINAL"/>
+                    <FRBRdate date="2026-05-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/05/16/26G00102/ORIGINAL" aknrelname="eli/id/2026/05/16/26G00102/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 18 marzo 2026, n. 33, recante disposizioni urgenti in materia di prezzi petroliferi connessi alle crisi dei mercati internazionali. (26G00102)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="26G00102" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2026-05-13" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2026-05-13/79/ita@2026-05-17/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2026-05-13/79/ita@2026-05-17"/>
+                    <FRBRdate date="2026-05-17" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/05/16/26G00102/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2026/05/16/26G00102/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2026/05/16/26G00102/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2026-05-13/79/ita@2026-05-17/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2026-05-13/79/ita@2026-05-17.xml"/>
+                    <FRBRdate date="2026-05-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/05/16/26G00102/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2026-05-16" name="" number="112" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2026-05-16" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2026-05-13/79/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2026/05/16/26G00102/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 18 marzo 2026, n. 33, recante disposizioni urgenti in materia di prezzi petroliferi connessi alle crisi dei mercati internazionali. (26G00102)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>26G00102</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2026-05-13</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/05/16/26G00102/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2026/05/16/26G00102/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2026/05/16/26G00102/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/05/16/26G00102/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2026/79" nativeUrn="urn:nir:stato:legge:2026-05-13;79" jurisdiction="it"/><ns0:lifecycle inForceFrom="2026-05-16"><ns0:event type="enacted" date="2026-05-13"/><ns0:event type="published" date="2026-05-16"/><ns0:event type="commenced" date="2026-05-16"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/7989a9e6-9c53-4564-809d-620dcb46f84c" sourceSha256="0718b0bfa81e1d741ef70484e79bedf69ec7c7c66c8c1ca551543707ad925e0b" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T17:38:05.325358Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2026-05-13">13 maggio 2026</docDate>
+                <docNumber>79</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 18 marzo 2026, n. 33, recante disposizioni urgenti in materia di prezzi petroliferi connessi alle crisi dei mercati internazionali. (26G00102) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 17/05/2026</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2026-03-18/33/!main" ns1:target="olf:it/decreto-legge/stato/2026/33" ns1:relation="cites">decreto-legge 18 marzo 2026, n. 33</ref>, recante disposizioni urgenti in materia di prezzi petroliferi connessi alle crisi dei mercati internazionali, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2026-03-18/33/!main" ns2:target="olf:it/decreto-legge/stato/2026/33" ns2:relation="cites">decreto-legge 18 marzo 2026, n. 33</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 64 del 18 marzo 2026. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 39. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 13 maggio 2026 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giorgetti, Ministro dell'economia e delle finanze Pichetto Fratin, Ministro dell'ambiente e della sicurezza energetica Urso, Ministro delle imprese e del made in Italy Lollobrigida, Ministro dell'agricoltura, della sovranita' alimentare e delle foreste Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2026-05-13/79/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2026-05-13/79"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2026-05-13;79"/>
+                                <FRBRalias name="eli" value="eli/id/2026/05/16/26G00102/ORIGINAL"/>
+                                <FRBRdate date="2026-05-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2026-05-13/79/ita@2026-05-17/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2026-05-13/79/ita@2026-05-17"/>
+                                <FRBRdate date="2026-05-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2026-05-13/79/ita@2026-05-17/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2026-05-13/79/ita@2026-05-17.xml"/>
+                                <FRBRdate date="2026-05-13" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE 
+ AL DECRETO-LEGGE 18 MARZO 2026, N. 33 
+ 
+ All'articolo 1: 
+ al comma 1, le parole: «siti internet» sono sostituite dalle seguenti: «siti internet,» e le parole: «al Garante per la concorrenza e il mercato» sono sostituite dalle seguenti: «all'Autorita' garante della concorrenza e del mercato»; 
+ al comma 2, dopo le parole: «n. 5» sono inserite le seguenti: «, convertito, con modificazioni, dalla <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2023-03-10/23/!main" ns4:target="olf:it/legge/stato/2023/23" ns4:relation="cites">legge 10 marzo 2023, n. 23</ref>,»; 
+ al comma 3, le parole: «immediato rilievo» sono sostituite dalle seguenti: «immediata rilevazione», le parole: «riferimento comunica» sono sostituite dalle seguenti: «riferimento, comunica» e dopo le parole: «compagnie petrolifere» il segno di interpunzione «,» e' soppresso; 
+ al comma 4, le parole: «al Garante per la concorrenza e il mercato» sono sostituite dalle seguenti: «all'Autorita' garante della concorrenza e del mercato»; 
+ al comma 5, le parole: «corredate da» sono sostituite dalle seguenti: «corredate di» e dopo le parole: «all'articolo 501-bis» e' inserita la seguente: «del». 
+ All'articolo 2: 
+ al comma 1, alinea, le parole: «approvato con il» sono sostituite dalle seguenti: «di cui al» e le parole: «dal giorno successivo alla data di pubblicazione del presente decreto nella Gazzetta Ufficiale della Repubblica italiana e fino al ventesimo giorno successivo alla medesima data di pubblicazione» sono sostituite dalle seguenti: «dalla data di entrata in vigore del presente decreto e fino al ventesimo giorno successivo alla medesima data»; 
+ al comma 2, dopo le parole: «comma 1» e' inserito il seguente segno di interpunzione: «,». 
+ All'articolo 3: 
+ al comma 1, dopo la parola: «maggio» sono inserite le seguenti: «dell'anno 2026», dopo la parola: «febbraio» sono inserite le seguenti: «dello stesso anno» e la parola: «attributo» e' sostituita dalla seguente: «attribuito»; 
+ al comma 2, le parole: «approvato con» sono sostituite dalle seguenti: «, di cui al»; 
+ al comma 3, dopo le parole: «sicurezza energetica» e' inserito il seguente segno di interpunzione: «,» e le parole: «limiti di spesa previsto» sono sostituite dalle seguenti: «limiti di spesa previsti»; 
+ al comma 5, dopo le parole: «l'anno 2026» e' inserito il seguente segno di interpunzione: «,»; 
+ al comma 6, le parole: «presente decreto-legge» sono sostituite dalle seguenti: «presente decreto». 
+ All'articolo 4: 
+ al comma 3, dopo le parole: «e delle finanze» e' inserito il seguente segno di interpunzione: «,»; 
+ al comma 4, secondo periodo, la parola: «europei» e' soppressa. 
+ All'articolo 5: 
+ al comma 1, le parole: «convertito in» sono sostituite dalle seguenti: «convertito, con modificazioni, dalla»; 
+ al comma 2: 
+ all'alinea, dopo le parole: «comma 1» sono inserite le seguenti: «del presente articolo» e dopo le parole: «l'anno 2027» e' inserito il seguente segno di interpunzione: «,»; 
+ alla lettera a), le parole: «di ciascuno stato di previsione» sono sostituite dalle seguenti: «relativi alle missioni e ai programmi degli stati di previsione»; 
+ alla lettera b), la parola: «rinvenienti» e' sostituita dalla seguente: «rivenienti»; 
+ alla lettera c), le parole: «convertito in» sono sostituite dalle seguenti: «convertito, con modificazioni, dalla»; 
+ dopo il comma 2 e' aggiunto il seguente: 
+ «2-bis. Fatte salve le ordinarie forme di flessibilita' di bilancio previste dall'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_33" ns5:target="olf:it/legge/stato/2009/196/art_33" ns5:relation="cites">articolo 33 della legge 31 dicembre 2009, n. 196</ref>, e fermo restando il conseguimento dei risparmi di spesa previsti e a invarianza di effetti sui saldi di finanza pubblica, le riduzioni di cui al comma 2, lettera a), possono essere rimodulate in termini di competenza e di cassa anche tra programmi diversi nell'ambito dei pertinenti stati di previsione della spesa, su proposta dei Ministri competenti, con decreto del Ministro dell'economia e delle finanze». 
+ L'Allegato 1 e' sostituito dal seguente: 
+ 
+ «Allegato 1 
+ (Art. 5, comma 2, lett. a) 
+ 
+ Parte di provvedimento in formato grafico
+ 
+ 
+ ». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
