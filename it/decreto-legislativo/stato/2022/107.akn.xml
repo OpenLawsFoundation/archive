@@ -1,0 +1,824 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legislativo:2022-07-14;107"/>
+                    <FRBRalias name="eli" value="eli/id/2022/08/04/22G00115/ORIGINAL"/>
+                    <FRBRdate date="2022-07-14" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/08/04/22G00115/ORIGINAL" aknrelname="eli/id/2022/08/04/22G00115/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Norme di attuazione dello statuto speciale per la regione Trentino Alto-Adige recanti modificazioni al decreto del Presidente della Repubblica 15 luglio 1988, n. 305, in materia di istituzione delle sezioni di controllo della Corte dei conti di Trento e di Bolzano e per il personale ad esse addetto. (22G00115)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00115" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO LEGISLATIVO"/>
+                            <nrdfa:span content="2022-07-14" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19"/>
+                    <FRBRdate date="2022-08-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/08/04/22G00115/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/08/04/22G00115/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/08/04/22G00115/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19.xml"/>
+                    <FRBRdate date="2022-07-14" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/08/04/22G00115/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-08-04" name="" number="181" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-08-04" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:decreto.legislativo:2022-07-14;107#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-07-15;305#12"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) l'introduzione del comma 1-bis all'art. 12.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:decreto.legislativo:2022-07-14;107#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-07-15;305#17"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera a)) l'introduzione del comma 1-bis all'art. 12; (con l'art. 2, comma 1, lettera b)) l'introduzione del comma 1-ter all'art. 17.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:decreto.legislativo:2022-07-14;107#3"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-07-15;305#Tabella A"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1) la modifica della tabella A.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:decreto.legislativo:2022-07-14;107#3"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-07-15;305#Tabella B"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1) la modifica della tabella B.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:decreto.legislativo:2022-07-14;107#3"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-07-15;305#Tabella C"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1) la modifica della tabella C.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:decreto.legislativo:2022-07-14;107#3"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-07-15;305#Tabella D"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1) la modifica della tabella D.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:decreto.legislativo:2022-07-14;107#4"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-07-15;305#17"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1) la modifica dell'art. 17, comma 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO_LEGISLATIVO/stato/2022-07-14/107/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/08/04/22G00115/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Norme di attuazione dello statuto speciale per la regione Trentino Alto-Adige recanti modificazioni al decreto del Presidente della Repubblica 15 luglio 1988, n. 305, in materia di istituzione delle sezioni di controllo della Corte dei conti di Trento e di Bolzano e per il personale ad esse addetto. (22G00115)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00115</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO LEGISLATIVO"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-07-14</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/08/04/22G00115/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/08/04/22G00115/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/08/04/22G00115/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/08/04/22G00115/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legislativo/stato/2022/107" nativeUrn="urn:nir:stato:decreto.legislativo:2022-07-14;107" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-08-04"><ns0:event type="enacted" date="2022-07-14"/><ns0:event type="published" date="2022-08-04"/><ns0:event type="commenced" date="2022-08-04"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/982e6b93-54f7-4f0d-8712-04867373d6d0" sourceSha256="3d89198a698f0cf41db62096b5536bd3c5d06e64572268f9857b93f337156f77" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T20:15:45.664385Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO LEGISLATIVO</docType>
+                <docDate date="2022-07-14">14 luglio 2022</docDate>
+                <docNumber>107</docNumber>
+                <docTitle>Norme di attuazione dello statuto speciale per la regione Trentino Alto-Adige recanti modificazioni al decreto del Presidente della Repubblica 15 luglio 1988, n. 305, in materia di istituzione delle sezioni di controllo della Corte dei conti di Trento e di Bolzano e per il personale ad esse addetto. (22G00115) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 19/08/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visto l'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns1:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns1:relation="cites">articolo 87, quinto comma, della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Visto il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main" ns2:target="olf:it/dpr/stato/1972/670" ns2:relation="cites">decreto del Presidente della Repubblica 31 agosto 1972, n. 670</ref>, recante «Approvazione del testo unico delle leggi costituzionali concernenti lo statuto speciale per il Trentino-Alto Adige»;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Visto il <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main" ns3:target="olf:it/dpr/stato/1988/305" ns3:relation="amends">decreto del Presidente della Repubblica 15 luglio 1988, n. 305</ref> recante «Norme di attuazione dello statuto speciale per la Regione Trentino-Alto Adige per l'istituzione delle sezioni di controllo della Corte dei conti di Trento e di Bolzano e per il personale ad esse addetto» e, in particolare, gli articoli 12 e 17;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_4">
+                <citation eId="cits_4__cit_1">
+                    <p>Visto il parere delle sezioni riunite in sede consultiva della Corte dei conti reso nell'adunanza del 28 gennaio 2021;</p>
+                </citation>
+            </citations>
+            <p>Sentita la Commissione paritetica per le norme di attuazione, prevista dall'articolo 107, comma 1, del citato <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main" ns4:target="olf:it/dpr/stato/1972/670" ns4:relation="cites">decreto del Presidente della Repubblica 31 agosto 1972, n. 670</ref>;</p>
+            <citations eId="cits_5">
+                <citation eId="cits_5__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione del 26 maggio 2022;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Presidente del Consiglio dei ministri e del Ministro per gli affari regionali e le autonomie, di concerto con i Ministri dell'economia e delle finanze e per la pubblica amministrazione;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto legislativo:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Modifiche all'articolo 12 del decreto del Presidente 
+ della Repubblica 15 luglio 1988, n. 305</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main#art_12" ns5:target="olf:it/dpr/stato/1988/305/art_12" ns5:relation="amends">articolo 12 del decreto del Presidente della Repubblica 15 luglio 1988, n. 305</ref>, dopo il comma 1, e' aggiunto il seguente:
+«1-bis. Alle sezioni e alle procure indicate al comma 1 puo' essere assegnato, in posizione di comando, personale appartenente alla Provincia autonoma di riferimento ovvero alla regione e ad altri enti pubblici compresi nel sistema territoriale integrato di cui all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main#art_79-com3" ns6:target="olf:it/dpr/stato/1972/670/art_79-com3" ns6:relation="cites">articolo 79, comma 3, del decreto del Presidente della Repubblica 31 agosto 1972, n. 670</ref>. Ferma restando la facolta' della Corte di chiedere personale in comando anche da altri enti pubblici, la regolazione e la programmazione delle predette assegnazioni in comando, anche con riguardo all'attivazione di eventuali procedure di stabilizzazione secondo l'ordinamento della Corte dei conti, sono stabilite con decreti approvati d'intesa tra il Presidente della Corte e il Presidente della Regione ovvero il Presidente della Provincia autonoma di riferimento, che intervengono nell'ambito dell'esercizio delle funzioni di coordinamento della finanza degli enti pubblici di cui all'articolo 79, comma 3, del citato <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972/670/!main" ns7:resolution="unresolved">decreto del Presidente della Repubblica n. 670 del 1972</ref>. I singoli provvedimenti di assegnazione e revoca del comando sono disposti dall'ente interessato su richiesta dei Presidenti di ciascuna Sezione o del Procuratore regionale interessati, d'intesa con il Segretario generale della Corte dei conti.». 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art.10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns8:target="olf:it/dpr/stato/1985/1092" ns8:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ Note alle premesse: 
+ - L'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns9:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns9:relation="cites">art. 87, quinto comma, della Costituzione</ref> conferisce al Presidente della Repubblica il potere di promulgare le leggi e di emanare i decreti aventi valore di legge ed i regolamenti. 
+ - Il <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main" ns10:target="olf:it/dpr/stato/1972/670" ns10:relation="cites">decreto del Presidente della Repubblica 31 agosto 1972, n. 670</ref>, recante «Approvazione del testo unico delle leggi costituzionali concernenti lo statuto speciale per il Trentino-Alto Adige.», e' pubblicato nella Gazzetta Ufficiale 20 novembre 1972, n. 301. 
+ - Il <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main" ns11:target="olf:it/dpr/stato/1988/305" ns11:relation="amends">decreto del Presidente della Repubblica 15 luglio 1988, n. 305</ref> recante «Norme di attuazione dello statuto speciale per la regione Trentino-Alto Adige per l'istituzione delle sezioni di controllo della Corte dei conti di Trento e di Bolzano e per il personale ad esse addetto» e' pubblicato nella Gazzetta Ufficiale 30 luglio 1988 n. 178. 
+ - Il testo dell'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main#art_107" ns12:target="olf:it/dpr/stato/1972/670/art_107" ns12:relation="cites">articolo 107 del decreto del Presidente della Repubblica 31 agosto 1972, n. 670</ref>, recante «Approvazione del testo unico delle leggi costituzionali concernenti lo statuto speciale per il Trentino-Alto Adige» e' il seguente: 
+ «Art. 107 - Con decreti legislativi saranno emanate le norme di attuazione del presente statuto, sentita una commissione paritetica composta di dodici membri di cui sei in rappresentanza dello Stato, due del Consiglio regionale, due del Consiglio provinciale di Trento e due di quello di Bolzano. Tre componenti devono appartenere al gruppo linguistico tedesco o ladino. 
+ In seno alla commissione di cui al precedente comma e' istituita una speciale commissione per le norme di attuazione relative alle materie attribuite alla competenza della Provincia di Bolzano, composta di sei membri, di cui tre in rappresentanza dello Stato e tre della provincia.
+ Uno dei membri in rappresentanza dello Stato deve appartenere al gruppo linguistico tedesco o ladino; uno di quelli in rappresentanza della provincia deve appartenere al gruppo linguistico italiano. La maggioranza dei consiglieri provinciali del gruppo linguistico tedesco o italiano puo' rinunciare alla designazione di un proprio rappresentante in favore di un appartenente al gruppo linguistico ladino.» 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo dell'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main#art_12" ns13:target="olf:it/dpr/stato/1988/305/art_12" ns13:relation="amends">articolo 12 del decreto del Presidente della Repubblica 15 luglio 1988, n. 305</ref> come modificato dal presente decreto: 
+ «Art. 12 - 1. 1. Le spese relative al personale ed al funzionamento delle sezioni giurisdizionali, delle procure e delle sezioni di controllo aventi sede a Trento e a Bolzano sono a carico dello Stato; le spese relative ai locali ed alla loro manutenzione sono a carico delle province autonome. 
+ 1-bis . Alle sezioni e alle procure indicate al comma 1 puo' essere assegnato, in posizione di comando, personale appartenente alla Provincia autonoma di riferimento ovvero alla Regione e ad altri enti pubblici compresi nel sistema territoriale integrato di cui all'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main#art_79-com3" ns14:target="olf:it/dpr/stato/1972/670/art_79-com3" ns14:relation="cites">articolo 79, comma 3, del decreto del Presidente della Repubblica 31 agosto 1972, n. 670</ref>. Ferma restando la facolta' della Corte di chiedere personale in comando anche da altri enti pubblici, la regolazione e la programmazione delle predette assegnazioni in comando, anche con riguardo all'attivazione di eventuali procedure di stabilizzazione secondo l'ordinamento della Corte dei conti, sono stabilite con decreti approvati d'intesa tra il Presidente della Corte e il Presidente della Regione ovvero il Presidente della Provincia autonoma di riferimento, che intervengono nell'ambito dell'esercizio delle funzioni di coordinamento della finanza degli enti pubblici di cui all'articolo 79, comma 3, del citato <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972/670/!main" ns15:resolution="unresolved">decreto del Presidente della Repubblica n. 670 del 1972</ref>. I singoli provvedimenti di assegnazione e revoca del comando sono disposti dall'ente interessato su richiesta dei Presidenti di ciascuna Sezione o del Procuratore regionale interessati, d'intesa con il Segretario generale della Corte dei conti.» 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Modifiche all'articolo 17 del decreto del Presidente 
+ della Repubblica 15 luglio 1988, n. 305</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>All'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main#art_17" ns16:target="olf:it/dpr/stato/1988/305/art_17" ns16:relation="amends">articolo 17 del decreto del Presidente della Repubblica 15 luglio 1988, n. 305</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>il comma 1-bis e' sostituito dal seguente: «1-bis. La dotazione organica di ciascuna sezione di controllo di cui alle tabelle A e C allegate al presente decreto include due consiglieri nominati con le modalita' e in possesso dei requisiti previsti dall'articolo unico del <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1977-07-08/385/!main" ns17:target="olf:it/dpr/stato/1977/385" ns17:relation="cites">decreto del Presidente della Repubblica 8 luglio 1977, n. 385</ref> e dalle conseguenti disposizioni regolamentari del Consiglio di presidenza, concernenti i consiglieri di nomina governativa, sulla base di designazione, rispettivamente, del Consiglio della Provincia autonoma di Trento e di quello della Provincia autonoma di Bolzano. La nomina a consigliere ai sensi del presente comma ha effetto fino al collocamento a riposo dello stesso.
+L'assegnazione alla sezione di prima nomina ha la durata minima di 10 anni. Alla scadenza, i consiglieri nominati ai sensi del presente articolo possono essere assegnati esclusivamente ad altra sezione di controllo con carenza di organico avente sede a Trento e a Bolzano, salvo quanto previsto dall'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1976-07-26/752/!main#art_38" ns18:target="olf:it/dpr/stato/1976/752/art_38" ns18:relation="cites">articolo 38 del decreto del Presidente della Repubblica 26 luglio 1976, n. 752</ref>. Gli stessi consiglieri non possono accedere al ruolo di presidente di sezione.»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>dopo il comma 1-bis e' aggiunto il seguente: «1-ter. I presidenti delle sezioni di controllo assicurano che le rispettive deliberazioni siano adottate in composizione collegiale con la presenza di almeno tre magistrati, nella quale siano presenti in minoranza magistrati nominati ai sensi del comma 1-bis. Nel caso di cui all'articolo 10 il presidente del collegio composto dalle sezioni riunite regionali assicura che le deliberazioni siano adottate in composizione collegiale con la presenza di almeno cinque magistrati, nella quale siano presenti in minoranza magistrati nominati ai sensi del comma 1-bis.». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta il testo dell'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main#art_17" ns19:target="olf:it/dpr/stato/1988/305/art_17" ns19:relation="amends">articolo 17 del decreto del Presidente della Repubblica 15 luglio 1988, n. 305</ref> come modificato dal presente decreto: 
+ «Art. 17 - 1. Per far fronte a straordinarie esigenze di funzionamento delle sezioni della Corte dei conti e della relativa procura aventi sede a Bolzano, il Presidente della Corte stessa puo' provvedere con le necessarie assegnazioni di magistrati, preferibilmente a conoscenza della lingua tedesca. Tali assegnazioni non possono superare la durata di un anno. 
+ 1-bis- La dotazione organica di ciascuna sezione di controllo di cui alle tabelle A e C allegate al presente decreto include due consiglieri nominati con le modalita' e in possesso dei requisiti previsti dall'articolo unico del <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1977-07-08/385/!main" ns20:target="olf:it/dpr/stato/1977/385" ns20:relation="cites">decreto del Presidente della Repubblica 8 luglio 1977, n. 385</ref> e dalle conseguenti disposizioni regolamentari del Consiglio di presidenza, concernenti i consiglieri di nomina governativa, sulla base di designazione, rispettivamente, del Consiglio della Provincia autonoma di Trento e di quello della Provincia autonoma di Bolzano. La nomina a consigliere ai sensi del presente comma ha effetto fino al collocamento a riposo dello stesso. L'assegnazione alla sezione di prima nomina ha la durata minima di 10 anni. Alla scadenza, i consiglieri nominati ai sensi del presente articolo possono essere assegnati esclusivamente ad altra sezione di controllo con carenza di organico avente sede a Trento e a Bolzano, salvo quanto previsto dall'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1976-07-26/752/!main#art_38" ns21:target="olf:it/dpr/stato/1976/752/art_38" ns21:relation="cites">articolo 38 del decreto del Presidente della Repubblica 26 luglio 1976, n. 752</ref>. Gli stessi consiglieri non possono accedere al ruolo di presidente di sezione. 
+ 1-ter. I presidenti delle sezioni di controllo assicurano che le rispettive deliberazioni siano adottate in composizione collegiale con la presenza di almeno tre magistrati, nella quale siano presenti in minoranza magistrati nominati ai sensi del comma 1-bis. Nel caso di cui all'articolo 10 il presidente del collegio composto dalle sezioni riunite regionali assicura che le deliberazioni siano adottate in composizione collegiale con la presenza di almeno cinque magistrati, nella quale siano presenti in minoranza magistrati nominati ai sensi del comma 1-bis.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Sostituzione delle tabelle allegate al decreto 
+ del Presidente della Repubblica 15 luglio 1988, n. 305</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le tabelle A, B, C, e D allegate al <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main" ns22:target="olf:it/dpr/stato/1988/305" ns22:relation="amends">decreto del Presidente della Repubblica 15 luglio 1988, n. 305</ref>, sono sostituite dalle corrispondenti tabelle allegate al presente decreto. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Disposizione transitoria</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le disposizioni di cui al secondo periodo e seguenti dell'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988/305/!main#art_17-com1bis" ns23:resolution="unresolved">articolo 17, comma 1-bis, del decreto del Presidente della Repubblica n. 305 del 1988</ref>, come modificato dal comma 1, lettera a) dell'articolo 2, sono applicabili ai consiglieri nominati e in servizio alla data di entrata in vigore del presente articolo ai sensi dell'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988/305/!main#art_17-com1bis" ns24:resolution="unresolved">articolo 17, comma 1-bis, del decreto del Presidente della Repubblica n. 305 del 1988</ref>, nel testo vigente antecedentemente alla medesima data. A tal fine si provvede con decreto del Presidente della Repubblica, previo parere vincolante del Consiglio di presidenza della Corte dei conti, su proposta del presidente della sezione di controllo interessata. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading>Assunzioni di personale togato e amministrativo destinato alle sedi della Corte dei conti di Trento e di Bolzano.</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di attuare la riforma del <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main" ns25:target="olf:it/dpr/stato/1988/305" ns25:relation="amends">decreto del Presidente della Repubblica 15 luglio 1988, n. 305</ref>, recante «Norme di attuazione dello statuto speciale per la Regione Trentino-Alto Adige/Südtirol per l'istituzione delle sezioni di controllo della Corte dei conti di Trento e di Bolzano e per il personale ad esse addetto», la Corte dei conti e' autorizzata ad assumere un numero di consiglieri pari a 6 unita' nel limite di una spesa di 676.243 euro per l'anno 2022, di 1.371.949 euro per l'anno 2023, di 1.397.838 euro per gli anni 2024 e 2025, di 1.573.660 euro per gli anni 2026 e 2027, di 1.602.358 euro per gli anni 2028 e 2029, di 1.631.056 euro per gli anni 2030 e 2031, di euro 1.659.754 a decorrere dall'anno 2032. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per le medesime finalita' di cui al comma 1 del presente articolo, la Corte dei conti e' autorizzata a bandire procedure concorsuali pubbliche e, conseguentemente, ad assumere con contratto di lavoro subordinato a tempo indeterminato un contingente di personale non dirigenziale pari a complessive 23 unita' da inquadrare nell'Area terza del CCNL del Comparto funzioni centrali, nel limite di una spesa pari a 650.603 euro per l'anno 2022 e a 1.301.205 euro a decorrere dall'anno 2023. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>All'attuazione del presente articolo si provvede a valere sulle risorse del bilancio della Corte dei conti disponibili a legislazione vigente. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 14 luglio 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Gelmini, Ministro per gli affari regionali e le autonomie Franco, Ministro dell'economia e delle finanze Brunetta, Ministro per la pubblica amministrazione Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato A">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legislativo:2022-07-14;107"/>
+                                <FRBRalias name="eli" value="eli/id/2022/08/04/22G00115/ORIGINAL"/>
+                                <FRBRdate date="2022-08-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19"/>
+                                <FRBRdate date="2022-08-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19.xml"/>
+                                <FRBRdate date="2022-07-14" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato A 
+Sostituzione della Tabella A allegata al <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main#art_3" ns26:target="olf:it/dpr/stato/1988/305/art_3" ns26:relation="amends">decreto del Presidente della Repubblica 15 luglio 1988, n. 305 (articolo 3</ref>) 
+ 
+
+«Tabella A
+
+ UFFICI CON SEDE IN TRENTO
+
+ Personale di magistratura
+
+</p>
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <p>Sezione di controllo </p>
+                                        </th>
+                                        <th>
+                                            <p>Posti </p>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Presidente di Sezione </p>
+                                        </td>
+                                        <td>
+                                            <p>1 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Consigliere, Primo referendario o referendario </p>
+                                        </td>
+                                        <td>
+                                            <p> 4 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Sezione giurisdizionale </p>
+                                        </td>
+                                        <td>
+                                            <p/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Presidente di Sezione </p>
+                                        </td>
+                                        <td>
+                                            <p>1 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Consigliere, Primo referendario o referendario </p>
+                                        </td>
+                                        <td>
+                                            <p> 3 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Procura presso la Sezione giurisdizionale di Trento </p>
+                                        </td>
+                                        <td>
+                                            <p/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Presidente di Sezione </p>
+                                        </td>
+                                        <td>
+                                            <p>1 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Consigliere, Primo referendario o referendario </p>
+                                        </td>
+                                        <td>
+                                            <p> 2 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Totale </p>
+                                        </td>
+                                        <td>
+                                            <p>12 </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p>
+
+ 
+ 
+--------------- 
+Nota redazionale 
+ Il testo del presente allegato e' gia' integrato con le correzioni apportate dall'errata-corrige pubblicato in G.U. 05/08/2022, n. 182 durante il periodo di "vacatio legis". 
+ E' possibile visualizzare il testo originario accedendo alla versione pdf della relativa Gazzetta di pubblicazione. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato B">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legislativo:2022-07-14;107"/>
+                                <FRBRalias name="eli" value="eli/id/2022/08/04/22G00115/ORIGINAL"/>
+                                <FRBRdate date="2022-08-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19"/>
+                                <FRBRdate date="2022-08-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19.xml"/>
+                                <FRBRdate date="2022-07-14" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato B 
+ Sostituzione della Tabella B allegata al <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main#art_3" ns27:target="olf:it/dpr/stato/1988/305/art_3" ns27:relation="amends">decreto del Presidente della Repubblica 15 luglio 1988, n. 305 (articolo 3</ref>) 
+ «Tabella B 
+ 
+ UFFICI CON SEDE IN TRENTO 
+ 
+ Personale della carriera dirigenziale ed amministrativa 
+ 
+ </p>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p> 
+
+=====================================================================
+|                        Sezione di controllo                       |
++===========================+==============================+========+
+|      Aree funzionali      |     Qualifica o profilo      | Posti  |
++---------------------------+------------------------------+--------+
+|                           |Dirigente                     |   1    |
++---------------------------+------------------------------+--------+
+|Area III                   |Funzionario amministrativo    |   16   |
++---------------------------+------------------------------+--------+
+|                           |Traduttore                    |   1*   |
++---------------------------+------------------------------+--------+
+|Area II                    |Assistente                    |   10   |
++---------------------------+------------------------------+--------+
+|                                                    Totale|   28   |
++----------------------------------------------------------+--------+
+|                       Sezione giurisdizionale                     |
++---------------------------+------------------------------+--------+
+|                           |     Qualifica o profilo      |        |
+|                           |    professionale e fasce     |  Posti |
+|           Aree            |         retributive          |        |
++---------------------------+------------------------------+--------+
+|Area III                   |Coordinatore F4/F5/F6         |    1   |
++---------------------------+------------------------------+--------+
+|                           |Funzionario F3/F4/F5          |    3   |
++---------------------------+------------------------------+--------+
+|                           |Collaboratore                 |    4   |
+|                           |F1/F2/F3/F4/F5/F6             |        |
++---------------------------+------------------------------+--------+
+|                           |Operatore amministrativo      |    4   |
+|Area II                    |Assistente F3/F4/F5/F6        |        |
++---------------------------+------------------------------+--------+
+|Area I                     |Ausiliario F1/F2/F3           |    1   |
++---------------------------+------------------------------+--------+
+|                                                    Totale|    13  |
++----------------------------------------------------------+--------+
+</p>
+                                        </td>
+                                    </tr> </table>
+                                <p>
+    
+ (*) Anche per analoghe esigenze della Procura regionale e della Sezione giurisdizionale 
+ </p>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p> 
+
+=====================================================================
+|         Procura regionale presso la Sezione giurisdizionale       |
++=============================+===========================+=========+
+|       Aree funzionali       |    Qualifica o profilo    |  Posti  |
++-----------------------------+---------------------------+---------+
+|Area III                     |Funzionario di segreteria  |    2    |
++-----------------------------+---------------------------+---------+
+|                             |Collaboratore di segreteria|    4    |
++-----------------------------+---------------------------+---------+
+|Area II                      |Assistente amministrativo  |    1    |
++-----------------------------+---------------------------+---------+
+|                             |Operatore amministrativo   |    2    |
++-----------------------------+---------------------------+---------+
+|                             |Coadiutore                 |    2    |
++-----------------------------+---------------------------+---------+
+|                             |Addetto ai servi ausiliari |         |
+|Area I                       |e di anticamera            |    1    |
++-----------------------------+---------------------------+---------+
+|                                                   Totale|   12    |
++---------------------------------------------------------+---------+
+</p>
+                                        </td>
+                                    </tr> </table>
+                                <p/>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato C">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legislativo:2022-07-14;107"/>
+                                <FRBRalias name="eli" value="eli/id/2022/08/04/22G00115/ORIGINAL"/>
+                                <FRBRdate date="2022-08-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19"/>
+                                <FRBRdate date="2022-08-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19/!main/annesso_3.xml"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19.xml"/>
+                                <FRBRdate date="2022-07-14" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato C 
+ Sostituzione della Tabella C allegata al <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main#art_3" ns28:target="olf:it/dpr/stato/1988/305/art_3" ns28:relation="amends">decreto del Presidente della Repubblica 15 luglio 1988, n. 305 (articolo 3</ref>) 
+ «Tabella C 
+ 
+ UFFICI CON SEDE IN BOLZANO 
+ 
+ Personale di magistratura 
+ 
+ </p>
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <p>Sezione di controllo </p>
+                                        </th>
+                                        <th>
+                                            <p>Posti </p>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Presidente di Sezione </p>
+                                        </td>
+                                        <td>
+                                            <p>1 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Consigliere, Primo referendario o referendario </p>
+                                        </td>
+                                        <td>
+                                            <p> 4 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Sezione giurisdizionale </p>
+                                        </td>
+                                        <td>
+                                            <p/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Presidente di Sezione </p>
+                                        </td>
+                                        <td>
+                                            <p>1 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Consigliere, Primo referendario o referendario </p>
+                                        </td>
+                                        <td>
+                                            <p> 3 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Procura presso la Sezione giurisdizionale di Bolzano </p>
+                                        </td>
+                                        <td>
+                                            <p/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Procuratore regionale </p>
+                                        </td>
+                                        <td>
+                                            <p>1 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Consigliere, Primo referendario o referendario </p>
+                                        </td>
+                                        <td>
+                                            <p> 2 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Totale </p>
+                                        </td>
+                                        <td>
+                                            <p>12 </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p/>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato D">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legislativo:2022-07-14;107"/>
+                                <FRBRalias name="eli" value="eli/id/2022/08/04/22G00115/ORIGINAL"/>
+                                <FRBRdate date="2022-08-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19"/>
+                                <FRBRdate date="2022-08-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19/!main/annesso_4.xml"/>
+                                <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2022-07-14/107/ita@2022-08-19.xml"/>
+                                <FRBRdate date="2022-07-14" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato D 
+ Sostituzione della Tabella D allegata al <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1988-07-15/305/!main#art_3" ns29:target="olf:it/dpr/stato/1988/305/art_3" ns29:relation="amends">decreto del Presidente della Repubblica 15 luglio 1988, n. 305 (articolo 3</ref>). 
+ «Tabella D 
+ 
+ UFFICI CON SEDE IN BOLZANO 
+ 
+ Personale della carriera dirigenziale ed amministrativa 
+ </p>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p> 
+
+ =================================================================
+  |                      Sezione di controllo                     |
+  +=====================+=============================+===========+
+  |   Aree funzionali   |     Qualifica o profilo     |   Posti   |
+  +---------------------+-----------------------------+-----------+
+  |                     |          Dirigente          |     1     |
+  +---------------------+-----------------------------+-----------+
+  |Area III             |Funzionario amministrativo   |    16     |
+  +---------------------+-----------------------------+-----------+
+  |                     |Traduttore                   |     2     |
+  +---------------------+-----------------------------+-----------+
+  |Area II              |Assistente                   |     8     |
+  +---------------------+-----------------------------+-----------+
+  |                                            Totale |    27     |
+  +---------------------------------------------------+-----------+
+
+ =================================================================
+  |                    Sezione giurisdizionale                    |
+  +===============================+=====================+=========+
+  |                               |                     |         |
+  |                               |AREA III             |   6*    |
+  |                               |---------------------+---------+
+  |Personale della carriera       |AREA II              |   4**   |
+  |amministrativa                 |---------------------+---------+
+  |                               |AREA I               |  1***   |
+  |                               |---------------------+---------+
+  |                               |Totale (compreso il  |         |
+  |                               |dirigente)           |   11    |
+  +-------------------------------+---------------------+---------+
+</p>
+                                        </td>
+                                    </tr> </table>
+                                <p>
+    
+ * 1 coordinatore, 1 traduttore, 2 funzionari, 2 collaboratori; 
+ ** 2 assistenti, 1 operatore, 1 addetto; 
+ *** 1 ausiliario. 
+ </p>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p> 
+
+=====================================================================
+|                         Procura regionale                         |
++===========================+===================+===================+
+|                           |AREA III           | 4 + 2 traduttori  |
+|                           |-------------------+-------------------+
+|Personale amministrativo   |AREA II + AREA I   |         4         |
+|                           |-------------------+-------------------+
+|                           |Totale (escluso il |                   |
+|                           |dirigente)         |        10         |
++---------------------------+-------------------+-------------------+
+</p>
+                                        </td>
+                                    </tr> </table>
+                                <p/>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
