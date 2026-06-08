@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2026-01-26/1/!main"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2026-01-26/1"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge.costituzionale:2026-01-26;1"/>
+                    <FRBRalias name="eli" value="eli/id/2026/02/09/26G00030/ORIGINAL"/>
+                    <FRBRdate date="2026-01-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/02/09/26G00030/ORIGINAL" aknrelname="eli/id/2026/02/09/26G00030/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifiche alla legge costituzionale 31 gennaio 1963, n. 1, recante Statuto speciale della Regione Friuli-Venezia Giulia. (26G00030)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="26G00030" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE COSTITUZIONALE"/>
+                            <nrdfa:span content="2026-01-26" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2026-01-26/1/ita@2026-02-24/!main"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2026-01-26/1/ita@2026-02-24"/>
+                    <FRBRdate date="2026-02-24" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/02/09/26G00030/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2026/02/09/26G00030/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2026/02/09/26G00030/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2026-01-26/1/ita@2026-02-24/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2026-01-26/1/ita@2026-02-24.xml"/>
+                    <FRBRdate date="2026-01-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/02/09/26G00030/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2026-02-09" name="" number="32" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2026-02-09" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE_COSTITUZIONALE/stato/2026-01-26/1/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2026/02/09/26G00030/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifiche alla legge costituzionale 31 gennaio 1963, n. 1, recante Statuto speciale della Regione Friuli-Venezia Giulia. (26G00030)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>26G00030</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE COSTITUZIONALE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2026-01-26</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/02/09/26G00030/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2026/02/09/26G00030/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2026/02/09/26G00030/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/02/09/26G00030/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge-costituzionale/stato/2026/1" nativeUrn="urn:nir:stato:legge.costituzionale:2026-01-26;1" jurisdiction="it"/><ns0:lifecycle inForceFrom="2026-02-09"><ns0:event type="enacted" date="2026-01-26"/><ns0:event type="published" date="2026-02-09"/><ns0:event type="commenced" date="2026-02-09"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/93329eff-368e-4bcb-99fa-4d998057bd96" sourceSha256="de31f83bf309fd31141264e49d687328e31b6d27df62d01f0cbac541f896d56d" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T17:50:16.028530Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE COSTITUZIONALE</docType>
+                <docDate date="2026-01-26">26 gennaio 2026</docDate>
+                <docNumber>1</docNumber>
+                <docTitle>Modifiche alla legge costituzionale 31 gennaio 1963, n. 1, recante Statuto speciale della Regione Friuli-Venezia Giulia. (26G00030) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 24/02/2026</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge costituzionale:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Modifica all'articolo 5 
+ della legge costituzionale n. 1 del 1963</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al numero 18) dell'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_5" ns1:target="olf:it/legge-costituzionale/stato/1963/1/art_5" ns1:relation="cites">articolo 5 della legge costituzionale 31 gennaio 1963, n. 1</ref>, le parole: «edilizia popolare» sono sostituite dalle seguenti: «edilizia residenziale pubblica». 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'articolo 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_5" ns3:target="olf:it/legge-costituzionale/stato/1963/1/art_5" ns3:relation="cites">articolo 5 della legge costituzionale 31 gennaio 1963, n. 1</ref> (Statuto speciale della Regione Friuli-Venezia Giulia), pubblicata nella Gazzetta Ufficiale n. 29 del 1° febbraio 1963, come modificato dalla presente legge: 
+ «Art. 5 - Con l'osservanza dei limiti generali indicati nello articolo 4 ed in armonia con i principi fondamentali stabiliti dalle leggi dello Stato nelle singole materie, la Regione ha potesta' legislativa nelle seguenti materie: 
+ 1) 
+ 2) disciplina del referendum previsto negli articoli 7 e 33; 
+ 3) istituzione di tributi regionali prevista nell'articolo 51; 
+ 4) (abrogato); 
+ 5); 
+ 6) istituzioni pubbliche di assistenza e beneficenza; 
+ 7) disciplina dei servizi pubblici di interesse regionale ed assunzione di tali servizi; 
+ 8) ordinamento delle Casse di risparmio, delle Casse rurali; degli Enti aventi carattere locale o regionale per i finanziamenti delle attivita' economiche nella Regione; 
+ 9) istituzione e ordinamento di Enti di carattere locale o regionale per lo studio di programmi di sviluppo economico; 
+ 10) miniere, cave e torbiere; 
+ 11) espropriazione per pubblica utilita' non riguardanti opere a carico dello Stato; 
+ 12) linee marittime di cabotaggio tra gli scali della Regione; 
+ 13) polizia locale, urbana e rurale; 
+ 14) utilizzazione delle acque pubbliche, escluse le grandi derivazioni: opere idrauliche di 4ª e 5ª categoria; 
+ 15) istruzione artigiana e professionale successiva alla scuola obbligatoria; assistenza scolastica; 
+ 16) igiene e sanita', assistenza sanitaria ed ospedaliera, nonche' il recupero dei minorati fisici e mentali; 
+ 17) cooperazione, compresa la vigilanza sulle cooperative; 
+ 18) edilizia residenziale pubblica; 
+ 19) toponomastica; 
+ 20) servizi antincendi; 
+ 21) annona; 
+ 22) opere di prevenzione e soccorso per calamita' naturali.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Modifica all'articolo 7 
+ della legge costituzionale n. 1 del 1963</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dopo il numero 3) dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_7" ns4:target="olf:it/legge-costituzionale/stato/1963/1/art_7" ns4:relation="cites">articolo 7 della legge costituzionale 31 gennaio 1963, n. 1</ref>, e' aggiunto il seguente: 
+ «3-bis) all'istituzione di nuovi enti di area vasta e alla modificazione della loro circoscrizione e denominazione, intese le popolazioni interessate». 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta il testo dell'articolo 7 della citata <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main" ns5:target="olf:it/legge-costituzionale/stato/1963/1" ns5:relation="cites">legge costituzionale 31 gennaio 1963, n. 1</ref>, come modificato dalla presente legge: 
+ «Art. 7. - La Regione provvede con legge: 
+ 1) all'approvazione dei bilanci di previsione e dei rendiconti consuntivi; 
+ 2) alla contrattazione dei mutui ed alla emissione dei prestiti indicati nell'articolo 52; 
+ 3) all'istituzione di nuovi Comuni, anche in forma di Citta' metropolitane, ed alla modificazione della loro circoscrizione e denominazione, intese le popolazioni interessate; 
+ 3-bis) all'istituzione di nuovi enti di area vasta e alla modificazione della loro circoscrizione e denominazione, intese le popolazioni interessate.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Modifica dell'articolo 8 
+ della legge costituzionale n. 1 del 1963</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>L'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_8" ns6:target="olf:it/legge-costituzionale/stato/1963/1/art_8" ns6:relation="cites">articolo 8 della legge costituzionale 31 gennaio 1963, n. 1</ref>, e' sostituito dal seguente: 
+ «Art. 8. - 1. La Regione esercita funzioni di programmazione nonche' funzioni amministrative nelle materie in cui ha potesta' legislativa a norma degli articoli 4 e 5, in conformita' ai principi della Costituzione e del presente Statuto». 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Modifica all'articolo 11 
+ della legge costituzionale n. 1 del 1963</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_11-com1" ns7:target="olf:it/legge-costituzionale/stato/1963/1/art_11-com1" ns7:relation="cites">comma 1 dell'articolo 11 della legge costituzionale 31 gennaio 1963, n. 1</ref>, e' aggiunto, in fine, il seguente periodo: «Gli enti di area vasta sono titolari di funzioni amministrative proprie, individuate con legge regionale, e di quelle conferite con legge regionale». 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Si riporta il testo dell'articolo 11 della citata <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main" ns8:target="olf:it/legge-costituzionale/stato/1963/1" ns8:relation="cites">legge costituzionale 31 gennaio 1963, n. 1</ref>, come modificato dalla presente legge: 
+ «Art. 11. - 1. I Comuni, anche nella forma di Citta' metropolitane, sono titolari di funzioni amministrative proprie e di quelle conferite con legge statale o regionale, secondo le rispettive competenze. Gli enti di area vasta sono titolari di funzioni amministrative proprie, individuate con legge regionale, e di quelle conferite con legge regionale. 
+ 2. In attuazione dei principi di adeguatezza, sussidiarieta' e differenziazione, la legge regionale disciplina le forme, anche obbligatorie, di esercizio associato delle funzioni comunali. 
+ 3. La Regione assicura i finanziamenti per l'esercizio delle funzioni conferite.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Modifiche all'articolo 12 
+ della legge costituzionale n. 1 del 1963</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_5__para_1__intro_1">
+                            <p>All'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_12" ns9:target="olf:it/legge-costituzionale/stato/1963/1/art_12" ns9:relation="cites">articolo 12 della legge costituzionale 31 gennaio 1963, n. 1</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_5__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>il quarto comma e' sostituito dal seguente: 
+ «La legge regionale di cui al secondo comma puo' essere sottoposta a referendum regionale secondo la disciplina prevista da apposita legge regionale»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_5__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>il quinto comma e' abrogato. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'art. 5: 
+ - Si riporta il testo dell'articolo 12 della citata <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main" ns10:target="olf:it/legge-costituzionale/stato/1963/1" ns10:relation="cites">legge costituzionale 31 gennaio 1963, n. 1</ref>, come modificato dalla presente legge: 
+ «Art. 12. - Sono organi della Regione: il Consiglio regionale, la Giunta regionale e il Presidente della Regione. 
+ In armonia con la Costituzione e i principi dell'ordinamento giuridico della Repubblica e con l'osservanza di quanto disposto dal presente Titolo, la legge regionale, approvata dal Consiglio regionale con la maggioranza assoluta dei suoi componenti, determina la forma di governo della Regione e, specificatamente, le modalita' di elezione del Consiglio regionale, del Presidente della Regione e degli assessori, i rapporti tra gli organi della Regione, la presentazione e l'approvazione della mozione motivata di sfiducia nei confronti del Presidente della Regione, i casi di ineleggibilita' e di incompatibilita' con le predette cariche, nonche' l'esercizio del diritto di iniziativa popolare delle leggi regionali e la disciplina del referendum regionale abrogativo, propositivo e consultivo. Al fine di conseguire l'equilibrio della rappresentanza dei sessi, la medesima legge promuove condizioni di parita' per l'accesso alle consultazioni elettorali. Le dimissioni contestuali della maggioranza dei componenti il Consiglio regionale comportano lo scioglimento del Consiglio stesso e l'elezione contestuale del nuovo Consiglio e del Presidente della Regione se eletto a suffragio universale e diretto.
+ Nel caso in cui il Presidente della Regione sia eletto dal Consiglio regionale, il Consiglio e' sciolto quando non sia in grado di funzionare per l'impossibilita' di formare una maggioranza entro sessanta giorni dalle elezioni o dalle dimissioni del Presidente stesso. 
+ La legge regionale di cui al secondo comma non e' comunicata al Commissario del Governo ai sensi del primo comma dell'articolo 29. Su di essa il Governo della Repubblica puo' promuovere la questione di legittimita' costituzionale dinanzi alla Corte costituzionale entro trenta giorni dalla sua pubblicazione. 
+ La legge regionale di cui al secondo comma puo' essere sottoposta a referendum regionale secondo la disciplina prevista da apposita legge regionale.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Modifica all'articolo 13 
+ della legge costituzionale n. 1 del 1963</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_13-com2" ns11:target="olf:it/legge-costituzionale/stato/1963/1/art_13-com2" ns11:relation="cites">comma 2 dell'articolo 13 della legge costituzionale 31 gennaio 1963, n. 1</ref>, e' sostituito dal seguente: 
+ «2. Il Consiglio regionale e' composto da quarantanove consiglieri». 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_5" placement="bottom">
+                                <p> Note all'art. 6: 
+ - Si riporta il testo dell'articolo 13 della citata <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main" ns12:target="olf:it/legge-costituzionale/stato/1963/1" ns12:relation="cites">legge costituzionale 31 gennaio 1963, n. 1</ref>, come modificato dalla presente legge: 
+ «Art. 13. - 1. Il Consiglio regionale e' eletto a suffragio universale diretto, uguale e segreto. 
+ 2. Il Consiglio regionale e' composto da quarantanove consiglieri». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Modifica all'articolo 54 
+ della legge costituzionale n. 1 del 1963</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_54" ns13:target="olf:it/legge-costituzionale/stato/1963/1/art_54" ns13:relation="cites">articolo 54 della legge costituzionale 31 gennaio 1963, n. 1</ref>, dopo le parole: «anche nella forma di Citta' metropolitane,» sono inserite le seguenti: «e degli enti di area vasta». 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_6" placement="bottom">
+                                <p> Note all'art. 7: 
+ - Si riporta il testo dell'articolo 54 della citata <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main" ns14:target="olf:it/legge-costituzionale/stato/1963/1" ns14:relation="cites">legge costituzionale 31 gennaio 1963, n. 1</ref>, come modificato dalla presente legge: 
+ «Art. 54. - Allo scopo di adeguare le finanze dei Comuni, anche nella forma di Citta' metropolitane, e degli enti di area vasta al raggiungimento delle finalita' ed all'esercizio delle funzioni stabilite dalle leggi, il Consiglio regionale puo' assegnare ad essi annualmente una quota delle entrate della Regione.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading> Modifiche all'articolo 59 
+ della legge costituzionale n. 1 del 1963</heading>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_8__para_1__intro_1">
+                            <p>All'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_59" ns15:target="olf:it/legge-costituzionale/stato/1963/1/art_59" ns15:relation="cites">articolo 59 della legge costituzionale 31 gennaio 1963, n. 1</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_8__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>al comma 1, dopo le parole: «anche nella forma di Citta' metropolitane,» sono inserite le seguenti: «e su enti di area vasta a elezione diretta,»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_8__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>dopo il comma 1 e' aggiunto il seguente: 
+ «1-bis. La legge regionale disciplina la prima istituzione, le circoscrizioni e, anche con modalita' differenziate, le funzioni, la forma di governo e le modalita' di elezione degli organi degli enti di area vasta». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_7" placement="bottom">
+                                <p> Note all'art. 8: 
+ - Si riporta il testo dell'articolo 59 della citata <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main" ns16:target="olf:it/legge-costituzionale/stato/1963/1" ns16:relation="cites">legge costituzionale 31 gennaio 1963, n. 1</ref>, come modificato dalla presente legge: 
+ «Art. 59. - 1. L'ordinamento degli enti locali della Regione si basa sui Comuni, anche nella forma di Citta' metropolitane, e su enti di area vasta a elezione diretta, quali enti autonomi obbligatori con propri statuti, poteri e funzioni, secondo i principi fissati dalla Costituzione e dal presente Statuto. 
+ 1-bis. La legge regionale disciplina la prima istituzione, le circoscrizioni e, anche con modalita' differenziate, le funzioni, la forma di governo e le modalita' di elezione degli organi degli enti di area vasta.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_9">
+                <num>Art. 9.</num>
+                <heading> Abrogazioni</heading>
+                <paragraph eId="art_9__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_9__para_1__intro_1">
+                            <p>Sono abrogate le seguenti disposizioni della <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main" ns17:target="olf:it/legge-costituzionale/stato/1963/1" ns17:relation="cites">legge costituzionale 31 gennaio 1963, n. 1</ref>: 
+ </p>
+                        </intro>
+                        <point eId="art_9__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>il numero 4) dell'articolo 5; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_9__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>gli articoli 29, 30 e 60. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_8" placement="bottom">
+                                <p> Note all'art. 9: 
+ - Per il testo dell'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_5" ns18:target="olf:it/legge-costituzionale/stato/1963/1/art_5" ns18:relation="cites">articolo 5 della legge costituzionale 31 gennaio 1963, n. 1</ref>, si veda nelle note all'articolo 1. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_10">
+                <num>Art. 10.</num>
+                <heading> Disposizioni finali</heading>
+                <paragraph eId="art_10__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Agli enti di area vasta di cui all'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_59" ns19:target="olf:it/legge-costituzionale/stato/1963/1/art_59" ns19:relation="cites">articolo 59 della legge costituzionale 31 gennaio 1963, n. 1</ref>, come modificato dall'articolo 8 della presente legge costituzionale, si applicano, in quanto compatibili, le norme di attuazione statutaria previste per gli enti locali. 
+ La presente legge costituzionale, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. 
+ Data a Roma, addi' 26 gennaio 2026 
+ 
+ MATTARELLA 
+ 
+ Meloni, Presidente del Consiglio dei ministri 
+Visto, il Guardasigilli: Nordio 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_9" placement="bottom">
+                                <p> Note all'art. 10: 
+ - Per il testo dell'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main#art_59" ns20:target="olf:it/legge-costituzionale/stato/1963/1/art_59" ns20:relation="cites">articolo 59 della legge costituzionale 31 gennaio 1963, n. 1</ref>, si veda nelle note all'articolo 8. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+    </act>
+</akomaNtoso>
