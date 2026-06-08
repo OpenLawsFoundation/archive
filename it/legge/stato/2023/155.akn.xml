@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-11-06/155/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-11-06/155"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-11-06;155"/>
+                    <FRBRalias name="eli" value="eli/id/2023/11/11/23G00164/ORIGINAL"/>
+                    <FRBRdate date="2023-11-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/11/11/23G00164/ORIGINAL" aknrelname="eli/id/2023/11/11/23G00164/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 12 settembre 2023, n. 121, recante misure urgenti in materia di pianificazione della qualita' dell'aria e limitazioni della circolazione stradale. (23G00164)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00164" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-11-06" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-11-06/155/ita@2023-11-12/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-11-06/155/ita@2023-11-12"/>
+                    <FRBRdate date="2023-11-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/11/11/23G00164/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/11/11/23G00164/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/11/11/23G00164/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-11-06/155/ita@2023-11-12/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-11-06/155/ita@2023-11-12.xml"/>
+                    <FRBRdate date="2023-11-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/11/11/23G00164/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-11-11" name="" number="264" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-11-11" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2023-11-06" refersTo="#S.870"/>
+                <step by="#camera" date="2023-11-06" refersTo="#C.1492"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-11-06;155#1"/>
+                        <destination href="urn:nir:stato:legge:2022-12-29;197#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 12 settembre 2023, n. 121 (in G.U. 12/09/2023, n. 213).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-11-06;155#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-09-12;121#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, 2 e 3 e l'introduzione dei commi 2-bis e 2-ter all'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-11-06;155#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-09-12;121#1 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-11-06;155#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-09-12;121#1 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-09-12/121/ita@2023-11-12/!main/~art_1__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-09-12/121/ita@2023-11-12/!main/~art_1__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-09-12/121/ita@2023-11-12/!main/~art_1__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-09-12/121/ita@2023-11-12/!main/~art_1__para_3"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-09-12/121/ita@2023-11-12/!main/~art_1__para_3"/>
+                        <old href="#modNov_1_old_5"/>
+                        <new href="#modNov_1_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-09-12/121/ita@2023-11-12/!main/~art_1"/>
+                        <new href="#modNov_1_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-09-12/121/ita@2023-11-12/!main"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-11-06/155/!main" showAs=""/>
+                <passiveRef eId="S.870" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;870" showAs=""/>
+                <passiveRef eId="C.1492" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1492" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/11/11/23G00164/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 12 settembre 2023, n. 121, recante misure urgenti in materia di pianificazione della qualita' dell'aria e limitazioni della circolazione stradale. (23G00164)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00164</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-11-06</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/11/11/23G00164/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/11/11/23G00164/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/11/11/23G00164/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/11/11/23G00164/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/155" nativeUrn="urn:nir:stato:legge:2023-11-06;155" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-11-11"><ns0:event type="enacted" date="2023-11-06"/><ns0:event type="published" date="2023-11-11"/><ns0:event type="commenced" date="2023-11-11"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/364e116f-0a17-4688-b7da-e155f0404db0" sourceSha256="df85dcd33f31f71993e068ac82590b30df87f592cebd30246937b6ddf962aacc" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T18:39:03.426410Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-11-06">06 novembre 2023</docDate>
+                <docNumber>155</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 12 settembre 2023, n. 121, recante misure urgenti in materia di pianificazione della qualita' dell'aria e limitazioni della circolazione stradale. (23G00164) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 12/11/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2023-09-12/121/!main" ns1:target="olf:it/decreto-legge/stato/2023/121" ns1:relation="amends">decreto-legge 12 settembre 2023, n. 121</ref>, recante misure urgenti in materia di pianificazione della qualita' dell'aria e limitazioni della circolazione stradale, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2023-09-12/121/!main" ns2:target="olf:it/decreto-legge/stato/2023/121" ns2:relation="amends">decreto-legge 12 settembre 2023, n. 121</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 213 del 12 settembre 2023. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 41. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 6 novembre 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Fitto, Ministro per gli affari europei, il Sud, le politiche di coesione e il PNRR Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-11-06/155/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-11-06/155"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-11-06;155"/>
+                                <FRBRalias name="eli" value="eli/id/2023/11/11/23G00164/ORIGINAL"/>
+                                <FRBRdate date="2023-11-12" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-11-06/155/ita@2023-11-12/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-11-06/155/ita@2023-11-12"/>
+                                <FRBRdate date="2023-11-12" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-11-06/155/ita@2023-11-12/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-11-06/155/ita@2023-11-12.xml"/>
+                                <FRBRdate date="2023-11-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 12 SETTEMBRE 2023, N. 121 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1, le parole: «in causa C-644/2018» sono sostituite dalle seguenti: «nella causa C-644/18», le parole: «in causa C-573/2019» sono sostituite dalle seguenti: «nella causa C-573/19», le parole: «entro sei mesi» sono sostituite dalle seguenti: «entro dodici mesi» e le parole: «della presente disposizione» sono sostituite dalle seguenti: «del presente decreto»; 
+ al comma 2: 
+ il primo periodo e' sostituito dal seguente: «Nelle more dell'aggiornamento di cui al comma 1, le regioni possono disporre la limitazione strutturale della circolazione stradale, nel periodo compreso tra il 1° ottobre di ciascun anno e il 31 marzo dell'anno successivo, delle autovetture e dei veicoli commerciali di categoria N1, N2 e N3 ad alimentazione diesel di categoria "Euro 5", esclusivamente a far data dal 1° ottobre 2024»; 
+ al secondo periodo, dopo le parole: «, si indicano» sono inserite le seguenti: «e si motivano» e dopo le parole: «relative deroghe» sono aggiunte le seguenti: «, fermo restando che le regioni escludono dalle limitazioni previste dal presente comma i veicoli ricadenti nelle categorie esplicitamente esentate dai divieti di circolazione di cui ai decreti adottati ai sensi dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_6-com1" ns4:target="olf:it/decreto-legislativo/stato/1992/285/art_6-com1" ns4:relation="cites">articolo 6, comma 1, del codice della strada</ref>, di cui al decreto legislativo 30 aprile 1992, n<quotedText eId="modNov_1_new_4">.</quotedText> 285»; 
+ al terzo periodo, le parole: «zone presso le quali» sono sostituite dalle seguenti: «zone nelle quali» e la parola: «NO2» e' sostituita dalla seguente: «NO2 »; 
+ al quarto periodo, dopo la parola: «limitazione» e' inserita la seguente: «strutturale», le parole: «diesel, di categoria "Euro 5"» sono sostituite dalle seguenti: «diesel di categoria "Euro 5"» e le parole: «piani della qualita'» sono sostituite dalle seguenti: «piani di qualita'»; 
+ dopo il comma 2 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_1_new_6">2-bis. Le regioni di cui al comma 1 possono esentare dalle limitazioni alla circolazione le autovetture e i veicoli commerciali di categoria N1, N2 e N3 a partire dalla categoria "Euro 3" monofuel o bifuel alimentati con i carburanti alternativi individuati nell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2016-12-16/257/!main#art_2-com1-leta" ns5:target="olf:it/decreto-legislativo/stato/2016/257/art_2-com1-leta" ns5:relation="cites">articolo 2, comma 1, lettera a), del decreto legislativo 16 dicembre 2016, n. 257</ref>. 
+ 2-ter. Con decreto del Ministro delle infrastrutture e dei trasporti, da adottare, di concerto con il Ministro dell'ambiente e della sicurezza energetica, entro sessanta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, e' disciplinata la circolazione sul territorio nazionale dei veicoli storici di cui all'articolo 60 del codice di cui al <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main" ns6:target="olf:it/decreto-legislativo/stato/1992/285" ns6:relation="cites">decreto legislativo 30 aprile 1992, n. 285</ref>. Con il decreto di cui al primo periodo sono individuate in particolare adeguate percorrenze chilometriche nonche' le modalita' di accesso di tali veicoli alle aree soggette alle limitazioni della circolazione di cui al comma 2 del presente articolo</quotedText>»; 
+ al comma 3, le parole: «<quotedText eId="modNov_1_old_5">provvedono all'attuazione del presente provvedimento</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_5">vi provvedono</quotedText>» ed e' aggiunto, in fine, il seguente segno di interpunzione: «.».</mod>
+                                    <mod eId="modNov_2">Dopo l'articolo 1 sono inseriti i seguenti: 
+ «Art. 1-bis (Sviluppo del turismo di prossimita', all'aria aperta ed ecosostenibile per l'abbattimento delle emissioni atmosferiche). - 1. Al fine di incentivare il turismo di prossimita' e all'aria aperta, che consente di abbattere le emissioni atmosferiche riducendo i lunghi spostamenti e favorendo la preservazione degli ecosistemi locali, secondo le strategie di accelerazione della transizione ecologica e di abbattimento delle emissioni atmosferiche che possono scaturire dalle attivita' turistiche, nello stato di previsione del Ministero del turismo e' istituito un fondo, con una dotazione di 32.870.000 euro per l'anno 2023, destinato al finanziamento di investimenti proposti dai comuni, volti alla creazione e alla riqualificazione di aree attrezzate di sosta temporanea a fini turistici e alla valorizzazione del turismo all'aria aperta, attraverso apposito bando da pubblicare da parte del Ministero del turismo. Gli interventi finanziati, identificati dal Codice unico di progetto ai sensi dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2003-01-16/3/!main#art_11" ns7:target="olf:it/legge/stato/2003/3/art_11" ns7:relation="cites">articolo 11 della legge 16 gennaio 2003, n. 3</ref>, recano un cronoprogramma e sono monitorati ai sensi del <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2011-12-29/229/!main" ns8:target="olf:it/decreto-legislativo/stato/2011/229" ns8:relation="cites">decreto legislativo 29 dicembre 2011, n. 229</ref>. 
+ 2. Agli oneri derivanti dal comma 1, pari a 32.870.000 euro per l'anno 2023, si provvede: 
+ a) quanto a euro 29.870.000, mediante corrispondente riduzione del Fondo unico nazionale per il turismo di conto capitale, di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1-com368" ns9:target="olf:it/legge/stato/2021/234/art_1-com368" ns9:relation="cites">articolo 1, comma 368, della legge 30 dicembre 2021, n. 234</ref>; 
+ b) quanto a euro 3 milioni, mediante corrispondente riduzione dello stanziamento del fondo speciale di conto capitale iscritto, ai fini del bilancio triennale 2023-2025, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2023, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero del turismo. 
+ 3. Al fine di ulteriormente favorire la transizione ecologica nel turismo, con azioni di promozione del turismo intermodale secondo le strategie di abbattimento delle emissioni atmosferiche che possono scaturire dalle attivita' turistiche, il Fondo istituito dall'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com611" ns10:target="olf:it/legge/stato/2022/197/art_1-com611" ns10:relation="amends">articolo 1, comma 611, della legge 29 dicembre 2022, n. 197</ref>, e' ulteriormente incrementato, per l'anno 2023, di euro 17 milioni. 
+ 4. Agli oneri derivanti dal comma 3, pari a euro 17 milioni per l'anno 2023, si provvede: 
+ a) quanto a euro 8.081.369, mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2023-2025, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2023, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero del turismo; 
+ b) quanto a euro 8.918.631, mediante corrispondente riduzione del Fondo unico nazionale per il turismo di parte corrente, di cui all'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1-com366" ns11:target="olf:it/legge/stato/2021/234/art_1-com366" ns11:relation="cites">articolo 1, comma 366, della legge 30 dicembre 2021, n. 234</ref>. 
+ Art. 1-ter (Misure in materia di riduzione dell'impatto ambientale del trasporto merci su gomma tramite potenziamento del trasporto aereo). - 1. Al fine di perseguire gli obiettivi nazionali ed europei connessi allo sviluppo del traffico merci per via aerea in coerenza con le esigenze nazionali e internazionali e con l'impegno a ridurre l'impatto ambientale del trasporto su gomma, l'intervento di implementazione del traffico merci dell'aeroporto di Malpensa, come individuato nello strumento di pianificazione degli interventi di adeguamento e potenziamento dello scalo trasmesso dall'Ente nazionale per l'aviazione civile in data 30 giugno 2020 al Ministero dell'ambiente e della sicurezza energetica ai fini dell'istanza di valutazione di impatto ambientale di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2006-04-03/152/!main#art_23" ns12:target="olf:it/decreto-legislativo/stato/2006/152/art_23" ns12:relation="cites">articolo 23 del decreto legislativo 3 aprile 2006, n. 152</ref>, e' riconosciuto opera strategica di preminente interesse nazionale con caratteri di indifferibilita', urgenza e pubblica utilita'. 
+ 2. Ai fini del rilascio dell'autorizzazione alla realizzazione dell'intervento di cui al comma 1, le amministrazioni e gli enti competenti, previa ricognizione dei provvedimenti adottati in relazione al medesimo intervento, provvedono entro trenta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, nel rispetto dei vincoli inderogabili derivanti dall'appartenenza all'Unione europea, a una nuova valutazione ai sensi dell'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/1990-08-07/241/!main#art_21quinquies" ns13:target="olf:it/legge/stato/1990/241/art_21quinquies" ns13:relation="cites">articolo 21-quinquies della legge 7 agosto 1990, n. 241</ref>, delle determinazioni adottate, ponderandole alla luce del riconoscimento del carattere strategico e di preminente interesse nazionale dell'intervento di cui al comma 1. 
+ 3. Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni competenti provvedono all'adempimento dei compiti di cui al presente articolo con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
