@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2026-03-09/35/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2026-03-09/35"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2026-03-09;35"/>
+                    <FRBRalias name="eli" value="eli/id/2026/03/24/26G00051/ORIGINAL"/>
+                    <FRBRdate date="2026-03-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/03/24/26G00051/ORIGINAL" aknrelname="eli/id/2026/03/24/26G00051/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifiche al codice penale e al regolamento di polizia mortuaria, di cui al decreto del Presidente della Repubblica 10 settembre 1990, n. 285, in materia di disposizione delle spoglie mortali delle vittime di omicidio. (26G00051)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="26G00051" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2026-03-09" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2026-03-09/35/ita@2026-04-08/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2026-03-09/35/ita@2026-04-08"/>
+                    <FRBRdate date="2026-04-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/03/24/26G00051/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2026/03/24/26G00051/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2026/03/24/26G00051/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2026-03-09/35/ita@2026-04-08/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2026-03-09/35/ita@2026-04-08.xml"/>
+                    <FRBRdate date="2026-03-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/03/24/26G00051/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2026-03-24" name="" number="69" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2026-03-24" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2026-03-09/35/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2026/03/24/26G00051/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifiche al codice penale e al regolamento di polizia mortuaria, di cui al decreto del Presidente della Repubblica 10 settembre 1990, n. 285, in materia di disposizione delle spoglie mortali delle vittime di omicidio. (26G00051)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>26G00051</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2026-03-09</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/03/24/26G00051/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2026/03/24/26G00051/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2026/03/24/26G00051/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/03/24/26G00051/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2026/35" nativeUrn="urn:nir:stato:legge:2026-03-09;35" jurisdiction="it"/><ns0:lifecycle inForceFrom="2026-03-24"><ns0:event type="enacted" date="2026-03-09"/><ns0:event type="published" date="2026-03-24"/><ns0:event type="commenced" date="2026-03-24"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/76558d29-f3a3-4ff6-a46e-df43da089a81" sourceSha256="acb3e0d8ef3b68d70aed15557f8efba8721b3d6b209d8828248d8a2562bfd265" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T17:47:38.229074Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2026-03-09">09 marzo 2026</docDate>
+                <docNumber>35</docNumber>
+                <docTitle>Modifiche al codice penale e al regolamento di polizia mortuaria, di cui al decreto del Presidente della Repubblica 10 settembre 1990, n. 285, in materia di disposizione delle spoglie mortali delle vittime di omicidio. (26G00051) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 08/04/2026</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Introduzione dell'articolo 585-bis del codice penale</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dopo l'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_585" ns1:target="olf:it/regio-decreto/stato/1930/1398/art_585" ns1:relation="cites">articolo 585 del codice penale</ref> e' inserito il seguente: 
+ «Art. 585-bis (Pena accessoria). - La condanna del coniuge, della parte dell'unione civile o del parente prossimo individuato ai sensi degli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_74" ns2:target="olf:it/codice-civile/stato/1942/262/art_74" ns2:relation="cites">articoli 74 e seguenti del codice civile</ref> o l'applicazione nei loro confronti della pena su richiesta delle parti ai sensi dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_444" ns3:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_444" ns3:relation="cites">articolo 444 del codice di procedura penale</ref> per alcuno dei delitti previsti dagli articoli 572, terzo comma, nel caso in cui dal fatto sia derivata la morte, 575, 578, primo comma, 579, 580, primo comma, primo periodo, 584 e 591, terzo comma, nel caso in cui dal fatto sia derivata la morte, del presente codice commessi a danno dell'altro coniuge, dell'altra parte dell'unione civile o del parente prossimo, comporta la loro decadenza dall'esercizio di ogni diritto e facolta' in tema di disposizione delle spoglie mortali della vittima». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La pena accessoria di cui all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_585bis" ns4:target="olf:it/regio-decreto/stato/1930/1398/art_585bis" ns4:relation="cites">articolo 585-bis del codice penale</ref>, introdotto dal comma 1 del presente articolo, si applica anche al convivente di fatto di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2016-05-20/76/!main#art_1-com36" ns5:target="olf:it/legge/stato/2016/76/art_1-com36" ns5:relation="cites">articolo 1, commi 36</ref> e <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2016-05-20/76/!main#art_1-com37" ns6:target="olf:it/legge/stato/2016/76/art_1-com37" ns6:relation="cites">37, della legge 20 maggio 2016, n. 76</ref>, se designato quale rappresentante con specifici poteri in caso di morte, ai sensi del comma 40, lettera b), e nelle forme di cui al comma 41 del medesimo articolo 1, al convivente di fatto che non ha reso la dichiarazione anagrafica di cui all'articolo 1, comma 37, della medesima <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2016/76/!main" ns7:resolution="unresolved">legge n. 76 del 2016</ref>, laddove lo stesso sia stato autorizzato a disporre delle spoglie mortali della vittima in virtu' di una espressa manifestazione di volonta' della medesima, nonche' ad ogni persona legata da relazione affettiva alla vittima, autorizzata nelle medesime forme a disporre delle spoglie mortali della vittima stessa. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns8:target="olf:it/dpr/stato/1985/1092" ns8:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo dei <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2016-05-20/76/!main#art_1-com36" ns9:target="olf:it/legge/stato/2016/76/art_1-com36" ns9:relation="cites">commi 36</ref>, <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2016-05-20/76/!main#art_1-com37" ns10:target="olf:it/legge/stato/2016/76/art_1-com37" ns10:relation="cites">37</ref>, <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2016-05-20/76/!main#art_1-com40" ns11:target="olf:it/legge/stato/2016/76/art_1-com40" ns11:relation="cites">40</ref> e <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2016-05-20/76/!main#art_1-com41" ns12:target="olf:it/legge/stato/2016/76/art_1-com41" ns12:relation="cites">41, dell'art. 1, della legge 20 maggio 2016, n. 76</ref> recante: «Regolamentazione delle unioni civili tra persone dello stesso sesso e disciplina delle convivenze», pubblicata nella Gazzetta Ufficiale n. 118 del 21 maggio 2016: 
+ «36. Ai fini delle disposizioni di cui ai commi da 37 a 67 si intendono per «conviventi di fatto» due persone maggiorenni unite stabilmente da legami affettivi di coppia e di reciproca assistenza morale e materiale, non vincolate da rapporti di parentela, affinita' o adozione, da matrimonio o da un'unione civile.» 
+ «37. Ferma restando la sussistenza dei presupposti di cui al comma 36, per l'accertamento della stabile convivenza si fa riferimento alla dichiarazione anagrafica di cui all'art. 4 e alla lettera b) del comma 1 dell'art. 13 del regolamento di cui al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1989-05-30/223/!main" ns13:target="olf:it/dpr/stato/1989/223" ns13:relation="cites">decreto del Presidente della Repubblica 30 maggio 1989, n. 223</ref>.». 
+ «40. Ciascun convivente di fatto puo' designare l'altro quale suo rappresentante con poteri pieni o limitati: 
+ a) in caso di malattia che comporta incapacita' di intendere e di volere, per le decisioni in materia di salute; 
+ b) in caso di morte, per quanto riguarda la donazione di organi, le modalita' di trattamento del corpo e le celebrazioni funerarie.» 
+ «41. La designazione di cui al comma 40 e' effettuata in forma scritta e autografa oppure, in caso di impossibilita' di redigerla, alla presenza di un testimone.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Disposizioni in materia 
+ di polizia mortuaria</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>Entro sei mesi dalla data di entrata in vigore della presente legge, con regolamento adottato ai sensi dell'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_17-com1" ns14:target="olf:it/legge/stato/1988/400/art_17-com1" ns14:relation="cites">articolo 17, comma 1, della legge 23 agosto 1988, n. 400</ref>, su proposta del Ministro della salute, sentiti il Ministro dell'interno e il Ministro della giustizia, previo parere delle competenti Commissioni parlamentari, si provvede alla modifica del regolamento di polizia mortuaria, di cui al <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1990-09-10/285/!main" ns15:target="olf:it/dpr/stato/1990/285" ns15:relation="cites">decreto del Presidente della Repubblica 10 settembre 1990, n. 285</ref>, sulla base dei seguenti principi: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>prevedere che, a decorrere dalla data di iscrizione nel registro degli indagati e fino al passaggio in giudicato della sentenza di assoluzione, al coniuge, all'altra parte dell'unione civile, al convivente di fatto di cui all'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2016-05-20/76/!main#art_1-com36" ns16:target="olf:it/legge/stato/2016/76/art_1-com36" ns16:relation="cites">articolo 1, commi 36</ref> e <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2016-05-20/76/!main#art_1-com37" ns17:target="olf:it/legge/stato/2016/76/art_1-com37" ns17:relation="cites">37, della legge 20 maggio 2016, n. 76</ref>, se designato quale rappresentante con specifici poteri in caso di morte, ai sensi del comma 40, lettera b), e nelle forme di cui al comma 41 del medesimo articolo 1, al convivente di fatto che non ha reso la dichiarazione anagrafica di cui all'articolo 1, comma 37, della medesima <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2016/76/!main" ns18:resolution="unresolved">legge n. 76 del 2016</ref>, laddove lo stesso sia stato autorizzato a disporre delle spoglie mortali della vittima in virtu' di una espressa manifestazione di volonta' della medesima, a ogni persona legata da relazione affettiva alla vittima, autorizzata nelle medesime forme a disporre delle spoglie mortali della vittima stessa o al parente prossimo individuato ai sensi degli <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_74" ns19:target="olf:it/codice-civile/stato/1942/262/art_74" ns19:relation="cites">articoli 74 e seguenti del codice civile</ref>, indagati o imputati per i reati di cui agli articoli 572, terzo comma, nel caso in cui dal fatto sia derivata la morte, 575, 578, primo comma, 579, 580, primo comma, primo periodo, 584 e 591, terzo comma, nel caso in cui dal fatto sia derivata la morte, del <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns20:target="olf:it/regio-decreto/stato/1930/1398" ns20:relation="cites">codice penale</ref>, commessi a danno dell'altro coniuge, dell'altra parte dell'unione civile, del convivente di fatto, di persona legata da relazione affettiva o del parente prossimo, sia precluso l'esercizio di qualsiasi diritto e facolta' in tema di tumulazione, inumazione o cremazione del cadavere riconosciuto dal predetto regolamento; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>prevedere che, nel caso in cui sia avviato un procedimento penale in relazione ai reati indicati nella lettera a), la cremazione del cadavere sia comunque vietata sino al passaggio in giudicato della sentenza di condanna che abbia definito il suddetto procedimento ovvero sino alla pronuncia della sentenza di proscioglimento. In caso di archiviazione del procedimento, prevedere che la cremazione sia vietata sino a che non siano decorsi tre anni dal provvedimento, salvo che il giudice per le indagini preliminari disponga motivatamente altrimenti; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>prevedere che, nel caso in cui l'indagato sia l'unico titolare della facolta' di disporre della destinazione della salma e qualora nessuno faccia richiesta di restituzione della salma medesima, il pubblico ministero ne disponga in conformita' a quanto previsto dalla legislazione vigente. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta il testo dell'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_17" ns21:target="olf:it/legge/stato/1988/400/art_17" ns21:relation="cites">art. 17 della legge 23 agosto 1988, n. 400</ref> recante: «Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri», pubblicata nella Gazzetta Ufficiale n. 214 del 12 settembre 1988: 
+ «Art. 17 (Regolamenti). - 1. Con decreto del Presidente della Repubblica, previa deliberazione del Consiglio dei ministri, sentito il parere del Consiglio di Stato che deve pronunziarsi entro novanta giorni dalla richiesta, possono essere emanati regolamenti per disciplinare: 
+ a) l'esecuzione delle leggi e dei decreti legislativi nonche' dei regolamenti comunitari; 
+ b) l'attuazione e l'integrazione delle leggi e dei decreti legislativi recanti norme di principio, esclusi quelli relativi a materie riservate alla competenza regionale; 
+ c) le materie in cui manchi la disciplina da parte di leggi o di atti aventi forza di legge, sempre che non si tratti di materie comunque riservate alla legge; 
+ d) l'organizzazione ed il funzionamento delle amministrazioni pubbliche secondo le disposizioni dettate dalla legge; 
+ e). 
+ 2. Con decreto del Presidente della Repubblica, previa deliberazione del Consiglio dei ministri, sentito il Consiglio di Stato e previo parere delle Commissioni parlamentari competenti in materia, che si pronunciano entro trenta giorni dalla richiesta, sono emanati i regolamenti per la disciplina delle materie, non coperte da riserva assoluta di legge prevista dalla Costituzione, per le quali le leggi della Repubblica, autorizzando l'esercizio della potesta' regolamentare del Governo, determinano le norme generali regolatrici della materia e dispongono l'abrogazione delle norme vigenti, con effetto dall'entrata in vigore delle norme regolamentari. 
+ 3. Con decreto ministeriale possono essere adottati regolamenti nelle materie di competenza del ministro o di autorita' sottordinate al ministro, quando la legge espressamente conferisca tale potere. 
+ Tali regolamenti, per materie di competenza di piu' ministri, possono essere adottati con decreti interministeriali, ferma restando la necessita' di apposita autorizzazione da parte della legge. I regolamenti ministeriali ed interministeriali non possono dettare norme contrarie a quelle dei regolamenti emanati dal Governo.
+ Essi debbono essere comunicati al Presidente del Consiglio dei ministri prima della loro emanazione. 
+ 4. I regolamenti di cui al comma 1 ed i regolamenti ministeriali ed interministeriali, che devono recare la denominazione di "regolamento", sono adottati previo parere del Consiglio di Stato, sottoposti al visto ed alla registrazione della Corte dei conti e pubblicati nella Gazzetta Ufficiale. 
+ 4-bis. L'organizzazione e la disciplina degli uffici dei Ministeri sono determinate, con regolamenti emanati ai sensi del comma 2, su proposta del Ministro competente d'intesa con il Presidente del Consiglio dei ministri e con il Ministro del tesoro, nel rispetto dei principi posti dal <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/1993-02-03/29/!main" ns22:target="olf:it/decreto-legislativo/stato/1993/29" ns22:relation="cites">decreto legislativo 3 febbraio 1993, n. 29</ref>, e successive modificazioni, con i contenuti e con l'osservanza dei criteri che seguono: 
+ a) riordino degli uffici di diretta collaborazione con i Ministri ed i Sottosegretari di Stato, stabilendo che tali uffici hanno esclusive competenze di supporto dell'organo di direzione politica e di raccordo tra questo e l'amministrazione; 
+ b) individuazione degli uffici di livello dirigenziale generale, centrali e periferici, mediante diversificazione tra strutture con funzioni finali e con funzioni strumentali e loro organizzazione per funzioni omogenee e secondo criteri di flessibilita' eliminando le duplicazioni funzionali; 
+ c) previsione di strumenti di verifica periodica dell'organizzazione e dei risultati; 
+ d) indicazione e revisione periodica della consistenza delle piante organiche; 
+ e) previsione di decreti ministeriali di natura non regolamentare per la definizione dei compiti delle unita' dirigenziali nell'ambito degli uffici dirigenziali generali. 
+ 4-ter. Con regolamenti da emanare ai sensi del comma 1 del presente articolo, si provvede al periodico riordino delle disposizioni regolamentari vigenti, alla ricognizione di quelle che sono state oggetto di abrogazione implicita e all'espressa abrogazione di quelle che hanno esaurito la loro funzione o sono prive di effettivo contenuto normativo o sono comunque obsolete.». 
+ - Il <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1990-09-10/285/!main" ns23:target="olf:it/dpr/stato/1990/285" ns23:relation="cites">decreto Presidente della Repubblica 10 settembre 1990, n. 285</ref> recante: «Approvazione del regolamento di polizia mortuaria», e' pubblicato nella Gazzetta Ufficiale n. 239 del 12 ottobre 1990. 
+ - Per l'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2016-05-20/76/!main#art_1" ns24:target="olf:it/legge/stato/2016/76/art_1" ns24:relation="cites">art. 1 della legge 20 maggio 2016, n. 76</ref>, si vedano le note all'art. 1. 
+ - Si riporta il testo degli <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_74" ns25:target="olf:it/codice-civile/stato/1942/262/art_74" ns25:relation="cites">articoli da 74</ref> <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_78" ns26:target="olf:it/codice-civile/stato/1942/262/art_78" ns26:relation="cites">a 78 del codice civile</ref>: 
+ «Art. 74 (Parentela). - La parentela e' il vincolo tra le persone che discendono da uno stesso stipite, sia nel caso in cui la filiazione e' avvenuta all'interno del matrimonio, sia nel caso in cui e' avvenuta al di fuori di esso, sia nel caso in cui il figlio e' adottivo. Il vincolo di parentela non sorge nei casi di adozione di persone maggiori di eta', di cui agli articoli 291 e seguenti.» 
+ «Art. 75 (Linee della parentela). - Sono parenti in linea retta le persone di cui l'una discende dall'altra; in linea collaterale quelle che, pur avendo uno stipite comune, non discendono l'una dall'altra.» 
+ «Art. 76 (Computo dei gradi). - Nella linea retta si computano altrettanti gradi quante sono le generazioni, escluso lo stipite. 
+ Nella linea collaterale i gradi si computano dalle generazioni, salendo da uno dei parenti fino allo stipite comune e da questo discendendo all'altro parente, sempre restando escluso lo stipite.» 
+ «Art. 77 (Limite della parentela). - La legge non riconosce il vincolo di parentela oltre il sesto grado, salvo che per alcuni effetti specialmente determinati.» 
+ «Art. 78 (Affinita'). - L'affinita' e' il vincolo tra un coniuge e i parenti dell'altro coniuge. 
+ Nella linea e nel grado in cui taluno e' parente d'uno dei coniugi, egli e' affine dell'altro coniuge. 
+ L'affinita' non cessa per la morte, anche senza prole, del coniuge da cui deriva, salvo che per alcuni effetti specialmente determinati. Cessa se il matrimonio e' dichiarato nullo, salvi gli effetti di cui all'art. 87, n. 4.». 
+ - Si riporta il testo degli articoli 572, 575, 578, 579, 580, 584, e 591 del <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns27:target="olf:it/regio-decreto/stato/1930/1398" ns27:relation="cites">codice penale</ref>: 
+ «Art 572 (Maltrattamenti contro familiari e conviventi). - Chiunque, fuori dei casi indicati nell'articolo precedente, maltratta una persona della famiglia o comunque convivente ovvero non piu' convivente nel caso in cui l'agente e la vittima siano legati da vincoli nascenti dalla filiazione, o una persona sottoposta alla sua autorita' o a lui affidata per ragioni di educazione, istruzione, cura, vigilanza o custodia, o per l'esercizio di una professione o di un'arte, e' punito con la reclusione da tre a sette anni. 
+ La pena e' aumentata fino alla meta' se il fatto e' commesso in presenza o in danno di persona minore, di donna in stato di gravidanza o di persona con disabilita' come definita ai sensi dell'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/1992-02-05/104/!main#art_3" ns28:target="olf:it/legge/stato/1992/104/art_3" ns28:relation="cites">art. 3 della legge 5 febbraio 1992, n. 104</ref>, ovvero se il fatto e' commesso con armi. 
+ Se dal fatto deriva una lesione personale grave, si applica la reclusione da quattro a nove anni; se ne deriva una lesione gravissima, la reclusione da sette a quindici anni; se ne deriva la morte, la reclusione da dodici a ventiquattro anni. 
+ Il minore di anni diciotto che assiste ai maltrattamenti di cui al presente articolo si considera persona offesa dal reato. 
+ La pena e' aumentata da un terzo alla meta' quando il fatto e' commesso come atto di odio o di discriminazione o di prevaricazione o come atto di controllo o possesso o dominio in quanto donna, o in relazione al rifiuto della donna di instaurare o mantenere un rapporto affettivo o come atto di limitazione delle sue liberta' individuali.». 
+ «Art. 575 (Omicidio). - Chiunque cagiona la morte di un uomo e' punito con la reclusione non inferiore ad anni ventuno.». 
+ «Art. 578 (Infanticidio in condizioni di abbandono materiale e morale). - La madre che cagiona la morte del proprio neonato immediatamente dopo il parto, o del feto durante il parto, quando il fatto e' determinato da condizioni di abbandono materiale e morale connesse al parto, e' punita con la reclusione da quattro a dodici anni. 
+ A coloro che concorrono nel fatto di cui al primo comma si applica la reclusione non inferiore ad anni ventuno. Tuttavia, se essi hanno agito al solo scopo di favorire la madre, la pena puo' essere diminuita da un terzo a due terzi. 
+ Non si applicano le aggravanti stabilite dall'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_61" ns29:target="olf:it/regio-decreto/stato/1930/1398/art_61" ns29:relation="cites">art. 61 del codice penale</ref>.» 
+ «Art. 579 (Omicidio del consenziente). - Chiunque cagiona la morte di un uomo, col consenso di lui, e' punito con la reclusione da sei a quindici anni. 
+ Non si applicano le aggravanti indicate nell'art. 61. 
+ Si applicano le disposizioni relative all'omicidio se il fatto e' commesso: 
+ 1. contro una persona minore degli anni diciotto; 
+ 2. contro una persona inferma di mente, o che si trova in condizioni di deficienza psichica, per un'altra infermita' o per l'abuso di sostanze alcooliche o stupefacenti; 
+ 3. contro una persona il cui consenso sia stato dal colpevole estorto con violenza, minaccia o suggestione, ovvero carpito con inganno.» 
+ «Art. 580 (Istigazione o aiuto al suicidio). - Chiunque determina altri al suicidio o rafforza l'altrui proposito di suicidio, ovvero ne agevola in qualsiasi modo l'esecuzione, e' punito, se il suicidio avviene, con la reclusione da cinque a dodici anni. Se il suicidio non avviene, e' punito con la reclusione da uno a cinque anni, sempre che dal tentativo di suicidio derivi una lesione personale grave o gravissima. 
+ Le pene sono aumentate se la persona istigata o eccitata o aiutata si trova in una delle condizioni indicate nei numeri 1° e 2° dell'art. precedente.
+ Nondimeno, se la persona suddetta e' minore degli anni quattordici o comunque e' priva della capacita' d'intendere o di volere, si applicano le disposizioni relative all'omicidio.». 
+ «Art 584 (Omicidio preterintenzionale). - Chiunque, con atti diretti a commettere uno dei delitti preveduti dagli articoli 581 e 582, cagiona la morte di un uomo, e' punito con la reclusione da dieci a diciotto anni.». 
+ «Art. 591 (Abbandono di persone minori o incapaci). - Chiunque abbandona una persona minore degli anni quattordici, ovvero una persona incapace, per malattia di mente o di corpo, per vecchiaia, o per altra causa, di provvedere a se' stessa, e della quale abbia la custodia o debba avere cura, e' punito con la reclusione da sei mesi a cinque anni. 
+ Alla stessa pena soggiace chi abbandona all'estero un cittadino italiano minore degli anni diciotto, a lui affidato nel territorio dello Stato per ragioni di lavoro. 
+ La pena e' della reclusione da uno a sei anni se dal fatto deriva una lesione personale, ed e' da tre a otto anni se ne deriva la morte. 
+ Le pene sono aumentate se il fatto e' commesso dal genitore, dal figlio, dal tutore o dal coniuge, ovvero dall'adottante o dall'adottato.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate vi provvedono nell'ambito delle risorse umane, finanziarie e strumentali disponibili a legislazione vigente. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 9 marzo 2026 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
