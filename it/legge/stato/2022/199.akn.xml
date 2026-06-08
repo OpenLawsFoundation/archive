@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-12-30/199/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-12-30/199"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-12-30;199"/>
+                    <FRBRalias name="eli" value="eli/id/2022/12/30/22G00209/ORIGINAL"/>
+                    <FRBRdate date="2022-12-30" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/12/30/22G00209/ORIGINAL" aknrelname="eli/id/2022/12/30/22G00209/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni del decreto-legge 31 ottobre 2022, n. 162, recante misure urgenti in materia di divieto di concessione dei benefici penitenziari nei confronti dei detenuti o internati che non collaborano con la giustizia, nonche' in materia di entrata in vigore del decreto legislativo 10 ottobre 2022, n. 150, di obblighi di vaccinazione anti SARS-COV-2 e di prevenzione e contrasto dei raduni illegali. (22G00209)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00209" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2022-12-30" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-12-30/199/ita@2022-12-31/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-12-30/199/ita@2022-12-31"/>
+                    <FRBRdate date="2022-12-31" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/12/30/22G00209/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/12/30/22G00209/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/12/30/22G00209/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-12-30/199/ita@2022-12-31/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-12-30/199/ita@2022-12-31.xml"/>
+                    <FRBRdate date="2022-12-30" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/12/30/22G00209/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-12-30" name="" number="304" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-12-30" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2022-12-30" refersTo="#S.274"/>
+                <step by="#camera" date="2022-12-30" refersTo="#C.705"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 434 bis"/>
+                        <new>
+                            <nakn:text>nel convertire, con modificazioni il D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255) ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 1 del D.L. medesimo.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 633 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 634"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:legge:1975-07-26;354#4 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:legge:1975-07-26;354#21"/>
+                        <new>
+                            <nakn:text>nel convertire, con modificazioni il D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255) ha disposto (con l'art. 1, comma 1) la soppressione della lettera b) dell'art. 1, comma 1 del D.L. medesimo.
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:legge:1975-07-26;354#30 ter"/>
+                        <new>
+                            <nakn:text>nel convertire, con modificazioni il D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255) ha disposto (con l'art. 1, comma 1) la soppressione della lettera c) dell'art. 1, comma 1 del D.L. medesimo.
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#335 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#407 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#415 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#495"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#599"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#611"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2011-09-06;159#4"/>
+                        <new>
+                            <nakn:text>, nel convertire, con modificazioni, il D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255), ha disposto (con l'art. 1, comma 1) la soppressione dei commi 2 e 3 dell'art. 5 del D.L. medesimo.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-05-19;34#218"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#1 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#4 sexies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#2 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#2 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#10 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:legge:2021-12-30;234#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-03-24;24#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#34"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#35"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#85"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#85 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#87"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#87 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#88 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#88 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#89 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#92"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#93 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#94"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-10-10;150#97 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 ottobre 2022, n. 162 (in G.U. 31/10/2022, n. 255).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la seguente modifica al titolo: Misure urgenti in materia di divieto di concessione dei benefici penitenziari nei confronti dei detenuti o internati che non collaborano con la giustizia, nonche' in materia ((di termini di applicazione delle disposizioni del decreto legislativo 10 ottobre 2022, n. 150, e di disposizioni relative a controversie della giustizia sportiva, nonche' di obblighi di vaccinazione anti SARS-CoV-2, di attuazione del Piano nazionale contro una pandemia influenzale)) e di prevenzione e contrasto dei raduni illegali.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 1, lettera a) e la soppressione delle lettere b) e c) dell'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 1, l'introduzione del comma 1-bis all'art. 5 e la soppressione dei commi 2 e 3 dell'art. 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 quinquies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-quinquies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 sexies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-sexies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 septies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-septies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 octies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-octies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 novies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-novies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 decies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-decies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 undecies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-undecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 duodecies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-duodecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 terdecies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-terdecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#5 quaterdecies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-quaterdecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dei commi 1-bis e 1-ter all'art. 7.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#7 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_55" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#7 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_56" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-12-30;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-10-31;162#7 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_57" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main/~art_1__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_58" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main/~art_1__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_59" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main/~art_1__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_60" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main/~art_1__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_61" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main/~art_1__para_1__point_c"/>
+                    </textualMod>
+                    <textualMod eId="amod_62" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main/~art_3__para_2"/>
+                        <old href="#modNov_2_old_7"/>
+                        <new href="#modNov_2_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_63" type="repeal">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main/~art_5__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_64" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main/~art_5__para_1"/>
+                        <new href="#modNov_3_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_65" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main/~art_5__para_1-bis"/>
+                        <new href="#modNov_3_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_66" type="repeal">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main/~art_5__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_67" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main"/>
+                        <new href="#modNov_4_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_68" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main/~art_7"/>
+                        <new href="#modNov_5_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_69" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-10-31/162/ita@2022-12-31/!main"/>
+                        <old href="#modNov_6_old_12"/>
+                        <new href="#modNov_6_new_12"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2022-12-30/199/!main" showAs=""/>
+                <passiveRef eId="S.274" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;274" showAs=""/>
+                <passiveRef eId="C.705" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;705" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/12/30/22G00209/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni del decreto-legge 31 ottobre 2022, n. 162, recante misure urgenti in materia di divieto di concessione dei benefici penitenziari nei confronti dei detenuti o internati che non collaborano con la giustizia, nonche' in materia di entrata in vigore del decreto legislativo 10 ottobre 2022, n. 150, di obblighi di vaccinazione anti SARS-COV-2 e di prevenzione e contrasto dei raduni illegali. (22G00209)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00209</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-12-30</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/12/30/22G00209/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/12/30/22G00209/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/12/30/22G00209/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/12/30/22G00209/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2022/199" nativeUrn="urn:nir:stato:legge:2022-12-30;199" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-12-30"><ns0:event type="enacted" date="2022-12-30"/><ns0:event type="published" date="2022-12-30"/><ns0:event type="commenced" date="2022-12-30"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/dc37c74f-d139-42fd-8b1b-93aea3a1604b" sourceSha256="38219773d5c7cdf7f03e1c0e1c43f92c86cd9e1ce1c660e616a4296b0ae1a7f3" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T19:41:04.823524Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2022-12-30">30 dicembre 2022</docDate>
+                <docNumber>199</docNumber>
+                <docTitle>Conversione in legge, con modificazioni del decreto-legge 31 ottobre 2022, n. 162, recante misure urgenti in materia di divieto di concessione dei benefici penitenziari nei confronti dei detenuti o internati che non collaborano con la giustizia, nonche' in materia di entrata in vigore del decreto legislativo 10 ottobre 2022, n. 150, di obblighi di vaccinazione anti SARS-COV-2 e di prevenzione e contrasto dei raduni illegali. (22G00209) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 31/12/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2022-10-31/162/!main" ns1:target="olf:it/decreto-legge/stato/2022/162" ns1:relation="repeals">decreto-legge 31 ottobre 2022, n. 162</ref>, recante misure urgenti in materia di divieto di concessione dei benefici penitenziari nei confronti dei detenuti o internati che non collaborano con la giustizia, nonche' in materia di entrata in vigore del <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main" ns2:target="olf:it/decreto-legislativo/stato/2022/150" ns2:relation="amends">decreto legislativo 10 ottobre 2022, n. 150</ref>, di obblighi di vaccinazione anti SARS-COV-2 e di prevenzione e contrasto dei raduni illegali, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegge/stato/2022-10-31/162/!main" ns3:target="olf:it/decreto-legge/stato/2022/162" ns3:relation="repeals">decreto-legge 31 ottobre 2022, n. 162</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 255 del 31 ottobre 2022. 
+ A norma dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns4:target="olf:it/legge/stato/1988/400/art_15-com5" ns4:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 64. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 30 dicembre 2022 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Nordio, Ministro della giustizia Piantedosi, Ministro dell'interno Schillaci, Ministro della salute Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-12-30/199/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-12-30/199"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-12-30;199"/>
+                                <FRBRalias name="eli" value="eli/id/2022/12/30/22G00209/ORIGINAL"/>
+                                <FRBRdate date="2022-12-31" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-12-30/199/ita@2022-12-31/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-12-30/199/ita@2022-12-31"/>
+                                <FRBRdate date="2022-12-31" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-12-30/199/ita@2022-12-31/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-12-30/199/ita@2022-12-31.xml"/>
+                                <FRBRdate date="2022-12-30" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 31 OTTOBRE 2022, N. 162 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1: 
+ alla lettera a): 
+ al numero 1), dopo le parole: «al comma 1» sono inserite le seguenti: «, al primo periodo, le parole: "o a norma dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_323bis-com2" ns5:target="olf:it/regio-decreto/stato/1930/1398/art_323bis-com2" ns5:relation="amends">articolo 323-bis, secondo comma, del codice penale</ref>" e le parole: "314, primo comma, 317, 318, 319, 319-bis, 319-ter, 319-quater, primo comma, 320, 321, 322, 322-bis," sono soppresse ed»; 
+ al numero 2), capoverso 1-bis.1, le parole: «della presente legge o dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_323bis" ns6:target="olf:it/regio-decreto/stato/1930/1398/art_323bis" ns6:relation="amends">articolo 323-bis del codice penale</ref>» e le parole: «314, primo comma, 317, 318, 319, 319-bis, 319-ter, 319-quater, primo comma, 320, 321, 322, 322-bis,» sono soppresse; 
+ al numero 2), dopo il capoverso 1-bis.1 e' inserito il seguente: 
+ «1-bis.1.1. Con il provvedimento di concessione dei benefici di cui al comma 1 possono essere stabilite prescrizioni volte a impedire il pericolo del ripristino di collegamenti con la criminalita' organizzata, terroristica o eversiva o che impediscano ai condannati di svolgere attivita' o di avere rapporti personali che possono portare al compimento di altri reati o al ripristino di rapporti con la criminalita' organizzata, terroristica o eversiva. A tal fine il giudice puo' disporre che il condannato non soggiorni in uno o piu' comuni, o soggiorni in un comune determinato»; 
+ al numero 3), al primo periodo, le parole: «, prima di decidere sull'istanza,» sono sostituite dalle seguenti: «acquisisce, anche al fine di verificare la fondatezza degli elementi offerti dall'istante, dettagliate informazioni in merito al perdurare dell'operativita' del sodalizio criminale di appartenenza o del contesto criminale nel quale il reato e' stato consumato, al profilo criminale del detenuto o dell'internato e alla sua posizione all'interno dell'associazione, alle eventuali nuove imputazioni o misure cautelari o di prevenzione sopravvenute a suo carico e, ove significative, alle infrazioni disciplinari commesse durante la detenzione. Il giudice», al secondo periodo, le parole: «accertamenti di cui al quarto periodo» sono sostituite dalle seguenti: «accertamenti di cui al quinto periodo» e, al sesto periodo, le parole: «ai sensi del quarto periodo» sono sostituite dalle seguenti: «ai sensi del quinto periodo»; 
+ al numero 5): 
+ l'alinea e' sostituito dal seguente: «dopo il comma 2-bis sono inseriti i seguenti:»; 
+ al capoverso 2-ter e' premesso il seguente: 
+ «2-bis.1. Le disposizioni di cui ai commi 2 e 2-bis non si applicano quando e' richiesta la modifica del provvedimento di ammissione al lavoro all'esterno e non sono decorsi piu' di tre mesi dalla data in cui il provvedimento medesimo e' divenuto esecutivo a norma dell'articolo 21, comma 4. Allo stesso modo si procede quando e' richiesta la concessione di un permesso premio da parte di un condannato gia' ammesso a fruirne e non sono decorsi piu' di tre mesi dal provvedimento di concessione del primo permesso premio»; 
+ al capoverso 2-ter e' aggiunto, in fine, il seguente periodo: «In tal caso, se ha sede in un distretto diverso, il pubblico ministero puo' partecipare all'udienza mediante collegamento a distanza»; 
+ le lettere b) e c) sono soppresse.</mod>
+                                    <mod eId="modNov_2">All'articolo 3: 
+ al comma 2, le parole: «<quotedText eId="modNov_2_old_7">le misure alternative alla detenzione di cui al capo VI del titolo I della citata <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/1975/354/!main" ns7:resolution="unresolved">legge n. 354 del 1975</ref>
+                                        </quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_7">i benefici di cui al comma 1 dell'articolo 4-bis della citata <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/1975/354/!main" ns8:resolution="unresolved">legge n. 354 del 1975</ref>
+                                        </quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 5: 
+ il comma 1 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_3_new_8">1. Dopo l'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_633" ns9:target="olf:it/regio-decreto/stato/1930/1398/art_633" ns9:relation="amends">articolo 633 del codice penale</ref> e' inserito il seguente: 
+ "Art. 633-bis (Invasione di terreni o edifici con pericolo per la salute pubblica o l'incolumita' pubblica). - Chiunque organizza o promuove l'invasione arbitraria di terreni o edifici altrui, pubblici o privati, al fine di realizzare un raduno musicale o avente altro scopo di intrattenimento, e' punito con la reclusione da tre a sei anni e con la multa da euro 1.000 a euro 10.000, quando dall'invasione deriva un concreto pericolo per la salute pubblica o per l'incolumita' pubblica a causa dell'inosservanza delle norme in materia di sostanze stupefacenti ovvero in materia di sicurezza o di igiene degli spettacoli e delle manifestazioni pubbliche di intrattenimento, anche in ragione del numero dei partecipanti ovvero dello stato dei luoghi. 
+ E' sempre ordinata la confisca delle cose che servirono o furono destinate a commettere il reato di cui al primo comma, nonche' di quelle utilizzate per realizzare le finalita' dell'occupazione o di quelle che ne sono il prodotto o il profitto"</quotedText>»; 
+ dopo il comma 1 e' inserito il seguente: 
+ «<quotedText eId="modNov_3_new_9">1-bis. All'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_634-com1" ns10:target="olf:it/regio-decreto/stato/1930/1398/art_634-com1" ns10:relation="amends">articolo 634, primo comma, del codice penale</ref>, le parole: "nell'articolo precedente" sono sostituite dalle seguenti: "negli articoli 633 e 633-bis"</quotedText>»; 
+ i commi 2 e 3 sono soppressi.</mod>
+                                    <mod eId="modNov_4">Dopo l'articolo 5 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_4_new_11">Art. 5-bis (Modifiche all'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_85" ns11:target="olf:it/decreto-legislativo/stato/2022/150/art_85" ns11:relation="amends">articolo 85 del decreto legislativo 10 ottobre 2022, n. 150</ref>, recante disposizioni transitorie in materia di modifica del regime di procedibilita'). - 1. All'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_85" ns12:target="olf:it/decreto-legislativo/stato/2022/150/art_85" ns12:relation="amends">articolo 85 del decreto legislativo 10 ottobre 2022, n. 150</ref>, sono apportate le seguenti modificazioni: 
+ a) il comma 2 e' sostituito dal seguente: 
+ "2. Fermo restando il termine di cui al comma 1, le misure cautelari personali in corso di esecuzione perdono efficacia se, entro venti giorni dalla data di entrata in vigore del presente decreto, l'autorita' giudiziaria che procede non acquisisce la querela. A questi fini, l'autorita' giudiziaria effettua ogni utile ricerca della persona offesa, anche avvalendosi della polizia giudiziaria. Durante la pendenza del termine indicato al primo periodo i termini previsti dall'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_303" ns13:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_303" ns13:relation="cites">articolo 303 del codice di procedura penale</ref> sono sospesi"; 
+ b) dopo il comma 2 sono aggiunti i seguenti: 
+ "2-bis. Durante la pendenza del termine di cui ai commi 1 e 2 si applica l'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_346" ns14:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_346" ns14:relation="cites">articolo 346 del codice di procedura penale</ref>. 
+ 2-ter. Per i delitti previsti dagli <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_609bis" ns15:target="olf:it/regio-decreto/stato/1930/1398/art_609bis" ns15:relation="amends">articoli 609-bis</ref>, <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_612bis" ns16:target="olf:it/regio-decreto/stato/1930/1398/art_612bis" ns16:relation="amends">612-bis</ref> e <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_612ter" ns17:target="olf:it/regio-decreto/stato/1930/1398/art_612ter" ns17:relation="amends">612-ter del codice penale</ref>, commessi prima della data di entrata in vigore del presente decreto, si continua a procedere d'ufficio quando il fatto e' connesso con un delitto divenuto perseguibile a querela della persona offesa in base alle disposizioni del presente decreto". 
+ Art. 5-ter (Introduzione dell'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_85bis" ns18:target="olf:it/decreto-legislativo/stato/2022/150/art_85bis" ns18:relation="amends">articolo 85-bis del decreto legislativo 10 ottobre 2022, n. 150</ref>, recante disposizioni transitorie in materia di termini per la costituzione di parte civile). - 1. Dopo l'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_85" ns19:target="olf:it/decreto-legislativo/stato/2022/150/art_85" ns19:relation="amends">articolo 85 del decreto legislativo 10 ottobre 2022, n. 150</ref>, e' inserito il seguente: 
+ "Art. 85-bis (Disposizioni transitorie in materia di termini per la costituzione di parte civile). - 1. Nei procedimenti nei quali, alla data di entrata in vigore del presente decreto, sono gia' stati ultimati gli accertamenti relativi alla costituzione delle parti nell'udienza preliminare, non si applicano le disposizioni di cui all'articolo 5, comma 1, lettera c), del presente decreto e continuano ad applicarsi le disposizioni dell'articolo 79 e, limitatamente alla persona offesa, dell'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_429-com4" ns20:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_429-com4" ns20:relation="cites">articolo 429, comma 4, del codice di procedura penale</ref>, nel testo vigente prima della data di entrata in vigore del presente decreto". 
+ Art. 5-quater (Modifiche all'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_87" ns21:target="olf:it/decreto-legislativo/stato/2022/150/art_87" ns21:relation="amends">articolo 87 del decreto legislativo 10 ottobre 2022, n. 150</ref>, recante disposizioni transitorie in materia di processo penale telematico). - 1. All'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_87" ns22:target="olf:it/decreto-legislativo/stato/2022/150/art_87" ns22:relation="amends">articolo 87 del decreto legislativo 10 ottobre 2022, n. 150</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 6, le parole: ", e dell'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegge/stato/2020-10-28/137/!main#art_24-com1" ns23:target="olf:it/decreto-legge/stato/2020/137/art_24-com1" ns23:relation="amends">articolo 24, commi da 1</ref> <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegge/stato/2020-10-28/137/!main#art_24-com3" ns24:target="olf:it/decreto-legge/stato/2020/137/art_24-com3" ns24:relation="amends">a 3, del decreto-legge 28 ottobre 2020, n. 137</ref>, convertito, con modificazioni, dalla <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/2020-12-18/176/!main" ns25:target="olf:it/legge/stato/2020/176" ns25:relation="cites">legge 18 dicembre 2020, n. 176</ref>" sono soppresse e dopo il primo periodo sono aggiunti i seguenti: "Entro il medesimo termine le parti private possono presentare l'atto di impugnazione davanti a un agente consolare all'estero. In tal caso, l'atto e' immediatamente trasmesso alla cancelleria del giudice che ha emesso il provvedimento impugnato"; 
+ b) dopo il comma 6 sono inseriti i seguenti: 
+ "6-bis. Sino al quindicesimo giorno successivo alla pubblicazione dei regolamenti di cui ai commi 1 e 3, ovvero sino al diverso termine previsto dal regolamento di cui al comma 3 per gli uffici giudiziari e le tipologie di atti in esso indicati, il deposito di memorie, documenti, richieste e istanze indicati dall'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_415bis-com3" ns26:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_415bis-com3" ns26:relation="cites">articolo 415-bis, comma 3, del codice di procedura penale</ref>, dell'opposizione alla richiesta di archiviazione indicata dall'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_410" ns27:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_410" ns27:relation="cites">articolo 410 del codice di procedura penale</ref>, della denuncia di cui all'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_333" ns28:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_333" ns28:relation="cites">articolo 333 del codice di procedura penale</ref>, della querela di cui all'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_336" ns29:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_336" ns29:relation="cites">articolo 336 del codice di procedura penale</ref> e della relativa procura speciale, nonche' della nomina del difensore e della rinuncia o revoca del mandato indicate dall'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_107" ns30:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_107" ns30:relation="cites">articolo 107 del codice di procedura penale</ref>, negli uffici delle procure della Repubblica presso i tribunali avviene esclusivamente mediante deposito nel portale del processo penale telematico individuato con provvedimento del Direttore generale per i sistemi informativi automatizzati del Ministero della giustizia e con le modalita' stabilite nel medesimo provvedimento, anche in deroga al regolamento di cui al <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decreto/ministero.giustizia/2011-02-21/44/!main" ns31:target="olf:it/decreto/ministero-giustizia/2011/44" ns31:relation="cites">decreto del Ministro della giustizia 21 febbraio 2011, n. 44</ref>. Il deposito degli atti si intende eseguito al momento del rilascio della ricevuta di accettazione da parte dei sistemi ministeriali, secondo le modalita' stabilite dal provvedimento. Il deposito e' tempestivo quando e' eseguito entro le ore 24 del giorno di scadenza. 
+ 6-ter. Con uno o piu' decreti del Ministro della giustizia sono individuati gli ulteriori atti per i quali e' consentito il deposito telematico con le modalita' di cui al comma 6-bis. 
+ 6-quater. Il malfunzionamento del portale del processo penale telematico e' attestato dal Direttore generale per i sistemi informativi automatizzati, con provvedimento pubblicato nel portale dei servizi telematici del Ministero della giustizia con indicazione del relativo periodo. In tali ipotesi, il termine di scadenza per il deposito degli atti e' prorogato di diritto fino al giorno successivo al ripristino della funzionalita' del portale. L'autorita' giudiziaria puo' autorizzare il deposito di singoli atti e documenti in formato analogico per ragioni specifiche. 
+ 6-quinquies. Per gli atti di cui al comma 6-bis e per quelli individuati ai sensi del comma 6-ter, l'invio tramite posta elettronica certificata non e' consentito e non produce alcun effetto di legge". 
+ Art. 5-quinquies (Introduzione dell'<ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_87bis" ns32:target="olf:it/decreto-legislativo/stato/2022/150/art_87bis" ns32:relation="amends">articolo 87-bis del decreto legislativo 10 ottobre 2022, n. 150</ref>, recante disposizioni transitorie in materia di semplificazione delle attivita' di deposito di atti, documenti e istanze). - 1. Dopo l'<ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_87" ns33:target="olf:it/decreto-legislativo/stato/2022/150/art_87" ns33:relation="amends">articolo 87 del decreto legislativo 10 ottobre 2022, n. 150</ref>, e' inserito il seguente: 
+ "Art. 87-bis (Disposizioni transitorie in materia di semplificazione delle attivita' di deposito di atti, documenti e istanze). - 1. Sino al quindicesimo giorno successivo alla pubblicazione dei regolamenti di cui ai commi 1 e 3 dell'articolo 87, ovvero sino al diverso termine previsto dal regolamento di cui al comma 3 del medesimo articolo per gli uffici giudiziari e le tipologie di atti in esso indicati, per tutti gli atti, i documenti e le istanze comunque denominati diversi da quelli previsti nell'articolo 87, comma 6-bis, e da quelli individuati ai sensi del comma 6-ter del medesimo articolo, e' consentito il deposito con valore legale mediante invio dall'indirizzo di posta elettronica certificata inserito nel registro generale degli indirizzi elettronici di cui all'articolo 7 del regolamento di cui al <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decreto/ministero.giustizia/2011-02-21/44/!main" ns34:target="olf:it/decreto/ministero-giustizia/2011/44" ns34:relation="cites">decreto del Ministro della giustizia 21 febbraio 2011, n. 44</ref>. Il deposito con le modalita' di cui al periodo precedente deve essere effettuato presso gli indirizzi di posta elettronica certificata degli uffici giudiziari destinatari, indicati in apposito provvedimento del Direttore generale per i sistemi informativi automatizzati, pubblicato nel portale dei servizi telematici del Ministero della giustizia. Con il medesimo provvedimento sono indicate le specifiche tecniche relative ai formati degli atti e alla sottoscrizione digitale e le ulteriori modalita' di invio. Quando il messaggio di posta elettronica certificata eccede la dimensione massima stabilita nel provvedimento del Direttore generale per i sistemi informativi automatizzati di cui al presente comma, il deposito puo' essere eseguito mediante l'invio di piu' messaggi di posta elettronica certificata. Il deposito e' tempestivo quando e' eseguito entro le ore 24 del giorno di scadenza. 
+ 2. Ai fini dell'attestazione del deposito degli atti dei difensori inviati tramite posta elettronica certificata ai sensi del comma 1, il personale di segreteria e di cancelleria degli uffici giudiziari provvede ad annotare nel registro la data di ricezione e ad inserire l'atto nel fascicolo telematico. Ai fini della continuita' della tenuta del fascicolo cartaceo, il medesimo personale provvede altresi' all'inserimento nel predetto fascicolo di copia analogica dell'atto ricevuto con l'attestazione della data di ricezione nella casella di posta elettronica certificata dell'ufficio e dell'intestazione della casella di posta elettronica certificata di provenienza. 
+ 3. Quando il deposito di cui al comma 1 ha ad oggetto un'impugnazione, l'atto in forma di documento informatico e' sottoscritto digitalmente secondo le modalita' indicate con il provvedimento del Direttore generale per i sistemi informativi automatizzati di cui al comma 1 e contiene la specifica indicazione degli allegati, che sono trasmessi in copia informatica per immagine, sottoscritta digitalmente dal difensore per conformita' all'originale. 
+ 4. L'atto di impugnazione e' trasmesso tramite posta elettronica certificata dall'indirizzo di posta elettronica certificata del difensore a quello dell'ufficio che ha emesso il provvedimento impugnato, individuato ai sensi del comma 1, con le modalita' e nel rispetto delle specifiche tecniche ivi indicate. 
+ 5. I motivi nuovi e le memorie sono proposti, nei termini rispettivamente previsti, secondo le modalita' indicate nei commi 3 e 4, con atto in formato elettronico trasmesso tramite posta elettronica certificata dall'indirizzo di posta elettronica certificata del difensore a quello dell'ufficio del giudice dell'impugnazione, individuato ai sensi del comma 1. 
+ 6. Le disposizioni di cui ai commi 3, 4 e 5 si applicano a tutti gli atti di impugnazione comunque denominati e, in quanto compatibili, alle opposizioni di cui agli <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_461" ns35:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_461" ns35:relation="cites">articoli 461</ref> e <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_667-com4" ns36:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_667-com4" ns36:relation="cites">667, comma 4, del codice di procedura penale</ref> e ai reclami giurisdizionali previsti dalla <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/1975-07-26/354/!main" ns37:target="olf:it/legge/stato/1975/354" ns37:relation="amends">legge 26 luglio 1975, n. 354</ref>. Nel caso di richiesta di riesame o di appello contro ordinanze in materia di misure cautelari, personali o reali, l'atto di impugnazione, in deroga a quanto disposto dal comma 3, e' trasmesso all'indirizzo di posta elettronica certificata del tribunale di cui all'<ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_309-com7" ns38:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_309-com7" ns38:relation="cites">articolo 309, comma 7, del codice di procedura penale</ref>. 
+ 7. Fermo restando quanto previsto dall'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_591" ns39:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_591" ns39:relation="cites">articolo 591 del codice di procedura penale</ref>, nel caso di proposizione dell'atto ai sensi del comma 3 del presente articolo l'impugnazione e' altresi' inammissibile: 
+ a) quando l'atto di impugnazione non e' sottoscritto digitalmente dal difensore; 
+ b) quando l'atto e' trasmesso da un indirizzo di posta elettronica certificata che non e' presente nel registro generale degli indirizzi elettronici di cui al comma 1; 
+ c) quando l'atto e' trasmesso a un indirizzo di posta elettronica certificata non riferibile, secondo quanto indicato dal provvedimento del Direttore generale per i sistemi informativi automatizzati di cui al comma 1, all'ufficio che ha emesso il provvedimento impugnato o, nel caso di richiesta di riesame o di appello contro provvedimenti resi in materia di misure cautelari, personali o reali, a un indirizzo di posta elettronica certificata non riferibile, secondo quanto indicato dal provvedimento del Direttore generale per i sistemi informativi automatizzati di cui al comma 1, all'ufficio competente a decidere il riesame o l'appello. 
+ 8. Nei casi previsti dal comma 7, il giudice che ha emesso il provvedimento impugnato dichiara, anche d'ufficio, con ordinanza l'inammissibilita' dell'impugnazione e dispone l'esecuzione del provvedimento impugnato. 
+ 9. Ai fini dell'attestazione del deposito degli atti trasmessi tramite posta elettronica certificata ai sensi dei commi da 4 a 6 e della continuita' della tenuta del fascicolo cartaceo, la cancelleria provvede ai sensi del comma 2". 
+ Art. 5-sexies (Introduzione dell'<ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_88bis" ns40:target="olf:it/decreto-legislativo/stato/2022/150/art_88bis" ns40:relation="amends">articolo 88-bis del decreto legislativo 10 ottobre 2022, n. 150</ref>, recante disposizioni transitorie in materia di indagini preliminari). - 1. Dopo l'<ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_88" ns41:target="olf:it/decreto-legislativo/stato/2022/150/art_88" ns41:relation="amends">articolo 88 del decreto legislativo 10 ottobre 2022, n. 150</ref>, e' inserito il seguente: 
+ "Art. 88-bis (Disposizioni transitorie in materia di indagini preliminari). - 1. Le disposizioni degli <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_335quater" ns42:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_335quater" ns42:relation="cites">articoli 335-quater</ref>, <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_407bis" ns43:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_407bis" ns43:relation="cites">407-bis</ref> e <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_415ter" ns44:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_415ter" ns44:relation="cites">415-ter del codice di procedura penale</ref>, come introdotte dal presente decreto, non si applicano nei procedimenti pendenti alla data di entrata in vigore del presente decreto in relazione alle notizie di reato delle quali il pubblico ministero ha gia' disposto l'iscrizione nel registro di cui all'<ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_335" ns45:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_335" ns45:relation="cites">articolo 335 del codice di procedura penale</ref>, nonche' in relazione alle notizie di reato iscritte successivamente, quando ricorrono le condizioni previste dall'<ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_12" ns46:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_12" ns46:relation="cites">articolo 12 del codice di procedura penale</ref> e, se si procede per taluno dei delitti indicati nell'<ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_407-com2" ns47:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_407-com2" ns47:relation="cites">articolo 407, comma 2, del codice di procedura penale</ref>, anche quando ricorrono le condizioni previste dall'articolo 371, comma 2, lettere b) e c), del medesimo codice.
+Tuttavia, le disposizioni dell'<ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_335quater" ns48:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_335quater" ns48:relation="cites">articolo 335-quater del codice di procedura penale</ref>, come introdotte dal presente decreto, si applicano in ogni caso in relazione alle iscrizioni che hanno ad oggetto notizie di reati commessi dopo la data di entrata in vigore del presente decreto. 
+ 2. Nei procedimenti di cui al comma 1 continuano ad applicarsi le disposizioni degli <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_405" ns49:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_405" ns49:relation="cites">articoli 405</ref>, <ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_406" ns50:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_406" ns50:relation="cites">406</ref>, <ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_407" ns51:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_407" ns51:relation="cites">407</ref>, <ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_412" ns52:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_412" ns52:relation="cites">412</ref> e <ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_415bis" ns53:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_415bis" ns53:relation="cites">415-bis del codice di procedura penale</ref> e dell'articolo 127 delle norme di attuazione, di coordinamento e transitorie del <ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns54:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns54:relation="cites">codice di procedura penale</ref>, di cui al <ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/decretoLegislativo/stato/1989-07-28/271/!main" ns55:target="olf:it/decreto-legislativo/stato/1989/271" ns55:relation="cites">decreto legislativo 28 luglio 1989, n. 271</ref>, nel testo vigente prima della data di entrata in vigore del presente decreto". 
+ Art. 5-septies (Introduzione dell'<ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_88ter" ns56:target="olf:it/decreto-legislativo/stato/2022/150/art_88ter" ns56:relation="amends">articolo 88-ter del decreto legislativo 10 ottobre 2022, n. 150</ref>, recante disposizioni transitorie in materia di inappellabilita' delle sentenze di non luogo a procedere). - 1. Dopo l'<ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_88bis" ns57:target="olf:it/decreto-legislativo/stato/2022/150/art_88bis" ns57:relation="amends">articolo 88-bis del decreto legislativo 10 ottobre 2022, n. 150</ref>, e' inserito il seguente: 
+ "Art. 88-ter (Disposizioni transitorie in materia di inappellabilita' delle sentenze di non luogo a procedere). - 1. Le disposizioni di cui all'articolo 23, comma 1, lettera m), in materia di inappellabilita' delle sentenze di non luogo a procedere relative a reati puniti con la sola pena pecuniaria o con pena alternativa, si applicano alle sole sentenze di non luogo a procedere emesse dopo la data di entrata in vigore del presente decreto". 
+ Art. 5-octies (Introduzione dell'<ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_89bis" ns58:target="olf:it/decreto-legislativo/stato/2022/150/art_89bis" ns58:relation="amends">articolo 89-bis del decreto legislativo 10 ottobre 2022, n. 150</ref>, recante disposizioni transitorie in materia di udienza predibattimentale). - 1. Dopo l'<ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_89" ns59:target="olf:it/decreto-legislativo/stato/2022/150/art_89" ns59:relation="amends">articolo 89 del decreto legislativo 10 ottobre 2022, n. 150</ref>, e' inserito il seguente: 
+ "Art. 89-bis (Disposizioni transitorie in materia di udienza predibattimentale). - 1. Le disposizioni di cui all'articolo 32, comma 1, lettera d), relative all'udienza di comparizione predibattimentale a seguito di citazione diretta, si applicano nei procedimenti penali nei quali il decreto di citazione a giudizio e' emesso in data successiva a quella di entrata in vigore del presente decreto". 
+ Art. 5-novies (Modifica all'<ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_92" ns60:target="olf:it/decreto-legislativo/stato/2022/150/art_92" ns60:relation="amends">articolo 92 del decreto legislativo 10 ottobre 2022, n. 150</ref>, recante disposizioni transitorie in materia di giustizia riparativa). - 1. All'<ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_92" ns61:target="olf:it/decreto-legislativo/stato/2022/150/art_92" ns61:relation="amends">articolo 92 del decreto legislativo 10 ottobre 2022, n. 150</ref>, dopo il comma 2 e' aggiunto il seguente: 
+ "2-bis. Le disposizioni in materia di giustizia riparativa di cui all'articolo 1, comma 1, lettera b), lettera h), numero 2), e lettera l), all'articolo 5, comma 1, lettera e), numero 5), e lettera f), all'articolo 7, comma 1, lettera c), all'articolo 13, comma 1, lettera a), all'articolo 18, comma 1, lettera c), numero 2), all'articolo 19, comma 1, lettera a), numero 1), all'articolo 22, comma 1, lettera e), numero 3), lettera f) e lettera l), numero 2), all'articolo 23, comma 1, lettera a), numero 2), e lettera n), numero 1), all'articolo 25, comma 1, lettera d), all'articolo 28, comma 1, lettera b), numero 1), lettera c), all'articolo 29, comma 1, lettera a), numero 4), all'articolo 32, comma 1, lettera b), numero 1), lettera d), all'articolo 34, comma 1, lettera g), numero 3), all'articolo 38, comma 1, lettera a), numero 2), e lettera c), all'articolo 41, comma 1, lettera c), all'articolo 72, comma 1, lettera a), all'articolo 78, comma 1, lettera a), lettera b) e lettera c), numero 2), all'articolo 83, comma 1, e all'articolo 84, comma 1, lettere a) e b), si applicano nei procedimenti penali e nella fase dell'esecuzione della pena decorsi sei mesi dalla data di entrata in vigore del presente decreto". 
+ Art. 5-decies (Introduzione dell'<ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_93bis" ns62:target="olf:it/decreto-legislativo/stato/2022/150/art_93bis" ns62:relation="amends">articolo 93-bis del decreto legislativo 10 ottobre 2022, n. 150</ref>, recante disposizioni transitorie in materia di mutamento del giudice nel corso del dibattimento). - 1.
+Dopo l'<ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_93" ns63:target="olf:it/decreto-legislativo/stato/2022/150/art_93" ns63:relation="amends">articolo 93 del decreto legislativo 10 ottobre 2022, n. 150</ref>, e' inserito il seguente: 
+ "Art. 93-bis (Disposizioni transitorie in materia di mutamento del giudice nel corso del dibattimento). - 1. La disposizione di cui all'<ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_495-com4ter" ns64:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_495-com4ter" ns64:relation="cites">articolo 495, comma 4-ter, del codice di procedura penale</ref>, come introdotta dal presente decreto, non si applica quando e' chiesta la rinnovazione dell'esame di una persona che ha reso le precedenti dichiarazioni in data anteriore al 1° gennaio 2023". 
+ Art. 5-undecies (Modifica all'<ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_94" ns65:target="olf:it/decreto-legislativo/stato/2022/150/art_94" ns65:relation="amends">articolo 94 del decreto legislativo 10 ottobre 2022, n. 150</ref>, in materia di disciplina transitoria per le videoregistrazioni). - 1. All'<ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_94-com1" ns66:target="olf:it/decreto-legislativo/stato/2022/150/art_94-com1" ns66:relation="amends">articolo 94, comma 1, del decreto legislativo 10 ottobre 2022, n. 150</ref>, le parole: "decorso un anno" sono sostituite dalle seguenti: "decorsi sei mesi". 
+ Art. 5-duodecies (Modifica all'<ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_94" ns67:target="olf:it/decreto-legislativo/stato/2022/150/art_94" ns67:relation="amends">articolo 94 del decreto legislativo 10 ottobre 2022, n. 150</ref>, in materia di disciplina transitoria per i giudizi di impugnazione). - 1. All'<ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_94" ns68:target="olf:it/decreto-legislativo/stato/2022/150/art_94" ns68:relation="amends">articolo 94 del decreto legislativo 10 ottobre 2022, n. 150</ref>, il comma 2 e' sostituito dal seguente: 
+ "2. Per le impugnazioni proposte entro il 30 giugno 2023 continuano ad applicarsi le disposizioni di cui all'articolo 23, commi 8, primo, secondo, terzo, quarto e quinto periodo, e 9, nonche' le disposizioni di cui all'<ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/decretoLegge/stato/2020-10-28/137/!main#art_23bis-com1" ns69:target="olf:it/decreto-legge/stato/2020/137/art_23bis-com1" ns69:relation="amends">articolo 23-bis, commi 1</ref>, <ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/decretoLegge/stato/2020-10-28/137/!main#art_23bis-com2" ns70:target="olf:it/decreto-legge/stato/2020/137/art_23bis-com2" ns70:relation="amends">2</ref>, <ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/decretoLegge/stato/2020-10-28/137/!main#art_23bis-com3" ns71:target="olf:it/decreto-legge/stato/2020/137/art_23bis-com3" ns71:relation="amends">3</ref>, <ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/decretoLegge/stato/2020-10-28/137/!main#art_23bis-com4" ns72:target="olf:it/decreto-legge/stato/2020/137/art_23bis-com4" ns72:relation="amends">4</ref> e <ref xmlns:ns73="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_73" href="/akn/it/act/decretoLegge/stato/2020-10-28/137/!main#art_23bis-com7" ns73:target="olf:it/decreto-legge/stato/2020/137/art_23bis-com7" ns73:relation="amends">7, del decreto-legge 28 ottobre 2020, n. 137</ref>, convertito, con modificazioni, dalla <ref xmlns:ns74="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_74" href="/akn/it/act/legge/stato/2020-12-18/176/!main" ns74:target="olf:it/legge/stato/2020/176" ns74:relation="cites">legge 18 dicembre 2020, n. 176</ref>. Se sono proposte ulteriori impugnazioni avverso il medesimo provvedimento dopo il 30 giugno 2023, si fa riferimento all'atto di impugnazione proposto per primo". 
+ Art. 5-terdecies (Introduzione dell'<ref xmlns:ns75="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_75" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_97bis" ns75:target="olf:it/decreto-legislativo/stato/2022/150/art_97bis" ns75:relation="amends">articolo 97-bis del decreto legislativo 10 ottobre 2022, n. 150</ref>, recante disposizioni transitorie in materia di iscrizione nel casellario giudiziale di provvedimenti di condanna alle sanzioni sostitutive). - 1. Dopo l'<ref xmlns:ns76="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_76" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main#art_97" ns76:target="olf:it/decreto-legislativo/stato/2022/150/art_97" ns76:relation="amends">articolo 97 del decreto legislativo 10 ottobre 2022, n. 150</ref>, e' inserito il seguente: 
+ "Art. 97-bis (Disposizioni transitorie in materia di iscrizione nel casellario giudiziale di provvedimenti di condanna alle sanzioni sostitutive). - 1. Ai provvedimenti di condanna alle sanzioni sostitutive e ai relativi provvedimenti di conversione continuano ad applicarsi le disposizioni dell'articolo 3, comma 1, lettera g), del testo unico di cui al <ref xmlns:ns77="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_77" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-11-14/313/!main" ns77:target="olf:it/dpr/stato/2002/313" ns77:relation="cites">decreto del Presidente della Repubblica 14 novembre 2002, n. 313</ref>, nel testo vigente prima della data di entrata in vigore del presente decreto". 
+ 2. Nel <ref xmlns:ns78="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_78" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main" ns78:target="olf:it/decreto-legislativo/stato/2022/150" ns78:relation="amends">decreto legislativo 10 ottobre 2022, n. 150</ref>, le parole: "casellario giudiziario", ovunque ricorrono, sono sostituite dalle seguenti: "casellario giudiziale". 
+ Art. 5-quaterdecies (Proroga delle disposizioni processuali per i provvedimenti relativi all'ammissione ai campionati professionistici e dilettantistici). - 1. Nelle more dell'adeguamento dello statuto e dei regolamenti del Comitato olimpico nazionale italiano (CONI), e conseguentemente delle federazioni sportive di cui agli <ref xmlns:ns79="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_79" href="/akn/it/act/decretoLegislativo/stato/1999-07-23/242/!main#art_15" ns79:target="olf:it/decreto-legislativo/stato/1999/242/art_15" ns79:relation="cites">articoli 15</ref> e <ref xmlns:ns80="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_80" href="/akn/it/act/decretoLegislativo/stato/1999-07-23/242/!main#art_16" ns80:target="olf:it/decreto-legislativo/stato/1999/242/art_16" ns80:relation="cites">16 del decreto legislativo 23 luglio 1999, n. 242</ref>, con specifiche norme di giustizia sportiva per la trattazione delle controversie aventi ad oggetto i provvedimenti relativi all'ammissione ai campionati professionistici e dilettantistici adottati dalle federazioni sportive nazionali, riconosciute dal CONI e dal Comitato italiano paralimpico (CIP), fino al 31 dicembre 2025 si applicano le disposizioni di cui all'<ref xmlns:ns81="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_81" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_218-com2" ns81:target="olf:it/decreto-legge/stato/2020/34/art_218-com2" ns81:relation="amends">articolo 218, commi 2</ref>, <ref xmlns:ns82="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_82" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_218-com3" ns82:target="olf:it/decreto-legge/stato/2020/34/art_218-com3" ns82:relation="amends">3</ref>, <ref xmlns:ns83="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_83" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_218-com4" ns83:target="olf:it/decreto-legge/stato/2020/34/art_218-com4" ns83:relation="amends">4</ref> e <ref xmlns:ns84="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_84" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_218-com5" ns84:target="olf:it/decreto-legge/stato/2020/34/art_218-com5" ns84:relation="amends">5, del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns85="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_85" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns85:target="olf:it/legge/stato/2020/77" ns85:relation="cites">legge 17 luglio 2020, n. 77</ref>
+                                        </quotedText>».</mod>
+                                    <mod eId="modNov_5">All'articolo 7: 
+ dopo il comma 1 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_5_new_13">1-bis. Dalla data di entrata in vigore della legge di conversione del presente decreto fino al 30 giugno 2023 sono sospesi le attivita' e i procedimenti di irrogazione della sanzione previsti dall'<ref xmlns:ns86="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_86" href="/akn/it/act/decretoLegge/stato/2021-04-01/44/!main#art_4sexies-com3" ns86:target="olf:it/decreto-legge/stato/2021/44/art_4sexies-com3" ns86:relation="amends">articolo 4-sexies, commi 3</ref>, <ref xmlns:ns87="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_87" href="/akn/it/act/decretoLegge/stato/2021-04-01/44/!main#art_4sexies-com4" ns87:target="olf:it/decreto-legge/stato/2021/44/art_4sexies-com4" ns87:relation="amends">4</ref> e <ref xmlns:ns88="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_88" href="/akn/it/act/decretoLegge/stato/2021-04-01/44/!main#art_4sexies-com6" ns88:target="olf:it/decreto-legge/stato/2021/44/art_4sexies-com6" ns88:relation="amends">6, del decreto-legge 1° aprile 2021, n. 44</ref>, convertito, con modificazioni, dalla <ref xmlns:ns89="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_89" href="/akn/it/act/legge/stato/2021-05-28/76/!main" ns89:target="olf:it/legge/stato/2021/76" ns89:relation="amends">legge 28 maggio 2021, n. 76</ref>. 
+ 1-ter. All'<ref xmlns:ns90="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_90" href="/akn/it/act/decretoLegge/stato/2022-03-24/24/!main#art_2" ns90:target="olf:it/decreto-legge/stato/2022/24/art_2" ns90:relation="repeals">articolo 2 del decreto-legge 24 marzo 2022, n. 24</ref>, convertito, con modificazioni, dalla <ref xmlns:ns91="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_91" href="/akn/it/act/legge/stato/2022-05-19/52/!main" ns91:target="olf:it/legge/stato/2022/52" ns91:relation="cites">legge 19 maggio 2022, n. 52</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 1, primo periodo, le parole: "31 dicembre 2022" sono sostituite dalle seguenti: "30 giugno 2023"; 
+ b) al comma 2, al primo periodo, le parole: "31 dicembre 2022" sono sostituite dalle seguenti: "30 giugno 2023" e, al terzo periodo, le parole: "1° gennaio 2023" sono sostituite dalle seguenti: "1° luglio 2023"; 
+ c) al comma 4, secondo periodo, le parole: "31 dicembre 2022" sono sostituite dalle seguenti: "30 giugno 2023"; 
+ d) al comma 5, primo periodo, le parole: "31 dicembre 2022" sono sostituite dalle seguenti: "30 giugno 2023"</quotedText>».</mod> 
+ Dopo l'articolo 7 sono inseriti i seguenti: 
+ «Art. 7-bis (Finanziamento delle attivita' delle amministrazioni centrali in attuazione del Piano strategico-operativo nazionale di preparazione e risposta a una pandemia influenzale 2021-2023). - 1. All'<ref xmlns:ns92="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_92" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1" ns92:target="olf:it/legge/stato/2021/234/art_1" ns92:relation="amends">articolo 1 della legge 30 dicembre 2021, n. 234</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 261, al secondo periodo, le parole: "350 milioni di euro" sono sostituite dalle seguenti: "314,2 milioni di euro" ed e' aggiunto, in fine, il seguente periodo: "Per consentire l'assolvimento dei compiti attribuiti alle amministrazioni centrali dal Piano strategico-operativo nazionale di preparazione e risposta a una pandemia influenzale (PanFlu) 2021-2023, i pertinenti capitoli dello stato di previsione del Ministero della salute sono complessivamente incrementati di 35,8 milioni di euro per l'anno 2023, di cui 3,9 milioni di euro da trasferire all'Istituto superiore di sanita' per le medesime finalita' per l'anno 2023"; 
+ b) al comma 258, primo periodo, le parole: "in 126.061 milioni di euro per l'anno 2023" sono sostituite dalle seguenti: "in 126.025,2 milioni di euro per l'anno 2023". 
+ Art. 7-ter (Disposizioni in materia di green pass). - 1. Al <ref xmlns:ns93="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_93" href="/akn/it/act/decretoLegge/stato/2021-04-01/44/!main" ns93:target="olf:it/decreto-legge/stato/2021/44" ns93:relation="amends">decreto-legge 1° aprile 2021, n. 44</ref>, convertito, con modificazioni, dalla <ref xmlns:ns94="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_94" href="/akn/it/act/legge/stato/2021-05-28/76/!main#art_1bis" ns94:target="olf:it/legge/stato/2021/76/art_1bis" ns94:relation="amends">legge 28 maggio 2021, n. 76, all'articolo 1-bis</ref>, i commi 1-bis, 1-ter, 1-quater, 1-quinquies, 1-sexies, 1-sexies.1 e 1-septies sono abrogati. 
+ 2. Al <ref xmlns:ns95="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_95" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main" ns95:target="olf:it/decreto-legge/stato/2021/52" ns95:relation="amends">decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns96="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_96" href="/akn/it/act/legge/stato/2021-06-17/87/!main#art_2bis" ns96:target="olf:it/legge/stato/2021/87/art_2bis" ns96:relation="amends">legge 17 giugno 2021, n. 87, gli articoli 2-bis</ref> e <ref xmlns:ns97="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_97" href="/akn/it/act/legge/stato/2021-06-17/87/!main#art_2quater" ns97:target="olf:it/legge/stato/2021/87/art_2quater" ns97:relation="amends">2-quater</ref> sono abrogati. 
+ Art. 7-quater (Modifiche all'<ref xmlns:ns98="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_98" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_10ter" ns98:target="olf:it/decreto-legge/stato/2021/52/art_10ter" ns98:relation="amends">articolo 10-ter del decreto-legge 22 aprile 2021, n. 52</ref>, in materia di autosorveglianza). - 1.
+All'<ref xmlns:ns99="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_99" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_10ter" ns99:target="olf:it/decreto-legge/stato/2021/52/art_10ter" ns99:relation="amends">articolo 10-ter del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns100="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_100" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns100:target="olf:it/legge/stato/2021/87" ns100:relation="amends">legge 17 giugno 2021, n. 87</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 2: 
+ 1) le parole: "fino al decimo giorno" sono sostituite dalle seguenti: "fino al quinto giorno"; 
+ 2) le parole: "e di effettuare un test antigenico rapido o molecolare per la rilevazione di SARS-CoV-2, anche presso centri privati a cio' abilitati, alla prima comparsa dei sintomi e, se ancora sintomatici, al quinto giorno successivo alla data dell'ultimo contatto" sono soppresse; 
+ b) al comma 3: 
+ 1) al primo periodo, le parole: "dei commi 1 e 2" sono sostituite dalle seguenti: "del comma 1"; 
+ 2) il secondo e il terzo periodo sono soppressi». 
+ <mod eId="modNov_6">Al titolo, le parole: «<quotedText eId="modNov_6_old_12">di entrata in vigore del <ref xmlns:ns101="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_101" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main" ns101:target="olf:it/decreto-legislativo/stato/2022/150" ns101:relation="amends">decreto legislativo 10 ottobre 2022, n. 150</ref>, di obblighi di vaccinazione anti SARS-COV-2</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_12">di termini di applicazione delle disposizioni del <ref xmlns:ns102="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_102" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/150/!main" ns102:target="olf:it/decreto-legislativo/stato/2022/150" ns102:relation="amends">decreto legislativo 10 ottobre 2022, n. 150</ref>, e di disposizioni relative a controversie della giustizia sportiva, nonche' di obblighi di vaccinazione anti SARS-CoV-2, di attuazione del Piano nazionale contro una pandemia influenzale</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
