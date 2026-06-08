@@ -1,0 +1,976 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-07-03/87/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-07-03/87"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-07-03;87"/>
+                    <FRBRalias name="eli" value="eli/id/2023/07/05/23G00096/ORIGINAL"/>
+                    <FRBRdate date="2023-07-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/07/05/23G00096/ORIGINAL" aknrelname="eli/id/2023/07/05/23G00096/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 10 maggio 2023, n. 51, recante disposizioni urgenti in materia di amministrazione di enti pubblici, di termini legislativi e di iniziative di solidarieta' sociale. (23G00096)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00096" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-07-03" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-07-03/87/ita@2023-07-06/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-07-03/87/ita@2023-07-06"/>
+                    <FRBRdate date="2023-07-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/07/05/23G00096/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/07/05/23G00096/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/07/05/23G00096/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-07-03/87/ita@2023-07-06/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-07-03/87/ita@2023-07-06.xml"/>
+                    <FRBRdate date="2023-07-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/07/05/23G00096/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-07-05" name="" number="155" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-07-05" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2023-07-03" refersTo="#C.1151"/>
+                <step by="#senato" date="2023-07-03" refersTo="#S.774"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1972-10-26;633#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1972-10-26;633#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1972-10-26;633#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:legge:1994-01-21;53#3 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1994-06-30;479#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:legge:2000-11-14;338#1 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:legge:2002-12-27;289#90"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2010-02-11;22#16"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:legge:2010-12-30;240#16"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2012-07-06;95#3 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2012-07-06;95#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2014-03-14;49#24 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:legge:2015-12-28;208#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:legge:2018-12-30;145#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2019-04-30;34#30"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-07-16;76#26"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-05-25;73#64"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-21;146#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n.108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-12-30;228#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-12-30;228#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:legge:2021-12-30;234#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-03-21;21#30"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#36 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-08-09;115#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:legge:2022-12-29;197#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-12-29;198#1 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-12-29;198#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-12-29;198#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-12-29;198#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-30;34#8"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2023-03-31;36#108"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 maggio 2023, n. 51 (in G.U. 10/05/2023, n. 108).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) che la rubrica del Capo III "Disposizioni urgenti in materia di iniziative di solidarieta' sociale" è modificata dalla seguente: "Disposizioni urgenti in materia di iniziative di solidarieta' sociale nonche' di enti territoriali e di attuazione del Piano nazionale di ripresa e resilienza".</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1 lettere e) ed f), 2, 4 e 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1 e l'introduzione del comma 3-bis all'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 2 e l'introduzione dei commi 5-bis e 5-ter all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#3 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#3 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 2 e 3 e l'introduzione dei commi 2-bis, 3-bis, 3-ter, 3-quater, 3-quinquies, 3-sexies, 3-septies, 3-octies, 3-novies, 3-decies, 3-undecies all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#4 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 4-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#4 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 4-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#4 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 4-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#4 quinquies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 4-quinquies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#4 sexies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 4-sexies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, commi 2, 3 lettere a) e b) e 4. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, rubrica e l'introduzione dei commi 2-bis, 2-ter, 2-quater, 2-quinquies, 2-sexies e 2-septies all'art. 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#6 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#6 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#6 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#6 quinquies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-quinquies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#7 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#7 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, comma 1, lettere a) e b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#8 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 8-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#8 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 8-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_55" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#10"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, comma 1 e l'introduzione del comma 1-bis all'art. 10.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_56" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#11"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 11, rubrica e comma 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_57" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#11 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 11-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_58" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#12 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 12-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_59" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#12 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 12-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_60" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#13"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 13, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_61" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-10;51#13 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 13-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_62" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione e la modifica dell'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_63" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-03;87#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione e la modifica dell'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_64" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-29/57/ita@2023-07-06/!main/~art_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_65" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-29/57/ita@2023-07-06/!main/~art_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_66" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_1__para_1__point_e"/>
+                        <new href="#modNov_2_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_67" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_1__para_1__point_f"/>
+                        <old href="#modNov_2_old_2"/>
+                        <new href="#modNov_2_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_68" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_1__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_69" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_1__para_2"/>
+                        <old href="#modNov_2_old_4"/>
+                        <new href="#modNov_2_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_70" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_1__para_4"/>
+                        <old href="#modNov_2_old_5"/>
+                        <new href="#modNov_2_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_71" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_1__para_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_72" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_2__para_1"/>
+                        <new href="#modNov_3_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_73" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_2__para_1"/>
+                        <old href="#modNov_3_old_14"/>
+                        <new href="#modNov_3_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_74" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_2__para_3-bis"/>
+                        <new href="#modNov_3_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_75" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_3__para_2"/>
+                        <old href="#modNov_4_old_18"/>
+                        <new href="#modNov_4_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_76" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_3"/>
+                        <new href="#modNov_4_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_77" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main"/>
+                        <new href="#modNov_5_new_31"/>
+                    </textualMod>
+                    <textualMod eId="amod_78" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_4__para_2-bis"/>
+                        <new href="#modNov_6_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_79" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_4__para_2"/>
+                        <old href="#modNov_6_old_20"/>
+                        <new href="#modNov_6_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_80" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_4__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_81" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_4"/>
+                        <new href="#modNov_6_new_22"/>
+                    </textualMod>
+                    <textualMod eId="amod_82" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_5__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_83" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_5__para_3__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_84" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_5__para_3__point_b"/>
+                        <old href="#modNov_7_old_26"/>
+                        <new href="#modNov_7_new_26"/>
+                    </textualMod>
+                    <textualMod eId="amod_85" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_5__para_4"/>
+                        <old href="#modNov_7_old_27"/>
+                        <new href="#modNov_7_new_27"/>
+                    </textualMod>
+                    <textualMod eId="amod_86" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_6"/>
+                        <new href="#modNov_8_new_23"/>
+                    </textualMod>
+                    <textualMod eId="amod_87" type="insertion">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_6"/>
+                        <new href="#modNov_8_new_28"/>
+                    </textualMod>
+                    <textualMod eId="amod_88" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_8__para_1__point_a"/>
+                        <old href="#modNov_9_old_29"/>
+                        <new href="#modNov_9_new_29"/>
+                    </textualMod>
+                    <textualMod eId="amod_89" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_8__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_90" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_10__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_91" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_10__para_1-bis"/>
+                        <new href="#modNov_10_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_92" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_11"/>
+                        <old href="#modNov_11_old_7"/>
+                        <new href="#modNov_11_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_93" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_11__para_4"/>
+                        <old href="#modNov_11_old_10"/>
+                        <new href="#modNov_11_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_94" type="insertion">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_11-bis"/>
+                        <new href="#modNov_12_new_17"/>
+                    </textualMod>
+                    <textualMod eId="amod_95" type="insertion">
+                        <source href="#modNov_13"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_13__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_96" type="insertion">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-10/51/ita@2023-07-06/!main/~art_13-bis"/>
+                        <new href="#modNov_14_new_12"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-07-03/87/!main" showAs=""/>
+                <passiveRef eId="C.1151" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1151" showAs=""/>
+                <passiveRef eId="S.774" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;774" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/07/05/23G00096/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 10 maggio 2023, n. 51, recante disposizioni urgenti in materia di amministrazione di enti pubblici, di termini legislativi e di iniziative di solidarieta' sociale. (23G00096)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00096</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-07-03</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/07/05/23G00096/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/07/05/23G00096/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/07/05/23G00096/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/07/05/23G00096/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/87" nativeUrn="urn:nir:stato:legge:2023-07-03;87" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-07-05"><ns0:event type="enacted" date="2023-07-03"/><ns0:event type="published" date="2023-07-05"/><ns0:event type="commenced" date="2023-07-05"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/601e5328-be81-42ce-b3fc-4623aed1fead" sourceSha256="ad3402e9bcadab884a7f11c9ca9f7a95911237ea560842aac7cbcbcb93445d01" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T19:09:00.493371Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-07-03">03 luglio 2023</docDate>
+                <docNumber>87</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 10 maggio 2023, n. 51, recante disposizioni urgenti in materia di amministrazione di enti pubblici, di termini legislativi e di iniziative di solidarieta' sociale. (23G00096) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 06/07/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2023-05-10/51/!main" ns1:target="olf:it/decreto-legge/stato/2023/51" ns1:relation="repeals">decreto-legge 10 maggio 2023, n. 51</ref>, recante disposizioni urgenti in materia di amministrazione di enti pubblici, di termini legislativi e di iniziative di solidarieta' sociale, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">Gli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2023-05-29/57/!main#art_1" ns2:target="olf:it/decreto-legge/stato/2023/57/art_1" ns2:relation="repeals">articoli 1</ref> e <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegge/stato/2023-05-29/57/!main#art_2" ns3:target="olf:it/decreto-legge/stato/2023/57/art_2" ns3:relation="repeals">2 del decreto-legge 29 maggio 2023, n. 57</ref>, recante misure urgenti per gli enti territoriali, nonche' per garantire la tempestiva attuazione del Piano nazionale di ripresa e resilienza e per il settore energetico, sono abrogati. Restano validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodottisi e i rapporti giuridici sorti sulla base degli articoli 1 e 2 del medesimo <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2023/57/!main" ns4:resolution="unresolved">decreto-legge n. 57 del 2023</ref>.</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegge/stato/2023-05-10/51/!main" ns5:target="olf:it/decreto-legge/stato/2023/51" ns5:relation="repeals">decreto-legge 10 maggio 2023, n. 51</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 108 del 10 maggio 2023. 
+ A norma dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns6:target="olf:it/legge/stato/1988/400/art_15-com5" ns6:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 58. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 3 luglio 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri &amp;gt;Giorgetti, Ministro dell'economia e delle finanze Schillaci, Ministro della salute Calderone, Ministro del lavoro e delle politiche sociali Urso, Ministro delle imprese e del made in Italy Sangiuliano, Ministro della cultura Abodi, Ministro per lo sport e i giovani Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-07-03/87/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-07-03/87"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-07-03;87"/>
+                                <FRBRalias name="eli" value="eli/id/2023/07/05/23G00096/ORIGINAL"/>
+                                <FRBRdate date="2023-07-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-07-03/87/ita@2023-07-06/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-07-03/87/ita@2023-07-06"/>
+                                <FRBRdate date="2023-07-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-07-03/87/ita@2023-07-06/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-07-03/87/ita@2023-07-06.xml"/>
+                                <FRBRdate date="2023-07-03" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ MODIFICAZIONI APPORTATE 
+ IN SEDE DI CONVERSIONE 
+ AL DECRETO-LEGGE 10 MAGGIO 2023, N. 51 
+ 
+ <mod eId="modNov_2">All'articolo 1: 
+ al comma 1: 
+ alla lettera e)<quotedText eId="modNov_2_new_1">,</quotedText> capoverso 6, dopo le parole: «30 aprile 1970, n. 639» e' inserito il seguente segno d'interpunzione: «,»; 
+ alla lettera f), capoverso 9, primo periodo, le parole: «<quotedText eId="modNov_2_old_2">e possono essere rinnovati</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_2">; l'incarico puo' essere rinnovato</quotedText>»; 
+ al comma 2: 
+ al primo periodo, le parole: «<quotedText eId="modNov_2_old_4">dall'entrata in vigore</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_4">dalla data di entrata in vigore</quotedText>»; 
+ al secondo periodo, dopo le parole: «Il commissario» e' inserita la seguente: «straordinario» e dopo le parole: «di imparzialita' e garanzia» e' inserito il seguente segno d'interpunzione: «,»; 
+ al terzo periodo, dopo le parole: «Con la nomina del» e' inserita la seguente: «<quotedText eId="modNov_2_old_5">rispettivo</quotedText>»; 
+ al comma 4, la parola: «rispettivo» e' sostituita dalla seguente: «<quotedText eId="modNov_2_new_5">proprio</quotedText>»; 
+ al comma 5, dopo le parole: «30 aprile 1970, n. 639» e' inserito il seguente segno d'interpunzione: «,».</mod>
+                                    <mod eId="modNov_3">All'articolo 2: 
+ al comma 1, le parole: «<quotedText eId="modNov_3_old_14">Alle fondazioni</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_14">Per le fondazioni</quotedText>» e dopo le parole: «si applica» sono inserite le seguenti: «<quotedText eId="modNov_3_new_13">ai soggetti di cui al presente comma</quotedText>»; 
+ dopo il comma 3 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_3_new_15">3-bis. All'articolo 7, comma 7-septies, primo periodo, del <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegge/stato/2022-12-29/198/!main" ns7:target="olf:it/decreto-legge/stato/2022/198" ns7:relation="amends">decreto-legge 29 dicembre 2022, n. 198</ref>, convertito, con modificazioni, dalla <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2023-02-24/14/!main" ns8:target="olf:it/legge/stato/2023/14" ns8:relation="cites">legge 24 febbraio 2023, n. 14</ref>, le parole: "n. 39 del 25 gennaio 2022" sono sostituite dalle seguenti: "n. 223 del 25 maggio 2022"</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 3: 
+ al comma 2, le parole: «<quotedText eId="modNov_4_old_18">entro sessanta giorni dalla data</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_18">il sessantesimo giorno successivo alla data</quotedText>»; 
+ dopo il comma 5 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_4_new_19">5-bis. Al <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2018-12-30/145/!main#art_1-com547" ns9:target="olf:it/legge/stato/2018/145/art_1-com547" ns9:relation="amends">comma 547 dell'articolo 1 della legge 30 dicembre 2018, n. 145</ref>, la parola: "terzo" e' sostituita dalla seguente:
+"secondo". 
+ 5-ter. All'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegge/stato/2022-06-21/73/!main#art_36bis-com1" ns10:target="olf:it/decreto-legge/stato/2022/73/art_36bis-com1" ns10:relation="amends">articolo 36-bis, comma 1, del decreto-legge 21 giugno 2022, n. 73</ref>, convertito, con modificazioni, dalla <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2022-08-04/122/!main" ns11:target="olf:it/legge/stato/2022/122" ns11:relation="amends">legge 4 agosto 2022, n. 122</ref>, le parole: "31 dicembre 2023" sono sostituite dalle seguenti: "31 dicembre 2026" e le parole: "850 assistiti" sono sostituite dalle seguenti: "1.000 assistiti"</quotedText>».</mod>
+                                    <mod eId="modNov_5">Dopo l'articolo 3 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_5_new_31">Art. 3-bis (Disposizioni concernenti la disciplina per il controllo della spesa relativa ai dispositivi medici). - 1. Nelle more della definizione di una nuova disciplina per la gestione della spesa relativa ai dispositivi medici, che consideri le evoluzioni tecnologiche e le innovazioni nel settore, anche tenendo conto delle iniziative dirette a promuovere l'attuazione del programma di valutazione delle tecnologie sanitarie (Health technology assessment) di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2022-08-05/137/!main#art_22" ns12:target="olf:it/decreto-legislativo/stato/2022/137/art_22" ns12:relation="cites">articolo 22 del decreto legislativo 5 agosto 2022, n. 137</ref>, e all'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/2022-08-05/138/!main#art_18" ns13:target="olf:it/decreto-legislativo/stato/2022/138/art_18" ns13:relation="cites">articolo 18 del decreto legislativo 5 agosto 2022, n. 138</ref>, comunque entro il 31 dicembre 2026, la vigente disciplina per il controllo della spesa prevista dall'articolo 9-ter, commi 1, lettera b), 8 e 9, del <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegge/stato/2015-06-19/78/!main" ns14:target="olf:it/decreto-legge/stato/2015/78" ns14:relation="cites">decreto-legge 19 giugno 2015, n. 78</ref>, convertito, con modificazioni, dalla <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2015-08-06/125/!main" ns15:target="olf:it/legge/stato/2015/125" ns15:relation="amends">legge 6 agosto 2015, n. 125</ref>, puo' essere modificata su proposta del Ministero della salute, d'intesa con il Ministero dell'economia e delle finanze, sentita l'Agenzia nazionale per i servizi sanitari regionali, sulla base di specifico monitoraggio effettuato dal Ministero della salute, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, nel rispetto degli equilibri programmati di finanza pubblica e in coerenza con il livello del finanziamento del Servizio sanitario nazionale. 
+ 2. All'articolo 8, comma 3, primo periodo, del <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegge/stato/2023-03-30/34/!main" ns16:target="olf:it/decreto-legge/stato/2023/34" ns16:relation="repeals">decreto-legge 30 marzo 2023, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2023-05-26/56/!main" ns17:target="olf:it/legge/stato/2023/56" ns17:relation="cites">legge 26 maggio 2023, n. 56</ref>, le parole: "30 giugno 2023" sono sostituite dalle seguenti: "31 luglio 2023". 
+ Art. 3-ter (Disposizioni in materia di personale della ricerca sanitaria degli IRCCS pubblici e degli IZS). - 1. Al fine di rafforzare strutturalmente gli Istituti di ricovero e cura a carattere scientifico (IRCCS) pubblici e gli Istituti zooprofilattici sperimentali (IZS), di seguito complessivamente denominati "Istituti", dal 1° luglio 2023 al 31 dicembre 2025 gli Istituti medesimi possono assumere a tempo indeterminato, nella posizione economica acquisita, in coerenza con le dotazioni organiche stabilite ai sensi dell'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2017-12-27/205/!main#art_1-com423" ns18:target="olf:it/legge/stato/2017/205/art_1-com423" ns18:relation="cites">articolo 1, comma 423, della legge 27 dicembre 2017, n. 205</ref>, e dell'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegislativo/stato/2022-12-23/200/!main#art_10" ns19:target="olf:it/decreto-legislativo/stato/2022/200/art_10" ns19:relation="cites">articolo 10 del decreto legislativo 23 dicembre 2022, n. 200</ref>, il personale della ricerca sanitaria e delle attivita' di supporto alla ricerca sanitaria reclutato a tempo determinato con procedure concorsuali, comprese le assunzioni effettuate ai sensi dell'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2017/205/!main#art_1-com429" ns20:resolution="unresolved">articolo 1, commi 429</ref>, <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/2017/205/!main#art_1-com430" ns21:resolution="unresolved">430</ref> e <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2017/205/!main#art_1-com432" ns22:resolution="unresolved">432, della legge n. 205 del 2017</ref>, che, coerentemente con quanto previsto dall'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegislativo/stato/2017-05-25/75/!main#art_20-com1" ns23:target="olf:it/decreto-legislativo/stato/2017/75/art_20-com1" ns23:relation="cites">articolo 20, comma 1, del decreto legislativo 25 maggio 2017, n. 75</ref>, abbia maturato, al 30 giugno 2023, almeno tre anni di servizio, anche non continuativi, negli ultimi otto anni, alle dipendenze di un ente del Servizio sanitario nazionale, con rapporti di lavoro flessibile o con borse di studio, rispettivamente, instaurati o conferite a seguito di procedura selettiva pubblica, nel limite complessivo di 74 milioni di euro a valere sulle risorse disponibili di cui all'articolo 1, comma 424, ultimo periodo, della citata <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2017/205/!main" ns24:resolution="unresolved">legge n. 205 del 2017</ref>. 
+ 2. Per gli anni 2023, 2024 e 2025 l'assunzione a tempo indeterminato del personale della ricerca sanitaria degli Istituti di cui al comma 1 del presente articolo e' effettuata in deroga ai requisiti di servizio previsti dall'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/2017-12-27/205/!main#art_1-com428" ns25:target="olf:it/legge/stato/2017/205/art_1-com428" ns25:relation="cites">articolo 1, comma 428, della legge 27 dicembre 2017, n. 205</ref>, e dall'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegislativo/stato/2022-12-23/200/!main#art_10-com1" ns26:target="olf:it/decreto-legislativo/stato/2022/200/art_10-com1" ns26:relation="cites">articolo 10, comma 1, del decreto legislativo 23 dicembre 2022, n. 200</ref>, nonche' in deroga ai limiti di spesa consentiti per il personale degli enti del Servizio sanitario nazionale dall'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegge/stato/2019-04-30/35/!main#art_11-com1" ns27:target="olf:it/decreto-legge/stato/2019/35/art_11-com1" ns27:relation="amends">articolo 11, comma 1, del decreto-legge 30 aprile 2019, n. 35</ref>, convertito, con modificazioni, dalla <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/2019-06-25/60/!main" ns28:target="olf:it/legge/stato/2019/60" ns28:relation="cites">legge 25 giugno 2019, n. 60</ref>. 
+ 3. Il personale assunto ai sensi del comma 1 del presente articolo non deve avere ottenuto due valutazioni annuali negative come definite da ciascun Istituto, ai sensi dell'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/2017-12-27/205/!main#art_1-com427" ns29:target="olf:it/legge/stato/2017/205/art_1-com427" ns29:relation="cites">articolo 1, comma 427, della legge 27 dicembre 2017, n. 205</ref>, secondo le modalita', le condizioni e i criteri stabiliti con il regolamento di cui al <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decreto/ministero.salute/2019-11-20/164/!main" ns30:target="olf:it/decreto/ministero-salute/2019/164" ns30:relation="cites">decreto del Ministro della salute 20 novembre 2019, n. 164</ref>
+                                        </quotedText>».</mod>
+                                    <mod eId="modNov_6">All'articolo 4: 
+ al comma 2, secondo periodo, le parole: «<quotedText eId="modNov_6_old_20">della Repubblica italiana 11 giugno 1999, n. 135</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_20">n. 135 dell' 11 giugno 1999</quotedText>»; 
+ dopo il comma 2 e' inserito il seguente: 
+ «<quotedText eId="modNov_6_new_16">2-bis. Nelle more della revisione del sistema tributario, al <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1-com683" ns31:target="olf:it/legge/stato/2021/234/art_1-com683" ns31:relation="amends">comma 683 dell'articolo 1 della legge 30 dicembre 2021, n. 234</ref>, sono apportate le seguenti modificazioni: 
+ a) la parola: "15-quater" e' soppressa; 
+ b) e' aggiunto, in fine, il seguente periodo: "Le disposizioni di cui al comma 15-quater del medesimo <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegge/stato/2021/146/!main#art_5" ns32:resolution="unresolved">articolo 5 del decreto-legge n. 146 del 2021</ref>, convertito, con modificazioni, dalla <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2021/215/!main" ns33:resolution="unresolved">legge n. 215 del 2021</ref>, si applicano a decorrere dal 1° luglio 2024"»; 
+ al comma 3, le parole: «della presente disposizione» sono sostituite dalle seguenti: «del presente decreto»</quotedText>; 
+ dopo il comma 3 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_6_new_22">3-bis. La misura dell'indennizzo stabilita dall'articolo 1, comma 496, primo periodo, della <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/2018-12-30/145/!main" ns34:target="olf:it/legge/stato/2018/145" ns34:relation="amends">legge 30 dicembre 2018, n. 145</ref>, e' incrementata al 40 per cento. A tal fine la quota aggiuntiva dell'indennizzo e' determinata sulla base delle risultanze istruttorie e dei dati gia' acquisiti dalla Commissione tecnica di cui al comma 501 del citato <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/legge/stato/2018/145/!main#art_1" ns35:resolution="unresolved">articolo 1 della legge n. 145 del 2018</ref> in relazione alle domande presentate entro i termini di legge. Ai fini dell'accredito, in caso di variazione del codice IBAN gia' indicato, l'avente diritto all'indennizzo comunica, a pena di decadenza, entro il 31 luglio 2023, il nuovo codice IBAN con modalita' telematica tramite il portale del Fondo indennizzo risparmiatori (FIR). 
+ 3-ter. All'<ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1-com63" ns36:target="olf:it/legge/stato/2021/234/art_1-com63" ns36:relation="amends">articolo 1, comma 63, della legge 30 dicembre 2021, n. 234</ref>, le parole: "30 giugno 2023" sono sostituite dalle seguenti: "31 ottobre 2023". A tal fine e' autorizzata la spesa di 150.000 euro per l'anno 2023, cui si provvede mediante corrispondente utilizzo del Fondo di parte corrente di cui all'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_34ter-com5" ns37:target="olf:it/legge/stato/2009/196/art_34ter-com5" ns37:relation="cites">articolo 34-ter, comma 5, della legge 31 dicembre 2009, n. 196</ref>, iscritto nello stato di previsione del Ministero dell'economia e delle finanze. 
+ 3-quater. All'<ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegge/stato/2022-12-29/198/!main#art_3-com7bis" ns38:target="olf:it/decreto-legge/stato/2022/198/art_3-com7bis" ns38:relation="amends">articolo 3, comma 7-bis, del decreto-legge 29 dicembre 2022, n. 198</ref>, convertito, con modificazioni, dalla <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/legge/stato/2023-02-24/14/!main" ns39:target="olf:it/legge/stato/2023/14" ns39:relation="cites">legge 24 febbraio 2023, n. 14</ref>, le parole: "750.000 euro", ovunque ricorrono, sono sostituite dalle seguenti: "1 milione di euro". 
+ 3-quinquies. I termini di cui ai <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com134" ns40:target="olf:it/legge/stato/2022/197/art_1-com134" ns40:relation="amends">commi 134</ref> e <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com135" ns41:target="olf:it/legge/stato/2022/197/art_1-com135" ns41:relation="amends">135 dell'articolo 1 della legge 29 dicembre 2022, n. 197</ref>, sono prorogati al 30 settembre 2023. 
+ 3-sexies. I soggetti che esercitano attivita' economiche per le quali sono stati approvati gli indici sintetici di affidabilita' fiscale e che dichiarano ricavi o compensi di ammontare non superiore al limite stabilito, per ciascun indice, dal relativo decreto di approvazione del Ministro dell'economia e delle finanze, tenuti ad effettuare entro il 30 giugno 2023 i versamenti risultanti dalle dichiarazioni dei redditi e da quelle in materia di imposta regionale sulle attivita' produttive e di imposta sul valore aggiunto, possono provvedervi entro il 20 luglio 2023 senza alcuna maggiorazione. In deroga a quanto disposto dall'articolo 17, comma 2, del regolamento di cui al <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-12-07/435/!main" ns42:target="olf:it/dpr/stato/2001/435" ns42:relation="cites">decreto del Presidente della Repubblica 7 dicembre 2001, n. 435</ref>, i versamenti di cui al primo periodo possono essere effettuati entro il 31 luglio 2023, maggiorando le somme da versare, in ragione di giorno, fino allo 0,40 per cento, a titolo di interesse corrispettivo. Non si fa luogo al rimborso di quanto gia' versato. 
+ 3-septies. Le disposizioni di cui al comma 3-sexies si applicano, oltre che ai soggetti che adottano gli indici sintetici di affidabilita' fiscale o che presentano cause di esclusione dagli stessi, compresi quelli che si avvalgono del regime fiscale di vantaggio di cui all'<ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main#art_27-com1" ns43:target="olf:it/decreto-legge/stato/2011/98/art_27-com1" ns43:relation="cites">articolo 27, comma 1, del decreto-legge 6 luglio 2011, n. 98</ref>, convertito, con modificazioni, dalla <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/legge/stato/2011-07-15/111/!main" ns44:target="olf:it/legge/stato/2011/111" ns44:relation="cites">legge 15 luglio 2011, n. 111</ref>, nonche' quelli che applicano il regime forfetario di cui all'<ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com54" ns45:target="olf:it/legge/stato/2014/190/art_1-com54" ns45:relation="cites">articolo 1, commi da 54</ref> <ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com89" ns46:target="olf:it/legge/stato/2014/190/art_1-com89" ns46:relation="cites">a 89, della legge 23 dicembre 2014, n. 190</ref>, anche ai soggetti che partecipano a societa', associazioni e imprese ai sensi degli articoli 5, 115 e 116 del testo unico delle imposte sui redditi, di cui al <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns47:target="olf:it/dpr/stato/1986/917" ns47:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>, aventi i requisiti indicati nel medesimo comma 3-sexies. 
+ 3-octies. Agli oneri derivanti dal comma 3-sexies, pari a 1,92 milioni di euro per l'anno 2023, si provvede mediante corrispondente riduzione del Fondo per interventi strutturali di politica economica, di cui all'<ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/decretoLegge/stato/2004-11-29/282/!main#art_10-com5" ns48:target="olf:it/decreto-legge/stato/2004/282/art_10-com5" ns48:relation="cites">articolo 10, comma 5, del decreto-legge 29 novembre 2004, n. 282</ref>, convertito, con modificazioni, dalla <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/legge/stato/2004-12-27/307/!main" ns49:target="olf:it/legge/stato/2004/307" ns49:relation="cites">legge 27 dicembre 2004, n. 307</ref>. 
+ 3-novies. Al fine di ristorare i comuni, a decorrere dall'anno 2023, delle minori entrate derivanti dagli atti di aggiornamento presentati dal 1° gennaio 2017 al 31 dicembre 2022 ai sensi dell'<ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/legge/stato/2015-12-28/208/!main#art_1-com22" ns50:target="olf:it/legge/stato/2015/208/art_1-com22" ns50:relation="amends">articolo 1, comma 22, della legge 28 dicembre 2015, n. 208</ref>, che abbiano determinato per ciascun comune una riduzione di gettito complessivamente superiore al 40 per cento rispetto a quello derivante applicando le rendite relative agli immobili appartenenti al gruppo catastale D, come risultanti al 31 dicembre 2022 senza tenere conto degli atti di aggiornamento di cui al presente comma, e utilizzando le aliquote applicabili per l'anno 2022, il contributo previsto dall'<ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/legge/stato/2015/208/!main#art_1-com24" ns51:resolution="unresolved">articolo 1, comma 24, della legge n. 208 del 2015</ref> e' incrementato di 1,5 milioni di euro annui a decorrere dall'anno 2023. 
+ 3-decies. Il contributo di cui al comma 3-novies e' ripartito con decreto del Ministro dell'interno, di concerto con il Ministro dell'economia e delle finanze, da emanare entro il 15 dicembre 2023, secondo una metodologia adottata sentita la Conferenza Stato-citta' ed autonomie locali, sulla base dei dati comunicati entro il 15 novembre 2023 dall'Agenzia delle entrate al Ministero dell'economia e delle finanze, relativi, per ciascuna unita' immobiliare oggetto degli atti di aggiornamento di cui al comma 3-novies, alle rendite proposte ai sensi dell'<ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/legge/stato/2015/208/!main#art_1-com22" ns52:resolution="unresolved">articolo 1, comma 22, della legge n. 208 del 2015</ref> oppure alle rendite definitive, se gia' determinate dall'Agenzia delle entrate alla data del 31 dicembre 2022, e a quelle iscritte in catasto immediatamente prima della presentazione degli atti di aggiornamento di cui al comma 3-novies. Con la medesima comunicazione l'Agenzia delle entrate fornisce al Ministero dell'economia e delle finanze, per ciascun comune, l'indicazione dell'ammontare complessivo delle rendite degli immobili appartenenti a ciascuna categoria catastale del gruppo D, come risultanti al 31 dicembre 2022. 
+ 3-undecies. Agli oneri derivanti dai commi 3-novies e 3-decies, pari a 1,5 milioni di euro annui a decorrere dall'anno 2023, si provvede mediante corrispondente riduzione del Fondo per interventi strutturali di politica economica, di cui all'<ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/decretoLegge/stato/2004-11-29/282/!main#art_10-com5" ns53:target="olf:it/decreto-legge/stato/2004/282/art_10-com5" ns53:relation="cites">articolo 10, comma 5, del decreto-legge 29 novembre 2004, n. 282</ref>, convertito, con modificazioni, dalla <ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/legge/stato/2004-12-27/307/!main" ns54:target="olf:it/legge/stato/2004/307" ns54:relation="cites">legge 27 dicembre 2004, n. 307</ref>
+                                        </quotedText>».</mod> 
+ Dopo l'articolo 4 sono inseriti i seguenti: 
+ «Art. 4-bis (Disposizioni in materia di rettifica del rendiconto di gestione e di monitoraggio degli obiettivi di servizio degli enti locali). - 1. Il provvedimento che dispone la rettifica degli allegati a) e a/2 annessi al rendiconto della gestione degli enti locali per l'esercizio finanziario 2022, concernenti, rispettivamente, il risultato di amministrazione e l'elenco analitico delle risorse vincolate nel risultato di amministrazione, al fine di adeguare i predetti allegati alle risultanze della certificazione di cui all'<ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/decretoLegge/stato/2022-01-27/4/!main#art_13-com3" ns55:target="olf:it/decreto-legge/stato/2022/4/art_13-com3" ns55:relation="amends">articolo 13, comma 3, del decreto-legge 27 gennaio 2022, n. 4</ref>, convertito, con modificazioni, dalla <ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/legge/stato/2022-03-28/25/!main" ns56:target="olf:it/legge/stato/2022/25" ns56:relation="amends">legge 28 marzo 2022, n. 25</ref>, e' adottato dal responsabile del servizio finanziario, previo parere dell'organo di revisione economico-finanziaria. Qualora risulti necessario rettificare anche il valore complessivo del risultato di amministrazione, il provvedimento di cui al primo periodo rimane di competenza dell'organo consiliare, previo parere dell'organo di revisione economico-finanziaria. Il rendiconto della gestione degli enti locali per l'esercizio finanziario 2022, aggiornato ai sensi del presente comma, e' tempestivamente trasmesso alla banca dati delle amministrazioni pubbliche di cui all'<ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_13" ns57:target="olf:it/legge/stato/2009/196/art_13" ns57:relation="cites">articolo 13 della legge 31 dicembre 2009, n. 196</ref>. 
+ 2. Con riferimento all'anno 2022, il raggiungimento degli obiettivi di servizio di cui all'<ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/legge/stato/2016-12-11/232/!main#art_1-com449-letdquinquies" ns58:target="olf:it/legge/stato/2016/232/art_1-com449-letdquinquies" ns58:relation="cites">articolo 1, comma 449, lettere d-quinquies)</ref>, <ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/legge/stato/2016-12-11/232/!main#art_1-com449-letdsexies" ns59:target="olf:it/legge/stato/2016/232/art_1-com449-letdsexies" ns59:relation="cites">d-sexies)</ref> e <ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/legge/stato/2016-12-11/232/!main#art_1-com449-letdocties" ns60:target="olf:it/legge/stato/2016/232/art_1-com449-letdocties" ns60:relation="cites">d-octies), della legge 11 dicembre 2016, n. 232</ref>, deve essere certificato attraverso la compilazione delle schede di monitoraggio da trasmettere in via telematica alla societa' Soluzioni per il sistema economico-SOSE Spa entro il 31 luglio 2023. 
+ Art. 4-ter (Proroga in materia di disciplina delle notificazioni eseguite dagli avvocati ai sensi dell'<ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/legge/stato/1994-01-21/53/!main#art_3ter" ns61:target="olf:it/legge/stato/1994/53/art_3ter" ns61:relation="amends">articolo 3-ter della legge 21 gennaio 1994, n. 53</ref>). - 1. L'efficacia delle disposizioni dei <ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/legge/stato/1994-01-21/53/!main#art_3ter-com2" ns62:target="olf:it/legge/stato/1994/53/art_3ter-com2" ns62:relation="amends">commi 2</ref> e <ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/legge/stato/1994-01-21/53/!main#art_3ter-com3" ns63:target="olf:it/legge/stato/1994/53/art_3ter-com3" ns63:relation="amends">3 dell'articolo 3-ter della legge 21 gennaio 1994, n. 53</ref>, introdotto dal <ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/decretoLegislativo/stato/2022-10-10/149/!main" ns64:target="olf:it/decreto-legislativo/stato/2022/149" ns64:relation="cites">decreto legislativo 10 ottobre 2022, n. 149</ref>, e' sospesa fino al 31 dicembre 2023. Fino a tale data, quando la notificazione ai sensi del comma 1 dell'articolo 3-ter della citata <ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/legge/stato/1994/53/!main" ns65:resolution="unresolved">legge n. 53 del 1994</ref> non e' possibile o non ha esito positivo, essa e' eseguita con le modalita' ordinarie e si perfeziona, per il soggetto notificante, nel momento in cui e' generata la ricevuta di accettazione della notificazione dallo stesso inviata mediante posta elettronica certificata o servizio elettronico di recapito certificato qualificato. 
+ Art. 4-quater (Proroga della disciplina speciale dell'esame di Stato per l'abilitazione all'esercizio della professione di avvocato). - 1. L'esame di Stato per l'abilitazione all'esercizio della professione di avvocato, limitatamente alla sessione da indire per l'anno 2023, e' disciplinato dalle disposizioni di cui al <ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/decretoLegge/stato/2021-03-13/31/!main" ns66:target="olf:it/decreto-legge/stato/2021/31" ns66:relation="amends">decreto-legge 13 marzo 2021, n. 31</ref>, convertito, con modificazioni, dalla <ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/legge/stato/2021-04-15/50/!main" ns67:target="olf:it/legge/stato/2021/50" ns67:relation="amends">legge 15 aprile 2021, n. 50</ref>, come integrate dalle disposizioni del presente articolo. I termini che, nelle norme previgenti richiamate dall'<ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/legge/stato/2012-12-31/247/!main#art_49" ns68:target="olf:it/legge/stato/2012/247/art_49" ns68:relation="cites">articolo 49 della legge 31 dicembre 2012, n. 247</ref>, decorrono dall'inizio delle prove scritte sono computati dalla data di inizio dell'unica prova scritta, come indicata con il decreto del Ministro della giustizia di cui al comma 9. 
+ 2. L'esame di Stato si articola in una prova scritta e in una prova orale. 
+ 3. La prova scritta e' svolta sui temi formulati dal Ministro della giustizia e ha ad oggetto la redazione di un atto giudiziario, che postuli conoscenze di diritto sostanziale e di diritto processuale, su un quesito proposto in materia scelta dal candidato tra il diritto civile, il diritto penale e il diritto amministrativo.
+La prova scritta si svolge secondo le modalita' stabilite con il decreto del Ministro della giustizia di cui al comma 9. 
+ 4. Per la valutazione della prova scritta ogni componente della sottocommissione d'esame dispone di 10 punti di merito. Alla prova orale sono ammessi i candidati che hanno conseguito nella prova scritta un punteggio di almeno 18 punti. 
+ 5. La prova orale si svolge secondo le modalita' stabilite con il decreto del Ministro della giustizia di cui al comma 9. La prova orale si articola in tre fasi: 
+ a) esame e discussione di una questione pratico-applicativa, nella forma della soluzione di un caso, che postuli conoscenze di diritto sostanziale e di diritto processuale, in materia scelta preventivamente dal candidato tra le seguenti: diritto civile, diritto penale e diritto amministrativo. Ciascun candidato comunica la materia prescelta secondo le modalita' stabilite dal decreto del Ministro della giustizia di cui al comma 9; 
+ b) discussione di brevi questioni che dimostrino le capacita' argomentative e di analisi giuridica del candidato relative a tre materie, di cui una di diritto processuale, scelte preventivamente dal candidato tra le seguenti: diritto civile, diritto penale, diritto amministrativo, diritto processuale civile, diritto processuale penale; 
+ c) dimostrazione di conoscenza dell'ordinamento forense e dei diritti e doveri dell'avvocato. 
+ 6. Per la valutazione della prova orale ogni componente della sottocommissione d'esame dispone di 10 punti di merito per la fase di cui alla lettera a) del comma 5 e per ciascuna delle materie di cui alle lettere b) e c) del medesimo comma 5. 
+ 7. Sono giudicati idonei i candidati che ottengono nella prova orale un punteggio complessivo non inferiore a 105 punti e un punteggio non inferiore a 18 punti in ciascuna delle materie di cui al comma 5. 
+ 8. Le sottocommissioni d'esame sono composte secondo le modalita' di cui all'<ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/decretoLegge/stato/2021-03-13/31/!main#art_3-com1" ns69:target="olf:it/decreto-legge/stato/2021/31/art_3-com1" ns69:relation="amends">articolo 3, commi 1</ref> e <ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/decretoLegge/stato/2021-03-13/31/!main#art_3-com3" ns70:target="olf:it/decreto-legge/stato/2021/31/art_3-com3" ns70:relation="amends">3, del decreto-legge 13 marzo 2021, n. 31</ref>, convertito, con modificazioni, dalla <ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/legge/stato/2021-04-15/50/!main" ns71:target="olf:it/legge/stato/2021/50" ns71:relation="amends">legge 15 aprile 2021, n. 50</ref>. 
+ 9. Con il decreto del Ministro della giustizia che indice la sessione d'esame per l'anno 2023 sono stabilite la data di inizio delle prove, le modalita' di sorteggio per l'espletamento delle prove orali, la pubblicita' delle sedute di esame nonche' le modalita' di comunicazione delle materie scelte dal candidato per la prova scritta e per la prova orale. Con il medesimo decreto sono altresi' disciplinate le modalita' di utilizzo di strumenti compensativi per le difficolta' di lettura, di scrittura e di calcolo, nonche' la possibilita' di prevedere un prolungamento dei tempi stabiliti per lo svolgimento delle prove a favore dei candidati con disturbi specifici di apprendimento. 
+ 10. In deroga a quanto previsto dall'articolo 8 del regolamento di cui al <ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/decreto/ministero.giustizia/2018-02-09/17/!main" ns72:target="olf:it/decreto/ministero-giustizia/2018/17" ns72:relation="cites">decreto del Ministro della giustizia 9 febbraio 2018, n. 17</ref>, sino all'istituzione della Commissione nazionale per la tenuta della banca dati prevista dall'articolo 9 del medesimo regolamento di cui al <ref xmlns:ns73="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_73" href="/akn/it/act/decreto/ministero.giustizia/2018/17/!main" ns73:resolution="unresolved">decreto del Ministro della giustizia n. 17 del 2018</ref>, ai fini del rilascio del certificato di compiuto tirocinio di cui all'<ref xmlns:ns74="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_74" href="/akn/it/act/legge/stato/2012-12-31/247/!main#art_45" ns74:target="olf:it/legge/stato/2012/247/art_45" ns74:relation="cites">articolo 45 della legge 31 dicembre 2012, n. 247</ref>: 
+ a) le verifiche intermedie non sono svolte e l'accesso alla verifica finale e' consentito a coloro che hanno frequentato almeno l'80 per cento delle lezioni di ciascun semestre di formazione; 
+ b) la verifica finale e' costituita da una prova scritta consistente nella redazione di un parere o di un atto sugli argomenti relativi agli insegnamenti svolti nel corso di formazione ed e' effettuata dai soggetti formatori tramite una commissione interna di valutazione nominata ai sensi del comma 5 del citato articolo 9 del regolamento di cui al <ref xmlns:ns75="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_75" href="/akn/it/act/decreto/ministero.giustizia/2018/17/!main" ns75:resolution="unresolved">decreto del Ministro della giustizia n. 17 del 2018</ref>. 
+ 11. Agli oneri derivanti dall'attuazione del presente articolo per l'espletamento delle procedure dell'esame di Stato si provvede nell'ambito delle risorse disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+ Art. 4-quinquies (Proroga del termine per l'utilizzazione delle somme depositate nei conti correnti vincolati per gli interventi di ricostruzione delle imprese agricole e agroindustriali a seguito del sisma del 2012 nelle province di Bologna, Modena, Ferrara, Mantova, Reggio Emilia e Rovigo). - 1. All'articolo 3-bis, comma 4-bis, terzo periodo, del <ref xmlns:ns76="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_76" href="/akn/it/act/decretoLegge/stato/2012-07-06/95/!main" ns76:target="olf:it/decreto-legge/stato/2012/95" ns76:relation="amends">decreto-legge 6 luglio 2012, n. 95</ref>, convertito, con modificazioni, dalla <ref xmlns:ns77="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_77" href="/akn/it/act/legge/stato/2012-08-07/135/!main" ns77:target="olf:it/legge/stato/2012/135" ns77:relation="cites">legge 7 agosto 2012, n. 135</ref>, le parole: "31 dicembre 2023" sono sostituite dalle seguenti: "31 dicembre 2024". 
+ Art. 4-sexies (Proroga di termini in materia di agevolazioni per l'acquisto della casa di abitazione). - 1. Il termine di cui all'articolo 64, comma 3, primo e secondo periodo, del <ref xmlns:ns78="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_78" href="/akn/it/act/decretoLegge/stato/2021-05-25/73/!main" ns78:target="olf:it/decreto-legge/stato/2021/73" ns78:relation="amends">decreto-legge 25 maggio 2021, n. 73</ref>, convertito, con modificazioni, dalla <ref xmlns:ns79="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_79" href="/akn/it/act/legge/stato/2021-07-23/106/!main" ns79:target="olf:it/legge/stato/2021/106" ns79:relation="amends">legge 23 luglio 2021, n. 106</ref>, in materia di agevolazioni per l'acquisto della casa di abitazione, e' prorogato al 30 settembre 2023». 
+ <mod eId="modNov_7">All'articolo 5: 
+ al comma 2: 
+ al primo periodo, le parole: «possono essere destinate» sono sostituite dalle seguenti: «, puo' essere destinata»; 
+ al secondo periodo, le parole: «ai sensi all'articolo» sono sostituite dalle seguenti: «ai sensi dell'articolo»; 
+ al comma 3: 
+ alla lettera a), le parole: «con le seguenti» sono sostituite dalle seguenti: «dalle seguenti» e la parola: «incluse» e' sostituita dalla seguente: «compresi»; 
+ alla lettera b), le parole: «<quotedText eId="modNov_7_old_26">2026."</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_26">2026"</quotedText>»; 
+ al comma 4, le parole: «<quotedText eId="modNov_7_old_27">non derivano</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_27">non devono derivare</quotedText>».</mod>
+                                    <mod eId="modNov_8">All'articolo 6: 
+ dopo il comma 2 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_8_new_28">2-bis. All'<ref xmlns:ns80="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_80" href="/akn/it/act/decretoLegislativo/stato/2006-04-12/163/!main#art_108-com7" ns80:target="olf:it/decreto-legislativo/stato/2006/163/art_108-com7" ns80:relation="cites">articolo 108, comma 7, del codice dei contratti pubblici</ref>, di cui al <ref xmlns:ns81="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_81" href="/akn/it/act/decretoLegislativo/stato/2023-03-31/36/!main" ns81:target="olf:it/decreto-legislativo/stato/2023/36" ns81:relation="amends">decreto legislativo 31 marzo 2023, n. 36</ref>, il quinto e il sesto periodo sono sostituiti dal seguente: "Al fine di promuovere la parita' di genere, le stazioni appaltanti prevedono, nei bandi di gara, negli avvisi e negli inviti, il maggior punteggio da attribuire alle imprese per l'adozione di politiche tese al raggiungimento della parita' di genere comprovata dal possesso della certificazione della parita' di genere di cui all'<ref xmlns:ns82="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_82" href="/akn/it/act/decretoLegislativo/stato/2006-04-11/198/!main#art_46bis" ns82:target="olf:it/decreto-legislativo/stato/2006/198/art_46bis" ns82:relation="cites">articolo 46- bis del codice delle pari opportunita' tra uomo e donna</ref>, di cui al <ref xmlns:ns83="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_83" href="/akn/it/act/decretoLegislativo/stato/2006-04-11/198/!main" ns83:target="olf:it/decreto-legislativo/stato/2006/198" ns83:relation="cites">decreto legislativo 11 aprile 2006, n. 198</ref>". 
+ 2-ter. Al fine di garantire il rispetto dei termini per il raggiungimento dell'obiettivo intermedio 128 della missione 1, componente 1, misura 1.4.5, del Piano nazionale di ripresa e resilienza, all'<ref xmlns:ns84="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_84" href="/akn/it/act/decretoLegge/stato/2020-07-16/76/!main#art_26" ns84:target="olf:it/decreto-legge/stato/2020/76/art_26" ns84:relation="amends">articolo 26 del decreto-legge 16 luglio 2020, n. 76</ref>, convertito, con modificazioni, dalla <ref xmlns:ns85="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_85" href="/akn/it/act/legge/stato/2020-09-11/120/!main" ns85:target="olf:it/legge/stato/2020/120" ns85:relation="cites">legge 11 settembre 2020, n. 120</ref>, e' aggiunto, in fine, il seguente comma: 
+ "22-bis. Al fine di garantire la piena informazione dei soggetti sprovvisti di domicilio digitale, fino al 30 novembre 2023 il gestore della piattaforma invia al destinatario che non abbia eletto domicilio digitale, qualora non abbia gia' perfezionato la notifica tramite accesso alla piattaforma ai sensi del comma 9, lettera b), numero 3), una copia analogica dell'atto unitamente all'avviso di avvenuta ricezione in forma cartacea. I contratti di appalto stipulati dal gestore della piattaforma sono conseguentemente integrati con tutti gli scaglioni di peso previsti dal tariffario del servizio postale universale. Ai maggiori oneri di stampa, imbustamento e recapito, pari a 979.050 euro per l'anno 2023, si provvede a valere sulle risorse di cui all'<ref xmlns:ns86="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_86" href="/akn/it/act/legge/stato/2019-12-27/160/!main#art_1-com403" ns86:target="olf:it/legge/stato/2019/160/art_1-com403" ns86:relation="cites">articolo 1, comma 403, della legge 27 dicembre 2019, n. 160</ref>. Per i medesimi fini di cui al primo periodo, il gestore della piattaforma puo' individuare tramite avviso pubblico i soggetti autorizzati a fornire il servizio di cui al comma 20, alle medesime condizioni previste dai decreti adottati ai sensi dei commi 14 e 15, curandone la progressiva integrazione sulla base della diffusione territoriale dei punti di prossimita' dei fornitori individuati, ed eroga, nelle more dell'avvio dei contratti con i medesimi fornitori, i servizi necessari per consentire l'accesso universale alla piattaforma, con diritto alla ripetizione dei relativi costi a carico dei destinatari delle notificazioni". 
+ 2-quater. All'articolo 24-bis, comma 1, quarto periodo, del <ref xmlns:ns87="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_87" href="/akn/it/act/decretoLegislativo/stato/2014-03-14/49/!main" ns87:target="olf:it/decreto-legislativo/stato/2014/49" ns87:relation="amends">decreto legislativo 14 marzo 2014, n. 49</ref>, le parole: "30 giugno 2023" sono sostituite dalle seguenti: "30 giugno 2024". 
+ 2-quinquies. Nelle more della ricostituzione del Comitato nazionale dell'Albo nazionale gestori ambientali, di cui all'<ref xmlns:ns88="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_88" href="/akn/it/act/decretoLegislativo/stato/2006-04-03/152/!main#art_212" ns88:target="olf:it/decreto-legislativo/stato/2006/152/art_212" ns88:relation="cites">articolo 212 del decreto legislativo 3 aprile 2006, n. 152</ref>, l'incarico dei componenti del Comitato medesimo e' prorogato fino al completamento delle procedure di nomina dei nuovi componenti e, comunque, non oltre il 31 dicembre 2023. 
+ 2-sexies. Dall'attuazione delle disposizioni di cui ai commi 2-quater e 2-quinquies non devono derivare nuovi o maggiori oneri per la finanza pubblica. 
+ 2-septies. All'<ref xmlns:ns89="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_89" href="/akn/it/act/decretoLegislativo/stato/2010-02-11/22/!main#art_16" ns89:target="olf:it/decreto-legislativo/stato/2010/22/art_16" ns89:relation="amends">articolo 16 del decreto legislativo 11 febbraio 2010, n. 22</ref>, dopo il comma 10 e' inserito il seguente: 
+ "10-bis. Il termine di scadenza delle concessioni di coltivazione della risorsa geotermica, fissato, ai sensi del comma 10, alla data del 31 dicembre 2024, e' prorogato per il tempo strettamente necessario al completamento del riordino della normativa di settore e, comunque, non oltre il 31 dicembre 2025. Una quota non superiore al 5 per cento degli importi dei canoni di cui al comma 2 che verranno corrisposti dalla data di entrata in vigore della presente disposizione fino alla scadenza delle concessioni, come prorogata dal presente comma, puo' essere destinata dall'autorita' competente alla copertura degli oneri derivanti dall'esecuzione, da parte dell'autorita' medesima, delle attivita' previste dal capo III del presente decreto"</quotedText>»; 
+ la rubrica e' sostituita dalla seguente: «<quotedText eId="modNov_8_new_23">Termini in materia di infrastrutture, trasporti, contratti pubblici, notificazione digitale degli atti della pubblica amministrazione e durata delle concessioni di coltivazione di risorse geotermiche</quotedText>».</mod> 
+ Dopo l'articolo 6 sono inseriti i seguenti: 
+ «Art. 6-bis (Proroga di termini in materia di contributi ai comuni per interventi di efficientamento energetico e sviluppo territoriale sostenibile). - 1. Con riferimento ai contributi relativi all'anno 2023, i termini di cui all'<ref xmlns:ns90="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_90" href="/akn/it/act/decretoLegge/stato/2019-04-30/34/!main#art_30-com14bis" ns90:target="olf:it/decreto-legge/stato/2019/34/art_30-com14bis" ns90:relation="amends">articolo 30, comma 14-bis, del decreto-legge 30 aprile 2019, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns91="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_91" href="/akn/it/act/legge/stato/2019-06-28/58/!main" ns91:target="olf:it/legge/stato/2019/58" ns91:relation="cites">legge 28 giugno 2019, n. 58</ref>, sono prorogati come segue: 
+ a) il termine di cui al terzo periodo e' prorogato al 15 agosto 2023; 
+ b) il termine di cui al quarto periodo e' prorogato al 15 settembre 2023; 
+ c) il termine di cui al sesto periodo e' prorogato al 15 gennaio 2024. 
+ Art. 6-ter (Modifica di termini riguardanti la disciplina in materia di approvvigionamento di materie prime critiche). - 1.
+All'<ref xmlns:ns92="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_92" href="/akn/it/act/decretoLegge/stato/2022-03-21/21/!main#art_30" ns92:target="olf:it/decreto-legge/stato/2022/21/art_30" ns92:relation="amends">articolo 30 del decreto-legge 21 marzo 2022, n. 21</ref>, convertito, con modificazioni, dalla <ref xmlns:ns93="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_93" href="/akn/it/act/legge/stato/2022-05-20/51/!main" ns93:target="olf:it/legge/stato/2022/51" ns93:relation="amends">legge 20 maggio 2022, n. 51</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 2, le parole: "venti giorni prima dell'avvio dell'operazione" sono sostituite dalle seguenti: "sessanta giorni prima della data di esportazione"; 
+ b) al comma 4, le parole: "31 dicembre 2023" sono sostituite dalle seguenti: "31 dicembre 2026". 
+ Art. 6-quater (Disposizioni in materia di accesso al fondo per l'indennizzo per gli immobili danneggiati dall'inquinamento provocato dagli stabilimenti siderurgici di Taranto del gruppo Ilva). - 1.
+All'articolo 6 del decreto del Ministro dello sviluppo economico 23 settembre 2022, pubblicato nella Gazzetta Ufficiale n. 279 del 29 novembre 2022, recante le condizioni e le modalita' per l'accesso al fondo di cui al <ref xmlns:ns94="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_94" href="/akn/it/act/decretoLegge/stato/2021-05-25/73/!main#art_77-com2bis" ns94:target="olf:it/decreto-legge/stato/2021/73/art_77-com2bis" ns94:relation="amends">comma 2-bis dell'articolo 77 del decreto-legge 25 maggio 2021, n. 73</ref>, convertito, con modificazioni, dalla <ref xmlns:ns95="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_95" href="/akn/it/act/legge/stato/2021-07-23/106/!main" ns95:target="olf:it/legge/stato/2021/106" ns95:relation="amends">legge 23 luglio 2021, n. 106</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 2, le parole: "entro sei mesi dalla data di pubblicazione del presente decreto," sono soppresse; 
+ b) dopo il comma 2 e' aggiunto il seguente: 
+ "2-bis. Le istanze d'indennizzo valutate ammissibili sono liquidate annualmente a valere sulla dotazione finanziaria del fondo prevista per l'anno di riferimento, se presentate entro il 31 luglio di ciascun anno". 
+ Art. 6-quinquies (Proroga di termini in materia di digitalizzazione dei servizi e delle attivita' della pubblica amministrazione). - 1. All'<ref xmlns:ns96="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_96" href="/akn/it/act/decretoLegge/stato/2022-12-29/198/!main#art_1ter" ns96:target="olf:it/decreto-legge/stato/2022/198/art_1ter" ns96:relation="amends">articolo 1-ter del decreto-legge 29 dicembre 2022, n. 198</ref>, convertito, con modificazioni, dalla <ref xmlns:ns97="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_97" href="/akn/it/act/legge/stato/2023-02-24/14/!main" ns97:target="olf:it/legge/stato/2023/14" ns97:relation="cites">legge 24 febbraio 2023, n. 14</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 1, le parole: "e quelli aventi ad oggetto servizi di connettivita' del Sistema pubblico di connettivita'" sono soppresse; 
+ b) dopo il comma 1 e' inserito il seguente: 
+ "1-bis. Gli importi e i quantitativi massimi complessivi degli strumenti di acquisto e di negoziazione realizzati dalla societa' Consip S.p.A. e dai soggetti aggregatori aventi ad oggetto servizi di connettivita' del Sistema pubblico di connettivita', il termine della cui durata contrattuale non sia ancora scaduto alla data di entrata in vigore della presente disposizione, sono prorogati al 31 dicembre 2024. Al raggiungimento dell'importo complessivo massimo del contratto quadro per servizi di connettivita' del Sistema pubblico di connettivita' SPC2, tutti i servizi che formano oggetto dello stesso sono incrementati, alle medesime condizioni, in misura pari al 50 per cento dell'importo complessivo massimo iniziale, fatta salva la facolta' di recesso dell'aggiudicatario con riferimento a tale incremento, da esercitare entro quindici giorni dalla data di entrata in vigore della presente disposizione. Nei limiti dei relativi importi complessivi residui, i contratti attuativi degli strumenti di acquisto e di negoziazione realizzati dalla societa' Consip S.p.A. e dai soggetti aggregatori aventi ad oggetto servizi di telefonia fissa, il termine della cui durata contrattuale non sia ancora scaduto alla data di entrata in vigore della presente disposizione, possono essere prorogati su richiesta della singola amministrazione contraente, alle medesime condizioni, sino al 31 dicembre 2024 e nella misura strettamente necessaria a dare continuita' ai predetti servizi, fatta salva la facolta' di recesso dell'aggiudicatario da esercitare entro quindici giorni dalla richiesta dell'amministrazione. Dall'attuazione del presente comma non devono derivare nuovi o maggiori oneri a carico della finanza pubblica"». 
+ Dopo l'articolo 7 sono inseriti i seguenti: 
+ «Art. 7-bis (Termini in materia di universita'). - 1. Nelle more dell'adozione del decreto di cui al <ref xmlns:ns98="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_98" href="/akn/it/act/legge/stato/2010-12-30/240/!main#art_15-com1" ns98:target="olf:it/legge/stato/2010/240/art_15-com1" ns98:relation="amends">comma 1 dell'articolo 15 della legge 30 dicembre 2010, n. 240</ref>, come modificato dall'<ref xmlns:ns99="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_99" href="/akn/it/act/decretoLegge/stato/2022-04-30/36/!main#art_14" ns99:target="olf:it/decreto-legge/stato/2022/36/art_14" ns99:relation="amends">articolo 14 del decreto-legge 30 aprile 2022, n. 36</ref>, convertito, con modificazioni, dalla <ref xmlns:ns100="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_100" href="/akn/it/act/legge/stato/2022-06-29/79/!main" ns100:target="olf:it/legge/stato/2022/79" ns100:relation="amends">legge 29 giugno 2022, n. 79</ref>, e' istituita la tornata dell'abilitazione scientifica nazionale 2023-2025, alla quale continuano ad applicarsi le disposizioni vigenti prima della data di entrata in vigore della citata legge di conversione del <ref xmlns:ns101="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_101" href="/akn/it/act/decretoLegge/stato/2022/36/!main" ns101:resolution="unresolved">decreto-legge n. 36 del 2022</ref>. 
+ 2. In deroga all'articolo 16, comma 3, lettera f), della citata <ref xmlns:ns102="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_102" href="/akn/it/act/legge/stato/2010/240/!main" ns102:resolution="unresolved">legge n. 240 del 2010</ref>, le commissioni nazionali istituite per la tornata dell'abilitazione scientifica nazionale 2023-2025 hanno la durata di diciotto mesi. Il procedimento di formazione delle commissioni nazionali e' avviato entro il 31 luglio 2023. I lavori riferiti al terzo e ultimo quadrimestre della tornata 2023-2025 si concludono entro il 30 aprile 2025. 
+ 3. Ai componenti delle commissioni nazionali di cui al comma 2 del presente articolo non si applica il divieto di cui all'<ref xmlns:ns103="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_103" href="/akn/it/act/legge/stato/2010/240/!main#art_16-com3-letl" ns103:resolution="unresolved">articolo 16, comma 3, lettera l), della legge n. 240 del 2010</ref>. 
+ 4. All'<ref xmlns:ns104="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_104" href="/akn/it/act/decretoLegge/stato/2022-12-29/198/!main#art_6-com8" ns104:target="olf:it/decreto-legge/stato/2022/198/art_6-com8" ns104:relation="amends">articolo 6, comma 8, del decreto-legge 29 dicembre 2022, n. 198</ref>, convertito, con modificazioni, dalla <ref xmlns:ns105="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_105" href="/akn/it/act/legge/stato/2023-02-24/14/!main" ns105:target="olf:it/legge/stato/2023/14" ns105:relation="cites">legge 24 febbraio 2023, n. 14</ref>, l'ultimo periodo e' soppresso. 
+ Art. 7-ter (Proroga di termini in materia di svolgimento degli esami di Stato per l'abilitazione all'esercizio delle professioni e dei tirocini professionalizzanti e curricolari). - 1. Il termine di cui all'articolo 6, comma 4, primo periodo, del <ref xmlns:ns106="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_106" href="/akn/it/act/decretoLegge/stato/2021-12-30/228/!main" ns106:target="olf:it/decreto-legge/stato/2021/228" ns106:relation="amends">decreto-legge 30 dicembre 2021, n. 228</ref>, convertito, con modificazioni, dalla <ref xmlns:ns107="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_107" href="/akn/it/act/legge/stato/2022-02-25/15/!main" ns107:target="olf:it/legge/stato/2022/15" ns107:relation="amends">legge 25 febbraio 2022, n. 15</ref>, e' prorogato al 31 dicembre 2023 anche per le professioni di agrotecnico e agrotecnico laureato, geometra e geometra laureato, perito agrario e perito agrario laureato, perito industriale e perito industriale laureato, di cui al medesimo comma 4, secondo periodo, per le quali l'organizzazione e le modalita' di svolgimento degli esami sono definite con decreto del Ministro dell'istruzione e del merito». 
+ <mod eId="modNov_9">All'articolo 8: 
+ al comma 1: 
+ alla lettera a), la parola: «<quotedText eId="modNov_9_old_29">ricorrano</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_9_new_29">ricorrono</quotedText>»; 
+ alla lettera b), le parole: «sul territorio» sono sostituite dalle seguenti: «nel territorio» e le parole: «della Repubblica italiana 17 novembre 2016, n. 269.» sono sostituite dalle seguenti:
+«n. 269 del 17 novembre 2016».</mod> 
+ Dopo l'articolo 8 sono inseriti i seguenti: 
+ «Art. 8-bis (Termini in materia di credito d'imposta per l'acquisto di carburanti per l'esercizio dell'attivita' agricola e della pesca). - 1. All'<ref xmlns:ns108="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_108" href="/akn/it/act/decretoLegge/stato/2022-08-09/115/!main#art_7" ns108:target="olf:it/decreto-legge/stato/2022/115/art_7" ns108:relation="amends">articolo 7 del decreto-legge 9 agosto 2022, n. 115</ref>, convertito, con modificazioni, dalla <ref xmlns:ns109="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_109" href="/akn/it/act/legge/stato/2022-09-21/142/!main" ns109:target="olf:it/legge/stato/2022/142" ns109:relation="amends">legge 21 settembre 2022, n. 142</ref>, le parole: "30 giugno 2023", ovunque ricorrono, sono sostituite dalle seguenti: "30 settembre 2023". 
+ Art. 8-ter (Proroga in materia di sistemi di riconoscimento facciale). - 1. All'<ref xmlns:ns110="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_110" href="/akn/it/act/decretoLegge/stato/2021-10-08/139/!main#art_9-com9" ns110:target="olf:it/decreto-legge/stato/2021/139/art_9-com9" ns110:relation="amends">articolo 9, comma 9, del decreto-legge 8 ottobre 2021, n. 139</ref>, convertito, con modificazioni, dalla <ref xmlns:ns111="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_111" href="/akn/it/act/legge/stato/2021-12-03/205/!main" ns111:target="olf:it/legge/stato/2021/205" ns111:relation="amends">legge 3 dicembre 2021, n. 205</ref>, le parole: "31 dicembre 2023" sono sostituite dalle seguenti: "31 dicembre 2025"». 
+ <mod eId="modNov_10">All'articolo 10: 
+ al comma 1: 
+ al primo periodo, dopo le parole: «commi 2 e 3, del» sono inserite le seguenti: «regolamento di cui al»; 
+ al secondo periodo, dopo le parole: «del citato» sono inserite le seguenti: «regolamento di cui al» e dopo le parole: «comma 3» sono inserite le seguenti: «del medesimo articolo 8»; 
+ dopo il comma 1 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_10_new_9">1-bis. Le disposizioni di cui all'<ref xmlns:ns112="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_112" href="/akn/it/act/decretoLegge/stato/2021-03-22/41/!main#art_34ter" ns112:target="olf:it/decreto-legge/stato/2021/41/art_34ter" ns112:relation="amends">articolo 34-ter del decreto-legge 22 marzo 2021, n. 41</ref>, convertito, con modificazioni, dalla <ref xmlns:ns113="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_113" href="/akn/it/act/legge/stato/2021-05-21/69/!main" ns113:target="olf:it/legge/stato/2021/69" ns113:relation="amends">legge 21 maggio 2021, n. 69</ref>, si applicano anche alle lingue dei segni e alle lingue dei segni tattili delle minoranze linguistiche riconosciute nei relativi territori</quotedText>».</mod> 
+ Alla rubrica del capo III sono aggiunte, in fine, le seguenti parole: «nonche' di enti territoriali e di attuazione del Piano nazionale di ripresa e resilienza». 
+ <mod eId="modNov_11">All'articolo 11: 
+ al comma 4, primo periodo, le parole: «<quotedText eId="modNov_11_old_10">su un proprio conto corrente postale dedicato</quotedText> » sono sostituite dalle seguenti: «<quotedText eId="modNov_11_new_10">mediante trasferimento su un conto corrente postale aperto a tale esclusivo fine dal beneficiario medesimo</quotedText>»; 
+ alla rubrica, la parola: «<quotedText eId="modNov_11_old_7">sovraprezzo</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_11_new_7">sovrapprezzo</quotedText>».</mod>
+                                    <mod eId="modNov_12">Dopo l'articolo 11 e' inserito il seguente: 
+ «<quotedText eId="modNov_12_new_17">Art. 11-bis (Utilizzazione delle immagini di carte-valori postali a scopo commerciale). - 1. L'utilizzazione da parte di terzi delle immagini delle carte-valori postali per finalita' commerciali e' vietata. 
+ 2. Il Ministero delle imprese e del made in Italy, in qualita' di autorita' emittente e titolare in via esclusiva dei diritti di utilizzazione, puo' autorizzare l'utilizzazione da parte di terzi delle immagini delle carte-valori postali per finalita' che non siano lesive dell'immagine dello Stato, del soggetto rappresentato o dei valori culturali, sociali ed etici espressi. 
+ 3. Con decreto del Ministro delle imprese e del made in Italy, di concerto con il Ministro dell'economia e delle finanze, sono stabiliti i presupposti, le condizioni e le modalita' per il rilascio dell'autorizzazione di cui al comma 2 nonche' la tariffa per la concessione dei diritti di utilizzazione. Con il medesimo decreto sono altresi' definite le modalita' di versamento all'entrata del bilancio dello Stato, per la successiva riassegnazione allo stato di previsione del Ministero delle imprese e del made in Italy, dei proventi derivanti dai diritti di utilizzazione, da destinare al sostegno e alla diffusione della cultura filatelica, anche attraverso le attivita' del Museo storico della comunicazione. In ragione della natura culturale o sociale degli scopi perseguiti in via prioritaria dai terzi utilizzatori, il decreto di cui al presente comma puo' prevedere casi di esonero dal regime autorizzatorio ovvero di esenzione o di riduzione della tariffa per la concessione dei diritti di utilizzazione</quotedText>».</mod> 
+ Nel capo III, dopo l'articolo 12 sono aggiunti i seguenti: 
+ «Art. 12-bis (Disposizioni in materia di enti territoriali). - 1. In considerazione delle attivita' in corso ai sensi dell'<ref xmlns:ns114="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_114" href="/akn/it/act/decretoLegge/stato/2021-10-21/146/!main#art_16septies-com2-letb" ns114:target="olf:it/decreto-legge/stato/2021/146/art_16septies-com2-letb" ns114:relation="amends">articolo 16-septies, comma 2, lettere b)</ref>, <ref xmlns:ns115="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_115" href="/akn/it/act/decretoLegge/stato/2021-10-21/146/!main#art_16septies-com2-letc" ns115:target="olf:it/decreto-legge/stato/2021/146/art_16septies-com2-letc" ns115:relation="amends">c)</ref>, <ref xmlns:ns116="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_116" href="/akn/it/act/decretoLegge/stato/2021-10-21/146/!main#art_16septies-com2-letf" ns116:target="olf:it/decreto-legge/stato/2021/146/art_16septies-com2-letf" ns116:relation="amends">f)</ref> e <ref xmlns:ns117="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_117" href="/akn/it/act/decretoLegge/stato/2021-10-21/146/!main#art_16septies-com2-letg" ns117:target="olf:it/decreto-legge/stato/2021/146/art_16septies-com2-letg" ns117:relation="amends">g), del decreto-legge 21 ottobre 2021, n. 146</ref>, convertito, con modificazioni, dalla <ref xmlns:ns118="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_118" href="/akn/it/act/legge/stato/2021-12-17/215/!main" ns118:target="olf:it/legge/stato/2021/215" ns118:relation="amends">legge 17 dicembre 2021, n. 215</ref>, inerenti alle procedure di circolarizzazione obbligatoria dei fornitori, al monitoraggio e alla gestione del contenzioso nonche' alle procedure di controllo, di liquidazione e di pagamento delle fatture, gli enti del servizio sanitario della regione Calabria, a partire dalle informazioni contabili aziendali e da quelle depositate nel Nuovo sistema informativo sanitario, oltre che dalle risultanze della predetta circolarizzazione obbligatoria, adottano, entro il 30 giugno 2023, il bilancio di esercizio 2022 e sono autorizzati a deliberare i bilanci aziendali pregressi, ove non ancora adottati, entro il 31 dicembre 2024. 
+ 2. Le regioni e le province autonome di Trento e di Bolzano che, per l'anno 2021, non si sono avvalse di quanto previsto dall'<ref xmlns:ns119="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_119" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com495" ns119:target="olf:it/legge/stato/2020/178/art_1-com495" ns119:relation="cites">articolo 1, comma 495, della legge 30 dicembre 2020, n. 178</ref>, non essendo soddisfatti i criteri previsti dal medesimo comma 495, possono, esclusivamente con risorse del bilancio autonomo regionale, nell'ambito delle risorse previste a legislazione vigente e senza gravare sul finanziamento del Servizio sanitario nazionale, concedere un contributo una tantum alle strutture private accreditate, regolarmente in possesso di valido accordo contrattuale sottoscritto tra le parti ai sensi dell'<ref xmlns:ns120="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_120" href="/akn/it/act/decretoLegislativo/stato/1992-12-30/502/!main#art_8quinquies" ns120:target="olf:it/decreto-legislativo/stato/1992/502/art_8quinquies" ns120:relation="cites">articolo 8-quinquies del decreto legislativo 30 dicembre 1992, n. 502</ref>, al fine di ristorare le predette strutture dei costi fissi comunque sostenuti a seguito di eventuali sospensioni di attivita' ordinarie disposte nell'anno 2021 in funzione dell'andamento dell'emergenza da COVID-19. Tale contributo, da concedere previo specifico provvedimento regionale e a seguito di apposita rendicontazione da parte delle strutture interessate, incrementato della remunerazione relativa all'attivita' assistenziale svolta, non puo' superare il 90 per cento del budget assegnato nell'ambito degli accordi contrattuali stipulati per l'anno 2021. Resta fermo che, in caso di produzione del volume di attivita' assistenziale superiore al 90 per cento, non si da' luogo al contributo e il riconoscimento e' commisurato all'effettiva produzione nell'ambito del budget massimo assegnato per l'anno 2021. 
+ 3. Al fine di garantire la continuita' nello svolgimento delle proprie funzioni, in deroga all'<ref xmlns:ns121="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_121" href="/akn/it/act/decretoLegislativo/stato/2011-06-23/118/!main#art_42-com12" ns121:target="olf:it/decreto-legislativo/stato/2011/118/art_42-com12" ns121:relation="cites">articolo 42, comma 12, del decreto legislativo 23 giugno 2011, n. 118</ref>, le regioni a statuto ordinario, che presentano un disavanzo pro capite al 31 dicembre 2021, al netto del debito autorizzato e non contratto, superiore a euro 1.500, possono ripianare il disavanzo al 31 dicembre 2021, al netto delle quote del disavanzo, gia' soggette a regimi straordinari di ripiano del disavanzo, in quote costanti nei nove esercizi successivi, a decorrere dal 2023, contestualmente all'adozione di una deliberazione consiliare avente ad oggetto il piano di rientro dal disavanzo, sottoposto al parere del collegio dei revisori, nel quale sono individuati i provvedimenti necessari a ripristinare il pareggio. La deliberazione di cui al presente comma contiene l'impegno formale di evitare la formazione di ogni ulteriore potenziale disavanzo ed e' allegata al bilancio di previsione 2023-2025, o a una successiva legge regionale di variazione di tale bilancio di previsione, e ai bilanci e rendiconti successivi, costituendone parte integrante. In caso di mancata attuazione di tale impegno viene meno il regime di ripiano pluriennale del disavanzo di cui al presente comma. Con periodicita' almeno semestrale il presidente della giunta regionale trasmette al consiglio una relazione riguardante lo stato di attuazione del piano di rientro. 
+ Art. 12-ter (Ulteriore disposizione per la tempestiva attuazione del Piano nazionale di ripresa e resilienza). - 1. Il <ref xmlns:ns122="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_122" href="/akn/it/act/legge/stato/2000-11-14/338/!main#art_1bis-com13" ns122:target="olf:it/legge/stato/2000/338/art_1bis-com13" ns122:relation="amends">comma 13 dell'articolo 1-bis della legge 14 novembre 2000, n. 338</ref>, e' abrogato». 
+ <mod eId="modNov_13">All'articolo 13: 
+ al comma 1, al primo periodo, dopo le parole: «presente decreto» sono inserite le seguenti: «, ad eccezione dell'articolo 4, commi 3-ter, 3-quater, 3-sexies e 3-novies,» ed e' aggiunto, in fine, il seguente periodo: «Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio».</mod>
+                                    <mod eId="modNov_14">Dopo l'articolo 13 e' inserito il seguente: 
+ «<quotedText eId="modNov_14_new_12">Art. 13-bis (Clausola di salvaguardia). - 1. Le disposizioni del presente decreto sono applicabili nelle regioni a statuto speciale e nelle province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti e le relative norme di attuazione, anche con riferimento alla <ref xmlns:ns123="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_123" href="/akn/it/act/legge.costituzionale/stato/2001-10-18/3/!main" ns123:target="olf:it/legge-costituzionale/stato/2001/3" ns123:relation="cites">legge costituzionale 18 ottobre 2001, n. 3</ref>
+                                        </quotedText>».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
