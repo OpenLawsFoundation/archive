@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2025-10-03/145/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2025-10-03/145"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legge:2025-10-03;145"/>
+                    <FRBRalias name="eli" value="eli/id/2025/10/03/25G00156/CONSOLIDATED/20251121"/>
+                    <FRBRdate date="2025-10-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/10/03/25G00156/CONSOLIDATED/20251121" aknrelname="eli/id/2025/10/03/25G00156/CONSOLIDATED/20251121">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Misure urgenti per assicurare la continuita' delle funzioni dell'Autorita' di regolazione per energia, reti e ambiente (ARERA). (25G00156)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00156" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                            <nrdfa:span content="2025-10-03" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2025-10-03/145/ita@2025-11-21/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2025-10-03/145/ita@2025-11-21"/>
+                    <FRBRdate date="2025-11-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/10/03/25G00156/CONSOLIDATED/20251121/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/10/03/25G00156/CONSOLIDATED/20251121"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/10/03/25G00156/CONSOLIDATED/20251121/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2025-10-03/145/ita@2025-11-21/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2025-10-03/145/ita@2025-11-21.xml"/>
+                    <FRBRdate date="2025-10-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/10/03/25G00156/CONSOLIDATED/20251121/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-10-03" name="" number="230" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-10-03" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2025-11-20" eId="eventRef_1" source="rp1"/>
+            </lifecycle>
+            <analysis source="">
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((L'Autorita' di regolazione per energia, reti e ambiente, al termine del mandato dei suoi componenti nominati con decreto del Presidente della Repubblica 9 agosto 2018, trasmette alle Camere una relazione sugli atti di ordinaria amministrazione e su quelli indifferibili e urgenti adottati, ai sensi del comma 1 del presente articolo, nel periodo di cui al medesimo comma 1))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO-LEGGE/stato/2025-10-03/145/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/LEGGE/stato/2025-11-18/173/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/10/03/25G00156/CONSOLIDATED/20251121">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Misure urgenti per assicurare la continuita' delle funzioni dell'Autorita' di regolazione per energia, reti e ambiente (ARERA). (25G00156)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00156</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-10-03</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/10/03/25G00156/CONSOLIDATED/20251121/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/10/03/25G00156/CONSOLIDATED/20251121"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/10/03/25G00156/CONSOLIDATED/20251121/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/10/03/25G00156/CONSOLIDATED/20251121/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legge/stato/2025/145" nativeUrn="urn:nir:stato:decreto.legge:2025-10-03;145" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-10-03"><ns0:event type="enacted" date="2025-10-03"/><ns0:event type="published" date="2025-10-03"/><ns0:event type="commenced" date="2025-10-03"/><ns0:event type="amended" date="2025-11-20"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/1ffaf446-33bc-438e-a53b-fdd701db0382" sourceSha256="d1eb5a2bd3abdf332348522b3de91f7d14971577a67f8e08887346824a31a67d" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T18:07:26.578964Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO-LEGGE</docType>
+                <docDate date="2025-10-03">03 ottobre 2025</docDate>
+                <docNumber>145</docNumber>
+                <docTitle>Misure urgenti per assicurare la continuita' delle funzioni dell'Autorita' di regolazione per energia, reti e ambiente (ARERA). (25G00156) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 04/10/2025
+Decreto-Legge convertito con modificazioni dalla L. 18 novembre, n. 173 (in G.U. 20/11/2025, n. 270)</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visti gli <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_77" ns1:target="olf:it/costituzione/stato/1947/const/art_77" ns1:relation="cites">articoli 77</ref> e <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns2:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns2:relation="cites">87, quinto comma, della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Vista la <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main" ns3:target="olf:it/legge/stato/1988/400" ns3:relation="cites">legge 23 agosto 1988, n. 400</ref>, recante: «Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri», e in particolare l'articolo 15;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Vista <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/legge/stato/1995-11-14/481/!main" ns4:target="olf:it/legge/stato/1995/481" ns4:relation="cites">legge 14 novembre 1995, n. 481</ref>, recante: «Norme per la concorrenza e la regolazione dei servizi di pubblica utilita'.</p>
+                </citation>
+            </citations>
+            <p>Istituzione delle Autorita' di regolazione dei servizi di pubblica utilita'», e in particolare l'articolo 2, commi 7 e 8;</p>
+            <citations eId="cits_4">
+                <citation eId="cits_4__cit_1">
+                    <p>Vista la <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_5" href="/akn/it/act/legge/stato/2004-08-23/239/!main" ns5:target="olf:it/legge/stato/2004/239" ns5:relation="cites">legge 23 agosto 2004, n. 239</ref>, recante: «Riordino del settore energetico, nonche' delega al Governo per il riassetto delle disposizioni vigenti in materia di energia», e in particolare l'articolo 1, comma 15;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_5">
+                <citation eId="cits_5__cit_1">
+                    <p>Vista la <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_6" href="/akn/it/act/legge/stato/2017-12-27/205/!main" ns6:target="olf:it/legge/stato/2017/205" ns6:relation="cites">legge 27 dicembre 2017, n. 205</ref> recante «Bilancio di previsione dello Stato per l'anno finanziario 2018 e bilancio pluriennale per il triennio 2018-2020», e in particolare l'articolo 1, comma 528;</p>
+                </citation>
+            </citations>
+            <p>Ritenuta la straordinaria necessita' ed urgenza di adottare misure dirette a scongiurare l'interruzione delle funzioni dell'Autorita' di regolazione per energia, reti e ambiente (ARERA) nelle more del procedimento di nomina dei suoi componenti;</p>
+            <citations eId="cits_6">
+                <citation eId="cits_6__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione del 2 ottobre 2025;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Presidente del Consiglio dei ministri e del Ministro dell'ambiente e della sicurezza energetica, di concerto con il Ministro delle imprese e del made in Italy;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto-legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Misure urgenti per assicurare la continuita' delle funzioni dell'Autorita' di regolazione per energia, reti e ambiente 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>I componenti l'Autorita' di regolazione per energia, reti e ambiente nominati con decreto del Presidente della Repubblica 9 agosto 2018 continuano a esercitare le proprie funzioni, limitatamente agli atti di ordinaria amministrazione e a quelli indifferibili e urgenti, fino alla nomina dei nuovi componenti l'Autorita' medesima, e comunque non oltre il 31 dicembre 2025. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1-bis">
+                    <num>1-bis.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_1">((L'Autorita' di regolazione per energia, reti e ambiente, al termine del mandato dei suoi componenti nominati con decreto del Presidente della Repubblica 9 agosto 2018, trasmette alle Camere una relazione sugli atti di ordinaria amministrazione e su quelli indifferibili e urgenti adottati, ai sensi del comma 1 del presente articolo, nel periodo di cui al medesimo comma 1))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il presente decreto entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana e sara' presentato alle Camere per la conversione in legge. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 3 ottobre 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Pichetto Fratin, Ministro dell'ambiente e della sicurezza energetica Urso, Ministro delle imprese e del made in Italy Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
