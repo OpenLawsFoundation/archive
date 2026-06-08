@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2021-10-18/1/!main"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2021-10-18/1"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge.costituzionale:2021-10-18;1"/>
+                    <FRBRalias name="eli" value="eli/id/2021/10/20/21G00156/ORIGINAL"/>
+                    <FRBRdate date="2021-10-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/10/20/21G00156/ORIGINAL" aknrelname="eli/id/2021/10/20/21G00156/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifica all'articolo 58 della Costituzione, in materia di elettorato per l'elezione del Senato della Repubblica. (21G00156)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00156" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE COSTITUZIONALE"/>
+                            <nrdfa:span content="2021-10-18" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2021-10-18/1/ita@2021-11-04/!main"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2021-10-18/1/ita@2021-11-04"/>
+                    <FRBRdate date="2021-11-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/10/20/21G00156/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/10/20/21G00156/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/10/20/21G00156/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2021-10-18/1/ita@2021-11-04/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2021-10-18/1/ita@2021-11-04.xml"/>
+                    <FRBRdate date="2021-10-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/10/20/21G00156/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-10-20" name="" number="251" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-10-20" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge.costituzionale:2021-10-18;1#1"/>
+                        <destination href="urn:nir:stato:costituzione#58"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la modifica dell'art. 58, comma 1. </nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE_COSTITUZIONALE/stato/2021-10-18/1/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/10/20/21G00156/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifica all'articolo 58 della Costituzione, in materia di elettorato per l'elezione del Senato della Repubblica. (21G00156)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00156</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE COSTITUZIONALE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-10-18</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/10/20/21G00156/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/10/20/21G00156/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/10/20/21G00156/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/10/20/21G00156/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge-costituzionale/stato/2021/1" nativeUrn="urn:nir:stato:legge.costituzionale:2021-10-18;1" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-10-20"><ns0:event type="enacted" date="2021-10-18"/><ns0:event type="published" date="2021-10-20"/><ns0:event type="commenced" date="2021-10-20"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/6e18e421-d762-4f17-aefd-563ed3049ea8" sourceSha256="8b65be1bc0d32d2d21b33ab6dff579d23602ab58a9c467934b03a018c13bd257" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T21:19:14.417534Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE COSTITUZIONALE</docType>
+                <docDate date="2021-10-18">18 ottobre 2021</docDate>
+                <docNumber>1</docNumber>
+                <docTitle>Modifica all'articolo 58 della Costituzione, in materia di elettorato per l'elezione del Senato della Repubblica. (21G00156) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 04/11/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica, con la maggioranza assoluta dei rispettivi componenti, hanno approvato;</p>
+            </formula>
+            <p>Nessuna richiesta di referendum costituzionale e' stata presentata;</p>
+            <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge costituzionale:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_58-com1" ns1:target="olf:it/costituzione/stato/1947/const/art_58-com1" ns1:relation="cites">primo comma dell'articolo 58 della Costituzione</ref>, le parole: «dagli elettori che hanno superato il venticinquesimo anno di eta'» sono soppresse. 
+ La presente legge costituzionale, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. 
+ Data a Roma, addi' 18 ottobre 2021 
+ 
+ MATTARELLA 
+ 
+ Draghi, Presidente del Consiglio 
+ dei ministri 
+ 
+Visto, il Guardasigilli: Cartabia 
+ 
+--------------- 
+Nota redazionale 
+ Il testo della presente legge e' gia' integrato con le correzioni apportate dall'errata-corrige pubblicato in G.U. 21/10/2021, n. 252 durante il periodo di "vacatio legis". 
+ E' possibile visualizzare il testo originario accedendo alla versione pdf della relativa Gazzetta di pubblicazione. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate. 
+ Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_58" ns3:target="olf:it/costituzione/stato/1947/const/art_58" ns3:relation="cites">articolo 58 della Costituzione</ref>, come modificato dalla presente legge: 
+ «Art. 58. 
+ I senatori sono eletti a suffragio universale e diretto. 
+ Sono eleggibili a senatori gli elettori che hanno compiuto il quarantesimo anno.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+    </act>
+</akomaNtoso>
