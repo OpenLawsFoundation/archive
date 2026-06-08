@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-09-16/126/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-09-16/126"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-09-16;126"/>
+                    <FRBRalias name="eli" value="eli/id/2021/09/18/21G00136/ORIGINAL"/>
+                    <FRBRdate date="2021-09-16" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/09/18/21G00136/ORIGINAL" aknrelname="eli/id/2021/09/18/21G00136/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 23 luglio 2021, n. 105, recante misure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19 e per l'esercizio in sicurezza di attivita' sociali ed economiche. (21G00136)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00136" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-09-16" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-09-16/126/ita@2021-09-19/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-09-16/126/ita@2021-09-19"/>
+                    <FRBRdate date="2021-09-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/09/18/21G00136/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/09/18/21G00136/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/09/18/21G00136/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-09-16/126/ita@2021-09-19/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-09-16/126/ita@2021-09-19.xml"/>
+                    <FRBRdate date="2021-09-16" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/09/18/21G00136/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-09-18" name="" number="224" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-09-18" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2021-09-16" refersTo="#C.3223"/>
+                <step by="#senato" date="2021-09-16" refersTo="#S.2382"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-03-17;18#92"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 23 luglio 2021, n. 105 (in G.U. 23/07/2021, n. 175).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#1 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 23 luglio 2021, n. 105 (in G.U. 23/07/2021, n. 175).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#2 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 23 luglio 2021, n. 105 (in G.U. 23/07/2021, n. 175).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 23 luglio 2021, n. 105 (in G.U. 23/07/2021, n. 175).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#8 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 23 luglio 2021, n. 105 (in G.U. 23/07/2021, n. 175).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 23 luglio 2021, n. 105 (in G.U. 23/07/2021, n. 175).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 23 luglio 2021, n. 105 (in G.U. 23/07/2021, n. 175).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-05-25;73#34"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 23 luglio 2021, n. 105 (in G.U. 23/07/2021, n. 175).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-07-23;105#Allegato A"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'Allegato A.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-07-23;105#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-07-23;105#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, comma 1, lettere b), c) ed e) e l'introduzione della lettera d-bis) all'art. 4, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-07-23;105#4 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 4-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-07-23;105#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, rubrica, commi 1, 2, 3, alinea e l'introduzione del comma 4-bis all'art. 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-07-23;105#6 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-07-23;105#7 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-07-23;105#11"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 11, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-09-16;126#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-07-23;105#13 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 13-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-09-16/126/!main" showAs=""/>
+                <passiveRef eId="C.3223" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3223" showAs=""/>
+                <passiveRef eId="S.2382" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2382" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/09/18/21G00136/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 23 luglio 2021, n. 105, recante misure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19 e per l'esercizio in sicurezza di attivita' sociali ed economiche. (21G00136)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00136</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-09-16</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/09/18/21G00136/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/09/18/21G00136/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/09/18/21G00136/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/09/18/21G00136/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/126" nativeUrn="urn:nir:stato:legge:2021-09-16;126" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-09-18"><ns0:event type="enacted" date="2021-09-16"/><ns0:event type="published" date="2021-09-18"/><ns0:event type="commenced" date="2021-09-18"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/ff57b088-f855-49b0-9fbf-e82acc9d39bb" sourceSha256="ee7096960b8ee71c203f279aff13db0885967c50c4419fad9207f5d02e49f59d" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T21:26:41.971255Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-09-16">16 settembre 2021</docDate>
+                <docNumber>126</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 23 luglio 2021, n. 105, recante misure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19 e per l'esercizio in sicurezza di attivita' sociali ed economiche. (21G00136) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 19/09/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2021-07-23/105/!main" ns1:target="olf:it/decreto-legge/stato/2021/105" ns1:relation="amends">decreto-legge 23 luglio 2021, n. 105</ref>, recante misure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19 e per l'esercizio in sicurezza di attivita' sociali ed economiche, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2021-07-23/105/!main" ns2:target="olf:it/decreto-legge/stato/2021/105" ns2:relation="amends">decreto-legge 23 luglio 2021, n. 105</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 175 del 23 luglio 2021. 
+ 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 42. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 16 settembre 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Speranza, Ministro della salute Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-09-16/126/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-09-16/126"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-09-16;126"/>
+                                <FRBRalias name="eli" value="eli/id/2021/09/18/21G00136/ORIGINAL"/>
+                                <FRBRdate date="2021-09-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-09-16/126/ita@2021-09-19/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-09-16/126/ita@2021-09-19"/>
+                                <FRBRdate date="2021-09-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-09-16/126/ita@2021-09-19/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-09-16/126/ita@2021-09-19.xml"/>
+                                <FRBRdate date="2021-09-16" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 23 LUGLIO 2021, N. 105 
+ 
+ All'articolo 3: 
+ al comma 1, capoverso Art. 9-bis: 
+ al comma 1: 
+ alla lettera a) sono aggiunte, in fine, le seguenti parole: «, ad eccezione dei servizi di ristorazione all'interno di alberghi e di altre strutture ricettive riservati esclusivamente ai clienti ivi alloggiati»; 
+ alla lettera f), dopo le parole: «centri termali,» sono inserite le seguenti: «salvo che per gli accessi necessari all'erogazione delle prestazioni rientranti nei livelli essenziali di assistenza e allo svolgimento di attivita' riabilitative o terapeutiche,»; 
+ dopo la lettera g) e' inserita la seguente: 
+ «g-bis) feste conseguenti alle cerimonie civili o religiose, di cui all'articolo 8-bis, comma 2»; 
+ al comma 4 sono aggiunti, in fine, i seguenti periodi: «Nel caso di sagre e fiere locali che si svolgano all'aperto, in spazi privi di varchi di accesso, gli organizzatori informano il pubblico, con apposita segnaletica, dell'obbligo del possesso della certificazione verde COVID-19 prescritta ai sensi del comma 1, lettera e), per l'accesso all'evento. In caso di controlli a campione, le sanzioni di cui all'articolo 13 si applicano al solo soggetto privo di certificazione e non anche agli organizzatori che abbiano rispettato gli obblighi informativi»; 
+ al comma 2, capoverso 10-bis, le parole: «, 8-bis, comma 2,» sono soppresse e dopo le parole: «n. 76.» sono inserite le seguenti: «Ogni diverso o nuovo utilizzo delle certificazioni verdi COVID-19 e' disposto esclusivamente con legge dello Stato». 
+ All'articolo 4: 
+ al comma 1: 
+ alla lettera b), dopo le parole: «strutture ospedaliere» sono inserite le seguenti: «, dei centri di diagnostica e dei poliambulatori specialistici. Salvi i casi di oggettiva impossibilita' dovuta all'urgenza, valutati dal personale sanitario, per l'accesso alle prestazioni di pronto soccorso e' sempre necessario sottoporsi al test antigenico rapido o molecolare»; 
+ alla lettera c), numero 1), capoverso 2, secondo periodo, le parole: «superiore 50 per cento» sono sostituite dalle seguenti: «superiore al 50 per cento»; 
+ dopo la lettera d) e' inserita la seguente: 
+ «d-bis) all'articolo 8-bis: 
+ 1) al comma 2, le parole: "e con la prescrizione che i partecipanti siano muniti di una delle certificazioni verdi COVID-19 di cui all'articolo 9 del presente decreto" sono soppresse; 
+ 2) il comma 2-bis e' abrogato»; 
+ alla lettera e): 
+ prima del numero 1) sono inseriti i seguenti: 
+ «01) al comma 1, lettera a), le parole da: "ovvero" fino a: "SARS-CoV-2" sono sostituite dalle seguenti: "ovvero l'effettuazione di un test antigenico rapido o molecolare, quest'ultimo anche su campione salivare e nel rispetto dei criteri stabiliti con circolare del Ministero della salute, con esito negativo al virus SARS-CoV-2"; 
+ 02) al comma 2, lettera c), dopo la parola: "molecolare" sono inserite le seguenti: ", quest'ultimo anche su campione salivare e nel rispetto dei criteri stabiliti con circolare del Ministero della salute,"»; 
+ al numero 1), dopo le parole: «al comma 3,» sono inserite le seguenti: « al primo periodo, le parole: "validita' di nove mesi" sono sostituite dalle seguenti: "validita' di dodici mesi" e» e la parola: «SARS-COV 2» e' sostituita dalla seguente: «SARS-CoV-2». 
+ Dopo l'articolo 4 e' inserito il seguente: 
+ «Art. 4-bis. (Modifica all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2021-04-01/44/!main#art_1bis" ns4:target="olf:it/decreto-legge/stato/2021/44/art_1bis" ns4:relation="amends">articolo 1-bis del decreto-legge 1° aprile 2021, n. 44</ref>, convertito, con modificazioni, dalla <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2021-05-28/76/!main" ns5:target="olf:it/legge/stato/2021/76" ns5:relation="cites">legge 28 maggio 2021, n. 76</ref>). - 1. All'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2021-04-01/44/!main#art_1bis-com1" ns6:target="olf:it/decreto-legge/stato/2021/44/art_1bis-com1" ns6:relation="amends">articolo 1-bis, comma 1, del decreto-legge 1° aprile 2021, n. 44</ref>, convertito, con modificazioni, dalla <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2021-05-28/76/!main" ns7:target="olf:it/legge/stato/2021/76" ns7:relation="cites">legge 28 maggio 2021, n. 76</ref>, e' aggiunto, in fine, il seguente periodo: "Nel rispetto delle predette misure e, in ogni caso, a condizione che siano assicurate idonee misure di protezione individuale, le direzioni sanitarie garantiscono la possibilita' di visita da parte di familiari muniti delle suddette certificazioni verdi COVID-19 con cadenza giornaliera, consentendo loro anche di prestare assistenza quotidiana nel caso in cui la persona ospitata sia non autosufficiente"». 
+ All'articolo 5: 
+ al comma 1, primo periodo, le parole: «30 settembre 2021» sono sostituite dalle seguenti: «30 novembre 2021» e la parola: «SARSCoV-2» e' sostituita dalla seguente: «SARS-CoV-2»; 
+ al comma 2, primo periodo, le parole: «testi antigenici» sono sostituite dalle seguenti: «test antigenici» e le parole: «<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2021-05-25/73/!main" ns8:target="olf:it/decreto-legge/stato/2021/73" ns8:relation="amends">decreto legge 25 maggio 2021, n. 73</ref>,» sono sostituite dalle seguenti: «<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegge/stato/2021-05-25/73/!main" ns9:target="olf:it/decreto-legge/stato/2021/73" ns9:relation="amends">decreto-legge 25 maggio 2021, n. 73</ref>, convertito, con modificazioni, dalla <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2021-07-23/106/!main" ns10:target="olf:it/legge/stato/2021/106" ns10:relation="cites">legge 23 luglio 2021, n. 106</ref>,»; 
+ al comma 3, alinea, la parola: «apportare» e' sostituita dalle seguenti: «sono apportate»; 
+ dopo il comma 4 e' aggiunto il seguente: 
+ «4-bis. Al fine di rafforzare la prossimita' e la tempestivita' dei servizi di vaccinazione antinfluenzale per la stagione 2021/2022 e di assicurarne il coordinamento con la campagna vaccinale contro il SARS-CoV-2, il Ministero della salute, sentiti il Commissario straordinario per l'attuazione e il coordinamento delle misure occorrenti per il contenimento e contrasto dell'emergenza epidemiologica COVID-19 e la Federazione degli Ordini dei farmacisti italiani, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano ai sensi dell'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_3" ns11:target="olf:it/decreto-legislativo/stato/1997/281/art_3" ns11:relation="cites">articolo 3 del decreto legislativo 28 agosto 1997, n. 281</ref>, definisce, tramite apposito protocollo d'intesa stipulato con le organizzazioni sindacali maggiormente rappresentative delle farmacie, le procedure e le condizioni nel rispetto delle quali i farmacisti delle farmacie aperte al pubblico, a seguito del superamento di specifico corso organizzato dall'Istituto superiore di sanita', concorrono alla campagna vaccinale antinfluenzale per la stagione 2021/2022 nei confronti dei soggetti di eta' non inferiore a diciotto anni. La remunerazione del servizio erogato dalle farmacie ai sensi del presente comma e' definita dal citato protocollo d'intesa a valere sulle risorse del fabbisogno sanitario nazionale standard. Con il medesimo protocollo d'intesa sono disciplinate altresi' le procedure di registrazione delle somministrazioni eseguite presso le farmacie per l'alimentazione dell'Anagrafe nazionale vaccini di cui al decreto del Ministro della salute 17 settembre 2018, pubblicato nella Gazzetta Ufficiale n. 257 del 5 novembre 2018, anche per consentire il monitoraggio del servizio erogato ai fini della remunerazione dello stesso. Le previsioni del predetto protocollo d'intesa esauriscono gli obblighi e gli adempimenti a carico delle farmacie. Resta fermo quanto previsto dall'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com471" ns12:target="olf:it/legge/stato/2020/178/art_1-com471" ns12:relation="cites">articolo 1, comma 471, della legge 30 dicembre 2020, n. 178</ref>. Dall'attuazione del presente comma non devono derivare nuovi o maggiori oneri a carico della finanza pubblica»; 
+ alla rubrica sono aggiunte, in fine, le seguenti parole: «e per la campagna vaccinale antinfluenzale 2021/2022». 
+ Dopo l'articolo 6 e' inserito il seguente: 
+ «Art. 6-bis. (Proroga delle deroghe alle norme in materia di riconoscimento delle qualifiche professionali sanitarie). - 1. Al fine di fronteggiare la grave carenza di personale sanitario e socio-sanitario che si riscontra nel territorio nazionale, fino al 31 dicembre 2022 e' consentito l'esercizio temporaneo, nel territorio nazionale, delle qualifiche professionali sanitarie e della qualifica di operatore socio-sanitario, in deroga alle norme sul riconoscimento delle predette qualifiche professionali, secondo le procedure di cui all'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegge/stato/2020-03-17/18/!main#art_13" ns13:target="olf:it/decreto-legge/stato/2020/18/art_13" ns13:relation="amends">articolo 13 del decreto-legge 17 marzo 2020, n. 18</ref>, convertito, con modificazioni, dalla <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2020-04-24/27/!main" ns14:target="olf:it/legge/stato/2020/27" ns14:relation="cites">legge 24 aprile 2020, n. 27</ref>». 
+ Dopo l'articolo 7 e' inserito il seguente: 
+ «Art. 7-bis. (Misure urgenti in materia di processo amministrativo). - 1. Fino al 31 dicembre 2021, in presenza di situazioni eccezionali non altrimenti fronteggiabili e correlate a provvedimenti assunti dalla pubblica autorita' per contrastare la pandemia di COVID-19, i presidenti titolari delle sezioni del Consiglio di Stato, il presidente del Consiglio di giustizia amministrativa per la Regione siciliana e i presidenti dei tribunali amministrativi regionali e delle relative sezioni staccate possono autorizzare con decreto motivato, in alternativa al rinvio, la trattazione da remoto delle cause per cui non e' possibile la presenza fisica in udienza di singoli difensori o, in casi assolutamente eccezionali, di singoli magistrati. In tali casi la trattazione si svolge con le modalita' di cui all'articolo 13-quater delle norme di attuazione del <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/2010-07-02/104/!main" ns15:target="olf:it/decreto-legislativo/stato/2010/104" ns15:relation="cites">codice del processo amministrativo</ref>, di cui all'allegato 2 al <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2010-07-02/104/!main" ns16:target="olf:it/decreto-legislativo/stato/2010/104" ns16:relation="cites">decreto legislativo 2 luglio 2010, n. 104</ref>». 
+ All'articolo 11: 
+ al comma 1, le parole: «convertito, con modificazioni, dalla <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2018-07-27/93/!main" ns17:target="olf:it/legge/stato/2018/93" ns17:relation="cites">legge 27 luglio 2018, n. 93</ref>» sono sostituite dalle seguenti: «convertito, con modificazioni, dalla <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2021-07-23/106/!main" ns18:target="olf:it/legge/stato/2021/106" ns18:relation="cites">legge 23 luglio 2021, n. 106</ref>». 
+ Dopo l'articolo 13 e' inserito il seguente: 
+ «Art. 13-bis. (Clausola di salvaguardia). - 1. Le disposizioni del presente decreto sono applicabili nelle regioni a statuto speciale e nelle province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti e le relative norme di attuazione». 
+ All'allegato A, dopo il numero 5 e' inserito il seguente: 
+ «5-bis. <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegge/stato/2020-03-17/18/!main#art_92-com4bis" ns19:target="olf:it/decreto-legge/stato/2020/18/art_92-com4bis" ns19:relation="amends">Articolo 92, comma 4-bis, del decreto-legge 17 marzo 2020, n. 18</ref>, convertito, con modificazioni, dalla <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2020-04-24/27/!main" ns20:target="olf:it/legge/stato/2020/27" ns20:relation="cites">legge 24 aprile 2020, n. 27</ref>. Disposizioni concernenti il trasporto pubblico locale». </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
