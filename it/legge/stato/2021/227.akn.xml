@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-22/227/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-22/227"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-22;227"/>
+                    <FRBRalias name="eli" value="eli/id/2021/12/30/21G00254/CONSOLIDATED/20230228"/>
+                    <FRBRdate date="2021-12-22" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/30/21G00254/CONSOLIDATED/20230228" aknrelname="eli/id/2021/12/30/21G00254/CONSOLIDATED/20230228">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Delega al Governo in materia di disabilita'. (21G00254)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00254" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-12-22" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-22/227/ita@2023-02-28/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-22/227/ita@2023-02-28"/>
+                    <FRBRdate date="2023-02-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/30/21G00254/CONSOLIDATED/20230228/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/12/30/21G00254/CONSOLIDATED/20230228"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/12/30/21G00254/CONSOLIDATED/20230228/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-22/227/ita@2023-02-28/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-22/227/ita@2023-02-28.xml"/>
+                    <FRBRdate date="2021-12-22" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/30/21G00254/CONSOLIDATED/20230228/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-12-30" name="" number="309" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-12-30" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2022-04-30" eId="eventRef_1" source="rp1"/>
+                <eventRef date="2023-02-27" eId="eventRef_2" source="rp2"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2021-12-22" refersTo="#C.3347"/>
+                <step by="#senato" date="2021-12-22" refersTo="#S.2475"/>
+            </workflow>
+            <analysis source="">
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((entro il 15 marzo 2024))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_1" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_2"/>
+                        <new>
+                            <nakn:text>((LETTERA ABROGATA DAL D.L. 30 APRILE 2022, N. 36))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_2" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_3"/>
+                        <new>
+                            <nakn:text>((COMMA ABROGATO DAL D.L. 30 APRILE 2022, N. 36))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-12-22/227/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/DECRETO-LEGGE/stato/2022-04-30/36/!main" showAs=""/>
+                <passiveRef eId="rp2" href="/akn/it/act/LEGGE/stato/2023-02-24/14/!main" showAs=""/>
+                <passiveRef eId="C.3347" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3347" showAs=""/>
+                <passiveRef eId="S.2475" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2475" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/12/30/21G00254/CONSOLIDATED/20230228">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Delega al Governo in materia di disabilita'. (21G00254)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00254</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-12-22</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/12/30/21G00254/CONSOLIDATED/20230228/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/12/30/21G00254/CONSOLIDATED/20230228"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/12/30/21G00254/CONSOLIDATED/20230228/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/12/30/21G00254/CONSOLIDATED/20230228/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/227" nativeUrn="urn:nir:stato:legge:2021-12-22;227" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-12-30"><ns0:event type="enacted" date="2021-12-22"/><ns0:event type="published" date="2021-12-30"/><ns0:event type="commenced" date="2021-12-30"/><ns0:event type="amended" date="2022-04-30"/><ns0:event type="amended" date="2023-02-27"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/aa21645c-abd8-47c6-b776-5c278c1e698b" sourceSha256="17bdf3815fb4267be16142844cb8c11065ec447aba02dcc0a28e6f66a714ae6a" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T20:55:43.409923Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-12-22">22 dicembre 2021</docDate>
+                <docNumber>227</docNumber>
+                <docTitle>Delega al Governo in materia di disabilita'. (21G00254) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 31/12/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Oggetto e finalita' della delega 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, <ins eId="ins_1">((entro il 15 marzo 2024))</ins>, nel rispetto dei principi e criteri direttivi di cui all'articolo 2, uno o piu' decreti legislativi per la revisione e il riordino delle disposizioni vigenti in materia di disabilita', in attuazione degli <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_2" ns1:target="olf:it/costituzione/stato/1947/const/art_2" ns1:relation="cites">articoli 2</ref>, <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_3" ns2:target="olf:it/costituzione/stato/1947/const/art_3" ns2:relation="cites">3</ref>, <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_31" ns3:target="olf:it/costituzione/stato/1947/const/art_31" ns3:relation="cites">31</ref> e <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_38" ns4:target="olf:it/costituzione/stato/1947/const/art_38" ns4:relation="cites">38 della Costituzione</ref> e in conformita' alle disposizioni della Convenzione delle Nazioni Unite sui diritti delle persone con disabilita' e del relativo Protocollo opzionale, fatta a New York il 13 dicembre 2006, ratificata ai sensi della <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2009-03-03/18/!main" ns5:target="olf:it/legge/stato/2009/18" ns5:relation="cites">legge 3 marzo 2009, n. 18</ref>, alla Strategia per i diritti delle persone con disabilita' 2021-2030, di cui alla comunicazione della Commissione europea COM(2021) 101 final, del 3 marzo 2021, e alla risoluzione del Parlamento europeo del 7 ottobre 2021, sulla protezione delle persone con disabilita', al fine di garantire alla persona con disabilita' di ottenere il riconoscimento della propria condizione, anche attraverso una valutazione della stessa congruente, trasparente e agevole che consenta il pieno esercizio dei suoi diritti civili e sociali, compresi il diritto alla vita indipendente e alla piena inclusione sociale e lavorativa, nonche' l'effettivo e pieno accesso al sistema dei servizi, delle prestazioni, dei trasferimenti finanziari previsti e di ogni altra relativa agevolazione, e di promuovere l'autonomia della persona con disabilita' e il suo vivere su base di pari opportunita' con gli altri, nel rispetto dei principi di autodeterminazione e di non discriminazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>I decreti legislativi di cui al comma 1 sono emanati su proposta del Presidente del Consiglio dei ministri o dell'Autorita' politica delegata in materia di disabilita', di concerto con il Ministro del lavoro e delle politiche sociali, con il Ministro dell'economia e delle finanze, con il Ministro della salute e con gli altri Ministri eventualmente competenti nelle materie oggetto di tali decreti. Gli schemi dei decreti legislativi, previa intesa in sede di Conferenza unificata di cui all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns6:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns6:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>, sono trasmessi al Consiglio di Stato per l'espressione del parere, che e' reso nel termine di trenta giorni dalla data di trasmissione, decorso il quale il Governo puo' comunque procedere. I medesimi schemi sono quindi trasmessi alle Camere, perche' su di essi sia espresso il parere delle Commissioni parlamentari competenti per materia e delle Commissioni parlamentari competenti per i profili di carattere finanziario, da rendere entro il termine di quaranta giorni dalla data di trasmissione, decorso il quale i decreti possono essere comunque adottati. In mancanza dell'intesa nel termine di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_3" ns7:target="olf:it/decreto-legislativo/stato/1997/281/art_3" ns7:relation="cites">articolo 3 del decreto legislativo 28 agosto 1997, n. 281</ref>, il Consiglio dei ministri delibera, approvando una relazione, che e' trasmessa alle Camere, nella quale sono indicati gli specifici motivi per cui l'intesa non e' stata raggiunta. Qualora il termine per l'espressione del parere delle Commissioni parlamentari scada nei trenta giorni che precedono il termine finale per l'esercizio della delega o successivamente, quest'ultimo e' prorogato di novanta giorni. Il Governo, qualora, a seguito dell'espressione dei pareri parlamentari, non intenda conformarsi all'intesa raggiunta nella Conferenza unificata, trasmette alle Camere e alla stessa Conferenza unificata una relazione nella quale sono indicate le specifiche motivazioni della difformita' dall'intesa. La Conferenza unificata assume le conseguenti determinazioni entro il termine di quindici giorni dalla data di trasmissione della relazione, decorso il quale i decreti possono essere comunque adottati. Qualora, anche a seguito delle determinazioni della Conferenza unificata di cui al periodo precedente, il Governo non intenda conformarsi ai pareri parlamentari, trasmette nuovamente i testi alle Camere con le sue osservazioni e con eventuali modificazioni, corredate dei necessari elementi integrativi di informazione e motivazione. Le Commissioni parlamentari competenti per materia e per i profili finanziari si esprimono entro il termine di dieci giorni dalla data della nuova trasmissione. Decorso tale termine, i decreti possono comunque essere adottati. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Il Governo, nella predisposizione dei decreti legislativi di cui al comma 1, assicura la leale collaborazione con le regioni egli enti locali e si avvale del supporto dell'Osservatorio nazionale sulla condizione delle persone con disabilita'. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Entro ventiquattro mesi dalla data di entrata in vigore di ciascuno dei decreti legislativi di cui al comma 1, possono essere adottati decreti legislativi recanti disposizioni integrative e correttive, nel rispetto dei principi e criteri direttivi previsti dalla presente legge e con la procedura di cui al comma 2. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <list>
+                        <intro eId="art_1__para_5__intro_1">
+                            <p>I decreti legislativi di cui al comma 1 intervengono, progressivamente nei limiti delle risorse disponibili, ivi comprese quelle del Piano nazionale di ripresa e resilienza (PNRR), nei seguenti ambiti: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_5.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>definizione della condizione di disabilita' nonche' revisione, riordino e semplificazione della normativa di settore; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_5.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>accertamento della condizione di disabilita' e revisione dei suoi processi valutativi di base; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_5.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>valutazione multidimensionale della disabilita', realizzazione del progetto di vita individuale, personalizzato e partecipato; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_5.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>informatizzazione dei processi valutativi e di archiviazione; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_5.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>riqualificazione dei servizi pubblici in materia di inclusione e accessibilita'; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_5.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>istituzione di un Garante nazionale delle disabilita'; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_5.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>LETTERA ABROGATA DAL <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2022-04-30/36/!main" ns8:target="olf:it/decreto-legge/stato/2022/36" ns8:relation="cites">D.L. 30 APRILE 2022, N. 36</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_5.__point_h">
+                            <num>h)</num>
+                            <content>
+                                <p>disposizioni finali e transitorie. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Principi e criteri direttivi della delega 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Nell'esercizio della delega di cui all'articolo 1, il Governo provvede al coordinamento, sotto il profilo formale e sostanziale, delle disposizioni legislative vigenti, anche di recepimento e attuazione della normativa europea, apportando a esse le opportune modifiche volte a garantire e migliorare la coerenza giuridica, logica e sistematica della normativa di settore, ad adeguare, aggiornare e semplificare il linguaggio normativo e a individuare espressamente le disposizioni da abrogare, fatta salva comunque l'applicazione dell'articolo 15 delle disposizioni sulla legge in generale premesse al <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main" ns9:target="olf:it/codice-civile/stato/1942/262" ns9:relation="cites">codice civile</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_2__para_2__intro_1">
+                            <p>Il Governo si attiene ai seguenti principi e criteri direttivi: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>con riguardo alle definizioni concernenti la condizione di disabilita' e alla revisione, al riordino e alla semplificazione della normativa di settore: 
+ 1) adozione di una definizione di «disabilita'» coerente con l'articolo 1, secondo paragrafo, della Convenzione delle Nazioni Unite sui diritti delle persone con disabilita', anche integrando la <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/1992-02-05/104/!main" ns10:target="olf:it/legge/stato/1992/104" ns10:relation="cites">legge 5 febbraio 1992, n. 104</ref>, e introducendo disposizioni che prevedano una valutazione di base della disabilita' distinta da una successiva valutazione multidimensionale fondata sull'approccio bio-psico-sociale, attivabile dalla persona con disabilita' o da chi la rappresenta, previa adeguata informazione sugli interventi, sostegni e benefici cui puo' accedere, finalizzata al progetto di vita individuale, personalizzato e partecipato di cui alla lettera c) del presente comma e assicurando l'adozione di criteri idonei a tenere nella dovuta considerazione le differenze di genere; 
+ 2) adozione della Classificazione internazionale del funzionamento, della disabilita' e della salute - International Classification of Functioning, Disability and Health (ICF), approvata dalla 54ª Assemblea mondiale della sanita' il 22 maggio 2001, e dei correlati strumenti tecnico-operativi di valutazione, ai fini della descrizione e dell'analisi del funzionamento, della disabilita' e della salute, congiuntamente alla versione adottata in Italia della Classificazione internazionale delle malattie (ICD) dell'Organizzazione mondiale della sanita' e a ogni altra eventuale scala di valutazione disponibile e consolidata nella letteratura scientifica e nella pratica clinica; 
+ 3) separazione dei percorsi valutativi previsti per le persone anziane da quelli previsti per gli adulti e da quelli previsti per i minori; 
+ 4) adozione di una definizione di «profilo di funzionamento» coerente con l'ICF e con le disposizioni della Convenzione delle Nazioni Unite sui diritti delle persone con disabilita' e che tenga conto dell'ICD; 
+ 5) introduzione nella <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/1992-02-05/104/!main" ns11:target="olf:it/legge/stato/1992/104" ns11:relation="cites">legge 5 febbraio 1992, n. 104</ref>, della definizione di «accomodamento ragionevole», prevedendo adeguati strumenti di tutela coerenti con le disposizioni della Convenzione delle Nazioni Unite sui diritti delle persone con disabilita'; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>con riguardo all'accertamento della disabilita' e alla revisione dei suoi processi valutativi di base: 
+ 1) previsione che, in conformita' alle indicazioni dell'ICF e tenuto conto dell'ICD, la valutazione di base accerti, ai sensi dell'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/1992-02-05/104/!main#art_3" ns12:target="olf:it/legge/stato/1992/104/art_3" ns12:relation="cites">articolo 3 della legge 5 febbraio 1992, n. 104</ref>, come modificato in coerenza con la Convenzione delle Nazioni Unite sui diritti delle persone con disabilita', la condizione di disabilita' e le necessita' di sostegno, di sostegno intensivo o di restrizione della partecipazione della persona ai fini dei correlati benefici o istituti; 
+ 2) al fine di semplificare gli aspetti procedurali e organizzativi in modo da assicurare tempestivita', efficienza, trasparenza e tutela della persona con disabilita', razionalizzazione e unificazione in un'unica procedura del processo valutativo di base ai sensi della <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/1992-02-05/104/!main" ns13:target="olf:it/legge/stato/1992/104" ns13:relation="cites">legge 5 febbraio 1992, n. 104</ref>, degli accertamenti afferenti all'invalidita' civile ai sensi della <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/1971-03-30/118/!main" ns14:target="olf:it/legge/stato/1971/118" ns14:relation="cites">legge 30 marzo 1971, n. 118</ref>, alla cecita' civile ai sensi della <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/1970-05-27/382/!main" ns15:target="olf:it/legge/stato/1970/382" ns15:relation="cites">legge 27 maggio 1970, n. 382</ref>, e della <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2001-04-03/138/!main" ns16:target="olf:it/legge/stato/2001/138" ns16:relation="cites">legge 3 aprile 2001, n. 138</ref>, alla sordita' civile ai sensi della <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/1970-05-26/381/!main" ns17:target="olf:it/legge/stato/1970/381" ns17:relation="cites">legge 26 maggio 1970, n. 381</ref>, alla sordocecita' ai sensi della <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2010-06-24/107/!main" ns18:target="olf:it/legge/stato/2010/107" ns18:relation="cites">legge 24 giugno 2010, n. 107</ref>, delle valutazioni propedeutiche all'individuazione degli alunni con disabilita' di cui all'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2015-07-13/107/!main#art_1-com181-letc-num5" ns19:target="olf:it/legge/stato/2015/107/art_1-com181-letc-num5" ns19:relation="cites">articolo 1, comma 181, lettera c), numero 5), della legge 13 luglio 2015, n. 107</ref>, all'accertamento della disabilita' ai fini dell'inclusione lavorativa ai sensi della <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/1999-03-12/68/!main#art_1-com1-letc" ns20:target="olf:it/legge/stato/1999/68/art_1-com1-letc" ns20:relation="cites">legge 12 marzo 1999, n. 68, e dell'articolo 1, comma 1, lettera c)</ref>, del <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2015-09-14/151/!main" ns21:target="olf:it/decreto-legislativo/stato/2015/151" ns21:relation="cites">decreto legislativo 14 settembre 2015, n. 151</ref>, e alla concessione di assistenza protesica, sanitaria e riabilitativa, delle valutazioni utili alla definizione del concetto di non autosufficienza e delle valutazioni relative al possesso dei requisiti necessari per l'accesso ad agevolazioni fiscali, tributarie e relative alla mobilita' nonche' di ogni altro accertamento dell'invalidita' previsto dalla normativa vigente, confermando e garantendo la specificita' e l'autonoma rilevanza di ciascuna forma di disabilita'; 
+ 3) previsione che, in conformita' alla definizione di disabilita' e in coerenza con le classificazioni ICD e ICF, con decreto del Ministro della salute, di concerto con il Ministro dell'economia e delle finanze, con l'Autorita' politica delegata in materia di disabilita' e con il Ministro del lavoro e delle politiche sociali, si provveda al progressivo aggiornamento delle definizioni, dei criteri e delle modalita' di accertamento dell'invalidita' previsti dal decreto del Ministro della sanita' 5 febbraio 1992, pubblicato nel Supplemento ordinario n. 43 alla Gazzetta Ufficiale n. 47 del 26 febbraio 1992; 
+ 4) affidamento a un unico soggetto pubblico dell'esclusiva competenza medico-legale sulle procedure valutative di cui al numero 2), garantendone l'omogeneita' nel territorio nazionale e realizzando, anche a fini deflativi del contenzioso giudiziario, una semplificazione e razionalizzazione degli aspetti procedurali e organizzativi del processo valutativo di base, anche prevedendo procedimenti semplificati di riesame o di rivalutazione, in modo che siano assicurate la tempestivita', l'efficienza e la trasparenza e siano riconosciute la tutela e la rappresentanza della persona con disabilita', in tutte le fasi della procedura di accertamento della condizione di disabilita', garantendo la partecipazione delle associazioni di categoria di cui all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/1990-10-15/295/!main#art_1-com3" ns22:target="olf:it/legge/stato/1990/295/art_1-com3" ns22:relation="cites">articolo 1, comma 3, della legge 15 ottobre 1990, n. 295</ref>; 
+ 5) previsione di un efficace e trasparente sistema di controlli sull'adeguatezza delle prestazioni rese, garantendo l'interoperabilita' tra le banche di dati gia' esistenti, prevedendo anche specifiche situazioni comportanti l'irrivedibilita' nel tempo, fermi restando i casi di esonero gia' stabiliti dalla normativa vigente; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>con riguardo alla valutazione multidimensionale della disabilita' e alla realizzazione del progetto di vita individuale, personalizzato e partecipato: 
+ 1) prevedere modalita' di coordinamento tra le amministrazioni competenti per l'integrazione della programmazione sociale e sanitaria nazionale e regionale; 
+ 2) prevedere che la valutazione multidimensionale sia svolta attraverso l'istituzione e l'organizzazione di unita' di valutazione multidimensionale composte in modo da assicurare l'integrazione degli interventi di presa in carico, di valutazione e di progettazione da parte delle amministrazioni competenti in ambito sociosanitario e socio-assistenziale, ferme restando le prestazioni gia' individuate dal decreto del Presidente del Consiglio dei ministri 12 gennaio 2017, concernente la definizione dei livelli essenziali di assistenza nel settore sanitario, pubblicato nel Supplemento ordinario alla Gazzetta Ufficiale n. 65 del 18 marzo 2017; 
+ 3) prevedere che la valutazione multidimensionale sia svolta tenendo conto delle indicazioni dell'ICF e dell'ICD e che definisca un profilo di funzionamento della persona, necessario alla predisposizione del progetto di vita individuale, personalizzato e partecipato e al monitoraggio dei suoi effetti nel tempo, tenendo conto delle differenti disabilita' nell'ambito della valutazione; 
+ 4) prevedere che la valutazione multidimensionale assicuri, sulla base di un approccio multidisciplinare e con la partecipazione della persona con disabilita' e di chi la rappresenta, l'elaborazione di un progetto di vita individuale, personalizzato e partecipato, il quale individui i sostegni e gli accomodamenti ragionevoli che garantiscano l'effettivo godimento dei diritti e delle liberta' fondamentali, tra cui la possibilita' di scegliere, in assenza di discriminazioni, il proprio luogo di residenza e un'adeguata soluzione abitativa, anche promuovendo il diritto alla domiciliarita' delle cure e dei sostegni socio-assistenziali; 
+ 5) prevedere che il progetto di vita individuale, personalizzato e partecipato sia diretto a realizzare gli obiettivi della persona con disabilita' secondo i suoi desideri, le sue aspettative e le sue scelte, migliorandone le condizioni personali e di salute nonche' la qualita' di vita nei suoi vari ambiti, individuando le barriere e i facilitatori che incidono sui contesti di vita e rispettando i principi al riguardo sanciti dalla Convenzione delle Nazioni Unite sui diritti delle persone con disabilita', indicando gli strumenti, le risorse, i servizi, le misure, gli accomodamenti ragionevoli che devono essere adottati per la realizzazione del progetto e che sono necessari a compensare le limitazioni alle attivita' e a favorire la partecipazione della persona con disabilita' nei diversi ambiti della vita e nei diversi contesti di riferimento, compresi quelli lavorativi e scolastici nonche' quelli culturali e sportivi, e in ogni altro contesto di inclusione sociale; 
+ 6) assicurare l'adozione degli accomodamenti ragionevoli necessari a consentire l'effettiva individuazione ed espressione della volonta' dell'interessato e la sua piena comprensione delle misure e dei sostegni attivabili, al fine di garantire alla persona con disabilita', anche quando sia soggetta a una misura di protezione giuridica o abbia necessita' di sostegni ad altissima intensita', la piena partecipazione alla valutazione multidimensionale, all'elaborazione del progetto di vita individuale, personalizzato e partecipato e all'attuazione dello stesso con modalita' tali da garantire la soddisfazione della persona interessata; 
+ 7) prevedere che sia garantita comunque l'attuazione del progetto di vita individuale, personalizzato e partecipato, al variare del contesto territoriale e di vita della persona con disabilita', mediante le risorse umane e strumentali di rispettiva competenza degli enti locali e delle regioni ai sensi della normativa vigente; 
+ 8) assicurare che, su richiesta della persona con disabilita' o di chi la rappresenta, l'elaborazione del progetto di vita individuale, personalizzato e partecipato coinvolga attivamente anche gli enti del Terzo settore, attraverso forme di co-programmazione e co-progettazione ai sensi degli articoli 55 e 56 del codice del Terzo settore, di cui al <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns23:target="olf:it/decreto-legislativo/stato/2017/117" ns23:relation="cites">decreto legislativo 3 luglio 2017, n. 117</ref>; 
+ 9) prevedere che nel progetto di vita individuale, personalizzato e partecipato sia indicato l'insieme delle risorse umane, professionali, tecnologiche, strumentali ed economiche, pubbliche e private, attivabili anche in seno alla comunita' territoriale e al sistema dei supporti informali, volte a dare attuazione al progetto medesimo, stabilendo ipotesi in cui lo stesso, in tutto o in parte, possa essere autogestito, con obbligo di rendicontazione secondo criteri predefiniti nel progetto stesso; 
+ 10) prevedere che, nell'ambito del progetto di vita individuale, personalizzato e partecipato, siano individuati tutti i sostegni e gli interventi idonei e pertinenti a garantire il superamento delle condizioni di emarginazione e il godimento, su base di eguaglianza con gli altri, dei diritti e delle liberta' fondamentali e che la loro attuazione sia garantita anche attraverso l'accomodamento ragionevole di cui all'articolo 2 della Convenzione delle Nazioni Unite sui diritti delle persone con disabilita'; 
+ 11) prevedere che nel progetto di vita individuale, personalizzato e partecipato siano individuate figure professionali aventi il compito di curare la realizzazione del progetto, monitorarne l'attuazione e assicurare il confronto con la persona con disabilita' e con i suoi referenti familiari, ferma restandola facolta' di autogestione del progetto da parte della persona con disabilita'; 
+ 12) prevedere che, nell'ambito del progetto di vita individuale, personalizzato e partecipato diretto ad assicurare l'inclusione e la partecipazione sociale, compreso l'esercizio dei diritti all'affettivita' e alla socialita', possano essere individuati sostegni e servizi per l'abitare in autonomia e modelli di assistenza personale autogestita che supportino la vita indipendente delle persone con disabilita' in eta' adulta, favorendone la deistituzionalizzazione e prevenendone l'istituzionalizzazione, come previsto dall'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/1992-02-05/104/!main#art_8" ns24:target="olf:it/legge/stato/1992/104/art_8" ns24:relation="cites">articolo 8 della legge 5 febbraio 1992, n. 104</ref>, e dall'articolo 19 della Convenzione delle Nazioni Unite sui diritti delle persone con disabilita', anche mediante l'attuazione coordinata dei progetti delle missioni 5 e 6 del PNRR e attraverso le misure previste dalla <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/2016-06-22/112/!main" ns25:target="olf:it/legge/stato/2016/112" ns25:relation="cites">legge 22 giugno 2016, n. 112</ref>; 
+ 13) prevedere eventuali forme di finanziamento aggiuntivo per le finalita' di cui al numero 12) e meccanismi di riconversione delle risorse attualmente destinate all'assistenza nell'ambito di istituti a favore dei servizi di supporto alla domiciliarita' e alla vita indipendente; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>con riguardo all'informatizzazione dei processi valutativi e di archiviazione, istituire, nell'ambito degli interventi previsti nel PNRR, piattaforme informatiche, accessibili e fruibili ai sensi della <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/legge/stato/2004-01-09/4/!main" ns26:target="olf:it/legge/stato/2004/4" ns26:relation="cites">legge 9 gennaio 2004, n. 4</ref>, e interoperabili con quelle esistenti alla data di entrata in vigore dei decreti legislativi, che, nel rispetto del principio della riservatezza dei dati personali, coadiuvino i processi valutativi e l'elaborazione dei progetti di vita individuali, personalizzati e partecipati, consentano la consultazione delle certificazioni e delle informazioni riguardanti i benefici economici, previdenziali e assistenziali e gli interventi di assistenza socio-sanitaria che spettano alla persona con disabilita', garantendo comunque la semplificazione delle condizioni di esercizio dei diritti delle persone con disabilita' e la possibilita' di effettuare controlli, e contengano anche le informazioni relative ai benefici eventualmente spettanti ai familiari o alle persone che hanno cura della persona con disabilita'; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>con riguardo alla riqualificazione dei servizi pubblici in materia di inclusione e accessibilita', fermi restando gli obblighi derivanti dalla normativa vigente: 
+ 1) prevedere che presso ciascuna amministrazione possa essere individuata una figura dirigenziale preposta alla programmazione strategica della piena accessibilita', fisica e digitale, delle amministrazioni da parte delle persone con disabilita', nell'ambito del piano integrato di attivita' e organizzazione previsto dall'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegge/stato/2021-06-09/80/!main#art_6" ns27:target="olf:it/decreto-legge/stato/2021/80/art_6" ns27:relation="cites">articolo 6 del decreto-legge 9 giugno 2021, n. 80</ref>, convertito, con modificazioni, dalla <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/2021-08-06/113/!main" ns28:target="olf:it/legge/stato/2021/113" ns28:relation="cites">legge 6 agosto 2021, n. 113</ref>; 
+ 2) prevedere la partecipazione dei rappresentanti delle associazioni delle persone con disabilita' maggiormente rappresentative alla formazione della sezione del piano relativa alla programmazione strategica di cui al numero 1); 
+ 3) introdurre, anche al fine di una corretta allocazione delle risorse, tra gli obiettivi di produttivita' delle amministrazioni, di cui all'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoLegislativo/stato/2009-10-27/150/!main#art_5" ns29:target="olf:it/decreto-legislativo/stato/2009/150/art_5" ns29:relation="cites">articolo 5 del decreto legislativo 27 ottobre 2009, n. 150</ref>, quelli specificamente volti a rendere effettive l'inclusione sociale e le possibilita' di accesso delle persone con disabilita'; 
+ 4) prevedere che i rappresentanti delle associazioni delle persone con disabilita' possano presentare osservazioni sui documenti di cui all'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decretoLegislativo/stato/2009-10-27/150/!main#art_10-com1" ns30:target="olf:it/decreto-legislativo/stato/2009/150/art_10-com1" ns30:relation="cites">articolo 10, comma 1, del decreto legislativo 27 ottobre 2009, n. 150</ref>, relativamente ai profili che riguardano le possibilita' di accesso e l'inclusione sociale delle persone con disabilita'; 
+ 5) prevedere che il rispetto degli obiettivi derivanti dalla programmazione strategica della piena accessibilita', fisica e digitale, delle amministrazioni da parte delle persone con disabilita' sia inserito tra gli obiettivi da valutare ai fini della performance del personale dirigenziale; 
+ 6) prevedere la nomina, da parte dei datori di lavoro pubblici, di un responsabile del processo di inserimento delle persone con disabilita' nell'ambiente di lavoro, ai sensi della <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/1999-03-12/68/!main" ns31:target="olf:it/legge/stato/1999/68" ns31:relation="cites">legge 12 marzo 1999, n. 68</ref>, anche al fine di garantire l'accomodamento ragionevole di cui all'<ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegislativo/stato/2003-07-09/216/!main#art_3-com3bis" ns32:target="olf:it/decreto-legislativo/stato/2003/216/art_3-com3bis" ns32:relation="cites">articolo 3, comma 3-bis, del decreto legislativo 9 luglio 2003, n. 216</ref>; 
+ 7) prevedere l'obbligo, per i concessionari dei pubblici servizi, di indicare nella carta dei servizi i livelli di qualita' del servizio erogato che assicurino alle persone con disabilita' l'effettiva accessibilita' delle prestazioni, evidenziando quelli obbligatori ai sensi della normativa vigente; 
+ 8) estendere il ricorso per l'efficienza delle amministrazioni e dei concessionari di servizi pubblici, di cui al <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2009-12-20/198/!main" ns33:target="olf:it/decreto-legislativo/stato/2009/198" ns33:relation="cites">decreto legislativo 20 dicembre 2009, n. 198</ref>, alla mancata attuazione o alla violazione dei livelli di qualita' dei servizi essenziali per l'inclusione sociale e la possibilita' di accesso delle persone con disabilita' oppure degli obblighi previsti dalla normativa vigente in materia; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>con riguardo all'istituzione di un Garante nazionale delle disabilita': 
+ 1) istituire il Garante nazionale delle disabilita', quale organo di natura indipendente e collegiale, competente per la tutela e la promozione dei diritti delle persone con disabilita'; 
+ 2) definire le competenze, i poteri, i requisiti e la struttura organizzativa del Garante, disciplinandone le procedure e attribuendo a esso le seguenti funzioni: 
+ 2.1) raccogliere segnalazioni da persone con disabilita' che denuncino discriminazioni o violazioni dei propri diritti, anche attraverso la previsione di un centro di contatto a cio' dedicato; 
+ 2.2) vigilare sul rispetto dei diritti e sulla conformita' alle norme e ai principi stabiliti dalla Convenzione delle Nazioni Unite sui diritti delle persone con disabilita', dalla Costituzione, dalle leggi dello Stato e dai regolamenti; 
+ 2.3) svolgere verifiche, d'ufficio o a seguito di segnalazione, sull'esistenza di fenomeni discriminatori e richiedere alle amministrazioni e ai concessionari di pubblici servizi le informazioni e i documenti necessari allo svolgimento delle funzioni di sua competenza; 
+ 2.4) formulare raccomandazioni e pareri alle amministrazioni e ai concessionari pubblici interessati sulle segnalazioni raccolte, anche in relazione a specifiche situazioni e nei confronti di singoli enti, sollecitando o proponendo interventi, misure o accomodamenti ragionevoli idonei a superare le criticita' riscontrate; 
+ 2.5) promuovere una cultura del rispetto dei diritti delle persone con disabilita' attraverso campagne di sensibilizzazione e comunicazione e progetti di azioni positive, in particolare nelle istituzioni scolastiche, in collaborazione con le amministrazioni competenti per materia; 
+ 2.6) trasmettere annualmente una relazione sull'attivita' svolta alle Camere nonche' al Presidente del Consiglio dei ministri ovvero all'Autorita' politica delegata in materia di disabilita'; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>
+                                    <ins eId="ins_2">((LETTERA ABROGATA DAL D.L. 30 APRILE 2022, N. 36))</ins>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_h">
+                            <num>h)</num>
+                            <content>
+                                <p>con riguardo alle disposizioni finali e transitorie: 
+ 1) coordinare le disposizioni introdotte dai decreti legislativi di cui all'articolo 1 con quelle ancora vigenti, comprese quelle relative agli incentivi e ai sussidi di natura economica e ai relativi fondi, facendo salvi le prestazioni, i servizi, le agevolazioni e i trasferimenti monetari gia' erogati ai sensi della normativa vigente in materia di invalidita' civile, di cecita' civile, di sordita' civile e di sordocecita' e della <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/1992-02-05/104/!main" ns34:target="olf:it/legge/stato/1992/104" ns34:relation="cites">legge 5 febbraio 1992, n. 104</ref>, anche con riferimento alla nuova tabella indicativa delle percentuali d'invalidita' per le minorazioni e malattie invalidanti, di cui al decreto del Ministro della sanita' 5 febbraio 1992, pubblicato nel Supplemento ordinario n. 43 alla Gazzetta Ufficiale n. 47 del 26 febbraio 1992, al fine di salvaguardare i diritti gia' acquisiti; 
+ 2) definire, anche avvalendosi del supporto della Commissione tecnica per i fabbisogni standard di cui all'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/legge/stato/2015-12-28/208/!main#art_1-com29" ns35:target="olf:it/legge/stato/2015/208/art_1-com29" ns35:relation="cites">articolo 1, comma 29, della legge 28 dicembre 2015, n. 208</ref>, le procedure volte alla determinazione dei livelli essenziali delle prestazioni, di cui all'<ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_117-com2-letm" ns36:target="olf:it/costituzione/stato/1947/const/art_117-com2-letm" ns36:relation="cites">articolo 117, secondo comma, lettera m), della Costituzione</ref>, con riguardo alle prestazioni in favore delle persone con disabilita', con l'individuazione di una disciplina di carattere transitorio, nelle more dell'effettiva applicazione dei livelli essenziali delle prestazioni, volta a individuare e garantire obiettivi di servizio, promuovendo la collaborazione tra i soggetti pubblici e i privati, compresi gli enti operanti nel Terzo settore. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Disposizioni finanziarie</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_3__para_1__intro_1">
+                            <p>Ai nuovi o maggiori oneri derivanti dall'attuazione della presente legge, fermo restando quanto previsto dai commi 2 e 3, si provvede: 
+ </p>
+                        </intro>
+                        <point eId="art_3__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>con le risorse del Fondo per la disabilita' e la non autosufficienza, di cui all'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/2019-12-27/160/!main#art_1-com330" ns37:target="olf:it/legge/stato/2019/160/art_1-com330" ns37:relation="cites">articolo 1, comma 330, della legge 27 dicembre 2019, n. 160</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>con le risorse disponibili nel PNRR per l'attuazione degli interventi rientranti nell'ambito del presente provvedimento; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>mediante la razionalizzazione e la riprogrammazione dell'impiego delle risorse previste a legislazione vigente per il settore della disabilita'. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_3">((COMMA ABROGATO DAL D.L. 30 APRILE 2022, N. 36))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Le amministrazioni competenti provvedono agli adempimenti previsti dai decreti legislativi attuativi della presente legge con le risorse umane, finanziarie e strumentali disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri per la finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Gli schemi dei decreti legislativi adottati in attuazione delle deleghe conferite dalla presente legge sono corredati di una relazione tecnica che dia conto della neutralita' finanziaria dei medesimi ovvero dei nuovi o maggiori oneri da essi derivanti e dei corrispondenti mezzi di copertura. In conformita' all'<ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_17-com2" ns38:target="olf:it/legge/stato/2009/196/art_17-com2" ns38:relation="cites">articolo 17, comma 2, della legge 31 dicembre 2009, n. 196</ref>, qualora uno o piu' decreti legislativi determinino nuovi o maggiori oneri che non trovino compensazione al loro interno, i medesimi decreti legislativi sono emanati solo successivamente o contestualmente all'entrata in vigore dei provvedimenti legislativi che stanzino le occorrenti risorse finanziarie. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Clausola di salvaguardia</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le disposizioni della presente legge e quelle dei decreti legislativi emanati in attuazione della stessa sono applicabili nelle regioni a statuto speciale e nelle Province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti e le relative norme di attuazione. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 22 dicembre 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Stefani, Ministro per le disabilita' Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
