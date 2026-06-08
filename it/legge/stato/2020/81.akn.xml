@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2020-07-14/81/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2020-07-14/81"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2020-07-14;81"/>
+                    <FRBRalias name="eli" value="eli/id/2020/07/28/20G00100/ORIGINAL"/>
+                    <FRBRdate date="2020-07-14" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/07/28/20G00100/ORIGINAL" aknrelname="eli/id/2020/07/28/20G00100/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni per il riconoscimento della cefalea primaria cronica come malattia sociale. (20G00100)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="20G00100" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2020-07-14" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2020-07-14/81/ita@2020-08-12/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2020-07-14/81/ita@2020-08-12"/>
+                    <FRBRdate date="2020-08-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/07/28/20G00100/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2020/07/28/20G00100/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2020/07/28/20G00100/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2020-07-14/81/ita@2020-08-12/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2020-07-14/81/ita@2020-08-12.xml"/>
+                    <FRBRdate date="2020-07-14" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/07/28/20G00100/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2020-07-28" name="" number="188" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2020-07-28" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2020-07-14" refersTo="#C.684"/>
+                <step by="#camera" date="2020-07-14" refersTo="#C.1109"/>
+                <step by="#senato" date="2020-07-14" refersTo="#S.1250"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2020-07-14/81/!main" showAs=""/>
+                <passiveRef eId="C.684" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;684" showAs=""/>
+                <passiveRef eId="C.1109" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;1109" showAs=""/>
+                <passiveRef eId="S.1250" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;1250" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2020/07/28/20G00100/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni per il riconoscimento della cefalea primaria cronica come malattia sociale. (20G00100)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>20G00100</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2020-07-14</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2020/07/28/20G00100/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2020/07/28/20G00100/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2020/07/28/20G00100/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2020/07/28/20G00100/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2020/81" nativeUrn="urn:nir:stato:legge:2020-07-14;81" jurisdiction="it"/><ns0:lifecycle inForceFrom="2020-07-28"><ns0:event type="enacted" date="2020-07-14"/><ns0:event type="published" date="2020-07-28"/><ns0:event type="commenced" date="2020-07-28"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/e88bf17c-3c90-41bb-91a8-51607c732676" sourceSha256="32dc35934171a05422e56d50b218fcc41052f37f0b365764f8d78a99ad197a19" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T22:37:54.893076Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2020-07-14">14 luglio 2020</docDate>
+                <docNumber>81</docNumber>
+                <docTitle>Disposizioni per il riconoscimento della cefalea primaria cronica come malattia sociale. (20G00100) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 12/08/2020</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_1__para_1__intro_1">
+                            <p>La cefalea primaria cronica, accertata da almeno un anno nel paziente mediante diagnosi effettuata da uno specialista del settore presso un centro accreditato per la diagnosi e la cura delle cefalee che ne attesti l'effetto invalidante, e' riconosciuta come malattia sociale, per le finalita' di cui al comma 2, nelle seguenti forme: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>emicrania cronica e ad alta frequenza; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>cefalea cronica quotidiana con o senza uso eccessivo di farmaci analgesici; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>cefalea a grappolo cronica; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>emicrania parossistica cronica; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>cefalea nevralgiforme unilaterale di breve durata con arrossamento oculare e lacrimazione; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>emicrania continua. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Con decreto del Ministro della salute, da adottare entro centottanta giorni dalla data di entrata in vigore della presente legge, previa intesa sancita in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le Province autonome di Trento e di Bolzano, sono individuati, senza nuovi o maggiori oneri per la finanza pubblica, progetti finalizzati a sperimentare metodi innovativi di presa in carico delle persone affette da cefalea nelle forme di cui al comma 1, nonche' i criteri e le modalita' con cui le regioni attuano i medesimi progetti. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 14 luglio 2020 </p>
+            <p>MATTARELLA Conte, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Bonafede</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
