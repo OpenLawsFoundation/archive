@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-04-12/35/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-04-12/35"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-04-12;35"/>
+                    <FRBRalias name="eli" value="eli/id/2022/04/29/22G00043/ORIGINAL"/>
+                    <FRBRdate date="2022-04-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/04/29/22G00043/ORIGINAL" aknrelname="eli/id/2022/04/29/22G00043/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifiche al testo unico di cui al decreto legislativo 18 agosto 2000, n. 267, in materia di limitazione del mandato dei sindaci e di controllo di gestione nei comuni di minori dimensioni, nonche' al decreto legislativo 8 aprile 2013, n. 39, in materia di inconferibilita' di incarichi negli enti privati in controllo pubblico. (22G00043)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00043" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2022-04-12" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-04-12/35/ita@2022-05-14/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-04-12/35/ita@2022-05-14"/>
+                    <FRBRdate date="2022-05-14" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/04/29/22G00043/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/04/29/22G00043/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/04/29/22G00043/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-04-12/35/ita@2022-05-14/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-04-12/35/ita@2022-05-14.xml"/>
+                    <FRBRdate date="2022-04-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/04/29/22G00043/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-04-29" name="" number="99" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-04-29" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2022-04-12" refersTo="#C.1356"/>
+                <step by="#senato" date="2022-04-12" refersTo="#S.2462"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-04-12;35#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2013-04-08;39#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 1, lettera a).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-04-12;35#2"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2000-08-18;267#196"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1) la modifica dell'art. 196, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-04-12;35#3"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2000-08-18;267#51"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1, lettera a)) la modifica dell'art. 51, comma 2; (con l'art. 3, comma 1, lettera b)) la modifica dell'art. 51, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-04-12;35#3"/>
+                        <destination href="urn:nir:stato:legge:2014-04-07;56#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 2) l'abrogazione del comma 138 dell'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2022-04-12/35/!main" showAs=""/>
+                <passiveRef eId="C.1356" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;1356" showAs=""/>
+                <passiveRef eId="S.2462" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2462" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/04/29/22G00043/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifiche al testo unico di cui al decreto legislativo 18 agosto 2000, n. 267, in materia di limitazione del mandato dei sindaci e di controllo di gestione nei comuni di minori dimensioni, nonche' al decreto legislativo 8 aprile 2013, n. 39, in materia di inconferibilita' di incarichi negli enti privati in controllo pubblico. (22G00043)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00043</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-04-12</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/04/29/22G00043/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/04/29/22G00043/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/04/29/22G00043/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/04/29/22G00043/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2022/35" nativeUrn="urn:nir:stato:legge:2022-04-12;35" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-04-29"><ns0:event type="enacted" date="2022-04-12"/><ns0:event type="published" date="2022-04-29"/><ns0:event type="commenced" date="2022-04-29"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/b8c1255b-073a-46bd-bf30-91ffce8810a6" sourceSha256="29b0fa1533cbc031912300077528d36f97f83305965596b776989efec5fe104e" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T20:39:53.507952Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2022-04-12">12 aprile 2022</docDate>
+                <docNumber>35</docNumber>
+                <docTitle>Modifiche al testo unico di cui al decreto legislativo 18 agosto 2000, n. 267, in materia di limitazione del mandato dei sindaci e di controllo di gestione nei comuni di minori dimensioni, nonche' al decreto legislativo 8 aprile 2013, n. 39, in materia di inconferibilita' di incarichi negli enti privati in controllo pubblico. (22G00043) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 14/05/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Inconferibilita' di incarichi presso gli enti 
+ di diritto privato in controllo pubblico 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegislativo/stato/2013-04-08/39/!main#art_3-com1-leta" ns1:target="olf:it/decreto-legislativo/stato/2013/39/art_3-com1-leta" ns1:relation="amends">articolo 3, comma 1, lettera a), del decreto legislativo 8 aprile 2013, n. 39</ref>, dopo la parola: «locali» sono aggiunte le seguenti: «nonche' negli enti di diritto privato in controllo pubblico». 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente in materia, ai sensi dell'art. 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegislativo/stato/2013-04-08/39/!main#art_3" ns3:target="olf:it/decreto-legislativo/stato/2013/39/art_3" ns3:relation="amends">art. 3 del decreto legislativo 8 aprile 2013, n. 39</ref> (Disposizioni in materia di inconferibilita' e incompatibilita' di incarichi presso le pubbliche amministrazioni e presso gli enti privati in controllo pubblico, a norma dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2012-11-06/190/!main#art_1-com49" ns4:target="olf:it/legge/stato/2012/190/art_1-com49" ns4:relation="cites">art. 1, commi 49</ref> e <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2012-11-06/190/!main#art_1-com50" ns5:target="olf:it/legge/stato/2012/190/art_1-com50" ns5:relation="cites">50, della legge 6 novembre 2012, n. 190</ref>), pubblicato nella Gazzetta Ufficiale 19 aprile 2013, n. 92, come modificato dalla presente legge: 
+ «Art. 3 (Inconferibilita' di incarichi in caso di condanna per reati contro la pubblica amministrazione). - 1. A coloro che siano stati condannati, anche con sentenza non passata in giudicato, per uno dei reati previsti dal capo I del titolo II del libro secondo del <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns6:target="olf:it/regio-decreto/stato/1930/1398" ns6:relation="cites">codice penale</ref>, non possono essere attribuiti: 
+ a) gli incarichi amministrativi di vertice nelle amministrazioni statali, regionali e locali nonche' negli enti di diritto privato in controllo pubblico; 
+ b) gli incarichi di amministratore di ente pubblico, di livello nazionale, regionale e locale; 
+ c) gli incarichi dirigenziali, interni e esterni, comunque denominati, nelle pubbliche amministrazioni, negli enti pubblici e negli enti di diritto privato in controllo pubblico di livello nazionale, regionale e locale; 
+ d) gli incarichi di amministratore di ente di diritto privato in controllo pubblico, di livello nazionale, regionale e locale; 
+ e) gli incarichi di direttore generale, direttore sanitario e direttore amministrativo nelle aziende sanitarie locali del servizio sanitario nazionale. 
+ 2. Ove la condanna riguardi uno dei reati di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2001-03-27/97/!main#art_3-com1" ns7:target="olf:it/legge/stato/2001/97/art_3-com1" ns7:relation="cites">art. 3, comma 1, della legge 27 marzo 2001, n. 97</ref>, l'inconferibilita' di cui al comma 1 ha carattere permanente nei casi in cui sia stata inflitta la pena accessoria dell'interdizione perpetua dai pubblici uffici ovvero sia intervenuta la cessazione del rapporto di lavoro a seguito di procedimento disciplinare o la cessazione del rapporto di lavoro autonomo. Ove sia stata inflitta una interdizione temporanea, l'inconferibilita' ha la stessa durata dell'interdizione. Negli altri casi l'inconferibilita' degli incarichi ha la durata di 5 anni. 
+ 3. Ove la condanna riguardi uno degli altri reati previsti dal capo I del titolo II del libro II del <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns8:target="olf:it/regio-decreto/stato/1930/1398" ns8:relation="cites">codice penale</ref>, l'inconferibilita' ha carattere permanente nei casi in cui sia stata inflitta la pena accessoria dell'interdizione perpetua dai pubblici uffici ovvero sia intervenuta la cessazione del rapporto di lavoro a seguito di procedimento disciplinare o la cessazione del rapporto di lavoro autonomo. Ove sia stata inflitta una interdizione temporanea, l'inconferibilita' ha la stessa durata dell'interdizione. Negli altri casi l'inconferibilita' ha una durata pari al doppio della pena inflitta, per un periodo comunque non superiore a 5 anni. 
+ 4. Nei casi di cui all'ultimo periodo dei commi 2 e 3, salve le ipotesi di sospensione o cessazione del rapporto, al dirigente di ruolo, per la durata del periodo di inconferibilita', possono essere conferiti incarichi diversi da quelli che comportino l'esercizio delle competenze di amministrazione e gestione. E' in ogni caso escluso il conferimento di incarichi relativi ad uffici preposti alla gestione delle risorse finanziarie, all'acquisizione di beni, servizi e forniture, nonche' alla concessione o all'erogazione di sovvenzioni, contributi, sussidi, ausili finanziari o attribuzioni di vantaggi economici a soggetti pubblici e privati, di incarichi che comportano esercizio di vigilanza o controllo. Nel caso in cui l'amministrazione non sia in grado di conferire incarichi compatibili con le disposizioni del presente comma, il dirigente viene posto a disposizione del ruolo senza incarico per il periodo di inconferibilita' dell'incarico. 
+ 5. La situazione di inconferibilita' cessa di diritto ove venga pronunciata, per il medesimo reato, sentenza anche non definitiva, di proscioglimento. 
+ 6. Nel caso di condanna, anche non definitiva, per uno dei reati di cui ai commi 2 e 3 nei confronti di un soggetto esterno all'amministrazione, ente pubblico o ente di diritto privato in controllo pubblico cui e' stato conferito uno degli incarichi di cui al comma 1, sono sospesi l'incarico e l'efficacia del contratto di lavoro subordinato o di lavoro autonomo, stipulato con l'amministrazione, l'ente pubblico o l'ente di diritto privato in controllo pubblico. Per tutto il periodo della sospensione non spetta alcun trattamento economico. In entrambi i casi la sospensione ha la stessa durata dell'inconferibilita' stabilita nei commi 2 e 3. Fatto salvo il termine finale del contratto, all'esito della sospensione l'amministrazione valuta la persistenza dell'interesse all'esecuzione dell'incarico, anche in relazione al tempo trascorso. 
+ 7. Agli effetti della presente disposizione, la sentenza di applicazione della pena ai sensi dell'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_444" ns9:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_444" ns9:relation="cites">art. 444 c.p.p.</ref>, e' equiparata alla sentenza di condanna.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Semplificazione in materia di controllo di gestione 
+ per i comuni con popolazione fino a 5.000 abitanti</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>All'articolo 196, comma 1, del testo unico delle leggi sull'ordinamento degli enti locali, di cui al <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegislativo/stato/2000-08-18/267/!main" ns10:target="olf:it/decreto-legislativo/stato/2000/267" ns10:relation="amends">decreto legislativo 18 agosto 2000, n. 267</ref>, dopo le parole: «gli enti locali» sono inserite le seguenti: «, ad esclusione dei comuni con popolazione fino a 5.000 abitanti,». 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta l'art. 196 del testo unico delle leggi sull'ordinamento degli enti locali, di cui al <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2000-08-18/267/!main" ns11:target="olf:it/decreto-legislativo/stato/2000/267" ns11:relation="amends">decreto legislativo 18 agosto 2000, n. 267</ref>, pubblicato nella Gazzetta Ufficiale 28 settembre 2000, n. 227, S.O., come modificato dalla presente legge: 
+ «Art. 196 (Controllo di gestione). - 1. Al fine di garantire la realizzazione degli obiettivi programmati, la corretta ed economica gestione delle risorse pubbliche, l'imparzialita' ed il buon andamento della pubblica amministrazione e la trasparenza dell'azione amministrativa, gli enti locali, ad esclusione dei comuni con popolazione fino a 5.000 abitanti, applicano il controllo di gestione secondo le modalita' stabilite dal presente titolo, dai propri statuti e regolamenti di contabilita'. 
+ 2. Il controllo di gestione e' la procedura diretta a verificare lo stato di attuazione degli obiettivi programmati e, attraverso l'analisi delle risorse acquisite e della comparazione tra i costi e la quantita' e qualita' dei servizi offerti, la funzionalita' dell'organizzazione dell'ente, l'efficacia, l'efficienza ed il livello di economicita' nell'attivita' di realizzazione dei predetti obiettivi.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Disposizioni concernenti la limitazione del mandato 
+ dei sindaci nei comuni di minori dimensioni</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_3__para_1__intro_1">
+                            <p>All'articolo 51 del testo unico delle leggi sull'ordinamento degli enti locali, di cui al <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2000-08-18/267/!main" ns12:target="olf:it/decreto-legislativo/stato/2000/267" ns12:relation="amends">decreto legislativo 18 agosto 2000, n. 267</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_3__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>al comma 2: 
+ 1) la parola: «rieleggibile» e' sostituita dalla seguente: «ricandidabile»; 
+ 2) e' aggiunto, in fine, il seguente periodo: «Per i sindaci dei comuni con popolazione inferiore a 5.000 abitanti, il limite previsto dal primo periodo si applica allo scadere del terzo mandato»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>al comma 3, le parole: «E' consentito» sono sostituite dalle seguenti: «Per l'ipotesi di cui al comma 2, primo periodo, e' consentito». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2014-04-07/56/!main#art_1-com138" ns13:target="olf:it/legge/stato/2014/56/art_1-com138" ns13:relation="amends">comma 138 dell'articolo 1 della legge 7 aprile 2014, n. 56</ref>, e' abrogato. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Si riporta il testo dell'art. 51 del citato testo unico delle leggi sull'ordinamento degli enti locali, come modificato dalla presente legge: 
+ «Art. 51 (Durata del mandato del sindaco, del presidente della provincia e dei consigli. Limitazione dei mandati). - 1. Il sindaco e il consiglio comunale, il presidente della provincia e il consiglio provinciale durano in carica per un periodo di cinque anni. 
+ 2. Chi ha ricoperto per due mandati consecutivi la carica di sindaco e di presidente della provincia non e', allo scadere del secondo mandato, immediatamente ricandidabile alle medesime cariche. Per i sindaci dei comuni con popolazione inferiore a 5.000 abitanti, il limite previsto dal primo periodo si applica allo scadere del terzo mandato. 
+ 3. Per l'ipotesi di cui al comma 2, primo periodo, e' consentito un terzo mandato consecutivo se uno dei due mandati precedenti ha avuto durata inferiore a due anni, sei mesi e un giorno, per causa diversa dalle dimissioni volontarie.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 12 aprile 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Visto,il Guardasigilli: Cartabia</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
