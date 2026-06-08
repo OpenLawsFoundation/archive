@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2020-07-14/74/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2020-07-14/74"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2020-07-14;74"/>
+                    <FRBRalias name="eli" value="eli/id/2020/07/15/20G00092/ORIGINAL"/>
+                    <FRBRdate date="2020-07-14" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/07/15/20G00092/ORIGINAL" aknrelname="eli/id/2020/07/15/20G00092/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 16 maggio 2020, n. 33, recante ulteriori misure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19. (20G00092)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="20G00092" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2020-07-14" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2020-07-14/74/ita@2020-07-16/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2020-07-14/74/ita@2020-07-16"/>
+                    <FRBRdate date="2020-07-16" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/07/15/20G00092/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2020/07/15/20G00092/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2020/07/15/20G00092/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2020-07-14/74/ita@2020-07-16/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2020-07-14/74/ita@2020-07-16.xml"/>
+                    <FRBRdate date="2020-07-14" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2020/07/15/20G00092/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2020-07-15" name="" number="177" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2020-07-15" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2020-07-14" refersTo="#S.1812"/>
+                <step by="#camera" date="2020-07-14" refersTo="#C.2554"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-07-14;74#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-03-17;18#122"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 16 maggio 2020, n. 33 (in G.U. 16/5/2020, n. 125).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-07-14;74#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-05-16;33#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, 7, 13 e 16.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-07-14;74#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-05-16;33#1 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2020-07-14;74#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-05-16;33#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1 e 3 e l'introduzione del comma 2-bis all'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2020-07-14/74/!main" showAs=""/>
+                <passiveRef eId="S.1812" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;1812" showAs=""/>
+                <passiveRef eId="C.2554" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;2554" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2020/07/15/20G00092/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 16 maggio 2020, n. 33, recante ulteriori misure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19. (20G00092)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>20G00092</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2020-07-14</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2020/07/15/20G00092/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2020/07/15/20G00092/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2020/07/15/20G00092/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2020/07/15/20G00092/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2020/74" nativeUrn="urn:nir:stato:legge:2020-07-14;74" jurisdiction="it"/><ns0:lifecycle inForceFrom="2020-07-15"><ns0:event type="enacted" date="2020-07-14"/><ns0:event type="published" date="2020-07-15"/><ns0:event type="commenced" date="2020-07-15"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/1d748d98-f307-45bd-bd03-efdadf5368ff" sourceSha256="7809585f25319cdc214195fcf0127be86c7ed8adc58d0bbfba2fe53a96c5138e" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T22:37:06.735062Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2020-07-14">14 luglio 2020</docDate>
+                <docNumber>74</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 16 maggio 2020, n. 33, recante ulteriori misure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19. (20G00092) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 16/07/2020</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2020-05-16/33/!main" ns1:target="olf:it/decreto-legge/stato/2020/33" ns1:relation="amends">decreto-legge 16 maggio 2020, n. 33</ref>, recante ulteriori misure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> _______ 
+ 
+ Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2020-05-16/33/!main" ns2:target="olf:it/decreto-legge/stato/2020/33" ns2:relation="amends">decreto-legge 16 maggio 2020, n. 33</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 125 del 16 maggio 2020. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 58. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 14 luglio 2020 </p>
+            <p>MATTARELLA Conte, Presidente del Consiglio dei ministri Speranza, Ministro della salute Visto, il Guardasigilli: Bonafede</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2020-07-14/74/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2020-07-14/74"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2020-07-14;74"/>
+                                <FRBRalias name="eli" value="eli/id/2020/07/15/20G00092/ORIGINAL"/>
+                                <FRBRdate date="2020-07-16" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2020-07-14/74/ita@2020-07-16/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2020-07-14/74/ita@2020-07-16"/>
+                                <FRBRdate date="2020-07-16" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2020-07-14/74/ita@2020-07-16/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2020-07-14/74/ita@2020-07-16.xml"/>
+                                <FRBRdate date="2020-07-14" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ MODIFICAZIONI APPORTATE 
+ IN SEDE DI CONVERSIONE 
+ AL DECRETO-LEGGE 16 MAGGIO 2020, N. 33 
+ 
+ All'articolo 1: 
+ al comma 1, dopo le parole: «<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2020-03-25/19/!main" ns4:target="olf:it/decreto-legge/stato/2020/19" ns4:relation="amends">decreto-legge 25 marzo 2020, n. 19</ref>,» sono inserite le seguenti: «convertito, con modificazioni, dalla <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2020-05-22/35/!main" ns5:target="olf:it/legge/stato/2020/35" ns5:relation="cites">legge 22 maggio 2020, n. 35</ref>,»; 
+ il comma 7 e' sostituito dal seguente: 
+ «7. Ai soggetti che hanno avuto contatti stretti con soggetti confermati positivi al COVID-19 e agli altri soggetti individuati con i provvedimenti adottati ai sensi dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2020/19/!main#art_2" ns6:resolution="unresolved">articolo 2 del decreto-legge n. 19 del 2020</ref>, con provvedimento dell'autorita' sanitaria e' applicata la quarantena precauzionale o altra misura ad effetto equivalente, preventivamente approvata dal Comitato tecnico-scientifico di cui all'ordinanza del Capo del <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act//dipartimento.protezione.civile/2020-02-03/630/!main" ns7:target="olf:it//dipartimento-protezione-civile/2020/630" ns7:relation="cites">Dipartimento della protezione civile n. 630 del 3 febbraio 2020</ref>»; 
+ al comma 13 sono premesse le seguenti parole: «Le attivita' dei servizi educativi per l'infanzia di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/65/!main#art_2" ns8:target="olf:it/decreto-legislativo/stato/2017/65/art_2" ns8:relation="cites">articolo 2 del decreto legislativo 13 aprile 2017, n. 65</ref>, e»; 
+ al comma 16, le parole: «del 30 aprile 2020» sono sostituite dalle seguenti: «30 aprile 2020, pubblicato nella Gazzetta Ufficiale n. 112 del 2 maggio 2020,». 
+ Dopo l'articolo 1 e' inserito il seguente: 
+ «Art. 1-bis (Modifiche ai poteri del Commissario straordinario per l'emergenza COVID-19). - 1. All'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegge/stato/2020-03-17/18/!main#art_122" ns9:target="olf:it/decreto-legge/stato/2020/18/art_122" ns9:relation="amends">articolo 122 del decreto-legge 17 marzo 2020, n. 18</ref>, convertito, con modificazioni, dalla <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2020-04-24/27/!main" ns10:target="olf:it/legge/stato/2020/27" ns10:relation="cites">legge 24 aprile 2020, n. 27</ref>, sono apportate le seguenti modificazioni: 
+ a) dopo il comma 1 e' inserito il seguente: 
+ "1-bis. Al fine di assicurare il piu' ampio accesso da parte della popolazione alle mascherine facciali di tipo chirurgico, ritenute beni essenziali per fronteggiare l'emergenza, il Commissario puo' stipulare appositi protocolli con le associazioni di categoria delle imprese distributrici al fine di disciplinare i prezzi massimi di vendita al dettaglio e i rapporti economici necessari ad assicurare l'effettiva fornitura e distribuzione dei beni, ivi incluse le misure idonee a ristorare gli aderenti dell'eventuale differenza rispetto ai prezzi di acquisto, ferma restando la facolta' di cessione diretta, da parte del Commissario, ad un prezzo non superiore a quello di acquisto"; 
+ b) al comma 9, dopo le parole: "per l'acquisizione dei beni di cui al comma 1," sono inserite le seguenti: "per la sottoscrizione dei protocolli di cui al comma 1-bis"». 
+ All'articolo 2: 
+ al comma 1, primo periodo, dopo le parole: «<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegge/stato/2020-03-25/19/!main" ns11:target="olf:it/decreto-legge/stato/2020/19" ns11:relation="amends">decreto-legge 25 marzo 2020, n. 19</ref>» sono aggiunte le seguenti: «, convertito, con modificazioni, dalla <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2020-05-22/35/!main" ns12:target="olf:it/legge/stato/2020/35" ns12:relation="cites">legge 22 maggio 2020, n. 35</ref>»; 
+ dopo il comma 2 e' inserito il seguente: 
+ «2-bis. I proventi delle sanzioni amministrative pecuniarie, relative alle violazioni delle disposizioni previste dal presente decreto accertate successivamente alla data di entrata in vigore della legge di conversione del presente decreto, sono devoluti allo Stato quando le violazioni siano accertate da funzionari, ufficiali ed agenti dello Stato. I medesimi proventi sono devoluti alle regioni, alle province e ai comuni quando le violazioni siano accertate da funzionari, ufficiali ed agenti, rispettivamente, delle regioni, delle province e dei comuni»; 
+ al comma 3, le parole: «Salvo che il fatto costituisca violazione dell'articolo 452» sono sostituite dalle seguenti: «Salvo che il fatto costituisca reato punibile ai sensi dell'articolo 452». </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
