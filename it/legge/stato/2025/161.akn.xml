@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-10-22;161"/>
+                    <FRBRalias name="eli" value="eli/id/2025/11/03/25G00166/ORIGINAL"/>
+                    <FRBRdate date="2025-10-22" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/11/03/25G00166/ORIGINAL" aknrelname="eli/id/2025/11/03/25G00166/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Ratifica ed esecuzione del Protocollo di emendamento all'Accordo istitutivo dell'Organizzazione internazionale della vigna e del vino relativo alla localizzazione della sede, adottato a Parigi il 21 maggio 2022. (25G00166)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00166" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-10-22" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04"/>
+                    <FRBRdate date="2025-11-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/11/03/25G00166/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/11/03/25G00166/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/11/03/25G00166/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04.xml"/>
+                    <FRBRdate date="2025-10-22" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/11/03/25G00166/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-11-03" name="" number="255" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-11-03" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-10-22/161/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/11/03/25G00166/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Ratifica ed esecuzione del Protocollo di emendamento all'Accordo istitutivo dell'Organizzazione internazionale della vigna e del vino relativo alla localizzazione della sede, adottato a Parigi il 21 maggio 2022. (25G00166)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00166</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-10-22</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/11/03/25G00166/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/11/03/25G00166/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/11/03/25G00166/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/11/03/25G00166/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/161" nativeUrn="urn:nir:stato:legge:2025-10-22;161" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-11-03"><ns0:event type="enacted" date="2025-10-22"/><ns0:event type="published" date="2025-11-03"/><ns0:event type="commenced" date="2025-11-03"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/4e082310-a4d1-4629-9176-5d4f01a1ef79" sourceSha256="2f70a122eebf19c6d6a0059d0e04ae92f2bdc6a6ce3b0e62ad57c3285fcfe1a3" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T18:02:25.559067Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-10-22">22 ottobre 2025</docDate>
+                <docNumber>161</docNumber>
+                <docTitle>Ratifica ed esecuzione del Protocollo di emendamento all'Accordo istitutivo dell'Organizzazione internazionale della vigna e del vino relativo alla localizzazione della sede, adottato a Parigi il 21 maggio 2022. (25G00166) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 04/11/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Autorizzazione alla ratifica</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Presidente della Repubblica e' autorizzato a ratificare il Protocollo di emendamento all'Accordo istitutivo dell'Organizzazione internazionale della vigna e del vino relativo alla localizzazione della sede, adottato a Parigi il 21 maggio 2022. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Ordine di esecuzione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Piena ed intera esecuzione e' data al Protocollo di cui all'articolo 1, a decorrere dalla data della sua entrata in vigore, in conformita' a quanto disposto dall'articolo 2 del Protocollo stesso. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri per la finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 22 ottobre 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Tajani, Ministro degli affari esteri e della cooperazione internazionale Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Annexe 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-10-22;161"/>
+                                <FRBRalias name="eli" value="eli/id/2025/11/03/25G00166/ORIGINAL"/>
+                                <FRBRdate date="2025-11-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04"/>
+                                <FRBRdate date="2025-11-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04.xml"/>
+                                <FRBRdate date="2025-10-22" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+Annexe 1 
+ 
+Protocole d'amendement a' l'accord Accord du 3 Avril 2001 portant creation de l'Organisation internationale de la vigne et du vin relatif a' la localisation du siege 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo-art. 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-10-22;161"/>
+                                <FRBRalias name="eli" value="eli/id/2025/11/03/25G00166/ORIGINAL"/>
+                                <FRBRdate date="2025-11-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04"/>
+                                <FRBRdate date="2025-11-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04.xml"/>
+                                <FRBRdate date="2025-10-22" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ (Traduzione non ufficiale) 
+ 
+Protocollo di emendamento all'Accordo del 3 aprile 2001 istitutivo dell'Organizzazione internazionale della vigna e del vino, adottato a Parigi il 21 maggio 2022 relativo alla localizzazione della sede. 
+ 
+ L'assemblea generale del 21 maggio 2022, 
+ Considerando la propria decisione del 25 ottobre 2021 relativa al trasferimento della sede dell'O.I.V. a Digione (Francia); 
+ Visto l'articolo 3.6 dell'Accordo del 3 aprile 2001 relativo alla creazione dell'O.I.V (di seguito: l'Accordo), 
+ Vista la procedura di emendamento prevista all'articolo 9.1 dell'Accordo, 
+ Adotta per consenso il seguente protocollo di emendamento: 
+ 
+ Articolo 1 
+ 
+ L'articolo 3.6 dell'Accordo e' modificato come segue: 
+ «La sede dell'Organizzazione e' a Digione (Francia)» 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo-art. 2">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-10-22;161"/>
+                                <FRBRalias name="eli" value="eli/id/2025/11/03/25G00166/ORIGINAL"/>
+                                <FRBRdate date="2025-11-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04"/>
+                                <FRBRdate date="2025-11-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04/!main/annesso_3.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-10-22/161/ita@2025-11-04.xml"/>
+                                <FRBRdate date="2025-10-22" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 2 
+ 
+ Il presente Protocollo entra in vigore il trentesimo giorno successivo al deposito dello strumento di accettazione, approvazione, ratifica o adesione, per un totale di Stati membri dell'Organizzazione pari a due terzi piu' uno. 
+ Il Governo della Repubblica francese e' depositario del presente Protocollo, di cui le tre versioni in lingua francese, spagnola e inglese sono tutte egualmente facenti fede. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
