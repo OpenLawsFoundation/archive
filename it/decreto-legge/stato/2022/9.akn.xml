@@ -1,0 +1,872 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-02-17/9/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-02-17/9"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legge:2022-02-17;9"/>
+                    <FRBRalias name="eli" value="eli/id/2022/02/17/22G00017/CONSOLIDATED/20260301"/>
+                    <FRBRdate date="2022-02-17" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/02/17/22G00017/CONSOLIDATED/20260301" aknrelname="eli/id/2022/02/17/22G00017/CONSOLIDATED/20260301">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Misure urgenti per arrestare la diffusione della peste suina africana (PSA). (22G00017)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00017" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                            <nrdfa:span content="2022-02-17" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-02-17/9/ita@2026-03-01/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-02-17/9/ita@2026-03-01"/>
+                    <FRBRdate date="2026-03-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/02/17/22G00017/CONSOLIDATED/20260301/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/02/17/22G00017/CONSOLIDATED/20260301"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/02/17/22G00017/CONSOLIDATED/20260301/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-02-17/9/ita@2026-03-01/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-02-17/9/ita@2026-03-01.xml"/>
+                    <FRBRdate date="2022-02-17" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/02/17/22G00017/CONSOLIDATED/20260301/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-02-17" name="" number="40" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-02-17" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2022-04-16" eId="eventRef_1" source="rp1"/>
+                <eventRef date="2022-05-17" eId="eventRef_2" source="rp2"/>
+                <eventRef date="2023-06-22" eId="eventRef_3" source="rp3"/>
+                <eventRef date="2023-08-16" eId="eventRef_4" source="rp4"/>
+                <eventRef date="2023-12-30" eId="eventRef_5" source="rp5"/>
+                <eventRef date="2024-02-28" eId="eventRef_6" source="rp6"/>
+                <eventRef date="2024-05-15" eId="eventRef_7" source="rp7"/>
+                <eventRef date="2024-07-13" eId="eventRef_8" source="rp8"/>
+                <eventRef date="2024-08-09" eId="eventRef_9" source="rp9"/>
+                <eventRef date="2024-10-08" eId="eventRef_10" source="rp10"/>
+                <eventRef date="2024-12-31" eId="eventRef_11" source="rp11"/>
+                <eventRef date="2025-12-30" eId="eventRef_12" source="rp12"/>
+                <eventRef date="2025-12-31" eId="eventRef_13" source="rp13"/>
+                <eventRef date="2026-02-28" eId="eventRef_14" source="rp14"/>
+            </lifecycle>
+            <analysis source="">
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((, ivi incluse le aree protette))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_1" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_2"/>
+                        <new>
+                            <nakn:text>((cinghiale))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_2" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_3"/>
+                        <new>
+                            <nakn:text>((e le modalita' di attuazione dei metodi ecologici, nonche' l'indicazione))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_3" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_4"/>
+                        <new>
+                            <nakn:text>((0a) del regolamento (UE) 2016/429 del Parlamento europeo e del Consiglio, del 9 marzo 2016; 
+ 0b) del regolamento delegato (UE) 2020/687 della Commissione, del 17 dicembre 2019; 
+ 0c) del regolamento delegato (UE) 2020/689 della Commissione, del 17 dicembre 2019))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_4" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_5"/>
+                        <new>
+                            <nakn:text>((della peste suina))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_5" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_6"/>
+                        <new>
+                            <nakn:text>((del Ministero della salute,))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_6" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_7"/>
+                        <new>
+                            <nakn:text>((, nonche' delle indicazioni dell'Istituto superiore per la protezione e la ricerca ambientale (ISPRA) del 25 gennaio 2022, pubblicate nel sito internet del medesimo Istituto))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_7" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_8"/>
+                        <new>
+                            <nakn:text>((3-bis. Le regioni e le province autonome che alla data di entrata in vigore del presente decreto gia' dispongono di un piano di cui al comma 1, ritenuto in linea con le disposizioni del decreto stesso, inviano tale piano per una valutazione all'ISPRA e al Centro di referenza nazionale per la peste suina, e lo adattano tenendo conto delle eventuali osservazioni))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_8" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_9"/>
+                        <new>
+                            <nakn:text>((dell'ISPRA))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_9" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_10"/>
+                        <new>
+                            <nakn:text>((europea))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_10" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_11"/>
+                        <new>
+                            <nakn:text>((polizie locali))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_11" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_12"/>
+                        <new>
+                            <nakn:text>((Comando unita' forestali, ambientali e agroalimentari dell'Arma dei carabinieri))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_12" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_13"/>
+                        <new>
+                            <nakn:text>((5-bis. Nelle aree di circolazione virale attiva, individuate in base ai criteri del Manuale di cui al comma 2, lettera b), al fine di prevenire e ridurre la mobilita' della specie cinghiale, e' vietato il prelievo in ogni forma collettiva in attivita' di caccia))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_13" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_14"/>
+                        <new>
+                            <nakn:text>((6. Gli animali abbattuti durante l'attivita' di controllo e destinati al consumo alimentare sono sottoposti alle attivita' di ispezione e controllo igienico-sanitario secondo quanto previsto dalle disposizioni regionali in materia. I cinghiali coinvolti in incidenti stradali devono essere abbattuti. Per i cinghiali abbattuti in seguito al riscontro di alterazioni del normale comportamento e per i cinghiali morti per cause naturali o per incidenti stradali, le regioni e le province autonome attivano un sistema che garantisca gli opportuni approfondimenti diagnostici da parte degli Istituti zooprofilattici sperimentali competenti per territorio. I dati raccolti nell'ambito delle attivita' ispettive, nonche' i dati epidemiologici e quelli derivanti dalle attivita' di analisi effettuate dagli Istituti zooprofilattici sperimentali, ivi inclusi quelli sulla Trichinella spp, confluiscono nei sistemi informativi gia' attivi presso il Ministero della salute))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_14" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_15"/>
+                        <new>
+                            <nakn:text>((,))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_15" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_16"/>
+                        <new>
+                            <nakn:text>((dei suini))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_16" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_17"/>
+                        <new>
+                            <nakn:text>((Con il decreto di cui al primo periodo sono definiti anche i termini temporali e le modalita' relativi alla cessazione della deroga di cui al secondo periodo e all'adeguamento delle strutture di cui al medesimo secondo periodo alle disposizioni dei regolamenti edilizi))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_17" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_18"/>
+                        <new>
+                            <nakn:text>((...))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_18" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_19"/>
+                        <new>
+                            <nakn:text>((quarantotto mesi))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_19" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_20"/>
+                        <new>
+                            <nakn:text>((Per ciascuno degli anni 2025, 2026 e 2027))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_20" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_21"/>
+                        <new>
+                            <nakn:text>((, primo periodo. Ai sub-commissari non spettano compensi, gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_21" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_22"/>
+                        <new>
+                            <nakn:text>((...))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_22" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_23"/>
+                        <new>
+                            <nakn:text>((...))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_23" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_24"/>
+                        <new>
+                            <nakn:text>((un contingente composto di un massimo di 177 unita'))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_24" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_25"/>
+                        <new>
+                            <nakn:text>((le attivita' di cui al comma 1))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_25" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_26"/>
+                        <new>
+                            <nakn:text>((del presente comma))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_26" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_27"/>
+                        <new>
+                            <nakn:text>((Commissario straordinario di cui all'articolo 2))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_27" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_28"/>
+                        <new>
+                            <nakn:text>((del presente articolo))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_28" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_29"/>
+                        <new>
+                            <nakn:text>((ordinanza del Commissario straordinario alla peste suina africana n. 5/2023 del 24 agosto 2023))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_29" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_30"/>
+                        <new>
+                            <nakn:text>((e lo stesso personale puo' procedere))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_30" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_31"/>
+                        <new>
+                            <nakn:text>((del presente articolo))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_31" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_32"/>
+                        <new>
+                            <nakn:text>((Commissario straordinario di cui all'articolo 2))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_32" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_33"/>
+                        <new>
+                            <nakn:text>((COMMA SOPPRESSO DAL D.L. 15 MAGGIO 2024, N. 63, CONVERTITO, CON MODIFICAZIONI, DALLA L. 12 LUGLIO 2024, N. 101))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_33" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_34"/>
+                        <new>
+                            <nakn:text>((COMMA SOPPRESSO DAL D.L. 15 MAGGIO 2024, N. 63, CONVERTITO, CON MODIFICAZIONI, DALLA L. 12 LUGLIO 2024, N. 101))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_34" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_35"/>
+                        <new>
+                            <nakn:text>((Obblighi di segnalazione e sanzioni))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_35" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_36"/>
+                        <new>
+                            <nakn:text>(( (Disposizioni finanziarie). ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_36" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_37"/>
+                        <new>
+                            <nakn:text>((1. Dall'attuazione del presente decreto, fatta eccezione per le disposizioni di cui all'articolo 2, commi da 2-bis a 2-quinquies, non devono derivare nuovi o maggiori oneri per la finanza pubblica. 
+ 2. Le amministrazioni interessate provvedono all'attuazione del presente decreto con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+ 3. Ai fini dell'immediata attuazione delle disposizioni recate dall'articolo 2, commi da 2-bis a 2-quinquies, del presente decreto, il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio.
+Il Ministero dell'economia e delle finanze, ove necessario, puo' disporre il ricorso ad anticipazioni di tesoreria, la cui regolarizzazione e' effettuata con l'emissione di ordini di pagamento sui pertinenti capitoli di spesa))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO-LEGGE/stato/2022-02-17/9/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/LEGGE/stato/2022-04-07/29/!main" showAs=""/>
+                <passiveRef eId="rp2" href="/akn/it/act/DECRETO-LEGGE/stato/2022-05-17/50/!main" showAs=""/>
+                <passiveRef eId="rp3" href="/akn/it/act/DECRETO-LEGGE/stato/2023-06-22/75/!main" showAs=""/>
+                <passiveRef eId="rp4" href="/akn/it/act/LEGGE/stato/2023-08-10/112/!main" showAs=""/>
+                <passiveRef eId="rp5" href="/akn/it/act/DECRETO-LEGGE/stato/2023-12-30/215/!main" showAs=""/>
+                <passiveRef eId="rp6" href="/akn/it/act/LEGGE/stato/2024-02-23/18/!main" showAs=""/>
+                <passiveRef eId="rp7" href="/akn/it/act/DECRETO-LEGGE/stato/2024-05-15/63/!main" showAs=""/>
+                <passiveRef eId="rp8" href="/akn/it/act/LEGGE/stato/2024-07-12/101/!main" showAs=""/>
+                <passiveRef eId="rp9" href="/akn/it/act/DECRETO-LEGGE/stato/2024-08-09/113/!main" showAs=""/>
+                <passiveRef eId="rp10" href="/akn/it/act/LEGGE/stato/2024-10-07/143/!main" showAs=""/>
+                <passiveRef eId="rp11" href="/akn/it/act/LEGGE/stato/2024-12-30/207/!main" showAs=""/>
+                <passiveRef eId="rp12" href="/akn/it/act/LEGGE/stato/2025-12-30/199/!main" showAs=""/>
+                <passiveRef eId="rp13" href="/akn/it/act/DECRETO-LEGGE/stato/2025-12-31/200/!main" showAs=""/>
+                <passiveRef eId="rp14" href="/akn/it/act/LEGGE/stato/2026-02-27/26/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/02/17/22G00017/CONSOLIDATED/20260301">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Misure urgenti per arrestare la diffusione della peste suina africana (PSA). (22G00017)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00017</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-02-17</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/02/17/22G00017/CONSOLIDATED/20260301/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/02/17/22G00017/CONSOLIDATED/20260301"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/02/17/22G00017/CONSOLIDATED/20260301/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/02/17/22G00017/CONSOLIDATED/20260301/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legge/stato/2022/9" nativeUrn="urn:nir:stato:decreto.legge:2022-02-17;9" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-02-17"><ns0:event type="enacted" date="2022-02-17"/><ns0:event type="published" date="2022-02-17"/><ns0:event type="commenced" date="2022-02-17"/><ns0:event type="amended" date="2022-04-16"/><ns0:event type="amended" date="2022-05-17"/><ns0:event type="amended" date="2023-06-22"/><ns0:event type="amended" date="2023-08-16"/><ns0:event type="amended" date="2023-12-30"/><ns0:event type="amended" date="2024-02-28"/><ns0:event type="amended" date="2024-05-15"/><ns0:event type="amended" date="2024-07-13"/><ns0:event type="amended" date="2024-08-09"/><ns0:event type="amended" date="2024-10-08"/><ns0:event type="amended" date="2024-12-31"/><ns0:event type="amended" date="2025-12-30"/><ns0:event type="amended" date="2025-12-31"/><ns0:event type="amended" date="2026-02-28"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/ac098c65-f727-4375-b2d9-605c933edb38" sourceSha256="f4e07edd54a7e34afaa2e7dd47110ddea84c85924858f29f81dcd40de5269f42" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T20:44:56.984015Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO-LEGGE</docType>
+                <docDate date="2022-02-17">17 febbraio 2022</docDate>
+                <docNumber>9</docNumber>
+                <docTitle>Misure urgenti per arrestare la diffusione della peste suina africana (PSA). (22G00017) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 18/02/2022
+Decreto-Legge convertito con modificazioni dalla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2022-04-07/29/!main" ns1:target="olf:it/legge/stato/2022/29" ns1:relation="cites">L. 7 aprile 2022, n. 29</ref> (in G.U. 16/04/2022, n. 90).</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visti gli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_77" ns2:target="olf:it/costituzione/stato/1947/const/art_77" ns2:relation="cites">articoli 77</ref> e <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns3:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns3:relation="cites">87, quinto comma, della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Visto il regolamento (UE) n. 2016/429 del Parlamento europeo e del Consiglio, del 9 marzo 2016, relativo alle malattie animali trasmissibili e che modifica e abroga taluni atti in materia di sanita' animale («normativa in materia di sanita' animale»);</p>
+                </citation>
+            </citations>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Visto il regolamento di esecuzione (UE) n. 2021/605 della Commissione, del 7 aprile 2021, che stabilisce misure speciali di controllo della peste suina africana;</p>
+                </citation>
+            </citations>
+            <p>Ritenuta la straordinaria necessita' e urgenza di adottare disposizioni indifferibili finalizzate alla eradicazione della peste suina africana nei cinghiali e alla prevenzione della sua diffusione nei suini da allevamento, allo scopo di assicurare la salvaguardia della sanita' animale, la tutela del patrimonio suino nazionale e dell'Unione europea, nonche' al fine di salvaguardare le esportazioni, il sistema produttivo nazionale e la relativa filiera;</p>
+            <citations eId="cits_4">
+                <citation eId="cits_4__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione dell'11 febbraio 2022;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Presidente del Consiglio dei ministri e dei Ministri della salute, delle politiche agricole alimentari e forestali, di concerto con i Ministri della transizione ecologica, dell'economia e delle finanze e per gli affari regionali e le autonomie;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto-legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading>Misure urgenti di prevenzione e contenimento della diffusione della peste suina africana - PSA</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di prevenire e contenere la diffusione della peste suina africana (PSA) sul territorio nazionale <ins eId="ins_1">((, ivi incluse le aree protette))</ins>, entro trenta giorni dalla data di entrata in vigore del presente decreto le regioni e le Province autonome di Trento e di Bolzano adottano il Piano regionale di interventi urgenti per la gestione, il controllo e l'eradicazione della peste suina africana nei suini da allevamento e nella specie cinghiale (Sus scrofa), che include la ricognizione della consistenza della specie <ins eId="ins_2">((cinghiale))</ins> all'interno del territorio di competenza suddivisa per provincia, l'indicazione <ins eId="ins_3">((e le modalita' di attuazione dei metodi ecologici, nonche' l'indicazione))</ins> delle aree di intervento diretto, delle modalita', dei tempi e degli obiettivi annuali del prelievo esclusivamente connessi ai fini del contenimento della peste suina africana. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_1__para_2__intro_1">
+                            <p>I Piani regionali di cui al comma 1 sono adottati in conformita' alle disposizioni: 
+ <ins eId="ins_4">((0a) del regolamento (UE) 2016/429 del Parlamento europeo e del Consiglio, del 9 marzo 2016; 
+ 0b) del regolamento delegato (UE) 2020/687 della Commissione, del 17 dicembre 2019; 
+ 0c) del regolamento delegato (UE) 2020/689 della Commissione, del 17 dicembre 2019))</ins>; 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>del Piano nazionale di sorveglianza ed eradicazione <ins eId="ins_5">((della peste suina))</ins>, presentato alla Commissione europea in data 30 giugno 2021 dal Ministero della salute, ai sensi dell'articolo 12 del regolamento (UE) n. 652/2014, del Parlamento europeo e del Consiglio, del 15 maggio 2014; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>del «Manuale delle emergenze da Peste Suina Africana in popolazioni di suini selvatici» <ins eId="ins_6">((del Ministero della salute,))</ins> del 21 aprile 2021 <ins eId="ins_7">((, nonche' delle indicazioni dell'Istituto superiore per la protezione e la ricerca ambientale (ISPRA) del 25 gennaio 2022, pubblicate nel sito internet del medesimo Istituto))</ins>. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Ai fini della gestione, i Piani regionali sono adottati in conformita' al documento tecnico del 21 aprile 2021 sulla «Gestione del cinghiale e peste suina africana Elementi essenziali per la redazione di un piano di gestione» redatto dai Ministeri della salute, delle politiche agricole alimentari e forestali e della transizione ecologica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>((3-bis. Le regioni e le province autonome che alla data di entrata in vigore del presente decreto gia' dispongono di un piano di cui al comma 1, ritenuto in linea con le disposizioni del decreto stesso, inviano tale piano per una valutazione all'ISPRA e al Centro di referenza nazionale per la peste suina, e lo adattano tenendo conto delle eventuali osservazioni))</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>I Piani regionali di cui al comma 1 sono adottati previo parere <ins eId="ins_9">((dell'ISPRA))</ins> e del Centro di referenza nazionale per la peste suina da rendere entro venti giorni dalla richiesta della regione o della provincia autonoma competente per territorio. Tenuto conto dei gravi rischi di diffusione della peste suina africana e dell'esigenza di adottare con urgenza sistemi di controllo della specie cinghiale finalizzati a ridurre i rischi sanitari e il relativo impatto economico che l'epidemia puo' arrecare all'intero settore suinicolo italiano, i Piani regionali di cui al comma 1, fermo restando il rispetto della normativa dell'Unione <ins eId="ins_10">((europea))</ins> in materia di valutazione ambientale, non sono sottoposti a valutazione ambientale strategica e a valutazione di incidenza ambientale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Le regioni e le Province autonome di Trento e di Bolzano attuano i piani avvalendosi delle <ins eId="ins_11">((polizie locali))</ins>, dei coadiutori e dei soggetti abilitati alla caccia con metodi selettivi. All'interno delle aree protette i prelievi sono attuati dal personale d'istituto e da coadiuvanti formati e abilitati. La vigilanza sul corretto svolgimento delle operazioni di prelievo e' esercitata dal <ins eId="ins_12">((Comando unita' forestali, ambientali e agroalimentari dell'Arma dei carabinieri))</ins> nonche' dall'Azienda sanitaria locale (ASL) competente per territorio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>((5-bis. Nelle aree di circolazione virale attiva, individuate in base ai criteri del Manuale di cui al comma 2, lettera b), al fine di prevenire e ridurre la mobilita' della specie cinghiale, e' vietato il prelievo in ogni forma collettiva in attivita' di caccia))</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>((6. Gli animali abbattuti durante l'attivita' di controllo e destinati al consumo alimentare sono sottoposti alle attivita' di ispezione e controllo igienico-sanitario secondo quanto previsto dalle disposizioni regionali in materia. I cinghiali coinvolti in incidenti stradali devono essere abbattuti. Per i cinghiali abbattuti in seguito al riscontro di alterazioni del normale comportamento e per i cinghiali morti per cause naturali o per incidenti stradali, le regioni e le province autonome attivano un sistema che garantisca gli opportuni approfondimenti diagnostici da parte degli Istituti zooprofilattici sperimentali competenti per territorio. I dati raccolti nell'ambito delle attivita' ispettive, nonche' i dati epidemiologici e quelli derivanti dalle attivita' di analisi effettuate dagli Istituti zooprofilattici sperimentali, ivi inclusi quelli sulla Trichinella spp, confluiscono nei sistemi informativi gia' attivi presso il Ministero della salute))</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Con decreto del Ministro della salute, di concerto con i Ministri delle politiche agricole alimentari e forestali e della transizione ecologica, previo parere della Conferenza permanente per i rapporti tra lo Stato, le regioni e le Province autonome di Trento e di Bolzano, sono stabiliti i parametri tecnici di biosicurezza per gli allevamenti suinicoli <ins eId="ins_15">((,))</ins> articolati per tipologia produttiva e modalita' di allevamento. Le recinzioni necessarie ad assicurare il confinamento <ins eId="ins_16">((dei suini))</ins> allevati nel rispetto delle pertinenti norme di biosicurezza sono realizzate anche in deroga alle disposizioni dei regolamenti edilizi. <ins eId="ins_17">((Con il decreto di cui al primo periodo sono definiti anche i termini temporali e le modalita' relativi alla cessazione della deroga di cui al secondo periodo e all'adeguamento delle strutture di cui al medesimo secondo periodo alle disposizioni dei regolamenti edilizi))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading>Commissario straordinario per l'attuazione e il coordinamento delle misure di contenimento e contrasto della diffusione della PSA</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di assicurare il corretto e tempestivo svolgimento delle attivita' di cui all'articolo 1 e valutare l'efficacia delle misure adottate dalle regioni e dalle Province autonome di Trento e di Bolzano attraverso i rispettivi Piani regionali, con decreto del Presidente del Consiglio dei ministri, su proposta del Ministro della salute, di concerto con i Ministri delle politiche agricole alimentari e forestali e per gli affari regionali e le autonomie, e' nominato un Commissario straordinario con compiti di coordinamento e monitoraggio delle azioni e delle misure poste in essere per prevenire ed eradicare la peste suina africana anche mediante misure di contenimento della specie cinghiale (sus scrofa) e di concorso alla relativa attuazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_1-bis">
+                    <num>1-bis.</num>
+                    <content>
+                        <p>Per l'attuazione dei poteri attribuitigli, il Commissario straordinario provvede a mezzo di ordinanze. Il Commissario opera in deroga a ogni disposizione di legge diversa da quella penale, nel rispetto della Costituzione, dei principi generali dell'ordinamento giuridico e delle disposizioni del codice delle leggi antimafia e delle misure di prevenzione, di cui al <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns4:target="olf:it/decreto-legislativo/stato/2011/159" ns4:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref>, nonche' dei vincoli inderogabili derivanti dall'appartenenza all'Unione europea e della relativa normativa nazionale di attuazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_2__para_2__intro_1">
+                            <p>Il Commissario straordinario di cui al comma 1: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>coordina i servizi veterinari delle aziende sanitarie locali competenti per territorio, per le finalita' dell'eradicamento della peste suina africana e per il contenimento della specie cinghiale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>definisce, sentite le regioni interessate, il piano straordinario delle catture a livello nazionale e regionale comprendente l'indicazione dei tempi e degli obiettivi numerici di cattura e, sentito l'ISPRA, di abbattimento e smaltimento, e lo comunica alle regioni; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>individua all'interno del piano di cui alla lettera b) le aree di stoccaggio degli animali catturati o abbattuti e dell'eventuale smaltimento delle carcasse; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>ordina alle competenti Autorita' regionali di procedere all'attuazione del piano di cui alla lettera b) secondo le modalita' previste; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>monitora le attivita' delle regioni e verifica il raggiungimento degli obiettivi prefissati nei termini indicati; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>verifica la regolarita' delle procedure dell'abbattimento e della distruzione degli animali infetti e dello smaltimento delle carcasse di suini nonche' le procedure di disinfezione svolte sotto il controllo della ASL competente; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>in caso di inerzia o mancato raggiungimento degli obiettivi da parte delle competenti autorita' regionali attiva la procedura di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2003-06-05/131/!main#art_8" ns5:target="olf:it/legge/stato/2003/131/art_8" ns5:relation="cites">articolo 8 della legge 5 giugno 2003, n. 131</ref>, per l'esercizio dei poteri sostitutivi con le medesime prerogative e strutture regionali, oppure affida a ditte specializzate il servizio a valere sulle risorse disponibili nella contabilita' speciale di cui al comma 2-bis del presente articolo. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_2__para_2-bis">
+                    <num>2-bis.</num>
+                    <content>
+                        <p>Nella zona infetta corrispondente alla zona soggetta a restrizione II di cui all'allegato I al regolamento di esecuzione (UE) 2021/605 della Commissione, del 7 aprile 2021, in conformita' agli articoli 63, paragrafo 2, 64 e 65 del regolamento delegato (UE) 2020/687 della Commissione, del 17 dicembre 2019, nonche' alle disposizioni previste per la predetta zona soggetta a restrizione II, le regioni e le province autonome, unitamente agli interventi urgenti di cui all'articolo 1, comma 1, attuano le ulteriori misure disposte dal Commissario straordinario per la prevenzione, il contenimento e l'eradicazione della peste suina africana, ivi inclusa la messa in opera di recinzioni o altre strutture temporanee ed amovibili, idonee al contenimento dei cinghiali selvatici; spetta alle societa' concessionarie autostradali e agli enti proprietari delle strade attuare gli interventi necessari per il rafforzamento delle barriere stradali e autostradali mediante la chiusura, ove possibile, dei varchi che corrono al di sotto del solido stradale, quali strade bianche, tombini, sottopassi o corsi d'acqua, ovvero al di sopra nei tratti in galleria, previa approvazione da parte del Commissario straordinario degli interventi e delle modalita' di finanziamento dei corrispondenti oneri. Per la messa in opera delle recinzioni e delle strutture temporanee di cui al presente comma, il Commissario opera ai sensi del comma 1-bis anche nelle zone indenni adiacenti alla zona infetta ritenute strategiche per il contenimento dei cinghiali ai fini di contrastare la diffusione dell'epidemia. A tal fine e' autorizzata la spesa di 10 milioni di euro per l'anno 2022 e di 13 milioni di euro per l'anno 2025. Per la realizzazione degli interventi di cui al presente comma e' autorizzata l'apertura di apposita contabilita' speciale intestata al Commissario straordinario nella quale confluiscono le predette risorse allo scopo destinate. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2-ter">
+                    <num>2-ter.</num>
+                    <content>
+                        <p>L'approvazione, da parte del Commissario straordinario, del progetto di intervento e del relativo quadro di spesa vale quale dichiarazione di pubblica utilita' dell'opera ai fini previsti dal <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns6:target="olf:it/dpr/stato/2001/327" ns6:relation="cites">testo unico delle disposizioni legislative e regolamentari in materia di espropriazione per pubblica utilita'</ref>, di cui al <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns7:target="olf:it/dpr/stato/2001/327" ns7:relation="cites">decreto del Presidente della Repubblica 8 giugno 2001, n. 327</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2-quater">
+                    <num>2-quater.</num>
+                    <content>
+                        <p>Le recinzioni e le strutture temporanee amovibili di cui al comma 2-bis sono realizzate in deroga alle disposizioni dei regolamenti edilizi e a quelle sulla valutazione di incidenza ambientale e, in presenza di vincoli paesaggistici, previo parere vincolante della competente soprintendenza, che si intende espresso favorevolmente decorsi venti giorni dalla richiesta e tiene luogo a ogni effetto dell'autorizzazione paesaggistica. Qualora le predette recinzioni e strutture temporanee debbano essere installate su terreni di proprieta' privata, il Commissario straordinario autorizza, con provvedimento motivato, l'occupazione d'urgenza e, in deroga al citato testo unico di cui al <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns8:target="olf:it/dpr/stato/2001/327" ns8:relation="cites">decreto del Presidente della Repubblica 8 giugno 2001, n. 327</ref>, adotta il provvedimento costitutivo della servitu' di uso pubblico, predeterminandone la durata e il relativo indennizzo, e lo comunica all'interessato. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2-quinquies">
+                    <num>2-quinquies.</num>
+                    <content>
+                        <p>Agli oneri derivanti dal comma 2-bis si provvede, quanto a 10 milioni di euro per l'anno 2022, mediante corrispondente riduzione del Fondo di parte corrente per il sostegno della filiera suinicola, di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegge/stato/2022-01-27/4/!main#art_26-com1" ns9:target="olf:it/decreto-legge/stato/2022/4/art_26-com1" ns9:relation="cites">articolo 26, comma 1, del decreto-legge 27 gennaio 2022, n. 4</ref>, convertito, con modificazioni, dalla <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2022-03-28/25/!main" ns10:target="olf:it/legge/stato/2022/25" ns10:relation="cites">legge 28 marzo 2022, n. 25</ref>, quanto a 10 milioni di euro per l'anno 2025, mediante corrispondente riduzione del Fondo istituito dall'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2023-12-30/213/!main#art_1-com443" ns11:target="olf:it/legge/stato/2023/213/art_1-com443" ns11:relation="cites">articolo 1, comma 443, della legge 30 dicembre 2023, n. 213</ref>, e, quanto a 3 milioni di euro per l'anno 2025, mediante corrispondente riduzione del fondo di conto capitale di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_34ter-com5" ns12:target="olf:it/legge/stato/2009/196/art_34ter-com5" ns12:relation="cites">articolo 34-ter, comma 5, della legge 31 dicembre 2009, n. 196</ref>, iscritto nello stato di previsione della spesa del Ministero della salute per il triennio 2024-2026. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2-sexies">
+                    <num>2-sexies.</num>
+                    <content>
+                        <p>Al fine di potenziare la ricerca delle carcasse nelle aree destinate al depopolamento intorno alle barriere artificiali deputate al confinamento dei cinghiali, il Commissario straordinario e' altresi' autorizzato a riconoscere un contributo, nel limite massimo di 150 euro per unita', in favore dei soggetti che, abilitati al contenimento con metodi selettivi, conferiscono carcasse nelle aree di stoccaggio o nei macelli autorizzati. A tal fine e' autorizzata la spesa di 1 milione di euro per l'anno 2025, che confluisce nella contabilita' speciale intestata al Commissario straordinario. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2-septies">
+                    <num>2-septies.</num>
+                    <content>
+                        <p>Il Commissario straordinario, con proprio provvedimento, definisce i criteri di ripartizione delle somme previste dal comma 2-sexies tra le regioni interessate al depopolamento dei cinghiali, per la realizzazione delle finalita' del medesimo comma. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Qualora le regioni o le province autonome non adottino nel termine previsto i piani di cui all'articolo 1, comma 1, il Presidente del Consiglio dei ministri, su proposta dei Ministri della salute, delle politiche agricole alimentari e forestali e per gli affari regionali e le autonomie, assegna il termine di trenta giorni per adottare i predetti piani. Decorso inutilmente tale termine il Consiglio dei ministri, sentita la regione o la provincia autonoma interessata, su proposta dei Ministri competenti, ordina al Commissario straordinario di provvedere in via sostitutiva. Alla riunione del Consiglio dei ministri partecipa il presidente della regione o della provincia autonoma interessata. Nell'ipotesi di cui al secondo periodo il Commissario straordinario adotta il piano previo parere dell'ISPRA e del Centro di referenza nazionale per la peste suina. Qualora tali pareri non siano resi entro il termine di venti giorni dalla richiesta, il Commissario straordinario procede in ogni caso all'adozione del piano. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Il Commissario straordinario, al fine di individuare le necessarie misure attuative per il contrasto della peste suina africana, si avvale del supporto dell'Unita' centrale di crisi di cui all'articolo 10 del regolamento di cui al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2013-03-28/44/!main" ns13:target="olf:it/dpr/stato/2013/44" ns13:relation="cites">decreto del Presidente della Repubblica 28 marzo 2013, n. 44</ref>, operativa presso il Ministero della salute, integrata con un rappresentante dell'ISPRA e con un rappresentante del Ministero della transizione ecologica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Il Commissario straordinario, per l'esercizio dei compiti assegnati dal presente articolo, si avvale degli enti del Servizio sanitario nazionale e degli uffici competenti in materia di malattie animali delle seguenti amministrazioni: Ministero della salute, Ministero delle politiche agricole alimentari e forestali, Ministero della transizione ecologica, regioni, province, Citta' metropolitane, comuni, Comando Carabinieri per la tutela della salute, Comando unita' forestali, ambientali e agroalimentari dell'Arma dei carabinieri, ISPRA, nonche' puo' avvalersi di un rappresentante della Conferenza dei direttori di Dipartimento di medicina veterinaria e di un rappresentante del Dipartimento di scienze veterinarie dell'Universita' di Torino, senza nuovi o maggiori oneri per la finanza pubblica. La Direzione generale della sanita' animale e dei farmaci veterinari del Ministero della salute assicura il necessario supporto per lo svolgimento delle funzioni del Commissario straordinario. A tale fine la Direzione generale della sanita' animale e dei farmaci veterinari e' potenziata con un contingente massimo pari a dieci unita' di personale non dirigenziale, dipendenti di pubbliche amministrazioni, in possesso delle competenze e dei requisiti di professionalita' richiesti dal Commissario straordinario per l'espletamento delle proprie funzioni, con esclusione del personale docente, educativo e amministrativo, tecnico e ausiliario delle istituzioni scolastiche, nonche' del personale appartenente ai ruoli della Polizia di Stato e delle Forze armate. Detto personale e' posto, ai sensi dell'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/1997-05-15/127/!main#art_17-com14" ns14:target="olf:it/legge/stato/1997/127/art_17-com14" ns14:relation="cites">articolo 17, comma 14, della legge 15 maggio 1997, n. 127</ref>, in posizione di comando, distacco o fuori ruolo o altro analogo istituto previsto dai rispettivi ordinamenti e conserva lo stato giuridico e il trattamento economico fondamentale e accessorio dell'amministrazione di appartenenza, che resta a carico della medesima. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Il Commissario straordinario, nell'ambito delle funzioni attribuite dal presente articolo, al fine di prevenire ed eliminare gravi pericoli e far fronte a situazioni eccezionali, puo' adottare con atto motivato provvedimenti contingibili e urgenti, nel rispetto dei principi generali dell'ordinamento e del principio di proporzionalita' tra misure adottate e finalita' perseguite. Tali provvedimenti sono immediatamente comunicati alla Conferenza permanente per i rapporti tra lo Stato, le regioni e le Province autonome di Trento e di Bolzano e alle singole regioni di volta in volta interessate dal provvedimento. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Il Commissario straordinario opera per un periodo di dodici mesi, prorogabile o rinnovabile, con decreto del Presidente del Consiglio dei ministri, su proposta del Ministro della salute, di concerto con i Ministri delle politiche agricole alimentari e forestali e per gli affari regionali e le autonomie, <ins eId="ins_18">((...))</ins> per un ulteriore periodo fino a <ins eId="ins_19">((quarantotto mesi))</ins>. Del conferimento o del rinnovo dell'incarico e' data immediata comunicazione alle Camere e notizia nella Gazzetta Ufficiale della Repubblica italiana. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>L'incarico di Commissario straordinario e' compatibile con altri incarichi pubblici. <ins eId="ins_20">((Per ciascuno degli anni 2025, 2026 e 2027))</ins>, al Commissario straordinario e' corrisposto, ai sensi dell'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main#art_15-com3" ns15:target="olf:it/decreto-legge/stato/2011/98/art_15-com3" ns15:relation="cites">articolo 15, comma 3, del decreto-legge 6 luglio 2011, n. 98</ref>, convertito, con modificazioni, dalla <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2011-07-15/111/!main" ns16:target="olf:it/legge/stato/2011/111" ns16:relation="cites">legge 15 luglio 2011, n. 111</ref>, un compenso pari a 30.000 euro annui, comprensivo degli oneri a carico dell'amministrazione. Al relativo onere, pari a 30.000 euro per ciascuno degli anni 2025 e 2026, si provvede mediante corrispondente riduzione del Fondo di parte corrente di cui al <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_34ter-com5" ns17:target="olf:it/legge/stato/2009/196/art_34ter-com5" ns17:relation="cites">comma 5 dell'articolo 34-ter della legge 31 dicembre 2009, n. 196</ref>, iscritto nello stato di previsione della spesa del Ministero della salute per il triennio 2025-2027. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_9">
+                    <num>9.</num>
+                    <content>
+                        <p>Sull'attivita' del Commissario straordinario il Presidente del Consiglio dei ministri ovvero un Ministro da lui delegato riferisce periodicamente alle Camere. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_9-bis">
+                    <num>9-bis.</num>
+                    <list>
+                        <intro eId="art_2__para_9-bis__intro_1">
+                            <p>Con decreto del Ministro della salute, di concerto con il Ministro dell'agricoltura, della sovranita' alimentare e delle foreste e con il Ministro per gli affari regionali e le autonomie, sono nominati tre sub-commissari, cui sono conferiti i seguenti compiti specifici: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_9-bis.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>l'attivita' di coordinamento di cui al comma 2, lettera a); 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_9-bis.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>l'attivita' di verifica di cui al comma 2, lettera f); 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_9-bis.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>l'attivita' di confronto e di concertazione con le associazioni di categoria delle imprese di distribuzione e di vendita di carni, al fine di promuovere l'immissione nella relativa filiera dei capi della specie cinghiale abbattuti, previa verifica dell'idoneita' al consumo alimentare. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_2__para_9-ter">
+                    <num>9-ter.</num>
+                    <content>
+                        <p>Per l'esercizio dei compiti di cui al comma 9-bis, i sub-commissari possono avvalersi del supporto dell'Unita' centrale di crisi di cui al comma 4 nonche' degli enti del Servizio sanitario nazionale e degli uffici competenti in materia di malattie animali delle amministrazioni indicate al comma 5. Ai sub-commissari si applicano, altresi', le disposizioni dei commi 7 e 8 <ins eId="ins_21">((, primo periodo. Ai sub-commissari non spettano compensi, gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_9-quater">
+                    <num>9-quater.</num>
+                    <content>
+                        <p>Per l'esercizio dei compiti di cui al comma 9-bis nonche' per l'espletamento delle ulteriori competenze assegnate con il decreto di cui all'articolo 2-bis, comma 8, i subcommissari sono autorizzati ad adottare i provvedimenti di cui al comma 6 del presente articolo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_10">
+                    <num>10.</num>
+                    <content>
+                        <p>Le disposizioni di cui al presente articolo non si applicano alla Regione Sardegna. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2-bis">
+                <num>Art. 2-bis.</num>
+                <heading>(Misure urgenti per la tutela della salute pubblica correlate alla diffusione della peste suina africana attraverso il potenziamento delle Forze armate e l'attivazione delle organizzazioni di volontariato di protezione civile)</heading>
+                <paragraph eId="art_2-bis__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di prevenire e contenere i gravi pericoli per la salute pubblica e far fronte alla complessa situazione epidemiologica in atto derivante dalla diffusione della peste suina africana (PSA), i piani di cui agli <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/1992-02-11/157/!main#art_19" ns18:target="olf:it/legge/stato/1992/157/art_19" ns18:relation="cites">articoli 19</ref> e <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/1992-02-11/157/!main#art_19ter" ns19:target="olf:it/legge/stato/1992/157/art_19ter" ns19:relation="cites">19-ter della legge 11 febbraio 1992, n. 157</ref>, e all'articolo 1 del presente decreto, nonche' le misure adottate dal Commissario straordinario <ins eId="ins_22">((...))</ins> di cui all'articolo 2 <ins eId="ins_23">((...))</ins>, sono attuati anche mediante il personale delle Forze armate ai sensi dell'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_89-com3" ns20:target="olf:it/decreto-legislativo/stato/2010/66/art_89-com3" ns20:relation="cites">articolo 89, comma 3, del codice dell'ordinamento militare</ref>, di cui al <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns21:target="olf:it/decreto-legislativo/stato/2010/66" ns21:relation="cites">decreto legislativo 15 marzo 2010, n. 66</ref>, previa frequenza di specifici corsi di formazione e mediante l'utilizzo di idoneo equipaggiamento. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-bis__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Ai fini di cui al comma 1, <ins eId="ins_24">((un contingente composto di un massimo di 177 unita'))</ins> del personale delle Forze armate e' autorizzato a svolgere <ins eId="ins_25">((le attivita' di cui al comma 1))</ins> per un periodo non superiore a dodici mesi, nei limiti delle risorse di cui al terzo periodo <ins eId="ins_26">((del presente comma))</ins>. Le relative spese di personale e le spese di funzionamento, nel limite massimo di euro 1.750.000 per l'anno 2024 e di euro 1.250.000 per l'anno 2025, sono a carico del <ins eId="ins_27">((Commissario straordinario di cui all'articolo 2))</ins>. Al personale impiegato nell'ambito delle attivita' di cui al comma 1 <ins eId="ins_28">((del presente articolo))</ins> possono essere corrisposti compensi per prestazioni straordinarie oltre i limiti massimi derivanti dalle previsioni di cui all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/1990-08-08/231/!main#art_10-com3" ns22:target="olf:it/legge/stato/1990/231/art_10-com3" ns22:relation="cites">articolo 10, comma 3, della legge 8 agosto 1990, n. 231</ref>, in misura non superiore a 55 ore mensili pro-capite per il personale impiegato nei gruppi operativi territoriali e a 20 ore mensili pro-capite per il restante personale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-bis__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Limitatamente all'esecuzione delle attivita' di cui al comma 1, al personale delle Forze armate non appartenente all'Arma dei carabinieri, che agisce nei Gruppi operativi territoriali di cui all'articolo 15 dell'<ins eId="ins_29">((ordinanza del Commissario straordinario alla peste suina africana n. 5/2023 del 24 agosto 2023))</ins>, pubblicata nella Gazzetta Ufficiale n. 203 del 31 agosto 2023, sono attribuite le funzioni di agente di pubblica sicurezza <ins eId="ins_30">((e lo stesso personale puo' procedere))</ins> alla identificazione di persone, anche al fine di prevenire o impedire comportamenti che possano mettere in pericolo l'incolumita' di persone o la sicurezza dei luoghi in cui si svolge l'attivita', con esclusione delle funzioni di polizia giudiziaria. Ai fini dell'identificazione, per completare gli accertamenti e per procedere a tutti gli atti conseguenti, il personale delle Forze armate accompagna le persone indicate presso i piu' vicini uffici o comandi della Polizia di Stato o dell'Arma dei carabinieri. Nei confronti delle persone accompagnate si applicano le disposizioni dell'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegge/stato/1978-03-21/59/!main#art_11" ns23:target="olf:it/decreto-legge/stato/1978/59/art_11" ns23:relation="cites">articolo 11 del decreto-legge 21 marzo 1978, n. 59</ref>, convertito, con modificazioni, dalla <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/1978-05-18/191/!main" ns24:target="olf:it/legge/stato/1978/191" ns24:relation="cites">legge 18 maggio 1978, n. 191</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-bis__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Il personale militare di cui al comma 3, nell'esecuzione delle operazioni di bio-regolazione, puo' utilizzare le dotazioni di armamento di cui e' fornito, ove compatibili con le attivita' di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-bis__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Gli obblighi di cui all'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegislativo/stato/2008-04-09/81/!main#art_3-com6" ns25:target="olf:it/decreto-legislativo/stato/2008/81/art_3-com6" ns25:relation="cites">articolo 3, comma 6, del decreto legislativo 9 aprile 2008, n. 81</ref>, per il personale militare di cui al comma 1 <ins eId="ins_31">((del presente articolo))</ins>, che presta servizio con rapporto di dipendenza funzionale dal <ins eId="ins_32">((Commissario straordinario di cui all'articolo 2))</ins>, sono a carico di quest'ultimo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-bis__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_33">((COMMA SOPPRESSO DAL D.L. 15 MAGGIO 2024, N. 63, CONVERTITO, CON MODIFICAZIONI, DALLA L. 12 LUGLIO 2024, N. 101))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-bis__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_34">((COMMA SOPPRESSO DAL D.L. 15 MAGGIO 2024, N. 63, CONVERTITO, CON MODIFICAZIONI, DALLA L. 12 LUGLIO 2024, N. 101))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-bis__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Il Commissario straordinario e' autorizzato a integrare la pianificazione degli interventi e delle iniziative occorrenti per fronteggiare il contesto d'urgenza, entro il giorno 15 giugno 2024.
+Con decreto del Ministro della salute, di concerto con il Ministro dell'agricoltura, della sovranita' alimentare e delle foreste, sono definite le competenze funzionali dei sub-commissari di cui all'articolo 2, comma 9-bis, anche rispetto all'attuazione della pianificazione commissariale. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading>
+                    <ins eId="ins_35">((Obblighi di segnalazione e sanzioni))</ins>
+                </heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Chiunque, nell'ambito delle attivita' di attuazione dei Piani regionali di cui all'articolo 1, dello svolgimento di attivita' venatoria o boschiva, di coltivazione di fondi agricoli o in quanto coinvolto in un sinistro con cinghiali, rinviene esemplari di tale specie feriti o deceduti, segnala il rinvenimento immediatamente al servizio veterinario dell'ASL competente per territorio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Salvo che il fatto costituisca reato, l'inosservanza della disposizione di cui al comma 1 comporta l'irrogazione di una sanzione amministrativa pecuniaria in misura di euro 500. La sanzione amministrativa e' irrogata dal Prefetto territorialmente competente e si applicano le disposizioni delle sezioni I e II del capo I della <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/legge/stato/1981-11-24/689/!main" ns26:target="olf:it/legge/stato/1981/689" ns26:relation="cites">legge 24 novembre 1981, n. 689</ref>, in quanto compatibili. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Clausola di salvaguardia</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le disposizioni del presente decreto si applicano nelle regioni a statuto speciale e nelle Province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti e le relative norme di attuazione. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading>
+                    <ins eId="ins_36">(( (Disposizioni finanziarie). ))</ins>
+                </heading>
+                <paragraph>
+                    <content>
+                        <p>((</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione del presente decreto, fatta eccezione per le disposizioni di cui all'articolo 2, commi da 2-bis a 2-quinquies, non devono derivare nuovi o maggiori oneri per la finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le amministrazioni interessate provvedono all'attuazione del presente decreto con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p> 3. Ai fini dell'immediata attuazione delle disposizioni recate dall'articolo 2, commi da 2-bis a 2-quinquies, del presente decreto, il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio.
+Il Ministero dell'economia e delle finanze, ove necessario, puo' disporre il ricorso ad anticipazioni di tesoreria, la cui regolarizzazione e' effettuata con l'emissione di ordini di pagamento sui pertinenti capitoli di spesa))</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il presente decreto entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana e sara' presentato alle Camere per la conversione in legge. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 17 febbraio 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Speranza, Ministro della salute Patuanelli, Ministro delle politiche agricole alimentari e forestali Cingolani, Ministro della transizione ecologica Franco, Ministro dell'economia e delle finanze Gelmini, Ministro per gli affari regionali e le autonomie Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
