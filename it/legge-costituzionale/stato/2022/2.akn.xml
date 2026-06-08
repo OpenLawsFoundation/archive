@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2022-11-07/2/!main"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2022-11-07/2"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge.costituzionale:2022-11-07;2"/>
+                    <FRBRalias name="eli" value="eli/id/2022/11/15/22G00184/ORIGINAL"/>
+                    <FRBRdate date="2022-11-07" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/11/15/22G00184/ORIGINAL" aknrelname="eli/id/2022/11/15/22G00184/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifica all'articolo 119 della Costituzione, concernente il riconoscimento delle peculiarita' delle Isole e il superamento degli svantaggi derivanti dall'insularita'. (22G00184)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00184" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE COSTITUZIONALE"/>
+                            <nrdfa:span content="2022-11-07" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2022-11-07/2/ita@2022-11-30/!main"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2022-11-07/2/ita@2022-11-30"/>
+                    <FRBRdate date="2022-11-30" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/11/15/22G00184/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/11/15/22G00184/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/11/15/22G00184/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2022-11-07/2/ita@2022-11-30/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2022-11-07/2/ita@2022-11-30.xml"/>
+                    <FRBRdate date="2022-11-07" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/11/15/22G00184/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-11-15" name="" number="267" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-11-15" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge.costituzionale:2022-11-07;2#1"/>
+                        <destination href="urn:nir:stato:costituzione#119"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) l'introduzione di un comma dopo il quinto all'art. 119.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/costituzione/stato/1947-12-27/0/ita@null/!main/~art_119"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE_COSTITUZIONALE/stato/2022-11-07/2/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/11/15/22G00184/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifica all'articolo 119 della Costituzione, concernente il riconoscimento delle peculiarita' delle Isole e il superamento degli svantaggi derivanti dall'insularita'. (22G00184)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00184</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE COSTITUZIONALE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-11-07</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/11/15/22G00184/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/11/15/22G00184/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/11/15/22G00184/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/11/15/22G00184/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge-costituzionale/stato/2022/2" nativeUrn="urn:nir:stato:legge.costituzionale:2022-11-07;2" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-11-15"><ns0:event type="enacted" date="2022-11-07"/><ns0:event type="published" date="2022-11-15"/><ns0:event type="commenced" date="2022-11-15"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/be929939-b386-48f2-aa6b-aab8e81752ec" sourceSha256="3878852d0df2c795c8a706b5f08b4d0f3f6681c54cb73362217ad47758bac5fc" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T19:52:50.649431Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE COSTITUZIONALE</docType>
+                <docDate date="2022-11-07">07 novembre 2022</docDate>
+                <docNumber>2</docNumber>
+                <docTitle>Modifica all'articolo 119 della Costituzione, concernente il riconoscimento delle peculiarita' delle Isole e il superamento degli svantaggi derivanti dall'insularita'. (22G00184) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 30/11/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica, con la maggioranza assoluta dei rispettivi componenti, hanno approvato;</p>
+            </formula>
+            <p>Nessuna richiesta di referendum costituzionale e' stata presentata;</p>
+            <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge costituzionale:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">All'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_119" ns1:target="olf:it/costituzione/stato/1947/const/art_119" ns1:relation="amends">articolo 119 della Costituzione</ref>, dopo il quinto comma e' inserito il seguente: 
+ «<quotedText eId="modNov_1_new_1">La Repubblica riconosce le peculiarita' delle Isole e promuove le misure necessarie a rimuovere gli svantaggi derivanti dall'insularita'</quotedText>».</mod> 
+ La presente legge costituzionale, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. 
+ Data a Roma, addi' 7 novembre 2022 
+ 
+ MATTARELLA 
+ 
+ Meloni, Presidente del Consiglio dei ministri 
+Visto, il Guardasigilli: Nordio 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ 
+ Avvertenza: 
+ Il testo della nota qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 2, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura della disposizione di legge modificata e della quale restano invariati il valore e l'efficacia. 
+ Nota all'art. 1: 
+ - Si riporta il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_119" ns3:target="olf:it/costituzione/stato/1947/const/art_119" ns3:relation="amends">art. 119 della Costituzione</ref>, come modificato dalla presente legge: 
+ «Art. 119. - I Comuni, le Province, le Citta' metropolitane e le Regioni hanno autonomia finanziaria di entrata e di spesa, nel rispetto dell'equilibrio dei relativi bilanci, e concorrono ad assicurare l'osservanza dei vincoli economici e finanziari derivanti dall'ordinamento dell'Unione europea. 
+ I Comuni, le Province, le Citta' metropolitane e le Regioni hanno risorse autonome. Stabiliscono e applicano tributi ed entrate propri, in armonia con la Costituzione e secondo i principi di coordinamento della finanza pubblica e del sistema tributario. Dispongono di compartecipazioni al gettito di tributi erariali riferibile al loro territorio. 
+ La legge dello Stato istituisce un fondo perequativo, senza vincoli di destinazione, per i territori con minore capacita' fiscale per abitante. 
+ Le risorse derivanti dalle fonti di cui ai commi precedenti consentono ai Comuni, alle Province, alle Citta' metropolitane e alle Regioni di finanziare integralmente le funzioni pubbliche loro attribuite. 
+ Per promuovere lo sviluppo economico, la coesione e la solidarieta' sociale, per rimuovere gli squilibri economici e sociali, per favorire l'effettivo esercizio dei diritti della persona, o per provvedere a scopi diversi dal normale esercizio delle loro funzioni, lo Stato destina risorse aggiuntive ed effettua interventi speciali in favore di determinati Comuni, Province, Citta' metropolitane e Regioni. 
+ La Repubblica riconosce le peculiarita' delle Isole e promuove le misure necessarie a rimuovere gli svantaggi derivanti dall'insularita'. 
+ I Comuni, le Province, le Citta' metropolitane e le Regioni hanno un proprio patrimonio, attribuito secondo i principi generali determinati dalla legge dello Stato.
+ Possono ricorrere all'indebitamento solo per finanziare spese di investimento, con la contestuale definizione di piani di ammortamento e a condizione che per il complesso degli enti di ciascuna Regione sia rispettato l'equilibrio di bilancio. E' esclusa ogni garanzia dello Stato sui prestiti dagli stessi contratti.». 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+    </act>
+</akomaNtoso>
