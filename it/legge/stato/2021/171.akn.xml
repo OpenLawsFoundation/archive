@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-11-25/171/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-11-25/171"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-11-25;171"/>
+                    <FRBRalias name="eli" value="eli/id/2021/11/26/21G00205/ORIGINAL"/>
+                    <FRBRdate date="2021-11-25" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/11/26/21G00205/ORIGINAL" aknrelname="eli/id/2021/11/26/21G00205/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 27 settembre 2021, n. 130, recante misure urgenti per il contenimento degli effetti degli aumenti dei prezzi nel settore elettrico e del gas naturale. (21G00205)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00205" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-11-25" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-11-25/171/ita@2021-11-27/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-11-25/171/ita@2021-11-27"/>
+                    <FRBRdate date="2021-11-27" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/11/26/21G00205/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/11/26/21G00205/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/11/26/21G00205/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-11-25/171/ita@2021-11-27/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-11-25/171/ita@2021-11-27.xml"/>
+                    <FRBRdate date="2021-11-25" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/11/26/21G00205/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-11-26" name="" number="282" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-11-26" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2021-11-25" refersTo="#S.2401"/>
+                <step by="#camera" date="2021-11-25" refersTo="#C.3366"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1999-07-30;300#35"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 27 settembre 2021, n. 130 (in G.U. 27/09/2021, n. 231).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-04-13;64#16"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 27 settembre 2021, n. 130 (in G.U. 27/09/2021, n. 231).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-04-13;64#17"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 27 settembre 2021, n. 130 (in G.U. 27/09/2021, n. 231).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-04-13;64#26"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 27 settembre 2021, n. 130 (in G.U. 27/09/2021, n. 231).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-04-13;64#39"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 27 settembre 2021, n. 130 (in G.U. 27/09/2021, n. 231).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-04-13;66#12"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 27 settembre 2021, n. 130 (in G.U. 27/09/2021, n. 231).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:legge:2017-12-27;205#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 27 settembre 2021, n. 130 (in G.U. 27/09/2021, n. 231).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-27;130"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma ) la seguente modifica al titolo: Misure urgenti per il contenimento degli effetti degli aumenti dei prezzi nel settore elettrico e del gas naturale ((nonche' per l'abrogazione o la modifica di disposizioni che prevedono l'adozione di provvedimenti attuativi)).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-27;130#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 1, lettera a).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-27;130#Allegato 1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'Allegato 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-27;130#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1, 2 e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-27;130#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-27;130#3 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-27;130#3 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-27;130#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, comma 2 e l'introduzione del comma 3-bis all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-25;171#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-27;130#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 1, alinea, lettere c), d) ed e).</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-11-25/171/!main" showAs=""/>
+                <passiveRef eId="S.2401" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2401" showAs=""/>
+                <passiveRef eId="C.3366" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3366" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/11/26/21G00205/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 27 settembre 2021, n. 130, recante misure urgenti per il contenimento degli effetti degli aumenti dei prezzi nel settore elettrico e del gas naturale. (21G00205)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00205</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-11-25</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/11/26/21G00205/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/11/26/21G00205/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/11/26/21G00205/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/11/26/21G00205/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/171" nativeUrn="urn:nir:stato:legge:2021-11-25;171" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-11-26"><ns0:event type="enacted" date="2021-11-25"/><ns0:event type="published" date="2021-11-26"/><ns0:event type="commenced" date="2021-11-26"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/d119b71a-8261-4bfc-abe1-9d3bcb69db12" sourceSha256="28e606b5fb32c3f3faf11b07f52420c6546f6b254e87699aa2cf3dce4ea7b0ed" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T21:11:51.631507Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-11-25">25 novembre 2021</docDate>
+                <docNumber>171</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 27 settembre 2021, n. 130, recante misure urgenti per il contenimento degli effetti degli aumenti dei prezzi nel settore elettrico e del gas naturale. (21G00205) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 27/11/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2021-09-27/130/!main" ns1:target="olf:it/decreto-legge/stato/2021/130" ns1:relation="amends">decreto-legge 27 settembre 2021, n. 130</ref>, recante misure urgenti per il contenimento degli effetti degli aumenti dei prezzi nel settore elettrico e del gas naturale, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2021-09-27/130/!main" ns2:target="olf:it/decreto-legge/stato/2021/130" ns2:relation="amends">decreto-legge 27 settembre 2021, n. 130</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 231 del 27 settembre 2021. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 52 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 25 novembre 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Franco, Ministro dell'economia e delle finanze Giorgetti, Ministro dello sviluppo economico Cingolani, Ministro della transizione ecologica Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-25/171/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-25/171"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-11-25;171"/>
+                                <FRBRalias name="eli" value="eli/id/2021/11/26/21G00205/ORIGINAL"/>
+                                <FRBRdate date="2021-11-27" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-25/171/ita@2021-11-27/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-25/171/ita@2021-11-27"/>
+                                <FRBRdate date="2021-11-27" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-25/171/ita@2021-11-27/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-25/171/ita@2021-11-27.xml"/>
+                                <FRBRdate date="2021-11-25" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 27 SETTEMBRE 2021, N. 130 
+ 
+ All'articolo 1: 
+ al comma 1, lettera a), dopo le parole: «pari a 700 milioni di euro» sono inserite le seguenti: «nell'anno 2021,». 
+ All'articolo 2: 
+ al comma 1, primo periodo, le parole: «per gli usi civili» sono sostituite dalle seguenti: «per usi civili» e dopo le parole: «articolo 26, comma 1, del» sono inserite le seguenti: «testo unico delle disposizioni legislative concernenti le imposte sulla produzione e sui consumi e relative sanzioni penali e amministrative, di cui al»; 
+ al comma 2, le parole: «oneri generali gas» sono sostituite dalle seguenti: «oneri generali di sistema per il settore del gas»; 
+ alla rubrica, le parole: «nel settore gas» sono sostituite dalle seguenti: «nel settore del gas». 
+ All'articolo 3: 
+ al comma 1, primo periodo, le parole: «tariffe elettriche» sono sostituite dalle seguenti: «tariffe per la fornitura di energia elettrica». 
+ Dopo l'articolo 3 sono inseriti i seguenti: 
+ «Art. 3-bis (Misure per aumentare la liquidita' dei mercati dell'energia e ridurre i costi delle transazioni). - 1.
+Indipendentemente dalla data di consegna ivi prevista, per i contratti di fornitura e i contratti derivati gia' in essere o stipulati entro il 31 dicembre 2022, le disposizioni di cui all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2017-08-04/124/!main#art_1-com86" ns4:target="olf:it/legge/stato/2017/124/art_1-com86" ns4:relation="amends">articolo 1, comma 86, della legge 4 agosto 2017, n. 124</ref>, si applicano anche nei casi in cui la consegna relativamente ai contratti di fornitura, ovvero la produzione, commercializzazione e consegna relativamente ai contratti derivati, non avvengano nell'Unione europea, bensi' in Stati direttamente interconnessi con essa mediante linee elettriche o reti di gas ovvero in Stati aderenti al Trattato di Atene del 25 ottobre 2005 che istituisce la Comunita' dell'energia, di cui alla decisione 2006/500/CE del Consiglio, del 29 maggio 2006. 
+ Art. 3-ter (Disposizioni in materia di competenze relative alla resilienza a garanzia della sicurezza del sistema energetico). - 1.
+All'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/1999-07-30/300/!main#art_35-com2-letb" ns5:target="olf:it/decreto-legislativo/stato/1999/300/art_35-com2-letb" ns5:relation="amends">articolo 35, comma 2, lettera b), del decreto legislativo 30 luglio 1999, n. 300</ref>, le parole: "attuazione dei processi di liberalizzazione dei mercati energetici e promozione della concorrenza nei mercati dell'energia e tutela dell'economicita' e della sicurezza del sistema" sono sostituite dalle seguenti: "attuazione dei processi di liberalizzazione dei mercati energetici e promozione della concorrenza nei mercati dell'energia e tutela dell'economicita' e della sicurezza del sistema con garanzia di resilienza"». 
+ All'articolo 4: 
+ il comma 2 e' sostituito dal seguente: 
+ «2. All'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/66/!main#art_12" ns6:target="olf:it/decreto-legislativo/stato/2017/66/art_12" ns6:relation="amends">articolo 12 del decreto legislativo 13 aprile 2017, n. 66</ref>, il comma 5 e' sostituito dal seguente: 
+ "5. Con decreto del Ministro dell'universita' e della ricerca, adottato ai sensi dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/1997-05-15/127/!main#art_17-com95" ns7:target="olf:it/legge/stato/1997/127/art_17-com95" ns7:relation="cites">articolo 17, comma 95, della legge 15 maggio 1997, n. 127</ref>, di concerto con il Ministro dell'istruzione, sono definiti, a decorrere dall'anno accademico 2025/2026, i piani di studio e le modalita' attuative e organizzative del corso di specializzazione in pedagogia e didattica speciale per le attivita' di sostegno didattico e l'inclusione scolastica, nonche' i criteri per il riconoscimento, ai sensi e per gli effetti del comma 3, dei crediti formativi universitari relativi alle didattiche dell'inclusione e gli ulteriori requisiti necessari per l'accesso al medesimo corso di specializzazione"»; 
+ dopo il comma 3 e' aggiunto il seguente: 
+ «3-bis. Al <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/64/!main" ns8:target="olf:it/decreto-legislativo/stato/2017/64" ns8:relation="amends">decreto legislativo 13 aprile 2017, n. 64</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 17, comma 2, la lettera h) e' abrogata; 
+ b) all'articolo 26, comma 1, le parole: "o agli esiti negativi della valutazione di cui all'articolo 16, comma 1, lettere c) e d)" sono soppresse; 
+ c) all'articolo 39, il comma 1 e' sostituito dal seguente: 
+ "1. Agli oneri derivanti dall'articolo 15, pari a euro 170.000 annui a decorrere dall'anno 2018, si provvede mediante corrispondente riduzione del fondo di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2015-07-13/107/!main#art_1-com202" ns9:target="olf:it/legge/stato/2015/107/art_1-com202" ns9:relation="cites">articolo 1, comma 202, della legge 13 luglio 2015, n. 107</ref>"». 
+ All'articolo 5: 
+ al comma 1, alinea, dopo le parole: «, in termini di indebitamento netto e fabbisogno» e' inserito il seguente segno d'interpunzione: «,»; 
+ al comma 1, lettera c), le parole: «fondo di cui all'articolo 44, del decreto legislativo» sono sostituite dalle seguenti: «Fondo previsto dall'articolo 44 del codice della protezione civile, di cui al decreto legislativo»; 
+ al comma 1, lettera d), le parole: «destinata al Ministero» sono sostituite dalle seguenti: «di competenza del Ministero»; 
+ al comma 1, lettera e), le parole: «decreto legislativo del 3 marzo» sono sostituite dalle seguenti: «decreto legislativo 3 marzo» e le parole: «allo stesso Fondo, che sono versati» sono sostituite dalle seguenti: «allo stesso fondo, da versare». 
+ All'allegato 1, dopo la voce numero 8 sono aggiunte le seguenti: 
+ «8-bis. <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/64/!main#art_16" ns10:target="olf:it/decreto-legislativo/stato/2017/64/art_16" ns10:relation="amends">Articolo 16 del decreto legislativo 13 aprile 2017, n. 64</ref>. 
+ 8-ter. <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2017-12-27/205/!main#art_1-com68" ns11:target="olf:it/legge/stato/2017/205/art_1-com68" ns11:relation="amends">Articolo 1, commi 68</ref> e <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2017-12-27/205/!main#art_1-com69" ns12:target="olf:it/legge/stato/2017/205/art_1-com69" ns12:relation="amends">69, della legge 27 dicembre 2017, n. 205</ref>». 
+ Al titolo sono aggiunte, in fine, le seguenti parole: «nonche' per l'abrogazione o la modifica di disposizioni che prevedono l'adozione di provvedimenti attuativi». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
