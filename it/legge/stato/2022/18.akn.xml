@@ -1,0 +1,677 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-03-04/18/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-03-04/18"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-03-04;18"/>
+                    <FRBRalias name="eli" value="eli/id/2022/03/08/22G00027/ORIGINAL"/>
+                    <FRBRdate date="2022-03-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/03/08/22G00027/ORIGINAL" aknrelname="eli/id/2022/03/08/22G00027/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 7 gennaio 2022, n. 1, recante misure urgenti per fronteggiare l'emergenza COVID-19, in particolare nei luoghi di lavoro, nelle scuole e negli istituti della formazione superiore. (22G00027)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00027" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2022-03-04" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-03-04/18/ita@2022-03-09/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-03-04/18/ita@2022-03-09"/>
+                    <FRBRdate date="2022-03-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/03/08/22G00027/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/03/08/22G00027/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/03/08/22G00027/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-03-04/18/ita@2022-03-09/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-03-04/18/ita@2022-03-09.xml"/>
+                    <FRBRdate date="2022-03-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/03/08/22G00027/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-03-08" name="" number="56" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-03-08" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2022-03-04" refersTo="#C.3434"/>
+                <step by="#senato" date="2022-03-04" refersTo="#S.2542"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-05-16;33#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#1 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#4 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#4 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#4 quinquies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#4 sexies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#2 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 quater.1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 sexies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 septies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#13"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-08-06;111#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1, lettere a) e b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#2 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#2 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#2 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, lettere a), b) e c), 2 e l'introduzione del comma 2-bis, all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#3 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#3 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#3 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#3 quinquies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-quinquies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#3 sexies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-sexies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la soppressione dell'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, commi 1, 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#5 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#5 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#5 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-07;1#5 quinquies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-quinquies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-27;4#30"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 gennaio 2022, n. 1 (in G.U. 7/01/2022, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-02-04;5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) che "Il decreto-legge 4 febbraio 2022, n. 5, e' abrogato. Restano
+validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodottisi e i rapporti giuridici sorti sulla base del medesimo decreto-legge 4 febbraio 2022, n. 5".</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-02-04;5#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-02-04;5#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-02-04;5#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-02-04;5#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-02-04;5#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-02-04;5#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-04;18#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-02-04;5#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 7.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-02-04/5/ita@0222-03-09/!main"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_1__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="repeal">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_1__para_1"/>
+                        <old href="#modNov_2_old_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_1__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_2__para_1__point_a"/>
+                        <new href="#modNov_3_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_2__para_1__point_b"/>
+                        <old href="#modNov_3_old_5"/>
+                        <new href="#modNov_3_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_3__para_1__point_a"/>
+                        <old href="#modNov_5_old_6"/>
+                        <new href="#modNov_5_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_3__para_2"/>
+                        <new href="#modNov_5_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_3__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_3__para_1__point_b"/>
+                        <old href="#modNov_5_old_9"/>
+                        <new href="#modNov_5_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_3__para_1__point_c"/>
+                        <new href="#modNov_5_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_3__para_2"/>
+                        <old href="#modNov_5_old_11"/>
+                        <new href="#modNov_5_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_3__para_2-bis"/>
+                        <new href="#modNov_5_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="repeal">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_55" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_5__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_56" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_5__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_57" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_5__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_58" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-01-07/1/ita@2022-03-09/!main/~art_5__para_3"/>
+                        <new href="#modNov_7_new_15"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2022-03-04/18/!main" showAs=""/>
+                <passiveRef eId="C.3434" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3434" showAs=""/>
+                <passiveRef eId="S.2542" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2542" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/03/08/22G00027/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 7 gennaio 2022, n. 1, recante misure urgenti per fronteggiare l'emergenza COVID-19, in particolare nei luoghi di lavoro, nelle scuole e negli istituti della formazione superiore. (22G00027)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00027</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-03-04</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/03/08/22G00027/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/03/08/22G00027/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/03/08/22G00027/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/03/08/22G00027/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2022/18" nativeUrn="urn:nir:stato:legge:2022-03-04;18" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-03-08"><ns0:event type="enacted" date="2022-03-04"/><ns0:event type="published" date="2022-03-08"/><ns0:event type="commenced" date="2022-03-08"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/ab246754-dbc6-4e3e-b2b3-1d6daf545c57" sourceSha256="00328aa2f727a410b58eaa06fb6d0f1a57954780ccdfee601d6e34c5a7f2a1e6" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T20:38:32.007004Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2022-03-04">04 marzo 2022</docDate>
+                <docNumber>18</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 7 gennaio 2022, n. 1, recante misure urgenti per fronteggiare l'emergenza COVID-19, in particolare nei luoghi di lavoro, nelle scuole e negli istituti della formazione superiore. (22G00027) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 09/03/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2022-01-07/1/!main" ns1:target="olf:it/decreto-legge/stato/2022/1" ns1:relation="repeals">decreto-legge 7 gennaio 2022, n. 1</ref>, recante misure urgenti per fronteggiare l'emergenza COVID-19, in particolare nei luoghi di lavoro, nelle scuole e negli istituti della formazione superiore, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2022-02-04/5/!main" ns2:target="olf:it/decreto-legge/stato/2022/5" ns2:relation="repeals">decreto-legge 4 febbraio 2022, n. 5</ref>, e' abrogato</mod>. Restano validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodottisi e i rapporti giuridici sorti sulla base del medesimo <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegge/stato/2022-02-04/5/!main" ns3:target="olf:it/decreto-legge/stato/2022/5" ns3:relation="repeals">decreto-legge 4 febbraio 2022, n. 5</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2022-01-07/1/!main" ns4:target="olf:it/decreto-legge/stato/2022/1" ns4:relation="repeals">decreto-legge 7 gennaio 2022, n. 1</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 4 del 7 gennaio 2022. 
+ A norma dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns5:target="olf:it/legge/stato/1988/400/art_15-com5" ns5:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 85. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 4 marzo 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Speranza, Ministro della salute Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-03-04/18/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-03-04/18"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-03-04;18"/>
+                                <FRBRalias name="eli" value="eli/id/2022/03/08/22G00027/ORIGINAL"/>
+                                <FRBRdate date="2022-03-09" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-03-04/18/ita@2022-03-09/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-03-04/18/ita@2022-03-09"/>
+                                <FRBRdate date="2022-03-09" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-03-04/18/ita@2022-03-09/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-03-04/18/ita@2022-03-09.xml"/>
+                                <FRBRdate date="2022-03-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 7 GENNAIO 2022, N. 1 
+ 
+ <mod eId="modNov_2">All'articolo 1, 
+ al comma 1: 
+ al capoverso Art. 4-quater: 
+ alla rubrica, le parole: «ultra cinquantenni» sono sostituite dalla seguente: «ultracinquantenni»; 
+ al comma 1, le parole: «ai cittadini stranieri» sono sostituite dalle seguenti: «agli stranieri» e dopo le parole: «articoli 34 e 35 del» sono inserite le seguenti: «testo unico delle disposizioni concernenti la disciplina dell'immigrazione e norme sulla condizione dello straniero, di cui al»; 
+ al capoverso Art. 4-quinquies: 
+ alla rubrica, le parole: «sui luoghi» sono sostituite dalle seguenti: « nei luoghi »; 
+ al comma 1, dopo le parole: «all'articolo 4-quater» sono inserite le seguenti: «del presente decreto» e dopo le parole: «e c-bis)» e' inserito il seguente segno d'interpunzione: « , »; 
+ al comma 2: 
+ al primo periodo, le parole: « , i responsabili » sono sostituite dalle seguenti: « e i responsabili », le parole: « , sono tenuti » sono sostituite dalle seguenti: « sono tenuti » e dopo le parole: « di cui al comma 1 » sono inserite le seguenti: « del presente articolo »; 
+ al secondo periodo, dopo le parole: « di cui al comma 1 » sono inserite le seguenti: « del presente articolo »; 
+ al comma 3 sono aggiunte, in fine, le seguenti parole: « o da soggetti da essi delegati »; 
+ al comma 4: 
+ al primo periodo, le parole: « di cui ai commi 1 » sono sostituite dalle seguenti: « di cui al comma 1 », le parole: « o che risultino » sono sostituite dalle seguenti: « o risultino » e le parole: « certificazione, e comunque » sono sostituite dalle seguenti: « certificazione e, comunque, »; 
+ al terzo periodo, la parola: « <quotedText eId="modNov_2_old_2">medesimo</quotedText> » e' soppressa; 
+ al comma 5, le parole: « dei lavoratori » sono sostituite dalle seguenti: « dei soggetti »; 
+ al capoverso Art. 4-sexies: 
+ al comma 3, secondo periodo, dopo le parole: « relativi agli esenti » e' inserito il seguente segno d'interpunzione: « , »; 
+ al comma 4, primo periodo, dopo le parole: « dell'Agenzia delle entrate-Riscossione » e' inserito il seguente segno d'interpunzione: « , »; 
+ al comma 6: 
+ al primo periodo, le parole: « ed entro » sono sostituite dalla seguente: « entro »; 
+ al secondo periodo, le parole: « con modificazioni » sono sostituite dalle seguenti: « , con modificazioni, »; 
+ al comma 8, le parole: « dell'Agenzia delle entrate Riscossione » sono sostituite dalle seguenti: « dell'Agenzia delle entrate-Riscossione », le parole: « Fondo emergenze nazionali » sono sostituite dalle seguenti: « Fondo per le emergenze nazionali » e dopo le parole: « all'articolo 44 del » sono inserite le seguenti: « codice della protezione civile, di cui al ».</mod>
+                                    <mod eId="modNov_3">All'articolo 2: 
+ al comma 1: 
+ alla lettera a), capoverso 1-bis, sono aggiunte, in fine, le seguenti parole: « <quotedText eId="modNov_3_new_4">, nonche' al personale dei Corpi forestali delle regioni a statuto speciale</quotedText> »; 
+ alla lettera b), numero 2), le parole: « <quotedText eId="modNov_3_old_5">e comma 1-bis)</quotedText> » sono sostituite dalle seguenti: « <quotedText eId="modNov_3_new_5">e al comma 1-bis e</quotedText> ».</mod>
+                                    <mod eId="modNov_4">Dopo l'articolo 2 sono inseriti i seguenti: 
+ «Art. 2-bis (Durata delle certificazioni verdi COVID-19 di avvenuta somministrazione della dose di richiamo della vaccinazione anti SARS-CoV-2 o di avvenuta guarigione dal COVID-19). - 1.
+All'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_9" ns6:target="olf:it/decreto-legge/stato/2021/52/art_9" ns6:relation="amends">articolo 9 del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns7:target="olf:it/legge/stato/2021/87" ns7:relation="cites">legge 17 giugno 2021, n. 87</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 3, secondo periodo, le parole: "la certificazione verde COVID-19 ha una validita' di sei mesi a far data dalla medesima somministrazione" sono sostituite dalle seguenti: "la certificazione verde COVID-19 ha validita' a far data dalla medesima somministrazione senza necessita' di ulteriori dosi di richiamo"; 
+ b) il comma 4-bis e' sostituito dal seguente: 
+ "4-bis. A coloro che sono stati identificati come casi accertati positivi al SARS-CoV-2 oltre il quattordicesimo giorno dalla somministrazione della prima dose di vaccino e' rilasciata, altresi', la certificazione verde COVID-19 di cui al comma 2, lettera c-bis), che ha validita' di sei mesi a decorrere dall'avvenuta guarigione. A coloro che sono stati identificati come casi accertati positivi al SARS-CoV-2 a seguito del ciclo vaccinale primario o della somministrazione della relativa dose di richiamo e' rilasciata, altresi', la certificazione verde COVID-19 di cui al comma 2, lettera c-bis), che ha validita' a decorrere dall'avvenuta guarigione senza necessita' di ulteriori dosi di richiamo". 
+ Art. 2-ter (Ulteriori disposizioni sul regime dell'autosorveglianza). - 1. Dopo il <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2020-05-16/33/!main#art_1-com7ter" ns8:target="olf:it/decreto-legge/stato/2020/33/art_1-com7ter" ns8:relation="amends">comma 7-ter dell'articolo 1 del decreto-legge 16 maggio 2020, n. 33</ref>, convertito, con modificazioni, dalla <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2020-07-14/74/!main" ns9:target="olf:it/legge/stato/2020/74" ns9:relation="cites">legge 14 luglio 2020, n. 74</ref>, e' inserito il seguente: 
+ "7-quater. Le disposizioni di cui al comma 7-bis sull'autosorveglianza si applicano anche in caso di guarigione avvenuta successivamente al completamento del ciclo vaccinale primario". 
+ Art. 2-quater (Coordinamento con le regole di altri Paesi per la circolazione in sicurezza in Italia). - 1. Al <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main" ns10:target="olf:it/decreto-legge/stato/2021/52" ns10:relation="amends">decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns11:target="olf:it/legge/stato/2021/87" ns11:relation="cites">legge 17 giugno 2021, n. 87</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 9, dopo il comma 9 sono inseriti i seguenti: 
+ "9-bis. Ai soggetti provenienti da uno Stato estero in possesso di un certificato, rilasciato dalle competenti autorita' sanitarie estere, di avvenuta guarigione o di avvenuta vaccinazione anti SARS-CoV-2 con un vaccino autorizzato o riconosciuto come equivalente in Italia, nel caso in cui siano trascorsi piu' di sei mesi dal completamento del ciclo vaccinale primario anti SARS-CoV-2 o dall'avvenuta guarigione dal COVID-19, e' consentito l'accesso ai servizi e alle attivita' per i quali nel territorio nazionale sussiste l'obbligo di possedere una delle certificazioni verdi COVID-19 da vaccinazione o guarigione, di cui al comma 2, lettere a), b) e c-bis), cosiddetto green pass rafforzato, previa effettuazione di test antigenico rapido o molecolare con esito negativo al virus SARS-CoV-2, di cui al comma 2, lettera c), avente validita' di quarantotto ore dall'esecuzione, se antigenico rapido, o di settantadue ore, se molecolare. L'effettuazione del test di cui al primo periodo non e' obbligatoria in caso di avvenuta guarigione successiva al completamento del ciclo vaccinale primario. Nel caso di vaccinazioni con vaccini non autorizzati o non riconosciuti come equivalenti in Italia, l'accesso ai servizi e alle attivita' di cui al primo periodo e' consentito in ogni caso previa effettuazione di test antigenico rapido o molecolare con esito negativo al virus SARS-CoV-2, di cui al comma 2, lettera c), avente validita' di quarantotto ore dall'esecuzione, se antigenico rapido, o di settantadue ore, se molecolare. 
+ 9-ter. I titolari o i gestori dei servizi e delle attivita' di cui al comma 9-bis sono tenuti a verificare che l'accesso ai predetti servizi e attivita' avvenga nel rispetto delle prescrizioni di cui al medesimo comma 9-bis. Le verifiche delle certificazioni verdi COVID-19 sono effettuate anche con le modalita' indicate dal decreto del Presidente del Consiglio dei ministri adottato ai sensi del comma 10. Nelle more della modifica del menzionato decreto del Presidente del Consiglio dei ministri sono autorizzati gli interventi di adeguamento necessari a consentire le verifiche"; 
+ b) all'articolo 13: 
+ 1) al comma 1, primo periodo, dopo la parola: "8-ter" sono inserite le seguenti: ", 9, commi 9-bis e 9-ter,"; 
+ 2) al comma 1, terzo periodo, dopo le parole: "due violazioni delle disposizioni di cui" sono inserite le seguenti: "al comma 9-ter dell'articolo 9 e" ».</mod>
+                                    <mod eId="modNov_5">All'articolo 3: 
+ al comma 1: 
+ alla lettera a)<quotedText eId="modNov_5_new_7">,</quotedText> numero 1): 
+ al capoverso 1-bis, lettera b), le parole: « <quotedText eId="modNov_5_old_6">della pubblica amministrazione</quotedText> » sono sostituite dalle seguenti: « <quotedText eId="modNov_5_new_6">per la pubblica amministrazione</quotedText> »; 
+ al capoverso 1-ter: 
+ al primo periodo, dopo le parole: « lettere a) e c) » e' inserito il seguente segno d'interpunzione: « , »; 
+ al secondo periodo, dopo le parole: « Le verifiche » sono inserite le seguenti: « volte ad accertare »; 
+ alla lettera b), numero 1), le parole: « <quotedText eId="modNov_5_old_9">alle amministrazioni della giustizia</quotedText> » sono sostituite dalle seguenti: « <quotedText eId="modNov_5_new_9">all'amministrazione della giustizia</quotedText> »; 
+ alla lettera c), capoverso 7, e' aggiunto, in fine, il seguente periodo: « <quotedText eId="modNov_5_new_10">E' in ogni caso consentito il rientro immediato nel luogo di lavoro non appena il lavoratore entri in possesso della certificazione necessaria, purche' il datore di lavoro non abbia gia' stipulato un contratto di lavoro per la sua sostituzione</quotedText> »; 
+ al comma 2, capoverso 1-bis, le parole: « <quotedText eId="modNov_5_old_11">28 febbraio 2022</quotedText> » sono sostituite dalle seguenti: « <quotedText eId="modNov_5_new_11">31 marzo 2022</quotedText> » e dopo le parole: « n. 76 » e' inserito il seguente segno di interpunzione: « , »; 
+ dopo il comma 2 e' aggiunto il seguente: 
+ « <quotedText eId="modNov_5_new_12">2-bis. La procedura di emissione e trasmissione del certificato di guarigione dall'infezione da SARS-CoV-2 da parte del medico curante ai fini del rilascio della certificazione verde COVID-19 non comporta alcun onere a carico del paziente</quotedText> ».</mod> 
+ Dopo l'articolo 3 sono inseriti i seguenti: 
+ «Art. 3-bis (Spostamenti da e per le isole minori, lagunari e lacustri e trasporto scolastico dedicato). - 1. Dopo l'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_9quater" ns12:target="olf:it/decreto-legge/stato/2021/52/art_9quater" ns12:relation="amends">articolo 9-quater del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns13:target="olf:it/legge/stato/2021/87" ns13:relation="cites">legge 17 giugno 2021, n. 87</ref>, e' inserito il seguente: 
+ "Art. 9-quater.1 (Spostamenti da e per le isole minori, lagunari e lacustri e trasporto scolastico dedicato). - 1. Fatto salvo quanto previsto dal comma 2 dell'articolo 9-quater, a decorrere dalla data di entrata in vigore della presente disposizione fino al 31 marzo 2022, l'accesso e l'utilizzo dei mezzi di trasporto pubblico per gli spostamenti da e per le isole di cui all'allegato A alla <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2001-12-28/448/!main" ns14:target="olf:it/legge/stato/2001/448" ns14:relation="cites">legge 28 dicembre 2001, n. 448</ref>, ovvero da e per le isole lagunari e lacustri, per documentati motivi di salute e, per gli studenti di eta' pari o superiore a dodici anni, di frequenza dei corsi di scuola primaria e secondaria di primo grado e di secondo grado, sono consentiti anche ai soggetti muniti di una delle certificazioni verdi COVID-19, comprovante l'effettuazione di un test antigenico rapido o molecolare, con esito negativo al virus SARS-CoV-2, di cui all'articolo 9, comma 2, lettera c), avente validita' di quarantotto ore dall'esecuzione, se antigenico rapido, o di settantadue ore, se molecolare. 
+ 2. Per il medesimo periodo di cui al comma 1, agli studenti della scuola primaria e secondaria di primo e di secondo grado sono consentiti l'accesso ai mezzi di trasporto scolastico dedicato e il loro utilizzo, in deroga a quanto previsto dall'articolo 9-quater, fermi restando l'obbligo di indossare i dispositivi di protezione delle vie respiratorie di tipo FFP2 e il rispetto delle linee guida per il trasporto scolastico dedicato, di cui all'allegato 16 al decreto del Presidente del Consiglio dei ministri 2 marzo 2021, pubblicato nel supplemento ordinario alla Gazzetta Ufficiale n. 52 del 2 marzo 2021". 
+ Art. 3-ter (Disposizioni in materia di somministrazione di cibi e bevande nei locali di intrattenimento). - 1. A decorrere dal 10 marzo 2022, e' consentito il consumo di cibi e bevande nelle sale teatrali, da concerto e cinematografiche, nei locali di intrattenimento e di musica dal vivo e in quelli assimilati, nonche' nei luoghi in cui si svolgono eventi e competizioni sportive. 
+ Art. 3-quater (Misure per garantire la continuita' delle visite nelle strutture residenziali, socio-assistenziali e sociosanitarie e negli hospice). - 1. All'articolo 1-bis, comma 1, secondo periodo, del <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegge/stato/2021-04-01/44/!main" ns15:target="olf:it/decreto-legge/stato/2021/44" ns15:relation="amends">decreto-legge 1° aprile 2021, n. 44</ref>, convertito, con modificazioni, dalla <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2021-05-28/76/!main" ns16:target="olf:it/legge/stato/2021/76" ns16:relation="cites">legge 28 maggio 2021, n. 76</ref>, le parole: "possibilita' di visita" sono sostituite dalle seguenti: "continuita' delle visite". 
+ Art. 3-quinquies (Misure concernenti l'accesso alle strutture sanitarie e sociosanitarie). - 1. Il <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_2bis-com2" ns17:target="olf:it/decreto-legge/stato/2021/52/art_2bis-com2" ns17:relation="amends">comma 2 dell'articolo 2-bis del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns18:target="olf:it/legge/stato/2021/87" ns18:relation="cites">legge 17 giugno 2021, n. 87</ref>, e' sostituito dal seguente: 
+ "2. Agli accompagnatori dei pazienti in possesso del riconoscimento di disabilita' con connotazione di gravita' ai sensi dell'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/1992-02-05/104/!main#art_3-com3" ns19:target="olf:it/legge/stato/1992/104/art_3-com3" ns19:relation="cites">articolo 3, comma 3, della legge 5 febbraio 1992, n. 104</ref>, nonche' agli accompagnatori di soggetti affetti da Alzheimer o altre demenze o deficit cognitivi con sintomi anche lievi o moderati, certificati, e' sempre consentito prestare assistenza, anche nei reparti di degenza e di pronto soccorso, nel rispetto delle indicazioni del direttore sanitario della struttura, purche' in possesso della certificazione verde di cui all'articolo 9, comma 1, lettera a-bis), del presente decreto, cosiddetto green pass base". 
+ Art. 3-sexies (Gestione dei casi di positivita' all'infezione da SARS-CoV-2 nel sistema educativo, scolastico e formativo). - 1. Ferma restando per il personale scolastico l'applicazione del regime dell'autosorveglianza di cui all'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegge/stato/2020-05-16/33/!main#art_1-com7bis" ns20:target="olf:it/decreto-legge/stato/2020/33/art_1-com7bis" ns20:relation="amends">articolo 1, comma 7-bis, del decreto-legge 16 maggio 2020, n. 33</ref>, convertito, con modificazioni, dalla <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/2020-07-14/74/!main" ns21:target="olf:it/legge/stato/2020/74" ns21:relation="cites">legge 14 luglio 2020, n. 74</ref>, nella gestione dei contatti stretti tra gli alunni a seguito della positivita' all'infezione da SARS-CoV-2 nel sistema educativo, scolastico e formativo, ivi compresi le scuole paritarie e quelle non paritarie nonche' i centri provinciali per l'istruzione degli adulti, si applicano le seguenti misure: 
+ a) nelle istituzioni del sistema integrato di educazione e di istruzione di cui all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/65/!main#art_2-com2" ns22:target="olf:it/decreto-legislativo/stato/2017/65/art_2-com2" ns22:relation="cites">articolo 2, comma 2, del decreto legislativo 13 aprile 2017, n. 65</ref>: 
+ 1) fino a quattro casi di positivita' accertati tra i bambini e gli alunni presenti nella sezione o gruppo classe, l'attivita' educativa e didattica prosegue per tutti in presenza, con l'utilizzo di dispositivi di protezione delle vie respiratorie di tipo FFP2 da parte dei docenti e degli educatori fino al decimo giorno successivo alla data dell'ultimo contatto con l'ultimo soggetto confermato positivo al COVID-19. In tali casi, e' fatto comunque obbligo di effettuare un test antigenico rapido o molecolare, anche in centri privati a cio' abilitati, o un test antigenico autosomministrato per la rilevazione dell'antigene SARS-CoV-2 alla prima comparsa dei sintomi e, se ancora sintomatici, al quinto giorno successivo alla data dell'ultimo contatto. In caso di utilizzo del test antigenico autosomministrato, l'esito negativo e' attestato tramite autocertificazione; 
+ 2) con cinque o piu' casi di positivita' accertati nella stessa sezione o gruppo classe, si applica alla medesima sezione o al medesimo gruppo classe la sospensione delle relative attivita' per la durata di cinque giorni; 
+ b) nelle scuole primarie di cui all'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegislativo/stato/2004-02-19/59/!main#art_4-com2" ns23:target="olf:it/decreto-legislativo/stato/2004/59/art_4-com2" ns23:relation="cites">articolo 4, comma 2, del decreto legislativo 19 febbraio 2004, n. 59</ref>: 
+ 1) fino a quattro casi di positivita' accertati tra gli alunni presenti in classe, l'attivita' didattica prosegue per tutti in presenza, con l'utilizzo di dispositivi di protezione delle vie respiratorie di tipo FFP2 da parte dei docenti e degli alunni che abbiano superato i sei anni di eta' fino al decimo giorno successivo alla data dell'ultimo contatto con l'ultimo soggetto confermato positivo al COVID-19. In tali casi, e' fatto comunque obbligo di effettuare un test antigenico rapido o molecolare, anche in centri privati a cio' abilitati, o un test antigenico autosomministrato per la rilevazione dell'antigene SARS-CoV-2 alla prima comparsa dei sintomi e, se ancora sintomatici, al quinto giorno successivo alla data dell'ultimo contatto. In caso di utilizzo del test antigenico autosomministrato, l'esito negativo e' attestato tramite autocertificazione; 
+ 2) con cinque o piu' casi di positivita' accertati tra gli alunni presenti in classe, per coloro che diano dimostrazione di avere concluso il ciclo vaccinale primario o di essere guariti da meno di centoventi giorni o dopo aver completato il ciclo vaccinale primario, oppure di avere effettuato la dose di richiamo ove prevista, l'attivita' didattica prosegue in presenza, con l'utilizzo di dispositivi di protezione delle vie respiratorie di tipo FFP2 da parte dei docenti e degli alunni di eta' superiore a sei anni fino al decimo giorno successivo alla data dell'ultimo contatto con l'ultimo soggetto confermato positivo al COVID-19. Per coloro che posseggano un'idonea certificazione di esenzione dalla vaccinazione, l'attivita' didattica prosegue in presenza, con l'utilizzo dei dispositivi di protezione delle vie respiratorie di tipo FFP2 da parte dei docenti e degli alunni di eta' superiore a sei anni fino al decimo giorno successivo alla data dell'ultimo contatto con l'ultimo soggetto confermato positivo al COVID-19, su richiesta di coloro che esercitano la responsabilita' genitoriale. Per gli altri alunni si applica la didattica digitale integrata per la durata di cinque giorni; 
+ c) nelle scuole secondarie di primo grado, di cui all'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegislativo/stato/2004-02-19/59/!main#art_4-com3" ns24:target="olf:it/decreto-legislativo/stato/2004/59/art_4-com3" ns24:relation="cites">articolo 4, comma 3, del decreto legislativo 19 febbraio 2004, n. 59</ref>, nonche' nelle scuole secondarie di secondo grado e nel sistema di istruzione e formazione professionale, di cui all'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main#art_1-com1" ns25:target="olf:it/decreto-legislativo/stato/2005/226/art_1-com1" ns25:relation="cites">articolo 1, comma 1, del decreto legislativo 17 ottobre 2005, n. 226</ref>: 
+ 1) con un caso di positivita' accertato tra gli alunni presenti in classe, l'attivita' didattica prosegue per tutti in presenza, con l'utilizzo di dispositivi di protezione delle vie respiratorie di tipo FFP2 da parte dei docenti e degli alunni fino al decimo giorno successivo alla data dell'ultimo contatto con il soggetto confermato positivo al COVID-19; 
+ 2) con due o piu' casi di positivita' accertati tra gli alunni presenti in classe, per coloro che diano dimostrazione di avere concluso il ciclo vaccinale primario o di essere guariti da meno di centoventi giorni o dopo aver completato il ciclo vaccinale primario, oppure di avere effettuato la dose di richiamo, l'attivita' didattica prosegue in presenza, con l'utilizzo di dispositivi di protezione delle vie respiratorie di tipo FFP2 da parte dei docenti e degli alunni fino al decimo giorno successivo alla data dell'ultimo contatto con il soggetto confermato positivo al COVID-19. Per coloro che posseggano un'idonea certificazione di esenzione dalla vaccinazione, l'attivita' didattica prosegue in presenza, con l'utilizzo dei dispositivi di protezione delle vie respiratorie di tipo FFP2 fino al decimo giorno successivo alla data dell'ultimo contatto con il soggetto confermato positivo al COVID-19, su richiesta di coloro che esercitano la responsabilita' genitoriale, per i minori, e degli alunni direttamente interessati, se maggiorenni. Per gli altri alunni si applica la didattica digitale integrata per la durata di cinque giorni. 
+ 2. Le istituzioni scolastiche di ogni ordine e grado sono, in ogni caso, tenute a garantire e rendere effettivo il principio di inclusione degli studenti con disabilita' e con bisogni educativi speciali, anche nelle ipotesi di sospensione o di riorganizzazione delle attivita' previste dal comma 1. In tali casi, su richiesta delle famiglie al dirigente scolastico, e' comunque garantita ai predetti studenti la possibilita' di svolgere attivita' didattica in presenza, coinvolgendo un ristretto numero di compagni, sempre previa richiesta e con l'accordo delle rispettive famiglie. 
+ 3. Nei casi di cui al comma 1, lettera a), numero 2), lettera b), numero 2), primo periodo, e lettera c), numero 2), primo periodo, ai bambini e agli alunni della sezione, gruppo classe o classe si applica il regime sanitario di autosorveglianza di cui all'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegge/stato/2020-05-16/33/!main#art_1-com7bis" ns26:target="olf:it/decreto-legge/stato/2020/33/art_1-com7bis" ns26:relation="amends">articolo 1, comma 7-bis, del decreto-legge 16 maggio 2020, n. 33</ref>, convertito, con modificazioni, dalla <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2020-07-14/74/!main" ns27:target="olf:it/legge/stato/2020/74" ns27:relation="cites">legge 14 luglio 2020, n. 74</ref>, con esclusione dell'obbligo di indossare i dispositivi di protezione delle vie respiratorie fino a sei anni di eta'. Agli alunni per i quali non sia applicabile il regime sanitario di autosorveglianza si applicano la quarantena precauzionale della durata di cinque giorni, la cui cessazione consegue all'esito negativo di un test antigenico rapido o molecolare per la rilevazione dell'antigene SARS-CoV-2, e l'obbligo di indossare per i successivi cinque giorni i dispositivi di protezione delle vie respiratorie di tipo FFP2, se di eta' superiore a sei anni. La riammissione in classe dei soggetti in regime di quarantena e' subordinata alla sola dimostrazione di avere effettuato un test antigenico rapido o molecolare con esito negativo, anche in centri privati a cio' abilitati. 
+ 4. Nelle istituzioni e nelle scuole di cui al presente articolo resta fermo, in ogni caso, il divieto di accedere o permanere nei locali scolastici con sintomatologia respiratoria o temperatura corporea superiore a 37,5°. 
+ 5. Nelle istituzioni di cui al comma 1, lettera a), la sospensione delle attivita' di cui al numero 2) della medesima lettera a) avviene se l'accertamento del quinto caso di positivita' si verifica entro cinque giorni dall'accertamento del caso precedente. Per le scuole primarie e secondarie di primo e di secondo grado e per il sistema di istruzione e formazione professionale, si ricorre alla didattica digitale integrata di cui al comma 1, lettera b), numero 2), terzo periodo, e lettera c), numero 2), terzo periodo, se l'accertamento rispettivamente del quinto e del secondo caso di positivita' si verifica entro cinque giorni dall'accertamento del caso precedente. Ai fini del calcolo dei casi confermati positivi al COVID-19 non e' considerato il personale educativo e scolastico. 
+ 6. La condizione sanitaria che consente la didattica in presenza di cui al comma 1, lettera b), numero 2), primo periodo, e lettera c), numero 2), primo periodo, puo' essere controllata dalle istituzioni scolastiche mediante l'applicazione mobile per la verifica delle certificazioni verdi COVID-19 di cui al decreto del Presidente del Consiglio dei ministri adottato ai sensi all'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_9-com10" ns28:target="olf:it/decreto-legge/stato/2021/52/art_9-com10" ns28:relation="amends">articolo 9, comma 10, del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns29:target="olf:it/legge/stato/2021/87" ns29:relation="cites">legge 17 giugno 2021, n. 87</ref>. L'applicazione mobile di cui al primo periodo e' tecnicamente adeguata al conseguimento delle finalita' del presente comma e puo' essere impiegata anche nelle more dell'aggiornamento del decreto di cui al primo periodo. 
+ 7. Le misure gia' disposte ai sensi delle disposizioni in materia di gestione dei casi di positivita' all'infezione da SARS-CoV-2 nel sistema educativo, scolastico e formativo sono ridefinite in funzione di quanto disposto dal presente articolo ». 
+ <mod eId="modNov_6">L'articolo 4 e' soppresso.</mod>
+                                    <mod eId="modNov_7">All'articolo 5: 
+ al comma 1, la parola: « soggette » e' sostituita dalla seguente: « soggetta », le parole: « di cui all'articolo 4 » sono sostituite dalle seguenti: « di cui all'articolo 3-sexies del presente decreto », dopo le parole: « n. 178 » e' inserito il seguente segno d'interpunzione: « , », dopo le parole: « dell'emergenza epidemiologica COVID-19 » sono inserite le seguenti: « e per l'esecuzione della campagna vaccinale nazionale » e la parola: « art. » e' sostituita dalla seguente: « articolo »; 
+ al comma 2, le parole: « per i mancati introiti » sono sostituite dalle seguenti: « dei mancati introiti » e le parole: « sul sistema » sono sostituite dalle seguenti: « nel Sistema »; 
+ al comma 3, dopo le parole: « degli effetti » sono inserite le seguenti: « <quotedText eId="modNov_7_new_15">delle disposizioni del comma 1</quotedText> ».</mod> 
+ Dopo l'articolo 5 sono inseriti i seguenti: 
+ «Art. 5-bis (Fondo per i ristori educativi). - 1. E' istituito, nello stato di previsione del Ministero dell'istruzione, il Fondo per i ristori educativi, da destinare alla promozione di iniziative di recupero e di consolidamento degli apprendimenti relativi alle ore di scuola in presenza perse da parte degli studenti che sono stati soggetti a misure di isolamento dovute all'infezione da SARS-CoV-2, attraverso attivita' gratuite extra scolastiche, quali attivita' culturali, attivita' sportive, soggiorni estivi, sostegno allo studio e sostegno psicologico. La dotazione del Fondo e' di 667.000 euro per l'anno 2022 e di 1.333.000 euro per l'anno 2023. Con decreto del Ministro dell'istruzione sono definiti le modalita' e i criteri di ripartizione del Fondo. 
+ 2. Agli oneri derivanti dall'attuazione del comma 1, pari a 667.000 euro per l'anno 2022 e a 1.333.000 euro per l'anno 2023, si provvede mediante corrispondente riduzione del Fondo per l'arricchimento e l'ampliamento dell'offerta formativa e per gli interventi perequativi, di cui all'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/1997-12-18/440/!main#art_1" ns30:target="olf:it/legge/stato/1997/440/art_1" ns30:relation="cites">articolo 1 della legge 18 dicembre 1997, n. 440</ref>. 
+ Art. 5-ter (Lavoro agile per genitori di figli con disabilita').
+- 1. Fino alla data di cessazione dello stato di emergenza epidemiologica da COVID-19, i genitori lavoratori dipendenti privati che hanno almeno un figlio in condizioni di disabilita' grave riconosciuta ai sensi della <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/1992-02-05/104/!main" ns31:target="olf:it/legge/stato/1992/104" ns31:relation="cites">legge 5 febbraio 1992, n. 104</ref>, o almeno un figlio con bisogni educativi speciali, a condizione che nel nucleo familiare non vi sia altro genitore non lavoratore e che l'attivita' lavorativa non richieda necessariamente la presenza fisica, hanno diritto a svolgere la prestazione di lavoro in modalita' agile anche in assenza degli accordi individuali, fermo restando il rispetto degli obblighi informativi previsti dagli <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/legge/stato/2017-05-22/81/!main#art_18" ns32:target="olf:it/legge/stato/2017/81/art_18" ns32:relation="cites">articoli da 18</ref> <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2017-05-22/81/!main#art_23" ns33:target="olf:it/legge/stato/2017/81/art_23" ns33:relation="cites">a 23 della legge 22 maggio 2017, n. 81</ref>. 
+ 2. Ferma restando l'applicazione della disciplina gia' stabilita dai contratti collettivi nazionali, fino alla data di cui al comma 1, per i genitori lavoratori dipendenti pubblici le condizioni di cui al medesimo comma 1 costituiscono titolo prioritario per l'accesso al lavoro agile. 
+ Art. 5-quater (Abrogazione). - 1. Il <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decretoLegge/stato/2022-01-27/4/!main#art_30-com1" ns34:target="olf:it/decreto-legge/stato/2022/4/art_30-com1" ns34:relation="repeals">comma 1 dell'articolo 30 del decreto-legge 27 gennaio 2022, n. 4</ref>, e' abrogato. 
+ Art. 5-quinquies (Clausola di salvaguardia). - 1. Le disposizioni del presente decreto sono applicabili nelle regioni a statuto speciale e nelle province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti e le relative norme di attuazione ». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
