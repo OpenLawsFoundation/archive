@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-11-06/165/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-11-06/165"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-11-06;165"/>
+                    <FRBRalias name="eli" value="eli/id/2025/11/12/25G00176/ORIGINAL"/>
+                    <FRBRdate date="2025-11-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/11/12/25G00176/ORIGINAL" aknrelname="eli/id/2025/11/12/25G00176/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni per la partecipazione italiana a Banche e a Fondi multilaterali di sviluppo. (25G00176)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00176" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-11-06" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-11-06/165/ita@2025-11-13/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-11-06/165/ita@2025-11-13"/>
+                    <FRBRdate date="2025-11-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/11/12/25G00176/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/11/12/25G00176/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/11/12/25G00176/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-11-06/165/ita@2025-11-13/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-11-06/165/ita@2025-11-13.xml"/>
+                    <FRBRdate date="2025-11-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/11/12/25G00176/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-11-12" name="" number="263" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-11-12" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-11-06/165/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/11/12/25G00176/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni per la partecipazione italiana a Banche e a Fondi multilaterali di sviluppo. (25G00176)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00176</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-11-06</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/11/12/25G00176/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/11/12/25G00176/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/11/12/25G00176/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/11/12/25G00176/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/165" nativeUrn="urn:nir:stato:legge:2025-11-06;165" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-11-12"><ns0:event type="enacted" date="2025-11-06"/><ns0:event type="published" date="2025-11-12"/><ns0:event type="commenced" date="2025-11-12"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/c514d303-2673-4f61-aa18-f39e607f060f" sourceSha256="5c4177d82fbee4cb67ab562e282a055ba07f4be1c5903f6bef5b189f03aa646a" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T18:00:17.249873Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-11-06">06 novembre 2025</docDate>
+                <docNumber>165</docNumber>
+                <docTitle>Disposizioni per la partecipazione italiana a Banche e a Fondi multilaterali di sviluppo. (25G00176) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 13/11/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Partecipazione italiana a Banche 
+ e Fondi multilaterali di sviluppo</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_1__para_1__intro_1">
+                            <p>Il Presidente della Repubblica e' autorizzato ad accettare i seguenti atti internazionali: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>emendamento all'Accordo sulla costituzione della Banca internazionale per la ricostruzione e lo sviluppo (BIRS), reso esecutivo ai sensi della <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/1947-03-23/132/!main" ns1:target="olf:it/legge/stato/1947/132" ns1:relation="cites">legge 23 marzo 1947, n. 132</ref>, deliberato dal Consiglio dei Governatori della Banca medesima con la <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/risoluzione//2023-07-10/696/!main" ns2:target="olf:it/risoluzione//2023/696" ns2:relation="cites">risoluzione n. 696 del 10 luglio 2023</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>emendamento all'accordo che istituisce la Banca europea per la ricostruzione e lo sviluppo (BERS), adottato a Parigi il 29 maggio 1990, ratificato e reso esecutivo ai sensi della <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1991-02-11/53/!main" ns3:target="olf:it/legge/stato/1991/53" ns3:relation="cites">legge 11 febbraio 1991, n. 53</ref>, deliberato dal Consiglio dei Governatori della Banca medesima con la <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/risoluzione//2023-05-18/259/!main" ns4:target="olf:it/risoluzione//2023/259" ns4:relation="cites">risoluzione n. 259 del 18 maggio 2023</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>emendamento all'accordo che istituisce la Banca europea per la ricostruzione e lo sviluppo (BERS), adottato a Parigi il 29 maggio 1990, ratificato e reso esecutivo ai sensi della <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/1991-02-11/53/!main" ns5:target="olf:it/legge/stato/1991/53" ns5:relation="cites">legge 11 febbraio 1991, n. 53</ref>, deliberato dal Consiglio dei Governatori della Banca medesima con la <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/risoluzione//2023-05-18/260/!main" ns6:target="olf:it/risoluzione//2023/260" ns6:relation="cites">risoluzione n. 260 del 18 maggio 2023</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>emendamenti all'accordo che istituisce il Fondo africano di sviluppo, adottato ad Abidjan il 29 novembre 1972, ratificato e reso esecutivo ai sensi della <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/1974-12-24/880/!main" ns7:target="olf:it/legge/stato/1974/880" ns7:relation="cites">legge 24 dicembre 1974, n. 880</ref>, deliberati dal Consiglio dei Governatori del Fondo medesimo con la risoluzione F/BG/2023/04 del 23 maggio 2023. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns8:target="olf:it/dpr/stato/1985/1092" ns8:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/1947-03-23/132/!main#art_1" ns9:target="olf:it/legge/stato/1947/132/art_1" ns9:relation="cites">art. 1: 
+ - La legge 23 marzo 1947, n. 132</ref> (Partecipazione dell'Italia agli Accordi sulla costituzione del Fondo monetario internazionale e della Banca internazionale per la ricostruzione e lo sviluppo) e' pubblicata nella Gazzetta Ufficiale Serie Generale n. 71 del 27 marzo 1947 - Suppl. Ordinario n. 71. 
+ - La <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/1991-02-11/53/!main" ns10:target="olf:it/legge/stato/1991/53" ns10:relation="cites">legge 11 febbraio 1991, n. 53</ref> (Ratifica ed esecuzione dell'accordo che istituisce la Banca europea per la ricostruzione e lo sviluppo (BERS), adottato a Parigi il 29 maggio 1990) e' pubblicata nella Gazzetta Ufficiale n. 48 del 26 febbraio 1991 - Suppl. Ordinario n. 53. 
+ - La <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/1974-12-24/880/!main" ns11:target="olf:it/legge/stato/1974/880" ns11:relation="cites">legge 24 dicembre 1974, n. 880</ref> (Ratifica ed esecuzione dell'accordo che istituisce il Fondo africano di sviluppo, adottato ad Abidjan il 29 novembre 1972) e' pubblicata nella Gazzetta Ufficiale n. 79 del 22 marzo 1972. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Ordine di esecuzione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>Piena e intera esecuzione e' data agli emendamenti di cui all'articolo 1, comma 1, lettere a), b), c) e d), a decorrere dalla data della loro entrata in vigore, in conformita' alle seguenti disposizioni: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>quanto all'emendamento di cui all'articolo 1, comma 1, lettera a), della presente legge, all'articolo VIII dell'Accordo sulla costituzione della Banca internazionale per la ricostruzione e lo sviluppo; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>quanto agli emendamenti di cui all'articolo 1, comma 1, lettere b) e c), della presente legge, all'articolo 56 dell'accordo che istituisce la Banca europea per la ricostruzione e lo sviluppo; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>quanto agli emendamenti di cui all'articolo 1, comma 1, lettera d), della presente legge, all'articolo 51 dell'accordo che istituisce il Fondo africano di sviluppo. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Partecipazione dell'Italia 
+ al Fondo monetario internazionale</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Nel quadro della strategia di rafforzamento della capacita' operativa del Fondo monetario internazionale e al fine di mantenere inalterata la rappresentanza dell'Italia presso lo stesso Fondo, il Ministero dell'economia e delle finanze e' autorizzato a dare seguito all'aumento delle quote di partecipazione deliberato dal Consiglio dei Governatori del Fondo monetario internazionale con la <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/risoluzione//2023-12-15/1/!main" ns12:target="olf:it/risoluzione//2023/1" ns12:relation="cites">risoluzione n. 79-1 del 15 dicembre 2023</ref>. A tal fine, il Ministero dell'economia e delle finanze e' autorizzato a provvedere all'aumento della quota di partecipazione dell'Italia al Fondo monetario internazionale da 15.070 milioni di diritti speciali di prelievo a 22.605 milioni di diritti speciali di prelievo. Per i relativi versamenti, il Ministero dell'economia e delle finanze si avvale della Banca d'Italia, secondo le modalita' concordate tra le stesse istituzioni e il Fondo monetario internazionale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Nelle more dell'acquisto di efficacia dell'aumento della quota di cui al comma 1, la Banca d'Italia e' autorizzata a estendere fino al 31 dicembre 2027 la durata dell'accordo di prestito bilaterale, denominato «Bilateral Borrowing Agreement», stipulato dalla stessa Banca con il Fondo monetario internazionale ai sensi dell'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com637" ns13:target="olf:it/legge/stato/2020/178/art_1-com637" ns13:relation="cites">articolo 1, comma 637, della legge 30 dicembre 2020, n. 178</ref>, e avente scadenza il 31 dicembre 2024. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Nel quadro della strategia complessiva volta a rafforzare la stabilita' del sistema monetario e finanziario internazionale, la Banca d'Italia e' autorizzata a prorogare fino al 31 dicembre 2030 la durata dell'accordo di prestito multilaterale denominato New Arrangements to Borrow (NAB), di cui all'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegge/stato/2010-12-29/225/!main#art_2-com13-letc" ns14:target="olf:it/decreto-legge/stato/2010/225/art_2-com13-letc" ns14:relation="cites">articolo 2, comma 13, lettera c), del decreto-legge 29 dicembre 2010, n. 225</ref>, convertito, con modificazioni, dalla <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2011-02-26/10/!main#art_13-com6bis" ns15:target="olf:it/legge/stato/2011/10/art_13-com6bis" ns15:relation="cites">legge 26 febbraio 2011, n. 10, all'articolo 13, comma 6-bis</ref>, del <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegge/stato/2016-12-30/244/!main" ns16:target="olf:it/decreto-legge/stato/2016/244" ns16:relation="cites">decreto-legge 30 dicembre 2016, n. 244</ref>, convertito, con modificazioni, dalla <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2017-02-27/19/!main#art_1-com636" ns17:target="olf:it/legge/stato/2017/19/art_1-com636" ns17:relation="cites">legge 27 febbraio 2017, n. 19, e all'articolo 1, comma 636</ref>, della <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2020-12-30/178/!main" ns18:target="olf:it/legge/stato/2020/178" ns18:relation="cites">legge 30 dicembre 2020, n. 178</ref>.
+Nelle more dell'acquisto di efficacia dell'aumento della quota di cui al comma 1, l'importo massimo del prestito erogabile e' confermato fino a 13.797,04 milioni di diritti speciali di prelievo, salvo ridursi a un importo massimo fino a 11.549,90 milioni di diritti speciali di prelievo contestualmente all'aumento della quota di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Per l'aumento della quota di cui al comma 1 e' concessa alla Banca d'Italia la garanzia dello Stato per ogni eventuale rischio connesso con i versamenti da essa effettuati. Sui prestiti la cui estensione e' autorizzata dai commi 2 e 3 e' accordata la garanzia dello Stato per il rimborso del capitale e per gli interessi maturati, nonche' per gli eventuali rischi di cambio derivanti dall'esecuzione dei relativi accordi. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>I rapporti tra il Ministero dell'economia e delle finanze e la Banca d'Italia derivanti dai commi 1, 2, 3 e 4 sono regolati mediante apposite convenzioni. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Si riportano i <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com636" ns19:target="olf:it/legge/stato/2020/178/art_1-com636" ns19:relation="cites">commi 636</ref> e <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com637" ns20:target="olf:it/legge/stato/2020/178/art_1-com637" ns20:relation="cites">637 dell'art. 1 della legge 30 dicembre 2020, n. 178</ref> (Bilancio di previsione dello Stato per l'anno finanziario 2021 e bilancio pluriennale per il triennio 2021-2023), pubblicata nella Gazzetta Ufficiale n. 322 del 30 dicembre 2020 - Suppl.
+ Ordinario n. 46: 
+ «636. Nel quadro della strategia complessiva volta a rafforzare la stabilita' del sistema monetario e finanziario internazionale, la Banca d'Italia e' autorizzata a prorogare fino al 31 dicembre 2025 la durata dell'accordo di prestito multilaterale denominato New Arrangements to Borrow (NAB), di cui all'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegge/stato/2010-12-29/225/!main#art_2-com13-letc" ns21:target="olf:it/decreto-legge/stato/2010/225/art_2-com13-letc" ns21:relation="cites">articolo 2, comma 13, lettera c), del decreto-legge 29 dicembre 2010, n. 225</ref>, convertito, con modificazioni, dalla <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2011-02-26/10/!main#art_13-com6bis" ns22:target="olf:it/legge/stato/2011/10/art_13-com6bis" ns22:relation="cites">legge 26 febbraio 2011, n. 10, e all'articolo 13, comma 6-bis</ref>, del <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegge/stato/2016-12-30/244/!main" ns23:target="olf:it/decreto-legge/stato/2016/244" ns23:relation="cites">decreto-legge 30 dicembre 2016, n. 244</ref>, convertito, con modificazioni, dalla <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2017-02-27/19/!main" ns24:target="olf:it/legge/stato/2017/19" ns24:relation="cites">legge 27 febbraio 2017, n. 19</ref>, e a incrementare l'importo massimo del prestito erogabile fino a 13.797,04 milioni di diritti speciali di prelievo. 
+ 637. Nel quadro della strategia complessiva volta a rafforzare la stabilita' del sistema monetario e finanziario internazionale e al fine di rinnovare l'accordo di cui all'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegge/stato/2011-12-29/216/!main#art_25-com2" ns25:target="olf:it/decreto-legge/stato/2011/216/art_25-com2" ns25:relation="cites">articolo 25, comma 2, del decreto-legge 29 dicembre 2011, n. 216</ref>, convertito, con modificazioni, dalla <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/legge/stato/2012-02-24/14/!main" ns26:target="olf:it/legge/stato/2012/14" ns26:relation="cites">legge 24 febbraio 2012, n. 14</ref>, successivamente modificato dal <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegge/stato/2016-12-30/244/!main" ns27:target="olf:it/decreto-legge/stato/2016/244" ns27:relation="cites">decreto-legge 30 dicembre 2016, n. 244</ref>, convertito, con modificazioni, dalla <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/2017-02-27/19/!main" ns28:target="olf:it/legge/stato/2017/19" ns28:relation="cites">legge 27 febbraio 2017, n. 19</ref>, la Banca d'Italia e' autorizzata a stipulare con il Fondo monetario internazionale un nuovo accordo di prestito bilaterale, denominato Bilateral Borrowing Agreement, per un ammontare di 23 miliardi e 480 milioni di euro, con scadenza fissata al 31 dicembre 2023, estensibile di un anno fino al 31 dicembre 2024. A decorrere dalla data di acquisto di efficacia del prestito di cui al comma 636 del presente articolo, l'ammontare dell'accordo di prestito bilaterale di cui al presente comma si riduce a 10 miliardi e 115 milioni di euro.». 
+ - Si riporta il testo dell'art. 2, comma 13, del decreto-legge 29 dicembre 2010, n. 225, convertito, con modificazioni, dalla legge 26 febbraio 2011, n.  10 (Proroga di termini previsti da disposizioni legislative e di interventi urgenti in materia tributaria e di sostegno alle imprese e alle famiglie): 
+ «Art. 2 (Proroghe onerose di termini). - 1.-12-terdecies (omissis). 
+ 13. Al fine di fronteggiare la crisi finanziaria e in attuazione degli impegni internazionali assunti in occasione del Vertice G20 di Londra 2009, del Consiglio europeo di giugno 2009 e del Vertice G20 di Seul di novembre 2010, le disposizioni urgenti per la partecipazione dell'Italia agli interventi del Fondo monetario internazionale per fronteggiare gravi crisi finanziarie dei Paesi aderenti di cui al <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoLegge/stato/1999-01-25/7/!main" ns29:target="olf:it/decreto-legge/stato/1999/7" ns29:relation="cites">decreto-legge 25 gennaio 1999, n. 7</ref>, convertito con modificazioni dalla <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/1999-03-25/74/!main" ns30:target="olf:it/legge/stato/1999/74" ns30:relation="cites">legge 25 marzo 1999, n. 74</ref>, sono prorogate e si provvede all'estensione della linea di credito gia' esistente. 
+ Conseguentemente: 
+ a) la Banca d'Italia e' autorizzata a svolgere le trattative con il Fondo monetario internazionale (FMI), per la conclusione di un accordo di prestito con lo stesso FMI di cui all'allegato 1 del presente decreto, per un ammontare pari a 8,11 miliardi di euro. Tale accordo diventa esecutivo a decorrere dalla data di entrata in vigore del presente decreto; 
+ b) la Banca d'Italia e' altresi' autorizzata, qualora si richiedano risorse finanziarie aggiuntive rispetto all'ammontare di cui alla lettera a), a contribuire nel limite massimo complessivo di 13,53 miliardi di euro; 
+ c) una volta completata la riforma del New Arrangements to Borrow (NAB) e' autorizzata la confluenza dei suddetti prestiti nello strumento di prestito NAB in aggiunta alla linea di credito gia' esistente pari a 1,753 miliardi di diritti speciali di prelievo (DSP); 
+ d) i rapporti derivanti dai predetti prestiti saranno regolati mediante convenzione tra il Ministero dell'economia e delle finanze e la Banca d'Italia. 
+ (omissis).». 
+ - Si riporta il testo dell'art. 13, comma 6-bis, del decreto-legge 30 dicembre 2016, n. 244, convertito, con modificazioni, dalla legge 27 febbraio 2017, n. 19 (Proroga e definizione di termini): 
+ «Art. 13 (Proroga di termini in materia economica e finanziaria). - 1.-6. (omissis). 
+ 6-bis. La Banca d'Italia e' autorizzata a prorogare fino al 16 novembre 2022, per un importo massimo pari a 6.898,52 milioni di diritti speciali di prelievo, la durata dell'accordo di prestito denominato New Arrangements to Borrow (NAB) di cui all'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decretoLegge/stato/2010-12-29/225/!main#art_2-com13" ns31:target="olf:it/decreto-legge/stato/2010/225/art_2-com13" ns31:relation="cites">articolo 2, comma 13, del decreto-legge 29 dicembre 2010, n. 225</ref>, convertito, con modificazioni, dalla <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/legge/stato/2011-02-26/10/!main" ns32:target="olf:it/legge/stato/2011/10" ns32:relation="cites">legge 26 febbraio 2011, n. 10</ref>. Su tali prestiti e' accordata la garanzia dello Stato per il rimborso del capitale, per gli interessi maturati e per la copertura di eventuali rischi di cambio derivanti dall'esecuzione dei suddetti prestiti. Resta inoltre confermata la garanzia dello Stato per i rischi, di cui all'<ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2011-10-31/190/!main#art_4" ns33:target="olf:it/legge/stato/2011/190/art_4" ns33:relation="cites">articolo 4 della legge 31 ottobre 2011, n. 190</ref>. 
+ (omissis)». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Partecipazione italiana all'aumento di capitale 
+ a chiamata della Banca africana di sviluppo</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>E' autorizzata la partecipazione italiana all'aumento di capitale a chiamata della Banca africana di sviluppo, deliberato dal Consiglio dei Governatori della Banca medesima con risoluzione B/BG/2024/09 del 29 maggio 2024, per complessive 205.130 nuove azioni. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Partecipazione italiana all'aumento di capitale della Banca interamericana di sviluppo - Societa' interamericana di investimento 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>E' autorizzata la partecipazione italiana all'aumento di capitale della Banca interamericana di sviluppo - Societa' interamericana di investimento, deliberato dal Consiglio dei Governatori della Banca medesima con risoluzione CII/AG-5/24 del 10 marzo 2024, con la sottoscrizione di 2.342 azioni a pagamento. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La sottoscrizione di cui al comma 1 e' valutata in complessivi 49.182.000 dollari statunitensi da versare secondo le modalita' determinate dai Governatori della Banca di cui al medesimo comma 1.
+Le somme saranno erogate al tasso di cambio vigente alla data del pagamento. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Per le finalita' di cui al presente articolo e' autorizzata la spesa di euro 6.542.000 per ciascuno degli anni dal 2025 al 2031. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading>Sottoscrizione di capitale ibrido della Banca internazionale per la ricostruzione e lo sviluppo</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Ministero dell'economia e delle finanze e' autorizzato, per ciascuno degli anni dal 2025 al 2029, a sottoscrivere strumenti finanziari ibridi, irredimibili e subordinati, emessi dalla Banca internazionale per la ricostruzione e lo sviluppo, per un ammontare annuale massimo di 20 milioni di euro. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>I termini e le condizioni degli strumenti finanziari ibridi di cui al comma 1 sono definiti con uno o piu' accordi stipulati tra il Ministero dell'economia e delle finanze e la Banca internazionale per la ricostruzione e lo sviluppo. Gli accordi assicurano all'Italia la facolta', nel caso di aumento di capitale a pagamento, di convertire in tutto o in parte gli strumenti finanziari ibridi di cui al comma 1 in quote di partecipazione al capitale della Banca internazionale per la ricostruzione e lo sviluppo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Per le finalita' del presente articolo e' autorizzata la spesa di 20 milioni di euro per ciascuno degli anni dal 2025 al 2029. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Gli interessi dovuti all'Italia in relazione agli strumenti finanziari di cui al presente articolo sono versati all'entrata del bilancio dello Stato, capo X, capitolo 2368, articolo 2, e restano acquisiti all'erario. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading>Partecipazione italiana all'aumento di capitale della Banca europea per la ricostruzione e lo sviluppo</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>E' autorizzata la partecipazione italiana all'aumento di capitale della Banca europea per la ricostruzione e lo sviluppo, deliberato dal Consiglio dei Governatori della Banca medesima con <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/risoluzione//2023-12-15/265/!main" ns34:target="olf:it/risoluzione//2023/265" ns34:relation="cites">risoluzione n. 265 del 15 dicembre 2023</ref>, con la sottoscrizione di 34.360 azioni a pagamento. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_7__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per la sottoscrizione dell'aumento di capitale di cui al comma 1 e' autorizzata la spesa di euro 68.720.000 per ciascuno degli anni dal 2025 al 2029. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading> Disposizioni finanziarie</heading>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Agli oneri derivanti dagli articoli 5, 6 e 7, pari a euro 95.262.000 per ciascuno degli anni dal 2025 al 2029 e a euro 6.542.000 per ciascuno degli anni 2030 e 2031, si provvede mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com723" ns35:target="olf:it/legge/stato/2022/197/art_1-com723" ns35:relation="cites">articolo 1, comma 723, della legge 29 dicembre 2022, n. 197</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 8: 
+ - Si riporta il comma 723 dell'art. 1 della legge 29 dicembre 2022, n. 197 (Bilancio di previsione dello Stato per l'anno finanziario 2023 e bilancio pluriennale per il triennio 2023-2025), pubblicata nella Gazzetta Ufficiale n. 303 del 29 dicembre 2022 - Suppl. Ordinario n. 43: 
+ «723. E' autorizzata la partecipazione dell'Italia all'aumento di capitale della Banca di sviluppo del Consiglio d'Europa, per una quota pari a 710.592.000 euro di capitale sottoscritto, di cui 200.671.463 euro di capitale versato. Il versamento e' effettuato in quattro rate annuali di importo pari a 50.167.866 euro ciascuna. Il primo versamento e' effettuato entro l'anno 2023. I versamenti successivi al primo sono effettuati entro il 31 luglio di ciascuno degli anni 2024, 2025 e 2026.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_9">
+                <num>Art. 9.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_9__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 6 novembre 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giorgetti, Ministro dell'economia e delle finanze Tajani, Ministro degli affari esteri e della cooperazione internazionale Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
