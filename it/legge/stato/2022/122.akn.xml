@@ -1,0 +1,956 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/122/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/122"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-08-04;122"/>
+                    <FRBRalias name="eli" value="eli/id/2022/08/19/22G00127/ORIGINAL"/>
+                    <FRBRdate date="2022-08-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/08/19/22G00127/ORIGINAL" aknrelname="eli/id/2022/08/19/22G00127/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 21 giugno 2022, n. 73, recante misure urgenti in materia di semplificazioni fiscali e di rilascio del nulla osta al lavoro, Tesoreria dello Stato e ulteriori disposizioni finanziarie e sociali. (22G00127)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00127" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2022-08-04" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/122/ita@2022-08-20/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/122/ita@2022-08-20"/>
+                    <FRBRdate date="2022-08-20" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/08/19/22G00127/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/08/19/22G00127/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/08/19/22G00127/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/122/ita@2022-08-20/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/122/ita@2022-08-20.xml"/>
+                    <FRBRdate date="2022-08-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/08/19/22G00127/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-08-19" name="" number="193" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-08-19" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2022-08-04" refersTo="#C.3653"/>
+                <step by="#senato" date="2022-08-04" refersTo="#S.2681"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1923-11-18;2440#50"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1923-11-18;2440#54"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1967-01-05;18#157 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1973-09-29;602#52"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:1993-08-30;331#50"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:1994-06-10;357#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143). </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1995-10-26;504#13"/>
+                        <new>
+                            <nakn:text>, nel convertire, con modificazioni, il D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143), ha disposto (con l'art. 1, comma 1) la soppressione dell'art. 25 del D.L. medesimo. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1997-07-09;241#37"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1997-12-15;446#11"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:legge:2000-07-27;212#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2010-05-31;78#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2014-11-21;175#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2016-10-22;193#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:legge:2017-05-22;81#23"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;112#16"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;112#18"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#54"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#79"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#82"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#83"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#84"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#85"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#86"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#87"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#88"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#101"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#104"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2019-01-12;14#25 novies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:legge:2019-12-27;160#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-03-17;18#2 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;31#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:legge:2021-12-09;220#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:legge:2021-12-09;220#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:legge:2021-12-09;220#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:legge:2021-12-09;220#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:legge:2021-12-09;220#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-12-30;228#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:legge:2021-12-30;234#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-17;50#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-17;50#57"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 giugno 2022, n. 73 (in G.U. 21/06/2022, n. 143).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) che la rubrica del titolo II "PROCEDURE DI INCASSO E PAGAMENTO PRESSO LA TESORERIA DELLO STATO IN
+MATERIA ECONOMICO-FINANZIARIA E SOCIALE" e' sostituita dalla seguente: "PROCEDURE DI INCASSO E PAGAMENTO PRESSO LA TESORERIA DELLO STATO E DISPOSIZIONI
+IN MATERIA ECONOMICO-FINANZIARIA E SOCIALE".</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione del comma 2-bis all'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 2, lettera b) e l'introduzione del comma 6-bis all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#3 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione della lettera a-bis) all'art. 6, comma 1 e la modifica dell'art. 6, comma 1, lettera c).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#6 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#6 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione del comma 1-bis all'art. 8 e la modifica dell'art. 8, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#10"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, commi 1, lettera a) e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#21"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 21, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#23"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 23, commi 3 e 7 e l'introduzione dei commi 8-bis ed 8-ter all'art. 23.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#25"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la soppressione dell'art. 25.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#25 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 25-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_55" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#26"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 26.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_56" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#26 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 26-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_57" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#30"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 30, comma 1, lettere i) ed l).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_58" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#33"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 33, comma 1, alinea e lettere a) e b) e l'introduzione delle lettere b-bis), b-ter), b-quater) e b-quinquies) all'art. 33, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_59" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#34"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 34, comma 2, lettera d).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_60" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#35"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 35, comma 4 e rubrica e l'introduzione dei commi 5-bis e 5-ter all'art. 35.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_61" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#35 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 35-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_62" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#36"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 36, comma 1 e rubrica e l'introduzione dei commi 1-bis e 4-bis all'art. 36.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_63" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#36 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 36-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_64" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#37 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 37-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_65" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#38"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 38, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_66" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#38 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 38-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_67" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#39"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 39, commi 1 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_68" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#39 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 39-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_69" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#40"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 40, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_70" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#40 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 40-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_71" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#40 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 40-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_72" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#40 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 40-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_73" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#41 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 41-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_74" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#45"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 45, comma 3 e l'introduzione dei commi 3-bis, 3-ter, 3-quater, 3-quinquies, 3-sexies, 3-septies, 3-octies, 3-novies e 3-decies all'art. 45.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_75" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-08-04;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-06-21;73#46 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 46-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2022-08-04/122/!main" showAs=""/>
+                <passiveRef eId="C.3653" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3653" showAs=""/>
+                <passiveRef eId="S.2681" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2681" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/08/19/22G00127/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 21 giugno 2022, n. 73, recante misure urgenti in materia di semplificazioni fiscali e di rilascio del nulla osta al lavoro, Tesoreria dello Stato e ulteriori disposizioni finanziarie e sociali. (22G00127)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00127</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-08-04</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/08/19/22G00127/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/08/19/22G00127/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/08/19/22G00127/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/08/19/22G00127/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2022/122" nativeUrn="urn:nir:stato:legge:2022-08-04;122" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-08-19"><ns0:event type="enacted" date="2022-08-04"/><ns0:event type="published" date="2022-08-19"/><ns0:event type="commenced" date="2022-08-19"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/feb58abb-74f7-4d7e-8bee-62d33eb10ed3" sourceSha256="c1749772506c8d9cc6120c856808a5fc4d2266d60128083ce1d5efbb237dddeb" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T20:10:15.060707Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2022-08-04">04 agosto 2022</docDate>
+                <docNumber>122</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 21 giugno 2022, n. 73, recante misure urgenti in materia di semplificazioni fiscali e di rilascio del nulla osta al lavoro, Tesoreria dello Stato e ulteriori disposizioni finanziarie e sociali. (22G00127) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 20/08/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> null</heading>
+                <paragraph>
+                    <content>
+                        <p>
+ 2. La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2022-06-21/73/!main" ns1:target="olf:it/decreto-legge/stato/2022/73" ns1:relation="amends">decreto-legge 21 giugno 2022, n. 73</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 143 del 21 giugno 2022. 
+ A norma dell'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns2:target="olf:it/legge/stato/1988/400/art_15-com5" ns2:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 32 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 4 agosto 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Franco, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/122/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/122"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-08-04;122"/>
+                                <FRBRalias name="eli" value="eli/id/2022/08/19/22G00127/ORIGINAL"/>
+                                <FRBRdate date="2022-08-20" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/122/ita@2022-08-20/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/122/ita@2022-08-20"/>
+                                <FRBRdate date="2022-08-20" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-08-04/122/ita@2022-08-20/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-08-04/122/ita@2022-08-20.xml"/>
+                                <FRBRdate date="2022-08-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 21 GIUGNO 2022, N. 73 
+ 
+ All'articolo 1: 
+ dopo il comma 2 e' aggiunto il seguente: 
+ «2-bis. All'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegge/stato/1994-06-10/357/!main#art_7-com4quater" ns3:target="olf:it/decreto-legge/stato/1994/357/art_7-com4quater" ns3:relation="amends">articolo 7, comma 4-quater, del decreto-legge 10 giugno 1994, n. 357</ref>, convertito, con modificazioni, dalla <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/1994-08-08/489/!main" ns4:target="olf:it/legge/stato/1994/489" ns4:relation="cites">legge 8 agosto 1994, n. 489</ref>, dopo le parole: "la tenuta" sono inserite le seguenti: "e la conservazione", le parole: "e', in ogni caso, considerata regolare" sono sostituite dalle seguenti: "sono, in ogni caso, considerate regolari" e dopo le parole: "nei termini di legge" sono inserite le seguenti: "o di conservazione sostitutiva digitale ai sensi del codice di cui al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main" ns5:target="olf:it/decreto-legislativo/stato/2005/82" ns5:relation="cites">decreto legislativo 7 marzo 2005, n. 82</ref> "». 
+ All'articolo 2: 
+ al comma 1, la lettera c) e' sostituita dalle seguenti: 
+ «c) trasmettere in via telematica all'Agenzia delle entrate le dichiarazioni elaborate e i relativi prospetti di liquidazione, secondo le modalita' stabilite con provvedimento del direttore dell'Agenzia delle entrate, entro: 
+ 1) il 15 giugno di ciascun anno, per le dichiarazioni presentate dal contribuente entro il 31 maggio; 
+ 2) il 29 giugno di ciascun anno, per le dichiarazioni presentate dal contribuente dal 1° al 20 giugno; 
+ 3) il 23 luglio di ciascun anno, per le dichiarazioni presentate dal contribuente dal 21 giugno al 15 luglio; 
+ 4) il 15 settembre di ciascun anno, per le dichiarazioni presentate dal contribuente dal 16 luglio al 31 agosto; 
+ 5) il 30 settembre di ciascun anno, per le dichiarazioni presentate dal contribuente dal 1° al 30 settembre; 
+ c-bis) trasmettere in via telematica all'Agenzia delle entrate i dati contenuti nelle schede relative alle scelte dell'otto, del cinque e del due per mille dell'imposta sul reddito delle persone fisiche, secondo le modalita' stabilite con provvedimento del direttore dell'Agenzia delle entrate, sentito il Garante per la protezione dei dati personali, entro i termini previsti alla lettera c)». 
+ All'articolo 3: 
+ al comma 2, lettera b), le parole: «entro il mese successivo al periodo di riferimento» sono sostituite dalle seguenti: «entro il giorno 25 del mese successivo al periodo di riferimento»; 
+ dopo il comma 6 e' aggiunto il seguente: 
+ «6-bis. Fermo restando il termine del 30 giugno di ogni anno, previsto ai fini dell'adempimento degli obblighi pubblicitari di cui all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2017-08-04/124/!main#art_1-com125" ns6:target="olf:it/legge/stato/2017/124/art_1-com125" ns6:relation="amends">articolo 1, commi 125</ref> e <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2017-08-04/124/!main#art_1-com125bis" ns7:target="olf:it/legge/stato/2017/124/art_1-com125bis" ns7:relation="amends">125-bis, della legge 4 agosto 2017, n. 124</ref>, per gli enti che provvedono nell'ambito della nota integrativa del bilancio d'esercizio o di quello consolidato, il termine entro il quale provvedere all'adempimento e' quello previsto per l'approvazione del bilancio dell'anno successivo». 
+ Dopo l'articolo 3 e' inserito il seguente: 
+ «Art. 3-bis (Estensione dell'applicazione della disciplina in materia di versamento unitario). - 1. Dalla data di entrata in vigore del decreto del Ministro dell'economia e delle finanze di cui al comma 2, ai contribuenti e' consentito effettuare versamenti unitari di qualsiasi imposta, tassa o contributo, comunque denominati, spettanti allo Stato, agli enti territoriali e agli enti previdenziali, secondo la disciplina dell'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/1997-07-09/241/!main#art_17" ns8:target="olf:it/decreto-legislativo/stato/1997/241/art_17" ns8:relation="amends">articolo 17 del decreto legislativo 9 luglio 1997, n. 241</ref>. 
+ 2. Con decreto del Ministro dell'economia e delle finanze, ai sensi della lettera h-ter) del comma 2 dell'articolo 17 del citato <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/1997/241/!main" ns9:resolution="unresolved">decreto legislativo n. 241 del 1997</ref>, sono individuate e disciplinate le tipologie dei versamenti di cui al comma 1 del presente articolo non gia' compresi nell'ambito di applicazione del medesimo decreto legislativo». 
+ All'articolo 6: 
+ al comma 1: 
+ dopo la lettera a) e' inserita la seguente: 
+ «a-bis) al comma 2, le parole: "lettera a)," sono soppresse»; 
+ la lettera c) e' sostituita dalla seguente: 
+ «c) al comma 3 sono aggiunti, in fine, i seguenti periodi: "Nel caso di presentazione della dichiarazione precompilata, con modifiche, mediante CAF o professionista, il controllo formale non e' effettuato sui dati delle spese sanitarie che non risultano modificati rispetto alla dichiarazione precompilata e non e' richiesta la conservazione della documentazione. Ai fini del controllo il CAF o il professionista verifica, prendendo visione della documentazione esibita dal contribuente, la corrispondenza delle spese sanitarie con gli importi aggregati in base alle tipologie di spesa utilizzati per la predisposizione della dichiarazione precompilata. In caso di difformita', l'Agenzia delle entrate effettua il controllo formale relativamente ai soli documenti di spesa che non risultano indicati nella dichiarazione precompilata"». 
+ Nel capo I del titolo I, dopo l'articolo 6 sono aggiunti i seguenti: 
+ «Art. 6-bis (Comunicazione di conclusione di attivita' istruttoria al contribuente). - 1. Dopo il <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2000-07-27/212/!main#art_6-com5" ns10:target="olf:it/legge/stato/2000/212/art_6-com5" ns10:relation="amends">comma 5 dell'articolo 6 della legge 27 luglio 2000, n. 212</ref>, e' aggiunto il seguente: 
+ "5-bis. In caso di esercizio di attivita' istruttorie di controllo nei confronti del contribuente del cui avvio lo stesso sia stato informato, l'amministrazione finanziaria comunica al contribuente, in forma semplificata, entro il termine di sessanta giorni dalla conclusione della procedura di controllo, l'esito negativo di quest'ultima. L'amministrazione finanziaria, con proprio provvedimento, individua le modalita' semplificate di comunicazione, anche mediante l'utilizzo di messaggistica di testo indirizzata all'utenza telefonica mobile del destinatario, della posta elettronica, anche non certificata, o dell'applicazione 'IO'. Con il medesimo provvedimento sono definite le modalita' con le quali il contribuente fornisce all'amministrazione finanziaria i propri dati al fine di consentire la suddetta comunicazione in forma semplificata. La comunicazione dell'esito negativo della procedura di controllo non pregiudica l'esercizio successivo dei poteri di controllo dell'amministrazione finanziaria, ai sensi delle vigenti disposizioni. Le disposizioni del presente comma non si applicano alle liquidazioni di cui agli <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973-09-29/600/!main#art_36bis" ns11:target="olf:it/dpr/stato/1973/600/art_36bis" ns11:relation="amends">articoli 36-bis del decreto del Presidente della Repubblica 29 settembre 1973, n. 600</ref>, e 54-bis del <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-10-26/633/!main" ns12:target="olf:it/dpr/stato/1972/633" ns12:relation="cites">decreto del Presidente della Repubblica 26 ottobre 1972, n. 633</ref>". 
+ 2. All'attuazione delle disposizioni di cui al comma 1 si provvede con le risorse umane, finanziarie e strumentali previste a legislazione vigente, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+ Art. 6-ter (Vendita diretta, su proposta del debitore, di immobili privi di rendita catastale). - 1. Dopo il <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973-09-29/602/!main#art_52-com2quater" ns13:target="olf:it/dpr/stato/1973/602/art_52-com2quater" ns13:relation="amends">comma 2-quater dell'articolo 52 del decreto del Presidente della Repubblica 29 settembre 1973, n. 602</ref>, e' aggiunto il seguente: 
+ "2-quinquies. Nel caso in cui il debitore intenda procedere direttamente, ai sensi del comma 2-bis, alla vendita di immobili censibili nel catasto edilizio urbano senza attribuzione di rendita catastale, quali fabbricati in corso di costruzione, fabbricati collabenti, fabbricati in corso di definizione, lastrici solari e aree urbane, il medesimo debitore puo' procedere, con il consenso dell'agente della riscossione, alla vendita del bene pignorato o ipotecato, al valore determinato, in deroga al comma 2-bis, da perizia inoppugnabile effettuata dall'Agenzia delle entrate in base agli accordi stipulati con lo stesso agente della riscossione ai sensi dell'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/1999-07-30/300/!main#art_64-com3bis" ns14:target="olf:it/decreto-legislativo/stato/1999/300/art_64-com3bis" ns14:relation="cites">articolo 64, comma 3-bis, del decreto legislativo 30 luglio 1999, n. 300</ref>, e nei termini ivi stabiliti, su richiesta presentata dal debitore all'agente. Il rimborso dei costi sostenuti per l'effettuazione della perizia e' posto a carico del debitore ed e' versato all'agente della riscossione unitamente al corrispettivo della vendita di cui al comma 2-bis, ovvero, in mancanza di vendita, entro il termine di novanta giorni dalla consegna della perizia.
+Decorso tale termine in assenza di pagamento, l'agente della riscossione puo' procedere alla riscossione coattiva delle somme dovute unitamente alle spese esecutive di cui all'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/1999-04-13/112/!main#art_17-com3-leta" ns15:target="olf:it/decreto-legislativo/stato/1999/112/art_17-com3-leta" ns15:relation="cites">articolo 17, comma 3, lettera a), del decreto legislativo 13 aprile 1999, n. 112</ref>". 
+ 2. Le disposizioni del <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973-09-29/602/!main#art_52-com2quinquies" ns16:target="olf:it/dpr/stato/1973/602/art_52-com2quinquies" ns16:relation="amends">comma 2-quinquies dell'articolo 52 del decreto del Presidente della Repubblica 29 settembre 1973, n. 602</ref>, introdotto dal comma 1 del presente articolo, si applicano anche ai procedimenti in corso alla data di entrata in vigore della legge di conversione del presente decreto». 
+ All'articolo 7: 
+ al comma 1, le parole: «puo' essere fatta valere per tutti i contratti di locazione, stipulati successivamente al suo rilascio, fino ad eventuali variazioni delle caratteristiche dell'immobile o dell'Accordo Territoriale del Comune a cui essa si riferisce» sono sostituite dalle seguenti: «puo' essere fatta valere per tutti i contratti di locazione, stipulati successivamente al suo rilascio, aventi il medesimo contenuto del contratto per cui e' stata rilasciata, fino ad eventuali variazioni delle caratteristiche dell'immobile o dell'accordo territoriale del comune a cui essa si riferisce». 
+ All'articolo 8: 
+ dopo il comma 1 e' inserito il seguente: 
+ «1-bis. Le poste contabilizzate a seguito del processo di correzione degli errori contabili effettuato ai sensi dell'articolo 83, comma 1, quarto periodo, del testo unico di cui al <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986/917/!main" ns17:resolution="unresolved">decreto del Presidente della Repubblica n. 917 del 1986</ref>, introdotto dal comma 1, lettera b), del presente articolo, rilevano anche ai fini dell'imposta regionale sulle attivita' produttive, di cui al titolo I del <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/1997-12-15/446/!main" ns18:target="olf:it/decreto-legislativo/stato/1997/446" ns18:relation="amends">decreto legislativo 15 dicembre 1997, n. 446</ref>. Il primo periodo del presente comma non si applica ai componenti negativi del valore della produzione netta per i quali e' scaduto il termine per la presentazione della dichiarazione integrativa prevista dall'articolo 2, comma 8, del regolamento di cui al <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1998-07-22/322/!main" ns19:target="olf:it/dpr/stato/1998/322" ns19:relation="cites">decreto del Presidente della Repubblica 22 luglio 1998, n. 322</ref>»; 
+ al comma 2, le parole: «al comma 1 » sono sostituite dalle seguenti: «ai commi 1 e 1-bis». 
+ All'articolo 10: 
+ al comma 1, lettera a), il numero 3) e' sostituito dal seguente: 
+ «3) al numero 5), prima delle parole: "le spese relative agli apprendisti" sono inserite le seguenti: "per i soggetti che determinano il valore della produzione ai sensi degli articoli da 5 a 9, in relazione al personale dipendente diverso da quello a tempo indeterminato, e per i soggetti che determinano il valore della produzione ai sensi degli articoli 10, comma 1, e 10-bis, comma 1,"»; 
+ il comma 2 e' sostituito dal seguente: 
+ «2. Le disposizioni di cui al comma 1 si applicano a partire dal periodo d'imposta precedente a quello in corso alla data di entrata in vigore del presente decreto, ferma restando, per detto periodo, la possibilita', ove ritenuto piu' agevole, di compilare il modello IRAP 2022 senza considerare le modifiche introdotte». 
+ All'articolo 21: 
+ al comma 1, capoverso 5-quinques, la parola: «5-quinques» e' sostituita dalla seguente: «5-quinquies». 
+ All'articolo 23: 
+ al comma 3 e' aggiunto, in fine, il seguente periodo: «Tra i soggetti abilitati al rilascio della certificazione di cui al comma 2 sono compresi, in ogni caso, le universita' statali, le universita' non statali legalmente riconosciute e gli enti pubblici di ricerca»;  al comma 7, dopo le parole: «nonche' del personale delle Forze armate» sono inserite le seguenti: «e della Polizia di Stato»; 
+ dopo il comma 8 sono aggiunti i seguenti: 
+ «8-bis. Le risorse di cui all'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1-com951" ns20:target="olf:it/legge/stato/2021/234/art_1-com951" ns20:relation="amends">articolo 1, comma 951, della legge 30 dicembre 2021, n. 234</ref>, e di cui all'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_42" ns21:target="olf:it/decreto-legge/stato/2020/34/art_42" ns21:relation="amends">articolo 42 del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns22:target="olf:it/legge/stato/2020/77" ns22:relation="cites">legge 17 luglio 2020, n. 77</ref>, destinate a finalita' e interventi per i quali il Ministero dello sviluppo economico si avvale, sulla base della vigente normativa, della Fondazione Enea Tech e Biomedical, sono accreditate su un conto infruttifero aperto presso la Tesoreria dello Stato, intestato alla stessa Fondazione. 
+ 8-ter. E' autorizzata l'apertura di un conto corrente presso la Tesoreria centrale dello Stato intestato alla societa' Arexpo S.p.A., su cui affluiscono le risorse rese disponibili in attuazione di accordi e nel quale la medesima societa' e' autorizzata a effettuare operazioni di versamento e di prelevamento per le medesime finalita'». 
+ L'articolo 25 e' soppresso. 
+ Dopo l'articolo 25 e' inserito il seguente: 
+ «Art. 25-bis (Modifica all'articolo 54 del codice di cui al <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns23:target="olf:it/decreto-legislativo/stato/2017/117" ns23:relation="amends">decreto legislativo 3 luglio 2017, n. 117</ref>, in materia di trasmigrazione nel Registro unico nazionale del Terzo settore). - 1.
+All'articolo 54, comma 2, del codice del Terzo settore, di cui al <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns24:target="olf:it/decreto-legislativo/stato/2017/117" ns24:relation="amends">decreto legislativo 3 luglio 2017, n. 117</ref>, e' aggiunto, in fine, il seguente periodo: "Ai fini del computo di tale termine non si tiene conto del periodo compreso tra il 1° luglio 2022 e il 15 settembre 2022"». 
+ L'articolo 26 e' sostituito dal seguente: 
+ «Art. 26 (Disposizioni in materia di Terzo settore). - 1. Al codice del Terzo settore, di cui al <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns25:target="olf:it/decreto-legislativo/stato/2017/117" ns25:relation="amends">decreto legislativo 3 luglio 2017, n. 117</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 79: 
+ 1) al comma 2 e' aggiunto, in fine, il seguente periodo: "I costi effettivi sono determinati computando, oltre ai costi diretti, tutti quelli imputabili alle attivita' di interesse generale e, tra questi, i costi indiretti e generali, ivi compresi quelli finanziari e tributari"; 
+ 2) al comma 2-bis, le parole: "5 per cento" sono sostituite dalle seguenti: "6 per cento" e le parole: "e per non oltre due periodi d'imposta consecutivi" sono sostituite dalle seguenti: "e per non oltre tre periodi d'imposta consecutivi"; 
+ 3) al comma 4, alinea, le parole: "di cui al comma 5" sono sostituite dalle seguenti: "di natura non commerciale ai sensi del comma 5"; 
+ 4) al comma 5-bis, dopo le parole: "le quote associative dell'ente" sono inserite le seguenti: ", i proventi non commerciali di cui agli articoli 84 e 85"; 
+ 5) al comma 5-ter e' aggiunto, in fine, il seguente periodo: "Per i due periodi d'imposta successivi al termine fissato dall'articolo 104, comma 2, il mutamento di qualifica, da ente del Terzo settore non commerciale a ente del Terzo settore commerciale o da ente del Terzo settore commerciale a ente del Terzo settore non commerciale, opera a partire dal periodo d'imposta successivo a quello in cui avviene il mutamento di qualifica"; 
+ 6) al comma 6: 
+ 6.1) le parole: "familiari e conviventi", ovunque ricorrono, sono sostituite dalle seguenti: "familiari conviventi"; 
+ 6.2) al terzo periodo sono aggiunte, in fine, le seguenti parole: ", salvo che le relative attivita' siano svolte alle condizioni di cui ai commi 2 e 2-bis"; 
+ b) all'articolo 82: 
+ 1) al comma 1, le parole: "salvo quanto previsto ai commi 4 e 6" sono sostituite dalle seguenti: "salvo quanto previsto ai commi 3, 4 e 6"; 
+ 2) al comma 3, dopo il secondo periodo e' inserito il seguente: "Per tutti gli enti del Terzo settore, comprese le imprese sociali, l'imposta di registro si applica in misura fissa agli atti, ai contratti, alle convenzioni e a ogni altro documento relativo alle attivita' di interesse generale di cui all'articolo 5 svolte in base ad accreditamento, contratto o convenzione con le amministrazioni pubbliche di cui all'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_1-com2" ns26:target="olf:it/decreto-legislativo/stato/2001/165/art_1-com2" ns26:relation="cites">articolo 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165</ref>, con l'Unione europea, con amministrazioni pubbliche straniere o con altri organismi pubblici di diritto internazionale"; 
+ 3) dopo il comma 5 e' inserito il seguente: 
+ "5-bis. I prodotti finanziari, i conti correnti e i libretti di risparmio detenuti all'estero dai soggetti di cui al comma 1 sono esenti dall'imposta sul valore dei prodotti finanziari esteri, di cui al <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegge/stato/2011-12-06/201/!main#art_19-com18" ns27:target="olf:it/decreto-legge/stato/2011/201/art_19-com18" ns27:relation="cites">comma 18 dell'articolo 19 del decreto-legge 6 dicembre 2011, n. 201</ref>, convertito, con modificazioni, dalla <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/2011-12-22/214/!main" ns28:target="olf:it/legge/stato/2011/214" ns28:relation="cites">legge 22 dicembre 2011, n. 214</ref>"; 
+ c) all'articolo 83: 
+ 1) al comma 1, primo periodo, le parole: "enti del Terzo settore non commerciali di cui all'articolo 79, comma 5" sono sostituite dalle seguenti: "enti del Terzo settore di cui all'articolo 82, comma 1"; 
+ 2) al comma 2: 
+ 2.1) al primo periodo, le parole: "enti del Terzo settore non commerciali di cui all'articolo 79, comma 5" sono sostituite dalle seguenti: "enti del Terzo settore di cui all'articolo 82, comma 1"; 
+ 2.2) il secondo periodo e' sostituito dal seguente: "L'eventuale eccedenza puo' essere computata in aumento dell'importo deducibile dal reddito complessivo dei periodi di imposta successivi, ma non oltre il quarto, fino a concorrenza del suo ammontare"; 
+ 3) il comma 3 e' sostituito dal seguente: 
+ "3. Le disposizioni del presente articolo si applicano a condizione che le liberalita' ricevute siano utilizzate ai sensi dell'articolo 8, comma 1"; 
+ 4) il comma 6 e' abrogato; 
+ d) all'articolo 84: 
+ 1) il comma 2 e' sostituito dal seguente: 
+ "2. I redditi degli immobili, destinati in via esclusiva allo svolgimento di attivita' non commerciale da parte delle organizzazioni di volontariato, sono esenti dall'imposta sul reddito delle societa'"; 
+ 2) il comma 2-bis e' sostituito dal seguente: 
+ "2-bis. La disposizione di cui al comma 2 si applica anche agli enti filantropici"; 
+ e) all'articolo 85: 
+ 1) alla rubrica sono aggiunte, in fine, le seguenti parole: "e delle societa' di mutuo soccorso"; 
+ 2) al comma 1, le parole: "dei propri associati e dei familiari conviventi degli stessi, ovvero degli associati di altre associazioni che svolgono la medesima attivita' e che per legge, regolamento, atto costitutivo o statuto fanno parte di un'unica organizzazione locale o nazionale" sono sostituite dalle seguenti: "degli iscritti, dei propri associati e dei familiari conviventi degli stessi, di altre associazioni di promozione sociale che svolgono la medesima attivita' e che per legge, regolamento, atto costitutivo o statuto fanno parte di un'unica organizzazione locale o nazionale, dei rispettivi associati o iscritti e dei tesserati dalle rispettive organizzazioni nazionali"; 
+ 3) al comma 4: 
+ 3.1) alla lettera a), le parole: "degli associati e dei familiari conviventi degli stessi" sono sostituite dalle seguenti: "degli stessi soggetti indicati al comma 1"; 
+ 3.2) alla lettera b), le parole: "diversi dagli associati" sono sostituite dalle seguenti: "diversi dai soggetti indicati al comma 1"; 
+ 4) il comma 7 e' sostituito dal seguente: 
+ "7. I redditi degli immobili, destinati in via esclusiva allo svolgimento di attivita' non commerciale da parte delle associazioni di promozione sociale, sono esenti dall'imposta sul reddito delle societa'"; 
+ 5) dopo il comma 7 e' aggiunto il seguente: 
+ "7-bis. Le disposizioni del comma 1 si applicano anche alle societa' di mutuo soccorso"; 
+ f) all'articolo 86, comma 10, le parole: "all'articolo 19-bis" sono sostituite dalle seguenti: "all'articolo 19-bis.2"; 
+ g) all'articolo 87: 
+ 1) al comma 1, lettera b), le parole: "di cui agli articoli 5 e 6" sono sostituite dalle seguenti: "di cui agli articoli 5, 6 e 7"; 
+ 2) al comma 5 sono aggiunte, in fine, le seguenti parole: "ne' agli obblighi previsti dall'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoLegislativo/stato/2015-08-05/127/!main#art_2" ns29:target="olf:it/decreto-legislativo/stato/2015/127/art_2" ns29:relation="cites">articolo 2 del decreto legislativo 5 agosto 2015, n. 127</ref>, in materia di trasmissione telematica dei dati dei corrispettivi"; 
+ h) all'articolo 88, comma 1, le parole: "all'articolo 82, commi 7 e 8" sono sostituite dalle seguenti: "all'articolo 82, commi 3, quarto periodo, 7 e 8," e le parole: "e del regolamento (UE) n. 1408/2013 della Commissione, del 18 dicembre 2013, relativo all'applicazione degli articoli 107 e 108 del Trattato sul funzionamento dell'Unione europea agli aiuti, 'de minimis' nel settore agricolo" sono sostituite dalle seguenti: "del regolamento (UE) n. 1408/2013 della Commissione, del 18 dicembre 2013, relativo all'applicazione degli articoli 107 e 108 del Trattato sul funzionamento dell'Unione europea agli aiuti 'de minimis' nel settore agricolo, e del regolamento (UE) n. 360/2012 della Commissione, del 25 aprile 2012, relativo all'applicazione degli articoli 107 e 108 del Trattato sul funzionamento dell'Unione europea agli aiuti di importanza minore ('de minimis') concessi alle imprese che forniscono servizi di interesse economico generale"; 
+ i) all'articolo 104, comma 1, e' aggiunto, in fine, il seguente periodo: "Le disposizioni richiamate al primo periodo si applicano, a decorrere dall'operativita' del Registro unico nazionale del Terzo settore, agli enti del Terzo settore iscritti nel medesimo Registro". 
+ 2. Al <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/112/!main" ns30:target="olf:it/decreto-legislativo/stato/2017/112" ns30:relation="amends">decreto legislativo 3 luglio 2017, n. 112</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 16, comma 1, le parole: "possono destinare" sono sostituite dalla seguente: "destinano"; 
+ b) all'articolo 18, comma 5, e' aggiunto, in fine, il seguente periodo: "Fino al quinto periodo d'imposta successivo all'autorizzazione di cui al comma 9, le disposizioni di cui ai commi 3 e 4 si applicano anche alle somme investite nel capitale delle societa' che hanno acquisito la qualifica di impresa sociale successivamente alla data di entrata in vigore del presente decreto". 
+ 3. Agli oneri derivanti dall'attuazione del presente articolo, pari a 0,5 milioni di euro per l'anno 2022, a 5,1 milioni di euro per l'anno 2023, a 8,1 milioni di euro per l'anno 2024, a 1,2 milioni di euro per l'anno 2025 e a 3,3 milioni di euro annui a decorrere dall'anno 2026, si provvede: 
+ a) quanto a 0,5 milioni di euro per l'anno 2022, a 5,1 milioni di euro per l'anno 2023 e a 8 milioni di euro per l'anno 2024, mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/2013-12-27/147/!main#art_1-com215" ns31:target="olf:it/legge/stato/2013/147/art_1-com215" ns31:relation="cites">articolo 1, comma 215, della legge 27 dicembre 2013, n. 147</ref>; 
+ b) quanto a 0,1 milioni di euro per l'anno 2024, a 1,2 milioni di euro per l'anno 2025 e a 3,3 milioni di euro annui a decorrere dall'anno 2026, mediante corrispondente riduzione delle proiezioni dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2022-2024, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2022, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero del lavoro e delle politiche sociali per 3,3 milioni di euro a decorrere dall'anno 2024 ». 
+ Nel capo V del titolo I, dopo l'articolo 26 e' aggiunto il seguente: 
+ «Art. 26-bis (Modifica all'articolo 101 del codice di cui al <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns32:target="olf:it/decreto-legislativo/stato/2017/117" ns32:relation="amends">decreto legislativo 3 luglio 2017, n. 117</ref>, in materia di adeguamento degli statuti degli enti del Terzo settore). - 1. All'articolo 101, comma 2, primo periodo, del codice del Terzo settore, di cui al <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns33:target="olf:it/decreto-legislativo/stato/2017/117" ns33:relation="amends">decreto legislativo 3 luglio 2017, n. 117</ref>, le parole: "31 maggio 2022" sono sostituite dalle seguenti: "31 dicembre 2022"». 
+ Alla rubrica del titolo II, dopo le parole: «dello Stato» sono inserite le seguenti: «e disposizioni». 
+ All'articolo 30: 
+ al comma 1: 
+ alla lettera i), capoverso Art. 50, le parole: «delle spesa» sono sostituite dalle seguenti: «della spesa»; 
+ alla lettera l), capoverso Art. 54, comma 1, le parole: «<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/2009-12-30/196/!main" ns34:target="olf:it/legge/stato/2009/196" ns34:relation="cites">legge 30 dicembre 2009, n. 196</ref>» sono sostituite dalle seguenti: «<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/legge/stato/2009-12-31/196/!main" ns35:target="olf:it/legge/stato/2009/196" ns35:relation="cites">legge 31 dicembre 2009, n. 196</ref>». 
+ All'articolo 33: 
+ al comma 1: 
+ all'alinea, le parole: «All'articolo 3, comma 1, della» sono sostituite dalla seguente: «Alla»; 
+ alla lettera a), le parole: «le parole» sono sostituite dalle seguenti: «all'articolo 3, comma 1, le parole:» e le parole: «Gli organismi» sono sostituite dalle seguenti: «Entro il 31 dicembre 2022, gli organismi»; 
+ la lettera b) e' sostituita dalla seguente: 
+ «b) all'articolo 3, comma 1, il secondo periodo e' soppresso »; dopo la lettera b) sono aggiunte le seguenti: 
+ «b-bis) all'articolo 2, comma 1, la lettera a) e' sostituita dalla seguente: 
+ "a) 'intermediari abilitati': le societa' di intermediazione mobiliare (SIM) italiane, le banche italiane, i gestori italiani, gli istituti di moneta elettronica italiani, gli istituti di pagamento italiani, i soggetti iscritti nell'elenco di cui all'articolo 111 del testo unico di cui al <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns36:target="olf:it/decreto-legislativo/stato/1993/385" ns36:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>, gli intermediari finanziari iscritti nell'albo di cui all'articolo 106 del medesimo testo unico, ivi compresi i confidi, la societa' Poste italiane S.p.A. per l'attivita' di bancoposta, la societa' Cassa depositi e prestiti S.p.A., le succursali insediate in. Italia di SIM, gestori, banche, istituti di moneta elettronica e istituti di pagamento aventi sede legale in un altro Paese dell'Unione europea o in un Paese terzo, le imprese di assicurazione, le imprese di riassicurazione e le sedi secondarie insediate in Italia delle imprese di assicurazione e delle imprese di riassicurazione aventi sede legale e amministrazione centrale in un altro Paese dell'Unione europea o in un Paese terzo, gli agenti di cambio, le fondazioni di origine bancaria e i fondi pensione"; 
+ b-ter) l'articolo 4 e' sostituito dal seguente: 
+ "Art. 4 (Compiti degli intermediari). - 1. Per assicurare il rispetto del divieto di finanziamento delle societa' di cui all'articolo 1, comma 1, gli intermediari abilitati adottano, entro il 31 dicembre 2022, idonei presidi procedurali e consultano almeno gli elenchi pubblicamente disponibili di societa' che producono mine antipersona e munizioni e submunizioni a grappolo"; 
+ b-quater) all'articolo 5, comma 1, le parole: ", la Banca d'Italia puo'" sono sostituite dalle seguenti: "e delle istruzioni emanate ai sensi dell'articolo 3, comma 1, gli organismi di vigilanza, secondo le rispettive competenze, possono" e le parole: "puo' effettuare verifiche" sono sostituite dalle seguenti: "possono effettuare ispezioni"; 
+ b-quinquies) l'articolo 6 e' sostituito dal seguente: 
+ "Art. 6 (Sanzioni). - 1. Agli intermediari abilitati i quali non osservino i divieti di cui all'articolo 1 e le istruzioni emanate ai sensi dell'articolo 3, comma 1, si applica la sanzione amministrativa pecuniaria da euro 150.000 a euro 1.500.000, per i casi di cui all'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/decretoLegislativo/stato/2001-06-08/231/!main#art_5" ns37:target="olf:it/decreto-legislativo/stato/2001/231/art_5" ns37:relation="cites">articolo 5 del decreto legislativo 8 giugno 2001, n. 231</ref>. 
+ 2. Salvo che il fatto costituisca reato, ai soggetti che svolgono funzioni di amministrazione, direzione e controllo degli intermediari abilitati i quali non osservino i divieti di cui all'articolo 1 e le istruzioni emanate ai sensi dell'articolo 3, comma 1, si applica la sanzione amministrativa pecuniaria da euro 50.000 a euro 250.000. 
+ 3. L'applicazione delle sanzioni amministrative pecuniarie previste dal presente articolo comporta la cessazione temporanea dei requisiti di onorabilita' necessari a svolgere funzioni di amministrazione, direzione e controllo presso gli intermediari abilitati, per un periodo non inferiore a due mesi e non superiore a tre anni, nonche', per i revisori e i promotori finanziari e per i rappresentanti legali di societa' quotate, l'incapacita' temporanea di assumere incarichi di amministrazione, direzione e controllo nell'ambito di societa' quotate e di societa' appartenenti al medesimo gruppo di societa'. 
+ 4. All'applicazione delle sanzioni di cui al presente articolo provvedono gli organismi di vigilanza in relazione agli intermediari abilitati da essi vigilati, secondo le rispettive procedure sanzionatorie. Le sanzioni di competenza della Banca d'Italia sono irrogate secondo la procedura sanzionatoria di cui all'articolo 145 del testo unico di cui al <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns38:target="olf:it/decreto-legislativo/stato/1993/385" ns38:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>"». 
+ All'articolo 34: 
+ al comma 2, la lettera d) e' sostituita dalla seguente: 
+ «d) alla determinazione dei compensi del commissario e dei vicecommissari, anche in deroga al limite massimo retributivo di cui all'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/decretoLegge/stato/2014-04-24/66/!main#art_13-com1" ns39:target="olf:it/decreto-legge/stato/2014/66/art_13-com1" ns39:relation="cites">articolo 13, comma 1, del decreto-legge 24 aprile 2014, n. 66</ref>, convertito, con modificazioni, dalla <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/legge/stato/2014-06-23/89/!main" ns40:target="olf:it/legge/stato/2014/89" ns40:relation="cites">legge 23 giugno 2014, n. 89</ref>, nonche' alle disposizioni di cui agli <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoLegge/stato/2011-12-06/201/!main#art_23bis" ns41:target="olf:it/decreto-legge/stato/2011/201/art_23bis" ns41:relation="cites">articoli 23-bis</ref> e <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/decretoLegge/stato/2011-12-06/201/!main#art_23ter" ns42:target="olf:it/decreto-legge/stato/2011/201/art_23ter" ns42:relation="cites">23-ter del decreto-legge 6 dicembre 2011, n. 201</ref>, convertito, con modificazioni, dalla <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/legge/stato/2011-12-22/214/!main" ns43:target="olf:it/legge/stato/2011/214" ns43:relation="cites">legge 22 dicembre 2011, n. 214</ref>, con oneri a carico della SOGIN S.p.A.». 
+ All'articolo 35: 
+ al comma 4, le parole: «comma 769» sono sostituite dalle seguenti: «commi 769 e 770»; 
+ dopo il comma 5 sono aggiunti i seguenti: 
+ «5-bis. All'<ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/decretoLegge/stato/2021-12-30/228/!main#art_4-com3" ns44:target="olf:it/decreto-legge/stato/2021/228/art_4-com3" ns44:relation="amends">articolo 4, comma 3, del decreto-legge 30 dicembre 2021, n. 228</ref>, convertito, con modificazioni, dalla <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/legge/stato/2022-02-25/15/!main" ns45:target="olf:it/legge/stato/2022/15" ns45:relation="cites">legge 25 febbraio 2022, n. 15</ref>, le parole: "30 giugno 2022" sono sostituite dalle seguenti: "31 dicembre 2022". 
+ 5-ter. Con riferimento all'esigenza di definire i procedimenti concernenti le istanze di indennizzo presentate ai sensi dell'<ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/legge/stato/2018-12-30/145/!main#art_1-com501" ns46:target="olf:it/legge/stato/2018/145/art_1-com501" ns46:relation="cites">articolo 1, comma 501, della legge 30 dicembre 2018, n. 145</ref>, all'<ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1-com63" ns47:target="olf:it/legge/stato/2021/234/art_1-com63" ns47:relation="amends">articolo 1, comma 63, della legge 30 dicembre 2021, n. 234</ref>, le parole: "31 luglio 2022" sono sostituite dalle seguenti: "31 dicembre 2022"»; 
+ alla rubrica sono aggiunte, in fine, le seguenti parole: «, nonche' in materia di validita' dell'iscrizione nell'elenco nazionale dei soggetti idonei alla nomina a direttore generale delle aziende sanitarie locali, delle aziende ospedaliere e degli altri enti del Servizio sanitario nazionale e in materia di durata in carica della Commissione tecnica del Fondo indennizzo risparmiatori». 
+ Dopo l'articolo 35 e' inserito il seguente: 
+ «Art. 35-bis (Contratti di collaborazione coordinata e continuativa dell'Agenzia italiana del farmaco). - 1. L'Agenzia italiana del farmaco puo' rinnovare, fino al 31 dicembre 2022, i contratti di collaborazione coordinata e continuativa con scadenza entro il 31 luglio 2022, nonche' provvedere affinche' siano prorogati o rinnovati fino alla stessa data i contratti di prestazione di lavoro flessibile ai sensi dell'<ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/decretoLegislativo/stato/2015-06-15/81/!main#art_30" ns48:target="olf:it/decreto-legislativo/stato/2015/81/art_30" ns48:relation="cites">articolo 30 del decreto legislativo 15 giugno 2015, n. 81</ref>, con scadenza entro la predetta data del 31 luglio 2022, fermi restando gli effetti delle proroghe eventualmente gia' intervenute per le medesime finalita'. Ai fini di cui al presente comma e' autorizzata la spesa di 760.720 euro per l'anno 2022. 
+ 2. All'onere derivante dal comma 1, pari a 760.720 euro per l'anno 2022, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2022-2024, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2022, allo scopo utilizzando l'accantonamento relativo al Ministero della salute. 
+ 3. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio». 
+ All'articolo 36: 
+ al comma 1, dopo le parole: «2022, n. 50,» sono inserite le seguenti: «convertito, con modificazioni, dalla <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/legge/stato/2022-07-15/91/!main" ns49:target="olf:it/legge/stato/2022/91" ns49:relation="cites">legge 15 luglio 2022, n. 91</ref>,». 
+ dopo il comma 1 e' inserito il seguente: 
+ «1-bis. Al fine di incrementare l'importo dell'indennita' sostitutiva della retribuzione di risultato per i dirigenti di seconda fascia assegnati agli uffici di diretta collaborazione del Ministro della salute e alla Struttura tecnica di supporto presso l'Organismo indipendente di valutazione della performance del Ministero della salute, la dotazione finanziaria destinata ai compensi previsti dall'articolo 9, comma 4, e dall'articolo 11, comma 4, del regolamento di cui al <ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2013-09-17/138/!main" ns50:target="olf:it/dpr/stato/2013/138" ns50:relation="cites">decreto del Presidente della Repubblica 17 settembre 2013, n. 138</ref>, e' incrementata di 50.180 euro per ciascuno degli anni 2022, 2023, 2024 e 2025. Agli oneri derivanti dal presente comma, pari a 50.180 euro per ciascuno degli anni 2022, 2023, 2024 e 2025, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2022-2024, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2022, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della salute. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio»; 
+ dopo il comma 4 e' aggiunto il seguente: 
+ «4-bis. L'applicazione delle disposizioni dell'<ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/decretoLegge/stato/2020-03-17/18/!main#art_2bis-com5" ns51:target="olf:it/decreto-legge/stato/2020/18/art_2bis-com5" ns51:relation="amends">articolo 2-bis, comma 5, del decreto-legge 17 marzo 2020, n. 18</ref>, convertito, con modificazioni, dalla <ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/legge/stato/2020-04-24/27/!main" ns52:target="olf:it/legge/stato/2020/27" ns52:relation="cites">legge 24 aprile 2020, n. 27</ref>, e' prorogata fino al 31 dicembre 2023»; 
+ alla rubrica sono aggiunte, in fine, le seguenti parole: «e altre disposizioni in materia di personale delle pubbliche amministrazioni nonche' di conferimento di incarichi a personale sanitario in quiescenza». 
+ Dopo l'articolo 36 e' inserito il seguente: 
+ «Art. 36-bis (Disposizioni in materia di massimale degli assistiti per i medici di medicina generale). - 1. Fino al 31 dicembre 2023, le regioni e le province autonome di Trento e di Bolzano, nei cui territori vi siano ambiti scoperti, in ragione della situazione di temporanea emergenza relativa alla disponibilita' di medici di medicina generale, nei limiti delle risorse disponibili a legislazione vigente, possono prevedere, per i medici di medicina generale con incarico a quota oraria del ruolo unico di assistenza primaria di ventiquattro ore settimanali, la limitazione del massimale degli assistiti in carico fino a 850 assistiti». 
+ Dopo l'articolo 37 e' inserito il seguente: 
+ «Art. 37-bis (Modifiche all'articolo 25-novies del codice della crisi d'impresa e dell'insolvenza, di cui al <ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/decretoLegislativo/stato/2019-01-12/14/!main" ns53:target="olf:it/decreto-legislativo/stato/2019/14" ns53:relation="amends">decreto legislativo 12 gennaio 2019, n. 14</ref>). - 1. All'articolo 25-novies del codice della crisi d'impresa e dell'insolvenza, di cui al <ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/decretoLegislativo/stato/2019-01-12/14/!main" ns54:target="olf:it/decreto-legislativo/stato/2019/14" ns54:relation="amends">decreto legislativo 12 gennaio 2019, n. 14</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 1, la lettera c) e' sostituita dalla seguente: 
+ "c) per l'Agenzia delle entrate, l'esistenza di un debito scaduto e non versato relativo all'imposta sul valore aggiunto, risultante dalla comunicazione dei dati delle liquidazioni periodiche di cui all'<ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/decretoLegge/stato/2010-05-31/78/!main#art_21bis" ns55:target="olf:it/decreto-legge/stato/2010/78/art_21bis" ns55:relation="amends">articolo 21-bis del decreto-legge 31 maggio 2010, n. 78</ref>, convertito, con modificazioni, dalla <ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/legge/stato/2010-07-30/122/!main" ns56:target="olf:it/legge/stato/2010/122" ns56:relation="cites">legge 30 luglio 2010, n. 122</ref>, di importo superiore a euro 5.000 e, comunque, non inferiore al 10 per cento dell'ammontare del volume d'affari risultante dalla dichiarazione relativa all'anno d'imposta precedente; la segnalazione e' in ogni caso inviata se il debito e' superiore all'importo di euro 20.000"; 
+ b) al comma 2, la lettera a) e' sostituita dalla seguente: 
+ "a) dall'Agenzia delle entrate, contestualmente alla comunicazione di irregolarita' di cui all'<ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-10-26/633/!main#art_54bis" ns57:target="olf:it/dpr/stato/1972/633/art_54bis" ns57:relation="cites">articolo 54-bis del decreto del Presidente della Repubblica 26 ottobre 1972, n. 633</ref>, e, comunque, non oltre centocinquanta giorni dal termine di presentazione delle comunicazioni di cui all'<ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/decretoLegge/stato/2010/78/!main#art_21bis" ns58:resolution="unresolved">articolo 21-bis del decreto-legge n. 78 del 2010</ref>"; 
+ c) al comma 4, la lettera b) e' sostituita dalla seguente: 
+ "b) con riferimento all'Agenzia delle entrate, in relazione ai debiti risultanti dalle comunicazioni di cui all'<ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/decretoLegge/stato/2010/78/!main#art_21bis" ns59:resolution="unresolved">articolo 21-bis del decreto-legge n. 78 del 2010</ref> a decorrere da quelle relative al secondo trimestre 2022"». 
+ All'articolo 38: 
+ al comma 3, le parole: «milioni euro» sono sostituite dalle seguenti: «milioni di euro». 
+ Dopo l'articolo 38 e' inserito il seguente: 
+ «Art. 38-bis (Assegni per situazioni di famiglia a favore del personale a contratto delle rappresentanze diplomatiche, degli uffici consolari e degli istituti italiani di cultura all'estero). - 1.
+L'<ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1967-01-05/18/!main#art_157bis" ns60:target="olf:it/dpr/stato/1967/18/art_157bis" ns60:relation="amends">articolo 157-bis del decreto del Presidente della Repubblica 5 gennaio 1967, n. 18</ref>, e' sostituito dal seguente: 
+ "Art. 157-bis (Assegni per situazioni di famiglia). - 1. A decorrere dal 1° marzo 2022, al personale di cui al presente titolo, per il coniuge a carico o per la parte di unione civile a carico, non separati legalmente o di fatto, spetta un assegno pari al 4 per cento della retribuzione annua base stabilita, conformemente all'articolo 157, per un impiegato a contratto con mansioni esecutive di nuova assunzione nella medesima sede di servizio. L'importo dell'assegno di cui al presente comma non e' inferiore a 960 euro ne' e' superiore a 2.100 euro in ragione d'anno. 
+ 2. A decorrere dal 1° marzo 2022, al personale di cui al presente titolo, per ciascun figlio a carico, spetta un assegno pari all'8 per cento della retribuzione annua base stabilita, conformemente all'articolo 157, per un impiegato a contratto con mansioni esecutive di nuova assunzione nella medesima sede di servizio. L'importo dell'assegno di cui al presente comma non e' inferiore a 960 euro ne' e' superiore a 2.100 euro in ragione d'anno per ciascun figlio a carico. L'assegno spetta, nell'interesse del figlio, in parti uguali a chi esercita la responsabilita' genitoriale. 
+ 3. Agli effetti del comma 2, per figli si intendono: 
+ a) i nuovi nati a decorrere dal settimo mese di gravidanza; 
+ b) i figli fino al compimento di diciotto anni di eta'; 
+ c) i figli di eta' compresa tra diciotto e ventuno anni non compiuti, per i quali ricorre una delle seguenti condizioni: 
+ 1) frequentano un corso di formazione scolastica o professionale ovvero un corso di laurea; 
+ 2) svolgono un tirocinio o un'attivita' lavorativa con una retribuzione annua inferiore all'importo di cui al comma 4; 
+ 3) sono registrati come disoccupati e in cerca di un lavoro presso i servizi pubblici per l'impiego del luogo di residenza; 
+ 4) svolgono il servizio civile universale in Italia; 
+ d) i figli con disabilita', senza limiti di eta'. 
+ 4. Agli effetti del presente articolo, il coniuge, la parte di unione civile e i figli sono considerati a carico quando possiedono un reddito complessivo annuo inferiore a un sesto della retribuzione annua base stabilita, conformemente all'articolo 157, per un impiegato a contratto con mansioni esecutive di nuova assunzione nella medesima sede di servizio. 
+ 5. In alternativa agli assegni di cui ai commi 1 e 2, per i familiari a carico alla data del 28 febbraio 2022, in relazione ai quali era in godimento l'assegno per il nucleo familiare di cui all'<ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/decretoLegge/stato/1988-03-13/69/!main#art_2" ns61:target="olf:it/decreto-legge/stato/1988/69/art_2" ns61:relation="cites">articolo 2 del decreto-legge 13 marzo 1988, n. 69</ref>, convertito, con modificazioni, dalla <ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/legge/stato/1988-05-13/153/!main" ns62:target="olf:it/legge/stato/1988/153" ns62:relation="cites">legge 13 maggio 1988, n. 153</ref>, il dipendente puo' optare per un assegno ad personam non riassorbibile, di importo pari alla misura del predetto beneficio spettante alla medesima data.
+L'assegno ad personam spetta a decorrere dal 1° marzo 2022, per la medesima durata e con i medesimi presupposti previsti per l'assegno per il nucleo familiare dalla disciplina vigente alla data del 28 febbraio 2022. Per i familiari non a carico alla data del 28 febbraio 2022, l'opzione di cui al primo periodo non e' consentita. 
+ 6. Gli assegni di cui ai commi 1, 2 e 5 non sono cumulabili con gli aumenti per situazioni di famiglia di cui all'articolo 173 del presente decreto, con l'assegno unico e universale di cui al <ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/decretoLegislativo/stato/2021-12-21/230/!main" ns63:target="olf:it/decreto-legislativo/stato/2021/230" ns63:relation="cites">decreto legislativo 21 dicembre 2021, n. 230</ref>, ne' con l'assegno per il nucleo familiare di cui all'<ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/decretoLegge/stato/1988-03-13/69/!main#art_2" ns64:target="olf:it/decreto-legge/stato/1988/69/art_2" ns64:relation="cites">articolo 2 del decreto-legge 13 marzo 1988, n. 69</ref>, convertito, con modificazioni, dalla <ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/legge/stato/1988-05-13/153/!main" ns65:target="olf:it/legge/stato/1988/153" ns65:relation="cites">legge 13 maggio 1988, n. 153</ref>. 
+ 7. Gli assegni di cui ai commi 1, 2 e 5 non concorrono alla formazione del reddito complessivo di cui all'articolo 8 del testo unico delle imposte sui redditi, di cui al <ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns66:target="olf:it/dpr/stato/1986/917" ns66:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>. 
+ 8. E' fatta salva l'applicazione della normativa locale, se piu' favorevole". 
+ 2. Agli oneri derivanti dal comma 1, valutati in euro 2,6 milioni per l'anno 2022 e in euro 3,3 milioni annui a decorrere dall'anno 2023, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2022-2024, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2022, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero degli affari esteri e della cooperazione internazionale». 
+ All'articolo 39: 
+ al comma 1, dopo le parole: «crescita dei minori» sono inserite le seguenti: «, anche attraverso la promozione dell'attivita' sportiva»; 
+ al comma 3, le parole: «delle Stato» sono sostituite dalle seguenti: «dello Stato». 
+ Dopo l'articolo 39 e' inserito il seguente: 
+ «Art. 39-bis (Disposizioni in materia di svolgimento della sessione dell'anno 2022 dell'esame di Stato per l'abilitazione all'esercizio della professione di avvocato). - 1. L'esame di Stato per l'abilitazione all'esercizio della professione di avvocato, limitatamente alla sessione da indire per l'anno 2022, e' disciplinato dalle disposizioni di cui al <ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/decretoLegge/stato/2021-03-13/31/!main" ns67:target="olf:it/decreto-legge/stato/2021/31" ns67:relation="amends">decreto-legge 13 marzo 2021, n. 31</ref>, convertito, con modificazioni, dalla <ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/legge/stato/2021-04-15/50/!main" ns68:target="olf:it/legge/stato/2021/50" ns68:relation="amends">legge 15 aprile 2021, n. 50</ref>. 
+ 2. Con il decreto del Ministro della giustizia che indice la sessione d'esame per l'anno 2022 sono fornite le indicazioni relative alla data di inizio delle prove, alle modalita' di sorteggio per l'espletamento delle prove orali, alla pubblicita' delle sedute di esame, all'accesso e alla permanenza nelle sedi di esame, alle eventuali prescrizioni imposte ai fini della prevenzione e protezione dal rischio del contagio da COVID-19, nonche' alle modalita' di comunicazione delle materie scelte dal candidato per la prima e la seconda prova orale. Con il medesimo decreto sono altresi' disciplinate le modalita' di utilizzo di strumenti compensativi per le difficolta' di lettura, di scrittura e di calcolo, nonche' la possibilita' di usufruire di un prolungamento dei tempi stabiliti per lo svolgimento delle prove, da parte dei candidati con disturbi specifici di apprendimento. Non si applicano le disposizioni dell'<ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/decretoLegge/stato/2021-03-13/31/!main#art_3-com2" ns69:target="olf:it/decreto-legge/stato/2021/31/art_3-com2" ns69:relation="amends">articolo 3, comma 2, del decreto-legge 13 marzo 2021, n. 31</ref>, convertito, con modificazioni, dalla <ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/legge/stato/2021-04-15/50/!main" ns70:target="olf:it/legge/stato/2021/50" ns70:relation="amends">legge 15 aprile 2021, n. 50</ref>. 
+ 3. In deroga a quanto previsto dall'<ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/decretoLegge/stato/2021-03-13/31/!main#art_4-com6" ns71:target="olf:it/decreto-legge/stato/2021/31/art_4-com6" ns71:relation="amends">articolo 4, comma 6, del decreto-legge 13 marzo 2021, n. 31</ref>, convertito, con modificazioni, dalla <ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/legge/stato/2021-04-15/50/!main" ns72:target="olf:it/legge/stato/2021/50" ns72:relation="amends">legge 15 aprile 2021, n. 50</ref>, le linee generali da seguire per la formulazione dei quesiti da porre nella prima prova orale e per la valutazione dei candidati, in modo da garantire l'omogeneita' e la coerenza dei criteri di esame, sono stabilite con decreto del Ministero della giustizia, sentita la commissione centrale costituita ai sensi dell'<ref xmlns:ns73="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_73" href="/akn/it/act/regio.decreto.legge/stato/1933-11-27/1578/!main#art_22" ns73:target="olf:it/regio-decreto-legge/stato/1933/1578/art_22" ns73:relation="cites">articolo 22 del regio decreto-legge 27 novembre 1933, n. 1578</ref>, convertito, con modificazioni, dalla <ref xmlns:ns74="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_74" href="/akn/it/act/legge/stato/1934-01-22/36/!main" ns74:target="olf:it/legge/stato/1934/36" ns74:relation="cites">legge 22 gennaio 1934, n. 36</ref>. 
+ 4. Per l'attuazione delle disposizioni del presente articolo e' autorizzata la spesa di euro 1.820.000 per l'anno 2023, cui si provvede mediante corrispondente riduzione del fondo istituito ai sensi dell'<ref xmlns:ns75="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_75" href="/akn/it/act/legge/stato/2017-12-27/205/!main#art_1-com457" ns75:target="olf:it/legge/stato/2017/205/art_1-com457" ns75:relation="amends">articolo 1, comma 457, della legge 27 dicembre 2017, n. 205</ref>. 
+ 5. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio». 
+ All'articolo 40: 
+ al comma 1, dopo le parole: «20 marzo 2019,» sono inserite le seguenti: «pubblicato nella Gazzetta Ufficiale n. 82 del 6 aprile 2019,». 
+ Dopo l'articolo 40 sono inseriti i seguenti: 
+ «Art. 40-bis (Contributi per l'acquisto di veicoli elettrici di categoria L1). - 1. Per l'anno 2022, le risorse assegnate con il decreto del Presidente del Consiglio dei ministri 6 aprile 2022, pubblicato nella Gazzetta Ufficiale n. 113 del 16 maggio 2022, in attuazione dell'<ref xmlns:ns76="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_76" href="/akn/it/act/decretoLegge/stato/2022-03-01/17/!main#art_22-com1" ns76:target="olf:it/decreto-legge/stato/2022/17/art_22-com1" ns76:relation="amends">articolo 22, comma 1, del decreto-legge 1° marzo 2022, n. 17</ref>, convertito, con modificazioni, dalla <ref xmlns:ns77="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_77" href="/akn/it/act/legge/stato/2022-04-27/34/!main" ns77:target="olf:it/legge/stato/2022/34" ns77:relation="cites">legge 27 aprile 2022, n. 34</ref>, sono rimodulate. Conseguentemente, le risorse destinate per il medesimo anno alla concessione di incentivi per l'acquisto di nuovi veicoli di categoria M1 nella fascia di emissione 21-60 g, ai sensi dell'articolo 2, comma 1, lettera b), del citato decreto del Presidente del Consiglio dei ministri, sono ridotte di 20 milioni di euro al fine di incrementare del medesimo ammontare la dotazione della misura di cui all'articolo 2, comma 1, lettera e), del medesimo decreto del Presidente del Consiglio dei ministri. 
+ Art. 40-ter (Semplificazione degli adempimenti relativi ai recipienti a pressione). - 1. La procedura semplificata prevista dall'<ref xmlns:ns78="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_78" href="/akn/it/act/decretoLegge/stato/2020-07-16/76/!main#art_64bis-com2" ns78:target="olf:it/decreto-legge/stato/2020/76/art_64bis-com2" ns78:relation="amends">articolo 64-bis, comma 2, del decreto-legge 16 luglio 2020, n. 76</ref>, convertito, con modificazioni, dalla <ref xmlns:ns79="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_79" href="/akn/it/act/legge/stato/2020-09-11/120/!main" ns79:target="olf:it/legge/stato/2020/120" ns79:relation="cites">legge 11 settembre 2020, n. 120</ref>, per i recipienti a pressione con capacita' complessiva superiore a 13 metri cubi puo' essere svolta dai soggetti abilitati ai sensi del decreto direttoriale dei Ministeri delle attivita' produttive, della salute e del lavoro e delle politiche sociali 17 gennaio 2005, pubblicato nel supplemento ordinario alla Gazzetta Ufficiale n. 30 del 7 febbraio 2005, per i recipienti con capacita' inferiore a 13 metri cubi, a condizione che il massimale assicurativo per anno e per sinistro di cui al punto 17 dell'allegato II annesso al citato decreto direttoriale 17 gennaio 2005 sia di importo non inferiore a 5 milioni di euro. 
+ Art. 40-quater (Modifiche alla disciplina dei crediti d'imposta per l'acquisto di energia elettrica e di gas naturale e della cessione del credito d'imposta o dello sconto in fattura). - 1. Al fine di semplificare l'erogazione dei contributi straordinari, sotto forma di credito d'imposta, spettanti ai sensi dell'<ref xmlns:ns80="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_80" href="/akn/it/act/decretoLegge/stato/2022-05-17/50/!main#art_2-com1" ns80:target="olf:it/decreto-legge/stato/2022/50/art_2-com1" ns80:relation="amends">articolo 2, commi 1</ref>, <ref xmlns:ns81="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_81" href="/akn/it/act/decretoLegge/stato/2022-05-17/50/!main#art_2-com2" ns81:target="olf:it/decreto-legge/stato/2022/50/art_2-com2" ns81:relation="amends">2</ref> e <ref xmlns:ns82="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_82" href="/akn/it/act/decretoLegge/stato/2022-05-17/50/!main#art_2-com3" ns82:target="olf:it/decreto-legge/stato/2022/50/art_2-com3" ns82:relation="amends">3, del decreto-legge 17 maggio 2022, n. 50</ref>, convertito, con modificazioni, dalla <ref xmlns:ns83="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_83" href="/akn/it/act/legge/stato/2022-07-15/91/!main" ns83:target="olf:it/legge/stato/2022/91" ns83:relation="cites">legge 15 luglio 2022, n. 91</ref>, nonche' al fine di consentire la corretta applicazione delle disposizioni relative alle comunicazioni della prima cessione o dello sconto in fattura, il comma 3-ter dell'articolo 2 e il comma 3 dell'articolo 57 del medesimo <ref xmlns:ns84="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_84" href="/akn/it/act/decretoLegge/stato/2022/50/!main" ns84:resolution="unresolved">decreto-legge n. 50 del 2022</ref> sono abrogati». 
+ Nel capo II del titolo II, dopo l'articolo 41 e' aggiunto il seguente: 
+ «Art. 41-bis (Semplificazione degli obblighi di comunicazione e assicurazione obbligatoria per gli infortuni sul lavoro e le malattie professionali). - 1. All'<ref xmlns:ns85="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_85" href="/akn/it/act/legge/stato/2017-05-22/81/!main#art_23" ns85:target="olf:it/legge/stato/2017/81/art_23" ns85:relation="amends">articolo 23 della legge 22 maggio 2017, n. 81</ref>, sono apportate le seguenti modificazioni: 
+ a) il comma 1 e' sostituito dal seguente: 
+ "1. Con decorrenza dal 1° settembre 2022, il datore di lavoro comunica in via telematica al Ministero del lavoro e delle politiche sociali i nominativi dei lavoratori e la data di inizio e di cessazione delle prestazioni di lavoro in modalita' agile, secondo le modalita' individuate con decreto del Ministro del lavoro e delle politiche sociali. I dati di cui al primo periodo sono resi disponibili all'Istituto nazionale per l'assicurazione contro gli infortuni sul lavoro con le modalita' previste dal <ref xmlns:ns86="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_86" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main" ns86:target="olf:it/decreto-legislativo/stato/2005/82" ns86:relation="cites">codice dell'amministrazione digitale</ref>, di cui al <ref xmlns:ns87="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_87" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main" ns87:target="olf:it/decreto-legislativo/stato/2005/82" ns87:relation="cites">decreto legislativo 7 marzo 2005, n. 82</ref>. In caso di mancata comunicazione secondo le modalita' previste dal decreto del Ministro del lavoro e delle politiche sociali di cui al primo periodo, si applica la sanzione prevista dall'<ref xmlns:ns88="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_88" href="/akn/it/act/decretoLegislativo/stato/2003-09-10/276/!main#art_19-com3" ns88:target="olf:it/decreto-legislativo/stato/2003/276/art_19-com3" ns88:relation="cites">articolo 19, comma 3, del decreto legislativo 10 settembre 2003, n. 276</ref>"; 
+ b) la rubrica e' sostituita dalla seguente: "Obblighi di comunicazione e assicurazione obbligatoria per gli infortuni sul lavoro e le malattie professionali"». 
+ All'articolo 45: 
+ al comma 3, le parole: «dal presente articolo, pari a euro» sono sostituite dalle seguenti: «dai commi 1 e 2, pari a»; 
+ dopo il comma 3 sono aggiunti i seguenti: 
+ «3-bis. Al fine di semplificare, razionalizzare e armonizzare le procedure di accertamento e di valutazione delle condizioni di invalidita', di disabilita', di inabilita' e di inidoneita', le commissioni mediche di verifica operanti nell'ambito del Ministero dell'economia e delle finanze, di cui all'<ref xmlns:ns89="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_89" href="/akn/it/act/decretoLegge/stato/2010-05-31/78/!main#art_7-com25" ns89:target="olf:it/decreto-legge/stato/2010/78/art_7-com25" ns89:relation="amends">articolo 7, comma 25, del decreto-legge 31 maggio 2010, n. 78</ref>, convertito, con modificazioni, dalla <ref xmlns:ns90="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_90" href="/akn/it/act/legge/stato/2010-07-30/122/!main" ns90:target="olf:it/legge/stato/2010/122" ns90:relation="cites">legge 30 luglio 2010, n. 122</ref>, sono soppresse a decorrere dal 1° gennaio 2023 e tutte le funzioni da esse svolte sono trasferite all'Istituto nazionale della previdenza sociale (INPS). A decorrere dalla medesima data, l'INPS subentra al Ministero dell'economia e delle finanze nell'attivita' di coordinamento, organizzazione e segreteria delle commissioni mediche di verifica e nei rapporti giuridici relativi alle funzioni ad esso trasferite. 
+ 3-ter. Tutti gli accertamenti di idoneita' e inabilita' lavorativa di cui all'articolo 71 del testo unico di cui al <ref xmlns:ns91="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_91" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1957-01-10/3/!main#art_16" ns91:target="olf:it/dpr/stato/1957/3/art_16" ns91:relation="cites">decreto del Presidente della Repubblica 10 gennaio 1957, n. 3, agli articoli 16</ref> e <ref xmlns:ns92="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_92" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1957-01-10/3/!main#art_56-com1" ns92:target="olf:it/dpr/stato/1957/3/art_56-com1" ns92:relation="cites">56, primo comma</ref>, del <ref xmlns:ns93="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_93" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1979-12-20/761/!main#art_13" ns93:target="olf:it/dpr/stato/1979/761/art_13" ns93:relation="cites">decreto del Presidente della Repubblica 20 dicembre 1979, n. 761, all'articolo 13</ref> della <ref xmlns:ns94="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_94" href="/akn/it/act/legge/stato/1991-08-08/274/!main#art_2-com12" ns94:target="olf:it/legge/stato/1991/274/art_2-com12" ns94:relation="cites">legge 8 agosto 1991, n. 274, e all'articolo 2, comma 12</ref>, della <ref xmlns:ns95="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_95" href="/akn/it/act/legge/stato/1995-08-08/335/!main" ns95:target="olf:it/legge/stato/1995/335" ns95:relation="cites">legge 8 agosto 1995, n. 335</ref>, nei confronti del personale delle amministrazioni statali, anche ad ordinamento autonomo, degli enti pubblici non economici e degli enti locali, a decorrere dal 1° gennaio 2023, sono effettuati dall'INPS con le modalita' di accertamento gia' in uso per l'assicurazione generale obbligatoria. Le disposizioni del presente comma non si applicano ai procedimenti in corso alla data di entrata in vigore della legge di conversione del presente decreto, ne' ai procedimenti per i quali, alla predetta data, non sia ancora scaduto il termine di presentazione della domanda. 
+ 3-quater. Con decreto del Ministro dell'economia e delle finanze e del Ministro del lavoro e delle politiche sociali, da adottare entro il 31 dicembre 2022, sono stabilite le norme di coordinamento e le modalita' attuative delle disposizioni dei commi da 3-bis a 3-septies, comprese le modalita' di eventuale utilizzo degli immobili in uso alle Ragionerie territoriali dello Stato. Con il medesimo decreto sono accertate le somme allocate per le finalita' di cui ai commi da 3-bis a 3-septies, a legislazione vigente, nello stato di previsione del Ministero dell'economia e delle finanze, da trasferire all'INPS, a decorrere dall'anno 2023, senza nuovi o maggiori oneri per la finanza pubblica. 
+ 3-quinquies. Al fine di dare piena attuazione alle disposizioni del comma 3-bis, l'INPS e' autorizzato, per il biennio 2022-2023, in aggiunta alle vigenti facolta' assunzionali, a bandire apposite procedure concorsuali pubbliche e, conseguentemente, ad assumere con contratto di lavoro subordinato a tempo indeterminato, anche mediante scorrimento di vigenti graduatorie di concorsi pubblici, nei limiti della vigente dotazione organica, un contingente di personale non dirigenziale pari a 100 unita' da inquadrare nell'Area C, posizione economica C1, del comparto Funzioni centrali - sezione Enti pubblici non economici. 
+ 3-sexies. Agli oneri assunzionali derivanti dall'attuazione del comma 3-quinquies, pari a euro 1.686.970 per l'anno 2022 e a euro 5.060.908 annui a decorrere dall'anno 2023, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2022-2024, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2022, allo scopo parzialmente utilizzando l'accantonamento relativo al medesimo Ministero. 
+ 3-septies. L'INPS comunica alla Presidenza del Consiglio dei ministri - Dipartimento della funzione pubblica e al Ministero dell'economia e delle finanze - Dipartimento della Ragioneria generale dello Stato, entro trenta giorni dall'assunzione, i dati concernenti le unita' di personale effettivamente assunte ai sensi del comma 3-quinquies e i relativi oneri. 
+ 3-octies. Considerata l'eccezionale situazione di turbolenza nei mercati finanziari, i soggetti che non adottano i principi contabili internazionali, nell'esercizio in corso alla data di entrata in vigore del presente decreto, possono valutare i titoli non destinati a permanere durevolmente nel loro patrimonio in base al loro valore di iscrizione, come risultante dall'ultimo bilancio annuale regolarmente approvato, anziche' al valore di realizzazione desumibile dall'andamento del mercato, fatta eccezione per le perdite di carattere durevole. L'applicazione delle disposizioni del primo periodo, in relazione all'evoluzione della situazione di turbolenza dei mercati finanziari, puo' essere prorogata con decreto del Ministro dell'economia e delle finanze. 
+ 3-novies. Per le imprese di cui all'<ref xmlns:ns96="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_96" href="/akn/it/act/decretoLegislativo/stato/2005-09-07/209/!main#art_91-com2" ns96:target="olf:it/decreto-legislativo/stato/2005/209/art_91-com2" ns96:relation="cites">articolo 91, comma 2, del codice delle assicurazioni private</ref>, di cui al <ref xmlns:ns97="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_97" href="/akn/it/act/decretoLegislativo/stato/2005-09-07/209/!main" ns97:target="olf:it/decreto-legislativo/stato/2005/209" ns97:relation="cites">decreto legislativo 7 settembre 2005, n. 209</ref>, le modalita' attuative delle disposizioni del comma 3-octies del presente articolo sono stabilite dall'Istituto per la vigilanza sulle assicurazioni con proprio regolamento, che ne disciplina altresi' le modalita' applicative. Le imprese di cui al primo periodo applicano le disposizioni del comma 3-octies previa verifica della coerenza con la struttura degli impegni finanziari connessi al proprio portafoglio assicurativo. Per le imprese diverse da quelle di cui all'<ref xmlns:ns98="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_98" href="/akn/it/act/decretoLegislativo/stato/2005-09-07/209/!main#art_91-com2" ns98:target="olf:it/decreto-legislativo/stato/2005/209/art_91-com2" ns98:relation="cites">articolo 91, comma 2, del codice delle assicurazioni private</ref>, di cui al <ref xmlns:ns99="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_99" href="/akn/it/act/decretoLegislativo/stato/2005-09-07/209/!main" ns99:target="olf:it/decreto-legislativo/stato/2005/209" ns99:relation="cites">decreto legislativo 7 settembre 2005, n. 209</ref>, le modalita' attuative contabili delle disposizioni del comma 3-octies sono stabilite dall'Organismo italiano di contabilita'. 
+ 3-decies. Le imprese indicate, al comma 3-novies che si avvalgono della facolta' di cui al comma 3-octies destinano a una riserva indisponibile utili di ammontare corrispondente alla differenza tra i valori registrati in applicazione delle disposizioni dei commi 3-octies e 3-novies e i valori di mercato rilevati alla data di chiusura del periodo di riferimento, al netto del relativo onere fiscale. In caso di utili di esercizio di importo inferiore a quello della suddetta differenza, la riserva e' integrata utilizzando riserve di utili o altre riserve patrimoniali disponibili o, in mancanza, mediante utili degli esercizi successivi». 
+ Dopo l'articolo 46 e' inserito il seguente: 
+ «Art. 46-bis (Clausola di salvaguardia). - 1. Le disposizioni del presente decreto sono applicabili nelle regioni a statuto speciale e nelle Province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti speciali e con le relative norme di attuazione». </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
