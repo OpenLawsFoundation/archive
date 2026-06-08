@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-03-10/23/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-03-10/23"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-03-10;23"/>
+                    <FRBRalias name="eli" value="eli/id/2023/03/15/23G00031/ORIGINAL"/>
+                    <FRBRdate date="2023-03-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/03/15/23G00031/ORIGINAL" aknrelname="eli/id/2023/03/15/23G00031/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 14 gennaio 2023, n. 5, recante disposizioni urgenti in materia di trasparenza dei prezzi dei carburanti e di rafforzamento dei poteri di controllo del Garante per la sorveglianza dei prezzi, nonche' di sostegno per la fruizione del trasporto pubblico. (23G00031)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00031" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-03-10" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-03-10/23/ita@2023-03-16/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-03-10/23/ita@2023-03-16"/>
+                    <FRBRdate date="2023-03-16" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/03/15/23G00031/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/03/15/23G00031/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/03/15/23G00031/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-03-10/23/ita@2023-03-16/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-03-10/23/ita@2023-03-16.xml"/>
+                    <FRBRdate date="2023-03-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/03/15/23G00031/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-03-15" name="" number="63" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-03-15" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2023-03-10" refersTo="#C.771"/>
+                <step by="#senato" date="2023-03-10" refersTo="#S.555"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-10;23#1"/>
+                        <destination href="urn:nir:stato:legge:2007-12-24;244#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni del D.L. 14 gennaio 2023, n. 5 (in G.U. 14/01/2023, n. 11).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-10;23#1"/>
+                        <destination href="urn:nir:stato:legge:2007-12-24;244#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni del D.L. 14 gennaio 2023, n. 5 (in G.U. 14/01/2023, n. 11).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-10;23#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-03-21;21#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni del D.L. 14 gennaio 2023, n. 5 (in G.U. 14/01/2023, n. 11).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-10;23#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-14;5#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, 2, 3, 4, 5 e 6 e l'introduzione dei commi 3-bis, 5-bis, 7-bis e 7-ter all'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-10;23#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-14;5#1 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-10;23#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-14;5#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1, lettera b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-10;23#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-14;5#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, lettere a), b), c) e 2 e l'introduzione del comma 1-bis all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-10;23#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-14;5#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 1, 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1__para_2"/>
+                        <new href="#modNov_1_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1__para_5-bis"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1__para_3"/>
+                        <new href="#modNov_1_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1"/>
+                        <new href="#modNov_1_new_23"/>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1__para_3-bis"/>
+                        <new href="#modNov_1_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1__para_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1__para_4"/>
+                        <new href="#modNov_1_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="split">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1__para_4"/>
+                        <new href="#modNov_1_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1__para_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_1-bis"/>
+                        <new href="#modNov_2_new_24"/>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_2__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_3__para_1-bis"/>
+                        <new href="#modNov_4_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_3__para_2"/>
+                        <old href="#modNov_4_old_17"/>
+                        <new href="#modNov_4_new_17"/>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_4__para_1"/>
+                        <old href="#modNov_4_old_18"/>
+                        <new href="#modNov_4_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="repeal">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_4__para_2"/>
+                        <old href="#modNov_4_old_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_4__para_2"/>
+                        <old href="#modNov_4_old_20"/>
+                        <new href="#modNov_4_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_4__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_4__para_3"/>
+                        <new href="#modNov_4_new_22"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_3__para_1__point_c"/>
+                        <old href="#modNov_4_old_25"/>
+                        <new href="#modNov_4_new_25"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_3__para_1__point_a"/>
+                        <old href="#modNov_4_old_13"/>
+                        <new href="#modNov_4_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_3__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-14/5/ita@2023-03-16/!main/~art_3__para_1__point_c"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-03-10/23/!main" showAs=""/>
+                <passiveRef eId="C.771" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;771" showAs=""/>
+                <passiveRef eId="S.555" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;555" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/03/15/23G00031/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 14 gennaio 2023, n. 5, recante disposizioni urgenti in materia di trasparenza dei prezzi dei carburanti e di rafforzamento dei poteri di controllo del Garante per la sorveglianza dei prezzi, nonche' di sostegno per la fruizione del trasporto pubblico. (23G00031)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00031</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-03-10</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/03/15/23G00031/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/03/15/23G00031/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/03/15/23G00031/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/03/15/23G00031/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/23" nativeUrn="urn:nir:stato:legge:2023-03-10;23" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-03-15"><ns0:event type="enacted" date="2023-03-10"/><ns0:event type="published" date="2023-03-15"/><ns0:event type="commenced" date="2023-03-15"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/b941283d-a743-485a-a2ff-8dbe2c62b243" sourceSha256="bd71490e621e530d0ee912494fabc73f80f2ef33fcc3caa5aea75216524def8e" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T19:35:20.451883Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-03-10">10 marzo 2023</docDate>
+                <docNumber>23</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 14 gennaio 2023, n. 5, recante disposizioni urgenti in materia di trasparenza dei prezzi dei carburanti e di rafforzamento dei poteri di controllo del Garante per la sorveglianza dei prezzi, nonche' di sostegno per la fruizione del trasporto pubblico. (23G00031) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 16/03/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2023-01-14/5/!main" ns1:target="olf:it/decreto-legge/stato/2023/5" ns1:relation="repeals">decreto-legge 14 gennaio 2023, n. 5</ref>, recante disposizioni urgenti in materia di trasparenza dei prezzi dei carburanti e di rafforzamento dei poteri di controllo del Garante per la sorveglianza dei prezzi, nonche' di sostegno per la fruizione del trasporto pubblico, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 10 marzo 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giorgetti, Ministro dell'economia e delle finanze Urso, Ministro delle imprese e del made in Italy Visto, il Guardasigilli: Nordio __________ Avvertenza: Il decreto-legge 14 gennaio 2023, n. 5, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 11 del 14 gennaio 2023. A norma dell'art. 15, comma 5, della legge 23 agosto 1988, n. 400 (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 70.</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-03-10/23/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-03-10/23"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-03-10;23"/>
+                                <FRBRalias name="eli" value="eli/id/2023/03/15/23G00031/ORIGINAL"/>
+                                <FRBRdate date="2023-03-16" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-03-10/23/ita@2023-03-16/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-03-10/23/ita@2023-03-16"/>
+                                <FRBRdate date="2023-03-16" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-03-10/23/ita@2023-03-16/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-03-10/23/ita@2023-03-16.xml"/>
+                                <FRBRdate date="2023-03-10" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 14 GENNAIO 2023, N. 5 
+ 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1: 
+ dopo il primo periodo e' inserito il seguente: «L'esclusione dal concorso alla formazione del reddito del lavoratore, disposta dal primo periodo, non rileva ai fini contributivi»; 
+ al secondo periodo, le parole: «e a 1,2 milioni di euro nell'anno 2024 si provvede» sono sostituite dalle seguenti: «e in 1,2 milioni di euro nell'anno 2024, si provvede», dopo le parole: «n. 307, e, quanto» e' inserita la seguente: «a» e le parole: «Fondo per le esigenze indifferibili» sono sostituite dalle seguenti: «Fondo per far fronte ad esigenze indifferibili che si manifestano nel corso della gestione,»; 
+ al comma 2: 
+ al primo periodo, le parole: «n. 99,» sono sostituite dalle seguenti: «, n. 99,», dopo le parole: «dei prezzi comunicati» sono inserite le seguenti: «<quotedText eId="modNov_1_new_3">dagli esercenti l'attivita' di vendita al pubblico di carburante per autotrazione in impianti situati fuori della rete autostradale nonche' la media aritmetica, su base nazionale, di quelli comunicati dagli esercenti operanti lungo la rete autostradale</quotedText>» e le parole: «sul proprio sito istituzionale» sono sostituite dalle seguenti: «nel proprio sito internet istituzionale»; 
+ al secondo periodo, le parole: «lett. l-bis), del» sono sostituite dalle seguenti: «<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main#art_letlbis" ns2:target="olf:it/decreto-legislativo/stato/2005/82/art_letlbis" ns2:relation="cites">lettera l-bis), del codice dell'amministrazione digitale</ref>, di cui al»; 
+ il terzo periodo e' sostituito dal seguente: «La modalita' delle comunicazioni, da effettuarsi al variare, in aumento o in diminuzione, del prezzo praticato e comunque con frequenza settimanale, anche in mancanza di variazioni, nonche' le caratteristiche e le modalita' di esposizione dei cartelloni contenenti le informazioni di cui al comma 3 sono definite con decreto del Ministro delle imprese e del made in Italy, da adottare entro quindici giorni dalla data di entrata in vigore della legge di conversione del presente decreto»; 
+ il comma 3 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_1_new_6">3. Gli esercenti l'attivita' di vendita al pubblico di carburante per autotrazione, compresi quelli operanti lungo la rete autostradale, espongono con adeguata evidenza cartelloni riportanti i prezzi medi di riferimento definiti ai sensi del comma 2</quotedText>»; 
+ dopo il comma 3 e' inserito il seguente: 
+ «<quotedText eId="modNov_1_new_7">3-bis. Al fine di garantire un'adeguata diffusione presso l'utenza dei dati comunicati e delle medie dei prezzi pubblicate, il Ministero delle imprese e del made in Italy, di concerto con il Ministero dell'economia e delle finanze, sviluppa e rende disponibile gratuitamente, mediante un soggetto in house ovvero sulla base di convenzioni stipulate con amministrazioni pubbliche dotate di specifica competenza, un'applicazione informatica, fruibile per mezzo di dispositivi portatili, che consenta la consultazione dei prezzi medi di cui al comma 2 nonche' dei prezzi praticati dai singoli esercenti, tramite apposite funzioni di selezione, anche su base geografica, a disposizione degli utenti. A tal fine e' autorizzata la spesa di 500.000 euro, per l'anno 2023, per lo sviluppo e l'implementazione dell'applicazione informatica, e di 100.000 euro annui, a decorrere dall'anno 2024, per il supporto tecnico-specialistico e i servizi connessi alla gestione dell'applicazione</quotedText>»; 
+ al comma 4: 
+ i periodi dal primo al quarto sono sostituiti dai seguenti: «<quotedText eId="modNov_1_new_10">In caso di violazione degli obblighi di comunicazione, come specificati dal decreto emanato ai sensi del comma 2, si applica la sanzione amministrativa pecuniaria da euro 200 a euro 2.000, tenuto conto anche del livello di fatturato dell'esercente, per il giorno in cui la violazione si e' consumata. Ove la violazione degli obblighi di comunicazione sia reiterata per almeno quattro volte, anche non consecutive, nell' arco di sessanta giorni, puo' essere disposta la sospensione dell' attivita' per un periodo da uno a trenta giorni. La sanzione di cui al primo periodo si applica, con i medesimi importi e modalita', anche in caso di violazione dell'obbligo di esposizione del prezzo medio di cui al comma 3. L'accertamento delle violazioni di cui ai precedenti periodi e' effettuato dal Corpo della guardia di finanza, anche avvalendosi dei poteri di accertamento di cui all'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973-09-29/600/!main#art_41bis" ns3:target="olf:it/dpr/stato/1973/600/art_41bis" ns3:relation="cites">articolo 41-bis del decreto del Presidente della Repubblica 29 settembre 1973, n. 600</ref>, tenuto conto dei dati rilevati dal Ministero delle imprese e del made in Italy e pubblicati nel sito internet istituzionale del medesimo Ministero, senza nuovi o maggiori oneri per la finanza pubblica. All'irrogazione delle sanzioni provvede il prefetto</quotedText>»; 
+ al sesto periodo, dopo le parole: «comma 5, del» sono inserite le seguenti: «<quotedText eId="modNov_1_new_9">
+                                            <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/2005-09-06/206/!main" ns4:target="olf:it/decreto-legislativo/stato/2005/206" ns4:relation="cites">codice del consumo</ref>, di cui al</quotedText>»; 
+ al comma 5, primo periodo, le parole: «di cui al comma 2» sono sostituite dalle seguenti: «di cui ai commi 2 e 3» e le parole: «all'implementazione» sono sostituite dalle seguenti: «allo sviluppo»; 
+ dopo il comma 5 e' inserito il seguente: 
+ «<quotedText eId="modNov_1_new_4">5-bis. Entro trenta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, le amministrazioni competenti verificano l'allineamento delle iscrizioni presenti nelle banche di dati di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2017-08-07/124/!main#art_1-com100" ns5:target="olf:it/legge/stato/2017/124/art_1-com100" ns5:relation="cites">articolo 1, comma 100, della legge 7 agosto 2017, n. 124</ref>. Nelle more della piena interoperabilita' tra le suddette banche di dati, ogni inserimento, cancellazione o modifica nell'anagrafe degli impianti di distribuzione di benzina, gasolio, GPL e metano della rete stradale e autostradale, di cui al medesimo <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2017/124/!main#art_1-com100" ns6:resolution="unresolved">articolo 1, comma 100, della legge n. 124 del 2017</ref>, e' comunicato all'Osservatorio sui prezzi dei carburanti. Le amministrazioni competenti provvedono all'attuazione del presente comma con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri a carico della finanza pubblica</quotedText>»; 
+ al comma 6, dopo le parole: «comma 1, del» sono inserite le seguenti: «<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2005-09-06/206/!main" ns7:target="olf:it/decreto-legislativo/stato/2005/206" ns7:relation="cites">codice del consumo</ref>, di cui al»; 
+ dopo il comma 7 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_1_new_23">7-bis. Il Garante per la sorveglianza dei prezzi, di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2007-12-24/244/!main#art_2-com198" ns8:target="olf:it/legge/stato/2007/244/art_2-com198" ns8:relation="amends">articolo 2, comma 198, della legge 24 dicembre 2007, n. 244</ref>, predispone trimestralmente una relazione sull'andamento dei prezzi medi di cui al comma 2, in cui sono specificamente illustrate le variazioni rilevate nella filiera del prezzo; la relazione e' pubblicata nel sito internet dell'Osservatorio dei prezzi e delle tariffe del Ministero delle imprese e del made in Italy. 
+ 7-ter. Agli oneri derivanti dal comma 3-bis, pari a 500.000 euro per l'anno 2023 e a 100.000 euro annui a decorrere dall'anno 2024, si provvede: 
+ a) per l'anno 2023, mediante corrispondente riduzione dello stanziamento del fondo speciale di conto capitale iscritto, ai fini del bilancio triennale 2023-2025, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2023, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero delle imprese e del made in Italy; 
+ b) a decorrere dall'anno 2024, mediante corrispondente riduzione delle proiezioni dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2023-2025, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2023, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero delle imprese e del made in Italy</quotedText>».</mod>
+                                    <mod eId="modNov_2">Dopo l'articolo 1 e' inserito il seguente: 
+ «<quotedText eId="modNov_2_new_24">Art. 1-bis. (Disposizioni in materia di accise sul gasolio commerciale usato come carburante per le imprese di cui alla <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2003-08-11/218/!main" ns9:target="olf:it/legge/stato/2003/218" ns9:relation="cites">legge 11 agosto 2003, n. 218</ref>). - 1. Al fine di sostenere il settore del trasporto mediante autobus turistici, per il periodo compreso tra il 1° aprile e il 31 agosto 2023 alle imprese esercenti, in ambito sia nazionale sia internazionale, attivita' di trasporto turistico di persone mediante autobus ai sensi della <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2003-08-11/218/!main" ns10:target="olf:it/legge/stato/2003/218" ns10:relation="cites">legge 11 agosto 2003, n. 218</ref>, che utilizzano veicoli aventi classi di emissione "euro VI" si applica l'aliquota agevolata dell'accisa sul gasolio commerciale usato come carburante prevista al numero 4-bis della tabella A allegata al testo unico di cui al <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/1995-10-26/504/!main" ns11:target="olf:it/decreto-legislativo/stato/1995/504" ns11:relation="cites">decreto legislativo 26 ottobre 1995, n. 504</ref>. 
+ 2. Agli oneri derivanti dall'attuazione del presente articolo, valutati in 6,87 milioni di euro per l'anno 2023 e in 4,58 milioni di euro per l'anno 2024, si provvede, quanto a 5,87 milioni di euro per l'anno 2023 e a 3,58 milioni di euro per l'anno 2024, mediante corrispondente riduzione del Fondo per interventi strutturali di politica economica, di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegge/stato/2004-11-29/282/!main#art_10-com5" ns12:target="olf:it/decreto-legge/stato/2004/282/art_10-com5" ns12:relation="cites">articolo 10, comma 5, del decreto-legge 29 novembre 2004, n. 282</ref>, convertito, con modificazioni, dalla <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2004-12-27/307/!main" ns13:target="olf:it/legge/stato/2004/307" ns13:relation="cites">legge 27 dicembre 2004, n. 307</ref>, e, quanto a 1 milione di euro per ciascuno degli anni 2023 e 2024, mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2023-2025, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2023, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero del turismo</quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 2: 
+ al comma 1, lettera b), le parole: «Il decreto» sono sostituite dalle seguenti: «291. Il decreto» e le parole: «nell'ultimo Documento di programmazione economico-finanziaria presentato», ovunque ricorrono, sono sostituite dalle seguenti: «nell'ultimo Documento di economia e finanza o nella relativa Nota di aggiornamento presentati alle Camere».</mod>
+                                    <mod eId="modNov_4">All'articolo 3: 
+ al comma 1: 
+ alla lettera a), le parole: «<quotedText eId="modNov_4_old_13">sportelli o analoga denominazione</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_13">comunque denominati</quotedText>»; 
+ alla lettera b): 
+ al numero 1), le parole: «della collaborazione e dei dati rilevati dall'ISTAT che» sono sostituite dalle seguenti: «della collaborazione dell'ISTAT e dei dati da esso rilevati, che»; 
+ al numero 2), le parole: «sono sottratti alla disciplina» sono sostituite dalle seguenti: «non sono sottoposti alla disciplina prevista dal testo unico»; 
+ al numero 3), le parole: «non costituisca reato» sono sostituite dalle seguenti: «costituisca reato,» e le parole: «nel luogo» sono sostituite dalle seguenti: «per il luogo»; 
+ alla lettera c): 
+ al capoverso 199-bis, al primo periodo, dopo le parole: «materie prime sui mercati internazionali» sono inserite le seguenti: «, anche con riferimento alla filiera dei prezzi dei carburanti per automazione,» e, al secondo periodo, le parole: «<quotedText eId="modNov_4_old_25">sulla filiera</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_25">nella filiera</quotedText>»; 
+ e' aggiunto, in fine, il seguente capoverso: 
+ «199-septies. Per il supporto specialistico alle attivita' di analisi e monitoraggio dell'andamento dei prezzi nelle filiere di mercato di cui ai commi da 199-bis a 199-sexies, nonche' di quelle svolte in attuazione dell'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegge/stato/2022-03-21/21/!main#art_7" ns14:target="olf:it/decreto-legge/stato/2022/21/art_7" ns14:relation="amends">articolo 7 del decreto-legge 21 marzo 2022, n. 21</ref>, convertito, con modificazioni, dalla <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2022-05-20/51/!main" ns15:target="olf:it/legge/stato/2022/51" ns15:relation="cites">legge 20 maggio 2022, n. 51</ref>, compreso il potenziamento degli strumenti informatici a disposizione del Garante per la sorveglianza dei prezzi, e' autorizzata la spesa di 500.000 euro per ciascuno degli anni dal 2023 al 2025»; 
+ dopo il comma 1 e' inserito il seguente: 
+ «<quotedText eId="modNov_4_new_16">1-bis. Agli oneri di cui al comma 1, lettera c), capoverso 199-septies, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2023-2025, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2023, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero delle imprese e del made in ltaly</quotedText>»; 
+ al comma 2, capoverso 4-bis, terzo periodo, le parole: «<quotedText eId="modNov_4_old_17">e maggiori oneri</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_17">o maggiori oneri</quotedText>». 
+ All'articolo 4: 
+ al comma 1, primo periodo, le parole: «<quotedText eId="modNov_4_old_18">del caro energia</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_18">del rincaro dei prezzi dei prodotti energetici</quotedText>»; 
+ al comma 2, al primo periodo, le parole: «<quotedText eId="modNov_4_old_20">e del Ministro</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_20">e con il Ministro</quotedText>» e, al terzo periodo, la parola: «<quotedText eId="modNov_4_old_19">previste</quotedText>» e' soppressa; 
+ al comma 3, la parola: «CO2» e' sostituita dalla seguente: «CO2 », le parole: «fondo ammortamento titoli di Stato» sono sostituite dalle seguenti: «Fondo per l'ammortamento dei titoli di Stato» e dopo le parole: «bilancio dello Stato» sono inserite le seguenti: «<quotedText eId="modNov_4_new_22">nell'anno 2023</quotedText>»</mod>. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
