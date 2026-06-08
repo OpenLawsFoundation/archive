@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-10/53/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-10/53"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-05-10;53"/>
+                    <FRBRalias name="eli" value="eli/id/2023/05/18/23G00061/ORIGINAL"/>
+                    <FRBRdate date="2023-05-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/18/23G00061/ORIGINAL" aknrelname="eli/id/2023/05/18/23G00061/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Istituzione di una Commissione parlamentare di inchiesta sulle attivita' illecite connesse al ciclo dei rifiuti e su altri illeciti ambientali e agroalimentari. (23G00061)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00061" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-05-10" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-10/53/ita@2023-05-19/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-10/53/ita@2023-05-19"/>
+                    <FRBRdate date="2023-05-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/18/23G00061/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/05/18/23G00061/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/05/18/23G00061/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-10/53/ita@2023-05-19/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-10/53/ita@2023-05-19.xml"/>
+                    <FRBRdate date="2023-05-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/18/23G00061/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-05-18" name="" number="115" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-05-18" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2023-05-10" refersTo="#C.80"/>
+                <step by="#camera" date="2023-05-10" refersTo="#C.532"/>
+                <step by="#camera" date="2023-05-10" refersTo="#C.605"/>
+                <step by="#camera" date="2023-05-10" refersTo="#C.717"/>
+                <step by="#camera" date="2023-05-10" refersTo="#C.737"/>
+                <step by="#senato" date="2023-05-10" refersTo="#S.536"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-05-10/53/!main" showAs=""/>
+                <passiveRef eId="C.80" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;80" showAs=""/>
+                <passiveRef eId="C.532" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;532" showAs=""/>
+                <passiveRef eId="C.605" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;605" showAs=""/>
+                <passiveRef eId="C.717" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;717" showAs=""/>
+                <passiveRef eId="C.737" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;737" showAs=""/>
+                <passiveRef eId="S.536" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;536" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/05/18/23G00061/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Istituzione di una Commissione parlamentare di inchiesta sulle attivita' illecite connesse al ciclo dei rifiuti e su altri illeciti ambientali e agroalimentari. (23G00061)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00061</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-05-10</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/05/18/23G00061/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/05/18/23G00061/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/05/18/23G00061/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/05/18/23G00061/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/53" nativeUrn="urn:nir:stato:legge:2023-05-10;53" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-05-18"><ns0:event type="enacted" date="2023-05-10"/><ns0:event type="published" date="2023-05-18"/><ns0:event type="commenced" date="2023-05-18"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/96e0e4ad-1312-428c-a056-c8856dd2604d" sourceSha256="809ddea72cdaa9f1fedc8ab7a558acde01b11e7a143a952be2cdd688dda55229" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T19:25:51.016185Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-05-10">10 maggio 2023</docDate>
+                <docNumber>53</docNumber>
+                <docTitle>Istituzione di una Commissione parlamentare di inchiesta sulle attivita' illecite connesse al ciclo dei rifiuti e su altri illeciti ambientali e agroalimentari. (23G00061) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 19/05/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Istituzione e compiti della Commissione</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_1__para_1__intro_1">
+                            <p>E' istituita, ai sensi dell'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_82" ns1:target="olf:it/costituzione/stato/1947/const/art_82" ns1:relation="cites">articolo 82 della Costituzione</ref>, per la durata della XIX legislatura, una Commissione parlamentare di inchiesta sulle attivita' illecite connesse al ciclo dei rifiuti e su altri illeciti ambientali e agroalimentari, di seguito denominata «Commissione», con il compito di: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>svolgere indagini atte a fare luce sulle attivita' illecite connesse al ciclo dei rifiuti e dei rifiuti di imballaggio, sulle organizzazioni in esse coinvolte o ad esse comunque collegate, sui loro assetti societari e sul ruolo svolto dalla criminalita' organizzata, con specifico riferimento alle associazioni di cui agli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416" ns2:target="olf:it/regio-decreto/stato/1930/1398/art_416" ns2:relation="cites">articoli 416</ref> e <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416bis" ns3:target="olf:it/regio-decreto/stato/1930/1398/art_416bis" ns3:relation="cites">416-bis del codice penale</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>individuare le connessioni tra le attivita' illecite nel settore dei rifiuti e altre attivita' economiche, con particolare riguardo al traffico dei rifiuti all'interno dei territori comunali e provinciali e tra le diverse regioni, anche tenendo conto del divario nella dotazione di impianti, ivi compreso il traffico dei rifiuti verso le isole; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>individuare le specifiche attivita' illecite connesse al traffico transfrontaliero dei rifiuti, con particolare riferimento a quelle concernenti i rifiuti, anche pericolosi, in partenza dai porti marittimi verso destinazioni estere, anche al fine di accertare l'esistenza e l'ubicazione degli impianti a cui i rifiuti sono destinati, e svolgere indagini, in collaborazione con le autorita' di inchiesta degli Stati destinatari dei rifiuti, per individuare attivita' volte a immettere nel mercato nazionale beni e prodotti, realizzati attraverso processi di riciclo di materie prime secondarie ottenute dai rifiuti, che non rispondono alle caratteristiche merceologiche e sanitarie previste dalla normativa nazionale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>verificare l'eventuale sussistenza di comportamenti illeciti nell'ambito della pubblica amministrazione centrale e periferica e dei soggetti pubblici o privati operanti nella gestione del ciclo dei rifiuti, anche in riferimento alla destinazione e all'utilizzo dei fondi previsti dal Piano nazionale di ripresa e resilienza in campo ambientale, alle modalita' di gestione dei servizi di smaltimento dei rifiuti da parte degli enti locali e ai relativi sistemi di affidamento; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>verificare l'eventuale sussistenza di attivita' illecite relative ai siti inquinati, compresi quelli degli impianti minerari dismessi, e alle attivita' di bonifica, anche ai fini dell'individuazione del responsabile della contaminazione, nonche' alla gestione dei rifiuti radioattivi, anche in relazione alle condizioni di sicurezza dei siti in cui sono temporaneamente depositati i rifiuti radioattivi nelle more della localizzazione e della costruzione del Deposito nazionale dei rifiuti radioattivi, di cui all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/2010-02-15/31/!main#art_2-com1-lete" ns4:target="olf:it/decreto-legislativo/stato/2010/31/art_2-com1-lete" ns4:relation="cites">articolo 2, comma 1, lettera e), del decreto legislativo 15 febbraio 2010, n. 31</ref>, verificando altresi' lo stato di attuazione delle operazioni di bonifica dei medesimi siti; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>verificare l'eventuale sussistenza di attivita' illecite nella gestione del servizio idrico integrato con riferimento alla gestione degli impianti di depurazione delle acque nonche' al trattamento dei gessi e allo smaltimento dei fanghi e dei reflui provenienti da tali impianti; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>verificare la corretta attuazione della normativa vigente in materia ambientale, relativamente agli ambiti di indagine della Commissione nonche' all'applicazione della <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2015-05-22/68/!main" ns5:target="olf:it/legge/stato/2015/68" ns5:relation="cites">legge 22 maggio 2015, n. 68</ref>, recante disposizioni in materia di delitti contro l'ambiente; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_h">
+                            <num>h)</num>
+                            <content>
+                                <p>verificare l'eventuale sussistenza di attivita' illecite relative alla gestione e allo smaltimento dei materiali contenenti amianto nonche' il rispetto della normativa vigente ed eventuali inadempienze da parte di soggetti pubblici e privati; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_i">
+                            <num>i)</num>
+                            <content>
+                                <p>indagare sulle attivita' illecite legate al fenomeno degli incendi e su altre condotte illecite riguardanti gli impianti di deposito, trattamento e smaltimento dei rifiuti ovvero i siti abusivi di discarica; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_l">
+                            <num>l)</num>
+                            <content>
+                                <p>compiere, a fini conoscitivi, sopralluoghi o visite presso gli impianti che adottano procedimenti innovativi in campo ambientale, comprese le attivita' di riparazione e di riciclo, ovvero adottano tecnologie e procedimenti sperimentali che presentano interessanti prospettive di sviluppo e applicazione, anche approfondendo il tema della cessazione della qualifica di rifiuto (end of waste), in attuazione dei principi della transizione ecologica e dell'economia circolare, al fine di prevenire gli illeciti ambientali; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_m">
+                            <num>m)</num>
+                            <content>
+                                <p>indagare sull'esistenza di eventuali illeciti connessi allo smaltimento degli impianti per la produzione di energia da fonte rinnovabile, cosiddetti «rifiuti emergenti», come definiti dall'Agenzia europea dell'ambiente, con particolare riferimento allo smaltimento, al termine del loro ciclo di utilizzazione, dei pannelli solari fotovoltaici, delle pale eoliche, delle batterie nonche' di ogni altro materiale o dispositivo utilizzato nelle infrastrutture per la produzione di energia da fonte rinnovabile; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_n">
+                            <num>n)</num>
+                            <content>
+                                <p>indagare sull'esistenza di attivita' illecite nel settore agricolo e agroalimentare, comprese quelle connesse a forme di criminalita' organizzata, commesse anche attraverso sofisticazioni e contraffazione di prodotti enogastronomici, di etichettature e di marchi di tutela, compreso il loro traffico transfrontaliero, anche ai fini dell'aggiornamento e del potenziamento della normativa in materia di reati agroalimentari, a tutela della salute umana, del lavoro e dell'ambiente nonche' del contrasto del traffico illecito di prodotti con marchio «made in Italy» contraffatti o alterati; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_o">
+                            <num>o)</num>
+                            <content>
+                                <p>analizzare le cause dell'abbandono di prodotti monouso, anche in plastica, sul suolo e nell'ambiente, verificare l'attuazione data alle disposizioni che recano le misure sanzionatorie applicabili a tale condotta e proporre iniziative per la promozione dell'uso di prodotti riutilizzabili, compostabili o rinnovabili; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_p">
+                            <num>p)</num>
+                            <content>
+                                <p>indagare sulle attivita' illecite legate al fenomeno delle cosiddette «zoomafie» e verificare la corretta applicazione del titolo IX-bis del libro secondo del <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns6:target="olf:it/regio-decreto/stato/1930/1398" ns6:relation="cites">codice penale</ref>. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Commissione riferisce alle Camere annualmente con singole relazioni o con relazioni generali e ogniqualvolta ne ravvisi la necessita' e, comunque, al termine dei suoi lavori. La Commissione puo' redigere relazioni speciali su singole tematiche in materia di ciclo dei rifiuti, anche con riferimento alla situazione emergenziale di talune aree del territorio, con riguardo alle gestioni dei rifiuti urbani, speciali, pericolosi e radioattivi. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La Commissione procede alle indagini e agli esami con gli stessi poteri e le stesse limitazioni dell'autorita' giudiziaria. La Commissione non puo' adottare provvedimenti attinenti alla liberta' e alla segretezza della corrispondenza e di ogni altra forma di comunicazione nonche' alla liberta' personale, fatto salvo l'accompagnamento coattivo di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_133" ns7:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_133" ns7:relation="cites">articolo 133 del codice di procedura penale</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 3, del Testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns8:target="olf:it/dpr/stato/1985/1092" ns8:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo dell'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_82" ns9:target="olf:it/costituzione/stato/1947/const/art_82" ns9:relation="cites">art. 82 della Costituzione</ref>: 
+ «Art. 82. - Ciascuna Camera puo' disporre inchieste su materie di pubblico interesse. 
+ A tale scopo nomina fra i propri componenti una commissione formata in modo da rispecchiare la proporzione dei vari gruppi. La commissione di inchiesta procede alle indagini e agli esami con gli stessi poteri e le stesse limitazioni della Autorita' giudiziaria.». 
+ - Si riporta il testo degli <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416" ns10:target="olf:it/regio-decreto/stato/1930/1398/art_416" ns10:relation="cites">articoli 416</ref> e <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416bis" ns11:target="olf:it/regio-decreto/stato/1930/1398/art_416bis" ns11:relation="cites">416-bis del codice penale</ref>: 
+ «Art. 416 (Associazione per delinquere). - Quando tre o piu' persone si associano allo scopo di commettere piu' delitti, coloro che promuovono o costituiscono od organizzano l'associazione sono puniti, per cio' solo, con la reclusione da tre a sette anni. 
+ Per il solo fatto di partecipare all'associazione, la pena e' della reclusione da uno a cinque anni. 
+ I capi soggiacciono alla stessa pena stabilita per i promotori. 
+ Se gli associati scorrono in armi le campagne o le pubbliche vie, si applica la reclusione da cinque a quindici anni. 
+ La pena e' aumentata se il numero degli associati e' di dieci o piu'.». 
+ «Art. 416-bis (Associazioni di tipo mafioso anche straniere). - Chiunque fa parte di un'associazione di tipo mafioso formata da tre o piu' persone, e' punito con la reclusione da dieci a quindici anni. 
+ Coloro che promuovono, dirigono o organizzano l'associazione sono puniti, per cio' solo, con la reclusione da dodici a diciotto anni. 
+ L'associazione e' di tipo mafioso quando coloro che ne fanno parte si avvalgono della forza di intimidazione del vincolo associativo e della condizione di assoggettamento e di omerta' che ne deriva per commettere delitti, per acquisire in modo diretto o indiretto la gestione o comunque il controllo di attivita' economiche, di concessioni, di autorizzazioni, appalti e servizi pubblici o per realizzare profitti o vantaggi ingiusti per se' o per altri, ovvero al fine di impedire od ostacolare il libero esercizio del voto o di procurare voti a se' o ad altri in occasione di consultazioni elettorali. 
+ Se l'associazione e' armata si applica la pena della reclusione da dodici a venti anni nei casi previsti dal primo comma e da quindici a ventisei anni nei casi previsti dal secondo comma. 
+ L'associazione si considera armata quando i partecipanti hanno la disponibilita', per il conseguimento della finalita' dell'associazione, di armi o materie esplodenti, anche se occultate o tenute in luogo di deposito. 
+ Se le attivita' economiche di cui gli associati intendono assumere o mantenere il controllo sono finanziate in tutto o in parte con il prezzo, il prodotto, o il profitto di delitti, le pene stabilite nei commi precedenti sono aumentate da un terzo alla meta'. 
+ Nei confronti del condannato e' sempre obbligatoria la confisca delle cose che servirono o furono destinate a commettere il reato e delle cose che ne sono il prezzo, il prodotto, il profitto o che ne costituiscono l'impiego. [Decadono inoltre di diritto le licenze di polizia, di commercio, di commissionario astatore presso i mercati annonari all'ingrosso, le concessioni di acque pubbliche e i diritti ad esse inerenti nonche' le iscrizioni agli albi di appaltatori di opere o di forniture pubbliche di cui il condannato fosse titolare]. 
+ Le disposizioni del presente articolo si applicano anche alla camorra, alla 'ndrangheta e alle altre associazioni, comunque localmente denominate, anche straniere, che valendosi della forza intimidatrice del vincolo associativo perseguono scopi corrispondenti a quelli delle associazioni di tipo mafioso.». 
+ - Si riporta il testo dell'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2010-02-15/31/!main#art_2-com1-lete" ns12:target="olf:it/decreto-legislativo/stato/2010/31/art_2-com1-lete" ns12:relation="cites">art. 2, comma 1, lettera e), del decreto legislativo 15 febbraio 2010, n. 31</ref> (Disciplina dei sistemi di stoccaggio del combustibile irraggiato e dei rifiuti radioattivi, nonche' benefici economici, a norma dell'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2009-07-23/99/!main#art_25" ns13:target="olf:it/legge/stato/2009/99/art_25" ns13:relation="cites">art. 25 della legge 23 luglio 2009, n. 99</ref>): 
+ «Art. 2 (Definizioni). - 1. Fatte salve le definizioni di cui alla <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/1962-12-31/1860/!main" ns14:target="olf:it/legge/stato/1962/1860" ns14:relation="cites">legge 31 dicembre 1962, n. 1860</ref>, e al <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/1995-03-17/230/!main" ns15:target="olf:it/decreto-legislativo/stato/1995/230" ns15:relation="cites">decreto legislativo 17 marzo 1995, n. 230</ref>, ai fini del presente decreto si definisce: 
+ a) - d) (Omissis); 
+ e) "Deposito nazionale": il deposito nazionale destinato allo smaltimento a titolo definitivo dei rifiuti radioattivi a bassa e media attivita', derivanti da attivita' industriali, di ricerca e medico-sanitarie e dalla pregressa gestione di impianti nucleari, e all'immagazzinamento, a titolo provvisorio di lunga durata, dei rifiuti ad alta attivita' e del combustibile irraggiato provenienti dalla pregressa gestione di impianti nucleari; 
+ f) - f-ter) (Omissis).». 
+ - La <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2015-05-22/68/!main" ns16:target="olf:it/legge/stato/2015/68" ns16:relation="cites">legge 22 maggio 2015, n. 68</ref>, recante: «Disposizioni in materia di delitti contro l'ambiente», e' pubblicata nella G.U. 28 maggio 2015, n. 122. 
+ - Il Titolo IX-bis del libro secondo del <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns17:target="olf:it/regio-decreto/stato/1930/1398" ns17:relation="cites">codice penale</ref> reca: «Dei delitti contro il sentimento per gli animali». 
+ - Si riporta il testo dell'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_133" ns18:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_133" ns18:relation="cites">art. 133 del codice di procedura penale</ref>: 
+ «Art. 133 (Accompagnamento coattivo di altre persone). - 1. Se il testimone, il perito, la persona sottoposta all'esame del perito diversa dall'imputato, il consulente tecnico, l'interprete o il custode di cose sequestrate, regolarmente citati o convocati, omettono senza un legittimo impedimento di comparire nel luogo, giorno e ora stabiliti, il giudice puo' ordinarne l'accompagnamento coattivo e puo' altresi' condannarli, con ordinanza, a pagamento di una somma da euro 51 a euro 516 a favore della cassa delle ammende nonche' alle spese alle quali la mancata comparizione ha dato causa. 
+ 1-bis. La disposizione di cui al comma 1 non si applica in caso di mancata comparizione del querelante all'udienza in cui sia stato citato a comparire come testimone, limitatamente ai casi in cui la mancata comparizione del querelante integra remissione tacita di querela, nei casi in cui essa e' consentita. 
+ 2. Si applicano le disposizioni dell'articolo 132.». </p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Composizione della Commissione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Commissione e' composta da diciotto senatori e da diciotto deputati, nominati rispettivamente dal Presidente del Senato della Repubblica e dal Presidente della Camera dei deputati, in proporzione al numero dei componenti dei gruppi parlamentari, comunque assicurando la presenza di almeno un deputato per ciascun gruppo esistente alla Camera e di almeno un senatore per ciascun gruppo esistente al Senato. I componenti sono nominati tenendo conto anche della specificita' dei compiti assegnati alla Commissione. I componenti della Commissione dichiarano alla Presidenza della Camera di appartenenza se nei loro confronti sussista alcuna delle condizioni indicate nel codice di autoregolamentazione in materia di formazione delle liste delle candidature per le elezioni europee, politiche, regionali, comunali e circoscrizionali, proposto dalla Commissione parlamentare di inchiesta sul fenomeno delle mafie e sulle altre associazioni criminali, anche straniere, istituita dalla <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2018-08-07/99/!main" ns19:target="olf:it/legge/stato/2018/99" ns19:relation="cites">legge 7 agosto 2018, n. 99</ref>, con la relazione approvata nella seduta del 27 marzo 2019. Qualora una delle situazioni previste nel citato codice di autoregolamentazione sopravvenga, successivamente alla nomina, a carico di uno dei componenti della Commissione, questi ne informa immediatamente il presidente della Commissione e i Presidenti del Senato della Repubblica e della Camera dei deputati. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Commissione e' rinnovata dopo il primo biennio dalla sua costituzione; i suoi componenti possono essere confermati. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Il Presidente del Senato della Repubblica e il Presidente della Camera dei deputati convocano la Commissione, entro dieci giorni dalla nomina dei suoi componenti, per la costituzione dell'ufficio di presidenza. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>L'ufficio di presidenza, composto dal presidente, da due vicepresidenti e da due segretari, e' eletto dai componenti della Commissione a scrutinio segreto. Per l'elezione del presidente e' necessaria la maggioranza assoluta dei componenti della Commissione.
+Se nessuno riporta tale maggioranza, si procede al ballottaggio tra i due candidati che hanno ottenuto il maggior numero di voti; e' eletto il candidato che ottiene il maggior numero di voti. In caso di parita' di voti e' proclamato eletto o entra in ballottaggio il piu' anziano di eta'. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Per l'elezione, rispettivamente, dei due vicepresidenti e dei due segretari, ciascun componente della Commissione scrive sulla propria scheda un solo nome. Sono eletti coloro che hanno ottenuto il maggior numero di voti. In caso di parita' di voti si procede ai sensi del comma 4. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Le disposizioni dei commi 4 e 5 si applicano anche per le elezioni suppletive. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2018-08-07/99/!main#art_2" ns20:target="olf:it/legge/stato/2018/99/art_2" ns20:relation="cites">art. 2: 
+ - La legge 7 agosto 2018, n. 99</ref>, recante: «Istituzione di una Commissione parlamentare di inchiesta sul fenomeno delle mafie e sulle altre associazioni criminali, anche straniere», e' pubblicata nella G.U. 20 agosto 2018, n. 192. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Audizioni a testimonianza</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Ferme restando le competenze dell'autorita' giudiziaria, per le audizioni a testimonianza davanti alla Commissione si applicano le disposizioni previste dagli <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_366" ns21:target="olf:it/regio-decreto/stato/1930/1398/art_366" ns21:relation="cites">articoli 366</ref>, <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_367" ns22:target="olf:it/regio-decreto/stato/1930/1398/art_367" ns22:relation="cites">367</ref>, <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_368" ns23:target="olf:it/regio-decreto/stato/1930/1398/art_368" ns23:relation="cites">368</ref>, <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_369" ns24:target="olf:it/regio-decreto/stato/1930/1398/art_369" ns24:relation="cites">369</ref>, <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_370" ns25:target="olf:it/regio-decreto/stato/1930/1398/art_370" ns25:relation="cites">370</ref> e <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_372" ns26:target="olf:it/regio-decreto/stato/1930/1398/art_372" ns26:relation="cites">372 del codice penale</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Si riporta il testo degli <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_366" ns27:target="olf:it/regio-decreto/stato/1930/1398/art_366" ns27:relation="cites">articoli 366</ref>, <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_367" ns28:target="olf:it/regio-decreto/stato/1930/1398/art_367" ns28:relation="cites">367</ref>, <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_368" ns29:target="olf:it/regio-decreto/stato/1930/1398/art_368" ns29:relation="cites">368</ref>, <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_369" ns30:target="olf:it/regio-decreto/stato/1930/1398/art_369" ns30:relation="cites">369</ref>, <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_370" ns31:target="olf:it/regio-decreto/stato/1930/1398/art_370" ns31:relation="cites">370</ref> e <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_372" ns32:target="olf:it/regio-decreto/stato/1930/1398/art_372" ns32:relation="cites">372 del codice penale</ref>: 
+ «Art. 366 (Rifiuto di uffici legalmente dovuti). - Chiunque, nominato dall'autorita' giudiziaria perito, interprete, ovvero custode di cose sottoposte a sequestro dal giudice penale, ottiene con mezzi fraudolenti l'esenzione dall'obbligo di comparire o di prestare il suo ufficio, e' punito con la reclusione fino a sei mesi o con la multa da euro 30 a euro 516. 
+ Le stesse pene si applicano a chi, chiamato dinanzi all'autorita' giudiziaria per adempiere ad alcuna delle predette funzioni, rifiuta di dare le proprie generalita', ovvero di prestare il giuramento richiesto, ovvero di assumere o di adempiere le funzioni medesime. 
+ Le disposizioni precedenti si applicano alla persona chiamata a deporre come testimonio dinanzi all'autorita' giudiziaria e ad ogni altra persona chiamata ad esercitare una funzione giudiziaria. 
+ Se il colpevole e' un perito o un interprete, la condanna importa l'interdizione dalla professione o dall'arte.». 
+ «Art. 367 (Simulazione di reato). - Chiunque, con denunci, querela, richiesta o istanza, anche se anonima o sotto falso nome, diretta all'autorita' giudiziaria o ad un'altra autorita' che a quella abbia obbligo di riferirne, afferma falsamente essere avvenuto un reato, ovvero simula le tracce di un reato, in modo che si possa iniziare un procedimento penale per accertarlo, e' punito con la reclusione da uno a tre anni.». 
+ «Art. 368 (Calunnia). - Chiunque, con denunzia, querela, richiesta o istanza, anche se anonima o sotto falso nome, diretta all'autorita' giudiziaria o ad un'altra autorita' che a quella abbia obbligo di riferirne o alla Corte penale internazionale, incolpa di un reato taluno che egli sa innocente, ovvero simula a carico di lui le tracce di un reato, e' punito con la reclusione da due a sei anni. 
+ La pena e' aumentata se s'incolpa taluno di un reato pel quale la legge stabilisce la pena della reclusione superiore nel massimo a dieci anni, o un'altra pena piu' grave. 
+ La reclusione e' da quattro a dodici anni, se dal fatto deriva una condanna alla reclusione superiore a cinque anni; e' da sei a venti anni, se dal fatto deriva una condanna all'ergastolo; e si applica la pena dell'ergastolo, se dal fatto deriva una condanna alla pena di morte.». 
+ «Art. 369 (Autocalunnia). - Chiunque, mediante dichiarazione ad alcuna delle autorita' indicate nell'articolo precedente, anche se fatta con scritto anonimo o sotto falso nome, ovvero mediante confessione innanzi all'autorita' giudiziaria, incolpa se stesso di un reato che egli sa non avvenuto, o di un reato commesso da altri, e' punito con la reclusione da uno a tre anni.». 
+ «Art. 370 (Simulazione o calunnia per un fatto costituente contravvenzione). - Le pene stabilite negli articoli precedenti sono diminuite se la simulazione o la calunnia concerne un fatto preveduto dalla legge come contravvenzione.». 
+ «Art. 372 (Falsa testimonianza). - Chiunque, deponendo come testimone innanzi all'autorita' giudiziaria o alla Corte penale internazionale, afferma il falso o nega il vero, ovvero tace, in tutto o in parte, cio' che sa intorno ai fatti sui quali e' interrogato, e' punito con la reclusione da due a sei anni.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Acquisizione di atti e documenti</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Commissione puo' ottenere copie di atti e documenti relativi a procedimenti e inchieste in corso presso l'autorita' giudiziaria o altri organi inquirenti nonche' copie di atti e documenti relativi a indagini e inchieste parlamentari, anche se coperti dal segreto. La Commissione garantisce il mantenimento del regime di segretezza fino a quando gli atti e i documenti trasmessi in copia siano coperti da segreto. L'autorita' giudiziaria provvede tempestivamente e puo' ritardare la trasmissione di copia di atti e documenti richiesti, con decreto motivato solo per ragioni di natura istruttoria. Il decreto ha efficacia per sei mesi e puo' essere rinnovato. Quando tali ragioni vengono meno, l'autorita' giudiziaria provvede tempestivamente a trasmettere quanto richiesto. Il decreto non puo' essere rinnovato o avere efficacia oltre la chiusura delle indagini preliminari. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per il segreto di Stato si applica quanto previsto dalla <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2007-08-03/124/!main" ns33:target="olf:it/legge/stato/2007/124" ns33:relation="cites">legge 3 agosto 2007, n. 124</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Fermo restando quanto previsto dal comma 1, secondo periodo, la Commissione stabilisce quali atti e documenti non devono essere divulgati, anche in relazione ad esigenze attinenti ad altre istruttorie o inchieste in corso. Su richiesta dell'autorita' giudiziaria che procede sono coperti dal segreto gli atti e i documenti attinenti a procedimenti giudiziari nella fase delle indagini preliminari. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Il segreto funzionale riguardante atti e documenti acquisiti dalla Commissione in riferimento ai reati di cui agli <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416" ns34:target="olf:it/regio-decreto/stato/1930/1398/art_416" ns34:relation="cites">articoli 416</ref> e <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416bis" ns35:target="olf:it/regio-decreto/stato/1930/1398/art_416bis" ns35:relation="cites">416-bis del codice penale</ref> non puo' essere opposto ad altre Commissioni parlamentari di inchiesta. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'<ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/legge/stato/2007-08-03/124/!main#art_4" ns36:target="olf:it/legge/stato/2007/124/art_4" ns36:relation="cites">art. 4: 
+ - La legge 3 agosto 2007, n. 124</ref>, recante: «Sistema di informazione per la sicurezza della Repubblica e nuova disciplina del segreto», e' pubblicata nella G.U. 13 agosto 2007, n. 187. 
+ - Per il testo degli <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416" ns37:target="olf:it/regio-decreto/stato/1930/1398/art_416" ns37:relation="cites">articoli 416</ref> e <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416bis" ns38:target="olf:it/regio-decreto/stato/1930/1398/art_416bis" ns38:relation="cites">416-bis del codice penale</ref>, vedi nelle note all'art. 1. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Obbligo del segreto</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>I componenti della Commissione, il personale addetto alla stessa e ogni altra persona che collabora con la Commissione o compie o concorre a compiere atti di inchiesta, oppure ne viene a conoscenza per ragioni di ufficio o di servizio, sono obbligati al segreto per tutto quanto riguarda gli atti e i documenti di cui all'articolo 4, commi 1, secondo periodo, e 3. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Salvo che il fatto costituisca piu' grave reato, la violazione del segreto e' punita ai sensi dell'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_326" ns39:target="olf:it/regio-decreto/stato/1930/1398/art_326" ns39:relation="cites">articolo 326 del codice penale</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Salvo che il fatto costituisca piu' grave reato, si applicano le pene di cui all'<ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_326-com1" ns40:target="olf:it/regio-decreto/stato/1930/1398/art_326-com1" ns40:relation="cites">articolo 326, primo comma, del codice penale</ref> a chiunque diffonda in tutto o in parte, anche per riassunto o informazione, atti o documenti del procedimento di inchiesta dei quali sia stata vietata la divulgazione. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_5" placement="bottom">
+                                <p> Note all'art. 5: 
+ - Si riporta il testo dell'<ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_326" ns41:target="olf:it/regio-decreto/stato/1930/1398/art_326" ns41:relation="cites">art. 326 del codice penale</ref>: 
+ «Art. 326 (Rivelazione ed utilizzazione di segreti di ufficio). - Il pubblico ufficiale o la persona incaricata di un pubblico servizio, che, violando i doveri inerenti alle funzioni o al servizio, o comunque abusando della sua qualita', rivela notizie di ufficio, le quali debbano rimanere segrete, o ne agevola in qualsiasi modo la conoscenza, e' punito con la reclusione da sei mesi a tre anni. 
+ Se l'agevolazione e' soltanto colposa, si applica la reclusione fino a un anno. 
+ Il pubblico ufficiale o la persona incaricata di un pubblico servizio, che, per procurare a se' o ad altri un indebito profitto patrimoniale, si avvale illegittimamente di notizie di ufficio, le quali debbano rimanere segrete, e' punito con la reclusione da due a cinque anni. Se il fatto e' commesso al fine di procurare a se' o ad altri un ingiusto profitto non patrimoniale o di cagionare ad altri un danno ingiusto, si applica la pena della reclusione fino a due anni.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Organizzazione interna</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>L'attivita' e il funzionamento della Commissione sono disciplinati da un regolamento interno approvato dalla Commissione stessa prima dell'inizio dei lavori. Ciascun componente puo' proporre la modifica delle norme regolamentari. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Commissione puo' organizzare i propri lavori anche attraverso uno o piu' comitati, costituiti secondo il regolamento di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Tutte le volte che lo ritenga opportuno, la Commissione puo' riunirsi in seduta segreta. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>La Commissione si avvale dell'opera di agenti e di ufficiali di polizia giudiziaria, nonche' di magistrati ordinari collocati fuori ruolo, e puo' avvalersi di tutte le collaborazioni, che ritenga necessarie, di soggetti interni ed esterni alle amministrazioni pubbliche o di appartenenza autorizzati, ove occorra e con il loro consenso, dagli organi a cio' deputati e dai Ministeri competenti. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Per lo svolgimento dei suoi compiti la Commissione fruisce di personale, locali e strumenti operativi messi a disposizione dai Presidenti delle Camere, d'intesa tra loro. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Le spese per il funzionamento della Commissione sono stabilite nel limite massimo di 300.000 euro per l'anno 2023 e per ciascuno degli anni successivi e sono poste per meta' a carico del bilancio interno del Senato della Repubblica e per meta' a carico del bilancio interno della Camera dei deputati. I Presidenti del Senato della Repubblica e della Camera dei deputati, con determinazione adottata d'intesa tra loro, possono autorizzare annualmente un incremento delle spese di cui al precedente periodo, comunque in misura non superiore al 30 per cento, a seguito di richiesta formulata dal presidente della Commissione per motivate esigenze connesse allo svolgimento dell'inchiesta. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>La Commissione cura l'informatizzazione dei documenti acquisiti e prodotti nel corso dell'attivita' propria e delle analoghe Commissioni parlamentari di inchiesta precedenti. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 10 maggio 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
