@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-09-18/127/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-09-18/127"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-09-18;127"/>
+                    <FRBRalias name="eli" value="eli/id/2023/09/23/23G00139/ORIGINAL"/>
+                    <FRBRdate date="2023-09-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/09/23/23G00139/ORIGINAL" aknrelname="eli/id/2023/09/23/23G00139/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 28 luglio 2023, n. 98, recante misure urgenti in materia di tutela dei lavoratori in caso di emergenza climatica e di termini di versamento. (23G00139)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00139" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-09-18" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-09-18/127/ita@2023-09-24/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-09-18/127/ita@2023-09-24"/>
+                    <FRBRdate date="2023-09-24" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/09/23/23G00139/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/09/23/23G00139/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/09/23/23G00139/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-09-18/127/ita@2023-09-24/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-09-18/127/ita@2023-09-24.xml"/>
+                    <FRBRdate date="2023-09-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/09/23/23G00139/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-09-23" name="" number="223" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-09-23" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2023-09-18" refersTo="#S.826"/>
+                <step by="#camera" date="2023-09-18" refersTo="#C.1364"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-18;127#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-30;34#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 28 luglio 2023, n. 98 (in G.U. 28/07/2023, n. 175).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-18;127#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-07-28;98#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-18;127#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-07-28;98#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-18;127#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-07-28;98#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-18;127#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-07-28;98#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, comma 1 e l'introduzione del comma 2-bis all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-07-28/98/ita@2023-09-24/!main/~art_1__para_1"/>
+                        <old href="#modNov_1_old_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-07-28/98/ita@2023-09-24/!main/~art_2__para_2"/>
+                        <old href="#modNov_2_old_2"/>
+                        <new href="#modNov_2_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-07-28/98/ita@2023-09-24/!main/~art_2__para_3"/>
+                        <old href="#modNov_2_old_3"/>
+                        <new href="#modNov_2_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-07-28/98/ita@2023-09-24/!main/~art_3__para_1"/>
+                        <new href="#modNov_3_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="repeal">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-07-28/98/ita@2023-09-24/!main/~art_4__para_1"/>
+                        <old href="#modNov_4_old_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-07-28/98/ita@2023-09-24/!main/~art_4__para_2-bis"/>
+                        <new href="#modNov_4_new_6"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-09-18/127/!main" showAs=""/>
+                <passiveRef eId="S.826" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;826" showAs=""/>
+                <passiveRef eId="C.1364" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1364" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/09/23/23G00139/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 28 luglio 2023, n. 98, recante misure urgenti in materia di tutela dei lavoratori in caso di emergenza climatica e di termini di versamento. (23G00139)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00139</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-09-18</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/09/23/23G00139/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/09/23/23G00139/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/09/23/23G00139/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/09/23/23G00139/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/127" nativeUrn="urn:nir:stato:legge:2023-09-18;127" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-09-23"><ns0:event type="enacted" date="2023-09-18"/><ns0:event type="published" date="2023-09-23"/><ns0:event type="commenced" date="2023-09-23"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/6a461828-2aee-4fd1-a458-725200b59b04" sourceSha256="40749108e66a29e8f33467233b88ba8f61acd75367740e08ddd4f5de3f4baaf8" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T18:56:38.013475Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-09-18">18 settembre 2023</docDate>
+                <docNumber>127</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 28 luglio 2023, n. 98, recante misure urgenti in materia di tutela dei lavoratori in caso di emergenza climatica e di termini di versamento. (23G00139) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 24/09/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2023-07-28/98/!main" ns1:target="olf:it/decreto-legge/stato/2023/98" ns1:relation="repeals">decreto-legge 28 luglio 2023, n. 98</ref>, recante misure urgenti in materia di tutela dei lavoratori in caso di emergenza climatica e di termini di versamento, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2023-07-28/98/!main" ns2:target="olf:it/decreto-legge/stato/2023/98" ns2:relation="repeals">decreto-legge 28 luglio 2023, n. 98</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 175 del 28 luglio 2023. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 51. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 18 settembre 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giorgetti, Ministro dell'economia e delle finanze Calderone, Ministro del lavoro e delle politiche sociali Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-09-18/127/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-09-18/127"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-09-18;127"/>
+                                <FRBRalias name="eli" value="eli/id/2023/09/23/23G00139/ORIGINAL"/>
+                                <FRBRdate date="2023-09-24" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-09-18/127/ita@2023-09-24/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-09-18/127/ita@2023-09-24"/>
+                                <FRBRdate date="2023-09-24" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-09-18/127/ita@2023-09-24/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-09-18/127/ita@2023-09-24.xml"/>
+                                <FRBRdate date="2023-09-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+Modificazioni apportate in sede di conversione al <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2023-07-28/98/!main" ns4:target="olf:it/decreto-legge/stato/2023/98" ns4:relation="repeals">decreto-legge 28 luglio 2023, n. 98</ref> 
+ 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1, le parole: « <quotedText eId="modNov_1_old_1">articolo 10, lettere m), n), e o)</quotedText>» sono sostituite dalle seguenti: « <quotedText eId="modNov_1_new_1">articolo 10, comma 1, lettere m), n) e o)</quotedText>».</mod>
+                                    <mod eId="modNov_2">All'articolo 2: 
+ al comma 2, le parole: « <quotedText eId="modNov_2_old_2">al citato articolo 8</quotedText> » sono sostituite dalle seguenti: « <quotedText eId="modNov_2_new_2">all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/1972-08-08/457/!main#art_8" ns5:target="olf:it/legge/stato/1972/457/art_8" ns5:relation="cites">articolo 8 della legge 8 agosto 1972, n. 457</ref>
+                                        </quotedText> »; 
+ al comma 3, le parole: « <quotedText eId="modNov_2_old_3">sede INPS</quotedText>» sono sostituite dalle seguenti: « <quotedText eId="modNov_2_new_3">sede dell'Istituto nazionale della previdenza sociale (INPS)</quotedText> ».</mod>
+                                    <mod eId="modNov_3">All'articolo 3: 
+ il comma 1 e' sostituito dal seguente: 
+ « <quotedText eId="modNov_3_new_4">1. I Ministeri del lavoro e delle politiche sociali e della salute favoriscono e assicurano la convocazione delle parti sociali al fine di sottoscrivere apposite intese tra organizzazioni datoriali e sindacali per adottare, valutando anche la correlazione tra l'umidita' relativa, la temperatura e la ventilazione, linee guida e procedure concordate per l'attuazione delle previsioni di cui al <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2008-04-09/81/!main" ns6:target="olf:it/decreto-legislativo/stato/2008/81" ns6:relation="cites">decreto legislativo 9 aprile 2008, n. 81</ref>, a tutela della salute e sicurezza dei lavoratori che sono esposti alle emergenze climatiche</quotedText> ».</mod>
+                                    <mod eId="modNov_4">All'articolo 4: 
+ al comma 1<quotedText eId="modNov_4_old_5">,</quotedText> dopo le parole: « <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2022/197/!main" ns7:resolution="unresolved">legge n. 197 del 2022</ref> » il segno di interpunzione « , » e' soppresso; 
+ dopo il comma 2 e' aggiunto il seguente: 
+ « <quotedText eId="modNov_4_new_6">2-bis. Il termine per il trasferimento delle somme di cui all'articolo 3, comma 4, secondo periodo, del <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2023-03-30/34/!main" ns8:target="olf:it/decreto-legge/stato/2023/34" ns8:relation="repeals">decreto-legge 30 marzo 2023, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2023-05-26/56/!main" ns9:target="olf:it/legge/stato/2023/56" ns9:relation="cites">legge 26 maggio 2023, n. 56</ref>, e' differito al 30 settembre 2023</quotedText> ».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
