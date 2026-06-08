@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2026-02-13/24/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2026-02-13/24"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2026-02-13;24"/>
+                    <FRBRalias name="eli" value="eli/id/2026/02/25/26G00040/ORIGINAL"/>
+                    <FRBRdate date="2026-02-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/02/25/26G00040/ORIGINAL" aknrelname="eli/id/2026/02/25/26G00040/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni per la promozione e la valorizzazione dei cammini d'Italia. (26G00040)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="26G00040" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2026-02-13" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2026-02-13/24/ita@2026-02-26/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2026-02-13/24/ita@2026-02-26"/>
+                    <FRBRdate date="2026-02-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/02/25/26G00040/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2026/02/25/26G00040/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2026/02/25/26G00040/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2026-02-13/24/ita@2026-02-26/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2026-02-13/24/ita@2026-02-26.xml"/>
+                    <FRBRdate date="2026-02-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/02/25/26G00040/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2026-02-25" name="" number="46" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2026-02-25" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2026-02-13/24/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2026/02/25/26G00040/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni per la promozione e la valorizzazione dei cammini d'Italia. (26G00040)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>26G00040</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2026-02-13</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/02/25/26G00040/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2026/02/25/26G00040/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2026/02/25/26G00040/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/02/25/26G00040/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2026/24" nativeUrn="urn:nir:stato:legge:2026-02-13;24" jurisdiction="it"/><ns0:lifecycle inForceFrom="2026-02-25"><ns0:event type="enacted" date="2026-02-13"/><ns0:event type="published" date="2026-02-25"/><ns0:event type="commenced" date="2026-02-25"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/e56821d5-9eb0-46fb-8d61-dfd3e34ea13b" sourceSha256="7dab1c5a60b4e82320c46198716cf9b34587890f586c34c89b04af255234851a" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T17:47:13.805360Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2026-02-13">13 febbraio 2026</docDate>
+                <docNumber>24</docNumber>
+                <docTitle>Disposizioni per la promozione e la valorizzazione dei cammini d'Italia. (26G00040) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 26/02/2026</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Oggetto e finalita' 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Repubblica promuove e valorizza i cammini, anche comprensivi delle vie d'acqua fluviali e marine, delle lagune e dei laghi, quali itinerari di rilievo europeo, nazionale o regionale, percorribili a piedi o con altre forme di mobilita' dolce e sostenibile, senza l'ausilio di mezzi a motore, articolati in tappe giornaliere, che rappresentano una modalita' di fruizione del patrimonio naturale e culturale diffuso, di valorizzazione degli attrattori culturali, storici, artistici, religiosi, linguistici, paesaggistici, enogastronomici e sportivi nonche' di sviluppo turistico dei territori interessati. In deroga a quanto previsto al primo periodo, la circolazione motorizzata e' consentita per i mezzi indispensabili per consentire l'accessibilita' alle persone con disabilita' o con ridotta mobilita'. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La promozione e la valorizzazione dei cammini sono finalizzate ad assicurare: la fruizione dei luoghi su cui insistono, garantendo adeguati standard di sicurezza, di qualita' dell'accoglienza e di accessibilita' per le persone con disabilita' o con ridotta mobilita'; lo sviluppo di un turismo lento, sostenibile e diffuso sul territorio; la conoscenza della rete dei cammini italiani sui mercati turistici nazionali e internazionali; l'incentivazione delle attivita' connesse alle tradizioni dei territori interessati e all'evoluzione della lingua italiana nella storia dei cammini medesimi, delle tradizioni religiose, dei luoghi e delle comunita'; la valorizzazione dei monumenti e dei siti di interesse storico, culturale, religioso, paesaggistico e naturalistico e delle minoranze linguistiche presenti nei territori attraversati; lo studio degli aspetti storici, culturali, religiosi, sociali, ambientali, paesaggistici ed enogastronomici che li connotano; il dialogo interculturale e interreligioso; la tutela dell'ambiente e del paesaggio. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns1:target="olf:it/dpr/stato/1985/1092" ns1:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Resta invariato il valore e l'efficacia dell'atto legislativo qui trascritto. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Banca dati dei cammini d'Italia</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di favorire la conoscenza, lo sviluppo, la tutela e la promozione, anche a fini turistici, dei cammini, e' istituita presso il Ministero del turismo la banca dati dei cammini d'Italia, di seguito denominata «banca dati», che integra una mappa digitale dei cammini con informazioni relative alle loro principali caratteristiche, finalizzate ad orientare il potenziale fruitore. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_2__para_2__intro_1">
+                            <p>Sono inseriti nella banca dati, qualora conformi ai criteri individuati dal decreto di cui al comma 4: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>i tratti presenti sul territorio italiano dei cammini riconosciuti quali itinerari culturali europei dal Consiglio d'Europa, in attuazione della risoluzione del Comitato dei Ministri del Consiglio d'Europa CM/Res (2013)67, adottata il 18 dicembre 2013, e le loro dirette confluenze viarie di riconosciuto interesse turistico, culturale, locale o regionale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>i cammini interregionali che interessano il territorio di almeno due regioni, di una regione e di una provincia autonoma ovvero delle province autonome di Trento e di Bolzano; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>i cammini riconosciuti da una regione o da una provincia autonoma quali cammini di interesse regionale o locale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>i cammini riconosciuti dalle citta' metropolitane e da Roma Capitale quali cammini di interesse locale. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Il Ministero del turismo provvede all'inserimento dei cammini di cui al comma 2 nella banca dati, assegnando contestualmente la qualifica di «cammino d'Italia». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <list>
+                        <intro eId="art_2__para_4__intro_1">
+                            <p>Con decreto del Ministro del turismo, di concerto con il Ministro della cultura, da adottare entro centoventi giorni dalla data di entrata in vigore della presente legge, su proposta della cabina di regia nazionale per lo sviluppo e la promozione dei cammini d'Italia di cui all'articolo 3, sentita la Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, sono definiti: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_4.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>le linee guida per la realizzazione, la gestione e l'aggiornamento della banca dati; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_4.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>gli standard di qualita' a cui i cammini indicati dal comma 2 devono essere conformi per l'inserimento nella banca dati; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_4.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>le modalita' e i termini per l'inserimento, la sospensione temporanea e la cancellazione dalla banca dati dei cammini non piu' rispondenti ai criteri fissati dal decreto. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_2__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Per il funzionamento della banca dati e' autorizzata la spesa di euro 50.000 annui a decorrere dall'anno 2028. Ai relativi oneri si provvede ai sensi dell'articolo 8. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Resta ferma la competenza delle regioni e delle province autonome di Trento e di Bolzano a istituire e disciplinare cammini e itinerari di interesse regionale e locale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Salvo quanto previsto dal comma 5, per l'attuazione del presente articolo e' autorizzata la spesa di euro 1.000.000 per l'anno 2026 e di euro 500.000 per ciascuno degli anni 2027 e 2028. Ai relativi oneri si provvede ai sensi dell'articolo 8. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Cabina di regia nazionale per lo sviluppo 
+ e la promozione dei cammini d'Italia</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di agevolare il conseguimento delle finalita' della presente legge, favorendo il coordinamento delle politiche e degli interventi che le amministrazioni interessate devono attuare, con decreto del Ministro del turismo, di concerto con il Ministro della cultura, da adottare entro sessanta giorni dalla data di entrata in vigore della presente legge, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, e' istituita, presso il Ministero del turismo, la cabina di regia nazionale per lo sviluppo e la promozione dei cammini d'Italia, di seguito denominata «cabina di regia». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_3__para_2__intro_1">
+                            <p>Il decreto di cui al comma 1 individua i compiti e le funzioni della cabina di regia. In particolare, la cabina di regia, sentito il tavolo permanente per i cammini d'Italia di cui all'articolo 4: 
+ </p>
+                        </intro>
+                        <point eId="art_3__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>definisce gli standard di qualita' dei cammini d'Italia, eventualmente anche prevedendo l'utilizzo della segnaletica europea del Club alpino italiano (CAI) sulla base di una convenzione stipulata tra la stessa cabina di regia e il CAI; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>definisce le modalita' per la realizzazione, la gestione e l'aggiornamento della banca dati; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>definisce il programma nazionale per lo sviluppo e la promozione dei cammini d'Italia di cui all'articolo 5 e ne monitora l'attuazione; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>approva ogni altra proposta o iniziativa utile a favorire lo sviluppo e la promozione dei cammini d'Italia. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La cabina di regia e' composta da un membro della segreteria tecnica di cui al comma 4, due rappresentanti del Ministero del turismo, due rappresentanti del Ministero della cultura, un rappresentante del Dipartimento per le politiche in favore delle persone con disabilita' della Presidenza del Consiglio dei ministri, un rappresentante del Ministero dell'universita' e della ricerca, un rappresentante del Ministero delle infrastrutture e dei trasporti e un rappresentante designato dalla Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano ed e' presieduta dal Ministro del turismo o da un suo delegato. Alla cabina di regia possono essere invitati i rappresentanti di altre amministrazioni pubbliche, aventi competenza nelle materie oggetto dei provvedimenti e delle tematiche posti all'ordine del giorno. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Il Ministero del turismo, mediante l'istituzione di una segreteria tecnica, assicura, con le risorse umane, finanziarie e strumentali disponibili a legislazione vigente, il supporto tecnico e amministrativo alla cabina di regia, anche avvalendosi di esperti esterni all'amministrazione il cui incarico e' conferito esclusivamente a titolo gratuito. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Ai componenti della cabina di regia non spettano compensi, indennita', gettoni di presenza, rimborsi di spese, ad eccezione di quelli relativi alle missioni, o emolumenti comunque denominati. Le amministrazioni interessate fanno fronte ad eventuali costi di funzionamento, ivi inclusi eventuali rimborsi delle spese di missione dei componenti della cabina di regia, nell'ambito delle risorse umane, finanziarie e strumentali disponibili a legislazione vigente. </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Tavolo permanente per i cammini d'Italia</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Entro sessanta giorni dalla data di entrata in vigore della presente legge e' istituito, presso il Ministero del turismo, con decreto del Ministro del turismo, sentiti il Ministro della cultura e il Ministro per le disabilita', nonche' la Conferenza unificata di cui all'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns2:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns2:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>, il tavolo permanente per i cammini d'Italia, di seguito denominato «tavolo permanente». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La composizione del tavolo permanente, presieduto dal Ministro del turismo o da un suo delegato, e' definita con il decreto di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Al tavolo permanente partecipano i componenti della cabina di regia, i rappresentanti delle associazioni, ivi incluse quelle a tutela delle persone con disabilita', delle universita', degli enti del Terzo settore e degli operatori ed organismi attivi nei settori culturale e turistico, nonche' esperti della materia. Il tavolo permanente puo' articolare i suoi lavori in sezioni specializzate su specifici aspetti dei cammini, alle quali possono essere chiamati a partecipare i rappresentanti di amministrazioni pubbliche ovvero altri soggetti esperti aventi competenza nelle materie oggetto dei provvedimenti e nelle tematiche poste all'ordine del giorno. La partecipazione ai lavori del tavolo permanente non da' diritto ad alcun compenso, indennita', gettone di presenza, rimborso di spese o altro emolumento comunque denominato. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Il tavolo permanente costituisce una sede stabile di consultazione e favorisce il confronto e il monitoraggio di problematiche, esigenze e profili di evoluzione dei cammini, lo scambio di esperienze e di buone pratiche, nonche' l'elaborazione di proposte normative e amministrative. La finalita' del tavolo permanente e' quella di favorire lo sviluppo dei cammini e di garantire, attraverso la pianificazione condivisa dei progetti e il coordinamento delle attivita' tra gli attori coinvolti, la creazione di reti di collaborazione tra le parti interessate, anche avvalendosi di esperti in materia di cammini, che operano esclusivamente a titolo gratuito, scelti in relazione all'esperienza maturata in ambito professionale o associativo con competenze specifiche quali: sicurezza e accessibilita', promozione e comunicazione, innovazione e sviluppo sostenibile, nonche' valore culturale e paesaggistico. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Il supporto tecnico e amministrativo al tavolo permanente e' assicurato dal Ministero del turismo con le risorse umane, finanziarie e strumentali disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Il tavolo permanente presenta al Ministro del turismo, entro il 31 gennaio di ogni anno, una relazione annuale sull'attivita' svolta. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Si riporta l'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns3:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns3:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>, recante: «Definizione ed ampliamento delle attribuzioni della Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e Bolzano ed unificazione, per le materie ed i compiti di interesse comune delle regioni, delle province e dei comuni, con la Conferenza Stato - citta' ed autonomie locali», pubblicato nella Gazzetta Ufficiale n. 202 del 30 agosto 1997: 
+ «Art. 8. - 1. La Conferenza Stato-citta' ed autonomie locali e' unificata per le materie ed i compiti di interesse comune delle regioni, delle province, dei comuni e delle comunita' montane, con la Conferenza Stato-regioni. 
+ 2. La Conferenza Stato-citta' ed autonomie locali e' presieduta dal Presidente del Consiglio dei Ministri o, per sua delega, dal Ministro dell'interno o dal Ministro per gli affari regionali nella materia di rispettiva competenza; ne fanno parte altresi' il Ministro del tesoro e del bilancio e della programmazione economica, il Ministro delle finanze, il Ministro dei lavori pubblici, il Ministro della sanita', il presidente dell'Associazione nazionale dei comuni d'Italia - ANCI, il presidente dell'Unione province d'Italia - UPI ed il presidente dell'Unione nazionale comuni, comunita' ed enti montani - UNCEM. Ne fanno parte inoltre quattordici sindaci designati dall'ANCI e sei presidenti di provincia designati dall'UPI.
+ Dei quattordici sindaci designati dall'ANCI cinque rappresentano le citta' individuate dall'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/1990-06-08/142/!main#art_17" ns4:target="olf:it/legge/stato/1990/142/art_17" ns4:relation="cites">articolo 17 della legge 8 giugno 1990, n. 142</ref>. Alle riunioni possono essere invitati altri membri del Governo, nonche' rappresentanti di amministrazioni statali, locali o di enti pubblici. 
+ 3. La Conferenza Stato-citta' ed autonomie locali e' convocata almeno ogni tre mesi, e comunque in tutti i casi il presidente ne ravvisi la necessita' o qualora ne faccia richiesta il presidente dell'ANCI, dell'UPI o dell'UNCEM. 
+ 4. La Conferenza unificata di cui al comma 1 e' convocata dal Presidente del Consiglio dei Ministri. Le sedute sono presiedute dal Presidente del Consiglio dei Ministri o, su sua delega, dal Ministro per gli affari regionali o, se tale incarico non e' conferito, dal Ministro dell'interno.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Programma nazionale per lo sviluppo 
+ e la promozione dei cammini d'Italia</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La cabina di regia, in attuazione dell'articolo 3, comma 2, lettera c), sentito il tavolo permanente, predispone il programma nazionale per lo sviluppo e la promozione dei cammini d'Italia, di seguito denominato «programma», indicando le priorita' degli interventi e definendo la strategia unitaria di promozione e di valorizzazione dei cammini d'Italia a livello nazionale. Il programma ha durata triennale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Gli interventi inseriti nel programma sono realizzati dalle amministrazioni centrali, regionali o locali secondo le rispettive competenze, con il coordinamento del Ministero del turismo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>All'attuazione delle disposizioni del presente articolo si provvede nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Studi e ricerche. Relazione alle Camere</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Ministero del turismo e il Ministero della cultura possono promuovere la realizzazione di studi, approfondimenti, ricerche e iniziative scientifiche, anche in collaborazione con universita' e altre istituzioni, finalizzati alla valorizzazione del patrimonio materiale e immateriale associato ai cammini. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Entro il 31 maggio di ciascun anno, il Ministro del turismo trasmette alle Camere una relazione sui cammini d'Italia che da' conto delle attivita' svolte dalla cabina di regia e dello stato di attuazione degli interventi previsti nel programma. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>All'attuazione delle disposizioni del presente articolo si provvede nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Campagne di promozione dei cammini</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di promuovere i cammini inseriti nella banca dati, incentivandone la fruizione e favorendo lo sviluppo di un turismo lento, sostenibile e diffuso sul territorio, il Ministero del turismo, sentita la cabina di regia, realizza e coordina campagne di promozione a livello nazionale e internazionale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_7__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per l'attuazione del presente articolo e' autorizzata la spesa di euro 1.000.000 annui a decorrere dall'anno 2026. Ai relativi oneri si provvede ai sensi dell'articolo 8. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading> Disposizioni finanziarie</heading>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Agli oneri derivanti dall'articolo 2, comma 7, pari a euro 1.000.000 per l'anno 2026 e a euro 500.000 per ciascuno degli anni 2027 e 2028, si provvede mediante corrispondente riduzione del Fondo unico nazionale per il turismo di conto capitale, di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1-com368" ns5:target="olf:it/legge/stato/2021/234/art_1-com368" ns5:relation="cites">articolo 1, comma 368, della legge 30 dicembre 2021, n. 234</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Agli oneri derivanti dall'articolo 2, comma 5, e dall'articolo 7, comma 2, pari a euro 1.000.000 per ciascuno degli anni 2026 e 2027 e a euro 1.050.000 annui a decorrere dall'anno 2028, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2026-2028, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2026, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero del turismo. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 8: 
+ - Si riporta il <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1-com368" ns6:target="olf:it/legge/stato/2021/234/art_1-com368" ns6:relation="cites">comma 368, l'articolo 1, della legge 30 dicembre 2021, n. 234</ref> recante: «Bilancio di previsione dello Stato per l'anno finanziario 2022 e bilancio pluriennale per il triennio 2022-2024» pubblicata nella Gazzetta Ufficiale n. 310 del 31 dicembre 2021: 
+ «368. Per la realizzazione di investimenti finalizzati ad incrementare l'attrattivita' turistica del Paese, anche in relazione all'organizzazione di manifestazioni ed eventi, compresi quelli sportivi, connotati da spiccato rilievo turistico, garantendo positive ricadute sociali, economiche ed occupazionali sui territori e per le categorie interessate, nello stato di previsione del Ministero del turismo e' istituito un fondo da ripartire denominato "Fondo unico nazionale per il turismo di conto capitale", con una dotazione pari a 50 milioni di euro per l'anno 2022, 100 milioni di euro per l'anno 2023 e 50 milioni di euro per ciascuno degli anni 2024 e 2025.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_9">
+                <num>Art. 9.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_9__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 13 febbraio 2026 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, Il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
