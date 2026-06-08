@@ -1,0 +1,955 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-10/52/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-10/52"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-05-10;52"/>
+                    <FRBRalias name="eli" value="eli/id/2023/05/15/23G00060/ORIGINAL"/>
+                    <FRBRdate date="2023-05-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/15/23G00060/ORIGINAL" aknrelname="eli/id/2023/05/15/23G00060/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 17 marzo 2023, n. 25, recante disposizioni urgenti in materia di emissioni e circolazione di determinati strumenti finanziari in forma digitale e di semplificazione della sperimentazione FinTech. (23G00060)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00060" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-05-10" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-10/52/ita@2023-05-16/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-10/52/ita@2023-05-16"/>
+                    <FRBRdate date="2023-05-16" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/15/23G00060/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/05/15/23G00060/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/05/15/23G00060/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-10/52/ita@2023-05-16/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-10/52/ita@2023-05-16.xml"/>
+                    <FRBRdate date="2023-05-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/15/23G00060/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-05-15" name="" number="112" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-05-15" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2023-05-10" refersTo="#S.605"/>
+                <step by="#camera" date="2023-05-10" refersTo="#C.1115"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2007-11-21;231#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 marzo 2023, n. 25 (in G.U. 17/03/2023, n. 65).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) che la rubrica del Capo I "Emissione e circolazione in forma digitale di strumenti finanziari e
+misure di semplificazione della sperimentazione FinTech" è sostituita dalla seguente "Definizioni e
+ambito di applicazione"; (con l'art. 1, comma 1) che la Sezione I "Disposizioni comuni per l'emissione e circolazione in forma digitale" è sostituita dal seguente Capo II "Disposizioni comuni per l'emissione e circolazione in forma digitale"; (con l'art. 1, comma 1) che la Sezione II "Strumenti finanziari digitali non scritturati presso un TSS DLT o un
+SS DLT" è sostituita dal seguente Capo III "Strumenti finanziari digitali non scritturati presso un TSS DLT o un
+SS DLT"; (con l'art. 1, comma 1) che la Sezione III "Vigilanza sulla disciplina dell'emissione e della circolazione in forma digitale" è sostituita dal seguente Capo IV "Vigilanza sulla disciplina dell'emissione e della circolazione in forma digitale"; (con l'art. 1, comma 1) che la Sezione IV "Disposizioni relative all'applicazione del regolamento (UE) 858/2022" è sostituita dal seguente Capo V "Disposizioni relative all'applicazione del regolamento (UE) 2022/858"; (con l'art. 1, comma 1) che la Sezione V "Sanzioni" è sostituita dal seguente Capo VI "Sanzioni"; (con l'art. 1, comma 1) che la Sezione VI "Modifiche al Testo Unico della Finanza e disposizioni finali" è sostituita dal seguente Capo VII "Modifiche al Testo Unico della Finanza e disposizioni finali"; (con l'art. 1, comma 1) che la Sezione VII "Semplificazione della sperimentazione FinTech" è sostituita dal seguente Capo VIII "Semplificazione della sperimentazione FinTech"; (con l'art. 1, comma 1) che la Sezione VIII "Disposizioni finanziarie e finali" è sostituita dal seguente Capo IX "Disposizioni finanziarie e finali";</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, alinea, lettere b), d), g), h), i), j), k), p), q), r), s), t) e l'introduzione della lettera v-bis) all'art. 1, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1, alinea, lettera d), 2 e la soppressione della lettera h) all'art. 2, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, comma 1, lettera e) e l'introduzione della lettera c-bis) all'art. 4, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7 comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#9"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#10"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#12"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 12, commi 3, lettere b), c), 6, lettere a), b) e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#13"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 13, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#14"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 14, commi 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#17"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 17, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#18"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 18, comma 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#19"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 19, commi 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#20"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 20, commi 2, 3, lettera d), 4, lettere a), b), c) e 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#21"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 21, commi 1, lettera g) e 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#23"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 23, comma 2, lettera c).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#24"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 24, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#25"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 25, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#26 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 26-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#27"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 27, commi 1, alinea, lettera a), 3, lettere a), b) e 7.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#28"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 28, commi 1, 2, lettere a), g), h), i), l), 3 e l'introduzione della lettera a-bis) all'art. 28, comma 2 e la soppressione della lettera b) dell'art. 28, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#29"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 29, commi, 1, 2, alinea, 3, 4, 5 e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#30"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 30, commi 1, lettere a), b), c), 3, 4, 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-10;52#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-17;25#32"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 32, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main"/>
+                        <new href="#modNov_1_new_75"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1"/>
+                        <old href="#modNov_2_old_1"/>
+                        <new href="#modNov_2_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_b"/>
+                        <old href="#modNov_2_old_2"/>
+                        <new href="#modNov_2_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_d"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_g"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_q"/>
+                        <old href="#modNov_2_old_5"/>
+                        <new href="#modNov_2_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_h"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_i"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_j"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_k"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_p"/>
+                        <new href="#modNov_2_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_r"/>
+                        <new href="#modNov_2_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_s"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_t"/>
+                        <new href="#modNov_2_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_1__para_1__point_v-bis"/>
+                        <new href="#modNov_2_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_2__para_2"/>
+                        <old href="#modNov_3_old_33"/>
+                        <new href="#modNov_3_new_33"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_2__para_1"/>
+                        <old href="#modNov_3_old_34"/>
+                        <new href="#modNov_3_new_34"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_2__para_1__point_d"/>
+                        <new href="#modNov_3_new_35"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="repeal">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_2__para_1__point_h"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_3__para_1"/>
+                        <old href="#modNov_4_old_61"/>
+                        <new href="#modNov_4_new_61"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_4__para_1__point_c-bis"/>
+                        <new href="#modNov_5_new_71"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_4__para_1__point_e"/>
+                        <old href="#modNov_5_old_72"/>
+                        <new href="#modNov_5_new_72"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_7__para_1"/>
+                        <new href="#modNov_6_new_73"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="repeal">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_9__para_3"/>
+                        <old href="#modNov_7_old_74"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_10__para_2"/>
+                        <old href="#modNov_8_old_16"/>
+                        <new href="#modNov_8_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_12__para_3__point_b"/>
+                        <old href="#modNov_9_old_17"/>
+                        <new href="#modNov_9_new_17"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_12__para_3__point_c"/>
+                        <old href="#modNov_9_old_18"/>
+                        <new href="#modNov_9_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="insertion">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_12__para_6__point_a"/>
+                        <new href="#modNov_9_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="repeal">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_12__para_6__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_55" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_12__para_6__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_56" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_12"/>
+                        <new href="#modNov_9_new_22"/>
+                    </textualMod>
+                    <textualMod eId="amod_57" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_12__para_6__point_a"/>
+                        <old href="#modNov_9_old_11"/>
+                        <new href="#modNov_9_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_58" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_13__para_1"/>
+                        <old href="#modNov_10_old_24"/>
+                        <new href="#modNov_10_new_24"/>
+                    </textualMod>
+                    <textualMod eId="amod_59" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_13__para_2"/>
+                        <new href="#modNov_10_new_25"/>
+                    </textualMod>
+                    <textualMod eId="amod_60" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_14__para_2"/>
+                        <old href="#modNov_11_old_26"/>
+                        <new href="#modNov_11_new_26"/>
+                    </textualMod>
+                    <textualMod eId="amod_61" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_14__para_3"/>
+                        <old href="#modNov_11_old_27"/>
+                        <new href="#modNov_11_new_27"/>
+                    </textualMod>
+                    <textualMod eId="amod_62" type="repeal">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_14__para_3"/>
+                        <old href="#modNov_11_old_28"/>
+                    </textualMod>
+                    <textualMod eId="amod_63" type="substitution">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_17__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_64" type="insertion">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_17__para_1"/>
+                        <new href="#modNov_12_new_29"/>
+                    </textualMod>
+                    <textualMod eId="amod_65" type="substitution">
+                        <source href="#modNov_13"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_18__para_4"/>
+                        <old href="#modNov_13_old_30"/>
+                        <new href="#modNov_13_new_30"/>
+                    </textualMod>
+                    <textualMod eId="amod_66" type="substitution">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_19__para_3"/>
+                        <old href="#modNov_14_old_32"/>
+                        <new href="#modNov_14_new_32"/>
+                    </textualMod>
+                    <textualMod eId="amod_67" type="substitution">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_19__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_68" type="substitution">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_20__para_4__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_69" type="substitution">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_20__para_2"/>
+                        <old href="#modNov_15_old_38"/>
+                        <new href="#modNov_15_new_38"/>
+                    </textualMod>
+                    <textualMod eId="amod_70" type="insertion">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_20__para_3__point_d"/>
+                        <new href="#modNov_15_new_39"/>
+                    </textualMod>
+                    <textualMod eId="amod_71" type="insertion">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_20__para_4__point_a"/>
+                        <new href="#modNov_15_new_40"/>
+                    </textualMod>
+                    <textualMod eId="amod_72" type="substitution">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_20__para_4__point_b"/>
+                        <old href="#modNov_15_old_41"/>
+                        <new href="#modNov_15_new_41"/>
+                    </textualMod>
+                    <textualMod eId="amod_73" type="substitution">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_20__para_4__point_c"/>
+                        <new href="#modNov_15_new_42"/>
+                    </textualMod>
+                    <textualMod eId="amod_74" type="insertion">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_20__para_5"/>
+                        <new href="#modNov_15_new_44"/>
+                    </textualMod>
+                    <textualMod eId="amod_75" type="insertion">
+                        <source href="#modNov_16"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_21__para_1__point_g"/>
+                        <new href="#modNov_16_new_45"/>
+                    </textualMod>
+                    <textualMod eId="amod_76" type="repeal">
+                        <source href="#modNov_16"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_21__para_5"/>
+                        <old href="#modNov_16_old_46"/>
+                    </textualMod>
+                    <textualMod eId="amod_77" type="repeal">
+                        <source href="#modNov_17"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_23__para_2__point_c"/>
+                        <old href="#modNov_17_old_43"/>
+                    </textualMod>
+                    <textualMod eId="amod_78" type="substitution">
+                        <source href="#modNov_17"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_23__para_2__point_c"/>
+                        <old href="#modNov_17_old_47"/>
+                        <new href="#modNov_17_new_47"/>
+                    </textualMod>
+                    <textualMod eId="amod_79" type="insertion">
+                        <source href="#modNov_18"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_24__para_1"/>
+                        <new href="#modNov_18_new_48"/>
+                    </textualMod>
+                    <textualMod eId="amod_80" type="substitution">
+                        <source href="#modNov_18"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_24__para_1"/>
+                        <old href="#modNov_18_old_49"/>
+                        <new href="#modNov_18_new_49"/>
+                    </textualMod>
+                    <textualMod eId="amod_81" type="substitution">
+                        <source href="#modNov_18"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_24__para_2"/>
+                        <old href="#modNov_18_old_50"/>
+                        <new href="#modNov_18_new_50"/>
+                    </textualMod>
+                    <textualMod eId="amod_82" type="substitution">
+                        <source href="#modNov_19"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_25__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_83" type="insertion">
+                        <source href="#modNov_20"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_26-bis"/>
+                        <new href="#modNov_20_new_52"/>
+                    </textualMod>
+                    <textualMod eId="amod_84" type="insertion">
+                        <source href="#modNov_21"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_27__para_7"/>
+                        <new href="#modNov_21_new_53"/>
+                    </textualMod>
+                    <textualMod eId="amod_85" type="repeal">
+                        <source href="#modNov_21"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_27__para_1"/>
+                        <old href="#modNov_21_old_55"/>
+                    </textualMod>
+                    <textualMod eId="amod_86" type="substitution">
+                        <source href="#modNov_21"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_27__para_1__point_a"/>
+                        <new href="#modNov_21_new_56"/>
+                    </textualMod>
+                    <textualMod eId="amod_87" type="substitution">
+                        <source href="#modNov_21"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_27__para_3__point_a"/>
+                        <old href="#modNov_21_old_57"/>
+                        <new href="#modNov_21_new_57"/>
+                    </textualMod>
+                    <textualMod eId="amod_88" type="substitution">
+                        <source href="#modNov_21"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_27__para_3__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_89" type="substitution">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_28__para_2__point_g"/>
+                        <new href="#modNov_22_new_64"/>
+                    </textualMod>
+                    <textualMod eId="amod_90" type="substitution">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_28__para_2__point_h"/>
+                        <old href="#modNov_22_old_65"/>
+                        <new href="#modNov_22_new_65"/>
+                    </textualMod>
+                    <textualMod eId="amod_91" type="substitution">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_28__para_2__point_i"/>
+                        <old href="#modNov_22_old_66"/>
+                        <new href="#modNov_22_new_66"/>
+                    </textualMod>
+                    <textualMod eId="amod_92" type="substitution">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_28__para_2__point_l"/>
+                    </textualMod>
+                    <textualMod eId="amod_93" type="repeal">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_28__para_3"/>
+                        <old href="#modNov_22_old_68"/>
+                    </textualMod>
+                    <textualMod eId="amod_94" type="substitution">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_28__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_95" type="insertion">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_28__para_2__point_a-bis"/>
+                        <new href="#modNov_22_new_54"/>
+                    </textualMod>
+                    <textualMod eId="amod_96" type="substitution">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_28__para_1"/>
+                        <old href="#modNov_22_old_59"/>
+                        <new href="#modNov_22_new_59"/>
+                    </textualMod>
+                    <textualMod eId="amod_97" type="substitution">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_28__para_2__point_a"/>
+                        <old href="#modNov_22_old_60"/>
+                        <new href="#modNov_22_new_60"/>
+                    </textualMod>
+                    <textualMod eId="amod_98" type="repeal">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_28__para_2__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_99" type="substitution">
+                        <source href="#modNov_23"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_29"/>
+                        <old href="#modNov_23_old_70"/>
+                        <new href="#modNov_23_new_70"/>
+                    </textualMod>
+                    <textualMod eId="amod_100" type="substitution">
+                        <source href="#modNov_24"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_30__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_101" type="substitution">
+                        <source href="#modNov_24"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_30__para_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_102" type="substitution">
+                        <source href="#modNov_24"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_30__para_1__point_b"/>
+                        <old href="#modNov_24_old_77"/>
+                        <new href="#modNov_24_new_77"/>
+                    </textualMod>
+                    <textualMod eId="amod_103" type="substitution">
+                        <source href="#modNov_24"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_30__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_104" type="insertion">
+                        <source href="#modNov_24"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_30__para_1__point_c"/>
+                        <new href="#modNov_24_new_78"/>
+                    </textualMod>
+                    <textualMod eId="amod_105" type="substitution">
+                        <source href="#modNov_24"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_30__para_3"/>
+                        <old href="#modNov_24_old_79"/>
+                        <new href="#modNov_24_new_79"/>
+                    </textualMod>
+                    <textualMod eId="amod_106" type="insertion">
+                        <source href="#modNov_25"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_32__para_1"/>
+                        <new href="#modNov_25_new_82"/>
+                    </textualMod>
+                    <textualMod eId="amod_107" type="substitution">
+                        <source href="#modNov_25"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_32__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_108" type="insertion">
+                        <source href="#modNov_25"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-17/25/ita@2023-05-16/!main/~art_32__para_2"/>
+                        <new href="#modNov_25_new_76"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-05-10/52/!main" showAs=""/>
+                <passiveRef eId="S.605" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;605" showAs=""/>
+                <passiveRef eId="C.1115" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1115" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/05/15/23G00060/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 17 marzo 2023, n. 25, recante disposizioni urgenti in materia di emissioni e circolazione di determinati strumenti finanziari in forma digitale e di semplificazione della sperimentazione FinTech. (23G00060)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00060</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-05-10</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/05/15/23G00060/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/05/15/23G00060/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/05/15/23G00060/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/05/15/23G00060/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/52" nativeUrn="urn:nir:stato:legge:2023-05-10;52" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-05-15"><ns0:event type="enacted" date="2023-05-10"/><ns0:event type="published" date="2023-05-15"/><ns0:event type="commenced" date="2023-05-15"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/9b07316c-91f4-46fc-9799-29ddaa5f85e5" sourceSha256="1bea3d0f41477992c29c4d0818b1ef94448a349feaf5c7015380e319ad133365" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T19:27:30.783853Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-05-10">10 maggio 2023</docDate>
+                <docNumber>52</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 17 marzo 2023, n. 25, recante disposizioni urgenti in materia di emissioni e circolazione di determinati strumenti finanziari in forma digitale e di semplificazione della sperimentazione FinTech. (23G00060) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 16/05/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2023-03-17/25/!main" ns1:target="olf:it/decreto-legge/stato/2023/25" ns1:relation="repeals">decreto-legge 17 marzo 2023, n. 25</ref>, recante disposizioni urgenti in materia di emissioni e circolazione di determinati strumenti finanziari in forma digitale e di semplificazione della sperimentazione FinTech, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2023-03-17/25/!main" ns2:target="olf:it/decreto-legge/stato/2023/25" ns2:relation="repeals">decreto-legge 17 marzo 2023, n. 25</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 65 del 17 marzo 2023. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 27. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 10 maggio 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Fitto, Ministro per gli affari europei, il Sud, le politiche di coesione e il PNRR Giorgetti, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-10/52/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-10/52"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-05-10;52"/>
+                                <FRBRalias name="eli" value="eli/id/2023/05/15/23G00060/ORIGINAL"/>
+                                <FRBRdate date="2023-05-16" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-10/52/ita@2023-05-16/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-10/52/ita@2023-05-16"/>
+                                <FRBRdate date="2023-05-16" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-10/52/ita@2023-05-16/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-10/52/ita@2023-05-16.xml"/>
+                                <FRBRdate date="2023-05-10" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ Modificazioni apportate in sede di conversione 
+ al <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2023-03-17/25/!main" ns4:target="olf:it/decreto-legge/stato/2023/25" ns4:relation="repeals">decreto-legge 17 marzo 2023, n. 25</ref> 
+ 
+ <mod eId="modNov_1">Al capo I, la rubrica e' sostituita dalla seguente: «<quotedText eId="modNov_1_new_75">Definizioni e ambito di applicazione</quotedText>».</mod>
+                                    <mod eId="modNov_2">All'articolo 1: 
+ al comma 1: 
+ all'alinea, le parole: «<quotedText eId="modNov_2_old_1">delle sezioni da I a VI del presente Capo</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_1">dei capi dal II al VII del presente decreto</quotedText>»; 
+ alla lettera b), le parole: «<quotedText eId="modNov_2_old_2">regolamento (UE) 858/2022 del Parlamento europeo e del Consiglio</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_2">regolamento (UE) 2022/858 del Parlamento europeo e del Consiglio,</quotedText>»;  alle lettere d), g), h), i), j) e k), le parole: «regolamento (UE) 858/2022» sono sostituite dalle seguenti: «<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/regolamento//2022/858/!main" ns5:resolution="unresolved">regolamento (UE) 2022/858</ref>»; 
+ alla lettera p), dopo le parole: «all'articolo 210 del» sono inserite le seguenti: «<quotedText eId="modNov_2_new_10">
+                                            <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2005-09-07/209/!main" ns6:target="olf:it/decreto-legislativo/stato/2005/209" ns6:relation="cites">codice delle assicurazioni private</ref>, di cui al</quotedText>»; 
+ alla lettera q), le parole: «<quotedText eId="modNov_2_old_5">di risoluzione, liquidazione</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_5">di risoluzione o di liquidazione</quotedText>»; 
+ alla lettera r), dopo le parole: «<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_lett" ns7:target="olf:it/codice-civile/stato/1942/262/art_lett" ns7:relation="cites">lettere t) e cc</ref>), del» sono inserite le seguenti: «<quotedText eId="modNov_2_new_12">codice di cui al</quotedText>»; 
+ alla lettera s), le parole: «l'ente» sono sostituite dalle seguenti: «il soggetto» e le parole: «regolamento (UE) 575/2013» sono sostituite dalle seguenti: «regolamento (UE) n. 575/2013»; 
+ alla lettera t) sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_2_new_14">del Parlamento europeo e del Consiglio, del 23 luglio 2014</quotedText>»; 
+ dopo la lettera v) e' aggiunta la seguente: 
+ «<quotedText eId="modNov_2_new_15">v-bis) "stabiliti in Italia": i soggetti aventi sede legale, succursale o sede secondaria nel territorio della Repubblica</quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 2: 
+ al comma 1: 
+ all'alinea, le parole: «<quotedText eId="modNov_3_old_34">delle sezioni da I a VI del presente capo</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_34">dei capi I, II, III e V del presente decreto</quotedText>»; 
+ alla lettera d), dopo le parole: «ai sensi dell'ordinamento italiano» sono aggiunte le seguenti: «<quotedText eId="modNov_3_new_35">, nonche' ai titoli di debito regolati dal diritto italiano emessi da emittenti diversi dagli emittenti italiani</quotedText>»; 
+ la lettera h) e' soppressa; 
+ al comma 2, le parole: «<quotedText eId="modNov_3_old_33">regolamento (UE) 858/2022</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_33">
+                                            <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/regolamento//2022/858/!main" ns8:resolution="unresolved">regolamento (UE) 2022/858</ref>
+                                        </quotedText>».</mod> 
+ La partizione: «Sezione I» e' sostituita dalla seguente: «Capo II». 
+ <mod eId="modNov_4">All'articolo 3: 
+ al comma 1, le parole: «<quotedText eId="modNov_4_old_61">o dalla Banca d'Italia o dal Ministero dell'economia e delle finanze, nonche' dagli ulteriori soggetti</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_61">, dalla Banca d'Italia o dal Ministero dell'economia e delle finanze o dagli ulteriori soggetti</quotedText>».</mod>
+                                    <mod eId="modNov_5">All'articolo 4: 
+ al comma 1: 
+ dopo la lettera c) e' inserita la seguente: 
+ «<quotedText eId="modNov_5_new_71">c-bis) prevengono la perdita o la modifica non autorizzata dei dati e delle scritturazioni relative agli strumenti finanziari digitali per l'intera durata della scritturazione</quotedText>»; 
+ alla lettera e), le parole: «<quotedText eId="modNov_5_old_72">della Consob</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_72">della Commissione nazionale per le societa' e la borsa (Consob)</quotedText>».</mod>
+                                    <mod eId="modNov_6">All'articolo 7: 
+ al comma 1, dopo le parole: «rilevate al termine della giornata contabile individuata dallo statuto dell'emittente» sono aggiunte le seguenti: «<quotedText eId="modNov_6_new_73">o con le ulteriori modalita' determinate con il regolamento di cui all'articolo 28, comma 2, lettera g)</quotedText>».</mod>
+                                    <mod eId="modNov_7">All'articolo 9: 
+ al comma 3<quotedText eId="modNov_7_old_74">,</quotedText> primo periodo, dopo le parole: «integrazione di altri» il segno di interpunzione: «,» e' soppresso.</mod>
+                                    <mod eId="modNov_8">All'articolo 10: 
+ al comma 2, le parole: «<quotedText eId="modNov_8_old_16">a quanto previsto</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_8_new_16">alle modalita' di tenuta previste</quotedText>».</mod>
+                                    <mod eId="modNov_9">All'articolo 12: 
+ al comma 3: 
+ alla lettera b)<quotedText eId="modNov_9_new_19">,</quotedText> le parole: «<quotedText eId="modNov_9_old_17">e all'ammontare</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_9_new_17">e relative all'ammontare</quotedText>»; 
+ alla lettera c), le parole: «<quotedText eId="modNov_9_old_18">dai quali</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_9_new_18">dalle quali</quotedText>»; 
+ al comma 6: 
+ alla lettera a): 
+ al numero 1), dopo le parole: «quando applicabili» e' inserito il seguente segno di interpunzione: «,»; 
+ al numero 3), le parole: «<quotedText eId="modNov_9_old_11">la classe e comparto</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_9_new_11">la classe e il comparto</quotedText>»; 
+ al numero 4), dopo le parole: «all'emissione» il segno di interpunzione: «,» e' soppresso; 
+ alla lettera b), numero 4), le parole: «la classe e comparto» sono sostituite dalle seguenti: «la classe e il comparto»; 
+ la rubrica e' sostituita dalla seguente: «<quotedText eId="modNov_9_new_22">Informazioni sull'emissione nel registro</quotedText>».</mod>
+                                    <mod eId="modNov_10">All'articolo 13: 
+ al comma 1, le parole: «<quotedText eId="modNov_10_old_24">prescritte del presente decreto</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_10_new_24">prescritte dal presente decreto</quotedText>»; 
+ il comma 2 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_10_new_25">2. Il responsabile del registro e il gestore del SS DLT o del TSS DLT garantiscono: 
+ a) la correttezza, la completezza e l'aggiornamento continuo delle evidenze relative alle informazioni sull'emissione; 
+ b) l'integrita' e la sicurezza del sistema, tenendo anche conto delle esigenze di contrasto al riciclaggio dei proventi di attivita' illecite, in forza dell'emissione e del trasferimento degli strumenti finanziari digitali di cui all'articolo 3, comma 1, sulla base di titolo idoneo</quotedText>».</mod>
+                                    <mod eId="modNov_11">All'articolo 14: 
+ al comma 2<quotedText eId="modNov_11_old_28">,</quotedText> primo periodo, le parole: «<quotedText eId="modNov_11_old_26">sulla base dei dati presenti nel sistema di cui all'articolo 23, comma 2, lettera b)</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_11_new_26">sulla base dei dati rilevati ai sensi dell'articolo 23, comma 2, lettera b)</quotedText>»; 
+ al comma 3, le parole: «<quotedText eId="modNov_11_old_27">regolamento (UE) 858/2022</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_11_new_27">
+                                            <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/regolamento//2022/858/!main" ns9:resolution="unresolved">regolamento (UE) 2022/858</ref>
+                                        </quotedText>» e dopo le parole: «revoca, sospensione» il segno di interpunzione: «,» e' soppresso.</mod>
+                                    <mod eId="modNov_12">All'articolo 17: 
+ al comma 1, le parole: «Salvo ove» sono sostituite dalle seguenti: «Salvo quanto», le parole: «anche quando» sono sostituite dalla seguente: «anche» e dopo le parole: «possono essere controllati» e' inserita la seguente: «<quotedText eId="modNov_12_new_29">esclusivamente</quotedText>».</mod> 
+ La partizione: «Sezione II» e' sostituita dalla seguente: «Capo III». 
+ <mod eId="modNov_13">All'articolo 18: 
+ al comma 4, le parole: «<quotedText eId="modNov_13_old_30">della presente sezione</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_13_new_30">del presente capo</quotedText>».</mod>
+                                    <mod eId="modNov_14">All'articolo 19: 
+ al comma 2, al primo periodo, le parole: «regolamento (UE) 909/2014» sono sostituite dalle seguenti: «regolamento (UE) n. 909/2014» e, al secondo periodo, le parole: «valuta il rispetto delle condizioni» sono sostituite dalle seguenti: «e' concessa previa valutazione del rispetto dei requisiti»; 
+ al comma 3, le parole: «<quotedText eId="modNov_14_old_32">all'IVASS</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_14_new_32">all'Istituto per la vigilanza sulle assicurazioni (IVASS)</quotedText>».</mod>
+                                    <mod eId="modNov_15">All'articolo 20: 
+ al comma 2, le parole: «<quotedText eId="modNov_15_old_38">se in possesso dei requisiti di cui ai commi da 3 a 10</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_15_new_38">previa verifica del possesso dei requisiti e con la procedura di cui ai commi da 3 a 6</quotedText>»;  al comma 3, lettera d), dopo le parole: «eventuali <quotedText eId="modNov_15_new_44">ulteriori</quotedText> requisiti individuati con il regolamento di cui all'articolo 28» sono aggiunte le seguenti: «<quotedText eId="modNov_15_new_39">, comma 2, lettera e)</quotedText>»; 
+ al comma 4: 
+ alla lettera a), le parole: «capitale iniziale» sono sostituite dalle seguenti: «un capitale iniziale», le parole: «societa' italiane» sono sostituite dalle seguenti: «societa' con sede legale in Italia» e dopo le parole: «Stato membro» sono inserite le seguenti: «<quotedText eId="modNov_15_new_40">dell'Unione europea</quotedText>»; 
+ alla lettera b), le parole: «<quotedText eId="modNov_15_old_41">o da una societa'</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_15_new_41">o di una societa'</quotedText>»; 
+ la lettera c) e' sostituita dalla seguente: 
+ «<quotedText eId="modNov_15_new_42">c) i requisiti stabiliti dall'articolo 24, comma 3</quotedText>»; 
+ al comma 5, dopo la parola: «requisiti» e' inserita la seguente:
+«ulteriori».</mod>
+                                    <mod eId="modNov_16">All'articolo 21: 
+ al comma 1<quotedText eId="modNov_16_old_46">,</quotedText> lettera g), dopo le parole: «altre condizioni individuate con il regolamento di cui all'articolo 28» sono aggiunte le seguenti: «<quotedText eId="modNov_16_new_45">, comma 2, lettera o)</quotedText>»; 
+ al comma 5, dopo le parole: «nella strategia di transizione» il segno di interpunzione: «,» e' soppresso.</mod>
+                                    <mod eId="modNov_17">All'articolo 23: 
+ al comma 2, lettera c), le parole: «<quotedText eId="modNov_17_old_43">a prevenire la perdita o la modifica non autorizzata dei dati e delle scritturazioni relativi agli strumenti finanziari digitali per l'intera durata della scritturazione e</quotedText>» sono soppresse e la parola: «<quotedText eId="modNov_17_old_47">assicurare</quotedText>» e' sostituita dalle seguenti: «<quotedText eId="modNov_17_new_47">ad assicurare</quotedText>».</mod>
+                                    <mod eId="modNov_18">All'articolo 24: 
+ al comma 1, dopo le parole: «gli esponenti» e' inserita la seguente: «<quotedText eId="modNov_18_new_48">aziendali</quotedText>» e le parole: «<quotedText eId="modNov_18_old_49">requisiti onorabilita'</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_18_new_49">requisiti di onorabilita'</quotedText>»; 
+ al comma 2, le parole: «<quotedText eId="modNov_18_old_50">dei controlli interni e ICT</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_18_new_50">per i controlli interni e di tecnologie dell'informazione e della comunicazione (ICT)</quotedText>».</mod>
+                                    <mod eId="modNov_19">All'articolo 25: 
+ al comma 1, le parole: «Il collegio sindacale» sono sostituite dalle seguenti: «L'organo che svolge la funzione di controllo» e le parole: «gli atti, o i fatti,» sono sostituite dalle seguenti: «gli atti o i fatti».</mod>
+                                    <mod eId="modNov_20">Nella sezione II, dopo l'articolo 26 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_20_new_52">Art. 26-bis. (Disciplina antiriciclaggio) - 1. I responsabili dei registri per la circolazione digitale di cui all'articolo 19, comma 1, lettere c), d) ed e), rientrano nella categoria di altri operatori non finanziari ai sensi dell'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegislativo/stato/2007-11-21/231/!main#art_3-com5" ns10:target="olf:it/decreto-legislativo/stato/2007/231/art_3-com5" ns10:relation="amends">articolo 3, comma 5, del decreto legislativo 21 novembre 2007, n. 231</ref>. 
+ 2. All'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2007-11-21/231/!main#art_3" ns11:target="olf:it/decreto-legislativo/stato/2007/231/art_3" ns11:relation="amends">articolo 3 del decreto legislativo 21 novembre 2007, n. 231</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 5, la lettera a) e' abrogata; 
+ b) dopo il comma 6 e' inserito il seguente: 
+ "6-bis. Rientrano tra i soggetti obbligati i prestatori di servizi relativi a societa' e trust di cui all'articolo 1, comma 2, lettera ee), del presente decreto, la cui attivita' e' riservata ad operatori soggetti a regimi di licenza o registrazione nazionale"</quotedText>».</mod> 
+ La partizione: «Sezione III» e' sostituita dalla seguente: «Capo IV». 
+ <mod eId="modNov_21">All'articolo 27: 
+ al comma 1: 
+ all'alinea, le parole: «<quotedText eId="modNov_21_old_55">ai responsabili del registro</quotedText>» sono soppresse; 
+ la lettera a) e' sostituita dalla seguente: 
+ «<quotedText eId="modNov_21_new_56">a) la Consob e' cornpetente per quanto riguarda l'osservanza degli obblighi degli emittenti in materia di emissione in forma digitale, la trasparenza, l'ordinata prestazione dell'attivita' di responsabile del registro e la tutela degli investitori</quotedText>»; 
+ al comma 3: 
+ alla lettera a), le parole: «<quotedText eId="modNov_21_old_57">nei confronti dei</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_21_new_57">con riguardo ai</quotedText>»; 
+ alla lettera b), le parole: «nei confronti dei responsabili del registro diversi» sono sostituite dalle seguenti: «con riguardo ai responsabili del registro e agli emittenti diversi» e le parole: «7-sexies, 8» sono sostituite dalle seguenti: «7-sexies e 8»; 
+ al comma 7 e' aggiunto, in fine, seguente periodo: «<quotedText eId="modNov_21_new_53">La medesima sanzione si applica nei confronti dei soggetti diversi da quelli di cui all'articolo 17 che controllano i mezzi di accesso agli strumenti finanziari digitali o che offrono tale servizio ai titolari degli strumenti finanziari digitali</quotedText>».</mod>
+                                    <mod eId="modNov_22">All'articolo 28: 
+ al comma 1, le parole: «<quotedText eId="modNov_22_old_59">del presente decreto,</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_22_new_59">della legge di conversione del presente decreto</quotedText>»; 
+ al comma 2: 
+ alla lettera a), le parole: «<quotedText eId="modNov_22_old_60">alla sezione I</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_22_new_60">al capo II</quotedText>»; 
+ dopo la lettera a) e' inserita la seguente: 
+ «<quotedText eId="modNov_22_new_54">a-bis) includere nell'ambito degli strumenti che gli emittenti possono assoggettare alla disciplina del presente decreto quelli di cui all'articolo 1, comma 1-bis, lettera c), del TUF, e le quote di partecipazione ad una societa' a responsabilita' limitata, anche in deroga alle disposizioni vigenti relative al regime di forma e circolazione di tali strumenti, ivi comprese le disposizioni di cui agli articoli 2468, primo comma, 2470, commi dal primo al terzo, e 2471 del <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main" ns12:target="olf:it/codice-civile/stato/1942/262" ns12:relation="cites">codice civile</ref>
+                                        </quotedText>»; 
+ la lettera b) e' soppressa; 
+ la lettera g) e' sostituita dalla seguente: 
+ «<quotedText eId="modNov_22_new_64">g) prevedere le ulteriori modalita' per la determinazione della giornata contabile rilevante ai sensi dell'articolo 7 e adottare disposizioni di attuazione delle previsioni di cui all'articolo 11</quotedText>»; 
+ alla lettera h), le parole: «<quotedText eId="modNov_22_old_65">regolamento (UE) 858/2022</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_22_new_65">
+                                            <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/regolamento//2022/858/!main" ns13:resolution="unresolved">regolamento (UE) 2022/858</ref>
+                                        </quotedText>»; 
+ alla lettera i), le parole: «<quotedText eId="modNov_22_old_66">dalla Sezione II</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_22_new_66">dal capo III</quotedText>»; 
+ alla lettera l): 
+ all'alinea, le parole: «ivi incluso» sono sostituite dalle seguenti: «ivi incluse quelle»; 
+ al numero 3), le parole: «requisiti previsti dagli stessi» sono sostituite dalle seguenti: «dai requisiti previsti dallo stesso articolo 24»; 
+ al comma 3, la parola: «<quotedText eId="modNov_22_old_68">d),</quotedText>» e' soppressa, le parole: «n), o)» sono sostituite dalle seguenti: «n) e o),» e le parole: «alla lettera l)» sono sostituite dalle seguenti: «al comma 2, lettera l),».</mod> 
+ La partizione: «Sezione IV» e' sostituita dalla seguente: «Capo V» e, alla relativa rubrica, le parole: «regolamento (UE) 858/2022» sono sostituite dalle seguenti: «<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/regolamento//2022/858/!main" ns14:resolution="unresolved">regolamento (UE) 2022/858</ref>». 
+ <mod eId="modNov_23">All'articolo 29: 
+ le parole: «<quotedText eId="modNov_23_old_70">regolamento (UE) 858/2022</quotedText>», ovunque ricorrono, sono sostituite dalle seguenti: «<quotedText eId="modNov_23_new_70">
+                                            <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/regolamento//2022/858/!main" ns15:resolution="unresolved">regolamento (UE) 2022/858</ref>
+                                        </quotedText>».</mod> 
+ La partizione: «Sezione V» e' sostituita dalla seguente: «Capo VI». 
+ <mod eId="modNov_24">All'articolo 30: 
+ al comma 1: 
+ alla l<quotedText eId="modNov_24_new_78">e</quotedText>ttera a): 
+ al numero 1), le parole: «comma 2 e 3» sono sostituite dalle seguenti: «commi 2 e 3»; 
+ al numero 3), le parole: «nonche' delle relative disposizioni» sono sostituite dalle seguenti: «nonche' dalle relative disposizioni»; 
+ alla lettera b), le parole: «<quotedText eId="modNov_24_old_77">nonche' delle disposizioni</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_24_new_77">nonche' dalle disposizioni</quotedText>»; 
+ alla lettera c), dopo le parole: «14, comma 2,» e' inserita la seguente: «e»; 
+ al comma 3, le parole: «<quotedText eId="modNov_24_old_79">Agli intermediari</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_24_new_79">Ai soggetti</quotedText>»; 
+ al comma 4, le parole: «regolamento (UE) 909/2014» sono sostituite dalle seguenti: «regolamento (UE) n. 909/2014», le parole: «alle SIM» sono sostituite dalle seguenti: «alle societa' di intermediazione mobiliare (Sim)» e le parole: «regolamento (UE) 858/2022» sono sostituite dalle seguenti: «<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/regolamento//2022/858/!main" ns16:resolution="unresolved">regolamento (UE) 2022/858</ref>»; 
+ al comma 5, le parole: «195, 195-bis» sono sostituite dalle seguenti: «195 e 195-bis» e le parole: «commi 3 e 4» sono sostituite dalle seguenti: «commi terzo e quarto».</mod> 
+ La partizione: «Sezione VI» e' sostituita dalla seguente: «Capo VII». 
+ <mod eId="modNov_25">All'articolo 32: 
+ al comma 1, dopo le parole: «in un elenco provvisorio» sono aggiunte le seguenti: «<quotedText eId="modNov_25_new_82">, se in possesso dei requisiti e secondo la procedura previsti dall'articolo 20</quotedText>»; 
+ al comma 2, le parole: «Comitato Fintech» sono sostituite dalle seguenti: «Comitato FinTech», le parole: «le Autorita' indicano» sono sostituite dalle seguenti: «le suddette autorita' indicano», le parole: «dalle Autorita'» sono sostituite dalle seguenti: «dalle autorita' medesime» ed e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_25_new_76">Il Ministro dell'economia e delle finanze trasmette alle Camere la relazione di cui al primo periodo dando conto dei risultati emersi</quotedText>».</mod> 
+ La partizione: «Sezione VII» e' sostituita dalla seguente: «Capo VIII». 
+ La partizione: «Sezione VIII» e' sostituita dalla seguente: «Capo IX». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
