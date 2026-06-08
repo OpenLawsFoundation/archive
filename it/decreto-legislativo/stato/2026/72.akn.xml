@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2026-04-10/72/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2026-04-10/72"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legislativo:2026-04-10;72"/>
+                    <FRBRalias name="eli" value="eli/id/2026/05/12/26G00087/ORIGINAL"/>
+                    <FRBRdate date="2026-04-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/05/12/26G00087/ORIGINAL" aknrelname="eli/id/2026/05/12/26G00087/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Norme di attuazione dello Statuto speciale della regione autonoma Friuli-Venezia Giulia recanti modifiche al decreto legislativo 25 novembre 2019, n. 154, in materia di coordinamento della finanza pubblica. (26G00087)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="26G00087" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO LEGISLATIVO"/>
+                            <nrdfa:span content="2026-04-10" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2026-04-10/72/ita@2026-05-27/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2026-04-10/72/ita@2026-05-27"/>
+                    <FRBRdate date="2026-05-27" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/05/12/26G00087/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2026/05/12/26G00087/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2026/05/12/26G00087/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2026-04-10/72/ita@2026-05-27/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2026-04-10/72/ita@2026-05-27.xml"/>
+                    <FRBRdate date="2026-04-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2026/05/12/26G00087/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2026-05-12" name="" number="108" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2026-05-12" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO_LEGISLATIVO/stato/2026-04-10/72/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2026/05/12/26G00087/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Norme di attuazione dello Statuto speciale della regione autonoma Friuli-Venezia Giulia recanti modifiche al decreto legislativo 25 novembre 2019, n. 154, in materia di coordinamento della finanza pubblica. (26G00087)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>26G00087</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO LEGISLATIVO"/>
+                        <eli:date_document rdf:datatype="xsd:date">2026-04-10</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/05/12/26G00087/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2026/05/12/26G00087/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2026/05/12/26G00087/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2026/05/12/26G00087/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legislativo/stato/2026/72" nativeUrn="urn:nir:stato:decreto.legislativo:2026-04-10;72" jurisdiction="it"/><ns0:lifecycle inForceFrom="2026-05-12"><ns0:event type="enacted" date="2026-04-10"/><ns0:event type="published" date="2026-05-12"/><ns0:event type="commenced" date="2026-05-12"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/c59ce888-01ca-4a2e-93a2-b12dba72a731" sourceSha256="7b64109b60f9b4ec48c98afb881efef6ed258c34138dda1db5a4de114899f859" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T17:41:21.933097Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO LEGISLATIVO</docType>
+                <docDate date="2026-04-10">10 aprile 2026</docDate>
+                <docNumber>72</docNumber>
+                <docTitle>Norme di attuazione dello Statuto speciale della regione autonoma Friuli-Venezia Giulia recanti modifiche al decreto legislativo 25 novembre 2019, n. 154, in materia di coordinamento della finanza pubblica. (26G00087) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 27/05/2026</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visto l'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns1:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns1:relation="cites">articolo 87, quinto comma, della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Vista la <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main" ns2:target="olf:it/legge-costituzionale/stato/1963/1" ns2:relation="cites">legge costituzionale 31 gennaio 1963, n. 1</ref>, recante «Statuto speciale della Regione Friuli-Venezia Giulia»;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Visto il <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/decretoLegislativo/stato/2019-11-25/154/!main" ns3:target="olf:it/decreto-legislativo/stato/2019/154" ns3:relation="cites">decreto legislativo 25 novembre 2019, n. 154</ref>, recante «Norme di attuazione dello Statuto speciale della Regione autonoma Friuli-Venezia Giulia in materia di coordinamento della finanza pubblica»;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_4">
+                <citation eId="cits_4__cit_1">
+                    <p>Visto il <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/decretoLegislativo/stato/2022-06-09/86/!main" ns4:target="olf:it/decreto-legislativo/stato/2022/86" ns4:relation="cites">decreto legislativo 9 giugno 2022, n. 86</ref>, recante «Norme di attuazione dello Statuto speciale della Regione autonoma Friuli-Venezia Giulia recanti modifiche al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_5" href="/akn/it/act/decretoLegislativo/stato/2019-11-25/154/!main" ns5:target="olf:it/decreto-legislativo/stato/2019/154" ns5:relation="cites">decreto legislativo 25 novembre 2019, n. 154</ref>, in materia di coordinamento della finanza pubblica»;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_5">
+                <citation eId="cits_5__cit_1">
+                    <p>Visto l'Accordo tra il Ministro dell'economia e delle finanze e la Regione Friuli-Venezia Giulia in materia di finanza pubblica sottoscritto in data 19 ottobre 2024;</p>
+                </citation>
+            </citations>
+            <p>Sentita la Commissione paritetica prevista dall'articolo 65 della citata <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_6" href="/akn/it/act/legge.costituzionale/stato/1963/1/!main" ns6:resolution="unresolved">legge costituzionale n. 1 del 1963</ref>;</p>
+            <citations eId="cits_6">
+                <citation eId="cits_6__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri adottata nella riunione del 27 marzo 2026;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Presidente del Consiglio dei ministri e del Ministro per gli affari regionali e le autonomie, di concerto con il Ministro dell'economia e delle finanze;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto legislativo:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Modifiche al decreto legislativo 25 novembre 2019, n. 154</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dopo l'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2019-11-25/154/!main#art_4bis" ns7:target="olf:it/decreto-legislativo/stato/2019/154/art_4bis" ns7:relation="cites">articolo 4-bis del decreto legislativo 25 novembre 2019, n. 154</ref> e' aggiunto il seguente: «Articolo 4-ter (Misure di concorso alla finanza pubblica per gli anni dal 2027 al 2033 e disposizioni inerenti alla nuova governance economica europea). - 1. In attuazione dell'accordo sottoscritto tra il Ministro dell'economia e delle finanze e la Regione il 19 ottobre 2024, ai sensi di quanto previsto dall'articolo 3, comma 1, lettera b) e dall'articolo 4-bis, comma 3, il sistema integrato concorre alla finanza pubblica con un contributo annuo di 432,7 milioni di euro per ciascuno degli anni dal 2027 al 2033, fermo restando il versamento al bilancio dello Stato di 92 milioni di euro annui, ai sensi dell'articolo 4, comma 8. 
+ 2. Le somme di cui al comma 1 sono versate all'erario con imputazione sul capitolo 3465, articolo 1, capo X, del bilancio dello Stato entro il 30 aprile di ciascun anno. In mancanza di tali versamenti all'entrata del bilancio dello Stato entro il 30 aprile, il Ministero dell'economia e delle finanze e' autorizzato a trattenere gli importi corrispondenti a valere sulle somme a qualsiasi titolo spettanti alla Regione, anche avvalendosi dell'Agenzia delle Entrate per le somme introitate per il tramite della Struttura di Gestione. 
+ 3. E' fatta salva la facolta' da parte dello Stato di modificare il contributo di cui al punto 1 per un periodo di tempo limitato, nella misura massima del 10 per cento dei contributi tempo per tempo vigenti, per far fronte ad eccezionali esigenze di finanza pubblica.
+Nel caso in cui siano necessarie manovre straordinarie volte ad assicurare il rispetto delle norme europee in materia di riequilibrio del bilancio pubblico, il predetto contributo puo' essere aumentato, per un periodo di tempo limitato, di una percentuale ulteriore rispetto a quella indicata al periodo precedente, non superiore al 10 per cento. Contributi di importi superiori sono concordati con la Regione. 
+ 4. Le facolta' di cui al comma 3 possono essere esercitate fino a che il rapporto tra il contributo e le entrate correnti della Regione non superi la media dei rapporti tra i contributi e le entrate correnti delle altre Autonomie speciali. Ai fini del calcolo del rapporto di cui al periodo precedente si tiene conto delle entrate di titolo primo e secondo accertate in conto competenza risultanti dagli ultimi rendiconti disponibili. 
+ 5. E' confermato il credito della Regione di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2010-12-13/220/!main#art_1-com151-leta" ns8:target="olf:it/legge/stato/2010/220/art_1-com151-leta" ns8:relation="cites">articolo 1, comma 151, lett. a), della legge 13 dicembre 2010, n. 220</ref>. Lo stesso puo' essere compensato annualmente con il contributo alla finanza pubblica. 
+ 6. In deroga a quanto previsto dall'articolo 3, in attuazione della nuova governance economica europea ed in spirito di leale collaborazione, la Regione accantona un importo pari a 22 milioni di euro per l'anno 2025, 62 milioni di euro per ciascuno degli anni dal 2026 al 2028 e 96 milioni di euro per l'anno 2029, determinato considerando anche gli enti locali situati sul suo territorio. A tal fine, la Regione, per conto del sistema integrato, si impegna a iscrivere nella missione 20 della parte corrente di ciascuno degli esercizi del bilancio di previsione un fondo con stanziamento pari agli importi di cui al periodo precedente. La costituzione del fondo e' finanziata attraverso le risorse di parte corrente. Su tale fondo non e' possibile disporre impegni. Il fondo e' destinato al ripiano anticipato del disavanzo di amministrazione in aggiunta a quello previsto nel bilancio di previsione, se in disavanzo, ovvero, se in avanzo di amministrazione, e' vincolato agli investimenti, anche indiretti, per l'utilizzo nell'esercizio successivo in via prioritaria rispetto alla formazione di nuovo debito. Nel caso di mancato accantonamento del fondo di cui ai periodi precedenti e/o mancato rispetto, da parte della Regione, dell'equilibrio di bilancio di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2018-12-30/145/!main#art_1-com821" ns9:target="olf:it/legge/stato/2018/145/art_1-com821" ns9:relation="cites">articolo 1, comma 821, della legge 30 dicembre 2018, n. 145</ref> (saldo non negativo tra le entrate e le spese di competenza finanziaria del bilancio, comprensivo dell'utilizzo dell'avanzo di amministrazione e del recupero del disavanzo di amministrazione e degli utilizzi del fondo pluriennale vincolato, al netto delle entrate vincolate e accantonate non utilizzate nel corso dell'esercizio), nell'esercizio successivo la quota accantonata e' incrementata della sommatoria in valore assoluto del minore accantonamento e del saldo negativo registrato nell'esercizio precedente. Nel caso di mancato invio entro il 31 maggio alla Banca dati delle amministrazioni pubbliche dei dati di consuntivo o preconsuntivo della Regione relativi all'esercizio precedente l'accantonamento e' incrementato del 10 per cento. 
+ 7. Fermo restando quanto disposto dall'articolo 4-bis, comma 2, gli obblighi previsti dal presente articolo per le annualita' di riferimento contribuiscono all'osservanza dei vincoli economici e finanziari derivanti dall'ordinamento dell'Unione europea, assolvono integralmente al dovere di solidarieta' nazionale di cui all'articolo 3 e sostituiscono le misure di concorso alla finanza pubblica del sistema integrato, comunque denominate, previste da intese o disposizioni di legge.». 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art.10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns10:target="olf:it/dpr/stato/1985/1092" ns10:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ Note alle premesse: 
+ - L'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns11:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns11:relation="cites">art. 87, quinto comma, della Costituzione</ref> conferisce al Presidente della Repubblica il potere di promulgare le leggi e di emanare i decreti aventi valore di legge ed i regolamenti. 
+ - La <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge.costituzionale/stato/1963-01-31/1/!main" ns12:target="olf:it/legge-costituzionale/stato/1963/1" ns12:relation="cites">legge costituzionale 31 gennaio 1963, n. 1</ref>, recante: «Statuto speciale della Regione Friuli Venezia Giulia» e' pubblicata nella Gazzetta Ufficiale n. 29 del 1 febbraio1963. 
+ - Il <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/2019-11-25/154/!main" ns13:target="olf:it/decreto-legislativo/stato/2019/154" ns13:relation="cites">decreto legislativo 25 novembre 2019, n. 154</ref>, recante: «Norme di attuazione dello Statuto speciale della Regione autonoma Friuli Venezia Giulia in materia di coordinamento della finanza pubblica» e' pubblicato nella Gazzetta Ufficiale n. 299 del 21 dicembre 2019. 
+ - Il <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/2022-06-09/86/!main" ns14:target="olf:it/decreto-legislativo/stato/2022/86" ns14:relation="cites">decreto legislativo 9 giugno 2022, n. 86</ref> recante: «Norme di attuazione dello Statuto speciale della Regione autonoma Friuli-Venezia Giulia recanti modifiche al <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/2019-11-25/154/!main" ns15:target="olf:it/decreto-legislativo/stato/2019/154" ns15:relation="cites">decreto legislativo 25 novembre 2019, n. 154</ref>, in materia di coordinamento della finanza pubblica» e' pubblicato nella Gazzetta Ufficiale n.157 del 7 luglio 2022. 
+ 
+ Note all'art. 1: 
+ - Per i riferimenti al <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2019-11-25/154/!main" ns16:target="olf:it/decreto-legislativo/stato/2019/154" ns16:relation="cites">decreto legislativo 25 novembre 2019, n. 154</ref> si vedano le note alle premesse. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 10 aprile 2026 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Calderoli, Ministro per gli affari regionali e le autonomie Giorgetti, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
