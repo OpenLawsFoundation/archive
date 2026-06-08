@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-12-18/191/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-12-18/191"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-12-18;191"/>
+                    <FRBRalias name="eli" value="eli/id/2025/12/19/25G00200/ORIGINAL"/>
+                    <FRBRdate date="2025-12-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/12/19/25G00200/ORIGINAL" aknrelname="eli/id/2025/12/19/25G00200/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 29 ottobre 2025, n. 156, recante misure urgenti in materia economica. (25G00200)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00200" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-12-18" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-12-18/191/ita@2025-12-20/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-12-18/191/ita@2025-12-20"/>
+                    <FRBRdate date="2025-12-20" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/12/19/25G00200/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/12/19/25G00200/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/12/19/25G00200/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-12-18/191/ita@2025-12-20/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-12-18/191/ita@2025-12-20.xml"/>
+                    <FRBRdate date="2025-12-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/12/19/25G00200/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-12-19" name="" number="294" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-12-19" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-12-18/191/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/12/19/25G00200/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 29 ottobre 2025, n. 156, recante misure urgenti in materia economica. (25G00200)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00200</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-12-18</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/12/19/25G00200/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/12/19/25G00200/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/12/19/25G00200/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/12/19/25G00200/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/191" nativeUrn="urn:nir:stato:legge:2025-12-18;191" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-12-19"><ns0:event type="enacted" date="2025-12-18"/><ns0:event type="published" date="2025-12-19"/><ns0:event type="commenced" date="2025-12-19"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/3a3b719c-76dd-4957-b844-c4b62ec3804a" sourceSha256="1d0e668523eda9e7ebc24494c021e40bc71a73fd6ef17e7c7aea40993371359b" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T17:57:16.355429Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-12-18">18 dicembre 2025</docDate>
+                <docNumber>191</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 29 ottobre 2025, n. 156, recante misure urgenti in materia economica. (25G00200) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 20/12/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2025-10-29/156/!main" ns1:target="olf:it/decreto-legge/stato/2025/156" ns1:relation="cites">decreto-legge 29 ottobre 2025, n. 156</ref>, recante misure urgenti in materia economica, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2025-10-29/156/!main" ns2:target="olf:it/decreto-legge/stato/2025/156" ns2:relation="cites">decreto-legge 29 ottobre 2025, n. 156</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 252 del 29 ottobre 2025. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 116. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto, obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 18 dicembre 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giorgetti, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-12-18/191/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-12-18/191"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-12-18;191"/>
+                                <FRBRalias name="eli" value="eli/id/2025/12/19/25G00200/ORIGINAL"/>
+                                <FRBRdate date="2025-12-20" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-12-18/191/ita@2025-12-20/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-12-18/191/ita@2025-12-20"/>
+                                <FRBRdate date="2025-12-20" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-12-18/191/ita@2025-12-20/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-12-18/191/ita@2025-12-20.xml"/>
+                                <FRBRdate date="2025-12-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 29 OTTOBRE 2025, N. 156 
+ All'articolo 1: 
+ al comma 1, le parole: «di RFI» sono sostituite dalle seguenti: «della societa' Rete ferroviaria italiana (RFI)» e le parole: «programma parte» sono sostituite dalle seguenti: «programma - parte»; 
+ al comma 2, le parole: «di RFI» sono sostituite dalle seguenti: «della societa' RFI»; 
+ al comma 3, le parole: «Contratto di Programma parte servizi, RFI» sono sostituite dalle seguenti: «contratto di programma - parte servizi, la societa' RFI S.p.A.»; 
+ dopo il comma 3 e' inserito il seguente: 
+ «3-bis. All'articolo 1, comma 2-ter, secondo periodo, del <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2024-06-29/89/!main" ns4:target="olf:it/decreto-legge/stato/2024/89" ns4:relation="cites">decreto-legge 29 giugno 2024, n. 89</ref>, convertito, con modificazioni, dalla <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2024-08-08/120/!main" ns5:target="olf:it/legge/stato/2024/120" ns5:relation="cites">legge 8 agosto 2024, n. 120</ref>, sono aggiunte, in fine, le seguenti parole: ", comprendendo, a decorrere dal medesimo periodo, tra i costi operativi, ai soli fini dell'applicazione del presente comma, l'accantonamento annuale nel fondo di cui all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/1997-12-27/449/!main#art_55-com13" ns6:target="olf:it/legge/stato/1997/449/art_55-com13" ns6:relation="cites">articolo 55, comma 13, della legge 27 dicembre 1997, n. 449</ref>"»; 
+ la rubrica e' sostituita dalla seguente: «Rifinanziamento di autorizzazioni di spesa in favore della societa' Rete ferroviaria italiana S.p.A. e per la ricostruzione dell'Ucraina e disposizioni concernenti la societa' Autobrennero S.p.A.». 
+ All'articolo 2: 
+ al comma 1, dopo le parole: «del Fondo» sono inserite le seguenti: «di garanzia per la prima casa,»; 
+ al comma 2, dopo le parole: «Il Fondo» sono inserite le seguenti: «per l'innovazione tecnologica e la digitalizzazione,»; 
+ al comma 3: 
+ al primo periodo, le parole: «di euro 2.026.830 annui a decorrere dall'anno 2025» sono sostituite dalle seguenti: «di euro 4.423.830 per l'anno 2025 e di euro 2.026.830 annui a decorrere dall'anno 2026»; 
+ al secondo periodo, le parole da: «di 2.026.830 euro» fino alla fine del periodo sono sostituite dalle seguenti: «di euro 4.423.830 per l'anno 2025 e di euro 2.026.830 annui a decorrere dall'anno 2026»; 
+ al comma 4, le parole: «euro 81.126.830 per l'anno 2025 e euro» sono sostituite dalle seguenti: «euro 83.523.830 per l'anno 2025 e a euro». 
+ All'articolo 3: 
+ al comma 1: 
+ al primo periodo, la parola: «PNRR» e' sostituita dalle seguenti: «Piano nazionale di ripresa e resilienza (PNRR)» e le parole: «pena la revoca delle risorse» sono sostituite dalle seguenti: «a pena di revoca del finanziamento»; 
+ al secondo periodo, dopo le parole: «uno o piu' decreti» e' inserita la seguente: «adottati»; 
+ al comma 2, dopo le parole: «di miglioramento genetico» e' inserita la seguente: «esercitata»; 
+ al comma 3, dopo le parole: «le parole» e' inserito il seguente segno di interpunzione: «:» e le parole: «e 2024» sono sostituite dalle seguenti: «e 2024,»; 
+ dopo il comma 3 e' inserito il seguente: 
+ «3-bis. All'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2025-06-13/89/!main#art_21-com5" ns7:target="olf:it/legge/stato/2025/89/art_21-com5" ns7:relation="cites">articolo 21, comma 5, della legge 13 giugno 2025, n. 89</ref>, le parole: "anche se derivato da dolo dell'operatore o dei" sono sostituite dalle seguenti: "cagionato dall'operatore o dai"»; 
+ al comma 4, la parola: «ISMETT» e' sostituita dalle seguenti: «dell'Istituto mediterraneo per i trapianti e terapie ad alta specializzazione di Palermo», dopo le parole: «23 gennaio 2025» e' inserito il seguente segno di interpunzione: «,», le parole: «delibera CIPESS del 29 novembre 2024» sono sostituite dalle seguenti: «delibera del Comitato interministeriale per la programmazione economica e lo sviluppo sostenibile n. 82/2024 del 29 novembre 2024, pubblicata nella Gazzetta Ufficiale n. 60 del 13 marzo 2025», le parole: «31 dicembre 2014, n. 190» sono sostituite dalle seguenti: «23 dicembre 2014, n. 190» e le parole: «, sono sostituite» sono sostituite dalle seguenti: «sono sostituite»; 
+ dopo il comma 4 sono inseriti i seguenti: 
+ «4-bis. Al fine di consentire il completamento del nuovo progetto di ricerca, assistenza e cura dei malati oncologici finalizzato all'introduzione di cure salvavita mediante l'adozione di terapie innovative con ioni di carbonio e altre specie ioniche e di far fronte alle spese per l'ultimazione della struttura edilizia, e' autorizzata la concessione di un contributo, pari a 10 milioni di euro per l'anno 2026 e a 7 milioni di euro per ciascuno degli anni 2027 e 2028, a favore del Centro nazionale di adroterapia oncologica (CNAO), a valere sulle risorse di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/1988-03-11/67/!main#art_20" ns8:target="olf:it/legge/stato/1988/67/art_20" ns8:relation="cites">articolo 20 della legge 11 marzo 1988, n. 67</ref>, assegnate alla regione Lombardia, previo parere favorevole della regione medesima. Ai fini della concessione del contributo, il CNAO presenta al Ministero della salute, entro sessanta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, il programma degli investimenti da effettuare. Il CNAO presenta alla fine di ogni anno il rendiconto dello stato di avanzamento del progetto. L'erogazione dei contributi e' effettuata in base allo stato di avanzamento dei lavori. 
+ 4-ter. Le regioni a statuto ordinario che in ciascuno degli ultimi tre anni hanno registrato un saldo positivo di parte corrente di lettera A2, desunto dal prospetto di verifica degli equilibri del rendiconto della gestione formalmente approvato, hanno conseguito l'equilibrio economico-finanziario del bilancio sanitario e hanno rispettato i livelli essenziali di assistenza di cui al decreto del Presidente del Consiglio dei ministri 12 gennaio 2017, pubblicato nel supplemento ordinario alla Gazzetta Ufficiale n. 65 del 18 marzo 2017, dall'anno 2026 possono destinare annualmente alle aziende e agli enti del servizio sanitario regionale risorse finanziarie aggiuntive finalizzate all'assunzione di personale sanitario con contratti di lavoro a tempo determinato o all'incremento delle prestazioni aggiuntive svolte dai dirigenti medici e dal personale del comparto per un importo complessivamente non superiore al 35 per cento della media dei saldi positivi di parte corrente di lettera A2 registrati dalla regione negli ultimi tre anni. 
+ 4-quater. Al fine di sostenere la strategia di valorizzazione degli asset pubblici prevista nel Piano strutturale di bilancio di medio termine per gli anni 2025-2029 e di favorire la razionalizzazione dell'utilizzo degli immobili in uso alle amministrazioni pubbliche, il Ministero dell'economia e delle finanze e' autorizzato a sottoscrivere, nell'anno 2025, quote dei fondi istituiti dalla societa' Investimenti immobiliari italiani - societa' di gestione del risparmio (INVIMIT SGR Spa) ai sensi dell'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main#art_33-com1" ns9:target="olf:it/decreto-legge/stato/2011/98/art_33-com1" ns9:relation="cites">articolo 33, comma 1, del decreto-legge 6 luglio 2011, n. 98</ref>, convertito, con modificazioni, dalla <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2011-07-15/111/!main" ns10:target="olf:it/legge/stato/2011/111" ns10:relation="cites">legge 15 luglio 2011, n. 111</ref>, per un importo massimo di 170 milioni di euro per l'anno 2025. Agli oneri derivanti dal presente comma, pari a 170 milioni di euro per l'anno 2025 in termini di saldo netto da finanziare e fabbisogno, si provvede mediante corrispondente versamento all'entrata del bilancio dello Stato delle somme disponibili in conto residui nello stato di previsione del Ministero dell'economia e delle finanze ai sensi dell'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_27-com17" ns11:target="olf:it/decreto-legge/stato/2020/34/art_27-com17" ns11:relation="cites">articolo 27, comma 17, del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns12:target="olf:it/legge/stato/2020/77" ns12:relation="cites">legge 17 luglio 2020, n. 77</ref>. 
+ 4-quinquies. Ai fini dell'acquisto di un acceleratore lineare e del relativo bunker finalizzato alla sua installazione, sono destinati, per l'anno 2026, 4 milioni di euro all'azienda sanitaria provinciale di Agrigento per l'ospedale "San Giovanni di Dio". Agli oneri di cui al presente comma, pari a 4 milioni di euro per l'anno 2026, si provvede mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2007-12-24/244/!main#art_2-com361" ns13:target="olf:it/legge/stato/2007/244/art_2-com361" ns13:relation="cites">articolo 2, comma 361, della legge 24 dicembre 2007, n. 244</ref>»; 
+ alla rubrica, dopo la parola: «investimenti» sono inserite le seguenti: «, economia dello spazio». 
+ Dopo l'articolo 3 sono inseriti i seguenti: 
+ «Art. 3-bis (Disposizioni urgenti per l'utilizzo di fondi del PNRR da parte degli enti locali). - 1. All'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegge/stato/2022-05-17/50/!main#art_42" ns14:target="olf:it/decreto-legge/stato/2022/50/art_42" ns14:relation="cites">articolo 42 del decreto-legge 17 maggio 2022, n. 50</ref>, convertito, con modificazioni, dalla <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2022-07-15/91/!main" ns15:target="olf:it/legge/stato/2022/91" ns15:relation="cites">legge 15 luglio 2022, n. 91</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 3, le parole: "di cui al <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2011-12-29/229/!main" ns16:target="olf:it/decreto-legislativo/stato/2011/229" ns16:relation="cites">decreto legislativo 29 dicembre 2011, n. 229</ref>" sono sostituite dalle seguenti: "di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com1043" ns17:target="olf:it/legge/stato/2020/178/art_1-com1043" ns17:relation="cites">articolo 1, comma 1043, della legge 30 dicembre 2020, n. 178</ref>"; 
+ b) al comma 4 sono aggiunti, in fine, i seguenti periodi: "Per il completamento degli interventi compresi nel Piano di cui al comma 2 e cofinanziati dal PNRR o dal Piano nazionale per gli investimenti complementari al PNRR, su autorizzazione del Ministero dell'interno, possono essere utilizzate le economie di progetto relative ad altri interventi ultimati e collaudati di competenza del medesimo ente attuatore compresi nel Piano di cui al comma 2. Qualora gli interventi siano beneficiari di risorse del Fondo per l'avvio di opere indifferibili, di cui all'articolo 26, comma 7, del presente decreto, si applica la disciplina del medesimo Fondo". 
+ Art. 3-ter (Disposizioni urgenti per garantire il soddisfacimento di esigenze di tutela dell'ordine e della sicurezza pubblica). - 1. Al fine di consentire il pagamento di compensi per prestazioni di lavoro straordinario effettuate dal personale del Corpo nazionale dei vigili del fuoco, riferite ad annualita' precedenti al 2025 e non ancora liquidate, e' autorizzata la spesa complessiva di 12.341.000 euro per l'anno 2025, al lordo degli oneri a carico dell'amministrazione e in deroga al limite di cui all'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/2017-05-25/75/!main#art_23-com2" ns18:target="olf:it/decreto-legislativo/stato/2017/75/art_23-com2" ns18:relation="cites">articolo 23, comma 2, del decreto legislativo 25 maggio 2017, n. 75</ref>. 
+ 2. Per fronteggiare le contingenti esigenze di servizio, connesse all'attivita' di soccorso tecnico urgente e alle ulteriori attivita' istituzionali del Corpo nazionale dei vigili del fuoco nonche' al correlato addestramento operativo, e' autorizzata la spesa di 12.659.000 euro per l'anno 2025 per la corresponsione del compenso per lavoro straordinario dovuto allo svolgimento di prestazioni lavorative oltre l'ordinario orario di lavoro nel corso dell'anno 2025. 
+ 3. Per il maggiore impiego del personale volontario del Corpo nazionale dei vigili del fuoco nelle attivita' di soccorso tecnico urgente, anche per fronteggiare le emergenze locali di cui all'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2022-06-17/121/!main#art_21" ns19:target="olf:it/dpr/stato/2022/121/art_21" ns19:relation="cites">articolo 21 del decreto del Presidente della Repubblica 17 giugno 2022, n. 121</ref>, e' autorizzata la spesa di 3 milioni di euro per l'anno 2025 per la corresponsione di quanto previsto dall'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegislativo/stato/2006-03-08/139/!main#art_10" ns20:target="olf:it/decreto-legislativo/stato/2006/139/art_10" ns20:relation="cites">articolo 10 del decreto legislativo 8 marzo 2006, n. 139</ref>. 
+ 4. Al fine di garantire il soddisfacimento delle esigenze di tutela dell'ordine e della sicurezza pubblica, e' autorizzata la spesa complessiva di 61 milioni di euro per l'anno 2025 destinata alla remunerazione delle prestazioni di lavoro straordinario gia' svolte dal personale delle Forze di polizia di cui all'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/1981-04-01/121/!main#art_16" ns21:target="olf:it/legge/stato/1981/121/art_16" ns21:relation="cites">articolo 16 della legge 1° aprile 1981, n. 121</ref>, in deroga all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/2017-05-25/75/!main#art_23-com2" ns22:target="olf:it/decreto-legislativo/stato/2017/75/art_23-com2" ns22:relation="cites">articolo 23, comma 2, del decreto legislativo 25 maggio 2017, n. 75</ref>, secondo la seguente ripartizione: 
+ a) Polizia di Stato: 29,28 milioni di euro; 
+ b) Arma dei carabinieri: 18,3 milioni di euro; 
+ c) Corpo della guardia di finanza: 10,98 milioni di euro; 
+ d) Corpo di polizia penitenziaria: 2,44 milioni di euro. 
+ 5. Agli oneri derivanti dal presente articolo, pari a 89 milioni di euro per l'anno 2025, si provvede: 
+ a) quanto a 5 milioni di euro, mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_41bis" ns23:target="olf:it/legge/stato/2012/234/art_41bis" ns23:relation="cites">articolo 41-bis della legge 24 dicembre 2012, n. 234</ref>; 
+ b) quanto a 15 milioni di euro, mediante corrispondente riduzione del Fondo di parte corrente di cui all'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_34ter-com5" ns24:target="olf:it/legge/stato/2009/196/art_34ter-com5" ns24:relation="cites">articolo 34-ter, comma 5, della legge 31 dicembre 2009, n. 196</ref>, iscritto nello stato di previsione del Ministero dell'economia e delle finanze; 
+ c) quanto a 20 milioni di euro, mediante corrispondente riduzione della quota per interventi del finanziamento annuale di cui all'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/2014-08-11/125/!main#art_18-com2-letc" ns25:target="olf:it/legge/stato/2014/125/art_18-com2-letc" ns25:relation="cites">articolo 18, comma 2, lettera c), della legge 11 agosto 2014, n. 125</ref>; 
+ d) quanto a 28 milioni di euro, mediante corrispondente riduzione del fondo di cui all'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegge/stato/2025-03-14/25/!main#art_6-com3" ns26:target="olf:it/decreto-legge/stato/2025/25/art_6-com3" ns26:relation="cites">articolo 6, comma 3, del decreto-legge 14 marzo 2025, n. 25</ref>, convertito, con modificazioni, dalla <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2025-05-09/69/!main" ns27:target="olf:it/legge/stato/2025/69" ns27:relation="cites">legge 9 maggio 2025, n. 69</ref>; 
+ e) quanto a 21 milioni di euro, mediante corrispondente utilizzo delle somme versate all'entrata del bilancio dello Stato ai sensi dell'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/2025-12-03/388/!main#art_148-com1" ns28:target="olf:it/legge/stato/2025/388/art_148-com1" ns28:relation="cites">articolo 148, comma 1, della legge 23 dicembre 2000, n. 388, che, alla data del 3 dicembre 2025</ref>, non sono riassegnate ai pertinenti programmi e restano, per il medesimo importo, acquisite all'erario. 
+ Art. 3-quater (Disposizioni in materia di edilizia sanitaria).
+- 1. Al fine di assicurare il miglioramento dell'offerta ospedaliera e della qualita' dei presidi sanitari, dalla data di entrata in vigore della legge di conversione del presente decreto, la porzione del compendio immobiliare denominato "Policlinico Umberto I", di proprieta' dello Stato, sito in Roma, individuata nell'allegato n. 01 annesso al presente decreto, e' trasferita in proprieta' alla regione Lazio, nello stato di fatto e di diritto in cui si trova, con vincolo perpetuo di destinazione a servizio ospedaliero pubblico e assicurando le attivita' dell'azienda ospedaliera universitaria. A decorrere dalla medesima data, l'immobile denominato "ex Ospedale Carlo Forlanini", di proprieta' della regione Lazio, sito in Roma, individuato nell'allegato n. 02 annesso al presente decreto, e' trasferito in proprieta' allo Stato, nello stato di fatto e di diritto in cui si trova. All'attuazione del presente comma provvedono l'Agenzia del demanio e la regione Lazio secondo i rispettivi ordinamenti, mediante l'assunzione in consistenza dei predetti cespiti. 
+ 2. Fermo restando quanto previsto dal comma 1, in caso di successiva cessione a qualsiasi titolo dei beni di cui al medesimo comma, qualora il valore di cessione o di scambio risulti maggiore del valore individuato ai sensi del terzo periodo dello stesso comma 1, come aggiornato annualmente sulla base dell'indice dei prezzi al consumo per le famiglie di operai e impiegati, il maggior valore: 
+ a) e' riversato integralmente al Fondo per l'ammortamento dei titoli di Stato, di cui all'articolo 44 del testo unico di cui al <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2003-12-30/398/!main" ns29:target="olf:it/dpr/stato/2003/398" ns29:relation="cites">decreto del Presidente della Repubblica 30 dicembre 2003, n. 398</ref>, se la cessione avviene in favore di un soggetto di cui all'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_1-com2" ns30:target="olf:it/legge/stato/2009/196/art_1-com2" ns30:relation="cites">articolo 1, comma 2, della legge 31 dicembre 2009, n. 196</ref>; 
+ b) per una quota pari al 30 per cento e' riversato al Fondo di cui alla lettera a) e per la restante parte e' destinato a investimenti in materia sanitaria da realizzare compatibilmente con i vincoli di finanza pubblica, se la cessione avviene in favore di un soggetto diverso da quelli di cui all'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_1-com2" ns31:target="olf:it/legge/stato/2009/196/art_1-com2" ns31:relation="cites">articolo 1, comma 2, della legge 31 dicembre 2009, n. 196</ref>. 
+ 3. Gli oneri di custodia e vigilanza del compendio immobiliare denominato "ex Ospedale Carlo Forlanini" restano a carico della regione Lazio, a valere sul bilancio della medesima, fino alla cantierizzazione degli interventi funzionali alla riqualificazione dell'immobile o alla sua cessione e comunque non oltre il 31 dicembre 2030. Alle medesime condizioni, la regione Lazio continua a percepire gli importi corrispondenti ai canoni relativi ai contratti di locazione con le amministrazioni statali, vigenti alla data di entrata in vigore della legge di conversione del presente decreto. A decorrere dall'anno 2031, qualora non abbia avuto avvio la cantierizzazione di cui al primo periodo ne' si sia proceduto alla cessione del bene di cui al presente comma, ai relativi oneri di custodia e vigilanza si provvede a valere sugli stanziamenti previsti a legislazione vigente in favore dell'Agenzia del demanio nel limite di 2 milioni di euro annui. 
+ 4. La regione Lazio completa entro il 31 dicembre 2028 gli interventi di manutenzione straordinaria in corso sulla porzione dell'immobile denominato "ex Ospedale Carlo Forlanini", individuata nell'allegato n. 03 annesso al presente decreto, sostenendo i relativi oneri. 
+ 5. Le operazioni di trasferimento previste dal presente articolo sono esenti da oneri fiscali. 
+ 6. Dall'attuazione dei commi da 1 a 5 non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+ 7. All'allegato V annesso alla <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/legge/stato/2023-12-30/213/!main" ns32:target="olf:it/legge/stato/2023/213" ns32:relation="cites">legge 30 dicembre 2023, n. 213</ref>, alla voce: "Adeguamento e ristrutturazione della rete del sistema dell'emergenza del servizio sanitario regionale della regione Lazio" sono apportate le seguenti modificazioni: 
+ a) alla prima colonna ("finalita'"), le parole: "del sistema dell'emergenza" sono sostituite dalle seguenti: "dell'offerta sanitaria e sociosanitaria residenziale"; 
+ b) alla seconda colonna ("Ministero"), la parola: "MEF" e' sostituita dalla seguente: "SALUTE". 
+ 8. Nello stato di previsione del Ministero della salute e' istituito un fondo con una dotazione di 90 milioni di euro per l'anno 2025 e di 55 milioni di euro per l'anno 2026, da destinare alla finalita' di cui al comma 7. 
+ 9. Agli oneri derivanti dal comma 8, pari a 90 milioni di euro per l'anno 2025 e a 55 milioni di euro per l'anno 2026, si provvede: 
+ a) quanto a 40 milioni di euro per l'anno 2025, mediante corrispondente versamento all'entrata del bilancio dello Stato delle risorse disponibili in conto residui nello stato di previsione del Ministero dell'economia e delle finanze in relazione all'intervento di cui al comma 7 del presente articolo, previsto dall'allegato V annesso alla <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2023-12-30/213/!main" ns33:target="olf:it/legge/stato/2023/213" ns33:relation="cites">legge 30 dicembre 2023, n. 213</ref>, nel testo vigente prima della data di entrata in vigore della legge di conversione del presente decreto; 
+ b) quanto a 50 milioni di euro per l'anno 2025 e a 55 milioni di euro per l'anno 2026, mediante corrispondente utilizzo delle somme disponibili nello stato di previsione del Ministero dell'economia e delle finanze in relazione all'intervento di cui al comma 7 del presente articolo, previsto dall'allegato V annesso alla <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/2023-12-30/213/!main" ns34:target="olf:it/legge/stato/2023/213" ns34:relation="cites">legge 30 dicembre 2023, n. 213</ref>, nel testo vigente prima della data di entrata in vigore della legge di conversione del presente decreto». 
+ All'articolo 4: 
+ al comma 1, dopo le parole: «le parole» e' inserito il seguente segno di interpunzione: «:» e la parola: «paralimpiche,» e' sostituita dalla seguente: «paralimpiche»; 
+ al comma 2: 
+ all'alinea, dopo le parole: «All'articolo 9-ter,» sono inserite le seguenti: «comma 14,»; 
+ alla lettera a), le parole: «il comma 14, lettera a), e' sostituito dal seguente "quanto» sono sostituite dalle seguenti: «la lettera a) e' sostituita dalla seguente: "a) quanto»; 
+ alla lettera b), le parole: «il comma 14, lettera b), e' sostituito dal seguente "quanto» sono sostituite dalle seguenti: «la lettera b) e' sostituita dalla seguente: "b) quanto» e le parole: «sportivo culturale» sono sostituite dalle seguenti: « sportivo e culturale»; 
+ alla lettera c), le parole: «il comma 14, lettera c), e' sostituito dal seguente "quanto» sono sostituite dalle seguenti: «la lettera c) e' sostituita dalla seguente: "c) quanto», dopo le parole: «per l'anno 2025» e' inserito il seguente segno di interpunzione: «,», dopo le parole: «culturale Spa e» e' inserito il seguente segno di interpunzione: «,» e le parole: «corrispondente utilizzo,» sono sostituite dalle seguenti: «corrispondente utilizzo»; 
+ al comma 3, dopo le parole: «le parole» e' inserito il seguente segno di interpunzione: «:» e le parole: «e dei XIV Giochi paralimpici invernali "Milano-Cortina 2026"» sono sostituite dalle seguenti: «e per i XIV Giochi paralimpici invernali 'Milano-Cortina 2026'"»; 
+ al comma 4 sono aggiunte, in fine, le seguenti parole: «, e di 3 milioni di euro per l'anno 2025, per il sostegno agli organismi sportivi nazionali di cui all'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/legge/stato/2018-12-30/145/!main#art_1-com630" ns35:target="olf:it/legge/stato/2018/145/art_1-com630" ns35:relation="cites">articolo 1, comma 630, della legge 30 dicembre 2018, n. 145</ref>. Nell'utilizzo delle risorse destinate alla promozione della pratica sportiva nelle scuole e dei nuovi giochi della gioventu', la societa' Sport e Salute S.p.A. assicura il rispetto dei criteri della trasparenza e dell'equilibrio territoriale»; 
+ al comma 5, le parole: «E' autorizzato un contributo» sono sostituite dalle seguenti: «E' autorizzata la spesa», dopo le parole: «comma 4-bis» e' inserito il seguente segno di interpunzione: «,», la parola: «stipula» e' sostituita dalla seguente: «stipulazione», la parola: «convezioni» e' sostituita dalla seguente: «convenzioni», dopo le parole: «a disposizione» e' inserito il seguente segno di interpunzione: «,», dopo le parole: «di interesse nazionale e internazionale» sono inserite le seguenti: «, pubblico e sociale,» e la parola: «utilizzato» e' sostituita dalla seguente: «utilizzata»;  dopo il comma 5 e' inserito il seguente: 
+ «5-bis. Al fine di garantire la disponibilita' di impianti sportivi in grado di ospitare eventi sportivi di interesse nazionale e internazionale per un arco di tempo pluriennale, e' autorizzata la corresponsione di un contributo di 5 milioni di euro per l'anno 2026 a favore del comune di Milano, finalizzato alla ristrutturazione dell'impianto natatorio olimpionico comunale "Daniela Samuele", da realizzare, a pena di revoca del contributo, entro il 31 dicembre 2026. Nel caso di revoca del contributo ai sensi del primo periodo, le risorse sono versate all'entrata del bilancio dello Stato e rimangono acquisite all'erario. Agli oneri derivanti dal presente comma, pari a 5 milioni di euro per l'anno 2026, si provvede mediante corrispondente riduzione delle proiezioni dello stanziamento del fondo speciale di conto capitale iscritto, ai fini del bilancio triennale 2025-2027, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2025, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'ambiente e della sicurezza energetica»; 
+ al comma 6: 
+ all'alinea, primo periodo, dopo le parole: «del Veneto» e' inserito il seguente segno di interpunzione: «,», le parole: «di pertinenza» sono soppresse, le parole: «non superiore ai» sono sostituite dalle seguenti: «non superiore a», dopo le parole: «alle sedi di gara» sono inserite le seguenti: «, calcolata sul percorso stradale tra queste ultime e la casa comunale del comune interessato», le parole: «possono incrementare, con le modalita' di cui all'<ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/decretoLegislativo/stato/2011-03-14/23/!main#art_4" ns36:target="olf:it/decreto-legislativo/stato/2011/23/art_4" ns36:relation="cites">articolo 4 del decreto legislativo 14 marzo 2011, n. 23</ref>, l'ammontare dell'imposta di soggiorno» sono sostituite dalle seguenti: «possono istituire l'imposta di soggiorno o incrementarne l'ammontare, con le modalita' di cui all'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/decretoLegislativo/stato/2011-03-14/23/!main#art_4" ns37:target="olf:it/decreto-legislativo/stato/2011/23/art_4" ns37:relation="cites">articolo 4 del decreto legislativo 14 marzo 2011, n. 23</ref>,» e le parole: «sul proprio territorio» sono sostituite dalle seguenti: «nel proprio territorio»; 
+ alla lettera a), le parole: «ultimo periodo» sono sostituite dalle seguenti: «secondo periodo»; 
+ al comma 7, le parole: «d'intesa con la Conferenza» sono sostituite dalle seguenti: «previa intesa in sede di Conferenza» e la parola: «individuazione» e' sostituita dalla seguente: «determinazione»; 
+ dopo il comma 7 sono inseriti i seguenti: 
+ «7-bis. Per garantire un regolare, efficace ed efficiente svolgimento dei Giochi olimpici e paralimpici invernali "Milano-Cortina 2026", gli enti locali nel cui territorio si svolgono gli eventi sportivi sono autorizzati a riconoscere, nel periodo di svolgimento dei medesimi, l'esenzione dal pagamento dell'imposta di soggiorno per i componenti della "famiglia olimpica", con cio' intendendosi gli atleti e i loro familiari nonche' le persone facenti parte dello staff e delle delegazioni delle federazioni sportive partecipanti. 
+ 7-ter. In ragione dello straordinario rilievo dei XXV Giochi olimpici invernali e dei XIV Giochi paralimpici invernali "Milano-Cortina 2026" per il settore del turismo, il Ministero del turismo puo' avvalersi, fino al 30 giugno 2026, del personale della societa' ALES - Arte lavoro e servizi Spa, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+ 7-quater. Il <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegge/stato/2020-03-11/16/!main#art_3-com11" ns38:target="olf:it/decreto-legge/stato/2020/16/art_3-com11" ns38:relation="cites">comma 11 dell'articolo 3 del decreto-legge 11 marzo 2020, n. 16</ref>, convertito, con modificazioni, dalla <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/legge/stato/2020-05-08/31/!main" ns39:target="olf:it/legge/stato/2020/31" ns39:relation="cites">legge 8 maggio 2020, n. 31</ref>, e' sostituito dal seguente: 
+ "11. Per lo svolgimento delle sue funzioni e' attribuito alla Societa' un corrispettivo fino al limite massimo del 3 per cento dell'importo complessivo lordo dei lavori e delle forniture desunto dal quadro economico effettivo inserito nel sistema di monitoraggio di cui al comma 12. L'ammontare di tale corrispettivo e' incluso nella voce 'oneri di investimento' compresa nel quadro economico di ciascun progetto delle opere di cui al comma 2. Per lo svolgimento diretto da parte della Societa' delle attivita' previste nelle voci di spesa afferenti ai servizi di ingegneria e architettura del quadro economico degli interventi e' attribuito alla medesima Societa' un ulteriore corrispettivo, nel limite delle somme previste nei quadri economici destinate ai predetti servizi. Qualora tali servizi siano affidati a soggetti terzi, si applicano le procedure previste dal <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoLegislativo/stato/2006-04-12/163/!main" ns40:target="olf:it/decreto-legislativo/stato/2006/163" ns40:relation="cites">codice dei contratti pubblici</ref>, di cui al <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoLegislativo/stato/2023-03-31/36/!main" ns41:target="olf:it/decreto-legislativo/stato/2023/36" ns41:relation="cites">decreto legislativo 31 marzo 2023, n. 36</ref>". 
+ 7-quinquies. Per gli impianti a fune rientranti nel piano complessivo delle opere da realizzare in funzione delle olimpiadi invernali Milano Cortina 2026, di cui al decreto del Presidente del Consiglio dei ministri 8 settembre 2023, pubblicato nella Gazzetta Ufficiale n. 222 del 22 settembre 2023, il nulla osta ai fini della sicurezza, di cui all'<ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1980-07-11/753/!main#art_3-com2" ns42:target="olf:it/dpr/stato/1980/753/art_3-com2" ns42:relation="cites">articolo 3, secondo comma, del decreto del Presidente della Repubblica 11 luglio 1980, n. 753</ref>, e' rilasciato dall'Agenzia nazionale per la sicurezza delle ferrovie e delle infrastrutture stradali e autostradali. Le amministrazioni competenti provvedono alle attivita' di cui al presente comma nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri a carico della finanza pubblica»; 
+ al comma 8, le parole: «pari a euro 99.608.000 per l'anno 2025» sono sostituite dalle seguenti: «pari a euro 102.608.000 per l'anno 2025». 
+ All'articolo 5: 
+ al comma 2, le parole: «medesimi debiti» sono sostituite dalle seguenti: «debiti relativi alle medesime obbligazioni»; 
+ al comma 3: 
+ al primo periodo, le parole: «di cui all'articolo 243-ter del decreto legislativo» sono sostituite dalle seguenti: «per assicurare la stabilita' finanziaria degli enti locali, previsto dall'articolo 243-ter del testo unico delle leggi sull'ordinamento degli enti locali, di cui al decreto legislativo»; 
+ al secondo periodo, le parole: «del Ministero» sono sostituite dalle seguenti: «del Ministro», le parole: «pro-quota» sono sostituite dalle seguenti: «pro quota» e la parola: «operazione» e' sostituita dalla seguente: «operazioni»; 
+ al terzo periodo, le parole: «sul sito internet» sono sostituite dalle seguenti: «nel sito internet istituzionale»; 
+ al quarto periodo, le parole: «mancata restituzione delle rate» sono sostituite dalle seguenti: «mancato versamento delle rate»; 
+ al quinto periodo, le parole: «presente articolo» sono sostituite dalle seguenti: «presente comma» e le parole: «Gazzetta Ufficiale della Repubblica italiana 8 febbraio 2013, n. 33» sono sostituite dalle seguenti: «Gazzetta Ufficiale n. 33 dell'8 febbraio 2013»; 
+ al comma 4, dopo le parole: «commi 1 e 2» sono inserite le seguenti: «del presente articolo». 
+ All'articolo 6: 
+ al comma 1, capoverso 5-bis: 
+ al primo periodo, le parole: «viene riconosciuta» sono sostituite dalle seguenti: «e' assegnata», le parole: «Associazione Nazionale della Croce rossa italiana» sono sostituite dalle seguenti: «Associazione della Croce Rossa italiana» e le parole: «alla data dell'entrata in vigore della norma» sono sostituite dalle seguenti: «alla data di entrata in vigore della presente disposizione»; 
+ al secondo periodo, le parole: «Associazione Nazionale della Croce rossa italiana» sono sostituite dalle seguenti: «Associazione della Croce Rossa italiana» e le parole: «in essere» sono sostituite dalle seguenti: «in corso»; 
+ al terzo periodo, le parole: «Associazione della Croce rossa italiana» sono sostituite dalle seguenti: «Associazione italiana della Croce Rossa», le parole: «e dei Comitati» sono sostituite dalle seguenti: «e ai Comitati», la parola: «norma» e' sostituita dalla seguente: «disposizione» e dopo le parole: «nello stato passivo» nonche' dopo le parole: «e liquidati» e' inserito il seguente segno di interpunzione: «,»; 
+ al comma 2, le parole: «nella Gazzetta Ufficiale 13 giugno 2014, n. 135» sono sostituite dalle seguenti: «nella Gazzetta Ufficiale n. 135 del 13 giugno 2014»; 
+ al comma 3, le parole: «della presente norma» sono sostituite dalle seguenti: «del presente decreto» e le parole da: «dall'articolo 16, comma 2-bis» fino alla fine del comma sono sostituite dalle seguenti: «dall'<ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/decretoLegislativo/stato/2012-09-28/178/!main#art_4-com2bis" ns43:target="olf:it/decreto-legislativo/stato/2012/178/art_4-com2bis" ns43:relation="cites">articolo 4, comma 2-bis, del decreto legislativo 28 settembre 2012, n. 178</ref>». 
+ Dopo l'articolo 6 sono inseriti i seguenti: 
+ «Art. 6-bis (Disposizioni urgenti per la chiusura della gestione commissariale di Roma Capitale). - 1. Dopo il <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/legge/stato/2018-12-30/145/!main#art_1-com932ter" ns44:target="olf:it/legge/stato/2018/145/art_1-com932ter" ns44:relation="cites">comma 932-ter dell'articolo 1 della legge 30 dicembre 2018, n. 145</ref>, sono inseriti i seguenti: 
+ "932-quater. In relazione alla conclusione delle attivita' straordinarie della gestione commissariale, disposta con il decreto del Presidente del Consiglio dei ministri di approvazione dell'accertamento definitivo del debito pregresso del comune di Roma ai sensi del comma 932, e' autorizzata la spesa di 548,2 milioni di euro per l'anno 2025 in favore di Roma Capitale. Il fondo di solidarieta' comunale di cui all'<ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/legge/stato/2016-12-11/232/!main#art_1-com448" ns45:target="olf:it/legge/stato/2016/232/art_1-com448" ns45:relation="cites">articolo 1, comma 448, della legge 11 dicembre 2016, n. 232</ref>, e' incrementato complessivamente di 548,2 milioni di euro, di cui 10 milioni di euro per l'anno 2030, 30 milioni di euro per ciascuno degli anni dal 2031 al 2047 e 28,2 milioni di euro per l'anno 2048. Nel bilancio di Roma Capitale, le risorse di cui al primo periodo sono vincolate, in termini di competenza e di cassa, alle seguenti destinazioni: 
+ a) al rimborso del debito finanziario della gestione commissariale trasferito a Roma Capitale, per un importo pari a 48,2 milioni di euro; 
+ b) agli oneri derivanti dal contenzioso trasferito dalla gestione commissariale, previo accantonamento in un apposito fondo per il contenzioso, per un importo pari a 500 milioni di euro. 
+ 932-quinquies. Agli oneri derivanti dal comma 932-quater, pari a 548,2 milioni di euro per l'anno 2025, a 10 milioni di euro per l'anno 2030, a 30 milioni di euro per ciascuno degli anni dal 2031 al 2047 e a 28,2 milioni di euro per l'anno 2048, si provvede: 
+ a) quanto a 500 milioni di euro per l'anno 2025, mediante corrispondente riduzione del fondo di cui all'<ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/legge/stato/2023-12-30/213/!main#art_1-com519" ns46:target="olf:it/legge/stato/2023/213/art_1-com519" ns46:relation="cites">articolo 1, comma 519, della legge 30 dicembre 2023, n. 213</ref>; 
+ b) quanto a 48,2 milioni di euro per l'anno 2025, mediante corrispondente versamento all'entrata del bilancio dello Stato delle somme disponibili in conto residui nello stato di previsione del Ministero dell'economia e delle finanze ai sensi dell'<ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_27-com17" ns47:target="olf:it/decreto-legge/stato/2020/34/art_27-com17" ns47:relation="cites">articolo 27, comma 17, del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns48:target="olf:it/legge/stato/2020/77" ns48:relation="cites">legge 17 luglio 2020, n. 77</ref>; 
+ c) quanto a 10 milioni di euro per l'anno 2030, a 30 milioni di euro per ciascuno degli anni dal 2031 al 2047 e a 28,2 milioni di euro per l'anno 2048, mediante corrispondente riduzione del fondo di cui all'<ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/decretoLegge/stato/2010-05-31/78/!main#art_14-com14" ns49:target="olf:it/decreto-legge/stato/2010/78/art_14-com14" ns49:relation="cites">articolo 14, comma 14, del decreto-legge 31 maggio 2010, n. 78</ref>, convertito, con modificazioni, dalla <ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/legge/stato/2010-07-30/122/!main" ns50:target="olf:it/legge/stato/2010/122" ns50:relation="cites">legge 30 luglio 2010, n. 122</ref>". 
+ Art. 6-ter (Cooperazione di polizia in ambito migratorio). - 1.
+Per la realizzazione di un programma di interventi straordinari di cooperazione di polizia con i Paesi non appartenenti all'Unione europea d'importanza prioritaria per le rotte migratorie, stabilito dal Ministero dell'interno d'intesa con la Presidenza del Consiglio dei ministri e con il Ministero degli affari esteri e della cooperazione internazionale, e' autorizzata la spesa di 20 milioni di euro per l'anno 2025. 
+ 2. Agli oneri derivanti dal comma 1, pari a 20 milioni di euro per l'anno 2025, si provvede mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com995" ns51:target="olf:it/legge/stato/2020/178/art_1-com995" ns51:relation="cites">articolo 1, comma 995, della legge 30 dicembre 2020, n. 178</ref>». 
+ All'articolo 7: 
+ al comma 1: 
+ all'alinea, dopo le parole: «commi 1, 4 e 5» e' inserito il seguente segno di interpunzione: «,», le parole: «pari a euro 2.172.634.830 per l'anno 2025» sono sostituite dalle seguenti: «pari a euro 2.178.031.830 per l'anno 2025» e le parole: «ed euro» sono sostituite dalle seguenti: «e a euro»; 
+ alla lettera b), dopo le parole: «indebitamento netto» e' inserito il seguente segno di interpunzione: «,»; 
+ alla lettera c), le parole: «articolo 1-quater,» sono sostituite dalle seguenti: «articolo 1-quater»; 
+ alla lettera d), dopo le parole: «n. 388» e' inserito il seguente segno di interpunzione: «,»; 
+ alla lettera n), dopo le parole: «comma 5-bis» e' inserito il seguente segno di interpunzione: «,»; 
+ alla lettera o), le parole: «euro 723.708.000 per l'anno 2025» sono sostituite dalle seguenti: «euro 726.105.000 per l'anno 2025» e le parole: «come indicate» sono sostituite dalle seguenti: «nella misura indicata»; 
+ dopo la lettera o) e' aggiunta la seguente: 
+ «o-bis) quanto a 3 milioni di euro per l'anno 2025, mediante corrispondente versamento all'entrata del bilancio dello Stato da parte della Presidenza del Consiglio dei ministri a valere sulle risorse affluite nel suo bilancio autonomo per effetto dell'<ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/decretoLegislativo/stato/2021-02-28/36/!main#art_35-com8sexies" ns52:target="olf:it/decreto-legislativo/stato/2021/36/art_35-com8sexies" ns52:relation="cites">articolo 35, comma 8-sexies, del decreto legislativo 28 febbraio 2021, n. 36</ref>. Alla compensazione dei relativi effetti finanziari, in termini di fabbisogno e di indebitamento netto, pari a 3 milioni di euro per l'anno 2025, si provvede mediante corrispondente riduzione del Fondo per la compensazione degli effetti finanziari non previsti a legislazione vigente, anche conseguenti all'attualizzazione di contributi pluriennali, di cui all'<ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/legge/stato/2006-12-27/296/!main#art_1-com511" ns53:target="olf:it/legge/stato/2006/296/art_1-com511" ns53:relation="cites">articolo 1, comma 511, della legge 27 dicembre 2006, n. 296</ref>»; 
+ al comma 2: 
+ al primo periodo, le parole: «al comma 1» sono sostituite dalle seguenti: «dal comma 1 del presente articolo e dagli articoli 3, commi 4-bis, 4-quater e 4-quinquies, 3-ter, comma 5, 3-quater, comma 9, 4, comma 5-bis, 6-bis, comma 1, e 6-ter, comma 2» e le parole: «nuovi e maggiori» sono sostituite dalle seguenti: «nuovi o maggiori»; 
+ al secondo periodo, la parola: «provvedono» e' sostituita dalle seguenti: «vi provvedono» e dopo le parole: «risorse umane» e' inserito il seguente segno di interpunzione: «,». 
+ All'Allegato n. 1 sono premessi i seguenti: 
+ 
+ « Allegato n. 01 
+ (Articolo 3-quater, comma 1) 
+ 
+ Parte di provvedimento in formato grafico
+ 
+ Allegato n. 02 
+ (Articolo 3-quater, comma 1) 
+ 
+ Parte di provvedimento in formato grafico
+ 
+ Allegato n. 03 
+ (Articolo 3-quater, comma 4) 
+ 
+ Parte di provvedimento in formato grafico
+». 
+ 
+ All'Allegato n. 1: 
+ alla rubrica «Ministero dell'universita' e della ricerca», voce «2.1 Diritto allo studio e sviluppo della formazione superiore (1)», colonna «2025», e' inserita la seguente cifra: «2.397.000»; 
+ alla riga «Totale», la cifra: «723.708.000» e' sostituita dalla seguente: «726.105.000». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
