@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-11-19/165/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-11-19/165"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-11-19;165"/>
+                    <FRBRalias name="eli" value="eli/id/2021/11/20/21G00182/ORIGINAL"/>
+                    <FRBRdate date="2021-11-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/11/20/21G00182/ORIGINAL" aknrelname="eli/id/2021/11/20/21G00182/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 21 settembre 2021, n. 127, recante misure urgenti per assicurare lo svolgimento in sicurezza del lavoro pubblico e privato mediante l'estensione dell'ambito applicativo della certificazione verde COVID-19 e il rafforzamento del sistema di screening. (21G00182)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00182" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-11-19" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-11-19/165/ita@2021-11-21/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-11-19/165/ita@2021-11-21"/>
+                    <FRBRdate date="2021-11-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/11/20/21G00182/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/11/20/21G00182/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/11/20/21G00182/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-11-19/165/ita@2021-11-21/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-11-19/165/ita@2021-11-21.xml"/>
+                    <FRBRdate date="2021-11-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/11/20/21G00182/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-11-20" name="" number="277" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-11-20" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2021-11-19" refersTo="#S.2394"/>
+                <step by="#camera" date="2021-11-19" refersTo="#C.3363"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 settembre 2021, n. 127 (in G.U. 21/09/2021, n. 226).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 quinquies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 settembre 2021, n. 127 (in G.U. 21/09/2021, n. 226). </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 sexies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 settembre 2021, n. 127 (in G.U. 21/09/2021, n. 226). </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 septies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 settembre 2021, n. 127 (in G.U. 21/09/2021, n. 226).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 novies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 settembre 2021, n. 127 (in G.U. 21/09/2021, n. 226).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-05-25;73#34"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 settembre 2021, n. 127 (in G.U. 21/09/2021, n. 226).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-05-25;73#44"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 settembre 2021, n. 127 (in G.U. 21/09/2021, n. 226).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-07-23;105#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 21 settembre 2021, n. 127 (in G.U. 21/09/2021, n. 226).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#3 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#3 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#3 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 1 lettera b), 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#4 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 4-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la soppressione della lettera a) dell'art. 5, comma 1 e la modifica dell'art. 5, comma 1, lettere b) e d).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, comma 2 e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#8 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 8-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-11-19;165#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-21;127#10 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 10-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-11-19/165/!main" showAs=""/>
+                <passiveRef eId="S.2394" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2394" showAs=""/>
+                <passiveRef eId="C.3363" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3363" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/11/20/21G00182/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 21 settembre 2021, n. 127, recante misure urgenti per assicurare lo svolgimento in sicurezza del lavoro pubblico e privato mediante l'estensione dell'ambito applicativo della certificazione verde COVID-19 e il rafforzamento del sistema di screening. (21G00182)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00182</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-11-19</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/11/20/21G00182/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/11/20/21G00182/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/11/20/21G00182/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/11/20/21G00182/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/165" nativeUrn="urn:nir:stato:legge:2021-11-19;165" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-11-20"><ns0:event type="enacted" date="2021-11-19"/><ns0:event type="published" date="2021-11-20"/><ns0:event type="commenced" date="2021-11-20"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/dc97e0be-60f6-43a3-a0d9-4aeae9b21d14" sourceSha256="3ec787044d76b29d7228c82a74ba4a2abfe5ab6f6748aba9b9c07bdb46165727" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T21:12:13.157557Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-11-19">19 novembre 2021</docDate>
+                <docNumber>165</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 21 settembre 2021, n. 127, recante misure urgenti per assicurare lo svolgimento in sicurezza del lavoro pubblico e privato mediante l'estensione dell'ambito applicativo della certificazione verde COVID-19 e il rafforzamento del sistema di screening. (21G00182) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 21/11/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga La seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2021-09-21/127/!main" ns1:target="olf:it/decreto-legge/stato/2021/127" ns1:relation="amends">decreto-legge 21 settembre 2021, n. 127</ref>, recante misure urgenti per assicurare lo svolgimento in sicurezza del lavoro pubblico e privato mediante l'estensione dell'ambito applicativo della certificazione verde COVID-19 e il rafforzamento del sistema di screening, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2021-09-21/127/!main" ns2:target="olf:it/decreto-legge/stato/2021/127" ns2:relation="amends">decreto-legge 21 settembre 2021, n. 127</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 226 del 21 settembre 2021. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 11. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 19 novembre 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Speranza, Ministro della salute Brunetta, Ministro per la pubblica amministrazione Orlando, Ministro del lavoro e delle politiche sociali Giorgetti, Ministro dello sviluppo economico Cartabia, Ministro della giustizia Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-19/165/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-19/165"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-11-19;165"/>
+                                <FRBRalias name="eli" value="eli/id/2021/11/20/21G00182/ORIGINAL"/>
+                                <FRBRdate date="2021-11-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-19/165/ita@2021-11-21/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-19/165/ita@2021-11-21"/>
+                                <FRBRdate date="2021-11-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-19/165/ita@2021-11-21/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-19/165/ita@2021-11-21.xml"/>
+                                <FRBRdate date="2021-11-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ MODIFICAZIONI APPORTATE 
+ IN SEDE DI CONVERSIONE 
+ AL DECRETO-LEGGE 21 SETTEMBRE 2021, N. 127 
+ 
+ All'articolo 1: 
+ al comma 1, capoverso art. 9-quinquies: 
+ al comma 1, le parole: «Commissione nazionale per la societa' e la borsa» sono sostituite dalle seguenti: «Commissione nazionale per le societa' e la borsa»; 
+ al comma 3, le parole: «soggetti esenti dalla campagna vaccinale» sono sostituite dalle seguenti: «soggetti esentati dalla somministrazione del vaccino»; 
+ al comma 4, le parole: «verifica sul rispetto» sono sostituite dalle seguenti: «verifica del rispetto»; 
+ al comma 5: 
+ al primo periodo, le parole: «tali controlli» sono sostituite dalle seguenti: «i controlli»; 
+ dopo il primo periodo e' inserito il seguente: «I datori di lavoro forniscono idonea informativa ai lavoratori e alle rispettive rappresentanze circa la predisposizione delle nuove modalita' organizzative adottate per le verifiche di cui al comma 4»; 
+ al quarto periodo, dopo le parole: «Per le regioni» sono inserire le seguenti: «, le province autonome»; 
+ sono aggiunti, in fine, i seguenti periodi: «Al fine di semplificare e razionalizzare le verifiche di cui al presente comma, i lavoratori possono richiedere di consegnare al proprio datore di lavoro copia della propria certificazione verde COVID-19. I lavoratori che consegnano la predetta certificazione, per tutta la durata della relativa validita', sono esonerati dai controlli da parte dei rispettivi datori di lavoro»; 
+ al comma 7, le parole: «commi 1 e 2,» sono sostituite dalle seguenti: «commi 1 e 2»; 
+ al comma 8, le parole: «e' stabilita in euro da 600 a 1.500» sono sostituite dalle seguenti: «e' stabilita nel pagamento di una somma da euro 600 a euro 1.500»; 
+ al comma 13, le parole: «al comma 1,» sono sostituite dalle seguenti: «al comma 1». 
+ All'articolo 2: 
+ al comma 1, capoverso art. 9-sexies: 
+ al comma 1, la parola: «militari,» e' sostituita dalle seguenti: «militari nonche'»; 
+ al comma 2, le parole: «alla carenza» sono sostituite dalle seguenti: «al mancato possesso» e le parole: «e non sono dovuti» sono sostituite dalle seguenti: «. Per i giorni di assenza ingiustificata di cui al primo periodo non sono dovuti»; 
+ al comma 3, dopo le parole: «di cui al comma 1» sono inserite le seguenti: «del presente articolo»; 
+ al comma 4, le parole: «commi 1 e 6,» sono sostituite dalle seguenti: «commi 1 e 6», le parole: «commi 2 e 3,» sono sostituite dalle seguenti: «commi 2 e 3» e sono aggiunte, in fine, le seguenti parole: «e ai giudici popolari»; 
+ al comma 5: 
+ al primo periodo, le parole: «I responsabili» sono sostituite dalle seguenti: «Il responsabile» e le parole: «sono tenuti» sono sostituite dalle seguenti: «e' tenuto»; 
+ al secondo periodo, le parole: «comma 5,» sono sostituite dalle seguenti: «comma 5». 
+ All'articolo 3: 
+ al comma 1, capoverso art. 9-septies: 
+ al comma 2, dopo la parola: «formazione» sono inserite le seguenti: «, anche in qualita' di discenti,»; 
+ al comma 3, le parole: «soggetti esenti dalla campagna vaccinale» sono sostituite dalle seguenti: «soggetti esentati dalla somministrazione del vaccino»; 
+ al comma 4, le parole: «verifica sul rispetto» sono sostituite dalle seguenti: «verifica del rispetto» ed e' aggiunto, in fine, il seguente periodo: «Per i lavoratori in somministrazione la verifica del rispetto delle prescrizioni di cui al comma 1 compete all'utilizzatore; e' onere del somministratore informare i lavoratori circa la sussistenza delle predette prescrizioni»; 
+ al comma 5, le parole: «al comma 1, definiscono» sono sostituite dalle seguenti: «al comma 1 definiscono», le parole: «tali controlli» sono sostituite dalle seguenti: «i controlli» e sono aggiunti, in fine, i seguenti periodi: «Al fine di semplificare e razionalizzare le verifiche di cui al presente comma, i lavoratori possono richiedere di consegnare al proprio datore di lavoro copia della propria certificazione verde COVID-19. I lavoratori che consegnano la predetta certificazione, per tutta la durata della relativa validita', sono esonerati dai controlli da parte dei rispettivi datori di lavoro»; 
+ al comma 6, dopo le parole: «Per i giorni di assenza ingiustificata» sono inserite le seguenti: «di cui al primo periodo»; 
+ al comma 7, le parole: «, rinnovabili per una sola volta, e non oltre il» sono sostituite dalle seguenti: «lavorativi, rinnovabili fino al» e sono aggiunte, in fine, le seguenti parole: «, senza conseguenze disciplinari e con diritto alla conservazione del posto di lavoro per il lavoratore sospeso»; 
+ al comma 8, le parole: «commi 1 e 2,» sono sostituite dalle seguenti: «commi 1 e 2»; 
+ al comma 9, le parole: «e' stabilita in euro da 600 a 1.500» sono sostituite dalle seguenti: «e' stabilita nel pagamento di una somma da euro 600 a euro 1.500». 
+ Dopo l'articolo 3 sono inseriti i seguenti: 
+ «Art. 3-bis (Scadenza delle certificazioni verdi COVID-19 in corso di prestazione lavorativa). - 1. Dopo l'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_9octies" ns4:target="olf:it/decreto-legge/stato/2021/52/art_9octies" ns4:relation="amends">articolo 9-octies del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns5:target="olf:it/legge/stato/2021/87" ns5:relation="cites">legge 17 giugno 2021, n. 87</ref>, e' inserito il seguente: 
+ «Art. 9-novies (Scadenza delle certificazioni verdi COVID-19 in corso di prestazione lavorativa). - 1. Per i lavoratori dipendenti pubblici e privati la scadenza della validita' della certificazione verde COVID-19 in corso di prestazione lavorativa non da' luogo alle sanzioni previste, rispettivamente, dagli articoli 9-quinquies, commi 7 e 8, e 9-septies, commi 8 e 9. Nei casi di cui al precedente periodo la permanenza del lavoratore sul luogo di lavoro e' consentita esclusivamente per il tempo necessario a portare a termine il turno di lavoro». 
+ Art. 3-ter (Disposizioni urgenti sull'impiego di certificazioni verdi COVID-19 per gli operatori volontari del servizio civile universale). - 1. Agli operatori del servizio civile universale che prestano il proprio servizio presso enti pubblici e privati accreditati ai sensi dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2017-03-06/40/!main#art_16" ns6:target="olf:it/decreto-legislativo/stato/2017/40/art_16" ns6:relation="cites">articolo 16 del decreto legislativo 6 marzo 2017, n. 40</ref>, si applicano, secondo l'ambito di appartenenza, le disposizioni di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_9quinquies-com6" ns7:target="olf:it/decreto-legge/stato/2021/52/art_9quinquies-com6" ns7:relation="amends">articolo 9-quinquies, comma 6</ref>, e all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_9septies-com6" ns8:target="olf:it/decreto-legge/stato/2021/52/art_9septies-com6" ns8:relation="amends">articolo 9-septies, comma 6, del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns9:target="olf:it/legge/stato/2021/87" ns9:relation="cites">legge 17 giugno 2021, n. 87</ref>, come introdotti dal presente decreto. 
+ Art. 3-quater (Misure urgenti in materia di personale sanitario).
+- 1. Fino al termine dello stato di emergenza di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegge/stato/2021-07-23/105/!main#art_1" ns10:target="olf:it/decreto-legge/stato/2021/105/art_1" ns10:relation="amends">articolo 1 del decreto-legge 23 luglio 2021, n. 105</ref>, convertito, con modificazioni, dalla <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2021-09-16/126/!main" ns11:target="olf:it/legge/stato/2021/126" ns11:relation="cites">legge 16 settembre 2021, n. 126</ref>, agli operatori delle professioni sanitarie di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2006-02-01/43/!main#art_1" ns12:target="olf:it/legge/stato/2006/43/art_1" ns12:relation="cites">articolo 1 della legge 1° febbraio 2006, n. 43</ref>, appartenenti al personale del comparto sanita', al di fuori dell'orario di servizio e per un monte ore complessivo settimanale non superiore a quattro ore, non si applicano le incompatibilita' di cui all'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/1991-12-30/412/!main#art_4-com7" ns13:target="olf:it/legge/stato/1991/412/art_4-com7" ns13:relation="cites">articolo 4, comma 7, della legge 30 dicembre 1991, n. 412</ref>, e all'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_53" ns14:target="olf:it/decreto-legislativo/stato/2001/165/art_53" ns14:relation="cites">articolo 53 del decreto legislativo 30 marzo 2001, n. 165</ref>. 
+ 2. In ogni caso gli incarichi di cui al comma 1, per i quali non trovano applicazione gli <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/1992-12-30/502/!main#art_15quater" ns15:target="olf:it/decreto-legislativo/stato/1992/502/art_15quater" ns15:relation="cites">articoli 15-quater</ref> e <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/1992-12-30/502/!main#art_15quinquies" ns16:target="olf:it/decreto-legislativo/stato/1992/502/art_15quinquies" ns16:relation="cites">15-quinquies del decreto legislativo 30 dicembre 1992, n. 502</ref>, sono previamente autorizzati, al fine di garantire prioritariamente le esigenze organizzative del Servizio sanitario nazionale nonche' di verificare il rispetto della normativa sull'orario di lavoro, dal vertice dell'amministrazione di appartenenza, il quale attesta che la predetta autorizzazione non pregiudica l'obiettivo aziendale relativo allo smaltimento delle liste di attesa, nel rispetto della disciplina nazionale di recupero delle predette liste di attesa anche conseguenti all'emergenza pandemica». 
+ All'articolo 4: 
+ al comma 1, lettera b), capoverso 1-ter, le parole: «prezzo calmierato,» sono sostituite dalle seguenti: «prezzo calmierato» e le parole: «da tutte le strutture sanitarie convenzionate, autorizzate o accreditate con il Servizio sanitario nazionale» sono sostituite dalle seguenti: «da tutte le strutture sanitarie autorizzate e da quelle accreditate o convenzionate con il Servizio sanitario nazionale»; 
+ al comma 2: 
+ al capoverso 9-quater, le parole: «dell'articolo 3, comma 3, del predetto <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegge/stato/2021/105/!main" ns17:resolution="unresolved">decreto-legge n. 105 del 2021</ref>» sono sostituite dalle seguenti: «dell'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_9bis-com3" ns18:target="olf:it/decreto-legge/stato/2021/52/art_9bis-com3" ns18:relation="amends">articolo 9-bis, comma 3, del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns19:target="olf:it/legge/stato/2021/87" ns19:relation="cites">legge 17 giugno 2021, n. 87</ref>,» e le parole: «di contenimento» sono sostituite dalle seguenti: «occorrenti per il contenimento»; 
+ al capoverso 9-quinquies, le parole: «del ristoro del prezzo calmierato alle farmacie e alle strutture sanitarie di cui al comma 9-quater» sono sostituite dalle seguenti: «del ristoro per i mancati introiti derivanti alle farmacie e alle strutture sanitarie dall'applicazione del comma 9-quater»; 
+ al comma 3, le parole: «fondo di cui all'articolo 44, del decreto» sono sostituite dalle seguenti: «Fondo di cui all'articolo 44 del codice della protezione civile, di cui al decreto». 
+ Dopo l'articolo 4 e' inserito il seguente: 
+ «Art. 4-bis (Campagne di informazione e sensibilizzazione sulla vaccinazione anti-SARS-CoV-2 nei luoghi di lavoro). - 1. Al fine di garantire il piu' elevato livello di copertura vaccinale e al fine di proteggere, in modo specifico, i soggetti a rischio, fino alla data di cessazione dello stato di emergenza, i datori di lavoro pubblici e privati possono promuovere campagne di informazione e sensibilizzazione sulla necessita' e sull'importanza della vaccinazione anti-SARS-CoV-2. Le campagne di informazione sono dirette alla tutela della salute dei dipendenti e al contrasto e al contenimento della diffusione dell'infezione da SARS-CoV-2 negli ambienti di lavoro. 
+ 2. Le amministrazioni pubbliche provvedono alle attivita' previste dal presente articolo con le risorse umane, strumentali e finanziarie previste a legislazione vigente, senza nuovi o maggiori oneri per la finanza pubblica. 
+ 3. Per le finalita' di cui al presente articolo i datori di lavoro si avvalgono del medico competente nominato ai sensi dell'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegislativo/stato/2008-04-09/81/!main#art_18-com1-leta" ns20:target="olf:it/decreto-legislativo/stato/2008/81/art_18-com1-leta" ns20:relation="cites">articolo 18, comma 1, lettera a), del decreto legislativo 9 aprile 2008, n. 81</ref>». 
+ All'articolo 5: 
+ al comma 1: 
+ la lettera a) e' soppressa; 
+ alla lettera b), capoverso c-bis), dopo la parola: «guarigione» sono inserite le seguenti: «da COVID-19»; 
+ alla lettera d), capoverso 4-bis, le parole: «alla lettera c-bis)» sono sostituite dalle seguenti: «al comma 2, lettera c-bis)». 
+ All'articolo 6: 
+ al comma 1, le parole: «a Sport e Salute» sono sostituite dalle seguenti: «alla societa' Sport e Salute», le parole: «emergenza COVID-19» sono sostituite dalle seguenti: «emergenza da COVID-19,» e le parole: «al "Fondo per il rilancio del Sistema sportivo nazionale" di cui all'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_217" ns21:target="olf:it/decreto-legge/stato/2020/34/art_217" ns21:relation="cites">articolo 217 del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns22:target="olf:it/legge/stato/2020/77" ns22:relation="cites">legge 17 luglio 2020, n. 77</ref>» sono sostituite dalle seguenti: «al fondo di cui all'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com561" ns23:target="olf:it/legge/stato/2020/178/art_1-com561" ns23:relation="cites">articolo 1, comma 561, della legge 30 dicembre 2020, n. 178</ref>». 
+ All'articolo 7: 
+ al comma 2, le parole: «pari a 3 milioni di euro» sono sostituite dalle seguenti: «, pari a 3 milioni di euro»; 
+ la rubrica e' sostituita dalla seguente: «Servizio di assistenza tecnica per l'acquisizione delle certificazioni verdi COVID-19». 
+ All'articolo 8: 
+ al comma 1, le parole: «Comitato tecnico scientifico» sono sostituite dalle seguenti: «Comitato tecnico-scientifico». 
+ Dopo l'articolo 8 e' inserito il seguente: 
+ «Art. 8-bis (Disposizioni per lo svolgimento delle attivita' teatrali in ambito didattico per gli studenti). - 1. Per lo svolgimento delle attivita' teatrali in ambito didattico per gli studenti, comprese le rappresentazioni in orario curricolare, con riferimento all'impiego delle certificazioni verdi COVID-19, si applicano le disposizioni relative allo svolgimento delle attivita' didattiche». 
+ Dopo l'articolo 10 e' inserito il seguente: 
+ «Art. 10-bis (Clausola di salvaguardia). - 1. Le disposizioni del presente decreto si applicano nelle regioni a statuto speciale e nelle Province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti e le relative norme di attuazione». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
