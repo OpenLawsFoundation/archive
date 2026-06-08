@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-11-10/202/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-11-10/202"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-11-10;202"/>
+                    <FRBRalias name="eli" value="eli/id/2021/12/02/21G00204/CONSOLIDATED/20230211"/>
+                    <FRBRdate date="2021-11-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/02/21G00204/CONSOLIDATED/20230211" aknrelname="eli/id/2021/12/02/21G00204/CONSOLIDATED/20230211">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Ratifica ed esecuzione degli emendamenti allo Statuto istitutivo della Corte penale internazionale, ratificato ai sensi della legge 12 luglio 1999, n. 232, adottati a Kampala il 10 e l'11 giugno 2010. (21G00204)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00204" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-11-10" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03"/>
+                    <FRBRdate date="2021-12-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/02/21G00204/CONSOLIDATED/20230211/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/12/02/21G00204/CONSOLIDATED/20230211"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/12/02/21G00204/CONSOLIDATED/20230211/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03.xml"/>
+                    <FRBRdate date="2021-11-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/02/21G00204/CONSOLIDATED/20230211/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-12-02" name="" number="287" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-12-02" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2022-03-28" eId="eventRef_1" source="rp1"/>
+                <eventRef date="2023-02-11" eId="eventRef_2" source="rp2"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2021-11-10" refersTo="#S.667"/>
+                <step by="#camera" date="2021-11-10" refersTo="#C.2332"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-11-10/202/!main" showAs=""/>
+                <passiveRef eId="rp1" href="" showAs=""/>
+                <passiveRef eId="rp2" href="" showAs=""/>
+                <passiveRef eId="S.667" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;667" showAs=""/>
+                <passiveRef eId="C.2332" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;2332" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/12/02/21G00204/CONSOLIDATED/20230211">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Ratifica ed esecuzione degli emendamenti allo Statuto istitutivo della Corte penale internazionale, ratificato ai sensi della legge 12 luglio 1999, n. 232, adottati a Kampala il 10 e l'11 giugno 2010. (21G00204)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00204</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-11-10</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/12/02/21G00204/CONSOLIDATED/20230211/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/12/02/21G00204/CONSOLIDATED/20230211"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/12/02/21G00204/CONSOLIDATED/20230211/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/12/02/21G00204/CONSOLIDATED/20230211/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/202" nativeUrn="urn:nir:stato:legge:2021-11-10;202" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-12-02"><ns0:event type="enacted" date="2021-11-10"/><ns0:event type="published" date="2021-12-02"/><ns0:event type="commenced" date="2021-12-02"/><ns0:event type="amended" date="2022-03-28"/><ns0:event type="amended" date="2023-02-11"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/31708abc-194d-455b-9e99-8da438050b8b" sourceSha256="eeb9569c934ca2f8b719e8ccd23a1c91b9c2659054581634c14dff9282687901" adapter="normattiva-it@0.1.0" generatedAt="2026-06-08T20:58:22.079937Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-11-10">10 novembre 2021</docDate>
+                <docNumber>202</docNumber>
+                <docTitle>Ratifica ed esecuzione degli emendamenti allo Statuto istitutivo della Corte penale internazionale, ratificato ai sensi della legge 12 luglio 1999, n. 232, adottati a Kampala il 10 e l'11 giugno 2010. (21G00204) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 03/12/2021
+
+Vigenza internazionale degli emendamenti allo Statuto per l'Italia: 26 gennaio 2023
+
+</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Autorizzazione alla ratifica</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Presidente della Repubblica e' autorizzato a ratificare gli emendamenti allo Statuto istitutivo della Corte penale internazionale adottato a Roma il 17 luglio 1998 e ratificato ai sensi della <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/1999-07-12/232/!main" ns1:target="olf:it/legge/stato/1999/232" ns1:relation="cites">legge 12 luglio 1999, n. 232</ref>, adottati a Kampala il 10 e l'11 giugno 2010, di seguito denominati «emendamenti». 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Ordine di esecuzione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Piena ed intera esecuzione e' data agli emendamenti, a decorrere dalla data della loro entrata in vigore, in conformita' a quanto previsto dall'articolo 121 dello Statuto istitutivo della Corte penale internazionale. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 10 novembre 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Amendements">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-10/202/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-10/202"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-11-10;202"/>
+                                <FRBRalias name="eli" value="eli/id/2021/12/02/21G00204/CONSOLIDATED/20230211"/>
+                                <FRBRdate date="2021-12-03" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03"/>
+                                <FRBRdate date="2021-12-03" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03.xml"/>
+                                <FRBRdate date="2021-11-10" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Parte di provvedimento in formato grafico
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Emendamenti">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-10/202/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-10/202"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-11-10;202"/>
+                                <FRBRalias name="eli" value="eli/id/2021/12/02/21G00204/CONSOLIDATED/20230211"/>
+                                <FRBRdate date="2021-12-03" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03"/>
+                                <FRBRdate date="2021-12-03" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-11-10/202/ita@2021-12-03.xml"/>
+                                <FRBRdate date="2021-11-10" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> TRADUZIONE NON UFFICIALE 
+ 
+Emendamento all'articolo 8 
+ 
+I seguenti punti sono aggiunti al paragrafo 2 lettera e) dell'articolo 8: 
+ «xiii) utilizzare veleno o armi velenose; 
+ xiv) utilizzare gas asfissianti, gas tossici o gas simili nonche' tutti i liquidi, le materie o i procedimenti analoghi; 
+ xv) utilizzare proiettili che si espandono o si appiattiscono 
+ facilmente all'interno del corpo umano, quali i proiettili  con l'involucro duro che non ricopre interamente la parte centrale o quelli perforati ad intaglio». 
+ 
+Emendamenti allo Statuto di Roma della Corte penale internazionale relativi al crimine di aggressione 
+ 
+1. Il paragrafo 2 dell'articolo 5 e' cancellato. 
+ 
+2. Il testo che segue e' inserito dopo l'articolo 8: 
+ 
+Art. 8 bis Crimine di aggressione 
+1. Ai fini del presente Statuto, «per crimine di aggressione» s'intende la pianificazione, la preparazione, l'inizio o l'esecuzione, da parte di una persona in grado di esercitare effettivamente il controllo o di dirigere l'azione politica o militare di uno Stato, di un atto di aggressione che per carattere, gravita' e portata costituisce una manifesta violazione della Carta delle Nazioni Unite. 
+2. Ai fini del paragrafo 1, «per atto di aggressione» s'intende l'uso della forza armata da parte di uno Stato contro la sovranita', l'integrita' territoriale o l'indipendenza politica di un altro Stato, o in qualunque altro modo contrario alla Carta delle Nazioni Unite. Indipendentemente dall'esistenza di una dichiarazione di guerra, in conformita' alla risoluzione 3314 (XXIX) dell'Assemblea generale delle Nazioni Unite del 14 dicembre 1974, i seguenti atti sono atti di aggressione: 
+ a) l'invasione o l'attacco da parte di forze armate di uno Stato  del territorio di un altro Stato o qualunque occupazione 
+ militare, anche temporanea, che risulti da detta invasione o 
+ attacco o qualunque annessione, mediante l'uso della forza, del territorio di un altro Stato o di parte dello stesso; 
+ b) il bombardamento da parte delle forze armate di uno Stato 
+ contro il territorio di un altro Stato, o l'impiego di 
+ qualsiasi altra arma da parte di uno Stato contro il territorio di un altro Stato; 
+ c) il blocco dei porti o delle coste di uno Stato da parte delle forze armate di un altro Stato; 
+ d) l'attacco da parte delle forze armate di uno Stato contro le 
+ forze armate terrestri, navali o aeree di un altro Stato o contro la sua flotta mercantile o aerea; 
+ e) l'utilizzo delle forze armate di uno Stato, che si trovano nel  territorio di un altro Stato con l'accordo dello Stato 
+ ricevente, in violazione delle condizioni stabilite 
+ nell'accordo, o qualunque prolungamento della loro presenza in detto territorio dopo il termine dell'accordo; 
+ f) l'azione di uno Stato che permette che il suo territorio, che  ha messo a disposizione di un altro Stato, sia utilizzato da 
+ questo altro Stato per perpetrare un atto di aggressione contro un terzo Stato; 
+ g) l'invio da parte di uno Stato, o in suo nome, di bande, gruppi, 
+ forze irregolari o mercenari armati che compiano atti di forza  armata contro un altro Stato di tale gravita' che siano 
+ equiparabili agli atti sopra citati o la sua sostanziale partecipazione in detti atti. 
+ 
+3. Il testo che segue e' inserito dopo l'articolo 15: 
+ 
+Art. 15 bis Esercizio del potere giurisdizionale in relazione al crimine di aggressione 
+ (Segnalazione da parte di uno Stato, proprio motu) 
+1. La Corte puo' esercitare il proprio potere giurisdizionale sul crimine di aggressione conformemente ai paragrafi a) e c) dell'articolo 13, ferme restando le seguenti disposizioni. 
+2. La Corte puo' esercitare il proprio potere giurisdizionale esclusivamente sui crimini di aggressione commessi un anno dopo la ratifica o l'accettazione degli emendamenti da parte di 30 Stati parte. 
+3. La Corte esercita il proprio potere giurisdizionale sul crimine di aggressione conformemente al presente articolo, con riserva di una decisione che sara' adottata dopo il 1 ° gennaio 2017 dalla stessa maggioranza degli Stati parte richiesta per l'adozione di un emendamento allo Statuto. 
+4. La Corte puo', in conformita' all'articolo 12, esercitare il proprio potere giurisdizionale su un crimine di aggressione risultante da un atto di aggressione commesso da uno Stato parte, salvo il caso in cui tale Stato parte abbia in precedenza dichiarato di non accettare un simile potere giurisdizionale depositando un'apposita dichiarazione presso il Cancelliere. Il ritiro di tale dichiarazione puo' essere effettuato in qualsiasi momento e viene valutato dallo Stato parte entro una scadenza di tre anni. 
+5. Con riferimento a uno Stato non parte del presente Statuto, la Corte non esercita il proprio potere giurisdizionale su un crimine di aggressione quando quest'ultimo e' commesso da cittadini di tale Stato o sul suo territorio. 
+6. Se il Procuratore conclude che v'e' un ragionevole fondamento per avviare un'indagine su un crimine di aggressione, verifica in primo luogo se il Consiglio di sicurezza ha constatato l'esistenza di un atto di aggressione commesso dallo Stato in causa. Il Procuratore notifica al Segretario generale dell'Organizzazione delle Nazioni Unite la situazione portata dinanzi alla Corte, aggiungendo ogni informazione e documento utili. 
+7. Quando il Consiglio di sicurezza ha constatato un atto di aggressione, il Procuratore puo' avviare un'indagine su tale crimine. 
+8. Nel caso in cui una simile constatazione non venga effettuata entro sei mesi dalla data della notifica, il Procuratore puo' avviare un'indagine per crimine di aggressione, a condizione che la Sezione preliminare abbia autorizzato l'apertura di un'indagine per crimine di aggressione secondo la procedura fissata dall'articolo 15 e che il Consiglio di sicurezza non abbia deciso diversamente conformemente all'articolo 16. 
+9. La constatazione di un atto di aggressione da parte di un organo esterno alla Corte non pregiudica le constatazioni che la Corte effettua in virtu' del presente Statuto. 
+10. Il presente articolo non pregiudica le disposizioni relative all'esercizio del potere giurisdizionale in relazione agli altri crimini elencati all'articolo 5. 
+ 
+4. Il testo che segue e' inserito dopo l'articolo 15 bis dello Statuto: 
+ 
+Art. 15 ter Esercizio del potere giurisdizionale in relazione al crimine di aggressione 
+ (Segnalazione da parte del Consiglio di sicurezza) 
+1. La Corte puo' esercitare il proprio potere giurisdizionale sul crimine di aggressione conformemente al paragrafo b) dell'articolo 13, ferme restando le seguenti disposizioni. 
+2. La Corte puo' esercitare il proprio potere giurisdizionale esclusivamente sui crimini di aggressione commessi un anno dopo la ratifica o l'accettazione degli emendamenti da parte di 30 Stati parte. 
+3. La Corte esercita il proprio potere giurisdizionale sul crimine di aggressione conformemente al presente articolo, con riserva di una decisione che sara' adottata dopo il 1 ° gennaio 2017 dalla stessa maggioranza degli Stati parte richiesta per l'adozione di un emendamento allo Statuto. 
+4. La constatazione di un atto di aggressione da parte di un organo esterno alla Corte non pregiudica le constatazioni che la Corte effettua in virtu' del presente Statuto. 
+5. Il presente articolo non pregiudica le disposizioni relative all'esercizio del potere giurisdizionale in relazione agli altri crimini elencati all'articolo 5. 
+ 
+5. Il testo che segue e' inserito dopo il paragrafo 3 dell'articolo 25: 
+3 bis. Con riferimento al crimine di aggressione, le disposizioni del presente articolo trovano applicazione solo per le persone in grado di esercitare effettivamente il controllo o di dirigere l'azione politica o militare di uno Stato. 
+ 
+6. La prima frase del paragrafo 1 dell'articolo 9 e' sostituita dalla frase seguente: 
+1. Gli elementi dei crimini sono di ausilio per la Corte nell'interpretazione e nell'applicazione degli articoli 6, 7, 8 e 8 bis. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
