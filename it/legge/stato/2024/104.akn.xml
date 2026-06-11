@@ -1,0 +1,986 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-04/104/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-04/104"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-07-04;104"/>
+                    <FRBRalias name="eli" value="eli/id/2024/07/19/24G00120/ORIGINAL"/>
+                    <FRBRdate date="2024-07-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/19/24G00120/ORIGINAL" aknrelname="eli/id/2024/07/19/24G00120/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni in materia di politiche sociali e di enti del Terzo settore. (24G00120)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00120" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-07-04" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-04/104/ita@2024-08-03/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-04/104/ita@2024-08-03"/>
+                    <FRBRdate date="2024-08-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/19/24G00120/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/07/19/24G00120/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/07/19/24G00120/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-04/104/ita@2024-08-03/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-04/104/ita@2024-08-03.xml"/>
+                    <FRBRdate date="2024-07-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/19/24G00120/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-07-19" name="" number="168" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-07-19" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2024-07-04" refersTo="#C.1532"/>
+                <step by="#camera" date="2024-07-04" refersTo="#C.1532-ter"/>
+                <step by="#senato" date="2024-07-04" refersTo="#S.1097"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#1"/>
+                        <destination href="urn:nir:stato:legge:2020-12-30;178#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 801.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#2"/>
+                        <destination href="urn:nir:stato:legge:2001-03-28;149#39"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 2, lettera a)) la modifica dell'art. 39, comma 1; (con l'art. 2, comma 2, lettera b)) l'introduzione del comma 1-bis all'art. 39.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#2"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-09-15;147#21"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1) l'introduzione del comma 10-ter all'art. 21.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera a)) la modifica dell'art. 6, comma 1</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#11"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera b)) la modifica dell'art. 11, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#13"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera c)) la modifica dell'art. 13, commi 2, 3, 5 e l'introduzione del comma 2-bis all'art. 13.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#24"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera d)) la modifica dell'art. 24, comma 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#30"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera e)) la modifica dell'art. 30, comma 2, lettere a), b) e c).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#31"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera f)) la modifica dell'art. 31, comma 1, lettere a), b) e c).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#36"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera g)) la modifica dell'art. 36, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#41"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera h)) l'introduzione del comma 2-bis all'art. 41.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#47"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera i)) la modifica dell'art. 47, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#48"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera l)) la modifica dell'art. 48, commi 3 e 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#87"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera m)) la modifica dell'art. 87, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#89"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera n)) l'introduzione del comma 15-bis all'art. 89.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#4"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#101"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera o)) la modifica dell'art. 101, comma 8.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#5"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;112#16"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 1) la modifica dell'art. 16, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#6"/>
+                        <destination href="urn:nir:stato:legge:2016-06-06;106#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 6, comma 1) l'abrogazione dell'art. 10.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#7"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1990-10-31;346#Testo Unico delle disposizioni concernenti l'imposta sulle successioni e donazioni - Art. 36"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 7, comma 1) l'introduzione del comma 5-bis all'art. 36.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;104#8"/>
+                        <destination href="urn:nir:stato:regio.decreto:1942-03-16;262#CODICE CIVILE-art. 705"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 8, comma 1) l'introduzione di un comma dopo il seocndo all'art. 705.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/2020-12-30/178/ita@2024-08-03/!main/~art_1__para_801"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-09-15/147/ita@2024-08-03/!main/~art_21__para_10-ter"/>
+                        <new href="#modNov_2_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/legge/stato/2001-03-28/149/ita@2024-08-03/!main/~art_39__para_1"/>
+                        <new href="#modNov_3_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/legge/stato/2001-03-28/149/ita@2024-08-03/!main/~art_39__para_1"/>
+                        <old href="#modNov_4_old_3"/>
+                        <new href="#modNov_4_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/legge/stato/2001-03-28/149/ita@2024-08-03/!main/~art_39__para_1-bis"/>
+                        <new href="#modNov_5_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_6__para_1"/>
+                        <new href="#modNov_6_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_11__para_3"/>
+                        <new href="#modNov_7_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_13__para_2"/>
+                        <new href="#modNov_8_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_13__para_2"/>
+                        <old href="#modNov_9_old_4"/>
+                        <new href="#modNov_9_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_13__para_2-bis"/>
+                        <new href="#modNov_10_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_13__para_3"/>
+                        <new href="#modNov_11_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_13__para_5"/>
+                        <new href="#modNov_12_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="substitution">
+                        <source href="#modNov_13"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_24__para_4"/>
+                        <new href="#modNov_13_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="substitution">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_30__para_2__point_a"/>
+                        <old href="#modNov_14_old_12"/>
+                        <new href="#modNov_14_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="substitution">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_30__para_2__point_b"/>
+                        <old href="#modNov_15_old_13"/>
+                        <new href="#modNov_15_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="substitution">
+                        <source href="#modNov_16"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_30__para_2__point_c"/>
+                        <old href="#modNov_16_old_14"/>
+                        <new href="#modNov_16_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="substitution">
+                        <source href="#modNov_17"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_31__para_1__point_a"/>
+                        <old href="#modNov_17_old_9"/>
+                        <new href="#modNov_17_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="substitution">
+                        <source href="#modNov_18"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_31__para_1__point_b"/>
+                        <old href="#modNov_18_old_10"/>
+                        <new href="#modNov_18_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="substitution">
+                        <source href="#modNov_19"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_31__para_1__point_c"/>
+                        <old href="#modNov_19_old_11"/>
+                        <new href="#modNov_19_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="substitution">
+                        <source href="#modNov_20"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_36__para_1"/>
+                        <old href="#modNov_20_old_16"/>
+                        <new href="#modNov_20_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="#modNov_21"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_36__para_1"/>
+                        <new href="#modNov_21_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_41__para_2-bis"/>
+                        <new href="#modNov_22_new_17"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="insertion">
+                        <source href="#modNov_23"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_47__para_1"/>
+                        <new href="#modNov_23_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="substitution">
+                        <source href="#modNov_24"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_48__para_3"/>
+                        <old href="#modNov_24_old_19"/>
+                        <new href="#modNov_24_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="#modNov_25"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_48__para_4"/>
+                        <new href="#modNov_25_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="substitution">
+                        <source href="#modNov_26"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_87__para_3"/>
+                        <old href="#modNov_26_old_21"/>
+                        <new href="#modNov_26_new_21"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="insertion">
+                        <source href="#modNov_27"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_89__para_15-bis"/>
+                        <new href="#modNov_27_new_22"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="insertion">
+                        <source href="#modNov_28"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/117/ita@2024-08-03/!main/~art_101__para_8"/>
+                        <new href="#modNov_28_new_23"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="substitution">
+                        <source href="#modNov_29"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2017-07-03/112/ita@2024-08-03/!main/~art_16__para_1"/>
+                        <old href="#modNov_29_old_1"/>
+                        <new href="#modNov_29_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="repeal">
+                        <source href="#modNov_30"/>
+                        <destination href="/akn/it/act/legge/stato/2016-06-06/106/ita@2024-08-03/!main/~art_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="#modNov_31"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1990-10-31/346/ita@2024-08-03/!main/~art_36__para_5-bis"/>
+                        <new href="#modNov_31_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="insertion">
+                        <source href="#modNov_32"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1942-03-16/262/ita@2024-08-03/!main/~art_705"/>
+                        <new href="#modNov_32_new_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-07-04/104/!main" showAs=""/>
+                <passiveRef eId="C.1532" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1532" showAs=""/>
+                <passiveRef eId="C.1532-ter" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1532-ter" showAs=""/>
+                <passiveRef eId="S.1097" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1097" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/07/19/24G00120/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni in materia di politiche sociali e di enti del Terzo settore. (24G00120)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00120</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-07-04</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/07/19/24G00120/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/07/19/24G00120/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/07/19/24G00120/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/07/19/24G00120/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/104" nativeUrn="urn:nir:stato:legge:2024-07-04;104" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-07-19"><ns0:event type="enacted" date="2024-07-04"/><ns0:event type="published" date="2024-07-19"/><ns0:event type="commenced" date="2024-07-19"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/dd11a4bf-760d-4dd6-9d54-b4ac6723ebfc" sourceSha256="305fac2baf021c7e6228c1a425b7ec086b74321f21c2c91a9850877279dfa606" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:10:02.348744Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-07-04">04 luglio 2024</docDate>
+                <docNumber>104</docNumber>
+                <docTitle>Disposizioni in materia di politiche sociali e di enti del Terzo settore. (24G00120) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 03/08/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Estensione della deroga ai vincoli per le assunzioni 
+ di assistenti sociali alle forme associative comunali</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">All'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com801" ns1:target="olf:it/legge/stato/2020/178/art_1-com801" ns1:relation="amends">articolo 1, comma 801, della legge 30 dicembre 2020, n. 178</ref>, dopo le parole: «i comuni» sono inserite le seguenti: «<quotedText eId="modNov_1_new_1">e le loro forme associative, definite ai sensi dei capi IV e V del titolo II della parte I del testo unico delle leggi sull'ordinamento degli enti locali, di cui al <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/2000-08-18/267/!main" ns2:target="olf:it/decreto-legislativo/stato/2000/267" ns2:relation="cites">decreto legislativo 18 agosto 2000, n. 267</ref>,</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns3:target="olf:it/dpr/stato/1985/1092" ns3:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com801" ns4:target="olf:it/legge/stato/2020/178/art_1-com801" ns4:relation="amends">comma 801 dell'articolo 1 della legge 30 dicembre 2020, n. 178</ref>, recante: «Bilancio di previsione dello Stato per l'anno finanziario 2021 e bilancio pluriennale per il triennio 2021-2023», pubblicata nella Gazz. Uff. 30 dicembre 2020, n. 322, S.O., come modificato dalla presente legge: 
+ «801. Per le finalita' di cui al comma 797 e al comma 792, a valere sulle risorse di cui al comma 799 e al comma 792 e nel limite delle stesse nonche' dei vincoli assunzionali di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegge/stato/2019-04-30/34/!main#art_33" ns5:target="olf:it/decreto-legge/stato/2019/34/art_33" ns5:relation="cites">articolo 33 del decreto-legge 30 aprile 2019, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2019-06-28/58/!main" ns6:target="olf:it/legge/stato/2019/58" ns6:relation="cites">legge 28 giugno 2019, n. 58</ref>, i comuni e le loro forme associative, definite ai sensi dei capi IV e V del titolo II della parte I del testo unico delle leggi sull'ordinamento degli enti locali, di cui al <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2000-08-18/267/!main" ns7:target="olf:it/decreto-legislativo/stato/2000/267" ns7:relation="cites">decreto legislativo 18 agosto 2000, n. 267</ref>, possono effettuare assunzioni di assistenti sociali, con rapporto di lavoro a tempo indeterminato, fermo restando il rispetto degli obiettivi del pareggio di bilancio, in deroga ai vincoli di contenimento della spesa di personale di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2010-05-31/78/!main#art_9-com28" ns8:target="olf:it/decreto-legge/stato/2010/78/art_9-com28" ns8:relation="cites">articolo 9, comma 28, del decreto-legge 31 maggio 2010, n. 78</ref>, convertito, con modificazioni, dalla <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2010-07-30/122/!main#art_1-com557" ns9:target="olf:it/legge/stato/2010/122/art_1-com557" ns9:relation="cites">legge 30 luglio 2010, n. 122, e all'articolo 1, commi 557</ref> e <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2010-07-30/122/!main#art_1-com562" ns10:target="olf:it/legge/stato/2010/122/art_1-com562" ns10:relation="cites">562</ref>, della <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2006-12-27/296/!main" ns11:target="olf:it/legge/stato/2006/296" ns11:relation="cites">legge 27 dicembre 2006, n. 296</ref>, anche ai sensi dell'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegge/stato/2020-08-14/104/!main#art_57-com3septies" ns12:target="olf:it/decreto-legge/stato/2020/104/art_57-com3septies" ns12:relation="cites">articolo 57, comma 3-septies, del decreto-legge 14 agosto 2020, n. 104</ref>, convertito, con modificazioni, dalla <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2020-10-13/126/!main" ns13:target="olf:it/legge/stato/2020/126" ns13:relation="amends">legge 13 ottobre 2020, n. 126</ref>.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading>Tavolo nazionale di lavoro in materia di interventi di integrazione e inclusione sociale sui minori fuori famiglia, sui minori affidati e in carico ai servizi sociali territoriali e sui neomaggiorenni in prosieguo amministrativo</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_2">All'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/2017-09-15/147/!main#art_21" ns14:target="olf:it/decreto-legislativo/stato/2017/147/art_21" ns14:relation="amends">articolo 21 del decreto legislativo 15 settembre 2017, n. 147</ref>, dopo il comma 10-bis e' aggiunto il seguente: 
+ «<quotedText eId="modNov_2_new_1">10-ter. Nell'ambito della Rete, quale organismo di supporto al coordinamento del sistema degli interventi e dei servizi sociali, ferme restando le funzioni attribuite al Presidente del Consiglio dei ministri ovvero all'Autorita' politica delegata per la famiglia, ai sensi dell'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegge/stato/2018-07-12/86/!main#art_3-com1-letc" ns15:target="olf:it/decreto-legge/stato/2018/86/art_3-com1-letc" ns15:relation="cites">articolo 3, comma 1, lettera c), del decreto-legge 12 luglio 2018, n. 86</ref>, convertito, con modificazioni, dalla <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2018-08-09/97/!main" ns16:target="olf:it/legge/stato/2018/97" ns16:relation="cites">legge 9 agosto 2018, n. 97</ref>, nell'ambito delle attribuzioni del Ministero del lavoro e delle politiche sociali in materia di politiche per l'integrazione e l'inclusione sociale in favore dell'infanzia e dell'adolescenza di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/1999-07-30/300/!main#art_46-com1-leta" ns17:target="olf:it/decreto-legislativo/stato/1999/300/art_46-com1-leta" ns17:relation="cites">articolo 46, comma 1, lettera a), del decreto legislativo 30 luglio 1999, n. 300</ref>, e' altresi' istituito un apposito tavolo nazionale di lavoro con funzioni di supporto, di monitoraggio, di valutazione e di analisi degli interventi di integrazione e inclusione sociale sui minori fuori famiglia, sui minori affidati e in carico ai servizi sociali territoriali e sui neomaggiorenni in prosieguo amministrativo, nonche' per il rafforzamento del sistema informativo nazionale di rilevazione e raccolta dei dati sui minori affidati ai servizi sociali territoriali e sui neomaggiorenni in prosieguo amministrativo, anche attraverso la realizzazione di azioni coordinate, finalizzate alla messa a regime del sistema informativo sulla cura e la protezione dei bambini e delle loro famiglie, di cui all'articolo 1, comma 2, lettera m), del regolamento di cui al <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decreto/ministero.lavoro.politiche.sociali/2014-12-16/206/!main" ns18:target="olf:it/decreto/ministero-lavoro-politiche-sociali/2014/206" ns18:relation="cites">decreto del Ministro del lavoro e delle politiche sociali 16 dicembre 2014, n. 206</ref>. Il tavolo nazionale di lavoro, costituito con decreto del Ministro del lavoro e delle politiche sociali, e' composto dal Ministro del lavoro e delle politiche sociali o da un suo delegato, con funzioni di presidente, da un rappresentante del Ministero della giustizia, da un rappresentante del Ministero della salute, da un rappresentante del Ministero dell'interno, da un rappresentante dell'Autorita' garante per l'infanzia e l'adolescenza, da un rappresentante del Dipartimento per le politiche della famiglia della Presidenza del Consiglio dei ministri, da un componente designato dalla Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, da un componente designato dall'Associazione nazionale dei comuni italiani, da un componente designato dall'Istituto nazionale di statistica, da un componente designato dal Commissario straordinario del Governo per la gestione del fenomeno delle persone scomparse, da un rappresentante per il Consiglio nazionale dell'Ordine degli assistenti sociali, da un rappresentante per il Consiglio nazionale dell'Ordine degli psicologi, da un rappresentante per il Consiglio nazionale forense, da tre esperti di comprovata esperienza professionale in materia di tutela e di promozione dei diritti dell'infanzia, dell'adolescenza e della famiglia, da un rappresentante delle associazioni familiari maggiormente rappresentative a livello nazionale, da un rappresentante dei coordinamenti nazionali di associazioni che operano nel campo dell'accoglienza di minori in carico ai servizi sociali e da otto rappresentanti di organismi del Terzo settore impegnati in attivita' di tutela e di promozione dei diritti dell'infanzia, dell'adolescenza e della famiglia. Per ogni membro puo' essere nominato un supplente.
+Per la partecipazione al tavolo nazionale di lavoro non spettano compensi, gettoni di presenza, rimborsi di spese ne' altri emolumenti comunque denominati. Il presidente del tavolo nazionale di lavoro o un suo delegato, per i fini di cui all'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/1997-12-23/451/!main#art_1-com4bis" ns19:target="olf:it/legge/stato/1997/451/art_1-com4bis" ns19:relation="cites">articolo 1, comma 4-bis, della legge 23 dicembre 1997, n. 451</ref>, presenta annualmente alla Commissione parlamentare per l'infanzia e l'adolescenza una relazione sulle attivita' svolte dal tavolo stesso</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_2__para_2__intro_1">
+                            <p>All'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2001-03-28/149/!main#art_39" ns20:target="olf:it/legge/stato/2001/149/art_39" ns20:relation="amends">articolo 39 della legge 28 marzo 2001, n. 149</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_3">al comma 1, dopo le parole: «cadenza triennale,» sono inserite le seguenti: «<quotedText eId="modNov_3_new_2">il Presidente del Consiglio dei ministri ovvero l'Autorita' politica delegata per la famiglia,</quotedText>»</mod>
+                                    <mod eId="modNov_4">e le parole: «<quotedText eId="modNov_4_old_3">Ministro per la solidarieta' sociale</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_3">Ministro del lavoro e delle politiche sociali</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_5">dopo il comma 1 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_5_new_4">1-bis. La relazione di cui al comma 1 e' integrata da una relazione annuale specifica, da trasmettere al Parlamento, sulle attivita' connesse alle comunita' di tipo familiare che accolgono minori, che tenga conto dello stato di attuazione del sistema informativo nazionale di rilevazione e raccolta dei dati, con un approfondimento sulla consistenza complessiva dei casi di presa in carico da parte dei servizi sociali territoriali e sui neomaggiorenni in prosieguo amministrativo, delle principali caratteristiche organizzative, del profilo dei minori in carico, delle principali prestazioni erogate, dell'efficacia degli interventi nonche' delle azioni di monitoraggio, di valutazione e di analisi svolte dal tavolo nazionale di lavoro di cui all'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2017-09-15/147/!main#art_21-com10ter" ns21:target="olf:it/decreto-legislativo/stato/2017/147/art_21-com10ter" ns21:relation="amends">articolo 21, comma 10-ter, del decreto legislativo 15 settembre 2017, n. 147</ref>, anche in riferimento all'uniformita' territoriale nell'erogazione delle prestazioni sociali</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta l'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/2017-09-15/147/!main#art_21" ns22:target="olf:it/decreto-legislativo/stato/2017/147/art_21" ns22:relation="amends">articolo 21 del decreto legislativo 15 settembre 2017, n. 147</ref> recante: «Disposizioni per l'introduzione di una misura nazionale di contrasto alla poverta'», come modificato dalla presente legge: 
+ «Art. 21 (Rete della protezione e dell'inclusione sociale). - 1. Al fine di favorire una maggiore omogeneita' territoriale nell'erogazione delle prestazioni e di definire linee guida per gli interventi, e' istituita, presso il Ministero del lavoro e delle politiche sociali, la Rete della protezione e dell'inclusione sociale, di seguito denominata «Rete», quale organismo di coordinamento del sistema degli interventi e dei servizi sociali di cui alla <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2000/328/!main" ns23:resolution="unresolved">legge n. 328 del 2000</ref>. 
+ 2. La Rete e' presieduta dal Ministro del lavoro e delle politiche sociali e ne fanno parte, oltre a due rappresentanti della Presidenza del Consiglio dei ministri, di cui uno del Dipartimento per le politiche della famiglia, e ad un rappresentante del Ministero dell'economia e delle finanze, del Ministero dell'istruzione, dell'universita' e della ricerca, del Ministero della salute, del Ministero delle infrastrutture e dei trasporti: 
+ a) un componente per ciascuna delle giunte regionali e delle province autonome, designato dal Presidente; 
+ b) venti componenti designati dall'Associazione nazionale dei comuni d'Italia - ANCI, in rappresentanza dei comuni e degli ambiti territoriali. Fra i venti componenti, cinque sono individuati in rappresentanza dei comuni capoluogo delle citta' metropolitane di cui all'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2014-04-07/56/!main#art_1-com5" ns24:target="olf:it/legge/stato/2014/56/art_1-com5" ns24:relation="cites">articolo 1, comma 5, della legge 7 aprile 2014, n. 56</ref>, e cinque in rappresentanza di comuni il cui territorio sia coincidente con quello del relativo ambito territoriale. 
+ 3. Alle riunioni della Rete partecipa, in qualita' di invitato permanente, il Ministro delegato per la famiglia e le disabilita', ove nominato, nonche' un rappresentante dell'INPS e possono essere invitati altri membri del Governo, nonche' rappresentanti di amministrazioni statali, locali o di enti pubblici. 
+ 4. La Rete consulta le parti sociali e gli organismi rappresentativi del Terzo settore periodicamente e, comunque, almeno una volta l'anno nonche' in occasione dell'adozione dei Piani di cui al comma 6 e delle linee di indirizzo di cui al comma 8. Al fine di formulare analisi e proposte per la definizione dei medesimi Piani e delle linee di indirizzo, la Rete puo' costituire gruppi di lavoro con la partecipazione dei soggetti di cui al presente comma. 
+ 5. Nel rispetto delle modalita' organizzative regionali e di confronto con le autonomie locali, la Rete si articola in tavoli regionali e a livello di ambito territoriale.
+ Ciascuna regione e provincia autonoma definisce le modalita' di costituzione e funzionamento dei tavoli, nonche' la partecipazione e consultazione dei soggetti di cui al comma 4, avendo cura di evitare conflitti di interesse e ispirandosi a principi di partecipazione e condivisione delle scelte programmatiche e di indirizzo, nonche' del monitoraggio e della valutazione territoriale in materia di politiche sociali. Gli atti che disciplinano la costituzione e il funzionamento della Rete a livello territoriale sono comunicati al Ministero del lavoro e delle politiche sociali. 
+ 6. La Rete e' responsabile dell'elaborazione dei seguenti Piani: 
+ a) un Piano sociale nazionale, quale strumento programmatico per l'utilizzo delle risorse del Fondo nazionale per le politiche sociali, di cui all'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/2000/328/!main#art_20" ns25:resolution="unresolved">articolo 20 della legge n. 328 del 2000</ref>; 
+ b) un Piano per gli interventi e i servizi sociali di contrasto alla poverta', quale strumento programmatico per l'utilizzo delle risorse della quota del Fondo Poverta' di cui all'articolo 7, comma 2; 
+ c) un Piano per la non autosufficienza, quale strumento programmatico per l'utilizzo delle risorse del Fondo per le non autosufficienze, di cui all'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/legge/stato/2006-12-27/296/!main#art_1-com1264" ns26:target="olf:it/legge/stato/2006/296/art_1-com1264" ns26:relation="cites">articolo 1, comma 1264, della legge 27 dicembre 2006, n. 296</ref>. 
+ 7. I Piani di cui al comma 6, di natura triennale con eventuali aggiornamenti annuali, individuano lo sviluppo degli interventi a valere sulle risorse dei fondi cui si riferiscono nell'ottica di una progressione graduale, nei limiti delle risorse disponibili, nel raggiungimento di livelli essenziali delle prestazioni assistenziali da garantire su tutto il territorio nazionale. A tal fine, i Piani individuano le priorita' di finanziamento, l'articolazione delle risorse dei fondi tra le diverse linee di intervento, nonche' i flussi informativi e gli indicatori finalizzati a specificare le politiche finanziate e a determinare eventuali target quantitativi di riferimento. Su proposta della Rete, i Piani sono adottati nelle medesime modalita' con le quali i fondi cui si riferiscono sono ripartiti alle regioni. 
+ 8. La Rete elabora linee di indirizzo negli specifici campi d'intervento delle politiche afferenti al sistema degli interventi e dei servizi sociali. Le linee di indirizzo si affiancano ai Piani di cui al comma 6 e costituiscono strumenti operativi che orientano le pratiche dei servizi territoriali, a partire dalla condivisione delle esperienze, dei metodi e degli strumenti di lavoro, al fine di assicurare maggiore omogeneita' nell'erogazione delle prestazioni. Su proposta della Rete, le linee di indirizzo sono adottate con decreto del Ministro del lavoro e delle politiche sociali, sentite le altre amministrazioni per i profili di competenza e previa intesa in sede di Conferenza unificata. 
+ 9. Ferme restando le competenze della Conferenza unificata di cui all'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegislativo/stato/1997/281/!main#art_8" ns27:resolution="unresolved">articolo 8 del decreto legislativo n. 281 del 1997</ref>, la Rete puo' formulare proposte e pareri in merito ad atti che producono effetti sul sistema degli interventi e dei servizi sociali. La Rete esprime, in particolare, il proprio parere sul Piano nazionale per la lotta alla poverta', prima dell'iscrizione all'ordine del giorno per la prevista intesa. 
+ 10. Le riunioni della Rete sono convocate dal Ministro del lavoro e delle politiche sociali. Le modalita' di funzionamento sono stabilite con regolamento interno, approvato dalla maggioranza dei componenti. 
+ La segreteria tecnica della Rete e il coordinamento dei gruppi di lavoro di cui al comma 4 sono assicurate dalla Direzione generale per la lotta alla poverta' e per la programmazione sociale. Dalla costituzione della Rete e della sua articolazione in tavoli regionali e territoriali non devono derivare nuovi o maggiori oneri per la finanza pubblica. Per la partecipazione ai lavori della Rete, anche a livello regionale e territoriale, non spetta alcun compenso, indennita', gettone di presenza, rimborso spese o altro emolumento comunque denominato. 
+ 10-bis. Al fine di agevolare l'attuazione del Rdc e' costituita, nell'ambito della Rete, una cabina di regia come organismo di confronto permanente tra i diversi livelli di governo. La cabina di regia, presieduta dal Ministro del lavoro e delle politiche sociali, e' composta dai componenti della Rete di cui al comma 2, lettere a) e b), dai responsabili per le politiche del lavoro nell'ambito delle giunte regionali e delle province autonome, designati dai rispettivi presidenti, da un rappresentante dell'Agenzia nazionale per le politiche attive del lavoro (ANPAL) e da un rappresentante dell'INPS. 
+ La cabina di regia opera, anche mediante articolazioni in sede tecnica, secondo modalita' definite con decreto del Ministro del lavoro e delle politiche sociali e consulta periodicamente le parti sociali e gli enti del Terzo settore rappresentativi in materia di contrasto della poverta'. Ai componenti della cabina di regia non e' corrisposto alcun compenso, indennita' o rimborso di spese.
+ Le amministrazioni interessate provvedono all'attuazione del presente comma con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+ 10-ter. Nell'ambito della Rete, quale organismo di supporto al coordinamento del sistema degli interventi e dei servizi sociali, ferme restando le funzioni attribuite al Presidente del Consiglio dei ministri ovvero all'Autorita' politica delegata per la famiglia, ai sensi dell'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegge/stato/2018-07-12/86/!main#art_3-com1-letc" ns28:target="olf:it/decreto-legge/stato/2018/86/art_3-com1-letc" ns28:relation="cites">articolo 3, comma 1, lettera c), del decreto-legge 12 luglio 2018, n. 86</ref>, convertito, con modificazioni, dalla <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/2018-08-09/97/!main" ns29:target="olf:it/legge/stato/2018/97" ns29:relation="cites">legge 9 agosto 2018, n. 97</ref>, nell'ambito delle attribuzioni del Ministero del lavoro e delle politiche sociali in materia di politiche per l'integrazione e l'inclusione sociale in favore dell'infanzia e dell'adolescenza di cui all'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decretoLegislativo/stato/1999-07-30/300/!main#art_46-com1-leta" ns30:target="olf:it/decreto-legislativo/stato/1999/300/art_46-com1-leta" ns30:relation="cites">articolo 46, comma 1, lettera a), del decreto legislativo 30 luglio 1999, n. 300</ref>, e' altresi' istituito un apposito tavolo nazionale di lavoro con funzioni di supporto, di monitoraggio, di valutazione e di analisi degli interventi di integrazione e inclusione sociale sui minori fuori famiglia, sui minori affidati e in carico ai servizi sociali territoriali e sui neomaggiorenni in prosieguo amministrativo, nonche' per il rafforzamento del sistema informativo nazionale di rilevazione e raccolta dei dati sui minori affidati ai servizi sociali territoriali e sui neomaggiorenni in prosieguo amministrativo, anche attraverso la realizzazione di azioni coordinate, finalizzate alla messa a regime del sistema informativo sulla cura e la protezione dei bambini e delle loro famiglie, di cui all'articolo 1, comma 2, lettera m), del regolamento di cui al <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decreto/ministero.lavoro.politiche.sociali/2014-12-16/206/!main" ns31:target="olf:it/decreto/ministero-lavoro-politiche-sociali/2014/206" ns31:relation="cites">decreto del Ministro del lavoro e delle politiche sociali 16 dicembre 2014, n. 206</ref>. Il tavolo nazionale di lavoro, costituito con decreto del Ministro del lavoro e delle politiche sociali, e' composto dal Ministro del lavoro e delle politiche sociali o da un suo delegato, con funzioni di presidente, da un rappresentante del Ministero della giustizia, da un rappresentante del Ministero della salute, da un rappresentante del Ministero dell'interno, da un rappresentante dell'Autorita' garante per l'infanzia e l'adolescenza, da un rappresentante del Dipartimento per le politiche della famiglia della Presidenza del Consiglio dei ministri, da un componente designato dalla Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, da un componente designato dall'Associazione nazionale dei comuni italiani, da un componente designato dall'Istituto nazionale di statistica, da un componente designato dal Commissario straordinario del Governo per la gestione del fenomeno delle persone scomparse, da un rappresentante per il Consiglio nazionale dell'Ordine degli assistenti sociali, da un rappresentante per il Consiglio nazionale dell'Ordine degli psicologi, da un rappresentante per il Consiglio nazionale forense, da tre esperti di comprovata esperienza professionale in materia di tutela e di promozione dei diritti dell'infanzia, dell'adolescenza e della famiglia, da un rappresentante delle associazioni familiari maggiormente rappresentative a livello nazionale, da un rappresentante dei coordinamenti nazionali di associazioni che operano nel campo dell'accoglienza di minori in carico ai servizi sociali e da otto rappresentanti di organismi del Terzo settore impegnati in attivita' di tutela e di promozione dei diritti dell'infanzia, dell'adolescenza e della famiglia. Per ogni membro puo' essere nominato un supplente. Per la partecipazione al tavolo nazionale di lavoro non spettano compensi, gettoni di presenza, rimborsi di spese ne' altri emolumenti comunque denominati. Il presidente del tavolo nazionale di lavoro o un suo delegato, per i fini di cui all'<ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/legge/stato/1997-12-23/451/!main#art_1-com4bis" ns32:target="olf:it/legge/stato/1997/451/art_1-com4bis" ns32:relation="cites">articolo 1, comma 4-bis, della legge 23 dicembre 1997, n. 451</ref>, presenta annualmente alla Commissione parlamentare per l'infanzia e l'adolescenza una relazione sulle attivita' svolte dal tavolo stesso.». 
+ - Si riporta l'<ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2001-03-28/149/!main#art_39" ns33:target="olf:it/legge/stato/2001/149/art_39" ns33:relation="amends">art. 39 della legge 28 marzo 2001, n. 149</ref> (Modifiche alla <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/1983-05-04/184/!main" ns34:target="olf:it/legge/stato/1983/184" ns34:relation="cites">legge 4 maggio 1983, n. 184</ref>, recante «Disciplina dell'adozione e dell'affidamento dei minori»), come modificato dalla presente legge: 
+ «Art. 39 - Titolo VI (Norme finali, penali e transitorie). - 1. Dopo i primi due anni dalla data di entrata in vigore della presente legge e successivamente con cadenza triennale, il Presidente del Consiglio dei ministri ovvero l'Autorita' politica delegata per la famiglia, il Ministro della giustizia e il Ministro del lavoro e delle politiche sociali, di concerto con la Conferenza unificata di cui all'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns35:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns35:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>, nell'ambito delle rispettive competenze, trasmettono al Parlamento una relazione sullo stato di attuazione della presente legge, al fine di verificarne la funzionalita' in relazione alle finalita' perseguite e la rispondenza all'interesse del minore, in particolare per quanto attiene all'applicazione delle disposizioni di cui all'<ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/legge/stato/1983-05-04/184/!main#art_6-com3" ns36:target="olf:it/legge/stato/1983/184/art_6-com3" ns36:relation="cites">articolo 6, commi 3</ref> e <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/1983-05-04/184/!main#art_6-com5" ns37:target="olf:it/legge/stato/1983/184/art_6-com5" ns37:relation="cites">5, della legge 4 maggio 1983, n. 184</ref>, come sostituito dall'articolo 6 della presente legge. 
+ 1-bis. La relazione di cui al comma 1 e' integrata da una relazione annuale specifica, da trasmettere al Parlamento, sulle attivita' connesse alle comunita' di tipo familiare che accolgono minori, che tenga conto dello stato di attuazione del sistema informativo nazionale di rilevazione e raccolta dei dati, con un approfondimento sulla consistenza complessiva dei casi di presa in carico da parte dei servizi sociali territoriali e sui neomaggiorenni in prosieguo amministrativo, delle principali caratteristiche organizzative, del profilo dei minori in carico, delle principali prestazioni erogate, dell'efficacia degli interventi nonche' delle azioni di monitoraggio, di valutazione e di analisi svolte dal tavolo nazionale di lavoro di cui all'<ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegislativo/stato/2017-09-15/147/!main#art_21-com10ter" ns38:target="olf:it/decreto-legislativo/stato/2017/147/art_21-com10ter" ns38:relation="amends">articolo 21, comma 10-ter, del decreto legislativo 15 settembre 2017, n. 147</ref>, anche in riferimento all'uniformita' territoriale nell'erogazione delle prestazioni sociali.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Giornata nazionale 
+ dell'ascolto dei minori</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Repubblica riconosce il 9 aprile di ogni anno quale Giornata nazionale dell'ascolto dei minori, al fine di informare e di sensibilizzare sul tema dell'ascolto della persona minore di eta' quale presupposto fondamentale per dare concreta attuazione ai suoi diritti. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Ai fini della celebrazione della Giornata di cui al comma 1, le istituzioni pubbliche, nei rispettivi ambiti di competenza, possono promuovere iniziative nelle scuole di ogni ordine e grado, anche in coordinamento con associazioni e con organismi impegnati nella tutela dei diritti dei minori, e possono realizzare campagne pubblicitarie nazionali a carattere sociale avvalendosi dei media tradizionali e digitali. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La Giornata di cui al comma 1 non determina gli effetti civili di cui alla <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/legge/stato/1949-05-27/260/!main" ns39:target="olf:it/legge/stato/1949/260" ns39:relation="cites">legge 27 maggio 1949, n. 260</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni competenti provvedono ai relativi adempimenti nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'<ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/legge/stato/1949-05-27/260/!main#art_3" ns40:target="olf:it/legge/stato/1949/260/art_3" ns40:relation="cites">art. 3: 
+ - La legge 27 maggio 1949, n. 260</ref> recante: «Disposizioni in materia di ricorrenze festive», e' pubblicata nella Gazz. Uff. 31 maggio 1949, n. 124. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Modifiche al codice del Terzo settore, 
+ di cui al decreto legislativo 3 luglio 2017, n. 117</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_4__para_1__intro_1">
+                            <p>Al codice del Terzo settore, di cui al <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns41:target="olf:it/decreto-legislativo/stato/2017/117" ns41:relation="amends">decreto legislativo 3 luglio 2017, n. 117</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_4__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_6">all'articolo 6, comma 1, e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_6_new_1">Per gli enti del Terzo settore iscritti anche nel Registro nazionale delle attivita' sportive dilettantistiche, di cui all'articolo 2, comma 1, lettera gg), del <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/decretoLegislativo/stato/2021-02-28/36/!main" ns42:target="olf:it/decreto-legislativo/stato/2021/36" ns42:relation="cites">decreto legislativo 28 febbraio 2021, n. 36</ref>, e' fatta salva l'applicazione dell'articolo 9, comma 1-bis, del medesimo <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/decretoLegislativo/stato/2021/36/!main" ns43:resolution="unresolved">decreto legislativo n. 36 del 2021</ref>, a condizione che i proventi ivi indicati siano impiegati in attivita' di interesse generale afferenti allo svolgimento di attivita' sportive dilettantistiche, come definite dall'articolo 7, comma 1, lettera b), del citato <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/decretoLegislativo/stato/2021/36/!main#art_5-com1" ns44:resolution="unresolved">decreto legislativo n. 36 del 2021 e dall'articolo 5, comma 1</ref>, del <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/decretoLegislativo/stato/2021-02-28/39/!main" ns45:target="olf:it/decreto-legislativo/stato/2021/39" ns45:relation="cites">decreto legislativo 28 febbraio 2021, n. 39</ref>
+                                        </quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_7">all'articolo 11, comma 3, sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_7_new_2">e, per quelle costituite in forma di associazione o fondazione, e' efficace anche ai fini dell'acquisto della personalita' giuridica ai sensi dell'articolo 22 del presente codice.
+I controlli e i poteri di cui agli <ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_25" ns46:target="olf:it/codice-civile/stato/1942/262/art_25" ns46:relation="cites">articoli 25</ref>, <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_26" ns47:target="olf:it/codice-civile/stato/1942/262/art_26" ns47:relation="cites">26</ref> e <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_28" ns48:target="olf:it/codice-civile/stato/1942/262/art_28" ns48:relation="cites">28 del codice civile</ref> sono esercitati, nei confronti delle fondazioni di cui al primo periodo, dagli uffici del registro delle imprese di cui all'<ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/legge/stato/1993-12-29/580/!main#art_8" ns49:target="olf:it/legge/stato/1993/580/art_8" ns49:relation="cites">articolo 8 della legge 29 dicembre 1993, n. 580</ref>
+                                        </quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>all'articolo 13: 
+ 1) <mod eId="modNov_8">al comma 2, dopo le parole: «enti del Terzo settore» sono inserite le seguenti: «<quotedText eId="modNov_8_new_3">privi di personalita' giuridica</quotedText>»</mod>
+                                    <mod eId="modNov_9">e le parole: «<quotedText eId="modNov_9_old_4">inferiori a 220.000,00</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_9_new_4">non superiori a 300.000</quotedText>»;</mod> 
+ 2) <mod eId="modNov_10">dopo il comma 2 e' inserito il seguente: 
+ «<quotedText eId="modNov_10_new_5">2-bis. Per tutti gli enti del Terzo settore, in caso di ricavi, rendite, proventi o entrate comunque denominate non superiori a 60.000 euro, il rendiconto per cassa puo' indicare le entrate e le uscite in forma aggregata</quotedText>»;</mod> 
+ 3) <mod eId="modNov_11">il comma 3 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_11_new_6">3. Il bilancio di cui ai commi 1, 2 e 2-bis deve essere redatto in conformita' ai modelli definiti con decreto del Ministro del lavoro e delle politiche sociali, sentito il Consiglio nazionale del Terzo settore e, limitatamente al bilancio di cui al comma 2-bis, di concerto con il Ministro dell'economia e delle finanze e con il Ministro della giustizia</quotedText>»;</mod> 
+ 4) <mod eId="modNov_12">al comma 5 e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_12_new_7">Tali enti, se non rivestono la qualifica di imprese sociali, possono redigere il bilancio di esercizio ai sensi del comma 1, secondo i modelli di cui al comma 3</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_13">all'articolo 24, il comma 4 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_13_new_8">4. Salvo che l'atto costitutivo o lo statuto non lo vietino espressamente, gli associati possono intervenire all'assemblea mediante mezzi di telecomunicazione ed esprimere il voto per via elettronica, purche' sia possibile verificare l'identita' dell'associato che partecipa e vota e nel rispetto dei principi di buona fede e di parita' di trattamento. L'atto costitutivo o lo statuto possono prevedere, alle medesime condizioni, l'espressione del voto per corrispondenza</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>all'articolo 30, comma 2: 
+ 1) <mod eId="modNov_14">alla lettera a), le parole: «<quotedText eId="modNov_14_old_12">110.000,00 euro</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_14_new_12">150.000 euro</quotedText>»;</mod> 
+ 2) <mod eId="modNov_15">alla lettera b), le parole: «<quotedText eId="modNov_15_old_13">220.000,00 euro</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_15_new_13">300.000 euro</quotedText>»;</mod> 
+ 3) <mod eId="modNov_16">alla lettera c), le parole: «<quotedText eId="modNov_16_old_14">5 unita'</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_16_new_14">7 unita'</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>all'articolo 31, comma 1: 
+ 1) <mod eId="modNov_17">alla lettera a), le parole: «<quotedText eId="modNov_17_old_9">1.100.000,00 euro</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_17_new_9">1.500.000 euro</quotedText>»;</mod> 
+ 2) <mod eId="modNov_18">alla lettera b), le parole: «<quotedText eId="modNov_18_old_10">2.200.000,00 euro</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_18_new_10">3 milioni di euro</quotedText>»;</mod> 
+ 3) <mod eId="modNov_19">alla lettera c), le parole: «<quotedText eId="modNov_19_old_11">12 unita'</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_19_new_11">20 unita'</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_20">all'articolo 36, comma 1, secondo periodo, la parola: «<quotedText eId="modNov_20_old_16">cinque</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_20_new_16">venti</quotedText>»</mod>
+                                    <mod eId="modNov_21">e sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_21_new_15">, fermo restando il rispetto di quanto disposto dall'articolo 35, comma 1, relativamente alla prevalenza dell'attivita' di volontariato degli associati o delle persone aderenti agli enti associati</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_h">
+                            <num>h)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_22">all'articolo 41, dopo il comma 2 e' inserito il seguente: 
+ «<quotedText eId="modNov_22_new_17">2-bis. Se, successivamente all'iscrizione nel Registro unico nazionale del Terzo settore, il numero degli associati di una rete associativa diviene inferiore a quello stabilito nei commi 1 e 2 o, con riferimento alle reti di cui al comma 6, a quello stabilito nell'articolo 33, comma 3, del codice della protezione civile, di cui al <ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/decretoLegislativo/stato/2018-01-02/1/!main" ns50:target="olf:it/decreto-legislativo/stato/2018/1" ns50:relation="cites">decreto legislativo 2 gennaio 2018, n. 1</ref>, esso deve essere reintegrato entro un anno, trascorso il quale la rete associativa e' cancellata dalla sezione del registro di cui all'articolo 46, comma 1, lettera e), del presente codice</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_i">
+                            <num>i)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_23">all'articolo 47, comma 1, primo periodo, dopo le parole: «eventualmente aderisca» sono inserite le seguenti: «<quotedText eId="modNov_23_new_18">, o da un suo delegato,</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_l">
+                            <num>l)</num>
+                            <content>
+                                <p>all'articolo 48: 
+ 1) <mod eId="modNov_24">al comma 3, le parole: «<quotedText eId="modNov_24_old_19">entro il 30 giugno di ogni anno</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_24_new_19">ogni anno presso il Registro unico nazionale del Terzo settore entro centottanta giorni dalla chiusura dell'esercizio e, per gli enti di cui all'articolo 13, comma 4, presso il registro delle imprese entro sessanta giorni dall'approvazione</quotedText>»;</mod> 
+ 2) <mod eId="modNov_25">al comma 4, dopo le parole: «assegnando un termine» sono inserite le seguenti: «<quotedText eId="modNov_25_new_20">non inferiore a trenta giorni e</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_m">
+                            <num>m)</num>
+                            <content>
+                                <p>all'articolo 87, comma 3: 
+ 1) <mod eId="modNov_26">le parole: «<quotedText eId="modNov_26_old_21">all'importo stabilito dall'articolo 13, comma 2</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_26_new_21">agli importi stabiliti, rispettivamente, dai commi 2 e 2-bis dell'articolo 13</quotedText>»;</mod> 
+ 2) le parole: «il rendiconto di cassa di cui all'articolo 13, comma 2» sono sostituite dalle seguenti: «il rendiconto per cassa di cui, rispettivamente, ai commi 2 e 2-bis dell'articolo 13»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_n">
+                            <num>n)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_27">all'articolo 89, dopo il comma 15 e' inserito il seguente: 
+ «<quotedText eId="modNov_27_new_22">15-bis. Le associazioni iscritte nell'albo istituito ai sensi dell'<ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/90/!main#art_937-com1" ns51:target="olf:it/dpr/stato/2010/90/art_937-com1" ns51:relation="cites">articolo 937, comma 1, del testo unico delle disposizioni regolamentari in materia di ordinamento militare</ref>, di cui al <ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/90/!main" ns52:target="olf:it/dpr/stato/2010/90" ns52:relation="cites">decreto del Presidente della Repubblica 15 marzo 2010, n. 90</ref>, che svolgono in via principale una o piu' attivita' di interesse generale di cui all'articolo 5 del presente codice possono essere iscritte nel Registro unico nazionale del Terzo settore, nel rispetto della specificita' della composizione della loro base associativa e delle finalita' di cui al medesimo articolo 937. Il requisito della strumentalita' di cui all'articolo 6 del presente codice sussiste qualora le attivita' diverse siano esercitate per la realizzazione delle specifiche finalita' delle associazioni medesime. Agli oneri derivanti dall'attuazione del presente comma, valutati in 6,75 milioni di euro per l'anno 2025 e in 3,95 milioni di euro annui a decorrere dall'anno 2026, si provvede mediante corrispondente riduzione delle proiezioni dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della difesa</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_o">
+                            <num>o)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_28">all'articolo 101, comma 8, dopo il primo periodo sono inseriti i seguenti: «<quotedText eId="modNov_28_new_23">La disposizione di cui al primo periodo si applica anche in caso di perdita della qualifica di ONLUS da parte dei trust dotati di tale qualifica nonche' alle ONLUS che, a causa della direzione e del coordinamento o del controllo da parte dei soggetti di cui all'articolo 4, comma 2, non possano assumere la qualifica di ente del Terzo settore ai sensi del medesimo articolo 4, a condizione che gli statuti delle ONLUS medesime prevedano espressamente lo svolgimento, con modalita' non commerciali, di attivita' di interesse generale di cui all'articolo 5, senza finalita' di lucro, e che i beni siano destinati stabilmente allo svolgimento delle suddette attivita'. In caso di scioglimento per qualunque causa, ovvero di soppressione o modifica delle clausole statutarie riguardanti lo svolgimento di attivita' di interesse generale, l'assenza della finalita' di lucro e la stabile destinazione dei beni, le ONLUS di cui al precedente periodo devolvono il patrimonio ad altro ente con finalita' analoghe, sentito il Ministero del lavoro e delle politiche sociali ai sensi dell'articolo 148, comma 8, del testo unico delle imposte sui redditi, di cui al <ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns53:target="olf:it/dpr/stato/1986/917" ns53:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>
+                                        </quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Si riporta il testo degli <ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_6" ns54:target="olf:it/decreto-legislativo/stato/2017/117/art_6" ns54:relation="amends">artt. 6</ref>, <ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_11" ns55:target="olf:it/decreto-legislativo/stato/2017/117/art_11" ns55:relation="amends">11</ref>, <ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_13" ns56:target="olf:it/decreto-legislativo/stato/2017/117/art_13" ns56:relation="amends">13</ref>, <ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_24" ns57:target="olf:it/decreto-legislativo/stato/2017/117/art_24" ns57:relation="amends">24</ref>, <ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_30" ns58:target="olf:it/decreto-legislativo/stato/2017/117/art_30" ns58:relation="amends">30</ref>, <ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_31" ns59:target="olf:it/decreto-legislativo/stato/2017/117/art_31" ns59:relation="amends">31</ref>, <ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_36" ns60:target="olf:it/decreto-legislativo/stato/2017/117/art_36" ns60:relation="amends">36</ref>, <ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_41" ns61:target="olf:it/decreto-legislativo/stato/2017/117/art_41" ns61:relation="amends">41</ref>, <ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_47" ns62:target="olf:it/decreto-legislativo/stato/2017/117/art_47" ns62:relation="amends">47</ref>, <ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_48" ns63:target="olf:it/decreto-legislativo/stato/2017/117/art_48" ns63:relation="amends">48</ref>, <ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_87" ns64:target="olf:it/decreto-legislativo/stato/2017/117/art_87" ns64:relation="amends">87</ref> e <ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_89" ns65:target="olf:it/decreto-legislativo/stato/2017/117/art_89" ns65:relation="amends">89 del decreto legislativo 3 luglio 2017, n. 117</ref> (Codice del Terzo settore, a norma dell'<ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns66:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns66:relation="repeals">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>), pubblicato nella Gazz. Uff. 2 agosto 2017, n. 179, S.O., come modificato dalla presente legge: 
+ «Art. 6 (Attivita' diverse). - 1.Gli enti del Terzo settore possono esercitare attivita' diverse da quelle di cui all'articolo 5, a condizione che l'atto costitutivo o lo statuto lo consentano e siano secondarie e strumentali rispetto alle attivita' di interesse generale, secondo criteri e limiti definiti con decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Ministro dell'economia e delle finanze, da adottarsi ai sensi dell'<ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_17-com3" ns67:target="olf:it/legge/stato/1988/400/art_17-com3" ns67:relation="cites">articolo 17, comma 3, della legge 23 agosto 1988, n. 400</ref>, sentita la Cabina di regia di cui all'articolo 97, tenendo conto dell'insieme delle risorse, anche volontarie e gratuite, impiegate in tali attivita' in rapporto all'insieme delle risorse, anche volontarie e gratuite, impiegate nelle attivita' di interesse generale.
+ Per gli enti del Terzo settore iscritti anche nel Registro nazionale delle attivita' sportive dilettantistiche, di cui all'articolo 2, comma 1, lettera gg), del <ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/decretoLegislativo/stato/2021-02-28/36/!main" ns68:target="olf:it/decreto-legislativo/stato/2021/36" ns68:relation="cites">decreto legislativo 28 febbraio 2021, n.36</ref>, e' fatta salva l'applicazione dell'articolo 9, comma 1-bis, del medesimo <ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/decretoLegislativo/stato/2021/36/!main" ns69:resolution="unresolved">decreto legislativo n.36 del 2021</ref>, a condizione che i proventi ivi indicati siano impiegati in attivita' di interesse generale afferenti allo svolgimento di attivita' sportive dilettantistiche, come definite dall'articolo 7, comma 1, lettera b), del citato decreto legislativo n.36del 2021 e dall'<ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/decretoLegislativo/stato/2021-02-28/39/!main#art_5-com1" ns70:target="olf:it/decreto-legislativo/stato/2021/39/art_5-com1" ns70:relation="cites">articolo 5, comma 1, del decreto legislativo 28 febbraio 2021, n.39</ref>.». 
+ «Art. 11 (Iscrizione). - 1. Gli enti del Terzo settore si iscrivono nel registro unico nazionale del Terzo settore ed indicano gli estremi dell'iscrizione negli atti, nella corrispondenza e nelle comunicazioni al pubblico. 
+ 2. Oltre che nel registro unico nazionale del Terzo settore, gli enti del Terzo settore che esercitano la propria attivita' esclusivamente o principalmente in forma di impresa commerciale sono soggetti all'obbligo dell'iscrizione nel registro delle imprese. 
+ 3. Per le imprese sociali, l'iscrizione nell'apposita sezione del registro delle imprese soddisfa il requisito dell'iscrizione nel registro unico nazionale del Terzo settore e, per quelle costituite in forma di associazione o fondazione, e' efficace anche ai fini dell'acquisto della personalita' giuridica ai sensi dell'articolo 22 del presente codice. I controlli e i poteri di cui agli articoli 25, 26 e<ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_28" ns71:target="olf:it/codice-civile/stato/1942/262/art_28" ns71:relation="cites">28 del codice civile</ref> sono esercitati, nei confronti delle fondazioni di cui al primo periodo, dagli uffici del registro delle imprese di cui all'<ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/legge/stato/1993-12-29/580/!main#art_8" ns72:target="olf:it/legge/stato/1993/580/art_8" ns72:relation="cites">articolo 8 della legge 29 dicembre1993, n.580</ref>.». 
+ «Art. 13 (Scritture contabili e di bilancio). - 1. Gli enti del Terzo settore devono redigere il bilancio di esercizio formato dallo stato patrimoniale, dal rendiconto gestionale, con l'indicazione, dei proventi e degli oneri, dell'ente, e dalla relazione di missione che illustra le poste di bilancio, l'andamento economico e gestionale dell'ente e le modalita' di perseguimento delle finalita' statutarie. 
+ 2. Il bilancio degli enti del Terzo settore privi di personalita' giuridica con ricavi, rendite, proventi o entrate comunque denominate non superiori a 300.000 euro puo' essere redatto nella forma del rendiconto per cassa. 
+ 2-bis. Per tutti gli enti del Terzo settore, in caso di ricavi, rendite, proventi o entrate comunque denominate non superiori a 60.000 euro, il rendiconto per cassa puo' indicare le entrate e le uscite in forma aggregata. 
+ 3. Il bilancio di cui ai commi 1, 2 e 2-bis deve essere redatto in conformita' ai modelli definiti con decreto del Ministro del lavoro e delle politiche sociali, sentito il Consiglio nazionale del Terzo settore e, limitatamente al bilancio di cui al comma 2-bis, di concerto con il Ministro dell'economia e delle finanze e con il Ministro della giustizia. 
+ 4. Gli enti del Terzo settore che esercitano la propria attivita' esclusivamente o principalmente in forma di impresa commerciale devono tenere le scritture contabili di cui all'<ref xmlns:ns73="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_73" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2214" ns73:target="olf:it/codice-civile/stato/1942/262/art_2214" ns73:relation="cites">articolo 2214 del codice civile</ref>. 
+ 5. Gli enti del Terzo settore di cui al comma 4 devono redigere e depositare presso il registro delle imprese il bilancio di esercizio redatto, a seconda dei casi, ai sensi degli articoli 2423 e seguenti, 2435-bis o 2435-ter del <ref xmlns:ns74="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_74" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main" ns74:target="olf:it/codice-civile/stato/1942/262" ns74:relation="cites">codice civile</ref>. Tali enti, se non rivestono la qualifica di imprese sociali, possono redigere il bilancio di esercizio ai sensi del comma 1, secondo i modelli del comma 3. 
+ 6. L'organo di amministrazione documenta il carattere secondario e strumentale delle attivita' di cui all'articolo 6 a seconda dei casi, nella relazione di missione o in una annotazione in calce al rendiconto per cassa o nella nota integrativa al bilancio. 
+ 7. Gli enti del Terzo settore non iscritti nel registro delle imprese devono depositare il bilancio presso il registro unico nazionale del Terzo settore.». 
+ «Art. 24 (Assemblea). - 1. Nell'assemblea delle associazioni, riconosciute o non riconosciute, del Terzo settore hanno diritto di voto tutti coloro che sono iscritti da almeno tre mesi nel libro degli associati, salvo che l'atto costitutivo o lo statuto non dispongano diversamente. 
+ 2. Ciascun associato ha un voto. Agli associati che siano enti del Terzo settore l'atto costitutivo o lo statuto possono attribuire piu' voti, sino ad un massimo di cinque, in proporzione al numero dei loro associati o aderenti. Si applica l'<ref xmlns:ns75="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_75" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2373" ns75:target="olf:it/codice-civile/stato/1942/262/art_2373" ns75:relation="cites">articolo 2373 del codice civile</ref>, in quanto compatibile. 
+ 3. Se l'atto costitutivo o lo statuto non dispongono diversamente, ciascun associato puo' farsi rappresentare nell'assemblea da un altro associato mediante delega scritta, anche in calce all'avviso di convocazione. Ciascun associato puo' rappresentare sino ad un massimo di tre associati nelle associazioni con un numero di associati inferiore a cinquecento e di cinque associati in quelle con un numero di associati non inferiore a cinquecento. Si applicano i <ref xmlns:ns76="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_76" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2372-com4" ns76:target="olf:it/codice-civile/stato/1942/262/art_2372-com4" ns76:relation="cites">commi quarto</ref> e <ref xmlns:ns77="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_77" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2372-com5" ns77:target="olf:it/codice-civile/stato/1942/262/art_2372-com5" ns77:relation="cites">quinto dell'articolo 2372 del codice civile</ref>, in quanto compatibili. 
+ 4. Salvo che l'atto costitutivo o lo sta-tuto non lo vietino espressamente, gli asso-ciati possono intervenire all'assemblea mediante mezzi di telecomunicazione ed esprimere il voto per via elettronica, purche' sia possibile verificare l'identita' dell'associato che partecipa e vota e nel rispetto dei principi di buona fede e di parita' di trattamento. L'atto costitutivo o lo statuto possono prevedere, alle medesime condizioni, l'espressione del voto per corrispondenza. 
+ 5. L'atto costitutivo o lo statuto delle associazioni che hanno un numero di associati non inferiore a cinquecento possono prevedere e disciplinare la costituzione e lo svolgimento di assemblee separate, comunque denominate, anche rispetto a specifiche materie ovvero in presenza di particolari categorie di associati o di svolgimento dell'attivita' in piu' ambiti territoriali.
+ A tali assemblee si applicano le disposizioni di cui ai <ref xmlns:ns78="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_78" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2540-com3" ns78:target="olf:it/codice-civile/stato/1942/262/art_2540-com3" ns78:relation="cites">commi terzo</ref>, <ref xmlns:ns79="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_79" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2540-com4" ns79:target="olf:it/codice-civile/stato/1942/262/art_2540-com4" ns79:relation="cites">quarto</ref>, <ref xmlns:ns80="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_80" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2540-com5" ns80:target="olf:it/codice-civile/stato/1942/262/art_2540-com5" ns80:relation="cites">quinto</ref> e <ref xmlns:ns81="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_81" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2540-com6" ns81:target="olf:it/codice-civile/stato/1942/262/art_2540-com6" ns81:relation="cites">sesto dell'articolo 2540 del codice civile</ref>, in quanto compatibili. 
+ 6. Le disposizioni di cui al presente articolo si applicano anche alle fondazioni del Terzo settore il cui statuto preveda la costituzione di un organo assembleare o di indirizzo, comunque denominato, in quanto compatibili ed ove non derogate dallo statuto.». 
+ «Art. 30 (Organo di controllo). - 1. Nelle fondazioni del Terzo settore deve essere nominato un organo di controllo, anche monocratico. 
+ 2. Nelle associazioni, riconosciute o non riconosciute, del Terzo settore, la nomina di un organo di controllo, anche monocratico, e' obbligatoria quando siano superati per due esercizi consecutivi due dei seguenti limiti: 
+ a) totale dell'attivo dello stato patrimoniale: 150.000 euro; 
+ b) ricavi, rendite, proventi, entrate comunque denominate: 300.000 euro; 
+ c) dipendenti occupati in media durante l'esercizio: 7 unita'. 
+ 3. L'obbligo di cui al comma 2 cessa se, per due esercizi consecutivi, i predetti limiti non vengono superati. 
+ 4. La nomina dell'organo di controllo e' altresi' obbligatoria quando siano stati costituiti patrimoni destinati ai sensi dell'articolo 10. 
+ 5. Ai componenti dell'organo di controllo si applica l'<ref xmlns:ns82="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_82" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2399" ns82:target="olf:it/codice-civile/stato/1942/262/art_2399" ns82:relation="cites">articolo 2399 del codice civile</ref>. I componenti dell'organo di controllo devono essere scelti tra le categorie di soggetti di cui all'<ref xmlns:ns83="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_83" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2397-com2" ns83:target="olf:it/codice-civile/stato/1942/262/art_2397-com2" ns83:relation="cites">articolo 2397, comma secondo, del codice civile</ref>. Nel caso di organo di controllo collegiale, i predetti requisiti devono essere posseduti da almeno uno dei componenti. 
+ 6. L'organo di controllo vigila sull'osservanza della legge e dello statuto e sul rispetto dei principi di corretta amministrazione, anche con riferimento alle disposizioni del <ref xmlns:ns84="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_84" href="/akn/it/act/decretoLegislativo/stato/2001-06-08/231/!main" ns84:target="olf:it/decreto-legislativo/stato/2001/231" ns84:relation="cites">decreto legislativo 8 giugno 2001, n. 231</ref>, qualora applicabili, nonche' sull'adeguatezza dell'assetto organizzativo, amministrativo e contabile e sul suo concreto funzionamento. Esso puo' esercitare inoltre, al superamento dei limiti di cui all'articolo 31, comma 1, la revisione legale dei conti. In tal caso l'organo di controllo e' costituito da revisori legali iscritti nell'apposito registro. 
+ 7. L'organo di controllo esercita inoltre compiti di monitoraggio dell'osservanza delle finalita' civiche, solidaristiche e di utilita' sociale, avuto particolare riguardo alle disposizioni di cui agli articoli 5, 6, 7 e 8, ed attesta che il bilancio sociale sia stato redatto in conformita' alle linee guida di cui all'articolo 14. Il bilancio sociale da' atto degli esiti del monitoraggio svolto dall'organo di controllo. 
+ 8. I componenti dell'organo di controllo possono in qualsiasi momento procedere, anche individualmente, ad atti di ispezione e di controllo, e a tal fine, possono chiedere agli amministratori notizie sull'andamento delle operazioni sociali o su determinati affari.». 
+ «Art. 31 (Revisione legale dei conti). - 1. Salvo quanto previsto dall'articolo 30, comma 6, le associazioni, riconosciute o non riconosciute, e le fondazioni del Terzo settore devono nominare un revisore legale dei conti o una societa' di revisione legale iscritti nell'apposito registro quando superino per due esercizi consecutivi due dei seguenti limiti: 
+ a) totale dell'attivo dello stato patrimoniale: 1.500.000 euro; 
+ b) ricavi, rendite, proventi, entrate comunque denominate: 3 milioni di euro; 
+ c) dipendenti occupati in media durante l'esercizio: 20 unita'. 
+ 2. L'obbligo di cui al comma 1 cessa se, per due esercizi consecutivi, i predetti limiti non vengono superati. 
+ 3. La nomina e' altresi' obbligatoria quando siano stati costituiti patrimoni destinati ai sensi dell'articolo 10.». 
+ «Art. 36 (Risorse). - 1.Le associazioni di promozione sociale possono assumere lavoratori dipendenti o avvalersi di prestazioni di lavoro autonomo o di altra natura, anche dei propri associati, fatto comunque salvo quanto disposto dall'articolo 17, comma 5, solo quando cio' sia necessario ai fini dello svolgimento dell'attivita' di interesse generale e al perseguimento delle finalita'. In ogni caso, il numero dei lavoratori impiegati nell'attivita' non puo' essere superiore al cinquanta per cento del numero dei volontari o al venti per cento del numero degli associati, fermo restando il rispetto di quanto disposto dall'articolo 35, comma 1, relativamente alla prevalenza dell'attivita' di volontariato degli associati o delle persone aderenti agli enti associati.». 
+ «Art. 41 (Reti associative). - 1. Le reti associative sono enti del Terzo settore costituiti in forma di associazione, riconosciuta o non riconosciuta, che: 
+ a) associano, anche indirettamente attraverso gli enti ad esse aderenti, un numero non inferiore a 100 enti del Terzo settore, o, in alternativa, almeno 20 fondazioni del Terzo settore, le cui sedi legali o operative siano presenti in almeno cinque regioni o province autonome; 
+ b) svolgono, anche attraverso l'utilizzo di strumenti informativi idonei a garantire conoscibilita' e trasparenza in favore del pubblico e dei propri associati, attivita' di coordinamento, tutela, rappresentanza, promozione o supporto degli enti del Terzo settore loro associati e delle loro attivita' di interesse generale, anche allo scopo di promuoverne ed accrescerne la rappresentativita' presso i soggetti istituzionali. 
+ 2. Sono reti associative nazionali le reti associative di cui al comma 1 che associano, anche indirettamente attraverso gli enti ad esse aderenti, un numero non inferiore a 500 enti del Terzo settore o, in alternativa, almeno 100 fondazioni del Terzo settore, le cui sedi legali o operative siano presenti in almeno dieci regioni o province autonome. Le associazioni del terzo settore formate da un numero non inferiore a 100 mila persone fisiche associate e con sedi in almeno 10 regioni o provincie autonome sono equiparate alle reti associative nazionali ai fini di cui all'articolo 59, comma 1, lettera b). 
+ 2-bis. Se, successivamente all'iscrizione nel Registro unico nazionale del Terzo settore, il numero degli associati di una rete associativa diviene inferiore a quello stabilito nei commi 1 e 2 o, con riferimento alle reti di cui al comma 6, a quello stabilito nell'articolo 33, comma 3, del codice della protezione civile, di cui al <ref xmlns:ns85="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_85" href="/akn/it/act/decretoLegislativo/stato/2018-01-02/1/!main" ns85:target="olf:it/decreto-legislativo/stato/2018/1" ns85:relation="cites">decreto legislativo 2 gennaio 2018, n. 1</ref>, esso deve essere reintegrato entro un anno, trascorso il quale la rete associativa e' cancellata dalla sezione del registro di cui all'articolo 46, comma 1, lettera e), del presente codice. 
+ 3. Le reti associative nazionali possono esercitare, oltre alle proprie attivita' statutarie, anche le seguenti attivita': 
+ a) monitoraggio dell'attivita' degli enti ad esse associati, eventualmente anche con riguardo al suo impatto sociale, e predisposizione di una relazione annuale al Consiglio nazionale del Terzo settore; 
+ b) promozione e sviluppo delle attivita' di controllo, anche sotto forma di autocontrollo e di assistenza tecnica nei confronti degli enti associati. 
+ 4. Le reti associative possono promuovere partenariati e protocolli di intesa con le pubbliche amministrazioni di cui all'<ref xmlns:ns86="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_86" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_1-com2" ns86:target="olf:it/decreto-legislativo/stato/2001/165/art_1-com2" ns86:relation="cites">articolo 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165</ref>, e con soggetti privati. 
+ 5. E' condizione per l'iscrizione delle reti associative nel Registro unico nazionale del Terzo settore che i rappresentanti legali ed amministratori non abbiano riportato condanne penali, passate in giudicato, per reati che comportano l'interdizione dai pubblici uffici.
+ L'iscrizione, nonche' la costituzione e l'operativita' da almeno un anno, sono condizioni necessarie per accedere alle risorse del Fondo di cui all'articolo 72 che, in ogni caso, non possono essere destinate, direttamente o indirettamente, ad enti diversi dalle organizzazioni di volontariato, dalle associazioni di promozione sociale e dalle fondazioni del Terzo settore. 
+ 6. Alle reti associative operanti nel settore di cui all'articolo 5, comma 1, lettera y), le disposizioni del presente articolo si applicano nel rispetto delle disposizioni in materia di protezione civile, e alla relativa disciplina si provvede nell'ambito di quanto previsto dall'<ref xmlns:ns87="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_87" href="/akn/it/act/legge/stato/2017-03-16/30/!main#art_1-com1-letd" ns87:target="olf:it/legge/stato/2017/30/art_1-com1-letd" ns87:relation="cites">articolo 1, comma 1, lettera d), della legge 16 marzo 2017, n. 30</ref>. 
+ 7. Gli atti costitutivi o gli statuti disciplinano l'ordinamento interno, la struttura di governo e la composizione e il funzionamento degli organi sociali delle reti associative nel rispetto dei principi di democraticita', pari opportunita' ed eguaglianza di tutti gli associati e di elettivita' delle cariche sociali. 
+ 8. Gli atti costitutivi o gli statuti delle reti associative possono disciplinare il diritto di voto degli associati in assemblea anche in deroga a quanto stabilito dall'articolo 24, comma 2. 
+ 9. Gli atti costitutivi o gli statuti delle reti associative possono disciplinare le modalita' e i limiti delle deleghe di voto in assemblea anche in deroga a quanto stabilito dall'articolo 24, comma 3. 
+ 10. Gli atti costitutivi o gli statuti delle reti associative possono disciplinare le competenze dell'assemblea degli associati anche in deroga a quanto stabilito dall'articolo 25, comma 1.». 
+ «Art. 47 (Iscrizione). - 1. Salvo quanto previsto dall'articolo 22, la domanda di iscrizione nel Registro unico nazionale del Terzo settore e' presentata dal rappresentante legale dell'ente o della rete associativa cui l'ente eventualmente aderisca, o da un suo delegato, all'Ufficio del Registro unico nazionale della Regione o della Provincia autonoma in cui l'ente ha la sede legale, depositando l'atto costitutivo, lo statuto ed eventuali allegati, ed indicando la sezione del registro nella quale l'ente chiede l'iscrizione. Per le reti associative la domanda di iscrizione nella sezione di cui all'articolo 46 comma 1, lettera e) e' presentata all'Ufficio statale del Registro unico nazionale. 
+ 2. L'ufficio competente di cui al comma 1 verifica la sussistenza delle condizioni previste dal presente Codice per la costituzione dell'ente quale ente del Terzo settore, nonche' per la sua iscrizione nella sezione richiesta. 
+ 3. L'ufficio del Registro, entro sessanta giorni dalla presentazione della domanda, puo': 
+ a) iscrivere l'ente; 
+ b) rifiutare l'iscrizione con provvedimento motivato; 
+ c) invitare l'ente a completare o rettificare la domanda ovvero ad integrare la documentazione. 
+ 4. Decorsi sessanta giorni dalla presentazione della domanda o dalla presentazione della domanda completata o rettificata ovvero della documentazione integrativa ai sensi del comma 3, lettera c), la domanda di iscrizione s'intende accolta. 
+ 5. Se l'atto costitutivo e lo statuto dell'ente del Terzo settore sono redatti in conformita' a modelli standard tipizzati, predisposti da reti associative ed approvati con decreto del Ministero del lavoro e delle politiche sociali, l'ufficio del registro unico nazionale del Terzo settore, verificata la regolarita' formale della documentazione, entro trenta giorni dalla presentazione della domanda iscrive l'ente nel Registro stesso. 
+ 6. Avverso il diniego di iscrizione nel Registro e' ammesso ricorso avanti al tribunale amministrativo competente per territorio.». 
+ «Art. 48 (Contenuto e aggiornamento). - 1. Nel Registro unico nazionale del Terzo settore devono risultare per ciascun ente almeno le seguenti informazioni: la denominazione; la forma giuridica; la sede legale, con l'indicazione di eventuali sedi secondarie; la data di costituzione; l'oggetto dell'attivita' di interesse generale di cui all'articolo 5, il codice fiscale o la partita IVA; il possesso della personalita' giuridica e il patrimonio minimo di cui all'articolo 22, comma 4; le generalita' dei soggetti che hanno la rappresentanza legale dell'ente; le generalita' dei soggetti che ricoprono cariche sociali con indicazione di poteri e limitazioni. 
+ 2. Nel Registro devono inoltre essere iscritte le modifiche dell'atto costitutivo e dello statuto, le deliberazioni di trasformazione, fusione, scissione, di scioglimento, estinzione, liquidazione e cancellazione, i provvedimenti che ordinano lo scioglimento, dispongono la cancellazione o accertano l'estinzione, le generalita' dei liquidatori e tutti gli altri atti e fatti la cui iscrizione e' espressamente prevista da norme di legge o di regolamento. 
+ 3. I rendiconti e i bilanci di cui agli articoli 13 e 14 e i rendiconti delle raccolte fondi svolte nell'esercizio precedente devono essere depositati ogni anno presso il Registro unico nazionale del Terzo settore entro centottanta giorni dalla chiusura dell'esercizio e, per gli enti di cui all'articolo 13, comma 4, presso il registro delle imprese entro sessanta giorni dall'approvazione. 
+ Entro trenta giorni decorrenti da ciascuna modifica, devono essere pubblicate le informazioni aggiornate e depositati gli atti di cui ai commi 1e 2, incluso l'eventuale riconoscimento della personalita' giuridica. 
+ 4. In caso di mancato o incompleto deposito degli atti e dei loro aggiornamenti nonche' di quelli relativi alle informazioni obbligatorie di cui al presente articolo nel rispetto dei termini in esso previsti, l'ufficio del registro diffida l'ente del Terzo settore ad adempiere all'obbligo suddetto, assegnando un termine non inferiore a trenta giorni e decorsi inutilmente i quali l'ente e' cancellato dal Registro. 
+ 5. Del deposito degli atti e della completezza delle informazioni di cui al presente articolo e dei relativi aggiornamenti sono onerati gli amministratori. Si applica l'<ref xmlns:ns88="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_88" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2630" ns88:target="olf:it/codice-civile/stato/1942/262/art_2630" ns88:relation="cites">articolo 2630 del codice civile</ref>. 
+ 6. All'atto della registrazione degli enti del Terzo settore di cui all'articolo 31, comma 1, l'ufficio del registro unico nazionale acquisisce la relativa informazione antimafia.». 
+ «Art. 87 (Tenuta e conservazione delle scritture contabili degli Enti del terzo settore). - 1. Gli enti del Terzo settore non commerciali di cui all'articolo 79, comma 5, che non applicano il regime forfetario di cui all'articolo 86, a pena di decadenza dai benefici fiscali per esse previsti, devono: 
+ a) in relazione all'attivita' complessivamente svolta, redigere scritture contabili cronologiche e sistematiche atte ad esprimere con compiutezza e analiticita' le operazioni poste in essere in ogni periodo di gestione, e rappresentare adeguatamente nel bilancio di cui all'articolo 13 distintamente le attivita' indicate all'articolo 6 da quelle di cui all'articolo 5, con obbligo di conservare le stesse scritture e la relativa documentazione per un periodo non inferiore quello indicato dall'<ref xmlns:ns89="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_89" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973-09-29/600/!main#art_22" ns89:target="olf:it/dpr/stato/1973/600/art_22" ns89:relation="cites">articolo 22 del decreto del Presidente della Repubblica 29 settembre 1973, n. 600</ref>; 
+ b) in relazione alle attivita' svolte con modalita' commerciali, di cui agli articoli 5, 6 e 7, tenere le scritture contabili previste dalle disposizioni di cui all'<ref xmlns:ns90="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_90" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973-09-29/600/!main#art_18" ns90:target="olf:it/dpr/stato/1973/600/art_18" ns90:relation="cites">articolo 18 del decreto del Presidente della Repubblica 29 settembre 1973, n. 600</ref>, anche al di fuori dei limiti quantitativi previsti al comma 1 del medesimo articolo. 
+ 2. Gli obblighi di cui al comma 1, lettera a), si considerano assolti anche qualora la contabilita' consti del libro giornale e del libro degli inventari, tenuti in conformita' alle disposizioni di cui agli <ref xmlns:ns91="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_91" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2216" ns91:target="olf:it/codice-civile/stato/1942/262/art_2216" ns91:relation="cites">articoli 2216</ref> e <ref xmlns:ns92="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_92" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2217" ns92:target="olf:it/codice-civile/stato/1942/262/art_2217" ns92:relation="cites">2217 del codice civile</ref>. 
+ 3. I soggetti di cui al comma 1 che nell'esercizio delle attivita' di cui agli articoli 5 e 6 non abbiano conseguito in un anno proventi di ammontare superiore agli importi stabiliti, rispettivamente, dai commi 2 e 2-bis dall'articolo 13, possono tenere per l'anno successivo, in luogo delle scritture contabili previste al primo comma, lettera a), il rendiconto per la cassa di cui, rispettivamente, ai commi 2 e 2-bis dell'articolo 13. 
+ 4. In relazione all'attivita' commerciale esercitata, gli enti del Terzo settore non commerciali di cui all'articolo 79, comma 5, hanno l'obbligo di tenere la contabilita' separata. 
+ 5. Fatta salva l'applicazione dell'articolo 86, commi 5 e 8 , e fermi restando gli obblighi previsti dal titolo secondo del <ref xmlns:ns93="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_93" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-10-26/633/!main" ns93:target="olf:it/dpr/stato/1972/633" ns93:relation="cites">decreto del Presidente della Repubblica 26 ottobre 1972, n. 633</ref>, gli enti del Terzo settore non commerciali di cui all'articolo 79, comma 5, limitatamente alle attivita' non commerciali di cui agli articoli 5 e 6, non sono soggetti all'obbligo di certificazione dei corrispettivi mediante ricevuta o scontrino fiscale ne' agli obblighi previsti dall'<ref xmlns:ns94="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_94" href="/akn/it/act/decretoLegislativo/stato/2015-08-05/127/!main#art_2" ns94:target="olf:it/decreto-legislativo/stato/2015/127/art_2" ns94:relation="cites">articolo 2 del decreto legislativo 5 agosto 2015, n. 127</ref>, in materia di trasmissione telematica dei dati dei corrispettivi. 
+ 6. Gli enti del Terzo settore non commerciali di cui all'articolo 79, comma 5, che effettuano raccolte pubbliche di fondi devono inserire all'interno del bilancio redatto ai sensi dell'articolo 13 un rendiconto specifico redatto ai sensi del comma 3 dell'articolo 48, tenuto e conservato ai sensi dell'<ref xmlns:ns95="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_95" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973-09-29/600/!main#art_22" ns95:target="olf:it/dpr/stato/1973/600/art_22" ns95:relation="cites">articolo 22 del decreto del Presidente della Repubblica 29 settembre 1973, n. 600</ref>, dal quale devono risultare, anche a mezzo di una relazione illustrativa, in modo chiaro e trasparente, le entrate e le spese relative a ciascuna delle celebrazioni, ricorrenze o campagne di sensibilizzazione di cui all'articolo 79, comma 4, lettera a). Il presente comma si applica anche ai soggetti che si avvalgono del regime forfetario di cui all'articolo 86. 
+ 7. Entro tre mesi dal momento in cui si verificano i presupposti di cui all'articolo 79, comma 5, ai fini della qualificazione dell'ente del Terzo settore come ente commerciale, tutti i beni facenti parte del patrimonio dovranno essere compresi nell'inventario di cui all'<ref xmlns:ns96="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_96" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973-09-29/600/!main#art_15" ns96:target="olf:it/dpr/stato/1973/600/art_15" ns96:relation="cites">articolo 15 del decreto del Presidente della Repubblica 29 settembre 1973, n. 600</ref>, con l'obbligo per il predetto ente di tenere le scritture contabili di cui agli articoli 14, 15, 16 del medesimo <ref xmlns:ns97="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_97" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973/600/!main" ns97:resolution="unresolved">decreto del Presidente della Repubblica n. 600 del 1973</ref>. Le registrazioni nelle scritture cronologiche delle operazioni comprese dall'inizio del periodo di imposta al momento in cui si verificano i presupposti che determinano il mutamento della qualifica di cui all'articolo 79, comma 5, devono essere eseguite, in deroga alla disciplina ordinaria, entro tre mesi decorrenti dalla sussistenza dei suddetti presupposti.». 
+ «Art. 89 (Coordinamento normativo). - 1. Agli enti del Terzo settore di cui all'articolo 79, comma 1, non si applicano le seguenti disposizioni: 
+ a) l'articolo 143, comma 3, l'articolo 144, commi 2, 5 e 6 e gli articoli 148 e 149 del testo unico delle imposte sui redditi, approvato con <ref xmlns:ns98="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_98" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns98:target="olf:it/dpr/stato/1986/917" ns98:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>; 
+ b) l'<ref xmlns:ns99="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_99" href="/akn/it/act/decretoLegislativo/stato/1990-10-31/346/!main#art_3-com1" ns99:target="olf:it/decreto-legislativo/stato/1990/346/art_3-com1" ns99:relation="amends">articolo 3, commi 1</ref> e <ref xmlns:ns100="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_100" href="/akn/it/act/decretoLegislativo/stato/1990-10-31/346/!main#art_3-com2" ns100:target="olf:it/decreto-legislativo/stato/1990/346/art_3-com2" ns100:relation="amends">2, del decreto legislativo 31 ottobre 1990, n. 346</ref> e gli <ref xmlns:ns101="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_101" href="/akn/it/act/decretoLegislativo/stato/1990-10-31/347/!main#art_1-com2" ns101:target="olf:it/decreto-legislativo/stato/1990/347/art_1-com2" ns101:relation="amends">articoli 1, comma 2</ref> e <ref xmlns:ns102="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_102" href="/akn/it/act/decretoLegislativo/stato/1990-10-31/347/!main#art_1-com10" ns102:target="olf:it/decreto-legislativo/stato/1990/347/art_1-com10" ns102:relation="amends">10</ref>, <ref xmlns:ns103="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_103" href="/akn/it/act/decretoLegislativo/stato/1990-10-31/347/!main#art_1-com3" ns103:target="olf:it/decreto-legislativo/stato/1990/347/art_1-com3" ns103:relation="amends">comma 3 del decreto legislativo 31 ottobre 1990, n. 347</ref>; 
+ c) la <ref xmlns:ns104="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_104" href="/akn/it/act/legge/stato/1991-12-16/398/!main" ns104:target="olf:it/legge/stato/1991/398" ns104:relation="cites">legge 16 dicembre 1991, n. 398</ref>. 
+ 2. Le norme di cui al comma 1, lettera b) continuano ad applicarsi ai trasferimenti a titolo gratuito, non relativi alle attivita' di cui all'articolo 5, eseguiti a favore dei soggetti di cui all'articolo 4, comma 3, iscritti nel Registro unico nazionale del Terzo Settore. 
+ 3. Ai soggetti di cui all'articolo 4, comma 3, iscritti nel Registro unico nazionale del Terzo settore gli articoli da 143 a 148 del testo unico delle imposte sui redditi, approvato con <ref xmlns:ns105="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_105" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns105:target="olf:it/dpr/stato/1986/917" ns105:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>, si applicano limitatamente alle attivita' diverse da quelle elencate all'articolo 5, purche' siano in possesso dei requisiti qualificanti ivi previsti. 
+ 4. All'articolo 148, comma 3, del testo unico delle imposte sui redditi, di cui al <ref xmlns:ns106="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_106" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns106:target="olf:it/dpr/stato/1986/917" ns106:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>, le parole: 'Per le associazioni politiche, sindacali e di categoria, religiose, assistenziali, culturali, sportive dilettantistiche, di promozione sociale e di formazione extra-scolastica della persona, nonche' per le strutture periferiche di natura privatistica necessarie agli enti pubblici non economici per attuare la funzione di preposto a servizi di pubblico interesse sono sostituite dalle seguenti: 'Per le associazioni politiche, sindacali e di categoria, religiose, assistenziali, sportive dilettantistiche, nonche' per le strutture periferiche di natura privatistica necessarie agli enti pubblici non economici per attuare la funzione di preposto a servizi di pubblico interesse. 
+ 5. All'<ref xmlns:ns107="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_107" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973-09-29/601/!main#art_6" ns107:target="olf:it/dpr/stato/1973/601/art_6" ns107:relation="cites">articolo 6, del decreto del Presidente della Repubblica 29 settembre 1973, n. 601</ref>, e' aggiunto, in fine, il seguente comma: «La riduzione non si applica agli enti iscritti nel Registro Unico nazionale del terzo settore. Ai soggetti di cui all'articolo 4, comma 3, codice del Terzo settore di cui all'<ref xmlns:ns108="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_108" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns108:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns108:relation="repeals">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>, iscritti nel Registro unico nazionale del Terzo settore, la riduzione si applica limitatamente alle attivita' diverse da quelle elencate all'articolo 5 del medesimo decreto legislativo». 
+ 6. All'<ref xmlns:ns109="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_109" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-10-26/633/!main#art_52-com1" ns109:target="olf:it/dpr/stato/1972/633/art_52-com1" ns109:relation="cites">articolo 52, comma 1, del decreto del Presidente della Repubblica 26 ottobre 1972, n. 633</ref>, le parole: «al <ref xmlns:ns110="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_110" href="/akn/it/act/decretoLegislativo/stato/1997-12-04/460/!main" ns110:target="olf:it/decreto-legislativo/stato/1997/460" ns110:relation="cites">decreto legislativo 4 dicembre 1997, n. 460</ref>» sono sostituite dalle seguenti: «al codice del Terzo settore di cui all'<ref xmlns:ns111="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_111" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns111:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns111:relation="repeals">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>». 
+ 7. Si intendono riferite agli enti non commerciali del Terzo settore di cui all'articolo 82, comma 1, le disposizioni normative vigenti riferite alle ONLUS in quanto compatibili con le disposizioni del presente decreto. Al <ref xmlns:ns112="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_112" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-10-26/633/!main" ns112:target="olf:it/dpr/stato/1972/633" ns112:relation="cites">decreto del Presidente della Repubblica 26 ottobre 1972, n. 633</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 3, terzo comma, primo periodo, le parole «di enti e associazioni che senza scopo di lucro perseguono finalita' educative, culturali, sportive, religiose e di assistenza e solidarieta' sociale, nonche' delle organizzazioni non lucrative di utilita' sociale (ONLUS)» sono sostituite dalle seguenti: «di enti del Terzo settore di natura non commerciale»; 
+ b) all'articolo 10, primo comma, ai numeri 15), 19), 20) e 27-ter), la parola «ONLUS» e' sostituita dalle seguenti: «enti del Terzo settore di natura non commerciale». 
+ 8. All'<ref xmlns:ns113="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_113" href="/akn/it/act/legge/stato/2016-06-22/112/!main#art_1-com3" ns113:target="olf:it/legge/stato/2016/112/art_1-com3" ns113:relation="repeals">articolo 1, comma 3, della legge 22 giugno 2016, n. 112</ref>, le parole: «organizzazioni non lucrative di utilita' sociale di cui all'<ref xmlns:ns114="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_114" href="/akn/it/act/decretoLegislativo/stato/1997-12-04/460/!main#art_10-com1" ns114:target="olf:it/decreto-legislativo/stato/1997/460/art_10-com1" ns114:relation="cites">articolo 10, comma 1, del decreto legislativo 4 dicembre 1997, n. 460</ref>, riconosciute come persone giuridiche, che operano prevalentemente nel settore della beneficenza di cui al <ref xmlns:ns115="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_115" href="/akn/it/act/decretoLegislativo/stato/1997-12-04/460/!main#art_com1-leta-num3" ns115:target="olf:it/decreto-legislativo/stato/1997/460/art_com1-leta-num3" ns115:relation="cites">comma 1, lettera a), numero 3</ref>), dell'<ref xmlns:ns116="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_116" href="/akn/it/act/decretoLegislativo/stato/1997-12-04/460/!main#art_10" ns116:target="olf:it/decreto-legislativo/stato/1997/460/art_10" ns116:relation="cites">articolo 10 del decreto legislativo 4 dicembre 1997, n. 460</ref>, anche ai sensi del comma 2-bis dello stesso articolo» sono sostituite dalle seguenti: «enti del Terzo settore non commerciali, che operano prevalentemente nel settore della beneficenza di cui all'articolo 5, comma 1, lettera u)». 
+ 9. All'<ref xmlns:ns117="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_117" href="/akn/it/act/legge/stato/2014-08-11/125/!main#art_32-com7" ns117:target="olf:it/legge/stato/2014/125/art_32-com7" ns117:relation="cites">articolo 32, comma 7, della legge 11 agosto 2014 n. 125</ref> e' aggiunto in fine il seguente periodo: «Le Organizzazioni non governative di cui al presente comma sono iscritte nel Registro unico nazionale del Terzo settore». 
+ 10. All'<ref xmlns:ns118="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_118" href="/akn/it/act/legge/stato/2016-06-22/112/!main#art_6-com9" ns118:target="olf:it/legge/stato/2016/112/art_6-com9" ns118:relation="repeals">articolo 6, comma 9, della legge 22 giugno 2016, n. 112</ref> le parole «le agevolazioni di cui all'<ref xmlns:ns119="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_119" href="/akn/it/act/decretoLegge/stato/2005-03-14/35/!main#art_14-com1" ns119:target="olf:it/decreto-legge/stato/2005/35/art_14-com1" ns119:relation="cites">articolo 14, comma 1, del decreto-legge 14 marzo 2005, n. 35</ref>, convertito, con modificazioni, dalla <ref xmlns:ns120="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_120" href="/akn/it/act/legge/stato/2005-05-14/80/!main" ns120:target="olf:it/legge/stato/2005/80" ns120:relation="cites">legge 14 maggio 2005, n. 80</ref>, e i limiti ivi indicati sono elevati, rispettivamente, al 20 per cento del reddito complessivo dichiarato e a 100.000 euro» sono sostituite dalle seguenti: «le agevolazioni previste per le organizzazioni di volontariato ai sensi dell'articolo 83, commi 1 e 2, del codice del Terzo settore di cui all'<ref xmlns:ns121="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_121" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns121:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns121:relation="repeals">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>». 
+ 11. Ai soggetti che effettuano erogazioni liberali agli enti del Terzo settore non commerciali di cui all'articolo 79, comma 5, nonche' alle cooperative sociali, non si applicano, per le medesime erogazioni liberali, le disposizioni di cui all'articolo 15, comma 1.1. e all'articolo 100, comma 2, lettera h), del testo unico delle imposte sui redditi approvato con <ref xmlns:ns122="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_122" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns122:target="olf:it/dpr/stato/1986/917" ns122:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>. 
+ 12. La deducibilita' dal reddito imponibile delle erogazioni liberali prevista dall'articolo 10, comma 1, lettera g), del testo unico delle imposte sui redditi, approvato con <ref xmlns:ns123="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_123" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns123:target="olf:it/dpr/stato/1986/917" ns123:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>, e' consentita a condizione che per le medesime erogazioni il soggetto erogante non usufruisca delle detrazioni d'imposta di cui all'articolo 15, comma 1.1, del medesimo testo unico. 
+ 13. La deducibilita' dal reddito imponibile delle erogazioni liberali previste dall'articolo 100, comma 2, lettere a) e b), del testo unico delle imposte sui redditi, approvato con <ref xmlns:ns124="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_124" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns124:target="olf:it/dpr/stato/1986/917" ns124:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>, e' consentita a condizione che per le medesime erogazioni liberali il soggetto erogante non usufruisca delle deduzioni previste dalla lettera h) del medesimo articolo 100, comma 2. 
+ 14. La deducibilita' dal reddito imponibile delle erogazioni liberali previste all'articolo 153, comma 6, lettere a) e b), del testo unico delle imposte sui redditi, approvato con <ref xmlns:ns125="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_125" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns125:target="olf:it/dpr/stato/1986/917" ns125:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>, e' consentita a condizione che per le medesime erogazioni liberali il soggetto erogante non usufruisca delle detrazioni d'imposta previste dal comma 3 del medesimo articolo 153. 
+ 15. Alle Fondazioni lirico-sinfoniche di cui al <ref xmlns:ns126="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_126" href="/akn/it/act/decretoLegislativo/stato/1996-06-29/367/!main" ns126:target="olf:it/decreto-legislativo/stato/1996/367" ns126:relation="cites">decreto legislativo 29 giugno 1996, n. 367</ref> e di cui alla <ref xmlns:ns127="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_127" href="/akn/it/act/legge/stato/2003-11-11/310/!main" ns127:target="olf:it/legge/stato/2003/310" ns127:relation="cites">legge 11 novembre 2003, n. 310</ref>, e successive modificazioni, iscritte nel Registro unico nazionale del Terzo settore, non si applica l'articolo 25, comma 5 del suddetto decreto legislativo. 
+ 15-bis. Le associazioni iscritte nell'albo istituito ai sensi dell'<ref xmlns:ns128="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_128" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/90/!main#art_937-com1" ns128:target="olf:it/dpr/stato/2010/90/art_937-com1" ns128:relation="cites">articolo 937, comma 1, del testo unico delle disposizioni regolamentari in materia di ordinamento militare</ref>, di cui al <ref xmlns:ns129="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_129" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/90/!main" ns129:target="olf:it/dpr/stato/2010/90" ns129:relation="cites">decreto del Presidente della Repubblica 15 marzo 2010, n. 90</ref>, che svolgono in via principale una o piu' attivita' di interesse generale di cui all'articolo 5 del presente codice possono essere iscritte nel Registro unico nazionale del Terzo settore, nel rispetto della specificita' della composizione della loro base associativa e delle finalita' di cui al medesimo articolo 937. Il requisito della strumentalita' di cui all'articolo 6 del presente codice sussiste qualora le attivita' diverse siano esercitate per la realizzazione delle specifiche finalita' delle associazioni medesime. Agli oneri derivanti dall'attuazione del presente comma, valutati in 6,75 milioni di euro per l'anno 2025 e in 3,95 milioni di euro annui a decorrere dall'anno 2026, si provvede mediante corrispondente riduzione delle proiezioni dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della difesa »; o)all'articolo 101, comma 8, dopo il primo periodo sono inseriti i seguenti: «La disposizione di cui al primo periodo si applica anche in caso di perdita della qualifica di ONLUS da parte dei trust dotati di tale qualifica nonche' alle ONLUS che, a causa della direzione e del coordinamento o del controllo da parte dei soggetti di cui all'articolo 4, comma 2, non possano assumere la qualifica di ente del Terzo settore ai sensi del medesimo articolo 4, a condizione che gli statuti delle ONLUS medesime prevedano espressamente lo svolgimento, con modalita' non commerciali, di attivita' di interesse generale di cui all'articolo 5, senza finalita' di lucro, e che i beni siano destinati stabilmente allo svolgimento delle suddette attivita'. In caso di scioglimento per qualunque causa, ovvero di soppressione o modifica delle clausole statutarie riguardanti lo svolgimento di attivita' di interesse generale, l'assenza della finalita' di lucro e la stabile destinazione dei beni, le ONLUS di cui al precedente periodo devolvono il patrimonio ad altro ente con finalita' analoghe, sentito il Ministero del lavoro e delle politiche sociali ai sensi dell'articolo 148, comma 8, del testo unico delle imposte sui redditi, di cui al <ref xmlns:ns130="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_130" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns130:target="olf:it/dpr/stato/1986/917" ns130:relation="cites">decreto del Presidente della Repubblica 22dicembre 1986, n.917</ref>. 
+ 16. Alle associazioni che operano o che partecipano a manifestazioni di particolare interesse storico, artistico e culturale, legate agli usi ed alle tradizioni delle comunita' locali, iscritte nel Registro unico nazionale del Terzo settore, non si applica l'<ref xmlns:ns131="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_131" href="/akn/it/act/legge/stato/2006-12-27/296/!main#art_1-com185" ns131:target="olf:it/legge/stato/2006/296/art_1-com185" ns131:relation="cites">articolo 1, commi 185</ref>, <ref xmlns:ns132="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_132" href="/akn/it/act/legge/stato/2006-12-27/296/!main#art_1-com186" ns132:target="olf:it/legge/stato/2006/296/art_1-com186" ns132:relation="cites">186</ref> e <ref xmlns:ns133="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_133" href="/akn/it/act/legge/stato/2006-12-27/296/!main#art_1-com187" ns133:target="olf:it/legge/stato/2006/296/art_1-com187" ns133:relation="cites">187 della legge 27 dicembre 2006, n. 296</ref>. 
+ 17. In attuazione dell'<ref xmlns:ns134="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_134" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_115" ns134:target="olf:it/decreto-legislativo/stato/2004/42/art_115" ns134:relation="cites">articolo 115 del decreto legislativo 22 gennaio 2004, n. 42</ref>, il Ministero dei beni e delle attivita' culturali e del turismo, le regioni, gli enti locali e gli altri enti pubblici possono attivare forme speciali di partenariato con enti del Terzo settore che svolgono le attivita' indicate all'articolo 5, comma 1, lettere f), i), k) o z), individuati attraverso le procedure semplificate di cui all'<ref xmlns:ns135="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_135" href="/akn/it/act/decretoLegislativo/stato/2016-04-18/50/!main#art_151-com3" ns135:target="olf:it/decreto-legislativo/stato/2016/50/art_151-com3" ns135:relation="cites">articolo 151, comma 3, del decreto legislativo 18 aprile 2016, n. 50</ref>, dirette alla prestazione di attivita' di valorizzazione di beni culturali immobili di appartenenza pubblica. 
+ 18. Le attivita' indicate all'articolo 79, comma 4, lett. a), fermo restando il regime di esclusione dall'imposta sul valore aggiunto, sono esenti da ogni altro tributo. 
+ 19. Alla <ref xmlns:ns136="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_136" href="/akn/it/act/legge/stato/2016-08-19/166/!main" ns136:target="olf:it/legge/stato/2016/166" ns136:relation="repeals">legge 19 agosto 2016, n. 166</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 2, comma 1, lettera b), le parole «i soggetti di cui all'<ref xmlns:ns137="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_137" href="/akn/it/act/decretoLegislativo/stato/1997-12-04/460/!main#art_10" ns137:target="olf:it/decreto-legislativo/stato/1997/460/art_10" ns137:relation="cites">articolo 10 del decreto legislativo 4 dicembre 1997, n. 460</ref>» sono sostituite dalle seguenti: «gli enti del Terzo settore non commerciali di cui all'articolo 79, comma 5, del codice del Terzo settore di cui all'<ref xmlns:ns138="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_138" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns138:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns138:relation="repeals">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>»; 
+ b) all'articolo 16, comma 5, lettera a), numero 2, le parole «agli enti pubblici, alle ONLUS e agli enti privati costituiti per il perseguimento, senza scopo di lucro, di finalita' civiche e solidaristiche e che, in attuazione del principio di sussidiarieta' e in coerenza con i rispettivi statuti o atti costitutivi, promuovono e realizzano attivita' d'interesse generale anche mediante la produzione e lo scambio di beni e servizi di utilita' sociale nonche' attraverso forme di mutualita'» sono sostituite dalle seguenti: «ai soggetti di cui all'<ref xmlns:ns139="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_139" href="/akn/it/act/legge/stato/2016-08-19/166/!main#art_2-com1-letb" ns139:target="olf:it/legge/stato/2016/166/art_2-com1-letb" ns139:relation="repeals">articolo 2, comma 1, lettera b), della legge 19 agosto 2016, n. 166</ref>». 
+ 20. All'<ref xmlns:ns140="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_140" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1982-07-29/571/!main#art_15" ns140:target="olf:it/dpr/stato/1982/571/art_15" ns140:relation="cites">articolo 15 del decreto del Presidente della Repubblica 29 luglio 1982 n. 571</ref>, comma 6, le parole «i soggetti di cui all'<ref xmlns:ns141="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_141" href="/akn/it/act/decretoLegislativo/stato/1997-12-04/460/!main#art_10" ns141:target="olf:it/decreto-legislativo/stato/1997/460/art_10" ns141:relation="cites">articolo 10 del decreto legislativo 4 dicembre 1997, n. 460</ref>» sono sostituite dalle seguenti: «gli enti del Terzo settore non commerciali di cui all'articolo 79, comma 5, del codice del Terzo settore di cui all'<ref xmlns:ns142="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_142" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns142:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns142:relation="repeals">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>». 
+ 21. All'<ref xmlns:ns143="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_143" href="/akn/it/act/legge/stato/2013-12-27/147/!main#art_1-com236" ns143:target="olf:it/legge/stato/2013/147/art_1-com236" ns143:relation="cites">articolo 1, comma 236, della legge 27 dicembre 2013, n. 147</ref> le parole «i soggetti di cui all'<ref xmlns:ns144="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_144" href="/akn/it/act/decretoLegislativo/stato/1997-12-04/460/!main#art_10" ns144:target="olf:it/decreto-legislativo/stato/1997/460/art_10" ns144:relation="cites">articolo 10 del decreto legislativo 4 dicembre 1997, n. 460</ref>» sono sostituite dalle seguenti: «gli enti del Terzo settore non commerciali di cui all'articolo 79, comma 5, del codice del Terzo settore di cui all'<ref xmlns:ns145="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_145" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns145:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns145:relation="repeals">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>». 
+ 22. All'<ref xmlns:ns146="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_146" href="/akn/it/act/legge/stato/2003-06-25/155/!main#art_1-com1" ns146:target="olf:it/legge/stato/2003/155/art_1-com1" ns146:relation="cites">articolo 1, comma 1 della legge 25 giugno 2003, n. 155</ref> le parole «i soggetti di cui all'<ref xmlns:ns147="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_147" href="/akn/it/act/decretoLegislativo/stato/1997-12-04/460/!main#art_10" ns147:target="olf:it/decreto-legislativo/stato/1997/460/art_10" ns147:relation="cites">articolo 10 del decreto legislativo 4 dicembre 1997, n. 460</ref>» sono sostituite dalle seguenti: «gli enti del Terzo settore non commerciali di cui all'articolo 79, comma 5, del codice del Terzo settore di cui all'<ref xmlns:ns148="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_148" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns148:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns148:relation="repeals">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>». 
+ 23. All'<ref xmlns:ns149="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_149" href="/akn/it/act/decretoLegislativo/stato/2006-04-24/219/!main#art_157-com1bis" ns149:target="olf:it/decreto-legislativo/stato/2006/219/art_157-com1bis" ns149:relation="cites">articolo 157, comma 1-bis, del decreto legislativo 24 aprile 2006, n. 219</ref>, sono apportate le seguenti modifiche: 
+ a) le parole «organizzazioni non lucrative di utilita' sociale (ONLUS)» sono sostituite dalle seguenti: «enti del Terzo settore non commerciali di cui all'articolo 79, comma 5, del codice del Terzo settore di cui all'<ref xmlns:ns150="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_150" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns150:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns150:relation="repeals">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>»; 
+ b) le parole «Alle ONLUS» sono sostituite dalle seguenti: «Agli enti del Terzo settore non commerciali di cui all'articolo 79, comma 5, del codice del Terzo settore di cui all'<ref xmlns:ns151="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_151" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns151:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns151:relation="repeals">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Modifica al decreto legislativo 3 luglio 2017, n. 112</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_29">All'articolo 16, comma 1, primo periodo, del <ref xmlns:ns152="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_152" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/112/!main" ns152:target="olf:it/decreto-legislativo/stato/2017/112" ns152:relation="amends">decreto legislativo 3 luglio 2017, n. 112</ref>, le parole: «<quotedText eId="modNov_29_old_1">una quota non superiore al</quotedText>» sono sostituite dalla seguente: «<quotedText eId="modNov_29_new_1">il</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_5" placement="bottom">
+                                <p> Note all'art. 5: 
+ - Si riporta l'<ref xmlns:ns153="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_153" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/112/!main#art_16" ns153:target="olf:it/decreto-legislativo/stato/2017/112/art_16" ns153:relation="amends">articolo 16 del decreto legislativo 3 luglio 2017, n. 112</ref> (Revisione della disciplina in materia di impresa sociale, a norma dell'<ref xmlns:ns154="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_154" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letc" ns154:target="olf:it/legge/stato/2016/106/art_1-com2-letc" ns154:relation="repeals">articolo 1, comma 2, lettera c) della legge 6 giugno 2016, n. 106</ref>), pubblicato nella Gazz. Uff. 19 luglio 2017, n. 167: 
+ «Art. 16 (Fondo per la promozione e lo sviluppo delle imprese sociali). - 1. Le imprese sociali destinano il tre per cento degli utili netti annuali, dedotte eventuali perdite maturate negli esercizi precedenti, a fondi istituiti dagli enti e dalle associazioni di cui all'articolo 15, comma 3, nonche' dalla Fondazione Italia Sociale, specificamente ed esclusivamente destinati alla promozione e allo sviluppo delle imprese sociali attraverso azioni ed iniziative di varia natura, quali il finanziamento di progetti di studio e di ricerca in tema di impresa sociale o di attivita' di formazione dei lavoratori dell'impresa sociale, la promozione della costituzione di imprese sociali o di loro enti associativi, o il finanziamento di specifici programmi di sviluppo di imprese sociali o di loro enti associativi. Tali versamenti sono deducibili ai fini dell'imposta sui redditi dell'impresa sociale erogante.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Estinzione della Fondazione Italia sociale</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_30">L'<ref xmlns:ns155="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_155" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_10" ns155:target="olf:it/legge/stato/2016/106/art_10" ns155:relation="repeals">articolo 10 della legge 6 giugno 2016, n. 106</ref>, e' abrogato.</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Entro sessanta giorni dalla data di entrata in vigore della presente legge, la Fondazione Italia sociale e' estinta e liquidata, con la procedura prevista dall'articolo 16 dello statuto di cui all'allegato annesso al decreto del Presidente della Repubblica 28 luglio 2017, pubblicato nella Gazzetta Ufficiale n. 211 del 9 settembre 2017. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_6" placement="bottom">
+                                <p> Note all'<ref xmlns:ns156="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_156" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_6" ns156:target="olf:it/legge/stato/2016/106/art_6" ns156:relation="repeals">art. 6</ref>: 
+ - L'<ref xmlns:ns157="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_157" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_10" ns157:target="olf:it/legge/stato/2016/106/art_10" ns157:relation="repeals">art. 10 della legge 6 giugno 2016, n. 106</ref> (Delega al Governo per la riforma del Terzo settore, dell'impresa sociale e per la disciplina del servizio civile universale), pubblicata nella Gazz. Uff. 18 giugno 2016, n. 141, abrogato dalla presente legge, recava: «Fondazione Italia sociale». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Modifica al testo unico di cui al <ref xmlns:ns158="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_158" href="/akn/it/act/decretoLegislativo/stato/1990-10-31/346/!main" ns158:target="olf:it/decreto-legislativo/stato/1990/346" ns158:relation="amends">decreto legislativo 31 ottobre 1990, n. 346</ref>, in materia di esonero degli enti del Terzo settore dal regime di responsabilita' solidale in materia di imposta sulle successioni e donazioni 
+ 
+ 1. <mod eId="modNov_31">Al fine di esonerare gli enti del Terzo settore dal regime di solidarieta' passiva in materia di imposta sulle successioni e donazioni, all'articolo 36 del testo unico delle disposizioni concernenti l'imposta sulle successioni e donazioni, di cui al <ref xmlns:ns159="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_159" href="/akn/it/act/decretoLegislativo/stato/1990-10-31/346/!main" ns159:target="olf:it/decreto-legislativo/stato/1990/346" ns159:relation="amends">decreto legislativo 31 ottobre 1990, n. 346</ref>, dopo il comma 5 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_31_new_1">5-bis. Il regime di responsabilita' solidale di cui al presente articolo non si applica ai beneficiari di trasferimenti non soggetti all'imposta sulle successioni e donazioni e alle imposte ipotecaria e catastale ai sensi dell'articolo 3 del presente decreto e dell'articolo 82, comma 2, del codice del Terzo settore, di cui al <ref xmlns:ns160="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_160" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns160:target="olf:it/decreto-legislativo/stato/2017/117" ns160:relation="amends">decreto legislativo 3 luglio 2017, n. 117</ref>
+                                </quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_7" placement="bottom">
+                                <p> Note all'art. 7: 
+ - Si riporta l'<ref xmlns:ns161="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_161" href="/akn/it/act/decretoLegislativo/stato/1990-10-31/346/!main#art_36" ns161:target="olf:it/decreto-legislativo/stato/1990/346/art_36" ns161:relation="amends">articolo 36 del decreto legislativo 31 ottobre 1990, n.346</ref> recante «Approvazione del testo unico delle disposizioni concernenti l'imposta sulle successioni e donazioni.», pubblicato nella Gazz. Uff. 27 novembre 1990, n. 277, S.O.: 
+ «Art. 36 (Soggetti obbligati al pagamento dell'imposta (<ref xmlns:ns162="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_162" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972/637/!main#art_46" ns162:resolution="unresolved">Art. 46 D.P.R. n. 637/1972</ref>)). - 1. Gli eredi sono obbligati solidalmente al pagamento dell'imposta nell'ammontare complessivamente dovuto da loro e dai legatari. 
+ 2. Il coerede che ha accettato l'eredita' col beneficio d'inventario e' obbligato solidalmente al pagamento, a norma del comma 1, nel limite del valore della propria quota ereditaria. 
+ 3. Fino a quando l'eredita' non sia stata accettata, o non sia stata accettata da tutti i chiamati, i chiamati all'eredita', o quelli che non hanno ancora accettato, e gli altri soggetti obbligati alla dichiarazione della successione, esclusi i legatari, rispondono solidalmente dell'imposta nel limite del valore dei beni ereditari rispettivamente posseduti. Si applica l'<ref xmlns:ns163="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_163" href="/akn/it/act/regio.decreto/stato/1986-04-26/131/!main#art_58" ns163:target="olf:it/regio-decreto/stato/1986/131/art_58" ns163:relation="cites">art. 58 del testo unico sull'imposta di registro</ref> approvato con <ref xmlns:ns164="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_164" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-04-26/131/!main" ns164:target="olf:it/dpr/stato/1986/131" ns164:relation="cites">decreto del Presidente della Repubblica 26 aprile 1986, n. 131</ref>. 
+ 4. L'ufficio del registro puo' chiedere la fissazione di un termine per l'accettazione dell'eredita' a norma dell'<ref xmlns:ns165="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_165" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_481" ns165:target="olf:it/codice-civile/stato/1942/262/art_481" ns165:relation="cites">articolo 481 del codice civile</ref> o la nomina di un curatore dell'eredita' giacente a norma dell'art. 528 dello stesso codice. 
+ 5. I legatari sono obbligati al pagamento dell'imposta relativa ai rispettivi legati. 
+ 5-bis. Il regime di responsabilita' solidale di cui al presente articolo non si applica ai beneficiari di trasferimenti non soggetti all'imposta sulle successioni e donazioni e alle imposte ipotecaria e catastale ai sensi dell'articolo 3 del presente decreto e dell'articolo 82, comma 2, del codice del Terzo settore, di cui al <ref xmlns:ns166="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_166" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns166:target="olf:it/decreto-legislativo/stato/2017/117" ns166:relation="amends">decreto legislativo 3 luglio 2017, n. 117</ref>.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Modifica all'<ref xmlns:ns167="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_167" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_705" ns167:target="olf:it/codice-civile/stato/1942/262/art_705" ns167:relation="cites">articolo 705 del codice civile</ref> in materia di dispensa dall'apposizione dei sigilli e dall'inventario dei beni dell'eredita' 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_32">Dopo il <ref xmlns:ns168="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_168" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_705-com2" ns168:target="olf:it/codice-civile/stato/1942/262/art_705-com2" ns168:relation="cites">secondo comma dell'articolo 705 del codice civile</ref> e' aggiunto il seguente: 
+ «<quotedText eId="modNov_32_new_1">Quando sono chiamati all'eredita' unicamente persone giuridiche private senza scopo di lucro ed enti del Terzo settore, prima dell'accettazione della stessa eredita' questi hanno facolta' di dispensare l'esecutore testamentario dagli obblighi di cui ai commi precedenti, mediante dichiarazione ricevuta dal cancelliere del tribunale del circondario in cui si e' aperta la successione o da un notaio, fermo restando quanto previsto dall'articolo 473 e previa prestazione di idonea garanzia per i debiti ereditari. La dispensa non ha effetto se la dichiarazione non e' effettuata da tutti i chiamati</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Con decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Ministro dell'economia e delle finanze e con il Ministro della giustizia, sono individuati i criteri e le modalita' per la prestazione della garanzia prevista dal <ref xmlns:ns169="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_169" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_705-com3" ns169:target="olf:it/codice-civile/stato/1942/262/art_705-com3" ns169:relation="cites">terzo comma dell'articolo 705 del codice civile</ref>, introdotto dal comma 1 del presente articolo. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_8" placement="bottom">
+                                <p> Note all'art. 8: 
+ - Si riporta l'<ref xmlns:ns170="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_170" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_705" ns170:target="olf:it/codice-civile/stato/1942/262/art_705" ns170:relation="cites">articolo 705 del codice civile</ref>, come modificato dalla presente legge: 
+ «Art. 705 (Apposizione di sigilli e inventario). - L'esecutore testamentario fa apporre i sigilli quando tra i chiamati all'eredita' vi sono minori, assenti, interdetti o persone giuridiche. 
+ Egli in tal caso fa redigere l'inventario dei beni dell'eredita' in presenza dei chiamati all'eredita' o dei loro rappresentanti, o dopo averli invitati. 
+ Quando sono chiamati all'eredita' unicamente persone giuridiche private senza scopo di lucro ed enti del Terzo settore, prima dell'accettazione della stessa eredita' questi hanno facolta' di dispensare l'esecutore testamentario dagli obblighi di cui ai commi precedenti, mediante dichiarazione ricevuta dal cancelliere del tribunale del circondario in cui si e' aperta la successione o da un notaio, fermo restando quanto previsto dall'articolo 473 e previa prestazione di idonea garanzia per i debiti ereditari. La dispensa non ha effetto se la dichiarazione non e' effettuata da tutti i chiamati.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 4 luglio 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Calderone, Ministro del lavoro e delle politiche sociali Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
