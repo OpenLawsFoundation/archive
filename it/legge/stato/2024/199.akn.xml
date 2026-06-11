@@ -1,0 +1,676 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-20/199/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-20/199"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-12-20;199"/>
+                    <FRBRalias name="eli" value="eli/id/2024/12/27/24G00217/ORIGINAL"/>
+                    <FRBRdate date="2024-12-20" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/27/24G00217/ORIGINAL" aknrelname="eli/id/2024/12/27/24G00217/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 28 ottobre 2024, n. 160, recante disposizioni urgenti in materia di lavoro, universita', ricerca e istruzione per una migliore attuazione del Piano nazionale di ripresa e resilienza. (24G00217)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00217" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-12-20" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-20/199/ita@2024-12-28/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-20/199/ita@2024-12-28"/>
+                    <FRBRdate date="2024-12-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/27/24G00217/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/12/27/24G00217/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/12/27/24G00217/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-20/199/ita@2024-12-28/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-20/199/ita@2024-12-28.xml"/>
+                    <FRBRdate date="2024-12-20" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/27/24G00217/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-12-27" name="" number="302" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-12-27" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2024-12-20" refersTo="#C.2119"/>
+                <step by="#senato" date="2024-12-20" refersTo="#S.1323"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:legge:2000-11-14;338#1 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:legge:2000-11-14;338#1 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2004-04-23;124#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:legge:2010-12-30;240#16"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:legge:2015-12-28;208#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:legge:2016-10-26;198#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-04-13;59#18 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2018-10-23;119#25 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:legge:2022-07-15;99#11"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-02-24;13#15"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:legge:2023-12-27;206#18"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-03-02;19#29"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 28 ottobre 2024, n. 160 (in G.U. 28/10/2024, n. 253).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-28;160#Tabella A"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione della Tabella A.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-28;160#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 2, 3, 4, 6, 7, 10, 11 e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-28;160#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1, 2, 3, 4, 7 e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-28;160#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-28;160#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 1 e 2 e l'introduzione del comma 2-bis all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-28;160#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, comma 1 lettera b) e rubrica e l'introduzione dei commi 1-bis e 1-ter all'art. 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-28;160#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-28;160#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, commi 1 lettera a) e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-28;160#8 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 8-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-28;160#9"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-20;199#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-28;160#10"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_1__para_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_1__para_11"/>
+                        <old href="#modNov_1_old_2"/>
+                        <new href="#modNov_1_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_1__para_2"/>
+                        <old href="#modNov_1_old_3"/>
+                        <new href="#modNov_1_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_1__para_3"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_1__para_7"/>
+                        <old href="#modNov_1_old_5"/>
+                        <new href="#modNov_1_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_1"/>
+                        <old href="#modNov_1_old_6"/>
+                        <new href="#modNov_1_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_1__para_4"/>
+                        <old href="#modNov_1_old_8"/>
+                        <new href="#modNov_1_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_1__para_6"/>
+                        <new href="#modNov_1_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_2__para_7"/>
+                        <old href="#modNov_2_old_16"/>
+                        <new href="#modNov_2_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_2"/>
+                        <old href="#modNov_2_old_18"/>
+                        <new href="#modNov_2_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_2__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_2__para_2"/>
+                        <old href="#modNov_2_old_12"/>
+                        <new href="#modNov_2_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_2__para_3"/>
+                        <old href="#modNov_2_old_13"/>
+                        <new href="#modNov_2_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_2__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_3__para_1"/>
+                        <old href="#modNov_3_old_20"/>
+                        <new href="#modNov_3_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_4__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_4__para_2"/>
+                        <new href="#modNov_4_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_4__para_2-bis"/>
+                        <new href="#modNov_4_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_4__para_1"/>
+                        <new href="#modNov_4_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_6__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_6"/>
+                        <new href="#modNov_5_new_22"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_7__para_1"/>
+                        <new href="#modNov_6_new_25"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_7__para_1"/>
+                        <old href="#modNov_6_old_26"/>
+                        <new href="#modNov_6_new_26"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_8__para_1__point_a"/>
+                        <old href="#modNov_7_old_23"/>
+                        <new href="#modNov_7_new_23"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_8__para_2"/>
+                        <new href="#modNov_7_new_27"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_8__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_8-bis"/>
+                        <new href="#modNov_8_new_29"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_9"/>
+                        <new href="#modNov_9_new_30"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-28/160/ita@2024-12-28/!main/~art_10__para_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-12-20/199/!main" showAs=""/>
+                <passiveRef eId="C.2119" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2119" showAs=""/>
+                <passiveRef eId="S.1323" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1323" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/12/27/24G00217/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 28 ottobre 2024, n. 160, recante disposizioni urgenti in materia di lavoro, universita', ricerca e istruzione per una migliore attuazione del Piano nazionale di ripresa e resilienza. (24G00217)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00217</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-12-20</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/12/27/24G00217/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/12/27/24G00217/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/12/27/24G00217/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/12/27/24G00217/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/199" nativeUrn="urn:nir:stato:legge:2024-12-20;199" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-12-27"><ns0:event type="enacted" date="2024-12-20"/><ns0:event type="published" date="2024-12-27"/><ns0:event type="commenced" date="2024-12-27"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/76cc1465-3392-415c-b66c-da87f542464e" sourceSha256="58ed102656e7083559c18f6a26fe8214042b385acc53a8ad5d99c3886638a426" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:15:43.621694Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-12-20">20 dicembre 2024</docDate>
+                <docNumber>199</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 28 ottobre 2024, n. 160, recante disposizioni urgenti in materia di lavoro, universita', ricerca e istruzione per una migliore attuazione del Piano nazionale di ripresa e resilienza. (24G00217) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 28/12/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2024-10-28/160/!main" ns1:target="olf:it/decreto-legge/stato/2024/160" ns1:relation="amends">decreto-legge 28 ottobre 2024, n. 160</ref>, recante disposizioni urgenti in materia di lavoro, universita', ricerca e istruzione per una migliore attuazione del Piano nazionale di ripresa e resilienza, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2024-10-28/160/!main" ns2:target="olf:it/decreto-legge/stato/2024/160" ns2:relation="amends">decreto-legge 28 ottobre 2024, n. 160</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 253 del 28 ottobre 2024. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 55. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 20 dicembre 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Calderone, Ministro del lavoro e delle politiche sociali Bernini, Ministro dell'universita' e della ricerca Valditara, Ministro dell'istruzione e del merito Giorgetti, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-12-20/199/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-12-20/199"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-12-20;199"/>
+                                <FRBRalias name="eli" value="eli/id/2024/12/27/24G00217/ORIGINAL"/>
+                                <FRBRdate date="2024-12-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-12-20/199/ita@2024-12-28/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-12-20/199/ita@2024-12-28"/>
+                                <FRBRdate date="2024-12-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-12-20/199/ita@2024-12-28/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-12-20/199/ita@2024-12-28.xml"/>
+                                <FRBRdate date="2024-12-20" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 28 OTTOBRE 2024, N. 160 
+ 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 2, le parole: «<quotedText eId="modNov_1_old_3">dell'INAIL</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_3">dell'Istituto nazionale per l'assicurazione contro gli infortuni sul lavoro (INAIL)</quotedText>»; 
+ al comma 3, capoverso 863, primo periodo, dopo le parole: «nel proprio sito» e' inserita la seguente: «<quotedText eId="modNov_1_new_4">internet</quotedText>»; 
+ al comma 4, capoverso 8, le parole: «<quotedText eId="modNov_1_old_8">dalla Procura della Repubblica</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_8">dall'autorita' giudiziaria</quotedText>»; 
+ al comma 6, dopo le parole: «sono elaborati ai sensi» sono inserite le seguenti: «<quotedText eId="modNov_1_new_9">dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/1998-05-08/146/!main#art_10-com12" ns4:target="olf:it/legge/stato/1998/146/art_10-com12" ns4:relation="cites">articolo 10, comma 12, della legge 8 maggio 1998, n. 146</ref>, e</quotedText>»; 
+ al comma 7, le parole: «<quotedText eId="modNov_1_old_5">, nonche' sono stabilite</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_5">e sono stabiliti</quotedText>»; 
+ al comma 10, le parole: «commi da 5 a 9» sono sostituite dalle seguenti: «commi da 5 a 8» e le parole: «Misura 5» sono sostituite dalle seguenti: «Missione 5»; 
+ al comma 11, capoverso 1-ter, le parole: «<quotedText eId="modNov_1_old_2">l'accessibilita'</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_2">la possibilita' di accesso</quotedText>»; 
+ alla rubrica, le parole: «<quotedText eId="modNov_1_old_6">di contrasto al lavoro sommerso</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_6">per il contrasto del lavoro sommerso</quotedText>».</mod>
+                                    <mod eId="modNov_2">All'articolo 2: 
+ al comma 1, le parole: «della prestazioni erogata» sono sostituite dalle seguenti: «della prestazione erogata», le parole: «di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2015-09-14/148/!main#art_27" ns5:target="olf:it/decreto-legislativo/stato/2015/148/art_27" ns5:relation="cites">art. 27 del decreto legislativo 14 settembre 2015, n. 148</ref>» sono sostituite dalle seguenti: «ai sensi dell'articolo 27 del medesimo <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2015/148/!main" ns6:resolution="unresolved">decreto legislativo n. 148 del 2015</ref>», le parole: «tessile, dell'abbigliamento e calzaturiero (TAC), nonche' conciario» sono sostituite dalle seguenti: «tessile, della pelletteria, dell'abbigliamento e calzaturiero, nel settore conciario nonche', limitatamente alle attivita' svolte dagli addetti alle lavorazioni di montatura e saldatura di accessori della moda, nelle attivita' identificate dai codici ATECO indicati nella tabella A annessa al presente decreto e dal codice ATECO 25.62.00» e le parole: «corrispondente al periodo che decorre dall'entrata in vigore del presente decreto fino al 31 dicembre 2024» sono sostituite dalle seguenti: «pari a dodici settimane fino al 31 gennaio 2025»; 
+ al comma 2, le parole: «<quotedText eId="modNov_2_old_12">a normativa vigente</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_12">dalla normativa vigente</quotedText>»; 
+ al comma 3, quarto periodo, le parole: «<quotedText eId="modNov_2_old_13">art. 7, comma 5 bis</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_13">articolo 7, comma 5-bis</quotedText>»; 
+ al comma 4, primo periodo, le parole: «nel limite di spesa di <quotedText eId="modNov_2_old_16">64,6 milioni di euro per l'anno 2024</quotedText>» sono sostituite dalle seguenti: «nei limiti di spesa di 73,6 milioni di euro per l'anno 2024 e di 36,8 milioni di euro per l'anno 2025» e le parole: «del predetto limite di spesa» sono sostituite dalle seguenti: «dei predetti limiti di spesa»; 
+ al comma 7, le parole: «64,6 milioni di euro per l'anno 2024» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_16">73,6 milioni di euro per l'anno 2024 e a 36,8 milioni di euro per l'anno 2025,</quotedText>»; 
+ alla rubrica, le parole: «<quotedText eId="modNov_2_old_18">settore moda</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_18">settore della moda</quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 3: 
+ al comma 1, capoverso 6-bis, le parole: «<quotedText eId="modNov_3_old_20">ivi incluso il rifinanziamento della misura</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_20">ivi compreso il rifinanziamento degli interventi</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 4: 
+ al comma 1, primo periodo, dopo le parole: «personale docente» sono inserite le seguenti: «<quotedText eId="modNov_4_new_15">delle universita'</quotedText>», le parole: «dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegge/stato/2023-02-24/13/!main#art_26-com7" ns7:target="olf:it/decreto-legge/stato/2023/13/art_26-com7" ns7:relation="amends">articolo 26, comma 7, del decreto-legge 24 febbraio 2023, n. 13</ref>, convertito, con modificazioni, dalla <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2023-04-21/41/!main" ns8:target="olf:it/legge/stato/2023/41" ns8:relation="amends">legge 21 aprile 2023, n. 41</ref>» sono sostituite dalle seguenti: «dell'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2010-12-30/240/!main#art_18-com4ter" ns9:target="olf:it/legge/stato/2010/240/art_18-com4ter" ns9:relation="amends">articolo 18, comma 4-ter, della legge 30 dicembre 2010, n. 240</ref>» e le parole: «<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2010-12-30/240/!main" ns10:target="olf:it/legge/stato/2010/240" ns10:relation="amends">legge 30 dicembre 2010, n. 240</ref>» sono sostituite dalle seguenti: «medesima <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2010/240/!main" ns11:resolution="unresolved">legge n. 240 del 2010</ref>»; 
+ al comma 2, dopo le parole: «organico dei docenti» e' inserita la seguente: «<quotedText eId="modNov_4_new_19">universitari</quotedText>»; 
+ dopo il comma 2 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_4_new_11">2-bis. All'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2010-12-30/240/!main#art_16-com1" ns12:target="olf:it/legge/stato/2010/240/art_16-com1" ns12:relation="amends">articolo 16, comma 1, della legge 30 dicembre 2010, n. 240</ref>, le parole: "nove anni" sono sostituite dalle seguenti: "dodici anni"</quotedText>».</mod>
+                                    <mod eId="modNov_5">All'articolo 6: 
+ al comma 1, lettera b), capoverso 4-bis, le parole: «del target» sono sostituite dalle seguenti: «dell'obiettivo» e le parole: «ivi incluso» sono sostituite dalle seguenti: «ivi compresi»; 
+ dopo il comma 1 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_5_new_22">1-bis. All'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2000-11-14/338/!main#art_1quater-com1" ns13:target="olf:it/legge/stato/2000/338/art_1quater-com1" ns13:relation="amends">articolo 1-quater, comma 1, della legge 14 novembre 2000, n. 338</ref>, sono aggiunte, in fine, le seguenti parole: "o dalle specifiche normative regionali e statali, fermo restando il rispetto della normativa in materia di sicurezza e di requisiti igienico-sanitari". 
+ 1-ter. Al fine di assicurare il raggiungimento degli obiettivi M4C1-27 e M4C1-30, riforma 1.7 della Missione 4, Componente 1, del PNRR, l'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2000-11-14/338/!main#art_1ter" ns14:target="olf:it/legge/stato/2000/338/art_1ter" ns14:relation="amends">articolo 1-ter della legge 14 novembre 2000, n. 338</ref>, e' abrogato</quotedText>»; 
+ alla rubrica, le parole: «del target M4C1-30» sono sostituite dalle seguenti: «degli obiettivi M4C1-27 e M4C1-30».</mod>
+                                    <mod eId="modNov_6">All'articolo 7: 
+ al comma 1, dopo le parole: «Campus del Politecnico» sono inserite le seguenti: «<quotedText eId="modNov_6_new_25">di Milano denominato</quotedText>» e le parole: «<quotedText eId="modNov_6_old_26">a Bovisa Milano</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_26">, situato nel quartiere della Bovisa del comune di Milano</quotedText>».</mod>
+                                    <mod eId="modNov_7">All'articolo 8: 
+ al comma 1<quotedText eId="modNov_7_new_27">,</quotedText> lettera a), le parole: «<quotedText eId="modNov_7_old_23">attivati all'estero,</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_23">attivati all'estero previsti nell'ambito dei piani triennali di programmazione delle attivita' formative adottati dalle regioni,</quotedText>»; 
+ al comma 2: 
+ al primo periodo, le parole: «ITS Academy» sono sostituite dalle seguenti: «Istituti tecnologici superiori (ITS Academy), di cui alla <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2022-07-15/99/!main" ns15:target="olf:it/legge/stato/2022/99" ns15:relation="amends">legge 15 luglio 2022, n. 99</ref>,», le parole: «e' autorizzata» sono sostituite dalle seguenti: «sono autorizzate» e le parole: «della offerta formativa di cui al presente periodo» sono sostituite dalle seguenti: «dell'offerta formativa connessa ai processi di cui al presente periodo»; 
+ al secondo periodo, le parole: «dell'autorizzazione di spesa di cui all'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2007-08-03/123/!main#art_1-com2-letp-num3" ns16:target="olf:it/legge/stato/2007/123/art_1-com2-letp-num3" ns16:relation="cites">articolo 1, comma 2, lettera p), numero 3), della legge 3 agosto 2007, n. 123</ref>,» sono sostituite dalle seguenti: «delle risorse dell'autorizzazione di spesa di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2007-08-03/123/!main#art_1-com7bis" ns17:target="olf:it/legge/stato/2007/123/art_1-com7bis" ns17:relation="cites">articolo 1, comma 7-bis, della legge 3 agosto 2007, n. 123</ref>, iscritte nello stato di previsione del Ministero dell'istruzione e del merito per le finalita' di cui all'articolo 1, comma 2, lettera p), numero 3), della medesima <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2007/123/!main" ns18:resolution="unresolved">legge n. 123 del 2007</ref>» e dopo le parole: «1 milione di euro per l'anno 2024» e' inserito il seguente segno di interpunzione: «,».</mod>
+                                    <mod eId="modNov_8">Dopo l'articolo 8 e' inserito il seguente: 
+ «<quotedText eId="modNov_8_new_29">Art. 8-bis (Disposizioni urgenti per l'avvio del percorso liceale del made in Italy). - 1. All'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2023-12-27/206/!main#art_18-com4" ns19:target="olf:it/legge/stato/2023/206/art_18-com4" ns19:relation="amends">articolo 18, comma 4, della legge 27 dicembre 2023, n. 206</ref>, sono apportate le seguenti modificazioni: 
+ a) al primo periodo, le parole da: "; contestualmente" fino alla fine del periodo sono soppresse; 
+ b) al secondo periodo, dopo le parole: "<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2011-07-15/111/!main" ns20:target="olf:it/legge/stato/2011/111" ns20:relation="cites">legge 15 luglio 2011, n. 111</ref>," sono inserite le seguenti: "nonche' dell'organico dell'autonomia del personale docente e dell'organico del personale amministrativo, tecnico e ausiliario previsti a legislazione vigente,"</quotedText>».</mod>
+                                    <mod eId="modNov_9">L'articolo 9 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_9_new_30">Art. 9 (Modifiche all'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/59/!main#art_18bis" ns21:target="olf:it/decreto-legislativo/stato/2017/59/art_18bis" ns21:relation="amends">articolo 18-bis del decreto legislativo 13 aprile 2017, n. 59</ref>, in materia di riforma del reclutamento degli insegnanti tecnico-pratici). - 1. All'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/59/!main#art_18bis-com4" ns22:target="olf:it/decreto-legislativo/stato/2017/59/art_18bis-com4" ns22:relation="amends">articolo 18-bis, comma 4, del decreto legislativo 13 aprile 2017, n. 59</ref>, sono apportate le seguenti modificazioni: 
+ a) al primo periodo, dopo le parole: "su posto comune" sono inserite le seguenti: "e su posto di insegnante tecnico-pratico" e dopo le parole: "di cui al comma 1" sono inserite le seguenti: "del presente articolo, nonche' i vincitori del concorso su posto di insegnante tecnico-pratico, che vi abbiano partecipato con i requisiti di cui all'articolo 22, comma 2, secondo periodo"; 
+ b) al secondo periodo, dopo le parole: "ultimo periodo," sono inserite le seguenti: "nonche' i vincitori di concorso su posto di insegnante tecnico-pratico che vi abbiano partecipato con i requisiti di cui all'articolo 22, comma 2, secondo periodo,"</quotedText>».</mod>
+                                    <mod eId="modNov_10">All'articolo 10: 
+ al comma 1, secondo periodo, le parole: «a mediante corrispondente» sono sostituite dalle seguenti: «mediante corrispondente».</mod> 
+ E' aggiunta, in fine, la seguente tabella: 
+ 
+ «Tabella A 
+ (articolo 2, comma 1) 
+ 
+ </p>
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <p>Codice ATECO 2007 </p>
+                                        </th>
+                                        <th>
+                                            <p>Descrizione codice ATECO </p>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> 15.12.01 </p>
+                                        </td>
+                                        <td>
+                                            <p>Fabbricazione di frustini e scudisci per equitazione </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>    20.59.40 </p>
+                                        </td>
+                                        <td>
+                                            <p>Fabbricazione di prodotti chimici vari per uso industriale (inclusi i preparati antidetonanti e antigelo) </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>  22.29.09 </p>
+                                        </td>
+                                        <td>
+                                            <p>Fabbricazione di altri articoli in materie plastiche n.c.a. </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> 24.41.00 </p>
+                                        </td>
+                                        <td>
+                                            <p>Produzione di metalli preziosi e semilavorati </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> 25.61.00 </p>
+                                        </td>
+                                        <td>
+                                            <p>Trattamento e rivestimento dei metalli </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>  25.73.20 </p>
+                                        </td>
+                                        <td>
+                                            <p>Fabbricazione di stampi, portastampi, sagome, forme per macchine </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>  25.99.99 </p>
+                                        </td>
+                                        <td>
+                                            <p>Fabbricazione di altri articoli metallici e minuteria metallica n.c.a. </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>   28.29.91 </p>
+                                        </td>
+                                        <td>
+                                            <p>Fabbricazione di apparecchi per depurare e filtrare liquidi e gas per uso non domestico </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> 28.49.01 </p>
+                                        </td>
+                                        <td>
+                                            <p>Fabbricazione di macchine per la galvanostegia </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>      28.94.10 </p>
+                                        </td>
+                                        <td>
+                                            <p>Fabbricazione di macchine tessili, di macchine e di impianti per il trattamento ausiliario dei tessili, di macchine per cucire e per maglieria (incluse parti e accessori) </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>    28.94.20 </p>
+                                        </td>
+                                        <td>
+                                            <p>Fabbricazione di macchine e apparecchi per l'industria delle pelli, del cuoio e delle calzature (incluse parti e accessori) </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p>
+ 
+ 
+ ». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
