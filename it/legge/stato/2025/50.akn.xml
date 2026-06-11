@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-15/50/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-15/50"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-04-15;50"/>
+                    <FRBRalias name="eli" value="eli/id/2025/04/15/25G00061/ORIGINAL"/>
+                    <FRBRdate date="2025-04-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/15/25G00061/ORIGINAL" aknrelname="eli/id/2025/04/15/25G00061/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni per l'esercizio della liberta' sindacale del personale delle Forze armate e delle Forze di polizia a ordinamento militare, nonche' di proroga della delega di cui all'articolo 9, comma 15, della legge 28 aprile 2022, n. 46. (25G00061)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00061" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-04-15" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-15/50/ita@2025-04-30/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-15/50/ita@2025-04-30"/>
+                    <FRBRdate date="2025-04-30" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/15/25G00061/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/04/15/25G00061/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/04/15/25G00061/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-15/50/ita@2025-04-30/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-15/50/ita@2025-04-30.xml"/>
+                    <FRBRdate date="2025-04-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/15/25G00061/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-04-15" name="" number="88" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-04-15" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2025-04-15" refersTo="#S.1273"/>
+                <step by="#camera" date="2025-04-15" refersTo="#C.2171"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-04-15;50#2"/>
+                        <destination href="urn:nir:stato:legge:2022-04-28;46#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1) la modifica dell'art. 9, comma 15.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/2022-04-28/46/ita@2025-04-30/!main/~art_9__para_15"/>
+                        <old href="#modNov_1_old_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-04-15/50/!main" showAs=""/>
+                <passiveRef eId="S.1273" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1273" showAs=""/>
+                <passiveRef eId="C.2171" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2171" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/04/15/25G00061/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni per l'esercizio della liberta' sindacale del personale delle Forze armate e delle Forze di polizia a ordinamento militare, nonche' di proroga della delega di cui all'articolo 9, comma 15, della legge 28 aprile 2022, n. 46. (25G00061)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00061</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-04-15</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/04/15/25G00061/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/04/15/25G00061/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/04/15/25G00061/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/04/15/25G00061/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/50" nativeUrn="urn:nir:stato:legge:2025-04-15;50" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-04-15"><ns0:event type="enacted" date="2025-04-15"/><ns0:event type="published" date="2025-04-15"/><ns0:event type="commenced" date="2025-04-15"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/9db1747c-d11d-4f17-8eec-3450515f807a" sourceSha256="1f7b13afde758d2e73ac0f763fce49426abc50dea4334aa8206f8a5f7c30f009" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:04:53.759873Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-04-15">15 aprile 2025</docDate>
+                <docNumber>50</docNumber>
+                <docTitle>Disposizioni per l'esercizio della liberta' sindacale del personale delle Forze armate e delle Forze di polizia a ordinamento militare, nonche' di proroga della delega di cui all'articolo 9, comma 15, della legge 28 aprile 2022, n. 46. (25G00061) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 30/04/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading>Disposizioni in materia di permessi e distacchi in favore delle associazioni professionali a carattere sindacale tra militari</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>I distacchi e i permessi retribuiti di cui all'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_1480-com3" ns1:target="olf:it/decreto-legislativo/stato/2010/66/art_1480-com3" ns1:relation="cites">articolo 1480, comma 3, del codice dell'ordinamento militare</ref>, di cui al <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns2:target="olf:it/decreto-legislativo/stato/2010/66" ns2:relation="cites">decreto legislativo 15 marzo 2010, n. 66</ref>, a decorrere dall'anno 2025, sono attribuiti alle associazioni di cui agli articoli 1475, comma 2, nonche' 1476 e seguenti del citato codice di cui al <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegislativo/stato/2010/66/!main" ns3:resolution="unresolved">decreto legislativo n. 66 del 2010</ref>, in deroga alle modalita' di cui al comma 4 del medesimo articolo 1480, in ragione di un distacco ogni duemila unita' di personale e di un'ora annua di permesso retribuito ogni unita' di personale, ferma restando l'applicazione delle modalita' di cui al citato comma 4 per eventuali ulteriori attribuzioni di permessi e distacchi. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'Amministrazione competente per materia, ai sensi dell'articolo 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns4:target="olf:it/dpr/stato/1985/1092" ns4:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo degli <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_1480" ns5:target="olf:it/decreto-legislativo/stato/2010/66/art_1480" ns5:relation="cites">articoli 1480</ref>, <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_1475" ns6:target="olf:it/decreto-legislativo/stato/2010/66/art_1475" ns6:relation="cites">1475</ref> e <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_1476" ns7:target="olf:it/decreto-legislativo/stato/2010/66/art_1476" ns7:relation="cites">1476 del decreto legislativo 15 marzo 2010, n. 66</ref>, recante «<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns8:target="olf:it/decreto-legislativo/stato/2010/66" ns8:relation="cites">Codice dell'ordinamento militare</ref>», pubblicato nel supplemento ordinario n. 84 alla Gazzetta Ufficiale 8 maggio 2010, n. 106: 
+ «Art. 1480 (Svolgimento dell'attivita' di carattere sindacale). - 1. I rappresentanti delle APCSM svolgono l'attivita' sindacale fuori dal servizio. 
+ 2. Alle APCSM riconosciute rappresentative ai sensi dell'articolo 1478 puo' essere concesso, informate le associazioni, l'uso di un locale comune da adibire a ufficio delle associazioni stesse nella sede centrale e in quelle periferiche di livello areale e comunque non inferiore al livello regionale, compatibilmente con le disponibilita' e senza oneri per l'amministrazione. Le modalita' di concessione dell'uso del locale comune sono disciplinate con il regolamento di attuazione di cui all'articolo 1475, comma 2. 
+ 3. Ai fini dello svolgimento dell'attivita' sindacale, ai rappresentanti sindacali delle APCSM rappresentative ai sensi dell'articolo 1478 sono riconosciuti distacchi e permessi sindacali retribuiti nonche' permessi e aspettative sindacali non retribuiti, assegnati con le modalita' di cui ai commi 4 e 5, sulla base dell'effettiva rappresentativita' del personale calcolata ai sensi dell'articolo 1478. 
+ 4. Con la contrattazione di cui all'articolo 1479, nell'ambito delle risorse ad essa destinate, sono stabiliti: 
+ a) il contingente massimo dei distacchi autorizzabili per ciascuna Forza armata e Forza di polizia a ordinamento militare nonche' il numero massimo annuo dei permessi retribuiti per i rappresentanti delle associazioni rappresentative; 
+ b) la misura dei permessi e delle aspettative sindacali non retribuiti che possono essere concessi ai rappresentanti sindacali. 
+ 5. Il contingente dei distacchi sindacali e dei permessi retribuiti di cui al comma 4 e' ripartito tra le APCSM con criterio proporzionale, sulla base della rappresentativita' calcolata ai sensi dell'articolo 1478, con decreto del Ministro per la pubblica amministrazione, sentiti i Ministri della difesa e dell'economia e delle finanze, nell'ambito delle rispettive competenze, e le APCSM. 
+ 6. Le richieste di distacco o di aspettativa sindacale non retribuita sono presentate dalle APCSM rappresentative ai sensi dell'articolo 1478 alla Forza armata o alla Forza di polizia a ordinamento militare cui appartiene il personale interessato, la quale, accertati i requisiti oggettivi previsti dalle disposizioni del presente capo, provvede, entro il termine massimo di trenta giorni dalla richiesta, a darne comunicazione al Dipartimento della funzione pubblica della Presidenza del Consiglio dei ministri e al Ministero della difesa o, per il personale del Corpo della guardia di finanza, al Ministero dell'economia e delle finanze, per i conseguenti provvedimenti di stato. 
+ 7. Le APCSM possono procedere alla revoca dei distacchi e delle aspettative in ogni momento, comunicandola alla Forza armata o alla Forza di polizia a ordinamento militare di riferimento nonche' al Ministero della difesa ovvero al Ministero dell'economia e delle finanze e al Dipartimento della funzione pubblica della Presidenza del Consiglio dei ministri per i provvedimenti conseguenti. Le variazioni relative ai distacchi e alle aspettative devono essere comunicate entro il 31 gennaio di ogni anno. 
+ 8. Sono vietati l'utilizzo della ripartizione dei distacchi in forma compensativa nonche' il loro utilizzo in forma frazionata. 
+ 9. I distacchi e le aspettative sindacali non retribuite possono durare non piu' di tre anni. Nessun militare puo' essere posto in distacco o in aspettativa sindacale non retribuita piu' di cinque volte. Tra ciascun distacco o aspettativa sindacale non retribuita deve intercorrere almeno un triennio di servizio effettivo. 
+ 10. Le modalita' di impiego del militare che riprende servizio al termine di ogni periodo di distacco sindacale o aspettativa sindacale non retribuita sono disciplinate con il regolamento di attuazione di cui all'articolo 1475, comma 2. 
+ 11. I dirigenti delle APCSM rappresentative ai sensi dell'articolo 1478 che intendono fruire dei permessi sindacali di cui al presente articolo, devono darne comunicazione scritta al proprio comandante, individuato nell'autorita' deputata alla concessione della licenza, almeno cinque giorni prima o, in casi eccezionali, almeno quarantotto ore prima, tramite l'associazione di appartenenza. Il comandante autorizza il permesso sindacale salvo che non ostino prioritarie e improcrastinabili esigenze di servizio e sempre che venga garantita la regolare funzionalita' del servizio. 
+ 12. E' vietata ogni forma di cumulo dei permessi sindacali, giornalieri od orari. 
+ 13. L'effettiva utilizzazione dei permessi sindacali deve essere certificata entro tre giorni all'autorita' individuata ai sensi del comma 11 da parte del dirigente dell'APCSM che ha chiesto e utilizzato il permesso. 
+ 14. I permessi sindacali sono equiparati al servizio.
+ Tenuto conto della specificita' delle funzioni istituzionali e della particolare organizzazione delle Forze armate e delle Forze di polizia a ordinamento militare, i permessi sono autorizzati in misura corrispondente al turno di servizio giornaliero e non possono superare mensilmente, per ciascun rappresentante sindacale, nove turni giornalieri di servizio. 
+ 15. Per i permessi sindacali retribuiti e' corrisposto il trattamento economico corrispondente a quello di servizio, con esclusione delle indennita' e dei compensi per il lavoro straordinario e di quelli collegati all'effettivo svolgimento delle prestazioni.» 
+ «Art. 1475 (Limitazioni all'esercizio del diritto di associazione e divieto di sciopero). - 1. La costituzione di associazioni o circoli fra militari e' subordinata al preventivo assenso del Ministro della difesa. 
+ 2. In deroga al comma 1, i militari possono costituire associazioni professionali a carattere sindacale per singola Forza armata o Forza di polizia a ordinamento militari o interforze, secondo le disposizioni previste dal capo III del titolo IX del presente libro, e dal relativo regolamento di attuazione adottato con decreto del Ministro della difesa, di concerto con il Ministro dell'economia e delle finanze, ai sensi dell'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_17-com3" ns9:target="olf:it/legge/stato/1988/400/art_17-com3" ns9:relation="cites">articolo 17, comma 3, della legge 23 agosto 1988, n 400</ref>. 
+ 3. I militari non possono aderire ad associazioni considerate segrete a norma di legge e a quelle incompatibili con i doveri derivanti dal giuramento prestato. 
+ 4. I militari non possono esercitare il diritto di sciopero.» 
+ «Art. 1476 (Diritto di associazione professionale a carattere sindacale in ambito militare). - 1. Il diritto di libera organizzazione sindacale, di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_39" ns10:target="olf:it/costituzione/stato/1947/const/art_39" ns10:relation="cites">articolo 39 della Costituzione</ref>, e' esercitato dagli appartenenti alle Forze armate e alle Forze di polizia a ordinamento militare, con esclusione del personale della riserva e in congedo assoluto, nel rispetto dei doveri e dei principi previsti dall'articolo 52 della Costituzione. 
+ 2. Gli appartenenti alle Forze armate e alle Forze di polizia a ordinamento militare non possono aderire ad associazioni professionali a carattere sindacale diverse da quelle costituite ai sensi delle disposizioni del presente capo. 
+ 3. Gli appartenenti alle Forze armate e alle Forze di polizia a ordinamento militare possono aderire a una sola associazione professionale a carattere sindacale tra militari, di seguito "APCSM". 
+ 4. L'adesione alle APCSM e' libera, volontaria e individuale. 
+ 5. Non possono aderire alle APCSM coloro che ricoprono le cariche di vertice di cui agli articoli 25, 29, 32, 40 e 44-bis, il Comandante generale del Corpo della guardia di finanza, i militari di truppa di cui all'articolo 627, comma 8, limitatamente agli allievi.» 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading>Modifica all'articolo 9, comma 15, della legge 28 aprile 2022, n. 46, in materia di proroga del termine per l'esercizio della delega</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">All'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2022-04-28/46/!main#art_9-com15" ns11:target="olf:it/legge/stato/2022/46/art_9-com15" ns11:relation="amends">articolo 9, comma 15, della legge 28 aprile 2022, n. 46</ref>, le parole: «<quotedText eId="modNov_1_old_1">trenta mesi</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_1">trentasei mesi</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta l'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2022-04-28/46/!main#art_9" ns12:target="olf:it/legge/stato/2022/46/art_9" ns12:relation="amends">articolo 9 della legge 28 aprile 2022, n. 46</ref>, recante: «Norme sull'esercizio della liberta' sindacale del personale delle Forze armate e delle Forze di polizia a ordinamento militare, nonche' delega al Governo per il coordinamento normativo», pubblicata nella Gazzetta Ufficiale 12 maggio 2022, n. 110, come modificato nella presente legge: 
+ «Art. 9 (Svolgimento dell'attivita' di carattere sindacale e delega al Governo per la disciplina dell'esercizio dei diritti sindacali da parte del personale impiegato in luogo di operazioni). - 1.-14. 
+ 15. Il Governo e' delegato ad adottare, entro trentasei mesi dalla data di entrata in vigore della presente legge, un decreto legislativo per disciplinare le particolari limitazioni all'esercizio dell'attivita' di carattere sindacale da parte del personale impiegato in attivita' operativa, addestrativa, formativa ed esercitativa, anche fuori del territorio nazionale, inquadrato in contingenti o a bordo di unita' navali ovvero distaccato individualmente, secondo il seguente principio e criterio direttivo: consentire l'esercizio e la tutela dei diritti sindacali del personale militare salvaguardando le preminenti esigenze di funzionalita', sicurezza e prontezza operativa correlate alle specifiche operazioni militari. 
+ 16. Il decreto legislativo di cui al comma 15 e' adottato su proposta del Ministro della difesa, di concerto con il Ministro dell'economia e delle finanze e con il Ministro per la pubblica amministrazione, sentite le associazioni professionali a carattere sindacale tra militari rappresentative a livello nazionale ai sensi dell'articolo 13 e previa acquisizione del parere del Consiglio di Stato, da rendere nel termine di trenta giorni dalla data di trasmissione dello schema del decreto legislativo, decorso il quale il Governo puo' comunque procedere. Lo schema del decreto legislativo, corredato di relazione tecnica, e' successivamente trasmesso alle Camere per l'espressione dei pareri delle Commissioni parlamentari competenti per materia e per i profili finanziari, che si pronunciano nel termine di sessanta giorni dalla data di trasmissione, decorso il quale il decreto legislativo puo' essere comunque adottato. Se il termine previsto per il parere cade nei trenta giorni che precedono la scadenza del termine previsto al comma 15 o successivamente, la scadenza di quest'ultimo e' prorogata di novanta giorni. Il Governo, qualora non intenda conformarsi ai pareri parlamentari, trasmette nuovamente i testi alle Camere con le sue osservazioni e con eventuali modificazioni, corredate dei necessari elementi integrativi di informazione e motivazione. Le Commissioni competenti per materia possono esprimersi sulle osservazioni del Governo entro il termine di dieci giorni dalla data della nuova trasmissione.
+ Decorso tale termine, il decreto legislativo puo' comunque essere adottato. 
+ 17. Entro diciotto mesi dalla data di entrata in vigore del decreto legislativo di cui al comma 15, il Governo puo' adottare, nel rispetto del principio e criterio direttivo e della procedura di cui ai commi 15 e 16, uno o piu' decreti legislativi recanti disposizioni integrative e correttive. 
+ 18. Dall'attuazione della delega di cui al comma 15 non devono derivare nuovi o maggiori oneri a carico della finanza pubblica.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 15 aprile 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Zangrillo, Ministro per la pubblica amministrazione Crosetto, Ministro della difesa Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
