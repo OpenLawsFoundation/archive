@@ -1,0 +1,1432 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-07-15/99/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-07-15/99"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-07-15;99"/>
+                    <FRBRalias name="eli" value="eli/id/2022/07/26/22G00108/CONSOLIDATED/20260421"/>
+                    <FRBRdate date="2022-07-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/07/26/22G00108/CONSOLIDATED/20260421" aknrelname="eli/id/2022/07/26/22G00108/CONSOLIDATED/20260421">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Istituzione del Sistema terziario di istruzione tecnologica superiore. (22G00108)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00108" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2022-07-15" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-07-15/99/ita@2026-04-21/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-07-15/99/ita@2026-04-21"/>
+                    <FRBRdate date="2026-04-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/07/26/22G00108/CONSOLIDATED/20260421/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/07/26/22G00108/CONSOLIDATED/20260421"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/07/26/22G00108/CONSOLIDATED/20260421/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-07-15/99/ita@2026-04-21/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-07-15/99/ita@2026-04-21.xml"/>
+                    <FRBRdate date="2022-07-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/07/26/22G00108/CONSOLIDATED/20260421/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-07-26" name="" number="173" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-07-26" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2022-12-29" eId="eventRef_1" source="rp1"/>
+                <eventRef date="2022-12-29" eId="eventRef_2" source="rp2"/>
+                <eventRef date="2023-02-24" eId="eventRef_3" source="rp3"/>
+                <eventRef date="2023-04-21" eId="eventRef_4" source="rp4"/>
+                <eventRef date="2023-04-22" eId="eventRef_5" source="rp5"/>
+                <eventRef date="2023-06-21" eId="eventRef_6" source="rp6"/>
+                <eventRef date="2024-03-02" eId="eventRef_7" source="rp7"/>
+                <eventRef date="2024-10-28" eId="eventRef_8" source="rp8"/>
+                <eventRef date="2024-12-27" eId="eventRef_9" source="rp9"/>
+                <eventRef date="2025-04-07" eId="eventRef_10" source="rp10"/>
+                <eventRef date="2025-06-06" eId="eventRef_11" source="rp11"/>
+                <eventRef date="2025-12-31" eId="eventRef_12" source="rp12"/>
+                <eventRef date="2026-02-19" eId="eventRef_13" source="rp13"/>
+                <eventRef date="2026-04-20" eId="eventRef_14" source="rp14"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2022-07-15" refersTo="#C.544"/>
+                <step by="#camera" date="2022-07-15" refersTo="#C.2387"/>
+                <step by="#camera" date="2022-07-15" refersTo="#C.2692"/>
+                <step by="#camera" date="2022-07-15" refersTo="#C.2868"/>
+                <step by="#camera" date="2022-07-15" refersTo="#C.2946"/>
+                <step by="#camera" date="2022-07-15" refersTo="#C.3014"/>
+                <step by="#senato" date="2022-07-15" refersTo="#S.2333"/>
+                <step by="#camera" date="2022-07-15" refersTo="#C.544-2387-2692-2868-2946-3014-B"/>
+            </workflow>
+            <analysis source="">
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((A decorrere dall'anno d'imposta 2025, sono esenti dall'imposta sul reddito delle persone fisiche le somme corrisposte a titolo di borse di studio erogate dallo Stato, dalle regioni, dalle fondazioni ITS Academy e da altri soggetti pubblici agli studenti iscritti ai percorsi formativi di cui all'articolo 5, comma 1, ivi comprese le borse di studio di cui all'articolo 5, comma 4, lettera a). Agli oneri di cui al presente comma, valutati in 5,7 milioni di euro per l'anno 2025, 6,34 milioni di euro per l'anno 2026 e 6,30 milioni di euro annui a decorrere dall'anno 2027, si provvede:))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_1" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_2"/>
+                        <new>
+                            <nakn:text>((quanto a 5,7 milioni di euro per l'anno 2025 e a 6,30 milioni di euro annui a decorrere dall'anno 2027, mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2025-2027, nell'ambito del programma 'Fondi di riserva e speciali' della missione 'Fondi da ripartire' dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2025, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'istruzione e del merito;))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_2" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_3"/>
+                        <new>
+                            <nakn:text>((quanto a 6,34 milioni di euro per l'anno 2026, mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'articolo 1 della legge 18 dicembre 1997, n. 440))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_3" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_4"/>
+                        <new>
+                            <nakn:text>((Per ' credito formativo ' acquisito nei percorsi formativi di cui all'articolo 5, comma 1, si intende l'insieme delle competenze che possono essere riconosciute all'esito o nell'ambito di un percorso ulteriore di istruzione, formazione e lavoro, svolto anche all'estero))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_4" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_5"/>
+                        <new>
+                            <nakn:text>((La competenza per il riconoscimento dei titoli di studio conseguiti all'estero e' disciplinata dall'articolo 2, comma 1, della legge 11 luglio 2002, n. 148))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_5" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_6"/>
+                        <new>
+                            <nakn:text>((, con particolare riferimento all'obiettivo di favorire l'equilibrio di genere))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_6" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_7"/>
+                        <new>
+                            <nakn:text>((in relazione alle))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_7" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_8"/>
+                        <new>
+                            <nakn:text>((nonche' di risorse derivanti dalla concessione in uso temporaneo dei laboratori alle imprese del settore produttivo che utilizzano le tecnologie caratterizzanti l'ITS Academy afferente a una delle aree tecnologiche di riferimento. La concessione dei laboratori e' consentita al di fuori dell'orario di svolgimento delle attivita' formative degli ITS Academy o di qualsiasi altra attivita' rientrante nella missione di cui al medesimo articolo 2))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_8" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_9"/>
+                        <new>
+                            <nakn:text>((fino all'anno 2026))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2022-07-15/99/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/LEGGE/stato/2022-12-29/197/!main" showAs=""/>
+                <passiveRef eId="rp2" href="/akn/it/act/DECRETO-LEGGE/stato/2022-12-29/198/!main" showAs=""/>
+                <passiveRef eId="rp3" href="/akn/it/act/DECRETO-LEGGE/stato/2023-02-24/13/!main" showAs=""/>
+                <passiveRef eId="rp4" href="/akn/it/act/LEGGE/stato/2023-04-21/41/!main" showAs=""/>
+                <passiveRef eId="rp5" href="/akn/it/act/DECRETO-LEGGE/stato/2023-04-22/44/!main" showAs=""/>
+                <passiveRef eId="rp6" href="/akn/it/act/LEGGE/stato/2023-06-21/74/!main" showAs=""/>
+                <passiveRef eId="rp7" href="/akn/it/act/DECRETO-LEGGE/stato/2024-03-02/19/!main" showAs=""/>
+                <passiveRef eId="rp8" href="/akn/it/act/DECRETO-LEGGE/stato/2024-10-28/160/!main" showAs=""/>
+                <passiveRef eId="rp9" href="/akn/it/act/LEGGE/stato/2024-12-20/199/!main" showAs=""/>
+                <passiveRef eId="rp10" href="/akn/it/act/DECRETO-LEGGE/stato/2025-04-07/45/!main" showAs=""/>
+                <passiveRef eId="rp11" href="/akn/it/act/LEGGE/stato/2025-06-05/79/!main" showAs=""/>
+                <passiveRef eId="rp12" href="/akn/it/act/DECRETO-LEGGE/stato/2025-12-31/200/!main" showAs=""/>
+                <passiveRef eId="rp13" href="/akn/it/act/DECRETO-LEGGE/stato/2026-02-19/19/!main" showAs=""/>
+                <passiveRef eId="rp14" href="/akn/it/act/LEGGE/stato/2026-04-20/50/!main" showAs=""/>
+                <passiveRef eId="C.544" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;544" showAs=""/>
+                <passiveRef eId="C.2387" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;2387" showAs=""/>
+                <passiveRef eId="C.2692" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;2692" showAs=""/>
+                <passiveRef eId="C.2868" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;2868" showAs=""/>
+                <passiveRef eId="C.2946" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;2946" showAs=""/>
+                <passiveRef eId="C.3014" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3014" showAs=""/>
+                <passiveRef eId="S.2333" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2333" showAs=""/>
+                <passiveRef eId="C.544-2387-2692-2868-2946-3014-B" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;544-2387-2692-2868-2946-3014-B" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/07/26/22G00108/CONSOLIDATED/20260421">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Istituzione del Sistema terziario di istruzione tecnologica superiore. (22G00108)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00108</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-07-15</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/07/26/22G00108/CONSOLIDATED/20260421/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/07/26/22G00108/CONSOLIDATED/20260421"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/07/26/22G00108/CONSOLIDATED/20260421/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/07/26/22G00108/CONSOLIDATED/20260421/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2022/99" nativeUrn="urn:nir:stato:legge:2022-07-15;99" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-07-26"><ns0:event type="enacted" date="2022-07-15"/><ns0:event type="published" date="2022-07-26"/><ns0:event type="commenced" date="2022-07-26"/><ns0:event type="amended" date="2022-12-29"/><ns0:event type="amended" date="2023-02-24"/><ns0:event type="amended" date="2023-04-21"/><ns0:event type="amended" date="2023-04-22"/><ns0:event type="amended" date="2023-06-21"/><ns0:event type="amended" date="2024-03-02"/><ns0:event type="amended" date="2024-10-28"/><ns0:event type="amended" date="2024-12-27"/><ns0:event type="amended" date="2025-04-07"/><ns0:event type="amended" date="2025-06-06"/><ns0:event type="amended" date="2025-12-31"/><ns0:event type="amended" date="2026-02-19"/><ns0:event type="amended" date="2026-04-20"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/23eff9ae-b7d2-4e69-b20b-85971bd2d961" sourceSha256="970a50abb8f8af88f729a79b7f3869eb3db77564bd90fa3255c1fe8b8e4a9d42" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T23:11:45.926962Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2022-07-15">15 luglio 2022</docDate>
+                <docNumber>99</docNumber>
+                <docTitle>Istituzione del Sistema terziario di istruzione tecnologica superiore. (22G00108) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 27/07/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <chapter eId="chp_I">
+                <num>Capo I</num>
+                <heading>Principi</heading>
+                <article eId="art_1">
+                    <num>Art. 1.</num>
+                    <heading> Istituzione del Sistema terziario 
+ di istruzione tecnologica superiore</heading>
+                    <paragraph eId="art_1__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Nel rispetto delle competenze regionali e degli enti locali nonche' dei principi di sussidiarieta', adeguatezza e differenziazione, la presente legge istituisce il Sistema terziario di istruzione tecnologica superiore, di cui sono parte integrante gli Istituti tecnici superiori (ITS), che assumono la denominazione di Istituti tecnologici superiori (ITS Academy), al fine di promuovere l'occupazione, in particolare giovanile, e di rafforzare le condizioni per lo sviluppo di un'economia ad alta intensita' di conoscenza, per la competitivita' e per la resilienza, a partire dal riconoscimento delle esigenze di innovazione e sviluppo del sistema di istruzione e ricerca, in coerenza con i parametri europei. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_1__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>Possono accedere ai percorsi di istruzione offerti dagli ITS Academy, sulla base della programmazione regionale, i giovani e gli adulti in possesso di un diploma di scuola secondaria di secondo grado o di un diploma quadriennale di istruzione e formazione professionale di cui all'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main#art_15-com5" ns1:target="olf:it/decreto-legislativo/stato/2005/226/art_15-com5" ns1:relation="cites">articolo 15, commi 5</ref> e <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main#art_15-com6" ns2:target="olf:it/decreto-legislativo/stato/2005/226/art_15-com6" ns2:relation="cites">6, del decreto legislativo 17 ottobre 2005, n. 226</ref>, unitamente a un certificato di specializzazione tecnica superiore conseguito all'esito dei corsi di istruzione e formazione tecnica superiore di cui all'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1999-05-17/144/!main#art_69" ns3:target="olf:it/legge/stato/1999/144/art_69" ns3:relation="cites">articolo 69 della legge 17 maggio 1999, n. 144</ref>, della durata di almeno 800 ore. </p>
+                        </content>
+                    </paragraph>
+                    <section>
+                        <content>
+                            <p>
+                                <authorialNote eId="authorialNote_1" placement="bottom">
+                                    <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns4:target="olf:it/dpr/stato/1985/1092" ns4:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta l'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main#art_15-com5" ns5:target="olf:it/decreto-legislativo/stato/2005/226/art_15-com5" ns5:relation="cites">art. 15, commi 5</ref> e <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main#art_15-com6" ns6:target="olf:it/decreto-legislativo/stato/2005/226/art_15-com6" ns6:relation="cites">6 del decreto legislativo 17 ottobre 2005, n. 226</ref>, recante: «Norme generali e livelli essenziali delle prestazioni relativi al secondo ciclo del sistema educativo di istruzione e formazione, a norma dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2003-03-28/53/!main#art_2" ns7:target="olf:it/legge/stato/2003/53/art_2" ns7:relation="cites">art. 2 della L. 28 marzo 2003, n. 53</ref>», pubblicato nella Gazz. Uff. 4 novembre 2005, n. 257, S.O.: 
+ «5. I titoli e le qualifiche rilasciati a conclusione dei percorsi di istruzione e formazione professionale di durata almeno quadriennale rispondenti ai requisiti di cui al comma 2 costituiscono titolo per l'accesso all'istruzione e formazione tecnica superiore, fatto salvo quanto previsto dall'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/1999-05-17/144/!main#art_69" ns8:target="olf:it/legge/stato/1999/144/art_69" ns8:relation="cites">art. 69 della legge 17 maggio 1999, n. 144</ref>, fermo restando il loro valore a tutti gli altri effetti previsti dall'ordinamento giuridico. 
+ 6. I titoli e le qualifiche conseguiti al termine dei percorsi del sistema di istruzione e formazione professionale di durata almeno quadriennale consentono di sostenere l'esame di Stato, utile anche ai fini degli accessi all'universita' e all'alta formazione artistica, musicale e coreutica, previa frequenza di apposito corso annuale, realizzato d'intesa con le universita' e con l'alta formazione artistica, musicale e coreutica, e ferma restando la possibilita' di sostenere, come privatista, l'esame di Stato secondo quanto previsto dalle disposizioni vigenti in materia.» 
+ - Si riporta l'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/1999-05-17/144/!main#art_69" ns9:target="olf:it/legge/stato/1999/144/art_69" ns9:relation="cites">art. 69 della legge 17 maggio 1999, n. 144</ref>, recante: «Misure in materia di investimenti, delega al Governo per il riordino degli incentivi all'occupazione e della normativa che disciplina l'INAIL, nonche' disposizioni per il riordino degli enti previdenziali», pubblicata nella Gazz. Uff. 22 maggio 1999, n. 118, S.O.: 
+ «Art. 69 (Istruzione e formazione tecnica superiore).
+ - 1. Per riqualificare e ampliare l'offerta formativa destinata ai giovani e agli adulti, occupati e non occupati, nell'ambito del sistema di formazione integrata superiore (FIS), e' istituito il sistema della istruzione e formazione tecnica superiore (IFTS), al quale si accede di norma con il possesso del diploma di scuola secondaria superiore. Con decreto adottato di concerto dai Ministri della pubblica istruzione, del lavoro e della previdenza sociale e dell'universita' e della ricerca scientifica e tecnologica, sentita la Conferenza unificata di cui al <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main" ns10:target="olf:it/decreto-legislativo/stato/1997/281" ns10:relation="cites">decreto legislativo 28 agosto 1997, n. 281</ref> , sono definiti le condizioni di accesso ai corsi dell'IFTS per coloro che non sono in possesso del diploma di scuola secondaria superiore, gli standard dei diversi percorsi dell'IFTS, le modalita' che favoriscono l'integrazione tra i sistemi formativi di cui all'art. 68 e determinano i criteri per l'equipollenza dei rispettivi percorsi e titoli; con il medesimo decreto sono altresi' definiti i crediti formativi che vi si acquisiscono e le modalita' della loro certificazione e utilizzazione, a norma dell'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/1998-03-31/112/!main#art_142-com1-letc" ns11:target="olf:it/decreto-legislativo/stato/1998/112/art_142-com1-letc" ns11:relation="cites">art. 142, comma 1, lettera c), del decreto legislativo 31 marzo 1998, n. 112</ref>. 
+ 2. Le regioni programmano l'istituzione dei corsi dell'IFTS, che sono realizzati con modalita' che garantiscono l'integrazione tra sistemi formativi, sulla base di linee guida definite d'intesa tra i Ministri della pubblica istruzione, del lavoro e della previdenza sociale e dell'universita' e della ricerca scientifica e tecnologica, la Conferenza unificata di cui al <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main" ns12:target="olf:it/decreto-legislativo/stato/1997/281" ns12:relation="cites">decreto legislativo 28 agosto 1997, n. 281</ref> e le parti sociali mediante l'istituzione di un apposito comitato nazionale.
+ Alla progettazione dei corsi dell'IFTS concorrono universita', scuole medie superiori, enti pubblici di ricerca, centri e agenzie di formazione professionale accreditati ai sensi dell'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/1997-06-24/196/!main#art_17" ns13:target="olf:it/legge/stato/1997/196/art_17" ns13:relation="cites">art. 17 della legge 24 giugno 1997, n. 196</ref>, e imprese o loro associazioni, tra loro associati anche in forma consortile. 
+ 3. La certificazione rilasciata in esito ai corsi di cui al comma 1, che attesta le competenze acquisite secondo un modello allegato alle linee guida di cui al comma 2, e' valida in ambito nazionale. 
+ 4. Gli interventi di cui al presente articolo sono programmabili a valere sul Fondo di cui all'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/1997-12-18/440/!main#art_4" ns14:target="olf:it/legge/stato/1997/440/art_4" ns14:relation="cites">art. 4 della legge 18 dicembre 1997, n. 440</ref>, nei limiti delle risorse preordinate allo scopo dal Ministero della pubblica istruzione, nonche' sulle risorse finalizzate a tale scopo dalle regioni nei limiti delle proprie disponibilita' di bilancio. Possono concorrere allo scopo anche altre risorse pubbliche e private. Alle finalita' di cui al presente articolo la regione Valle d'Aosta e le province autonome di Trento e di Bolzano provvedono, in relazione alle competenze e alle funzioni ad esse attribuite, secondo quanto disposto dagli statuti speciali e dalle relative norme di attuazione; a tal fine accedono al Fondo di cui al presente comma e la certificazione rilasciata in esito ai corsi da esse istituiti e' valida in ambito nazionale.» 
+</p>
+                                </authorialNote>
+                            </p>
+                        </content>
+                    </section>
+                </article>
+            </chapter>
+            <chapter eId="chp_II">
+                <num>Capo II</num>
+                <heading>Missione e criteri generali di organizzazione degli ITS Academy</heading>
+                <article eId="art_2">
+                    <num>Art. 2.</num>
+                    <heading> Missione degli ITS Academy</heading>
+                    <paragraph eId="art_2__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Nel quadro del complessivo Sistema terziario di istruzione tecnologica superiore di cui all'articolo 1, gli ITS Academy hanno il compito prioritario di potenziare e ampliare la formazione professionalizzante di tecnici superiori con elevate competenze tecnologiche e tecnico-professionali, allo scopo di contribuire in modo sistematico a sostenere le misure per lo sviluppo economico e la competitivita' del sistema produttivo, colmando progressivamente la mancata corrispondenza tra la domanda e l'offerta di lavoro, che condiziona lo sviluppo delle imprese, soprattutto piccole e medie, e di assicurare, con continuita', l'offerta di tecnici superiori a livello post-secondario in relazione alle aree tecnologiche considerate strategiche nell'ambito delle politiche di sviluppo industriale e tecnologico e di riconversione ecologica. In aggiunta a quanto previsto dal primo periodo, gli ITS Academy hanno il compito di sostenere la diffusione della cultura scientifica e tecnologica, l'orientamento permanente dei giovani verso le professioni tecniche e l'informazione delle loro famiglie, l'aggiornamento e la formazione in servizio dei docenti di discipline scientifiche, tecnologiche e tecnico-professionali della scuola e della formazione professionale, le politiche attive del lavoro, soprattutto per quanto attiene alla transizione dei giovani nel mondo del lavoro, la formazione continua dei lavoratori tecnici altamente specializzati, nel quadro dell'apprendimento permanente per tutto il corso della vita, e il trasferimento tecnologico, soprattutto nei riguardi delle piccole e medie imprese. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_2__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>Costituisce priorita' strategica degli ITS Academy la formazione professionalizzante di tecnici superiori per soddisfare i fabbisogni formativi in relazione alla transizione digitale, anche ai fini dell'espansione dei servizi digitali negli ambiti dell'identita', dell'autenticazione, della sanita' e della giustizia, all'innovazione, alla competitivita' e alla cultura, alla rivoluzione verde e alla transizione ecologica nonche' alle infrastrutture per la mobilita' sostenibile. 
+</p>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_3">
+                    <num>Art. 3.</num>
+                    <heading/>
+                    <paragraph>
+                        <content>
+                            <p>
+ 
+ Identita' degli ITS Academy 
+ 
+ </p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_3__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Ciascun ITS Academy si caratterizza per il riferimento a una specifica area tecnologica tra quelle individuate con decreto del Ministro dell'istruzione adottato ai sensi dell'articolo 14, comma 6.
+Il decreto di cui al primo periodo e' adottato, entro novanta giorni dalla data di entrata in vigore della presente legge, previo parere delle competenti Commissioni parlamentari, le quali si esprimono entro trenta giorni dalla data di trasmissione del relativo schema.
+Decorso il termine senza che i pareri siano stati espressi, il decreto puo' essere comunque adottato. Gli ITS Academy possono fare riferimento a un'area tecnologica, tra quelle individuate con il decreto di cui al primo periodo, a condizione che, nella medesima provincia, non siano gia' presenti ITS Academy operanti nella medesima area; eventuali deroghe possono essere stabilite d'intesa fra il Ministero dell'istruzione e la regione interessata, sulla base dei criteri definiti con decreto del Ministro dell'istruzione adottato ai sensi dell'articolo 14, comma 6. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_3__para_2">
+                        <num>2.</num>
+                        <list>
+                            <intro eId="art_3__para_2__intro_1">
+                                <p>In relazione ai percorsi formativi di cui all'articolo 5, con il decreto di cui al comma 1, primo periodo, del presente articolo sono definiti: 
+ </p>
+                            </intro>
+                            <point eId="art_3__para_2.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>le figure professionali nazionali di riferimento, in relazione a ciascuna area tecnologica e agli eventuali ambiti in cui essa si articola a livello nazionale. In sede di programmazione dell'offerta formativa delle singole regioni le figure professionali possono essere ulteriormente articolate in profili; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_3__para_2.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>gli standard minimi delle competenze tecnologiche e tecnico-professionali in relazione a ciascuna figura professionale e agli eventuali profili in cui essa si articola; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_3__para_2.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>i diplomi che sono rilasciati a conclusione dei percorsi formativi. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_3__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>Fino all'adozione del decreto di cui al comma 1, primo periodo, ciascun ITS Academy e' caratterizzato dal riferimento a una delle aree tecnologiche di cui al decreto del Presidente del Consiglio dei ministri 25 gennaio 2008, pubblicato nella Gazzetta Ufficiale n. 86 dell'11 aprile 2008. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_3__para_4">
+                        <num>4.</num>
+                        <content>
+                            <p>Nell'individuazione delle specifiche aree tecnologiche e degli eventuali ambiti in cui esse si articolano, il decreto di cui al comma 1 tiene conto delle principali sfide attuali e linee di sviluppo economico, con particolare attenzione a quelle riguardanti: la transizione ecologica, compresi i trasporti, la mobilita' e la logistica; la transizione digitale; le nuove tecnologie per il made in Italy, compreso l'alto artigianato artistico; le nuove tecnologie della vita; i servizi alle imprese e agli enti senza fine di lucro; le tecnologie per i beni e le attivita' artistiche e culturali e per il turismo; le tecnologie dell'informazione, della comunicazione e dei dati; l'edilizia. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_3__para_5">
+                        <num>5.</num>
+                        <content>
+                            <p>Gli ITS Academy possono fare riferimento anche a piu' di un'area tecnologica tra quelle individuate con il decreto di cui al comma 1, o, nelle more dell'adozione di tale decreto, tra quelle di cui al comma 3, a condizione che nelle medesime aree non operino altri ITS Academy situati nella medesima regione. Con decreto del Ministro dell'istruzione adottato ai sensi dell'articolo 14, comma 6, sono definiti i criteri sulla base dei quali, in sede di accreditamento, previa intesa fra il Ministero dell'istruzione e la regione interessata, e' possibile autorizzare un ITS Academy a fare riferimento a piu' di un'area tecnologica, in deroga alla condizione prevista al primo periodo. 
+</p>
+                        </content>
+                    </paragraph>
+                    <section>
+                        <content>
+                            <p>
+                                <authorialNote eId="authorialNote_2" placement="bottom">
+                                    <p> Note all'art. 3: 
+ - Il decreto del Presidente del Consiglio dei ministri 25 gennaio 2008, recante: «Linee guida per la riorganizzazione del Sistema di istruzione e formazione tecnica superiore e la costituzione degli istituti tecnici superiori» e' pubblicato nella Gazz. Uff. 11 aprile 2008, n. 86. 
+</p>
+                                </authorialNote>
+                            </p>
+                        </content>
+                    </section>
+                </article>
+                <article eId="art_4">
+                    <num>Art. 4.</num>
+                    <heading> Regime giuridico degli ITS Academy</heading>
+                    <paragraph eId="art_4__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Gli ITS Academy si costituiscono come fondazioni ai sensi degli <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_14" ns15:target="olf:it/codice-civile/stato/1942/262/art_14" ns15:relation="cites">articoli 14 e seguenti del codice civile</ref>, secondo il modello della fondazione di partecipazione, quale standard organizzativo nazionale della struttura. Ciascuna fondazione ITS Academy acquista la personalita' giuridica, ai sensi dell'articolo 1 del regolamento di cui al <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2000-02-10/361/!main" ns16:target="olf:it/dpr/stato/2000/361" ns16:relation="cites">decreto del Presidente della Repubblica 10 febbraio 2000, n. 361</ref>, mediante iscrizione nel registro delle persone giuridiche istituito presso la prefettura-ufficio territoriale del Governo della provincia nella quale ha sede. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_4__para_2">
+                        <num>2.</num>
+                        <list>
+                            <intro eId="art_4__para_2__intro_1">
+                                <p>I soggetti fondatori delle fondazioni ITS Academy, quale standard organizzativo minimo, sono i seguenti: 
+ </p>
+                            </intro>
+                            <point eId="art_4__para_2.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>almeno un istituto di scuola secondaria di secondo grado, statale o paritaria, ubicato nella provincia ove ha sede la fondazione, la cui offerta formativa sia coerente con l'area tecnologica di riferimento dell'ITS Academy; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_4__para_2.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>una struttura formativa accreditata dalla regione, situata anche in una provincia diversa da quella ove ha sede la fondazione; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_4__para_2.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>una o piu' imprese, gruppi, consorzi e reti di imprese del settore produttivo che utilizzano in modo prevalente le tecnologie che caratterizzano l'ITS Academy in relazione alle aree tecnologiche individuate dal decreto del Ministro dell'istruzione di cui all'articolo 3, comma 1; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_4__para_2.__point_d">
+                                <num>d)</num>
+                                <content>
+                                    <p>un'universita', o un'istituzione dell'alta formazione artistica, musicale e coreutica, o un dipartimento universitario o un altro organismo appartenente al sistema universitario della ricerca scientifica e tecnologica ovvero un ente di ricerca, pubblico o privato, o un istituto di ricovero e cura a carattere scientifico di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/2003-10-16/288/!main#art_1" ns17:target="olf:it/decreto-legislativo/stato/2003/288/art_1" ns17:relation="cites">articolo 1 del decreto legislativo 16 ottobre 2003, n. 288</ref>, o un ente pubblico di ricerca di cui all'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/2016-11-25/218/!main#art_1" ns18:target="olf:it/decreto-legislativo/stato/2016/218/art_1" ns18:relation="cites">articolo 1 del decreto legislativo 25 novembre 2016, n. 218</ref>, operanti nell'area tecnologica di riferimento dell'ITS Academy. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_4__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>Ciascuna fondazione ITS Academy stabilisce, nel proprio statuto, i requisiti di partecipazione, le modalita' di verifica dei medesimi requisiti, con particolare riferimento al possesso di documentata esperienza nel campo dell'innovazione di cui al comma 4, la procedura di ammissione, i limiti e la natura dei rapporti tra i partecipanti nonche' i diritti e gli obblighi ad essi connessi e le eventuali incompatibilita'. Lo statuto e' redatto sulla base dello schema definito a livello nazionale con le linee guida emanate, entro novanta giorni dalla data di entrata in vigore della presente legge, con decreto del Ministro dell'istruzione adottato ai sensi dell'articolo 14, comma 6. La conformita' dello statuto allo schema di cui al presente comma costituisce standard minimo di organizzazione per assicurare il funzionamento degli ITS Academy, in tutto il territorio nazionale, secondo criteri generali che rispondono alle norme vigenti e agli obiettivi della presente legge. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_4__para_4">
+                        <num>4.</num>
+                        <content>
+                            <p>I soggetti fondatori di cui al comma 2 che partecipano alla costituzione delle fondazioni ITS Academy devono possedere una documentata esperienza nel campo dell'innovazione, acquisita soprattutto con la partecipazione a progetti nazionali e internazionali di formazione, ricerca e sviluppo. Possono divenire fondatori soltanto le persone fisiche e giuridiche, pubbliche o private, gli enti e le agenzie che contribuiscono al fondo di dotazione o al fondo di gestione della fondazione secondo i criteri e nelle forme determinati nello statuto. Alla fondazione ITS Academy possono partecipare anche soggetti diversi da quelli di cui al comma 2. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_4__para_5">
+                        <num>5.</num>
+                        <list>
+                            <intro eId="art_4__para_5__intro_1">
+                                <p>Tutti i soggetti fondatori contribuiscono alla costituzione del patrimonio della fondazione ITS Academy, anche attraverso risorse strutturali e strumentali. Le fondazioni ITS Academy sono amministrate e svolgono la loro attivita' in conformita' a quanto previsto nello statuto. Il patrimonio della fondazione ITS Academy e' composto: 
+ </p>
+                            </intro>
+                            <point eId="art_4__para_5.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>dal fondo di dotazione, costituito dai conferimenti, in proprieta', uso o possesso, a qualsiasi titolo, di denaro, beni mobili e immobili o altre utilita' impiegabili per il perseguimento dei compiti istituzionali, effettuati dai fondatori all'atto della costituzione e dai partecipanti; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_4__para_5.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>dai beni mobili e immobili che pervengono a qualsiasi titolo alla fondazione; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_4__para_5.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>dalle donazioni, dai lasciti, dai legati e dagli altri atti di liberalita' disposti da enti o da persone fisiche con espressa destinazione all'incremento del patrimonio; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_4__para_5.__point_d">
+                                <num>d)</num>
+                                <content>
+                                    <p>da contributi attribuiti al patrimonio dall'Unione europea, dallo Stato, da enti territoriali e da altri enti pubblici. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_4__para_6">
+                        <num>6.</num>
+                        <content>
+                            <p>Per le erogazioni liberali in denaro effettuate in favore delle fondazioni ITS Academy a partire dal periodo d'imposta in corso alla data di entrata in vigore della presente legge, incluse quelle disposte ai sensi del comma 5, lettera c), spetta un credito d'imposta nella misura del 30 per cento delle erogazioni effettuate.
+Qualora l'erogazione sia effettuata in favore di fondazioni ITS Academy operanti nelle province in cui il tasso di disoccupazione e' superiore a quello medio nazionale, il credito d'imposta di cui al primo periodo e' pari al 60 per cento delle erogazioni effettuate. Il credito d'imposta e' riconosciuto a condizione che il versamento sia eseguito tramite banche o uffici postali ovvero mediante altri sistemi di pagamento previsti dall'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegislativo/stato/1997-07-09/241/!main#art_23" ns19:target="olf:it/decreto-legislativo/stato/1997/241/art_23" ns19:relation="cites">articolo 23 del decreto legislativo 9 luglio 1997, n. 241</ref>, ed e' utilizzabile in tre quote annuali di pari importo a partire dalla dichiarazione dei redditi relativa al periodo d'imposta nel corso del quale e' effettuata l'elargizione, ovvero in compensazione ai sensi dell'articolo 17 del citato <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegislativo/stato/1997/241/!main" ns20:resolution="unresolved">decreto legislativo n. 241 del 1997</ref>. Ferma restando la ripartizione in tre quote annuali di pari importo, per i soggetti titolari di reddito d'impresa il credito d'imposta e' utilizzabile esclusivamente in compensazione ai sensi dell'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/1997/241/!main#art_17" ns21:resolution="unresolved">articolo 17 del decreto legislativo n. 241 del 1997</ref>. L'eventuale ammontare del credito d'imposta non utilizzato puo' essere fruito nei periodi d'imposta successivi. Il credito d'imposta di cui al presente comma non rileva ai fini delle imposte sui redditi e dell'imposta regionale sulle attivita' produttive e non e' cumulabile con altra agevolazione fiscale prevista a fronte delle medesime erogazioni. Al credito d'imposta di cui al presente comma non si applicano i limiti di cui all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2007-12-24/244/!main#art_1-com53" ns22:target="olf:it/legge/stato/2007/244/art_1-com53" ns22:relation="cites">articolo 1, comma 53, della legge 24 dicembre 2007, n. 244</ref>, e di cui all'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2000-12-23/388/!main#art_34" ns23:target="olf:it/legge/stato/2000/388/art_34" ns23:relation="cites">articolo 34 della legge 23 dicembre 2000, n. 388</ref>. Le fondazioni ITS Academy, al netto delle elargizioni di cui al comma 5, lettera c), sono tenute a destinare le risorse di cui al presente comma con priorita' al sostegno del diritto allo studio, incluse le borse di studio di cui all'articolo 5, comma 4, lettera a), nonche' alla contribuzione per le locazioni di immobili abitativi agli studenti residenti in luogo diverso rispetto a quello dove sono ubicati gli immobili locati. Ai maggiori oneri derivanti dall'attuazione del presente comma e del comma 12, pari a 0,8 milioni di euro per l'anno 2022, a 1,6 milioni di euro per l'anno 2023 e a 2,4 milioni di euro a decorrere dall'anno 2024, si provvede mediante corrispondente riduzione del Fondo per l'arricchimento e l'ampliamento dell'offerta formativa e per gli interventi perequativi, di cui alla <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/1997-12-18/440/!main" ns24:target="olf:it/legge/stato/1997/440" ns24:relation="cites">legge 18 dicembre 1997, n. 440</ref>. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_4__para_7">
+                        <num>7.</num>
+                        <list>
+                            <intro eId="art_4__para_7__intro_1">
+                                <p>Sono organi minimi necessari della fondazione ITS Academy: 
+ </p>
+                            </intro>
+                            <point eId="art_4__para_7.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>il presidente, che ne e' il legale rappresentante e che e', di norma, espressione delle imprese fondatrici e partecipanti aderenti alla fondazione; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_4__para_7.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>il consiglio di amministrazione, costituito da un numero minimo di cinque membri, compreso il presidente; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_4__para_7.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>l'assemblea dei partecipanti; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_4__para_7.__point_d">
+                                <num>d)</num>
+                                <content>
+                                    <p>il comitato tecnico-scientifico, con compiti di consulenza per la programmazione, la realizzazione, il monitoraggio, la valutazione e il periodico aggiornamento dell'offerta formativa e per le altre attivita' realizzate dall'ITS Academy; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_4__para_7.__point_e">
+                                <num>e)</num>
+                                <content>
+                                    <p>il revisore dei conti. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_4__para_8">
+                        <num>8.</num>
+                        <content>
+                            <p>Il prefetto della provincia in cui ha sede legale la fondazione ITS Academy esercita il controllo sull'amministrazione della fondazione con i poteri previsti dal capo II del titolo II del libro I del <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main" ns25:target="olf:it/codice-civile/stato/1942/262" ns25:relation="cites">codice civile</ref> e, in particolare, dagli articoli 23, quarto comma, 25, 26, 27 e 28. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_4__para_9">
+                        <num>9.</num>
+                        <content>
+                            <p>Ai percorsi formativi delle fondazioni ITS Academy, di cui all'articolo 5, si applicano le disposizioni del <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegislativo/stato/1997-04-30/184/!main" ns26:target="olf:it/decreto-legislativo/stato/1997/184" ns26:relation="cites">decreto legislativo 30 aprile 1997, n. 184</ref>, con riferimento al riscatto degli anni di studio ai fini pensionistici, nonche' le agevolazioni fiscali ivi previste e, in particolare, quelle in materia di deducibilita' delle rette versate e dei contributi erogati. Alle medesime fondazioni si applicano, inoltre, le disposizioni vigenti in materia di erogazioni liberali in favore delle scuole del sistema nazionale di istruzione. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_4__para_9-bis">
+                        <num>9-bis.</num>
+                        <list>
+                            <intro eId="art_4__para_9-bis__intro_1">
+                                <p>
+                                    <ins eId="ins_1">((A decorrere dall'anno d'imposta 2025, sono esenti dall'imposta sul reddito delle persone fisiche le somme corrisposte a titolo di borse di studio erogate dallo Stato, dalle regioni, dalle fondazioni ITS Academy e da altri soggetti pubblici agli studenti iscritti ai percorsi formativi di cui all'articolo 5, comma 1, ivi comprese le borse di studio di cui all'articolo 5, comma 4, lettera a). Agli oneri di cui al presente comma, valutati in 5,7 milioni di euro per l'anno 2025, 6,34 milioni di euro per l'anno 2026 e 6,30 milioni di euro annui a decorrere dall'anno 2027, si provvede:))</ins>
+                                </p>
+                            </intro>
+                            <point eId="art_4__para_9-bis.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>
+                                        <ins eId="ins_2">((quanto a 5,7 milioni di euro per l'anno 2025 e a 6,30 milioni di euro annui a decorrere dall'anno 2027, mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2025-2027, nell'ambito del programma 'Fondi di riserva e speciali' della missione 'Fondi da ripartire' dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2025, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'istruzione e del merito;))</ins>
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_4__para_9-bis.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>
+                                        <ins eId="ins_3">((quanto a 6,34 milioni di euro per l'anno 2026, mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'articolo 1 della legge 18 dicembre 1997, n. 440))</ins>. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_4__para_10">
+                        <num>10.</num>
+                        <content>
+                            <p>I diplomi di quinto e di sesto livello EQF di cui all'articolo 5, comma 1, lettere a) e b), costituiscono titolo per l'accesso ai concorsi per insegnante tecnico-pratico. Con decreto del Ministro dell'istruzione, di concerto con il Ministro dell'universita' e della ricerca, e' stabilita la tabella di corrispondenza dei titoli con le classi di concorso. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_4__para_11">
+                        <num>11.</num>
+                        <content>
+                            <p>Le fondazioni ITS Academy possono essere destinatarie delle agevolazioni finanziarie previste dagli <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegge/stato/2012-06-22/83/!main#art_60" ns27:target="olf:it/decreto-legge/stato/2012/83/art_60" ns27:relation="cites">articoli 60</ref>, <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegge/stato/2012-06-22/83/!main#art_61" ns28:target="olf:it/decreto-legge/stato/2012/83/art_61" ns28:relation="cites">61</ref>, <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoLegge/stato/2012-06-22/83/!main#art_62" ns29:target="olf:it/decreto-legge/stato/2012/83/art_62" ns29:relation="cites">62</ref> e <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decretoLegge/stato/2012-06-22/83/!main#art_63" ns30:target="olf:it/decreto-legge/stato/2012/83/art_63" ns30:relation="cites">63 del decreto-legge 22 giugno 2012, n. 83</ref>, convertito, con modificazioni, dalla <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/2012-08-07/134/!main" ns31:target="olf:it/legge/stato/2012/134" ns31:relation="cites">legge 7 agosto 2012, n. 134</ref>. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_4__para_12">
+                        <num>12.</num>
+                        <content>
+                            <p>Con provvedimento del direttore dell'Agenzia delle entrate sono definite le modalita' di fruizione del credito d'imposta di cui al comma 6 e delle altre agevolazioni previste dal presente articolo. 
+</p>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_5">
+                    <num>Art. 5.</num>
+                    <heading> Standard minimi dei percorsi formativi</heading>
+                    <paragraph eId="art_5__para_1">
+                        <num>1.</num>
+                        <list>
+                            <intro eId="art_5__para_1__intro_1">
+                                <p>I percorsi formativi degli ITS Academy si articolano in semestri e sono strutturati come segue: 
+ </p>
+                            </intro>
+                            <point eId="art_5__para_1.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>percorsi formativi di quinto livello EQF, che hanno la durata di quattro semestri, con almeno 1.800 ore di formazione, corrispondenti al quinto livello del Quadro europeo delle qualifiche per l'apprendimento permanente, di cui alla raccomandazione 2017/C 189/03 del Consiglio, del 22 maggio 2017; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_5__para_1.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>percorsi formativi di sesto livello EQF, che hanno la durata di sei semestri, con almeno 3.000 ore di formazione, corrispondenti al sesto livello del citato Quadro europeo delle qualifiche per l'apprendimento permanente. I nuovi percorsi formativi di sesto livello EQF possono essere attivati esclusivamente per figure professionali che richiedano un elevato numero di ore di tirocinio, incompatibile con l'articolazione biennale del percorso formativo, e che presentino specifiche esigenze, da individuare con decreto del Presidente del Consiglio dei ministri, su proposta del Ministro dell'istruzione e del Ministro dell'universita' e della ricerca, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_5__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>A conclusione dei percorsi formativi di cui alle lettere a) e b) del comma 1 del presente articolo, coloro che li hanno seguiti con profitto conseguono, previa verifica e valutazione finali a norma dell'articolo 6, rispettivamente, il diploma di specializzazione per le tecnologie applicate e il diploma di specializzazione superiore per le tecnologie applicate. I modelli di diploma sono adottati con il decreto di cui all'articolo 6, comma 2, sulla base delle indicazioni generali per la certificazione dei percorsi formativi realizzati dagli ITS Academy previste dal medesimo articolo 6. I diplomi di cui al primo periodo sono rilasciati, secondo le modalita' indicate dal medesimo decreto, dal Ministero dell'istruzione, che vi provvede nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri per la finanza pubblica, sono validi su tutto il territorio nazionale e costituiscono titolo valido per l'accesso ai pubblici concorsi. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_5__para_3">
+                        <num>3.</num>
+                        <list>
+                            <intro eId="art_5__para_3__intro_1">
+                                <p>I percorsi formativi di cui al comma 1 hanno le seguenti caratteristiche, che costituiscono standard minimi: 
+ </p>
+                            </intro>
+                            <point eId="art_5__para_3.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>si riferiscono alle aree tecnologiche e alle figure professionali di riferimento, di cui all'articolo 3, commi 1 e 2, al fine di raggiungere, a livello nazionale, omogenei livelli qualitativi e di utilizzabilita' delle competenze acquisite all'esito del percorso formativo, anche nell'ambito dell'Unione europea; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_5__para_3.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>sono progettati e organizzati allo scopo di assicurare un'offerta rispondente a fabbisogni formativi differenziati secondo criteri di flessibilita' e modularita', per consentire la realizzazione di un'offerta formativa personalizzata per giovani e adulti in eta' lavorativa, con il riconoscimento dei crediti formativi e dei crediti di esperienza gia' acquisiti, anche ai fini della determinazione della durata del percorso individuale; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_5__para_3.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>facilitano anche la partecipazione degli adulti occupati. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_5__para_4">
+                        <num>4.</num>
+                        <list>
+                            <intro eId="art_5__para_4__intro_1">
+                                <p>I percorsi formativi di cui al comma 1 sono strutturati secondo i seguenti criteri, che costituiscono standard organizzativi minimi: 
+ </p>
+                            </intro>
+                            <point eId="art_5__para_4.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>ciascun semestre comprende ore di attivita' teorica, pratica e di laboratorio. L'attivita' formativa e' svolta per almeno il 60 per cento del monte orario complessivo dai docenti provenienti dal mondo del lavoro, di cui al comma 5. Gli stage aziendali e i tirocini formativi, obbligatori almeno per il 35 per cento della durata del monte orario complessivo, possono essere svolti anche all'estero e sono adeguatamente sostenuti da borse di studio; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_5__para_4.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>le scansioni temporali dei percorsi formativi sono definite tenendo conto di quelle dell'anno accademico; per i lavoratori occupati, il monte orario complessivo puo' essere congruamente distribuito in modo da tenere conto dei loro impegni di lavoro nell'articolazione dei tempi e nelle modalita' di svolgimento dei percorsi medesimi; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_5__para_4.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>i curricoli dei percorsi formativi fanno riferimento a competenze generali, linguistiche, scientifiche e tecnologiche, giuridiche ed economiche, organizzative, comunicative e relazionali di differente livello, nonche' a competenze tecnico-professionali riguardanti la specifica figura di tecnico superiore, determinati in relazione agli indicatori dell'Unione europea relativi ai titoli e alle qualifiche; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_5__para_4.__point_d">
+                                <num>d)</num>
+                                <content>
+                                    <p>i percorsi formativi sono strutturati in moduli, intesi come insieme di competenze, autonomamente significativo, riconoscibile dal mondo del lavoro come componente di specifiche professionalita' e identificabile quale risultato atteso del percorso formativo; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_5__para_4.__point_e">
+                                <num>e)</num>
+                                <content>
+                                    <p>i percorsi formativi sono accompagnati da misure a supporto della frequenza, del conseguimento di crediti formativi riconoscibili ai sensi dell'articolo 6, del conseguimento delle certificazioni intermedie e finali e dell'inserimento professionale; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_5__para_4.__point_f">
+                                <num>f)</num>
+                                <content>
+                                    <p>la conduzione scientifica di ciascun percorso formativo e' affidata a un coordinatore tecnico-scientifico o a un comitato di progetto; il coordinatore tecnico-scientifico e i componenti del comitato di progetto devono essere in possesso di un curriculum coerente con il percorso. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_5__para_5">
+                        <num>5.</num>
+                        <content>
+                            <p>Nei percorsi formativi di cui al comma 1 prestano la loro opera docenti, ricercatori ed esperti reclutati dalla fondazione ITS Academy, con contratto a norma dell'<ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2222" ns32:target="olf:it/codice-civile/stato/1942/262/art_2222" ns32:relation="cites">articolo 2222 del codice civile</ref>, almeno per il 50 per cento tra soggetti provenienti dal mondo del lavoro, compresi gli enti di ricerca privati, e aventi una specifica esperienza professionale, maturata per almeno tre anni, in settori produttivi correlabili all'area tecnologica di riferimento dell'ITS Academy, nonche' tra esperti che operano nei settori dell'arte, dello spettacolo o dei mestieri artigianali, ferma restando la necessita' di accertarne la maturata esperienza nel settore. Il coinvolgimento dei docenti delle istituzioni scolastiche avviene a condizione che esso sia compatibile con l'orario di insegnamento e di servizio, nonche' con l'assolvimento di tutte le attivita' inerenti alla funzione docente, e che non comporti nuovi o maggiori oneri a carico del bilancio dello Stato. 
+</p>
+                        </content>
+                    </paragraph>
+                    <section>
+                        <content>
+                            <p>
+                                <authorialNote eId="authorialNote_3" placement="bottom">
+                                    <p> Note all'art. 5: 
+ - La raccomandazione del Consiglio del 22 maggio 2017 sul quadro europeo delle qualifiche per l'apprendimento permanente, che abroga la raccomandazione del Parlamento europeo e del Consiglio, del 23 aprile 2008, sulla costituzione del quadro europeo delle qualifiche per l'apprendimento permanente (2017/C 189/03), e' pubblicata nella Gazz. Uff. dell'Unione europea del 15 giugno 2017. 
+</p>
+                                </authorialNote>
+                            </p>
+                        </content>
+                    </section>
+                </article>
+                <article eId="art_6">
+                    <num>Art. 6.</num>
+                    <heading>Verifica e valutazione finali e certificazione dei percorsi formativi e dei relativi crediti</heading>
+                    <paragraph eId="art_6__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Ai fini del rilascio dei diplomi di cui all'articolo 5, comma 2, i percorsi si concludono con verifiche finali delle competenze acquisite, condotte da commissioni di esame costituite in modo da assicurare la presenza di rappresentanti della scuola, dell'universita', delle istituzioni dell'alta formazione artistica, musicale e coreutica e della formazione professionale e di esperti del mondo del lavoro, dell'universita', delle istituzioni dell'alta formazione artistica, musicale e coreutica e della ricerca scientifica e tecnologica. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_6__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>Con decreto del Ministro dell'istruzione adottato ai sensi dell'articolo 14, comma 6, sono definiti i criteri e le modalita' per la costituzione delle commissioni di esame di cui al comma 1 del presente articolo, i compensi spettanti al presidente e ai componenti delle stesse, nel rispetto di quanto previsto dal comma 3 del presente articolo, nonche' le indicazioni generali per la verifica finale delle competenze acquisite da parte di coloro che hanno frequentato con profitto i percorsi formativi di cui all'articolo 5, comma 1, e per la relativa certificazione, che e' conformata in modo da facilitare la riconoscibilita', in ambito nazionale e dell'Unione europea, dei titoli conseguiti a conclusione dei percorsi formativi medesimi. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_6__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>Alla costituzione e al funzionamento delle commissioni di cui al comma 2 si provvede nell'ambito delle risorse umane, finanziarie e strumentali disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri per la finanza pubblica. I compensi spettanti al presidente e ai componenti delle commissioni sono definiti in coerenza con quanto previsto dalle disposizioni vigenti in materia di esami di Stato conclusivi dei corsi di studio di istruzione secondaria superiore, di cui al decreto del Ministro della pubblica istruzione del 24 maggio 2007 e alla relativa tabella. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_6__para_4">
+                        <num>4.</num>
+                        <content>
+                            <p>Nel quadro dell'apprendimento permanente per tutto il corso della vita, la certificazione dei percorsi formativi realizzati dagli ITS Academy e' determinata sulla base di criteri di trasparenza che favoriscono l'integrazione dei sistemi di istruzione e formazione a livello terziario e facilitano il riconoscimento e l'equipollenza dei rispettivi percorsi e titoli. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_6__para_5">
+                        <num>5.</num>
+                        <content>
+                            <p>
+                                <ins eId="ins_4">((Per ' credito formativo ' acquisito nei percorsi formativi di cui all'articolo 5, comma 1, si intende l'insieme delle competenze che possono essere riconosciute all'esito o nell'ambito di un percorso ulteriore di istruzione, formazione e lavoro, svolto anche all'estero))</ins>. Al riconoscimento del credito formativo acquisito provvede l'istituzione cui accede l'interessato, tenendo conto delle caratteristiche del nuovo percorso. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_6__para_6">
+                        <num>6.</num>
+                        <list>
+                            <intro eId="art_6__para_6__intro_1">
+                                <p>Il riconoscimento dei crediti formativi opera: 
+ </p>
+                            </intro>
+                            <point eId="art_6__para_6.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>al momento dell'accesso ai percorsi; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_6__para_6.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>all'interno dei percorsi, allo scopo di abbreviarli e di facilitare eventuali passaggi verso altri percorsi realizzati nell'ambito del Sistema terziario di istruzione tecnologica superiore di cui all'articolo 1, comma 1; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_6__para_6.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>all'esterno dei percorsi, al fine di facilitare il riconoscimento, totale o parziale, delle competenze acquisite da parte del mondo del lavoro, delle universita' e delle istituzioni dell'alta formazione artistica, musicale e coreutica nella loro autonomia e di altri sistemi formativi. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_6__para_6-bis">
+                        <num>6-bis.</num>
+                        <content>
+                            <p>
+                                <ins eId="ins_5">((La competenza per il riconoscimento dei titoli di studio conseguiti all'estero e' disciplinata dall'articolo 2, comma 1, della legge 11 luglio 2002, n. 148))</ins>. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_6__para_7">
+                        <num>7.</num>
+                        <content>
+                            <p>Gli ITS Academy sono autorizzati a svolgere le attivita' di intermediazione di manodopera ai sensi dell'<ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2003-09-10/276/!main#art_6-com1-leta" ns33:target="olf:it/decreto-legislativo/stato/2003/276/art_6-com1-leta" ns33:relation="cites">articolo 6, comma 1, lettere a)</ref> e <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decretoLegislativo/stato/2003-09-10/276/!main#art_6-com1-letb" ns34:target="olf:it/decreto-legislativo/stato/2003/276/art_6-com1-letb" ns34:relation="cites">b), del decreto legislativo 10 settembre 2003, n. 276</ref>, a condizione che rendano pubblici e gratuitamente accessibili, nei relativi siti internet istituzionali, i curricula dei propri studenti dalla data di immatricolazione almeno fino al dodicesimo mese successivo alla data del conseguimento del diploma. 
+</p>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_7">
+                    <num>Art. 7.</num>
+                    <heading> Standard minimi per l'accreditamento degli ITS Academy</heading>
+                    <paragraph eId="art_7__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>I requisiti e gli standard minimi per il riconoscimento e l'accreditamento degli ITS Academy quale condizione per l'accesso al Sistema terziario di istruzione tecnologica superiore nonche' i presupposti e le modalita' per la revoca dell'accreditamento sono stabiliti a livello nazionale, sulla base della presente legge. Le regioni, nell'ambito dei rispettivi sistemi di accreditamento e programmazione, recepiscono i requisiti e gli standard minimi, stabilendo eventuali criteri aggiuntivi, e definiscono le procedure per il riconoscimento e l'accreditamento. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_7__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>I requisiti, gli standard minimi nonche' i presupposti e le modalita' di revoca di cui al comma 1 sono stabiliti con decreto del Ministro dell'istruzione, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_7__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>Il decreto di cui al comma 2 e' adottato entro centoventi giorni dalla data di entrata in vigore della presente legge previo parere delle competenti Commissioni parlamentari, le quali si esprimono entro trenta giorni dalla data di trasmissione del relativo schema.
+Decorso il termine senza che i pareri siano stati espressi, il decreto puo' essere comunque adottato. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_7__para_4">
+                        <num>4.</num>
+                        <content>
+                            <p>Qualora, per tre anni consecutivi, un ITS Academy riceva, nell'ambito del sistema di monitoraggio e valutazione di cui all'articolo 13, un giudizio negativo riferito almeno al 50 per cento dei corsi valutati nelle rispettive annualita' del triennio precedente, e' disposta la revoca dell'accreditamento rilasciato ai sensi del comma 1. Alla revoca consegue la perdita dell'abilitazione al rilascio dei diplomi e della possibilita' di accedere al sistema di finanziamento di cui al capo III. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_7__para_5">
+                        <num>5.</num>
+                        <content>
+                            <p>Nel caso di revoca dell'accreditamento, a garanzia del completamento dei percorsi formativi da parte degli studenti a cui manchino non piu' di due semestri alla conclusione del percorso, le attivita' formative, ove possibile, proseguono sino alla loro conclusione. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_7__para_6">
+                        <num>6.</num>
+                        <content>
+                            <p>Le disposizioni del presente articolo costituiscono principi fondamentali cui si conformano le regioni nell'accreditamento degli ITS Academy. Fino all'adozione, da parte delle regioni, di una propria disciplina per il riconoscimento e l'accreditamento degli ITS Academy, nonche' per la sua revoca, ai sensi del comma 1, l'accreditamento degli ITS Academy e la sua eventuale revoca sono effettuati dal Ministero dell'istruzione sulla base dei requisiti e degli standard minimi, dei presupposti e delle modalita' definiti con il decreto di cui al comma 2. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_7__para_7">
+                        <num>7.</num>
+                        <content>
+                            <p>All'attuazione del presente articolo si provvede nell'ambito delle risorse umane, finanziarie e strumentali disponibili a legislazione vigente e senza nuovi o maggiori oneri per la finanza pubblica. 
+</p>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_8">
+                    <num>Art. 8.</num>
+                    <heading>Raccordi tra il sistema universitario, gli ITS Academy e le istituzioni dell'alta formazione artistica, musicale e coreutica</heading>
+                    <paragraph eId="art_8__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Gli ITS Academy e le istituzioni universitarie, nella loro autonomia, rendono organici i loro raccordi attraverso i patti federativi di cui all'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/legge/stato/2010-12-30/240/!main#art_3-com2" ns35:target="olf:it/legge/stato/2010/240/art_3-com2" ns35:relation="cites">articolo 3, comma 2, della legge 30 dicembre 2010, n. 240</ref>, allo scopo di realizzare percorsi flessibili e modulari per il conseguimento, anche in regime di apprendistato di alta formazione e ricerca, di lauree a orientamento professionale, per incrementare le opportunita' di formazione e ulteriore qualificazione professionalizzante dei giovani, a livello terziario, ai fini di una rapida transizione nel mondo del lavoro. I patti federativi possono prevedere, nel confronto con le parti sociali piu' rappresentative, la promozione e la realizzazione di percorsi per l'innalzamento e la specializzazione delle competenze dei lavoratori, anche licenziati e collocati in cassa integrazione guadagni per effetto di crisi aziendali e di riconversioni produttive, che possono costituire credito formativo per l'eventuale conseguimento di lauree a orientamento professionale, allo scopo di facilitarne il reinserimento in occupazioni qualificate. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_8__para_2">
+                        <num>2.</num>
+                        <list>
+                            <intro eId="art_8__para_2__intro_1">
+                                <p>Con decreto del Ministro dell'istruzione, di concerto con il Ministro dell'universita' e della ricerca, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, a norma dell'<ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_3" ns36:target="olf:it/decreto-legislativo/stato/1997/281/art_3" ns36:relation="cites">articolo 3 del decreto legislativo 28 agosto 1997, n. 281</ref>, da adottare entro centottanta giorni dalla data di entrata in vigore della presente legge, sono definiti: 
+ </p>
+                            </intro>
+                            <point eId="art_8__para_2.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>i criteri generali e gli standard di organizzazione per la condivisione, tra le fondazioni ITS Academy, le istituzioni universitarie interessate e gli enti di ricerca, delle risorse logistiche, umane, strumentali e finanziarie occorrenti; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_8__para_2.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>i criteri generali e le modalita' per i passaggi tra i percorsi formativi degli ITS Academy di cui all'articolo 5, comma 1, e i percorsi di laurea a orientamento professionale, e viceversa, con il relativo reciproco riconoscimento dei percorsi formativi e dei crediti universitari formativi; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_8__para_2.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>i criteri generali per il riconoscimento dei crediti formativi certificati all'esito dei percorsi formativi di cui all'articolo 5, comma 1, come crediti formativi validi ai fini del tirocinio per l'accesso all'esame di Stato per le professioni di agrotecnico, geometra, perito agrario e perito industriale, nonche' come crediti formativi validi ai fini del tirocinio da valutare in sede di esame finale per il conseguimento delle lauree di cui alla <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/2021-11-08/163/!main" ns37:target="olf:it/legge/stato/2021/163" ns37:relation="cites">legge 8 novembre 2021, n. 163</ref>; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_8__para_2.__point_d">
+                                <num>d)</num>
+                                <content>
+                                    <p>le modalita' per rendere trasparente e sostenere, attraverso l'adozione di tabelle nazionali di corrispondenza, il riconoscimento dei crediti certificati acquisiti dai diplomati degli ITS Academy a conclusione dei percorsi formativi di differente livello, di cui all'articolo 5, comma 1, ai fini dell'eventuale prosecuzione degli studi in percorsi di laurea; le tabelle nazionali di corrispondenza sono adottate entro novanta giorni dalla data di entrata in vigore del decreto di cui al presente comma con decreto del Presidente del Consiglio dei ministri, su proposta del Ministro dell'istruzione e del Ministro dell'universita' e della ricerca, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano. Le corrispondenze sono individuate in relazione a ciascuna delle figure professionali nazionali di riferimento degli ITS Academy di cui all'articolo 3, comma 2, e i crediti formativi sono resi riconoscibili sulla base dei criteri generali definiti dall'articolo 6. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_8__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>Il decreto del Ministro dell'istruzione di cui al comma 2 e' adottato previo parere delle competenti Commissioni parlamentari, le quali si esprimono entro trenta giorni dalla data di trasmissione del relativo schema. Decorso il termine senza che i pareri siano stati espressi, il decreto puo' essere comunque adottato. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_8__para_4">
+                        <num>4.</num>
+                        <content>
+                            <p>Ai comitati regionali di coordinamento previsti dall'articolo 3 del regolamento di cui al <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1998-01-27/25/!main" ns38:target="olf:it/dpr/stato/1998/25" ns38:relation="cites">decreto del Presidente della Repubblica 27 gennaio 1998, n. 25</ref>, possono essere invitati a partecipare rappresentanti delle istituzioni dell'alta formazione artistica, musicale e coreutica, nonche' delle fondazioni ITS Academy aventi sede nella regione. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_8__para_5">
+                        <num>5.</num>
+                        <content>
+                            <p>All'attuazione del presente articolo si provvede nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri per la finanza pubblica. 
+</p>
+                        </content>
+                    </paragraph>
+                    <section>
+                        <content>
+                            <p>
+                                <authorialNote eId="authorialNote_4" placement="bottom">
+                                    <p> Note all'art. 8: 
+ - Si riporta l'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/legge/stato/2010-12-30/240/!main#art_3-com2" ns39:target="olf:it/legge/stato/2010/240/art_3-com2" ns39:relation="cites">art. 3, comma 2, della legge 30 dicembre 2010, n. 240</ref>, recante: «Norme in materia di organizzazione delle universita', di personale accademico e reclutamento, nonche' delega al Governo per incentivare la qualita' e l'efficienza del sistema universitario», pubblicata nella Gazz. Uff. 14 gennaio 2011, n. 10, S.O.: 
+ Art. 3 (Federazione e fusione di atenei e razionalizzazione dell'offerta formativa). - (omissis) 
+ 2. La federazione puo' avere luogo, altresi', tra universita' ed enti o istituzioni operanti nei settori della ricerca e dell'alta formazione, ivi compresi gli istituti tecnici superiori di cui al capo II del decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008, pubblicato nella Gazzetta Ufficiale n. 86 dell'11 aprile 2008, nonche' all'art. 2, comma 4, del regolamento di cui al <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/87/!main#art_2-com4" ns40:target="olf:it/dpr/stato/2010/87/art_2-com4" ns40:relation="cites">decreto del Presidente della Repubblica 15 marzo 2010, n. 87, e all'art. 2, comma 4</ref>, del regolamento di cui al <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/88/!main" ns41:target="olf:it/dpr/stato/2010/88" ns41:relation="cites">decreto del Presidente della Repubblica 15 marzo 2010, n. 88</ref>, sulla base di progetti coerenti ed omogenei con le caratteristiche e le specificita' dei partecipanti.» 
+ - Si riporta l'<ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_3" ns42:target="olf:it/decreto-legislativo/stato/1997/281/art_3" ns42:relation="cites">art. 3 del decreto legislativo 28 agosto 1997, n. 281</ref>, recante: «Definizione ed ampliamento delle attribuzioni della Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e Bolzano ed unificazione, per le materie ed i compiti di interesse comune delle regioni, delle province e dei comuni, con la Conferenza Stato-citta' ed autonomie locali», pubblicato nella Gazz. Uff. 30 agosto 1997, n. 202: 
+ «Art. 3 (Intese). - 1. Le disposizioni del presente articolo si applicano a tutti i procedimenti in cui la legislazione vigente prevede un'intesa nella Conferenza Stato-regioni. 
+ 2. Le intese si perfezionano con l'espressione dell'assenso del Governo e dei presidenti delle regioni e delle province autonome di Trento e di Bolzano. 
+ 3. Quando un'intesa espressamente prevista dalla legge non e' raggiunta entro trenta giorni dalla prima seduta della Conferenza Stato-regioni in cui l'oggetto e' posto all'ordine del giorno, il Consiglio dei Ministri provvede con deliberazione motivata. 
+ 4. In caso di motivata urgenza il Consiglio dei Ministri puo' provvedere senza l'osservanza delle disposizioni del presente articolo. I provvedimenti adottati sono sottoposti all'esame della Conferenza Stato-regioni nei successivi quindici giorni. Il Consiglio dei Ministri e' tenuto ad esaminare le osservazioni della Conferenza Stato-regioni ai fini di eventuali deliberazioni successive.» 
+ - La <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/legge/stato/2021-11-08/163/!main" ns43:target="olf:it/legge/stato/2021/163" ns43:relation="cites">legge 8 novembre 2021, n. 163</ref>, recante: «Disposizioni in materia di titoli universitari abilitanti», e' pubblicata nella Gazz. Uff. 19 novembre 2021, n. 276. 
+ - Si riporta l'<ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1998-01-27/25/!main#art_3" ns44:target="olf:it/dpr/stato/1998/25/art_3" ns44:relation="cites">art. 3 del decreto del Presidente della repubblica 27 gennaio 1998, n. 25</ref> (Regolamento recante disciplina dei procedimenti relativi allo sviluppo ed alla programmazione del sistema universitario, nonche' ai comitati regionali di coordinamento, a norma dell'<ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/legge/stato/1997-03-15/59/!main#art_20-com8-leta" ns45:target="olf:it/legge/stato/1997/59/art_20-com8-leta" ns45:relation="cites">art. 20, comma 8, lettere a)</ref> e <ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/legge/stato/1997-03-15/59/!main#art_20-com8-letb" ns46:target="olf:it/legge/stato/1997/59/art_20-com8-letb" ns46:relation="cites">b), della L. 15 marzo 1997, n. 59</ref>), pubblicato nella Gazz. Uff. 17 febbraio 1998, n. 39: 
+ «Art. 3 (Comitati regionali di coordinamento). - 1. I comitati regionali di coordinamento sono costituiti dai rettori delle universita' aventi sede nella stessa regione, dal presidente della giunta regionale o da un suo delegato, nonche' da un rappresentante degli studenti se nella regione hanno sede fino a due atenei, da due rappresentanti se ivi hanno sede fino a tre atenei e da tre per un numero di atenei nella regione superiore a tre, eletti dalla componente studentesca dei senati accademici e dei consigli di amministrazione delle universita' della regione, riunita in seduta comune. Nella regione Trentino-Alto Adige si istituiscono due comitati provinciali di coordinamento, ciascuno di essi composto dal presidente della provincia autonoma, o da un suo delegato, dai rettori delle universita' della provincia e dai rappresentanti degli studenti delle medesime, determinati ai sensi del presente comma. 
+ 2. I comitati eleggono nel loro seno il rettore che li presiede ed individuano la sede universitaria ai fini del supporto tecnico e amministrativo. 
+ 3. I comitati, oltre alle funzioni di cui all'art. 2, comma 3, lettera c), provvedono al coordinamento delle iniziative in materia di programmazione degli accessi all'istruzione universitaria, di orientamento, di diritto allo studio, di alta formazione professionale e di formazione continua e ricorrente, di utilizzazione delle strutture universitarie, nonche' al coordinamento con il sistema scolastico, con le istituzioni formative regionali, con le istanze economiche e sociali del territorio.» 
+</p>
+                                </authorialNote>
+                            </p>
+                        </content>
+                    </section>
+                </article>
+                <article eId="art_9">
+                    <num>Art. 9.</num>
+                    <heading> Misure nazionali di sistema per l'orientamento</heading>
+                    <paragraph eId="art_9__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Gli ITS Academy sono costituiti sul territorio nel rispetto delle competenze esclusive delle regioni in materia di programmazione dell'offerta formativa e secondo criteri che assicurano il coinvolgimento delle parti sociali. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_9__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>Il Ministero dell'istruzione promuove, senza nuovi o maggiori oneri per la finanza pubblica, la costituzione di « Reti di coordinamento di settore e territoriali » per lo scambio di buone pratiche, la condivisione di laboratori e la promozione di gemellaggi tra fondazioni ITS Academy di regioni diverse. Le reti di coordinamento si riuniscono almeno due volte l'anno e sono coordinate da un rappresentante del Ministero dell'istruzione. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_9__para_3">
+                        <num>3.</num>
+                        <list>
+                            <intro eId="art_9__para_3__intro_1">
+                                <p>Per favorire lo sviluppo del complessivo Sistema terziario di istruzione tecnologica superiore di cui all'articolo 1, il Comitato nazionale ITS Academy di cui all'articolo 10 individua, nei limiti delle risorse del Fondo per l'istruzione tecnologica superiore di cui all'articolo 11, linee di azione nazionali al fine di promuovere <ins eId="ins_6">((, con particolare riferimento all'obiettivo di favorire l'equilibrio di genere))</ins>: 
+ </p>
+                            </intro>
+                            <point eId="art_9__para_3.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>attivita' di orientamento a partire dalla scuola secondaria di primo grado <ins eId="ins_7">((in relazione alle))</ins> iscrizioni agli ITS Academy; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_9__para_3.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>programmi pluriennali comprendenti percorsi per le competenze trasversali e per l'orientamento e altre iniziative di orientamento, anche nella forma di percorsi esperienziali, destinate agli studenti degli istituti di scuola secondaria di secondo grado, compresi i licei, e iniziative di informazione alle famiglie sulla missione e sull'offerta formativa professionale degli ITS Academy, di cui al presente capo. Tali programmi sono volti a far conoscere anche i percorsi professionalizzanti in regime di apprendistato di alta formazione e ricerca per una rapida transizione nel mondo del lavoro; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_9__para_3.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>programmi per la diffusione della cultura scientifica e tecnologica anche al fine di sostenere le misure per lo sviluppo economico e la competitivita' del sistema produttivo italiano in coerenza con i parametri europei. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                </article>
+            </chapter>
+            <chapter eId="chp_III">
+                <num>Capo III</num>
+                <heading>Comitato nazionale ITS Academy e sistema di finanziamento</heading>
+                <article eId="art_10">
+                    <num>Art. 10.</num>
+                    <heading> Comitato nazionale ITS Academy</heading>
+                    <paragraph eId="art_10__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>E' istituito, presso il Ministero dell'istruzione, il Comitato nazionale ITS Academy per l'istruzione tecnologica superiore, con compiti di consulenza e proposta, nonche' di consultazione delle associazioni di rappresentanza delle imprese, delle organizzazioni datoriali e sindacali, degli studenti e delle fondazioni ITS Academy al fine di raccogliere elementi sui nuovi fabbisogni di figure professionali di tecnici superiori nel mercato del lavoro. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_10__para_2">
+                        <num>2.</num>
+                        <list>
+                            <intro eId="art_10__para_2__intro_1">
+                                <p>Il Comitato nazionale ITS Academy propone in particolare: 
+ </p>
+                            </intro>
+                            <point eId="art_10__para_2.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>le linee generali di indirizzo dei piani triennali di programmazione delle attivita' formative adottati dalle regioni; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_10__para_2.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>le direttrici per il consolidamento, il potenziamento e lo sviluppo dell'offerta formativa e del Sistema terziario di istruzione tecnologica superiore, soprattutto ai fini del riequilibrio dell'offerta formativa professionalizzante sul territorio e della promozione di una maggiore inclusione di genere; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_10__para_2.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>l'aggiornamento, con cadenza almeno triennale, delle aree tecnologiche e delle figure professionali per ciascuna area, nonche' le linee di sviluppo dell'integrazione tra i sistemi di istruzione, formazione e lavoro per la diffusione della cultura tecnico-scientifica; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_10__para_2.__point_d">
+                                <num>d)</num>
+                                <content>
+                                    <p>la promozione di percorsi formativi degli ITS Academy in specifici ambiti territoriali o in ulteriori ambiti tecnologici e strategici, al fine di garantire un'omogenea presenza su tutto il territorio nazionale; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_10__para_2.__point_e">
+                                <num>e)</num>
+                                <content>
+                                    <p>criteri e modalita' per la costituzione delle Reti di coordinamento di settore e territoriali di cui all'articolo 9, comma 2, nonche' per la promozione di forme di raccordo tra ITS Academy e reti di innovazione a livello territoriale; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_10__para_2.__point_f">
+                                <num>f)</num>
+                                <content>
+                                    <p>programmi per la costituzione e lo sviluppo, d'intesa con le regioni interessate, di campus multiregionali in relazione a ciascuna area tecnologica di cui all'articolo 3, comma 1, e di campus multisettoriali tra ITS Academy di aree tecnologiche e ambiti diversi. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_10__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>Con appositi decreti del Ministro dell'istruzione adottati ai sensi dell'articolo 14, comma 6, sono definiti i provvedimenti negli ambiti di cui al comma 2 del presente articolo e di cui all'articolo 9, comma 3, tenendo conto delle proposte del Comitato nazionale ITS Academy. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_10__para_4">
+                        <num>4.</num>
+                        <content>
+                            <p>Fermo restando quanto previsto al comma 5, il Comitato nazionale ITS Academy e' composto da dodici membri indicati: uno dal Ministero dell'istruzione, con funzioni di presidente, uno dal Ministero dello sviluppo economico, uno dal Ministero dell'economia e delle finanze, uno dal Ministero delle politiche agricole alimentari e forestali, uno dal Ministero del turismo, uno dal Ministero della cultura, uno dal Ministero della salute, uno dal Ministero dell'universita' e della ricerca, uno dal Ministero del lavoro e delle politiche sociali, uno dal Ministero delle infrastrutture e della mobilita' sostenibili, uno dal Ministero della transizione ecologica e uno dal Dipartimento per la trasformazione digitale della Presidenza del Consiglio dei ministri. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_10__para_5">
+                        <num>5.</num>
+                        <content>
+                            <p>Ai lavori del Comitato nazionale ITS Academy partecipano, secondo criteri e modalita' definiti con il decreto del Ministro dell'istruzione di cui al comma 8, rappresentanti delle regioni designati dalla Conferenza delle regioni e delle province autonome. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_10__para_6">
+                        <num>6.</num>
+                        <content>
+                            <p>Ai lavori del Comitato nazionale ITS Academy possono partecipare, senza diritto di voto, rappresentanti degli ITS Academy. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_10__para_7">
+                        <num>7.</num>
+                        <content>
+                            <p>Il Comitato nazionale ITS Academy si avvale della consulenza tecnica dell'Istituto nazionale di documentazione, innovazione e ricerca educativa (INDIRE), dell'Agenzia nazionale per le politiche attive del lavoro (ANPAL) e dell'Istituto nazionale per l'analisi delle politiche pubbliche (INAPP). 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_10__para_8">
+                        <num>8.</num>
+                        <content>
+                            <p>Con decreto del Ministro dell'istruzione adottato ai sensi dell'articolo 14, comma 6, sono stabilite le modalita' per la costituzione e il funzionamento del Comitato nazionale ITS Academy.
+Per la partecipazione alle attivita' del Comitato nazionale ITS Academy non spettano compensi, indennita', gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_10__para_9">
+                        <num>9.</num>
+                        <content>
+                            <p>All'attuazione del presente articolo le amministrazioni pubbliche interessate provvedono nell'ambito delle risorse umane, finanziarie e strumentali disponibili a legislazione vigente. 
+</p>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_11">
+                    <num>Art. 11.</num>
+                    <heading> Sistema di finanziamento</heading>
+                    <paragraph eId="art_11__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Allo scopo di promuovere, consolidare e sviluppare il Sistema terziario di istruzione tecnologica superiore di cui all'articolo 1 e di riequilibrare la relativa offerta formativa a livello territoriale, e' istituito, nello stato di previsione del Ministero dell'istruzione, il Fondo per l'istruzione tecnologica superiore. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_11__para_2">
+                        <num>2.</num>
+                        <list>
+                            <intro eId="art_11__para_2__intro_1">
+                                <p>Il Fondo di cui al comma 1 finanzia prioritariamente: 
+ </p>
+                            </intro>
+                            <point eId="art_11__para_2.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>la realizzazione dei percorsi negli ITS Academy accreditati di cui al capo II al fine di incrementarne significativamente l'offerta formativa in tutto il territorio nazionale, anche per i percorsi attivati all'estero previsti nell'ambito dei piani triennali di programmazione delle attivita' formative adottati dalle regioni, per lo svolgimento della missione di cui all'articolo 2. A questo fine, il Fondo finanzia anche interventi relativi alle sedi degli ITS Academy e volti a potenziare i laboratori e le infrastrutture tecnologicamente avanzate, comprese quelle per la formazione a distanza, utilizzati, anche in via non esclusiva, dagli ITS Academy; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_11__para_2.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>le misure nazionali di sistema per l'orientamento dei giovani e delle loro famiglie, ai sensi dell'articolo 9, comma 3; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_11__para_2.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>l'anagrafe degli studenti, la banca dati nazionale e il sistema di monitoraggio e valutazione di cui agli articoli 12 e 13; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_11__para_2.__point_d">
+                                <num>d)</num>
+                                <content>
+                                    <p>le borse di studio di cui all'articolo 5, comma 4, lettera a); 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_11__para_2.__point_e">
+                                <num>e)</num>
+                                <content>
+                                    <p>le misure adottate sulla base dell'articolo 10, comma 2, lettera b). 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_11__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>La dotazione del Fondo di cui al comma 1 e' pari a 48.355.436 euro annui a decorrere dall'anno 2022. Al relativo onere si provvede mediante corrispondente riduzione del Fondo per l'istruzione e formazione tecnica superiore, di cui all'<ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/legge/stato/2006-12-27/296/!main#art_1-com875" ns47:target="olf:it/legge/stato/2006/296/art_1-com875" ns47:relation="cites">articolo 1, comma 875, della legge 27 dicembre 2006, n. 296</ref>. Per concorrere al raggiungimento degli obiettivi di cui al comma 1, una quota del Fondo di cui al medesimo comma 1 e' destinata a incrementare lo sviluppo dei percorsi negli ITS Academy e le iscrizioni dei giovani ai percorsi formativi di cui all'articolo 5, comma 1, per potenziare l'istruzione terziaria a carattere professionalizzante. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_11__para_4">
+                        <num>4.</num>
+                        <content>
+                            <p>Per le misure di cui al comma 2, lettere b) e c), e' riservata una quota del Fondo di cui al comma 1 non superiore al 5 per cento delle risorse complessivamente disponibili sul Fondo medesimo e per quelle di cui al comma 2, lettera d), una quota non inferiore al 3 per cento delle risorse stesse. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_11__para_5">
+                        <num>5.</num>
+                        <content>
+                            <p>Le risorse del Fondo di cui al comma 1 sono utilizzate nell'ambito di un programma triennale definito con decreto del Ministro dell'istruzione adottato ai sensi dell'articolo 14, comma 6.
+Il decreto di cui al primo periodo e' adottato previo parere delle competenti Commissioni parlamentari, le quali si esprimono entro trenta giorni dalla data di trasmissione del relativo schema. Decorso il termine senza che i pareri siano stati espressi, il decreto puo' essere comunque adottato. In sede di prima applicazione, il decreto di cui al presente comma e' adottato entro centoventi giorni dalla data di entrata in vigore della presente legge. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_11__para_6">
+                        <num>6.</num>
+                        <content>
+                            <p>I criteri e le modalita' per la ripartizione delle risorse del Fondo di cui al comma 1 sono definiti con decreto del Ministro dell'istruzione, da adottare entro novanta giorni dalla data di entrata in vigore della presente legge, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, sulla base del numero degli iscritti ai percorsi formativi e tenendo conto del numero di diplomati nel triennio precedente. Le risorse sono assegnate alle regioni, che le riversano alle fondazioni che abbiano ottenuto l'accreditamento ai sensi dell'articolo 7 e siano incluse nei piani territoriali regionali. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_11__para_7">
+                        <num>7.</num>
+                        <content>
+                            <p>Le risorse messe a disposizione dal Ministero dell'istruzione a valere sul Fondo di cui al comma 1 sono assegnate, in misura non inferiore al 30 per cento del loro ammontare, a titolo di quota premiale tenendo conto della percentuale dei diplomati e del tasso di occupazione, coerente con il percorso formativo svolto, al termine dell'anno solare successivo a quello di conseguimento del diploma in relazione ai percorsi attivati con riferimento alla fine dell'anno precedente a quello del finanziamento, nonche' dell'attivazione di percorsi di apprendimento duale. Una quota delle risorse premiali di cui al primo periodo e' assegnata, fino al 5 per cento del loro ammontare complessivo, tenendo conto del numero di studentesse iscritte e di quelle diplomate. Un'ulteriore quota delle risorse premiali di cui al primo periodo e' assegnata, fino al 10 per cento del loro ammontare complessivo, per la promozione e il sostegno dei campus multiregionali e multisettoriali di cui all'articolo 10, comma 2, lettera f), e di forme di coordinamento e collaborazione tra fondazioni. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_11__para_8">
+                        <num>8.</num>
+                        <content>
+                            <p>Resta fermo per le regioni l'obbligo di cofinanziamento dei piani triennali di attivita' degli ITS Academy per almeno il 30 per cento dell'ammontare delle risorse statali stanziate. A tal fine le regioni comunicano al Ministero dell'istruzione l'importo del cofinanziamento entro il 30 giugno dell'esercizio finanziario cui le risorse si riferiscono. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_11__para_9">
+                        <num>9.</num>
+                        <content>
+                            <p>Per lo svolgimento della missione di cui all'articolo 2, gli ITS Academy possono avvalersi anche di altre risorse conferite da soggetti pubblici e privati <ins eId="ins_8">((nonche' di risorse derivanti dalla concessione in uso temporaneo dei laboratori alle imprese del settore produttivo che utilizzano le tecnologie caratterizzanti l'ITS Academy afferente a una delle aree tecnologiche di riferimento. La concessione dei laboratori e' consentita al di fuori dell'orario di svolgimento delle attivita' formative degli ITS Academy o di qualsiasi altra attivita' rientrante nella missione di cui al medesimo articolo 2))</ins>. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_11__para_10">
+                        <num>10.</num>
+                        <content>
+                            <p>Il prefetto della provincia in cui ha sede legale l'ITS Academy esercita il controllo sull'amministrazione della fondazione e sul corretto utilizzo delle risorse ricevute dalla fondazione, secondo quanto previsto dall'articolo 4, comma 8. 
+</p>
+                        </content>
+                    </paragraph>
+                </article>
+            </chapter>
+            <chapter eId="chp_IV">
+                <num>Capo IV</num>
+                <heading>Anagrafe nazionale degli studenti, banca dati nazionale, monitoraggio  e valutazione</heading>
+                <article eId="art_12">
+                    <num>Art. 12.</num>
+                    <heading> Anagrafe nazionale degli studenti e banca dati nazionale</heading>
+                    <paragraph eId="art_12__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>L'anagrafe degli studenti iscritti ai percorsi degli ITS Academy di cui al capo II e' costituita presso il Ministero dell'istruzione secondo criteri e modalita' definiti con decreto del Ministro dell'istruzione adottato ai sensi dell'articolo 14, comma 6. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_12__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>Le funzioni e i compiti della banca dati nazionale di cui all'articolo 13 del decreto del Presidente del Consiglio dei ministri 25 gennaio 2008, pubblicato nella Gazzetta Ufficiale n. 86 dell'11 aprile 2008, sono adeguati a quanto previsto dalla presente legge con decreto del Ministro dell'istruzione adottato ai sensi dell'articolo 14, comma 6. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_12__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>Agli oneri derivanti dal presente articolo si provvede nel limite di spesa a valere sulla dotazione del Fondo di cui all'articolo 11, comma 3. Alla copertura dei predetti oneri possono concorrere anche eventuali risorse messe a disposizione dal Ministero del lavoro e delle politiche sociali, con particolare riferimento alla valutazione degli esiti occupazionali dei percorsi di cui al capo II. 
+</p>
+                        </content>
+                    </paragraph>
+                    <section>
+                        <content>
+                            <p>
+                                <authorialNote eId="authorialNote_5" placement="bottom">
+                                    <p> Note all'art. 12: 
+ - Il decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008, recante: «Linee guida per la riorganizzazione del Sistema di istruzione e formazione tecnica superiore e la costituzione degli istituti tecnici superiori», e' pubblicato nella Gazz. Uff. 11 aprile 2008, n. 86. 
+</p>
+                                </authorialNote>
+                            </p>
+                        </content>
+                    </section>
+                </article>
+                <article eId="art_13">
+                    <num>Art. 13.</num>
+                    <heading> Monitoraggio e valutazione</heading>
+                    <paragraph eId="art_13__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Il sistema nazionale di monitoraggio e valutazione di cui all'articolo 14 del decreto del Presidente del Consiglio dei ministri 25 gennaio 2008, pubblicato nella Gazzetta Ufficiale n. 86 dell'11 aprile 2008, e' realizzato dal Ministero dell'istruzione, anche avvalendosi di enti pubblici di ricerca su cui ha la vigilanza, ed e' attuato, in conformita' a quanto previsto dalla presente legge, con decreto del Ministro dell'istruzione adottato ai sensi dell'articolo 14, comma 6. Il sistema di monitoraggio e valutazione dei percorsi formativi degli ITS Academy di cui all'articolo 5, comma 1, lettera b), e' realizzato congiuntamente dal Ministero dell'istruzione e dal Ministero dell'universita' e della ricerca, con la possibilita' di avvalersi di enti pubblici vigilati o controllati ovvero riconosciuti a livello nazionale per le attivita' di valutazione della formazione superiore. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_13__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>Gli indicatori del sistema di monitoraggio e valutazione dei percorsi di cui al capo II nonche' le modalita' per il loro periodico aggiornamento sono definiti con decreto del Ministro dell'istruzione adottato ai sensi dell'articolo 14, comma 6, ovvero, nei casi di cui al comma 1, secondo periodo, del presente articolo, con decreto del Ministro dell'istruzione di concerto con il Ministro dell'universita' e della ricerca, adottato ai sensi dell'articolo 14, comma 6. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_13__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>All'attuazione del presente articolo si provvede, per quanto di competenza del Ministero dell'istruzione, a valere sulla dotazione del Fondo di cui all'articolo 11, comma 3, e, per quanto di competenza del Ministero dell'universita' e della ricerca in relazione all'avvalimento di enti pubblici vigilati o controllati ovvero riconosciuti a livello nazionale per le attivita' di valutazione della formazione superiore, senza nuovi o maggiori oneri per la finanza pubblica. 
+</p>
+                        </content>
+                    </paragraph>
+                    <section>
+                        <content>
+                            <p>
+                                <authorialNote eId="authorialNote_6" placement="bottom">
+                                    <p> Note all'art. 13: 
+ Per i riferimenti del DPCM 25 gennaio 2008 si veda nella nota all'art. 12. 
+</p>
+                                </authorialNote>
+                            </p>
+                        </content>
+                    </section>
+                </article>
+            </chapter>
+            <chapter eId="chp_V">
+                <num>Capo V</num>
+                <heading>Disposizioni finali</heading>
+                <article eId="art_14">
+                    <num>Art. 14.</num>
+                    <heading> Fase transitoria e attuazione</heading>
+                    <paragraph eId="art_14__para_1">
+                        <num>1.</num>
+                        <list>
+                            <intro eId="art_14__para_1__intro_1">
+                                <p>Per diciassette mesi a decorrere dalla data di entrata in vigore della presente legge si intendono temporaneamente accreditate: 
+ </p>
+                            </intro>
+                            <point eId="art_14__para_1.__point_a">
+                                <num>a)</num>
+                                <content>
+                                    <p>le fondazioni ITS Academy gia' accreditate entro il 31 dicembre 2019; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_14__para_1.__point_b">
+                                <num>b)</num>
+                                <content>
+                                    <p>le fondazioni ITS Academy accreditate in data successiva a quella di cui alla lettera a) ed entro la data di entrata in vigore della presente legge, che abbiano almeno un percorso attivo con un numero di iscritti non inferiore al 50 per cento della media nazionale degli iscritti ai medesimi percorsi e che dispongano di sedi e laboratori anche in via non esclusiva; 
+</p>
+                                </content>
+                            </point>
+                            <point eId="art_14__para_1.__point_c">
+                                <num>c)</num>
+                                <content>
+                                    <p>le fondazioni ITS Academy per le quali sia intervenuta almeno l'iscrizione nel registro delle persone giuridiche entro il 30 giugno 2023. 
+</p>
+                                </content>
+                            </point>
+                        </list>
+                    </paragraph>
+                    <paragraph eId="art_14__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>Le fondazioni ITS Academy di cui al comma 1, lettere a) e b), che alla data di entrata in vigore della presente legge fanno gia' riferimento a piu' di un'area tecnologica tra quelle individuate con il decreto di cui all'articolo 3, comma 1, o, nelle more dell'adozione di tale decreto, tra quelle di cui al medesimo articolo 3, comma 3, sono temporaneamente autorizzate a continuare a far riferimento a tali aree per diciassette mesi a decorrere dalla data di entrata in vigore della presente legge. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_14__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>Con decreto del Ministro dell'istruzione adottato ai sensi del comma 6 e' disciplinata la fase transitoria, della durata di tre anni dalla data di entrata in vigore della presente legge, anche tenendo conto delle diverse categorie di fondazioni di cui alle lettere a), b) e c) del comma 1. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_14__para_4">
+                        <num>4.</num>
+                        <content>
+                            <p>Il decreto di cui al comma 3 individua deroghe ai criteri di ripartizione del Fondo, di cui all'articolo 11, commi 5 e 6, e stabilisce criteri che garantiscano la gradualita' nell'incremento dal 30 al 35 per cento della quota di monte orario complessivo dedicata agli stage aziendali e ai tirocini formativi. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_14__para_5">
+                        <num>5.</num>
+                        <content>
+                            <p>Per gli anni 2022 e 2023, la ripartizione dei finanziamenti agli ITS Academy avviene secondo quanto previsto dall'accordo sancito in sede di Conferenza unificata il 5 agosto 2014, come modificato dall'accordo sancito in sede di Conferenza unificata il 17 dicembre 2015, e dall'articolo 1, commi 465, 466 e 467, della <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/legge/stato/2018-12-30/145/!main" ns48:target="olf:it/legge/stato/2018/145" ns48:relation="cites">legge 30 dicembre 2018, n. 145</ref>, riservando una quota non superiore al 5 per cento delle risorse complessivamente disponibili sul Fondo per l'istruzione e formazione tecnica superiore, di cui all'<ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/legge/stato/2006-12-27/296/!main#art_1-com875" ns49:target="olf:it/legge/stato/2006/296/art_1-com875" ns49:relation="cites">articolo 1, comma 875, della legge 27 dicembre 2006, n. 296</ref>, alla realizzazione delle misure nazionali di sistema, ivi compresi il monitoraggio e la valutazione come previsto dall'articolo 12, comma 5, del decreto del Presidente del Consiglio dei ministri 25 gennaio 2008, pubblicato nella Gazzetta Ufficiale n. 86 dell'11 aprile 2008. Per l'anno 2023, le risorse del Fondo possono essere utilizzate altresi' per la dotazione di nuove sedi degli ITS Academy e per potenziare i laboratori e le infrastrutture tecnologicamente avanzate, comprese quelle per la formazione a distanza, utilizzati, anche in via non esclusiva, dagli ITS Academy. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_14__para_5-bis">
+                        <num>5-bis.</num>
+                        <content>
+                            <p>In via straordinaria, esclusivamente <ins eId="ins_9">((fino all'anno 2026))</ins>, il cofinanziamento di cui all'articolo 11, comma 8, non ha natura obbligatoria. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_14__para_5-ter">
+                        <num>5-ter.</num>
+                        <content>
+                            <p>In via straordinaria, esclusivamente per gli anni 2024, 2025 e 2026, le risorse del Fondo di cui all'articolo 11 possono essere utilizzate anche in deroga alle priorita' individuate dall'articolo 11, comma 2. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_14__para_6">
+                        <num>6.</num>
+                        <content>
+                            <p>Salvo quanto diversamente disposto, all'attuazione della presente legge si provvede con uno o piu' decreti, aventi natura non regolamentare, del Ministro dell'istruzione, sentiti il Ministro dell'universita' e della ricerca, il Ministro del lavoro e delle politiche sociali e il Ministro dello sviluppo economico, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, a norma dell'<ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_3" ns50:target="olf:it/decreto-legislativo/stato/1997/281/art_3" ns50:relation="cites">articolo 3 del decreto legislativo 28 agosto 1997, n. 281</ref>, da adottare entro centottanta giorni dalla data di entrata in vigore della presente legge. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_14__para_7">
+                        <num>7.</num>
+                        <content>
+                            <p>Resta ferma la disciplina del sistema di istruzione e formazione tecnica superiore (IFTS) istituito dall'<ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/legge/stato/1999-05-17/144/!main#art_69" ns51:target="olf:it/legge/stato/1999/144/art_69" ns51:relation="cites">articolo 69 della legge 17 maggio 1999, n. 144</ref>. 
+</p>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_15">
+                    <num>Art. 15.</num>
+                    <heading> Province autonome</heading>
+                    <paragraph eId="art_15__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Le province autonome di Trento e di Bolzano provvedono alle finalita' della presente legge nell'ambito delle competenze attribuite dallo statuto speciale e dalle relative norme di attuazione. 
+</p>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_16">
+                    <num>Art. 16.</num>
+                    <heading> Entrata in vigore</heading>
+                    <paragraph eId="art_16__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                        </content>
+                    </paragraph>
+                </article>
+            </chapter>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 15 luglio 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
