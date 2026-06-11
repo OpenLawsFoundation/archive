@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-12-05/187/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-12-05/187"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legge:2022-12-05;187"/>
+                    <FRBRalias name="eli" value="eli/id/2022/12/05/22G00199/CONSOLIDATED/20231129"/>
+                    <FRBRdate date="2022-12-05" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/12/05/22G00199/CONSOLIDATED/20231129" aknrelname="eli/id/2022/12/05/22G00199/CONSOLIDATED/20231129">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Misure urgenti a tutela dell'interesse nazionale nei settori produttivi strategici. (22G00199)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00199" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                            <nrdfa:span content="2022-12-05" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-12-05/187/ita@2023-11-29/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-12-05/187/ita@2023-11-29"/>
+                    <FRBRdate date="2023-11-29" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/12/05/22G00199/CONSOLIDATED/20231129/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/12/05/22G00199/CONSOLIDATED/20231129"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/12/05/22G00199/CONSOLIDATED/20231129/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-12-05/187/ita@2023-11-29/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-12-05/187/ita@2023-11-29.xml"/>
+                    <FRBRdate date="2022-12-05" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/12/05/22G00199/CONSOLIDATED/20231129/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-12-05" name="" number="284" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-12-05" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2023-02-03" eId="eventRef_1" source="rp1"/>
+                <eventRef date="2023-09-29" eId="eventRef_2" source="rp2"/>
+                <eventRef date="2023-11-28" eId="eventRef_3" source="rp3"/>
+            </lifecycle>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2022-12-05;187#2 bis"/>
+                        <destination href="urn:nir:stato:legge:1997-07-31;249#1"/>
+                        <new>
+                            <nakn:text>convertito con modificazioni dalla L. 1 febbraio 2023, n. 10 (in G.U. 03/02/2023, n. 28), ha disposto (con l'art. 2-bis, commi 1 e 2) la modifica dell'art. 1, comma 6, lettera a)).</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((31 dicembre 2024))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_1" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_2"/>
+                        <new>
+                            <nakn:text>((, anche tenendo conto delle segnalazioni degli enti territoriali ai fini del mantenimento della continuita' operativa e dei livelli occupazionali nel loro territorio))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_2" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_3"/>
+                        <new>
+                            <nakn:text>(( (Misure a tutela degli interessi nazionali nel settore delle comunicazioni) ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_3" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_4"/>
+                        <new>
+                            <nakn:text>((1. In considerazione del carattere strategico dell'infrastruttura di rete in fibra ottica e al fine di assicurare l'interesse nazionale ad una rete che garantisca servizi altamente performanti in banda larga e ultra larga, all'articolo 1, comma 6, lettera a), della legge 31 luglio 1997, n. 249, dopo il numero 4) e' inserito il seguente: 
+ "4-bis) sentito il parere del Ministero delle imprese e del made in Italy e nel rispetto della normativa europea e internazionale, individua, per i cavi in fibra ottica, gli standard tecnici a cui devono attenersi gli aggiudicatari dei bandi per la realizzazione dell'infrastruttura di rete, in modo da assicurare adeguati livelli qualitativi e prestazioni elevate di connettivita'". 
+ 2. Le disposizioni di cui all'articolo 1, comma 6, lettera a), numero 4-bis), della legge 31 luglio 1997, n. 249, come introdotto dal comma 1 del presente articolo, si applicano ai bandi pubblicati successivamente alla data di entrata in vigore della legge di conversione del presente decreto))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO-LEGGE/stato/2022-12-05/187/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/LEGGE/stato/2023-02-01/10/!main" showAs=""/>
+                <passiveRef eId="rp2" href="/akn/it/act/DECRETO-LEGGE/stato/2023-09-29/132/!main" showAs=""/>
+                <passiveRef eId="rp3" href="/akn/it/act/LEGGE/stato/2023-11-27/170/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/12/05/22G00199/CONSOLIDATED/20231129">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Misure urgenti a tutela dell'interesse nazionale nei settori produttivi strategici. (22G00199)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00199</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-12-05</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/12/05/22G00199/CONSOLIDATED/20231129/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/12/05/22G00199/CONSOLIDATED/20231129"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/12/05/22G00199/CONSOLIDATED/20231129/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/12/05/22G00199/CONSOLIDATED/20231129/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legge/stato/2022/187" nativeUrn="urn:nir:stato:decreto.legge:2022-12-05;187" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-12-05"><ns0:event type="enacted" date="2022-12-05"/><ns0:event type="published" date="2022-12-05"/><ns0:event type="commenced" date="2022-12-05"/><ns0:event type="amended" date="2023-02-03"/><ns0:event type="amended" date="2023-09-29"/><ns0:event type="amended" date="2023-11-28"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/8c61101e-f190-417f-9474-92800021dfd7" sourceSha256="da50f37892aff7847c5f9afe33bf7e5d0a4ed21a528995d69d9c329c246c98fa" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T22:19:55.543435Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO-LEGGE</docType>
+                <docDate date="2022-12-05">05 dicembre 2022</docDate>
+                <docNumber>187</docNumber>
+                <docTitle>Misure urgenti a tutela dell'interesse nazionale nei settori produttivi strategici. (22G00199) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 06/12/2022
+Decreto-Legge convertito con modificazioni dalla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2023-02-01/10/!main" ns1:target="olf:it/legge/stato/2023/10" ns1:relation="cites">L. 1 febbraio 2023, n. 10</ref> (in G.U. 03/02/2023, n. 28).</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visti gli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_77" ns2:target="olf:it/costituzione/stato/1947/const/art_77" ns2:relation="cites">articoli 77</ref> e <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns3:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns3:relation="cites">87, quinto comma, della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Visto il <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/decretoLegge/stato/2012-03-15/21/!main" ns4:target="olf:it/decreto-legge/stato/2012/21" ns4:relation="cites">decreto-legge 15 marzo 2012, n. 21</ref>, convertito, con modificazioni, dalla <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_5" href="/akn/it/act/legge/stato/2012-05-11/56/!main" ns5:target="olf:it/legge/stato/2012/56" ns5:relation="cites">legge 11 maggio 2012, n. 56</ref>;</p>
+                </citation>
+            </citations>
+            <p>Ritenuta la straordinaria necessita' e urgenza di adottare misure per prevenire o contenere il rischio che le imprese operanti in settori strategici per l'interesse nazionale non riescano, a causa della contingente crisi energetica e della situazione geopolitica, ad assicurare la continuita' produttiva, con conseguente rischio per la sicurezza energetica nazionale;</p>
+            <p>Ritenuta, inoltre, la straordinaria necessita' e urgenza di prevedere misure di sostegno alle imprese che risultano destinatarie dell'esercizio dei poteri di cui al <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_6" href="/akn/it/act/decretoLegge/stato/2012-03-15/21/!main" ns6:target="olf:it/decreto-legge/stato/2012/21" ns6:relation="cites">decreto-legge 15 marzo 2012, n. 21</ref>, convertito, con modificazioni, dalla <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_7" href="/akn/it/act/legge/stato/2012-05-11/56/!main" ns7:target="olf:it/legge/stato/2012/56" ns7:relation="cites">legge 11 maggio 2012, n. 56</ref>;</p>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione del 1° dicembre 2022;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Presidente del Consiglio dei ministri e del Ministro delle imprese e del made in Italy, di concerto con il Ministro dell'economia e delle finanze e il Ministro dell'ambiente e della sicurezza energetica;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto-legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading>Misure a tutela dell'interesse nazionale nel settore degli idrocarburi</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>In considerazione del carattere emergenziale assunto dalla crisi energetica, le imprese che gestiscono a qualunque titolo impianti e infrastrutture di rilevanza strategica per l'interesse nazionale nel settore della raffinazione di idrocarburi garantiscono la sicurezza degli approvvigionamenti, nonche' il mantenimento, la sicurezza e l'operativita' delle reti e degli impianti, astenendosi da comportamenti che possono mettere a rischio la continuita' produttiva e recare pregiudizio all'interesse nazionale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Fino al <ins eId="ins_1">((31 dicembre 2024))</ins>, ove vengano in rilievo rischi di continuita' produttiva idonei a recare pregiudizio all'interesse nazionale, conseguenti a sanzioni imposte nell'ambito dei rapporti internazionali tra Stati, l'impresa che svolge le attivita' di cui al comma 1 ne da' tempestiva comunicazione al Ministero delle imprese e del made in Italy, al fine dell'urgente attivazione delle misure a sostegno e tutela previste dalla legge, nel quadro degli aiuti di Stato compatibili con il diritto europeo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Salva l'applicabilita', ove ricorrano i relativi presupposti, della disciplina recata dalla tutela conservativa del patrimonio produttivo per il tramite dell'amministrazione straordinaria di cui al <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/1999-07-08/270/!main" ns8:target="olf:it/decreto-legislativo/stato/1999/270" ns8:relation="cites">decreto legislativo 8 luglio 1999, n. 270</ref> e al <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegge/stato/2003-12-23/347/!main" ns9:target="olf:it/decreto-legge/stato/2003/347" ns9:relation="cites">decreto-legge 23 dicembre 2003, n. 347</ref>, convertito, con modificazioni, dalla <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2004-02-18/39/!main" ns10:target="olf:it/legge/stato/2004/39" ns10:relation="cites">legge 18 febbraio 2004, n. 39</ref>, se il rischio di cui al comma 2 e' imminente, l'impresa interessata puo' altresi' richiedere al Ministero delle imprese e del made in Italy di essere ammessa a procedura di amministrazione temporanea. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>L'amministrazione temporanea e' disposta per un periodo massimo di 12 mesi, prorogabile una sola volta fino a ulteriori 12 mesi. Essa comporta la sostituzione degli organi di amministrazione e controllo, senza applicazione dell'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2383-com3" ns11:target="olf:it/codice-civile/stato/1942/262/art_2383-com3" ns11:relation="cites">articolo 2383, terzo comma, del codice civile</ref>, e la nomina di un commissario che subentra nella gestione.
+L'amministrazione temporanea e' condotta secondo le ordinarie disposizioni dell'ordinamento, al fine di evitare pericoli di pregiudizio all'interesse nazionale alla sicurezza dell'approvvigionamento energetico, nell'interesse dell'impresa e senza pregiudizio per la stessa, per i soci, per i lavoratori e per i titolari di rapporti giuridici attivi o passivi. Gli eventuali utili maturati durante l'esercizio non possono essere distribuiti se non al termine dell'amministrazione temporanea. I costi della gestione temporanea restano a carico dell'impresa. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>L'amministrazione temporanea e' disposta con decreto del Ministro delle imprese e del made in Italy, di concerto con il Ministro dell'ambiente e della sicurezza energetica, con il quale e' nominato il commissario, che puo' avvalersi anche di societa' a controllo o a partecipazione pubblica operante nei medesimi settori e senza pregiudizio della disciplina in tema di concorrenza, e sono altresi' stabiliti termini e modalita' della procedura. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>In caso di grave ed imminente pericolo di pregiudizio all'interesse nazionale alla sicurezza nell'approvvigionamento energetico, l'ammissione alla procedura di amministrazione temporanea di cui al comma 4 puo' essere disposta con decreto del Ministro delle imprese e del made in Italy, del Ministro dell'economia e delle finanze e del Ministro dell'ambiente e della sicurezza energetica anche indipendentemente dalla istanza di cui al comma 3. Con il medesimo decreto e' nominato il commissario, che puo' avvalersi anche di societa' a controllo o a partecipazione pubblica operanti nei medesimi settori, senza pregiudizio della disciplina in tema di concorrenza, e sono altresi' stabiliti termini e modalita' della procedura. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Misure economiche connesse all'esercizio del golden power</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Successivamente all'esercizio dei poteri speciali di cui al <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegge/stato/2012-03-15/21/!main" ns12:target="olf:it/decreto-legge/stato/2012/21" ns12:relation="cites">decreto-legge 15 marzo 2012, n. 21</ref>, convertito, con modificazioni, dalla <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2012-05-11/56/!main" ns13:target="olf:it/legge/stato/2012/56" ns13:relation="cites">legge 11 maggio 2012, n. 56</ref>, il Ministero delle imprese e del made in Italy valuta, su istanza dell'impresa notificante, la sussistenza dei presupposti per l'accesso a misure di sostegno della capitalizzazione dell'impresa, idonee a consentire un rafforzamento patrimoniale, ai fini dell'accesso con priorita' al Fondo per la salvaguardia dei livelli occupazionali e la prosecuzione dell'attivita' di impresa, di cui all'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_43" ns14:target="olf:it/decreto-legge/stato/2020/34/art_43" ns14:relation="cites">articolo 43 del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns15:target="olf:it/legge/stato/2020/77" ns15:relation="cites">legge 17 luglio 2020, n. 77</ref> <ins eId="ins_2">((, anche tenendo conto delle segnalazioni degli enti territoriali ai fini del mantenimento della continuita' operativa e dei livelli occupazionali nel loro territorio))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il Ministero delle imprese e del made in Italy, di concerto con il Ministero dell'economia e delle finanze, sempre su istanza dell'impresa notificante, puo', altresi', chiedere di valutare con priorita' la sussistenza dei presupposti per l'accesso agli interventi erogati dal patrimonio destinato, costituito ai sensi dell'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_27-com1" ns16:target="olf:it/decreto-legge/stato/2020/34/art_27-com1" ns16:relation="cites">articolo 27, comma 1, del decreto-legge 19 maggio 2020, n. 34</ref> convertito, con modificazioni, dalla <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns17:target="olf:it/legge/stato/2020/77" ns17:relation="cites">legge 17 luglio 2020, n. 77</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Nei due anni successivi all'esercizio dei poteri speciali l'impresa e' ammessa a formulare istanza per l'accesso prioritario agli strumenti dei contratti di sviluppo e degli accordi per l'innovazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Con decreto del Ministro delle imprese e del made in Italy, di concerto con il Ministro dell'economia e delle finanze, da adottare entro trenta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, sono definiti i criteri generali per l'effettuazione delle valutazioni di cui ai precedenti commi, nonche' i termini e le modalita' procedimentali per l'accesso alle misure di sostegno. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2-bis">
+                <num>Art. 2-bis.</num>
+                <heading>
+                    <ins eId="ins_3">(( (Misure a tutela degli interessi nazionali nel settore delle comunicazioni) ))</ins>
+                </heading>
+                <paragraph>
+                    <content>
+                        <p>((</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-bis__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>In considerazione del carattere strategico dell'infrastruttura di rete in fibra ottica e al fine di assicurare l'interesse nazionale ad una rete che garantisca servizi altamente performanti in banda larga e ultra larga, all'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/1997-07-31/249/!main#art_1-com6-leta" ns18:target="olf:it/legge/stato/1997/249/art_1-com6-leta" ns18:relation="amends">articolo 1, comma 6, lettera a), della legge 31 luglio 1997, n. 249</ref>, dopo il numero 4) e' inserito il seguente: 
+ "4-bis) sentito il parere del Ministero delle imprese e del made in Italy e nel rispetto della normativa europea e internazionale, individua, per i cavi in fibra ottica, gli standard tecnici a cui devono attenersi gli aggiudicatari dei bandi per la realizzazione dell'infrastruttura di rete, in modo da assicurare adeguati livelli qualitativi e prestazioni elevate di connettivita'". 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p> 2. Le disposizioni di cui all'articolo 1, comma 6, lettera a), numero 4-bis), della <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/1997-07-31/249/!main" ns19:target="olf:it/legge/stato/1997/249" ns19:relation="amends">legge 31 luglio 1997, n. 249</ref>, come introdotto dal comma 1 del presente articolo, si applicano ai bandi pubblicati successivamente alla data di entrata in vigore della legge di conversione del presente decreto))</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dalle disposizioni del presente decreto non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il presente decreto entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana e sara' presentato alle Camere per la conversione in legge. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 5 dicembre 2022 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Urso, Ministro delle imprese e del made in Italy Giorgetti, Ministro dell'economia e delle finanze Pichetto Fratin, Ministro dell'ambiente e della sicurezza energetica Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
