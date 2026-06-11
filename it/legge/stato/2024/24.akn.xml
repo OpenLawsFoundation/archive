@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-02-28/24/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-02-28/24"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-02-28;24"/>
+                    <FRBRalias name="eli" value="eli/id/2024/03/14/24G00039/ORIGINAL"/>
+                    <FRBRdate date="2024-02-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/03/14/24G00039/ORIGINAL" aknrelname="eli/id/2024/03/14/24G00039/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni per il riconoscimento della figura dell'agricoltore custode dell'ambiente e del territorio e per l'istituzione della Giornata nazionale dell'agricoltura. (24G00039)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00039" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-02-28" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-02-28/24/ita@2024-03-29/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-02-28/24/ita@2024-03-29"/>
+                    <FRBRdate date="2024-03-29" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/03/14/24G00039/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/03/14/24G00039/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/03/14/24G00039/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-02-28/24/ita@2024-03-29/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-02-28/24/ita@2024-03-29.xml"/>
+                    <FRBRdate date="2024-02-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/03/14/24G00039/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-03-14" name="" number="62" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-03-14" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-02-28" refersTo="#S.17"/>
+                <step by="#camera" date="2024-02-28" refersTo="#C.1304"/>
+                <step by="#senato" date="2024-02-28" refersTo="#S.17-B"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-02-28/24/!main" showAs=""/>
+                <passiveRef eId="S.17" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;17" showAs=""/>
+                <passiveRef eId="C.1304" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1304" showAs=""/>
+                <passiveRef eId="S.17-B" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;17-B" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/03/14/24G00039/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni per il riconoscimento della figura dell'agricoltore custode dell'ambiente e del territorio e per l'istituzione della Giornata nazionale dell'agricoltura. (24G00039)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00039</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-02-28</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/03/14/24G00039/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/03/14/24G00039/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/03/14/24G00039/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/03/14/24G00039/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/24" nativeUrn="urn:nir:stato:legge:2024-02-28;24" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-03-14"><ns0:event type="enacted" date="2024-02-28"/><ns0:event type="published" date="2024-03-14"/><ns0:event type="commenced" date="2024-03-14"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/dc4edb68-0759-494d-b27a-1963d3e94efe" sourceSha256="8daa21d889d7a7774d3ac5b63c51a0efa76c23ec3e4da331a7152e120d3c9c82" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:18:36.058065Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-02-28">28 febbraio 2024</docDate>
+                <docNumber>24</docNumber>
+                <docTitle>Disposizioni per il riconoscimento della figura dell'agricoltore custode dell'ambiente e del territorio e per l'istituzione della Giornata nazionale dell'agricoltura. (24G00039) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 29/03/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Finalita' 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Lo Stato, le regioni e le province autonome di Trento e di Bolzano tutelano e sostengono la salvaguardia dell'ambiente e dell'ecosistema, nel rispetto dei principi di cui all'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_9" ns1:target="olf:it/costituzione/stato/1947/const/art_9" ns1:relation="cites">articolo 9 della Costituzione</ref>, anche attraverso il riconoscimento della figura dell'agricoltore come custode dell'ambiente e del territorio, che concorre alla protezione del territorio stesso dagli effetti dell'abbandono delle attivita' agricole nonche' dello svuotamento dei piccoli insediamenti urbani e dei centri rurali e dal rischio idrogeologico. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Agricoltore custode dell'ambiente e del territorio</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>Fermo restando quanto previsto dalla <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2015-12-01/194/!main" ns3:target="olf:it/legge/stato/2015/194" ns3:relation="cites">legge 1° dicembre 2015, n. 194</ref>, sono agricoltori custodi dell'ambiente e del territorio gli imprenditori agricoli, singoli o associati, che esercitano l'attivita' agricola ai sensi dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2135" ns4:target="olf:it/codice-civile/stato/1942/262/art_2135" ns4:relation="cites">articolo 2135 del codice civile</ref>, nonche' le societa' cooperative del settore agricolo e forestale, che si occupano di una o piu' delle seguenti attivita': 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>manutenzione del territorio attraverso attivita' di sistemazione, di salvaguardia del paesaggio agrario, montano e forestale e di pulizia del sottobosco, nonche' cura e mantenimento dell'assetto idraulico e idrogeologico e difesa del suolo e della vegetazione da avversita' atmosferiche e incendi boschivi; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>custodia della biodiversita' rurale intesa come conservazione e valorizzazione delle varieta' colturali locali; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>allevamento di razze animali e coltivazione di varieta' vegetali locali; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>conservazione e tutela di formazioni vegetali e arboree monumentali; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>contrasto all'abbandono delle attivita' agricole, al dissesto idrogeologico e al consumo del suolo; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>contrasto alla perdita di biodiversita' attraverso la tutela dei prati polifiti, delle siepi, dei boschi, delle api e di altri insetti impollinatori e coltivazione di piante erbacee di varieta' a comprovato potenziale nettarifero e pollinifero. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2015-12-01/194/!main#art_2" ns5:target="olf:it/legge/stato/2015/194/art_2" ns5:relation="cites">art. 2: 
+ - La legge 1° dicembre 2015, n. 194</ref>, recante: «Disposizioni per la tutela e la valorizzazione della biodiversita' di interesse agricolo e alimentare», e' stata pubblicata nella Gazzetta Ufficiale 11 dicembre 2015, n. 288. 
+ - Il testo dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2135" ns6:target="olf:it/codice-civile/stato/1942/262/art_2135" ns6:relation="cites">art. 2135 del codice civile</ref>, approvato con <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/regio.decreto/stato/1942-03-16/262/!main" ns7:target="olf:it/regio-decreto/stato/1942/262" ns7:relation="cites">regio-decreto 16 marzo 1942, n. 262</ref>, pubblicato nella Gazzetta Ufficiale 4 aprile 1942, n. 79, edizione straordinaria, e' il seguente: 
+ «Art. 2135 (Imprenditore agricolo). - E' imprenditore agricolo chi esercita una delle seguenti attivita': coltivazione del fondo, selvicoltura, allevamento di animali e attivita' connesse. 
+ Per coltivazione del fondo, per selvicoltura e per allevamento di animali si intendono le attivita' dirette alla cura e allo sviluppo di un ciclo biologico o di una fase necessaria del ciclo stesso, di carattere vegetale o animale, che utilizzano o possono utilizzare il fondo, il bosco o le acque dolci, salmastre o marine. 
+ Si intendono comunque connesse le attivita', esercitate dal medesimo imprenditore agricolo, dirette alla manipolazione, conservazione, trasformazione, commercializzazione e valorizzazione che abbiano ad oggetto prodotti ottenuti prevalentemente dalla coltivazione del fondo o del bosco o dall'allevamento di animali, nonche' le attivita' dirette alla fornitura di beni o servizi mediante l'utilizzazione prevalente di attrezzature o risorse dell'azienda normalmente impiegate nell'attivita' agricola esercitata, ivi comprese le attivita' di valorizzazione del territorio e del patrimonio rurale e forestale, ovvero di ricezione ed ospitalita' come definite dalla legge.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading>Promozione della figura dell'agricoltore custode dell'ambiente e del territorio</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le regioni, le province autonome di Trento e di Bolzano, le citta' metropolitane, le province, i comuni e le comunita' montane e isolane, anche costituiti in unioni o associazioni di comuni, possono promuovere la diffusione della figura dell'agricoltore custode dell'ambiente e del territorio, anche attraverso progetti, accordi e protocolli d'intesa volti a valorizzarne il ruolo sociale e a realizzare opere finalizzate allo svolgimento delle attivita' di cui all'articolo 2, comma 1, nonche' opere di protezione dei coltivi e degli allevamenti. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per la finalita' di cui al comma 1, le regioni e le province autonome di Trento e di Bolzano possono prevedere il riconoscimento di specifici criteri di premialita', inclusivi della riduzione dei tributi di rispettiva competenza, nel rispetto della normativa europea in materia di aiuti di Stato, in favore degli agricoltori custodi dell'ambiente e del territorio iscritti nell'elenco ai sensi dell'articolo 5. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Contratti di collaborazione e convenzioni</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per la conclusione dei contratti di collaborazione di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2001-05-18/228/!main#art_14" ns8:target="olf:it/decreto-legislativo/stato/2001/228/art_14" ns8:relation="cites">articolo 14 del decreto legislativo 18 maggio 2001, n. 228</ref>, e per la stipula delle convenzioni di cui all'articolo 15 del medesimo decreto, le pubbliche amministrazioni valutano l'opportunita' di accordare la preferenza agli agricoltori custodi dell'ambiente e del territorio, iscritti nell'apposito elenco in conformita' a quanto disposto dall'articolo 5, in ragione del servizio che si intende affidare con i medesimi contratti. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Il testo dell'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/2001-05-18/228/!main#art_14" ns9:target="olf:it/decreto-legislativo/stato/2001/228/art_14" ns9:relation="cites">art. 14 del decreto legislativo 18 maggio 2001, n. 228</ref>, recante: «Orientamento e modernizzazione del settore agricolo, a norma dell'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2001-03-05/57/!main#art_7" ns10:target="olf:it/legge/stato/2001/57/art_7" ns10:relation="cites">art. 7 della L. 5 marzo 2001, n. 57</ref>.» pubblicato nel Supplemento ordinario della Gazzetta Ufficiale 15 giugno 2001, n. 137, e' il seguente: 
+ «Art. 14 (Contratti di collaborazione con le pubbliche amministrazioni). - 1. Le pubbliche amministrazioni possono concludere contratti di collaborazione, anche ai sensi dell'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2000-08-18/267/!main#art_119" ns11:target="olf:it/decreto-legislativo/stato/2000/267/art_119" ns11:relation="cites">art. 119 del decreto legislativo 18 agosto 2000, n. 267</ref>, con gli imprenditori agricoli anche su richiesta delle organizzazioni professionali agricole maggiormente rappresentative a livello nazionale, per la promozione delle vocazioni produttive del territorio e la tutela delle produzioni di qualita' e delle tradizioni alimentari locali. 
+ 2. I contratti di collaborazione sono destinati ad assicurare il sostegno e lo sviluppo dell'imprenditoria agricola locale, anche attraverso la valorizzazione delle peculiarita' dei prodotti tipici, biologici e di qualita', anche tenendo conto dei distretti agroalimentari, rurali e ittici. 
+ 3. Al fine di assicurare un'adeguata informazione ai consumatori e di consentire la conoscenza della provenienza della materia prima e della peculiarita' delle produzioni di cui ai commi 1 e 2, le pubbliche amministrazioni, nel rispetto degli orientamenti comunitari in materia di aiuti di Stato all'agricoltura, possono concludere contratti di promozione con gli imprenditori agricoli che si impegnino nell'esercizio dell'attivita' di impresa ad assicurare la tutela delle risorse naturali, della biodiversita', del patrimonio culturale e del paesaggio agrario e forestale.». 
+ - Il testo dell'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2001-05-18/228/!main#art_15" ns12:target="olf:it/decreto-legislativo/stato/2001/228/art_15" ns12:relation="cites">art. 15 del decreto legislativo 18 maggio 2001, n. 228</ref>, recante: «Orientamento e modernizzazione del settore agricolo, a norma dell'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2001-03-05/57/!main#art_7" ns13:target="olf:it/legge/stato/2001/57/art_7" ns13:relation="cites">art. 7 della L. 5 marzo 2001, n. 57</ref>.» pubblicato nel Supplemento ordinario della Gazzetta Ufficiale 15 giugno 2001, n. 137, e' il seguente: 
+ «Art. 15 (Convenzioni con le pubbliche amministrazioni). - 1. Al fine di favorire lo svolgimento di attivita' funzionali alla sistemazione ed alla manutenzione del territorio, alla salvaguardia del paesaggio agrario e forestale, alla cura ed al mantenimento dell'assetto idrogeologico e di promuovere prestazioni a favore della tutela delle vocazioni produttive del territorio, le pubbliche amministrazioni, ivi compresi i consorzi di bonifica, possono stipulare convenzioni con gli imprenditori agricoli. 
+ 2. Le convenzioni di cui al comma 1 definiscono le prestazioni delle pubbliche amministrazioni che possono consistere, nel rispetto degli orientamenti comunitari in materia di aiuti di Stato all'agricoltura anche in finanziamenti, concessioni amministrative, riduzioni tariffarie o realizzazione di opere pubbliche. Per le predette finalita' le pubbliche amministrazioni, in deroga alle norme vigenti, possono stipulare contratti d'appalto con gli imprenditori agricoli di importo annuale non superiore a 50.000 euro nel caso di imprenditori singoli, e 300.000 euro nel caso di imprenditori in forma associata.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Elenco degli agricoltori custodi 
+ dell'ambiente e del territorio</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Gli agricoltori custodi dell'ambiente e del territorio sono iscritti, su richiesta, in un apposito elenco da istituire presso i dipartimenti competenti in materia di agricoltura delle regioni e delle province autonome di Trento e di Bolzano. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le amministrazioni interessate provvedono agli adempimenti previsti dal presente articolo nell'ambito delle risorse umane, finanziarie e strumentali disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Istituzione della Giornata nazionale dell'agricoltura</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Repubblica riconosce la seconda domenica di novembre come Giornata nazionale dell'agricoltura, di seguito denominata «Giornata nazionale», al fine di far conoscere il ruolo fondamentale dell'agricoltura, che nelle sue fasi di semina, cura, attesa e raccolto incarna l'essenza della vita e la cui pratica e' fondamentale al soddisfacimento dei bisogni primari dell'uomo e al raggiungimento del benessere economico, ambientale e sociale del Paese. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Giornata nazionale non determina gli effetti civili di cui alla <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/1949-05-27/260/!main" ns14:target="olf:it/legge/stato/1949/260" ns14:relation="cites">legge 27 maggio 1949, n. 260</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/1949-05-27/260/!main#art_6" ns15:target="olf:it/legge/stato/1949/260/art_6" ns15:relation="cites">art. 6: 
+ - La legge 27 maggio 1949, n. 260</ref>, recante: «Disposizioni in materia di ricorrenze festive.» e' stata pubblicata nella Gazzetta Ufficiale del 31 maggio 1949, n. 124. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Iniziative per la celebrazione della Giornata nazionale</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di celebrare la Giornata nazionale, lo Stato, le regioni, le province, i comuni e gli enti gestori di parchi nazionali e di altre aree naturali protette possono promuovere, nell'ambito della loro autonomia e delle rispettive competenze, anche in coordinamento con le associazioni di categoria e gli enti del Terzo settore, iniziative specifiche e manifestazioni pubbliche finalizzate a far conoscere i valori e le esternalita' positive dell'agricoltura sostenibile nonche' a diffondere la conoscenza e la consapevolezza delle funzioni ecosistemiche dell'attivita' agricola in termini di tutela della risorsa idrica, di mantenimento degli equilibri idromorfologici, di tenuta idraulica del terreno e di regimazione delle acque. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading>Celebrazione della Giornata nazionale negli istituti scolastici di ogni ordine e grado</heading>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>In occasione della Giornata nazionale, le istituzioni scolastiche di ogni ordine e grado, nell'ambito della loro autonomia, possono promuovere iniziative didattiche, percorsi di studio ed eventi dedicati al tema dell'agricoltura anche con la collaborazione di istituzioni, enti pubblici, associazioni di categoria ed enti del Terzo settore. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_9">
+                <num>Art. 9.</num>
+                <heading>Informazione radiofonica, televisiva e multimediale nella Giornata nazionale</heading>
+                <paragraph eId="art_9__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La societa' concessionaria del servizio pubblico radiofonico, televisivo e multimediale, secondo le disposizioni previste dal contratto di servizio, puo' dedicare spazi ai temi connessi alla Giornata nazionale nell'ambito della programmazione televisiva pubblica nazionale e regionale. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_10">
+                <num>Art. 10.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Istituzione del premio «De agri cultura» 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_10__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Presso la Presidenza del Consiglio dei ministri e' istituito un premio al merito, denominato «De agri cultura», riconosciuto agli agricoltori che si sono distinti per aver prodotto beni di elevata qualita' o per l'impiego di strumenti di innovazione tecnologica in agricoltura o di tecniche e metodi di coltivazione integrata rispettosa dell'ecosistema. Per la finalita' di cui al presente comma e' autorizzata la spesa di 20.000 euro annui a decorrere dall'anno 2024. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_10__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il premio di cui al comma 1 e' assegnato, a decorrere dall'anno 2024, secondo modalita' e criteri definiti con decreto del Presidente del Consiglio dei ministri, agli agricoltori di cui al comma 1 che presentino progetti volti alla rivisitazione della cultura tradizionale agricola in chiave creativa e innovativa al fine di apportare un contributo efficace all'incremento della competitivita' del settore agricolo. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_11">
+                <num>Art. 11.</num>
+                <heading> Copertura finanziaria</heading>
+                <paragraph eId="art_11__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Agli oneri derivanti dall'attuazione dell'articolo 10, pari a 20.000 euro annui a decorrere dall'anno 2024, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'agricoltura, della sovranita' alimentare e delle foreste. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 28 febbraio 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
