@@ -1,0 +1,934 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-13/191/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-13/191"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-12-13;191"/>
+                    <FRBRalias name="eli" value="eli/id/2024/12/16/24G00209/ORIGINAL"/>
+                    <FRBRdate date="2024-12-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/16/24G00209/ORIGINAL" aknrelname="eli/id/2024/12/16/24G00209/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 17 ottobre 2024, n. 153, recante disposizioni urgenti per la tutela ambientale del Paese, la razionalizzazione dei procedimenti di valutazione e autorizzazione ambientale, la promozione dell'economia circolare, l'attuazione di interventi in materia di bonifiche di siti contaminati e dissesto idrogeologico. (24G00209)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00209" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-12-13" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-13/191/ita@2024-12-17/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-13/191/ita@2024-12-17"/>
+                    <FRBRdate date="2024-12-17" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/16/24G00209/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/12/16/24G00209/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/12/16/24G00209/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-13/191/ita@2024-12-17/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-13/191/ita@2024-12-17.xml"/>
+                    <FRBRdate date="2024-12-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/16/24G00209/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-12-16" name="" number="294" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-12-16" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-12-13" refersTo="#S.1272"/>
+                <step by="#camera" date="2024-12-13" refersTo="#C.2164"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-01-13;36#16 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#8"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#19"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#23"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#25"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#27"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#29 sexies"/>
+                        <new>
+                            <nakn:text>, nel convertire, con modificazioni, il D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244), ha disposto (con l'art. 1, comma 1) la soppressione della lettera g) dell'art. 1, comma 1, del D.L. medesimo.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#57"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#74"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#78 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#104"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#141"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#212"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#221"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#224"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#244"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2010-03-15;66#355"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2013-12-23;145#4 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2014-03-04;45#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2014-06-24;91#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2014-09-12;133#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2018-09-28;109#9 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-03-01;17#16"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-17;50#5 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:legge:2022-05-17;60#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-06-01;61#20 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-06-01;61#20 octies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-29;89#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 17 ottobre 2024, n. 153 (in G.U. 17/10/2024, n. 244).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, lettere a), b), e), 2, 3, 4 lettera b), l'introduzione delle lettere 0a), 0b), b-bis), f-bis) all'art. 1, comma 1 e la soppressione della lettera g) all'art. 1, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 5, lettere a), c), e) e 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, lettere a), c), d), e), 2 e l'introduzione dei commi 2-bis e 2-ter all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 2, lettera a) e 3, l'introduzione delle lettere a-bis) e a-ter) all'art. 4, comma 2 e l'introduzione del comma 3-bis all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#5 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, commi 2, 3, lettera b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, commi 1, lettera b) e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#9"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9, commi 1, lettere a) e b), 2, 3, lettere a) e b), 4, 5, 6, 8 lettera a), 9 lettera b), 10 e l'introduzione dei commi 8-bis, 9-bis e 9-ter all'art. 9.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#10"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, commi 2 e 3 e l'introduzione del comma 4-bis all'art. 10.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#10 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 10-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-13;191#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-17;153#11"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 11, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_1__point_e"/>
+                        <old href="#modNov_1_old_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_1__point_e"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_1__point_f-bis"/>
+                        <new href="#modNov_1_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_1__point_g"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_2"/>
+                        <new href="#modNov_1_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_1__point_b-bis"/>
+                        <new href="#modNov_1_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_1__para_4__point_b"/>
+                        <new href="#modNov_1_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_55" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_2__para_5__point_a"/>
+                        <old href="#modNov_2_old_18"/>
+                        <new href="#modNov_2_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_56" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_2__para_5__point_c"/>
+                        <new href="#modNov_2_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_57" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_2__para_5__point_c"/>
+                        <old href="#modNov_2_old_20"/>
+                        <new href="#modNov_2_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_58" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_2__para_5__point_e"/>
+                        <old href="#modNov_2_old_21"/>
+                        <new href="#modNov_2_new_21"/>
+                    </textualMod>
+                    <textualMod eId="amod_59" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_2__para_6"/>
+                        <new href="#modNov_2_new_24"/>
+                    </textualMod>
+                    <textualMod eId="amod_60" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_3__para_1__point_e"/>
+                    </textualMod>
+                    <textualMod eId="amod_61" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_3__para_1__point_a"/>
+                        <old href="#modNov_3_old_25"/>
+                        <new href="#modNov_3_new_25"/>
+                    </textualMod>
+                    <textualMod eId="amod_62" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_3__para_1__point_c"/>
+                        <old href="#modNov_3_old_26"/>
+                        <new href="#modNov_3_new_26"/>
+                    </textualMod>
+                    <textualMod eId="amod_63" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_3__para_1__point_d"/>
+                    </textualMod>
+                    <textualMod eId="amod_64" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_3__para_2"/>
+                        <new href="#modNov_3_new_28"/>
+                    </textualMod>
+                    <textualMod eId="amod_65" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_3__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_66" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_3"/>
+                        <new href="#modNov_3_new_30"/>
+                    </textualMod>
+                    <textualMod eId="amod_67" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_4__para_2"/>
+                        <new href="#modNov_4_new_32"/>
+                    </textualMod>
+                    <textualMod eId="amod_68" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_4__para_2__point_a"/>
+                        <new href="#modNov_4_new_33"/>
+                    </textualMod>
+                    <textualMod eId="amod_69" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_4__para_2__point_a"/>
+                        <new href="#modNov_4_new_34"/>
+                    </textualMod>
+                    <textualMod eId="amod_70" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_4__para_3-bis"/>
+                        <new href="#modNov_4_new_35"/>
+                    </textualMod>
+                    <textualMod eId="amod_71" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_4__para_3"/>
+                        <old href="#modNov_4_old_31"/>
+                        <new href="#modNov_4_new_31"/>
+                    </textualMod>
+                    <textualMod eId="amod_72" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_5__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_73" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_5__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_74" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_5-bis"/>
+                        <new href="#modNov_6_new_38"/>
+                    </textualMod>
+                    <textualMod eId="amod_75" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_6__para_2"/>
+                        <new href="#modNov_7_new_39"/>
+                    </textualMod>
+                    <textualMod eId="amod_76" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_6__para_3__point_b"/>
+                        <old href="#modNov_7_old_40"/>
+                        <new href="#modNov_7_new_40"/>
+                    </textualMod>
+                    <textualMod eId="amod_77" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_7__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_78" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_7__para_2"/>
+                        <old href="#modNov_8_old_43"/>
+                        <new href="#modNov_8_new_43"/>
+                    </textualMod>
+                    <textualMod eId="amod_79" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_8__para_1"/>
+                        <old href="#modNov_9_old_44"/>
+                        <new href="#modNov_9_new_44"/>
+                    </textualMod>
+                    <textualMod eId="amod_80" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_8__para_2"/>
+                        <old href="#modNov_9_old_45"/>
+                        <new href="#modNov_9_new_45"/>
+                    </textualMod>
+                    <textualMod eId="amod_81" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_82" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_1__point_b"/>
+                        <new href="#modNov_10_new_46"/>
+                    </textualMod>
+                    <textualMod eId="amod_83" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_84" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_2"/>
+                        <old href="#modNov_10_old_48"/>
+                        <new href="#modNov_10_new_48"/>
+                    </textualMod>
+                    <textualMod eId="amod_85" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_3__point_a"/>
+                        <new href="#modNov_10_new_49"/>
+                    </textualMod>
+                    <textualMod eId="amod_86" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_3__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_87" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_3__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_88" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_89" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_4"/>
+                        <old href="#modNov_10_old_53"/>
+                        <new href="#modNov_10_new_53"/>
+                    </textualMod>
+                    <textualMod eId="amod_90" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_5"/>
+                        <old href="#modNov_10_old_54"/>
+                        <new href="#modNov_10_new_54"/>
+                    </textualMod>
+                    <textualMod eId="amod_91" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_6"/>
+                        <new href="#modNov_10_new_55"/>
+                    </textualMod>
+                    <textualMod eId="amod_92" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_8__point_a"/>
+                        <new href="#modNov_10_new_56"/>
+                    </textualMod>
+                    <textualMod eId="amod_93" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_8-bis"/>
+                        <new href="#modNov_10_new_57"/>
+                    </textualMod>
+                    <textualMod eId="amod_94" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9__para_9__point_b"/>
+                        <new href="#modNov_10_new_58"/>
+                    </textualMod>
+                    <textualMod eId="amod_95" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_9"/>
+                        <new href="#modNov_10_new_59"/>
+                    </textualMod>
+                    <textualMod eId="amod_96" type="insertion">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_10__para_2"/>
+                        <new href="#modNov_11_new_23"/>
+                    </textualMod>
+                    <textualMod eId="amod_97" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_10__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_98" type="insertion">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_10__para_3"/>
+                        <new href="#modNov_11_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_99" type="insertion">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_10__para_4-bis"/>
+                        <new href="#modNov_11_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_100" type="insertion">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_10-bis"/>
+                        <new href="#modNov_12_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_101" type="substitution">
+                        <source href="#modNov_13"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-10-17/153/ita@2024-12-17/!main/~art_11__para_1"/>
+                        <old href="#modNov_13_old_17"/>
+                        <new href="#modNov_13_new_17"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-12-13/191/!main" showAs=""/>
+                <passiveRef eId="S.1272" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1272" showAs=""/>
+                <passiveRef eId="C.2164" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2164" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/12/16/24G00209/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 17 ottobre 2024, n. 153, recante disposizioni urgenti per la tutela ambientale del Paese, la razionalizzazione dei procedimenti di valutazione e autorizzazione ambientale, la promozione dell'economia circolare, l'attuazione di interventi in materia di bonifiche di siti contaminati e dissesto idrogeologico. (24G00209)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00209</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-12-13</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/12/16/24G00209/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/12/16/24G00209/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/12/16/24G00209/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/12/16/24G00209/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/191" nativeUrn="urn:nir:stato:legge:2024-12-13;191" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-12-16"><ns0:event type="enacted" date="2024-12-13"/><ns0:event type="published" date="2024-12-16"/><ns0:event type="commenced" date="2024-12-16"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/0332e6e2-f23f-4f8c-8e68-ff6b1a0624db" sourceSha256="1938e1b175e9f44c7cb27ed0ba118726361fd71d00f4e6d4bf04523d6b2df1c1" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:19:05.023039Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-12-13">13 dicembre 2024</docDate>
+                <docNumber>191</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 17 ottobre 2024, n. 153, recante disposizioni urgenti per la tutela ambientale del Paese, la razionalizzazione dei procedimenti di valutazione e autorizzazione ambientale, la promozione dell'economia circolare, l'attuazione di interventi in materia di bonifiche di siti contaminati e dissesto idrogeologico. (24G00209) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 17/12/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2024-10-17/153/!main" ns1:target="olf:it/decreto-legge/stato/2024/153" ns1:relation="repeals">decreto-legge 17 ottobre 2024, n. 153</ref>, recante disposizioni urgenti per la tutela ambientale del Paese, la razionalizzazione dei procedimenti di valutazione e autorizzazione ambientale, la promozione dell'economia circolare, l'attuazione di interventi in materia di bonifiche di siti contaminati e dissesto idrogeologico, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2024-10-17/153/!main" ns2:target="olf:it/decreto-legge/stato/2024/153" ns2:relation="repeals">decreto-legge 17 ottobre 2024, n. 153</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 244 del 17 ottobre 2024. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 143. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 13 dicembre 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Pichetto Fratin, Ministro dell'ambiente e della sicurezza energetica Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-12-13/191/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-12-13/191"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-12-13;191"/>
+                                <FRBRalias name="eli" value="eli/id/2024/12/16/24G00209/ORIGINAL"/>
+                                <FRBRdate date="2024-12-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-12-13/191/ita@2024-12-17/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-12-13/191/ita@2024-12-17"/>
+                                <FRBRdate date="2024-12-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-12-13/191/ita@2024-12-17/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-12-13/191/ita@2024-12-17.xml"/>
+                                <FRBRdate date="2024-12-13" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 17 OTTOBRE 2024, N. 153 
+ 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1: 
+ alla lettera a) sono premesse le seguenti: 
+ «<quotedText eId="modNov_1_new_1">0a) all'articolo 6, dopo il comma 6 e' inserito il seguente: 
+ "6.1. Le lettere c) e d) del comma 6 si applicano compatibilmente con le disposizioni attuative dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2022-08-05/118/!main#art_26-com4" ns4:target="olf:it/legge/stato/2022/118/art_26-com4" ns4:relation="amends">articolo 26, comma 4, della legge 5 agosto 2022, n. 118</ref>, nonche' con quelle di adeguamento delle regioni o delle province autonome, ove adottate"; 
+ 0b) all'articolo 7, comma 5, terzo periodo, le parole: "Ministro dell'ambiente e della tutela del territorio e del mare" sono sostituite dalle seguenti: "competente direttore generale del Ministero dell'ambiente e della sicurezza energetica"</quotedText>»; 
+ alla lettera a): 
+ al numero 1.1), le parole: «decreto legge» sono sostituite dalla seguente: «decreto-legge»; 
+ al numero 2): 
+ al capoverso 1-bis, alla lettera a) sono premesse le seguenti: 
+ «0a) i progetti di nuovi impianti di accumulo idroelettrico mediante pompaggio puro che prevedono, anche attraverso il ripristino delle condizioni di normale esercizio degli invasi esistenti, l'incremento dei volumi di acqua immagazzinabili; 
+ 0b) le opere e gli impianti di stoccaggio geologico, cattura e trasporto di CO2 , nonche' i relativi impianti funzionalmente connessi, e gli impianti industriali oggetto di conversione in bioraffinerie»; 
+ al capoverso 1-bis, lettera a), le parole: «numero 6-bis)» sono sostituite dalle seguenti: «punto 6-bis)»; 
+ al capoverso 1-bis, dopo la lettera a) e' inserita la seguente: 
+ «a-bis) i progetti di nuovi impianti concernenti le derivazioni per uso idroelettrico di potenza fino a 10MW»; 
+ al capoverso 1-ter, <quotedText eId="modNov_1_old_3">al primo periodo,</quotedText> le parole: «o del comma 1-bis, e' riservata» sono sostituite dalle seguenti: «o del comma 1-bis e' riservata» e, al terzo periodo, le parole: «e coerente» sono sostituite dalle seguenti: «e simultanea», le parole: «al Ministero della cultura» sono soppresse e le parole: «che ne tiene conto» sono sostituite dalle seguenti «al Ministero della cultura, che vi si uniforma»; 
+ dopo il numero 2) e' inserito il seguente: 
+ «2-bis) al comma 2-bis, ultimo periodo, la parola: "2024" e' sostituita dalla seguente: "2026"»; 
+ il numero 3) e' sostituito dal seguente: 
+ «3) al comma 2-octies, al primo periodo, le parole: "Il presidente della Commissione di cui al comma 1" sono sostituite dalle seguenti: "I presidenti delle Commissioni di cui al presente articolo" e il terzo periodo e' sostituito dal seguente: "Con le stesse modalita' individuate nei periodi precedenti, fermi restando gli specifici compiti attribuiti in materia ambientale dalla normativa vigente ad altre amministrazioni dello Stato nonche' il riparto di competenze tra le Forze di polizia, di cui al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2016-08-19/177/!main" ns5:target="olf:it/decreto-legislativo/stato/2016/177" ns5:relation="cites">decreto legislativo 19 agosto 2016, n. 177</ref>, e al decreto del Ministro dell'interno del 15 agosto 2017, le Commissioni di cui al presente articolo possono avvalersi di quattro unita' di personale del Corpo della Guardia di finanza, ai cui oneri si provvede nell'ambito delle risorse di cui al comma 5"»; 
+ al numero 4), capoverso 2-novies, le parole: «VIA-VAS», ovunque ricorrono, sono sostituite dalle seguenti: «di verifica dell'impatto ambientale VIA e VAS»; 
+ alla lettera b): 
+ al numero 2), capoverso 6-bis, le parole: «La presente comunicazione» sono sostituite dalle seguenti: «La comunicazione di cui al periodo precedente»; 
+ al numero 4), le parole: «, dopo il primo periodo sono aggiunti i seguenti» sono sostituite dalle seguenti: «sono aggiunti, in fine, i seguenti periodi» e le parole: «assoggettabilita' VIA originario» sono sostituite dalle seguenti: «assoggettabilita' a VIA originario»; 
+ dopo la lettera b) e' inserita la seguente: 
+ «<quotedText eId="modNov_1_new_10">b-bis) all'articolo 23, comma 1, e' aggiunta, in fine, la seguente lettera: 
+ "g-quater) autodichiarazione ai sensi degli articoli 46 e 47 del testo unico di cui al <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2000-12-28/445/!main" ns6:target="olf:it/dpr/stato/2000/445" ns6:relation="cites">decreto del Presidente della Repubblica 28 dicembre 2000, n. 445</ref>, relativa agli assetti proprietari della societa' proponente e della eventuale societa' controllante e alla consistenza del capitale sociale della societa' proponente"</quotedText>»; 
+ alla lettera e): 
+ al numero 2.1), le parole: «al primo periodo,» sono soppresse; 
+ al numero 2.2), le parole: «dopo il primo periodo, sono aggiunti i seguenti» sono sostituite dalle seguenti: «sono aggiunti, in fine, i seguenti periodi» e le parole: «ai sensi del secondo periodo sono concesse ai sensi del comma 5.» sono sostituite dalle seguenti: «ai sensi del quarto periodo sono concesse ai sensi del comma 5 del presente articolo»; 
+ dopo la lettera f) e' inserita la seguente: 
+ «<quotedText eId="modNov_1_new_5">f-bis) all'articolo 27, comma 8, le parole: "Ministro dell'ambiente e della tutela del territorio e del mare, di concerto con il Ministro per i beni e le attivita' culturali e per il turismo" sono sostituite dalle seguenti: "competente direttore generale del Ministero dell'ambiente e della sicurezza energetica, previa acquisizione del concerto del competente direttore generale del Ministero della cultura"</quotedText>»; 
+ la lettera g) e' soppressa; 
+ il comma 2 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_1_new_7">2. Per i progetti di produzione energetica da fonte fotovoltaica, solare termodinamica, a biomassa o a biogas, nonche' di produzione di biometano, il proponente del provvedimento di VIA di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2006/152/!main#art_25" ns7:resolution="unresolved">articolo 25 del decreto legislativo n. 152 del 2006</ref>, come modificato dal comma 1, lettera e), del presente articolo, allega una dichiarazione, redatta ai sensi degli <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2000-12-28/445/!main#art_46" ns8:target="olf:it/dpr/stato/2000/445/art_46" ns8:relation="cites">articoli 46</ref> e <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2000-12-28/445/!main#art_47" ns9:target="olf:it/dpr/stato/2000/445/art_47" ns9:relation="cites">47 del testo unico delle disposizioni legislative e regolamentari in materia di documentazione amministrativa</ref>, di cui al <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2000-12-28/445/!main" ns10:target="olf:it/dpr/stato/2000/445" ns10:relation="cites">decreto del Presidente della Repubblica 28 dicembre 2000, n. 445</ref>, attestante la legittima disponibilita', a qualunque titolo, della superficie su cui realizzare l'impianto, ferme restando la pubblica utilita' e le procedure conseguenti per le opere connesse</quotedText>»; 
+ al comma 3, dopo le parole: «del medesimo decreto» sono inserite le seguenti: «legislativo n. 152 del 2006»; 
+ al comma 4, la lettera b) e' sostituita dalla seguente: 
+ «<quotedText eId="modNov_1_new_12">b) al comma 4 e' aggiunto, in fine, il seguente periodo: "Qualora il programma di cui al comma 1 ovvero, singolarmente, gli interventi ivi inseriti, anche a seguito di successiva modifica del programma, siano sottoposti alle procedure di cui alla parte seconda del <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2006-04-03/152/!main" ns11:target="olf:it/decreto-legislativo/stato/2006/152" ns11:relation="amends">decreto legislativo 3 aprile 2006, n. 152</ref>, tali procedure sono svolte, senza nuovi o maggiori oneri per la finanza pubblica, dalla Commissione tecnica PNRR-PNIEC e integrate dalla valutazione ambientale strategica per gli eventuali contenuti di pianificazione"</quotedText>».</mod>
+                                    <mod eId="modNov_2">All'articolo 2: 
+ al comma 5: 
+ alla lettera a), le parole: «<quotedText eId="modNov_2_old_18">"e 4" sono soppresse</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_18">", 3 e 4" sono sostituite dalle seguenti: "e 3"</quotedText>»; 
+ alla lettera c), capoverso 3, dopo le parole: «di cui al comma 1» sono inserite le seguenti: «<quotedText eId="modNov_2_new_19">del presente articolo</quotedText>» e le parole: «<quotedText eId="modNov_2_old_20">e, a condizione che</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_20">e a condizione che</quotedText>»; 
+ alla lettera e), le parole: «<quotedText eId="modNov_2_old_21">ai commi 5, 10 e 13</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_21">ai commi 5, alinea, 10, lettera a), e 13</quotedText>»; 
+ il comma 6 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_2_new_24">6. All'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegge/stato/2022-05-17/50/!main#art_5bis" ns12:target="olf:it/decreto-legge/stato/2022/50/art_5bis" ns12:relation="amends">articolo 5-bis del decreto-legge 17 maggio 2022, n. 50</ref>, convertito, con modificazioni, dalla <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2022-07-15/91/!main" ns13:target="olf:it/legge/stato/2022/91" ns13:relation="amends">legge 15 luglio 2022, n. 91</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 1, le parole: "entro il 15 ottobre 2024" sono sostituite dalle seguenti: "nei termini e con le modalita' stabiliti con atto di indirizzo del Ministro dell'ambiente e della sicurezza energetica"; 
+ b) al comma 4, primo periodo, le parole: "10 dicembre 2024" sono sostituite dalle seguenti: "10 dicembre 2027"</quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 3: 
+ al comma 1: 
+ alla lettera a), capoverso i-bis), la parola: «<quotedText eId="modNov_3_old_25">eurounitaria;</quotedText>» e' sostituita dalle seguenti: «<quotedText eId="modNov_3_new_25">dell'Unione europea</quotedText>»; 
+ alla lettera c), le parole: «<quotedText eId="modNov_3_old_26">e 10-ter".;</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_26">e 10-ter";</quotedText>»; 
+ alla lettera d), numero 2), la parola: «eurounitaria» e' sostituita dalle seguenti: «dell'Unione europea»; 
+ alla lettera e), le parole: «, nonche' di» sono sostituite dalle seguenti: «nonche' di»; 
+ al comma 2, le parole: «n. 44» sono sostituite dalle seguenti:
+«n. 55,», dopo le parole: «decreto del Presidente del Consiglio dei ministri 7 agosto 2023,» sono inserite le seguenti: «<quotedText eId="modNov_3_new_28">pubblicato nella Gazzetta Ufficiale n. 210 dell'8 settembre 2023,</quotedText>», le parole: «(UE) n. 2020/741 del Parlamento europeo e del consiglio» sono sostituite dalle seguenti: «(UE) 2020/741 del Parlamento europeo e del Consiglio» e le parole: «(UE) n. 2024/1765 della Commissione europea» sono sostituite dalle seguenti: «(UE) 2024/1765 della Commissione»;  dopo il comma 2 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_3_new_30">2-bis. In considerazione della sua rilevanza strategica per l'interesse nazionale, almeno uno dei componenti dell'organo di amministrazione e almeno uno dei componenti dell'organo di controllo della societa' di cui all'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/1999-05-11/141/!main#art_1" ns14:target="olf:it/decreto-legislativo/stato/1999/141/art_1" ns14:relation="cites">articolo 1 del decreto legislativo 11 maggio 1999, n. 141</ref>, sono designati dalla Presidenza del Consiglio dei ministri. Entro sessanta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, si provvede ad adeguare lo statuto della societa' di cui all'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/1999/141/!main#art_1" ns15:resolution="unresolved">articolo 1 del decreto legislativo n. 141 del 1999</ref> alle disposizioni di cui al presente comma, prevedendo che l'organo di amministrazione sia composto da un numero di membri non superiore a sette, nonche' al rinnovo dell'organo di amministrazione e dell'organo di controllo, laddove non siano gia' scaduti. 
+ 2-ter. Fatto salvo quanto previsto dall'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegge/stato/2012-03-15/21/!main#art_2" ns16:target="olf:it/decreto-legge/stato/2012/21/art_2" ns16:relation="cites">articolo 2 del decreto-legge 15 marzo 2012, n. 21</ref>, convertito, con modificazioni, dalla <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2012-05-11/56/!main" ns17:target="olf:it/legge/stato/2012/56" ns17:relation="cites">legge 11 maggio 2012, n. 56</ref>, ai fini di un eventuale affidamento del servizio idrico integrato secondo le modalita' di cui all'articolo 149-bis, comma 1, secondo periodo, del <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/2006-04-03/152/!main" ns18:target="olf:it/decreto-legislativo/stato/2006/152" ns18:relation="amends">decreto legislativo 3 aprile 2006, n. 152</ref>, e' ammesso il trasferimento da parte della regione Puglia di parte delle azioni della societa' di cui all'articolo 1 del citato <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegislativo/stato/1999/141/!main" ns19:resolution="unresolved">decreto legislativo n. 141 del 1999</ref> in favore dei comuni della medesima regione esercenti il controllo analogo sulla societa' a capitale interamente pubblico dagli stessi costituita o partecipata per le finalita' di cui al predetto articolo 149-bis ovvero in favore di quest'ultima societa'</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 4: 
+ al comma 2: 
+ alla lettera a): 
+ al numero 1), dopo le parole: «al comma 2,» sono inserite le seguenti: «<quotedText eId="modNov_4_new_33">alinea,</quotedText>»; 
+ il numero 3) e' sostituito dal seguente: 
+ «<quotedText eId="modNov_4_new_34">3) dopo il comma 16 e' inserito il seguente: 
+ "16-bis. Il legale rappresentante dell'impresa puo' assumere il ruolo di responsabile tecnico per tutte le categorie di iscrizione all'Albo senza necessita' di verifica di idoneita' iniziale e di aggiornamento e solo per l'impresa medesima, a condizione che abbia ricoperto il ruolo di legale rappresentante presso la stessa per almeno tre anni consecutivi. La competente Sezione regionale dell'Albo verifica il requisito sulla base dei dati presenti nel registro delle imprese tenuto dalla locale camera di commercio, industria, artigianato e agricoltura"</quotedText>»; 
+ dopo la lettera a) sono inserite le seguenti: 
+ «<quotedText eId="modNov_4_new_32">a-bis) all'articolo 221, dopo il comma 10 e' inserito il seguente: 
+ "10-bis. I costi indicati nel comma 10, limitatamente all'assolvimento degli obblighi di servizio universale relativi ad attivita' di carattere residuale o comunque d'interesse generale gravanti sul Consorzio nazionale imballaggi e sui consorzi di cui all'articolo 223, sono ripartiti tra questi ultimi e i sistemi autonomi di cui all'articolo 221-bis al netto di ogni eventuale componente positiva diversa dal contributo ambientale CONAI di cui all'articolo 224, comma 3, lettera h), previa verifica dei costi rilevanti e della loro entita' netta da parte di un esperto indipendente scelto congiuntamente dalle parti o, in mancanza, nominato dal Ministero dell'ambiente e della sicurezza energetica. A tal fine le parti concludono un accordo relativo a ciascun materiale d'imballaggio nel rispetto dei principi di proporzionalita', efficienza e tutela della concorrenza e lo trasmettono al Ministero dell'ambiente e della sicurezza energetica, che puo' richiedere modificazioni e integrazioni entro sessanta giorni. Ferma l'efficacia degli accordi sottoscritti, qualora un accordo non sia raggiunto entro centoventi giorni dalla data di entrata in vigore della presente disposizione, il Ministro dell'ambiente e della sicurezza energetica invita le parti a concluderlo entro sessanta giorni, decorsi inutilmente i quali provvede direttamente, di concerto con il Ministro delle imprese e del made in Italy. Resta fermo l'obbligo dei sistemi autonomi di cui all'articolo 221-bis di organizzare la loro attivita' con riferimento all'intero territorio nazionale ai sensi del comma 3, lettere a) e c), del presente articolo e si applica in ogni caso quanto previsto dall'articolo 224, comma 5-ter"; 
+ a-ter) all'articolo 224: 
+ 1) al comma 3, lettera n), dopo le parole: "nazionali o esteri," sono inserite le seguenti: "o da operatori economici anche non consorziati," e le parole: "in entrata e in uscita dal territorio nazionale e i dati degli operatori economici coinvolti" sono sostituite dalle seguenti: "trasferiti sul territorio nazionale, compresi quelli di provenienza o destinazione transfrontaliere, nonche' i dati dei relativi soggetti coinvolti"; 
+ 2) al comma 5-ter, il primo periodo e' sostituito dal seguente: "L'accordo di programma quadro di cui al comma 5 stabilisce che i produttori e gli utilizzatori che aderiscono a un sistema autonomo di cui all'articolo 221, comma 3, lettere a) e c), ovvero a uno dei consorzi di cui all'articolo 223 assicurano in ogni caso la copertura dei costi di raccolta e di gestione dei rifiuti di imballaggio da loro prodotti e conferiti al servizio pubblico di raccolta differenziata; la copertura di tali costi deve essere assicurata anche qualora gli obiettivi di recupero e riciclaggio siano stati conseguiti o superati attraverso la raccolta su superfici private"</quotedText>»; 
+ al comma 3, le parole: «<quotedText eId="modNov_4_old_31">decreto del Ministro dell'ambiente e della sicurezza energetica 23 novembre 2023</quotedText>», ovunque ricorrono, sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_31">decreto del Ministro dell'ambiente e della sicurezza energetica del 23 novembre 2023</quotedText>»; 
+ dopo il comma 3 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_4_new_35">3-bis. All'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2022-05-17/60/!main#art_4" ns20:target="olf:it/legge/stato/2022/60/art_4" ns20:relation="amends">articolo 4 della legge 17 maggio 2022, n. 60</ref>, il comma 1 e' sostituito dal seguente: 
+ "1. Al fine di promuovere obiettivi di economia circolare per i rifiuti in plastica e in altri materiali, accidentalmente pescati e volontariamente raccolti, non compatibili con l'ecosistema marino e delle acque interne, i criteri specifici e le modalita' per la cessazione della qualifica di rifiuto sono stabiliti ai sensi dell'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2006-04-03/152/!main#art_184ter-com2" ns21:target="olf:it/decreto-legislativo/stato/2006/152/art_184ter-com2" ns21:relation="amends">articolo 184-ter, comma 2, del decreto legislativo 3 aprile 2006, n. 152</ref>"</quotedText>».</mod>
+                                    <mod eId="modNov_5">All'articolo 5: 
+ al comma 1: 
+ al capoverso 1-quater: 
+ all'alinea: 
+ al primo periodo, le parole: «al comma 1-ter» sono sostituite dalle seguenti: «al presente articolo, nonche' di quelli provenienti dalle operazioni di dragaggio dei porti della Spezia e di Marina di Carrara», dopo le parole: «dall'Autorita' di sistema portuale del Mar Ligure occidentale» sono inserite le seguenti: «nonche' il Piano approvato dall'Autorita' di sistema portuale del Mar Ligure orientale», le parole: «della ASL territorialmente competenti, adotta con apposito decreto il Piano» sono sostituite dalle seguenti: «dell'azienda sanitaria locale (ASL) territorialmente competenti, da rendere entro quindici giorni dalla richiesta, adotta con apposito decreto il Programma» e la parola: «comunitaria» e' sostituita dalle seguenti: «dell'Unione europea»; 
+ dopo il primo periodo e' inserito il seguente: «Le modalita' e i termini per il conferimento e il riutilizzo dei materiali e dei rifiuti provenienti dalle operazioni di dragaggio dei porti della Spezia e di Marina di Carrara sono definiti mediante la sottoscrizione di uno specifico accordo ai sensi dell'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/1990-08-07/241/!main#art_15" ns22:target="olf:it/legge/stato/1990/241/art_15" ns22:relation="cites">articolo 15 della legge 7 agosto 1990, n. 241</ref>, tra l'Autorita' di sistema portuale del Mar Ligure occidentale e l'Autorita' di sistema portuale del Mar Ligure orientale»; 
+ al secondo periodo, le parole: «Il Piano di cui al primo periodo» sono sostituite dalle seguenti: «Il Programma di cui al primo periodo»; 
+ alla lettera a), le parole: «previsto dal decreto» sono sostituite dalle seguenti: «previsto dal regolamento di cui al decreto»; 
+ alla lettera c), le parole: «articolo 184-bis, del decreto» sono sostituite dalle seguenti: «articolo 184-bis del decreto» e sono aggiunte, in fine, le seguenti parole: «, comprensivi dei materiali geologici naturali e inorganici, idonei in termini di caratteristiche qualitative e granulometriche, derivanti da scavi in roccia oppure dall'escavo di substrati naturali appartenenti all'originale litorale o al fondale sottostante di pertinenza demaniale»; 
+ al capoverso 1-quinquies: 
+ al primo periodo, le parole: «Il Piano di cui al comma 1-quater, per ciascuno degli interventi di cui al comma 1-ter,» sono sostituite dalle seguenti: «Il Programma di cui al comma 1-quater, per ciascuno degli interventi previsti nei Piani di cui al medesimo comma 1-quater,»; 
+ al terzo periodo, le parole: «Il Piano comprende, altresi', i risultati delle procedure» sono sostituite dalle seguenti: «Il Programma comprende altresi' i risultati e le procedure»; 
+ al capoverso 1-sexies, la parola: «Piano», ovunque ricorre, e' sostituita dalla seguente: «Programma» e le parole: «di cui all'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegislativo/stato/2006/152/!main#art_109-com2" ns23:resolution="unresolved">articolo 109, comma 2, del decreto legislativo n. 152 del 2006</ref>» sono sostituite dalle seguenti: «di cui all'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegislativo/stato/2006/152/!main#art_109" ns24:resolution="unresolved">articolo 109 del decreto legislativo n. 152 del 2006</ref>».</mod>
+                                    <mod eId="modNov_6">Dopo l'articolo 5 e' inserito il seguente: 
+ «<quotedText eId="modNov_6_new_38">Art. 5-bis (Valori limite di ammissibilita' dei rifiuti da collocare in discarica). - 1. In conformita' alla decisione n. 2003/33/CE del Consiglio, del 19 dicembre 2022, all'articolo 16-ter, comma 1, del <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegislativo/stato/2003-01-13/36/!main" ns25:target="olf:it/decreto-legislativo/stato/2003/36" ns25:relation="amends">decreto legislativo 13 gennaio 2003, n. 36</ref>, sono apportate le seguenti modificazioni: 
+ a) alla lettera c), le parole: "30 giugno 2022" sono sostituite dalle seguenti: "31 dicembre 2027"; 
+ b) alla lettera c-bis), le parole: "1° luglio 2022" sono sostituite dalle seguenti: "1° gennaio 2028". 
+ 2. Le disposizioni introdotte dal comma 1 si applicano a decorrere dalla data di entrata in vigore della legge di conversione del presente decreto. Entro i successivi centottanta giorni, i titolari di autorizzazioni concesse ai sensi dell'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegislativo/stato/2003-01-13/36/!main#art_16ter" ns26:target="olf:it/decreto-legislativo/stato/2003/36/art_16ter" ns26:relation="amends">articolo 16-ter del decreto legislativo 13 gennaio 2003, n. 36</ref>, in corso di validita' alla data di cui al primo periodo, possono richiederne l'adeguamento ai valori limite di cui al medesimo articolo 16-ter, come modificato dal comma 1 del presente articolo</quotedText>».</mod>
+                                    <mod eId="modNov_7">All'articolo 6: 
+ al comma 2, dopo le parole: «dell'articolo 248, comma 2,» sono inserite le seguenti: «<quotedText eId="modNov_7_new_39">del medesimo decreto legislativo,</quotedText>»; 
+ al comma 3, lettera b), numero 1), le parole: «<quotedText eId="modNov_7_old_40">con oneri</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_40">, con oneri</quotedText>».</mod>
+                                    <mod eId="modNov_8">All'articolo 7: 
+ al comma 1, lettera b), capoverso 1-bis, al primo periodo, la parola: «nominati» e' sostituita dalla seguente: «nominate» e, all'ottavo periodo, le parole: «per ciascuna delle annualita'» sono sostituite dalle seguenti: «per ciascuno degli anni» e le parole: «si provvede mediante corrispondente riduzione delle proiezioni dello stanziamento» sono sostituite dalle seguenti: «si provvede mediante corrispondente riduzione dello stanziamento»; 
+ al comma 2, le parole: «<quotedText eId="modNov_8_old_43">decreto del Presidente del Consiglio dei ministri 22 febbraio 2024</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_8_new_43">decreto del Presidente del Consiglio dei ministri del 22 febbraio 2024</quotedText>».</mod>
+                                    <mod eId="modNov_9">All'articolo 8: 
+ al comma 1, le parole: «<quotedText eId="modNov_9_old_44">posizione geografica, tipologia del dissesto e delle opere, nonche'</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_9_new_44">posizione geografica e tipologia del dissesto e delle opere nonche'</quotedText>»; 
+ al comma 2, le parole: «<quotedText eId="modNov_9_old_45">ai fini del tempestivo inserimento nella piattaforma</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_9_new_45">, ai fini del tempestivo inserimento nella piattaforma,</quotedText>».</mod>
+                                    <mod eId="modNov_10">All'articolo 9: 
+ al comma 1: 
+ alla lettera a), le parole: «del decreto legislativo medesimo» sono sostituite dalle seguenti: «del medesimo codice» e le parole: «di cui al sesto periodo e' in ogni caso condizionata» sono sostituite dalle seguenti: «ai sensi del sesto periodo e' in ogni caso condizionato»; 
+ alla lettera b), capoverso 2-ter, dopo le parole: «del <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegge/stato/2014/91/!main" ns27:resolution="unresolved">decreto-legge n. 91 del 2014</ref>,» sono inserite le seguenti: «<quotedText eId="modNov_10_new_46">convertito, con modificazioni, dalla <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/2014/116/!main" ns28:resolution="unresolved">legge n. 116 del 2014</ref>,</quotedText>»; 
+ al comma 2, le parole: «<quotedText eId="modNov_10_old_48">di cui all'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoLegge/stato/2014/133/!main#art_7-com2" ns29:resolution="unresolved">articolo 7, comma 2, del decreto-legge n. 133 del 2014</ref>
+                                        </quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_10_new_48">di cui all'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decretoLegge/stato/2014/133/!main#art_7-com2" ns30:resolution="unresolved">articolo 7, comma 2, del decreto-legge n. 133 del 2014</ref>, convertito, con modificazioni, dalla <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/2014/164/!main" ns31:resolution="unresolved">legge n. 164 del 2014</ref>, come modificato dal comma 1, lettera a), del presente articolo</quotedText>»; 
+ al comma 3: 
+ alla lettera a), al numero 1), dopo la parola: «Piano» sono inserite le seguenti: «<quotedText eId="modNov_10_new_49">degli interventi di mitigazione del rischio idrogeologico</quotedText>» e, al numero 2), le parole: «del <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegge/stato/2014/133/!main" ns32:resolution="unresolved">decreto-legge n. 133 del 2014</ref>.» sono sostituite dalle seguenti: «, del citato <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegge/stato/2014/133/!main" ns33:resolution="unresolved">decreto-legge n. 133 del 2014</ref>»; 
+ alla lettera b), capoverso 2-quinquies, le parole: «del <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decretoLegge/stato/2014/133/!main" ns34:resolution="unresolved">decreto-legge n. 133 del 2014</ref>» sono sostituite dalle seguenti: «del citato <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoLegge/stato/2014/133/!main" ns35:resolution="unresolved">decreto-legge n. 133 del 2014</ref>» e le parole: «<quotedText eId="modNov_10_old_54">ogni disposizione di legge diverse</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_10_new_54">ogni disposizione di legge diversa</quotedText>»; 
+ al comma 4, le parole: «<quotedText eId="modNov_10_old_53">autorita' di distretto</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_10_new_53">Autorita' di bacino distrettuale</quotedText>» e dopo le parole: «di cui all'<ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/decretoLegge/stato/2014-09-12/133/!main#art_7-com2" ns36:target="olf:it/decreto-legge/stato/2014/133/art_7-com2" ns36:relation="amends">articolo 7, comma 2, del decreto-legge 12 settembre 2014, n. 133</ref>, convertito, con modificazioni, dalla <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/2014-11-11/164/!main" ns37:target="olf:it/legge/stato/2014/164" ns37:relation="cites">legge 11 novembre 2014, n. 164</ref>» sono aggiunte le seguenti: «, come modificato dal comma 1, lettera a), del presente articolo»; 
+ al comma 5, le parole: «ogni disposizione di legge diverse» sono sostituite dalle seguenti: «ogni disposizione di legge diversa»; 
+ al comma 6, dopo le parole: «decreto del Presidente del Consiglio dei ministri 28 novembre 2018,» sono inserite le seguenti: «<quotedText eId="modNov_10_new_55">pubblicato nella Gazzetta Ufficiale n. 28 del 2 febbraio 2019,</quotedText>»; 
+ al comma 8, lettera a), dopo le parole: «di 10 milioni» sono inserite le seguenti: «<quotedText eId="modNov_10_new_56">di euro</quotedText>»; 
+ dopo il comma 8 e' inserito il seguente: 
+ «<quotedText eId="modNov_10_new_57">8-bis. All'<ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegge/stato/2023-06-01/61/!main#art_20octies-com6" ns38:target="olf:it/decreto-legge/stato/2023/61/art_20octies-com6" ns38:relation="amends">articolo 20-octies, comma 6, del decreto-legge 1° giugno 2023, n. 61</ref>, convertito, con modificazioni, dalla <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/legge/stato/2023-07-31/100/!main" ns39:target="olf:it/legge/stato/2023/100" ns39:relation="cites">legge 31 luglio 2023, n. 100</ref>, sono aggiunti, in fine, i seguenti periodi: "I piani di cui al comma 2, lettera c), del presente articolo possono essere predisposti e approvati anche per stralci, che possono avere ad oggetto anche le sole attivita' di progettazione. In tali casi, i piani stralcio sono predisposti e approvati, ai sensi dei commi 2 e 4, nei limiti delle risorse specificamente finalizzate allo scopo.
+Qualora i piani stralcio abbiano ad oggetto le sole attivita' di progettazione, le modalita' di adozione del decreto di concessione del contributo e dell'eventuale erogazione dell'anticipazione ai soggetti attuatori per l'attivita' di progettazione sono definite dal Commissario straordinario mediante provvedimenti di cui all'articolo 20-ter, comma 8"</quotedText>»; 
+ al comma 9, lettera b), capoverso 1-bis, e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_10_new_58">All'impiego delle risorse assegnate ai sensi del periodo precedente provvede il segretario generale dell'Autorita' di bacino distrettuale interessata con i medesimi poteri e deroghe previsti per il commissario di Governo per il contrasto al dissesto idrogeologico di cui all'articolo 10, comma 1, del citato <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoLegge/stato/2014-06-24/91/!main" ns40:target="olf:it/decreto-legge/stato/2014/91" ns40:relation="amends">decreto-legge 24 giugno 2014, n. 91</ref>, senza nuovi o maggiori oneri a carico della finanza pubblica</quotedText>»; 
+ dopo il comma 9 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_10_new_59">9-bis. Per il potenziamento delle attivita' finalizzate a rafforzare la tutela del territorio e la gestione delle acque nonche' alla mitigazione del dissesto idrogeologico e del cambiamento climatico, con particolare riguardo alle attivita' di pianificazione e aggiornamento degli strumenti di pianificazione, le Autorita' di bacino distrettuali di cui all'<ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoLegislativo/stato/2006-04-03/152/!main#art_63" ns41:target="olf:it/decreto-legislativo/stato/2006/152/art_63" ns41:relation="amends">articolo 63 del decreto legislativo 3 aprile 2006, n. 152</ref>, sono autorizzate, nel limite di una spesa complessiva pari a 6 milioni di euro annui a decorrere dall'anno 2026, a reclutare e ad assumere, nei limiti della vigente dotazione organica, personale con contratto di lavoro subordinato a tempo indeterminato, mediante l'indizione di procedure concorsuali pubbliche o lo scorrimento di vigenti graduatorie di concorsi pubblici. Con decreto del Ministro per la pubblica amministrazione, di concerto con il Ministro dell'economia e delle finanze e il Ministro dell'ambiente e della sicurezza energetica, da adottare entro il 30 aprile 2025, sulla base delle richieste delle predette Autorita' di bacino coerenti con i rispettivi piani triennali di fabbisogno di personale, sono ripartite le risorse di cui al primo periodo. 
+ 9-ter. Agli oneri derivanti dal comma 9-bis, pari a 6 milioni di euro annui a decorrere dall'anno 2026, si provvede mediante corrispondente riduzione del Fondo per interventi strutturali di politica economica, di cui all'<ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/decretoLegge/stato/2004-11-29/282/!main#art_10-com5" ns42:target="olf:it/decreto-legge/stato/2004/282/art_10-com5" ns42:relation="cites">articolo 10, comma 5, del decreto-legge 29 novembre 2004, n. 282</ref>, convertito, con modificazioni, dalla <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/legge/stato/2004-12-27/307/!main" ns43:target="olf:it/legge/stato/2004/307" ns43:relation="cites">legge 27 dicembre 2004, n. 307</ref>
+                                        </quotedText>»; 
+ al comma 10, le parole: «cosi' come introdotto» sono sostituite dalle seguenti: «come introdotto».</mod>
+                                    <mod eId="modNov_11">All'articolo 10: 
+ al comma 2, capoverso 7, al primo periodo, dopo le parole: «del direttore» sono aggiunte le seguenti: «<quotedText eId="modNov_11_new_23">dell'ISIN</quotedText>», al secondo periodo, le parole: «della pubblica amministrazione» sono sostituite dalle seguenti: «delle amministrazioni pubbliche» e, al terzo periodo, le parole: «del <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/decretoLegge/stato/2011/201/!main" ns44:resolution="unresolved">decreto-legge n. 201 del 2011</ref>» sono sostituite dalle seguenti: «del citato <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/decretoLegge/stato/2011/201/!main" ns45:resolution="unresolved">decreto-legge n. 201 del 2011</ref>»; 
+ al comma 3, dopo le parole: «dell'<ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/decretoLegislativo/stato/2014/45/!main#art_6-com7" ns46:resolution="unresolved">articolo 6, comma 7, del decreto legislativo n. 45 del 2014</ref>» sono inserite le seguenti: «<quotedText eId="modNov_11_new_14">, come modificato dal comma 2 del presente articolo,</quotedText>»; 
+ dopo il comma 4 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_11_new_15">4-bis. Nelle more del recepimento della <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/direttivaUe/eu/2024/1788/!main" ns47:resolution="unresolved">direttiva (UE) 2024/1788 del Parlamento europeo e del Consiglio, del 13 giugno 2024</ref>, a decorrere dalla data di entrata in vigore della legge di conversione del presente decreto, l'impresa maggiore di trasporto del gas naturale di cui all'<ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/decretoLegislativo/stato/2011-06-01/93/!main#art_10-com1-leta" ns48:target="olf:it/decreto-legislativo/stato/2011/93/art_10-com1-leta" ns48:relation="cites">articolo 10, comma 1, lettera a), del decreto legislativo 1° giugno 2011, n. 93</ref>, partecipa in qualita' di rappresentante nazionale per l'Italia alla Rete europea dei gestori di rete per l'idrogeno (ENNOH), di cui all'articolo 57, paragrafo 1, del regolamento (UE) 2024/1789 del Parlamento europeo e del Consiglio, del 13 giugno 2024</quotedText>».</mod>
+                                    <mod eId="modNov_12">Dopo l'articolo 10 e' inserito il seguente: 
+ «<quotedText eId="modNov_12_new_16">Art. 10-bis (Disposizioni urgenti per il rafforzamento degli investimenti nei Paesi africani a tutela dell'ambiente e della sicurezza energetica). - 1. Al fine di rafforzare gli investimenti del Piano Mattei nei Paesi africani con l'obiettivo di coniugare le esigenze di sicurezza energetica con quelle della tutela ambientale, mediante lo sviluppo di infrastrutture sostenibili e la riduzione delle emissioni di gas serra, all'<ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/decretoLegge/stato/2024-06-29/89/!main#art_10" ns49:target="olf:it/decreto-legge/stato/2024/89/art_10" ns49:relation="repeals">articolo 10 del decreto-legge 29 giugno 2024, n. 89</ref>, convertito, con modificazioni, dalla <ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/legge/stato/2024-08-08/120/!main" ns50:target="olf:it/legge/stato/2024/120" ns50:relation="cites">legge 8 agosto 2024, n. 120</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 5, le parole: "per l'anno 2024" sono sostituite dalle seguenti: "entro l'anno 2025"; 
+ b) al comma 8 sono aggiunti, in fine, i seguenti periodi: "In caso di inadempimento delle obbligazioni di pagamento da parte del debitore, la Cassa depositi e prestiti Spa invia una richiesta di escussione al Ministero dell'economia e delle finanze che, entro centottanta giorni dal ricevimento della stessa, procede al pagamento della somma dovuta. A seguito del pagamento di cui al precedente periodo, la Cassa depositi e prestiti Spa puo' gestire, su richiesta, le attivita' di recupero, anche per conto del Ministero dell'economia e delle finanze, e le somme da essa eventualmente recuperate sono retrocesse in relazione alla quota garantita"; 
+ c) al comma 10, le parole: "intestato alla Cassa depositi e prestiti" sono sostituite dalle seguenti: "intestato al Ministero dell'economia e delle finanze"</quotedText>».</mod>
+                                    <mod eId="modNov_13">All'articolo 11: 
+ al comma 1, le parole: «<quotedText eId="modNov_13_old_17">dell'articolo 7, commi 1 e 2,</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_13_new_17">degli articoli 7, commi 1 e 2, e 9, commi 9-bis e 9-ter,</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
