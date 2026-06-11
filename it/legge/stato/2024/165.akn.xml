@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-10-23/165/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-10-23/165"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-10-23;165"/>
+                    <FRBRalias name="eli" value="eli/id/2024/11/12/24G00181/ORIGINAL"/>
+                    <FRBRdate date="2024-10-23" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/11/12/24G00181/ORIGINAL" aknrelname="eli/id/2024/11/12/24G00181/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Istituzione del Museo del Ricordo in Roma (24G00181)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00181" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-10-23" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-10-23/165/ita@2024-11-27/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-10-23/165/ita@2024-11-27"/>
+                    <FRBRdate date="2024-11-27" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/11/12/24G00181/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/11/12/24G00181/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/11/12/24G00181/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-10-23/165/ita@2024-11-27/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-10-23/165/ita@2024-11-27.xml"/>
+                    <FRBRdate date="2024-10-23" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/11/12/24G00181/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-11-12" name="" number="265" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-11-12" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-10-23" refersTo="#S.1021"/>
+                <step by="#camera" date="2024-10-23" refersTo="#C.1980"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-10-23/165/!main" showAs=""/>
+                <passiveRef eId="S.1021" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1021" showAs=""/>
+                <passiveRef eId="C.1980" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1980" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/11/12/24G00181/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Istituzione del Museo del Ricordo in Roma (24G00181)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00181</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-10-23</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/11/12/24G00181/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/11/12/24G00181/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/11/12/24G00181/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/11/12/24G00181/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/165" nativeUrn="urn:nir:stato:legge:2024-10-23;165" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-11-12"><ns0:event type="enacted" date="2024-10-23"/><ns0:event type="published" date="2024-11-12"/><ns0:event type="commenced" date="2024-11-12"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/d90ae87f-8a34-426e-92be-290930142194" sourceSha256="b67197cfbc7d48b24fc0282f2bcba1251d926cb2bbd8d1ef253cce7be1af122c" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:02:20.504054Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-10-23">23 ottobre 2024</docDate>
+                <docNumber>165</docNumber>
+                <docTitle>Istituzione del Museo del Ricordo in Roma (24G00181) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 27/11/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Istituzione e finalita' del Museo del Ricordo 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di conservare e rinnovare la memoria della tragedia degli italiani e di tutte le vittime delle foibe, dell'esodo dalle loro terre degli istriani, dei fiumani e dei dalmati nel secondo dopoguerra, nonche' di ricostruire e narrare la storia degli italiani dell'Istria, di Fiume e della Dalmazia e della piu' complessa vicenda del confine orientale italiano, anche in coerenza con le finalita' di cui alla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2004-03-30/92/!main" ns1:target="olf:it/legge/stato/2004/92" ns1:relation="cites">legge 30 marzo 2004, n. 92</ref>, e' istituito il Museo del Ricordo, con sede in Roma. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Alla gestione del Museo di cui al comma 1 provvede la Fondazione Museo del Ricordo, ente di diritto privato costituito dal Ministero della cultura ai sensi degli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_112" ns2:target="olf:it/decreto-legislativo/stato/2004/42/art_112" ns2:relation="cites">articoli 112</ref> e <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_113" ns3:target="olf:it/decreto-legislativo/stato/2004/42/art_113" ns3:relation="cites">113 del codice dei beni culturali e del paesaggio</ref>, di cui al <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns4:target="olf:it/decreto-legislativo/stato/2004/42" ns4:relation="cites">decreto legislativo 22 gennaio 2004, n. 42</ref>. Alla Fondazione possono partecipare, oltre al Ministero della cultura, la regione Lazio, la regione Friuli Venezia Giulia, Roma Capitale e altri soggetti pubblici e privati. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Il patrimonio della Fondazione di cui al comma 2 e' costituito da apporti del Ministero della cultura e puo' essere incrementato da ulteriori apporti dello Stato, nonche' dalle risorse provenienti da soggetti pubblici e privati. Le attivita' della Fondazione sono finanziate con le risorse di cui all'articolo 2, comma 1, che possono essere integrate anche tramite le risorse facenti parte del patrimonio di cui al primo periodo e con ulteriori contributi di enti pubblici e di soggetti privati. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Con decreto del Ministro della cultura sono approvati l'atto costitutivo e lo statuto della Fondazione di cui al comma 2. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>La Fondazione di cui al comma 2 e' sottoposta alla vigilanza del Ministero della cultura secondo le modalita' previste dalla normativa vigente. All'attivita' di cui al primo periodo il Ministero della cultura provvede nell'ambito delle risorse umane, finanziarie e strumentali disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns5:target="olf:it/dpr/stato/1985/1092" ns5:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2004-03-30/92/!main#art_1" ns6:target="olf:it/legge/stato/2004/92/art_1" ns6:relation="cites">art. 1: 
+ - La legge 30 marzo 2004, n. 92</ref>, recante: «Istituzione del "Giorno del ricordo" in memoria delle vittime delle foibe, dell'esodo giuliano-dalmata, delle vicende del confine orientale e concessione di un riconoscimento ai congiunti degli infoibati.», e' stata pubblicata nella Gazzetta Ufficiale n. 86 del 13 aprile 2004. 
+ - Si riportano gli <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_112" ns7:target="olf:it/decreto-legislativo/stato/2004/42/art_112" ns7:relation="cites">artt. 112</ref> e <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_113" ns8:target="olf:it/decreto-legislativo/stato/2004/42/art_113" ns8:relation="cites">113 del decreto legislativo 22 gennaio 2004, n. 42</ref>, recante: «<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns9:target="olf:it/decreto-legislativo/stato/2004/42" ns9:relation="cites">Codice dei beni culturali e del paesaggio</ref>, ai sensi dell'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2002-07-06/137/!main#art_10" ns10:target="olf:it/legge/stato/2002/137/art_10" ns10:relation="cites">articolo 10 della legge 6 luglio 2002, n. 137</ref>.», pubblicato nella Gazzetta Ufficiale n. 45 del 24 febbraio 2004 - Supplemento Ordinario n. 28: 
+ «Art. 112 (Valorizzazione dei beni culturali di appartenenza pubblica). - 1. Lo Stato, le regioni e gli altri enti pubblici territoriali assicurano la valorizzazione dei beni presenti negli istituti e nei luoghi indicati all'articolo 101, nel rispetto dei principi fondamentali fissati dal presente codice. 
+ 2. Nel rispetto dei principi richiamati al comma 1, la legislazione regionale disciplina le funzioni e le attivita' di valorizzazione dei beni presenti negli istituti e nei luoghi della cultura non appartenenti allo Stato o dei quali lo Stato abbia trasferito la disponibilita' sulla base della normativa vigente. 
+ 3. La valorizzazione dei beni culturali pubblici al di fuori degli istituti e dei luoghi di cui all'articolo 101 e' assicurata, secondo le disposizioni del presente Titolo, compatibilmente con lo svolgimento degli scopi istituzionali cui detti beni sono destinati. 
+ 4. Lo Stato, le regioni e gli altri enti pubblici territoriali stipulano accordi per definire strategie ed obiettivi comuni di valorizzazione, nonche' per elaborare i conseguenti piani strategici di sviluppo culturale e i programmi, relativamente ai beni culturali di pertinenza pubblica. Gli accordi possono essere conclusi su base regionale o subregionale, in rapporto ad ambiti territoriali definiti, e promuovono altresi' l'integrazione, nel processo di valorizzazione concordato, delle infrastrutture e dei settori produttivi collegati.
+ Gli accordi medesimi possono riguardare anche beni di proprieta' privata, previo consenso degli interessati. Lo Stato stipula gli accordi per il tramite del Ministero, che opera direttamente ovvero d'intesa con le altre amministrazioni statali eventualmente competenti. 
+ 5. Lo Stato, per il tramite del Ministero e delle altre amministrazioni statali eventualmente competenti, le regioni e gli altri enti pubblici territoriali possono costituire, nel rispetto delle vigenti disposizioni, appositi soggetti giuridici cui affidare l'elaborazione e lo sviluppo dei piani di cui al comma 4. 
+ 6. In assenza degli accordi di cui al comma 4, ciascun soggetto pubblico e' tenuto a garantire la valorizzazione dei beni di cui ha comunque la disponibilita'. 
+ 7. Con decreto del Ministro sono definiti modalita' e criteri in base ai quali il Ministero costituisce i soggetti giuridici indicati al comma 5 o vi partecipa. 
+ 8. Ai soggetti di cui al comma 5 possono partecipare privati proprietari di beni culturali suscettibili di essere oggetto di valorizzazione, nonche' persone giuridiche private senza fine di lucro, anche quando non dispongano di beni culturali che siano oggetto della valorizzazione, a condizione che l'intervento in tale settore di attivita' sia per esse previsto dalla legge o dallo statuto. 
+ 9. Anche indipendentemente dagli accordi di cui al comma 4, possono essere stipulati accordi tra lo Stato, per il tramite del Ministero e delle altre amministrazioni statali eventualmente competenti, le regioni, gli altri enti pubblici territoriali e i privati interessati, per regolare servizi strumentali comuni destinati alla fruizione e alla valorizzazione di beni culturali. Con gli accordi medesimi possono essere anche istituite forme consortili non imprenditoriali per la gestione di uffici comuni. Per le stesse finalita' di cui al primo periodo, ulteriori accordi possono essere stipulati dal Ministero, dalle regioni, dagli altri enti pubblici territoriali, da ogni altro ente pubblico nonche' dai soggetti costituiti ai sensi del comma 5, con le associazioni culturali o di volontariato, dotate di adeguati requisiti, che abbiano per statuto finalita' di promozione e diffusione della conoscenza dei beni culturali. All'attuazione del presente comma si provvede nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri per la finanza pubblica.». 
+ «Art. 113 (Valorizzazione dei beni culturali di proprieta' privata). - 1. Le attivita' e le strutture di valorizzazione, ad iniziativa privata, di beni culturali di proprieta' privata possono beneficiare del sostegno pubblico da parte dello Stato, delle regioni e degli altri enti pubblici territoriali. 
+ 2. Le misure di sostegno sono adottate tenendo conto della rilevanza dei beni culturali ai quali si riferiscono. 
+ 3. Le modalita' della valorizzazione sono stabilite con accordo da stipularsi con il proprietario, possessore o detentore del bene in sede di adozione della misura di sostegno. 
+ 4. La regione e gli altri enti pubblici territoriali possono anche concorrere alla valorizzazione dei beni di cui all'articolo 104, comma 1, partecipando agli accordi ivi previsti al comma 3.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Copertura finanziaria</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>Per la realizzazione del Museo di cui all'articolo 1 e' autorizzata la spesa di 3 milioni di euro per l'anno 2024, di cui 200.000 euro da destinare alla dotazione iniziale della Fondazione di cui all'articolo 1, comma 2, 3 milioni di euro per l'anno 2025 e 2 milioni di euro per l'anno 2026. Per il funzionamento del Museo e' autorizzata la spesa di 50.000 euro annui, a decorrere dall'anno 2026. Ai relativi oneri si provvede: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>quanto a 3 milioni di euro per l'anno 2024, 3 milioni di euro per l'anno 2025 e 2 milioni di euro per l'anno 2026, finalizzati alle spese necessarie all'istituzione del Museo, mediante corrispondente riduzione dello stanziamento del fondo speciale di conto capitale iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della cultura; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>quanto a 50.000 euro annui a decorrere dall'anno 2026, finalizzati al sostegno delle spese necessarie per il funzionamento del Museo, mediante corrispondente riduzione delle proiezioni dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della cultura. 
+ </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 23 ottobre 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giuli, Ministro della cultura Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
