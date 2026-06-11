@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-08-08/122/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-08-08/122"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-08-08;122"/>
+                    <FRBRalias name="eli" value="eli/id/2025/08/09/25G00130/ORIGINAL"/>
+                    <FRBRdate date="2025-08-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/08/09/25G00130/ORIGINAL" aknrelname="eli/id/2025/08/09/25G00130/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni in materia di composizione di giunte e consigli regionali e di incompatibilita'. (25G00130)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00130" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-08-08" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-08-08/122/ita@2025-08-24/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-08-08/122/ita@2025-08-24"/>
+                    <FRBRdate date="2025-08-24" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/08/09/25G00130/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/08/09/25G00130/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/08/09/25G00130/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-08-08/122/ita@2025-08-24/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-08-08/122/ita@2025-08-24.xml"/>
+                    <FRBRdate date="2025-08-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/08/09/25G00130/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-08-09" name="" number="184" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-08-09" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2025-08-08" refersTo="#S.1452"/>
+                <step by="#camera" date="2025-08-08" refersTo="#C.2500"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-08-08;122#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2011-08-13;138#14"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera a)) la modifica dell'art. 14, comma 1, lettera a); (con l'art. 1, comma 1, lettera b)) la modifica dell'art. 14, comma 1, lettera b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-08-08;122#2"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2013-04-08;39#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1) l'abrogazione dell'art. 7.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2011-08-13/138/ita@2025-08-24/!main/~art_14__para_1__point_a"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2011-08-13/138/ita@2025-08-24/!main/~art_14__para_1__point_b"/>
+                        <new href="#modNov_2_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="repeal">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2013-04-08/39/ita@2025-08-24/!main/~art_7"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-08-08/122/!main" showAs=""/>
+                <passiveRef eId="S.1452" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1452" showAs=""/>
+                <passiveRef eId="C.2500" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2500" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/08/09/25G00130/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni in materia di composizione di giunte e consigli regionali e di incompatibilita'. (25G00130)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00130</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-08-08</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/08/09/25G00130/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/08/09/25G00130/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/08/09/25G00130/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/08/09/25G00130/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/122" nativeUrn="urn:nir:stato:legge:2025-08-08;122" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-08-09"><ns0:event type="enacted" date="2025-08-08"/><ns0:event type="published" date="2025-08-09"/><ns0:event type="commenced" date="2025-08-09"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/67dac2f2-4cd4-4006-8021-097fd41ea42e" sourceSha256="2b10f6696404842758a0ca347fef293bcf9ff2b84c6b3a0dbc0d8aef39a12114" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T18:59:44.534987Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-08-08">08 agosto 2025</docDate>
+                <docNumber>122</docNumber>
+                <docTitle>Disposizioni in materia di composizione di giunte e consigli regionali e di incompatibilita'. (25G00130) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 24/08/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_1__para_1__intro_1">
+                            <p>All'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2011-08-13/138/!main#art_14-com1" ns1:target="olf:it/decreto-legge/stato/2011/138/art_14-com1" ns1:relation="amends">articolo 14, comma 1, del decreto-legge 13 agosto 2011, n. 138</ref>, convertito, con modificazioni, dalla <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/legge/stato/2011-09-14/148/!main" ns2:target="olf:it/legge/stato/2011/148" ns2:relation="cites">legge 14 settembre 2011, n. 148</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_1">alla lettera a) e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_1_new_1">Il numero dei consiglieri regionali precedentemente previsto e' mantenuto qualora la popolazione si riduca entro il limite del 5 per cento rispetto alle soglie indicate nel primo periodo</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_2">alla lettera b) sono aggiunti, in fine, i seguenti periodi: «<quotedText eId="modNov_2_new_2">Il numero massimo degli assessori regionali puo' essere aumentato fino a due unita' sia nelle regioni con popolazione fino a un milione di abitanti sia nelle regioni con popolazione fino a due milioni di abitanti. Ai fini del calcolo del numero massimo degli assessori regionali, il presidente della Giunta regionale continua a essere incluso nel numero dei componenti del Consiglio regionale</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Ferme restando le discipline regionali adottate nel rispetto delle disposizioni di principio di cui all'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2004-07-02/165/!main#art_4-com1" ns3:target="olf:it/legge/stato/2004/165/art_4-com1" ns3:relation="cites">articolo 4, comma 1, della legge 2 luglio 2004, n. 165</ref>, in occasione della presentazione delle liste di candidati alla carica di consigliere regionale sono esentate dalla sottoscrizione degli elettori le liste che, al momento dell'indizione delle elezioni regionali, sono espressione di forze politiche o movimenti corrispondenti a gruppi parlamentari presenti in almeno una delle due Camere, sulla base di attestazione resa dal segretario o presidente del partito rappresentato nella Camera. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Le regioni possono adeguare, nell'ambito della propria autonomia statutaria e legislativa, i rispettivi ordinamenti alle disposizioni di cui al comma 1, nei limiti dei propri stanziamenti di bilancio previsti a legislazione vigente e comunque senza nuovi o maggiori oneri per la finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'Amministrazione competente per materia, ai sensi dell'articolo 10, comma 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns4:target="olf:it/dpr/stato/1985/1092" ns4:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate e alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegge/stato/2011-08-13/138/!main#art_14" ns5:target="olf:it/decreto-legge/stato/2011/138/art_14" ns5:relation="amends">articolo 14 del decreto-legge 13 agosto 2011, n. 138</ref>, recante: «Ulteriori misure urgenti per la stabilizzazione finanziaria e per lo sviluppo», pubblicato nella Gazzetta Ufficiale n. 188 del 13 agosto 2011, convertito con modificazioni dalla <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2011-09-14/148/!main" ns6:target="olf:it/legge/stato/2011/148" ns6:relation="cites">L. 14 settembre 2011, n. 148</ref>, come modificato dalla presente legge: 
+ «Art. 14 (Riduzione del numero dei consiglieri e assessori regionali e relative indennita'. Misure premiali). - 1. Per il conseguimento degli obiettivi stabiliti nell'ambito del coordinamento della finanza pubblica, le Regioni adeguano, nell'ambito della propria autonomia statutaria e legislativa, i rispettivi ordinamenti ai seguenti ulteriori parametri: 
+ a) previsione che il numero massimo dei consiglieri regionali, ad esclusione del Presidente della Giunta regionale, sia uguale o inferiore a 20 per le Regioni con popolazione fino ad un milione di abitanti; a 30 per le Regioni con popolazione fino a due milioni di abitanti; a 40 per le Regioni con popolazione fino a quattro milioni di abitanti; a 50 per le Regioni con popolazione fino a sei milioni di abitanti; a 70 per le Regioni con popolazione fino ad otto milioni di abitanti; a 80 per le Regioni con popolazione superiore ad otto milioni di abitanti. La riduzione del numero dei consiglieri regionali rispetto a quello attualmente previsto e' adottata da ciascuna Regione entro sei mesi dalla data di entrata in vigore del presente decreto e deve essere efficace dalla prima legislatura regionale successiva a quella della data di entrata in vigore del presente decreto. Le Regioni che, alla data di entrata in vigore del presente decreto, abbiano un numero di consiglieri regionali inferiore a quello previsto nella presente lettera, non possono aumentarne il numero. Il numero dei consiglieri regionali precedentemente previsto e' mantenuto qualora la popolazione si riduca entro il limite del 5 per cento rispetto alle soglie indicate nel primo periodo; 
+ b) previsione che il numero massimo degli assessori regionali sia pari o inferiore ad un quinto del numero dei componenti del Consiglio regionale, con arrotondamento all'unita' superiore. La riduzione deve essere operata entro sei mesi dalla data di entrata in vigore del presente decreto e deve essere efficace, in ciascuna regione, dalla prima legislatura regionale successiva a quella in corso alla data di entrata in vigore del presente decreto. Il numero massimo degli assessori regionali puo' essere aumentato fino a due unita' sia nelle regioni con popolazione fino a un milione di abitanti sia nelle regioni con popolazione fino a due milioni di abitanti. Ai fini del calcolo del numero massimo degli assessori regionali, il presidente della Giunta regionale continua a essere incluso nel numero dei componenti del Consiglio regionale; 
+ c) riduzione a decorrere dal 1° gennaio 2012, in attuazione di quanto previsto dall'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegge/stato/2010-01-25/2/!main#art_3" ns7:target="olf:it/decreto-legge/stato/2010/2/art_3" ns7:relation="cites">articolo 3 del decreto-legge 25 gennaio 2010, n. 2</ref>, convertito, con modificazioni, dalla <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2010-03-26/42/!main" ns8:target="olf:it/legge/stato/2010/42" ns8:relation="cites">legge 26 marzo 2010, n. 42</ref>, degli emolumenti e delle utilita', comunque denominati, previsti in favore dei consiglieri regionali entro il limite dell'indennita' massima spettante ai membri del Parlamento, cosi' come rideterminata ai sensi dell'articolo 13 del presente decreto; 
+ d) previsione che il trattamento economico dei consiglieri regionali sia commisurato all'effettiva partecipazione ai lavori del Consiglio regionale; 
+ e) istituzione, a decorrere dal 1° gennaio 2012, di un Collegio dei revisori dei conti, quale organo di vigilanza sulla regolarita' contabile, finanziaria ed economica della gestione dell'ente; il Collegio, ai fini del coordinamento della finanza pubblica, opera in raccordo con le sezioni regionali di controllo della Corte dei conti; i componenti di tale Collegio sono scelti mediante estrazione da un elenco, i cui iscritti devono possedere i requisiti previsti dai principi contabili internazionali, avere la qualifica di revisori legali di cui al <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/2010-01-27/39/!main" ns9:target="olf:it/decreto-legislativo/stato/2010/39" ns9:relation="cites">decreto legislativo 27 gennaio 2010, n. 39</ref>, ed essere in possesso di specifica qualificazione professionale in materia di contabilita' pubblica e gestione economica e finanziaria anche degli enti territoriali, secondo i criteri individuati dalla Corte dei conti; 
+ f) passaggio, entro sei mesi dalla data di entrata in vigore del presente decreto e con efficacia a decorrere dalla prima legislatura regionale successiva a quella in corso alla data di entrata in vigore del presente decreto, al sistema previdenziale contributivo per i consiglieri regionali. 
+ 2. L'adeguamento ai parametri di cui al comma 1 da parte delle Regioni a Statuto speciale e delle province autonome di Trento e di Bolzano costituisce condizione per l'applicazione dell'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2009-05-05/42/!main#art_27" ns10:target="olf:it/legge/stato/2009/42/art_27" ns10:relation="cites">articolo 27 della legge 5 maggio 2009, n. 42</ref>, nei confronti di quelle Regioni a statuto speciale e province autonome per le quali lo Stato, ai sensi del citato articolo 27, assicura il conseguimento degli obiettivi costituzionali di perequazione e di solidarieta', ed elemento di riferimento per l'applicazione di misure premiali o sanzionatorie previste dalla normativa vigente.». 
+ - Si riporta il testo dell'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2004-07-02/165/!main#art_4" ns11:target="olf:it/legge/stato/2004/165/art_4" ns11:relation="cites">articolo 4 della legge 2 luglio 2004, n. 165</ref> recante: «Disposizioni di attuazione dell'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_122-com1" ns12:target="olf:it/costituzione/stato/1947/const/art_122-com1" ns12:relation="cites">articolo 122, primo comma, della Costituzione</ref>», pubblicata nella Gazzetta Ufficiale n.155 del 5 luglio 2004: 
+ «Art. 4 (Disposizioni di principio, in attuazione dell'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_122-com1" ns13:target="olf:it/costituzione/stato/1947/const/art_122-com1" ns13:relation="cites">articolo 122, primo comma, della Costituzione</ref>, in materia di sistema di elezione). - 1. Le regioni disciplinano con legge il sistema di elezione del Presidente della Giunta regionale e dei consiglieri regionali nei limiti dei seguenti principi fondamentali: 
+ a) individuazione di un sistema elettorale che agevoli la formazione di stabili maggioranze nel Consiglio regionale e assicuri la rappresentanza delle minoranze; 
+ b) contestualita' dell'elezione del Presidente della Giunta regionale e del Consiglio regionale, se il Presidente e' eletto a suffragio universale e diretto.
+ Previsione, nel caso in cui la regione adotti l'ipotesi di elezione del Presidente della Giunta regionale secondo modalita' diverse dal suffragio universale e diretto, di termini temporali tassativi, comunque non superiori a novanta giorni, per l'elezione del Presidente e per l'elezione o la nomina degli altri componenti della Giunta; 
+ c) divieto di mandato imperativo. 
+ c-bis) promozione delle pari opportunita' tra donne e uomini nell'accesso alle cariche elettive, disponendo che: 
+ 1) qualora la legge elettorale preveda l'espressione di preferenze, in ciascuna lista i candidati siano presenti in modo tale che quelli dello stesso sesso non eccedano il 60 per cento del totale e sia consentita l'espressione di almeno due preferenze, di cui una riservata a un candidato di sesso diverso, pena l'annullamento delle preferenze successive alla prima; 
+ 2) qualora siano previste liste senza espressione di preferenze, la legge elettorale disponga l'alternanza tra candidati di sesso diverso, in modo tale che i candidati di un sesso non eccedano il 60 per cento del totale; 
+ 3) qualora siano previsti collegi uninominali, la legge elettorale disponga l'equilibrio tra candidature presentate col medesimo simbolo in modo tale che i candidati di un sesso non eccedano il 60 per cento del totale. 
+ c-ter) esenzione dalla sottoscrizione degli elettori per le liste che, al momento dell'indizione delle elezioni regionali, sono espressione di forze politiche o movimenti corrispondenti a gruppi parlamentari presenti in almeno una delle due Camere, sulla base di attestazione resa dal segretario o presidente del partito rappresentato nella Camera.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading/>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_3">L'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/2013-04-08/39/!main#art_7" ns14:target="olf:it/decreto-legislativo/stato/2013/39/art_7" ns14:relation="repeals">articolo 7 del decreto legislativo 8 aprile 2013, n. 39</ref>, e' abrogato.</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/2013-04-08/39/!main#art_2" ns15:target="olf:it/decreto-legislativo/stato/2013/39/art_2" ns15:relation="repeals">art. 2</ref>: 
+ - L'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2013-04-08/39/!main#art_7" ns16:target="olf:it/decreto-legislativo/stato/2013/39/art_7" ns16:relation="repeals">articolo 7 del decreto legislativo 8 aprile 2013, n. 39</ref> recante: «Disposizioni in materia di inconferibilita' e incompatibilita' di incarichi presso le pubbliche amministrazioni e presso gli enti privati in controllo pubblico, a norma dell'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2012-11-06/190/!main#art_1-com49" ns17:target="olf:it/legge/stato/2012/190/art_1-com49" ns17:relation="cites">articolo 1, commi 49</ref> e <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2012-11-06/190/!main#art_1-com50" ns18:target="olf:it/legge/stato/2012/190/art_1-com50" ns18:relation="cites">50, della legge 6 novembre 2012, n. 190</ref>», pubblicato nella Gazzetta Ufficiale n. 92 del 19 aprile 2013, abrogato dalla presente legge, recava: «Inconferibilita' di incarichi a componenti di organo politico di livello regionale e locale». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 8 agosto 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
