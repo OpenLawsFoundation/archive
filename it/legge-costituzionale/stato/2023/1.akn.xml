@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2023-09-26/1/!main"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2023-09-26/1"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge.costituzionale:2023-09-26;1"/>
+                    <FRBRalias name="eli" value="eli/id/2023/10/07/23G00147/ORIGINAL"/>
+                    <FRBRdate date="2023-09-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/07/23G00147/ORIGINAL" aknrelname="eli/id/2023/10/07/23G00147/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifica all'articolo 33 della Costituzione, in materia di attivita' sportiva. (23G00147)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00147" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE COSTITUZIONALE"/>
+                            <nrdfa:span content="2023-09-26" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2023-09-26/1/ita@2023-10-22/!main"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2023-09-26/1/ita@2023-10-22"/>
+                    <FRBRdate date="2023-10-22" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/07/23G00147/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/10/07/23G00147/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/10/07/23G00147/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge_costituzionale/stato/2023-09-26/1/ita@2023-10-22/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge_costituzionale/stato/2023-09-26/1/ita@2023-10-22.xml"/>
+                    <FRBRdate date="2023-09-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/07/23G00147/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-10-07" name="" number="235" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-10-07" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2023-09-26" refersTo="#S.13"/>
+                <step by="#camera" date="2023-09-26" refersTo="#C.715"/>
+                <step by="#senato" date="2023-09-26" refersTo="#S.13-B"/>
+                <step by="#camera" date="2023-09-26" refersTo="#C.715-B"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge.costituzionale:2023-09-26;1#1"/>
+                        <destination href="urn:nir:stato:costituzione#33"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) l'introduzione di un comma in fine all'art. 33.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/costituzione/stato/1947-12-27/0/ita@2023-10-22/!main/~art_33"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE_COSTITUZIONALE/stato/2023-09-26/1/!main" showAs=""/>
+                <passiveRef eId="S.13" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;13" showAs=""/>
+                <passiveRef eId="C.715" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;715" showAs=""/>
+                <passiveRef eId="S.13-B" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;13-B" showAs=""/>
+                <passiveRef eId="C.715-B" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;715-B" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/10/07/23G00147/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifica all'articolo 33 della Costituzione, in materia di attivita' sportiva. (23G00147)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00147</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE COSTITUZIONALE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-09-26</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/10/07/23G00147/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/10/07/23G00147/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/10/07/23G00147/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/10/07/23G00147/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge-costituzionale/stato/2023/1" nativeUrn="urn:nir:stato:legge.costituzionale:2023-09-26;1" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-10-07"><ns0:event type="enacted" date="2023-09-26"/><ns0:event type="published" date="2023-10-07"/><ns0:event type="commenced" date="2023-10-07"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/d187f7bd-a054-427a-a4be-56f6443959e1" sourceSha256="795c42f69a0b1c333773afe80273fce9dcfbaa46edc3a822c07b29f689ff57ce" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T21:16:52.058609Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE COSTITUZIONALE</docType>
+                <docDate date="2023-09-26">26 settembre 2023</docDate>
+                <docNumber>1</docNumber>
+                <docTitle>Modifica all'articolo 33 della Costituzione, in materia di attivita' sportiva. (23G00147) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 22/10/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica, in seconda votazione e con la maggioranza dei due terzi dei componenti di ciascuna Assemblea, hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge costituzionale:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">All'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_33" ns1:target="olf:it/costituzione/stato/1947/const/art_33" ns1:relation="amends">articolo 33 della Costituzione</ref> e' aggiunto, in fine, il seguente comma: 
+ «<quotedText eId="modNov_1_new_1">La Repubblica riconosce il valore educativo, sociale e di promozione del benessere psicofisico dell'attivita' sportiva in tutte le sue forme</quotedText>».</mod> 
+ La presente legge costituzionale, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. 
+ 
+ Data a Roma, addi' 26 settembre 2023 
+ 
+ MATTARELLA 
+ 
+ Meloni, Presidente del Consiglio dei ministri 
+ 
+Visto, il Guardasigilli: Nordio 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo della nota qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 2, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura della disposizione di legge modificata e della quale restano invariati il valore e l'efficacia. 
+ 
+ Note all'art. 1: 
+ Si riporta il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_33" ns3:target="olf:it/costituzione/stato/1947/const/art_33" ns3:relation="amends">art. 33 della costituzione</ref>, come modificato dalla presente legge: 
+ «Art. 33 (L'arte e la scienza sono libere e libero ne e' l'insegnamento). - La Repubblica detta le norme generali sull'istruzione ed istituisce scuole statali per tutti gli ordini e gradi. 
+ Enti e privati hanno il diritto di istituire scuole ed istituti di educazione, senza oneri per lo Stato. 
+ La legge, nel fissare i diritti e gli obblighi delle scuole non statali che chiedono la parita', deve assicurare ad esse piena liberta' e ai loro alunni un trattamento scolastico equipollente a quello degli alunni di scuole statali. 
+ E' prescritto un esame di Stato per l'ammissione ai vari ordini e gradi di scuole o per la conclusione di essi e per l'abilitazione all'esercizio professionale. 
+ Le istituzioni di alta cultura, universita' ed accademie, hanno il diritto di darsi ordinamenti autonomi nei limiti stabiliti dalle leggi dello Stato. 
+ La Repubblica riconosce il valore educativo, sociale e di promozione del benessere psicofisico dell'attivita' sportiva in tutte le sue forme.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+    </act>
+</akomaNtoso>
