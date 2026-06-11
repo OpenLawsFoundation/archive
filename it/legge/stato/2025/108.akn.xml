@@ -1,0 +1,738 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-07-30/108/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-07-30/108"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-07-30;108"/>
+                    <FRBRalias name="eli" value="eli/id/2025/08/01/25G00121/ORIGINAL"/>
+                    <FRBRdate date="2025-07-30" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/08/01/25G00121/ORIGINAL" aknrelname="eli/id/2025/08/01/25G00121/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 17 giugno 2025, n. 84, recante disposizioni urgenti in materia fiscale. (25G00121)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00121" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-07-30" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-07-30/108/ita@2025-08-02/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-07-30/108/ita@2025-08-02"/>
+                    <FRBRdate date="2025-08-02" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/08/01/25G00121/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/08/01/25G00121/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/08/01/25G00121/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-07-30/108/ita@2025-08-02/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-07-30/108/ita@2025-08-02.xml"/>
+                    <FRBRdate date="2025-07-30" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/08/01/25G00121/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-08-01" name="" number="177" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-08-01" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2025-07-30" refersTo="#C.2460"/>
+                <step by="#senato" date="2025-07-30" refersTo="#S.1594"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1972-10-26;633#17"/>
+                        <new>
+                            <nakn:text> ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138). </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1972-10-26;633#17 ter"/>
+                        <new>
+                            <nakn:text> ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138). </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917#54 septies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138). 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917#67"/>
+                        <new>
+                            <nakn:text> ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138). 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917#167"/>
+                        <new>
+                            <nakn:text> ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138). 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917#172"/>
+                        <new>
+                            <nakn:text> ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138). 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:legge:2000-07-27;212#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:legge:2000-07-27;212#12"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:legge:2022-12-29;197#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57#3 quinquies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:legge:2024-12-30;207#"/>
+                        <new>
+                            <nakn:text> ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138). 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2025-03-28;43#8"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del 17 giugno 2025, n. 84 (in G.U. 17/06/2025, n. 138).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, lettere e) ed f), 3, 4, 5 e 6 e l'introduzione del comma 1-bis all'art. 1.
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#1 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1, lettera b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, comma 1, lettere a) e b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica della rubrica dell'art. 5. 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#6 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, comma 1, lettere a), b) e c).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#9"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9, commi 1, 2, lettere a) e b) e rubrica. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#10"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, commi 1 e 2. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#11"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 11, comma 1, lettera b) e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#12"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 12, commi 1, 2 e rubrica. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#12 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 12-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#12 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 12-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#13"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 13, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#13 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 13-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-07-30;108#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-06-17;84#15"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 15, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_1__para_1__point_e"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_1__para_1__point_f"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_1__para_1-bis"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_1__para_3"/>
+                        <new href="#modNov_1_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_1__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_1__para_5"/>
+                        <old href="#modNov_1_old_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_1__para_6"/>
+                        <old href="#modNov_1_old_8"/>
+                        <new href="#modNov_1_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_1-bis"/>
+                        <new href="#modNov_2_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_2__para_1__point_b"/>
+                        <old href="#modNov_3_old_23"/>
+                        <new href="#modNov_3_new_23"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_4__para_1__point_a"/>
+                        <old href="#modNov_4_old_24"/>
+                        <new href="#modNov_4_new_24"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_4__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_4__para_1__point_b"/>
+                        <new href="#modNov_4_new_28"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_5"/>
+                        <old href="#modNov_5_old_29"/>
+                        <new href="#modNov_5_new_29"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_6__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_6__para_1"/>
+                        <new href="#modNov_6_new_30"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_6-bis"/>
+                        <new href="#modNov_7_new_34"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="insertion">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_7__para_1__point_a"/>
+                        <new href="#modNov_8_new_35"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_7__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="repeal">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_7__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="repeal">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_7__para_1__point_c"/>
+                        <old href="#modNov_8_old_38"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_7__para_1__point_c"/>
+                        <old href="#modNov_8_old_39"/>
+                        <new href="#modNov_8_new_39"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_9__para_2__point_b"/>
+                        <new href="#modNov_9_new_33"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="insertion">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_9__para_1"/>
+                        <new href="#modNov_9_new_40"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_9__para_2__point_a"/>
+                        <old href="#modNov_9_old_41"/>
+                        <new href="#modNov_9_new_41"/>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_9"/>
+                        <old href="#modNov_9_old_31"/>
+                        <new href="#modNov_9_new_31"/>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_10__para_2"/>
+                        <new href="#modNov_10_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_55" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_10__para_1"/>
+                        <old href="#modNov_10_old_10"/>
+                        <new href="#modNov_10_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_56" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_11__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_57" type="insertion">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_11__para_1__point_b"/>
+                        <new href="#modNov_11_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_58" type="repeal">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_11__para_1__point_b"/>
+                        <old href="#modNov_11_old_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_59" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_11"/>
+                        <old href="#modNov_11_old_14"/>
+                        <new href="#modNov_11_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_60" type="repeal">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_12__para_2"/>
+                        <old href="#modNov_12_old_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_61" type="substitution">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_12"/>
+                        <old href="#modNov_12_old_12"/>
+                        <new href="#modNov_12_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_62" type="insertion">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_12__para_1"/>
+                        <new href="#modNov_12_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_63" type="insertion">
+                        <source href="#modNov_13"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main"/>
+                        <new href="#modNov_13_new_32"/>
+                    </textualMod>
+                    <textualMod eId="amod_64" type="substitution">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_13__para_1"/>
+                        <old href="#modNov_14_old_18"/>
+                        <new href="#modNov_14_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_65" type="substitution">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_13__para_2"/>
+                        <old href="#modNov_14_old_19"/>
+                        <new href="#modNov_14_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_66" type="insertion">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_13__para_2"/>
+                        <new href="#modNov_14_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_67" type="insertion">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_13-bis"/>
+                        <new href="#modNov_15_new_21"/>
+                    </textualMod>
+                    <textualMod eId="amod_68" type="substitution">
+                        <source href="#modNov_16"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_15__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_69" type="insertion">
+                        <source href="#modNov_16"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-06-17/84/ita@2025-08-02/!main/~art_15__para_2"/>
+                        <new href="#modNov_16_new_27"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-07-30/108/!main" showAs=""/>
+                <passiveRef eId="C.2460" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2460" showAs=""/>
+                <passiveRef eId="S.1594" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1594" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/08/01/25G00121/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 17 giugno 2025, n. 84, recante disposizioni urgenti in materia fiscale. (25G00121)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00121</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-07-30</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/08/01/25G00121/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/08/01/25G00121/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/08/01/25G00121/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/08/01/25G00121/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/108" nativeUrn="urn:nir:stato:legge:2025-07-30;108" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-08-01"><ns0:event type="enacted" date="2025-07-30"/><ns0:event type="published" date="2025-08-01"/><ns0:event type="commenced" date="2025-08-01"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/2a3015a3-09c8-4be0-95e3-2df82a2e7d2d" sourceSha256="765bf82d1b1ba49e7e20029ae83592227672a743147c4397c82b39354f462732" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T18:58:45.189809Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-07-30">30 luglio 2025</docDate>
+                <docNumber>108</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 17 giugno 2025, n. 84, recante disposizioni urgenti in materia fiscale. (25G00121) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 02/08/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2025-06-17/84/!main" ns1:target="olf:it/decreto-legge/stato/2025/84" ns1:relation="repeals">decreto-legge 17 giugno 2025, n. 84</ref>, recante disposizioni urgenti in materia fiscale, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ La presente legge, munita del sigillo della Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. 
+ Data a Roma, addi' 30 luglio 2025 
+ 
+ MATTARELLA 
+ 
+ Meloni, Presidente del Consiglio dei ministri 
+ 
+ Giorgetti, Ministro dell'economia e delle finanze 
+ 
+Visto, il Guardasigilli: Nordio 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2025-06-17/84/!main" ns2:target="olf:it/decreto-legge/stato/2025/84" ns2:relation="repeals">decreto-legge 17 giugno 2025, n. 84</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 138 del 17 giugno 2025. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 41. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-07-30/108/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-07-30/108"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-07-30;108"/>
+                                <FRBRalias name="eli" value="eli/id/2025/08/01/25G00121/ORIGINAL"/>
+                                <FRBRdate date="2025-08-02" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-07-30/108/ita@2025-08-02/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-07-30/108/ita@2025-08-02"/>
+                                <FRBRdate date="2025-08-02" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-07-30/108/ita@2025-08-02/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-07-30/108/ita@2025-08-02.xml"/>
+                                <FRBRdate date="2025-07-30" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 17 GIUGNO 2025, N. 84 
+ 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1: 
+ alla lettera e): 
+ al numero 1)<quotedText eId="modNov_1_new_5">,</quotedText> le parole: «se i pagamenti sono eseguiti» sono sostituite dalle seguenti: «a condizione che i pagamenti siano eseguiti» e le parole: «n. 241."» sono sostituite dalle seguenti: «n. 241"»; 
+ al numero 2), capoverso 6-bis, la parola: «Capo» e' sostituita dalla seguente: «capo»; 
+ alla lettera f): 
+ al numero 1), dopo le parole: «alla lettera c),» e' inserita la seguente: «alinea,»; 
+ al numero 2), dopo le parole: «alla lettera c-bis),» e' inserita la seguente: «alinea,»; 
+ dopo il comma 1 e' inserito il seguente: 
+ «<quotedText eId="modNov_1_new_4">1-bis. Ai sensi dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2000-07-27/212/!main#art_1-com2" ns4:target="olf:it/legge/stato/2000/212/art_1-com2" ns4:relation="amends">articolo 1, comma 2, della legge 27 luglio 2000, n. 212</ref>, il comma 1 dell'articolo 67 del testo unico delle imposte sui redditi, di cui al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns5:target="olf:it/dpr/stato/1986/917" ns5:relation="amends">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>, si interpreta nel senso che il reddito derivante dalla concessione di usufrutto o dalla costituzione di altri diritti reali di godimento su un bene immobile costituisce un reddito diverso imponibile ai sensi della lettera h) dello stesso comma 1 quando il soggetto disponente mantiene un diritto reale sul bene immobile, mentre si qualifica come plusvalenza, tassabile ai sensi delle lettere b) e b-bis) del comma 1 al ricorrere delle condizioni temporali ivi previste, se il disponente si spoglia contestualmente e integralmente di ogni diritto reale sul bene</quotedText>»; 
+ al comma 3, dopo le parole: «lettera b)» e' inserito il seguente segno d'interpunzione: «,»; 
+ al comma 4, dopo le parole: «lettera e)» e' inserito il seguente segno d'interpunzione: «,»; 
+ al comma 5, primo periodo, le parole: «<quotedText eId="modNov_1_old_7">nonche' la disposizione del comma 2,</quotedText>» sono soppresse; 
+ al comma 6, le parole: «<quotedText eId="modNov_1_old_8">numero 2, lettera f),</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_8">numero 2), lettera f) e</quotedText>».</mod>
+                                    <mod eId="modNov_2">Dopo l'articolo 1 e' inserito il seguente: 
+ «<quotedText eId="modNov_2_new_9">Art. 1-bis (Regime dell'aliquota addizionale dell'imposta sul reddito delle persone fisiche relativa a stock options ed emolumenti variabili). - 1. A decorrere dal periodo d'imposta 2025, le disposizioni dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2010-05-31/78/!main#art_33" ns6:target="olf:it/decreto-legge/stato/2010/78/art_33" ns6:relation="cites">articolo 33 del decreto-legge 31 maggio 2010, n. 78</ref>, convertito, con modificazioni, dalla <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2010-07-30/122/!main" ns7:target="olf:it/legge/stato/2010/122" ns7:relation="cites">legge 30 luglio 2010, n. 122</ref>, si applicano ai soggetti indicati nelle lettere a) e b) del comma 1 dell'articolo 162-bis del testo unico delle imposte sui redditi, di cui al <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns8:target="olf:it/dpr/stato/1986/917" ns8:relation="amends">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>. 
+ 2. Agli oneri derivanti dal comma 1, valutati in 1,04 milioni di euro annui a decorrere dall'anno 2025, si provvede mediante corrispondente riduzione del fondo di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/2023-12-27/209/!main#art_62-com1" ns9:target="olf:it/decreto-legislativo/stato/2023/209/art_62-com1" ns9:relation="cites">articolo 62, comma 1, del decreto legislativo 27 dicembre 2023, n. 209</ref>
+                                        </quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 2: 
+ al comma 1, lettera b), le parole: «<quotedText eId="modNov_3_old_23">del <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main" ns10:target="olf:it/codice-civile/stato/1942/262" ns10:relation="cites">codice civile</ref>."</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_23">del <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main" ns11:target="olf:it/codice-civile/stato/1942/262" ns11:relation="cites">codice civile</ref>"</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 4: 
+ al comma 1: 
+ alla lettera a), le parole: «<quotedText eId="modNov_4_old_24">tutti redditi</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_24">tutti i redditi</quotedText>»; 
+ alla lettera b), capoverso 4-ter: 
+ al quinto periodo, le parole: «a meno che non e' revocata» sono sostituite dalle seguenti: «a meno che non sia revocata»; 
+ al settimo periodo, dopo le parole: «di comunicazione dell'esercizio e» e' inserita la seguente: «<quotedText eId="modNov_4_new_28">della</quotedText>»; 
+ all'ottavo periodo, le parole: «che integrano» sono sostituite dalle seguenti: «per i quali sussistono».</mod>
+                                    <mod eId="modNov_5">All'articolo 5: 
+ alla rubrica, le parole: «<quotedText eId="modNov_5_old_29">di contrasto ai</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_29">per il contrasto dei</quotedText>».</mod>
+                                    <mod eId="modNov_6">All'articolo 6: 
+ al comma 1, primo periodo, la parola: «inclusi» e' sostituita dalla seguente: «compresi», le parole: «aliquote IMU» sono sostituite dalle seguenti: «aliquote dell'IMU» e dopo le parole: «senza l'elaborazione del prospetto, ai sensi del predetto comma 757» sono inserite le seguenti: «<quotedText eId="modNov_6_new_30">, o in difformita' da esso</quotedText>».</mod>
+                                    <mod eId="modNov_7">Dopo l'articolo 6 e' inserito il seguente: 
+ «<quotedText eId="modNov_7_new_34">Art. 6-bis (Disposizioni in materia di esenzione dall'imposta municipale propria per lo svolgimento di attivita' sportive). - 1. Ai fini dell'esenzione dall'imposta municipale propria di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2019-12-27/160/!main#art_1-com759-letg" ns12:target="olf:it/legge/stato/2019/160/art_1-com759-letg" ns12:relation="cites">articolo 1, comma 759, lettera g), della legge 27 dicembre 2019, n. 160</ref>, per l'applicazione delle disposizioni riferite allo svolgimento delle attivita' sportive di cui all'articolo 1, comma 1, lettera m), del regolamento di cui al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decreto/ministero.economia.finanze/2012-11-19/200/!main" ns13:target="olf:it/decreto/ministero-economia-finanze/2012/200" ns13:relation="cites">decreto del Ministro dell'economia e delle finanze 19 novembre 2012, n. 200</ref>, i comuni individuano, sentite le rappresentanze sportive locali, i corrispettivi medi previsti per analoghe attivita' svolte con modalita' concorrenziali nello stesso ambito territoriale per verificare il rispetto delle condizioni di cui all'articolo 4, comma 6, del medesimo <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/regolamento//2012/200/!main" ns14:resolution="unresolved">regolamento n. 200 del 2012</ref>. I corrispettivi medi di cui al primo periodo del presente comma sono individuati annualmente e sono pubblicati da ciascun comune nel proprio sito internet istituzionale. Per ambito territoriale si intende quello comunale e, nel caso in cui non esistano strutture di riferimento all'interno del singolo comune, detto ambito puo' essere esteso fino a quello regionale. 
+ 2. Nelle more dell'attuazione delle disposizioni del comma 1, ai fini dell'applicazione dell'esenzione di cui all'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2019-12-27/160/!main#art_1-com759-letg" ns15:target="olf:it/legge/stato/2019/160/art_1-com759-letg" ns15:relation="cites">articolo 1, comma 759, lettera g), della legge 27 dicembre 2019, n. 160</ref>, per le associazioni sportive dilettantistiche e per le societa' sportive dilettantistiche di cui all'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2002-12-27/289/!main#art_90" ns16:target="olf:it/legge/stato/2002/289/art_90" ns16:relation="cites">articolo 90 della legge 27 dicembre 2002, n. 289</ref>, rileva la sola iscrizione nel registro nazionale delle attivita' sportive di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/2021-02-28/39/!main#art_4" ns17:target="olf:it/decreto-legislativo/stato/2021/39/art_4" ns17:relation="cites">articolo 4 del decreto legislativo 28 febbraio 2021, n. 39</ref>, a valere dall'anno di iscrizione nel predetto registro. In ogni caso, non si da' luogo al rimborso delle somme gia' versate</quotedText>».</mod>
+                                    <mod eId="modNov_8">All'articolo 7: 
+ al comma 1: 
+ alla lettera a), dopo le parole: «del predetto testo unico» <quotedText eId="modNov_8_old_39">sono inserite</quotedText> le seguenti: «<quotedText eId="modNov_8_new_35">di cui al <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/1995/504/!main" ns18:resolution="unresolved">decreto legislativo n. 504 del 1995</ref>
+                                        </quotedText>» e le parole: «regolamento (UE) n. 651/2014/UE» sono sostituite dalle seguenti: «regolamento (UE) n. 651/2014»; 
+ alla lettera b), capoverso 2-bis.1, primo periodo, le parole da: «che dichiara» fino a: «dell'Unione europea,» sono soppresse; 
+ alla lettera c), le parole: «<quotedText eId="modNov_8_old_38">in fine,</quotedText>» sono soppresse e le parole: «sono inserite» sono sostituite dalle seguenti: «<quotedText eId="modNov_8_new_39">sono aggiunte</quotedText>».</mod>
+                                    <mod eId="modNov_9">All'articolo 9: 
+ al comma 1, dopo le parole: «o ad esso riconducibili in qualunque forma» sono inserite le seguenti: «<quotedText eId="modNov_9_new_40">e le parole: "ne' alle agenzie per il lavoro di cui all'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegislativo/stato/2003-09-10/276/!main#art_4" ns19:target="olf:it/decreto-legislativo/stato/2003/276/art_4" ns19:relation="cites">articolo 4 del decreto legislativo 10 settembre 2003, n. 276</ref>"</quotedText>»; 
+ al comma 2: 
+ alla lettera a), capoverso 58, le parole: «<quotedText eId="modNov_9_old_41">dell'articolo 17, sesto comma,</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_9_new_41">del sesto comma dell'articolo 17</quotedText>»; 
+ alla lettera b), dopo le parole: «al comma 59,» sono inserite le seguenti: «<quotedText eId="modNov_9_new_33">al primo periodo, le parole: ", come sostituita dal comma 57 del presente articolo," sono soppresse e,</quotedText>»; 
+ alla rubrica, le parole: «<quotedText eId="modNov_9_old_31">e movimentazione merci</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_9_new_31">e della movimentazione di merci</quotedText>».</mod>
+                                    <mod eId="modNov_10">All'articolo 10: 
+ al comma 1, la parola: «<quotedText eId="modNov_10_old_10">soppressa</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_10_new_10">abrogata</quotedText>»; 
+ al comma 2 e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_10_new_3">Sono fatti salvi i comportamenti adottati dai contribuenti anteriormente alla data di entrata in vigore della legge di conversione del presente decreto</quotedText>».</mod>
+                                    <mod eId="modNov_11">All'articolo 11: 
+ al comma 1, lettera b), capoverso 4-bis: 
+ al primo periodo, la parola: «concernente» e' sostituita dalla seguente: «concernenti», dopo le parole: «comma 1, lettera l),» sono inserite le seguenti: «<quotedText eId="modNov_11_new_11">del presente decreto,</quotedText>», le parole: «<quotedText eId="modNov_11_old_13">della Repubblica italiana</quotedText>» sono soppresse e le parole: «dall'articolo 33-ter» sono sostituite dalle seguenti: «dal citato articolo 33-ter»; 
+ al secondo periodo, le parole: «all'art. 33-ter» sono sostituite dalle seguenti: «al predetto articolo 33-ter»; 
+ alla rubrica, le parole: «<quotedText eId="modNov_11_old_14">Modifiche decreto</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_11_new_14">Modifiche al decreto</quotedText>»</mod>. 
+ <mod eId="modNov_12">All'articolo 12: 
+ al comma 1, primo periodo, dopo le parole: «di cui all'articolo 2 del» sono inserite le seguenti: «<quotedText eId="modNov_12_new_15">regolamento di cui al</quotedText>»; 
+ al comma 2, la parola: «<quotedText eId="modNov_12_old_16">non</quotedText>» e' soppressa; 
+ alla rubrica, le parole: «<quotedText eId="modNov_12_old_12">dichiarazioni 2024</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_12_new_12">dichiarazioni fiscali dell'anno 2024</quotedText>».</mod>
+                                    <mod eId="modNov_13">Dopo l'articolo 12 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_13_new_32">Art. 12-bis (Norma di interpretazione autentica in materia di estinzione dei giudizi a seguito di definizione agevolata). - 1. Il secondo periodo del <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com236" ns20:target="olf:it/legge/stato/2022/197/art_1-com236" ns20:relation="amends">comma 236 dell'articolo 1 della legge 29 dicembre 2022, n. 197</ref>, si interpreta nel senso che, ai soli fini dell'estinzione dei giudizi aventi a oggetto i debiti compresi nella dichiarazione di adesione alla definizione agevolata di cui al comma 235 del medesimo <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/2022/197/!main#art_1" ns21:resolution="unresolved">articolo 1 della legge n. 197 del 2022</ref> e di cui al <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegge/stato/2024-12-27/202/!main#art_3bis-com1" ns22:target="olf:it/decreto-legge/stato/2024/202/art_3bis-com1" ns22:relation="cites">comma 1 dell'articolo 3-bis del decreto-legge 27 dicembre 2024, n. 202</ref>, convertito, con modificazioni, dalla <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2025-02-21/15/!main" ns23:target="olf:it/legge/stato/2025/15" ns23:relation="cites">legge 21 febbraio 2025, n. 15</ref>, l'effettivo perfezionamento della definizione si realizza con il versamento della prima o unica rata delle somme dovute e che l'estinzione e' dichiarata dal giudice d'ufficio dietro presentazione, da parte del debitore o dell'Agenzia delle entrate - Riscossione che sia parte nel giudizio ovvero, in sua assenza, da parte dell'ente impositore, della dichiarazione prevista dallo stesso <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2022/197/!main#art_1-com235" ns24:resolution="unresolved">articolo 1, comma 235, della legge n. 197 del 2022</ref> e della comunicazione prevista dall'articolo 1, comma 241, della medesima <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/2022/197/!main#art_3bis-com2-letc" ns25:resolution="unresolved">legge n. 197 del 2022 o dall'articolo 3-bis, comma 2, lettera c)</ref>, del citato <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegge/stato/2024/202/!main" ns26:resolution="unresolved">decreto-legge n. 202 del 2024</ref> e della documentazione attestante il versamento della prima o unica rata. 
+ 2. L'estinzione del giudizio dichiarata ai sensi del <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com236" ns27:target="olf:it/legge/stato/2022/197/art_1-com236" ns27:relation="amends">comma 236 dell'articolo 1 della legge 29 dicembre 2022, n. 197</ref>, comporta l'inefficacia delle sentenze di merito e dei provvedimenti pronunciati nel corso del processo e non passati in giudicato. Le somme versate a qualsiasi titolo, riferite ai procedimenti di cui al presente comma, restano definitivamente acquisite e non sono rimborsabili. 
+ Art. 12-ter (Imposta sostitutiva per annualita' ancora soggette ad accertamento dei soggetti che aderiscono al concordato preventivo per il biennio 2025-2026). - 1. I soggetti che hanno applicato gli indici sintetici di affidabilita' fiscale (ISA) e che, relativamente al biennio d'imposta 2025-2026, aderiscono entro i termini di legge al concordato preventivo biennale di cui agli <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegislativo/stato/2024-02-12/13/!main#art_6" ns28:target="olf:it/decreto-legislativo/stato/2024/13/art_6" ns28:relation="cites">articoli 6 e seguenti del decreto legislativo 12 febbraio 2024, n. 13</ref>, possono adottare il regime di ravvedimento di cui al presente articolo, versando l'imposta sostitutiva delle imposte sui redditi e delle relative addizionali, nonche' dell'imposta regionale sulle attivita' produttive, come determinata ai sensi dei commi da 2 a 10 del presente articolo. 
+ 2. Ai fini del comma 1, la base imponibile dell'imposta sostitutiva delle imposte sui redditi e delle relative addizionali e' costituita dalla differenza tra il reddito d'impresa o di lavoro autonomo gia' dichiarato, alla data di entrata in vigore della legge di conversione del presente decreto, in ciascuna annualita' e il valore dello stesso incrementato nella misura del: 
+ a) 5 per cento per i soggetti con punteggio ISA pari a 10; 
+ b) 10 per cento per i soggetti con punteggio ISA pari o superiore a 8 e inferiore a 10; 
+ c) 20 per cento per i soggetti con punteggio ISA pari o superiore a 6 e inferiore a 8; 
+ d) 30 per cento per i soggetti con punteggio ISA pari o superiore a 4 e inferiore a 6; 
+ e) 40 per cento per i soggetti con punteggio ISA pari o superiore a 3 e inferiore a 4; 
+ f) 50 per cento per i soggetti con punteggio ISA inferiore a 3. 
+ 3. Ai fini del comma 1, la base imponibile dell'imposta sostitutiva dell'imposta regionale sulle attivita' produttive e' costituita dalla differenza tra il valore della produzione netta gia' dichiarato in ciascuna annualita' e il valore dello stesso incrementato nella misura stabilita dal comma 2. 
+ 4. Per le annualita' 2019, 2022 e 2023, i soggetti di cui al comma 1 applicano l'imposta sostitutiva delle imposte sui redditi e delle relative addizionali con l'aliquota del: 
+ a) 10 per cento, se nel singolo periodo d'imposta il livello di affidabilita' fiscale e' pari o superiore a 8; 
+ b) 12 per cento, se nel singolo periodo d'imposta il livello di affidabilita' fiscale e' pari o superiore a 6 ma inferiore a 8; 
+ c) 15 per cento, se nel singolo periodo d'imposta il livello di affidabilita' fiscale e' inferiore a 6. 
+ 5. Per le annualita' 2019, 2022 e 2023, i soggetti di cui al comma 1 applicano l'imposta sostitutiva dell'imposta regionale sulle attivita' produttive con l'aliquota del 3,9 per cento. 
+ 6. In considerazione della pandemia di COVID-19, per i soli periodi d'imposta 2020 e 2021, i soggetti di cui al comma 1 applicano le imposte sostitutive di cui ai commi 4 e 5 diminuite del 30 per cento. 
+ 7. I soggetti di cui al comma 1 del presente articolo, con un ammontare di ricavi di cui all'articolo 85, comma 1, esclusi quelli di cui alle lettere c), d) ed e), o compensi di cui all'articolo 54, comma 1, del testo unico delle imposte sui redditi, di cui al <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns29:target="olf:it/dpr/stato/1986/917" ns29:relation="amends">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>, fino a 5.164.569 euro e che non determinano il reddito con criteri forfetari, possono accedere al regime di ravvedimento di cui al presente articolo nel caso in cui sussista una delle seguenti circostanze anche per una delle annualita' comprese tra il 2019 e il 2023: 
+ a) hanno dichiarato una delle cause di esclusione dall'applicazione degli ISA correlate alla diffusione della pandemia di COVID-19, introdotte con i decreti del Ministro dell'economia e delle finanze adottati in attuazione del combinato disposto dell'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decretoLegge/stato/2017-04-24/50/!main#art_9bis-com7" ns30:target="olf:it/decreto-legge/stato/2017/50/art_9bis-com7" ns30:relation="cites">articolo 9-bis, comma 7, del decreto-legge 24 aprile 2017, n. 50</ref>, convertito, con modificazioni, dalla <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/2017-06-21/96/!main#art_148" ns31:target="olf:it/legge/stato/2017/96/art_148" ns31:relation="cites">legge 21 giugno 2017, n. 96, e dell'articolo 148</ref> del <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main" ns32:target="olf:it/decreto-legge/stato/2020/34" ns32:relation="cites">decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns33:target="olf:it/legge/stato/2020/77" ns33:relation="cites">legge 17 luglio 2020, n. 77</ref>; 
+ b) hanno dichiarato la sussistenza di una condizione di non normale svolgimento dell'attivita' di cui all'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decretoLegge/stato/2017-04-24/50/!main#art_9bis-com6-leta" ns34:target="olf:it/decreto-legge/stato/2017/50/art_9bis-com6-leta" ns34:relation="cites">articolo 9-bis, comma 6, lettera a), del decreto-legge 24 aprile 2017, n. 50</ref>, convertito, con modificazioni, dalla <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/legge/stato/2017-06-21/96/!main" ns35:target="olf:it/legge/stato/2017/96" ns35:relation="cites">legge 21 giugno 2017, n. 96</ref>; 
+ c) hanno dichiarato una causa di esclusione dall'applicazione degli ISA correlata all'esercizio di due o piu' attivita' di impresa, non rientranti nel medesimo ISA, qualora l'importo dei ricavi dichiarati relativi alle attivita' non rientranti tra quelle prese in considerazione dall'ISA relativo all'attivita' prevalente superi il 30 per cento dell'ammontare totale dei ricavi dichiarati. 
+ 8. Per le annualita' in cui sussistono le circostanze previste dal comma 7, lettere a), b) e c), ai fini del calcolo dell'imposta sostitutiva da versare per il ravvedimento: 
+ a) la base imponibile dell'imposta sostitutiva delle imposte sui redditi e delle relative addizionali e' costituita dalla differenza tra il reddito d'impresa o di lavoro autonomo gia' dichiarato, alla data di entrata in vigore della legge di conversione del presente decreto, per l'annualita' interessata e il valore dello stesso incrementato nella misura del 25 per cento; 
+ b) l'imposta sostitutiva delle imposte sui redditi e delle relative addizionali e' determinata applicando all'incremento di cui alla lettera a) l'aliquota del 12,5 per cento; 
+ c) la base imponibile dell'imposta sostitutiva dell'imposta regionale sulle attivita' produttive e' costituita dalla differenza tra il valore della produzione netta gia' dichiarato per l'annualita' interessata e il valore dello stesso incrementato nella misura del 25 per cento; 
+ d) l'imposta sostitutiva dell'imposta regionale sulle attivita' produttive e' determinata applicando all'incremento di cui alla lettera c) l'aliquota del 3,9 per cento. 
+ 9. Le imposte sostitutive delle imposte sui redditi e delle relative addizionali e dell'imposta regionale sulle attivita' produttive, determinate con le modalita' di cui al comma 8, sono diminuite del 30 per cento, a eccezione delle ipotesi di cui al comma 7, lettera c). 
+ 10. In ogni caso, il valore complessivo dell'imposta sostitutiva delle imposte sui redditi e delle relative addizionali da versare per ciascuna annualita' oggetto dell'opzione non puo' essere inferiore a 1.000 euro. 
+ 11. Il versamento dell'imposta sostitutiva di cui al presente articolo e' effettuato in un'unica soluzione tra il 1° gennaio 2026 e il 15 marzo 2026 oppure mediante pagamento rateale nel numero massimo di dieci rate mensili di pari importo, maggiorate di interessi calcolati al tasso legale con decorrenza dal 15 marzo 2026. In caso di pagamento rateale, l'opzione, per ciascuna annualita', si perfeziona mediante il pagamento di tutte le rate. Il pagamento di una delle rate, diverse dalla prima, entro il termine di pagamento della rata successiva non comporta la decadenza dal beneficio della rateizzazione. Non si fa comunque luogo al rimborso delle somme versate a titolo di imposta sostitutiva in ipotesi di decadenza dalla rateizzazione. Con riguardo ai redditi prodotti in forma associata dai soggetti di cui all'articolo 5 del testo unico delle imposte sui redditi, di cui al <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns36:target="olf:it/dpr/stato/1986/917" ns36:relation="amends">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>, imputati ai singoli soci o associati, ovvero in caso di redditi prodotti dai soggetti di cui all'articolo 73, comma 1, lettera a), del medesimo testo unico, imputati ai singoli soci ai sensi degli articoli 115 e 116 del medesimo testo unico, il versamento dell'imposta sostitutiva delle imposte sui redditi e delle relative addizionali puo' essere eseguito dalla societa' o associazione in luogo dei singoli soci o associati. 
+ 12. Il ravvedimento non si perfeziona se il pagamento, in unica soluzione o della prima rata delle imposte sostitutive, e' successivo alla notifica di processi verbali di constatazione o schemi di atto di accertamento, di cui all'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/2000-07-27/212/!main#art_6bis" ns37:target="olf:it/legge/stato/2000/212/art_6bis" ns37:relation="amends">articolo 6-bis della legge 27 luglio 2000, n. 212</ref>, ovvero di atti di recupero di crediti inesistenti. 
+ 13. Eseguito il versamento in unica rata ovvero nel corso del regolare pagamento rateale di cui al comma 11, nei confronti dei soggetti di cui al comma 1, per i periodi d'imposta 2019, 2020, 2021, 2022 e 2023, le rettifiche del reddito d'impresa o di lavoro autonomo di cui all'<ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973-09-29/600/!main#art_39" ns38:target="olf:it/dpr/stato/1973/600/art_39" ns38:relation="cites">articolo 39 del decreto del Presidente della Repubblica 29 settembre 1973, n. 600</ref>, nonche' quelle di cui all'articolo 54, secondo comma, secondo periodo, del <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-10-26/633/!main" ns39:target="olf:it/dpr/stato/1972/633" ns39:relation="amends">decreto del Presidente della Repubblica 26 ottobre 1972, n. 633</ref>, non possono essere effettuate, fatta eccezione per la ricorrenza di uno dei seguenti casi: 
+ a) intervenuta decadenza dal concordato preventivo biennale di cui all'<ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoLegislativo/stato/2024-02-12/13/!main#art_22" ns40:target="olf:it/decreto-legislativo/stato/2024/13/art_22" ns40:relation="cites">articolo 22 del decreto legislativo 12 febbraio 2024, n. 13</ref>; 
+ b) applicazione nei confronti dei soggetti di cui al comma 1 di una misura cautelare, personale o reale, ovvero notifica di un provvedimento di rinvio a giudizio per uno dei delitti previsti dal <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoLegislativo/stato/2000-03-10/74/!main" ns41:target="olf:it/decreto-legislativo/stato/2000/74" ns41:relation="cites">decreto legislativo 10 marzo 2000, n. 74</ref>, ad eccezione delle fattispecie di cui agli <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_4" ns42:target="olf:it/codice-civile/stato/1942/262/art_4" ns42:relation="cites">articoli 4</ref>, <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_10bis" ns43:target="olf:it/codice-civile/stato/1942/262/art_10bis" ns43:relation="cites">10-bis</ref>, <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_10ter" ns44:target="olf:it/codice-civile/stato/1942/262/art_10ter" ns44:relation="cites">10-ter</ref> e <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_10quater-com1" ns45:target="olf:it/codice-civile/stato/1942/262/art_10quater-com1" ns45:relation="cites">10-quater, comma 1</ref>, nonche' dell'<ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2621" ns46:target="olf:it/codice-civile/stato/1942/262/art_2621" ns46:relation="cites">articolo 2621 del codice civile</ref> e degli articoli 648-bis, 648-ter e 648-ter.1 del <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns47:target="olf:it/regio-decreto/stato/1930/1398" ns47:relation="cites">codice penale</ref>, commessi nel corso degli anni d'imposta dal 2019 al 2023; 
+ c) mancato perfezionamento del ravvedimento per decadenza dalla rateizzazione di cui al comma 11 del presente articolo; 
+ d) dichiarazione infedele di una causa di esclusione di cui al comma 7 del presente articolo. 
+ 14. Nei casi di cui alla lettera b) del comma 13 e in caso di mancato pagamento di una delle rate previste dal comma 11, la decadenza intervenuta riguarda unicamente l'annualita' di riferimento. In tutti i casi di cui al primo periodo restano comunque validi i pagamenti gia' effettuati, non si da' luogo a rimborso ed e' possibile procedere ad accertamento secondo i termini di cui al comma 17. 
+ 15. Restano altresi' validi i ravvedimenti di cui all'<ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/decretoLegislativo/stato/1997-12-18/472/!main#art_13" ns48:target="olf:it/decreto-legislativo/stato/1997/472/art_13" ns48:relation="cites">articolo 13 del decreto legislativo 18 dicembre 1997, n. 472</ref>, e di cui all'<ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com174" ns49:target="olf:it/legge/stato/2022/197/art_1-com174" ns49:relation="amends">articolo 1, commi da 174</ref> <ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com178" ns50:target="olf:it/legge/stato/2022/197/art_1-com178" ns50:relation="amends">a 178, della legge 29 dicembre 2022, n. 197</ref>, gia' effettuati alla data di entrata in vigore della legge di conversione del presente decreto e non si da' luogo a rimborso. 
+ 16. Le disposizioni del presente articolo si applicano, per i soggetti di cui al comma 1 il cui periodo d'imposta non coincide con l'anno solare, al periodo d'imposta in corso al 31 dicembre di ciascun anno di riferimento. 
+ 17. In deroga all'<ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/legge/stato/2000-07-27/212/!main#art_3-com3" ns51:target="olf:it/legge/stato/2000/212/art_3-com3" ns51:relation="amends">articolo 3, comma 3, della legge 27 luglio 2000, n. 212</ref>, per i soggetti a cui si applicano gli ISA che aderiscono al concordato preventivo biennale e che hanno adottato, per una o piu' annualita' tra i periodi d'imposta 2019, 2020, 2021 e 2022, il regime di ravvedimento di cui al comma 1 del presente articolo, i termini di decadenza per l'accertamento, di cui all'<ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973-09-29/600/!main#art_43" ns52:target="olf:it/dpr/stato/1973/600/art_43" ns52:relation="cites">articolo 43 del decreto del Presidente della Repubblica 29 settembre 1973, n. 600</ref>, e all'<ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-10-26/633/!main#art_57" ns53:target="olf:it/dpr/stato/1972/633/art_57" ns53:relation="amends">articolo 57 del decreto del Presidente della Repubblica 26 ottobre 1972, n. 633</ref>, relativi alle annualita' oggetto di ravvedimento sono prorogati al 31 dicembre 2028. In ogni caso, per i soggetti a cui si applicano gli ISA che aderiscono al concordato preventivo biennale per il biennio d'imposta 2025-2026, i termini di decadenza per l'accertamento, di cui al medesimo <ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1973/600/!main#art_43" ns54:resolution="unresolved">articolo 43 del decreto del Presidente della Repubblica n. 600 del 1973</ref> e al medesimo <ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972/633/!main#art_57" ns55:resolution="unresolved">articolo 57 del decreto del Presidente della Repubblica n. 633 del 1972</ref>, in scadenza al 31 dicembre 2025, sono prorogati al 31 dicembre 2026. 
+ 18. Con provvedimento del direttore dell'Agenzia delle entrate sono stabiliti i termini e le modalita' di comunicazione delle opzioni di cui al presente articolo. 
+ 19. Agli oneri derivanti dal presente articolo, valutati in 84.865.000 euro per l'anno 2026, 107.060.000 euro per l'anno 2027, 89.235.000 euro per l'anno 2028, 70.490.000 euro per l'anno 2029 e 43.350.000 euro per l'anno 2030, si provvede, quanto a 57.933.333 euro per l'anno 2026, mediante corrispondente utilizzo delle maggiori entrate di cui al presente articolo, e, quanto a 26.931.667 euro per l'anno 2026, a 107.060.000 euro per l'anno 2027, a 89.235.000 euro per l'anno 2028, a 70.490.000 euro per l'anno 2029 e a 43.350.000 euro per l'anno 2030, mediante corrispondente riduzione del fondo di cui all'<ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/decretoLegislativo/stato/2023-12-27/209/!main#art_62-com1" ns56:target="olf:it/decreto-legislativo/stato/2023/209/art_62-com1" ns56:relation="cites">articolo 62, comma 1, del decreto legislativo 27 dicembre 2023, n. 209</ref>
+                                        </quotedText>».</mod>
+                                    <mod eId="modNov_14">All'articolo 13: 
+ al comma 1, secondo periodo, la parola: «<quotedText eId="modNov_14_old_18">possibile</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_14_new_18">consentito</quotedText>»; 
+ al comma 2, le parole: «<quotedText eId="modNov_14_old_19">adottano il</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_14_new_19">si avvalgono del</quotedText>» e sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_14_new_20">del presente articolo</quotedText>».</mod>
+                                    <mod eId="modNov_15">Dopo l'articolo 13 e' inserito il seguente: 
+ «<quotedText eId="modNov_15_new_21">Art. 13-bis (Motivazione delle esigenze di indagine e controllo nei verbali di accesso). - 1. All'<ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/legge/stato/2000-07-27/212/!main#art_12-com1" ns57:target="olf:it/legge/stato/2000/212/art_12-com1" ns57:relation="amends">articolo 12, comma 1, della legge 27 luglio 2000, n. 212</ref>, dopo il primo periodo e' inserito il seguente: "Negli atti di autorizzazione e nei processi verbali redatti ai sensi del comma 4 devono essere espressamente e adeguatamente indicate e motivate le circostanze e le condizioni che hanno giustificato l'accesso". 
+ 2. Le disposizioni del secondo periodo del <ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/legge/stato/2000-07-27/212/!main#art_12-com1" ns58:target="olf:it/legge/stato/2000/212/art_12-com1" ns58:relation="amends">comma 1 dell'articolo 12 della legge 27 luglio 2000, n. 212</ref>, introdotto dal comma 1 del presente articolo, si applicano con riferimento agli atti di autorizzazione e ai processi verbali di accesso redatti successivamente alla data di entrata in vigore della legge di conversione del presente decreto. Restano comunque validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodotti e i rapporti sorti sulla base delle disposizioni vigenti antecedentemente alla data di entrata in vigore della legge di conversione del presente decreto</quotedText>».</mod>
+                                    <mod eId="modNov_16">All'articolo 15: 
+ al comma 2<quotedText eId="modNov_16_new_27">,</quotedText> dopo le parole: «capoverso 3-ter» e' inserito il seguente segno d'interpunzione: «,», le parole: «si provvede quanto» sono sostituite dalle seguenti: «si provvede, quanto», le parole: «numero 2, capoverso 3-ter» sono sostituite dalle seguenti: «numero 2), capoverso 3-ter,» e le parole: «e quanto» sono sostituite dalle seguenti: «e, quanto».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
