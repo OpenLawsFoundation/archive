@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-11-05/170/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-11-05/170"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-11-05;170"/>
+                    <FRBRalias name="eli" value="eli/id/2024/11/18/24G00186/ORIGINAL"/>
+                    <FRBRdate date="2024-11-05" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/11/18/24G00186/ORIGINAL" aknrelname="eli/id/2024/11/18/24G00186/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Istituzione della Giornata nazionale delle periferie urbane. (24G00186)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00186" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-11-05" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-11-05/170/ita@2024-11-19/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-11-05/170/ita@2024-11-19"/>
+                    <FRBRdate date="2024-11-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/11/18/24G00186/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/11/18/24G00186/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/11/18/24G00186/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-11-05/170/ita@2024-11-19/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-11-05/170/ita@2024-11-19.xml"/>
+                    <FRBRdate date="2024-11-05" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/11/18/24G00186/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-11-18" name="" number="270" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-11-18" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2024-11-05" refersTo="#C.1737"/>
+                <step by="#senato" date="2024-11-05" refersTo="#S.1178"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-11-05/170/!main" showAs=""/>
+                <passiveRef eId="C.1737" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1737" showAs=""/>
+                <passiveRef eId="S.1178" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1178" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/11/18/24G00186/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Istituzione della Giornata nazionale delle periferie urbane. (24G00186)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00186</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-11-05</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/11/18/24G00186/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/11/18/24G00186/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/11/18/24G00186/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/11/18/24G00186/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/170" nativeUrn="urn:nir:stato:legge:2024-11-05;170" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-11-18"><ns0:event type="enacted" date="2024-11-05"/><ns0:event type="published" date="2024-11-18"/><ns0:event type="commenced" date="2024-11-18"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/c3e77413-84e1-4f9e-ad52-4a196f86e571" sourceSha256="21598011d7389f9b7e4a778e9da562e67bb75ed2d72630a02c8cf529ab3f70aa" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:18:45.988109Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-11-05">05 novembre 2024</docDate>
+                <docNumber>170</docNumber>
+                <docTitle>Istituzione della Giornata nazionale delle periferie urbane. (24G00186) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 19/11/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Istituzione della Giornata nazionale delle periferie urbane</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Repubblica riconosce il giorno 24 giugno di ciascun anno quale Giornata nazionale delle periferie urbane, di seguito denominata «Giornata nazionale», al fine di conservare e rinnovare l'attenzione sulle condizioni di inclusivita', sostenibilita' e sicurezza, sullo sviluppo economico, sociale e culturale e sulla qualita' della vita delle citta' e delle loro periferie. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Giornata nazionale non determina gli effetti civili di cui alla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/1949-05-27/260/!main" ns1:target="olf:it/legge/stato/1949/260" ns1:relation="cites">legge 27 maggio 1949, n. 260</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge, alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1946-05-27/260/!main#art_1" ns3:target="olf:it/legge/stato/1946/260/art_1" ns3:relation="cites">art. 1: 
+ - La legge 27 maggio 1946, n. 260</ref> recante: «Disposizioni in materia di ricorrenze festive», e' stata pubblicata nella Gazzetta Ufficiale n. 124 del 31 maggio 1949. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Iniziative per la celebrazione della Giornata nazionale</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Nella Giornata nazionale, lo Stato, le regioni, le province, le citta' metropolitane e i comuni possono promuovere e sostenere, nell'ambito della loro autonomia e delle rispettive competenze, anche in coordinamento con le associazioni degli enti locali, con gli enti previsti dall'articolo 4 del codice del Terzo settore, di cui al <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns4:target="olf:it/decreto-legislativo/stato/2017/117" ns4:relation="cites">decreto legislativo 3 luglio 2017, n. 117</ref>, e con le istituzioni scolastiche operanti nei territori nonche' su proposta e in coordinamento con le organizzazioni locali rappresentative dei cittadini, le associazioni giovanili e le associazioni rappresentative di utenti e consumatori, delle parti sociali e delle categorie produttive, iniziative specifiche, manifestazioni pubbliche, cerimonie, incontri e momenti di studio e analisi, volti alla sensibilizzazione delle istituzioni e dei cittadini sulle specificita' delle periferie urbane e sugli interventi necessari a contrastare le situazioni di degrado economico, sociale, culturale e abitativo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le attivita' di cui al comma 1 sono finalizzate, inoltre, a valorizzare il patrimonio culturale, storico e artistico delle periferie urbane e a promuovere lo sviluppo economico, sociale e culturale delle aree periferiche degradate. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Nello svolgimento delle attivita' di cui al comma 1, lo Stato, le regioni, le province, le citta' metropolitane e i comuni curano, in particolare, l'informazione e l'aggiornamento sulle iniziative adottate al fine di contrastare le situazioni di degrado economico, sociale, culturale e abitativo di specifiche aree periferiche nonche' di favorire la conoscenza dei piu' efficaci modelli di intervento e la diffusione delle migliori pratiche. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta il testo dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main#art_4" ns5:target="olf:it/decreto-legislativo/stato/2017/117/art_4" ns5:relation="cites">articolo 4 del decreto legislativo 3 luglio 2017, n. 117</ref> recante: «Codice del Terzo settore, a norma dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns6:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns6:relation="cites">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>.», pubblicato nella Gazzetta Ufficiale n. 179 del 2 agosto 2017, S.O. n.43: 
+ «Art. 4 (Enti del Terzo settore). - 1. Sono enti del Terzo settore le organizzazioni di volontariato, le associazioni di promozione sociale, gli enti filantropici, le imprese sociali, incluse le cooperative sociali, le reti associative, le societa' di mutuo soccorso, le associazioni, riconosciute o non riconosciute, le fondazioni e gli altri enti di carattere privato diversi dalle societa' costituiti per il perseguimento, senza scopo di lucro, di finalita' civiche, solidaristiche e di utilita' sociale mediante lo svolgimento, in via esclusiva o principale, di una o piu' attivita' di interesse generale in forma di azione volontaria o di erogazione gratuita di denaro, beni o servizi, o di mutualita' o di produzione o scambio di beni o servizi, ed iscritti nel registro unico nazionale del Terzo settore. 
+ 2. Non sono enti del Terzo settore le amministrazioni pubbliche di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_1-com2" ns7:target="olf:it/decreto-legislativo/stato/2001/165/art_1-com2" ns7:relation="cites">articolo 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165</ref>, le formazioni e le associazioni politiche, i sindacati, le associazioni professionali e di rappresentanza di categorie economiche, le associazioni di datori di lavoro, nonche' gli enti sottoposti a direzione e coordinamento o controllati dai suddetti enti, ad esclusione dei soggetti operanti nel settore della protezione civile alla cui disciplina si provvede ai sensi dell'articolo 32, comma 4. Sono esclusi dall'ambito di applicazione del presente comma i corpi volontari dei vigili del fuoco delle Province autonome di Trento e di Bolzano e della Regione autonoma della Valle d'Aosta. Sono altresi' escluse dall'ambito di applicazione del presente comma le associazioni o fondazioni di diritto privato ex Ipab derivanti dai processi di trasformazione delle istituzioni pubbliche di assistenza o beneficenza, ai sensi del decreto del Presidente del Consiglio dei ministri 16 febbraio 1990, pubblicato nella Gazzetta Ufficiale n. 45 del 23 febbraio 1990, e del <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2001-05-04/207/!main" ns8:target="olf:it/decreto-legislativo/stato/2001/207" ns8:relation="cites">decreto legislativo 4 maggio 2001, n. 207</ref>, in quanto la nomina da parte della pubblica amministrazione degli amministratori di tali enti si configura come mera designazione, intesa come espressione della rappresentanza della cittadinanza, e non si configura quindi mandato fiduciario con rappresentanza, sicche' e' sempre esclusa qualsiasi forma di controllo da parte di quest'ultima. 
+ 3. Agli enti religiosi civilmente riconosciuti e alle fabbricerie di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/1985-05-20/222/!main#art_72" ns9:target="olf:it/legge/stato/1985/222/art_72" ns9:relation="cites">articolo 72 della legge 20 maggio 1985, n. 222</ref>, le norme del presente decreto si applicano limitatamente allo svolgimento delle attivita' di cui all'articolo 5, nonche' delle eventuali attivita' diverse di cui all'articolo 6 a condizione che per tali attivita' adottino un regolamento, in forma di atto pubblico o scrittura privata autenticata, che, ove non diversamente previsto ed in ogni caso nel rispetto della struttura e della finalita' di tali enti, recepisca le norme del presente Codice e sia depositato nel Registro unico nazionale del Terzo settore. Per lo svolgimento di tali attivita' deve essere costituito un patrimonio destinato e devono essere tenute separatamente le scritture contabili di cui all'articolo 13. I beni che compongono il patrimonio destinato sono indicati nel regolamento, anche con atto distinto ad esso allegato. Per le obbligazioni contratte in relazione alle attivita' di cui agli articoli 5 e 6, gli enti religiosi civilmente riconosciuti e le fabbricerie di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/1985/222/!main#art_72" ns10:resolution="unresolved">articolo 72 della legge n. 222 del 1985</ref> rispondono nei limiti del patrimonio destinato. Gli altri creditori dell'ente religioso civilmente riconosciuto o della fabbriceria non possono far valere alcun diritto sul patrimonio destinato allo svolgimento delle attivita' di cui ai citati articoli 5 e 6.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading>Informazione radiofonica, televisiva e multimediale nella Giornata nazionale</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La societa' concessionaria del servizio pubblico radiofonico, televisivo e multimediale, secondo le disposizioni previste dal contratto di servizio, puo' dedicare spazi a temi connessi alla Giornata nazionale nell'ambito della programmazione televisiva pubblica nazionale e regionale. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>All'attuazione delle disposizioni previste dalla presente legge si provvede nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri per la finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 5 novembre 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
