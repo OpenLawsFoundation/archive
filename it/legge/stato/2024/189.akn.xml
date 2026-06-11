@@ -1,0 +1,896 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-09/189/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-09/189"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-12-09;189"/>
+                    <FRBRalias name="eli" value="eli/id/2024/12/12/24G00208/ORIGINAL"/>
+                    <FRBRdate date="2024-12-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/12/24G00208/ORIGINAL" aknrelname="eli/id/2024/12/12/24G00208/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 19 ottobre 2024, n. 155, recante misure urgenti in materia economica e fiscale e in favore degli enti territoriali. (24G00208)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00208" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-12-09" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-09/189/ita@2024-12-13/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-09/189/ita@2024-12-13"/>
+                    <FRBRdate date="2024-12-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/12/24G00208/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/12/12/24G00208/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/12/12/24G00208/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-09/189/ita@2024-12-13/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-09/189/ita@2024-12-13.xml"/>
+                    <FRBRdate date="2024-12-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/12/24G00208/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-12-12" name="" number="291" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-12-12" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-12-09" refersTo="#S.1274"/>
+                <step by="#camera" date="2024-12-09" refersTo="#C.2150"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:legge:1998-07-08;230#19"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:legge:2007-12-24;244#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:legge:2012-05-08;65#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:legge:2018-12-30;145#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:legge:2020-12-30;178#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-05-06;59#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-05-31;77#45"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-10;121#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-09-10;121#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-01-27;4#13"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-06-22;75#28 quinquies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;104#19"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2024-02-12;13#11"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2024-02-12;13#21"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2024-02-12;13#40"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-03-02;19#19"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-03-02;19#40"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-05-15;63#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-08-09;113#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-08-09;113#2 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-08-09;113#2 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 ottobre 2024, n. 155 (in G.U. 19/10/2024, n. 246).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, 2, 3, 4, 5 alinea, 6 e l'introduzione dei commi 5-bis, 5-ter, 6-bis, 6-ter, 6-quater, 6-quinquies, 6-sexies, 6-septies e 6-octies all'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#Allegato"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'allegato, tabelle 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#1 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#2 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, 4, 5 e l'introduzione del comma 4-bis all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#4 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 4-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 1. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art.6 commi 1, 3, 4, 5, 6, 7 e l'introduzione dei commi 7-bis, 7-ter e 7-quater all'art. 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#6 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#6 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#6 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#6 quinquies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-quinquies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#6 sexies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-sexies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, commi 1 lettere a), 2 alinea e lettere a) e b), rubrica e l'introduzione della lettera a-bis) all'art. 7, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#7 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#7 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#7 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#7 quinquies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-quinquies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, comma 1 alinea e lettere a) e c), rubrica e l'introduzione dei commi 1-bis e 1-ter all'art. 8.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#9"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9, comma 2 e l'introduzione del comma 3-bis all'art. 9.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#9 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 9-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#9 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 9-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#9 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 9-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#10"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, comma 1 alinea e lettera i) e l'introduzione delle lettere i-bis), i-ter), i-quater) e i-quinquies) all'art. 10, comma 1 e l'introduzione del comma 01 all'art. 10.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-10-19;155#10 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 10-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-11-14;167"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) che "Il decreto-legge 14 novembre 2024, n. 167, e' abrogato. Restano
+validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodottisi e i rapporti giuridici sorti sulla base del medesimo decreto-legge n. 167 del 2024". </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-11-14;167#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-11-14;167#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-11-14;167#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-12-09;189#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-11-14;167#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-11-14/167/ita@2024-12-13/!main"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-12-09/189/!main" showAs=""/>
+                <passiveRef eId="S.1274" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1274" showAs=""/>
+                <passiveRef eId="C.2150" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2150" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/12/12/24G00208/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 19 ottobre 2024, n. 155, recante misure urgenti in materia economica e fiscale e in favore degli enti territoriali. (24G00208)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00208</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-12-09</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/12/12/24G00208/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/12/12/24G00208/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/12/12/24G00208/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/12/12/24G00208/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/189" nativeUrn="urn:nir:stato:legge:2024-12-09;189" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-12-12"><ns0:event type="enacted" date="2024-12-09"/><ns0:event type="published" date="2024-12-12"/><ns0:event type="commenced" date="2024-12-12"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/a22d076c-414a-43a4-99fd-824d8794a867" sourceSha256="2e17182af33efcd25990fe86126a0f9e43be6184143d805c8b44772c5a9a82a5" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:19:17.143750Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-12-09">09 dicembre 2024</docDate>
+                <docNumber>189</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 19 ottobre 2024, n. 155, recante misure urgenti in materia economica e fiscale e in favore degli enti territoriali. (24G00208) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 13/12/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2024-10-19/155/!main" ns1:target="olf:it/decreto-legge/stato/2024/155" ns1:relation="repeals">decreto-legge 19 ottobre 2024, n. 155</ref>, recante misure urgenti in materia economica e fiscale e in favore degli enti territoriali, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2024-11-14/167/!main" ns2:target="olf:it/decreto-legge/stato/2024/167" ns2:relation="repeals">decreto-legge 14 novembre 2024, n. 167</ref>, e' abrogato. Restano validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodottisi e i rapporti giuridici sorti sulla base del medesimo <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegge/stato/2024/167/!main" ns3:resolution="unresolved">decreto-legge n. 167 del 2024</ref>.</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2024-10-19/155/!main" ns4:target="olf:it/decreto-legge/stato/2024/155" ns4:relation="repeals">decreto-legge 19 ottobre 2024, n. 155</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 246 del 19 ottobre 2024. 
+ A norma dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns5:target="olf:it/legge/stato/1988/400/art_15-com5" ns5:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 62. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 9 dicembre 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giorgetti, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-12-09/189/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-12-09/189"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-12-09;189"/>
+                                <FRBRalias name="eli" value="eli/id/2024/12/12/24G00208/ORIGINAL"/>
+                                <FRBRdate date="2024-12-13" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-12-09/189/ita@2024-12-13/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-12-09/189/ita@2024-12-13"/>
+                                <FRBRdate date="2024-12-13" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-12-09/189/ita@2024-12-13/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-12-09/189/ita@2024-12-13.xml"/>
+                                <FRBRdate date="2024-12-09" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ Modificazioni apportate in sede di conversione 
+ al <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2024-10-19/155/!main#art_1" ns6:target="olf:it/decreto-legge/stato/2024/155/art_1" ns6:relation="repeals">decreto-legge 19 ottobre 2024, n. 155 
+ 
+ All'articolo 1</ref>: 
+ al <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegge/stato/2024-10-19/155/!main#art_com1" ns7:target="olf:it/decreto-legge/stato/2024/155/art_com1" ns7:relation="repeals">comma 1</ref>, le parole: «destinate a Rete» sono sostituite dalle seguenti: «destinate alla societa' Rete» e le parole: «250 milioni di euro per l'anno 2024» sono sostituite dalle seguenti: «300 milioni di euro per l'anno 2024»; 
+ al comma 2, le parole: «a favore di Rete» sono sostituite dalle seguenti: «a favore della societa' Rete»; 
+ al comma 3, le parole: «220 milioni» sono sostituite dalle seguenti: «270 milioni»; 
+ al comma 4, le parole: «destinate ad ANAS» sono sostituite dalle seguenti: «destinate alla societa' ANAS»; 
+ al comma 5, alinea, le parole: «investimenti ANAS» sono sostituite dalle seguenti: «investimenti dell'ANAS»; 
+ dopo il comma 5 sono inseriti i seguenti: 
+ «5-bis. Le risorse di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2021-05-06/59/!main#art_1-com2-leth-num1" ns8:target="olf:it/decreto-legge/stato/2021/59/art_1-com2-leth-num1" ns8:relation="amends">articolo 1, comma 2, lettera h), numero 1, del decreto-legge 6 maggio 2021, n. 59</ref>, convertito, con modificazioni, dalla <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2021-07-01/101/!main" ns9:target="olf:it/legge/stato/2021/101" ns9:relation="cites">legge 1° luglio 2021, n. 101</ref>, sono incrementate di 70 milioni di euro per l'anno 2025. 
+ 5-ter. Il Fondo nazionale per il concorso finanziario dello Stato agli oneri del trasporto pubblico locale, di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegge/stato/2012-07-06/95/!main#art_16bis-com1" ns10:target="olf:it/decreto-legge/stato/2012/95/art_16bis-com1" ns10:relation="cites">articolo 16-bis, comma 1, del decreto-legge 6 luglio 2012, n. 95</ref>, convertito, con modificazioni, dalla <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2012-08-07/135/!main" ns11:target="olf:it/legge/stato/2012/135" ns11:relation="amends">legge 7 agosto 2012, n. 135</ref>, e' incrementato di 50 milioni di euro per l'anno 2024. Le risorse di cui al primo periodo sono assegnate alle regioni a statuto ordinario secondo le percentuali utilizzate per l'anno 2020 nell'ambito del decreto di riparto di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegge/stato/2017-04-24/50/!main#art_27-com2" ns12:target="olf:it/decreto-legge/stato/2017/50/art_27-com2" ns12:relation="cites">articolo 27, comma 2, del decreto-legge 24 aprile 2017, n. 50</ref>, convertito, con modificazioni, dalla <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2017-06-21/96/!main" ns13:target="olf:it/legge/stato/2017/96" ns13:relation="cites">legge 21 giugno 2017, n. 96</ref>»; 
+ al comma 6, le parole: «dal presente articolo, pari a 1.520 milioni di euro per l'anno 2024» sono sostituite dalle seguenti: «dai commi da 1 a 5-ter del presente articolo, pari a 1.670 milioni di euro per l'anno 2024 e a 70 milioni di euro per l'anno 2025»; 
+ dopo il comma 6 sono aggiunti i seguenti: 
+ «6-bis. L'autorizzazione di spesa di cui al <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegge/stato/2021-09-10/121/!main#art_1-com5bis" ns14:target="olf:it/decreto-legge/stato/2021/121/art_1-com5bis" ns14:relation="amends">comma 5-bis dell'articolo 1 del decreto-legge 10 settembre 2021, n. 121</ref>, convertito, con modificazioni, dalla <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2021-11-09/156/!main" ns15:target="olf:it/legge/stato/2021/156" ns15:relation="cites">legge 9 novembre 2021, n. 156</ref>, e' incrementata di 2,5 milioni di euro per l'anno 2024. Agli oneri di cui al presente comma, pari a 2,5 milioni di euro per l'anno 2024, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero delle infrastrutture e dei trasporti. 
+ 6-ter. All'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1" ns16:target="olf:it/legge/stato/2020/178/art_1" ns16:relation="amends">articolo 1 della legge 30 dicembre 2020, n. 178</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 706, le parole: "tre anni" sono sostituite dalle seguenti: "quattro anni"; 
+ b) al comma 707 sono aggiunte, in fine, le seguenti parole: "e di 1,5 milioni di euro per l'anno 2024". 
+ 6-quater. Agli oneri di cui al comma 6-ter, pari a 1,5 milioni di euro per l'anno 2024, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero delle infrastrutture e dei trasporti. 
+ 6-quinquies. All'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegge/stato/2023-08-10/104/!main#art_19-com1" ns17:target="olf:it/decreto-legge/stato/2023/104/art_19-com1" ns17:relation="amends">articolo 19, comma 1, del decreto-legge 10 agosto 2023, n. 104</ref>, convertito, con modificazioni, dalla <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2023-10-09/136/!main" ns18:target="olf:it/legge/stato/2023/136" ns18:relation="cites">legge 9 ottobre 2023, n. 136</ref>, le parole: "20 milioni di euro per l'anno 2024" sono sostituite dalle seguenti: "21,5 milioni di euro per l'anno 2024". Agli oneri di cui al presente comma, pari a 1,5 milioni di euro per l'anno 2024, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di conto capitale iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero delle infrastrutture e dei trasporti. 
+ 6-sexies. Al <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegge/stato/2021-09-10/121/!main#art_2-com2decies" ns19:target="olf:it/decreto-legge/stato/2021/121/art_2-com2decies" ns19:relation="amends">comma 2-decies dell'articolo 2 del decreto-legge 10 settembre 2021, n. 121</ref>, convertito, con modificazioni, dalla <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2021-11-09/156/!main" ns20:target="olf:it/legge/stato/2021/156" ns20:relation="cites">legge 9 novembre 2021, n. 156</ref>, sono aggiunti, in fine, i seguenti periodi: "Al fine di rafforzare la dotazione patrimoniale della societa' di cui al comma 2-sexies e per le finalita' di cui al terzo periodo, e' assegnata alla medesima societa' la somma di 343 milioni di euro. Il rafforzamento patrimoniale di cui al secondo periodo e' realizzato mediante versamento in conto capitale, per l'acquisizione, anche in deroga a clausole di prelazione o di non trasferibilita' previste negli statuti, nelle convenzioni o nelle norme istitutive, da parte della suddetta societa' di tutti i diritti e gli obblighi derivanti dalla titolarita' delle partecipazioni azionarie detenute dall'ANAS S.p.A. nelle societa' Concessioni Autostradali Venete - CAV S.p.A., Autostrada Asti-Cuneo S.p.A., Societa' Italiana per Azioni per il Traforo del Monte Bianco e Societa' Italiana Traforo Autostradale del Frejus S.p.A. - SITAF. Il corrispettivo per l'acquisizione di cui al terzo periodo e' determinato in misura corrispondente al valore netto contabile d'iscrizione di tali diritti e obblighi, come risultante dalla situazione patrimoniale approvata dal consiglio di amministrazione dell'ANAS S.p.A. riferita ad una data non anteriore a quattro mesi dall'operazione e, in ogni caso, nel limite delle risorse di cui al secondo periodo. Per l'attuazione delle disposizioni di cui al terzo e al quarto periodo non si applicano gli <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2343" ns21:target="olf:it/codice-civile/stato/1942/262/art_2343" ns21:relation="cites">articoli 2343</ref>, <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2343ter" ns22:target="olf:it/codice-civile/stato/1942/262/art_2343ter" ns22:relation="cites">2343-ter</ref>, <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2343quater" ns23:target="olf:it/codice-civile/stato/1942/262/art_2343quater" ns23:relation="cites">2343-quater</ref> e <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2441" ns24:target="olf:it/codice-civile/stato/1942/262/art_2441" ns24:relation="cites">2441 del codice civile</ref>, l'articolo 8 del testo unico in materia di societa' a partecipazione pubblica, di cui al <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegislativo/stato/2016-08-19/175/!main" ns25:target="olf:it/decreto-legislativo/stato/2016/175" ns25:relation="cites">decreto legislativo 19 agosto 2016, n. 175</ref>, ne' l'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegge/stato/2017-04-24/50/!main#art_49" ns26:target="olf:it/decreto-legge/stato/2017/50/art_49" ns26:relation="cites">articolo 49 del decreto-legge 24 aprile 2017, n. 50</ref>, convertito, con modificazioni, dalla <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2017-06-21/96/!main" ns27:target="olf:it/legge/stato/2017/96" ns27:relation="cites">legge 21 giugno 2017, n. 96</ref>. Tutti gli atti connessi alle operazioni di cui al presente comma sono esenti da imposizione fiscale, diretta e indiretta, e da tasse". 
+ 6-septies. Alla copertura degli oneri derivanti dalle disposizioni di cui al comma 6-sexies, pari a 343 milioni di euro per l'anno 2024, si provvede mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_27-com17" ns28:target="olf:it/decreto-legge/stato/2020/34/art_27-com17" ns28:relation="cites">articolo 27, comma 17, del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns29:target="olf:it/legge/stato/2020/77" ns29:relation="amends">legge 17 luglio 2020, n. 77</ref>. 
+ 6-octies. All'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decretoLegge/stato/2024-05-15/63/!main#art_7" ns30:target="olf:it/decreto-legge/stato/2024/63/art_7" ns30:relation="repeals">articolo 7 del decreto-legge 15 maggio 2024, n. 63</ref>, convertito, con modificazioni, dalla <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/2024-07-12/101/!main" ns31:target="olf:it/legge/stato/2024/101" ns31:relation="cites">legge 12 luglio 2024, n. 101</ref>, dopo il comma 7 sono inseriti i seguenti: 
+ "7-bis. Il Commissario straordinario, sentite le regioni interessate, approva il piano di riparto delle risorse destinate, nel limite di 3,7 milioni di euro per l'anno 2024, a indennizzare le imprese della pesca e dell'acquacoltura stabilite nelle regioni Emilia-Romagna, Friuli Venezia Giulia e Veneto, che hanno subito danni alla produzione e alle strutture aziendali a causa del fenomeno della diffusione e della proliferazione della specie granchio blu (Callinectes sapidus) e che, avendo presentato la domanda di cui al <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegislativo/stato/2004-03-29/102/!main" ns32:target="olf:it/decreto-legislativo/stato/2004/102" ns32:relation="cites">decreto legislativo 29 marzo 2004, n. 102</ref>, sono state ammesse alla concessione dei relativi aiuti. Le risorse sono ripartite proporzionalmente all'importo complessivo delle richieste di indennizzo contenute nelle domande acquisite da ciascuna delle suddette regioni. A tal fine e' autorizzata la spesa di 3,7 milioni di euro per l'anno 2024 da assegnare al Commissario straordinario con le procedure previste a legislazione vigente. 
+ 7-ter. Il Commissario straordinario trasferisce, con ordinanza, le risorse, come ripartite ai sensi del comma 7-bis, alle regioni Emilia-Romagna, Friuli Venezia Giulia e Veneto, che provvedono all'erogazione delle medesime ai richiedenti. 
+ 7-quater. Agli oneri derivanti dal comma 7-bis, pari complessivamente a 3,7 milioni di euro per l'anno 2024, si provvede mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'<ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/1991-08-08/267/!main#art_1-com1" ns33:target="olf:it/legge/stato/1991/267/art_1-com1" ns33:relation="cites">articolo 1, comma 1, della legge 8 agosto 1991, n. 267</ref>"». 
+ Dopo l'articolo 1 e' inserito il seguente: 
+ «Art. 1-bis. (Disposizioni finanziarie per la gestione delle emergenze). - 1. Le risorse disponibili nell'ambito del bilancio autonomo della Presidenza del Consiglio dei ministri a valere sull'autorizzazione di spesa di cui all'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decretoLegge/stato/2023-10-18/145/!main#art_21-com9" ns34:target="olf:it/decreto-legge/stato/2023/145/art_21-com9" ns34:relation="amends">articolo 21, comma 9, del decreto-legge 18 ottobre 2023, n. 145</ref>, convertito, con modificazioni, dalla <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/legge/stato/2023-12-15/191/!main" ns35:target="olf:it/legge/stato/2023/191" ns35:relation="cites">legge 15 dicembre 2023, n. 191</ref>, possono essere utilizzate, nel limite di 44 milioni di euro per l'anno 2024, per le finalita' di cui agli articoli 23, 24 e 29 del codice della protezione civile, di cui al <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/decretoLegislativo/stato/2018-01-02/1/!main" ns36:target="olf:it/decreto-legislativo/stato/2018/1" ns36:relation="cites">decreto legislativo 2 gennaio 2018, n. 1</ref>. 
+ 2. L'oggetto della copertura assicurativa di cui all'articolo 1, comma 101, primo periodo, della <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/2023-12-30/213/!main" ns37:target="olf:it/legge/stato/2023/213" ns37:relation="cites">legge 30 dicembre 2023, n. 213</ref>, e' riferito ai beni elencati dall'articolo 2424, primo comma, sezione Attivo, voce B-II, numeri 1), 2) e 3), del <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main" ns38:target="olf:it/codice-civile/stato/1942/262" ns38:relation="cites">codice civile</ref>, a qualsiasi titolo impiegati per l'esercizio dell'attivita' di impresa, con esclusione di quelli gia' assistiti da analoga copertura assicurativa, anche se stipulata da soggetti diversi dall'imprenditore che impiega i beni». 
+ All'articolo 2: 
+ la rubrica e' sostituita dalla seguente: «Rifinanziamento dell'Ape sociale per il 2024». 
+ Dopo l'articolo 2 e' inserito il seguente: 
+ «Art. 2-bis. (Completo utilizzo delle risorse del Servizio sanitario nazionale contro il COVID-19). - 1. Le risorse erogate nell'anno 2020 e nell'anno 2021 alle regioni e alle province autonome di Trento e di Bolzano per fronteggiare l'emergenza epidemiologica da COVID-19 ai sensi del <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/decretoLegge/stato/2020-03-17/18/!main" ns39:target="olf:it/decreto-legge/stato/2020/18" ns39:relation="cites">decreto-legge 17 marzo 2020, n. 18</ref>, convertito, con modificazioni, dalla <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/legge/stato/2020-04-24/27/!main" ns40:target="olf:it/legge/stato/2020/27" ns40:relation="amends">legge 24 aprile 2020, n. 27</ref>, del <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main" ns41:target="olf:it/decreto-legge/stato/2020/34" ns41:relation="cites">decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns42:target="olf:it/legge/stato/2020/77" ns42:relation="amends">legge 17 luglio 2020, n. 77</ref>, del <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/decretoLegge/stato/2020-08-14/104/!main" ns43:target="olf:it/decreto-legge/stato/2020/104" ns43:relation="cites">decreto-legge 14 agosto 2020, n. 104</ref>, convertito, con modificazioni, dalla <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/legge/stato/2020-10-13/126/!main" ns44:target="olf:it/legge/stato/2020/126" ns44:relation="amends">legge 13 ottobre 2020, n. 126</ref>, della <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/legge/stato/2020-12-30/178/!main" ns45:target="olf:it/legge/stato/2020/178" ns45:relation="amends">legge 30 dicembre 2020, n. 178</ref>, del <ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/decretoLegge/stato/2021-03-22/41/!main" ns46:target="olf:it/decreto-legge/stato/2021/41" ns46:relation="amends">decreto-legge 22 marzo 2021, n. 41</ref>, convertito, con modificazioni, dalla <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/legge/stato/2021-05-21/69/!main" ns47:target="olf:it/legge/stato/2021/69" ns47:relation="cites">legge 21 maggio 2021, n. 69</ref>, e del <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/decretoLegge/stato/2021-05-25/73/!main" ns48:target="olf:it/decreto-legge/stato/2021/73" ns48:relation="amends">decreto-legge 25 maggio 2021, n. 73</ref>, convertito, con modificazioni, dalla <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/legge/stato/2021-07-23/106/!main" ns49:target="olf:it/legge/stato/2021/106" ns49:relation="cites">legge 23 luglio 2021, n. 106</ref>, ancora presenti sui bilanci dei servizi sanitari regionali, possono essere utilizzate entro il 31 dicembre 2025 per garantire l'attuazione dei Piani operativi per il recupero delle liste d'attesa. Le regioni e le province autonome, pertanto, anche negli anni 2024 e 2025, possono avvalersi delle misure previste dalle disposizioni di cui all'<ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/decretoLegge/stato/2021-05-25/73/!main#art_26-com1" ns50:target="olf:it/decreto-legge/stato/2021/73/art_26-com1" ns50:relation="amends">articolo 26, commi 1</ref> e <ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/decretoLegge/stato/2021-05-25/73/!main#art_26-com2" ns51:target="olf:it/decreto-legge/stato/2021/73/art_26-com2" ns51:relation="amends">2, del decreto-legge 25 maggio 2021, n. 73</ref>, convertito, con modificazioni, dalla <ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/legge/stato/2021-07-23/106/!main" ns52:target="olf:it/legge/stato/2021/106" ns52:relation="cites">legge 23 luglio 2021, n. 106</ref>, nonche' dalle disposizioni di cui all'<ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1-com277" ns53:target="olf:it/legge/stato/2021/234/art_1-com277" ns53:relation="cites">articolo 1, comma 277, della legge 30 dicembre 2021, n. 234</ref>». 
+ All'articolo 3: 
+ al comma 1, le parole: «ad essi necessarie» sono sostituite dalle seguenti: «a tali fini necessarie»; 
+ al comma 4, dopo le parole: «dell'Ucraina» il segno di interpunzione «,» e' soppresso; 
+ dopo il comma 4 e' inserito il seguente: 
+ «4-bis. Al fine di sostenere economicamente le attivita' di organizzazione, gestione, promozione e comunicazione dell'evento Special Olympics World Winter Games Torino 2025, e' autorizzata la spesa di 4 milioni di euro per l'anno 2025 in favore della fondazione Comitato Organizzatore dei Giochi Mondiali Invernali Special Olympics Torino 2025. All'onere derivante dal presente comma, pari a 4 milioni di euro per l'anno 2025, si provvede a valere sulle risorse del Fondo unico per l'inclusione delle persone con disabilita', di cui all'<ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/legge/stato/2023-12-30/213/!main#art_1-com210" ns54:target="olf:it/legge/stato/2023/213/art_1-com210" ns54:relation="cites">articolo 1, comma 210, della legge 30 dicembre 2023, n. 213</ref>»; 
+ al comma 5, le parole: «dal presente articolo» sono sostituite dalle seguenti: «dai commi da 1 a 4 del presente articolo». 
+ All'articolo 4: 
+ al comma 1, le parole: «all'<ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/legge/stato/1981-04-01/121/!main#art_16" ns55:target="olf:it/legge/stato/1981/121/art_16" ns55:relation="cites">articolo 16, della legge 1° aprile 1981, n. 121</ref>» sono sostituite dalle seguenti: «all'<ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/legge/stato/1981-04-01/121/!main#art_16" ns56:target="olf:it/legge/stato/1981/121/art_16" ns56:relation="cites">articolo 16 della legge 1° aprile 1981, n. 121</ref>,». 
+ Dopo l'articolo 4 e' inserito il seguente: 
+ «Art. 4-bis (Misure per il pagamento delle prestazioni di lavoro straordinario del personale delle Forze armate). - 1. Al fine di garantire le maggiori esigenze operative delle Forze armate, e' autorizzata la spesa di 20 milioni di euro per l'anno 2024 per il pagamento delle prestazioni di lavoro straordinario svolte dal personale militare, in deroga al limite di cui all'<ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/decretoLegislativo/stato/2017-05-25/75/!main#art_23-com2" ns57:target="olf:it/decreto-legislativo/stato/2017/75/art_23-com2" ns57:relation="cites">articolo 23, comma 2, del decreto legislativo 25 maggio 2017, n. 75</ref>. I compensi accessori di cui al presente comma possono essere corrisposti anche in deroga ai limiti individuali di cui all'<ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/legge/stato/1990-08-08/231/!main#art_10-com3" ns58:target="olf:it/legge/stato/1990/231/art_10-com3" ns58:relation="cites">articolo 10, comma 3, della legge 8 agosto 1990, n. 231</ref>. 
+ 2. Agli oneri di cui al comma 1, pari a 20 milioni di euro per l'anno 2024, si provvede mediante corrispondente utilizzo delle somme versate all'entrata del bilancio dello Stato ai sensi dell'<ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/legge/stato/2024-10-31/388/!main#art_148-com1" ns59:target="olf:it/legge/stato/2024/388/art_148-com1" ns59:relation="cites">articolo 148, comma 1, della legge 23 dicembre 2000, n. 388, che, alla data del 31 ottobre 2024</ref>, non sono riassegnate ai pertinenti programmi e restano, per detto importo, acquisite all'erario». 
+ All'articolo 5: 
+ al comma 1, le parole: «con la restante» sono sostituite dalle seguenti: «con quella della restante» e dopo le parole: «15 luglio 2010» sono inserite le seguenti: «, pubblicato nella Gazzetta Ufficiale n. 179 del 3 agosto 2010». 
+ All'articolo 6: 
+ al comma 1, le parole: «M1C1-72-bis del PNRR» sono sostituite dalle seguenti: «M1C1-72 bis del Piano nazionale di ripresa e resilienza (PNRR)»; 
+ al comma 3, le parole: «decreto legge» sono sostituite dalle seguenti: «decreto-legge» e le parole: «Fondo Next generation Eu-Italia» sono sostituite dalle seguenti: «Fondo di rotazione per l'attuazione del Next Generation EU-Italia»; 
+ al comma 4, le parole: «misure PNRR» sono sostituite dalle seguenti: «misure del PNRR»; 
+ al comma 5, le parole: «fondo Next generation EU» sono sostituite dalle seguenti: «Fondo di rotazione per l'attuazione del Next Generation EU-Italia»; 
+ al comma 6, le parole: «titolari di misura» sono sostituite dalle seguenti: «titolari di misure del PNRR»; 
+ al comma 7, le parole: «fondo di cui al comma 3 del presente articolo» sono sostituite dalle seguenti: «Fondo di rotazione per l'attuazione del Next Generation EU-Italia»; 
+ dopo il comma 7 sono inseriti i seguenti: 
+ «7-bis. Al fine di conseguire gli obiettivi di cui al regolamento (UE) 2021/240 del Parlamento europeo e del Consiglio, del 10 febbraio 2021, e al regolamento (UE) 2021/241 del Parlamento europeo e del Consiglio, del 12 febbraio 2021, i componenti del Comitato speciale di cui all'<ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/decretoLegge/stato/2021-05-31/77/!main#art_45" ns60:target="olf:it/decreto-legge/stato/2021/77/art_45" ns60:relation="amends">articolo 45 del decreto-legge 31 maggio 2021, n. 77</ref>, convertito, con modificazioni, dalla <ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/legge/stato/2021-07-29/108/!main" ns61:target="olf:it/legge/stato/2021/108" ns61:relation="cites">legge 29 luglio 2021, n. 108</ref>, restano in carica fino all'emanazione del decreto del Ministro delle infrastrutture e dei trasporti di cui all'articolo 2 dell'Allegato I.11 del <ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/decretoLegislativo/stato/2006-04-12/163/!main" ns62:target="olf:it/decreto-legislativo/stato/2006/163" ns62:relation="cites">codice dei contratti pubblici</ref>, di cui al <ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/decretoLegislativo/stato/2023-03-31/36/!main" ns63:target="olf:it/decreto-legislativo/stato/2023/36" ns63:relation="cites">decreto legislativo 31 marzo 2023, n. 36</ref>. 
+ 7-ter. All'<ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/decretoLegge/stato/2021-05-31/77/!main#art_45-com4" ns64:target="olf:it/decreto-legge/stato/2021/77/art_45-com4" ns64:relation="amends">articolo 45, comma 4, del decreto-legge 31 maggio 2021, n. 77</ref>, convertito, con modificazioni, dalla <ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/legge/stato/2021-07-29/108/!main" ns65:target="olf:it/legge/stato/2021/108" ns65:relation="cites">legge 29 luglio 2021, n. 108</ref>, sono apportate le seguenti modificazioni: 
+ a) al primo periodo, la parola: "individuate" e' sostituita dalla seguente: "individuati"; 
+ b) al secondo periodo, dopo le parole: "delle pubbliche amministrazioni" sono inserite le seguenti: "di cui al primo periodo". 
+ 7-quater. All'<ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/decretoLegge/stato/2024-03-02/19/!main#art_19" ns66:target="olf:it/decreto-legge/stato/2024/19/art_19" ns66:relation="repeals">articolo 19 del decreto-legge 2 marzo 2024, n. 19</ref>, convertito, con modificazioni, dalla <ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/legge/stato/2024-04-29/56/!main#art_com2" ns67:target="olf:it/legge/stato/2024/56/art_com2" ns67:relation="cites">legge 29 aprile 2024, n. 56, il comma 2</ref> e' sostituito dal seguente: 
+ "2. Per le medesime finalita' di cui al comma 1, il Dipartimento per lo sport della Presidenza del Consiglio dei ministri, sulla base degli indirizzi dell'Autorita' di governo competente in materia di sport, e' autorizzato a riprogrammare le risorse afferenti alla misura del PNRR di cui al comma 1 e disponibili in seguito a revoche ovvero a rinunce da parte dei soggetti attuatori, per la realizzazione di nuove palestre pubbliche nei comuni delle isole minori marine, per l'efficientamento energetico di impianti sportivi di proprieta' pubblica destinati alla pratica di sport natatori, sport del ghiaccio e sport invernali, ovvero per la realizzazione di nuovi impianti sportivi di proprieta' comunale su cui sussista un particolare interesse sportivo-agonistico da parte di una o piu' federazioni sportive, che abbiano manifestato analogo interesse per un intervento ammesso a finanziamento nell'ambito del decreto della Sottosegretaria di Stato alla Presidenza del Consiglio dei ministri con delega per lo sport del 24 febbraio 2022 - Cluster 3, ma non realizzato per successiva revoca o rinuncia da parte del soggetto attuatore. Il finanziamento e' destinato al comune proprietario dell'impianto sportivo da efficientare o dell'area di realizzazione dell'impianto di nuova costruzione, nel rispetto delle condizionalita' e del cronoprogramma del PNRR e concorre a realizzare gli obiettivi della misura M5C2-22 del PNRR"». 
+ Nel capo I, dopo l'articolo 6 sono aggiunti i seguenti: 
+ «Art. 6-bis (Disposizioni in materia di liquidazione delle attivita' connesse ai Giochi olimpici "Torino 2006"). - 1. Al <ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/legge/stato/2012-05-08/65/!main#art_1-com2" ns68:target="olf:it/legge/stato/2012/65/art_1-com2" ns68:relation="amends">comma 2 dell'articolo 1 della legge 8 maggio 2012, n. 65</ref>, dopo le parole: "6 agosto 2007, n. 19," sono inserite le seguenti: "o alle stazioni appaltanti dei comuni o delle unioni montane interessati dagli interventi, iscritte all'Anagrafe unica delle stazioni appaltanti". 
+ 2. Ferma restando la definitiva cessazione al 31 dicembre 2024 della liquidazione delle residue attivita' dell'Agenzia per lo svolgimento dei Giochi olimpici di Torino 2006, istituita dall'<ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/legge/stato/2000-10-09/285/!main#art_2" ns69:target="olf:it/legge/stato/2000/285/art_2" ns69:relation="cites">articolo 2 della legge 9 ottobre 2000, n. 285</ref>, al fine di assicurare lo svolgimento delle attivita' e il completamento degli interventi previsti dall'<ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/legge/stato/2012-05-08/65/!main#art_1" ns70:target="olf:it/legge/stato/2012/65/art_1" ns70:relation="amends">articolo 1 della legge 8 maggio 2012, n. 65</ref>, la gestione e il mandato del commissario di cui all'<ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/legge/stato/2007-12-24/244/!main#art_3-com25" ns71:target="olf:it/legge/stato/2007/244/art_3-com25" ns71:relation="amends">articolo 3, comma 25, della legge 24 dicembre 2007, n. 244</ref>, proseguono senza soluzione di continuita', sino a un massimo di due anni a decorrere dalla data di entrata in vigore della legge di conversione del presente decreto, e comunque non oltre il 31 dicembre 2026. A decorrere dalla stessa data il commissario di cui al primo periodo, che assume la denominazione di "commissario per l'attuazione delle funzioni di cui alla <ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/legge/stato/2012-05-08/65/!main" ns72:target="olf:it/legge/stato/2012/65" ns72:relation="amends">legge 8 maggio 2012, n. 65</ref>", subentra in tutti i rapporti attivi e passivi facenti capo, alla medesima data, all'Agenzia per lo svolgimento dei Giochi olimpici, la quale e' conseguentemente soppressa. 
+ 3. Al termine della gestione di cui all'<ref xmlns:ns73="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_73" href="/akn/it/act/legge/stato/2007-12-24/244/!main#art_3-com25" ns73:target="olf:it/legge/stato/2007/244/art_3-com25" ns73:relation="amends">articolo 3, comma 25, della legge 24 dicembre 2007, n. 244</ref>, le risorse finanziarie di cui all'<ref xmlns:ns74="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_74" href="/akn/it/act/legge/stato/2012-05-08/65/!main#art_1" ns74:target="olf:it/legge/stato/2012/65/art_1" ns74:relation="amends">articolo 1 della legge 8 maggio 2012, n. 65</ref>, e ogni altro eventuale onere residuo a carico della gestione commissariale, nonche' le funzioni e le competenze assegnate dalla stessa <ref xmlns:ns75="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_75" href="/akn/it/act/legge/stato/2012/65/!main" ns75:resolution="unresolved">legge n. 65 del 2012</ref> alla Fondazione 20 Marzo 2006 e al commissario di cui al comma 2 del presente articolo sono trasferiti alla regione Piemonte.
+Il personale dipendente ancora in forza alla struttura commissariale confluisce nella Societa' di committenza Regione Piemonte S.p.A. 
+ 4. Le amministrazioni interessate provvedono all'attuazione delle disposizioni di cui al presente articolo nei limiti delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente e comunque senza nuovi o maggiori oneri a carico della finanza pubblica. 
+ Art. 6-ter (Modifiche all'<ref xmlns:ns76="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_76" href="/akn/it/act/decretoLegge/stato/2023-06-22/75/!main#art_28quinquies" ns76:target="olf:it/decreto-legge/stato/2023/75/art_28quinquies" ns76:relation="amends">articolo 28-quinquies del decreto-legge 22 giugno 2023, n. 75</ref>, convertito, con modificazioni, dalla <ref xmlns:ns77="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_77" href="/akn/it/act/legge/stato/2023-08-10/112/!main" ns77:target="olf:it/legge/stato/2023/112" ns77:relation="cites">legge 10 agosto 2023, n. 112</ref>). - 1. Al fine di contribuire al rafforzamento della capacita' amministrativa delle pubbliche amministrazioni, centrali e territoriali, titolari di misure del PNRR e dei soggetti attuatori di interventi che comportano la valorizzazione del patrimonio immobiliare pubblico e dell'efficientamento della spesa pubblica delle predette amministrazioni, all'<ref xmlns:ns78="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_78" href="/akn/it/act/decretoLegge/stato/2023-06-22/75/!main#art_28quinquies" ns78:target="olf:it/decreto-legge/stato/2023/75/art_28quinquies" ns78:relation="amends">articolo 28-quinquies del decreto-legge 22 giugno 2023, n. 75</ref>, convertito, con modificazioni, dalla <ref xmlns:ns79="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_79" href="/akn/it/act/legge/stato/2023-08-10/112/!main" ns79:target="olf:it/legge/stato/2023/112" ns79:relation="cites">legge 10 agosto 2023, n. 112</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 3, ultimo periodo, dopo la parola: "funzionamento" sono inserite le seguenti: ", per l'acquisizione di beni e servizi strumentali alle attivita' della Cabina di regia, nonche' ai fini della stipula di convenzioni con universita', enti e istituti di ricerca e di accordi di collaborazione di cui all'<ref xmlns:ns80="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_80" href="/akn/it/act/legge/stato/1990-08-07/241/!main#art_15" ns80:target="olf:it/legge/stato/1990/241/art_15" ns80:relation="cites">articolo 15 della legge 7 agosto 1990, n. 241</ref>,"; 
+ b) dopo il comma 3 e' inserito il seguente: 
+ "3-bis. Al fine di supportare l'attivita' della Cabina di regia, presso la struttura tecnica di cui al comma 3 e in aggiunta al contingente ivi previsto e' istituito, senza nuovi o maggiori oneri per la finanza pubblica, un Consiglio tecnico-scientifico degli esperti, con il compito di svolgere attivita' di elaborazione, di analisi e di studio nelle materie di competenza della Cabina di regia, anche in materia di attuazione di interventi e misure del PNRR. Il Consiglio e' composto da membri nominati con decreto del Ministro dell'economia e delle finanze, su proposta del dirigente generale della struttura tecnica di cui al comma 3, scelti tra magistrati, avvocati dello Stato, docenti universitari e tra esperti, anche estranei alla pubblica amministrazione, dotati di specifica e comprovata specializzazione scientifica o professionale nelle discipline oggetto dell'attivita' istituzionale della Cabina di regia. Gli incarichi sono rinnovabili. I compensi e la durata degli incarichi sono fissati con il decreto del Ministro dell'economia e delle finanze di nomina di ciascun membro, nel rispetto delle disposizioni vigenti sui limiti retributivi, a valere sulle risorse specificamente destinate dal comma 3 per consulenti ed esperti e nel limite di spesa complessivo ivi previsto. Le funzioni di segreteria del Consiglio sono svolte dalla struttura tecnica di cui al comma 3.
+In sede di prima applicazione, i soggetti gia' individuati alla data di entrata in vigore della presente disposizione quali esperti ai sensi del comma 3 sono nominati automaticamente quali membri nel Consiglio, per la durata e con i compensi gia' stabiliti in sede di individuazione e senza nuovi o maggiori oneri a carico della finanza pubblica". 
+ 2. All'attuazione delle disposizioni di cui al comma 1 si provvede con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+ Art. 6-quater (Apertura di un conto corrente di tesoreria in favore dell'ISMEA per il PNRR). - 1. E' autorizzata l'apertura, presso la Tesoreria dello Stato, di un apposito conto corrente di tesoreria in favore dell'Istituto di servizi per il mercato agricolo alimentare (ISMEA) per la gestione delle risorse relative ad interventi del PNRR di competenza dell'Istituto medesimo. 
+ Art. 6-quinquies (Controlli in materia di PNRR). - 1. Al fine di sistematizzare gli adempimenti di controllo in materia di attuazione del PNRR, nel rispetto di quanto previsto dall'articolo 22 del regolamento (UE) 2021/241 del Parlamento europeo e del Consiglio, del 12 febbraio 2021, i soggetti attuatori degli interventi e le amministrazioni centrali titolari delle misure del PNRR si attengono, per quanto di rispettiva competenza, alle disposizioni del presente articolo. 
+ 2. I soggetti attuatori degli interventi del PNRR assicurano la tempestiva realizzazione degli interventi di propria competenza e il corretto utilizzo dei finanziamenti assegnati, in conformita' alla normativa nazionale e dell'Unione europea applicabile nonche' agli obblighi previsti negli atti di assegnazione dei finanziamenti. A tal fine, i soggetti attuatori: 
+ a) effettuano i controlli di legalita' e amministrativo-contabili previsti dai rispettivi ordinamenti; 
+ b) verificano l'ammissibilita' delle spese al PNRR e il rispetto degli obblighi assunti in sede di finanziamento degli interventi; 
+ c) conservano agli atti la documentazione giustificativa e la rendono disponibile alle competenti autorita' nazionali e dell'Unione europea per le rispettive attivita' di controllo e di audit; 
+ d) assicurano il periodico aggiornamento del sistema informatico di monitoraggio ReGiS con i dati di avanzamento finanziario, fisico e procedurale degli interventi. 
+ 3. Gli adempimenti di cui al comma 2 del presente articolo costituiscono presupposto necessario ai fini delle attestazioni di cui all'<ref xmlns:ns81="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_81" href="/akn/it/act/decretoLegge/stato/2024-08-09/113/!main#art_18quinquies-com2" ns81:target="olf:it/decreto-legge/stato/2024/113/art_18quinquies-com2" ns81:relation="repeals">articolo 18-quinquies, comma 2, del decreto-legge 9 agosto 2024, n. 113</ref>, convertito, con modificazioni, dalla <ref xmlns:ns82="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_82" href="/akn/it/act/legge/stato/2024-10-07/143/!main" ns82:target="olf:it/legge/stato/2024/143" ns82:relation="cites">legge 7 ottobre 2024, n. 143</ref>. 
+ 4. Le amministrazioni centrali titolari delle misure del PNRR provvedono alla tempestiva attivazione delle misure di propria competenza e assicurano il corretto utilizzo dei finanziamenti assegnati, in conformita' alla normativa nazionale e dell'Unione europea applicabile. 
+ A tal fine, le medesime amministrazioni: 
+ a) sottopongono gli atti di assegnazione delle risorse agli ordinari controlli di legalita' e amministrativo-contabili previsti dalla normativa vigente; 
+ b) adottano misure per la prevenzione e il contrasto delle irregolarita', delle frodi, della corruzione e dei conflitti di interesse, nonche' per il recupero degli importi indebitamente utilizzati; 
+ c) verificano l'espletamento degli adempimenti di cui al comma 2 in capo ai soggetti attuatori, mediante l'esame della regolarita' formale delle attestazioni di cui al comma 3, ai fini dei trasferimenti delle risorse a carico del PNRR. 
+ 5. Le amministrazioni centrali titolari delle misure del PNRR integrano i controlli di regolarita' formale di cui al comma 4, lettera c), con verifiche della documentazione giustificativa prodotta dai soggetti attuatori, al fine di accertare, mediante appropriati metodi di campionamento, la corretta esecuzione degli interventi, la regolarita' e l'ammissibilita' delle spese al PNRR, nonche' il rispetto degli altri obblighi a carico dei soggetti attuatori previsti negli atti di assegnazione dei finanziamenti del PNRR. Tali verifiche costituiscono presupposto necessario ai fini: 
+ a) dell'erogazione del saldo del finanziamento del PNRR in favore dei soggetti attuatori, ovvero della chiusura degli interventi, per le misure che prevedono erogazioni in unica soluzione; 
+ b) delle attestazioni da rendere per la presentazione delle richieste di pagamento all'Unione europea di cui all'articolo 22, paragrafo 2, lettera c), del regolamento (UE) 2021/241 del Parlamento europeo e del Consiglio, del 12 febbraio 2021. 
+ 6. Il Ministero dell'economia e delle finanze, Dipartimento della Ragioneria generale dello Stato, attiva modalita' semplificate per il sistema informatico ReGiS in relazione agli adempimenti previsti dai commi da 1 a 5. 
+ 7. Al fine di agevolare la definizione delle partite contabili aperte in occasione della chiusura dei conti dei programmi cofinanziati dai fondi europei, il fondo di rotazione per l'attuazione delle politiche comunitarie di cui alla <ref xmlns:ns83="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_83" href="/akn/it/act/legge/stato/1987-04-16/183/!main" ns83:target="olf:it/legge/stato/1987/183" ns83:relation="cites">legge 16 aprile 1987, n. 183</ref>, e' autorizzato, nei limiti delle disponibilita' esistenti, ad effettuare il pagamento delle note di addebito emesse dalla Commissione europea. Il fondo di rotazione di cui alla citata <ref xmlns:ns84="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_84" href="/akn/it/act/legge/stato/1987/183/!main" ns84:resolution="unresolved">legge n. 183 del 1987</ref> provvede al recupero delle somme erogate a valere sulle domande di pagamento presentate dall'amministrazione titolare del programma nei cui confronti e' stata emessa la nota di addebito. 
+ Art. 6-sexies (Misure relative al rafforzamento delle strutture preposte ai pagamenti delle fatture commerciali e alla riduzione dei tempi di pagamento da parte delle pubbliche amministrazioni). - 1. Al fine di rafforzare le strutture preposte ai pagamenti delle fatture commerciali, i Ministeri e gli enti locali individuati ai sensi dell'<ref xmlns:ns85="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_85" href="/akn/it/act/decretoLegge/stato/2024-03-02/19/!main#art_40-com4" ns85:target="olf:it/decreto-legge/stato/2024/19/art_40-com4" ns85:relation="repeals">articolo 40, commi da 4</ref> <ref xmlns:ns86="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_86" href="/akn/it/act/decretoLegge/stato/2024-03-02/19/!main#art_40-com9" ns86:target="olf:it/decreto-legge/stato/2024/19/art_40-com9" ns86:relation="repeals">a 9, del decreto-legge 2 marzo 2024, n. 19</ref>, convertito, con modificazioni, dalla <ref xmlns:ns87="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_87" href="/akn/it/act/legge/stato/2024-04-29/56/!main" ns87:target="olf:it/legge/stato/2024/56" ns87:relation="cites">legge 29 aprile 2024, n. 56</ref>, adottano iniziative di formazione e riqualificazione professionale del personale e sono autorizzati ad assumere, con contratto di lavoro subordinato a tempo determinato di durata non eccedente il 31 dicembre 2026, in deroga ai limiti di spesa di cui all'<ref xmlns:ns88="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_88" href="/akn/it/act/decretoLegge/stato/2010-05-31/78/!main#art_9-com28" ns88:target="olf:it/decreto-legge/stato/2010/78/art_9-com28" ns88:relation="cites">articolo 9, comma 28, del decreto-legge 31 maggio 2010, n. 78</ref>, convertito, con modificazioni, dalla <ref xmlns:ns89="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_89" href="/akn/it/act/legge/stato/2010-07-30/122/!main" ns89:target="olf:it/legge/stato/2010/122" ns89:relation="cites">legge 30 luglio 2010, n. 122</ref>, unita' di personale dell'area dei funzionari e degli assistenti o istruttori nel limite complessivo di 5 milioni di euro per ciascuno degli anni 2025 e 2026. Per la realizzazione degli interventi previsti dal presente comma e' istituito, nello stato di previsione del Ministero dell'economia e delle finanze, un fondo con una dotazione di 5 milioni di euro per ciascuno degli anni 2025 e 2026 da ripartire con uno o piu' decreti del Ministro dell'economia e delle finanze, sulla base delle richieste delle amministrazioni di cui al primo periodo coerenti con il relativo Piano degli interventi predisposto ai sensi del citato <ref xmlns:ns90="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_90" href="/akn/it/act/decretoLegge/stato/2024/19/!main#art_40" ns90:resolution="unresolved">articolo 40 del decreto-legge n. 19 del 2024</ref>. Il reclutamento del personale di cui al presente comma si svolge mediante le procedure di cui all'<ref xmlns:ns91="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_91" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_35" ns91:target="olf:it/decreto-legislativo/stato/2001/165/art_35" ns91:relation="cites">articolo 35 del decreto legislativo 30 marzo 2001, n. 165</ref>, o mediante l'utilizzo di graduatorie di concorsi pubblici vigenti, per concorsi a tempo determinato o indeterminato, relative a profili professionali omogenei a quelli banditi. 
+ 2. Agli oneri di cui al comma 1, pari a 5 milioni di euro per ciascuno degli anni 2025 e 2026, si provvede mediante utilizzo delle risorse iscritte nello stato di previsione del Ministero dell'economia e delle finanze, ai sensi dell'<ref xmlns:ns92="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_92" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com780" ns92:target="olf:it/legge/stato/2022/197/art_1-com780" ns92:relation="cites">articolo 1, comma 780, della legge 29 dicembre 2022, n. 197</ref>. 
+ 3. All'<ref xmlns:ns93="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_93" href="/akn/it/act/decretoLegge/stato/2024-03-02/19/!main#art_40" ns93:target="olf:it/decreto-legge/stato/2024/19/art_40" ns93:relation="repeals">articolo 40 del decreto-legge 2 marzo 2024, n. 19</ref>, convertito, con modificazioni, dalla <ref xmlns:ns94="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_94" href="/akn/it/act/legge/stato/2024-04-29/56/!main" ns94:target="olf:it/legge/stato/2024/56" ns94:relation="cites">legge 29 aprile 2024, n. 56</ref>, dopo il comma 9 sono aggiunti i seguenti: 
+ "9-bis. Per le medesime finalita' di cui al comma 4, i comuni con popolazione fino a 60.000 abitanti che, alla data del 31 dicembre 2023, presentano un indicatore di ritardo annuale dei pagamenti di cui all'<ref xmlns:ns95="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_95" href="/akn/it/act/legge/stato/2018-12-30/145/!main#art_1-com859-letb" ns95:target="olf:it/legge/stato/2018/145/art_1-com859-letb" ns95:relation="amends">articolo 1, comma 859, lettera b), della legge 30 dicembre 2018, n. 145</ref>, calcolato mediante la piattaforma elettronica per la gestione telematica del rilascio delle certificazioni di cui all'<ref xmlns:ns96="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_96" href="/akn/it/act/decretoLegge/stato/2013-04-08/35/!main#art_7-com1" ns96:target="olf:it/decreto-legge/stato/2013/35/art_7-com1" ns96:relation="cites">articolo 7, comma 1, del decreto-legge 8 aprile 2013, n. 35</ref>, convertito, con modificazioni, dalla <ref xmlns:ns97="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_97" href="/akn/it/act/legge/stato/2013-06-06/64/!main" ns97:target="olf:it/legge/stato/2013/64" ns97:relation="cites">legge 6 giugno 2013, n. 64</ref>, superiore a dieci giorni, entro sessanta giorni dalla data di entrata in vigore della presente disposizione, con delibera di giunta e previa acquisizione, ai sensi dell'articolo 49 del testo unico di cui al <ref xmlns:ns98="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_98" href="/akn/it/act/decretoLegislativo/stato/2000-08-18/267/!main" ns98:target="olf:it/decreto-legislativo/stato/2000/267" ns98:relation="cites">decreto legislativo 18 agosto 2000, n. 267, del parere</ref> del responsabile finanziario dell'ente, predispongono un Piano degli interventi contenente le seguenti misure: 
+ a) creazione di una struttura preposta al pagamento dei debiti commerciali per i comuni con popolazione superiore a 5.000 abitanti e individuazione di un responsabile del pagamento dei debiti commerciali per i comuni con popolazione inferiore a 5.000 abitanti; 
+ b) sperimentazione di procedure semplificate di spesa idonee ad assicurare maggiore tempestivita' nei pagamenti; 
+ c) costante verifica dei dati registrati nella predetta piattaforma elettronica, con particolare riguardo alla verifica delle scadenze delle fatture e alla corretta gestione delle note di credito e delle sospensioni; 
+ d) ogni altra iniziativa, anche di carattere organizzativo, necessaria per il superamento del ritardo dei pagamenti. 
+ 9-ter. La realizzazione delle misure previste dal Piano di cui al comma 9-bis, da effettuare entro il 31 dicembre 2025, e' verificata dall'organo di controllo di regolarita' amministrativa e contabile nell'ambito delle attivita' di cui all'<ref xmlns:ns99="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_99" href="/akn/it/act/decretoLegge/stato/2014-04-24/66/!main#art_41-com1" ns99:target="olf:it/decreto-legge/stato/2014/66/art_41-com1" ns99:relation="cites">articolo 41, comma 1, del decreto-legge 24 aprile 2014, n. 66</ref>, convertito, con modificazioni, dalla <ref xmlns:ns100="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_100" href="/akn/it/act/legge/stato/2014-06-23/89/!main" ns100:target="olf:it/legge/stato/2014/89" ns100:relation="cites">legge 23 giugno 2014, n. 89</ref>"». 
+ All'articolo 7: 
+ al comma 1: 
+ alla lettera a): 
+ al capoverso 6-bis: 
+ all'alinea, dopo le parole: «di cui al comma 1» sono inserite le seguenti: «del presente articolo», le parole: «approvato con decreto» sono sostituite dalle seguenti: «di cui al decreto» e dopo le parole: «nel caso in cui» sono inserite le seguenti: «sussista una delle seguenti circostanze»; 
+ alla lettera a), la parola: «correlata» e' sostituita dalla seguente: «correlate» e le parole: «introdotta con i decreti attuativi dell'articolo 148» sono sostituite dalle seguenti: «introdotte con i decreti del Ministro dell'economia e delle finanze adottati in attuazione del combinato disposto dell'<ref xmlns:ns101="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_101" href="/akn/it/act/decretoLegge/stato/2017-04-24/50/!main#art_9bis-com7" ns101:target="olf:it/decreto-legge/stato/2017/50/art_9bis-com7" ns101:relation="cites">articolo 9-bis, comma 7, del decreto-legge 24 aprile 2017, n. 50</ref>, convertito, con modificazioni, dalla <ref xmlns:ns102="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_102" href="/akn/it/act/legge/stato/2017-06-21/96/!main#art_148" ns102:target="olf:it/legge/stato/2017/96/art_148" ns102:relation="cites">legge 21 giugno 2017, n. 96, e dell'articolo 148</ref>»; 
+ alla lettera b), la parola: «ovvero» e' soppressa e le parole: «lett. a)» sono sostituite dalle seguenti: «lettera a)»; 
+ dopo la lettera b) e' aggiunta la seguente: 
+ «b-bis) hanno dichiarato una causa di esclusione dall'applicazione degli ISA correlata all'esercizio di due o piu' attivita' di impresa, non rientranti nel medesimo ISA, qualora l'importo dei ricavi dichiarati relativi alle attivita' non rientranti tra quelle prese in considerazione dall'ISA relativo all'attivita' prevalente superi il 30 per cento dell'ammontare totale dei ricavi dichiarati»; 
+ al capoverso 6-ter: 
+ all'alinea, le parole: «lettere a) e b)» sono sostituite dalle seguenti: «lettere a), b) e b-bis)»; 
+ alla lettera b), le parole: «, all'incremento di cui alla precedente lettera a),» sono sostituite dalle seguenti: «all'incremento di cui alla lettera a)»; 
+ alla lettera d), le parole: «, all'incremento di cui alla precedente lettera c),» sono sostituite dalle seguenti: «all'incremento di cui alla lettera c)»; 
+ al capoverso 6-quater, le parole: «comma precedente» sono sostituite dalle seguenti: «comma 6-ter» e le parole: «30 per cento."» sono sostituite dalle seguenti: «30 per cento, ad eccezione delle ipotesi di cui al comma 6-bis, lettera b-bis)";»; 
+ dopo la lettera a) e' inserita la seguente: 
+ «a-bis) al comma 8 e' aggiunto, in fine, il seguente periodo: "Con riguardo ai redditi prodotti in forma associata dai soggetti di cui all'articolo 5 del testo unico delle imposte sui redditi, di cui al <ref xmlns:ns103="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_103" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns103:target="olf:it/dpr/stato/1986/917" ns103:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>, imputati ai singoli soci o associati, ovvero in caso di redditi prodotti dai soggetti di cui all'articolo 73, comma 1, lettera a), del suddetto testo unico, imputati ai singoli soci ai sensi degli articoli 115 e 116 del medesimo testo unico, il versamento dell'imposta sostitutiva delle imposte sui redditi e delle relative addizionali puo' essere eseguito dalla societa' o associazione in luogo dei singoli soci o associati"»; 
+ al comma 2: 
+ all'alinea, le parole: «decreto legislativo del 12 febbraio» sono sostituite dalle seguenti: «decreto legislativo 12 febbraio»; 
+ alla lettera a), la parola: «inserire» e' sostituita dalle seguenti: «sono inserite»; 
+ alla lettera b), la parola: «inserire» e' sostituita dalle seguenti: «sono aggiunte» e le parole: «del D.P.R.» sono sostituite dalle seguenti: «del testo unico delle imposte sui redditi, di cui al decreto del Presidente della Repubblica»; 
+ alla rubrica, le parole: «e del decreto legislativo del» sono sostituite dalle seguenti: «, n. 143, e al decreto legislativo». 
+ Dopo l'articolo 7 sono inseriti i seguenti: 
+ «Art. 7-bis (Disposizioni in materia di concordato preventivo biennale). - 1. I soggetti che hanno validamente presentato la dichiarazione dei redditi entro il termine del 31 ottobre 2024 e non hanno aderito al concordato preventivo biennale di cui agli <ref xmlns:ns104="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_104" href="/akn/it/act/decretoLegislativo/stato/2024-02-12/13/!main#art_10" ns104:target="olf:it/decreto-legislativo/stato/2024/13/art_10" ns104:relation="amends">articoli da 10</ref> <ref xmlns:ns105="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_105" href="/akn/it/act/decretoLegislativo/stato/2024-02-12/13/!main#art_22" ns105:target="olf:it/decreto-legislativo/stato/2024/13/art_22" ns105:relation="amends">a 22 del decreto legislativo 12 febbraio 2024, n. 13</ref>, possono aderire al predetto concordato preventivo biennale entro il 12 dicembre 2024 mediante la presentazione della dichiarazione integrativa di cui all'articolo 2, comma 8, del regolamento di cui al <ref xmlns:ns106="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_106" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1998-07-22/322/!main" ns106:target="olf:it/dpr/stato/1998/322" ns106:relation="cites">decreto del Presidente della Repubblica 22 luglio 1998, n. 322</ref>.
+L'esercizio della facolta' di cui al primo periodo non e' consentito nei casi in cui nella predetta dichiarazione integrativa sono indicati un minore imponibile o, comunque, un minore debito d'imposta ovvero un maggiore credito rispetto a quelli riportati nella dichiarazione presentata entro la data del 31 ottobre 2024. 
+ 2. Nelle ipotesi di cui al comma 1, ai fini dell'<ref xmlns:ns107="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_107" href="/akn/it/act/decretoLegge/stato/2024-08-09/113/!main#art_2quater" ns107:target="olf:it/decreto-legge/stato/2024/113/art_2quater" ns107:relation="repeals">articolo 2-quater del decreto-legge 9 agosto 2024, n. 113</ref>, convertito, con modificazioni, dalla <ref xmlns:ns108="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_108" href="/akn/it/act/legge/stato/2024-10-07/143/!main" ns108:target="olf:it/legge/stato/2024/143" ns108:relation="cites">legge 7 ottobre 2024, n. 143</ref>, come modificato dall'articolo 7, comma 1, del presente decreto, l'adesione al concordato preventivo biennale si intende avvenuta entro il 31 ottobre 2024. 
+ Art. 7-ter (Benefici per i lavoratori dipendenti). - 1.
+All'<ref xmlns:ns109="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_109" href="/akn/it/act/decretoLegge/stato/2024-08-09/113/!main#art_2bis" ns109:target="olf:it/decreto-legge/stato/2024/113/art_2bis" ns109:relation="repeals">articolo 2-bis del decreto-legge 9 agosto 2024, n. 113</ref>, convertito, con modificazioni, dalla <ref xmlns:ns110="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_110" href="/akn/it/act/legge/stato/2024-10-07/143/!main" ns110:target="olf:it/legge/stato/2024/143" ns110:relation="cites">legge 7 ottobre 2024, n. 143</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 1, la lettera b) e' sostituita dalla seguente: 
+ "b) il lavoratore ha almeno un figlio, anche se nato fuori del matrimonio, riconosciuto, adottivo, affiliato o affidato, che si trova nelle condizioni previste dall'articolo 12, comma 2, del testo unico delle imposte sui redditi, di cui al <ref xmlns:ns111="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_111" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1986-12-22/917/!main" ns111:target="olf:it/dpr/stato/1986/917" ns111:relation="cites">decreto del Presidente della Repubblica 22 dicembre 1986, n. 917</ref>"; 
+ b) dopo il comma 2 e' inserito il seguente: 
+ "2-bis. L'indennita' di cui al comma 1 non spetta al lavoratore dipendente coniugato o convivente di fatto il cui coniuge, non legalmente ed effettivamente separato, o convivente di fatto sia beneficiario della stessa indennita'"; 
+ c) al comma 4, primo periodo, le parole: "indicando il codice fiscale del coniuge e dei figli" sono sostituite dalle seguenti: "indicando il codice fiscale del coniuge o del convivente di fatto e dei figli"; 
+ d) al comma 5, primo periodo, le parole: "dal contribuente" sono sostituite dalle seguenti: "dal lavoratore beneficiario". 
+ 2. Agli oneri derivanti dal presente articolo, valutati in 224,7 milioni di euro per l'anno 2024, si fa fronte, nelle more dell'accertamento delle maggiori entrate versate nell'anno 2024 ai sensi dell'<ref xmlns:ns112="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_112" href="/akn/it/act/decretoLegislativo/stato/2024-02-12/13/!main#art_40" ns112:target="olf:it/decreto-legislativo/stato/2024/13/art_40" ns112:relation="amends">articolo 40 del decreto legislativo 12 febbraio 2024, n. 13</ref>, come modificato dall'articolo 7, comma 2, del presente decreto, accertate con le modalita' di cui al comma 3 del suddetto articolo 40, mediante corrispondente utilizzo delle somme iscritte, per il medesimo anno, nello stato di previsione del Ministero dell'economia e delle finanze ai sensi dell'<ref xmlns:ns113="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_113" href="/akn/it/act/decretoLegge/stato/2020-12-31/183/!main#art_21-com1" ns113:target="olf:it/decreto-legge/stato/2020/183/art_21-com1" ns113:relation="cites">articolo 21, comma 1, del decreto-legge 31 dicembre 2020, n. 183</ref>, convertito, con modificazioni, dalla <ref xmlns:ns114="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_114" href="/akn/it/act/legge/stato/2021-02-26/21/!main" ns114:target="olf:it/legge/stato/2021/21" ns114:relation="cites">legge 26 febbraio 2021, n. 21</ref>. 
+ Art. 7-quater (Rinvio del versamento della seconda rata di acconto delle imposte dirette). - 1. Per il solo periodo d'imposta 2024, le persone fisiche titolari di partita IVA che nel periodo d'imposta precedente dichiarano ricavi o compensi di ammontare non superiore a 170.000 euro effettuano il versamento della seconda rata di acconto dovuto in base alla dichiarazione dei redditi, con esclusione dei contributi previdenziali e assistenziali e dei premi assicurativi dovuti all'Istituto nazionale per l'assicurazione contro gli infortuni sul lavoro (INAIL), entro il 16 gennaio dell'anno successivo, oppure in cinque rate mensili di pari importo, a decorrere dal medesimo mese di gennaio, aventi scadenza il giorno 16 di ciascun mese. Sulle rate successive alla prima sono dovuti gli interessi di cui all'<ref xmlns:ns115="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_115" href="/akn/it/act/decretoLegislativo/stato/1997-07-09/241/!main#art_20-com2" ns115:target="olf:it/decreto-legislativo/stato/1997/241/art_20-com2" ns115:relation="cites">articolo 20, comma 2, del decreto legislativo 9 luglio 1997, n. 241</ref>. Per i titolari di reddito agrario, che siano anche titolari di reddito d'impresa, il limite di ricavi e compensi di cui al primo periodo si intende riferito al volume d'affari. 
+ 2. Agli oneri derivanti dal presente articolo, valutati in 688 milioni di euro per l'anno 2024, si provvede mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'<ref xmlns:ns116="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_116" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_27-com17" ns116:target="olf:it/decreto-legge/stato/2020/34/art_27-com17" ns116:relation="cites">articolo 27, comma 17, del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns117="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_117" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns117:target="olf:it/legge/stato/2020/77" ns117:relation="amends">legge 17 luglio 2020, n. 77</ref>. 
+ Art. 7-quinquies (Modifica alla disciplina in materia di concordato preventivo biennale). - 1. Al <ref xmlns:ns118="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_118" href="/akn/it/act/decretoLegislativo/stato/2024-02-12/13/!main" ns118:target="olf:it/decreto-legislativo/stato/2024/13" ns118:relation="amends">decreto legislativo 12 febbraio 2024, n. 13</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 11, comma 1, lettera b-quater), dopo le parole: "compagine sociale" sono aggiunte le seguenti: "che ne aumentano il numero dei soci o degli associati, fatto salvo il subentro di due o piu' eredi in caso di decesso del socio o associato"; 
+ b) all'articolo 21, comma 1, lettera b-ter), dopo le parole: "compagine sociale" sono aggiunte le seguenti: "che ne aumentano il numero dei soci o degli associati, fatto salvo il subentro di due o piu' eredi in caso di decesso del socio o associato"». 
+ All'articolo 8: 
+ al comma 1: 
+ all'alinea, le parole: «All'articolo 1, del» sono sostituite dalle seguenti: «All'articolo 1 del»; 
+ alla lettera a), le parole: «primo periodo, possono» sono sostituite dalle seguenti: «primo periodo possono»; 
+ alla lettera c), capoverso 3-bis, al primo periodo, dopo le parole: «comma 2», ovunque ricorrono, sono inserite le seguenti: «del presente articolo» e dopo le parole: «del comma 1» sono aggiunte le seguenti: «del presente articolo» e, al secondo periodo, dopo le parole: «articolo 16, comma 1» sono inserite le seguenti: «, del <ref xmlns:ns119="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_119" href="/akn/it/act/decretoLegge/stato/2023/124/!main" ns119:resolution="unresolved">decreto-legge n. 124 del 2023</ref>» e le parole: «prevista dal comma 2,» sono sostituite dalle seguenti: «prevista dal comma 2 del presente articolo»; 
+ dopo il comma 1 sono aggiunti i seguenti: 
+ «1-bis. In relazione all'esito del monitoraggio di cui all'<ref xmlns:ns120="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_120" href="/akn/it/act/decretoLegge/stato/2024-03-29/39/!main#art_6-com2" ns120:target="olf:it/decreto-legge/stato/2024/39/art_6-com2" ns120:relation="repeals">articolo 6, comma 2, del decreto-legge 29 marzo 2024, n. 39</ref>, convertito, con modificazioni, dalla <ref xmlns:ns121="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_121" href="/akn/it/act/legge/stato/2024-05-23/67/!main" ns121:target="olf:it/legge/stato/2024/67" ns121:relation="cites">legge 23 maggio 2024, n. 67</ref>, con riferimento al credito d'imposta di cui all'<ref xmlns:ns122="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_122" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com1051" ns122:target="olf:it/legge/stato/2020/178/art_1-com1051" ns122:relation="amends">articolo 1, commi da 1051</ref> <ref xmlns:ns123="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_123" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com1063" ns123:target="olf:it/legge/stato/2020/178/art_1-com1063" ns123:relation="amends">a 1063</ref> e <ref xmlns:ns124="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_124" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com1065" ns124:target="olf:it/legge/stato/2020/178/art_1-com1065" ns124:relation="amends">1065, della legge 30 dicembre 2020, n. 178</ref>, le risorse a disposizione della contabilita' speciale n. 1778 intestata all'Agenzia delle entrate sono incrementate di 4.690 milioni di euro, a cui si fa fronte mediante corrispondente versamento alla predetta contabilita' speciale n. 1778 delle somme disponibili in conto residui a valere sull'autorizzazione di spesa di cui all'<ref xmlns:ns125="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_125" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_27-com17" ns125:target="olf:it/decreto-legge/stato/2020/34/art_27-com17" ns125:relation="cites">articolo 27, comma 17, del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns126="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_126" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns126:target="olf:it/legge/stato/2020/77" ns126:relation="amends">legge 17 luglio 2020, n. 77</ref>. 
+ 1-ter. Al fine di consentire il riequilibrio dei piani economici finanziari delle concessioni aventi a oggetto la progettazione, la costruzione e la gestione di un'infrastruttura passiva a banda ultra-larga nelle aree bianche delle regioni Lazio, Sicilia e Calabria, il Ministro delle imprese e del made in Italy e' autorizzato ad erogare al soggetto attuatore, all'esito della procedura amministrativa, un contributo nel limite complessivo di 50 milioni di euro per l'anno 2024. Ai relativi oneri, pari a 50 milioni di euro per l'anno 2024, si provvede ai sensi dell'articolo 10»; 
+ alla rubrica, la parola: «ZES» e' sostituita dalle seguenti: «per investimenti nella Zona economica speciale per il Mezzogiorno - ZES unica». 
+ All'articolo 9: 
+ al comma 2, le parole: «10 maggio» sono sostituite dalle seguenti: «30 maggio»; 
+ dopo il comma 3 e' aggiunto il seguente: 
+ «3-bis. Al fine di osservare l'andamento delle grandezze finanziarie delle regioni e delle province autonome di Trento e di Bolzano alla luce della nuova governance europea, e' istituito, senza nuovi o maggiori oneri a carico della finanza pubblica, con decreto del Ministero dell'economia e delle finanze, da adottare entro sessanta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, un tavolo tecnico presso il Ministero dell'economia e delle finanze composto da due rappresentanti del Ministero dell'economia e delle finanze, due rappresentanti del Dipartimento per gli affari regionali e le autonomie della Presidenza del Consiglio dei ministri e da due rappresentanti della Conferenza delle regioni e delle province autonome. Ai componenti del tavolo non sono corrisposti compensi, gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati». 
+ Nel capo III, dopo l'articolo 9 sono aggiunti i seguenti: 
+ «Art. 9-bis (Ulteriori disposizioni in materia di enti territoriali). - 1. Sono soggetti al regime del demanio pubblico i beni immobili appartenenti all'ente di cui all'articolo 102, terzo comma, del testo unico delle leggi costituzionali concernenti lo statuto speciale per il Trentino-Alto Adige, di cui al <ref xmlns:ns127="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_127" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main" ns127:target="olf:it/dpr/stato/1972/670" ns127:relation="cites">decreto del Presidente della Repubblica 31 agosto 1972, n. 670</ref>, e ogni altro bene dello stesso ente utilizzato per lo svolgimento delle funzioni amministrative ad esso attribuite, trasferite o delegate dalla regione o dalla provincia di Trento. 
+ Art. 9-ter (Abolizione delle sanzioni sulla presentazione delle certificazioni relative alle risorse straordinarie connesse all'emergenza da COVID-19 per l'anno 2022). - 1. All'<ref xmlns:ns128="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_128" href="/akn/it/act/decretoLegge/stato/2022-01-27/4/!main#art_13" ns128:target="olf:it/decreto-legge/stato/2022/4/art_13" ns128:relation="amends">articolo 13 del decreto-legge 27 gennaio 2022, n. 4</ref>, convertito, con modificazioni, dalla <ref xmlns:ns129="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_129" href="/akn/it/act/legge/stato/2022-03-28/25/!main#art_com4" ns129:target="olf:it/legge/stato/2022/25/art_com4" ns129:relation="cites">legge 28 marzo 2022, n. 25, il comma 4</ref> e' abrogato. Non formano oggetto di restituzione le somme gia' versate all'entrata del bilancio dello Stato dall'ente inadempiente ovvero a quest'ultimo trattenute ai sensi dell'<ref xmlns:ns130="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_130" href="/akn/it/act/decretoLegge/stato/2022-01-27/4/!main#art_13-com4" ns130:target="olf:it/decreto-legge/stato/2022/4/art_13-com4" ns130:relation="amends">articolo 13, comma 4, del decreto-legge 27 gennaio 2022, n. 4</ref>, convertito, con modificazioni, dalla <ref xmlns:ns131="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_131" href="/akn/it/act/legge/stato/2022-03-28/25/!main" ns131:target="olf:it/legge/stato/2022/25" ns131:relation="cites">legge 28 marzo 2022, n. 25</ref>. 
+ Art. 9-quater (Spesa farmaceutica per acquisti diretti). - 1.
+All'articolo 1, comma 580, quarto periodo, della <ref xmlns:ns132="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_132" href="/akn/it/act/legge/stato/2018-12-30/145/!main" ns132:target="olf:it/legge/stato/2018/145" ns132:relation="amends">legge 30 dicembre 2018, n. 145</ref>, le parole: "secondo il criterio pro capite, e la comunica sia all'azienda sia alle regioni e province autonome" sono sostituite dalle seguenti: "al 50 per cento secondo il criterio pro capite e al 50 per cento variabile in proporzione ai rispettivi superamenti dei tetti di spesa, e la comunica sia all'azienda sia alle regioni e province autonome. Con decreto del Ministro della salute, di concerto con il Ministro dell'economia e delle finanze, acquisito il parere della Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, da adottare entro dieci giorni dalla data di entrata in vigore della presente disposizione, sono stabiliti i termini, le condizioni e le modalita' per la redistribuzione delle quote variabili di ripiano spettanti ad ogni regione e provincia autonoma, assicurando che dette quote variabili non siano superiori al 70 per cento ne' inferiori al 30 per cento dello sforamento fatto registrare"». 
+ All'articolo 10: 
+ al comma 1 e' premesso il seguente: 
+ «01. Per l'anno 2024 il limite di spesa di cui al <ref xmlns:ns133="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_133" href="/akn/it/act/decretoLegge/stato/2013-12-28/149/!main#art_12-com4" ns133:target="olf:it/decreto-legge/stato/2013/149/art_12-com4" ns133:relation="cites">comma 4 dell'articolo 12 del decreto-legge 28 dicembre 2013, n. 149</ref>, convertito, con modificazioni, dalla <ref xmlns:ns134="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_134" href="/akn/it/act/legge/stato/2014-02-21/13/!main" ns134:target="olf:it/legge/stato/2014/13" ns134:relation="cites">legge 21 febbraio 2014, n. 13</ref>, e' incrementato di 4.691.000 euro. Al relativo onere si provvede mediante corrispondente utilizzo delle somme versate all'entrata del bilancio dello Stato ai sensi dell'<ref xmlns:ns135="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_135" href="/akn/it/act/legge/stato/2024-10-31/388/!main#art_148-com1" ns135:target="olf:it/legge/stato/2024/388/art_148-com1" ns135:relation="cites">articolo 148, comma 1, della legge 23 dicembre 2000, n. 388, che, alla data del 31 ottobre 2024</ref>, non sono riassegnate ai pertinenti programmi e restano, per detto importo, acquisite all'erario»; 
+ al comma 1: 
+ all'alinea, le parole: «articoli 1, 2, 3, 4, 5, e 9, pari a euro 1.736.409.720 per l'anno 2024 e 20 milioni» sono sostituite dalle seguenti: «articoli 1, commi da 1 a 6, 2, 3, commi da 1 a 4 e 5, 4, 5, 8, comma 1-ter, e 9, pari a 1.936.409.720 euro per l'anno 2024, 90 milioni»; 
+ alla lettera i), le parole: «quanto a euro 1.441.909.720» sono sostituite dalle seguenti: «quanto a euro 1.526.909.720»; 
+ dopo la lettera i) sono aggiunte le seguenti: 
+ «i-bis) quanto a 50 milioni di euro per l'anno 2025, mediante corrispondente riduzione dell'autorizzazione di spesa a favore della societa' Rete ferroviaria italiana - RFI S.p.A., di cui all'<ref xmlns:ns136="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_136" href="/akn/it/act/legge/stato/2005-12-23/266/!main#art_1-com86" ns136:target="olf:it/legge/stato/2005/266/art_1-com86" ns136:relation="cites">articolo 1, comma 86, della legge 23 dicembre 2005, n. 266</ref>; 
+ i-ter) quanto a 20 milioni di euro per l'anno 2025, mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns137="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_137" href="/akn/it/act/legge/stato/2023-12-30/213/!main#art_1-com443" ns137:target="olf:it/legge/stato/2023/213/art_1-com443" ns137:relation="cites">articolo 1, comma 443, della legge 30 dicembre 2023, n. 213</ref>; 
+ i-quater) quanto a 50 milioni di euro per l'anno 2024, mediante corrispondente riduzione del fondo di cui all'<ref xmlns:ns138="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_138" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com334" ns138:target="olf:it/legge/stato/2020/178/art_1-com334" ns138:relation="amends">articolo 1, comma 334, della legge 30 dicembre 2020, n. 178</ref>, e successivi rifinanziamenti; i-quinquies) quanto a 65 milioni di euro per l'anno 2024, mediante corrispondente utilizzo delle somme versate all'entrata del bilancio dello Stato ai sensi dell'<ref xmlns:ns139="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_139" href="/akn/it/act/legge/stato/2024-10-31/388/!main#art_148-com1" ns139:target="olf:it/legge/stato/2024/388/art_148-com1" ns139:relation="cites">articolo 148, comma 1, della legge 23 dicembre 2000, n. 388, che, alla data del 31 ottobre 2024</ref>, non sono riassegnate ai pertinenti programmi e restano, per detto importo, acquisite all'erario». 
+ Dopo l'articolo 10 e' inserito il seguente: 
+ «Art. 10-bis (Clausola di salvaguardia). - 1. Le disposizioni del presente decreto si applicano nelle regioni a statuto speciale e nelle province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti e le relative norme di attuazione, anche con riferimento alla <ref xmlns:ns140="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_140" href="/akn/it/act/legge.costituzionale/stato/2001-10-18/3/!main" ns140:target="olf:it/legge-costituzionale/stato/2001/3" ns140:relation="cites">legge costituzionale 18 ottobre 2001, n. 3</ref>». Negli allegati, le denominazioni: «Tabella n. 1» e «Tabella n. 2» sono sostituite, rispettivamente, dalle seguenti: «Allegato 1» e «Allegato 2». 
+ Nella tabella n. 2: 
+ la parte relativa allo stato di previsione del Ministero dell'economia e delle finanze e' sostituita dalla seguente: 
+ 
+ « 
+ </p>
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <p>3. L'Italia in Europa e nel mondo (4) </p>
+                                        </th>
+                                        <th>
+                                            <p>633.274.639 </p>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>3.1 Partecipazione italiana alle politiche di bilancio in ambito UE (10) </p>
+                                        </td>
+                                        <td>
+                                            <p> 633.274.639 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>  </p>
+                                        </td>
+                                        <td>
+                                            <p>  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>19. Giustizia (6) </p>
+                                        </td>
+                                        <td>
+                                            <p>128.575 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>19.4 Coordinamento del sistema della giustizia tributaria (12) </p>
+                                        </td>
+                                        <td>
+                                            <p> 128.575 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>  </p>
+                                        </td>
+                                        <td>
+                                            <p>  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>1. Politiche economico-finanziarie e di bilancio e tutela della finanza pubblica (29) </p>
+                                        </td>
+                                        <td>
+                                            <p>  46.611.105 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>1.8 Accertamento e riscossione delle entrate e gestione dei beni immobiliari dello Stato (10)  </p>
+                                        </td>
+                                        <td>
+                                            <p>  34.142.341  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>1.2 Prevenzione e repressione delle violazioni di natura economico-finanziaria (3)  </p>
+                                        </td>
+                                        <td>
+                                            <p>  12.468.764  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>  </p>
+                                        </td>
+                                        <td>
+                                            <p>  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>23. Fondi da ripartire (33)  </p>
+                                        </td>
+                                        <td>
+                                            <p>795.364.735  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>23.1 Fondi da assegnare (1)  </p>
+                                        </td>
+                                        <td>
+                                            <p>205.364.735  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>23.2 Fondi di riserva e speciali (2)  </p>
+                                        </td>
+                                        <td>
+                                            <p>590.000.000  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>   </p>
+                                        </td>
+                                        <td>
+                                            <p>  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>21. Debito pubblico (34)  </p>
+                                        </td>
+                                        <td>
+                                            <p>50.000.000  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>21.1 Oneri per il servizio del debito statale (1)  </p>
+                                        </td>
+                                        <td>
+                                            <p> 50.000.000  </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p>
+ 
+»; 
+ alla voce Totale, la cifra: «1.441.909.720» e' sostituita dalla seguente: «1.526.909.720». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
