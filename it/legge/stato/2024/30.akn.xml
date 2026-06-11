@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-03-13/30/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-03-13/30"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-13;30"/>
+                    <FRBRalias name="eli" value="eli/id/2024/03/19/24G00047/ORIGINAL"/>
+                    <FRBRdate date="2024-03-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/03/19/24G00047/ORIGINAL" aknrelname="eli/id/2024/03/19/24G00047/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 19 gennaio 2024, n. 5, recante disposizioni urgenti per la realizzazione degli interventi infrastrutturali connessi con la presidenza italiana del G7. (24G00047)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00047" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-03-13" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-03-13/30/ita@2024-03-20/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-03-13/30/ita@2024-03-20"/>
+                    <FRBRdate date="2024-03-20" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/03/19/24G00047/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/03/19/24G00047/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/03/19/24G00047/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-03-13/30/ita@2024-03-20/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-03-13/30/ita@2024-03-20.xml"/>
+                    <FRBRdate date="2024-03-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/03/19/24G00047/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-03-19" name="" number="66" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-03-19" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2024-03-13" refersTo="#C.1658"/>
+                <step by="#senato" date="2024-03-13" refersTo="#S.1056"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-13;30#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-01-19;5#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, 2, 3, 4 e 5 e l'introduzione del comma 5-bis all'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-13;30#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-01-19;5#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1, alinea e lettera c).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20/!main/~art_1__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20/!main/~art_1__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20/!main/~art_1__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20/!main/~art_1__para_3"/>
+                        <old href="#modNov_1_old_4"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20/!main/~art_1__para_4"/>
+                        <old href="#modNov_1_old_5"/>
+                        <new href="#modNov_1_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20/!main/~art_1__para_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20/!main/~art_1__para_5-bis"/>
+                        <new href="#modNov_1_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20/!main/~art_2__para_1"/>
+                        <new href="#modNov_2_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20/!main/~art_2__para_1__point_c"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-03-13/30/!main" showAs=""/>
+                <passiveRef eId="C.1658" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1658" showAs=""/>
+                <passiveRef eId="S.1056" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1056" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/03/19/24G00047/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 19 gennaio 2024, n. 5, recante disposizioni urgenti per la realizzazione degli interventi infrastrutturali connessi con la presidenza italiana del G7. (24G00047)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00047</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-03-13</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/03/19/24G00047/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/03/19/24G00047/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/03/19/24G00047/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/03/19/24G00047/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/30" nativeUrn="urn:nir:stato:legge:2024-03-13;30" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-03-19"><ns0:event type="enacted" date="2024-03-13"/><ns0:event type="published" date="2024-03-19"/><ns0:event type="commenced" date="2024-03-19"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/a3a008fc-c407-4909-aeb8-584e820785a0" sourceSha256="859b03643f2bfdac0b80a399390fdff015ff88436d8f52fa3021224f97151f68" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:20:05.750139Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-03-13">13 marzo 2024</docDate>
+                <docNumber>30</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 19 gennaio 2024, n. 5, recante disposizioni urgenti per la realizzazione degli interventi infrastrutturali connessi con la presidenza italiana del G7. (24G00047) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 20/03/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2024-01-19/5/!main" ns1:target="olf:it/decreto-legge/stato/2024/5" ns1:relation="amends">decreto-legge 19 gennaio 2024, n. 5</ref>, recante disposizioni urgenti per la realizzazione degli interventi infrastrutturali connessi con la presidenza italiana del G7, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2024-01-19/5/!main" ns2:target="olf:it/decreto-legge/stato/2024/5" ns2:relation="amends">decreto-legge 19 gennaio 2024, n. 5</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 15 del 19 gennaio 2024. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 21. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 13 marzo 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-13/30/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-13/30"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-13;30"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/19/24G00047/ORIGINAL"/>
+                                <FRBRdate date="2024-03-20" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-13/30/ita@2024-03-20/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-13/30/ita@2024-03-20"/>
+                                <FRBRdate date="2024-03-20" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-13/30/ita@2024-03-20/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-13/30/ita@2024-03-20.xml"/>
+                                <FRBRdate date="2024-03-13" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ Modificazioni apportate in sede di conversione 
+ al <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2024-01-19/5/!main" ns4:target="olf:it/decreto-legge/stato/2024/5" ns4:relation="amends">decreto-legge 19 gennaio 2024, n. 5</ref> 
+ 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1: 
+ al secondo periodo, le parole: «e le attivita'» sono sostituite dalle seguenti: «e per le attivita'», dopo le parole: «nonche', nel limite di 100.000 euro per il 2024,» sono inserite le seguenti: «delle strutture dell'Autorita' di sistema portuale del Mare Adriatico meridionale e» e dopo le parole: «della <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2009-12-31/196/!main" ns5:target="olf:it/legge/stato/2009/196" ns5:relation="cites">legge 31 dicembre 2009, n. 196</ref>» sono inserite le seguenti: «, con il potere di coordinare l'attuazione degli interventi in corso o programmati sulle infrastrutture di interesse»; 
+ al quarto periodo, la parola: «individuato» e' sostituita dalla seguente: «stabilito»; 
+ al comma 2: 
+ al primo periodo, le parole: «Commissario di Governo nominato ai sensi del comma 1,» sono sostituite dalle seguenti: «Commissario straordinario nominato ai sensi del comma 1» e le parole: «della medesima presidenza» sono sostituite dalle seguenti: «della presidenza»; 
+ al terzo periodo, le parole: «Commissario di Governo» sono sostituite dalle seguenti: «Commissario straordinario», le parole: «del <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2023-03-31/36/!main" ns6:target="olf:it/decreto-legislativo/stato/2023/36" ns6:relation="cites">decreto legislativo 31 marzo 2023, n. 36</ref>,» sono sostituite dalle seguenti: «del codice <quotedText eId="modNov_1_old_5">di cui al decreto legislativo</quotedText> n. 36 del 2023» e le parole: «da ANAS S.p.a.» sono sostituite dalle seguenti: «dalla societa' ANAS S.p.a.»; 
+ al comma 3, primo periodo, la parola: «<quotedText eId="modNov_1_old_4">stipula</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_1_new_4">stipulazione</quotedText>»; 
+ al comma 4, primo periodo, le parole: «di cui al decreto legislativo» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_5">, di cui all'allegato 1 al decreto legislativo</quotedText>»; 
+ al comma 5, le parole: «di cui al comma 1 e l'affidamento delle attivita' di esecuzione dei lavori, servizi e forniture,» sono sostituite dalle seguenti: «e l'affidamento delle attivita' di esecuzione dei lavori, servizi e forniture di cui al comma 1» e le parole: «e delle relative misure di prevenzione» sono sostituite dalle seguenti: «e delle misure di prevenzione,»; 
+ dopo il comma 5 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_1_new_7">5-bis. Le disposizioni di cui ai commi 2, 3, 4 e 5 si applicano anche alle procedure di affidamento di lavori, servizi e forniture esperite dal Dipartimento della pubblica sicurezza del Ministero dell'interno per la realizzazione degli interventi di propria competenza necessari per il corretto svolgimento degli eventi connessi con la presidenza italiana del G7</quotedText>».</mod>
+                                    <mod eId="modNov_2">All'articolo 2: 
+ al comma 1: 
+ all'alinea, le parole da: «Per il compenso» fino a: «degli oneri» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_8">Per l'attuazione dell'articolo 1 e' autorizzata la spesa di euro 18.050.000 per l'anno 2024, dei quali euro 50.000 per il compenso del Commissario straordinario di cui al quarto periodo del comma 1 del citato articolo 1 ed euro 18.000.000 per la realizzazione degli interventi infrastrutturali e manutentivi di cui al medesimo articolo 1. Agli oneri</quotedText>»; 
+ alla lettera c), le parole: «comma 397» sono sostituite dalle seguenti: «, comma 397,» e le parole: «ANAS spa.» sono sostituite dalle seguenti: «ANAS S.p.a.».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
