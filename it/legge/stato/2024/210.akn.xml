@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-16/210/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-16/210"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-12-16;210"/>
+                    <FRBRalias name="eli" value="eli/id/2025/01/02/24G00219/ORIGINAL"/>
+                    <FRBRdate date="2024-12-16" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/01/02/24G00219/ORIGINAL" aknrelname="eli/id/2025/01/02/24G00219/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni per il riconoscimento e la promozione della mototerapia. (24G00219)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00219" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-12-16" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-16/210/ita@2025-01-17/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-16/210/ita@2025-01-17"/>
+                    <FRBRdate date="2025-01-17" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/01/02/24G00219/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/01/02/24G00219/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/01/02/24G00219/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-12-16/210/ita@2025-01-17/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-12-16/210/ita@2025-01-17.xml"/>
+                    <FRBRdate date="2024-12-16" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/01/02/24G00219/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-01-02" name="" number="1" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-01-02" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2024-12-16" refersTo="#C.113"/>
+                <step by="#senato" date="2024-12-16" refersTo="#S.1037"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-12-16/210/!main" showAs=""/>
+                <passiveRef eId="C.113" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;113" showAs=""/>
+                <passiveRef eId="S.1037" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1037" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/01/02/24G00219/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni per il riconoscimento e la promozione della mototerapia. (24G00219)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00219</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-12-16</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/01/02/24G00219/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/01/02/24G00219/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/01/02/24G00219/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/01/02/24G00219/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/210" nativeUrn="urn:nir:stato:legge:2024-12-16;210" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-01-02"><ns0:event type="enacted" date="2024-12-16"/><ns0:event type="published" date="2025-01-02"/><ns0:event type="commenced" date="2025-01-02"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/4534f5b9-163e-4fc0-ac1c-ad265b20cca4" sourceSha256="10b6f34f03687fdcc895c561b57cac18d9e0e75ebaff67a67d05068efe841b0a" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:15:13.035331Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-12-16">16 dicembre 2024</docDate>
+                <docNumber>210</docNumber>
+                <docTitle>Disposizioni per il riconoscimento e la promozione della mototerapia. (24G00219) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 17/01/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Riconoscimento della mototerapia</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>In attuazione degli <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_2" ns1:target="olf:it/costituzione/stato/1947/const/art_2" ns1:relation="cites">articoli 2</ref> e <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_3" ns2:target="olf:it/costituzione/stato/1947/const/art_3" ns2:relation="cites">3 della Costituzione</ref> e dell'articolo 26 della Carta dei diritti fondamentali dell'Unione europea, nonche' in armonia con gli obiettivi dell'Agenda 2030 per lo sviluppo sostenibile adottata dall'Assemblea generale delle Nazioni Unite il 25 settembre 2015 e con gli articoli 25 e 26 della Convenzione delle Nazioni Unite sui diritti delle persone con disabilita', fatta a New York il 13 dicembre 2006, ratificata ai sensi della <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2009-03-03/18/!main" ns3:target="olf:it/legge/stato/2009/18" ns3:relation="cites">legge 3 marzo 2009, n. 18</ref>, la presente legge riconosce e promuove la mototerapia, in maniera uniforme nell'intero territorio nazionale, quale terapia complementare per rendere piu' positiva l'esperienza dell'ospedalizzazione, per contribuire al percorso riabilitativo dei pazienti e per accrescere l'autonomia, il benessere psico-fisico e l'inclusione dei bambini, dei ragazzi e degli adulti con disabilita'. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns4:target="olf:it/dpr/stato/1985/1092" ns4:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge, alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ Per le direttive CEE vengono forniti gli estremi di pubblicazione nella Gazzetta Ufficiale delle Comunita' europee (GUUE). 
+ 
+ Note all'art. 1: 
+ - Si riportano gli <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_2" ns5:target="olf:it/costituzione/stato/1947/const/art_2" ns5:relation="cites">articoli 2</ref> e <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_3" ns6:target="olf:it/costituzione/stato/1947/const/art_3" ns6:relation="cites">3 della Costituzione</ref>: 
+ «Art. 2. - La Repubblica riconosce e garantisce i diritti inviolabili dell'uomo, sia come singolo sia nelle formazioni sociali ove si svolge la sua personalita', e richiede l'adempimento dei doveri inderogabili di solidarieta' politica, economica e sociale. 
+ Art. 3. - Tutti i cittadini hanno pari dignita' sociale e sono eguali davanti alla legge, senza distinzione di sesso, di razza, di lingua, di religione, di opinioni politiche, di condizioni personali e sociali. 
+ E' compito della Repubblica rimuovere gli ostacoli di ordine economico e sociale, che, limitando di fatto la liberta' e l'eguaglianza dei cittadini, impediscono il pieno sviluppo della persona umana e l'effettiva partecipazione di tutti i lavoratori all'organizzazione politica, economica e sociale del Paese.». 
+ - L'articolo 26 della Carta dei diritti fondamentali dell'Unione europea reca: «Inserimento delle persone con disabilita'», pubblicato nella GUUE del 14 dicembre 2007, C 303. 
+ - La <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2009-03-03/18/!main" ns7:target="olf:it/legge/stato/2009/18" ns7:relation="cites">legge 3 marzo 2009, n. 18</ref>, recante: «Ratifica ed esecuzione della Convenzione delle Nazioni Unite sui diritti delle persone con disabilita', con Protocollo opzionale, e istituzione dell'Osservatorio nazionale sulla condizione delle persone con disabilita'», e' pubblicata nella Gazzetta Ufficiale n. 61 del 4 marzo 2009. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Linee guida</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Entro sei mesi dalla data di entrata in vigore della presente legge, con accordo in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, su proposta dell'Autorita' politica delegata in materia di disabilita', di concerto con il Ministro della salute, sentiti l'Autorita' politica delegata in materia di famiglia, il Ministro dell'economia e delle finanze, il Ministro del lavoro e delle politiche sociali e il Ministro delle infrastrutture e dei trasporti, sono adottate le linee guida per garantire un'uniforme regolamentazione e attuazione della mototerapia nel territorio nazionale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_2__para_2__intro_1">
+                            <p>Nell'ambito delle linee guida di cui al comma 1 sono disciplinati: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>gli ambiti di applicazione e gli obiettivi dei progetti di mototerapia nonche' i criteri generali di programmazione, di attuazione e di monitoraggio dei progetti medesimi; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>le modalita' di partecipazione e di supervisione allo svolgimento dei progetti di mototerapia da parte del personale medico, del personale sanitario, dei familiari e delle altre figure eventualmente coinvolte, anche a seconda del contesto nel quale si svolge il progetto e delle condizioni di salute dell'utente; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>il coinvolgimento degli enti privati, anche sportivi dilettantistici e del Terzo settore, che operano nell'ambito della mototerapia; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>i compiti e le responsabilita' dell'operatore motociclistico, i requisiti e le licenze che lo stesso deve possedere nonche' i relativi percorsi formativi; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>i protocolli di sicurezza e le misure igienico-sanitarie da garantire; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>la tipologia e i requisiti dei motoveicoli e delle attrezzature utilizzabili; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_2.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>le disposizioni finali e transitorie. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Progetti di mototerapia</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le pubbliche amministrazioni di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_1-com2" ns8:target="olf:it/decreto-legislativo/stato/2001/165/art_1-com2" ns8:relation="cites">articolo 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165</ref>, possono promuovere, nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente, l'organizzazione di eventi e di progetti di mototerapia da attuare con il coinvolgimento di enti privati, anche sportivi dilettantistici e del Terzo settore, presso strutture ospedaliere, sanitarie, sociosanitarie e socioassistenziali, nonche' presso altri luoghi all'aperto o al chiuso idonei a garantire la sicurezza e la piena accessibilita' da parte delle persone con disabilita'. A decorrere dalla data di entrata in vigore delle linee guida di cui all'articolo 2, gli eventi e i progetti di mototerapia sono svolti nel rispetto delle indicazioni previste dalle linee guida medesime. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Si riporta il testo dell'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_1" ns9:target="olf:it/decreto-legislativo/stato/2001/165/art_1" ns9:relation="cites">articolo 1 del decreto legislativo 30 marzo 2001, n. 165</ref>, recante: «Norme generali sull'ordinamento del lavoro alle dipendenze delle amministrazioni pubbliche», pubblicato nella Gazzetta Ufficiale n. 106 del 9 maggio 2001: 
+ «Art. 1 (Finalita' ed ambito di applicazione - <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegislativo/stato/1993/29/!main#art_1" ns10:resolution="unresolved">Art. 1 del D.Lgs n. 29 del 1993</ref>, come modificato dall'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/1998/80/!main#art_1" ns11:resolution="unresolved">art. 1 del D.Lgs n. 80 del 1998</ref>). - 1. Le disposizioni del presente decreto disciplinano l'organizzazione degli uffici e i rapporti di lavoro e di impiego alle dipendenze delle amministrazioni pubbliche, tenuto conto delle autonomie locali e di quelle delle regioni e delle province autonome, nel rispetto dell'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_97-com1" ns12:target="olf:it/costituzione/stato/1947/const/art_97-com1" ns12:relation="cites">articolo 97, comma primo, della Costituzione</ref>, al fine di: 
+ a) accrescere l'efficienza delle amministrazioni in relazione a quella dei corrispondenti uffici e servizi dei Paesi dell'Unione europea, anche mediante il coordinato sviluppo di sistemi informativi pubblici; 
+ b) razionalizzare il costo del lavoro pubblico, contenendo la spesa complessiva per il personale, diretta e indiretta, entro i vincoli di finanza pubblica; 
+ c) realizzare la migliore utilizzazione delle risorse umane nelle pubbliche amministrazioni, assicurando la formazione e lo sviluppo professionale dei dipendenti, applicando condizioni uniformi rispetto a quelle del lavoro privato, garantendo pari opportunita' alle lavoratrici ed ai lavoratori nonche' l'assenza di qualunque forma di discriminazione e di violenza morale o psichica. 
+ 2. Per amministrazioni pubbliche si intendono tutte le amministrazioni dello Stato, ivi compresi gli istituti e scuole di ogni ordine e grado e le istituzioni educative, le aziende ed amministrazioni dello Stato ad ordinamento autonomo, le Regioni, le Province, i Comuni, le Comunita' montane, e loro consorzi e associazioni, le istituzioni universitarie, gli Istituti autonomi case popolari, le Camere di commercio, industria, artigianato e agricoltura e loro associazioni, tutti gli enti pubblici non economici nazionali, regionali e locali, le amministrazioni, le aziende e gli enti del Servizio sanitario nazionale, l'Agenzia per la rappresentanza negoziale delle pubbliche amministrazioni (ARAN) e le Agenzie di cui al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/1999-07-30/300/!main" ns13:target="olf:it/decreto-legislativo/stato/1999/300" ns13:relation="cites">decreto legislativo 30 luglio 1999, n. 300</ref>. Fino alla revisione organica della disciplina di settore, le disposizioni di cui al presente decreto continuano ad applicarsi anche al CONI. 
+ 3. Le disposizioni del presente decreto costituiscono principi fondamentali ai sensi dell'articolo 117 della Costituzione. Le Regioni a statuto ordinario si attengono ad esse tenendo conto delle peculiarita' dei rispettivi ordinamenti. I principi desumibili dall'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/1992-10-23/421/!main#art_2" ns14:target="olf:it/legge/stato/1992/421/art_2" ns14:relation="cites">articolo 2 della legge 23 ottobre 1992, n. 421</ref>, e successive modificazioni, e dall'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/1997-03-15/59/!main#art_11-com4" ns15:target="olf:it/legge/stato/1997/59/art_11-com4" ns15:relation="cites">articolo 11, comma 4, della legge 15 marzo 1997, n. 59</ref>, e successive modificazioni ed integrazioni, costituiscono altresi', per le Regioni a statuto speciale e per le province autonome di Trento e di Bolzano, norme fondamentali di riforma economico-sociale della Repubblica.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Clausola di neutralita' finanziaria 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono alle attivita' previste dalla presente legge nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 16 dicembre 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
