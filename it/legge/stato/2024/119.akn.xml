@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/119/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/119"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-08-08;119"/>
+                    <FRBRalias name="eli" value="eli/id/2024/08/16/24G00137/ORIGINAL"/>
+                    <FRBRdate date="2024-08-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/16/24G00137/ORIGINAL" aknrelname="eli/id/2024/08/16/24G00137/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Proroga del termine per l'esercizio delle deleghe previste dall'articolo 2 della legge 15 luglio 2022, n. 106, nonche' di quelle previste dall'articolo 27 della legge 5 agosto 2022, n. 118. (24G00137)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00137" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-08-08" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/119/ita@2024-08-17/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/119/ita@2024-08-17"/>
+                    <FRBRdate date="2024-08-17" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/16/24G00137/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/08/16/24G00137/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/08/16/24G00137/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/119/ita@2024-08-17/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/119/ita@2024-08-17.xml"/>
+                    <FRBRdate date="2024-08-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/16/24G00137/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-08-16" name="" number="191" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-08-16" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-08-08" refersTo="#S.1185"/>
+                <step by="#camera" date="2024-08-08" refersTo="#C.1974"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;119#1"/>
+                        <destination href="urn:nir:stato:legge:2022-07-15;106#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1, 4, 5 e 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;119#1"/>
+                        <destination href="urn:nir:stato:legge:2022-08-05;118#27"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) la modifica dell'art. 27, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/2022-07-15/106/ita@2024-08-17/!main/~art_2__para_1"/>
+                        <old href="#modNov_1_old_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/2022-07-15/106/ita@2024-08-17/!main/~art_2__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/2022-07-15/106/ita@2024-08-17/!main/~art_2__para_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/2022-07-15/106/ita@2024-08-17/!main/~art_2__para_6"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-08-08/119/!main" showAs=""/>
+                <passiveRef eId="S.1185" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1185" showAs=""/>
+                <passiveRef eId="C.1974" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1974" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/08/16/24G00137/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Proroga del termine per l'esercizio delle deleghe previste dall'articolo 2 della legge 15 luglio 2022, n. 106, nonche' di quelle previste dall'articolo 27 della legge 5 agosto 2022, n. 118. (24G00137)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00137</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-08-08</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/08/16/24G00137/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/08/16/24G00137/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/08/16/24G00137/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/08/16/24G00137/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/119" nativeUrn="urn:nir:stato:legge:2024-08-08;119" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-08-16"><ns0:event type="enacted" date="2024-08-08"/><ns0:event type="published" date="2024-08-16"/><ns0:event type="commenced" date="2024-08-16"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/85f2c7d9-9f59-470c-83c6-6a99c5f279a9" sourceSha256="c52809ab198c012a8b42bd5fb823cee20dba30abcfd6349e5673f62330bb6b96" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:07:50.781920Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-08-08">08 agosto 2024</docDate>
+                <docNumber>119</docNumber>
+                <docTitle>Proroga del termine per l'esercizio delle deleghe previste dall'articolo 2 della legge 15 luglio 2022, n. 106, nonche' di quelle previste dall'articolo 27 della legge 5 agosto 2022, n. 118. (24G00137) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 17/08/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Proroga di termini</heading>
+                <paragraph>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">1. All'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2022-07-15/106/!main#art_2-com1" ns1:target="olf:it/legge/stato/2022/106/art_2-com1" ns1:relation="amends">articolo 2, commi 1</ref>, <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/legge/stato/2022-07-15/106/!main#art_2-com4" ns2:target="olf:it/legge/stato/2022/106/art_2-com4" ns2:relation="amends">4</ref>, <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2022-07-15/106/!main#art_2-com5" ns3:target="olf:it/legge/stato/2022/106/art_2-com5" ns3:relation="amends">5</ref> e <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2022-07-15/106/!main#art_2-com6" ns4:target="olf:it/legge/stato/2022/106/art_2-com6" ns4:relation="amends">6, della legge 15 luglio 2022, n. 106</ref>, le parole: «<quotedText eId="modNov_1_old_1">ventiquattro mesi</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_1">trentasei mesi</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il termine per l'esercizio della delega di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2022-08-05/118/!main#art_27-com1" ns5:target="olf:it/legge/stato/2022/118/art_27-com1" ns5:relation="amends">articolo 27, comma 1, della legge 5 agosto 2022, n. 118</ref>, e' prorogato al 31 dicembre 2024, limitatamente all'applicazione dei principi e criteri direttivi di cui alla lettera l-bis) del medesimo comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns6:target="olf:it/dpr/stato/1985/1092" ns6:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Il testo dell'articolo 2, della legge 15 luglio 2022, recante «Delega al Governo e altre disposizioni in materia di spettacolo.», pubblicata nella Gazzetta Ufficiale 3 agosto 2022, n. 180, come modificato dalla presente legge, e' il seguente: 
+ «Art. 2 (Deleghe al Governo per il riordino delle disposizioni di legge in materia di spettacolo e per il riordino e la revisione degli strumenti di sostegno in favore dei lavoratori del settore nonche' per il riconoscimento di nuove tutele in materia di contratti di lavoro e di equo compenso per i lavoratori autonomi). - 1.
+ Il Governo e' delegato ad adottare, entro trentasei mesi dalla data di entrata in vigore della presente legge, uno o piu' decreti legislativi per il coordinamento e il riordino delle disposizioni legislative vigenti e di quelle regolamentari adottate ai sensi dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegge/stato/2016-06-24/113/!main#art_24-com3bis" ns7:target="olf:it/decreto-legge/stato/2016/113/art_24-com3bis" ns7:relation="cites">articolo 24, comma 3-bis, del decreto-legge 24 giugno 2016, n. 113</ref>, convertito, con modificazioni, dalla <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2016-08-07/160/!main" ns8:target="olf:it/legge/stato/2016/160" ns8:relation="cites">legge 7 agosto 2016, n. 160</ref>, in materia di attivita', organizzazione e gestione delle fondazioni lirico-sinfoniche e degli enti di cui al <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/1996-06-29/367/!main" ns9:target="olf:it/decreto-legislativo/stato/1996/367" ns9:relation="cites">decreto legislativo 29 giugno 1996, n. 367</ref>, e di cui alla <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2003-11-11/310/!main" ns10:target="olf:it/legge/stato/2003/310" ns10:relation="cites">legge 11 novembre 2003, n. 310</ref>, nonche' per la riforma, la revisione e il riassetto della vigente disciplina nei settori del teatro, della musica, della danza, degli spettacoli viaggianti, delle attivita' circensi, dei carnevali storici e delle rievocazioni storiche, mediante la redazione di un unico testo normativo denominato "codice dello spettacolo", al fine di conferire al settore un assetto piu' efficace, organico e conforme ai principi di semplificazione delle procedure amministrative e ottimizzazione della spesa e volto a promuovere il riequilibrio di genere e a migliorare la qualita' artistico-culturale delle attivita', incentivandone la produzione, l'innovazione, nonche' la fruizione da parte della collettivita', con particolare riguardo all'educazione permanente, in conformita' alla raccomandazione del Consiglio, del 22 maggio 2018 (2018/C 189/01). Tenuto conto dei principi di cui all'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2017-11-22/175/!main#art_1" ns11:target="olf:it/legge/stato/2017/175/art_1" ns11:relation="cites">articolo 1 della legge 22 novembre 2017, n. 175</ref>, come modificato dall'articolo 1 della presente legge, il Governo esercita la delega secondo i principi e i criteri direttivi di cui all'articolo 2, commi 2, escluso il numero 5) della lettera b), 3 e 4, della medesima <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2017/175/!main" ns12:resolution="unresolved">legge n. 175 del 2017</ref> e secondo il procedimento di cui allo stesso articolo 2, commi 5 e 7. 
+ 2. Con riguardo alle fondazioni lirico-sinfoniche, fermo restando quanto previsto dall'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2017-11-22/175/!main#art_2-com3" ns13:target="olf:it/legge/stato/2017/175/art_2-com3" ns13:relation="cites">articolo 2, comma 3, della legge 22 novembre 2017, n. 175</ref>, i decreti legislativi di cui al comma 1 sono adottati altresi' secondo il seguente principio e criterio direttivo: revisione dei requisiti necessari per il reclutamento del sovrintendente e del direttore artistico attraverso nuove procedure che prevedano in particolare: 
+ a) l'assenza di conflitto di interessi con le funzioni svolte all'interno della fondazione dal sovrintendente e dal direttore artistico, nonche' da tutti i componenti degli organi di gestione delle fondazioni; 
+ b) l'adozione di bandi pubblici, anche internazionali, che consentano la consultazione pubblica del curriculum dei partecipanti. 
+ 3. Al fine di valorizzare la funzione sociale della musica originale eseguita dal vivo e degli spazi in cui questa forma d'arte performativa si realizza, i decreti legislativi di cui al comma 1 recano disposizioni per il riconoscimento dei Live club quali soggetti che operano in modo prevalente per la promozione e diffusione di produzioni musicali contemporanee, vocali o strumentali, dal vivo e per il sostegno delle medesime attivita'. 
+ 4. Il Governo e' delegato ad adottare, entro trentasei mesi dalla data di entrata in vigore della presente legge, secondo il procedimento di cui all'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2017-11-22/175/!main#art_2-com5" ns14:target="olf:it/legge/stato/2017/175/art_2-com5" ns14:relation="cites">articolo 2, commi 5</ref> e <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2017-11-22/175/!main#art_2-com7" ns15:target="olf:it/legge/stato/2017/175/art_2-com7" ns15:relation="cites">7, della legge 22 novembre 2017, n. 175</ref>, un decreto legislativo recante disposizioni in materia di contratti di lavoro nel settore dello spettacolo, nel rispetto dei seguenti principi e criteri direttivi: 
+ a) riconoscimento delle specificita' del lavoro e del carattere strutturalmente discontinuo delle prestazioni lavorative nel settore dello spettacolo, indipendentemente dalla qualificazione autonoma o subordinata del rapporto e dalla tipologia del contratto di lavoro sottoscritto dalle parti; 
+ b) riconoscimento di un'indennita' giornaliera, quale elemento distinto e aggiuntivo del compenso o della retribuzione, in caso di obbligo per il lavoratore di assicurare la propria disponibilita' su chiamata o di garantire una prestazione esclusiva; 
+ c) previsione di specifiche tutele normative ed economiche per i casi di contratto di lavoro intermittente o di prestazione occasionale di lavoro; 
+ d) previsione di tutele specifiche per l'attivita' preparatoria e strumentale all'evento o all'esibizione artistica. 
+ 5. Il Governo e' delegato ad adottare, entro trentasei mesi dalla data di entrata in vigore della presente legge, secondo il procedimento di cui all'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2017-11-22/175/!main#art_2-com5" ns16:target="olf:it/legge/stato/2017/175/art_2-com5" ns16:relation="cites">articolo 2, commi 5</ref> e <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2017-11-22/175/!main#art_2-com7" ns17:target="olf:it/legge/stato/2017/175/art_2-com7" ns17:relation="cites">7, della legge 22 novembre 2017, n. 175</ref>, un decreto legislativo recante disposizioni in materia di equo compenso per i lavoratori autonomi dello spettacolo, ivi compresi gli agenti e i rappresentanti dello spettacolo dal vivo, di cui all'articolo 4, nel rispetto dei seguenti principi e criteri direttivi: 
+ a) determinazione di parametri retributivi diretti ad assicurare ai lavoratori autonomi la corresponsione di un equo compenso, proporzionato alla quantita' e alla qualita' del lavoro svolto, nonche' al contenuto, alle caratteristiche e alla complessita' della prestazione; 
+ b) obbligo per le amministrazioni pubbliche di retribuire ogni prestazione di lavoro autonomo nello spettacolo derivante da bandi o procedure selettive. 
+ 6. Il Governo e' delegato ad adottare, entro trentasei mesi dalla data di entrata in vigore della presente legge, secondo il procedimento di cui all'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2017-11-22/175/!main#art_2-com5" ns18:target="olf:it/legge/stato/2017/175/art_2-com5" ns18:relation="cites">articolo 2, commi 5</ref> e <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2017-11-22/175/!main#art_2-com7" ns19:target="olf:it/legge/stato/2017/175/art_2-com7" ns19:relation="cites">7, della legge 22 novembre 2017, n. 175</ref>, un decreto legislativo per il riordino e la revisione degli ammortizzatori e delle indennita' e per l'introduzione di un'indennita' di discontinuita', quale indennita' strutturale e permanente, in favore dei lavoratori di cui all'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegislativo/stato/1997-04-30/182/!main#art_2-com1-leta" ns20:target="olf:it/decreto-legislativo/stato/1997/182/art_2-com1-leta" ns20:relation="cites">articolo 2, comma 1, lettera a), del decreto legislativo 30 aprile 1997, n. 182</ref>, nonche' dei lavoratori discontinui del settore dello spettacolo di cui alla lettera b) del predetto comma 1, individuati con decreto adottato dal Ministro del lavoro e delle politiche sociali, di concerto con il Ministro della cultura, entro sessanta giorni dalla data di entrata in vigore della presente legge. Il decreto legislativo e' adottato tenuto conto del carattere strutturalmente discontinuo delle prestazioni lavorative, nonche' nel rispetto dei seguenti principi e criteri direttivi: 
+ a) aggiornamento e definizione dei requisiti di accesso agli strumenti di sostegno, anche in ragione del carattere discontinuo delle prestazioni lavorative, fondati su: 
+ 1) limite massimo annuo di reddito riferito all'anno solare precedente a quello di corresponsione dei sostegni; 
+ 2) limite minimo di prestazioni lavorative effettive nell'anno solare precedente a quello di corresponsione dei sostegni; 
+ 3) reddito derivante in misura prevalente dalle prestazioni lavorative rese nel settore dello spettacolo; 
+ b) determinazione dei criteri di calcolo dell'indennita' giornaliera, della sua entita' massima su base giornaliera e del numero massimo di giornate indennizzabili e oggetto di tutela economica e previdenziale, nel limite delle risorse di cui al comma 7; 
+ c) incompatibilita' con eventuali sostegni, indennita' e assicurazioni gia' esistenti; 
+ d) individuazione di misure dirette a favorire percorsi di formazione e di aggiornamento per i percettori dei sostegni; 
+ e) determinazione degli oneri contributivi a carico dei datori di lavoro, nonche' di un contributo di solidarieta' a carico dei soli lavoratori che percepiscono retribuzioni o compensi superiori al massimale contributivo per gli iscritti al Fondo pensione lavoratori dello spettacolo, stabilito annualmente ai sensi dell'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/1995-08-08/335/!main#art_2-com18" ns21:target="olf:it/legge/stato/1995/335/art_2-com18" ns21:relation="cites">articolo 2, comma 18, della legge 8 agosto 1995, n. 335</ref>, per la sola quota di retribuzioni o compensi eccedente il predetto massimale. 
+ 7. Agli oneri derivanti dall'attuazione del comma 6 si provvede, a decorrere dall'anno 2023, nel limite massimo delle risorse iscritte sul Fondo di cui all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1-com352" ns22:target="olf:it/legge/stato/2021/234/art_1-com352" ns22:relation="cites">articolo 1, comma 352, della legge 30 dicembre 2021, n. 234</ref>, incrementate da quelle derivanti dal contributo di cui alla lettera e) del comma 6 nonche' dalla revisione e dal riordino degli ammortizzatori sociali e delle indennita'. 
+ 8. Fatto salvo quanto previsto dal comma 7, dall'attuazione delle deleghe di cui al presente articolo non devono derivare nuovi o maggiori oneri per la finanza pubblica. Qualora uno o piu' decreti legislativi determinino nuovi o maggiori oneri che non trovino compensazione al proprio interno, essi sono adottati solo successivamente o contestualmente alla data di entrata in vigore dei provvedimenti legislativi che stanziano le occorrenti risorse finanziarie, in conformita' all'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_17-com2" ns23:target="olf:it/legge/stato/2009/196/art_17-com2" ns23:relation="cites">articolo 17, comma 2, della legge 31 dicembre 2009, n. 196</ref>.». 
+ - Il testo dell'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2022-08-05/118/!main#art_27-com1" ns24:target="olf:it/legge/stato/2022/118/art_27-com1" ns24:relation="amends">articolo 27, comma 1, della legge 5 agosto 2022, n. 118</ref>, recante «Legge annuale per il mercato e la concorrenza 2021», pubblicata nella Gazzetta Ufficiale 12 agosto 2022, n. 188, e' il seguente: 
+ «Art. 27 (Delega al Governo in materia di semplificazione dei controlli sulle attivita' economiche).
+ - 1. Al fine di assicurare la semplificazione degli adempimenti e delle attivita' di controllo, consentendo l'efficace tutela degli interessi pubblici, nonche' di favorire la ripresa e il rilancio delle attivita' economiche, il Governo e' delegato ad adottare, senza nuovi o maggiori oneri per la finanza pubblica, uno o piu' decreti legislativi volti a semplificare, rendere piu' efficaci ed efficienti e coordinare i controlli sulle attivita' economiche, nel rispetto dei criteri di cui all'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/1997-03-15/59/!main#art_20-com3" ns25:target="olf:it/legge/stato/1997/59/art_20-com3" ns25:relation="cites">articolo 20, comma 3, della legge 15 marzo 1997, n. 59</ref>, nonche' dei seguenti principi e criteri direttivi: 
+ a) eliminazione degli adempimenti non necessari alla tutela degli interessi pubblici, nonche' delle corrispondenti attivita' di controllo; 
+ b) semplificazione degli adempimenti amministrativi necessari sulla base del principio di proporzionalita' rispetto alle esigenze di tutela degli interessi pubblici; 
+ c) coordinamento e programmazione dei controlli da parte delle amministrazioni per evitare duplicazioni e sovrapposizioni dei controlli e ritardi al normale esercizio delle attivita' dell'impresa, assicurando l'efficace tutela dell'interesse pubblico; 
+ d) programmazione dei controlli secondo i principi di efficacia, efficienza e proporzionalita', tenendo conto delle informazioni in possesso delle amministrazioni competenti, definendo contenuti, modalita' e frequenza dei controlli anche sulla base dell'esito delle verifiche e delle ispezioni pregresse, nonche' sulla base del possesso di certificazioni del sistema di gestione per la qualita' ISO o di sistemi equivalenti o dell'adozione da parte degli operatori economici di adeguati sistemi e modelli per l'identificazione e la gestione dei rischi; 
+ e) ricorso alla diffida o ad altri meccanismi di promozione dell'ottemperanza alla disciplina a tutela di interessi pubblici per valorizzare l'attivita' di controllo come strumento di governo del sistema, in un'ottica non solo repressiva, ma anche conoscitiva, di sostegno all'adempimento e di indirizzo; 
+ f) promozione della collaborazione tra le amministrazioni e i soggetti controllati al fine di prevenire rischi e situazioni di irregolarita', anche introducendo meccanismi di dialogo e di valorizzazione dei comportamenti virtuosi, anche attraverso strumenti premiali; 
+ g) accesso ai dati e scambio delle informazioni da parte dei soggetti che svolgono funzioni di controllo ai fini del coordinamento e della programmazione dei controlli anche attraverso l'interoperabilita' delle banche dati, secondo la disciplina recata dal <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main" ns26:target="olf:it/decreto-legislativo/stato/2005/82" ns26:relation="cites">codice dell'amministrazione digitale</ref>, di cui al <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main" ns27:target="olf:it/decreto-legislativo/stato/2005/82" ns27:relation="cites">decreto legislativo 7 marzo 2005, n. 82</ref>, e nel rispetto del regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio, del 27 aprile 2016, e del <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegislativo/stato/2003-06-30/196/!main" ns28:target="olf:it/decreto-legislativo/stato/2003/196" ns28:relation="cites">codice in materia di protezione dei dati personali</ref>, di cui al <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoLegislativo/stato/2003-06-30/196/!main" ns29:target="olf:it/decreto-legislativo/stato/2003/196" ns29:relation="cites">decreto legislativo 30 giugno 2003, n. 196</ref>, nonche' attraverso l'utilizzo del fascicolo d'impresa di cui all'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2000-12-28/445/!main#art_43bis" ns30:target="olf:it/dpr/stato/2000/445/art_43bis" ns30:relation="cites">articolo 43-bis del testo unico delle disposizioni legislative e regolamentari in materia di documentazione amministrativa</ref>, di cui al <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2000-12-28/445/!main" ns31:target="olf:it/dpr/stato/2000/445" ns31:relation="cites">decreto del Presidente della Repubblica 28 dicembre 2000, n. 445</ref>, e degli atti dei controlli compiuti, con i relativi esiti, quando essi confermino, limitino o inibiscano lo svolgimento dell'attivita' d'impresa; 
+ h) individuazione, trasparenza e conoscibilita' degli obblighi e degli adempimenti che le imprese devono rispettare per ottemperare alle disposizioni normative, nonche' dei processi e metodi relativi ai controlli, per mezzo di strumenti standardizzati e orientati alla gestione dei rischi, quali liste di verifica, manuali e linee guida e indirizzi uniformi; 
+ i) verifica e valutazione degli esiti dell'attivita' di controllo in termini di efficacia, efficienza e sostenibilita'; 
+ l) divieto per le pubbliche amministrazioni, nell'ambito dei controlli sulle attivita' economiche, di richiedere la produzione di documenti e informazioni gia' in loro possesso anche prevedendo sanzioni disciplinari nel caso di inadempienze; 
+ l-bis) previsione che le regioni e gli enti locali, nel rispetto delle disposizioni per la liberalizzazione del settore del commercio e fermo restando quanto previsto dall'<ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_52" ns32:target="olf:it/decreto-legislativo/stato/2004/42/art_52" ns32:relation="cites">articolo 52 del codice dei beni culturali e del paesaggio</ref>, di cui al <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns33:target="olf:it/decreto-legislativo/stato/2004/42" ns33:relation="cites">decreto legislativo 22 gennaio 2004, n. 42</ref>, possano adottare misure per la salvaguardia del decoro urbano o delle caratteristiche commerciali specifiche o tradizionali dei centri storici o di delimitate aree, d'intesa con le associazioni degli operatori e senza discriminazioni tra essi, mediante limitazioni all'insediamento di determinate attivita' in talune aree o l'adozione di specifiche misure di tutela e valorizzazione di talune tipologie di esercizi di vicinato e di botteghe artigiane, tipizzati sotto il profilo storico-culturale o commerciale, anche tramite costituzione di specifici albi. Previsione che detti albi possano essere raccolti, secondo criteri unificati, a livello nazionale, ai fini della valorizzazione turistica e commerciale di dette attivita'; 
+ m) individuazione di specifiche categorie per i creatori di contenuti digitali, tenendo conto dell'attivita' economica svolta; 
+ n) previsione di meccanismi di risoluzione alternativa delle controversie tra creatori di contenuti digitali e relative piattaforme. 
+ Omissis.» 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 8 agosto 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Sangiuliano, Ministro della cultura Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
