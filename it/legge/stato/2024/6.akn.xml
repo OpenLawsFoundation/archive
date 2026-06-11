@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-01-22/6/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-01-22/6"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-01-22;6"/>
+                    <FRBRalias name="eli" value="eli/id/2024/01/24/24G00016/ORIGINAL"/>
+                    <FRBRdate date="2024-01-22" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/01/24/24G00016/ORIGINAL" aknrelname="eli/id/2024/01/24/24G00016/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni sanzionatorie in materia di distruzione, dispersione, deterioramento, deturpamento, imbrattamento e uso illecito di beni culturali o paesaggistici e modifiche agli articoli 518-duodecies, 635 e 639 del codice penale. (24G00016)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00016" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-01-22" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-01-22/6/ita@2024-02-08/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-01-22/6/ita@2024-02-08"/>
+                    <FRBRdate date="2024-02-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/01/24/24G00016/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/01/24/24G00016/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/01/24/24G00016/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-01-22/6/ita@2024-02-08/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-01-22/6/ita@2024-02-08.xml"/>
+                    <FRBRdate date="2024-01-22" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/01/24/24G00016/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-01-24" name="" number="19" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-01-24" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-01-22" refersTo="#S.693"/>
+                <step by="#camera" date="2024-01-22" refersTo="#C.1297"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-01-22;6#2"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 duodecies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1) la modifica dell'art. 518-duodecies, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-01-22;6#3"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 635"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1) la modifica dell'art. 635, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-01-22;6#4"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 639"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera a)) la modifica dell'art. 639, comma 1; (con l'art. 4, comma 1, lettera b)) la modifica dell'art. 639, comma 2; (con l'art. 4, comma 1, lettera c)) l'introduzione di un nuovo comma dopo il terzo all'art. 639.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-02-08/!main/~art_518-duodecies__para_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-02-08/!main/~art_635__para_3"/>
+                        <new href="#modNov_2_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-02-08/!main/~art_639__para_1"/>
+                        <old href="#modNov_4_old_1"/>
+                        <new href="#modNov_4_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-02-08/!main/~art_639__para_2"/>
+                        <new href="#modNov_5_new_2"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-01-22/6/!main" showAs=""/>
+                <passiveRef eId="S.693" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;693" showAs=""/>
+                <passiveRef eId="C.1297" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1297" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/01/24/24G00016/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni sanzionatorie in materia di distruzione, dispersione, deterioramento, deturpamento, imbrattamento e uso illecito di beni culturali o paesaggistici e modifiche agli articoli 518-duodecies, 635 e 639 del codice penale. (24G00016)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00016</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-01-22</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/01/24/24G00016/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/01/24/24G00016/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/01/24/24G00016/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/01/24/24G00016/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/6" nativeUrn="urn:nir:stato:legge:2024-01-22;6" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-01-24"><ns0:event type="enacted" date="2024-01-22"/><ns0:event type="published" date="2024-01-24"/><ns0:event type="commenced" date="2024-01-24"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/bc9488f6-48f7-4f41-ba4a-af7132a9dc8b" sourceSha256="3bdd478073ed23954b27cb7ee0d8d21f2f90f9e0d7e119f1ae6f2c622021b77a" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:23:37.176430Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-01-22">22 gennaio 2024</docDate>
+                <docNumber>6</docNumber>
+                <docTitle>Disposizioni sanzionatorie in materia di distruzione, dispersione, deterioramento, deturpamento, imbrattamento e uso illecito di beni culturali o paesaggistici e modifiche agli articoli 518-duodecies, 635 e 639 del codice penale. (24G00016) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 08/02/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading>Disposizioni sanzionatorie in materia di distruzione, dispersione, deterioramento, deturpamento, imbrattamento e uso illecito di beni culturali o paesaggistici.</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Ferme le sanzioni penali applicabili, chiunque distrugge, disperde, deteriora o rende in tutto o in parte inservibili o, ove previsto, non fruibili beni culturali o paesaggistici propri o altrui e' punito con la sanzione amministrativa del pagamento di una somma da euro 20.000 a euro 60.000. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Ferme le sanzioni penali applicabili, chiunque, fuori dei casi di cui al comma 1, deturpa o imbratta beni culturali o paesaggistici propri o altrui, ovvero destina i beni culturali ad un uso pregiudizievole per la loro conservazione o integrita' ovvero ad un uso incompatibile con il loro carattere storico o artistico, e' punito con la sanzione amministrativa del pagamento di una somma da euro 10.000 a euro 40.000. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>L'autorita' competente a ricevere il rapporto sui fatti di cui ai commi 1 e 2 e a irrogare le sanzioni amministrative previste dai medesimi commi e' il prefetto del luogo in cui e' stata commessa la violazione. Il verbale contenente l'accertamento e la contestazione delle violazioni e' notificato al trasgressore entro centoventi giorni dal giorno in cui il fatto e' commesso. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>I proventi delle sanzioni amministrative pecuniarie irrogate ai sensi dei commi 1 e 2 sono versati ad apposito capitolo del bilancio dello Stato per essere successivamente riassegnati al Ministero della cultura affinche' siano impiegati prioritariamente per il ripristino dei beni. Con decreto del Ministro dell'economia e delle finanze, adottato di concerto con il Ministro della cultura, sono definite le modalita' di destinazione e gestione dei proventi delle sanzioni amministrative di cui ai commi 1 e 2. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Entro trenta giorni dalla notifica del verbale di accertamento, il trasgressore e' ammesso al pagamento della sanzione in misura ridotta. L'applicazione della sanzione in misura ridotta non e' ammessa qualora il destinatario del provvedimento sanzionatorio si sia gia' avvalso, nei cinque anni precedenti, della stessa facolta'. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Per tutto quanto non espressamente indicato dalla presente legge si applica la <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/1981-11-24/689/!main" ns1:target="olf:it/legge/stato/1981/689" ns1:relation="cites">legge 24 novembre 1981, n. 689</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_7">
+                    <num>7.</num>
+                    <list>
+                        <intro eId="art_1__para_7__intro_1">
+                            <p>Quando per lo stesso fatto e' stata applicata, a carico del reo o dell'autore della violazione, la sanzione amministrativa pecuniaria indicata ai commi 1 e 2 ovvero una sanzione penale: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_7.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>l'autorita' giudiziaria e l'autorita' amministrativa tengono conto, al momento dell'irrogazione delle sanzioni di propria competenza, delle misure punitive gia' irrogate; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_7.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>l'esazione della pena pecuniaria ovvero della sanzione pecuniaria amministrativa e' limitata alla parte eccedente quella riscossa, rispettivamente, dall'autorita' amministrativa ovvero da quella giudiziaria. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Le amministrazioni interessate provvedono all'attuazione delle disposizioni di cui alla presente legge nei limiti delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ - Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art.10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">D.P.R. 28 dicembre 1985, n.1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1981-11-24/689/!main#art_1" ns3:target="olf:it/legge/stato/1981/689/art_1" ns3:relation="cites">art. 1: 
+ - La legge 24 novembre 1981, n. 689</ref>, recante: «Modifiche al sistema penale», e' pubblicata nella G.U. 30 novembre 1981, n. 329, S.O. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Modifica all'articolo 518-duodecies del codice penale</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">All'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518duodecies-com1" ns4:target="olf:it/regio-decreto/stato/1930/1398/art_518duodecies-com1" ns4:relation="amends">articolo 518-duodecies, primo comma, del codice penale</ref>, dopo le parole: «o in parte inservibili o» sono inserite le seguenti: «<quotedText eId="modNov_1_new_1">, ove previsto,</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta l'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518duodecies" ns5:target="olf:it/regio-decreto/stato/1930/1398/art_518duodecies" ns5:relation="amends">articolo 518-duodecies del codice penale</ref>, come modificato dalla presente legge: 
+ «Art. 518-duodecies (Distruzione, dispersione, deterioramento, deturpamento, imbrattamento e uso illecito di beni culturali o paesaggistici). - Chiunque distrugge, disperde, deteriora o rende in tutto o in parte inservibili o, ove previsto, non fruibili beni culturali o paesaggistici propri o altrui e' punito con la reclusione da due a cinque anni e con la multa da euro 2.500 a euro 15.000. 
+ Chiunque, fuori dei casi di cui al primo comma, deturpa o imbratta beni culturali o paesaggistici propri o altrui, ovvero destina beni culturali a un uso incompatibile con il loro carattere storico o artistico ovvero pregiudizievole per la loro conservazione o integrita', e' punito con la reclusione da sei mesi a tre anni e con la multa da euro 1.500 a euro 10.000. 
+ La sospensione condizionale della pena e' subordinata al ripristino dello stato dei luoghi o all'eliminazione delle conseguenze dannose o pericolose del reato ovvero alla prestazione di attivita' non retribuita a favore della collettivita' per un tempo determinato, comunque non superiore alla durata della pena sospesa, secondo le modalita' indicate dal giudice nella sentenza di condanna.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Modifica all'articolo 635 del codice penale</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_2">All'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_635" ns6:target="olf:it/regio-decreto/stato/1930/1398/art_635" ns6:relation="amends">articolo 635 del codice penale</ref>, il <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_635-com3" ns7:target="olf:it/regio-decreto/stato/1930/1398/art_635-com3" ns7:relation="amends">terzo comma</ref> e' sostituito dal seguente: 
+ «<quotedText eId="modNov_2_new_1">Chiunque distrugge, disperde, deteriora o rende, in tutto o in parte, inservibili cose mobili o immobili altrui in occasione di manifestazioni che si svolgono in luogo pubblico o aperto al pubblico e' punito con la reclusione da uno a cinque anni e con la multa fino a 10.000 euro</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Si riporta l'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_635" ns8:target="olf:it/regio-decreto/stato/1930/1398/art_635" ns8:relation="amends">articolo 635 del codice penale</ref>, come modificato dalla presente legge: 
+ «Art. 635 (Danneggiamento). - Chiunque distrugge, disperde, deteriora o rende, in tutto o in parte, inservibili cose mobili o immobili altrui con violenza alla persona o con minaccia ovvero in occasione del delitto previsto dall'articolo 331, e' punito con la reclusione da sei mesi a tre anni. 
+ Alla stessa pena soggiace chiunque distrugge, disperde, deteriora o rende, in tutto o in parte, inservibili le seguenti cose altrui: 
+ 1. edifici pubblici o destinati a uso pubblico o all'esercizio di un culto o immobili compresi nel perimetro dei centri storici, ovvero immobili i cui lavori di costruzione, di ristrutturazione, di recupero o di risanamento sono in corso o risultano ultimati o altre delle cose indicate nel numero 7) dell'articolo 625; 
+ 2. opere destinate all'irrigazione; 
+ 3. piantate di viti, di alberi o arbusti fruttiferi, o boschi, selve o foreste, ovvero vivai forestali destinati al rimboschimento; 
+ 4. attrezzature e impianti sportivi al fine di impedire o interrompere lo svolgimento di manifestazioni sportive. 
+ Chiunque distrugge, disperde, deteriora o rende, in tutto o in parte, inservibili cose mobili o immobili altrui in occasione di manifestazioni che si svolgono in luogo pubblico o aperto al pubblico e' punito con la reclusione da uno a cinque anni e con la multa fino a 10.000 euro. 
+ Per i reati di cui ai commi precedenti, la sospensione condizionale della pena e' subordinata all'eliminazione delle conseguenze dannose o pericolose del reato, ovvero, se il condannato non si oppone, alla prestazione di attivita' non retribuita a favore della collettivita' per un tempo determinato, comunque non superiore alla durata della pena sospesa, secondo le modalita' indicate dal giudice nella sentenza di condanna. 
+ Nei casi previsti dal primo comma il delitto e' punibile a querela della persona offesa. Si procede tuttavia d'ufficio se il fatto e' commesso in occasione del delitto previsto dall'articolo 331 ovvero se la persona offesa e' incapace, per eta' o per infermita'.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Modifiche all'articolo 639 del codice penale</heading>
+                <paragraph>
+                    <content>
+                        <p>
+                            <mod eId="modNov_3"/>1. All'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_639" ns9:target="olf:it/regio-decreto/stato/1930/1398/art_639" ns9:relation="amends">articolo 639 del codice penale</ref> sono apportate le seguenti modificazioni: 
+ a) <mod eId="modNov_4">al primo comma, le parole: «<quotedText eId="modNov_4_old_1">multa fino a euro 103</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_1">multa fino a euro 309</quotedText>»;</mod> 
+ b) <mod eId="modNov_5">al secondo comma e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_5_new_2">Se il fatto e' commesso su teche, custodie e altre strutture adibite all'esposizione, protezione e conservazione di beni culturali esposti in musei, pinacoteche, gallerie e altri luoghi espositivi dello Stato, delle regioni, degli altri enti pubblici territoriali, nonche' di ogni altro ente e istituto pubblico, si applica la pena della reclusione da uno a sei mesi o della multa da 300 a 1.000 euro</quotedText>»;</mod> 
+ c) dopo il terzo comma e' inserito il seguente: 
+ «Chiunque, fuori dei casi preveduti dall'articolo 635, deturpa o imbratta cose mobili o immobili altrui in occasione di manifestazioni che si svolgono in luogo pubblico o aperto al pubblico e' punito con le pene di cui ai commi precedenti, raddoppiate». 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Si riporta l'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_639" ns10:target="olf:it/regio-decreto/stato/1930/1398/art_639" ns10:relation="amends">articolo 639 del codice penale</ref>, come modificato dalla presente legge: 
+ 
+ «Art. 639 (Deturpamento e imbrattamento di cose altrui). - Chiunque, fuori dei casi preveduti dall'articolo 635, deturpa o imbratta cose mobili altrui e' punito, a querela della persona offesa, con la multa fino a euro 309. 
+ Se il fatto e' commesso su beni immobili o su mezzi di trasporto pubblici o privati, si applica la pena della reclusione da uno a sei mesi o della multa da 300 a 1.000 euro. Se il fatto e' commesso su teche, custodie e altre strutture adibite all'esposizione, protezione e conservazione di beni culturali esposti in musei, pinacoteche, gallerie e altri luoghi espositivi dello Stato, delle regioni, degli altri enti pubblici territoriali, nonche' di ogni altro ente e istituto pubblico, si applica la pena della reclusione da uno a sei mesi o della multa da 300 a 1.000 euro. 
+ Nei casi di recidiva per le ipotesi di cui al secondo comma si applica la pena della reclusione da tre mesi a due anni e della multa fino a 10.000 euro. 
+ Chiunque, fuori dei casi preveduti dall'articolo 635, deturpa o imbratta cose mobili o immobili altrui in occasione di manifestazioni che si svolgono in luogo pubblico o aperto al pubblico e' punito con le pene di cui ai commi precedenti, raddoppiate. 
+ Nei casi previsti dal secondo comma si procede d'ufficio. 
+ Con la sentenza di condanna per i reati di cui al secondo e terzo comma il giudice, ai fini di cui all'articolo 165, primo comma, puo' disporre l'obbligo di ripristino e di ripulitura dei luoghi ovvero, qualora cio' non sia possibile, l'obbligo di sostenerne le spese o di rimborsare quelle a tal fine sostenute, ovvero, se il condannato non si oppone, la prestazione di attivita' non retribuita a favore della collettivita' per un tempo determinato comunque non superiore alla durata della pena sospesa, secondo le modalita' indicate nella sentenza di condanna.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 22 gennaio 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Sangiuliano, Ministro della cultura Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
