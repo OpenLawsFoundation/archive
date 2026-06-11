@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2023-05-04/54/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2023-05-04/54"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legislativo:2023-05-04;54"/>
+                    <FRBRalias name="eli" value="eli/id/2023/05/19/23G00062/ORIGINAL"/>
+                    <FRBRdate date="2023-05-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/19/23G00062/ORIGINAL" aknrelname="eli/id/2023/05/19/23G00062/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni integrative e correttive del decreto legislativo 2 febbraio 2021, n. 9, recante disposizioni per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2017/1939, relativo all'attuazione di una cooperazione rafforzata sull'istituzione della Procura europea «EPPO». (23G00062)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00062" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO LEGISLATIVO"/>
+                            <nrdfa:span content="2023-05-04" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2023-05-04/54/ita@2023-06-03/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2023-05-04/54/ita@2023-06-03"/>
+                    <FRBRdate date="2023-06-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/19/23G00062/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/05/19/23G00062/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/05/19/23G00062/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2023-05-04/54/ita@2023-06-03/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2023-05-04/54/ita@2023-06-03.xml"/>
+                    <FRBRdate date="2023-05-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/19/23G00062/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-05-19" name="" number="116" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-05-19" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:decreto.legislativo:2023-05-04;54#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2021-02-02;9#17 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 17-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2021-02-02/9/ita@2023-06-03/!main/~art_17-bis"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO_LEGISLATIVO/stato/2023-05-04/54/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/05/19/23G00062/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni integrative e correttive del decreto legislativo 2 febbraio 2021, n. 9, recante disposizioni per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2017/1939, relativo all'attuazione di una cooperazione rafforzata sull'istituzione della Procura europea «EPPO». (23G00062)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00062</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO LEGISLATIVO"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-05-04</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/05/19/23G00062/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/05/19/23G00062/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/05/19/23G00062/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/05/19/23G00062/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legislativo/stato/2023/54" nativeUrn="urn:nir:stato:decreto.legislativo:2023-05-04;54" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-05-19"><ns0:event type="enacted" date="2023-05-04"/><ns0:event type="published" date="2023-05-19"/><ns0:event type="commenced" date="2023-05-19"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/8a078e2b-8173-4d96-8e48-a71e5bf7a75c" sourceSha256="c0686bee86ecf57c47dde000fb07168dcf3e2ed7962b7ef6c1b9d510f582fbc8" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T22:08:43.299555Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO LEGISLATIVO</docType>
+                <docDate date="2023-05-04">04 maggio 2023</docDate>
+                <docNumber>54</docNumber>
+                <docTitle>Disposizioni integrative e correttive del decreto legislativo 2 febbraio 2021, n. 9, recante disposizioni per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2017/1939, relativo all'attuazione di una cooperazione rafforzata sull'istituzione della Procura europea «EPPO». (23G00062) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 03/06/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visti gli <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_76" ns1:target="olf:it/costituzione/stato/1947/const/art_76" ns1:relation="cites">articoli 76</ref> e <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns2:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns2:relation="cites">87, quinto comma, della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Visto l'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_14" ns3:target="olf:it/legge/stato/1988/400/art_14" ns3:relation="cites">articolo 14 della legge 23 agosto 1988, n. 400</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Visto il regolamento (UE) 2017/1939 del Consiglio, del 12 ottobre 2017, relativo all'attuazione di una cooperazione rafforzata sull'istituzione della Procura europea («EPPO»);</p>
+                </citation>
+            </citations>
+            <citations eId="cits_4">
+                <citation eId="cits_4__cit_1">
+                    <p>Vista la <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/legge/stato/2012-12-24/234/!main" ns4:target="olf:it/legge/stato/2012/234" ns4:relation="cites">legge 24 dicembre 2012, n. 234</ref>, recante «Norme generali sulla partecipazione dell'Italia alla formazione e all'attuazione della normativa e delle politiche dell'Unione europea» e, in particolare, l'articolo 31;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_5">
+                <citation eId="cits_5__cit_1">
+                    <p>Visto l'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_5" href="/akn/it/act/legge/stato/2019-10-04/117/!main#art_4" ns5:target="olf:it/legge/stato/2019/117/art_4" ns5:relation="cites">articolo 4 della legge 4 ottobre 2019, n. 117</ref>, recante delega al Governo per il recepimento delle direttive europee e l'attuazione di altri atti dell'Unione europea - Legge di delegazione europea 2018;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_6">
+                <citation eId="cits_6__cit_1">
+                    <p>Visto il <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_6" href="/akn/it/act/decretoLegislativo/stato/2021-02-02/9/!main" ns6:target="olf:it/decreto-legislativo/stato/2021/9" ns6:relation="amends">decreto legislativo 2 febbraio 2021, n. 9</ref>, con il quale sono state emanate le disposizioni per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2017/1939 del Consiglio, del 12 ottobre 2017, relativo all'attuazione di una cooperazione rafforzata sull'istituzione della Procura europea «EPPO»;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_7">
+                <citation eId="cits_7__cit_1">
+                    <p>Vista la deliberazione preliminare del Consiglio dei ministri, adottata nella riunione del 2 febbraio 2023;</p>
+                </citation>
+            </citations>
+            <p>Acquisiti i pareri delle competenti Commissioni parlamentari della Camera dei deputati e del Senato della Repubblica;</p>
+            <citations eId="cits_8">
+                <citation eId="cits_8__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione del 1° maggio 2023;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Ministro per gli affari europei, il Sud, le politiche di coesione e il PNRR e del Ministro della giustizia, di concerto con il Ministro degli affari esteri e della cooperazione internazionale e il Ministro dell'economia e delle finanze;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto legislativo:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading>Introduzione dell'articolo 17-bis del decreto legislativo 2 febbraio 2021, n. 9</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">Al <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2021-02-02/9/!main" ns7:target="olf:it/decreto-legislativo/stato/2021/9" ns7:relation="amends">decreto legislativo 2 febbraio 2021, n. 9</ref>, dopo l'articolo 17, e' inserito il seguente: 
+ «<quotedText eId="modNov_1_new_1">Art. 17-bis (Conservazione della documentazione relativa alle intercettazioni disposte nei procedimenti di competenza della Procura europea). - 1. I verbali e le registrazioni delle intercettazioni eseguite nei procedimenti in cui la Procura europea ha esercitato la sua competenza, nonche' ogni altro atto ad esse relativo, sono conservati integralmente in un apposito archivio nazionale tenuto sotto la direzione e la sorveglianza esclusive del procuratore europeo o, nei casi previsti dall'articolo 16, paragrafo 7, del regolamento, dal procuratore europeo delegato nominato quale sostituto del procuratore europeo dal collegio della Procura europea. 
+ 2. Il Ministro della giustizia, sentito il procuratore capo europeo, entro sei mesi dalla data di entrata in vigore della presente disposizione istituisce, con proprio decreto, l'archivio di cui al comma 1 e disciplina le modalita' di conservazione dei dati e di accesso all'archivio medesimo da parte dei soggetti indicati dall'articolo 89-bis, comma 3, delle norme di attuazione, di coordinamento e transitorie del <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns8:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns8:relation="cites">codice di procedura penale</ref> mediante le postazioni istituite presso gli uffici di procura indicati all'articolo 10.</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, commi 2 e 3, del Testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns9:target="olf:it/dpr/stato/1985/1092" ns9:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ Note alle premesse: 
+ - Si riporta il testo dell'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_76" ns10:target="olf:it/costituzione/stato/1947/const/art_76" ns10:relation="cites">articolo 76 della Costituzione</ref>: 
+ «Art. 76. - L'esercizio della funzione legislativa non puo' essere delegato al Governo se non con determinazione di principi e criteri direttivi e soltanto per tempo limitato e per oggetti definiti.». 
+ - L'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87" ns11:target="olf:it/costituzione/stato/1947/const/art_87" ns11:relation="cites">articolo 87 della Costituzione</ref>, al <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns12:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns12:relation="cites">quinto comma</ref>, conferisce al Presidente della Repubblica il potere di promulgare le leggi ed emanare i decreti aventi valore di legge e i regolamenti. 
+ - Si riporta il testo dell'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_14" ns13:target="olf:it/legge/stato/1988/400/art_14" ns13:relation="cites">articolo 14 della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei Ministri): 
+ «Art. 14 (Decreti legislativi). - 1. I decreti legislativi adottati dal Governo ai sensi dell'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_76" ns14:target="olf:it/costituzione/stato/1947/const/art_76" ns14:relation="cites">articolo 76 della Costituzione</ref> sono emanati dal Presidente della Repubblica con la denominazione di "decreto legislativo" e con l'indicazione, nel preambolo, della legge di delegazione, della deliberazione del Consiglio dei ministri e degli altri adempimenti del procedimento prescritti dalla legge di delegazione. 
+ 2. L'emanazione del decreto legislativo deve avvenire entro il termine fissato dalla legge di delegazione; il testo del decreto legislativo adottato dal Governo e' trasmesso al Presidente della Repubblica, per la emanazione, almeno venti giorni prima della scadenza. 
+ 3. Se la delega legislativa si riferisce ad una pluralita' di oggetti distinti suscettibili di separata disciplina, il Governo puo' esercitarla mediante piu' atti successivi per uno o piu' degli oggetti predetti. In relazione al termine finale stabilito dalla legge di delegazione, il Governo informa periodicamente le Camere sui criteri che segue nell'organizzazione dell'esercizio della delega. 
+ 4. In ogni caso, qualora il termine previsto per l'esercizio della delega ecceda i due anni, il Governo e' tenuto a richiedere il parere delle Camere sugli schemi dei decreti delegati. Il parere e' espresso dalle Commissioni permanenti delle due Camere competenti per materia entro sessanta giorni, indicando specificamente le eventuali disposizioni non ritenute corrispondenti alle direttive della legge di delegazione. Il Governo, nei trenta giorni successivi, esaminato il parere, ritrasmette, con le sue osservazioni e con eventuali modificazioni, i testi alle Commissioni per il parere definitivo che deve essere espresso entro trenta giorni.». 
+ - Il regolamento (UE) 2017/1939 del Consiglio, del 12 ottobre 2017, relativo all'attuazione di una cooperazione rafforzata sull'istituzione della Procura europea («EPPO»), e' pubblicato nella GUUE 31 ottobre 2017, n. L 283. 
+ - Si riporta il testo dell'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2019-10-04/117/!main#art_4" ns15:target="olf:it/legge/stato/2019/117/art_4" ns15:relation="cites">articolo 4 della legge 4 ottobre 2019, n. 117</ref> (Delega al Governo per il recepimento delle direttive europee e l'attuazione di altri atti dell'Unione europea - Legge di delegazione europea 2018): 
+ «Art. 4 (Delega al Governo per l'adeguamento della normativa nazionale alle disposizioni delregolamento (UE) n. 2017/1939, relativo all'attuazione di una cooperazione rafforzata sull'istituzione della Procura europea - "EPPO"). - 1. Il Governo e' delegato ad adottare, entro nove mesi dalla data di entrata in vigore della presente legge, con le procedure di cui all'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_31" ns16:target="olf:it/legge/stato/2012/234/art_31" ns16:relation="cites">articolo 31 della legge 24 dicembre 2012, n. 234</ref>, acquisito il parere delle competenti Commissioni parlamentari, uno o piu' decreti legislativi per l'adeguamento della normativa nazionale alregolamento (UE) 2017/1939 del Consiglio, del 12 ottobre 2017, relativo all'attuazione di una cooperazione rafforzata sull'istituzione della Procura europea ("EPPO"). 
+ 2. I decreti legislativi di cui al comma 1 sono adottati su proposta del Ministro per gli affari europei e del Ministro della giustizia, di concerto con i Ministri degli affari esteri e della cooperazione internazionale e dell'economia e delle finanze. 
+ 3. Nell'esercizio della delega di cui al comma 1, il Governo e' tenuto a seguire, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns17:target="olf:it/legge/stato/2012/234/art_32" ns17:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche i seguenti principi e criteri direttivi specifici: 
+ a) individuare l'autorita' competente a designare, a norma dell'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/regolamento//2017/1939/!main#art_16-par1" ns18:resolution="unresolved">articolo 16, paragrafo 1, del regolamento (UE) 2017/1939</ref>, i tre candidati al posto di procuratore europeo nonche' i criteri e le modalita' di selezione che regolano la designazione e il relativo procedimento; 
+ b) individuare, ai sensi dell'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/regolamento//2017/1939/!main#art_13-par2" ns19:resolution="unresolved">articolo 13, paragrafo 2, del regolamento (UE) 2017/1939</ref>, l'autorita' competente a concludere con il procuratore capo europeo l'accordo diretto a individuare il numero dei procuratori europei delegati nonche' la ripartizione funzionale e territoriale delle competenze tra gli stessi; individuare altresi' il procedimento funzionale all'accordo e apportare le necessarie modifiche alle disposizioni dell'ordinamento giudiziario dirette a costituire presso uno o piu' uffici requirenti l'ufficio per la trattazione dei procedimenti relativi ai reati di cui all'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/regolamento//2017/1939/!main#art_22" ns20:resolution="unresolved">articolo 22 del regolamento (UE) 2017/1939</ref>; 
+ c) individuare, ai sensi dell'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/regolamento//2017/1939/!main#art_17" ns21:resolution="unresolved">articolo 17 del regolamento (UE) 2017/1939</ref>, l'autorita' competente a designare i candidati al posto di procuratore europeo delegato ai fini della nomina da parte del collegio su proposta del procuratore capo europeo, nonche' i criteri e le modalita' di selezione che regolano la designazione; 
+ d) coordinare le disposizioni dell'ordinamento giudiziario in materia di attribuzioni e di poteri dei titolari degli uffici del pubblico ministero con le disposizioni delregolamento (UE) 2017/1939 in materia di competenze del collegio, in modo da preservare i poteri di supervisione e di indirizzo spettanti agli organi dell'EPPO nei procedimenti rientranti nell'ambito di applicazione del medesimo regolamento (UE) e garantire la coerenza, l'efficienza e l'uniformita' della politica in materia di azione penale dell'EPPO; 
+ e) integrare le disposizioni dell'ordinamento giudiziario che prevedono la trasmissione di copia del decreto motivato di avocazione al Consiglio Superiore della Magistratura e ai procuratori della Repubblica interessati, prevedendo un'analoga trasmissione nel caso di decisione motivata da parte del procuratore europeo ai sensi dell'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/regolamento//2017/1939/!main#art_28" ns22:resolution="unresolved">articolo 28 del regolamento (UE) 2017/1939</ref>; 
+ f) adeguare le disposizioni dell'ordinamento giudiziario alle norme delregolamento (UE) 2017/1939 in materia di: competenze del collegio dell'EPPO; poteri di controllo e di indirizzo della camera permanente e del procuratore europeo incaricato della supervisione; esercizio della competenza dell'EPPO; poteri di riassegnazione, riunione e separazione dei casi spettanti alla camera permanente; diritto di avocazione dell'EPPO; poteri della camera permanente in ordine all'esercizio dell'azione penale, all'archiviazione del caso e alle procedure semplificate di azione penale; 
+ g) adeguare le disposizioni dell'ordinamento giudiziario alle norme del <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/regolamento//2017/1939/!main" ns23:resolution="unresolved">regolamento (UE) 2017/1939</ref> che disciplinano la rimozione dall'incarico o l'adozione di provvedimenti disciplinari nei confronti del procuratore nazionale nominato procuratore europeo delegato, in conseguenza dell'incarico rivestito nell'EPPO, e in particolare: 
+ 1) prevedere che i provvedimenti adottati dalla sezione disciplinare del Consiglio Superiore della Magistratura che comportino la rimozione dall'incarico o, comunque, i provvedimenti disciplinari nei confronti di un procuratore nazionale nominato procuratore europeo delegato per motivi non connessi alle responsabilita' che gli derivano dalregolamento (UE) 2017/1939siano comunicati al procuratore capo europeo prima che sia data loro esecuzione; 
+ 2) prevedere clausole di salvaguardia analoghe a quelle di cui al numero 1) a fronte di qualsiasi altra procedura di trasferimento di ufficio che comporti la rimozione dall'incarico di procuratore europeo delegato; 
+ h) coordinare le disposizioni dell'ordinamento giudiziario in materia di valutazioni di professionalita' con le norme delregolamento (UE) 2017/1939 che attribuiscono al collegio, su proposta del procuratore capo europeo, l'adozione di norme sui criteri di rendimento e sulla valutazione dell'insufficienza professionale dei procuratori europei delegati, in modo da integrare la disciplina procedimentale nazionale in materia di valutazioni di professionalita', facendo salve le prerogative del collegio dell'EPPO e regolandone l'incidenza sul procedimento di valutazione interno; 
+ i) apportare le necessarie modifiche alle disposizioni processuali al fine di prevedere che i procuratori europei delegati svolgano le funzioni indicate dall'articolo 51 del codice di procedura penaledinanzi al tribunale ordinariamente competente per i delitti di cui alladirettiva (UE) 2017/1371; 
+ l) prevedere che il procuratore europeo delegato, in relazione ai delitti attribuiti alla competenza dell'EPPO, svolga le sue funzioni in collegamento e d'intesa, anche mediante acquisizione e scambio di informazioni, con il procuratore europeo che supervisiona le indagini e si attenga alle direttive e alle istruzioni dallo stesso impartite; 
+ m) prevedere che, nel caso di indagini transnazionali, il procuratore delegato cooperi con i procuratori delegati degli altri Stati membri dell'Unione europea mediante scambio di informazioni e presti la richiesta assistenza, salvo l'obbligo di segnalare al procuratore europeo incaricato della supervisione e di consultare il procuratore delegato richiedente se: 
+ 1) la richiesta sia incompleta o contenga un errore manifesto e rilevante; 
+ 2) l'atto richiesto non possa essere eseguito entro il termine fissato per motivi giustificati e oggettivi; 
+ 3) un atto di indagine diverso e meno intrusivo consenta di conseguire gli stessi risultati di quello richiesto; 
+ 4) l'atto di indagine richiesto o da eseguire non sia previsto dal diritto nazionale; 
+ n) prevedere che il pubblico ministero, quando sia stato informato dell'avvio del procedimento di cui all'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/regolamento//2017/1939/!main#art_27" ns24:resolution="unresolved">articolo 27 del regolamento (UE) 2017/1939</ref>, possa adottare e richiedere atti urgenti fino all'intervenuta decisione sull'avocazione da parte dell'EPPO, astenendosi dall'adozione di atti che possano precluderne l'esercizio; 
+ o) prevedere che, in caso di intervenuta decisione di avocazione delle indagini da parte dell'EPPO, il pubblico ministero trasmetta gli atti all'EPPO secondo quanto stabilito dall'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/regolamento//2017/1939/!main#art_27" ns25:resolution="unresolved">articolo 27 del regolamento (UE) 2017/1939</ref>; 
+ p) prevedere che il procuratore europeo delegato svolga le funzioni ai fini della proposizione degli atti di impugnazione; 
+ q) in relazione ai delitti di cui alladirettiva (UE) 2017/1371, prevedere come obbligatoria la denuncia all'EPPO, fermo restando quanto stabilito dall'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_331" ns26:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_331" ns26:relation="cites">articolo 331 del codice di procedura penale</ref>, nonche' l'obbligo di informazione in relazione ai medesimi delitti da parte del pubblico ministero in ogni fase del procedimento, al fine dell'esercizio dei poteri di cui all'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/regolamento//2017/1939/!main#art_27" ns27:resolution="unresolved">articolo 27 del regolamento (UE) 2017/1939</ref>; 
+ r) apportare ogni opportuna modifica alle norme processuali e ordinamentali al fine di dare piena attuazione alle previsioni delregolamento (UE) 2017/1939, con particolare riguardo alle disposizioni non direttamente applicabili, e per coordinare le norme interne vigenti con quanto in esso previsto, prevedendo anche l'abrogazione delle disposizioni incompatibili con quelle contenute nel citatoregolamento (UE) 2017/1939. 
+ 4. Fino alla data di entrata in vigore delle disposizioni adottate in attuazione del criterio di delega di cui al comma 3, lettera a), la procedura per la designazione, a norma dell'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/regolamento//2017/1939/!main#art_16" ns28:resolution="unresolved">articolo 16 del regolamento (UE) 2017/1939</ref>, di tre candidati al posto di procuratore europeo e' regolata dalle disposizioni di cui ai commi da 5 a 8. 
+ 5. Le domande per la candidatura al posto di procuratore europeo sono proposte al Consiglio Superiore della Magistratura da magistrati requirenti o giudicanti in possesso almeno della quarta valutazione di professionalita', anche se collocati fuori dal ruolo organico della magistratura. 
+ 6. Il Consiglio Superiore della Magistratura e il Ministro della giustizia, al quale le domande sono inoltrate, procedono autonomamente alla valutazione dei candidati nel rispetto dei criteri di cui al paragrafo 1 del citato <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/regolamento//2017/1939/!main#art_16" ns29:resolution="unresolved">articolo 16 del regolamento (UE) 2017/1939</ref>. Il Ministro della giustizia trasmette la graduatoria dei candidati corredata dalle relative valutazioni al Consiglio Superiore della Magistratura che, qualora le condivida, provvede alla designazione e trasmette il relativo provvedimento al Ministro della giustizia perche' lo comunichi agli organi dell'EPPO. 
+ 7. Quando il Consiglio Superiore della Magistratura non condivide le valutazioni che sorreggono la formazione della graduatoria di cui al comma 6, restituisce, con provvedimento motivato, gli atti al Ministro della giustizia. Entro quindici giorni il Ministro della giustizia puo', alternativamente: 
+ a) trasmettere al Consiglio Superiore della Magistratura una proposta di graduatoria conforme alle valutazioni del medesimo Consiglio; 
+ b) invitare, con richiesta motivata, il Consiglio Superiore della Magistratura a rivedere le proprie valutazioni. 
+ 8. Ricevuta la proposta o la richiesta di cui alle lettere a) e b) del comma 7, il Consiglio Superiore della Magistratura provvede in ogni caso alla designazione, fornendo specifica motivazione quando non aderisce all'invito di cui alla medesima lettera b). Il provvedimento di designazione e' comunicato a norma del comma 6. 
+ 9. Al magistrato nominato procuratore europeo ai sensi dell'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/regolamento//2017/1939/!main#art_16-com3-par2" ns30:resolution="unresolved">articolo 16, paragrafi 2 e 3, del regolamento (UE) 2017/1939</ref> non si applicano i <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/2012-11-06/190/!main#art_1-com68" ns31:target="olf:it/legge/stato/2012/190/art_1-com68" ns31:relation="cites">commi 68</ref>, <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/legge/stato/2012-11-06/190/!main#art_1-com69" ns32:target="olf:it/legge/stato/2012/190/art_1-com69" ns32:relation="cites">69</ref>, <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2012-11-06/190/!main#art_1-com71" ns33:target="olf:it/legge/stato/2012/190/art_1-com71" ns33:relation="cites">71</ref> e <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/2012-11-06/190/!main#art_1-com72" ns34:target="olf:it/legge/stato/2012/190/art_1-com72" ns34:relation="cites">72 dell'articolo 1 della legge 6 novembre 2012, n. 190</ref>. 
+ 10. Per l'attuazione della delega di cui al presente articolo e' autorizzata la spesa di euro 88.975 per l'anno 2020 e di euro 533.848 annui a decorrere dall'anno 2021, cui si provvede mediante corrispondente riduzione del fondo per il recepimento della normativa europea, di cui all'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_41bis" ns35:target="olf:it/legge/stato/2012/234/art_41bis" ns35:relation="cites">articolo 41-bis della legge 24 dicembre 2012, n. 234</ref>. 
+ 11. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio.». 
+ - Si riporta il testo dell'<ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_31" ns36:target="olf:it/legge/stato/2012/234/art_31" ns36:relation="cites">articolo 31 della legge 24 dicembre 2012, n. 234</ref> (Norme generali sulla partecipazione dell'Italia alla formazione e all'attuazione della normativa e delle politiche dell'Unione europea): 
+ «Art. 31 (Procedure per l'esercizio delle deleghe legislative conferite al Governo con la legge di delegazione europea). - 1. In relazione alle deleghe legislative conferite con la legge di delegazione europea per il recepimento delle direttive, il Governo adotta i decreti legislativi entro il termine di quattro mesi antecedenti a quello di recepimento indicato in ciascuna delle direttive; per le direttive il cui termine cosi' determinato sia gia' scaduto alla data di entrata in vigore della legge di delegazione europea, ovvero scada nei tre mesi successivi, il Governo adotta i decreti legislativi di recepimento entro tre mesi dalla data di entrata in vigore della medesima legge; per le direttive che non prevedono un termine di recepimento, il Governo adotta i relativi decreti legislativi entro dodici mesi dalla data di entrata in vigore della legge di delegazione europea. 
+ 2. I decreti legislativi sono adottati, nel rispetto dell'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_14" ns37:target="olf:it/legge/stato/1988/400/art_14" ns37:relation="cites">articolo 14 della legge 23 agosto 1988, n. 400</ref>, su proposta del Presidente del Consiglio dei Ministri o del Ministro per gli affari europei e del Ministro con competenza prevalente nella materia, di concerto con i Ministri degli affari esteri, della giustizia, dell'economia e delle finanze e con gli altri Ministri interessati in relazione all'oggetto della direttiva. I decreti legislativi sono accompagnati da una tabella di concordanza tra le disposizioni in essi previste e quelle della direttiva da recepire, predisposta dall'amministrazione con competenza istituzionale prevalente nella materia. 
+ 3. La legge di delegazione europea indica le direttive in relazione alle quali sugli schemi dei decreti legislativi di recepimento e' acquisito il parere delle competenti Commissioni parlamentari della Camera dei deputati e del Senato della Repubblica. In tal caso gli schemi dei decreti legislativi sono trasmessi, dopo l'acquisizione degli altri pareri previsti dalla legge, alla Camera dei deputati e al Senato della Repubblica affinche' su di essi sia espresso il parere delle competenti Commissioni parlamentari. Decorsi quaranta giorni dalla data di trasmissione, i decreti sono emanati anche in mancanza del parere. Qualora il termine per l'espressione del parere parlamentare di cui al presente comma ovvero i diversi termini previsti dai commi 4 e 9 scadano nei trenta giorni che precedono la scadenza dei termini di delega previsti ai commi 1 o 5 o successivamente, questi ultimi sono prorogati di tre mesi. 
+ 4. Gli schemi dei decreti legislativi recanti recepimento delle direttive che comportino conseguenze finanziarie sono corredati della relazione tecnica di cui all'<ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_17-com3" ns38:target="olf:it/legge/stato/2009/196/art_17-com3" ns38:relation="cites">articolo 17, comma 3, della legge 31 dicembre 2009, n. 196</ref>. Su di essi e' richiesto anche il parere delle Commissioni parlamentari competenti per i profili finanziari. Il Governo, ove non intenda conformarsi alle condizioni formulate con riferimento all'esigenza di garantire il rispetto dell'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_81-com4" ns39:target="olf:it/costituzione/stato/1947/const/art_81-com4" ns39:relation="cites">articolo 81, quarto comma, della Costituzione</ref>, ritrasmette alle Camere i testi, corredati dei necessari elementi integrativi d'informazione, per i pareri definitivi delle Commissioni parlamentari competenti per i profili finanziari, che devono essere espressi entro venti giorni. 
+ 5. Entro ventiquattro mesi dalla data di entrata in vigore di ciascuno dei decreti legislativi di cui al comma 1, nel rispetto dei principi e criteri direttivi fissati dalla legge di delegazione europea, il Governo puo' adottare, con la procedura indicata nei commi 2, 3 e 4, disposizioni integrative e correttive dei decreti legislativi emanati ai sensi del citato comma 1, fatto salvo il diverso termine previsto dal comma 6. 
+ 6. Con la procedura di cui ai commi 2, 3 e 4 il Governo puo' adottare disposizioni integrative e correttive di decreti legislativi emanati ai sensi del comma 1, al fine di recepire atti delegati dell'Unione europea di cui all'articolo 290 del Trattato sul funzionamento dell'Unione europea, che modificano o integrano direttive recepite con tali decreti legislativi. Le disposizioni integrative e correttive di cui al primo periodo sono adottate nel termine di cui al comma 5 o nel diverso termine fissato dalla legge di delegazione europea. Resta ferma la disciplina di cui all'articolo 36 per il recepimento degli atti delegati dell'Unione europea che recano meri adeguamenti tecnici. 
+ 7. I decreti legislativi di recepimento delle direttive previste dalla legge di delegazione europea, adottati, ai sensi dell'<ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_117-com5" ns40:target="olf:it/costituzione/stato/1947/const/art_117-com5" ns40:relation="cites">articolo 117, quinto comma, della Costituzione</ref>, nelle materie di competenza legislativa delle regioni e delle province autonome, si applicano alle condizioni e secondo le procedure di cui all'articolo 41, comma 1. 
+ 8. I decreti legislativi adottati ai sensi dell'articolo 33 e attinenti a materie di competenza legislativa delle regioni e delle province autonome sono emanati alle condizioni e secondo le procedure di cui all'articolo 41, comma 1. 
+ 9. Il Governo, quando non intende conformarsi ai pareri parlamentari di cui al comma 3, relativi a sanzioni penali contenute negli schemi di decreti legislativi recanti attuazione delle direttive, ritrasmette i testi, con le sue osservazioni e con eventuali modificazioni, alla Camera dei deputati e al Senato della Repubblica. Decorsi venti giorni dalla data di ritrasmissione, i decreti sono emanati anche in mancanza di nuovo parere.». 
+ - Il <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoLegislativo/stato/2021-02-02/9/!main" ns41:target="olf:it/decreto-legislativo/stato/2021/9" ns41:relation="amends">decreto legislativo 2 febbraio 2021, n. 9</ref>, recante «Disposizioni per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2017/1939 del Consiglio, del 12 ottobre 2017, relativo all'attuazione di una cooperazione rafforzata sull'istituzione della Procura europea "EPPO"», come modificato dall'articolo 1 del presente decreto, e' pubblicato nella Gazzetta Ufficiale 5 febbraio 2021, n. 30. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione del presente decreto non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le amministrazioni interessate provvedono agli adempimenti previsti dal presente decreto con le risorse umane, finanziarie e strumentali disponibili a legislazione vigente. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 4 maggio 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Fitto, Ministro per gli affari europei, il Sud, le politiche di coesione e il PNRR Nordio, Ministro della giustizia Tajani, Ministro degli affari esteri e della cooperazione internazionale Giorgetti, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
