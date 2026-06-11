@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-02-21/16/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-02-21/16"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-02-21;16"/>
+                    <FRBRalias name="eli" value="eli/id/2025/02/25/25G00023/ORIGINAL"/>
+                    <FRBRdate date="2025-02-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/02/25/25G00023/ORIGINAL" aknrelname="eli/id/2025/02/25/25G00023/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 27 dicembre 2024, n. 201, recante misure urgenti in materia di cultura. (25G00023)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00023" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-02-21" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-02-21/16/ita@2025-02-26/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-02-21/16/ita@2025-02-26"/>
+                    <FRBRdate date="2025-02-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/02/25/25G00023/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/02/25/25G00023/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/02/25/25G00023/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-02-21/16/ita@2025-02-26/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-02-21/16/ita@2025-02-26.xml"/>
+                    <FRBRdate date="2025-02-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/02/25/25G00023/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-02-25" name="" number="46" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-02-25" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2025-02-21" refersTo="#C.2183"/>
+                <step by="#senato" date="2025-02-21" refersTo="#S.1374"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:legge:2019-12-27;160#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 27 dicembre 2024, n. 201 (in G.U. 27/12/2024, n. 302).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:legge:2021-12-30;234#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 27 dicembre 2024, n. 201 (in G.U. 27/12/2024, n. 302). </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-27;201#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, lettere b), d) e 2, l'introduzione delle lettere b-bis), c-bis), e-bis), e-ter), e-quater) all'art. 1, comma 1 e l'introduzione del comma 2-bis all'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-27;201#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1, 2, lettera a), 4 e 7.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-27;201#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, 2, 3, 4, 5, 6 e 7.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-27;201#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-27;201#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, commi 1 alinea e lettere a), b), c), d), 2 e 3 e l'introduzione della lettera d-bis) all'art. 5, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-27;201#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-27;201#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-27;201#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-27;201#9"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9, comma 2, alinea.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-27;201#10"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, commi 2, lettera a) e 3 e l'introduzione dei commi 3-bis, 4-bis e 4-ter all'art. 10.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-27;201#11"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione del comma 01 all'art. 11.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-21;16#1"/>
+                        <destination href="urn:nir:stato:legge:2024-12-30;207#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 27 dicembre 2024, n. 201 (in G.U. 27/12/2024, n. 302).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_1__para_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_1__para_1__point_b"/>
+                        <new href="#modNov_1_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_1__para_1__point_c-bis"/>
+                        <new href="#modNov_1_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_1__para_1__point_d"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_1__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_1__para_2-bis"/>
+                        <new href="#modNov_1_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_1__para_1__point_b-bis"/>
+                        <new href="#modNov_1_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_2__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_2__para_7"/>
+                        <old href="#modNov_2_old_17"/>
+                        <new href="#modNov_2_new_17"/>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_2__para_1"/>
+                        <old href="#modNov_2_old_11"/>
+                        <new href="#modNov_2_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_2__para_2__point_a"/>
+                        <old href="#modNov_2_old_15"/>
+                        <new href="#modNov_2_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_3__para_2"/>
+                        <new href="#modNov_3_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_3__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_3__para_3"/>
+                        <new href="#modNov_3_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_3__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_3__para_4"/>
+                        <new href="#modNov_3_new_22"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_3__para_5"/>
+                        <old href="#modNov_3_old_23"/>
+                        <new href="#modNov_3_new_23"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_3__para_6"/>
+                        <old href="#modNov_3_old_24"/>
+                        <new href="#modNov_3_new_24"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_3__para_7"/>
+                        <old href="#modNov_3_old_25"/>
+                        <new href="#modNov_3_new_25"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_3__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_4__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_5__para_1__point_d"/>
+                        <old href="#modNov_5_old_36"/>
+                        <new href="#modNov_5_new_36"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_5__para_1__point_d-bis"/>
+                        <new href="#modNov_5_new_37"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_5__para_2"/>
+                        <old href="#modNov_5_old_38"/>
+                        <new href="#modNov_5_new_38"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_5__para_3"/>
+                        <new href="#modNov_5_new_39"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_5__para_1__point_c"/>
+                        <old href="#modNov_5_old_27"/>
+                        <new href="#modNov_5_new_27"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_5__para_1"/>
+                        <old href="#modNov_5_old_28"/>
+                        <new href="#modNov_5_new_28"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_5__para_1__point_a"/>
+                        <old href="#modNov_5_old_29"/>
+                        <new href="#modNov_5_new_29"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_5__para_1__point_b"/>
+                        <old href="#modNov_5_old_30"/>
+                        <new href="#modNov_5_new_30"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="repeal">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_6__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_6__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_7__para_2"/>
+                        <new href="#modNov_7_new_32"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_7__para_1"/>
+                        <new href="#modNov_7_new_35"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_7__para_1"/>
+                        <old href="#modNov_7_old_31"/>
+                        <new href="#modNov_7_new_31"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="repeal">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_8__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="insertion">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_9__para_2"/>
+                        <new href="#modNov_9_new_34"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_10__para_3-bis"/>
+                        <new href="#modNov_10_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_10__para_2__point_a"/>
+                        <new href="#modNov_10_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_10__para_3"/>
+                        <old href="#modNov_10_old_10"/>
+                        <new href="#modNov_10_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_10"/>
+                        <new href="#modNov_10_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="insertion">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-27/201/ita@2025-02-26/!main/~art_11__para_01"/>
+                        <new href="#modNov_11_new_14"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-02-21/16/!main" showAs=""/>
+                <passiveRef eId="C.2183" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2183" showAs=""/>
+                <passiveRef eId="S.1374" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1374" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/02/25/25G00023/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 27 dicembre 2024, n. 201, recante misure urgenti in materia di cultura. (25G00023)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00023</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-02-21</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/02/25/25G00023/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/02/25/25G00023/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/02/25/25G00023/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/02/25/25G00023/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/16" nativeUrn="urn:nir:stato:legge:2025-02-21;16" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-02-25"><ns0:event type="enacted" date="2025-02-21"/><ns0:event type="published" date="2025-02-25"/><ns0:event type="commenced" date="2025-02-25"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/decf79c5-b546-448b-a48f-86394bac2984" sourceSha256="4d988d7fd5bdede1c39350c7e698ebd0ae17a76ac2266d74d0c4c65753856f6f" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:12:07.648044Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-02-21">21 febbraio 2025</docDate>
+                <docNumber>16</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 27 dicembre 2024, n. 201, recante misure urgenti in materia di cultura. (25G00023) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 26/02/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2024-12-27/201/!main" ns1:target="olf:it/decreto-legge/stato/2024/201" ns1:relation="repeals">decreto-legge 27 dicembre 2024, n. 201</ref>, recante misure urgenti in materia di cultura, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 21 febbraio 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giuli, Ministro della cultura Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-02-21/16/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-02-21/16"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-02-21;16"/>
+                                <FRBRalias name="eli" value="eli/id/2025/02/25/25G00023/ORIGINAL"/>
+                                <FRBRdate date="2025-02-26" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-02-21/16/ita@2025-02-26/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-02-21/16/ita@2025-02-26"/>
+                                <FRBRdate date="2025-02-26" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-02-21/16/ita@2025-02-26/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-02-21/16/ita@2025-02-26.xml"/>
+                                <FRBRdate date="2025-02-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ Modificazioni apportate in sede di conversione 
+ al <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2024-12-27/201/!main" ns2:target="olf:it/decreto-legge/stato/2024/201" ns2:relation="repeals">decreto-legge 27 dicembre 2024, n. 201</ref> 
+ 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1: 
+ alla lettera b) sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_1_new_2">, anche attraverso il riconoscimento della cultura del movimento nonche' tramite il coinvolgimento degli enti del Terzo settore in attivita' di co-progettazione ai sensi dell'articolo 55 del codice del Terzo settore, di cui al <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns3:target="olf:it/decreto-legislativo/stato/2017/117" ns3:relation="cites">decreto legislativo 3 luglio 2017, n. 117</ref>
+                                        </quotedText>»; 
+ dopo la lettera b) e' inserita la seguente: 
+ «<quotedText eId="modNov_1_new_8">b-bis) promuovere la produzione culturale e artistica giovanile</quotedText>»; 
+ dopo la lettera c) e' inserita la seguente: 
+ «<quotedText eId="modNov_1_new_3">c-bis) promuovere la diffusione e la fruizione delle biblioteche scolastiche e delle librerie per bambini e la rimozione degli ostacoli che limitano l'effettivo esercizio della lettura in eta' prescolare, quali strumenti fondamentali per la crescita, il processo di alfabetizzazione e lo sviluppo cognitivo, sociale, relazionale ed emotivo della persona</quotedText>»; 
+ alla lettera d), le parole: «, interesse storico-artistico e di prossimita'» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_4">o da interesse storico-artistico e alle librerie di prossimita'</quotedText>»; 
+ dopo la lettera e) sono aggiunte le seguenti: 
+ «<quotedText eId="modNov_1_new_1">e-bis) promuovere e valorizzare tutte le attivita' di spettacolo; 
+ e-ter) promuovere e valorizzare il cinema e il settore audiovisivo; 
+ e-quater) promuovere la digitalizzazione del patrimonio librario e l'alfabetizzazione digitale tramite percorsi di educazione e formazione all'interno degli spazi bibliotecari</quotedText>»; 
+ al comma 2, dopo le parole: «Ministro dell'economia e delle finanze» sono inserite le seguenti: «, sentita l'Autorita' politica delegata in materia di sport limitatamente alle disposizioni di cui al comma 1, lettera b)» e dopo le parole: «<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2023-11-13/162/!main" ns4:target="olf:it/legge/stato/2023/162" ns4:relation="cites">legge 13 novembre 2023, n. 162</ref>» e' inserito il seguente segno d'interpunzione: «,»; 
+ dopo il comma 2 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_1_new_6">2-bis. Presso l'ufficio di gabinetto del Ministro della cultura e' istituita una posizione dirigenziale di livello generale, ai sensi dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_19-com4" ns5:target="olf:it/decreto-legislativo/stato/2001/165/art_19-com4" ns5:relation="cites">articolo 19, comma 4, del decreto legislativo 30 marzo 2001, n. 165</ref>, avente funzioni di supporto alle attivita' svolte ai fini dell'attuazione dei commi 1 e 2 del presente articolo, con corrispondente incremento di una unita' dirigenziale di livello generale della dotazione organica del Ministero della cultura. Il Ministero della cultura e' autorizzato, per le finalita' di cui al presente comma, a conferire un incarico dirigenziale di livello generale anche ai sensi dell'articolo 19, comma 6, del citato <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2001/165/!main" ns6:resolution="unresolved">decreto legislativo n. 165 del 2001</ref>. Agli oneri derivanti dal presente comma, pari a 247.163 euro per l'anno 2025 e a 296.596 euro annui a decorrere dall'anno 2026, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2025-2027, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2025, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della cultura</quotedText>».</mod>
+                                    <mod eId="modNov_2">All'articolo 2: 
+ al comma 1, le parole: «<quotedText eId="modNov_2_old_11">, nelle materie di propria competenza</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_11">nelle materie di propria competenza,</quotedText>»; 
+ al comma 2, lettera a), la parola: «<quotedText eId="modNov_2_old_15">africane</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_2_new_15">africani</quotedText>»; 
+ al comma 4, primo periodo, le parole: «e da due» sono sostituite dalle seguenti: «da due» e le parole: «n. 165 e da cinque» sono sostituite dalle seguenti: «n. 165, e da cinque»; 
+ al comma 7, primo periodo, le parole: «<quotedText eId="modNov_2_old_17">del Piano Mattei</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_17">per il Piano Mattei</quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 3: 
+ al comma 1, dopo le parole: «fino a trentacinque anni di eta'» sono inserite le seguenti: «, dando priorita' alle aperture in aree interne e svantaggiate o in aree prive di librerie o di biblioteche statali aperte al pubblico» ed e' aggiunto, in fin<quotedText eId="modNov_3_new_20">e,</quotedText> il seguente periodo: «Nell'ambito delle risorse di cui al primo periodo, 1 milione di euro e' destinato alle iniziative avviate nel territorio di comuni rientranti in una delle tipologie di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2017-10-06/158/!main#art_1-com2" ns7:target="olf:it/legge/stato/2017/158/art_1-com2" ns7:relation="cites">articolo 1, comma 2, della legge 6 ottobre 2017, n. 158</ref>, nei quali non esista un altro punto di rivendita di libri, anche qualora l'attivita' libraria non sia svolta in misura prevalente, se essa rappresenta almeno il 30 per cento dell'attivita'»; 
+ al comma 2: 
+ al primo periodo, le parole: «e interesse storico-artistico e le librerie di prossimita'» sono sostituite dalle seguenti: «o interesse storico-artistico, le librerie di prossimita' e le librerie di qualita'»; 
+ al secondo periodo, le parole: «alle biblioteche statali aperte al pubblico, degli enti territoriali» sono sostituite dalle seguenti: «alle biblioteche aperte al pubblico dello Stato, degli enti pubblici territoriali» e dopo le parole: «<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/1996-10-17/534/!main" ns8:target="olf:it/legge/stato/1996/534" ns8:relation="cites">legge 17 ottobre 1996, n. 534</ref>, e» sono inserite le seguenti: «<quotedText eId="modNov_3_new_18">dell'articolo 1, comma 40,</quotedText>»;  al comma 3: 
+ al primo periodo, le parole: «del presente articolo, pari» sono sostituite dalle seguenti: «dei commi 1 e 2, pari a » e dopo le parole: «della <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2021-12-30/234/!main" ns9:target="olf:it/legge/stato/2021/234" ns9:relation="amends">legge 30 dicembre 2021, n. 234</ref>,» e' inserita la seguente: «e,»; 
+ al secondo periodo, le parole: «primo comma» sono sostituite dalle seguenti: «comma 1» e le parole: «fondo per la compensazione degli effetti finanziari non previsti a legislazione vigente conseguenti all'attualizzazione di contributi pluriennali, di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegge/stato/2008-10-07/154/!main#art_6-com2" ns10:target="olf:it/decreto-legge/stato/2008/154/art_6-com2" ns10:relation="cites">articolo 6, comma 2, del decreto-legge 7 ottobre 2008, n. 154</ref>, convertito, con modificazioni, dalla <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2008-12-04/189/!main" ns11:target="olf:it/legge/stato/2008/189" ns11:relation="cites">legge 4 dicembre 2008, n. 189</ref>» sono sostituite dalle seguenti: «fondo per la compensazione degli effetti finanziari non previsti a legislazione vigente, anche conseguenti all'attualizzazione di contributi pluriennali, di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2006-12-27/296/!main#art_1-com511" ns12:target="olf:it/legge/stato/2006/296/art_1-com511" ns12:relation="cites">articolo 1, comma 511, della legge 27 dicembre 2006, n. 296</ref>»; 
+ al comma 4, dopo le parole: «di conversione del presente decreto,» sono inserite le seguenti: «<quotedText eId="modNov_3_new_22">previo parere della Conferenza unificata di cui all'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns13:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns13:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>, che si esprime entro trenta giorni dalla trasmissione della richiesta,</quotedText>»; 
+ al comma 5, le parole: «<quotedText eId="modNov_3_old_23">a cultura, spettacolo e settore audiovisivo</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_23">alla cultura, allo spettacolo e al settore audiovisivo</quotedText>»; 
+ al comma 6, le parole: «<quotedText eId="modNov_3_old_24">del predetto fondo</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_24">del fondo di cui al comma 5</quotedText>»; 
+ al comma 7, le parole: «<quotedText eId="modNov_3_old_25">dall'applicazione del comma 5</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_25">dall'attuazione del comma 5, pari a 10 milioni di euro per l'anno 2025,</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 4: 
+ al comma 1, primo periodo, le parole: «con la legge» sono sostituite dalle seguenti: «ai sensi della legge» e le parole: «800 mila» sono sostituite dalla seguente cifra: «800.000».</mod>
+                                    <mod eId="modNov_5">All'articolo 5: 
+ al comma 1: 
+ all'alinea, le parole: «<quotedText eId="modNov_5_old_28">e all'Istituto italiano di numismatica,</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_28">, all'Istituto italiano di numismatica e alla Domus mazziniana, indicati nel regolamento</quotedText>»; 
+ alla lettera a), le parole: «<quotedText eId="modNov_5_old_29">700 mila</quotedText>» sono sostituite dalla seguente cifra: «<quotedText eId="modNov_5_new_29">700.000</quotedText>»; 
+ alla lettera b), le parole: «<quotedText eId="modNov_5_old_30">300 mila</quotedText>» sono sostituite dalla seguente cifra: «<quotedText eId="modNov_5_new_30">300.000</quotedText>»; 
+ alla lettera c), le parole: «<quotedText eId="modNov_5_old_27">400 mila</quotedText>» sono sostituite dalla seguente cifra: «<quotedText eId="modNov_5_new_27">400.000</quotedText>»; 
+ alla lettera d), le parole: «<quotedText eId="modNov_5_old_36">200 mila</quotedText>» sono sostituite dalla seguente cifra: «<quotedText eId="modNov_5_new_36">200.000</quotedText>»; 
+ dopo la lettera d) e' aggiunta la seguente: 
+ «<quotedText eId="modNov_5_new_37">d-bis) 200.000 euro per la Domus mazziniana</quotedText>»; 
+ al comma 2, secondo periodo: le parole: «<quotedText eId="modNov_5_old_38">200 mila euro</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_38">200.000 euro a decorrere dall'anno 2025</quotedText>»; 
+ il comma 3 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_5_new_39">3. Agli oneri derivanti dall'attuazione del presente articolo, pari a 2 milioni di euro annui a decorrere dall'anno 2025, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2025-2027, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2025, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della cultura</quotedText>».</mod>
+                                    <mod eId="modNov_6">All'articolo 6: 
+ al comma 1, capoverso 357-sexies: 
+ al primo periodo, le parole: «e non oltre» sono soppresse; 
+ al secondo periodo, le parole: «n. 208, articolo 1» sono sostituite dalle seguenti: «n. 208, all'articolo 1», le parole: «n. 232, articolo 1» sono sostituite dalle seguenti: «n. 232, all'articolo 1», le parole: «n. 145, articolo 1» sono sostituite dalle seguenti: «n. 145, all'articolo 1», le parole: «n. 160, articolo 1» sono sostituite dalle seguenti: «n. 160, e all'articolo 1», le parole: «della <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2021-12-30/234/!main" ns14:target="olf:it/legge/stato/2021/234" ns14:relation="amends">legge 30 dicembre 2021, n. 234</ref>» sono sostituite dalle seguenti: «della presente legge,», le parole: «con legge» sono sostituite dalle seguenti: «dalla legge» e le parole: «e non oltre» sono soppresse.</mod>
+                                    <mod eId="modNov_7">All'articolo 7: 
+ al comma 1, dopo le parole: «primo periodo, del» sono inserite le seguenti: «<quotedText eId="modNov_7_new_35">
+                                            <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/2006-04-12/163/!main" ns15:target="olf:it/decreto-legislativo/stato/2006/163" ns15:relation="cites">codice dei contratti pubblici</ref>, di cui al</quotedText>» e la parola: «<quotedText eId="modNov_7_old_31">S.p.A.</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_7_new_31">S.p.a.</quotedText>»; 
+ al comma 2, dopo le parole: «del giorno seguente» sono inserite le seguenti: «<quotedText eId="modNov_7_new_32">, compresi le rassegne e i festival che si svolgono per piu' giorni con le medesime modalita' artistiche e organizzative</quotedText>».</mod>
+                                    <mod eId="modNov_8">All'articolo 8: 
+ al comma 1, il quarto periodo e' soppresso.</mod>
+                                    <mod eId="modNov_9">All'articolo 9: 
+ al comma 2, alinea, dopo le parole: «di cui al comma 1» sono inserite le seguenti: «<quotedText eId="modNov_9_new_34">del presente articolo</quotedText>».</mod>
+                                    <mod eId="modNov_10">All'articolo 10: 
+ al comma 2<quotedText eId="modNov_10_new_9">,</quotedText> lettera a), dopo le parole: «al comma 1» e' inserito il seguente segno d'interpunzione: «,»; 
+ al comma 3, primo periodo, la parola: «<quotedText eId="modNov_10_old_10">museo</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_10_new_10">Museo</quotedText>»; 
+ dopo il comma 3 e' inserito il seguente: 
+ «<quotedText eId="modNov_10_new_7">3-bis. Al fine di favorire la fruizione e la valorizzazione del Memoriale della Shoah di Milano, e' autorizzata la spesa di 300.000 euro annui a decorrere dall'anno 2025 in favore della Fondazione Memoriale della Shoah di Milano. Agli oneri derivanti dall'attuazione del presente comma si provvede: 
+ a) quanto a 100.000 euro annui a decorrere dall'anno 2025, mediante corrispondente riduzione del fondo di cui all'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com632" ns16:target="olf:it/legge/stato/2022/197/art_1-com632" ns16:relation="cites">articolo 1, comma 632, della legge 29 dicembre 2022, n. 197</ref>; 
+ b) quanto a 100.000 euro annui a decorrere dall'anno 2025, mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2025-2027, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2025, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'universita' e della ricerca; 
+ c) quanto a 100.000 euro annui a decorrere dall'anno 2025, mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2025-2027, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2025, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'istruzione e del merito</quotedText>»; 
+ dopo il comma 4 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_10_new_13">4-bis. All'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2024-12-30/207/!main#art_1" ns17:target="olf:it/legge/stato/2024/207/art_1" ns17:relation="amends">articolo 1 della legge 30 dicembre 2024, n. 207</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 898, le parole: "31.967.000 euro per l'anno 2025, di 38.700.000 euro per l'anno 2026 e di 31.380.000 per l'anno 2027" sono sostituite dalle seguenti: "36.967.000 euro per l'anno 2025, di 70.460.000 euro per l'anno 2026 e di 59.780.000 euro per l'anno 2027" e sono aggiunte, in fine, le seguenti parole: "e di interventi riguardanti la messa in sicurezza del territorio, il sostegno economico, il turismo, la celebrazione di eventi, la ricerca e il digitale"; 
+ b) al comma 900, primo periodo, le parole: "trenta giorni" sono sostituite dalle seguenti: "sessanta giorni" e le parole: "all'assegnazione" sono sostituite dalle seguenti: "alla ripartizione". 
+ 4-ter. Agli oneri derivanti dal comma 4-bis, lettera a), pari a 5 milioni di euro per l'anno 2025, a 31.760.000 euro per l'anno 2026 e a 28.400.000 euro per l'anno 2027, si provvede mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns18:target="olf:it/legge/stato/2014/190/art_1-com200" ns18:relation="cites">articolo 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>
+                                        </quotedText>».</mod>
+                                    <mod eId="modNov_11">All'articolo 11: 
+ al comma 1 e' premesso il seguente: 
+ «<quotedText eId="modNov_11_new_14">01. All'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2019-12-27/160/!main#art_1-com362" ns19:target="olf:it/legge/stato/2019/160/art_1-com362" ns19:relation="amends">articolo 1, comma 362, della legge 27 dicembre 2019, n. 160</ref>, le parole: ", che sono conseguentemente ridotti in termini di competenza e di cassa" sono sostituite dalle seguenti: ". Con decreto del Ministro della cultura, sentito il Ministro dell'economia e delle finanze, da emanare entro sessanta giorni dalla data di entrata in vigore della presente disposizione, sono definiti i criteri, i tempi e le modalita' secondo cui gli uffici dotati di autonomia speciale di cui all'articolo 24 del regolamento di cui al <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decreto/presidente.consiglio/2024-03-15/57/!main" ns20:target="olf:it/decreto/presidente-consiglio/2024/57" ns20:relation="cites">decreto del Presidente del Consiglio dei ministri 15 marzo 2024, n. 57</ref>, dispongono il versamento all'entrata del bilancio dello Stato dei proventi derivanti dalla vendita dei biglietti di cui al presente comma"</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
