@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-07-26/95/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-07-26/95"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-07-26;95"/>
+                    <FRBRalias name="eli" value="eli/id/2023/07/27/23G00105/ORIGINAL"/>
+                    <FRBRdate date="2023-07-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/07/27/23G00105/ORIGINAL" aknrelname="eli/id/2023/07/27/23G00105/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 29 maggio 2023, n. 57, recante misure urgenti per gli enti territoriali, nonche' per garantire la tempestiva attuazione del Piano nazionale di ripresa e resilienza e per il settore energetico. (23G00105)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00105" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-07-26" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-07-26/95/ita@2023-07-28/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-07-26/95/ita@2023-07-28"/>
+                    <FRBRdate date="2023-07-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/07/27/23G00105/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/07/27/23G00105/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/07/27/23G00105/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-07-26/95/ita@2023-07-28/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-07-26/95/ita@2023-07-28.xml"/>
+                    <FRBRdate date="2023-07-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/07/27/23G00105/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-07-27" name="" number="174" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-07-27" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2023-07-26" refersTo="#C.1183"/>
+                <step by="#senato" date="2023-07-26" refersTo="#S.803"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1995-10-26;504#26"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2023, n. 57 (in G.U. 29/05/2023, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-08;327#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2023, n. 57 (in G.U. 29/05/2023, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-08;327#52 quinquies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2023, n. 57 (in G.U. 29/05/2023, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2010-02-11;22#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2023, n. 57 (in G.U. 29/05/2023, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2011-03-03;28#8 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2023, n. 57 (in G.U. 29/05/2023, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2011-03-03;28#24"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2023, n. 57 (in G.U. 29/05/2023, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;112#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2023, n. 57 (in G.U. 29/05/2023, n. 124).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-07-03;117#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2023, n. 57 (in G.U. 29/05/2023, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2021-11-08;199#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2023, n. 57 (in G.U. 29/05/2023, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-17;50#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2023, n. 57 (in G.U. 29/05/2023, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la seguente modifica al titolo: Misure urgenti ((...)) per il settore energetico.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, 2, 3, lettera c) e l'introduzione della lettera b-bis) all'art. 3, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57#3 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57#3 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57#3 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57#3 quinquies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-quinquies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57#3 sexies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-sexies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57#3 septies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-septies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-05-29;57#3 octies"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-octies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-07-26;95#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-06-28;79#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione e la modifica dell'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-06-28/79/ita@2023-07-28/!main/~art_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-29/57/ita@2023-07-28/!main/~art_3__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-29/57/ita@2023-07-28/!main/~art_3__para_2"/>
+                        <old href="#modNov_2_old_2"/>
+                        <new href="#modNov_2_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-29/57/ita@2023-07-28/!main/~art_3__para_3__point_b-bis"/>
+                        <new href="#modNov_2_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-29/57/ita@2023-07-28/!main/~art_3__para_3__point_c"/>
+                        <old href="#modNov_2_old_4"/>
+                        <new href="#modNov_2_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-29/57/ita@2023-07-28/!main"/>
+                        <new href="#modNov_3_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="repeal">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-05-29/57/ita@2023-07-28/!main"/>
+                        <old href="#modNov_4_old_6"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-07-26/95/!main" showAs=""/>
+                <passiveRef eId="C.1183" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1183" showAs=""/>
+                <passiveRef eId="S.803" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;803" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/07/27/23G00105/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 29 maggio 2023, n. 57, recante misure urgenti per gli enti territoriali, nonche' per garantire la tempestiva attuazione del Piano nazionale di ripresa e resilienza e per il settore energetico. (23G00105)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00105</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-07-26</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/07/27/23G00105/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/07/27/23G00105/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/07/27/23G00105/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/07/27/23G00105/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/95" nativeUrn="urn:nir:stato:legge:2023-07-26;95" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-07-27"><ns0:event type="enacted" date="2023-07-26"/><ns0:event type="published" date="2023-07-27"/><ns0:event type="commenced" date="2023-07-27"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/96d07403-2022-4166-9be9-2f69ef3af9e0" sourceSha256="64b226bb239a050bdfef7fafbd83d1e7effb467382574f2ef850770d5e12e294" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T21:24:13.285834Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-07-26">26 luglio 2023</docDate>
+                <docNumber>95</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 29 maggio 2023, n. 57, recante misure urgenti per gli enti territoriali, nonche' per garantire la tempestiva attuazione del Piano nazionale di ripresa e resilienza e per il settore energetico. (23G00105) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 28/07/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2023-05-29/57/!main" ns1:target="olf:it/decreto-legge/stato/2023/57" ns1:relation="repeals">decreto-legge 29 maggio 2023, n. 57</ref>, recante misure urgenti per gli enti territoriali, nonche' per garantire la tempestiva attuazione del Piano nazionale di ripresa e resilienza e per il settore energetico, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">L'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2023-06-28/79/!main#art_1" ns2:target="olf:it/decreto-legge/stato/2023/79/art_1" ns2:relation="repeals">articolo 1 del decreto-legge 28 giugno 2023, n. 79</ref>, recante disposizioni urgenti a sostegno delle famiglie e delle imprese per l'acquisto di energia elettrica e gas naturale, nonche' in materia di termini legislativi, e' abrogato. Restano validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodottisi e i rapporti giuridici sorti sulla base del medesimo <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegge/stato/2023/79/!main#art_1" ns3:resolution="unresolved">articolo 1 del decreto-legge n. 79 del 2023</ref>.</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2023-05-29/57/!main" ns4:target="olf:it/decreto-legge/stato/2023/57" ns4:relation="repeals">decreto-legge 29 maggio 2023, n. 57</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 124 del 29 maggio 2023. 
+ A norma dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns5:target="olf:it/legge/stato/1988/400/art_15-com5" ns5:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 39. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 26 luglio 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giorgetti, Ministro dell'economia e delle finanze Pichetto Fratin, Ministro dell'ambiente e della sicurezza energetica Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-07-26/95/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-07-26/95"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-07-26;95"/>
+                                <FRBRalias name="eli" value="eli/id/2023/07/27/23G00105/ORIGINAL"/>
+                                <FRBRdate date="2023-07-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-07-26/95/ita@2023-07-28/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-07-26/95/ita@2023-07-28"/>
+                                <FRBRdate date="2023-07-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-07-26/95/ita@2023-07-28/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-07-26/95/ita@2023-07-28.xml"/>
+                                <FRBRdate date="2023-07-26" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 29 MAGGIO 2023, N. 57 
+ 
+ <mod eId="modNov_2">All'articolo 3: 
+ al comma 1, dopo le parole: «dal comma 3» sono inserite le seguenti: «del presente articolo» e dopo le parole: «del medesimo articolo» sono aggiunte le seguenti: «5 del <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2022/50/!main" ns6:resolution="unresolved">decreto-legge n. 50 del 2022</ref>»; 
+ al comma 2, la parola: «<quotedText eId="modNov_2_old_2">partire</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_2_new_2">decorrere</quotedText>»; 
+ al comma 3: 
+ dopo la lettera b) e' inserita la seguente: 
+ «<quotedText eId="modNov_2_new_3">b-bis) dopo il comma 11 e' inserito il seguente: 
+ "11-bis. Il Commissario di cui al comma 1 provvede tempestivamente, attraverso la propria struttura, agli obblighi di pubblicazione previsti dal <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2013-03-14/33/!main" ns7:target="olf:it/decreto-legislativo/stato/2013/33" ns7:relation="cites">decreto legislativo 14 marzo 2013, n. 33</ref>"</quotedText>»; 
+ alla lettera c), le parole: «<quotedText eId="modNov_2_old_4">a seguito di ricollocazione</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_4">, a seguito di ricollocazione,</quotedText>».</mod>
+                                    <mod eId="modNov_3">Dopo l'articolo 3 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_3_new_5">Art. 3-bis (Misure urgenti per il contenimento degli effetti degli aumenti dei prezzi nel settore elettrico e del gas naturale). - 1. Per il terzo trimestre dell'anno 2023, le agevolazioni relative alle tariffe per la fornitura di energia elettrica riconosciute ai clienti domestici economicamente svantaggiati e ai clienti domestici in gravi condizioni di salute di cui al decreto del Ministro dello sviluppo economico 28 dicembre 2007, pubblicato nella Gazzetta Ufficiale n. 41 del 18 febbraio 2008, e la compensazione della spesa per la fornitura di gas naturale di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2008-11-29/185/!main#art_3-com9" ns8:target="olf:it/decreto-legge/stato/2008/185/art_3-com9" ns8:relation="cites">articolo 3, comma 9, del decreto-legge 29 novembre 2008, n. 185</ref>, convertito, con modificazioni, dalla <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2009-01-28/2/!main" ns9:target="olf:it/legge/stato/2009/2" ns9:relation="cites">legge 28 gennaio 2009, n. 2</ref>, sulla base dell'indicatore della situazione economica equivalente (ISEE) di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com17" ns10:target="olf:it/legge/stato/2022/197/art_1-com17" ns10:relation="cites">articolo 1, comma 17, della legge 29 dicembre 2022, n. 197</ref>, sono rideterminate dall'Autorita' di regolazione per energia, reti e ambiente (ARERA), tenendo conto di quanto stabilito dalla medesima Autorita' in attuazione dell'articolo 1, comma 18, della medesima <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2022-12-29/197/!main" ns11:target="olf:it/legge/stato/2022/197" ns11:relation="cites">legge 29 dicembre 2022, n. 197</ref>, nel limite di 110 milioni di euro per l'anno 2023, compresi gli effetti derivanti dall'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegge/stato/2023-03-30/34/!main#art_1-com2" ns12:target="olf:it/decreto-legge/stato/2023/34/art_1-com2" ns12:relation="repeals">articolo 1, comma 2, del decreto-legge 30 marzo 2023, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2023-05-26/56/!main" ns13:target="olf:it/legge/stato/2023/56" ns13:relation="cites">legge 26 maggio 2023, n. 56</ref>. Agli oneri derivanti dal presente comma, pari a 110 milioni di euro per l'anno 2023, si provvede ai sensi del comma 3. 
+ 2. Al fine di contenere, per il terzo trimestre 2023, gli effetti degli aumenti dei prezzi nel settore del gas naturale, l'ARERA provvede a mantenere azzerate, per il medesimo trimestre, le aliquote delle componenti tariffarie relative agli oneri generali di sistema per il settore del gas. Agli oneri derivanti dal presente comma, valutati in 175 milioni di euro per l'anno 2023, si provvede ai sensi del comma 3 
+ 3. Agli oneri derivanti dai commi 1 e 2 del presente articolo, determinati in 285 milioni di euro per l'anno 2023, si provvede a valere sulle risorse disponibili nel bilancio della Cassa per i servizi energetici e ambientali per l'anno 2023 derivanti da stanziamenti per il rafforzamento dei bonus sociali elettrico e gas. 
+ 4. In deroga a quanto previsto dal <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-10-26/633/!main" ns14:target="olf:it/dpr/stato/1972/633" ns14:relation="cites">decreto del Presidente della Repubblica 26 ottobre 1972, n. 633</ref>, le somministrazioni di gas metano destinato alla combustione per usi civili e per usi industriali previste all'articolo 26, comma 1, del testo unico delle disposizioni legislative concernenti le imposte sulla produzione e sui consumi e relative sanzioni penali e amministrative, di cui al <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/1995-10-26/504/!main" ns15:target="olf:it/decreto-legislativo/stato/1995/504" ns15:relation="amends">decreto legislativo 26 ottobre 1995, n. 504</ref>, contabilizzate nelle fatture emesse per i consumi stimati o effettivi dei mesi di luglio, agosto e settembre 2023, sono assoggettate all'aliquota dell'imposta sul valore aggiunto (IVA) del 5 per cento. Qualora le somministrazioni di cui al primo periodo siano contabilizzate sulla base di consumi stimati, l'aliquota IVA del 5 per cento si applica anche alla differenza tra gli importi stimati e gli importi ricalcolati sulla base dei consumi effettivi riferibili, anche percentualmente, ai mesi di luglio, agosto e settembre 2023. Agli oneri derivanti dal presente comma, valutati in 473,87 milioni di euro per l'anno 2023, si provvede ai sensi del comma 6. 
+ 5. La disposizione di cui al comma 4 si applica anche alle forniture di servizi di teleriscaldamento nonche' alle somministrazioni di energia termica prodotta con gas metano in esecuzione di un contratto di servizio energia di cui all'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2008-05-30/115/!main#art_16-com4" ns16:target="olf:it/decreto-legislativo/stato/2008/115/art_16-com4" ns16:relation="cites">articolo 16, comma 4, del decreto legislativo 30 maggio 2008, n. 115</ref>. Agli oneri derivanti dal presente comma, valutati in 15,44 milioni di euro per l'anno 2023, si provvede ai sensi del comma 6. 
+ 6. Agli oneri derivanti dai commi 4 e 5, valutati in 489,31 milioni di euro per l'anno 2023, si provvede mediante corrispondente utilizzo delle somme versate all'entrata del bilancio dello Stato da parte della Cassa per i servizi energetici e ambientali entro il 31 luglio 2023, a valere sul conto di gestione relativo al bonus sociale gas. 
+ Art. 3-ter (Misure in materia di produzione di energia da impianti alimentati da biogas e biomassa). - 1. Il <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/2011-03-03/28/!main#art_24-com8" ns17:target="olf:it/decreto-legislativo/stato/2011/28/art_24-com8" ns17:relation="amends">comma 8 dell'articolo 24 del decreto legislativo 3 marzo 2011, n. 28</ref>, e' sostituito dal seguente: 
+ "8. Entro centottanta giorni dalla data di entrata in vigore della presente disposizione, l'Autorita' di regolazione per energia, reti e ambiente provvede a definire prezzi minimi garantiti, ovvero integrazioni dei ricavi conseguenti alla partecipazione al mercato elettrico, per la produzione da impianti alimentati da biogas e biomassa, in esercizio alla data di entrata in vigore della presente disposizione, che beneficino di incentivi in scadenza entro il 31 dicembre 2027 ovvero che, entro il medesimo termine, rinuncino agli incentivi per aderire al regime di cui al presente comma, sulla base dei seguenti criteri: 
+ a) i prezzi minimi garantiti, ovvero le integrazioni dei ricavi, sono corrisposti a copertura dei costi di funzionamento, al fine di assicurare la prosecuzione dell'esercizio e il funzionamento efficiente dell'impianto; 
+ b) i prezzi minimi garantiti, ovvero le integrazioni dei ricavi, sono differenziati in base alla potenza dell'impianto; 
+ c) gli impianti rispettano i requisiti di cui all'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/2021-11-08/199/!main#art_42" ns18:target="olf:it/decreto-legislativo/stato/2021/199/art_42" ns18:relation="amends">articolo 42 del decreto legislativo 8 novembre 2021, n. 199</ref>; 
+ d) il valore dei prezzi minimi garantiti, ovvero delle integrazioni dei ricavi, e' aggiornato annualmente, tenendo conto dei valori di costo delle materie prime e della necessita' di promuovere la progressiva efficienza dei costi degli impianti, anche al fine di evitare incrementi dei prezzi delle materie prime correlati alla presenza di incentivi all'utilizzo energetico delle stesse". 
+ Art. 3-quater (Modifica al <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegislativo/stato/2010-02-11/22/!main" ns19:target="olf:it/decreto-legislativo/stato/2010/22" ns19:relation="amends">decreto legislativo 11 febbraio 2010, n. 22</ref>, in materia di coltivazione delle risorse geotermiche). - 1.
+All'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegislativo/stato/2010-02-11/22/!main#art_1" ns20:target="olf:it/decreto-legislativo/stato/2010/22/art_1" ns20:relation="amends">articolo 1 del decreto legislativo 11 febbraio 2010, n. 22</ref>, dopo il comma 3-bis.1 e' inserito il seguente: 
+ "3-bis.2. I soggetti titolari di permessi rilasciati ai sensi dell'articolo 3, comma 2-bis, trascorsi cinque anni dall'inizio dei lavori e tenuto conto dei risultati sperimentali in termini di ore annue di funzionamento, nell'ambito della successiva richiesta della concessione possono presentare contestualmente istanza di potenziamento con una variazione del programma dei lavori e agli stessi non si applica il limite di 5 MW di potenza nominale installata, di cui ai commi 3-bis e 3-bis.1, nonche' il limite di 40.000 MWh annui di energia immessa nel sistema elettrico, di cui al medesimo comma 3-bis.1". 
+ Art. 3-quinquies (Misure urgenti per incrementare la produzione di biometano nonche' l'impiego di prodotti energetici alternativi). - 1. All'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2011-03-03/28/!main#art_8bis" ns21:target="olf:it/decreto-legislativo/stato/2011/28/art_8bis" ns21:relation="amends">articolo 8-bis del decreto legislativo 3 marzo 2011, n. 28</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 1: 
+ 1) la lettera a-bis) e' sostituita dalla seguente: 
+ "a-bis) la procedura abilitativa semplificata per gli interventi di parziale o completa riconversione alla produzione di biometano di impianti di produzione di energia elettrica alimentati a biogas, gas di discarica o gas residuati dai processi di depurazione"; 
+ 2) dopo la lettera a-bis) e' inserita la seguente: 
+ "a-ter) la procedura abilitativa semplificata per gli interventi su impianti per la produzione di biometano in esercizio che non comportino un incremento dell'area gia' oggetto di autorizzazione, a prescindere dalla quantita' risultante di biometano immesso in rete a seguito degli interventi medesimi, nel rispetto delle seguenti condizioni: 
+ 1) nel caso di impianti collegati alla rete, vi sia la disponibilita' del gestore di rete a immettere i volumi aggiuntivi derivanti dalla realizzazione degli interventi; 
+ 2) gli interventi non comportino alcuna modifica delle tipologie di matrici gia' autorizzate; 
+ 3) la targa del sistema di upgrading indichi il valore di capacita' produttiva derivante dalla realizzazione degli interventi; 
+ 4) l'eventuale aumento delle aree dedicate alla digestione anaerobica non sia superiore al 50 per cento di quelle gia' autorizzate"; 
+ 3) alla lettera b), le parole: "di cui alla lettera a) e a-bis)" sono sostituite dalle seguenti: "di cui alle lettere a), a-bis) e a-ter)"»; 
+ b) il comma 1-bis e' abrogato. 
+ 2. Il trattamento specifico sul gasolio commerciale di cui all'articolo 24-ter del testo unico delle disposizioni legislative concernenti le imposte sulla produzione e sui consumi e relative sanzioni penali e amministrative, di cui al <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/1995-10-26/504/!main" ns22:target="olf:it/decreto-legislativo/stato/1995/504" ns22:relation="amends">decreto legislativo 26 ottobre 1995, n. 504</ref>, nonche' le altre agevolazioni previste per il gasolio nella tabella A allegata al medesimo testo unico si applicano, nel rispetto delle nonne prescritte, anche ai gasoli paraffinici ottenuti da sintesi o da idrotrattamento utilizzati, tal quali, nell'uso previsto in sostituzione del gasolio. 
+ Art. 3-sexies (Disposizioni in materia di infrastrutture strategiche in ambito energetico). - 1. Per il perseguimento di finalita' di sicurezza degli approvvigionamenti energetici nazionali, costituiscono infrastrutture strategiche le infrastrutture lineari energetiche appartenenti alla rete nazionale dei gasdotti, individuate ai sensi dell'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegislativo/stato/2000-05-23/164/!main#art_9" ns23:target="olf:it/decreto-legislativo/stato/2000/164/art_9" ns23:relation="cites">articolo 9 del decreto legislativo 23 maggio 2000, n. 164</ref>, nonche' gli oleodotti facenti parte delle reti nazionali di trasporto, la cui realizzazione ovvero il cui efficientamento siano volti ad assicurare l'approvvigionamento e il trasporto lungo la direttrice nazionale Sud-Nord ovvero lungo i corridoi infrastrutturali energetici europei mediante opere rientranti nell'elenco dell'Unione europea dei progetti di interesse comune di cui al regolamento (UE) n. 347/2013 del Parlamento europeo e del Consiglio, del 17 aprile 2013. Le infrastrutture strategiche di cui al primo periodo sono dichiarate di pubblica utilita' nonche' urgenti e indifferibili ai sensi delle normative vigenti. Le amministrazioni a qualunque titolo interessate nelle procedure autorizzative per la realizzazione ovvero per l'efficientamento delle infrastrutture strategiche di cui al primo periodo attribuiscono ad esse priorita' e urgenza nel quadro degli adempimenti e delle valutazioni di propria competenza. 
+ 2. Per la realizzazione ovvero per l'efficientamento delle infrastrutture strategiche di cui al comma 1, primo periodo, le proroghe, per casi di forza maggiore o per altre giustificate ragioni, dei termini previsti dall'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main#art_13-com3" ns24:target="olf:it/dpr/stato/2001/327/art_13-com3" ns24:relation="amends">articolo 13, commi 3</ref> e <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main#art_13-com4" ns25:target="olf:it/dpr/stato/2001/327/art_13-com4" ns25:relation="amends">4, del testo unico delle disposizioni legislative e regolamentari in materia di espropriazione per pubblica utilita'</ref>, di cui al <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns26:target="olf:it/dpr/stato/2001/327" ns26:relation="amends">decreto del Presidente della Repubblica 8 giugno 2001, n. 327</ref>, possono essere disposte, anche d'ufficio, prima della scadenza del termine per l'emanazione del decreto di esproprio e per un periodo di tempo complessivo non superiore a otto anni. 
+ 3. Al testo unico di cui al <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns27:target="olf:it/dpr/stato/2001/327" ns27:relation="amends">decreto del Presidente della Repubblica 8 giugno 2001, n. 327</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 6, comma 9-bis, dopo le parole: "nel caso di opere di minore entita'" sono inserite le seguenti: "e nei casi di cui all'articolo 52-quinquies, comma 2.1, del presente decreto"; 
+ b) all'articolo 52-quinquies, dopo il comma 2 e' inserito il seguente: 
+ "2.1. Fermo restando quanto previsto all'articolo 6, comma 9-bis, ai fini della realizzazione delle infrastrutture lineari energetiche di cui al comma 2 del presente articolo, l'autorita' espropriante, nei casi in cui l'avvio dei lavori rivesta carattere di urgenza ovvero qualora sussistano particolari ragioni di natura tecnica ovvero operativa, puo' delegare, in tutto o in parte, al soggetto proponente l'esercizio dei poteri espropriativi, determinando con chiarezza l'ambito della delega nell'atto di affidamento, i cui estremi devono essere specificati in ogni atto del procedimento di espropriazione. A tale scopo, i soggetti cui sono delegati i poteri espropriativi possono avvalersi delle societa' controllate nonche' di societa' di servizi ai fini delle attivita' preparatorie". 
+ Art. 3-septies (Attivita' di interesse generale svolta dagli enti del Terzo settore e dalle imprese sociali). - 1. All'articolo 5, comma 1, lettera e), del codice del Terzo settore, di cui al <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns28:target="olf:it/decreto-legislativo/stato/2017/117" ns28:relation="amends">decreto legislativo 3 luglio 2017, n. 117</ref>, le parole: "nonche' alla tutela degli animali e prevenzione del randagismo, ai sensi della <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/1991-08-14/281/!main" ns29:target="olf:it/legge/stato/1991/281" ns29:relation="cites">legge 14 agosto 1991, n. 281</ref>" sono sostituite dalle seguenti: "alla tutela degli animali e alla prevenzione del randagismo, ai sensi della <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/1991-08-14/281/!main" ns30:target="olf:it/legge/stato/1991/281" ns30:relation="cites">legge 14 agosto 1991, n. 281</ref>, nonche' alla produzione, all'accumulo e alla condivisione di energia da fonti rinnovabili a fini di autoconsumo, ai sensi del <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decretoLegislativo/stato/2021-11-08/199/!main" ns31:target="olf:it/decreto-legislativo/stato/2021/199" ns31:relation="amends">decreto legislativo 8 novembre 2021, n. 199</ref>". 
+ 2. All'<ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/112/!main#art_2-com1-lete" ns32:target="olf:it/decreto-legislativo/stato/2017/112/art_2-com1-lete" ns32:relation="amends">articolo 2, comma 1, lettera e), del decreto legislativo 3 luglio 2017, n. 112</ref>, sono aggiunte, in fine, le seguenti parole: ", nonche' alla produzione, all'accumulo e alla condivisione di energia da fonti rinnovabili a fini di autoconsumo, ai sensi del <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2021-11-08/199/!main" ns33:target="olf:it/decreto-legislativo/stato/2021/199" ns33:relation="amends">decreto legislativo 8 novembre 2021, n. 199</ref>". 
+ Art. 3-octies (Interventi di sostegno alla produzione di energia elettrica da fonti rinnovabili). - 1. All'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decretoLegislativo/stato/2021-11-08/199/!main#art_9" ns34:target="olf:it/decreto-legislativo/stato/2021/199/art_9" ns34:relation="amends">articolo 9 del decreto legislativo 8 novembre 2021, n. 199</ref>, dopo il comma 6 e' aggiunto il seguente: 
+ "6-bis. Per le procedure d'asta indette dal GSE a decorrere dalla data di entrata in vigore della presente disposizione, i valori delle tariffe di riferimento indicati nella tabella 1.1 dell'allegato 1 al citato decreto del Ministro dello sviluppo economico 4 luglio 2019 sono aggiornati, in fase di pubblicazione dei singoli bandi, da parte del GSE su base mensile, facendo riferimento all'indice nazionale dei prezzi al consumo per l'intera collettivita', per tenere conto dell'inflazione media cumulata tra il 1° agosto 2019 e il mese di pubblicazione del bando della relativa procedura.
+All'attuazione delle disposizioni di cui al presente comma si provvede senza nuovi o maggiori oneri per la finanza pubblica"</quotedText>».</mod>
+                                    <mod eId="modNov_4">Al titolo, le parole: «<quotedText eId="modNov_4_old_6">per gli enti territoriali, nonche' per garantire la tempestiva attuazione del Piano nazionale di ripresa e resilienza e</quotedText>» sono soppresse.</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
