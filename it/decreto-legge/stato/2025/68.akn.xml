@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2025-05-12/68/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2025-05-12/68"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legge:2025-05-12;68"/>
+                    <FRBRalias name="eli" value="eli/id/2025/05/12/25G00078/CONSOLIDATED/20250704"/>
+                    <FRBRdate date="2025-05-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/05/12/25G00078/CONSOLIDATED/20250704" aknrelname="eli/id/2025/05/12/25G00078/CONSOLIDATED/20250704">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Differimento del termine di cui all'articolo 21, comma 2, del decreto-legge 16 luglio 2020, n. 76, convertito, con modificazioni, dalla legge 11 settembre 2020, n. 120, in materia di responsabilita' erariale. (25G00078)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00078" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                            <nrdfa:span content="2025-05-12" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2025-05-12/68/ita@2025-05-12/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2025-05-12/68/ita@2025-05-12"/>
+                    <FRBRdate date="2025-05-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/05/12/25G00078/CONSOLIDATED/20250704/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/05/12/25G00078/CONSOLIDATED/20250704"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/05/12/25G00078/CONSOLIDATED/20250704/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2025-05-12/68/ita@2025-05-12/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2025-05-12/68/ita@2025-05-12.xml"/>
+                    <FRBRdate date="2025-05-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/05/12/25G00078/CONSOLIDATED/20250704/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-05-12" name="" number="108" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-05-12" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2025-07-04" eId="eventRef_1" source="rp1"/>
+            </lifecycle>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2025-05-12;68#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-07-16;76#21"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la modifica dell'art. 21, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO-LEGGE/stato/2025-05-12/68/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/LEGGE/stato/2025-07-02/100/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/05/12/25G00078/CONSOLIDATED/20250704">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Differimento del termine di cui all'articolo 21, comma 2, del decreto-legge 16 luglio 2020, n. 76, convertito, con modificazioni, dalla legge 11 settembre 2020, n. 120, in materia di responsabilita' erariale. (25G00078)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00078</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-05-12</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/05/12/25G00078/CONSOLIDATED/20250704/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/05/12/25G00078/CONSOLIDATED/20250704"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/05/12/25G00078/CONSOLIDATED/20250704/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/05/12/25G00078/CONSOLIDATED/20250704/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legge/stato/2025/68" nativeUrn="urn:nir:stato:decreto.legge:2025-05-12;68" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-05-12"><ns0:event type="enacted" date="2025-05-12"/><ns0:event type="published" date="2025-05-12"/><ns0:event type="commenced" date="2025-05-12"/><ns0:event type="amended" date="2025-07-04"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/08a78d40-9190-442e-b74b-b4850ac45e6f" sourceSha256="83b4108bcdb0238bc610af8a706ec32878928b9fe0a1b7c00756152e913efb9c" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:05:26.453605Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO-LEGGE</docType>
+                <docDate date="2025-05-12">12 maggio 2025</docDate>
+                <docNumber>68</docNumber>
+                <docTitle>Differimento del termine di cui all'articolo 21, comma 2, del decreto-legge 16 luglio 2020, n. 76, convertito, con modificazioni, dalla legge 11 settembre 2020, n. 120, in materia di responsabilita' erariale. (25G00078) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 12/05/2025
+
+Decreto-Legge convertito dalla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2025-07-02/100/!main" ns1:target="olf:it/legge/stato/2025/100" ns1:relation="cites">L. 2 luglio 2025, n. 100</ref> (in G.U. 04/07/2025, n. 153)</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visti gli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_77" ns2:target="olf:it/costituzione/stato/1947/const/art_77" ns2:relation="cites">articoli 77</ref> e <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns3:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns3:relation="cites">87, quinto comma, della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Vista la <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/legge/stato/1988-08-23/400/!main" ns4:target="olf:it/legge/stato/1988/400" ns4:relation="cites">legge 23 agosto 1988, n. 400</ref>, recante «Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei Ministri» e, in particolare, l'articolo 15;</p>
+                </citation>
+            </citations>
+            <p>Ritenuta la straordinaria necessita' e urgenza di continuare ad applicare la disciplina di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_5" href="/akn/it/act/decretoLegge/stato/2020-07-16/76/!main#art_21-com2" ns5:target="olf:it/decreto-legge/stato/2020/76/art_21-com2" ns5:relation="amends">articolo 21, comma 2, del decreto-legge 16 luglio 2020, n. 76</ref>, convertito, con modificazioni, dalla <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_6" href="/akn/it/act/legge/stato/2020-09-11/120/!main" ns6:target="olf:it/legge/stato/2020/120" ns6:relation="cites">legge 11 settembre 2020, n. 120</ref>, relativo alla responsabilita' erariale;</p>
+            <p>Ritenuta l'urgenza di garantire la continuita' dell'azione amministrativa e di preservare l'efficienza e l'efficacia dell'azione delle pubbliche amministrazioni;</p>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione del 9 maggio 2025;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Presidente del Consiglio dei ministri;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto-legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Differimento del termine in materia di responsabilita' erariale 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il termine di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegge/stato/2020-07-16/76/!main#art_21-com2" ns7:target="olf:it/decreto-legge/stato/2020/76/art_21-com2" ns7:relation="amends">articolo 21, comma 2, del decreto-legge 16 luglio 2020, n. 76</ref>, convertito, con modificazioni, dalla <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2020-09-11/120/!main" ns8:target="olf:it/legge/stato/2020/120" ns8:relation="cites">legge 11 settembre 2020, n. 120</ref>, relativo alla responsabilita' erariale e' differito al 31 dicembre 2025. La disciplina ivi prevista trova applicazione anche per i fatti commessi tra il 30 aprile 2025 e la data di entrata in vigore del presente decreto. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il presente decreto entra in vigore il giorno stesso della sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana e sara' presentato alle Camere per la conversione in legge. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 12 maggio 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
