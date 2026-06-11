@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-02-09/12/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-02-09/12"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-02-09;12"/>
+                    <FRBRalias name="eli" value="eli/id/2023/02/17/23G00019/ORIGINAL"/>
+                    <FRBRdate date="2023-02-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/02/17/23G00019/ORIGINAL" aknrelname="eli/id/2023/02/17/23G00019/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Istituzione di una Commissione parlamentare di inchiesta sul femminicidio, nonche' su ogni forma di violenza di genere. (23G00019)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00019" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-02-09" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-02-09/12/ita@2023-02-18/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-02-09/12/ita@2023-02-18"/>
+                    <FRBRdate date="2023-02-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/02/17/23G00019/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/02/17/23G00019/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/02/17/23G00019/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-02-09/12/ita@2023-02-18/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-02-09/12/ita@2023-02-18.xml"/>
+                    <FRBRdate date="2023-02-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/02/17/23G00019/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-02-17" name="" number="41" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-02-17" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2023-02-09" refersTo="#S.93"/>
+                <step by="#senato" date="2023-02-09" refersTo="#S.338"/>
+                <step by="#senato" date="2023-02-09" refersTo="#S.353"/>
+                <step by="#camera" date="2023-02-09" refersTo="#C.640"/>
+                <step by="#senato" date="2023-02-09" refersTo="#S.93-338-353-B"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-02-09;12#7"/>
+                        <destination href="urn:nir:stato:legge:1975-04-14;103#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 7, comma 1) la modifica dell'art. 1, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/1975-04-14/103/ita@2023-02-18/!main/~art_1__para_3"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-02-09/12/!main" showAs=""/>
+                <passiveRef eId="S.93" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;93" showAs=""/>
+                <passiveRef eId="S.338" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;338" showAs=""/>
+                <passiveRef eId="S.353" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;353" showAs=""/>
+                <passiveRef eId="C.640" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;640" showAs=""/>
+                <passiveRef eId="S.93-338-353-B" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;93-338-353-B" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/02/17/23G00019/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Istituzione di una Commissione parlamentare di inchiesta sul femminicidio, nonche' su ogni forma di violenza di genere. (23G00019)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00019</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-02-09</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/02/17/23G00019/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/02/17/23G00019/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/02/17/23G00019/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/02/17/23G00019/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/12" nativeUrn="urn:nir:stato:legge:2023-02-09;12" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-02-17"><ns0:event type="enacted" date="2023-02-09"/><ns0:event type="published" date="2023-02-17"/><ns0:event type="commenced" date="2023-02-17"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/bc47edae-20b1-4dc8-8ba0-6eeb887cc81a" sourceSha256="f733ba635e0f262d57af191e9aa662171887e6331074ef56ad7798dd1530df93" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T22:13:05.378749Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-02-09">09 febbraio 2023</docDate>
+                <docNumber>12</docNumber>
+                <docTitle>Istituzione di una Commissione parlamentare di inchiesta sul femminicidio, nonche' su ogni forma di violenza di genere. (23G00019) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 18/02/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Istituzione e durata della Commissione</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>E' istituita, ai sensi dell'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_82" ns1:target="olf:it/costituzione/stato/1947/const/art_82" ns1:relation="cites">articolo 82 della Costituzione</ref>, per la durata della XIX legislatura, una Commissione parlamentare di inchiesta sul femminicidio, nonche' su ogni forma di violenza di genere, di seguito denominata «Commissione». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Commissione, al termine dei propri lavori, presenta la relazione conclusiva di cui all'articolo 3, comma 10. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'art. 10, commi 2 e 3 del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ Il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_82" ns3:target="olf:it/costituzione/stato/1947/const/art_82" ns3:relation="cites">art. 82 della Costituzione</ref> e' il seguente: «Art. 82. Ciascuna Camera puo' disporre inchieste su materie di pubblico interesse. A tale scopo nomina fra i propri componenti una commissione formata in modo da rispecchiare la proporzione dei vari gruppi. La commissione di inchiesta procede alle indagini e agli esami con gli stessi poteri e le stesse limitazioni della Autorita' giudiziaria.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Compiti della Commissione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>La Commissione ha il compito di: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>svolgere indagini sulle reali dimensioni, condizioni, qualita' e cause del femminicidio, inteso come uccisione di una donna fondata sul genere e, piu' in generale, di ogni forma di violenza maschile contro le donne; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>monitorare la concreta attuazione della Convenzione del Consiglio d'Europa sulla prevenzione e la lotta contro la violenza nei confronti delle donne e la violenza domestica, fatta a Istanbul l'11 maggio 2011, ratificata e resa esecutiva ai sensi della <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2013-06-27/77/!main" ns4:target="olf:it/legge/stato/2013/77" ns4:relation="cites">legge 27 giugno 2013, n. 77</ref>, e di ogni altro accordo sovranazionale e internazionale in materia, nonche' della legislazione nazionale ispirata agli stessi principi, con particolare riguardo al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegge/stato/2013-08-14/93/!main" ns5:target="olf:it/decreto-legge/stato/2013/93" ns5:relation="cites">decreto-legge 14 agosto 2013, n. 93</ref>, convertito, con modificazioni, dalla <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2013-10-15/119/!main" ns6:target="olf:it/legge/stato/2013/119" ns6:relation="cites">legge 15 ottobre 2013, n. 119</ref>, nonche' alla <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2019-07-19/69/!main" ns7:target="olf:it/legge/stato/2019/69" ns7:relation="cites">legge 19 luglio 2019, n. 69</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>accertare le possibili incongruita' e carenze della normativa vigente rispetto al fine di tutelare la vittima della violenza e gli eventuali minori coinvolti; verificare altresi' la possibilita' di una rivisitazione sotto il profilo penale della fattispecie riferita alle molestie sessuali, con particolare riferimento a quelle perpetrate in luoghi di lavoro; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>accertare il livello di formazione e di attenzione e la capacita' d'intervento delle autorita' e delle pubbliche amministrazioni, centrali e periferiche, competenti a svolgere attivita' di prevenzione e di assistenza; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>verificare, come raccomandato dall'Organizzazione mondiale della sanita', l'effettiva realizzazione da parte delle istituzioni di progetti nelle scuole di ogni ordine e grado, finalizzati all'educazione al rispetto reciproco nelle relazioni tra uomini e donne e al riconoscimento e al rispetto di tutte le diversita'; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>analizzare gli episodi di femminicidio, verificatisi a partire dal 2016, per accertare se siano riscontrabili condizioni o comportamenti ricorrenti, valutabili sul piano statistico, allo scopo di orientare l'azione di prevenzione; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>monitorare l'effettiva applicazione da parte delle regioni del Piano antiviolenza e delle linee guida nazionali per le aziende sanitarie e ospedaliere in tema di soccorso e assistenza sociosanitaria alle vittime di violenza e ai loro parenti fino al terzo grado vittime di violenza assistita; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_h">
+                            <num>h)</num>
+                            <content>
+                                <p>monitorare l'effettiva destinazione alle strutture che si occupano della violenza maschile contro le donne delle risorse stanziate dal citato <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2013/93/!main" ns8:resolution="unresolved">decreto-legge n. 93 del 2013</ref>, convertito, con modificazioni, dalla <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2013/119/!main" ns9:resolution="unresolved">legge n. 119 del 2013</ref>, e dalle leggi di stabilita' e dalle leggi di bilancio a partire dalla legge di stabilita' 2011; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_i">
+                            <num>i)</num>
+                            <content>
+                                <p>monitorare l'attivita' svolta dai centri antiviolenza operanti sul territorio, quali interlocutori necessari delle istituzioni nella costruzione delle politiche di contrasto al fenomeno della violenza maschile sulle donne, attingendo dall'esperienza da loro acquisita in oltre trenta anni di attivita', nonche' monitorare e valorizzare l'attivita' svolta dai centri di riabilitazione per uomini maltrattanti; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_l">
+                            <num>l)</num>
+                            <content>
+                                <p>proporre interventi normativi e finanziari strutturali, anche attraverso una revisione del Piano d'azione straordinario, per far si' che tutta la rete dei centri antiviolenza e delle case rifugio presenti sul territorio nazionale e la predisposizione di percorsi di emancipazione e reinserimento nel mondo del lavoro siano finanziate in modo certo, stabile e costante nel tempo, cosi' da scongiurarne il rischio di chiusura e consentire l'organizzazione di percorsi strutturati per far riemergere le donne dalla spirale delle violenze anche psicologiche; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_m">
+                            <num>m)</num>
+                            <content>
+                                <p>proporre soluzioni di carattere legislativo e amministrativo al fine di realizzare la piu' adeguata prevenzione e il piu' efficace contrasto del femminicidio e, piu' in generale, di ogni forma di violenza maschile contro le donne, nonche' di tutelare le vittime delle violenze e gli eventuali minori coinvolti; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_n">
+                            <num>n)</num>
+                            <content>
+                                <p>adottare iniziative per la redazione di testi unici in materia, riepilogativi degli assetti normativi dei vari settori di interesse, al fine di migliorare la coerenza e la completezza della regolamentazione. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Commissione svolge i compiti di cui al comma 1 anche avvalendosi del lavoro istruttorio e della relazione finale della Commissione parlamentare di inchiesta sul femminicidio, nonche' su ogni forma di violenza di genere, istituita dal Senato della Repubblica nella XVIII legislatura. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2013-06-27/77/!main#art_2" ns10:target="olf:it/legge/stato/2013/77/art_2" ns10:relation="cites">art. 2: 
+ La legge 27 giugno 2013, n. 77</ref>, recante «Ratifica ed esecuzione della Convenzione del Consiglio d'Europa sulla prevenzione e la lotta contro la violenza nei confronti delle donne e la violenza domestica, fatta a Istanbul l'11 maggio 2011», e' pubblicata nella Gazzetta Ufficiale n. 152 del 1° luglio 2013. 
+ Il <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegge/stato/2013-08-14/93/!main" ns11:target="olf:it/decreto-legge/stato/2013/93" ns11:relation="cites">decreto-legge 14 agosto 2013, n. 93</ref>, convertito, con modificazioni, dalla <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2013-10-15/119/!main" ns12:target="olf:it/legge/stato/2013/119" ns12:relation="cites">legge 15 ottobre 2013, n. 119</ref>, recante «Disposizioni urgenti in materia di sicurezza e per il contrasto della violenza di genere, nonche' in tema di protezione civile e di commissariamento delle province», e' pubblicato nella Gazzetta Ufficiale n. 191 del 16 agosto 2013. 
+ La <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2019-07-19/69/!main" ns13:target="olf:it/legge/stato/2019/69" ns13:relation="cites">legge 19 luglio 2019, n. 69</ref>, recante «Modifiche al <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns14:target="olf:it/regio-decreto/stato/1930/1398" ns14:relation="cites">codice penale</ref>, al <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns15:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns15:relation="cites">codice di procedura penale</ref> e altre disposizioni in materia di tutela delle vittime di violenza domestica e di genere», e' pubblicata nella Gazzetta Ufficiale n. 173 del 25 luglio 2019. 
+ La <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2010-12-13/220/!main" ns16:target="olf:it/legge/stato/2010/220" ns16:relation="cites">legge 13 dicembre 2010, n. 220</ref>, recante «Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato (Legge di stabilita' 2011)», e' pubblicata nel Supplemento ordinario n. 281 alla Gazzetta Ufficiale n. 297 del 21 dicembre 2010. 
+ La <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2011-11-12/183/!main" ns17:target="olf:it/legge/stato/2011/183" ns17:relation="cites">legge 12 novembre 2011, n. 183</ref>, recante «Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato (Legge di stabilita' 2012)», e' pubblicata nel Supplemento ordinario n. 234 alla Gazzetta Ufficiale n. 265 del 14 novembre 2011. 
+ La <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2012-12-24/228/!main" ns18:target="olf:it/legge/stato/2012/228" ns18:relation="cites">legge 24 dicembre 2012, n. 228</ref>, recante «Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato (Legge di stabilita' 2013)», e' pubblicata nel Supplemento ordinario n. 212 alla Gazzetta Ufficiale n. 302 del 29 dicembre 2012; 
+ La <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2013-12-27/147/!main" ns19:target="olf:it/legge/stato/2013/147" ns19:relation="cites">legge 27 dicembre 2013, n. 147</ref>, recante «Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato (legge di stabilita' 2014)», e' pubblicata nel Supplemento ordinario n. 87 alla Gazzetta Ufficiale n. 302 del 27 dicembre 2013. 
+ La <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2014-12-23/190/!main" ns20:target="olf:it/legge/stato/2014/190" ns20:relation="cites">legge 23 dicembre 2014, n. 190</ref>, recante «Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato (legge di stabilita' 2015)», e' pubblicata nel Supplemento ordinario n. 99 alla Gazzetta Ufficiale n. 300 del 29 dicembre 2014. 
+ La <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/2015-12-28/208/!main" ns21:target="olf:it/legge/stato/2015/208" ns21:relation="cites">legge 28 dicembre 2015, n. 208</ref>, recante «Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato (legge di stabilita' 2016)», e' pubblicata nel Supplemento ordinario n. 70 alla Gazzetta Ufficiale n. 302 del 30 dicembre 2015. 
+ La <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2016-12-11/232/!main" ns22:target="olf:it/legge/stato/2016/232" ns22:relation="cites">legge 11 dicembre 2016, n. 232</ref>, recante «Bilancio di previsione dello Stato per l'anno finanziario 2017 e bilancio pluriennale per il triennio 2017-2019», e' pubblicata nel Supplemento ordinario n. 57 alla Gazzetta Ufficiale n. 297 del 21 dicembre 2016. 
+ La <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2017-12-27/205/!main" ns23:target="olf:it/legge/stato/2017/205" ns23:relation="cites">legge 27 dicembre 2017, n. 205</ref>, recante «Bilancio di previsione dello Stato per l'anno finanziario 2018 e bilancio pluriennale per il triennio 2018-2020», e' pubblicata nel Supplemento ordinario n. 62 alla Gazzetta Ufficiale n. 302 del 29 dicembre 2017. 
+ La <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2018-12-30/145/!main" ns24:target="olf:it/legge/stato/2018/145" ns24:relation="cites">legge 30 dicembre 2018, n. 145</ref>, recante «Bilancio di previsione dello Stato per l'anno finanziario 2019 e bilancio pluriennale per il triennio 2019-2021», e' pubblicata nel Supplemento ordinario n. 62 alla Gazzetta Ufficiale n. 302 del 31 dicembre 2018. 
+ La <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/2019-12-27/160/!main" ns25:target="olf:it/legge/stato/2019/160" ns25:relation="cites">legge 27 dicembre 2019, n. 160</ref>, recante «Bilancio di previsione dello Stato per l'anno finanziario 2020 e bilancio pluriennale per il triennio 2020-2022», e' pubblicata nel Supplemento ordinario n. 45 alla Gazzetta Ufficiale n. 304 del 30 dicembre 2019. 
+ La <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/legge/stato/2020-12-30/178/!main" ns26:target="olf:it/legge/stato/2020/178" ns26:relation="cites">legge 30 dicembre 2020, n. 178</ref>, recante «Bilancio di previsione dello Stato per l'anno finanziario 2021 e bilancio pluriennale per il triennio 2021-2023», e' pubblicata nel Supplemento ordinario n. 46 alla Gazzetta Ufficiale n. 322 del 30 dicembre 2020. 
+ La <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2021-12-30/234/!main" ns27:target="olf:it/legge/stato/2021/234" ns27:relation="cites">legge 30 dicembre 2021, n. 234</ref>, recante «Bilancio di previsione dello Stato per l'anno finanziario 2022 e bilancio pluriennale per il triennio 2022-2024», e' pubblicata nel Supplemento ordinario n. 43 alla Gazzetta Ufficiale n. 310 del 31 dicembre 2021. 
+ La <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/2022-12-29/197/!main" ns28:target="olf:it/legge/stato/2022/197" ns28:relation="cites">legge 29 dicembre 2022, n. 197</ref>, recante «Bilancio di previsione dello Stato per l'anno finanziario 2023 e bilancio pluriennale per il triennio 2023-2025», e' pubblicata nel Supplemento ordinario n. 49 alla Gazzetta Ufficiale n. 303 del 29 dicembre 2022. 
+ La delibera del Senato della Repubblica 16 ottobre 2018, recante «Istituzione di una Commissione parlamentare di inchiesta sul femminicidio, nonche' su ogni forma di violenza di genere», e' pubblicata nella Gazzetta Ufficiale n. 249 del 25 ottobre 2018. 
+ La delibera del Senato della Repubblica 5 febbraio 2020, recante «Proroga del termine di cui all'art. 1, comma 2, della deliberazione del 16 ottobre 2018, recante "Istituzione di una Commissione parlamentare di inchiesta sul femminicidio, nonche' su ogni forma di violenza di genere"», e' pubblicata nella Gazzetta Ufficiale n. 32 dell'8 febbraio 2020. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Poteri della Commissione</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Commissione procede alle indagini e agli esami con gli stessi poteri e con le stesse limitazioni dell'autorita' giudiziaria. La Commissione non puo' adottare provvedimenti attinenti alla liberta' e alla segretezza della corrispondenza e di ogni altra forma di comunicazione, nonche' alla liberta' personale, fatto salvo l'accompagnamento coattivo di cui all'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_133" ns29:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_133" ns29:relation="cites">articolo 133 del codice di procedura penale</ref>. Ferme restando le competenze dell'autorita' giudiziaria, per le testimonianze rese davanti alla Commissione si applicano le disposizioni degli <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_366" ns30:target="olf:it/regio-decreto/stato/1930/1398/art_366" ns30:relation="cites">articoli 366</ref> e <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_372" ns31:target="olf:it/regio-decreto/stato/1930/1398/art_372" ns31:relation="cites">372 del codice penale</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Commissione puo' richiedere agli organi e agli uffici della pubblica amministrazione copie di atti e di documenti da essi custoditi, prodotti o comunque acquisiti in materie attinenti all'inchiesta. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La Commissione puo' richiedere, nelle materie attinenti all'inchiesta, copie di atti e di documenti riguardanti procedimenti e inchieste in corso presso l'autorita' giudiziaria o altri organi inquirenti, nonche' copie di atti e di documenti relativi a indagini e inchieste parlamentari. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Sulle richieste di cui al comma 3 l'autorita' giudiziaria provvede ai sensi dell'<ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_117" ns32:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_117" ns32:relation="cites">articolo 117 del codice di procedura penale</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>La Commissione mantiene il segreto fino a quando gli atti e i documenti trasmessi in copia ai sensi del comma 3 sono coperti da segreto nei termini indicati dai soggetti che li hanno trasmessi. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Fermo restando quanto previsto dal comma 5, la Commissione stabilisce quali atti e documenti non devono essere divulgati, anche in relazione a esigenze attinenti ad altre istruttorie o inchieste in corso. Devono in ogni caso essere coperti dal segreto gli atti, le testimonianze e i documenti attinenti a procedimenti giudiziari nella fase delle indagini preliminari fino al termine delle stesse. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Per il segreto d'ufficio, professionale e bancario si applicano le norme vigenti in materia. E' sempre opponibile il segreto tra difensore e parte processuale nell'ambito del mandato. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Per il segreto di Stato si applica quanto previsto dalla <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2007-08-03/124/!main" ns33:target="olf:it/legge/stato/2007/124" ns33:relation="cites">legge 3 agosto 2007, n. 124</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_9">
+                    <num>9.</num>
+                    <content>
+                        <p>La Commissione puo' organizzare i propri lavori tramite uno o piu' gruppi di lavoro, disciplinati dal regolamento di cui all'articolo 6, comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_10">
+                    <num>10.</num>
+                    <content>
+                        <p>La Commissione termina i propri lavori con la presentazione di una relazione finale nella quale illustra l'attivita' svolta, le conclusioni di sintesi e le proposte, in conformita' a quanto stabilito dagli articoli 1 e 2. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_11">
+                    <num>11.</num>
+                    <content>
+                        <p>Possono essere presentate e discusse in Commissione relazioni di minoranza. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 3: 
+ Si riporta il testo degli <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_133" ns34:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_133" ns34:relation="cites">articoli 133</ref>, <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_366" ns35:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_366" ns35:relation="cites">366</ref>, <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_372" ns36:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_372" ns36:relation="cites">372</ref> e <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_117" ns37:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_117" ns37:relation="cites">117, del codice di procedura penale</ref>: 
+ «Art. 133 (Accompagnamento coattivo di altre persone). - 1. Se il testimone, il perito, la persona sottoposta all'esame del perito diversa dall'imputato, il consulente tecnico, l'interprete o il custode di cose sequestrate, regolarmente citati o convocati, omettono senza un legittimo impedimento di comparire nel luogo, giorno e ora stabiliti, il giudice puo' ordinarne l'accompagnamento coattivo e puo' altresi' condannarli, con ordinanza, a pagamento di una somma da euro 51 a euro 516 a favore della cassa delle ammende nonche' alle spese alle quali la mancata comparizione ha dato causa. 
+ 1-bis. La disposizione di cui al comma 1 non si applica in caso di mancata comparizione del querelante all'udienza in cui sia stato citato a comparire come testimone, limitatamente ai casi in cui la mancata comparizione del querelante integra remissione tacita di querela, nei casi in cui essa e' consentita. 
+ 2. Si applicano le disposizioni dell'art. 132.» 
+ «Art. 366 (Rifiuto di uffici legalmente dovuti). - Chiunque, nominato dall'autorita' giudiziaria perito, interprete, ovvero custode di cose sottoposte a sequestro dal giudice penale, ottiene con mezzi fraudolenti l'esenzione dall'obbligo di comparire o di prestare il suo ufficio, e' punito con la reclusione fino a sei mesi o con la multa da euro 30 a euro 516. 
+ Le stesse pene si applicano a chi, chiamato dinanzi all'autorita' giudiziaria per adempiere ad alcuna delle predette funzioni, rifiuta di dare le proprie generalita', ovvero di prestare il giuramento richiesto, ovvero di assumere o di adempiere le funzioni medesime. 
+ Le disposizioni precedenti si applicano alla persona chiamata a deporre come testimonio dinanzi all'autorita' giudiziaria e ad ogni altra persona chiamata ad esercitare una funzione giudiziaria. 
+ Se il colpevole e' un perito o un interprete, la condanna importa l'interdizione dalla professione o dall'arte.» 
+ «Art. 372 (Falsa testimonianza). - Chiunque, deponendo come testimone innanzi all'autorita' giudiziaria o alla Corte penale internazionale, afferma il falso o nega il vero, ovvero tace, in tutto o in parte, cio' che sa intorno ai fatti sui quali e' interrogato, e' punito con la reclusione da due a sei anni.» 
+ «Art. 117 (Richiesta di copie di atti e di informazioni da parte del pubblico ministero). - 1. Fermo quanto disposto dall'art. 371, quando e' necessario per il compimento delle proprie indagini, il pubblico ministero puo' ottenere dall'autorita' giudiziaria competente, anche in deroga al divieto stabilito dall'art. 329, copie di atti relativi ad altri procedimenti penali e informazioni scritte sul loro contenuto. L'autorita' giudiziaria puo' trasmettere le copie e le informazioni anche di propria iniziativa. 
+ 2. L'autorita' giudiziaria provvede senza ritardo e puo' rigettare la richiesta con decreto motivato. 
+ 2-bis. Il procuratore nazionale antimafia e antiterrorismo, nell'ambito delle funzioni previste dall'art. 371-bis accede al registro delle notizie di reato, al registro di cui all'art. 81 del codice delle leggi antimafia e delle misure di prevenzione, di cui al <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns38:target="olf:it/decreto-legislativo/stato/2011/159" ns38:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref>, nonche' a tutti gli altri registri relativi al procedimento penale e al procedimento per l'applicazione delle misure di prevenzione. Il procuratore nazionale antimafia e antiterrorismo accede, altresi', alle banche di dati logiche dedicate alle procure distrettuali e realizzate nell'ambito della banca di dati condivisa della Direzione nazionale antimafia e antiterrorismo.». 
+ La <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/legge/stato/2007-08-03/124/!main" ns39:target="olf:it/legge/stato/2007/124" ns39:relation="cites">legge 3 agosto 2007, n. 124</ref>, recante «Sistema di informazione per la sicurezza della Repubblica e nuova disciplina del segreto», e' pubblicata nella Gazzetta Ufficiale n. 187 del 13 agosto 2007. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Composizione della Commissione</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Commissione e' composta da diciotto senatori e da diciotto deputati, scelti rispettivamente dal Presidente del Senato della Repubblica e dal Presidente della Camera dei deputati, in proporzione al numero dei componenti dei gruppi parlamentari, comunque assicurando la presenza di almeno un deputato per ciascun gruppo esistente alla Camera dei deputati e di almeno un senatore per ciascun gruppo esistente al Senato della Repubblica e favorendo l'equilibrata rappresentanza di senatrici e senatori, di deputate e deputati. I componenti sono nominati anche tenendo conto della specificita' dei compiti assegnati alla Commissione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il Presidente del Senato della Repubblica e il Presidente della Camera dei deputati, entro dieci giorni dalla nomina dei suoi componenti, convocano la Commissione per la costituzione dell'ufficio di presidenza. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>L'ufficio di presidenza, composto dal presidente, da due vicepresidenti e da due segretari, e' eletto dai componenti della Commissione a scrutinio segreto. Per l'elezione del presidente e' necessaria la maggioranza assoluta dei componenti della Commissione; se nessuno riporta tale maggioranza si procede al ballottaggio tra i due candidati che hanno ottenuto il maggior numero di voti. E' eletto il candidato che ottiene il maggior numero di voti. In caso di parita' di voti e' proclamato eletto o entra in ballottaggio il piu' anziano di eta'. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Per l'elezione, rispettivamente, dei due vicepresidenti e dei due segretari, ciascun componente della Commissione scrive sulla propria scheda un solo nome. Sono eletti coloro che hanno ottenuto il maggior numero di voti. In caso di parita' di voti si procede ai sensi del comma 3, quarto periodo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Le disposizioni di cui ai commi 3 e 4 si applicano anche per le elezioni suppletive. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Obbligo del segreto</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>I componenti della Commissione, il personale addetto alla stessa e ogni altra persona che collabora con la Commissione o compie o concorre a compiere atti di inchiesta oppure ne viene a conoscenza per ragioni d'ufficio o di servizio sono obbligati al segreto per tutto quanto riguarda gli atti e i documenti di cui all'articolo 3. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Salvo che il fatto costituisca piu' grave reato, la violazione del segreto e' punita ai sensi dell'<ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_326" ns40:target="olf:it/regio-decreto/stato/1930/1398/art_326" ns40:relation="cites">articolo 326 del codice penale</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Salvo che il fatto costituisca piu' grave reato, le stesse pene si applicano a chiunque diffonda in tutto o in parte, anche per riassunto o informazione, atti o documenti del procedimento di inchiesta dei quali sia stata vietata la divulgazione. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'art. 5: 
+ Il testo dell'<ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_326" ns41:target="olf:it/regio-decreto/stato/1930/1398/art_326" ns41:relation="cites">art. 326 del codice penale</ref> e' il seguente: 
+ «Art. 326 (Rivelazione ed utilizzazione di segreti di ufficio). - Il pubblico ufficiale o la persona incaricata di un pubblico servizio, che, violando i doveri inerenti alle funzioni o al servizio, o comunque abusando della sua qualita', rivela notizie di ufficio (2), le quali debbano rimanere segrete, o ne agevola in qualsiasi modo la conoscenza, e' punito con la reclusione da sei mesi a tre anni. 
+ Se l'agevolazione e' soltanto colposa, si applica la reclusione fino a un anno. 
+ Il pubblico ufficiale o la persona incaricata di un pubblico servizio, che, per procurare a se' o ad altri un indebito profitto patrimoniale, si avvale illegittimamente di notizie di ufficio, le quali debbano rimanere segrete, e' punito con la reclusione da due a cinque anni. Se il fatto e' commesso al fine di procurare a se' o ad altri un ingiusto profitto non patrimoniale o di cagionare ad altri un danno ingiusto, si applica la pena della reclusione fino a due anni.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Organizzazione interna</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>L'attivita' e il funzionamento della Commissione e dei gruppi di lavoro istituiti ai sensi dell'articolo 3, comma 9, sono disciplinati da un regolamento interno approvato dalla Commissione stessa prima dell'inizio dell'attivita' di inchiesta. Ciascun componente puo' proporre la modifica delle disposizioni regolamentari. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le sedute della Commissione sono pubbliche. Tutte le volte che lo ritenga opportuno la Commissione puo' riunirsi in seduta segreta. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La Commissione puo' avvalersi dell'opera di agenti e ufficiali di polizia giudiziaria e di tutte le collaborazioni che ritenga necessarie, di soggetti interni ed esterni all'amministrazione dello Stato, autorizzati, ove occorra e con il loro consenso, dagli organi a cio' deputati e dai Ministeri competenti. Con il regolamento interno di cui al comma 1 e' stabilito il numero massimo di collaborazioni di cui puo' avvalersi la Commissione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Per l'adempimento delle sue funzioni la Commissione fruisce di personale, locali e strumenti operativi messi a disposizione dai Presidenti delle Camere, d'intesa tra loro. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Le spese per il funzionamento della Commissione sono stabilite nel limite massimo di 100.000 euro annui e sono poste per meta' a carico del bilancio interno del Senato della Repubblica e per meta' a carico del bilancio interno della Camera dei deputati. I Presidenti del Senato della Repubblica e della Camera dei deputati, con determinazione adottata d'intesa tra loro, possono autorizzare annualmente un incremento delle spese di cui al primo periodo, comunque in misura non superiore al 30 per cento, a seguito di richiesta formulata dal presidente della Commissione per motivate esigenze connesse allo svolgimento dell'inchiesta. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>La Commissione dispone dei documenti acquisiti e prodotti nel corso dell'attivita' propria e delle Commissioni parlamentari d'inchiesta aventi il medesimo oggetto precedentemente istituite nella XVII e XVIII legislatura. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading>Modifica della composizione della Commissione parlamentare per l'indirizzo generale e la vigilanza dei servizi radiotelevisivi</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">All'<ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/legge/stato/1975-04-14/103/!main#art_1" ns42:target="olf:it/legge/stato/1975/103/art_1" ns42:relation="amends">articolo 1 della legge 14 aprile 1975, n. 103</ref>, il terzo comma e' sostituito dal seguente: 
+ «<quotedText eId="modNov_1_new_1">Essa e' composta da ventuno senatori e da ventuno deputati, nominati rispettivamente dal Presidente del Senato della Repubblica e dal Presidente della Camera dei deputati, in proporzione al numero dei componenti dei gruppi parlamentari, comunque assicurando la presenza di almeno un deputato per ciascun gruppo esistente alla Camera dei deputati e di almeno un senatore per ciascun gruppo esistente al Senato della Repubblica</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_5" placement="bottom">
+                                <p> Note all'art. 7: 
+ Il testo dell'<ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/legge/stato/1975-04-14/103/!main#art_1" ns43:target="olf:it/legge/stato/1975/103/art_1" ns43:relation="amends">art. 1 della legge 14 aprile 1975, n. 103</ref>, recante «Nuove norme in materia di diffusione radiofonica e televisiva», pubblicata nella Gazzetta Ufficiale n 102 del 17 aprile 1975, come modificato dalla presente legge, e' il seguente: 
+ «Art. 1. Ai fini dell'attuazione delle finalita' di cui al primo comma e dei principi, di cui al secondo comma, la determinazione dell'indirizzo generale e l'esercizio della vigilanza dei servizi radiotelevisivi competono alla Commissione prevista dal <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/decreto.legislativo/capo.provvisorio.stato/1947-04-03/428/!main" ns44:target="olf:it/decreto-legislativo/capo-provvisorio-stato/1947/428" ns44:relation="cites">decreto legislativo del Capo provvisorio dello Stato 3 aprile 1947, n. 428</ref>. Sono soppressi gli <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/decreto.legislativo/capo.provvisorio.stato/1947-04-03/428/!main#art_8" ns45:target="olf:it/decreto-legislativo/capo-provvisorio-stato/1947/428/art_8" ns45:relation="cites">articoli 8</ref>, <ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/decreto.legislativo/capo.provvisorio.stato/1947-04-03/428/!main#art_9" ns46:target="olf:it/decreto-legislativo/capo-provvisorio-stato/1947/428/art_9" ns46:relation="cites">9</ref>, <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/decreto.legislativo/capo.provvisorio.stato/1947-04-03/428/!main#art_10" ns47:target="olf:it/decreto-legislativo/capo-provvisorio-stato/1947/428/art_10" ns47:relation="cites">10</ref>, <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/decreto.legislativo/capo.provvisorio.stato/1947-04-03/428/!main#art_11" ns48:target="olf:it/decreto-legislativo/capo-provvisorio-stato/1947/428/art_11" ns48:relation="cites">11</ref>, <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/decreto.legislativo/capo.provvisorio.stato/1947-04-03/428/!main#art_12" ns49:target="olf:it/decreto-legislativo/capo-provvisorio-stato/1947/428/art_12" ns49:relation="cites">12</ref>, <ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/decreto.legislativo/capo.provvisorio.stato/1947-04-03/428/!main#art_13" ns50:target="olf:it/decreto-legislativo/capo-provvisorio-stato/1947/428/art_13" ns50:relation="cites">13</ref> e <ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/decreto.legislativo/capo.provvisorio.stato/1947-04-03/428/!main#art_14" ns51:target="olf:it/decreto-legislativo/capo-provvisorio-stato/1947/428/art_14" ns51:relation="cites">14 del decreto legislativo del Capo provvisorio dello Stato 3 aprile 1947, n. 428</ref>, e la <ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/legge/stato/1949-08-23/681/!main" ns52:target="olf:it/legge/stato/1949/681" ns52:relation="cites">legge 23 agosto 1949, n. 681</ref>. 
+ Detta Commissione assume la denominazione di Commissione parlamentare per l'indirizzo generale e la vigilanza dei servizi radiotelevisivi. 
+ Essa e' composta da ventuno senatori e da ventuno deputati, nominati rispettivamente dal Presidente del Senato della Repubblica e dal Presidente della Camera dei deputati, in proporzione al numero dei componenti dei gruppi parlamentari, comunque assicurando la presenza di almeno un deputato per ciascun gruppo esistente alla Camera dei deputati e di almeno un senatore per ciascun gruppo esistente al Senato della Repubblica.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 9 febbraio 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
