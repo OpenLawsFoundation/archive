@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-03-25/46/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-03-25/46"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-03-25;46"/>
+                    <FRBRalias name="eli" value="eli/id/2025/04/08/25G00054/ORIGINAL"/>
+                    <FRBRdate date="2025-03-25" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/08/25G00054/ORIGINAL" aknrelname="eli/id/2025/04/08/25G00054/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifica alla legge 20 luglio 2000, n. 211, recante «Istituzione del &quot;Giorno della Memoria&quot; in ricordo dello sterminio e delle persecuzioni del popolo ebraico e dei deportati militari e politici italiani nei campi nazisti», al fine di prevedere un fondo per favorire l'organizzazione da parte delle scuole secondarie di secondo grado di «viaggi della memoria», nei campi medesimi. (25G00054)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00054" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-03-25" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-03-25/46/ita@2025-04-23/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-03-25/46/ita@2025-04-23"/>
+                    <FRBRdate date="2025-04-23" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/08/25G00054/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/04/08/25G00054/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/04/08/25G00054/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-03-25/46/ita@2025-04-23/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-03-25/46/ita@2025-04-23.xml"/>
+                    <FRBRdate date="2025-03-25" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/08/25G00054/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-04-08" name="" number="82" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-04-08" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2025-03-25" refersTo="#S.347"/>
+                <step by="#camera" date="2025-03-25" refersTo="#C.792"/>
+                <step by="#senato" date="2025-03-25" refersTo="#S.347-B"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-03-25;46#1"/>
+                        <destination href="urn:nir:stato:legge:2000-07-20;211#2 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/2000-07-20/211/ita@2025-04-23/!main/~art_2-bis"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-03-25/46/!main" showAs=""/>
+                <passiveRef eId="S.347" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;347" showAs=""/>
+                <passiveRef eId="C.792" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;792" showAs=""/>
+                <passiveRef eId="S.347-B" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;347-B" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/04/08/25G00054/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifica alla legge 20 luglio 2000, n. 211, recante «Istituzione del "Giorno della Memoria" in ricordo dello sterminio e delle persecuzioni del popolo ebraico e dei deportati militari e politici italiani nei campi nazisti», al fine di prevedere un fondo per favorire l'organizzazione da parte delle scuole secondarie di secondo grado di «viaggi della memoria», nei campi medesimi. (25G00054)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00054</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-03-25</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/04/08/25G00054/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/04/08/25G00054/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/04/08/25G00054/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/04/08/25G00054/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/46" nativeUrn="urn:nir:stato:legge:2025-03-25;46" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-04-08"><ns0:event type="enacted" date="2025-03-25"/><ns0:event type="published" date="2025-04-08"/><ns0:event type="commenced" date="2025-04-08"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/724fa93c-79cc-4941-9be9-4ad5b2ab9d6e" sourceSha256="b7331838470211008520dd067e402627fb74fa12fcc2710ec42509ba23fd0ded" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:07:39.234000Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-03-25">25 marzo 2025</docDate>
+                <docNumber>46</docNumber>
+                <docTitle>Modifica alla legge 20 luglio 2000, n. 211, recante «Istituzione del "Giorno della Memoria" in ricordo dello sterminio e delle persecuzioni del popolo ebraico e dei deportati militari e politici italiani nei campi nazisti», al fine di prevedere un fondo per favorire l'organizzazione da parte delle scuole secondarie di secondo grado di «viaggi della memoria», nei campi medesimi. (25G00054) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 23/04/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">Dopo l'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2000-07-20/211/!main#art_2" ns1:target="olf:it/legge/stato/2000/211/art_2" ns1:relation="amends">articolo 2 della legge 20 luglio 2000, n. 211</ref>, e' aggiunto il seguente: 
+ «<quotedText eId="modNov_1_new_1">Art. 2-bis. - 1. Presso il Ministero dell'istruzione e del merito e' istituito un fondo, con una dotazione di 2 milioni di euro per ciascuno degli anni 2025, 2026 e 2027, per promuovere e incentivare, nel rispetto dell'autonomia scolastica, i "viaggi nella memoria" ai campi di concentramento nazisti, per gli studenti degli ultimi due anni delle scuole secondarie di secondo grado, al fine di far maturare la coscienza civica delle nuove generazioni rispetto all'estrema sofferenza patita dal popolo ebraico durante la persecuzione nazista della Shoah. 
+ 2. All'onere derivante dall'attuazione del comma 1, pari a 2 milioni di euro per ciascuno degli anni 2025, 2026 e 2027, si provvede, quanto a 1 milione di euro per ciascuno degli anni 2025, 2026 e 2027, mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns2:target="olf:it/legge/stato/2014/190/art_1-com200" ns2:relation="cites">articolo 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>, e, quanto a 1 milione di euro per ciascuno degli anni 2025, 2026 e 2027, mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1997-12-18/440/!main#art_1" ns3:target="olf:it/legge/stato/1997/440/art_1" ns3:relation="cites">articolo 1 della legge 18 dicembre 1997, n. 440</ref>. 
+ 3. Il Ministro dell'istruzione e del merito, con proprio decreto, da adottare entro novanta giorni dalla data di entrata in vigore della presente disposizione, definisce le modalita' di utilizzo delle risorse di cui al comma 1, stabilendo al contempo la tipologia di spese finanziabili</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns4:target="olf:it/dpr/stato/1985/1092" ns4:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2000-07-20/211/!main#art_1" ns5:target="olf:it/legge/stato/2000/211/art_1" ns5:relation="amends">art. 1: 
+ - La legge 20 luglio 2000, n. 211</ref>, recante: «Istituzione del "Giorno della Memoria" in ricordo dello sterminio e delle persecuzioni del popolo ebraico e dei deportati militari e politici italiani nei campi nazisti» e' pubblicata nella Gazzetta Ufficiale n. 177 del 31 luglio 2000. 
+ - Si riporta il testo del <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns6:target="olf:it/legge/stato/2014/190/art_1-com200" ns6:relation="cites">comma 200, dell'art. 1, della legge 23 dicembre 2014, n. 190</ref>, recante: «Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato (legge di stabilita' 2015)» pubblicata nella Gazzetta Ufficiale n. 300 del 29 dicembre 2014: 
+ «200. Nello stato di previsione del Ministero dell'economia e delle finanze e' istituito un Fondo per far fronte ad esigenze indifferibili che si manifestano nel corso della gestione, con la dotazione di 27 milioni di euro per l'anno 2015 e di 25 milioni di euro annui a decorrere dall'anno 2016. Il Fondo e' ripartito annualmente con uno o piu' decreti del Presidente del Consiglio dei ministri su proposta del Ministro dell'economia e delle finanze. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare le occorrenti variazioni di bilancio.». 
+ - Si riporta il testo dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/1997-12-18/440/!main#art_1" ns7:target="olf:it/legge/stato/1997/440/art_1" ns7:relation="cites">art. 1 della legge 18 dicembre 1997, n. 440</ref> recante: «Istituzione del Fondo per l'arricchimento e l'ampliamento dell'offerta formativa e per gli interventi perequativi», pubblicata nella Gazzetta Ufficiale n. 298 del 23 dicembre 1997: 
+ «Art. 1 (Fondo per l'arricchimento e l'ampliamento dell'offerta formativa e per gli interventi perequativi).
+ - 1. A decorrere dall'esercizio finanziario 1997, e' istituito nello stato di previsione del Ministero della pubblica istruzione un fondo denominato "Fondo per l'arricchimento e l'ampliamento dell'offerta formativa e per gli interventi perequativi" destinato alla piena realizzazione dell'autonomia scolastica, all'introduzione dell'insegnamento di una seconda lingua comunitaria nelle scuole medie, all'innalzamento del livello di scolarita' e del tasso di successo scolastico, alla formazione del personale della scuola, alla realizzazione di iniziative di formazione post-secondaria non universitaria, allo sviluppo della formazione continua e ricorrente, agli interventi per l'adeguamento dei programmi di studio dei diversi ordini e gradi, ad interventi per la valutazione dell'efficienza e dell'efficacia del sistema scolastico, alla realizzazione di interventi perequativi in favore delle istituzioni scolastiche tali da consentire, anche mediante integrazione degli organici provinciali, l'incremento dell'offerta formativa, alla realizzazione di interventi integrati, alla copertura della quota nazionale di iniziative cofinanziate con i fondi strutturali dell'Unione europea. 
+ 1-bis. A decorrere dall'anno scolastico 2013/2014 parte del Fondo di cui al comma 1 e' espressamente destinata al finanziamento di progetti volti alla costituzione o all'aggiornamento, presso le istituzioni scolastiche statali, di laboratori scientifico-tecnologici che utilizzano materiali innovativi, necessari a connotare l'attivita' didattica laboratoriale secondo parametri di alta professionalita'. Il Ministro dell'istruzione, dell'universita' e della ricerca individua con proprio decreto la tipologia di laboratori e i materiali per i quali e' possibile presentare proposte di progetto finanziate con la parte di Fondo di cui al comma 1, individuata ai sensi del primo periodo. 
+ 2. Le disponibilita' di cui al comma 1 da iscrivere nello stato di previsione del Ministero della pubblica istruzione sono ripartite, sentito il parere delle competenti commissioni parlamentari, con decreti del Ministro del tesoro, anche su capitoli di nuova istituzione, su proposta del Ministro della pubblica istruzione, in attuazione delle direttive di cui all'art.
+ 2. Le eventuali disponibilita' non utilizzate nel corso dell'anno sono utilizzate nell'esercizio successivo.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 25 marzo 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
