@@ -1,0 +1,864 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-02-28/20/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-02-28/20"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-02-28;20"/>
+                    <FRBRalias name="eli" value="eli/id/2025/03/01/25G00028/ORIGINAL"/>
+                    <FRBRdate date="2025-02-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/03/01/25G00028/ORIGINAL" aknrelname="eli/id/2025/03/01/25G00028/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 31 dicembre 2024, n. 208, recante misure organizzative urgenti per fronteggiare situazioni di particolare emergenza, nonche' per l'attuazione del Piano nazionale di ripresa e resilienza. (25G00028) " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00028" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-02-28" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-02-28/20/ita@2025-03-02/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-02-28/20/ita@2025-03-02"/>
+                    <FRBRdate date="2025-03-02" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/03/01/25G00028/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/03/01/25G00028/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/03/01/25G00028/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-02-28/20/ita@2025-03-02/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-02-28/20/ita@2025-03-02.xml"/>
+                    <FRBRdate date="2025-02-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/03/01/25G00028/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-03-01" name="" number="50" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-03-01" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2025-02-28" refersTo="#C.2184"/>
+                <step by="#senato" date="2025-02-28" refersTo="#S.1384"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:1996-09-20;486#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2000-05-19;139#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:legge:2004-12-30;311#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2011-07-06;98#19"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:legge:2015-07-13;107#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2015-09-14;148#25 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2016-12-29;243#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2019-04-18;32#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-03-17;18#94 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305). 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2021-11-08;199#28"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:legge:2021-12-30;234#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-03-21;21#21 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-09-23;144#26"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:legge:2022-12-29;197#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-04-14;39#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-09-15;123#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:legge:2023-12-30;213#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-03-02;19#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-11;76#9 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-11;76#9 novies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:legge:2024-12-30;207#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 dicembre 2024, n. 208 (in G.U. 31/12/2024, n. 305).
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, 2, 3, 5, 6, 7 e 8.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1, 2, lettere a) e b), 4, 5, 6 e rubrica e l'introduzione dei commi 4-bis, 4-ter, 6-bis, 6-ter, 6-quater, 6-quinquies, 6-sexies e 6-septies all'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#2 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#2 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#2 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, 2 e 3 e l'introduzione dei commi 1-bis, 2-bis, 2-ter, 2-quater, 3-bis e 3-ter all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 2 lettera b), 3, 4, 5, 6, 7 e l'introduzione dei commi 7-bis e 7-ter all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, commi 1, 2, 3 alinea e lettera b), 4, 5 e l'introduzione del comma 5-bis all'art. 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#6 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#6 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#9"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9, comma 1 alinea.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#9 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 9-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-12-31;208#9 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 9-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-01-16;1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) che "Il decreto-legge 16 gennaio 2025, n. 1, e' abrogato. Restano
+validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodottisi e i rapporti giuridici sorti sulla base del medesimo decreto-legge n. 1 del 2025". </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-01-16;1#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-02-28;20#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-01-16;1#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione dell'intero provvedimento e la modifica dell'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-01-16/1/ita@2025-03-02/!main"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_1__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_1__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_1__para_2"/>
+                        <old href="#modNov_2_old_3"/>
+                        <new href="#modNov_2_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_1__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_1__para_5"/>
+                        <old href="#modNov_2_old_6"/>
+                        <new href="#modNov_2_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_1__para_6"/>
+                        <old href="#modNov_2_old_7"/>
+                        <new href="#modNov_2_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_1__para_7"/>
+                        <old href="#modNov_2_old_8"/>
+                        <new href="#modNov_2_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_1__para_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_2__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_2__para_5"/>
+                        <old href="#modNov_3_old_17"/>
+                        <new href="#modNov_3_new_17"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_2__para_6"/>
+                        <old href="#modNov_3_old_18"/>
+                        <new href="#modNov_3_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_2"/>
+                        <new href="#modNov_3_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_2"/>
+                        <new href="#modNov_3_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_2__para_1"/>
+                        <new href="#modNov_3_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_2__para_2__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_55" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_2__para_2__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_56" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_2__para_2__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_57" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_2__para_2__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_58" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_2__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_59" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main"/>
+                        <new href="#modNov_4_new_47"/>
+                    </textualMod>
+                    <textualMod eId="amod_60" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_3__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_61" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_3__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_62" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_3__para_1-bis"/>
+                        <new href="#modNov_5_new_23"/>
+                    </textualMod>
+                    <textualMod eId="amod_63" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_3__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_64" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_3__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_65" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_3"/>
+                        <new href="#modNov_5_new_26"/>
+                    </textualMod>
+                    <textualMod eId="amod_66" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_4__para_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_67" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_4"/>
+                        <new href="#modNov_6_new_33"/>
+                    </textualMod>
+                    <textualMod eId="amod_68" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_4__para_2__point_b"/>
+                        <old href="#modNov_6_old_27"/>
+                        <new href="#modNov_6_new_27"/>
+                    </textualMod>
+                    <textualMod eId="amod_69" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_4__para_3"/>
+                        <old href="#modNov_6_old_28"/>
+                        <new href="#modNov_6_new_28"/>
+                    </textualMod>
+                    <textualMod eId="amod_70" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_4__para_4"/>
+                        <new href="#modNov_6_new_29"/>
+                    </textualMod>
+                    <textualMod eId="amod_71" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_4__para_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_72" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_4__para_6"/>
+                        <old href="#modNov_6_old_31"/>
+                        <new href="#modNov_6_new_31"/>
+                    </textualMod>
+                    <textualMod eId="amod_73" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_5__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_74" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_5__para_2"/>
+                        <old href="#modNov_7_old_35"/>
+                        <new href="#modNov_7_new_35"/>
+                    </textualMod>
+                    <textualMod eId="amod_75" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_5__para_3"/>
+                        <old href="#modNov_7_old_36"/>
+                        <new href="#modNov_7_new_36"/>
+                    </textualMod>
+                    <textualMod eId="amod_76" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_5__para_3__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_77" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_5__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_78" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_5__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_79" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_5__para_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_80" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_5__para_5-bis"/>
+                        <new href="#modNov_7_new_41"/>
+                    </textualMod>
+                    <textualMod eId="amod_81" type="insertion">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_7__para_1"/>
+                        <new href="#modNov_8_new_42"/>
+                    </textualMod>
+                    <textualMod eId="amod_82" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_7__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_83" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_8__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_84" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_9__para_1"/>
+                        <new href="#modNov_10_new_45"/>
+                    </textualMod>
+                    <textualMod eId="amod_85" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-12-31/208/ita@2025-03-02/!main/~art_9__para_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-02-28/20/!main" showAs=""/>
+                <passiveRef eId="C.2184" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2184" showAs=""/>
+                <passiveRef eId="S.1384" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1384" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/03/01/25G00028/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 31 dicembre 2024, n. 208, recante misure organizzative urgenti per fronteggiare situazioni di particolare emergenza, nonche' per l'attuazione del Piano nazionale di ripresa e resilienza. (25G00028) </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00028</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-02-28</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/03/01/25G00028/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/03/01/25G00028/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/03/01/25G00028/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/03/01/25G00028/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/20" nativeUrn="urn:nir:stato:legge:2025-02-28;20" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-03-01"><ns0:event type="enacted" date="2025-02-28"/><ns0:event type="published" date="2025-03-01"/><ns0:event type="commenced" date="2025-03-01"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/8abb7bc5-732e-4d7b-9b13-741c1530d45b" sourceSha256="e51ae28d0219ade6c91479c78f9fe139981296e42c35dc05773179e2bb796b7d" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:11:46.766789Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-02-28">28 febbraio 2025</docDate>
+                <docNumber>20</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 31 dicembre 2024, n. 208, recante misure organizzative urgenti per fronteggiare situazioni di particolare emergenza, nonche' per l'attuazione del Piano nazionale di ripresa e resilienza. (25G00028) </docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 02/03/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2024-12-31/208/!main" ns1:target="olf:it/decreto-legge/stato/2024/208" ns1:relation="amends">decreto-legge 31 dicembre 2024, n. 208</ref>, recante misure organizzative urgenti per fronteggiare situazioni di particolare emergenza, nonche' per l'attuazione del Piano nazionale di ripresa e resilienza, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2025-01-16/1/!main" ns2:target="olf:it/decreto-legge/stato/2025/1" ns2:relation="repeals">decreto-legge 16 gennaio 2025, n. 1</ref>, e' abrogato. Restano validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodottisi e i rapporti giuridici sorti sulla base del medesimo <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegge/stato/2025/1/!main" ns3:resolution="unresolved">decreto-legge n. 1 del 2025</ref>.</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2024-12-31/208/!main" ns4:target="olf:it/decreto-legge/stato/2024/208" ns4:relation="amends">decreto-legge 31 dicembre 2024, n. 208</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 305 del 31 dicembre 2024. 
+ A norma dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns5:target="olf:it/legge/stato/1988/400/art_15-com5" ns5:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 44. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, 28 febbraio 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Musumeci, Ministro per la protezione civile e le politiche del mare Foti, Ministro per gli affari europei, il PNRR e le politiche di coesione Salvini, Ministro delle infrastrutture e dei trasporti Valditara, Ministro dell'istruzione e del merito Pichetto Fratin, Ministro dell'ambiente e della sicurezza energetica Zangrillo, Ministro per la pubblica amministrazione Piantedosi, Ministro dell'interno Calderone, Ministro del lavoro e delle politiche sociali Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-02-28/20/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-02-28/20"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-02-28;20"/>
+                                <FRBRalias name="eli" value="eli/id/2025/03/01/25G00028/ORIGINAL"/>
+                                <FRBRdate date="2025-03-02" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-02-28/20/ita@2025-03-02/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-02-28/20/ita@2025-03-02"/>
+                                <FRBRdate date="2025-03-02" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-02-28/20/ita@2025-03-02/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-02-28/20/ita@2025-03-02.xml"/>
+                                <FRBRdate date="2025-02-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE 
+ AL DECRETO-LEGGE 31 DICEMBRE 2024, N. 208 
+ 
+ <mod eId="modNov_2">All'articolo 1: 
+ al comma 1: 
+ al primo periodo, dopo le parole: «del 28 dicembre 2023,» sono inserite le seguenti: «pubblicata nella Gazzetta Ufficiale n. 8 dell'11 gennaio 2024,», dopo le parole: «<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2023-11-13/159/!main" ns6:target="olf:it/legge/stato/2023/159" ns6:relation="amends">legge 13 novembre 2023, n. 159</ref>» e' inserito il seguente segno d'interpunzione: «,», dopo le parole: «progetti di riqualificazione sociale» sono inserite le seguenti: «e ambientale», le parole: «in ambito» sono sostituite dalle seguenti: «negli ambiti» e le parole: «di contrasto alla poverta'» sono sostituite dalle seguenti: «nel contrasto della poverta'»; 
+ al secondo periodo, le parole: «entro sessanta giorni» sono sostituite dalle seguenti: «entro novanta giorni»; 
+ al terzo periodo, dopo le parole: «<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2020-12-30/178/!main" ns7:target="olf:it/legge/stato/2020/178" ns7:relation="cites">legge 30 dicembre 2020, n. 178</ref>» e' inserito il seguente segno d'interpunzione: «,», le parole: «numero 1», ovunque ricorrono, sono sostituite dalle seguenti: «numero 1)» e le parole: «e per i giovani» sono sostituite dalle seguenti: «e i giovani»; 
+ al quinto periodo, le parole: «e per i giovani» sono sostituite dalle seguenti: «e i giovani» e le parole: «e destinate» sono sostituite dalla seguente: «destinate»; 
+ al sesto periodo, le parole: «, da altri» sono sostituite dalle seguenti: «e da altri»; 
+ al comma 2, secondo periodo, le parole: «<quotedText eId="modNov_2_old_3">e comunque</quotedText>» sono sostituite dalla seguente: «<quotedText eId="modNov_2_new_3">, comunque</quotedText>»; 
+ al comma 3: 
+ al primo periodo, dopo le parole: «<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2023-11-13/159/!main" ns8:target="olf:it/legge/stato/2023/159" ns8:relation="amends">legge 13 novembre 2023, n. 159</ref>» e' inserito il seguente segno d'interpunzione: «,» e le parole: «e quattro» sono sostituite dalla seguente: «, quattro»; 
+ al terzo periodo, le parole: «di supporto, e'» sono sostituite dalle seguenti: «di supporto e'» e dopo le parole: «della Presidenza del Consiglio dei ministri» e' inserito il seguente segno d'interpunzione: «,»; 
+ al quarto periodo, le parole: «in posizione di comando o fuori ruolo» sono sostituite dalle seguenti: «fuori ruolo o in posizione di comando»; 
+ al settimo periodo, le parole: «Con il provvedimento istitutivo della struttura di supporto» sono sostituite dalle seguenti: «Con decreto del Presidente del Consiglio dei ministri, recante modifica del provvedimento istitutivo della struttura di supporto,»; 
+ al comma 5, le parole: «<quotedText eId="modNov_2_old_6">nei programmi</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_6">nel piano straordinario</quotedText>»; 
+ al comma 6, le parole: «<quotedText eId="modNov_2_old_7">quantificati in</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_7">pari a</quotedText>»; 
+ al comma 7, le parole: «<quotedText eId="modNov_2_old_8">le parole "un anno prorogabile di un ulteriore anno" sono sostituite dalle seguenti: "fino</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_8">le parole: "resta in carico un anno, prorogabile di un ulteriore anno," sono sostituite dalle seguenti: "resta in carica fino</quotedText>»; 
+ al comma 8, le parole: «all'attuazione» sono sostituite dalle seguenti: «dell'attuazione» e la parola: «egual» e' sostituita dalla seguente: «eguale».</mod>
+                                    <mod eId="modNov_3">All'articolo 2: 
+ al comma 1<quotedText eId="modNov_3_new_10">,</quotedText> dopo le parole: «<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2023-06-13/68/!main" ns9:target="olf:it/legge/stato/2023/68" ns9:relation="amends">legge 13 giugno 2023, n. 68</ref>» e' inserito il seguente segno d'interpunzione: «,»; 
+ al comma 2: 
+ alla lettera a), dopo le parole: «90 milioni di euro» e' inserito il seguente segno d'interpunzione: «,», le parole: «in Gazzetta Ufficiale» sono sostituite dalle seguenti: «nella Gazzetta Ufficiale», le parole: «e la Regione Siciliana» sono sostituite dalle seguenti: «e la Regione siciliana», le parole: «, d'intesa con la Regione Siciliana, e' autorizzato a trasferire» sono sostituite dalle seguenti: «e' autorizzato a trasferire, d'intesa con la Regione siciliana,», dopo le parole: «14 aprile 2023, n. 39,» sono inserite le seguenti: «convertito, con modificazioni, dalla <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2023-06-13/68/!main" ns10:target="olf:it/legge/stato/2023/68" ns10:relation="amends">legge 13 giugno 2023, n. 68</ref>,», dopo le parole: «al comma 4» sono inserite le seguenti: «del presente articolo», le parole: «delibera CIPESS» sono sostituite dalle seguenti: «delibera del CIPESS» e le parole: «al relativo utilizzo secondo modalita'» sono sostituite dalle seguenti: «al loro utilizzo secondo le modalita'»; 
+ alla lettera b), dopo le parole: «10 milioni di euro» e' inserito il seguente segno d'interpunzione: «,», le parole: «Regione Siciliana» sono sostituite dalle seguenti: «Regione siciliana» e la parola: «bilancio.".» e' sostituita dalla seguente: «bilancio.»; 
+ al comma 4: 
+ al primo periodo, le parole: «convertito con modificazioni» sono sostituite dalle seguenti: «convertito, con modificazioni,»; 
+ al secondo periodo, dopo le parole: «all'articolo 141, comma 1, del» sono inserite le seguenti: «<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2006-04-12/163/!main" ns11:target="olf:it/decreto-legislativo/stato/2006/163" ns11:relation="cites">codice dei contratti pubblici</ref>, di cui al», le parole: «<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegge/stato/2023/39/!main" ns12:resolution="unresolved">decreto-legge n. 39 del 2023</ref>» sono sostituite dalle seguenti: «<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegge/stato/2023-04-14/39/!main" ns13:target="olf:it/decreto-legge/stato/2023/39" ns13:relation="amends">decreto-legge 14 aprile 2023, n. 39</ref>, convertito, con modificazioni, dalla <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2023-06-13/68/!main" ns14:target="olf:it/legge/stato/2023/68" ns14:relation="amends">legge 13 giugno 2023, n. 68</ref>» e dopo le parole: «al libro III del» e' inserita la seguente: «medesimo»; 
+ dopo il comma 4 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_3_new_19">4-bis. Al fine di garantire un'immediata risoluzione della fase critica per l'idrologia del lago Trasimeno e di ripristinare i normali livelli di sostenibilita' ambientale e sociale del medesimo lago, e' autorizzata la spesa di 1 milione di euro per l'anno 2025, da destinare al Commissario straordinario di cui all'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegge/stato/2023-04-14/39/!main#art_3" ns15:target="olf:it/decreto-legge/stato/2023/39/art_3" ns15:relation="amends">articolo 3 del decreto-legge 14 aprile 2023, n. 39</ref>, convertito, con modificazioni, dalla <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2023-06-13/68/!main" ns16:target="olf:it/legge/stato/2023/68" ns16:relation="amends">legge 13 giugno 2023, n. 68</ref>, per la realizzazione, con le modalita' previste dal comma 2 del medesimo articolo 3, di interventi di manutenzione straordinaria volti al ripristino dell'officiosita' idraulica. 
+ 4-ter. Agli oneri derivanti dal comma 4-bis, pari a 1 milione di euro per l'anno 2025, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di conto capitale iscritto, ai fini del bilancio triennale 2025-2027, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2025, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'ambiente e della sicurezza energetica. Le risorse di cui al primo periodo confluiscono nella contabilita' speciale di cui all'articolo 3, comma 2, del citato <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegge/stato/2023/39/!main" ns17:resolution="unresolved">decreto-legge n. 39 del 2023</ref>
+                                        </quotedText>»; 
+ al comma 5, le parole: «<quotedText eId="modNov_3_old_17">30 giugno 2025</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_17">31 dicembre 2025</quotedText>»; 
+ al comma 6, le parole: «<quotedText eId="modNov_3_old_18">31 ottobre 2025</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_18">30 giugno 2026</quotedText>»; 
+ dopo il comma 6 sono aggiunti i seguenti: 
+ «6-bis. All'articolo 2, comma 2, primo periodo, del <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegge/stato/2016-12-29/243/!main" ns18:target="olf:it/decreto-legge/stato/2016/243" ns18:relation="amends">decreto-legge 29 dicembre 2016, n. 243</ref>, convertito, con modificazioni, dalla <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2017-02-27/18/!main" ns19:target="olf:it/legge/stato/2017/18" ns19:relation="cites">legge 27 febbraio 2017, n. 18</ref>, le parole: ", ivi inclusa la gestione degli impianti fino a quando l'agglomerato urbano corrispondente non sia reso conforme a quanto stabilito dalla Corte di giustizia dell'Unione europea e comunque per un periodo non superiore a due anni dal collaudo definitivo delle opere, nonche' il trasferimento degli stessi" sono sostituite dalle seguenti: ". Entro sessanta giorni dal collaudo definitivo delle opere, il Commissario unico provvede al trasferimento delle stesse". 
+ 6-ter. All'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegge/stato/2016-12-29/243/!main#art_2-com9" ns20:target="olf:it/decreto-legge/stato/2016/243/art_2-com9" ns20:relation="amends">articolo 2, comma 9, del decreto-legge 29 dicembre 2016, n. 243</ref>, convertito, con modificazioni, dalla <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/2017-02-27/18/!main" ns21:target="olf:it/legge/stato/2017/18" ns21:relation="cites">legge 27 febbraio 2017, n. 18</ref>, sono aggiunti, in fine, i seguenti periodi: "La durata delle convenzioni di cui al presente comma non puo' eccedere il termine di novanta giorni dalla scadenza del mandato del Commissario unico. Nelle more della stipulazione delle nuove convenzioni, il Commissario subentrante ha la facolta' di prorogare la durata delle convenzioni in essere per un massimo di sei mesi dalla data della sua nomina". 
+ 6-quater. All'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegge/stato/2016-12-29/243/!main#art_2" ns22:target="olf:it/decreto-legge/stato/2016/243/art_2" ns22:relation="amends">articolo 2 del decreto-legge 29 dicembre 2016, n. 243</ref>, convertito, con modificazioni, dalla <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2017-02-27/18/!main" ns23:target="olf:it/legge/stato/2017/18" ns23:relation="cites">legge 27 febbraio 2017, n. 18</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 11-ter, il secondo, il terzo, il quarto e il quinto periodo sono soppressi; 
+ b) dopo il comma 11-quater e' aggiunto il seguente: 
+ "11-quinquies. In caso di mancata conclusione, entro i termini previsti dal presente articolo, dei procedimenti per il rilascio dei pareri e degli atti di assenso in materia ambientale, ivi compresi quelli di valutazione di impatto ambientale e di valutazione di incidenza, o relativi alla tutela dei beni culturali e paesaggistici, il Presidente del Consiglio dei ministri, su proposta del Ministro dell'ambiente e della sicurezza energetica, sentito il Ministro della cultura per gli atti e i provvedimenti di competenza, assegna all'autorita' competente un termine non superiore a quindici giorni per provvedere. In caso di perdurante inerzia, su proposta del Presidente del Consiglio dei ministri, sentita l'autorita' competente, il Consiglio dei ministri nomina un commissario ad acta al quale attribuisce, in via sostitutiva, il potere di adottare gli atti e i provvedimenti necessari, senza nuovi o maggiori oneri a carico della finanza pubblica. Puo' essere nominato commissario ad acta il Commissario unico di cui al comma 1. Al commissario ad acta non spettano compensi, gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati". 
+ 6-quinquies. Al fine di garantire la razionalizzazione e la gestione efficiente delle risorse idriche, gli impianti industriali o quelli oggetto di ammodernamento presenti nella Regione siciliana che prevedono l'utilizzo di acque nei processi industriali o di raffreddamento possono dotarsi di ogni sistema idoneo a chiudere il ciclo delle acque interne, anche mediante la realizzazione di reti duali per il riutilizzo interno delle acque. 
+ 6-sexies. All'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2023-12-31/213/!main#art_1-com289" ns24:target="olf:it/legge/stato/2023/213/art_1-com289" ns24:relation="amends">articolo 1, comma 289, della legge 31 dicembre 2023, n. 213</ref>, dopo le parole: "sistema acquedottistico del Peschiera" sono inserite le seguenti: ", del commissario straordinario dell'opera 'Invaso di Campolattaro'". 
+ 6-septies. Al fine di procedere celermente al completamento del progetto di fattibilita' tecnico-economica e della progettazione esecutiva della diga di Vetto, con decreto del Presidente del Consiglio dei ministri, su proposta del Ministro delle infrastrutture e dei trasporti, di concerto con il Ministro dell'economia e delle finanze, da adottare entro trenta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, e' nominato un Commissario straordinario, con i poteri e le funzioni di cui all'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegge/stato/2019-04-18/32/!main#art_4-com2" ns25:target="olf:it/decreto-legge/stato/2019/32/art_4-com2" ns25:relation="amends">articolo 4, commi 2</ref> e <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegge/stato/2019-04-18/32/!main#art_4-com3" ns26:target="olf:it/decreto-legge/stato/2019/32/art_4-com3" ns26:relation="amends">3, del decreto-legge 18 aprile 2019, n. 32</ref>, convertito, con modificazioni, dalla <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2019-06-14/55/!main" ns27:target="olf:it/legge/stato/2019/55" ns27:relation="cites">legge 14 giugno 2019, n. 55</ref>. La durata dell'incarico del Commissario straordinario e' di ventiquattro mesi decorrenti dall'adozione del decreto di nomina di cui al primo periodo. Al Commissario straordinario spetta un compenso determinato con il decreto del Presidente del Consiglio dei ministri di cui al primo periodo in misura non superiore a quella indicata all'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main#art_15-com3" ns28:target="olf:it/decreto-legge/stato/2011/98/art_15-com3" ns28:relation="amends">articolo 15, comma 3, del decreto-legge 6 luglio 2011, n. 98</ref>, convertito, con modificazioni, dalla <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/2011-07-15/111/!main" ns29:target="olf:it/legge/stato/2011/111" ns29:relation="cites">legge 15 luglio 2011, n. 111</ref>, comprensivo degli oneri a carico dell'amministrazione. Il Commissario straordinario puo' avvalersi, senza nuovi o maggiori oneri per la finanza pubblica, delle strutture delle amministrazioni territoriali interessate. Agli oneri derivanti dal presente comma, pari a 99.525 euro per l'anno 2025, a 132.700 euro per l'anno 2026 e a 33.175 euro per l'anno 2027, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2025-2027, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2025, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero delle infrastrutture e dei trasporti»; 
+ alla rubrica sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_3_new_20">, nonche' per il ciclo delle acque negli impianti industriali e in quelli oggetto di ammodernamento</quotedText>».</mod>
+                                    <mod eId="modNov_4">Dopo l'articolo 2 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_4_new_47">Art. 2-bis (Misure urgenti per fronteggiare situazioni di rischio idrogeologico). - 1. All'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/2004-12-30/311/!main#art_1-com438" ns30:target="olf:it/legge/stato/2004/311/art_1-com438" ns30:relation="amends">articolo 1, comma 438, della legge 30 dicembre 2004, n. 311</ref>, dopo le parole: "Relativamente agli immobili di cui al comma 436" sono inserite le seguenti: ", fermo restando quanto previsto dal comma 437," e sono aggiunti, in fine, i seguenti periodi: "Relativamente agli immobili oggetto di alienazione ai sensi del comma 436 e' altresi' riconosciuto il diritto di prelazione in favore dei soggetti che dimostrino, mediante apposita attestazione della regione o degli enti regionali competenti, di aver realizzato sugli immobili medesimi, con proprie risorse economiche, rilevanti opere di pubblico interesse dirette alla mitigazione del rischio idrogeologico, favorendo lo sviluppo e la valorizzazione del territorio. Fatto salvo quanto previsto dal comma 437, tale diritto di prelazione prevale, a parita' di condizioni, su quello degli altri soggetti indicati nel presente comma". 
+ Art. 2-ter (Disposizioni urgenti in materia di recupero, rifunzionalizzazione e valorizzazione dei beni confiscati alla criminalita' organizzata). - 1. Dopo il <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decretoLegge/stato/2024-03-02/19/!main#art_6-com1" ns31:target="olf:it/decreto-legge/stato/2024/19/art_6-com1" ns31:relation="amends">comma 1 dell'articolo 6 del decreto-legge 2 marzo 2024, n. 19</ref>, convertito, con modificazioni, dalla <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/legge/stato/2024-04-29/56/!main" ns32:target="olf:it/legge/stato/2024/56" ns32:relation="amends">legge 29 aprile 2024, n. 56</ref>, e' inserito il seguente: 
+ "1-bis. Tra le attribuzioni del Commissario straordinario e' compresa l'adozione di tutti gli atti o provvedimenti necessari al raggiungimento delle finalita' di cui al comma 1 del presente articolo, compresi quelli inerenti ai procedimenti relativi alle funzioni di cui all'<ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegge/stato/2023-02-24/13/!main#art_50-com1" ns33:target="olf:it/decreto-legge/stato/2023/13/art_50-com1" ns33:relation="amends">articolo 50, comma 1, del decreto-legge 24 febbraio 2023, n. 13</ref>, convertito, con modificazioni, dalla <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/2023-04-21/41/!main" ns34:target="olf:it/legge/stato/2023/41" ns34:relation="amends">legge 21 aprile 2023, n. 41</ref>, limitatamente agli interventi di cui al presente articolo". 
+ Art. 2-quater (Interventi di risanamento dell'area marino-costiera di Coroglio-Bagnoli). - 1. All'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoLegge/stato/1996-09-20/486/!main#art_1" ns35:target="olf:it/decreto-legge/stato/1996/486/art_1" ns35:relation="amends">articolo 1 del decreto-legge 20 settembre 1996, n. 486</ref>, convertito, con modificazioni, dalla <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/legge/stato/1996-11-18/582/!main" ns36:target="olf:it/legge/stato/1996/582" ns36:relation="cites">legge 18 novembre 1996, n. 582</ref>, dopo il comma 14-bis e' aggiunto il seguente: 
+ "14-ter. Per la definizione degli interventi di messa in sicurezza, bonifica e risanamento ambientale relativi all'area marino-costiera di cui al comma 14 del presente articolo, si applica la procedura di analisi di rischio sanitario ambientale sito-specifica, secondo criteri e metodi scientifici definiti in ambito nazionale e internazionale, basata anche sulla determinazione dei valori di fondo dei sedimenti. Per lo svolgimento delle attivita' di cui al primo periodo, il Commissario straordinario di cui all'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/decretoLegge/stato/2014-09-12/133/!main#art_33-com11bis" ns37:target="olf:it/decreto-legge/stato/2014/133/art_33-com11bis" ns37:relation="cites">articolo 33, comma 11-bis, del decreto-legge 12 settembre 2014, n. 133</ref>, convertito, con modificazioni, dalla <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/legge/stato/2014-11-11/164/!main" ns38:target="olf:it/legge/stato/2014/164" ns38:relation="cites">legge 11 novembre 2014, n. 164</ref>, si avvale, senza nuovi o maggiori oneri per la finanza pubblica, dell'Istituto superiore di sanita' nonche', mediante la stipulazione di apposita convenzione ai sensi del quattordicesimo periodo del medesimo comma 11-bis, dell'Istituto superiore per la protezione e la ricerca ambientale"</quotedText>».</mod>
+                                    <mod eId="modNov_5">All'articolo 3: 
+ al comma 1, capoverso 489-bis: 
+ al primo periodo, dopo le parole: «nella citta' di Roma» sono inserite le seguenti: «e nella regione Umbria», dopo le parole: «il supporto» sono inserite le seguenti: «delle organizzazioni di volontariato di protezione civile impiegate anche ai sensi del comma 489 nonche'» e sono aggiunte, in fine, le seguenti parole: «, pubblicato per comunicato nella Gazzetta Ufficiale n. 59 dell'11 marzo 2022»; 
+ al secondo periodo, le parole: «nell'ambito delle» sono sostituite dalle seguenti: «nei limiti delle» e le parole: «dell'anno 2025» sono sostituite dalle seguenti: «dell'anno 2025"»; 
+ dopo il comma 1 e' inserito il seguente: 
+ «<quotedText eId="modNov_5_new_23">1-bis. All'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/legge/stato/2024-12-30/207/!main#art_1" ns39:target="olf:it/legge/stato/2024/207/art_1" ns39:relation="amends">articolo 1 della legge 30 dicembre 2024, n. 207</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 677, primo periodo, dopo le parole: "avviare i processi di ricostruzione" e' inserita la seguente: "pubblica"; 
+ b) al comma 678: 
+ 1) dopo la parola: "ricostruzione" sono inserite le seguenti: "pubblica e privata in relazione agli eventi sismici di cui al comma 677"; 
+ 2) sono aggiunti, in fine, i seguenti periodi: "Il Commissario straordinario di cui all'<ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoLegge/stato/2023-01-11/3/!main#art_2-com2" ns40:target="olf:it/decreto-legge/stato/2023/3/art_2-com2" ns40:relation="amends">articolo 2, comma 2, del decreto-legge 11 gennaio 2023, n. 3</ref>, convertito, con modificazioni, dalla <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/legge/stato/2023-03-10/21/!main" ns41:target="olf:it/legge/stato/2023/21" ns41:relation="amends">legge 10 marzo 2023, n. 21</ref>, provvede agli interventi necessari a tali fini, nell'osservanza delle procedure, nell'ambito dei mezzi e nell'esercizio dei poteri di cui agli <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/decretoLegge/stato/2016-10-17/189/!main#art_2" ns42:target="olf:it/decreto-legge/stato/2016/189/art_2" ns42:relation="amends">articoli 2</ref>, <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/decretoLegge/stato/2016-10-17/189/!main#art_3" ns43:target="olf:it/decreto-legge/stato/2016/189/art_3" ns43:relation="amends">3</ref>, <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/decretoLegge/stato/2016-10-17/189/!main#art_4" ns44:target="olf:it/decreto-legge/stato/2016/189/art_4" ns44:relation="amends">4</ref>, <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/decretoLegge/stato/2016-10-17/189/!main#art_5" ns45:target="olf:it/decreto-legge/stato/2016/189/art_5" ns45:relation="amends">da 5</ref> <ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/decretoLegge/stato/2016-10-17/189/!main#art_18" ns46:target="olf:it/decreto-legge/stato/2016/189/art_18" ns46:relation="amends">a 18</ref>, <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/decretoLegge/stato/2016-10-17/189/!main#art_50" ns47:target="olf:it/decreto-legge/stato/2016/189/art_50" ns47:relation="amends">50</ref> e <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/decretoLegge/stato/2016-10-17/189/!main#art_50bis" ns48:target="olf:it/decreto-legge/stato/2016/189/art_50bis" ns48:relation="amends">50-bis del decreto-legge 17 ottobre 2016, n. 189</ref>, convertito, con modificazioni, dalla <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/legge/stato/2016-12-15/229/!main" ns49:target="olf:it/legge/stato/2016/229" ns49:relation="cites">legge 15 dicembre 2016, n. 229</ref>. Al fine di assicurare l'immediato avvio degli interventi di ricostruzione di cui al presente comma e' autorizzata la spesa nel limite di 30 milioni di euro per l'anno 2025 e di 60 milioni di euro per l'anno 2026. Agli oneri derivanti dal terzo periodo del presente comma, pari a 30 milioni di euro per l'anno 2025 e a 60 milioni di euro per l'anno 2026, si provvede mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'<ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/legge/stato/2016-12-11/232/!main#art_1-com362-letb" ns50:target="olf:it/legge/stato/2016/232/art_1-com362-letb" ns50:relation="cites">articolo 1, comma 362, lettera b), della legge 11 dicembre 2016, n. 232</ref>"</quotedText>»; 
+ al comma 2, le parole: «e' autorizzato, a» sono sostituite dalle seguenti: «e' autorizzato a», le parole: «dell'Ordinanza», ovunque ricorrono, sono sostituite dalle seguenti: «dell'ordinanza» e le parole: «e all'articolo 1» sono sostituite dalle seguenti: «e dall'articolo 1»; 
+ dopo il comma 2 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_5_new_26">2-bis. All'<ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/decretoLegge/stato/2024-06-11/76/!main#art_9ter" ns51:target="olf:it/decreto-legge/stato/2024/76/art_9ter" ns51:relation="amends">articolo 9-ter del decreto-legge 11 giugno 2024, n. 76</ref>, convertito, con modificazioni, dalla <ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/legge/stato/2024-08-08/111/!main" ns52:target="olf:it/legge/stato/2024/111" ns52:relation="amends">legge 8 agosto 2024, n. 111</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 12, terzo periodo, le parole: "31 dicembre 2024" sono sostituite dalle seguenti: "30 giugno 2025"; 
+ b) al comma 13, lettera b), dopo le parole: "degli esiti dell'istruttoria svolta congiuntamente" sono inserite le seguenti: "dal Commissario straordinario di cui al comma 1,". 
+ 2-ter. Al medesimo <ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/decretoLegge/stato/2024-06-11/76/!main#art_9ter" ns53:target="olf:it/decreto-legge/stato/2024/76/art_9ter" ns53:relation="amends">articolo 9-ter del decreto-legge 11 giugno 2024, n. 76</ref>, convertito, con modificazioni, dalla <ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/legge/stato/2024-08-08/111/!main" ns54:target="olf:it/legge/stato/2024/111" ns54:relation="amends">legge 8 agosto 2024, n. 111</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 1 e' aggiunto, in fine, il seguente periodo: "Ai provvedimenti del Commissario straordinario aventi natura regolatoria e organizzativa, esclusi quelli di natura gestionale, si applica quanto previsto dall'<ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/decretoLegge/stato/2016-10-17/189/!main#art_33" ns55:target="olf:it/decreto-legge/stato/2016/189/art_33" ns55:relation="amends">articolo 33 del decreto-legge 17 ottobre 2016, n. 189</ref>, convertito, con modificazioni, dalla <ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/legge/stato/2016-12-15/229/!main" ns56:target="olf:it/legge/stato/2016/229" ns56:relation="cites">legge 15 dicembre 2016, n. 229</ref>"; 
+ b) dopo il comma 2 e' inserito il seguente: 
+ "2-bis. Il Commissario straordinario di cui al comma 1 puo' coordinare l'attuazione degli interventi pubblici complementari a quelli inseriti nei programmi di cui al comma 2, lettera a), numeri 1) e 2), a condizione che si tratti di interventi gia' programmati da pubbliche amministrazioni, da societa' in house dello Stato o della regione Campania o da societa' partecipate a controllo statale nonche' interamente finanziati senza nuovi o maggiori oneri a carico della finanza pubblica. In tali casi, ferma restando la competenza attuativa spettante ai soggetti titolari degli interventi pubblici complementari, i medesimi interventi sono individuati sulla base di convenzioni non onerose sottoscritte con i soggetti titolari e il Commissario straordinario puo', con i poteri e le modalita' di cui ai commi 1, 4, 5 e 6, stabilire le misure amministrative di accelerazione e semplificazione, procedurali e gestionali, con cui il soggetto titolare dell'intervento puo' provvedere alla realizzazione delle opere e dei lavori. Agli interventi di cui al presente comma si applica l'articolo 9-quater"; 
+ c) al comma 10, lettera b), le parole: "inseriti nel primo piano di interventi urgenti" sono soppresse; 
+ d) al comma 13, lettera a): 
+ 1) al primo periodo, dopo le parole: "nonche' le risorse europee e nazionali utilizzabili allo scopo" sono aggiunte le seguenti: ", ivi comprese, nel limite di 80 milioni di euro complessivi, quelle di cui al comma 10, lettera b)"; 
+ 2) al secondo periodo, le parole da: "anche gli interventi oggetto di affidamento" fino alla fine della lettera sono sostituite dalle seguenti: "gli interventi, ivi compresi quelli oggetto di affidamento a concessionari o a contraenti generali da parte del Presidente della regione Campania, quale Commissario straordinario ai sensi del predetto <ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/legge/stato/1984/887/!main#art_11-com18" ns57:resolution="unresolved">articolo 11, diciottesimo comma, della legge n. 887 del 1984</ref>, per i quali non ricorrono le condizioni di cui alla lettera b) del presente comma". 
+ 2-quater. Il secondo periodo del <ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/decretoLegge/stato/2024-06-11/76/!main#art_9novies-com5" ns58:target="olf:it/decreto-legge/stato/2024/76/art_9novies-com5" ns58:relation="amends">comma 5 dell'articolo 9-novies del decreto-legge 11 giugno 2024, n. 76</ref>, convertito, con modificazioni, dalla <ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/legge/stato/2024-08-08/111/!main" ns59:target="olf:it/legge/stato/2024/111" ns59:relation="amends">legge 8 agosto 2024, n. 111</ref>, e il secondo periodo del <ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/legge/stato/2024-12-30/207/!main#art_1-com698" ns60:target="olf:it/legge/stato/2024/207/art_1-com698" ns60:relation="amends">comma 698 dell'articolo 1 della legge 30 dicembre 2024, n. 207</ref>, si interpretano nel senso che, nel caso di interventi relativi a edifici con piu' unita' immobiliari, la presenza nell'edificio anche soltanto di un'unita' immobiliare adibita ad abitazione principale, abituale e continuativa, consente la concessione del contributo anche in favore dei soggetti titolari delle altre unita' immobiliari componenti il medesimo edificio, ancorche' adibite ad abitazione non principale o aventi destinazione d'uso diversa da quella residenziale</quotedText>»; 
+ al comma 3, le parole: «del comma 2, provvede» sono sostituite dalle seguenti: «del comma 2 provvede» e il segno: «%» e' sostituito dalle seguenti parole: «per cento»; 
+ dopo il comma 3 sono aggiunti i seguenti: 
+ «3-bis. Le disposizioni dell'<ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/decretoLegge/stato/2018-09-28/109/!main#art_17-com3" ns61:target="olf:it/decreto-legge/stato/2018/109/art_17-com3" ns61:relation="cites">articolo 17, comma 3, del decreto-legge 28 settembre 2018, n. 109</ref>, convertito, con modificazioni, dalla <ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/legge/stato/2018-11-16/130/!main" ns62:target="olf:it/legge/stato/2018/130" ns62:relation="cites">legge 16 novembre 2018, n. 130</ref>, si applicano, nei limiti delle risorse di cui al secondo periodo del presente comma, a immobili da delocalizzare a causa dell'elevato e non mitigabile rischio idrogeologico, come individuati dal piano di ricostruzione di cui all'articolo 24-bis del citato <ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/decretoLegge/stato/2018/109/!main" ns63:resolution="unresolved">decreto-legge n. 109 del 2018</ref>, integrato dal piano commissariale di interventi urgenti per la sicurezza e la ricostruzione previsto dall'<ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/decretoLegge/stato/2022-12-03/186/!main#art_5ter" ns64:target="olf:it/decreto-legge/stato/2022/186/art_5ter" ns64:relation="amends">articolo 5-ter del decreto-legge 3 dicembre 2022, n. 186</ref>, convertito, con modificazioni, dalla <ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/legge/stato/2023-01-27/9/!main" ns65:target="olf:it/legge/stato/2023/9" ns65:relation="amends">legge 27 gennaio 2023, n. 9</ref>, e dall'aggiornamento del piano di assetto idrogeologico per l'isola di Ischia previsto dall'articolo 5-quater del medesimo <ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/decretoLegge/stato/2022/186/!main" ns66:resolution="unresolved">decreto-legge n. 186 del 2022</ref>. Per gli edifici a rischio non danneggiati dagli eventi calamitosi del 2017 e del 2022 di cui al presente comma e' autorizzata la spesa di 4 milioni di euro per l'anno 2025. 
+ 3-ter. Agli oneri derivanti dall'attuazione del comma 3-bis, pari a 4 milioni di euro per l'anno 2025, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di conto capitale iscritto, ai fini del bilancio triennale 2025-2027, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2025, allo scopo parzialmente utilizzando l'accantonamento relativo al medesimo Ministero».</mod>
+                                    <mod eId="modNov_6">All'articolo 4: 
+ al comma 2<quotedText eId="modNov_6_new_29">,</quotedText> lettera b), le parole: «<quotedText eId="modNov_6_old_27">e di euro 2.664.300</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_27">, di euro 2.664.300</quotedText>»; 
+ al comma 3, le parole: «<quotedText eId="modNov_6_old_28">per l'occupazione e la formazione</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_28">per occupazione e formazione,</quotedText>»; 
+ al comma 4, dopo le parole: «e delle politiche sociali» e' inserito il seguente segno d'interpunzione: «,»; 
+ al comma 5, dopo le parole: «al 2026» e' inserito il seguente segno d'interpunzione: «,»; 
+ al comma 6, le parole: «<quotedText eId="modNov_6_old_31">di cui al decreto-legge</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_31">medesima ai sensi dell'articolo 3 del decreto-legge</quotedText>»; 
+ al comma 7, dopo le parole: «2025 e 2026» e' inserito il seguente segno d'interpunzione: «,»; 
+ dopo il comma 7 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_6_new_33">7-bis. Il fondo di cui all'<ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/decretoLegge/stato/2023-05-04/48/!main#art_28-com1" ns67:target="olf:it/decreto-legge/stato/2023/48/art_28-com1" ns67:relation="amends">articolo 28, comma 1, del decreto-legge 4 maggio 2023, n. 48</ref>, convertito, con modificazioni, dalla <ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/legge/stato/2023-07-03/85/!main" ns68:target="olf:it/legge/stato/2023/85" ns68:relation="amends">legge 3 luglio 2023, n. 85</ref>, e' incrementato di 15 milioni di euro per l'anno 2025. 
+ 7-ter. Agli oneri derivanti dal comma 7-bis, pari a 15 milioni di euro per l'anno 2025, si provvede mediante corrispondente riduzione del Fondo unico per l'inclusione delle persone con disabilita', di cui all'<ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/legge/stato/2023-12-30/213/!main#art_1-com210" ns69:target="olf:it/legge/stato/2023/213/art_1-com210" ns69:relation="amends">articolo 1, comma 210, della legge 30 dicembre 2023, n. 213</ref>
+                                        </quotedText>».</mod>
+                                    <mod eId="modNov_7">All'articolo 5: 
+ al comma 1: 
+ al primo periodo, le parole: «di Venezia-Magistrato alle acque» sono sostituite dalle seguenti: «di Venezia - Nuovo Magistrato alle Acque» e le parole: «alla risorse» sono sostituite dalle seguenti: «alle risorse»; 
+ al secondo periodo, le parole: «<quotedText eId="modNov_7_old_35">per la laguna di Venezia</quotedText> - Nuovo Magistrato delle Acque» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_35">per la Laguna di Venezia</quotedText> - Nuovo Magistrato alle Acque»; 
+ al quinto periodo, le parole: «della presente disposizione» sono sostituite dalle seguenti: «del presente decreto» e le parole: «per la laguna di Venezia - Nuovo Magistrato delle Acque» sono sostituite dalle seguenti: «per la Laguna di Venezia - Nuovo Magistrato alle Acque»; 
+ al comma 2, le parole: «per la laguna di Venezia» sono sostituite dalle seguenti: «per la Laguna di Venezia»; 
+ al comma 3: 
+ all'alinea, le parole: «<quotedText eId="modNov_7_old_36">94-bis, del</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_36">94-bis del</quotedText>»; 
+ alla lettera b): 
+ al numero 1), le parole: «sostituire le parole» sono sostituite dalle seguenti: «le parole:» e le parole: «con le seguenti» sono sostituite dalle seguenti: «sono sostituite dalle seguenti:»; 
+ al numero 2), le parole: «sono sostituire» sono sostituite dalle seguenti: «sono sostituite»; 
+ al numero 3): 
+ all'alinea, la parola: «inserire» e' sostituita dalle seguenti: «e' aggiunta»; 
+ al capoverso b-bis), le parole: «dell'art. 2 della legge 2 agosto 1952» sono sostituite dalle seguenti: «dell'articolo 2 della legge 2 agosto 1952,»; 
+ al comma 4: 
+ al primo periodo, dopo le parole: «a decorrere dalla» sono inserite le seguenti: «data di»; 
+ al terzo periodo, dopo le parole: «di cui al comma 5» sono inserite le seguenti: «del presente articolo»; 
+ al quarto periodo, le parole: «alla scadenza del Commissario straordinario di cui all'articolo 94-bis, comma 7-bis, del citato <ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/decretoLegge/stato/2020/18/!main" ns70:resolution="unresolved">decreto-legge n. 18 del 2020</ref>» sono sostituite dalle seguenti: «alla scadenza delle funzioni del Commissario straordinario di cui al primo periodo del presente comma»; 
+ al quinto periodo, le parole: «le proprie funzioni» sono sostituite dalle seguenti: «dalle funzioni»; 
+ al sesto periodo, le parole: «della presente disposizione» sono sostituite dalle seguenti: «del presente decreto»; 
+ al comma 5, le parole: «mediante la corrispondente» sono sostituite dalle seguenti: «mediante corrispondente» e le parole: «<ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/legge/stato/2020/178/!main" ns71:resolution="unresolved">legge n. 178 del 2020</ref>» sono sostituite dalle seguenti: «<ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/legge/stato/2020-12-30/178/!main" ns72:target="olf:it/legge/stato/2020/178" ns72:relation="cites">legge 30 dicembre 2020, n. 178</ref>»; 
+ dopo il comma 5 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_7_new_41">5-bis. Il Commissario straordinario per il completamento dei lavori del Nodo ferroviario di Genova e del collegamento dell'ultimo miglio tra il Terzo Valico dei Giovi e il Porto storico di Genova, di cui all'articolo 4, comma l2-octies, del <ref xmlns:ns73="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_73" href="/akn/it/act/decretoLegge/stato/2019-04-18/32/!main" ns73:target="olf:it/decreto-legge/stato/2019/32" ns73:relation="amends">decreto-legge 18 aprile 2019, n. 32</ref>, convertito, con modificazioni, dalla <ref xmlns:ns74="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_74" href="/akn/it/act/legge/stato/2019-06-14/55/!main" ns74:target="olf:it/legge/stato/2019/55" ns74:relation="cites">legge 14 giugno 2019, n. 55</ref>, e' autorizzato a conferire incarichi di consulenza, fino al numero massimo di quattro, di durata non superiore al 31 dicembre 2027, a esperti di elevata qualificazione in materia tecnica, amministrativa, giuridica e di comunicazione nel settore delle infrastrutture, scelti anche tra soggetti estranei alla pubblica amministrazione e in deroga a quanto previsto dall'<ref xmlns:ns75="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_75" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_7" ns75:target="olf:it/decreto-legislativo/stato/2001/165/art_7" ns75:relation="cites">articolo 7 del decreto legislativo 30 marzo 2001, n. 165</ref>. Il relativo trattamento economico e' stabilito con il provvedimento di conferimento dell'incarico, nel limite massimo di euro 60.000 annui per ciascun esperto, al lordo dei contributi previdenziali e degli oneri fiscali.
+Agli oneri di cui al presente comma, pari a 240.000 euro per ciascuno degli anni dal 2025 al 2027, si provvede mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'<ref xmlns:ns76="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_76" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com671" ns76:target="olf:it/legge/stato/2020/178/art_1-com671" ns76:relation="cites">articolo 1, comma 671, della legge 30 dicembre 2020, n. 178</ref>
+                                        </quotedText>».</mod> 
+ Dopo l'articolo 6 sono inseriti i seguenti: 
+ «Art. 6-bis (Attivita' di formazione a iniziativa aziendale a favore dei lavoratori). - 1. All'<ref xmlns:ns77="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_77" href="/akn/it/act/legge/stato/2024-12-30/207/!main#art_1-com197" ns77:target="olf:it/legge/stato/2024/207/art_1-com197" ns77:relation="amends">articolo 1, comma 197, della legge 30 dicembre 2024, n. 207</ref>, sono apportate le seguenti modificazioni: 
+ a) dopo le parole: "le risorse assegnate alle regioni, nell'ambito di tale programma," sono inserite le seguenti: "previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, ai sensi dell'<ref xmlns:ns78="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_78" href="/akn/it/act/legge/stato/2003-06-05/131/!main#art_8-com6" ns78:target="olf:it/legge/stato/2003/131/art_8-com6" ns78:relation="cites">articolo 8, comma 6, della legge 5 giugno 2003, n. 131</ref>,"; 
+ b) le parole: "le iniziative di formazione attivate dalle imprese a favore dei lavoratori" sono sostituite dalle seguenti: "le attivita' di formazione a iniziativa aziendale a favore dei lavoratori". 
+ Art. 6-ter (Disposizioni in materia di efficacia dei decreti di ripartizione del Fondo per il gioco d'azzardo patologico). - 1.
+All'articolo 1, comma 367, quarto periodo, della <ref xmlns:ns79="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_79" href="/akn/it/act/legge/stato/2024-12-30/207/!main" ns79:target="olf:it/legge/stato/2024/207" ns79:relation="amends">legge 30 dicembre 2024, n. 207</ref>, dopo le parole: "gia' adottati" sono inserite le seguenti: "o il cui procedimento di adozione risulti gia' avviato"». 
+ <mod eId="modNov_8">All'articolo 7: 
+ al comma l: 
+ al primo periodo<quotedText eId="modNov_8_new_42">,</quotedText> le parole: «<ref xmlns:ns80="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_80" href="/akn/it/act/decretoLegislativo/stato/1999/242/!main" ns80:resolution="unresolved">decreto legislativo n. 242 del 1999</ref>» sono sostituite dalle seguenti: «<ref xmlns:ns81="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_81" href="/akn/it/act/decretoLegislativo/stato/1999-07-23/242/!main" ns81:target="olf:it/decreto-legislativo/stato/1999/242" ns81:relation="cites">decreto legislativo 23 luglio 1999, n. 242</ref>,»; 
+ al secondo periodo, le parole: «del presente decreto-legge questi enti pubblici» sono sostituite dalle seguenti: «del presente decreto, gli enti pubblici di cui al primo periodo» e le parole: «alle presenti disposizioni» sono sostituite dalle seguenti: «alle disposizioni del presente articolo»; 
+ al terzo periodo, le parole: «il termine di cui al presente comma» sono sostituite dalle seguenti: «il termine di cui al secondo periodo» e le parole: «nomina un» sono sostituite dalle seguenti: «si provvede alla nomina di un»; 
+ al quarto periodo, dopo le parole: «n. 111» e' inserito il seguente segno d'interpunzione: «,»; 
+ al quinto periodo, le parole: «della presente disposizione» sono sostituite dalle seguenti: «delle disposizioni del presente articolo».</mod>
+                                    <mod eId="modNov_9">All'articolo 8: 
+ al comma 1: 
+ al capoverso 2-bis, le parole da: «I requisiti e gli obblighi» fino a: «a legislazione vigente.» sono trasposte alla fine del primo periodo, di seguito dopo le parole: «di cui al medesimo comma 2-ter.», le parole: «e, allo scopo» sono sostituite dalle seguenti: «; a tale fine» e le parole: «al presente articolo» sono sostituite dalle seguenti: «al presente comma»; 
+ al capoverso 2-ter: 
+ al primo periodo, le parole: «annui, per ciascuno» sono sostituite dalle seguenti: «annui per ciascuno» e la parola: «destinata» e' sostituita dalla seguente: «destinati»; 
+ al secondo periodo, le parole: «da effettuarsi» sono sostituite dalle seguenti: «da emanare».</mod>
+                                    <mod eId="modNov_10">All'articolo 9: 
+ al comma 1: 
+ all'alinea<quotedText eId="modNov_10_new_45">,</quotedText> le parole: «, e' aggiunto» sono sostituite dalle seguenti: «e' inserito»; 
+ al capoverso 4-bis, le parole: «indicati dal» sono sostituite dalle seguenti: «indicati al» e dopo le parole: «b), c), d)» e' inserito il seguente segno d'interpunzione: «,».</mod> 
+ Dopo l'articolo 9 sono inseriti i seguenti: 
+ «Art. 9-bis (Disposizioni urgenti per l'attuazione della riforma 1.3 "Riorganizzazione del sistema scolastico" della Missione 4 - Componente 1 del PNRR). - 1. Al fine di garantire l'attuazione della riforma 1.3 "Riorganizzazione del sistema scolastico" della Missione 4 - Componente 1 del Piano nazionale di ripresa e resilienza (PNRR), dopo il <ref xmlns:ns82="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_82" href="/akn/it/act/legge/stato/2015-07-13/107/!main#art_1-com83quater" ns82:target="olf:it/legge/stato/2015/107/art_1-com83quater" ns82:relation="amends">comma 83-quater dell'articolo 1 della legge 13 luglio 2015, n. 107</ref>, sono inseriti i seguenti: 
+ "83-quinquies. Al fine di sostenere il processo di dimensionamento della rete scolastica previsto dalla riforma 1.3 'Riorganizzazione del sistema scolastico' della Missione 4 - Componente 1 del Piano nazionale di ripresa e resilienza (PNRR), per l'anno scolastico 2025/2026, a beneficio delle istituzioni scolastiche delle regioni che hanno adottato entro il 30 dicembre 2024 la deliberazione di dimensionamento ai sensi e nei termini previsti dall'<ref xmlns:ns83="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_83" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main#art_19-com5quater" ns83:target="olf:it/decreto-legge/stato/2011/98/art_19-com5quater" ns83:relation="amends">articolo 19, commi 5-quater</ref> e <ref xmlns:ns84="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_84" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main#art_19-com5quinquies" ns84:target="olf:it/decreto-legge/stato/2011/98/art_19-com5quinquies" ns84:relation="amends">5-quinquies, del decreto-legge 6 luglio 2011, n. 98</ref>, convertito, con modificazioni, dalla <ref xmlns:ns85="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_85" href="/akn/it/act/legge/stato/2011-07-15/111/!main" ns85:target="olf:it/legge/stato/2011/111" ns85:relation="cites">legge 15 luglio 2011, n. 111</ref>, sono messe a disposizione ulteriori posizioni di esonero o di semiesonero dall'insegnamento di cui al comma 83-quater del presente articolo, nel limite di spesa di 3.597.000 euro per l'anno 2025 e di 5.395.000 euro per l'anno 2026, ferma restando la dotazione organica del personale amministrativo, tecnico e ausiliario, con esclusione del profilo professionale dei direttori dei servizi generali e amministrativi, in misura non inferiore a quella prevista per l'anno scolastico 2024/2025. Per le finalita' di cui al presente comma, il decreto di cui al secondo periodo del comma 83-quater e' aggiornato entro trenta giorni dalla data di entrata in vigore della presente disposizione. Al fine di ridurre i divari territoriali e degli apprendimenti favorendo, nell'ambito del processo di dimensionamento della rete scolastica, l'istituzione delle classi nelle aree interne, montane, isolane o, comunque, caratterizzate da maggiori livelli di dispersione scolastica, per l'anno scolastico 2025/2026 i dirigenti degli uffici scolastici regionali delle regioni di cui al primo periodo possono derogare al numero minimo di alunni per classe previsto dal regolamento di cui al <ref xmlns:ns86="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_86" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2009-03-20/81/!main" ns86:target="olf:it/dpr/stato/2009/81" ns86:relation="cites">decreto del Presidente della Repubblica 20 marzo 2009, n. 81</ref>, nei limiti dell'organico dell'autonomia assegnato a livello regionale. All'attuazione del terzo periodo del presente comma si provvede nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+ 83-sexies. Le regioni che non hanno provveduto al dimensionamento della rete scolastica per l'anno scolastico 2025/2026 ai sensi e nei termini previsti dall'<ref xmlns:ns87="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_87" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main#art_19-com5quater" ns87:target="olf:it/decreto-legge/stato/2011/98/art_19-com5quater" ns87:relation="amends">articolo 19, commi 5-quater</ref> e <ref xmlns:ns88="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_88" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main#art_19-com5quinquies" ns88:target="olf:it/decreto-legge/stato/2011/98/art_19-com5quinquies" ns88:relation="amends">5-quinquies, del decreto-legge 6 luglio 2011, n. 98</ref>, convertito, con modificazioni, dalla <ref xmlns:ns89="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_89" href="/akn/it/act/legge/stato/2011-07-15/111/!main" ns89:target="olf:it/legge/stato/2011/111" ns89:relation="cites">legge 15 luglio 2011, n. 111</ref>, adottano la deliberazione di dimensionamento, entro dieci giorni dalla data di entrata in vigore della presente disposizione, con le modalita' previste dal presente comma. Fermo restando quanto previsto dall'<ref xmlns:ns90="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_90" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com557" ns90:target="olf:it/legge/stato/2022/197/art_1-com557" ns90:relation="amends">articolo 1, comma 557, della legge 29 dicembre 2022, n. 197, e dal decreto</ref> del Ministro dell'istruzione e del merito n. 127 del 30 giugno 2023, di cui al comunicato pubblicato nella Gazzetta Ufficiale n. 46 del 24 febbraio 2024, per la definizione del contingente dell'organico dei dirigenti scolastici e dei direttori dei servizi generali e amministrativi e la sua distribuzione tra le regioni relativamente all'anno scolastico 2026/2027, le regioni di cui al primo periodo del presente comma, per il solo anno scolastico 2025/2026, possono attivare un ulteriore numero di autonomie scolastiche in misura non superiore al 2,99 per cento del contingente dei posti di dirigente scolastico e di direttore dei servizi generali e amministrativi definito, per ciascuna regione per il medesimo anno scolastico 2025/2026, dal citato decreto e comunque non superiore al contingente autorizzato per l'anno scolastico 2024/2025, senza un corrispondente incremento delle facolta' assunzionali ovvero delle reggenze. In caso di dimensionamento ai sensi del presente comma senza attivazione di ulteriori autonomie scolastiche rispetto al contingente dei posti di dirigente scolastico e di direttore dei servizi generali e amministrativi definito, per ciascuna regione, dal citato decreto del Ministro dell'istruzione e del merito n. 127 del 30 giugno 2023, alla regione si applica il comma 83-quinquies del presente articolo e le corrispondenti economie di spesa accrescono il limite di spesa di cui al medesimo comma 83-quinquies. In ogni regione, il numero delle autonomie scolastiche attivate in misura non superiore al 2,99 per cento di cui al secondo periodo non rileva ai fini della mobilita' e delle nomine in ruolo dei dirigenti scolastici e dei direttori dei servizi generali e amministrativi. 
+ 83-septies. Per l'attuazione dei commi 83-quinquies e 83-sexies del presente articolo e' autorizzata la spesa di 5.370.000 euro per l'anno 2025 e di 8.798.000 euro per l'anno 2026. Ai relativi oneri si provvede mediante corrispondente riduzione del Fondo per il funzionamento delle istituzioni scolastiche, di cui all'<ref xmlns:ns91="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_91" href="/akn/it/act/legge/stato/2006-12-27/296/!main#art_1-com601" ns91:target="olf:it/legge/stato/2006/296/art_1-com601" ns91:relation="cites">articolo 1, comma 601, della legge 27 dicembre 2006, n. 296</ref>. 
+ 83-octies. La regione Friuli Venezia Giulia puo' attivare, per gli anni scolastici 2025/2026 e 2026/2027, in deroga ai contingenti definiti per le scuole di lingua slovena dal decreto del Ministro dell'istruzione e del merito n. 127 del 30 giugno 2023, di cui al comunicato pubblicato nella Gazzetta Ufficiale n. 46 del 24 febbraio 2024, un ulteriore numero di autonomie scolastiche in misura tale da non superare il contingente definito per le medesime scuole dal decreto del Ministro dell'istruzione e del merito n. 70 del 19 aprile 2023, senza un corrispondente incremento delle facolta' assunzionali ovvero delle reggenze. Per l'attuazione del primo periodo e' autorizzata la spesa di 43.121 euro per l'anno 2025, di 150.923 euro per l'anno 2026 e di 129.363 euro per l'anno 2027. Ai relativi oneri si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2025-2027, nell'ambito del programma 'Fondi di riserva e speciali' della missione 'Fondi da ripartire' dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2025, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'istruzione e del merito". 
+ 2. All'<ref xmlns:ns92="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_92" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main#art_19-com5quater" ns92:target="olf:it/decreto-legge/stato/2011/98/art_19-com5quater" ns92:relation="amends">articolo 19, comma 5-quater, del decreto-legge 6 luglio 2011, n. 98</ref>, convertito, con modificazioni, dalla <ref xmlns:ns93="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_93" href="/akn/it/act/legge/stato/2011-07-15/111/!main" ns93:target="olf:it/legge/stato/2011/111" ns93:relation="cites">legge 15 luglio 2011, n. 111</ref>, sono apportate le seguenti modificazioni: 
+ a) al terzo periodo, le parole: "entro il 30 novembre" sono sostituite dalle seguenti: "entro il 31 ottobre"; 
+ b) al quarto periodo, le parole: "Con deliberazione motivata della regione" sono sostituite dalle seguenti: "Con decreto del Ministro dell'istruzione e del merito". 
+ 3. Al fine di garantire il proseguimento delle attivita' amministrative e gestionali di competenza dell'Ufficio scolastico regionale, per il raggiungimento degli obiettivi del PNRR, gli incarichi di funzione dirigenziale di livello generale di tali uffici in scadenza entro il 30 giugno 2025 possono essere prorogati, con il provvedimento da emanare ai sensi dell'<ref xmlns:ns94="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_94" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_19-com4" ns94:target="olf:it/decreto-legislativo/stato/2001/165/art_19-com4" ns94:relation="cites">articolo 19, comma 4, del decreto legislativo 30 marzo 2001, n. 165</ref>, fino al conferimento degli incarichi di funzione dirigenziale di livello generale connesso alla riorganizzazione prevista dal regolamento di cui al <ref xmlns:ns95="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_95" href="/akn/it/act/decreto/presidente.consiglio/2024-10-30/185/!main" ns95:target="olf:it/decreto/presidente-consiglio/2024/185" ns95:relation="cites">decreto del Presidente del Consiglio dei ministri 30 ottobre 2024, n. 185</ref>. 
+ Art. 9-ter (Disposizioni in materia di risparmi di spesa conseguenti al dimensionamento della rete scolastica). - 1. Al fine di rendere piu' efficace l'utilizzo dei risparmi di spesa conseguenti al dimensionamento della rete scolastica previsto dalla riforma 1.3 "Riorganizzazione del sistema scolastico" della Missione 4 - Componente 1 del PNRR, all'articolo l, comma 558, primo periodo, della <ref xmlns:ns96="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_96" href="/akn/it/act/legge/stato/2022-12-29/197/!main" ns96:target="olf:it/legge/stato/2022/197" ns96:relation="amends">legge 29 dicembre 2022, n. 197</ref>, sono apportate le seguenti modificazioni: 
+ a) le parole: "I risparmi" sono sostituite dalle seguenti: "Gli eventuali risparmi"; 
+ b) le parole da: "possono essere" fino alla fine del periodo sono sostituite dalle seguenti: "sono destinati a incrementare il fondo unico nazionale per la dirigenza scolastica e il fondo integrativo di istituto, con riferimento alle indennita' destinate ai direttori dei servizi generali e amministrativi"». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
