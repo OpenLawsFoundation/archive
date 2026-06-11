@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-01-11/2/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-01-11/2"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-01-11;2"/>
+                    <FRBRalias name="eli" value="eli/id/2024/01/13/24G00006/ORIGINAL"/>
+                    <FRBRdate date="2024-01-11" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/01/13/24G00006/ORIGINAL" aknrelname="eli/id/2024/01/13/24G00006/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 15 novembre 2023, n. 161, recante disposizioni urgenti per il «Piano Mattei» per lo sviluppo in Stati del Continente africano. (24G00006) " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00006" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-01-11" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-01-11/2/ita@2024-01-14/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-01-11/2/ita@2024-01-14"/>
+                    <FRBRdate date="2024-01-14" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/01/13/24G00006/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/01/13/24G00006/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/01/13/24G00006/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-01-11/2/ita@2024-01-14/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-01-11/2/ita@2024-01-14.xml"/>
+                    <FRBRdate date="2024-01-11" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/01/13/24G00006/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-01-13" name="" number="10" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-01-13" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-01-11" refersTo="#S.936"/>
+                <step by="#camera" date="2024-01-11" refersTo="#C.1624"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-01-11;2#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-11-15;161#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, 2 e 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-01-11;2#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-11-15;161#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1, 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-01-11;2#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-11-15;161#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, lettere a) e c) e l'introduzione della lettera a-bis) all'art. 3, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-01-11;2#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-11-15;161#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 1, 4 e 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-01-11;2#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-11-15;161#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_1__para_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_1__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_1__para_5"/>
+                        <new href="#modNov_1_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_2__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_2__para_1"/>
+                        <old href="#modNov_2_old_5"/>
+                        <new href="#modNov_2_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_2__para_2"/>
+                        <new href="#modNov_2_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_2__para_3"/>
+                        <new href="#modNov_2_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_3__para_1__point_c"/>
+                        <new href="#modNov_3_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_3__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_3__para_1__point_a-bis"/>
+                        <new href="#modNov_3_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="repeal">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_4__para_1"/>
+                        <old href="#modNov_4_old_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_4__para_1"/>
+                        <old href="#modNov_4_old_12"/>
+                        <new href="#modNov_4_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_4__para_4"/>
+                        <old href="#modNov_4_old_13"/>
+                        <new href="#modNov_4_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_4__para_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-11-15/161/ita@2024-01-14/!main/~art_5__para_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-01-11/2/!main" showAs=""/>
+                <passiveRef eId="S.936" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;936" showAs=""/>
+                <passiveRef eId="C.1624" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1624" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/01/13/24G00006/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 15 novembre 2023, n. 161, recante disposizioni urgenti per il «Piano Mattei» per lo sviluppo in Stati del Continente africano. (24G00006) </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00006</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-01-11</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/01/13/24G00006/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/01/13/24G00006/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/01/13/24G00006/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/01/13/24G00006/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/2" nativeUrn="urn:nir:stato:legge:2024-01-11;2" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-01-13"><ns0:event type="enacted" date="2024-01-11"/><ns0:event type="published" date="2024-01-13"/><ns0:event type="commenced" date="2024-01-13"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/dc6336ca-b436-4e47-a695-52b31fab9736" sourceSha256="608b0227202901733990ddba00c2c2703cc05a765f864b33be8099623408adda" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:22:35.662161Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-01-11">11 gennaio 2024</docDate>
+                <docNumber>2</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 15 novembre 2023, n. 161, recante disposizioni urgenti per il «Piano Mattei» per lo sviluppo in Stati del Continente africano. (24G00006) </docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 14/01/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2023-11-15/161/!main" ns1:target="olf:it/decreto-legge/stato/2023/161" ns1:relation="repeals">decreto-legge 15 novembre 2023, n. 161</ref>, recante disposizioni urgenti per il «Piano Mattei» per lo sviluppo in Stati del Continente africano, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2023-11-15/161/!main" ns2:target="olf:it/decreto-legge/stato/2023/161" ns2:relation="repeals">decreto-legge 15 novembre 2023, n. 161</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 267 del 15 novembre 2023. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 55. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 11 gennaio 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Tajani, Ministro degli affari esteri e della cooperazione internazionale Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-01-11/2/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-01-11/2"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-01-11;2"/>
+                                <FRBRalias name="eli" value="eli/id/2024/01/13/24G00006/ORIGINAL"/>
+                                <FRBRdate date="2024-01-14" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-01-11/2/ita@2024-01-14/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-01-11/2/ita@2024-01-14"/>
+                                <FRBRdate date="2024-01-14" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-01-11/2/ita@2024-01-14/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-01-11/2/ita@2024-01-14.xml"/>
+                                <FRBRdate date="2024-01-11" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+Modificazioni apportate in sede di conversione al <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2023-11-15/161/!main" ns4:target="olf:it/decreto-legge/stato/2023/161" ns4:relation="repeals">decreto-legge 15 novembre 2023, n. 161</ref> 
+ <mod eId="modNov_1">All'articolo 1: 
+ il comma 1 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_1_new_1">1. Al fine di rafforzare la collaborazione tra l'Italia e Stati del Continente africano, con decreto del Presidente del Consiglio dei ministri, previo parere delle Commissioni parlamentari competenti, e' adottato il Piano strategico Italia-Africa: Piano Mattei, di seguito denominato "Piano Mattei", documento programmatico-strategico volto a promuovere lo sviluppo in Stati africani. Le Commissioni parlamentari si esprimono con le modalita' e nelle forme stabilite dai regolamenti delle Camere. Il termine per l'espressione del parere e' di trenta giorni dalla richiesta, decorso il quale il Piano e' approvato anche in assenza del parere</quotedText>»; 
+ al comma 2, dopo le parole: «anche digitali,» sono inserite le seguenti: «partenariato nel settore aerospaziale,» e dopo le parole: «anche nell'ambito delle fonti rinnovabili,» sono inserite le seguenti: «dell'economia circolare e del riciclo,»; 
+ al comma 5, dopo le parole: «le attivita' di programmazione» sono inserite le seguenti: «<quotedText eId="modNov_1_new_3">, di valutazione di impatto</quotedText>».</mod>
+                                    <mod eId="modNov_2">All'articolo 2: 
+ al comma 1, dopo le parole: «made in Italy nel mondo,» sono inserite le seguenti: «dal Vice Ministro dell'ambiente e della sicurezza energetica delegato in materia di politiche e attivita' relative allo sviluppo sostenibile,», dopo le parole: «rappresentanti di imprese a partecipazione pubblica,» sono inserite le seguenti: «di imprese industriali, della Conferenza dei rettori delle universita' italiane,» e le parole: «<quotedText eId="modNov_2_old_5">terzo settore,</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_5">Terzo settore nonche'</quotedText>»; 
+ al comma 2, dopo la parola: «Presidente» sono inserite le seguenti: «<quotedText eId="modNov_2_new_7">del Consiglio dei ministri</quotedText>»; 
+ al comma 3, dopo le parole: «Per la partecipazione alla Cabina di regia» sono inserite le seguenti: «<quotedText eId="modNov_2_new_8">, ai suoi componenti</quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 3: 
+ al comma 1: 
+ alla lettera a), le parole: «collaborazione tra Italia e Stati» sono sostituite dalle seguenti: «collaborazione tra l'Italia e Stati» e le parole: «amministrazioni pubbliche ad essa partecipanti» sono sostituite dalle seguenti: «amministrazioni pubbliche che compongono la Cabina medesima»; 
+ dopo la lettera a) e' inserita la seguente: 
+ «<quotedText eId="modNov_3_new_10">a-bis) promuove le attivita' di incontro tra i rappresentanti della societa' civile, imprese e associazioni italiane e africane con lo scopo di agevolare le iniziative di collaborazione territoriale e promozione di attivita' di sviluppo</quotedText>»; 
+ alla lettera c), dopo le parole: «attuazione del Piano» e' inserita la seguente: «<quotedText eId="modNov_3_new_6">Mattei</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 4: 
+ al comma 1<quotedText eId="modNov_4_old_11">,</quotedText> dopo le parole: «struttura di missione» il segno di interpunzione «,» e' soppresso e le parole: «<quotedText eId="modNov_4_old_12">e articolata</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_12">e che e' articolata</quotedText>»; 
+ al comma 4, le parole: «<quotedText eId="modNov_4_old_13">per le attivita' della struttura di cui al presente articolo</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_13">per le attivita' della struttura di missione di cui al comma 2</quotedText>»; 
+ al comma 6, dopo le parole: «struttura di missione» e' inserito il seguente segno di interpunzione: «,».</mod>
+                                    <mod eId="modNov_5">All'articolo 5: 
+ al comma 1, le parole: «una relazione sullo stato di attuazione del Piano» sono sostituite dalle seguenti: «la relazione sullo stato di attuazione del Piano Mattei» e le parole: «previa approvazione da parte della Cabina di regia» sono sostituite dalle seguenti: «approvata dalla Cabina di regia, ai sensi dell'articolo 3, comma 1, lettera d)».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
