@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-02-21/16/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-02-21/16"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-02-21;16"/>
+                    <FRBRalias name="eli" value="eli/id/2024/02/26/24G00029/ORIGINAL"/>
+                    <FRBRdate date="2024-02-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/02/26/24G00029/ORIGINAL" aknrelname="eli/id/2024/02/26/24G00029/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifiche alla legge 30 marzo 2004, n. 92, in materia di iniziative per la promozione della conoscenza della tragedia delle foibe e dell'esodo giuliano-dalmata nelle giovani generazioni. (24G00029)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00029" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-02-21" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-02-21/16/ita@2024-03-12/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-02-21/16/ita@2024-03-12"/>
+                    <FRBRdate date="2024-03-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/02/26/24G00029/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/02/26/24G00029/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/02/26/24G00029/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-02-21/16/ita@2024-03-12/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-02-21/16/ita@2024-03-12.xml"/>
+                    <FRBRdate date="2024-02-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/02/26/24G00029/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-02-26" name="" number="47" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-02-26" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-02-21" refersTo="#S.317"/>
+                <step by="#senato" date="2024-02-21" refersTo="#S.533"/>
+                <step by="#senato" date="2024-02-21" refersTo="#S.548"/>
+                <step by="#camera" date="2024-02-21" refersTo="#C.1457"/>
+                <step by="#senato" date="2024-02-21" refersTo="#S.317-533-548-B"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-02-21;16#1"/>
+                        <destination href="urn:nir:stato:legge:2004-03-30;92#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera a)) l'introduzione dei commi 2-bis, 2-ter e 2-quater all'art. 1 e la modifica dell'art. 1, comma 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-02-21;16#1"/>
+                        <destination href="urn:nir:stato:legge:2004-03-30;92#2 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-02-21;16#1"/>
+                        <destination href="urn:nir:stato:legge:2004-03-30;92#2 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 2-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-02-21;16#1"/>
+                        <destination href="urn:nir:stato:legge:2004-03-30;92#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera c)) l'introduzione del comma 3-bis all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/2004-03-30/92/ita@2024-03-12/!main/~art_1"/>
+                        <new href="#modNov_1_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/legge/stato/2004-03-30/92/ita@2024-03-12/!main/~art_1__para_4"/>
+                        <old href="#modNov_2_old_1"/>
+                        <new href="#modNov_2_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/legge/stato/2004-03-30/92/ita@2024-03-12/!main"/>
+                        <new href="#modNov_3_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/legge/stato/2004-03-30/92/ita@2024-03-12/!main/~art_3__para_3-bis"/>
+                        <new href="#modNov_4_new_4"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-02-21/16/!main" showAs=""/>
+                <passiveRef eId="S.317" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;317" showAs=""/>
+                <passiveRef eId="S.533" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;533" showAs=""/>
+                <passiveRef eId="S.548" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;548" showAs=""/>
+                <passiveRef eId="C.1457" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1457" showAs=""/>
+                <passiveRef eId="S.317-533-548-B" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;317-533-548-B" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/02/26/24G00029/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifiche alla legge 30 marzo 2004, n. 92, in materia di iniziative per la promozione della conoscenza della tragedia delle foibe e dell'esodo giuliano-dalmata nelle giovani generazioni. (24G00029)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00029</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-02-21</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/02/26/24G00029/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/02/26/24G00029/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/02/26/24G00029/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/02/26/24G00029/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/16" nativeUrn="urn:nir:stato:legge:2024-02-21;16" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-02-26"><ns0:event type="enacted" date="2024-02-21"/><ns0:event type="published" date="2024-02-26"/><ns0:event type="commenced" date="2024-02-26"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/c06bba71-5e8e-4b11-b335-4208444bb8af" sourceSha256="a1b47c6cc5fcea686afa582f7801a437a8dd1bec62894fec552db54e3a985486" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:21:51.252369Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-02-21">21 febbraio 2024</docDate>
+                <docNumber>16</docNumber>
+                <docTitle>Modifiche alla legge 30 marzo 2004, n. 92, in materia di iniziative per la promozione della conoscenza della tragedia delle foibe e dell'esodo giuliano-dalmata nelle giovani generazioni. (24G00029) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 12/03/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_1__para_1__intro_1">
+                            <p>Alla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2004-03-30/92/!main" ns1:target="olf:it/legge/stato/2004/92" ns1:relation="amends">legge 30 marzo 2004, n. 92</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>all'articolo 1: 
+ 1) <mod eId="modNov_1">dopo il comma 2 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_1_new_2">2-bis. Il Ministero dell'universita' e della ricerca indice, con cadenza annuale, un concorso nazionale in occasione del "Giorno del ricordo" di cui al comma 1, in collaborazione con le universita' italiane e le istituzioni dell'alta formazione artistica, musicale e coreutica (AFAM). Il concorso e' rivolto ai laureandi sia del corso triennale che di quello magistrale delle facolta' di architettura, design, beni culturali, ingegneria e discipline delle arti, della musica e dello spettacolo (DAMS), nonche' dei corsi di primo e di secondo livello presso le istituzioni dell'AFAM e ai dottorandi afferenti alle Scuole di dottorato di ricerca in materie affini ed e' finalizzato a premiare il progetto piu' meritevole per la realizzazione di un'installazione temporanea, opera d'arte in qualsiasi forma espressiva, da esporre per la durata di un anno in occasione del Giorno del ricordo in un capoluogo di regione, differente ogni anno. A tal fine e' autorizzata la spesa di 200.000 euro annui a decorrere dall'anno 2024. 
+ 2-ter. Con decreto del Ministro dell'universita' e della ricerca, di concerto con il Ministro dell'economia e delle finanze e con il Ministro della cultura, da adottare entro sessanta giorni dalla data di entrata in vigore della presente disposizione, si provvede alla costituzione di un comitato tecnico-scientifico con la partecipazione di rappresentanti della Federazione delle associazioni degli esuli istriani, fiumani e dalmati nonche' delle universita' e delle istituzioni dell'AFAM, che si avvale della consulenza a titolo gratuito di storici dell'arte, per l'elaborazione del bando di concorso e per l'individuazione dei criteri di valutazione delle opere di cui al comma 2-bis, dell'eventuale premialita' da riconoscere, nonche' della citta' che annualmente ospita l'installazione artistica, nel limite della spesa autorizzata ai sensi del medesimo comma 2-bis. Per la partecipazione al comitato tecnico-scientifico non spettano compensi, gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati. 
+ 2-quater. Agli oneri derivanti dal comma 2-bis, pari a 200.000 euro annui a decorrere dall'anno 2024, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'universita' e della ricerca</quotedText>»;</mod> 
+ 2) <mod eId="modNov_2">al comma 4, le parole: «<quotedText eId="modNov_2_old_1">del presente articolo</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_1">dei commi 1, 2 e 3</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_3">dopo l'articolo 2 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_3_new_3">Art. 2-bis. - 1. Nello stato di previsione del Ministero dell'istruzione e del merito e' istituito un fondo, con una dotazione di 1 milione di euro per ciascuno degli anni 2024, 2025 e 2026, per promuovere e incentivare, nel rispetto dell'autonomia scolastica, i "Viaggi del ricordo nei luoghi delle foibe e dell'esodo giuliano-dalmata e nelle terre di origine degli esuli" per gli studenti delle scuole secondarie, al fine di far maturare la coscienza civica delle nuove generazioni, nonche' di favorire il dialogo interculturale rispetto alle grandi sofferenze patite dalle popolazioni dell'Istria, di Fiume e della Dalmazia a causa della Seconda guerra mondiale, durante e dopo il passaggio di quelle terre alla Repubblica socialista federale di Jugoslavia. Al fine di garantire la piena comprensione delle vicende del confine orientale italiano, i Viaggi del ricordo sono organizzati a seguito di percorsi formativi rivolti ai docenti delle scuole secondarie di primo e di secondo grado del sistema nazionale di istruzione e formazione secondo le linee guida del Ministero dell'istruzione e del merito per la didattica della frontiera adriatica. 
+ 2. Il Ministro dell'istruzione e del merito, con proprio decreto da adottare entro sessanta giorni dalla data di entrata in vigore della presente disposizione, previa consultazione del comitato tecnico-scientifico, istituito con decreto del Ministro dell'istruzione e del merito, al quale partecipano rappresentanti della Federazione delle associazioni degli esuli istriani, fiumani e dalmati, definisce le modalita' di utilizzo delle risorse di cui al comma 1, stabilendo al contempo la tipologia di spese finanziabili.
+Per la partecipazione al comitato tecnico-scientifico non spettano compensi, gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati. 
+ 3. All'onere derivante dall'attuazione del comma 1, pari a 1 milione di euro per ciascuno degli anni 2024, 2025 e 2026, si provvede mediante corrispondente riduzione del fondo per il finanziamento di esigenze indifferibili di cui all'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com199" ns2:target="olf:it/legge/stato/2014/190/art_1-com199" ns2:relation="cites">articolo 1, comma 199, della legge 23 dicembre 2014, n. 190</ref>. 
+ 4. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con proprio decreto, le occorrenti variazioni di bilancio. 
+ Art. 2-ter. - 1. E' concesso un finanziamento di 300.000 euro per ciascuno degli anni 2024, 2025 e 2026, di cui 75.000 euro annui a ciascuno dei seguenti beneficiari: la Lega nazionale di Trieste per la gestione del Sacrario del monumento nazionale della Foiba di Basovizza; l'Unione degli istriani di Trieste per la gestione del "Museo di carattere nazionale C.R.P. (Centro di raccolta profughi)" di Padriciano a Trieste; l'Istituto regionale per la cultura istriano-fiumano-dalmata (IRCI) per la gestione del Museo delle masserizie dell'esodo "Magazzino 18" del Porto vecchio di Trieste; la Federazione delle associazioni degli esuli istriani, fiumani e dalmati per attivita' di formazione svolte d'intesa con il Ministero dell'istruzione e del merito. 
+ 2. All'onere derivante dall'attuazione del comma 1, pari a 300.000 euro per ciascuno degli anni 2024, 2025 e 2026, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al medesimo Ministero</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_4">all'articolo 3, dopo il comma 3 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_4_new_4">3-bis. In mancanza di parenti in vita o di un esplicito interesse da parte degli stessi, la domanda di cui al comma 1 puo' essere presentata altresi' dal sindaco del comune di nascita degli infoibati o degli scomparsi di cui ai commi 1 e 2. Qualora il comune di nascita non rientri piu' nel territorio dello Stato italiano, il riconoscimento puo' essere richiesto dalle associazioni storiche e riconosciute degli esuli istriani, fiumani e dalmati e dalla Lega nazionale di Trieste</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto ai sensi dell'art. 10, comma 2, del testo unico delle disposizioni sulla promulgazione delle leggi e sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana approvato con <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns3:target="olf:it/dpr/stato/1985/1092" ns3:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo degli <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2004-03-30/92/!main#art_1" ns4:target="olf:it/legge/stato/2004/92/art_1" ns4:relation="amends">articoli 1</ref> e <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2004-03-30/92/!main#art_3" ns5:target="olf:it/legge/stato/2004/92/art_3" ns5:relation="amends">3 della legge 30 marzo 2004, n. 92</ref>, recante «Istituzione del "Giorno del ricordo" in memoria delle vittime delle foibe, dell'esodo giuliano-dalmata, delle vicende del confine orientale e concessione di un riconoscimento ai congiunti degli infoibati», pubblicata nella Gazzetta Ufficiale 13 aprile 2004, n. 86, come modificato dalla presente legge: 
+ «Art. 1. 1. La Repubblica riconosce il 10 febbraio quale "Giorno del ricordo" al fine di conservare e rinnovare la memoria della tragedia degli italiani e di tutte le vittime delle foibe, dell'esodo dalle loro terre degli istriani, fiumani e dalmati nel secondo dopoguerra e della piu' complessa vicenda del confine orientale. 
+ 2. Nella giornata di cui al comma 1 sono previste iniziative per diffondere la conoscenza dei tragici eventi presso i giovani delle scuole di ogni ordine e grado. E' altresi' favorita, da parte di istituzioni ed enti, la realizzazione di studi, convegni, incontri e dibattiti in modo da conservare la memoria di quelle vicende. Tali iniziative sono, inoltre, volte a valorizzare il patrimonio culturale, storico, letterario e artistico degli italiani dell'Istria, di Fiume e delle coste dalmate, in particolare ponendo in rilievo il contributo degli stessi, negli anni trascorsi e negli anni presenti, allo sviluppo sociale e culturale del territorio della costa nord-orientale adriatica ed altresi' a preservare le tradizioni delle comunita' istriano-dalmate residenti nel territorio nazionale e all'estero. 
+ 2-bis. Il Ministero dell'universita' e della ricerca indice, con cadenza annuale, un concorso nazionale in occasione del "Giorno del ricordo" di cui al comma 1, in collaborazione con le universita' italiane e le istituzioni dell'alta formazione artistica, musicale e coreutica (AFAM). Il concorso e' rivolto ai laureandi sia del corso triennale che di quello magistrale delle facolta' di architettura, design, beni culturali, ingegneria e discipline delle arti, della musica e dello spettacolo (DAMS), nonche' dei corsi di primo e di secondo livello presso le istituzioni dell'AFAM e ai dottorandi afferenti alle Scuole di dottorato di ricerca in materie affini ed e' finalizzato a premiare il progetto piu' meritevole per la realizzazione di un'installazione temporanea, opera d'arte in qualsiasi forma espressiva, da esporre per la durata di un anno in occasione del Giorno del ricordo in un capoluogo di regione, differente ogni anno. A tal fine e' autorizzata la spesa di 200.000 euro annui a decorrere dall'anno 2024. 
+ 2-ter. Con decreto del Ministro dell'universita' e della ricerca, di concerto con il Ministro dell'economia e delle finanze e con il Ministro della cultura, da adottare entro sessanta giorni dalla data di entrata in vigore della presente disposizione, si provvede alla costituzione di un comitato tecnico-scientifico con la partecipazione di rappresentanti della Federazione delle associazioni degli esuli istriani, fiumani e dalmati nonche' delle universita' e delle istituzioni dell'AFAM, che si avvale della consulenza a titolo gratuito di storici dell'arte, per l'elaborazione del bando di concorso e per l'individuazione dei criteri di valutazione delle opere di cui al comma 2-bis, dell'eventuale premialita' da riconoscere, nonche' della citta' che annualmente ospita l'installazione artistica, nel limite della spesa autorizzata ai sensi del medesimo comma 2-bis. Per la partecipazione al comitato tecnico-scientifico non spettano compensi, gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati. 
+ 2-quater. Agli oneri derivanti dal comma 2-bis, pari a 200.000 euro annui a decorrere dall'anno 2024, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'universita' e della ricerca. 
+ 3. Il "Giorno del ricordo" di cui al comma 1 e' considerato solennita' civile ai sensi dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/1949-05-27/260/!main#art_3" ns6:target="olf:it/legge/stato/1949/260/art_3" ns6:relation="cites">articolo 3 della legge 27 maggio 1949, n. 260</ref>. Esso non determina riduzioni dell'orario di lavoro degli uffici pubblici ne', qualora cada in giorni feriali, costituisce giorno di vacanza o comporta riduzione di orario per le scuole di ogni ordine e grado, ai sensi degli <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/1977-03-05/54/!main#art_2" ns7:target="olf:it/legge/stato/1977/54/art_2" ns7:relation="cites">articoli 2</ref> e <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/1977-03-05/54/!main#art_3" ns8:target="olf:it/legge/stato/1977/54/art_3" ns8:relation="cites">3 della legge 5 marzo 1977, n. 54</ref>. 
+ 4. Dall'attuazione dei commi 1, 2 e 3 non devono derivare nuovi o maggiori oneri per la finanza pubblica.". 
+ "Art. 3. 1. Al coniuge superstite, ai figli, ai nipoti e, in loro mancanza, ai congiunti fino al sesto grado di coloro che, dall'8 settembre 1943 al 10 febbraio 1947 in Istria, in Dalmazia o nelle province dell'attuale confine orientale, sono stati soppressi e infoibati, nonche' ai soggetti di cui al comma 2, e' concessa, a domanda e a titolo onorifico senza assegni, una apposita insegna metallica con relativo diploma nei limiti dell'autorizzazione di spesa di cui all'articolo 7, comma 1. 
+ 2. Agli infoibati sono assimilati, a tutti gli effetti, gli scomparsi e quanti, nello stesso periodo e nelle stesse zone, sono stati soppressi mediante annegamento, fucilazione, massacro, attentato, in qualsiasi modo perpetrati. Il riconoscimento puo' essere concesso anche ai congiunti dei cittadini italiani che persero la vita dopo il 10 febbraio 1947, ed entro l'anno 1950, qualora la morte sia sopravvenuta in conseguenza di torture, deportazione e prigionia, escludendo quelli che sono morti in combattimento. 
+ 3. Sono esclusi dal riconoscimento coloro che sono stati soppressi nei modi e nelle zone di cui ai commi 1 e 2 mentre facevano volontariamente parte di formazioni non a servizio dell'Italia. 
+ 3-bis. In mancanza di parenti in vita o di un esplicito interesse da parte degli stessi, la domanda di cui al comma 1 puo' essere presentata altresi' dal sindaco del comune di nascita degli infoibati o degli scomparsi di cui ai commi 1 e 2. Qualora il comune di nascita non rientri piu' nel territorio dello Stato italiano, il riconoscimento puo' essere richiesto dalle associazioni storiche e riconosciute degli esuli istriani, fiumani e dalmati e dalla Lega nazionale di Trieste.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 21 febbraio 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
