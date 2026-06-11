@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-05-15/72/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-05-15/72"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-05-15;72"/>
+                    <FRBRalias name="eli" value="eli/id/2025/05/17/25G00079/ORIGINAL"/>
+                    <FRBRdate date="2025-05-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/05/17/25G00079/ORIGINAL" aknrelname="eli/id/2025/05/17/25G00079/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 19 marzo 2025, n. 27, recante disposizioni urgenti per le consultazioni elettorali e referendarie dell'anno 2025. (25G00079)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00079" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-05-15" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-05-15/72/ita@2025-05-18/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-05-15/72/ita@2025-05-18"/>
+                    <FRBRdate date="2025-05-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/05/17/25G00079/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/05/17/25G00079/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/05/17/25G00079/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-05-15/72/ita@2025-05-18/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-05-15/72/ita@2025-05-18.xml"/>
+                    <FRBRdate date="2025-05-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/05/17/25G00079/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-05-17" name="" number="113" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-05-17" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2025-05-15" refersTo="#S.1425"/>
+                <step by="#camera" date="2025-05-15" refersTo="#C.2362"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-05-15;72#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1957-03-30;361#Testo Unico delle leggi recanti norme per la elezione della Camera dei deputati-art. 38"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 marzo 2025, n. 27 (in G.U. 19/03/2025, n. 65).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-05-15;72#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1960-05-16;570#Testo Unico leggi per composizione e elezione organi amministrazioni comunali-art. 23"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 marzo 2025, n. 27 (in G.U. 19/03/2025, n. 65).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-05-15;72#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1967-03-20;223#Testo unico per l'elettorato attivo e delle liste elettorali - Art. 5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 marzo 2025, n. 27 (in G.U. 19/03/2025, n. 65).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-05-15;72#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1967-03-20;223#Testo unico per l'elettorato attivo e delle liste elettorali - Art. 8"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 marzo 2025, n. 27 (in G.U. 19/03/2025, n. 65).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-05-15;72#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1967-03-20;223#Testo unico per l'elettorato attivo e delle liste elettorali - Art. 16"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 19 marzo 2025, n. 27 (in G.U. 19/03/2025, n. 65).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-05-15;72#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-03-19;27#1 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-05-15;72#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-03-19;27#1 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-05-15;72#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-03-19;27#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione del comma 8-bis all'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-05-15;72#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-03-19;27#2 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-05-15;72#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2025-03-19;27#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-03-19/27/ita@2025-05-18/!main"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-03-19/27/ita@2025-05-18/!main/~art_2__para_8-bis"/>
+                        <new href="#modNov_2_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-03-19/27/ita@2025-05-18/!main/~art_2-bis"/>
+                        <new href="#modNov_3_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2025-03-19/27/ita@2025-05-18/!main/~art_4__para_1"/>
+                        <new href="#modNov_4_new_3"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-05-15/72/!main" showAs=""/>
+                <passiveRef eId="S.1425" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1425" showAs=""/>
+                <passiveRef eId="C.2362" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2362" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/05/17/25G00079/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 19 marzo 2025, n. 27, recante disposizioni urgenti per le consultazioni elettorali e referendarie dell'anno 2025. (25G00079)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00079</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-05-15</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/05/17/25G00079/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/05/17/25G00079/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/05/17/25G00079/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/05/17/25G00079/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/72" nativeUrn="urn:nir:stato:legge:2025-05-15;72" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-05-17"><ns0:event type="enacted" date="2025-05-15"/><ns0:event type="published" date="2025-05-17"/><ns0:event type="commenced" date="2025-05-17"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/ad4aa94b-32e6-46d9-8c2f-b131b48acec8" sourceSha256="f1eec0d25216d0068d78d72376daa27df64e8d36a79012c095d12f8da6f0fabc" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:05:07.316336Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-05-15">15 maggio 2025</docDate>
+                <docNumber>72</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 19 marzo 2025, n. 27, recante disposizioni urgenti per le consultazioni elettorali e referendarie dell'anno 2025. (25G00079) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 18/05/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2025-03-19/27/!main" ns1:target="olf:it/decreto-legge/stato/2025/27" ns1:relation="amends">decreto-legge 19 marzo 2025, n. 27</ref>, recante disposizioni urgenti per le consultazioni elettorali e referendarie dell'anno 2025, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2025-03-19/27/!main" ns2:target="olf:it/decreto-legge/stato/2025/27" ns2:relation="amends">decreto-legge 19 marzo 2025, n. 27</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 65 del 19 marzo 2025. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 56. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 15 maggio 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Piantedosi, Ministro dell'interno Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-05-15/72/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-05-15/72"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-05-15;72"/>
+                                <FRBRalias name="eli" value="eli/id/2025/05/17/25G00079/ORIGINAL"/>
+                                <FRBRdate date="2025-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-05-15/72/ita@2025-05-18/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-05-15/72/ita@2025-05-18"/>
+                                <FRBRdate date="2025-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-05-15/72/ita@2025-05-18/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-05-15/72/ita@2025-05-18.xml"/>
+                                <FRBRdate date="2025-05-15" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 19 MARZO 2025, N. 27 
+ 
+ <mod eId="modNov_1">Dopo l'articolo 1 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_1_new_4">Art. 1-bis (Disposizioni per la validita' delle elezioni amministrative che si svolgono nell'anno 2025 nei comuni con popolazione fino a 15.000 abitanti in caso di ammissione di una sola lista). - 1. Limitatamente all'anno 2025, per l'elezione del sindaco e del consiglio comunale nei comuni con popolazione fino a 15.000 abitanti, in deroga a quanto previsto dalle disposizioni di cui all'articolo 71, comma 10, del testo unico delle leggi sull'ordinamento degli enti locali, di cui al <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/2000-08-18/267/!main" ns4:target="olf:it/decreto-legislativo/stato/2000/267" ns4:relation="cites">decreto legislativo 18 agosto 2000, n. 267</ref>, ove sia stata ammessa e votata una sola lista, sono eletti tutti i candidati compresi nella lista e il candidato a sindaco collegato, purche' essa abbia riportato un numero di voti validi non inferiore al 50 per cento dei votanti e il numero dei votanti non sia stato inferiore al 40 per cento degli elettori iscritti nelle liste elettorali del comune. Qualora non siano raggiunte tali percentuali, l'elezione e' nulla. Per la determinazione del numero degli elettori iscritti nelle liste elettorali del comune non si tiene conto degli elettori iscritti all'Anagrafe degli italiani residenti all'estero (AIRE) che non abbiano esercitato il diritto di voto. 
+ Art. 1-ter (Disposizioni urgenti in materia di composizione degli uffici elettorali). - 1. All'articolo 38 del testo unico delle leggi recanti norme per la elezione della Camera dei deputati, di cui al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1957-03-30/361/!main" ns5:target="olf:it/dpr/stato/1957/361" ns5:relation="amends">decreto del Presidente della Repubblica 30 marzo 1957, n. 361</ref>, sono apportate le seguenti modificazioni: 
+ a) alla lettera a), la parola: "settantesimo" e' sostituita dalla seguente: "settantacinquesimo"; 
+ b) e' aggiunta, in fine, la seguente lettera: 
+ "f-bis) i dipendenti delle aziende esercenti servizi di trasporto pubblico regionale e locale, di cui al <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/1997-11-19/422/!main" ns6:target="olf:it/decreto-legislativo/stato/1997/422" ns6:relation="cites">decreto legislativo 19 novembre 1997, n. 422</ref>
+                                        </quotedText>".</mod> 
+ 2. All'articolo 23 del testo unico delle leggi per la composizione e la elezione degli organi delle Amministrazioni comunali, di cui al <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1960-05-16/570/!main" ns7:target="olf:it/dpr/stato/1960/570" ns7:relation="amends">decreto del Presidente della Repubblica 16 maggio 1960, n. 570</ref>, e' aggiunta, in fine, la seguente lettera: 
+ "f-bis) i dipendenti delle aziende esercenti servizi di trasporto pubblico regionale e locale, di cui al <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/1997-11-19/422/!main" ns8:target="olf:it/decreto-legislativo/stato/1997/422" ns8:relation="cites">decreto legislativo 19 novembre 1997, n. 422</ref>"». 
+ <mod eId="modNov_2">All'articolo 2, dopo il comma 8 e' inserito il seguente: 
+ <quotedText eId="modNov_2_new_1">«8-bis. Entro centottanta giorni dallo svolgimento delle consultazioni referendarie relative all'anno 2025, il Ministero dell'interno trasmette alle Camere una relazione sui dati rilevati in applicazione della disciplina sperimentale disposta dal presente articolo, con l'indicazione analitica e sintetica dei dati di affluenza alle sezioni elettorali speciali di cui al comma 6 e la valutazione dell'impatto delle misure in termini di maggiore partecipazione elettorale, anche in relazione al connesso impegno organizzativo e finanziario</quotedText>».</mod>
+                                    <mod eId="modNov_3">Dopo l'articolo 2 e' inserito il seguente: 
+ «<quotedText eId="modNov_3_new_2">Art. 2-bis (Modifica alla disciplina in materia di indicazioni di genere nelle liste elettorali). - 1. Al testo unico delle leggi per la disciplina dell'elettorato attivo e per la tenuta e la revisione delle liste elettorali, di cui al <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1967-03-20/223/!main" ns9:target="olf:it/dpr/stato/1967/223" ns9:relation="amends">decreto del Presidente della Repubblica 20 marzo 1967, n. 223</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 5, primo comma: 
+ 1) all'alinea, le parole: ", distinte per uomini e donne," sono soppresse; 
+ 2) la lettera a) e' sostituita dalla seguente: 
+ "a) il cognome e il nome"; 
+ b) all'articolo 8, primo comma, le parole: ", distinto per uomini e donne,", ovunque ricorrono, sono soppresse; 
+ c) all'articolo 16, il secondo comma e' sostituito dal seguente: 
+ "Gli elenchi sono formati in duplice copia"</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 4, comma 1, dopo le parole: «55, secondo comma, del» sono inserite le seguenti: «<quotedText eId="modNov_4_new_3">testo unico delle leggi recanti norme per la elezione della Camera dei deputati, di cui al</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
