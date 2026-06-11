@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-04-12/33/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-04-12/33"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-04-12;33"/>
+                    <FRBRalias name="eli" value="eli/id/2022/04/28/22G00041/ORIGINAL"/>
+                    <FRBRdate date="2022-04-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/04/28/22G00041/ORIGINAL" aknrelname="eli/id/2022/04/28/22G00041/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni in materia di iscrizione contemporanea a due corsi di istruzione superiore. (22G00041)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00041" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2022-04-12" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-04-12/33/ita@2022-05-13/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-04-12/33/ita@2022-05-13"/>
+                    <FRBRdate date="2022-05-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/04/28/22G00041/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/04/28/22G00041/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/04/28/22G00041/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-04-12/33/ita@2022-05-13/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-04-12/33/ita@2022-05-13.xml"/>
+                    <FRBRdate date="2022-04-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/04/28/22G00041/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-04-28" name="" number="98" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-04-28" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2022-04-12" refersTo="#C.43"/>
+                <step by="#camera" date="2022-04-12" refersTo="#C.1350"/>
+                <step by="#camera" date="2022-04-12" refersTo="#C.1573"/>
+                <step by="#camera" date="2022-04-12" refersTo="#C.1649"/>
+                <step by="#camera" date="2022-04-12" refersTo="#C.1924"/>
+                <step by="#camera" date="2022-04-12" refersTo="#C.2069"/>
+                <step by="#senato" date="2022-04-12" refersTo="#S.2415"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-04-12;33#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1933-08-31;1592#Testo unico-art. 142"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 7) l'abrogazione del comma 2 dell'art. 142.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-04-12;33#2"/>
+                        <destination href="urn:nir:stato:legge:2010-12-30;240#29"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 7) l'abrogazione del comma 21 dell'art. 29.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1933-08-31/1592/ita@2022-05-13/!main/~art_142__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="repeal">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/legge/stato/2010-12-30/240/ita@2022-05-13/!main/~art_29__para_21"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2022-04-12/33/!main" showAs=""/>
+                <passiveRef eId="C.43" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;43" showAs=""/>
+                <passiveRef eId="C.1350" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;1350" showAs=""/>
+                <passiveRef eId="C.1573" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;1573" showAs=""/>
+                <passiveRef eId="C.1649" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;1649" showAs=""/>
+                <passiveRef eId="C.1924" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;1924" showAs=""/>
+                <passiveRef eId="C.2069" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;2069" showAs=""/>
+                <passiveRef eId="S.2415" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2415" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/04/28/22G00041/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni in materia di iscrizione contemporanea a due corsi di istruzione superiore. (22G00041)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00041</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-04-12</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/04/28/22G00041/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/04/28/22G00041/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/04/28/22G00041/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/04/28/22G00041/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2022/33" nativeUrn="urn:nir:stato:legge:2022-04-12;33" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-04-28"><ns0:event type="enacted" date="2022-04-12"/><ns0:event type="published" date="2022-04-28"/><ns0:event type="commenced" date="2022-04-28"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/f55dd6a0-33e6-40b6-a760-30fb3962892f" sourceSha256="6b3a8ab6d12528e04c3d5c212bffb2f209455335398eda2b676f2926defb95a4" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T23:21:46.042037Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2022-04-12">12 aprile 2022</docDate>
+                <docNumber>33</docNumber>
+                <docTitle>Disposizioni in materia di iscrizione contemporanea a due corsi di istruzione superiore. (22G00041) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 13/05/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Facolta' di iscrizione contemporanea a due corsi di istruzione universitaria 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Ciascuno studente puo' iscriversi contemporaneamente a due diversi corsi di laurea, di laurea magistrale o di master, anche presso piu' universita', scuole o istituti superiori ad ordinamento speciale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Non e' consentita l'iscrizione contemporanea a due corsi di laurea o di laurea magistrale appartenenti alla stessa classe, ne' allo stesso corso di master, neanche presso due diverse universita', scuole o istituti superiori ad ordinamento speciale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>E' altresi' consentita l'iscrizione contemporanea a un corso di laurea o di laurea magistrale e a un corso di master, di dottorato di ricerca o di specializzazione, ad eccezione dei corsi di specializzazione medica, nonche' l'iscrizione contemporanea a un corso di dottorato di ricerca o di master e a un corso di specializzazione medica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>L'iscrizione contemporanea di cui ai commi 1 e 3 e' consentita presso istituzioni italiane ovvero italiane ed estere. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Resta fermo l'obbligo del possesso dei titoli di studio richiesti dall'ordinamento per l'iscrizione ai singoli corsi di studio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Resta fermo quanto disposto dal regolamento di cui al <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decreto/ministero.istruzione.universita.ricerca/2004-10-22/270/!main" ns1:target="olf:it/decreto/ministero-istruzione-universita-ricerca/2004/270" ns1:relation="cites">decreto del Ministro dell'istruzione, dell'Universita' e della ricerca 22 ottobre 2004, n. 270</ref>, in materia di criteri generali per l'ordinamento degli studi universitari e per la determinazione della tipologia dei titoli di studio rilasciati dalle universita'. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">Il secondo comma dell'articolo 142 del testo unico delle leggi sull'istruzione superiore, di cui al <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/regio.decreto/stato/1933-08-31/1592/!main" ns2:target="olf:it/regio-decreto/stato/1933/1592" ns2:relation="repeals">regio-decreto 31 agosto 1933, n. 1592</ref>, e' abrogato.</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente in materia, ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns3:target="olf:it/dpr/stato/1985/1092" ns3:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decreto/ministero.istruzione.universita.ricerca/2004-10-22/270/!main#art_1" ns4:target="olf:it/decreto/ministero-istruzione-universita-ricerca/2004/270/art_1" ns4:relation="cites">art. 1: 
+ - Il decreto del Ministero dell'istruzione, dell'Universita' e della ricerca 22 ottobre 2004, n. 270</ref>, (Modifiche al regolamento recante norme concernenti l'autonomia didattica degli atenei, approvato con <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decreto/ministero.universita.ricerca.scientifica.tecnologica/1999-11-03/509/!main" ns5:target="olf:it/decreto/ministero-universita-ricerca-scientifica-tecnologica/1999/509" ns5:relation="cites">decreto del Ministro dell'universita' e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509</ref>) e' pubblicato in Gazzetta Ufficiale 12 novembre 2004, n. 266. 
+ - Si riporta il <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/regio.decreto/stato/1933-08-31/1592/!main#art_142-com2" ns6:target="olf:it/regio-decreto/stato/1933/1592/art_142-com2" ns6:relation="repeals">secondo comma dell'art. 142 del regio-decreto 31 agosto 1933, n. 1592</ref> (Testo unico delle leggi sull'istruzione superiore), pubblicato in Gazzetta Ufficiale 7 dicembre 1933, S.O. n. 283: 
+ «Salvo il disposto dell'art. 39, lettera c), e' vietata l'iscrizione contemporanea a diverse universita' e a diversi istituti d'istruzione superiore, a diverse facolta' o scuole della stessa universita' o dello stesso istituto e a diversi corsi di laurea o di diploma della stessa facolta' o scuola.» 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Facolta' di iscrizione contemporanea a due corsi di studio presso le universita' e le istituzioni dell'alta formazione artistica, musicale e coreutica o presso le medesime istituzioni 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Ciascuno studente puo' iscriversi contemporaneamente a due corsi di diploma accademico di primo o di secondo livello o di perfezionamento o master, anche presso piu' istituzioni dell'alta formazione artistica, musicale e coreutica (AFAM), di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/1999-12-21/508/!main#art_2" ns7:target="olf:it/legge/stato/1999/508/art_2" ns7:relation="cites">articolo 2 della legge 21 dicembre 1999, n. 508</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>E' consentita l'iscrizione contemporanea a un corso di diploma accademico e a un corso di perfezionamento o master o di dottorato di ricerca o di specializzazione, di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/1999-12-21/508/!main#art_2" ns8:target="olf:it/legge/stato/1999/508/art_2" ns8:relation="cites">articolo 2 della legge 21 dicembre 1999, n. 508</ref>. E' altresi' consentita l'iscrizione contemporanea, presso le istituzioni dell'AFAM di cui al comma 1 del presente articolo, a un corso di dottorato di ricerca o di perfezionamento o master e a un corso di specializzazione, di cui al medesimo <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/1999/508/!main#art_2" ns9:resolution="unresolved">articolo 2 della legge n. 508 del 1999</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>L'iscrizione contemporanea di cui ai commi 1 e 2 e' consentita presso istituzioni italiane ovvero italiane ed estere, anche per corsi accreditati ai sensi dell'articolo 11 del regolamento di cui al <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2005-07-08/212/!main" ns10:target="olf:it/dpr/stato/2005/212" ns10:relation="cites">decreto del Presidente della Repubblica 8 luglio 2005, n. 212</ref>. Resta fermo l'obbligo del possesso dei titoli di studio richiesti dall'ordinamento per l'iscrizione ai singoli corsi di studio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Non e' consentita l'iscrizione contemporanea al medesimo corso di studio presso due istituzioni dell'AFAM italiane ovvero italiane ed estere. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Resta fermo quanto disposto dal regolamento di cui al <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2005-07-08/212/!main" ns11:target="olf:it/dpr/stato/2005/212" ns11:relation="cites">decreto del Presidente della Repubblica 8 luglio 2005, n. 212</ref>, in materia di definizione degli ordinamenti didattici delle istituzioni dell'AFAM. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>E' consentita, nel limite di due iscrizioni, l'iscrizione contemporanea a corsi di studio universitari e a corsi di studio presso le istituzioni dell'AFAM di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_2">Il <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2010-12-30/240/!main#art_29-com21" ns12:target="olf:it/legge/stato/2010/240/art_29-com21" ns12:relation="repeals">comma 21 dell'articolo 29 della legge 30 dicembre 2010, n. 240</ref>, e' abrogato.</mod> Fino all'adozione del decreto di cui all'articolo 4, comma 3, della presente legge continuano ad applicarsi, per la contemporanea iscrizione a corsi di studio universitari e a corsi di studio presso i conservatori di musica, gli istituti musicali pareggiati e l'Accademia nazionale di danza, le disposizioni del decreto del Ministro dell'istruzione, dell'Universita' e della ricerca 28 settembre 2011, pubblicato nella Gazzetta Ufficiale n. 25 del 31 gennaio 2012. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta l'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/1999-12-21/508/!main#art_2" ns13:target="olf:it/legge/stato/1999/508/art_2" ns13:relation="cites">art. 2 della legge 21 dicembre 1999, n. 508</ref>, (Riforma delle Accademie di belle arti, dell'Accademia nazionale di danza, dell'Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti musicali pareggiati), pubblicata nella Gazzetta Ufficiale 4 gennaio 2000, n. 2: 
+ «Art. 2. (Alta formazione e specializzazione artistica e musicale). - 1. Le Accademie di belle arti, l'Accademia nazionale di arte drammatica e gli ISIA, nonche', con l'applicazione delle disposizioni di cui al comma 2, i Conservatori di musica, l'Accademia nazionale di danza e gli Istituti musicali pareggiati costituiscono, nell'ambito delle istituzioni di alta cultura cui l'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_33" ns14:target="olf:it/costituzione/stato/1947/const/art_33" ns14:relation="cites">articolo 33 della Costituzione</ref> riconosce il diritto di darsi ordinamenti autonomi, il sistema dell'alta formazione e specializzazione artistica e musicale. Le predette istituzioni sono disciplinate dalla presente legge, dalle norme in essa richiamate e dalle altre norme che vi fanno espresso riferimento. 
+ 2. I Conservatori di musica, l'Accademia nazionale di danza e gli istituti musicali pareggiati sono trasformati in Istituti superiori di studi musicali e coreutici, ai sensi del presente articolo. 
+ 3. Il Ministro dell'universita' e della ricerca scientifica e tecnologica esercita, nei confronti delle istituzioni di cui all'articolo 1, poteri di programmazione, indirizzo e coordinamento sulla base di quanto previsto dal titolo I della <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/1989-05-09/168/!main" ns15:target="olf:it/legge/stato/1989/168" ns15:relation="cites">legge 9 maggio 1989, n. 168</ref>, e nel rispetto dei principi di autonomia sanciti dalla presente legge. 
+ 4. Le istituzioni di cui all'articolo 1 sono sedi primarie di alta formazione, di specializzazione e di ricerca nel settore artistico e musicale e svolgono correlate attivita' di produzione. Sono dotate di personalita' giuridica e godono di autonomia statutaria, didattica, scientifica, amministrativa, finanziaria e contabile ai sensi del presente articolo, anche in deroga alle norme dell'ordinamento contabile dello Stato e degli enti pubblici, ma comunque nel rispetto dei relativi principi. 
+ 5. Le istituzioni di cui all'articolo 1 istituiscono e attivano corsi di formazione ai quali si accede con il possesso del diploma di scuola secondaria di secondo grado, nonche' corsi di perfezionamento e di specializzazione. Le predette istituzioni rilasciano specifici diplomi accademici di primo e secondo livello, nonche' di perfezionamento, di specializzazione e di formazione alla ricerca in campo artistico e musicale. Ai titoli rilasciati dalle predette istituzioni si applica il <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/1990-11-19/341/!main#art_9-com5" ns16:target="olf:it/legge/stato/1990/341/art_9-com5" ns16:relation="cites">comma 5 dell'articolo 9 della legge 19 novembre 1990, n. 341</ref>. Con decreto del Presidente del Consiglio dei ministri, adottato su proposta del Ministro dell'universita' e della ricerca scientifica e tecnologica, di concerto con il Ministro per la funzione pubblica, previo parere del Consiglio nazionale per l'alta formazione artistica e musicale (CNAM), di cui all'articolo 3, sono dichiarate le equipollenze tra i titoli di studio rilasciati ai sensi della presente legge e i titoli di studio universitari al fine esclusivo dell'ammissione ai pubblici concorsi per l'accesso alle qualifiche funzionali del pubblico impiego per le quali ne e' prescritto il possesso. 
+ 6. Il rapporto di lavoro del personale delle istituzioni di cui all'articolo 1 e' regolato contrattualmente ai sensi del <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/1993-02-03/29/!main" ns17:target="olf:it/decreto-legislativo/stato/1993/29" ns17:relation="cites">decreto legislativo 3 febbraio 1993, n. 29</ref>, e successive modificazioni e integrazioni, nell'ambito di apposito comparto articolato in due distinte aree di contrattazione, rispettivamente per il personale docente e non docente. Limitatamente alla copertura dei posti in organico che si rendono disponibili si fa ricorso alle graduatorie nazionali previste dall'articolo 270, comma 1, del testo unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado, approvato con <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/1994-04-16/297/!main" ns18:target="olf:it/decreto-legislativo/stato/1994/297" ns18:relation="cites">decreto legislativo 16 aprile 1994, n. 297</ref>, come modificato dall'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/1999-05-03/124/!main#art_3-com1" ns19:target="olf:it/legge/stato/1999/124/art_3-com1" ns19:relation="cites">articolo 3, comma 1, della legge 3 maggio 1999, n. 124</ref>, le quali, integrate in prima applicazione a norma del citato articolo 3, comma 2, sono trasformate in graduatorie ad esaurimento. Per le esigenze didattiche derivanti dalla presente legge cui non si possa far fronte nell'ambito delle dotazioni organiche, si provvede esclusivamente mediante l'attribuzione di incarichi di insegnamento di durata non superiore al quinquennio, rinnovabili, anche ove temporaneamente conferiti a personale incluso nelle predette graduatorie nazionali. Dopo l'esaurimento di tali graduatorie, gli incarichi di insegnamento sono attribuiti con contratti di durata non superiore al quinquennio, rinnovabili. I predetti incarichi di insegnamento non sono comunque conferibili al personale in servizio di ruolo. Il personale docente e non docente, in servizio nelle istituzioni di cui all'articolo 1 alla data di entrata in vigore della presente legge con rapporto di lavoro a tempo indeterminato, e' inquadrato presso di esse in appositi ruoli ad esaurimento, mantenendo le funzioni e il trattamento complessivo in godimento. Salvo quanto stabilito nel secondo e nel terzo periodo del presente comma, nei predetti ruoli ad esaurimento e' altresi' inquadrato il personale inserito nelle graduatorie nazionali sopraindicate, anche se assunto dopo la data di entrata in vigore della presente legge. 
+ 7. Con uno o piu' regolamenti emanati ai sensi dell'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_17-com2" ns20:target="olf:it/legge/stato/1988/400/art_17-com2" ns20:relation="cites">articolo 17, comma 2, della legge 23 agosto 1988, n. 400</ref>, su proposta del Ministro dell'universita' e della ricerca scientifica e tecnologica di concerto con il Ministro della pubblica istruzione, sentiti il CNAM e le competenti Commissioni parlamentari, le quali si esprimono dopo l'acquisizione degli altri pareri previsti per legge, sono disciplinati: 
+ a) i requisiti di qualificazione didattica, scientifica e artistica delle istituzioni e dei docenti; 
+ b) i requisiti di idoneita' delle sedi; 
+ c) le modalita' di trasformazione di cui al comma 2; 
+ d) i possibili accorpamenti e fusioni, nonche' le modalita' di convenzionamento con istituzioni scolastiche e universitarie e con altri soggetti pubblici e privati; 
+ e) le procedure di reclutamento del personale; 
+ f) i criteri generali per l'adozione degli statuti di autonomia e per l'esercizio dell'autonomia regolamentare; 
+ g) le procedure, i tempi e le modalita' per la programmazione, il riequilibrio e lo sviluppo dell'offerta didattica nel settore; 
+ h) i criteri generali per l'istituzione e l'attivazione dei corsi, ivi compresi quelli di cui all'articolo 4, comma 3, per gli ordinamenti didattici e per la programmazione degli accessi; 
+ i) la valutazione dell'attivita' delle istituzioni di cui all'articolo 1. 
+ 8. I regolamenti di cui al comma 7 sono emanati sulla base dei seguenti principi e criteri direttivi: 
+ a) valorizzazione delle specificita' culturali e tecniche dell'alta formazione artistica e musicale e delle istituzioni del settore, nonche' definizione di standard qualitativi riconosciuti in ambito internazionale; 
+ b) rapporto tra studenti e docenti, nonche' dotazione di strutture e infrastrutture, adeguati alle specifiche attivita' formative; 
+ c) programmazione dell'offerta formativa sulla base della valutazione degli sbocchi professionali e della considerazione del diverso ruolo della formazione del settore rispetto alla formazione tecnica superiore di cui all'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/1999-05-17/144/!main#art_69" ns21:target="olf:it/legge/stato/1999/144/art_69" ns21:relation="cites">articolo 69 della legge 17 maggio 1999, n. 144</ref>, e a quella universitaria, prevedendo modalita' e strumenti di raccordo tra i tre sistemi su base territoriale; 
+ d) previsione, per le istituzioni di cui all'articolo 1, della facolta' di attivare, fino alla data di entrata in vigore di specifiche norme di riordino del settore, corsi di formazione musicale o coreutica di base, disciplinati in modo da consentirne la frequenza agli alunni iscritti alla scuola media e alla scuola secondaria superiore; 
+ e) possibilita' di prevedere, contestualmente alla riorganizzazione delle strutture e dei corsi esistenti e, comunque, senza maggiori oneri per il bilancio dello Stato, una graduale statizzazione, su richiesta, degli attuali Istituti musicali pareggiati e delle Accademie di belle arti legalmente riconosciute, nonche' istituzione di nuovi musei e riordino di musei esistenti, di collezioni e biblioteche, ivi comprese quelle musicali, degli archivi sonori, nonche' delle strutture necessarie alla ricerca e alle produzioni artistiche. Nell'ambito della graduale statizzazione si terra' conto, in particolare nei capoluoghi sprovvisti di istituzioni statali, dell'esistenza di Istituti non statali e di Istituti pareggiati o legalmente riconosciuti che abbiano fatto domanda, rispettivamente, per il pareggiamento o il legale riconoscimento, ovvero per la statizzazione, possedendone i requisiti alla data di entrata in vigore della presente legge; 
+ f) definizione di un sistema di crediti didattici finalizzati al riconoscimento reciproco dei corsi e delle altre attivita' didattiche seguite dagli studenti, nonche' al riconoscimento parziale o totale degli studi effettuati qualora lo studente intenda proseguirli nel sistema universitario o della formazione tecnica superiore di cui all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/1999-05-17/144/!main#art_69" ns22:target="olf:it/legge/stato/1999/144/art_69" ns22:relation="cites">articolo 69 della legge 17 maggio 1999, n. 144</ref>; 
+ g) facolta' di convenzionamento, nei limiti delle risorse attribuite a ciascuna istituzione, con istituzioni scolastiche per realizzare percorsi integrati di istruzione e di formazione musicale o coreutica anche ai fini del conseguimento del diploma di istruzione secondaria superiore o del proseguimento negli studi di livello superiore; 
+ h) facolta' di convenzionamento, nei limiti delle risorse attribuite a ciascuna istituzione, con istituzioni universitarie per lo svolgimento di attivita' formative finalizzate al rilascio di titoli universitari da parte degli atenei e di diplomi accademici da parte delle istituzioni di cui all'articolo 1; 
+ i) facolta' di costituire, sulla base della contiguita' territoriale, nonche' della complementarieta' e integrazione dell'offerta formativa, Politecnici delle arti, nei quali possono confluire le istituzioni di cui all'articolo 1 nonche' strutture delle universita'. Ai Politecnici delle arti si applicano le disposizioni del presente articolo; 
+ l) verifica periodica, anche mediante l'attivita' dell'Osservatorio per la valutazione del sistema universitario, del mantenimento da parte di ogni istituzione degli standard e dei requisiti prescritti; in caso di non mantenimento da parte di istituzioni statali, con decreto del Ministro dell'universita' e della ricerca scientifica e tecnologica le stesse sono trasformate in sedi distaccate di altre istituzioni e, in caso di gravi carenze strutturali e formative, soppresse; in caso di non mantenimento da parte di istituzioni pareggiate o legalmente riconosciute, il pareggiamento o il riconoscimento e' revocato con decreto del Ministro dell'universita' e della ricerca scientifica e tecnologica. 
+ 9. Con effetto dalla data di entrata in vigore delle norme regolamentari di cui al comma 7 sono abrogate le disposizioni vigenti incompatibili con esse e con la presente legge, la cui ricognizione e' affidata ai regolamenti stessi. 
+ - Si riporta l'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2005-07-08/212/!main#art_11" ns23:target="olf:it/dpr/stato/2005/212/art_11" ns23:relation="cites">articolo 11 del decreto del Presidente della Repubblica 8 luglio 2005, n. 212</ref>, (Regolamento recante disciplina per la definizione degli ordinamenti didattici delle Istituzioni di alta formazione artistica, musicale e coreutica, a norma dell'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/1999-12-21/508/!main#art_2" ns24:target="olf:it/legge/stato/1999/508/art_2" ns24:relation="cites">articolo 2 della legge 21 dicembre 1999, n. 508</ref>), pubblicato in Gazzetta Ufficiale 18 ottobre 2005, n. 243: 
+ «Art. 11. (Istituzioni non statali). - 1. Fino all'entrata in vigore del regolamento che disciplina le procedure, i tempi e le modalita' per la programmazione, il riequilibrio e lo sviluppo dell'offerta didattica, ai sensi dell'articolo 2, comma 7, lettera g), della legge, l'autorizzazione a rilasciare i titoli di Alta formazione artistica, musicale e coreutica puo' essere conferita, con decreto del Ministro, a istituzioni non statali gia' esistenti alla data di entrata in vigore della legge. A tale fine, le istituzioni interessate presentano una relazione tecnica corredata dalla documentazione attestante la conformita' dell'ordinamento didattico adottato alle disposizioni vigenti per le istituzioni statali, nonche' la disponibilita' di idonee strutture e di adeguate risorse finanziarie e di personale. 
+ 2. L'autorizzazione e' concessa, su parere del CNAM, in ordine alla conformita' dell'ordinamento didattico, e del Comitato, in ordine all'adeguatezza delle strutture e del personale alla tipologia dei corsi da attivare. A tale fine il Comitato e' integrato con esperti del settore fino ad un massimo di cinque, nominati con decreto del Ministro, tenuto conto delle diverse tipologie formative delle istituzioni ricomprese nel sistema, nei limiti dell'apposito stanziamento di bilancio, come previsto dall'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/1996-12-23/662/!main#art_1-com88" ns25:target="olf:it/legge/stato/1996/662/art_1-com88" ns25:relation="cites">articolo 1, comma 88, della legge 23 dicembre 1996, n. 662</ref>. 
+ 3. Per gli insegnamenti nei corsi di studio attivati e le altre attivita' formative sono richiesti i medesimi requisiti vigenti per le istituzioni statali. 4. Le istituzioni autorizzate devono garantire il rispetto della normativa in materia di diritto allo studio degli studenti iscritti. 5. Le disposizioni del presente articolo si applicano anche alle Accademie gia' abilitate a rilasciare titoli secondo il previgente ordinamento didattico.» 
+ - Il <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2005-07-08/212/!main" ns26:target="olf:it/dpr/stato/2005/212" ns26:relation="cites">decreto del Presidente della Repubblica 8 luglio 2005, n. 212</ref>, (Regolamento recante disciplina per la definizione degli ordinamenti didattici delle istituzioni di alta formazione artistica, musicale e coreutica, a norma dell'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/1999-12-21/508/!main#art_2" ns27:target="olf:it/legge/stato/1999/508/art_2" ns27:relation="cites">articolo 2 della legge 21 dicembre 1999, n. 508</ref>), e' pubblicato in Gazzetta Ufficiale 18 ottobre 2005, n. 243. 
+ - Si riporta il <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/2010-12-30/240/!main#art_29-com21" ns28:target="olf:it/legge/stato/2010/240/art_29-com21" ns28:relation="repeals">comma 21 dell'articolo 29 della legge 30 dicembre 2010, n. 240</ref> (Norme in materia di organizzazione delle universita', di personale accademico e reclutamento, nonche' delega al Governo per incentivare la qualita' e l'efficienza del sistema universitario), pubblicata in Gazzetta Ufficiale 14 gennaio 2011, n. 10, S.O. n. 11: 
+ «21. Con decreto del Ministro, da emanare entro centottanta giorni dalla data di entrata in vigore della presente legge, previo parere del CUN e del Consiglio nazionale per l'alta formazione artistica e musicale (CNAM), sono disciplinate le modalita' organizzative per consentire agli studenti la contemporanea iscrizione a corsi di studio universitari e a corsi di studi presso i conservatori di musica, gli istituti musicali pareggiati e l'Accademia nazionale di danza.» 
+ - Il decreto del Ministro dell'istruzione, dell'universita' e della ricerca 28 settembre 2011, reca: «Disciplina delle modalita' organizzative per consentire agli studenti la contemporanea iscrizione a corsi di studio presso le Universita' e presso gli Istituti superiori di studi musicali e coreutici.» 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Diritto allo studio</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Lo studente che si iscrive contemporaneamente a due corsi di studio ai sensi degli articoli 1 e 2 beneficia, alle condizioni previste dalla normativa vigente, degli strumenti e dei servizi a sostegno del diritto allo studio per una sola iscrizione, eletta dallo studente medesimo, fermo restando l'esonero, totale o parziale, dal versamento del contributo onnicomprensivo annuale, che si applica a entrambe le iscrizioni, in presenza dei requisiti previsti. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le universita' e le istituzioni dell'AFAM redigono annualmente un programma per favorire e promuovere la partecipazione degli studenti lavoratori ai corsi di studio e alle attivita' formative successive al conseguimento del titolo. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Modalita' e criteri per consentire la doppia iscrizione contemporanea 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Con decreto del Ministro dell'Universita' e della ricerca, da adottare entro sessanta giorni dalla data di entrata in vigore della presente legge, previo parere della Conferenza dei rettori delle universita' italiane, del Consiglio universitario nazionale e del Consiglio nazionale degli studenti universitari, sono disciplinate le modalita' per facilitare agli studenti la contemporanea iscrizione di cui all'articolo 1, con particolare attenzione per i corsi che richiedono la frequenza obbligatoria, e per favorire il conseguimento, sulla base di apposite convenzioni, presso due universita', scuole o istituti superiori ad ordinamento speciale, di cui almeno un'istituzione italiana, di titoli finali doppi o congiunti. Con il decreto di cui al presente comma, sentito il Ministro dell'istruzione per le parti di competenza, sono altresi' stabilite le modalita' di adeguamento del fascicolo elettronico dello studente, di cui all'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoLegge/stato/2012-10-18/179/!main#art_10-com1" ns29:target="olf:it/decreto-legge/stato/2012/179/art_10-com1" ns29:relation="cites">articolo 10, comma 1, del decreto-legge 18 ottobre 2012, n. 179</ref>, convertito, con modificazioni, dalla <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/2012-12-17/221/!main" ns30:target="olf:it/legge/stato/2012/221" ns30:relation="cites">legge 17 dicembre 2012, n. 221</ref>, nonche' modalita' di raccordo con il curriculum dello studente, di cui all'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/2015-07-13/107/!main#art_1-com28" ns31:target="olf:it/legge/stato/2015/107/art_1-com28" ns31:relation="cites">articolo 1, comma 28, della legge 13 luglio 2015, n. 107</ref>, prevedendo l'accesso tramite il sistema pubblico per la gestione dell'identita' digitale di cittadini e imprese (SPID), la carta nazionale dei servizi o la carta d'identita' elettronica, come previsto dall'articolo 64, commi 2-quater, 2-nonies e 3-bis, del <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main" ns32:target="olf:it/decreto-legislativo/stato/2005/82" ns32:relation="cites">codice dell'amministrazione digitale</ref>, di cui al <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main" ns33:target="olf:it/decreto-legislativo/stato/2005/82" ns33:relation="cites">decreto legislativo 7 marzo 2005, n. 82</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Con decreto del Ministro dell'universita' e della ricerca, da adottare, ai sensi dell'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_17-com3" ns34:target="olf:it/legge/stato/1988/400/art_17-com3" ns34:relation="cites">articolo 17, comma 3, della legge 23 agosto 1988, n. 400</ref>, entro sessanta giorni dalla data di entrata in vigore della presente legge, sono stabiliti, ferma restando l'autonomia delle universita', i criteri in base ai quali e' consentita l'iscrizione contemporanea a due corsi universitari con accesso a numero programmato a livello nazionale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Con decreto del Ministro dell'universita' e della ricerca, da adottare entro sessanta giorni dalla data di entrata in vigore della presente legge, previo parere del Consiglio universitario nazionale, del Consiglio nazionale degli studenti universitari e del Consiglio nazionale per l'alta formazione artistica e musicale, sono disciplinate le modalita' per facilitare agli studenti la contemporanea iscrizione di cui all'articolo 2 e per favorire il conseguimento di titoli finali doppi o congiunti, all'esito di corsi di studio integrati istituiti, sulla base di apposite convenzioni, da due istituzioni dell'AFAM o da universita' e istituzioni dell'AFAM, di cui almeno una italiana. La disposizione di cui al presente comma si applica anche ai corsi accreditati ai sensi dell'articolo 11 del regolamento di cui al <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2005-07-08/212/!main" ns35:target="olf:it/dpr/stato/2005/212" ns35:relation="cites">decreto del Presidente della Repubblica 8 luglio 2005, n. 212</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Si riporta il <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/decretoLegge/stato/2012-10-18/179/!main#art_10-com1" ns36:target="olf:it/decreto-legge/stato/2012/179/art_10-com1" ns36:relation="cites">comma 1 dell'articolo 10 del decreto-legge 18 ottobre 2012, n. 179</ref>, convertito, con modificazioni, dalla <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/2012-12-17/221/!main" ns37:target="olf:it/legge/stato/2012/221" ns37:relation="cites">legge 17 dicembre 2012, n. 221</ref> (Ulteriori misure urgenti per la crescita del Paese), pubblicato nella Gazzetta Ufficiale 18 dicembre 2012, n. 294, S.O. n. 208. 
+ «Art. 10. (Anagrafe nazionale degli studenti e altre misure in materia scolastica). - 1. Al fine di accelerare il processo di automazione amministrativa e migliorare i servizi per gli studenti, riducendone i costi connessi, le universita' statali e non statali legalmente riconosciute, a decorrere dall'anno accademico 2013-2014, costituiscono il fascicolo elettronico dello studente, che contiene tutti i documenti, gli atti e i dati inerenti la carriera dello studente, compresi i periodi di studio all'estero per mobilita', e che alimentano il diploma supplement, a partire dall'immatricolazione o dall'avvio di una nuova carriera fino al conseguimento del titolo.» 
+ - Si riporta il <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/legge/stato/2015-07-13/107/!main#art_1-com28" ns38:target="olf:it/legge/stato/2015/107/art_1-com28" ns38:relation="cites">comma 28 dell'articolo 1 della legge 13 luglio 2015, n. 107</ref> (Riforma del sistema nazionale di istruzione e formazione e delega per il riordino delle disposizioni legislative vigenti), pubblicata nella Gazzetta Ufficiale 15 luglio 2015, n. 162: 
+ «28. Le scuole secondarie di secondo grado introducono insegnamenti opzionali nel secondo biennio e nell'ultimo anno anche utilizzando la quota di autonomia e gli spazi di flessibilita'. Tali insegnamenti, attivati nell'ambito delle risorse finanziarie disponibili a legislazione vigente e dei posti di organico dell'autonomia assegnati sulla base dei piani triennali dell'offerta formativa, sono parte del percorso dello studente e sono inseriti nel curriculum dello studente, che ne individua il profilo associandolo a un'identita' digitale e raccoglie tutti i dati utili anche ai fini dell'orientamento e dell'accesso al mondo del lavoro, relativi al percorso degli studi, alle competenze acquisite, alle eventuali scelte degli insegnamenti opzionali, alle esperienze formative anche in alternanza scuola-lavoro e alle attivita' culturali, artistiche, di pratiche musicali, sportive e di volontariato, svolte in ambito extrascolastico. Con decreto del Ministro dell'istruzione, dell'universita' e della ricerca, da adottare, ai sensi dell'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_17-com3" ns39:target="olf:it/legge/stato/1988/400/art_17-com3" ns39:relation="cites">articolo 17, comma 3, della legge 23 agosto 1988, n. 400</ref>, entro centottanta giorni dalla data di entrata in vigore della presente legge, sentito il Garante per la protezione dei dati personali, sono disciplinate le modalita' di individuazione del profilo dello studente da associare ad un'identita' digitale, le modalita' di trattamento dei dati personali contenuti nel curriculum dello studente da parte di ciascuna istituzione scolastica, le modalita' di trasmissione al Ministero dell'istruzione, dell'universita' e della ricerca dei suddetti dati ai fini di renderli accessibili nel Portale unico di cui al comma 136, nonche' i criteri e le modalita' per la mappatura del curriculum dello studente ai fni di una trasparente lettura della progettazione e della valutazione per competenze.» 
+ - Si riportano i commi 2-quater, 2-nonies e 3-bis dell'<ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main#art_64" ns40:target="olf:it/decreto-legislativo/stato/2005/82/art_64" ns40:relation="cites">articolo 64, del decreto legislativo 7 marzo 2005, n. 82</ref> (<ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main" ns41:target="olf:it/decreto-legislativo/stato/2005/82" ns41:relation="cites">Codice dell'amministrazione digitale</ref>), pubblicato nella Gazzetta Ufficiale 16 maggio 2005, n. 112, S.O. 93: 
+ «Art. 64. Sistema pubblico per la gestione delle identita' digitali e modalita' di accesso ai servizi erogati in rete dalle pubbliche amministrazioni. 
+ (Omissis.) 
+ 2-quater. L'accesso ai servizi in rete erogati dalle pubbliche amministrazioni che richiedono identificazione informatica avviene tramite SPID, nonche' tramite la carta di identita' elettronica. Il sistema SPID e' adottato dalle pubbliche amministrazioni nei tempi e secondo le modalita' definiti con il decreto di cui al comma 2-sexies. Resta fermo quanto previsto dall'articolo 3-bis, comma 1. 
+ (Omissis.) 
+ 2-nonies. L'accesso di cui al comma 2-quater puo' avvenire anche con la carta nazionale dei servizi. 
+ (Omissis.) 
+ 3-bis. Con decreto del Presidente del Consiglio dei ministri o del Ministro per la semplificazione e la pubblica amministrazione, e' stabilita' la data a decorrere dalla quale i soggetti di cui all'articolo 2, comma 2, lettere b) e c), utilizzano esclusivamente le identita' digitali ai fini dell'identificazione degli utenti dei propri servizi on-line. Fatto salvo quanto previsto dal comma 2-nonies, a decorrere dal 28 febbraio 2021, i soggetti di cui all'articolo 2, comma 2, lettera a), utilizzano esclusivamente le identita' digitali e la carta di identita' elettronica ai fini dell'identificazione dei cittadini che accedono ai propri servizi online. Con decreto del Presidente del Consiglio dei ministri o del Ministro delegato per l'innovazione tecnologica e la digitalizzazione e' stabilita la data a decorrere dalla quale i soggetti di cui all'articolo 2, comma 2, lettera a), utilizzano esclusivamente le identita' digitali per consentire l'accesso delle imprese e dei professionisti ai propri servizi on-line.» 
+ - Si riporta il <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_17-com3" ns42:target="olf:it/legge/stato/1988/400/art_17-com3" ns42:relation="cites">comma 3 dell'articolo 17 della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei Ministri), pubblicata nella Gazzetta Ufficiale 12 settembre 1988, n. 214, S.O. n. 86: 
+ «3. Con decreto ministeriale possono essere adottati regolamenti nelle materie di competenza del Ministro o di autorita' sottordinate al Ministro, quando la legge espressamente conferisca tale potere. Tali regolamenti, per materie di competenza di piu' Ministri, possono essere adottati con decreti interministeriali, ferma restando la necessita' di apposita autorizzazione da parte della legge.
+ I regolamenti ministeriali ed interministeriali non possono dettare norme contrarie a quelle dei regolamenti emanati dal Governo. Essi debbono essere comunicati al Presidente del Consiglio dei Ministri prima della loro emanazione.» 
+ - Si riporta l'<ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2005-07-08/212/!main#art_11" ns43:target="olf:it/dpr/stato/2005/212/art_11" ns43:relation="cites">articolo 11 del decreto del Presidente della Repubblica 8 luglio 2005, n. 212</ref>, (Regolamento recante disciplina per la definizione degli ordinamenti didattici delle Istituzioni di alta formazione artistica, musicale e coreutica, a norma dell'<ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/legge/stato/1999-12-21/508/!main#art_2" ns44:target="olf:it/legge/stato/1999/508/art_2" ns44:relation="cites">articolo 2 della legge 21 dicembre 1999, n. 508</ref>), pubblicato in Gazzetta Ufficiale 18 ottobre 2005, n. 243: 
+ «Art. 11. (Istituzioni non statali).- 1. Fino all'entrata in vigore del regolamento che disciplina le procedure, i tempi e le modalita' per la programmazione, il riequilibrio e lo sviluppo dell'offerta didattica, ai sensi dell'articolo 2, comma 7, lettera g), della legge, l'autorizzazione a rilasciare i titoli di Alta formazione artistica, musicale e coreutica puo' essere conferita, con decreto del Ministro, a istituzioni non statali gia' esistenti alla data di entrata in vigore della legge. A tale fine, le istituzioni interessate presentano una relazione tecnica corredata dalla documentazione attestante la conformita' dell'ordinamento didattico adottato alle disposizioni vigenti per le istituzioni statali, nonche' la disponibilita' di idonee strutture e di adeguate risorse finanziarie e di personale. 
+ 2. L'autorizzazione e' concessa, su parere del CNAM, in ordine alla conformita' dell'ordinamento didattico, e del Comitato, in ordine all'adeguatezza delle strutture e del personale alla tipologia dei corsi da attivare. A tale fine il Comitato e' integrato con esperti del settore fino ad un massimo di cinque, nominati con decreto del Ministro, tenuto conto delle diverse tipologie formative delle istituzioni ricomprese nel sistema, nei limiti dell'apposito stanziamento di bilancio, come previsto dall'<ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/legge/stato/1996-12-23/662/!main#art_1-com88" ns45:target="olf:it/legge/stato/1996/662/art_1-com88" ns45:relation="cites">articolo 1, comma 88, della legge 23 dicembre 1996, n. 662</ref>. 
+ 3. Per gli insegnamenti nei corsi di studio attivati e le altre attivita' formative sono richiesti i medesimi requisiti vigenti per le istituzioni statali. 
+ 4. Le istituzioni autorizzate devono garantire il rispetto della normativa in materia di diritto allo studio degli studenti iscritti. 
+ 5. Le disposizioni del presente articolo si applicano anche alle Accademie gia' abilitate a rilasciare titoli secondo il previgente ordinamento didattico.» 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Monitoraggio e valutazione dell'impatto della legge</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Entro quattro mesi dalla conclusione del terzo anno accademico successivo a quello in corso alla data di entrata in vigore della presente legge, il Ministro dell'Universita' e della ricerca presenta alle Camere una relazione sullo stato di attuazione della presente legge e una valutazione dell'impatto della medesima, anche sulla base dei rapporti che le universita' e le istituzioni dell'AFAM trasmettono annualmente al Ministero dell'universita' e della ricerca. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono ai relativi adempimenti nell'ambito delle risorse umane, finanziarie e strumentali disponibili a legislazione vigente. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 12 aprile 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
