@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-04/96/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-04/96"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-07-04;96"/>
+                    <FRBRalias name="eli" value="eli/id/2024/07/08/24G00115/ORIGINAL"/>
+                    <FRBRdate date="2024-07-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/08/24G00115/ORIGINAL" aknrelname="eli/id/2024/07/08/24G00115/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 9 maggio 2024, n. 61, recante disposizioni urgenti in materia di associazioni professionali a carattere sindacale tra militari, personale militare e civile del Ministero della difesa e operativita' delle Forze armate. (24G00115)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00115" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-07-04" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-04/96/ita@2024-07-09/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-04/96/ita@2024-07-09"/>
+                    <FRBRdate date="2024-07-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/08/24G00115/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/07/08/24G00115/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/07/08/24G00115/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-04/96/ita@2024-07-09/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-04/96/ita@2024-07-09.xml"/>
+                    <FRBRdate date="2024-07-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/08/24G00115/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-07-08" name="" number="158" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-07-08" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2024-07-04" refersTo="#C.1854"/>
+                <step by="#senato" date="2024-07-04" refersTo="#S.1173"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;96#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-05-09;61"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) che la rubrica del capo I "Disposizioni urgenti in materia di Associazioni professionali
+a carattere sindacale tra militari (APCSM)" è sostituita dalla seguente: "Disposizioni urgenti in materia di Associazioni professionali
+a carattere sindacale tra militari ((...))" e l'introduzione del capo III "Disposizioni finali" (comprendente l'art. 5).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;96#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-05-09;61#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1 commi 1, 2, 3 e 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;96#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-05-09;61#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2 comma 1, alinea.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;96#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-05-09;61#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3 comma 2 e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;96#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-05-09;61#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4 commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-04;96#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-05-09;61#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main"/>
+                        <old href="#modNov_1_old_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main/~art_1__para_1"/>
+                        <old href="#modNov_2_old_1"/>
+                        <new href="#modNov_2_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main/~art_1__para_2"/>
+                        <new href="#modNov_2_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main/~art_1__para_3"/>
+                        <new href="#modNov_2_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main/~art_1__para_4"/>
+                        <old href="#modNov_2_old_4"/>
+                        <new href="#modNov_2_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main/~art_2__para_1"/>
+                        <old href="#modNov_3_old_5"/>
+                        <new href="#modNov_3_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main/~art_3__para_2"/>
+                        <new href="#modNov_4_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main/~art_3__para_2"/>
+                        <old href="#modNov_4_old_8"/>
+                        <new href="#modNov_4_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main/~art_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main/~art_4__para_1"/>
+                        <old href="#modNov_5_old_6"/>
+                        <new href="#modNov_5_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main/~art_4__para_2"/>
+                        <old href="#modNov_5_old_10"/>
+                        <new href="#modNov_5_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-09/61/ita@2024-07-09/!main"/>
+                        <new href="#modNov_6_new_12"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-07-04/96/!main" showAs=""/>
+                <passiveRef eId="C.1854" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1854" showAs=""/>
+                <passiveRef eId="S.1173" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1173" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/07/08/24G00115/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 9 maggio 2024, n. 61, recante disposizioni urgenti in materia di associazioni professionali a carattere sindacale tra militari, personale militare e civile del Ministero della difesa e operativita' delle Forze armate. (24G00115)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00115</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-07-04</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/07/08/24G00115/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/07/08/24G00115/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/07/08/24G00115/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/07/08/24G00115/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/96" nativeUrn="urn:nir:stato:legge:2024-07-04;96" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-07-08"><ns0:event type="enacted" date="2024-07-04"/><ns0:event type="published" date="2024-07-08"/><ns0:event type="commenced" date="2024-07-08"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/6862f05b-98d7-44ca-b4ee-8ec68d59e766" sourceSha256="8b36d7d627bbb3d411ec40824fac98816aab0bc3300752139a1e25622de31cf4" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:08:42.729744Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-07-04">04 luglio 2024</docDate>
+                <docNumber>96</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 9 maggio 2024, n. 61, recante disposizioni urgenti in materia di associazioni professionali a carattere sindacale tra militari, personale militare e civile del Ministero della difesa e operativita' delle Forze armate. (24G00115) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 09/07/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2024-05-09/61/!main" ns1:target="olf:it/decreto-legge/stato/2024/61" ns1:relation="repeals">decreto-legge 9 maggio 2024, n. 61</ref>, recante disposizioni urgenti in materia di associazioni professionali a carattere sindacale tra militari, personale militare e civile del Ministero della difesa e operativita' delle Forze armate, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2024-05-09/61/!main" ns2:target="olf:it/decreto-legge/stato/2024/61" ns2:relation="repeals">decreto-legge 9 maggio 2024, n. 61</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 107 del 9 maggio 2024. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 23. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 4 luglio 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Crosetto, Ministro della difesa Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-07-04/96/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-07-04/96"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-07-04;96"/>
+                                <FRBRalias name="eli" value="eli/id/2024/07/08/24G00115/ORIGINAL"/>
+                                <FRBRdate date="2024-07-09" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-07-04/96/ita@2024-07-09/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-07-04/96/ita@2024-07-09"/>
+                                <FRBRdate date="2024-07-09" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-07-04/96/ita@2024-07-09/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-07-04/96/ita@2024-07-09.xml"/>
+                                <FRBRdate date="2024-07-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 9 MAGGIO 2024, N. 61 
+ 
+ <mod eId="modNov_1">Alla rubrica del capo I, la parola: «<quotedText eId="modNov_1_old_11">(APCSM)</quotedText>» e' soppressa.</mod>
+                                    <mod eId="modNov_2">All'articolo 1: 
+ al comma 1, le parole: «<quotedText eId="modNov_2_old_1">di cui all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_1475" ns4:target="olf:it/decreto-legislativo/stato/2010/66/art_1475" ns4:relation="cites">articolo 1475 e seguenti del decreto legislativo 15 marzo 2010, n. 66</ref>, recante il <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns5:target="olf:it/decreto-legislativo/stato/2010/66" ns5:relation="cites">codice dell'ordinamento militare</ref>, per l'anno 2024</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_1">di cui agli articoli 1475, comma 2, nonche' 1476 e seguenti del <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns6:target="olf:it/decreto-legislativo/stato/2010/66" ns6:relation="cites">codice dell'ordinamento militare</ref>, di cui al <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns7:target="olf:it/decreto-legislativo/stato/2010/66" ns7:relation="cites">decreto legislativo 15 marzo 2010, n. 66</ref>, fino all'entrata in vigore del contingente di distacchi e permessi previsti dalla contrattazione per il triennio 2022-2024 e, comunque, non oltre il 31 dicembre 2024</quotedText>»; 
+ al comma 2, dopo le parole: «dell'articolo 1480, comma 5, del» sono inserite le seguenti: «<quotedText eId="modNov_2_new_2">codice di cui al</quotedText>»; 
+ al comma 3 sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_2_new_3">, del codice di cui al <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2010/66/!main" ns8:resolution="unresolved">decreto legislativo n. 66 del 2010</ref>
+                                        </quotedText>»; 
+ al comma 4, le parole: «<quotedText eId="modNov_2_old_4">del programma Fondi di riserva e speciali della missione Fondi da ripartire</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_4">del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire"</quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 2: 
+ al comma 1, alinea, le parole: «<quotedText eId="modNov_3_old_5">Il comma 2, dell'articolo 2257-ter del</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_5">Il <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_2257ter-com2" ns9:target="olf:it/decreto-legislativo/stato/2010/66/art_2257ter-com2" ns9:relation="cites">comma 2 dell'articolo 2257-ter del codice dell'ordinamento militare</ref>, di cui al</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 3: 
+ al comma 2<quotedText eId="modNov_4_new_7">,</quotedText> dopo le parole: «si provvede» e' inserito il seguente segno d'interpunzione: «,» e le parole: «<quotedText eId="modNov_4_old_8">dei risparmi di spesa di parte corrente di natura permanente accertati, ai sensi della <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2012-12-31/244/!main" ns10:target="olf:it/legge/stato/2012/244" ns10:relation="cites">legge 31 dicembre 2012, n. 244</ref>, e iscritti sul fondo di cui all'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_619" ns11:target="olf:it/decreto-legislativo/stato/2010/66/art_619" ns11:relation="cites">articolo 619 del decreto legislativo 15 marzo 2010, n. 66</ref>
+                                        </quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_8">del fondo di parte corrente di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_619" ns12:target="olf:it/decreto-legislativo/stato/2010/66/art_619" ns12:relation="cites">articolo 619 del codice dell'ordinamento militare</ref>, di cui al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns13:target="olf:it/decreto-legislativo/stato/2010/66" ns13:relation="cites">decreto legislativo 15 marzo 2010, n. 66</ref>
+                                        </quotedText>»; 
+ alla rubrica, dopo la parola: «Incremento» e' inserita la seguente: «del».</mod>
+                                    <mod eId="modNov_5">All'articolo 4: 
+ al comma 1, le parole: «<quotedText eId="modNov_5_old_6">della <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2023-12-30/213/!main" ns14:target="olf:it/legge/stato/2023/213" ns14:relation="cites">legge 30 dicembre 2023, n. 213</ref>, al primo capoverso</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_6">primo periodo, della <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2023-12-30/213/!main" ns15:target="olf:it/legge/stato/2023/213" ns15:relation="cites">legge 30 dicembre 2023, n. 213</ref>,</quotedText>»; 
+ al comma 2, le parole: «<quotedText eId="modNov_5_old_10">Ai maggiori oneri</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_10">Agli oneri</quotedText>».</mod>
+                                    <mod eId="modNov_6">Prima dell'articolo 5 sono inserite le seguenti parole: «<quotedText eId="modNov_6_new_12">Capo III - Disposizioni finali</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
