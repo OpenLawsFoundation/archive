@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-12-12/190/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-12-12/190"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legge:2022-12-12;190"/>
+                    <FRBRalias name="eli" value="eli/id/2022/12/12/22G00203/CONSOLIDATED/20230129"/>
+                    <FRBRdate date="2022-12-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/12/12/22G00203/CONSOLIDATED/20230129" aknrelname="eli/id/2022/12/12/22G00203/CONSOLIDATED/20230129">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni urgenti in materia di prolungamento delle operazioni di votazione. (22G00203)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00203" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                            <nrdfa:span content="2022-12-12" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-12-12/190/ita@2023-01-29/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-12-12/190/ita@2023-01-29"/>
+                    <FRBRdate date="2023-01-29" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/12/12/22G00203/CONSOLIDATED/20230129/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/12/12/22G00203/CONSOLIDATED/20230129"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/12/12/22G00203/CONSOLIDATED/20230129/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-12-12/190/ita@2023-01-29/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-12-12/190/ita@2023-01-29.xml"/>
+                    <FRBRdate date="2022-12-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/12/12/22G00203/CONSOLIDATED/20230129/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-12-12" name="" number="289" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-12-12" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2023-01-28" eId="eventRef_1" source="rp1"/>
+            </lifecycle>
+            <analysis source="">
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((del comma 1 sono))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_1" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_2"/>
+                        <new>
+                            <nakn:text>((del Parlamento europeo))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_2" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_3"/>
+                        <new>
+                            <nakn:text>((iscritto nello stato di previsione del Ministero dell'economia e delle finanze,))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_3" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_4"/>
+                        <new>
+                            <nakn:text>((al comma 2 si provvede))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO-LEGGE/stato/2022-12-12/190/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/LEGGE/stato/2023-01-27/7/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/12/12/22G00203/CONSOLIDATED/20230129">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni urgenti in materia di prolungamento delle operazioni di votazione. (22G00203)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00203</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-12-12</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/12/12/22G00203/CONSOLIDATED/20230129/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/12/12/22G00203/CONSOLIDATED/20230129"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/12/12/22G00203/CONSOLIDATED/20230129/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/12/12/22G00203/CONSOLIDATED/20230129/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legge/stato/2022/190" nativeUrn="urn:nir:stato:decreto.legge:2022-12-12;190" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-12-12"><ns0:event type="enacted" date="2022-12-12"/><ns0:event type="published" date="2022-12-12"/><ns0:event type="commenced" date="2022-12-12"/><ns0:event type="amended" date="2023-01-28"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/395a34d7-9ca1-452b-b06b-932ab408fb00" sourceSha256="8c172c6e61ea9c8fa621c1bb83ba3e9415149171f909f19e9166f7e1cc7ca430" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T22:18:54.720751Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO-LEGGE</docType>
+                <docDate date="2022-12-12">12 dicembre 2022</docDate>
+                <docNumber>190</docNumber>
+                <docTitle>Disposizioni urgenti in materia di prolungamento delle operazioni di votazione. (22G00203) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 13/12/2022Decreto-Legge convertito con modificazioni dalla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2023-01-27/7/!main" ns1:target="olf:it/legge/stato/2023/7" ns1:relation="cites">L. 27 gennaio 2023, n. 7</ref> (in G.U. 28/01/2023, n.23). </p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visti gli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_48" ns2:target="olf:it/costituzione/stato/1947/const/art_48" ns2:relation="cites">articoli 48</ref>, <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_77" ns3:target="olf:it/costituzione/stato/1947/const/art_77" ns3:relation="cites">77</ref> e <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87" ns4:target="olf:it/costituzione/stato/1947/const/art_87" ns4:relation="cites">87 della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <p>Considerata la necessita' di assicurare il pieno esercizio dei diritti civili e politici in occasione di tutte le consultazioni elettorali e referendarie e di favorire la partecipazione degli elettori mediante il prolungamento delle operazioni di votazione relativamente all'anno 2023;</p>
+            <recitals eId="recs_1">
+                <recital eId="recs_1__rec_1">
+                    <p>Ritenuto di dover intervenire con urgenza, in considerazione dell'imminente avvio dei procedimenti per il rinnovo degli organi elettivi in alcune regioni;</p>
+                </recital>
+            </recitals>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione del 9 dicembre 2022;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Presidente del Consiglio dei ministri e del Ministro dell'interno, di concerto con il Ministro per gli affari regionali e le autonomie, il Ministro della giustizia e il Ministro dell'economia e delle finanze;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto-legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Prolungamento delle operazioni di votazione</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le operazioni di votazione per le consultazioni elettorali e referendarie dell'anno 2023 si svolgono, in deroga a quanto previsto dall'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2013-12-27/147/!main#art_1-com399" ns5:target="olf:it/legge/stato/2013/147/art_1-com399" ns5:relation="cites">articolo 1, comma 399, della legge 27 dicembre 2013, n. 147</ref>, nella giornata di domenica, dalle ore 7 alle ore 23, e nella giornata di lunedi', dalle ore 7 alle ore 15. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>I maggiori oneri derivanti dall'attuazione <ins eId="ins_1">((del comma 1 sono))</ins> valutati in 14.874.000 euro per l'anno 2023. Conseguentemente, il fondo da ripartire per fronteggiare le spese derivanti dalle elezioni politiche, amministrative, <ins eId="ins_2">((del Parlamento europeo))</ins> e dall'attuazione dei referendum, <ins eId="ins_3">((iscritto nello stato di previsione del Ministero dell'economia e delle finanze,))</ins> e' incrementato di euro 14.874.000 per l'anno 2023. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Agli oneri di cui <ins eId="ins_4">((al comma 2 si provvede))</ins> mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns6:target="olf:it/legge/stato/2014/190/art_1-com200" ns6:relation="cites">articolo 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Ai fini dell'attuazione del presente decreto, il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il presente decreto entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana e sara' presentato alle Camere per la conversione in legge. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 12 dicembre 2022 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Piantedosi, Ministro dell'interno Calderoli, Ministro degli affari regionali e le autonomie Nordio, Ministro della giustizia Giorgetti, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
