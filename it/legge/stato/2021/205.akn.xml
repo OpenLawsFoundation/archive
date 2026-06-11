@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-03/205/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-03/205"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-03;205"/>
+                    <FRBRalias name="eli" value="eli/id/2021/12/07/21G00228/ORIGINAL"/>
+                    <FRBRdate date="2021-12-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/07/21G00228/ORIGINAL" aknrelname="eli/id/2021/12/07/21G00228/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 8 ottobre 2021, n. 139, recante disposizioni urgenti per l'accesso alle attivita' culturali, sportive e ricreative, nonche' per l'organizzazione di pubbliche amministrazioni e in materia di protezione dei dati personali. (21G00228)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00228" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-12-03" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-03/205/ita@2021-12-08/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-03/205/ita@2021-12-08"/>
+                    <FRBRdate date="2021-12-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/07/21G00228/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/12/07/21G00228/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/12/07/21G00228/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-03/205/ita@2021-12-08/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-03/205/ita@2021-12-08.xml"/>
+                    <FRBRdate date="2021-12-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/07/21G00228/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-12-07" name="" number="291" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-12-07" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2021-12-03" refersTo="#S.2409"/>
+                <step by="#camera" date="2021-12-03" refersTo="#C.3374"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1999-07-30;300#47 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#2 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#2 sexies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#2 quindecies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#58"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#132"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#137"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#144 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#153"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#154"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#156"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#166"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#167"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-06-30;196#170"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:legge:2016-12-11;232#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:legge:2018-01-11;5#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:legge:2018-01-11;5#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2018-05-18;51#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2018-05-18;51#45"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2018-08-10;101#22"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-05-19;34#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 8 ottobre 2021, n. 139 (in G.U. 8/10/2021, n. 241).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 1, lettera a).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#1 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#2 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#3 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#4 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 4-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, commi 2, 4 e 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, commi 2 e 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, commi 1, lettera b), 2 e 3 e l'introduzione del comma 4-bis all'art. 8.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#9"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-03;205#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#9 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 9-bis. </nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-12-03/205/!main" showAs=""/>
+                <passiveRef eId="S.2409" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2409" showAs=""/>
+                <passiveRef eId="C.3374" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3374" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/12/07/21G00228/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 8 ottobre 2021, n. 139, recante disposizioni urgenti per l'accesso alle attivita' culturali, sportive e ricreative, nonche' per l'organizzazione di pubbliche amministrazioni e in materia di protezione dei dati personali. (21G00228)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00228</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-12-03</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/12/07/21G00228/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/12/07/21G00228/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/12/07/21G00228/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/12/07/21G00228/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/205" nativeUrn="urn:nir:stato:legge:2021-12-03;205" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-12-07"><ns0:event type="enacted" date="2021-12-03"/><ns0:event type="published" date="2021-12-07"/><ns0:event type="commenced" date="2021-12-07"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/1f716f87-4b02-43b8-b4dc-39648dba7d55" sourceSha256="a7c42d72d80916c00508a97e06bd21b83f7d1777cc64d2a2c74307e4a66557ec" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T23:33:39.108693Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-12-03">03 dicembre 2021</docDate>
+                <docNumber>205</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 8 ottobre 2021, n. 139, recante disposizioni urgenti per l'accesso alle attivita' culturali, sportive e ricreative, nonche' per l'organizzazione di pubbliche amministrazioni e in materia di protezione dei dati personali. (21G00228) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 08/12/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2021-10-08/139/!main" ns1:target="olf:it/decreto-legge/stato/2021/139" ns1:relation="amends">decreto-legge 8 ottobre 2021, n. 139</ref>, recante disposizioni urgenti per l'accesso alle attivita' culturali, sportive e ricreative, nonche' per l'organizzazione di pubbliche amministrazioni e in materia di protezione dei dati personali, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2021-10-08/139/!main" ns2:target="olf:it/decreto-legge/stato/2021/139" ns2:relation="amends">decreto-legge 8 ottobre 2021, n. 139</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 241 dell'8 ottobre 2021. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 25. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 3 dicembre 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Speranza, Ministro della salute Franceschini, Ministro della cultura Giorgetti, Ministro dello sviluppo economico Lamorgese, Ministro dell'interno Cartabia, Ministro della giustizia Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-03/205/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-03/205"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-03;205"/>
+                                <FRBRalias name="eli" value="eli/id/2021/12/07/21G00228/ORIGINAL"/>
+                                <FRBRdate date="2021-12-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-03/205/ita@2021-12-08/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-03/205/ita@2021-12-08"/>
+                                <FRBRdate date="2021-12-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-03/205/ita@2021-12-08/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-03/205/ita@2021-12-08.xml"/>
+                                <FRBRdate date="2021-12-03" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 8 OTTOBRE 2021, N. 139 
+ All'articolo 1: 
+ al comma 1: 
+ alla lettera a): 
+ al numero 1), capoverso 1, al terzo periodo, le parole: «di cui al primo periodo» sono sostituite dalle seguenti: «aperti al pubblico in sale teatrali, sale da concerto, sale cinematografiche, locali di intrattenimento e musica dal vivo e in altri locali o spazi anche all'aperto» e, al sesto periodo, le parole: «articolo 80 del Regio decreto» sono sostituite dalle seguenti: «<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/regio.decreto/stato/1931-06-18/773/!main#art_80" ns4:target="olf:it/regio-decreto/stato/1931/773/art_80" ns4:relation="cites">articolo 80 del testo unico delle leggi di pubblica sicurezza</ref>, di cui al regio decreto»; 
+ al numero 2), capoverso 1-bis, al terzo periodo, le parole: «al 75 per cento di quella massima autorizzata all'aperto e al 50 per cento al chiuso» sono sostituite dalle seguenti: «al 75 per cento all'aperto e al 50 per cento al chiuso rispetto a quella massima autorizzata» e, al quarto periodo, le parole: «ricircolo dell'aria,» sono sostituite dalle seguenti: «ricircolo dell'aria oppure di sistemi di filtrazione ad elevata efficienza mediante filtri HEPA o F9, in grado di ridurre la presenza nell'aria del virus SARS-CoV-2,»; 
+ al numero 3), capoverso 2, al primo periodo, dopo le parole: «ovvero da organismi sportivi internazionali» e' inserito il seguente segno d'interpunzione: «,», al secondo periodo, le parole: «al 50 per cento di quella massima autorizzata all'aperto e al 35 per cento al chiuso» sono sostituite dalle seguenti: «al 50 per cento all'aperto e al 35 per cento al chiuso rispetto a quella massima autorizzata» e, al terzo periodo, le parole: «al 75 per cento di quella massima autorizzata all'aperto e al 60 per cento al chiuso» sono sostituite dalle seguenti: «al 75 per cento all'aperto e al 60 per cento al chiuso rispetto a quella massima autorizzata». 
+ Dopo l'articolo 1 e' inserito il seguente: 
+ «Art. 1-bis (Disposizioni in materia di accesso a spettacoli in impianti con capienza superiore a 5.000 spettatori). - 1.
+All'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2016-12-11/232/!main#art_1-com545bis" ns5:target="olf:it/legge/stato/2016/232/art_1-com545bis" ns5:relation="amends">articolo 1, comma 545-bis, della legge 11 dicembre 2016, n. 232</ref>, dopo le parole: "danza e circo contemporaneo" sono inserite le seguenti: ", nonche' le manifestazioni carnevalesche, i corsi mascherati, le rievocazioni storiche, giostre e manifestazioni similari"». 
+ All'articolo 2: 
+ al comma 1, dopo le parole: «All'articolo 5-bis» sono inserite le seguenti: «, comma 1,». 
+ Dopo l'articolo 2 e' inserito il seguente: 
+ «Art. 2-bis (Disposizioni urgenti per l'accesso agli autobus adibiti a servizi di noleggio con conducente). - 1. Dalla data di entrata in vigore della legge di conversione del presente decreto, l'accesso a bordo degli autobus adibiti a servizi di noleggio con conducente, ad esclusione di quelli impiegati nei servizi aggiuntivi di trasporto pubblico locale e regionale, e' consentito esclusivamente ai soggetti muniti di una delle certificazioni verdi COVID-19, come previsto dall'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_9quater" ns6:target="olf:it/decreto-legge/stato/2021/52/art_9quater" ns6:relation="amends">articolo 9-quater del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns7:target="olf:it/legge/stato/2021/87" ns7:relation="cites">legge 17 giugno 2021, n. 87</ref>, e la capienza consentita e' pari a quella massima di riempimento». 
+ Nel capo I, dopo l'articolo 3 e' aggiunto il seguente: 
+ «Art. 3-bis (Interventi connessi con l'emergenza sanitaria). - 1.
+Le risorse disponibili sulla contabilita' speciale di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2020-03-17/18/!main#art_122-com9" ns8:target="olf:it/decreto-legge/stato/2020/18/art_122-com9" ns8:relation="amends">articolo 122, comma 9, del decreto-legge 17 marzo 2020, n. 18</ref>, convertito, con modificazioni, dalla <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2020-04-24/27/!main" ns9:target="olf:it/legge/stato/2020/27" ns9:relation="cites">legge 24 aprile 2020, n. 27</ref>, affluite ai sensi dell'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegge/stato/2021-03-22/41/!main#art_40" ns10:target="olf:it/decreto-legge/stato/2021/41/art_40" ns10:relation="amends">articolo 40 del decreto-legge 22 marzo 2021, n. 41</ref>, convertito, con modificazioni, dalla <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2021-05-21/69/!main" ns11:target="olf:it/legge/stato/2021/69" ns11:relation="cites">legge 21 maggio 2021, n. 69</ref>, possono essere utilizzate, nella misura di 210 milioni di euro, fino al termine dello stato di emergenza di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegge/stato/2021-07-23/105/!main#art_1" ns12:target="olf:it/decreto-legge/stato/2021/105/art_1" ns12:relation="amends">articolo 1 del decreto-legge 23 luglio 2021, n. 105</ref>, convertito, con modificazioni, dalla <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2021-09-16/126/!main" ns13:target="olf:it/legge/stato/2021/126" ns13:relation="cites">legge 16 settembre 2021, n. 126</ref>, per assicurare la continuita' degli interventi di competenza del Commissario straordinario di cui al suddetto <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegge/stato/2020-03-17/18/!main#art_122" ns14:target="olf:it/decreto-legge/stato/2020/18/art_122" ns14:relation="amends">articolo 122 del decreto-legge 17 marzo 2020, n. 18</ref>, convertito, con modificazioni, dalla <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2020-04-24/27/!main" ns15:target="olf:it/legge/stato/2020/27" ns15:relation="cites">legge 24 aprile 2020, n. 27</ref>. 
+ 2. In considerazione della proroga dello stato di emergenza al 31 dicembre 2021, in via eccezionale, limitatamente alle elezioni provinciali da svolgere il 18 dicembre 2021 e in deroga a quanto previsto dai commi 62, secondo periodo, e 74, secondo periodo, dell'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2014-04-07/56/!main#art_1" ns16:target="olf:it/legge/stato/2014/56/art_1" ns16:relation="cites">articolo 1 della legge 7 aprile 2014, n. 56</ref>, al fine di rispettare le disposizioni sul distanziamento sociale per il contrasto del COVID-19, possono essere individuate ulteriori sedi decentrate per procedere alle operazioni di voto, nell'ambito delle risorse disponibili a legislazione vigente, senza nuovi o maggiori oneri per la finanza pubblica». 
+ All'articolo 4: 
+ al comma 1, le parole: «, finanziariamente equivalenti» sono sostituite dalle seguenti: «complessivamente equivalenti sotto il profilo finanziario»; 
+ al comma 2, le parole: «incluso il segretario generale» sono sostituite dalle seguenti: «incluso quello del segretario generale». 
+ Dopo l'articolo 4 e' inserito il seguente: 
+ «Art. 4-bis (Accesso all'elenco nazionale degli idonei alla nomina a direttore generale delle aziende e degli enti del Servizio sanitario nazionale). - 1. In ragione del perdurare dell'emergenza dovuta alla situazione epidemiologica conseguente alla diffusione pandemica del virus SARS-CoV-2, al fine di non disperdere le competenze e le professionalita' acquisite dal personale sanitario nel corso del servizio prestato presso le aziende sanitarie locali, le aziende ospedaliere e gli altri enti del Servizio sanitario nazionale, il limite anagrafico per l'accesso all'elenco nazionale di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/2016-08-04/171/!main#art_1-com2" ns17:target="olf:it/decreto-legislativo/stato/2016/171/art_1-com2" ns17:relation="cites">articolo 1, comma 2, del decreto legislativo 4 agosto 2016, n. 171</ref>, e' elevato a sessantotto anni. Le disposizioni di cui al presente articolo si applicano fino al termine dello stato di emergenza connesso al COVID-19». 
+ All'articolo 5: 
+ al comma 2, le parole: «numero massimo di 360 unita', di cui 80» sono sostituite dalle seguenti: «numero massimo di 100 unita', di cui 40» e le parole: «e 280 con mansioni esecutive» sono sostituite dalle seguenti: «e 60 con mansioni esecutive»; 
+ al comma 4, al primo periodo, dopo le parole: «decreto del Presidente del Consiglio dei ministri 26 giugno 2015,» sono inserite le seguenti: «pubblicato nella Gazzetta Ufficiale n. 216 del 17 settembre 2015,» e, al secondo periodo, le parole: «amministrazioni pubbliche di appartenenza» sono sostituite dalle seguenti: «amministrazioni pubbliche di provenienza» e le parole: «amministrazione di competenza» sono sostituite dalle seguenti: «amministrazione di provenienza»; 
+ al comma 6, le parole: «euro 990.731» sono sostituite dalle seguenti: «euro 409.648». 
+ All'articolo 6: 
+ al comma 2, primo periodo, le parole: «si forniscono le indicazioni» sono sostituite dalle seguenti: «sono fornite le indicazioni»; 
+ al comma 5, le parole: «del Programma Fondi di riserva e speciali» sono sostituite dalle seguenti: «del programma "Fondi di riserva e speciali"». 
+ All'articolo 7: 
+ al comma 1, le parole: «, in conseguenza della crisi politica in atto in Afghanistan, al fine di consentire» sono sostituite dalle seguenti: «provenienti dall'Afghanistan in conseguenza della crisi politica in atto, al fine di consentire per i medesimi richiedenti»;  al comma 2, le parole: «derivanti dal comma 1, si provvede» sono sostituite dalle seguenti: «derivanti dal comma 1 si provvede» e le parole: «all'attivazione, la locazione e la gestione» sono sostituite dalle seguenti: «all'attivazione, alla locazione e alla gestione». 
+ All'articolo 8: 
+ al comma 1, lettera b), capoverso 1-ter, dopo le parole: «in uso gratuito e perpetuo» il segno d'interpunzione: «,» e' soppresso;  al comma 2, al primo periodo, le parole: «dall'anno 2023 all'anno 2031» sono sostituite dalle seguenti: «per ciascuno degli anni dal 2023 al 2031» e, al secondo periodo, le parole: «previsti dal presente comma, si provvede» sono sostituite dalle seguenti: «previsti dal presente comma si provvede» e le parole: «del programma "Fondi di riserva speciale"» sono sostituite dalle seguenti: «del programma "Fondi di riserva e speciali"»; 
+ al comma 3, le parole: «del programma Fondi di riserva e speciali» sono sostituite dalle seguenti: «del programma "Fondi di riserva e speciali"»; 
+ dopo il comma 4 e' aggiunto il seguente: 
+ «4-bis. Gli interventi di cui al presente articolo sono identificati dal Codice unico di progetto (CUP) ai sensi dell'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2003-01-16/3/!main#art_11" ns18:target="olf:it/legge/stato/2003/3/art_11" ns18:relation="cites">articolo 11 della legge 16 gennaio 2003, n. 3</ref>, e sono monitorati ai sensi del <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegislativo/stato/2011-12-29/229/!main" ns19:target="olf:it/decreto-legislativo/stato/2011/229" ns19:relation="cites">decreto legislativo 29 dicembre 2011, n. 229</ref>». 
+ L'articolo 9 e' sostituito dal seguente: 
+ «Art. 9 (Disposizioni in materia di protezione dei dati personali). - 1. Al <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegislativo/stato/2003-06-30/196/!main" ns20:target="olf:it/decreto-legislativo/stato/2003/196" ns20:relation="amends">codice in materia di protezione dei dati personali</ref>, di cui al <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2003-06-30/196/!main" ns21:target="olf:it/decreto-legislativo/stato/2003/196" ns21:relation="amends">decreto legislativo 30 giugno 2003, n. 196</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 2-ter: 
+ 1) al comma 1, le parole: "esclusivamente" e: ", nei casi previsti dalla legge," sono soppresse e dopo le parole: "di regolamento" sono aggiunte le seguenti: "o da atti amministrativi generali"; 
+ 2) dopo il comma 1 e' inserito il seguente: 
+ "1-bis. Fermo restando ogni altro obbligo previsto dal Regolamento e dal presente codice, il trattamento dei dati personali da parte di un'amministrazione pubblica di cui all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_1-com2" ns22:target="olf:it/decreto-legislativo/stato/2001/165/art_1-com2" ns22:relation="cites">articolo 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165</ref>, ivi comprese le autorita' indipendenti e le amministrazioni inserite nell'elenco di cui all'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_1-com3" ns23:target="olf:it/legge/stato/2009/196/art_1-com3" ns23:relation="cites">articolo 1, comma 3, della legge 31 dicembre 2009, n. 196</ref>, nonche' da parte di una societa' a controllo pubblico statale o, limitatamente ai gestori di servizi pubblici, locale, di cui all'articolo 16 del testo unico in materia di societa' a partecipazione pubblica, di cui al <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegislativo/stato/2016-08-19/175/!main" ns24:target="olf:it/decreto-legislativo/stato/2016/175" ns24:relation="cites">decreto legislativo 19 agosto 2016, n. 175</ref>, con esclusione, per le societa' a controllo pubblico, dei trattamenti correlati ad attivita' svolte in regime di libero mercato, e' anche consentito se necessario per l'adempimento di un compito svolto nel pubblico interesse o per l'esercizio di pubblici poteri ad esse attribuiti. In modo da assicurare che tale esercizio non possa arrecare un pregiudizio effettivo e concreto alla tutela dei diritti e delle liberta' degli interessati, le disposizioni di cui al presente comma sono esercitate nel rispetto dell'articolo 6 del Regolamento"; 
+ 3) al comma 2, al primo periodo, dopo le parole: "ai sensi del comma 1" sono aggiunte le seguenti: "o se necessaria ai sensi del comma 1-bis" e il secondo periodo e' soppresso; 
+ 4) al comma 3, dopo le parole: "ai sensi del comma 1" sono aggiunte le seguenti: "o se necessarie ai sensi del comma 1-bis. In tale ultimo caso, ne viene data notizia al Garante almeno dieci giorni prima dell'inizio della comunicazione o diffusione"; 
+ b) all'articolo 2-sexies: 
+ 1) al comma 1, le parole: ", nei casi previsti dalla legge," sono soppresse e dopo le parole: "di regolamento" sono inserite le seguenti: "o da atti amministrativi generali"; 
+ 2) dopo il comma 1 e' inserito il seguente: 
+ "1-bis. I dati personali relativi alla salute, privi di elementi identificativi diretti, sono trattati, nel rispetto delle finalita' istituzionali di ciascuno, dal Ministero della salute, dall'Istituto superiore di sanita', dall'Agenzia nazionale per i servizi sanitari regionali, dall'Agenzia italiana del farmaco, dall'Istituto nazionale per la promozione della salute delle popolazioni migranti e per il contrasto delle malattie della poverta' e, relativamente ai propri assistiti, dalle regioni anche mediante l'interconnessione a livello nazionale dei sistemi informativi su base individuale del Servizio sanitario nazionale, ivi incluso il Fascicolo sanitario elettronico (FSE), aventi finalita' compatibili con quelle sottese al trattamento, con le modalita' e per le finalita' fissate con decreto del Ministro della salute, ai sensi del comma 1, previo parere del Garante, nel rispetto di quanto previsto dal Regolamento, dal presente codice, dal <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main" ns25:target="olf:it/decreto-legislativo/stato/2005/82" ns25:relation="cites">codice dell'amministrazione digitale</ref>, di cui al <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegislativo/stato/2005-03-07/82/!main" ns26:target="olf:it/decreto-legislativo/stato/2005/82" ns26:relation="cites">decreto legislativo 7 marzo 2005, n. 82</ref>, e dalle linee guida dell'Agenzia per l'Italia digitale in materia di interoperabilita'"; 
+ c) l'articolo 2-quinquiesdecies e' abrogato; 
+ d) all'articolo 58: 
+ 1) al comma 1, dopo le parole: "o regolamento" sono inserite le seguenti: "o previste da atti amministrativi generali"; 
+ 2) al comma 2, le parole: "ad espresse" sono sostituite dalla seguente: "a" e dopo le parole: "di legge" sono inserite le seguenti: "o di regolamento o previste da atti amministrativi generali,"; 
+ e) all'articolo 132, comma 5, le parole: "secondo le modalita' di cui all'articolo 2-quinquiesdecies" sono sostituite dalle seguenti: "con provvedimento di carattere generale"; 
+ f) all'articolo 137, comma 2, lettera a), le parole: "e ai provvedimenti generali di cui all'articolo 2-quinquiesdecies" sono soppresse; 
+ g) dopo l'articolo 144 e' inserito il seguente: 
+ "Art. 144-bis (Revenge porn). - 1. Chiunque, compresi i minori ultraquattordicenni, abbia fondato motivo di ritenere che registrazioni audio, immagini o video o altri documenti informatici a contenuto sessualmente esplicito che lo riguardano, destinati a rimanere privati, possano essere oggetto di invio, consegna, cessione, pubblicazione o diffusione attraverso piattaforme digitali senza il suo consenso ha facolta' di segnalare il pericolo al Garante, il quale, nelle quarantotto ore dal ricevimento della segnalazione, decide ai sensi degli articoli 143 e 144 del presente codice. 
+ 2. Quando le registrazioni audio, le immagini o i video o gli altri documenti informatici riguardano minori, la segnalazione al Garante puo' essere effettuata anche dai genitori o dagli esercenti la responsabilita' genitoriale o la tutela. 
+ 3. Per le finalita' di cui al comma 1, l'invio al Garante di registrazioni audio, immagini o video o altri documenti informatici a contenuto sessualmente esplicito riguardanti soggetti terzi, effettuato dall'interessato, non integra il reato di cui all'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_612ter" ns27:target="olf:it/regio-decreto/stato/1930/1398/art_612ter" ns27:relation="cites">articolo 612-ter del codice penale</ref>. 
+ 4. I gestori delle piattaforme digitali destinatari dei provvedimenti di cui al comma 1 conservano il materiale oggetto della segnalazione, a soli fini probatori e con misure indicate dal Garante, anche nell'ambito dei medesimi provvedimenti, idonee a impedire la diretta identificabilita' degli interessati, per dodici mesi a decorrere dal ricevimento del provvedimento stesso. 
+ 5. Il Garante, con proprio provvedimento, puo' disciplinare specifiche modalita' di svolgimento dei procedimenti di cui al comma 1 e le misure per impedire la diretta identificabilita' degli interessati di cui al medesimo comma. 
+ 6. I fornitori di servizi di condivisione di contenuti audiovisivi, ovunque stabiliti, che erogano servizi accessibili in Italia, indicano senza ritardo al Garante o pubblicano nel proprio sito internet un recapito al quale possono essere comunicati i provvedimenti adottati ai sensi del comma 1. In caso di inadempimento dell'obbligo di cui al periodo precedente, il Garante diffida il fornitore del servizio ad adempiere entro trenta giorni. In caso di inottemperanza alla diffida si applica la sanzione amministrativa pecuniaria di cui all'articolo 83, paragrafo 4, del Regolamento. 
+ 7. Quando il Garante, a seguito della segnalazione di cui al comma 1, acquisisce notizia della consumazione del reato di cui all'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_612ter" ns28:target="olf:it/regio-decreto/stato/1930/1398/art_612ter" ns28:relation="cites">articolo 612-ter del codice penale</ref>, anche in forma tentata, nel caso di procedibilita' d'ufficio trasmette al pubblico ministero la segnalazione ricevuta e la documentazione acquisita"; 
+ h) all'articolo 153, comma 6, al primo periodo, dopo le parole: "Al presidente" sono inserite le seguenti: "e ai componenti" e il secondo periodo e' sostituito dal seguente: "L'indennita' di funzione di cui al primo periodo e' da ritenere onnicomprensiva ad esclusione del rimborso delle spese effettivamente sostenute e documentate in occasione di attivita' istituzionali"; 
+ i) all'articolo 154, dopo il comma 5 sono inseriti i seguenti: 
+ "5-bis. Il parere di cui all'articolo 36, paragrafo 4, del Regolamento e' reso dal Garante nei soli casi in cui la legge o il regolamento in corso di adozione disciplina espressamente le modalita' del trattamento descrivendo una o piu' operazioni, compiute con o senza l'ausilio di processi automatizzati e applicate a dati personali o insiemi di dati personali, come la raccolta, la registrazione, l'organizzazione, la strutturazione, la conservazione, l'adattamento o la modifica, l'estrazione, la consultazione, l'uso, la comunicazione mediante trasmissione, diffusione o qualsiasi altra forma di messa a disposizione, il raffronto o l'interconnessione, la limitazione, la cancellazione o la distruzione, nonche' nei casi in cui la norma di legge o di regolamento autorizza espressamente un trattamento di dati personali da parte di soggetti privati senza rinviare la disciplina delle modalita' del trattamento a fonti sottoordinate. 
+ 5-ter. Quando il Presidente del Consiglio dei ministri dichiara che ragioni di urgenza non consentono la consultazione preventiva e comunque nei casi di adozione di decreti-legge, il Garante esprime il parere di cui al comma 5-bis: 
+ a) in sede di esame parlamentare dei disegni di legge o dei disegni di legge di conversione dei decreti-legge; 
+ b) in sede di esame definitivo degli schemi di decreto legislativo sottoposti al parere delle Commissioni parlamentari"; 
+ l) all'articolo 156: 
+ 1) al comma 2, il primo periodo e' sostituito dal seguente: "A decorrere dal 1° gennaio 2022, il ruolo organico del personale dipendente e' stabilito nel limite di duecento unita'"; 
+ 2) al comma 3, lettera d), le parole: "l'80 per cento del trattamento" sono sostituite dalle seguenti: "il trattamento"; 
+ 3) al comma 4, le parole: "venti unita'" sono sostituite dalle seguenti: "trenta unita'"; 
+ 4) al comma 5, le parole: "venti unita'" sono sostituite dalle seguenti: "trenta unita'"; 
+ m) all'articolo 166: 
+ 1) al comma 1, primo periodo, la parola: "2-quinquiesdecies" e' soppressa; 
+ 2) al comma 5 sono aggiunti, in fine, i seguenti periodi: "Nei confronti dei titolari del trattamento di cui agli articoli 2-ter, comma 1-bis, e 58 del presente codice e all'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoLegislativo/stato/2018-05-18/51/!main#art_1-com1" ns29:target="olf:it/decreto-legislativo/stato/2018/51/art_1-com1" ns29:relation="amends">articolo 1, comma 1, del decreto legislativo 18 maggio 2018, n. 51</ref>, la predetta notifica puo' essere omessa esclusivamente nel caso in cui il Garante abbia accertato che le presunte violazioni hanno gia' arrecato e continuano ad arrecare un effettivo, concreto, attuale e rilevante pregiudizio ai soggetti interessati al trattamento, che il Garante ha l'obbligo di individuare e indicare nel provvedimento, motivando puntualmente le ragioni dell'omessa notifica. In assenza di tali presupposti, il giudice competente accerta l'inefficacia del provvedimento"; 
+ 3) al comma 7, primo periodo, sono aggiunte, in fine, le seguenti parole: "o dell'ingiunzione a realizzare campagne di comunicazione istituzionale volte alla promozione della consapevolezza del diritto alla protezione dei dati personali, sulla base di progetti previamente approvati dal Garante e che tengano conto della gravita' della violazione. Nella determinazione della sanzione ai sensi dell'articolo 83, paragrafo 2, del Regolamento, il Garante tiene conto anche di eventuali campagne di comunicazione istituzionale volte alla promozione della consapevolezza del diritto alla protezione dei dati personali, realizzate dal trasgressore anteriormente alla commissione della violazione"; 
+ n) all'articolo 167, comma 2, le parole: "ovvero operando in violazione delle misure adottate ai sensi dell'articolo 2-quinquiesdecies" sono soppresse; 
+ o) all'articolo 170, comma 1, le parole: "essendovi tenuto, non osserva" sono sostituite dalle seguenti: "non osservando", dopo le parole: "<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/2017-10-25/163/!main" ns30:target="olf:it/legge/stato/2017/163" ns30:relation="cites">legge 25 ottobre 2017, n. 163</ref>" sono inserite le seguenti: ", arreca un concreto nocumento a uno o piu' soggetti interessati al trattamento" e dopo le parole: "e' punito" sono inserite le seguenti: ", a querela della persona offesa,". 
+ 2. All'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decretoLegislativo/stato/2018-08-10/101/!main#art_22" ns31:target="olf:it/decreto-legislativo/stato/2018/101/art_22" ns31:relation="amends">articolo 22 del decreto legislativo 10 agosto 2018, n. 101</ref>, il comma 3 e' abrogato. 
+ 3. Al <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegislativo/stato/2018-05-18/51/!main" ns32:target="olf:it/decreto-legislativo/stato/2018/51" ns32:relation="amends">decreto legislativo 18 maggio 2018, n. 51</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 5: 
+ 1) al comma 1, le parole: ", nei casi previsti dalla legge," sono soppresse e dopo le parole: "di regolamento" sono inserite le seguenti: "o su atti amministrativi generali"; 
+ 2) al comma 2, le parole: "del Presidente della Repubblica, adottato ai sensi dell'<ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_17-com1" ns33:target="olf:it/legge/stato/1988/400/art_17-com1" ns33:relation="cites">articolo 17, comma 1, della legge 23 agosto 1988, n. 400</ref>" sono sostituite dalle seguenti: ", rispettivamente, del Ministro della giustizia e del Ministro dell'interno"; 
+ b) all'articolo 45, comma 1, le parole: "essendovi tenuto, non osserva" sono sostituite dalle seguenti: "non osservando", dopo le parole: "articolo 1, comma 2," sono inserite le seguenti: "arreca un concreto nocumento a uno o piu' interessati" e dopo le parole: "e' punito" sono inserite le seguenti: ", a querela della persona offesa,". 
+ 4. All'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_7" ns34:target="olf:it/decreto-legge/stato/2020/34/art_7" ns34:relation="amends">articolo 7 del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns35:target="olf:it/legge/stato/2020/77" ns35:relation="cites">legge 17 luglio 2020, n. 77</ref>, sono apportate le seguenti modificazioni: 
+ a) dopo il comma 1 e' inserito il seguente: 
+ "1-bis. Con le modalita' e nei limiti stabiliti dal decreto di cui al comma 2 e fatto salvo quanto previsto dall'articolo 105 del codice di cui al <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/decretoLegislativo/stato/2003/196/!main" ns36:resolution="unresolved">decreto legislativo n. 196 del 2003</ref>, il Ministero della salute e' autorizzato a trattare anche i dati personali non relativi alla salute necessari a garantire l'effettivo perseguimento delle finalita' di cui al comma 1 e l'attuazione del corrispondente intervento di cui alla missione M6 del Piano nazionale di ripresa e resilienza approvato con la decisione di esecuzione del Consiglio dell'Unione europea del 13 luglio 2021. Ai fini di cui al primo periodo, e' autorizzata l'interconnessione dei sistemi informativi su base individuale del Servizio sanitario nazionale, ivi incluso il Fascicolo sanitario elettronico (FSE), con i sistemi informativi gestiti da altre amministrazioni pubbliche che raccolgono i dati non relativi alla salute specificamente individuati dal decreto di cui al comma 2, con modalita' tali da garantire che l'interessato non sia direttamente identificabile"; 
+ b) al comma 2, le parole: "Con regolamento adottato con decreto del Ministro della salute" sono sostituite dalle seguenti: "Con decreto del Ministro della salute, di natura non regolamentare,"; 
+ c) dopo il comma 2 e' aggiunto il seguente: 
+ "2-bis. Nelle more dell'adozione del decreto di cui al comma 2, il Ministero della salute avvia le attivita' relative alla classificazione delle patologie croniche presenti nella popolazione italiana, limitatamente alla costruzione di modelli analitici prodromici alla realizzazione del modello predittivo del fabbisogno di salute della popolazione, garantendo che gli interessati non siano direttamente identificabili". 
+ 5. Gli articoli 2-ter, comma 1, 2-sexies, comma 1, e 58, commi 1 e 2, del codice di cui al <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/decretoLegislativo/stato/2003/196/!main#art_5" ns37:resolution="unresolved">decreto legislativo n. 196 del 2003 e l'articolo 5</ref> del <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegislativo/stato/2018/51/!main" ns38:resolution="unresolved">decreto legislativo n. 51 del 2018</ref>, come modificati dal presente articolo, si applicano anche ai casi in cui disposizioni di legge gia' in vigore stabiliscono che i tipi di dati che possono essere trattati, le operazioni eseguibili, il motivo di interesse pubblico rilevante, la finalita' del trattamento nonche' le misure appropriate e specifiche per tutelare i diritti fondamentali dell'interessato e i suoi interessi sono previsti da uno o piu' regolamenti. 
+ 6. In fase di prima attuazione, l'obbligo di indicazione o di pubblicazione del recapito previsto dall'articolo 144-bis, comma 6, del codice di cui al <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/decretoLegislativo/stato/2003/196/!main" ns39:resolution="unresolved">decreto legislativo n. 196 del 2003</ref>, introdotto dalla lettera g) del comma 1 del presente articolo, e' adempiuto nel termine di sei mesi dalla data di entrata in vigore della legge di conversione del presente decreto. 
+ 7. I pareri del Garante per la protezione dei dati personali richiesti con riguardo a riforme, misure e progetti del Piano nazionale di ripresa e resilienza di cui al regolamento (UE) 2021/241 del Parlamento europeo e del Consiglio, del 12 febbraio 2021, del Piano nazionale per gli investimenti complementari di cui al <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoLegge/stato/2021-05-06/59/!main" ns40:target="olf:it/decreto-legge/stato/2021/59" ns40:relation="amends">decreto-legge 6 maggio 2021, n. 59</ref>, convertito, con modificazioni, dalla <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/legge/stato/2021-07-01/101/!main" ns41:target="olf:it/legge/stato/2021/101" ns41:relation="cites">legge 1° luglio 2021, n. 101</ref>, nonche' del Piano nazionale integrato per l'energia e il clima 2030 di cui al regolamento (UE) 2018/1999 del Parlamento europeo e del Consiglio, dell'11 dicembre 2018, sono resi nel termine non prorogabile di trenta giorni dalla richiesta, decorso il quale si puo' procedere indipendentemente dall'acquisizione del parere. 
+ 8. Alla <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/legge/stato/2018-01-11/5/!main" ns42:target="olf:it/legge/stato/2018/5" ns42:relation="amends">legge 11 gennaio 2018, n. 5</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 1, comma 2, dopo le parole: "mediante operatore con l'impiego del telefono" sono inserite le seguenti: "nonche', ai fini della revoca di cui al comma 5, anche mediante sistemi automatizzati di chiamata o chiamate senza l'intervento di un operatore,"; 
+ b) all'articolo 1, comma 5, le parole: "mediante operatore con l'impiego del telefono" sono soppresse; 
+ c) all'articolo 1, comma 12, dopo le parole: "o che compiono ricerche di mercato o comunicazioni commerciali telefoniche" sono inserite le seguenti: "con o senza l'intervento di un operatore umano"; 
+ d) all'articolo 2, comma 1, primo periodo, dopo le parole: "attivita' di call center" sono inserite le seguenti: ", per chiamate con o senza operatore,". 
+ 9. In considerazione di quanto disposto dal <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/direttivaUe/eu/2016/679/!main" ns43:resolution="unresolved">regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio, del 27 aprile 2016, nonche' dalla direttiva</ref> <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/direttivaUe/eu/2016/680/!main" ns44:resolution="unresolved">(UE) 2016/680 del Parlamento europeo e del Consiglio, del 27 aprile 2016</ref>, e dell'esigenza di disciplinare conformemente i requisiti di ammissibilita', le condizioni e le garanzie relativi all'impiego di sistemi di riconoscimento facciale, nel rispetto del principio di proporzionalita' previsto dall'articolo 52 della Carta dei diritti fondamentali dell'Unione europea, l'installazione e l'utilizzazione di impianti di videosorveglianza con sistemi di riconoscimento facciale operanti attraverso l'uso dei dati biometrici di cui all'articolo 4, numero 14), del citato <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/regolamento//2016/679/!main" ns45:resolution="unresolved">regolamento (UE) 2016/679</ref> in luoghi pubblici o aperti al pubblico, da parte delle autorita' pubbliche o di soggetti privati, sono sospese fino all'entrata in vigore di una disciplina legislativa della materia e comunque non oltre il 31 dicembre 2023. 
+ 10. La sospensione di cui al comma 9 non si applica agli impianti di videosorveglianza che non usano i sistemi di riconoscimento facciale di cui al medesimo comma 9 e che sono conformi alla normativa vigente. 
+ 11. In caso di installazione o di utilizzazione dei sistemi di cui al comma 9, dalla data di entrata in vigore della legge di conversione del presente decreto e fino al 31 dicembre 2023, salvo che il fatto costituisca reato, si applicano le sanzioni amministrative pecuniarie stabilite dall'articolo 166, comma 1, del codice di cui al <ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/decretoLegislativo/stato/2003-06-30/196/!main#art_42-com1" ns46:target="olf:it/decreto-legislativo/stato/2003/196/art_42-com1" ns46:relation="amends">decreto legislativo 30 giugno 2003, n. 196, e dall'articolo 42, comma 1</ref>, del <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/decretoLegislativo/stato/2018-05-18/51/!main" ns47:target="olf:it/decreto-legislativo/stato/2018/51" ns47:relation="amends">decreto legislativo 18 maggio 2018, n. 51</ref>, in base al rispettivo ambito di applicazione. 
+ 12. I commi 9, 10 e 11 non si applicano ai trattamenti effettuati dalle autorita' competenti a fini di prevenzione e repressione dei reati o di esecuzione di sanzioni penali di cui al <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/decretoLegislativo/stato/2018-05-18/51/!main" ns48:target="olf:it/decreto-legislativo/stato/2018/51" ns48:relation="amends">decreto legislativo 18 maggio 2018, n. 51</ref>, in presenza, salvo che si tratti di trattamenti effettuati dall'autorita' giudiziaria nell'esercizio delle funzioni giurisdizionali nonche' di quelle giudiziarie del pubblico ministero, di parere favorevole del Garante reso ai sensi dell'articolo 24, comma 1, lettera b), del medesimo <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/decretoLegislativo/stato/2018/51/!main" ns49:resolution="unresolved">decreto legislativo n. 51 del 2018</ref>. 
+ 13. Per l'attuazione delle disposizioni di cui al comma 1, lettere h) e l), e' autorizzata la spesa di euro 8.357.714 per l'anno 2022, euro 11.140.661 per l'anno 2023, euro 11.458.255 per l'anno 2024, euro 11.785.121 per l'anno 2025, euro 12.121.527 per l'anno 2026, euro 12.467.754 per l'anno 2027, euro 12.824.086 per l'anno 2028, euro 13.190.820 per l'anno 2029, euro 13.568.259 per l'anno 2030 ed euro 13.956.716 a decorrere dall'anno 2031, cui si provvede mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns50:target="olf:it/legge/stato/2014/190/art_1-com200" ns50:relation="cites">articolo 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>. 
+ 14. Con decreto del Presidente del Consiglio dei ministri, da adottare entro centottanta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, sono definiti meccanismi regolatori di armonizzazione della disciplina del trattamento economico nell'ambito delle autorita' amministrative indipendenti incluse nell'elenco delle amministrazioni pubbliche inserite nel conto economico consolidato della pubblica amministrazione, individuate annualmente dall'ISTAT ai sensi dell'<ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_1-com3" ns51:target="olf:it/legge/stato/2009/196/art_1-com3" ns51:relation="cites">articolo 1, comma 3, della legge 31 dicembre 2009, n. 196</ref>». 
+ Dopo l'articolo 9 e' inserito il seguente: 
+ «Art. 9-bis (Clausola di salvaguardia). - 1. Le disposizioni del presente decreto si applicano nelle regioni a statuto speciale e nelle province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti e le relative norme di attuazione». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
