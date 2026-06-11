@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-03-27/42/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-03-27/42"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-27;42"/>
+                    <FRBRalias name="eli" value="eli/id/2024/04/05/24G00057/ORIGINAL"/>
+                    <FRBRdate date="2024-03-27" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/04/05/24G00057/ORIGINAL" aknrelname="eli/id/2024/04/05/24G00057/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 5 febbraio 2024, n. 10, recante disposizioni urgenti sulla governance e sugli interventi di competenza della Societa' «Infrastrutture Milano Cortina 2020-2026 S.p.A.» (24G00057)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00057" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-03-27" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-03-27/42/ita@2024-04-06/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-03-27/42/ita@2024-04-06"/>
+                    <FRBRdate date="2024-04-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/04/05/24G00057/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/04/05/24G00057/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/04/05/24G00057/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-03-27/42/ita@2024-04-06/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-03-27/42/ita@2024-04-06.xml"/>
+                    <FRBRdate date="2024-03-27" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/04/05/24G00057/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-04-05" name="" number="80" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-04-05" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-03-27" refersTo="#S.1014"/>
+                <step by="#camera" date="2024-03-27" refersTo="#C.1790"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-27;42#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-03-11;16#Allegato 1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione del D.L. 5 febbraio 2024, n. 10 (in G.U. 05/02/2024, n. 29).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-27;42#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-03-11;16#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione del D.L. 5 febbraio 2024, n. 10 (in G.U. 05/02/2024, n. 29).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-27;42#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-02-05;10#Allegato A bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'Allegato A-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-27;42#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-02-05;10#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 1 e rubrica e l'introduzione dei commi 1-bis e 1-ter all'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-27;42#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-02-05;10#Allegato A"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'Allegato A.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-27;42#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-02-05;10#Allegato B"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'Allegato B.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-27;42#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-02-05;10#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1, lettera a).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-27;42#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-02-05;10#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, 2, rubrica e l'introduzione dei commi 2-bis e 2-ter all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-27;42#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-02-05;10#3 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-03-27;42#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-02-05;10#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 1, 2, 3, 4 e l'introduzione dei commi 3-bis, 3-ter, 3-quater, 3-quinquies e 3-sexies all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-03-27/42/!main" showAs=""/>
+                <passiveRef eId="S.1014" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1014" showAs=""/>
+                <passiveRef eId="C.1790" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1790" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/04/05/24G00057/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 5 febbraio 2024, n. 10, recante disposizioni urgenti sulla governance e sugli interventi di competenza della Societa' «Infrastrutture Milano Cortina 2020-2026 S.p.A.» (24G00057)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00057</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-03-27</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/04/05/24G00057/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/04/05/24G00057/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/04/05/24G00057/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/04/05/24G00057/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/42" nativeUrn="urn:nir:stato:legge:2024-03-27;42" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-04-05"><ns0:event type="enacted" date="2024-03-27"/><ns0:event type="published" date="2024-04-05"/><ns0:event type="commenced" date="2024-04-05"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/42247d42-0bd0-4835-9455-335ed101fe7f" sourceSha256="a42cb12e155ab6d62da8b948a238991708f55b62585b30a7df308e4844496cb4" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:19:07.036910Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-03-27">27 marzo 2024</docDate>
+                <docNumber>42</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 5 febbraio 2024, n. 10, recante disposizioni urgenti sulla governance e sugli interventi di competenza della Societa' «Infrastrutture Milano Cortina 2020-2026 S.p.A.» (24G00057) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 06/04/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2024-02-05/10/!main" ns1:target="olf:it/decreto-legge/stato/2024/10" ns1:relation="amends">decreto-legge 5 febbraio 2024, n. 10</ref>, recante disposizioni urgenti sulla governance e sugli interventi di competenza della Societa' «Infrastrutture Milano Cortina 2020-2026 S.p.A.», e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2024-02-05/10/!main" ns2:target="olf:it/decreto-legge/stato/2024/10" ns2:relation="amends">decreto-legge 5 febbraio 2024, n. 10</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 29 del 5 febbraio 2024. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 93. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 27 marzo 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Salvini, Ministro delle infrastrutture e dei trasporti Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-27/42/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-27/42"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-27;42"/>
+                                <FRBRalias name="eli" value="eli/id/2024/04/05/24G00057/ORIGINAL"/>
+                                <FRBRdate date="2024-04-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-27/42/ita@2024-04-06/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-27/42/ita@2024-04-06"/>
+                                <FRBRdate date="2024-04-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-27/42/ita@2024-04-06/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-27/42/ita@2024-04-06.xml"/>
+                                <FRBRdate date="2024-03-27" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ Modificazioni apportate in sede di conversione 
+ al <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2024-02-05/10/!main#art_1" ns4:target="olf:it/decreto-legge/stato/2024/10/art_1" ns4:relation="amends">decreto-legge 5 febbraio 2024, n. 10 
+ 
+ All'articolo 1</ref>: 
+ al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegge/stato/2024-02-05/10/!main#art_com1" ns5:target="olf:it/decreto-legge/stato/2024/10/art_com1" ns5:relation="amends">comma 1</ref>: 
+ al primo periodo, le parole: «ANAS S.p.A.» sono sostituite dalle seguenti: «la societa' ANAS S.p.A.» e le parole: «e' individuato» sono sostituite dalle seguenti: «e' individuata»; 
+ al secondo periodo, le parole: «effetti prodotti» sono sostituite dalle seguenti: «effetti prodottisi»; 
+ al terzo periodo, le parole: «ad ANAS S.p.A.» sono sostituite dalle seguenti: «all'ANAS S.p.A.» e le parole: «degli impegni» sono sostituite dalle seguenti: «circa gli impegni»; 
+ dopo il comma 1 sono aggiunti i seguenti: 
+ «1-bis. A decorrere dalla data di entrata in vigore della legge di conversione del presente decreto, la societa' Rete ferroviaria italiana (RFI) S.p.A. e' individuata quale soggetto attuatore degli interventi di cui all'Allegato A-bis, che costituisce parte integrante del presente decreto, e subentra nei relativi rapporti giuridici attivi e passivi, nonche' nei procedimenti amministrativi pendenti alla data di entrata in vigore della legge di conversione del presente decreto, alla Societa'. Restano validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodottisi e i rapporti giuridici sorti antecedentemente alla data di entrata in vigore della legge di conversione del presente decreto.
+Entro quindici giorni dalla medesima data di entrata in vigore, la Societa' trasmette alla RFI S.p.A. una relazione circa lo stato di attuazione degli interventi di cui al primo periodo e circa gli impegni finanziari assunti nell'espletamento delle relative attivita'. 
+ 1-ter. A decorrere dalla data di entrata in vigore della legge di conversione del presente decreto, la societa' FERROVIENORD S.p.A. e' individuata quale soggetto attuatore dell'intervento "Sede T2 MXP - Collegamento alla rete ferroviaria nazionale" e subentra nei relativi rapporti giuridici attivi e passivi, nonche' nei procedimenti amministrativi pendenti alla data di entrata in vigore della legge di conversione del presente decreto, alla Societa'.
+Restano validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodottisi e i rapporti giuridici sorti antecedentemente alla data di entrata in vigore della legge di conversione del presente decreto. Entro quindici giorni dalla medesima data di entrata in vigore, la Societa' trasmette alla FERROVIENORD S.p.A. una relazione circa lo stato di attuazione dell'intervento di cui al primo periodo e circa gli impegni finanziari assunti nell'espletamento delle relative attivita'»; 
+ alla rubrica, le parole: «in ambito stradale» sono soppresse e le parole: «delle Olimpiadi invernali Milano-Cortina 2026» sono sostituite dalle seguenti: «dei Giochi olimpici e paralimpici invernali Milano Cortina 2026». 
+ All'articolo 2: 
+ al comma 1, lettera a): 
+ al numero 1), le parole: «ad ANAS S.p.A.» sono sostituite dalle seguenti: «alla societa' ANAS S.p.A.»; 
+ dopo il numero 1) e' inserito il seguente: 
+ «1-bis) al comma 2-ter e' aggiunto, in fine, il seguente periodo: "L'intervento pubblico per il completamento delle opere necessarie allo svolgimento dei Giochi olimpici e paralimpici invernali Milano Cortina 2026 deve tener conto delle esigenze degli atleti e delle persone con disabilita'"»; 
+ al numero 2): 
+ al capoverso 5, lettera a), alinea, le parole: «Autorita' politica» sono sostituite dalle seguenti: «Autorita' di Governo»; 
+ al capoverso 5-ter: 
+ al primo periodo, le parole: «numero 2» sono sostituite dalle seguenti: «numero 2)», le parole: «e ferroviari» sono soppresse e le parole: «nonche' dell'intervento» sono sostituite dalle seguenti: «nonche' degli interventi»; 
+ al secondo periodo, le parole: «Il consiglio di amministrazione» sono sostituite dalle seguenti: «L'organo di amministrazione» e le parole: «numero 3» sono sostituite dalle seguenti: «numero 3)»; 
+ al terzo periodo, le parole: «il consiglio di amministrazione» sono sostituite dalle seguenti: «l'organo di amministrazione»; 
+ dopo il capoverso 5-ter e' aggiunto il seguente: 
+ «5-quater. Nel caso in cui l'organo di amministrazione decida di procedere, conformemente allo statuto, alla nomina del direttore generale della Societa', l'incarico e' conferito all'amministratore delegato della medesima Societa'». 
+ All'articolo 3: 
+ al comma 1, le parole: «di ANAS S.p.A.», ovunque ricorrono, sono sostituite dalle seguenti: «dell'ANAS S.p.A.», le parole: «effetti prodotti» sono sostituite dalle seguenti: «effetti prodottisi» e le parole: «rimborsi spese» sono sostituite dalle seguenti: «rimborsi di spese»; 
+ al comma 2, le parole: «di ANAS S.p.A.» sono sostituite dalle seguenti: «dell'ANAS S.p.A.» e le parole: «della medesima societa',» sono sostituite dalle seguenti: «della medesima societa' e»; 
+ dopo il comma 2 sono aggiunti i seguenti: 
+ «2-bis. L'amministratore delegato pro tempore della RFI S.p.A., dalla data di entrata in vigore della legge di conversione del presente decreto, subentra quale Commissario straordinario per la realizzazione degli interventi di soppressione di passaggi a livello insistenti sulla strada statale 38, con i poteri di cui all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2019-04-18/32/!main#art_4-com2" ns6:target="olf:it/decreto-legge/stato/2019/32/art_4-com2" ns6:relation="cites">articolo 4, commi 2</ref> e <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegge/stato/2019-04-18/32/!main#art_4-com3" ns7:target="olf:it/decreto-legge/stato/2019/32/art_4-com3" ns7:relation="cites">3, del decreto-legge 18 aprile 2019, n. 32</ref>, convertito, con modificazioni, dalla <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2019-06-14/55/!main" ns8:target="olf:it/legge/stato/2019/55" ns8:relation="cites">legge 14 giugno 2019, n. 55</ref>. Restano validi gli atti e i provvedimenti adottati e sono fatti salvi gli effetti prodottisi e i rapporti giuridici sorti antecedentemente alla data di entrata in vigore della legge di conversione del presente decreto. Il Commissario straordinario di cui al primo periodo puo' nominare fino a un massimo di due sub-commissari, scelti tra il personale della RFI S.p.A. Al Commissario straordinario e agli eventuali sub-commissari nominati non spettano compensi, gettoni di presenza e indennita', comunque denominati. Gli eventuali rimborsi di spese sono posti a carico dei quadri economici degli interventi di cui al primo periodo nel limite complessivo massimo di 50.000 euro annui. 
+ 2-ter. Per lo svolgimento delle funzioni commissariali di cui al comma 2-bis, l'amministratore delegato pro tempore della RFI S.p.A. puo' avvalersi delle strutture della medesima societa' e delle amministrazioni centrali e periferiche dello Stato e degli altri enti territoriali, senza nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono agli adempimenti previsti con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente»; 
+ alla rubrica, le parole: «delle Olimpiadi invernali Milano-Cortina 2020-2026» sono sostituite dalle seguenti: «dei Giochi olimpici e paralimpici invernali Milano Cortina 2026». 
+ Dopo l'articolo 3 e' inserito il seguente: 
+ «Art. 3-bis (Ulteriori disposizioni per lo svolgimento dei Giochi olimpici e paralimpici invernali Milano Cortina 2026). - 1.
+Gli enti territoriali interessati dai Giochi olimpici e paralimpici invernali Milano Cortina 2026 possono concorrere a finanziare e svolgere attivita' inerenti ai Giochi e finalizzate a favorire l'impatto positivo sul territorio di rispettiva competenza dal punto di vista sociale, ambientale ed economico, secondo una pianificazione definita d'intesa con il Comitato Organizzatore di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegge/stato/2020-03-11/16/!main#art_2" ns9:target="olf:it/decreto-legge/stato/2020/16/art_2" ns9:relation="amends">articolo 2 del decreto-legge 11 marzo 2020, n. 16</ref>, convertito, con modificazioni, dalla <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2020-05-08/31/!main" ns10:target="olf:it/legge/stato/2020/31" ns10:relation="cites">legge 8 maggio 2020, n. 31</ref>, o comunque comunicata allo stesso. 
+ 2. Gli enti concedenti degli impianti sportivi connessi allo svolgimento dei Giochi olimpici e paralimpici invernali Milano Cortina 2026 sono autorizzati a procedere alla revisione del relativo contratto ai sensi dell'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2006-04-12/163/!main#art_192" ns11:target="olf:it/decreto-legislativo/stato/2006/163/art_192" ns11:relation="cites">articolo 192 del codice dei contratti pubblici</ref>, di cui al <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2023-03-31/36/!main" ns12:target="olf:it/decreto-legislativo/stato/2023/36" ns12:relation="cites">decreto legislativo 31 marzo 2023, n. 36</ref>, in presenza dei presupposti e nei limiti ivi previsti, al fine di regolare gli effetti della mancata fruizione dei medesimi impianti da parte dei concessionari, in conseguenza degli impieghi connessi all'evento, mediante la rideterminazione della durata del contratto di concessione, nella misura strettamente necessaria a ricondurlo ai livelli di equilibrio e di traslazione del rischio pattuiti al momento della sua conclusione. La disposizione di cui al primo periodo non si applica ai contratti di concessione in relazione ai quali l'equilibrio economico-finanziario e i livelli di traslazione del rischio pattuiti al momento della loro conclusione siano altrimenti assicurati. Dall'attuazione del presente comma non devono derivare nuovi o maggiori oneri a carico degli enti concedenti. 
+ 3. Le regioni, le province autonome di Trento e di Bolzano e i comuni interessati dai Giochi olimpici e paralimpici invernali Milano Cortina 2026 possono disporre, con ordinanza, l'occupazione temporanea di aree attigue a quelle destinate alla realizzazione delle opere di impiantistica sportiva e infrastrutturali, come definite nel Piano complessivo delle opere olimpiche di cui al decreto del Presidente del Consiglio dei ministri 8 settembre 2023, pubblicato nella Gazzetta Ufficiale n. 222 del 22 settembre 2023, se cio' risulti necessario ad assicurare la fruibilita' e funzionalita' degli impianti e delle infrastrutture nonche' lo svolgimento dell'evento. Si applicano, in quanto compatibili, le disposizioni di cui agli articoli 49, commi 2, 3 e 4, e 50 del <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns13:target="olf:it/dpr/stato/2001/327" ns13:relation="cites">testo unico delle disposizioni legislative e regolamentari in materia di espropriazione per pubblica utilita'</ref>, di cui al <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns14:target="olf:it/dpr/stato/2001/327" ns14:relation="cites">decreto del Presidente della Repubblica 8 giugno 2001, n. 327</ref>. 
+ 4. Le disponibilita' derivanti dalle economie conseguite in relazione all'avvenuto collaudo degli interventi di cui al Piano complessivo delle opere olimpiche, ove non gia' destinate ai maggiori fabbisogni degli interventi previsti dall'articolo 4, comma 2, del citato decreto del Presidente del Consiglio dei ministri 8 settembre 2023, nonche' le disponibilita' derivanti dalla mancata realizzazione degli interventi di cui agli allegati 1 e 2 del medesimo decreto del Presidente del Consiglio dei ministri sono destinate, qualora non necessarie al completamento delle opere del Piano, alle finalita' definite con decreto del Ministro delle infrastrutture e dei trasporti, di concerto con il Ministro dell'economia e delle finanze e, per le relative parti di competenza, di concerto con il Ministro per lo sport e i giovani, previa intesa con le regioni Lombardia e Veneto e le province autonome di Trento e di Bolzano». 
+ All'articolo 4: 
+ al comma 1, le parole: «con ANAS S.p.A.» sono sostituite dalle seguenti: «con l'ANAS S.p.A.», le parole: «ad ANAS S.p.A.» sono sostituite dalle seguenti: «all'ANAS S.p.A.», le parole: «da ANAS S.p.A.» sono sostituite dalle seguenti: «dall'ANAS S.p.A.», le parole: «Gli oneri di cui al secondo periodo» sono sostituite dalle seguenti: «Gli oneri di cui al terzo periodo del presente comma» e dopo le parole: «senza nuovi o maggiori» e' inserita la seguente: «oneri»; 
+ al comma 2, dopo le parole: «articolo 11, comma 9, lettera a), del» sono inserite le seguenti: «testo unico in materia di societa' a partecipazione pubblica, di cui al»; 
+ al comma 3, secondo periodo, le parole: «ANAS S.p.A» sono sostituite dalle seguenti: «L'ANAS S.p.A»; 
+ dopo il comma 3 sono inseriti i seguenti: 
+ «3-bis. Per la realizzazione delle opere del piano approvato con decreto del Presidente del Consiglio dei ministri ai sensi dell'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegge/stato/2020-03-11/16/!main#art_3-com2" ns15:target="olf:it/decreto-legge/stato/2020/16/art_3-com2" ns15:relation="amends">articolo 3, comma 2, del decreto-legge 11 marzo 2020, n. 16</ref>, convertito, con modificazioni, dalla <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2020-05-08/31/!main" ns16:target="olf:it/legge/stato/2020/31" ns16:relation="cites">legge 8 maggio 2020, n. 31</ref>, per le quali la Societa' intende avvalersi dell'ANAS S.p.A. per le fasi di affidamento e di esecuzione delle opere, la copertura dei costi per le attivita' svolte da quest'ultima avviene mediante corresponsione di contributi da parte del Ministero delle infrastrutture e dei trasporti a valere sul quadro economico delle relative opere. Per ciascuno degli interventi di cui al primo periodo sono riconosciuti oneri di investimento nel limite complessivo massimo del 9 per cento del quadro economico, comprensivo delle somme di cui all'articolo 3, comma 11, primo e terzo periodo, del citato <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegge/stato/2020/16/!main" ns17:resolution="unresolved">decreto-legge n. 16 del 2020</ref> e, comunque, entro i limiti delle risorse allo stato disponibili nei relativi quadri economici, senza nuovi o maggiori oneri a carico della finanza pubblica. Entro trenta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, la Societa' provvede, per ciascuno degli interventi, alla sottoscrizione di apposita convenzione con l'ANAS S.p.A. per la definizione degli interventi alla stessa affidati e dei relativi oneri finanziari in coerenza con le disposizioni di cui al presente comma, dandone comunicazione al Ministero delle infrastrutture e dei trasporti. Gli interventi affidati all'ANAS S.p.A. ai sensi del presente comma sono recepiti in sede di aggiornamento del contratto di programma sottoscritto dal Ministero delle infrastrutture e dei trasporti con l'ANAS S.p.A. 
+ 3-ter. Per gli interventi di cui all'Allegato A-bis, in relazione alle attivita' gia' svolte dalla Societa' alla data di entrata in vigore della legge di conversione del presente decreto, nonche' per quelle di monitoraggio, le somme di cui all'articolo 3, comma 11, primo periodo, del citato <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegge/stato/2020/16/!main" ns18:resolution="unresolved">decreto-legge n. 16 del 2020</ref> sono determinate nella misura dell'1,5 per cento dei relativi quadri economici, entro i limiti delle risorse allo stato disponibili sugli stessi, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+ 3-quater. Per l'intervento di cui all'articolo 1, comma 1-ter, in relazione alle attivita' gia' svolte dalla Societa' alla data di entrata in vigore della legge di conversione del presente decreto, nonche' per quelle di monitoraggio, le somme di cui all'articolo 3, comma 11, primo periodo, del citato <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegge/stato/2020/16/!main" ns19:resolution="unresolved">decreto-legge n. 16 del 2020</ref> sono determinate nella misura dell'1,5 per cento dei relativi quadri economici, entro i limiti delle risorse allo stato disponibili sugli stessi, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+ 3-quinquies. L'Autorita' di bacino distrettuale delle Alpi Orientali provvede all'aggiornamento degli strumenti di pianificazione per il contrasto al dissesto idrogeologico nel territorio di competenza ai sensi dell'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegislativo/stato/2006-04-03/152/!main#art_65" ns20:target="olf:it/decreto-legislativo/stato/2006/152/art_65" ns20:relation="cites">articolo 65 del decreto legislativo 3 aprile 2006, n. 152</ref>. L'aggiornamento del piano e' approvato anche in piu' stralci funzionali, in coerenza con le modalita' di cui all'articolo 67 del medesimo <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2006-04-03/152/!main" ns21:target="olf:it/decreto-legislativo/stato/2006/152" ns21:relation="cites">decreto legislativo 3 aprile 2006, n. 152</ref>. Il primo stralcio funzionale, riguardante il territorio del comune di Cortina d'Ampezzo, e' adottato entro trenta giorni dalla data di entrata in vigore della legge di conversione del presente decreto. Il piano individua le misure strutturali e non strutturali funzionali alla mitigazione e gestione del rischio ed e' corredato di norme di attuazione. 
+ 3-sexies. Per le esigenze di funzionamento volte a potenziare le attivita' finalizzate a mitigare il rischio idrogeologico e gli effetti del cambiamento climatico, anche con specifico riferimento al necessario monitoraggio e governo del rischio idrogeologico per lo svolgimento dei Giochi olimpici e paralimpici invernali Milano Cortina 2026, ivi compresa l'attivita' di pianificazione di cui al comma 3-quinquies, l'Autorita' di bacino distrettuale delle Alpi Orientali e' autorizzata a reclutare, nel biennio 2024-2025, con rapporto di lavoro subordinato a tempo indeterminato, mediante l'indizione di concorsi pubblici o mediante le ulteriori modalita' di reclutamento previste a legislazione vigente, in aggiunta alle facolta' assunzionali disponibili a legislazione vigente, il seguente contingente di personale: un dirigente di prima fascia, un dirigente di seconda fascia, un'unita' da inquadrare nell'area delle elevate professionalita', prevista dal vigente contratto collettivo nazionale di lavoro relativo al personale dell'area del comparto funzioni centrali - Triennio 2019-2021, e dodici unita' da inquadrare nell'area dei funzionari prevista dal medesimo contratto collettivo.
+Per effetto di quanto previsto dal presente comma, nella vigente dotazione organica dell'Autorita' di bacino distrettuale delle Alpi Orientali sono istituite una posizione di dirigente di prima fascia e una posizione nell'area delle elevate professionalita'. Agli oneri derivanti dall'attuazione del presente comma, pari a euro 917.202 per l'anno 2024 e a euro 1.222.936 a decorrere dall'anno 2025, si provvede mediante corrispondente riduzione del fondo di cui all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com199" ns22:target="olf:it/legge/stato/2014/190/art_1-com199" ns22:relation="cites">articolo 1, comma 199, della legge 23 dicembre 2014, n. 190</ref>»; 
+ al comma 4, le parole: «Dall'attuazione degli articoli 1, 2, 3 e 4, commi 1 e 2 del presente decreto,» sono sostituite dalle seguenti: «Dall'attuazione degli articoli 1, 2, 3 e 3-bis e dei commi 1, 2, 3-bis, 3-ter, 3-quater e 3-quinquies del presente articolo». 
+ All'Allegato A, le parole: «delle Olimpiadi invernali Milano-Cortina 2020-2026» sono sostituite dalle seguenti: «dei Giochi olimpici e paralimpici invernali Milano Cortina 2026». 
+ Dopo l'Allegato A e' inserito il seguente: 
+ 
+ «Allegato A-bis 
+ (articolo 1, comma 1-bis) 
+ 
+Elenco delle opere complementari in ambito ferroviario connesse allo svolgimento dei Giochi olimpici e paralimpici invernali Milano Cortina 2026 affidate alla RFI S.p.A. come soggetto attuatore 
+ </p>
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <p>Regione o provincia autonoma </p>
+                                        </th>
+                                        <th>
+                                            <p> Intervento  </p>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Provincia autonoma di Trento </p>
+                                        </td>
+                                        <td>
+                                            <p>Stazione ferroviaria di Trento - Adeguamento infrastrutturale </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> Veneto </p>
+                                        </td>
+                                        <td>
+                                            <p>Stazione di Longarone - Miglioramento accessibilita' e velocizzazione itinerari </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Veneto </p>
+                                        </td>
+                                        <td>
+                                            <p>PRG di Ponte nelle Alpi </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> Veneto   </p>
+                                        </td>
+                                        <td>
+                                            <p>Rinnovo stazioni/costruzione parcheggi di scambio  Lotto 1 Stazione di Belluno </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> Veneto  </p>
+                                        </td>
+                                        <td>
+                                            <p>Rinnovo stazioni/costruzione parcheggi di scambio Lotto 2 Stazione di Feltre  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> Lombardia   </p>
+                                        </td>
+                                        <td>
+                                            <p>Interventi puntuali potenziamento - PRG sedi di incrocio  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> Lombardia   </p>
+                                        </td>
+                                        <td>
+                                            <p>Soppressione passaggi a livello insistenti su SS38  Lotto 1 Lotto funzionale FORCOLA </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> Lombardia   </p>
+                                        </td>
+                                        <td>
+                                            <p>Soppressione passaggi a livello insistenti su SS38  Lotto 2 Lotto funzionale COLORINA </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>  Lombardia   </p>
+                                        </td>
+                                        <td>
+                                            <p>Soppressione passaggi a livello insistenti su SS38  Lotto 3 Lotto funzionale MONTAGNA-POGGIRIDENTI </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>  Lombardia   </p>
+                                        </td>
+                                        <td>
+                                            <p>Soppressione passaggi a livello insistenti su SS38 Lotto 4 Lotto funzionale CHIURO-TEGLIO  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>  Lombardia   </p>
+                                        </td>
+                                        <td>
+                                            <p>Soppressione passaggi a livello insistenti su SS38 Lotto 5 Lotto funzionale Ponte-Chiuro  </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> Lombardia </p>
+                                        </td>
+                                        <td>
+                                            <p>Soppressione passaggi a livello insistenti su SS38  Lotto 6 Lotto funzionale Bianzone </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p>
+ 
+». 
+ Nell'Allegato B, capoverso Allegato 1, l'ultima riga e' soppressa. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
