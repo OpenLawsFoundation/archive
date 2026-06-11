@@ -1,0 +1,1395 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-09/114/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-09/114"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-08-09;114"/>
+                    <FRBRalias name="eli" value="eli/id/2024/08/10/24G00122/ORIGINAL"/>
+                    <FRBRdate date="2024-08-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/10/24G00122/ORIGINAL" aknrelname="eli/id/2024/08/10/24G00122/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifiche al codice penale, al codice di procedura penale, all'ordinamento giudiziario e al codice dell'ordinamento militare. (24G00122)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00122" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-08-09" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-09/114/ita@2024-08-25/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-09/114/ita@2024-08-25"/>
+                    <FRBRdate date="2024-08-25" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/10/24G00122/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/08/10/24G00122/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/08/10/24G00122/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-09/114/ita@2024-08-25/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-09/114/ita@2024-08-25.xml"/>
+                    <FRBRdate date="2024-08-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/10/24G00122/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-08-10" name="" number="187" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-08-10" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-08-09" refersTo="#S.808"/>
+                <step by="#camera" date="2024-08-09" refersTo="#C.1718"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 322 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera a)) la modifica dell'art. 322-bis, comma 1, alinea e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#Allegato 1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 323"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'abrogazione dell'art. 323.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 323 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera c)) la modifica dell'art. 323-bis, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 323 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera d)) la modifica dell'art. 323-ter, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 346 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera e)) la modifica dell'art. 346-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#103"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera a)) l'introduzione dei commi 6-bis e 6-ter all'art. 103.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#114"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera b)) la modifica dell'art. 114, comma 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#116"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera c)) la modifica dell'art. 116, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#268"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera d)) la modifica dell'art. 268, commi 2-bis e 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#291"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera e)) la modifica dell'art. 291, comma 1-ter e l'introduzione dei commi 1-quater, 1-quinquies, 1-sexies, 1-septies, 1-octies e 1-novies all'art. 291.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#292"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera f)) la modifica dell'art. 292, commi 2-ter e 2-quater e l'introduzione del comma 3-bis all'art. 292.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#294"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera g)) la modifica dell'art. 294, commi 1 e 4-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#299"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera h)) la modifica dell'art. 299, comma 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#309"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera i)) la modifica dell'art. 309, comma 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#313"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera l)) la modifica dell'art. 313, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#328"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera m)) l'introduzione del comma 1-quinquies all'art. 328. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#369"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera n)) la modifica dell'art. 369, comma 1 e l'introduzione dei commi 1-quater e 1-quinquies all'art. 369.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#581"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera o)) l'abrogazione del comma 1-ter all'art. 581 e la modifica dell'art. 581, comma 1-quater. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#593"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera p)) la modifica dell'art. 593, comma 2. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#3"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1989-07-28;271#Norme-art. 89-bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1) la modifica dell'art. 89-bis, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#4"/>
+                        <destination href="urn:nir:stato:regio.decreto:1941-01-30;12#Ordinamento giudiziario-art. 7 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera a)) la modifica dell'art. 7-bis, commi 3-bis e 3-quater, lettera c).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#4"/>
+                        <destination href="urn:nir:stato:regio.decreto:1941-01-30;12#Ordinamento giudiziario-art. 7 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1, lettera b)) la modifica dell'art. 7-ter, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#5"/>
+                        <destination href="urn:nir:stato:legge:1991-03-05;71#Tabella B"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 1) la modifica della Tabella B.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#6"/>
+                        <destination href="urn:nir:stato:legge:1951-04-10;287#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 6, comma 1) la modifica dell'art. 9, comma 1, lettera c).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#7"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2010-03-15;66#1051"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 7, comma 1) la modifica dell'art. 1051, comma 2, lettera a).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#9"/>
+                        <destination href="urn:nir:stato:regio.decreto:1941-01-30;12#Ordinamento giudiziario-art. 7 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 9, comma 1) la modifica dell'art. 7-bis, commi 3-bis e 3-quater, lettera c).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#9"/>
+                        <destination href="urn:nir:stato:regio.decreto:1941-01-30;12#Ordinamento giudiziario-art. 7 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 9, comma 1) la modifica dell'art. 7-ter, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#9"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#291"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 9, comma 1) la modifica dell'art. 291, comma 1-quinquies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#9"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#294"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 9, comma 1) la modifica dell'art. 294, comma 4-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#9"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#299"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 9, comma 1) la modifica dell'art. 299, comma 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#9"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#313"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 9, comma 1) la modifica dell'art. 313, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-09;114#9"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#328"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 9, comma 1) la modifica dell'art. 328, comma 1-quinquies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-08-25/!main/~art_322-bis__para_1"/>
+                        <old href="#modNov_1_old_2"/>
+                        <new href="#modNov_1_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="repeal">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-08-25/!main/~art_322-bis__para_1"/>
+                        <old href="#modNov_2_old_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="repeal">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-08-25/!main/~art_322-bis"/>
+                        <old href="#modNov_3_old_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="repeal">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-08-25/!main/~art_323"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-08-25/!main/~art_323-bis__para_1"/>
+                        <old href="#modNov_5_old_5"/>
+                        <new href="#modNov_5_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-08-25/!main/~art_323-bis__para_2"/>
+                        <old href="#modNov_6_old_6"/>
+                        <new href="#modNov_6_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-08-25/!main/~art_323-ter__para_1"/>
+                        <new href="#modNov_7_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2024-08-25/!main/~art_346-bis"/>
+                        <new href="#modNov_8_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_103"/>
+                        <new href="#modNov_9_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_114__para_2-bis"/>
+                        <old href="#modNov_10_old_2"/>
+                        <new href="#modNov_10_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="insertion">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_116__para_1"/>
+                        <new href="#modNov_11_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="insertion">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_268__para_2-bis"/>
+                        <new href="#modNov_12_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="#modNov_13"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_268__para_6"/>
+                        <new href="#modNov_13_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="insertion">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_291__para_1-ter"/>
+                        <new href="#modNov_14_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="insertion">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_291"/>
+                        <new href="#modNov_15_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="insertion">
+                        <source href="#modNov_16"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_292__para_2-ter"/>
+                        <new href="#modNov_16_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="insertion">
+                        <source href="#modNov_17"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_292__para_2-quater"/>
+                        <new href="#modNov_17_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="insertion">
+                        <source href="#modNov_18"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_292__para_3-bis"/>
+                        <new href="#modNov_18_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="#modNov_19"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_294__para_1"/>
+                        <new href="#modNov_19_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="insertion">
+                        <source href="#modNov_20"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_294__para_ 4-bis"/>
+                        <new href="#modNov_20_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="insertion">
+                        <source href="#modNov_21"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_299__para_4"/>
+                        <new href="#modNov_21_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="insertion">
+                        <source href="#modNov_22"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_309__para_5"/>
+                        <new href="#modNov_22_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="insertion">
+                        <source href="#modNov_23"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_313__para_1"/>
+                        <new href="#modNov_23_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_55" type="insertion">
+                        <source href="#modNov_24"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_328__para_1-quinquies"/>
+                        <new href="#modNov_24_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_56" type="substitution">
+                        <source href="#modNov_25"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_369__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_57" type="insertion">
+                        <source href="#modNov_26"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_369"/>
+                        <new href="#modNov_26_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_58" type="repeal">
+                        <source href="#modNov_27"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_581__para_1-ter"/>
+                    </textualMod>
+                    <textualMod eId="amod_59" type="insertion">
+                        <source href="#modNov_28"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_581__para_1-quater"/>
+                        <new href="#modNov_28_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_60" type="substitution">
+                        <source href="#modNov_29"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2024-08-25/!main/~art_593__para_2"/>
+                        <new href="#modNov_29_new_21"/>
+                    </textualMod>
+                    <textualMod eId="amod_61" type="insertion">
+                        <source href="#modNov_30"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1989-07-28/271/ita@2024-08-25/!main/~art_89-bis__para_2"/>
+                        <new href="#modNov_30_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_62" type="insertion">
+                        <source href="#modNov_31"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1941-01-30/12/ita@2024-08-25/!main/~art_7-bis__para_3-bis"/>
+                        <new href="#modNov_31_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_63" type="insertion">
+                        <source href="#modNov_32"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1941-01-30/12/ita@2024-08-25/!main/~art_7-bis__para_3-quater__point_c"/>
+                        <new href="#modNov_32_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_64" type="insertion">
+                        <source href="#modNov_33"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1941-01-30/12/ita@2024-08-25/!main/~art_7-ter__para_1"/>
+                        <new href="#modNov_33_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_65" type="substitution">
+                        <source href="#modNov_34"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2010-03-15/66/ita@2024-08-25/!main/~art_1051__para_2__point_a"/>
+                        <new href="#modNov_34_new_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-08-09/114/!main" showAs=""/>
+                <passiveRef eId="S.808" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;808" showAs=""/>
+                <passiveRef eId="C.1718" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1718" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/08/10/24G00122/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifiche al codice penale, al codice di procedura penale, all'ordinamento giudiziario e al codice dell'ordinamento militare. (24G00122)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00122</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-08-09</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/08/10/24G00122/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/08/10/24G00122/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/08/10/24G00122/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/08/10/24G00122/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/114" nativeUrn="urn:nir:stato:legge:2024-08-09;114" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-08-10"><ns0:event type="enacted" date="2024-08-09"/><ns0:event type="published" date="2024-08-10"/><ns0:event type="commenced" date="2024-08-10"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/48e0da3c-80dc-42b0-81c7-965924114eb5" sourceSha256="bb194fa1b1c0e808ba5b5964121da7442a4bf128cc3c56443bf0397bcdb60b37" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:09:09.574953Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-08-09">09 agosto 2024</docDate>
+                <docNumber>114</docNumber>
+                <docTitle>Modifiche al codice penale, al codice di procedura penale, all'ordinamento giudiziario e al codice dell'ordinamento militare. (24G00122) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 25/08/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Modifiche al codice penale</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_1__para_1__intro_1">
+                            <p>Al <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns1:target="olf:it/regio-decreto/stato/1930/1398" ns1:relation="repeals">codice penale</ref> sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>all'articolo 322-bis: 
+ 1) <mod eId="modNov_1">al primo comma, alinea, le parole: 
+ «<quotedText eId="modNov_1_old_2">, 322</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_2">e 322</quotedText>»</mod>
+                                    <mod eId="modNov_2">e le parole: «<quotedText eId="modNov_2_old_1">e 323</quotedText>» sono soppresse;</mod> 
+ 2) <mod eId="modNov_3">alla rubrica, le parole: «<quotedText eId="modNov_3_old_3">, abuso d'ufficio</quotedText>» sono soppresse;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_4">l'articolo 323 e' abrogato;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>all'articolo 323-bis: 
+ 1) <mod eId="modNov_5">al primo comma, le parole: «<quotedText eId="modNov_5_old_5">e 323</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_5">e 346-bis</quotedText>»;</mod> 
+ 2) <mod eId="modNov_6">al secondo comma, le parole: «<quotedText eId="modNov_6_old_6">e 322-bis</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_6">, 322-bis e 346-bis</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_7">all'articolo 323-ter, primo comma, dopo le parole: «ivi indicati,» e' inserita la seguente: «<quotedText eId="modNov_7_new_7">346-bis,</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_8">l'articolo 346-bis e' sostituito dal seguente: 
+ «<quotedText eId="modNov_8_new_8">Art. 346-bis (Traffico di influenze illecite). - Chiunque, fuori dei casi di concorso nei reati di cui agli articoli 318, 319 e 319-ter e nei reati di corruzione di cui all'articolo 322-bis, utilizzando intenzionalmente allo scopo relazioni esistenti con un pubblico ufficiale o un incaricato di un pubblico servizio o uno degli altri soggetti di cui all'articolo 322-bis, indebitamente fa dare o promettere, a se' o ad altri, denaro o altra utilita' economica, per remunerare un pubblico ufficiale o un incaricato di un pubblico servizio o uno degli altri soggetti di cui all'articolo 322-bis, in relazione all'esercizio delle sue funzioni, ovvero per realizzare un'altra mediazione illecita, e' punito con la pena della reclusione da un anno e sei mesi a quattro anni e sei mesi. 
+ Ai fini di cui al primo comma, per altra mediazione illecita si intende la mediazione per indurre il pubblico ufficiale o l'incaricato di un pubblico servizio o uno degli altri soggetti di cui all'articolo 322-bis a compiere un atto contrario ai doveri d'ufficio costituente reato dal quale possa derivare un vantaggio indebito. 
+ La stessa pena si applica a chi indebitamente da' o promette denaro o altra utilita' economica. 
+ La pena e' aumentata se il soggetto che indebitamente fa dare o promettere, a se' o ad altri, denaro o altra utilita' economica riveste la qualifica di pubblico ufficiale o di incaricato di un pubblico servizio o una delle qualifiche di cui all'articolo 322-bis. 
+ La pena e' altresi' aumentata se i fatti sono commessi in relazione all'esercizio di attivita' giudiziarie o per remunerare il pubblico ufficiale o l'incaricato di un pubblico servizio o uno degli altri soggetti di cui all'articolo 322-bis in relazione al compimento di un atto contrario ai doveri d'ufficio o all'omissione o al ritardo di un atto del suo ufficio</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riportano gli <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_322bis" ns3:target="olf:it/regio-decreto/stato/1930/1398/art_322bis" ns3:relation="repeals">articoli 322-bis</ref>, <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_323bis" ns4:target="olf:it/regio-decreto/stato/1930/1398/art_323bis" ns4:relation="repeals">323-bis</ref> e <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_323ter" ns5:target="olf:it/regio-decreto/stato/1930/1398/art_323ter" ns5:relation="repeals">323-ter del codice penale</ref> come modificati dalla presente legge: 
+ "Art. 322-bis (Peculato, indebita destinazione di denaro o cose mobili, concussione, induzione indebita a dare o promettere utilita', corruzione e istigazione alla corruzione di membri delle Corti internazionali o degli organi delle Comunita' europee o di assemblee parlamentari internazionali o di organizzazioni internazionali e di funzionari delle Comunita' europee e di Stati esteri). 
+ Le disposizioni degli articoli 314, 314-bis, 316, da 317 a 320 e 322, terzo e quarto comma, si applicano anche: 
+ 1) ai membri della Commissione delle Comunita' europee, del Parlamento europeo, della Corte di Giustizia e della Corte dei conti delle Comunita' europee; 
+ 2) ai funzionari e agli agenti assunti per contratto a norma dello statuto dei funzionari delle Comunita' europee o del regime applicabile agli agenti delle Comunita' europee; 
+ 3) alle persone comandate dagli Stati membri o da qualsiasi ente pubblico o privato presso le Comunita' europee, che esercitino funzioni corrispondenti a quelle dei funzionari o agenti delle Comunita' europee; 
+ 4) ai membri e agli addetti a enti costituiti sulla base dei Trattati che istituiscono le Comunita' europee; 
+ 5) a coloro che, nell'ambito di altri Stati membri dell'Unione europea, svolgono funzioni o attivita' corrispondenti a quelle dei pubblici ufficiali e degli incaricati di un pubblico servizio; 
+ 5-bis) ai giudici, al procuratore, ai procuratori aggiunti, ai funzionari e agli agenti della Corte penale internazionale, alle persone comandate dagli Stati parte del Trattato istitutivo della Corte penale internazionale le quali esercitino funzioni corrispondenti a quelle dei funzionari o agenti della Corte stessa, ai membri ed agli addetti a enti costituiti sulla base del Trattato istitutivo della Corte penale internazionale; 
+ 5-ter) alle persone che esercitano funzioni o attivita' corrispondenti a quelle dei pubblici ufficiali e degli incaricati di un pubblico servizio nell'ambito di organizzazioni pubbliche internazionali; 
+ 5-quater) ai membri delle assemblee parlamentari internazionali o di un'organizzazione internazionale o sovranazionale e ai giudici e funzionari delle corti internazionali; 
+ 5-quinquies) alle persone che esercitano funzioni o attivita' corrispondenti a quelle dei pubblici ufficiali e degli incaricati di un pubblico servizio nell'ambito di Stati non appartenenti all'Unione europea, quando il fatto offende gli interessi finanziari dell'Unione. 
+ Le disposizioni degli articoli 319-quater, secondo comma, 321 e 322, primo e secondo comma, si applicano anche se il denaro o altra utilita' e' dato, offerto o promesso: 
+ 1) alle persone indicate nel primo comma del presente articolo; 
+ 2) a persone che esercitano funzioni o attivita' corrispondenti a quelle dei pubblici ufficiali e degli incaricati di un pubblico servizio nell'ambito di altri Stati esteri o organizzazioni pubbliche internazionali. 
+ Le persone indicate nel primo comma sono assimilate ai pubblici ufficiali, qualora esercitino funzioni corrispondenti, e agli incaricati di un pubblico servizio negli altri casi." 
+ "Art. 323-bis (Circostanze attenuanti) 
+ Se i atti previsti dagli articoli 314, 314-bis, 316, 316-bis, 316-ter, 317, 318, 319, 319-quater, 320, 322, 322-bis e 346-bis sono di particolare tenuita', le pene sono diminuite. 
+ Per i delitti previsti dagli articoli 318, 319, 319-ter, 319-quater, 320, 321, 322, 322-bis e 346-bis, per chi si sia efficacemente adoperato per evitare che l'attivita' delittuosa sia portata a conseguenze ulteriori, per assicurare le prove dei reati e per l'individuazione degli altri responsabili ovvero per il sequestro delle somme o altre utilita' trasferite, la pena e' diminuita da un terzo a due terzi." 
+ "Art. 323-ter (Causa di non punibilita') 
+ Non e' punibile chi ha commesso taluno dei fatti previsti dagli articoli 318, 319, 319-ter, 319-quater, 320, 321, 322-bis, limitatamente ai delitti di corruzione e di induzione indebita ivi indicati, 346-bis, 353, 353-bis e 354 se, prima di avere notizia che nei suoi confronti sono svolte indagini in relazione a tali fatti e, comunque, entro quattro mesi dalla commissione del fatto, lo denuncia volontariamente e fornisce indicazioni utili e concrete per assicurare la prova del reato e per individuare gli altri responsabili. 
+ La non punibilita' del denunciante e' subordinata alla messa a disposizione dell'utilita' dallo stesso percepita o, in caso di impossibilita', di una somma di denaro di valore equivalente, ovvero all'indicazione di elementi utili e concreti per individuarne il beneficiario effettivo, entro il medesimo termine di cui al primo comma. 
+ La causa di non punibilita' non si applica quando la denuncia di cui al primo comma e' preordinata rispetto alla commissione del reato denunciato. La causa di non punibilita' non si applica in favore dell'agente sotto copertura che ha agito in violazione delle disposizioni dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2006-03-16/146/!main#art_9" ns6:target="olf:it/legge/stato/2006/146/art_9" ns6:relation="cites">articolo 9 della legge 16 marzo 2006, n. 146</ref>.". 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Modifiche al codice 
+ di procedura penale</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>Al <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns7:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns7:relation="cites">codice di procedura penale</ref> sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_9">all'articolo 103, dopo il comma 6 sono inseriti i seguenti: 
+ «<quotedText eId="modNov_9_new_1">6-bis. E' parimenti vietata l'acquisizione di ogni forma di comunicazione, anche diversa dalla corrispondenza, intercorsa tra l'imputato e il proprio difensore, salvo che l'autorita' giudiziaria abbia fondato motivo di ritenere che si tratti di corpo del reato. 
+ 6-ter. L'autorita' giudiziaria o gli organi ausiliari delegati interrompono immediatamente le operazioni di intercettazione quando risulta che la conversazione o la comunicazione rientra tra quelle vietate</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_10">all'articolo 114, comma 2-bis, le parole: «<quotedText eId="modNov_10_old_2">non acquisite ai sensi degli articoli 268, 415-bis o 454</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_10_new_2">se non e' riprodotto dal giudice nella motivazione di un provvedimento o utilizzato nel corso del dibattimento</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_11">all'articolo 116, comma 1, e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_11_new_3">Non puo' comunque essere rilasciata copia delle intercettazioni di cui e' vietata la pubblicazione ai sensi dell'articolo 114, comma 2-bis, quando la richiesta e' presentata da un soggetto diverso dalle parti e dai loro difensori, salvo che la richiesta sia motivata dall'esigenza di utilizzare i risultati delle intercettazioni in altro procedimento specificamente indicato</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>all'articolo 268: 
+ 1) <mod eId="modNov_12">al comma 2-bis, dopo le parole: 
+ «degli interlocutori,» sono inserite le seguenti: «<quotedText eId="modNov_12_new_4">nonche' quelle che consentono di identificare soggetti diversi dalle parti</quotedText>»;</mod> 
+ 2) <mod eId="modNov_13">al comma 6, dopo le parole: «dati personali» sono inserite le seguenti: «<quotedText eId="modNov_13_new_5">o soggetti diversi dalle parti</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>all'articolo 291: 
+ 1) <mod eId="modNov_14">al comma 1-ter, dopo le parole: 
+ «conversazioni intercettate» sono aggiunte le seguenti: «<quotedText eId="modNov_14_new_6">, in ogni caso senza indicare i dati personali dei soggetti diversi dalle parti, salvo che cio' sia indispensabile per la compiuta esposizione</quotedText>»;</mod> 
+ 2) <mod eId="modNov_15">dopo il comma 1-ter sono inseriti i seguenti: 
+ «<quotedText eId="modNov_15_new_7">1-quater. Fermo il disposto dell'articolo 289, comma 2, secondo periodo, prima di disporre la misura, il giudice procede all'interrogatorio della persona sottoposta alle indagini preliminari con le modalita' indicate agli articoli 64 e 65, salvo che sussista taluna delle esigenze cautelari di cui all'articolo 274, comma 1, lettere a) e b), oppure l'esigenza cautelare di cui all'articolo 274, comma 1, lettera c), in relazione ad uno dei delitti indicati all'articolo 407, comma 2, lettera a), o all'articolo 362, comma 1-ter, ovvero a gravi delitti commessi con uso di armi o con altri mezzi di violenza personale. 
+ 1-quinquies. Nel caso di cui all'articolo 328, comma 1-quinquies, all'interrogatorio procede il presidente del collegio o uno dei componenti da lui delegato. 
+ 1-sexies. L'invito a presentarsi per rendere l'interrogatorio e' comunicato al pubblico ministero e notificato alla persona sottoposta alle indagini preliminari e al suo difensore almeno cinque giorni prima di quello fissato per la comparizione, salvo che, per ragioni d'urgenza, il giudice ritenga di abbreviare il termine, purche' sia lasciato il tempo necessario per comparire. Il giudice provvede comunque sulla richiesta del pubblico ministero quando la persona sottoposta alle indagini preliminari non compare senza addurre un legittimo impedimento, oppure quando la persona sottoposta alle indagini preliminari non e' stata rintracciata e il giudice ritiene le ricerche esaurienti, anche con riferimento ai luoghi di cui all'articolo 159, comma 1. 
+ 1-septies. L'invito contiene: 
+ a) le generalita' o altre indicazioni personali che valgono a identificare la persona sottoposta alle indagini; 
+ b) il giorno, l'ora e il luogo della presentazione, nonche' l'autorita' davanti alla quale la persona deve presentarsi; 
+ c) la descrizione sommaria del fatto, comprensiva di data e luogo di commissione del reato; 
+ d) l'avviso della facolta' di nominare un difensore di fiducia e di essere ammesso al patrocinio a spese dello Stato nei casi previsti dalla legge; del diritto di ottenere informazioni in merito all'accusa; del diritto all'interprete e alla traduzione di atti fondamentali; del diritto di avvalersi della facolta' di non rispondere; del diritto di informare le autorita' consolari e di dare avviso ai familiari; della facolta' di accedere ai programmi di giustizia riparativa. 
+ 1-octies. L'invito di cui al comma 1-sexies contiene altresi' l'avviso di deposito nella cancelleria del giudice della richiesta di applicazione della misura cautelare e degli atti presentati ai sensi del comma 1, nonche' della facolta' di prendere visione ed estrarre copia di tutti gli atti depositati, ivi compresi i verbali delle comunicazioni e delle conversazioni intercettate, con diritto alla trasposizione delle relative registrazioni su supporto idoneo alla riproduzione dei dati. 
+ 1-novies. L'interrogatorio di cui al comma 1-quater deve essere documentato integralmente, a pena di inutilizzabilita', secondo le modalita' di cui all'articolo 141-bis</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>all'articolo 292: 
+ 1) <mod eId="modNov_16">al comma 2-ter, dopo le parole: «articolo 327-bis» sono aggiunte le seguenti: «<quotedText eId="modNov_16_new_9">e, nel caso di cui all'articolo 291, comma 1-quater, una specifica valutazione degli elementi esposti dalla persona sottoposta alle indagini nel corso dell'interrogatorio</quotedText>»;</mod> 
+ 2) <mod eId="modNov_17">al comma 2-quater, dopo le parole: «brani essenziali» sono aggiunte le seguenti: «<quotedText eId="modNov_17_new_8">, in ogni caso senza indicare i dati personali dei soggetti diversi dalle parti, salvo che cio' sia indispensabile per la compiuta esposizione degli elementi rilevanti</quotedText>»;</mod> 
+ 3) <mod eId="modNov_18">dopo il comma 3 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_18_new_10">3-bis. L'ordinanza e' nulla se non e' preceduta dall'interrogatorio nei casi previsti dall'articolo 291, comma 1-quater, nonche' quando l'interrogatorio e' nullo per violazione delle disposizioni di cui ai commi 1-septies e 1-octies del medesimo articolo</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_g">
+                            <num>g)</num>
+                            <content>
+                                <p>all'articolo 294: 
+ 1) <mod eId="modNov_19">al comma 1, dopo le parole: «ha proceduto» sono inserite le seguenti: «<quotedText eId="modNov_19_new_12">ai sensi dell'articolo 291, comma 1-quater, oppure</quotedText>»;</mod> 
+ 2) <mod eId="modNov_20">al comma 4-bis, dopo la parola: «disposta» sono inserite le seguenti: «<quotedText eId="modNov_20_new_11">dal collegio di cui all'articolo 328, comma 1-quinquies,</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_h">
+                            <num>h)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_21">all'articolo 299, comma 4, e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_21_new_13">In questo caso, se ritiene che l'aggravamento debba comportare l'applicazione della misura della custodia cautelare in carcere, il giudice per le indagini preliminari rimette la decisione al collegio di cui all'articolo 328, comma 1-quinquies</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_i">
+                            <num>i)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_22">all'articolo 309, comma 5, dopo le parole: «alle indagini» sono aggiunte le seguenti: «<quotedText eId="modNov_22_new_14">e, in ogni caso, le dichiarazioni rese dalla persona sottoposta alle indagini ai sensi dell'articolo 291, comma 1-quater</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_l">
+                            <num>l)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_23">all'articolo 313, comma 1, dopo il secondo periodo e' aggiunto il seguente: «<quotedText eId="modNov_23_new_15">Il giudice per le indagini preliminari procede nella composizione collegiale di cui all'articolo 328, comma 1-quinquies, quando deve essere applicata una misura di sicurezza detentiva</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_m">
+                            <num>m)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_24">all'articolo 328, dopo il comma 1-quater e' aggiunto il seguente: 
+ «<quotedText eId="modNov_24_new_16">1-quinquies. Il giudice per le indagini preliminari decide in composizione collegiale l'applicazione della misura della custodia cautelare in carcere</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_n">
+                            <num>n)</num>
+                            <content>
+                                <p>all'articolo 369: 
+ 1) <mod eId="modNov_25">al comma 1, la parola: «Solo» e' sostituita dalle seguenti: «A tutela del diritto di difesa,», le parole: «con indicazione» sono sostituite dalle seguenti: «contenente la descrizione sommaria del fatto, l'indicazione» e le parole: «con invito» sono sostituite dalle seguenti: «l'invito»;</mod> 
+ 2) <mod eId="modNov_26">dopo il comma 1-ter sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_26_new_18">1-quater. La notificazione, in deroga al disposto dell'articolo 148, comma 6, secondo periodo, puo' essere eseguita dalla polizia giudiziaria in presenza di situazioni di urgenza che non consentono il ricorso alle modalita' ordinarie. In questi casi, fermo il rispetto dell'articolo 148, comma 8, secondo periodo, la consegna deve essere effettuata in modo tale da garantire la riservatezza del destinatario. 
+ 1-quinquies. All'informazione di garanzia si applica l'articolo 114, comma 2</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_o">
+                            <num>o)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_27">all'articolo 581, il comma 1-ter e' abrogato</mod> e, <mod eId="modNov_28">al comma 1-quater, dopo le parole: «del difensore» sono inserite le seguenti: «<quotedText eId="modNov_28_new_19">di ufficio</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_p">
+                            <num>p)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_29">all'articolo 593, comma 2, il primo periodo e' sostituito dal seguente: «<quotedText eId="modNov_29_new_21">Il pubblico ministero non puo' appellare contro le sentenze di proscioglimento per i reati di cui all'articolo 550, commi 1 e 2</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riportano gli <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_103" ns8:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_103" ns8:relation="cites">articoli 103</ref>, <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_114" ns9:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_114" ns9:relation="cites">114</ref>, <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_116" ns10:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_116" ns10:relation="cites">116</ref>, <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_268" ns11:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_268" ns11:relation="cites">268</ref>, <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_291" ns12:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_291" ns12:relation="cites">291</ref>, <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_292" ns13:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_292" ns13:relation="cites">292</ref>, <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_294" ns14:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_294" ns14:relation="cites">294</ref>, <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_299" ns15:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_299" ns15:relation="cites">299</ref>, <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_309" ns16:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_309" ns16:relation="cites">309</ref>, <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_313" ns17:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_313" ns17:relation="cites">313</ref>, <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_328" ns18:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_328" ns18:relation="cites">328</ref>, <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_369" ns19:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_369" ns19:relation="cites">369</ref>, <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_581" ns20:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_581" ns20:relation="cites">581</ref> e <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_593" ns21:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_593" ns21:relation="cites">593 del codice di procedura penale</ref>, come modificati dalla presente legge: 
+ «Art. 103 (Garanzie di liberta' del difensore). - 1.
+ Le ispezioni e le perquisizioni negli uffici dei difensori sono consentite solo: 
+ a) quando essi o altre persone che svolgono stabilmente attivita' nello stesso ufficio sono imputati, limitatamente ai fini dell'accertamento del reato loro attribuito; 
+ b) per rilevare tracce o altri effetti materiali del reato o per ricercare cose o persone specificamente predeterminate. 
+ 2. Presso i difensori e gli investigatori privati autorizzati e incaricati in relazione al procedimento, nonche' presso i consulenti tecnici non si puo' procedere a sequestro di carte o documenti relativi all'oggetto della difesa, salvo che costituiscano corpo del reato. 
+ 3. Nell'accingersi a eseguire una ispezione, una perquisizione o un sequestro nell'ufficio di un difensore, l'autorita' giudiziaria a pena di nullita' avvisa il consiglio dell'ordine forense del luogo perche' il presidente o un consigliere da questo delegato possa assistere alle operazioni. Allo stesso, se interviene e ne fa richiesta, e' consegnata copia del provvedimento. 
+ 4. Alle ispezioni, alle perquisizioni e ai sequestri negli uffici dei difensori procede personalmente il giudice ovvero, nel corso delle indagini preliminari, il pubblico ministero in forza di motivato decreto di autorizzazione del giudice. 
+ 5. Non e' consentita l'intercettazione relativa a conversazioni o comunicazioni dei difensori, degli investigatori privati autorizzati e incaricati in relazione al procedimento, dei consulenti tecnici e loro ausiliari, ne' a quelle tra i medesimi e le persone da loro assistite. 
+ 6. Sono vietati il sequestro e ogni forma di controllo della corrispondenza tra l'imputato e il proprio difensore in quanto riconoscibile dalle prescritte indicazioni, salvo che l'autorita' giudiziaria abbia fondato motivo di ritenere che si tratti di corpo del reato. 
+ 6-bis. E' parimenti vietata l'acquisizione di ogni forma di comunicazione, anche diversa dalla corrispondenza, intercorsa tra l'imputato e il proprio difensore, salvo che l'autorita' giudiziaria abbia fondato motivo di ritenere che si tratti di corpo del reato. 
+ 6-ter. L'autorita' giudiziaria o gli organi ausiliari delegati interrompono immediatamente le operazioni di intercettazione quando risulta che la conversazione o la comunicazione rientra tra quelle vietate. 
+ 7. Salvo quanto previsto dal comma 3 e dall'art. 271, i risultati delle ispezioni, perquisizioni, sequestri, intercettazioni di conversazioni o comunicazioni, eseguiti in violazione delle disposizioni precedenti, non possono essere utilizzati. Fermo il divieto di utilizzazione di cui al primo periodo, quando le comunicazioni e conversazioni sono comunque intercettate, il loro contenuto non puo' essere trascritto, neanche sommariamente, e nel verbale delle operazioni sono indicate soltanto la data, l'ora e il dispositivo su cui la registrazione e' intervenuta.». 
+ «Art. 114 (Divieto di pubblicazione di atti e di immagini). - 1. E' vietata la pubblicazione, anche parziale o per riassunto, con il mezzo della stampa o con altro mezzo di diffusione, degli atti coperti dal segreto o anche solo del loro contenuto. 
+ 2. E' vietata la pubblicazione, anche parziale, degli atti non piu' coperti dal segreto fino a che non siano concluse le indagini preliminari ovvero fino al termine dell'udienza preliminare, fatta eccezione per l'ordinanza indicata dall'art. 292. 
+ 2-bis. E' sempre vietata la pubblicazione, anche parziale, del contenuto delle intercettazioni se non e' riprodotto dal giudice nella motivazione di un provvedimento o utilizzato nel corso del dibattimento. 
+ 3. Se si procede al dibattimento, non e' consentita la pubblicazione, anche parziale, degli atti del fascicolo per il dibattimento, se non dopo la pronuncia della sentenza di primo grado, e di quelli del fascicolo del pubblico ministero, se non dopo la pronuncia della sentenza in grado di appello. E' sempre consentita la pubblicazione degli atti utilizzati per le contestazioni. 
+ 4. E' vietata la pubblicazione, anche parziale, degli atti del dibattimento celebrato a porte chiuse nei casi previsti dall'art. 472 commi 1 e 2. In tali casi il giudice, sentite le parti, puo' disporre il divieto di pubblicazione anche degli atti o di parte degli atti utilizzati per le contestazioni. Il divieto di pubblicazione cessa comunque quando sono trascorsi i termini stabiliti dalla legge sugli archivi di Stato ovvero e' trascorso il termine di dieci anni dalla sentenza irrevocabile e la pubblicazione e' autorizzata dal ministro di grazia e giustizia. 
+ 5. Se non si procede al dibattimento, il giudice, sentite le parti, puo' disporre il divieto di pubblicazione di atti o di parte di atti quando la pubblicazione di essi puo' offendere il buon costume o comportare la diffusione di notizie sulle quali la legge prescrive di mantenere il segreto nell'interesse dello Stato ovvero causare pregiudizio alla riservatezza dei testimoni o delle parti private. Si applica la disposizione dell'ultimo periodo del comma 4. 
+ 6. E' vietata la pubblicazione delle generalita' e dell'immagine dei minorenni testimoni, persone offese o danneggiati dal reato fino a quando non sono divenuti maggiorenni. E' altresi' vietata la pubblicazione di elementi che anche indirettamente possano comunque portare alla identificazione dei suddetti minorenni. Il tribunale per i minorenni, nell'interesse esclusivo del minorenne, o il minorenne che ha compiuto i sedici anni, puo' consentire la pubblicazione. 
+ 6-bis. E' vietata la pubblicazione dell'immagine di persona privata della liberta' personale ripresa mentre la stessa si trova sottoposta all'uso di manette ai polsi ovvero ad altro mezzo di coercizione fisica, salvo che la persona vi consenta. 
+ 7. E' sempre consentita la pubblicazione del contenuto di atti non coperti dal segreto.» 
+ «Art. 116 (Copie, estratti e certificati). - 1.
+ Durante il procedimento e dopo la sua definizione, chiunque vi abbia interesse puo' ottenere il rilascio a proprie spese di copie, estratti o certificati di singoli atti. Non puo' comunque essere rilasciata copia delle intercettazioni di cui e' vietata la pubblicazione ai sensi dell'art. 114, comma 2-bis, quando la richiesta e' presentata da un soggetto diverso dalle parti e dai loro difensori, salvo che la richiesta sia motivata dall'esigenza di utilizzare i risultati delle intercettazioni in altro procedimento specificamente indicato. 
+ 2. Sulla richiesta provvede il pubblico ministero o il giudice che procede al momento della presentazione della domanda ovvero, dopo la definizione del procedimento, il presidente del collegio o il giudice che ha emesso il provvedimento di archiviazione o la sentenza. 
+ 3. Il rilascio non fa venire meno il divieto di pubblicazione stabilito dall'art. 114. 
+ 3-bis. Quando il difensore, anche a mezzo di sostituti, presenta all'autorita' giudiziaria atti o documenti redatti in forma di documento analogico, ha diritto al rilascio di attestazione dell'avvenuto deposito, anche in calce ad una copia.» 
+ «Art. 268 (Esecuzione delle operazioni). - 1. Le comunicazioni intercettate sono registrate e delle operazioni e' redatto verbale. 
+ 2. Nel verbale e' trascritto, anche sommariamente, soltanto il contenuto delle comunicazioni intercettate rilevante ai fini delle indagini, anche a favore della persona sottoposta ad indagine. Il contenuto non rilevante ai fini delle indagini non e' trascritto neppure sommariamente e nessuna menzione ne viene riportata nei verbali e nelle annotazioni della polizia giudiziaria, nei quali e' apposta l'espressa dicitura: «La conversazione omessa non e' utile alle indagini». 
+ 2-bis. Il pubblico ministero da' indicazioni e vigila affinche' i verbali siano redatti in conformita' a quanto previsto dal comma 2 e negli stessi non siano riportate espressioni lesive della reputazione delle persone o quelle che riguardano fatti e circostanze afferenti alla vita privata degli interlocutori nonche' quelle che consentono di identificare soggetti diversi dalle parti, salvo che risultino rilevanti ai fini delle indagini. 
+ 2-ter. 
+ 3. Le operazioni possono essere compiute esclusivamente per mezzo degli impianti installati nella procura della Repubblica. Tuttavia, quando tali impianti risultano insufficienti o inidonei ed esistono eccezionali ragioni di urgenza, il pubblico ministero puo' disporre, con provvedimento motivato, il compimento delle operazioni mediante impianti di pubblico servizio o in dotazione alla polizia giudiziaria. 
+ 3-bis. Quando si procede a intercettazione di comunicazioni informatiche o telematiche, il pubblico ministero puo' disporre che le operazioni siano compiute anche mediante impianti appartenenti a privati. Per le operazioni di avvio e di cessazione delle registrazioni con captatore informatico su dispositivo elettronico portatile, riguardanti comunicazioni e conversazioni tra presenti, l'ufficiale di polizia giudiziaria puo' avvalersi di persone idonee di cui all'art. 348, comma 4. 
+ 4. I verbali e le registrazioni sono immediatamente trasmessi al pubblico ministero per la conservazione nell'archivio di cui all'art. 269, comma 1. Entro cinque giorni dalla conclusione delle operazioni, essi sono depositati presso l'archivio di cui all'art. 269, comma 1, insieme ai decreti che hanno disposto, autorizzato, convalidato o prorogato l'intercettazione, rimanendovi per il tempo fissato dal pubblico ministero, salvo che il giudice non riconosca necessaria una proroga 7. 
+ 5. Se dal deposito puo' derivare un grave pregiudizio per le indagini, il giudice autorizza il pubblico ministero a ritardarlo non oltre la chiusura delle indagini preliminari. 
+ 6. Ai difensori delle parti e' immediatamente dato avviso che, entro il termine fissato a norma dei commi 4 e 5, per via telematica hanno facolta' di esaminare gli atti e ascoltare le registrazioni ovvero di prendere cognizione dei flussi di comunicazioni informatiche o telematiche.
+ Scaduto il termine, il giudice dispone l'acquisizione delle conversazioni o dei flussi di comunicazioni informatiche o telematiche indicati dalle parti, che non appaiano irrilevanti, procedendo anche di ufficio allo stralcio delle registrazioni e dei verbali di cui e' vietata l'utilizzazione e di quelli che riguardano categorie particolari di dati personali o soggetti diversi dalle parti, sempre che non ne sia dimostrata la rilevanza. Il pubblico ministero e i difensori hanno diritto di partecipare allo stralcio e sono avvisati almeno ventiquattro ore prima. 
+ 7. Il giudice, anche nel corso delle attivita' di formazione del fascicolo per il dibattimento ai sensi dell'art. 431, dispone la trascrizione integrale delle registrazioni ovvero la stampa in forma intellegibile delle informazioni contenute nei flussi di comunicazioni informatiche o telematiche da acquisire, osservando le forme, i modi e le garanzie previsti per l'espletamento delle perizie. Le trascrizioni o le stampe sono inserite nel fascicolo per il dibattimento. Il giudice, con il consenso delle parti, puo' disporre l'utilizzazione delle trascrizioni delle registrazioni ovvero delle informazioni contenute nei flussi di comunicazioni informatiche o telematiche effettuate dalla polizia giudiziaria nel corso delle indagini. In caso di contestazioni si applicano le disposizioni di cui al primo periodo. 
+ 8. I difensori possono estrarre copia delle trascrizioni e fare eseguire la trasposizione della registrazione su idoneo supporto. In caso di intercettazione di flussi di comunicazioni informatiche o telematiche i difensori possono richiedere copia su idoneo supporto dei flussi intercettati, ovvero copia della stampa prevista dal comma 7.» 
+ «Art. 291 (Procedimento applicativo). - 1. Le misure sono disposte su richiesta del pubblico ministero, che presenta al giudice competente gli elementi su cui la richiesta si fonda, compresi i verbali di cui all'art. 268, comma 2, limitatamente alle comunicazioni e conversazioni rilevanti, e comunque conferiti nell'archivio di cui all'art. 269, nonche' tutti gli elementi a favore dell'imputato e le eventuali deduzioni e memorie difensive gia' depositate. 
+ 1-bis. 
+ 1-ter. Quando e' necessario, nella richiesta sono riprodotti soltanto i brani essenziali delle comunicazioni e conversazioni intercettate, in ogni caso senza indicare i dati personali dei soggetti diversi dalle parti, salvo che cio' sia indispensabile per la compiuta esposizione. 
+ 1-quater. Fermo il disposto dell'art. 289, comma 2, secondo periodo, prima di disporre la misura, il giudice procede all'interrogatorio della persona sottoposta alle indagini preliminari con le modalita' indicate agli articoli 64 e 65, salvo che sussista taluna delle esigenze cautelari di cui all'art. 274, comma 1, lettere a) e b), oppure l'esigenza cautelare di cui all'art. 274, comma 1, lettera c), in relazione ad uno dei delitti indicati all'art. 407, comma 2, lettera a), o all'art. 362, comma 1-ter, ovvero a gravi delitti commessi con uso di armi o con altri mezzi di violenza personale. 
+ 1-quinquies. Nel caso di cui all'art. 328, comma 1-quinquies, all'interrogatorio procede il presidente del collegio o uno dei componenti da lui delegato. 
+ 1-sexies. L'invito a presentarsi per rendere l'interrogatorio e' comunicato al pubblico ministero e notificato alla persona sottoposta alle indagini preliminari e al suo difensore almeno cinque giorni prima di quello fissato per la comparizione, salvo che, per ragioni d'urgenza, il giudice ritenga di abbreviare il termine, purche' sia lasciato il tempo necessario per comparire. Il giudice provvede comunque sulla richiesta del pubblico ministero quando la persona sottoposta alle indagini preliminari non compare senza addurre un legittimo impedimento, oppure quando la persona sottoposta alle indagini preliminari non e' stata rintracciata e il giudice ritiene le ricerche esaurienti, anche con riferimento ai luoghi di cui all'art. 159, comma 1. 
+ 1-septies. L'invito contiene: 
+ a) le generalita' o altre indicazioni personali che valgono a identificare la persona sottoposta alle indagini; 
+ b) il giorno, l'ora e il luogo della presentazione, nonche' l'autorita' davanti alla quale la persona deve presentarsi; 
+ c) la descrizione sommaria del fatto, comprensiva di data e luogo di commissione del reato; 
+ d) l'avviso della facolta' di nominare un difensore di fiducia e di essere ammesso al patrocinio a spese dello Stato nei casi previsti dalla legge; del diritto di ottenere informazioni in merito all'accusa; del diritto all'interprete e alla traduzione di atti fondamentali; del diritto di avvalersi della facolta' di non rispondere; del diritto di informare le autorita' consolari e di dare avviso ai familiari; della facolta' di accedere ai programmi di giustizia riparativa. 
+ 1-octies. L'invito di cui al comma 1-sexies contiene altresi' l'avviso di deposito nella cancelleria del giudice della richiesta di applicazione della misura cautelare e degli atti presentati ai sensi del comma 1, nonche' della facolta' di prendere visione ed estrarre copia di tutti gli atti depositati, ivi compresi i verbali delle comunicazioni e delle conversazioni intercettate, con diritto alla trasposizione delle relative registrazioni su supporto idoneo alla riproduzione dei dati. 
+ 1-novies. L'interrogatorio di cui al comma 1-quater deve essere documentato integralmente, a pena di inutilizzabilita', secondo le modalita' di cui all'art.
+ 141-bis. 
+ 2. Se riconosce la propria incompetenza per qualsiasi causa, il giudice, quando ne ricorrono le condizioni e sussiste l'urgenza di soddisfare taluna delle esigenze cautelari previste dall'art. 274, dispone la misura richiesta con lo stesso provvedimento con il quale dichiara la propria incompetenza. Si applicano in tal caso le disposizioni dell'art. 27. 
+ 2-bis. In caso di necessita' o urgenza il pubblico ministero puo' chiedere al giudice, nell'interesse della persona offesa, le misure patrimoniali provvisorie di cui all'art. 282-bis. Il provvedimento perde efficacia qualora la misura cautelare sia successivamente revocata.» 
+ «Art. 292 (Ordinanza del giudice). - 1. Sulla richiesta del pubblico ministero il giudice provvede con ordinanza. 
+ 2. L'ordinanza che dispone la misura cautelare contiene, a pena di nullita' rilevabile anche d'ufficio: 
+ a) le generalita' dell'imputato o quanto altro valga a identificarlo; 
+ b) la descrizione sommaria del fatto con l'indicazione delle norme di legge che si assumono violate; 
+ c) l'esposizione e l'autonoma valutazione delle specifiche esigenze cautelari e degli indizi che giustificano in concreto la misura disposta, con l'indicazione degli elementi di fatto da cui sono desunti e dei motivi per i quali essi assumono rilevanza, tenuto conto anche del tempo trascorso dalla commissione del reato; 
+ c-bis) l'esposizione e l'autonoma valutazione dei motivi per i quali sono stati ritenuti non rilevanti gli elementi forniti dalla difesa, nonche', in caso di applicazione della misura della custodia cautelare in carcere, l'esposizione e l'autonoma valutazione delle concrete e specifiche ragioni per le quali le esigenze di cui all'art. 274 non possono essere soddisfatte con altre misure 4; 
+ d) la fissazione della data di scadenza della misura, in relazione alle indagini da compiere, allorche' questa e' disposta al fine di garantire l'esigenza cautelare di cui alla lettera a) del comma 1 dell'art. 274; 
+ e) la data e la sottoscrizione del giudice. 
+ 2-bis. L'ordinanza contiene altresi' la sottoscrizione dell'ausiliario che assiste il giudice, il sigillo dell'ufficio e, se possibile, l'indicazione del luogo in cui probabilmente si trova l'imputato. 
+ 2-ter. L'ordinanza e' nulla se non contiene la valutazione degli elementi a carico e a favore dell'imputato, di cui all'art. 358, nonche' all'art. 327-bis e, nel caso di cui all'art. 291, comma 1-quater, una specifica valutazione degli elementi esposti dalla persona sottoposta alle indagini nel corso dell'interrogatorio. 
+ 2-quater. Quando e' necessario per l'esposizione delle esigenze cautelari e degli indizi, delle comunicazioni e conversazioni intercettate sono riprodotti soltanto i brani essenziali, in ogni caso senza indicare i dati personali dei soggetti diversi dalle parti, salvo che cio' sia indispensabile per la compiuta esposizione degli elementi rilevanti. 
+ 3. L'incertezza circa il giudice che ha emesso il provvedimento ovvero circa la persona nei cui confronti la misura e' disposta esime gli ufficiali e gli agenti incaricati dal darvi esecuzione. 
+ 3-bis. L'ordinanza e' nulla se non e' preceduta dall'interrogatorio nei casi previsti dall'art. 291, comma 1-quater, nonche' quando l'interrogatorio e' nullo per violazione delle disposizioni di cui ai commi 1-septies e 1-octies del medesimo articolo.» 
+ «Art. 294 (Interrogatorio della persona sottoposta a misura cautelare personale). - 1. Fino alla dichiarazione di apertura del dibattimento, il giudice che ha deciso in ordine all'applicazione della misura cautelare se non vi ha proceduto ai sensi dell'art. 291, comma 1-quater, oppure nel corso dell'udienza di convalida dell'arresto o del fermo di indiziato di delitto procede all'interrogatorio della persona in stato di custodia cautelare in carcere immediatamente e comunque non oltre cinque giorni dall'inizio dell'esecuzione della custodia, salvo il caso in cui essa sia assolutamente impedita. 
+ 1-bis. Se la persona e' sottoposta ad altra misura cautelare, sia coercitiva che interdittiva, l'interrogatorio deve avvenire non oltre dieci giorni dalla esecuzione del provvedimento o dalla sua notificazione. Il giudice, anche d'ufficio, verifica che all'imputato in stato di custodia cautelare in carcere o agli arresti domiciliari sia stata data la comunicazione di cui all'art. 293, comma 1, o che comunque sia stato informato ai sensi del comma 1-bis dello stesso articolo, e provvede, se del caso, a dare o a completare la comunicazione o l'informazione ivi indicate. 
+ 1-ter. L'interrogatorio della persona in stato di custodia cautelare deve avvenire entro il termine di quarantotto ore se il pubblico ministero ne fa istanza nella richiesta di custodia cautelare. 
+ 2. Nel caso di assoluto impedimento, il giudice ne da' atto con decreto motivato e il termine per l'interrogatorio decorre nuovamente dalla data in cui il giudice riceve comunicazione della cessazione dell'impedimento o comunque accerta la cessazione dello stesso. 
+ 3. Mediante l'interrogatorio il giudice valuta se permangono le condizioni di applicabilita' e le esigenze cautelari previste dagli articoli 273, 274 e 275. Quando ne ricorrono le condizioni, provvede, a norma dell'art. 299, alla revoca o alla sostituzione della misura disposta. 
+ 4. Ai fini di quanto previsto dal comma 3, l'interrogatorio e' condotto dal giudice con le modalita' indicate negli articoli 64 e 65. Al pubblico ministero e al difensore, che ha obbligo di intervenire, e' dato tempestivo avviso del compimento dell'atto. Il giudice puo' autorizzare la persona sottoposta a misura cautelare e il difensore che ne facciano richiesta a partecipare a distanza all'interrogatorio. 
+ 4-bis. Quando la misura cautelare e' stata disposta dal collegio di cui all'art. 328, comma 1-quinquies, dalla Corte di Assise o dal tribunale, all'interrogatorio procede il presidente del collegio o uno dei componenti da lui delegato. 
+ 5. Per gli interrogatori da assumere nella circoscrizione di altro tribunale, il giudice o il presidente, nel caso di organo collegiale, qualora non ritenga di procedere personalmente e non sia possibile provvedere ai sensi del terzo periodo del comma 4, richiede il giudice per le indagini preliminari del luogo. 
+ 6. L'interrogatorio della persona in stato di custodia cautelare da parte del pubblico ministero non puo' precedere l'interrogatorio del giudice. 
+ 6-bis. Alla documentazione dell'interrogatorio si procede anche con mezzi di riproduzione audiovisiva o, se cio' non e' possibile a causa della contingente indisponibilita' di mezzi di riproduzione audiovisiva o di personale tecnico, con mezzi di riproduzione fonografica.
+ E' fatta salva l'applicazione dell'art. 133-ter, comma 3, terzo periodo, nei casi in cui e' autorizzata la partecipazione a distanza all'interrogatorio.». 
+ «Art. 299 (Revoca e sostituzione delle misure). - 1.
+ Le misure coercitive e interdittive sono immediatamente revocate quando risultano mancanti, anche per fatti sopravvenuti, le condizioni di applicabilita' previste dall'art. 273 o dalle disposizioni relative alle singole misure ovvero le esigenze cautelari previste dall'art. 274. 
+ 2. Salvo quanto previsto dall'art. 275, comma 3, quando le esigenze cautelari risultano attenuate ovvero la misura applicata non appare piu' proporzionata all'entita' del fatto o alla sanzione che si ritiene possa essere irrogata, il giudice sostituisce la misura con un'altra meno grave ovvero ne dispone l'applicazione con modalita' meno gravose. 
+ 2-bis. I provvedimenti di cui ai commi 1 e 2 relativi alle misure previste dagli articoli 282-bis, 282-ter, 283, 284, 285 e 286, applicate nei procedimenti aventi ad oggetto delitti commessi con violenza alla persona, devono essere immediatamente comunicati, a cura della polizia giudiziaria, ai servizi socio-assistenziali e alla persona offesa e, ove nominato, al suo difensore. 
+ 2-ter. Nei procedimenti per i delitti di cui all'art. 4, comma 1, lettera i-ter), del codice delle leggi antimafia e delle misure di prevenzione, di cui al <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns22:target="olf:it/decreto-legislativo/stato/2011/159" ns22:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref>, l'estinzione, l'inefficacia pronunciata per qualsiasi ragione o la revoca delle misure coercitive previste dagli articoli 282-bis, 282-ter, 283, 284, 285 e 286 o la loro sostituzione con altra misura meno grave sono comunicati, a cura della cancelleria, anche per via telematica, all'autorita' di pubblica sicurezza competente per le misure di prevenzione, ai fini dell'eventuale adozione dei relativi provvedimenti. 
+ 2-quater. Nei procedimenti per i delitti di cui all'art. 362, comma 1-ter, l'estinzione o la revoca delle misure coercitive di cui al comma 1 del presente articolo o la loro sostituzione con altra misura meno grave sono comunicate al prefetto che, sulla base delle valutazioni espresse nelle riunioni di coordinamento di cui all'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegge/stato/2002-05-06/83/!main#art_5-com2" ns23:target="olf:it/decreto-legge/stato/2002/83/art_5-com2" ns23:relation="cites">art. 5, comma 2, del decreto-legge 6 maggio 2002, n. 83</ref>, convertito, con modificazioni, dalla <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2002-07-02/133/!main" ns24:target="olf:it/legge/stato/2002/133" ns24:relation="cites">legge 2 luglio 2002, n. 133</ref>, puo' adottare misure di vigilanza dinamica, da sottoporre a revisione trimestrale, a tutela della persona offesa. 
+ 3. Il pubblico ministero e l'imputato richiedono la revoca o la sostituzione delle misure al giudice, il quale provvede con ordinanza entro cinque giorni dal deposito della richiesta. La richiesta di revoca o di sostituzione delle misure previste dagli articoli 282-bis, 282-ter, 283, 284, 285 e 286, applicate nei procedimenti di cui al comma 2-bis del presente articolo, che non sia stata proposta in sede di interrogatorio di garanzia, deve essere contestualmente notificata, a cura della parte richiedente ed a pena di inammissibilita', presso il difensore della persona offesa o, in mancanza di questo, alla persona offesa, salvo che in quest'ultimo caso essa non abbia provveduto a dichiarare o eleggere domicilio. Il difensore e la persona offesa possono, nei due giorni successivi alla notifica, presentare memorie ai sensi dell'art. 121.
+ Decorso il predetto termine il giudice procede. Il giudice provvede anche di ufficio quando assume l'interrogatorio della persona in stato di custodia cautelare o quando e' richiesto della proroga del termine per le indagini preliminari o dell'assunzione di incidente probatorio ovvero quando procede all'udienza preliminare o al giudizio. 
+ 3-bis. Il giudice, prima di provvedere in ordine alla revoca o alla sostituzione delle misure coercitive e interdittive, di ufficio o su richiesta dell'imputato, deve sentire il pubblico ministero. Se nei due giorni successivi il pubblico ministero non esprime il proprio parere, il giudice procede. 
+ 3-ter. Il giudice, valutati gli elementi addotti per la revoca o la sostituzione delle misure, prima di provvedere puo' assumere l'interrogatorio della persona sottoposta alle indagini. Se l'istanza di revoca o di sostituzione e' basata su elementi nuovi o diversi rispetto a quelli gia' valutati, il giudice deve assumere l'interrogatorio dell'imputato che ne ha fatto richiesta. 
+ 4. Fermo quanto previsto, dall'art. 276, quando le esigenze cautelari risultano aggravate, il giudice, su richiesta del pubblico ministero, sostituisce la misura applicata con un'altra piu' grave ovvero ne dispone l'applicazione con modalita' piu' gravose o applica congiuntamente altra misura coercitiva o interdittiva. In questo caso, se ritiene che l'aggravamento debba comportare l'applicazione della misura della custodia cautelare in carcere, il giudice per le indagini preliminari rimette la decisione al collegio di cui all'art. 328, comma 1-quinquies. 
+ 4-bis. Dopo la chiusura delle indagini preliminari, se l'imputato chiede la revoca o la sostituzione della misura con altra meno grave ovvero la sua applicazione con modalita' meno gravose, il giudice, se la richiesta non e' presentata in udienza, ne da' comunicazione al pubblico ministero, il quale, nei due giorni successivi, formula le proprie richieste. La richiesta di revoca o di sostituzione delle misure previste dagli articoli 282-bis, 282-ter, 283, 284, 285 e 286, applicate nei procedimenti di cui al comma 2-bis del presente articolo, deve essere contestualmente notificata, a cura della parte richiedente ed a pena di inammissibilita', presso il difensore della persona offesa o, in mancanza di questo, alla persona offesa, salvo che in quest'ultimo caso essa non abbia provveduto a dichiarare o eleggere domicilio. 
+ 4-ter. In ogni stato e grado del procedimento, quando non e' in grado di decidere allo stato degli atti, il giudice dispone, anche di ufficio e senza formalita', accertamenti sulle condizioni di salute o su altre condizioni o qualita' personali dell'imputato. Gli accertamenti sono eseguiti al piu' presto e comunque entro quindici giorni da quello in cui la richiesta e' pervenuta al giudice. Se la richiesta di revoca o di sostituzione della misura della custodia cautelare in carcere e' basata sulle condizioni di salute di cui all'art. 275, comma 4-bis, ovvero se tali condizioni di salute sono segnalate dal servizio sanitario penitenziario, o risultano in altro modo al giudice, questi, se non ritiene di accogliere la richiesta sulla base degli atti, dispone con immediatezza, e comunque non oltre il termine previsto nel comma 3, gli accertamenti medici del caso, nominando perito ai sensi dell'art. 220 e seguenti, il quale deve tener conto del parere del medico penitenziario e riferire entro il termine di cinque giorni, ovvero, nel caso di rilevata urgenza, non oltre due giorni dall'accertamento. Durante il periodo compreso tra il provvedimento che dispone gli accertamenti e la scadenza del termine per gli accertamenti medesimi, e' sospeso il termine previsto dal comma 3. 
+ 4-quater. Si applicano altresi' le disposizioni di cui all'art. 286-bis, comma 3.» 
+ «Art. 309 (Riesame delle ordinanze che dispongono una misura coercitiva). - 1. Entro dieci giorni dalla esecuzione o notificazione del provvedimento, l'imputato puo' proporre richiesta di riesame, anche nel merito, della ordinanza che dispone una misura coercitiva, salvo che si tratti di ordinanza emessa a seguito di appello del pubblico ministero. 
+ 2. Per l'imputato latitante il termine decorre dalla data di notificazione eseguita a norma dell'art. 165.
+ Tuttavia, se sopravviene l'esecuzione della misura, il termine decorre da tale momento quando l'imputato prova di non avere avuto tempestiva conoscenza del provvedimento. 
+ 3. Il difensore dell'imputato puo' proporre la richiesta di riesame entro dieci giorni dalla notificazione dell'avviso di deposito dell'ordinanza che dispone la misura. 
+ 3-bis. Nei termini previsti dai commi 1, 2 e 3 non si computano i giorni per i quali e' stato disposto il differimento del colloquio, a norma dell'art. 104, comma 3. 
+ 4. La richiesta di riesame e' presentata nella cancelleria del tribunale indicato nel comma 7. Si osservano le forme previste dall'art. 582. 
+ 5. Il presidente cura che sia dato immediato avviso all'autorita' giudiziaria procedente la quale, entro il giorno successivo, e comunque non oltre il quinto giorno, trasmette al tribunale gli atti presentati a norma dell'art. 291, comma 1, nonche' tutti gli elementi sopravvenuti a favore della persona sottoposta alle indagini e, in ogni caso, le dichiarazioni rese dalla persona sottoposta alle indagini ai sensi dell'art. 291, comma 1-quater. 
+ 6. Con la richiesta di riesame possono essere enunciati anche i motivi e l'imputato puo' chiedere di comparire personalmente. Chi ha proposto la richiesta ha, inoltre, facolta' di enunciare i nuovi motivi davanti al giudice del riesame facendone dare atto a verbale prima dell'inizio della discussione 6. 
+ 7. Sulla richiesta di riesame decide, in composizione collegiale, il tribunale del luogo nel quale ha sede la corte di appello o la sezione distaccata della corte di appello nella cui circoscrizione e' compreso l'ufficio del giudice che ha emesso l'ordinanza. 
+ 8. Il procedimento davanti al tribunale si svolge in camera di consiglio nelle forme previste dall'art. 127.
+ L'avviso della data fissata per l'udienza e' comunicato, almeno tre giorni prima, al pubblico ministero presso il tribunale indicato nel comma 7 e, se diverso, a quello che ha richiesto l'applicazione della misura; esso e' notificato, altresi', entro lo stesso termine, all'imputato ed al suo difensore. Fino al giorno dell'udienza gli atti restano depositati in cancelleria, con facolta' per il difensore di esaminarli e di estrarne copia. 
+ 8-bis. Il pubblico ministero che ha richiesto l'applicazione della misura puo' partecipare all'udienza in luogo del pubblico ministero presso il tribunale indicato nel comma 7. L'imputato che ne abbia fatto richiesta ai sensi del comma 6 ha diritto di comparire personalmente o, quando una particolare disposizione di legge lo prevede, di partecipare a distanza. Il presidente puo' altresi' disporre la partecipazione a distanza dell'imputato che vi consenta. 
+ 9. Entro dieci giorni dalla ricezione degli atti il tribunale, se non deve dichiarare l'inammissibilita' della richiesta, annulla, riforma e conferma l'ordinanza oggetto del riesame decidendo anche sulla base degli elementi addotti dalle parti nel corso dell'udienza. Il tribunale puo' annullare il provvedimento impugnato o riformarlo in senso favorevole all'imputato anche per motivi diversi da quelli enunciati ovvero puo' confermarlo per ragioni diverse da quelle indicate nella motivazione del provvedimento stesso. Il tribunale annulla il provvedimento impugnato se la motivazione manca o non contiene l'autonoma valutazione, a norma dell'art. 292, delle esigenze cautelari, degli indizi e degli elementi forniti dalla difesa. 
+ 9-bis. Su richiesta formulata personalmente dall'imputato entro due giorni dalla notificazione dell'avviso, il tribunale differisce la data dell'udienza da un minimo di cinque ad un massimo di dieci giorni se vi siano giustificati motivi. In tal caso il termine per la decisione e quello per il deposito dell'ordinanza sono prorogati nella stessa misura. 
+ 10. Se la trasmissione degli atti non avviene nei termini di cui al comma 5 o se la decisione sulla richiesta di riesame o il deposito dell'ordinanza del tribunale in cancelleria non intervengono nei termini prescritti, l'ordinanza che dispone la misura coercitiva perde efficacia e, salve eccezionali esigenze cautelari specificamente motivate, non puo' essere rinnovata.
+ L'ordinanza del tribunale deve essere depositata in cancelleria entro trenta giorni dalla decisione salvi i casi in cui la stesura della motivazione sia particolarmente complessa per il numero degli arrestati o la gravita' delle imputazioni. In tali casi, il giudice puo' disporre per il deposito un termine piu' lungo, comunque non eccedente il quarantacinquesimo giorno da quello della decisione.». 
+ «Art. 313 (Procedimento). - 1. Il giudice provvede con ordinanza a norma dell'art. 292, previo accertamento sulla pericolosita' sociale dell'imputato. Ove non sia stato possibile procedere all'interrogatorio della persona sottoposta alle indagini prima della pronuncia del provvedimento, si applica la disposizione dell'art. 294. Il giudice per le indagini preliminari procede nella composizione collegiale di cui all'art. 328, comma 1-quinquies, quando deve essere applicata una misura di sicurezza detentiva. 
+ 2. Salvo quanto previsto dall'art. 299 comma 1, ai fini dell'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_206-com2" ns25:target="olf:it/regio-decreto/stato/1930/1398/art_206-com2" ns25:relation="repeals">art. 206 comma 2 del codice penale</ref>, il giudice procede a nuovi accertamenti sulla pericolosita' sociale dell'imputato nei termini indicati nell'articolo 72. 
+ 3. Ai fini delle impugnazioni, la misura prevista dall'art. 312 e' equiparata alla custodia cautelare. Si applicano le norme sulla riparazione per l'ingiusta detenzione.». 
+ «Art. 328 (Giudice per le indagini preliminari). - 1.
+ Nei casi previsti dalla legge, sulle richieste del pubblico ministero, delle parti private e della persona offesa dal reato, provvede il giudice per le indagini preliminari. 
+ 1-bis. Quando si tratta di procedimenti per i delitti indicati nell'articolo 51 commi 3-bis e 3-quater, le funzioni di giudice per le indagini preliminari sono esercitate, salve specifiche disposizioni di legge, da un magistrato del tribunale del capoluogo del distretto nel cui ambito ha sede il giudice competente. 
+ 1-ter. 
+ 1-quater. Quando si tratta di procedimenti per i delitti indicati nell'articolo 51, comma 3-quinquies, le funzioni di giudice per le indagini preliminari e le funzioni di giudice per l'udienza preliminare sono esercitate, salve specifiche disposizioni di legge, da un magistrato del tribunale del capoluogo del distretto nel cui ambito ha sede il giudice competente. 
+ 1-quinquies. Il giudice per le indagini preliminari decide in composizione collegiale l'applicazione della misura della custodia cautelare in carcere.». 
+ «Art. 369 (Informazione di garanzia). - 1. A tutela del diritto di difesa, quando deve compiere un atto al quale il difensore ha diritto di assistere, il pubblico ministero notifica alla persona sottoposta alle indagini e alla persona offesa una informazione di garanzia contenente la descrizione sommaria del fatto, l'indicazione delle norme di legge che si assumono violate della data e del luogo del fatto e l'invito a esercitare la facolta' di nominare un difensore di fiducia. 
+ 1-bis. Il pubblico ministero informa altresi' la persona sottoposta alle indagini e la persona offesa del diritto alla comunicazione previsto dall'art. 335, comma 3. 
+ 1-ter. Il pubblico ministero avvisa inoltre la persona sottoposta alle indagini e la persona offesa che hanno facolta' di accedere ai programmi di giustizia riparativa. 
+ 1-quater. La notificazione, in deroga al disposto dell'art. 148, comma 6, secondo periodo, puo' essere eseguita dalla polizia giudiziaria in presenza di situazioni di urgenza che non consentono il ricorso alle modalita' ordinarie. In questi casi, fermo il rispetto dell'art. 148, comma 8, secondo periodo, la consegna deve essere effettuata in modo tale da garantire la riservatezza del destinatario. 
+ 1-quinquies. All'informazione di garanzia si applica l'articolo 114, comma 2. 
+ 2.». 
+ «Art. 581 (Forma dell'impugnazione). - 1.
+ L'impugnazione si propone con atto scritto nel quale sono indicati il provvedimento impugnato, la data del medesimo e il giudice che lo ha emesso, con l'enunciazione specifica, a pena di inammissibilita': 
+ a) dei capi o dei punti della decisione ai quali si riferisce l'impugnazione; 
+ b) delle prove delle quali si deduce l'inesistenza, l'omessa assunzione o l'omessa o erronea valutazione; 
+ c) delle richieste, anche istruttorie; 
+ d) dei motivi, con l'indicazione delle ragioni di diritto e degli elementi di fatto che sorreggono ogni richiesta. 
+ 1-bis. L'appello e' inammissibile per mancanza di specificita' dei motivi quando, per ogni richiesta, non sono enunciati in forma puntuale ed esplicita i rilievi critici in relazione alle ragioni di fatto o di diritto espresse nel provvedimento impugnato, con riferimento ai capi e punti della decisione ai quali si riferisce l'impugnazione. 
+ 1-ter. (abrogato). 
+ 1-quater. Nel caso di imputato rispetto al quale si e' proceduto in assenza, con l'atto d'impugnazione del difensore di ufficio e' depositato, a pena d'inammissibilita', specifico mandato ad impugnare, rilasciato dopo la pronuncia della sentenza e contenente la dichiarazione o l'elezione di domicilio dell'imputato, ai fini della notificazione del decreto di citazione a giudizio.» 
+ «Art. 593 (Casi di appello). - 1. Salvo quanto previsto dagli articoli 443, comma 3, 448, comma 2, 579 e 680, l'imputato puo' appellare contro le sentenze di condanna mentre il pubblico ministero puo' appellare contro le medesime sentenze solo quando modificano il titolo del reato o escludono la sussistenza di una circostanza aggravante ad effetto speciale o stabiliscono una pena di specie diversa da quella ordinaria del reato. 
+ 2. Il pubblico ministero non puo' appellare contro le sentenze di proscioglimento per i reati di cui all'art. 550, commi 1 e 2. L'imputato puo' appellare contro le sentenze di proscioglimento emesse al termine del dibattimento, salvo che si tratti di sentenze di assoluzione perche' il fatto non sussiste o perche' l'imputato non lo ha commesso. 
+ 3. Sono in ogni caso inappellabili le sentenze di condanna per le quali e' stata applicata la sola pena dell'ammenda o la pena sostitutiva del lavoro di pubblica utilita', nonche' le sentenze di proscioglimento relative a reati puniti con la sola pena pecuniaria o con pena alternativa.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Modifica alle norme di attuazione, di coordinamento 
+ e transitorie del codice di procedura penale</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_30">All'articolo 89-bis, comma 2, primo periodo, delle norme di attuazione, di coordinamento e transitorie del <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns26:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns26:relation="cites">codice di procedura penale</ref>, di cui al <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegislativo/stato/1989-07-28/271/!main" ns27:target="olf:it/decreto-legislativo/stato/1989/271" ns27:relation="amends">decreto legislativo 28 luglio 1989, n. 271</ref>, sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_30_new_1">o, comunque, dati personali relativi a soggetti diversi dalle parti</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Si riporta l'articolo 89-bis delle norme di attuazione, di coordinamento e transitorie del <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns28:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns28:relation="cites">codice di procedura penale</ref>, come modificato dalla presente legge: 
+ «Art. 89-bis (Archivio delle intercettazioni). - 1.
+ Nell'archivio digitale istituito dall'art. 269, comma 1, del codice, tenuto sotto la direzione e la sorveglianza del Procuratore della Repubblica, sono custoditi i verbali, gli atti e le registrazioni delle intercettazioni a cui afferiscono. 
+ 2. L'archivio e' gestito con modalita' tali da assicurare la segretezza della documentazione relativa alle intercettazioni non necessarie per il procedimento, ed a quelle irrilevanti o di cui e' vietata l'utilizzazione ovvero riguardanti categorie particolari di dati personali come definiti dalla legge o dal regolamento in materia o, comunque, dati personali relativi a soggetti diversi dalle parti. Il Procuratore della Repubblica impartisce, con particolare riguardo alle modalita' di accesso, le prescrizioni necessarie a garantire la tutela del segreto su quanto ivi custodito. 
+ 3. All'archivio possono accedere, secondo quanto stabilito dal codice, il giudice che procede e i suoi ausiliari, il pubblico ministero e i suoi ausiliari, ivi compresi gli ufficiali di polizia giudiziaria delegati all'ascolto, i difensori delle parti, assistiti, se necessario, da un interprete. Ogni accesso e' annotato in apposito registro, gestito con modalita' informatiche; in esso sono indicate data, ora iniziale e finale, e gli atti specificamente consultati. 
+ 4. I difensori delle parti possono ascoltare le registrazioni con apparecchio a disposizione dell'archivio e possono ottenere copia delle registrazioni e degli atti quando acquisiti a norma degli articoli 268, 415-bis e 454 del codice. Ogni rilascio di copia e' annotato in apposito registro, gestito con modalita' informatiche; in esso sono indicate data e ora di rilascio e gli atti consegnati in copia.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Modifiche all'ordinamento giudiziario</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_4__para_1__intro_1">
+                            <p>All'ordinamento giudiziario, di cui al <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/regio.decreto/stato/1941-01-30/12/!main" ns29:target="olf:it/regio-decreto/stato/1941/12" ns29:relation="amends">regio decreto 30 gennaio 1941, n. 12</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_4__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>all'articolo 7-bis: 
+ 1) <mod eId="modNov_31">al comma 3-bis, dopo le parole: «capi degli uffici» sono aggiunte le seguenti: «<quotedText eId="modNov_31_new_1">, assegnati al singolo ufficio giudiziario incluso nella medesima tabella infradistrettuale</quotedText>»;</mod> 
+ 2) <mod eId="modNov_32">al comma 3-quater, lettera c), dopo le parole: «dei magistrati» sono aggiunte le seguenti: «<quotedText eId="modNov_32_new_2">, con particolare riferimento alla competenza collegiale del giudice per le indagini preliminari</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_33">all'articolo 7-ter, comma 1, secondo periodo, dopo le parole: «dell'udienza preliminare» sono aggiunte le seguenti: «<quotedText eId="modNov_33_new_3">e prevede, in ogni caso, la costituzione di un collegio per i provvedimenti di applicazione della misura della custodia cautelare in carcere, anche nell'ambito delle tabelle infradistrettuali di cui all'articolo 7-bis, comma 3-bis</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Si riportano gli <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/regio.decreto/stato/1941-01-30/12/!main#art_7bis" ns30:target="olf:it/regio-decreto/stato/1941/12/art_7bis" ns30:relation="amends">articoli 7-bis</ref> e <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/regio.decreto/stato/1941-01-30/12/!main#art_7ter" ns31:target="olf:it/regio-decreto/stato/1941/12/art_7ter" ns31:relation="amends">7-ter del regio decreto 30 gennaio 1941, n. 12</ref> (Ordinamento giudiziario), come modificati dalla presente legge: 
+ «Art. 7-bis (Tabelle degli uffici giudicanti). - 1.
+ La ripartizione degli uffici giudiziari di cui all'art. 1 in sezioni, la destinazione dei singoli magistrati alle sezioni e alle corti di assise, l'assegnazione alle sezioni dei presidenti, la designazione dei magistrati che hanno la direzione di sezioni a norma dell'art. 47-bis, secondo comma, l'attribuzione degli incarichi di cui agli articoli 47-ter, terzo comma, 47-quater, secondo comma, e 50-bis, il conferimento delle specifiche attribuzioni processuali individuate dalla legge e la formazione dei collegi giudicanti sono stabiliti ogni quadriennio con decreto del Ministro di grazia e giustizia in conformita' delle deliberazioni del Consiglio superiore della magistratura assunte sulle proposte del Primo presidente della Corte di cassazione o dei presidenti delle corti di appello, sentiti il Consiglio direttivo della Corte di cassazione o i consigli giudiziari. Decorso il quadriennio, l'efficacia del decreto e' prorogata fino a che non sopravvenga un altro decreto. La violazione dei criteri per l'assegnazione degli affari, salvo il possibile rilievo disciplinare, non determina in nessun caso la nullita' dei provvedimenti adottati. 
+ 1-bis. Le proposte di cui al comma 1 sono corredate di documenti organizzativi generali, concernenti l'organizzazione delle risorse e la programmazione degli obiettivi di buon funzionamento degli uffici, anche sulla base dell'accertamento dei risultati conseguiti nel quadriennio precedente. I documenti sono elaborati dai dirigenti degli uffici giudicanti e dal primo presidente della Corte di cassazione, sentiti il dirigente dell'ufficio requirente corrispondente e il presidente del consiglio dell'ordine degli avvocati e, per la Corte di cassazione, il presidente del Consiglio nazionale forense. 
+ 2. Le deliberazioni di cui al comma 1 sono adottate dal Consiglio superiore della magistratura, valutate le eventuali osservazioni formulate dal Ministro della giustizia ai sensi dell'art. 11 dellalegge 24 marzo 1958, n. 195, e possono essere variate nel corso del quadriennio, sulle proposte dei presidenti delle corti di appello o del Primo presidente della Corte di cassazione, sentiti, rispettivamente, i consigli giudiziari o il Consiglio direttivo della Corte di cassazione, per sopravvenute esigenze degli uffici giudiziari anche tenuto conto dei programmi delle attivita' annuali di cui all'<ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegislativo/stato/2006-07-25/240/!main#art_4" ns32:target="olf:it/decreto-legislativo/stato/2006/240/art_4" ns32:relation="cites">art. 4 del decreto legislativo 25 luglio 2006, n. 240</ref>, e dei programmi per la gestione dei procedimenti previsti dall'<ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main#art_37" ns33:target="olf:it/decreto-legge/stato/2011/98/art_37" ns33:relation="cites">art. 37 del decreto-legge 6 luglio 2011, n. 98</ref>, convertito, con modificazioni, dalla <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/2011-07-15/111/!main" ns34:target="olf:it/legge/stato/2011/111" ns34:relation="cites">legge 15 luglio 2011, n. 111</ref>. 
+ 2.1. Le variazioni delle tabelle degli uffici giudicanti sono dichiarate immediatamente esecutive dal dirigente dell'ufficio, con provvedimento motivato, quando vi e' assoluta necessita' e urgenza di provvedere o quando le modifiche hanno ad oggetto l'assegnazione dei magistrati ai settori, alle sezioni o alla posizione tabellare. 
+ 2.2. I documenti organizzativi generali, le tabelle degli uffici giudicanti e le relative variazioni sono elaborati sulla base di modelli standard, stabiliti con delibera del Consiglio superiore della magistratura, e trasmessi per via telematica. 
+ 2.3. I modelli standard sono differenziati in base alle dimensioni dell'ufficio, ma devono in ogni caso contenere: 
+ a) l'analisi dello stato dei servizi, dell'andamento dei flussi e delle pendenze; 
+ b) l'analisi ragionata della ripartizione dei magistrati tra settore civile e settore penale; 
+ c) i criteri di assegnazione degli affari alle singole sezioni e ai magistrati, in modo che il numero di affari di cui e' destinatario ciascun magistrato sia compatibile con il carico esigibile di cui all'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main#art_37" ns35:target="olf:it/decreto-legge/stato/2011/98/art_37" ns35:relation="cites">art. 37 del decreto-legge 6 luglio 2011, n. 98</ref>, convertito, con modificazioni, dalla <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/legge/stato/2011-07-15/111/!main" ns36:target="olf:it/legge/stato/2011/111" ns36:relation="cites">legge 15 luglio 2011, n. 111</ref>; 
+ d) la verifica della realizzazione degli obiettivi indicati nella precedente tabella o nel precedente progetto organizzativo; 
+ e) l'individuazione degli obiettivi di miglioramento dell'efficienza dell'attivita' giudiziaria; 
+ f) la relazione sull'andamento dei settori amministrativi connessi all'esercizio della giurisdizione; 
+ g) l'analisi ragionata sulle modalita' di utilizzo dei magistrati onorari; 
+ h) la relazione sullo stato di informatizzazione dell'ufficio, previa consultazione del magistrato di riferimento per l'informatica e, per la Corte di cassazione, anche del direttore del centro elettronico di elaborazione dati; 
+ i) l'indicazione schematica delle variazioni rispetto alle precedenti tabelle o progetti organizzativi. 
+ 2.4. I pareri dei consigli giudiziari e del Consiglio direttivo della Corte di cassazione sono redatti sulla base di modelli standard, stabiliti con delibera del Consiglio superiore della magistratura, e contengono soltanto i rilievi critici in ordine all'analisi dei dati, al contenuto delle proposte e alle scelte organizzative adottate. 
+ 2.5. Le tabelle e le variazioni si intendono approvati se il Consiglio superiore della magistratura non si esprime in maniera contraria entro novanta giorni dalla data di invio per via telematica del parere del consiglio giudiziario o del Consiglio direttivo. Se sono presentate osservazioni da parte dei magistrati dell'ufficio o il parere del consiglio giudiziario o del Consiglio direttivo e' stato assunto a maggioranza, il Consiglio superiore delibera sulla proposta nel termine di centottanta giorni.
+ I consigli giudiziari e il Consiglio direttivo della Corte di cassazione esaminano le proposte di tabelle degli uffici giudicanti entro il termine massimo di centottanta giorni antecedenti l'inizio del quadriennio, ed esprimono il relativo parere entro i successivi novanta giorni. 
+ 2-bis. Possono svolgere le funzioni di giudice incaricato dei provvedimenti previsti per la fase delle indagini preliminari nonche' di giudice dell'udienza preliminare solamente i magistrati che hanno svolto per almeno due anni funzioni di giudice del dibattimento. Le funzioni di giudice dell'udienza preliminare sono equiparate a quelle di giudice del dibattimento. 
+ 2-ter. Il giudice incaricato dei provvedimenti previsti per la fase delle indagini preliminari nonche' il giudice dell'udienza preliminare non possono esercitare tali funzioni oltre il periodo stabilito dal Consiglio superiore della magistratura ai sensi dell'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/decretoLegislativo/stato/2006-04-05/160/!main#art_19-com1" ns37:target="olf:it/decreto-legislativo/stato/2006/160/art_19-com1" ns37:relation="cites">art. 19, comma 1, del decreto legislativo 5 aprile 2006, n. 160</ref>, e successive modificazioni. Qualora alla scadenza del termine essi abbiano in corso il compimento di un atto del quale sono stati richiesti, l'esercizio delle funzioni e' prorogato, limitatamente al relativo procedimento, sino al compimento dell'attivita' medesima. 
+ 2-quater. 
+ 2-quinquies. Le disposizioni dei commi 2-bis e 2-ter possono essere derogate per imprescindibili e prevalenti esigenze di servizio. Si applicano, anche in questo caso, le disposizioni di cui ai commi 1 e 2. 
+ 2-sexies. Presso il tribunale del capoluogo del distretto e presso la corte di appello, sono istituite sezioni ovvero individuati collegi che trattano in via esclusiva i procedimenti previsti dal codice di cui al <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns38:target="olf:it/decreto-legislativo/stato/2011/159" ns38:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref>. Presso il tribunale circondariale di Trapani e il tribunale circondariale di Santa Maria Capua Vetere sono istituiti sezioni o collegi specializzati in materia di misure di prevenzione. A tali collegi o sezioni, ai quali e' garantita una copertura prioritaria delle eventuali carenze di organico, e' assegnato un numero di magistrati rispetto all'organico complessivo dell'ufficio pari alla percentuale che sara' stabilita con delibera del Consiglio superiore della magistratura e comunque non inferiore a tre componenti. Se per le dimensioni dell'ufficio i magistrati componenti delle sezioni o collegi specializzati in materia di misure di prevenzione dovranno svolgere anche altre funzioni, il carico di lavoro nelle altre materie dovra' essere proporzionalmente ridotto nella misura che sara' stabilita con delibera del Consiglio superiore della magistratura. Il presidente del tribunale o della corte di appello assicura che il collegio o la sezione sia prevalentemente composto da magistrati forniti di specifica esperienza nella materia della prevenzione o dei reati di criminalita' organizzata, o che abbiano svolto funzioni civili, fallimentari e societarie, garantendo la necessaria integrazione delle competenze. 
+ 3. 
+ 3-bis. Al fine di assicurare un piu' adeguato funzionamento degli uffici giudiziari sono istituite le tabelle infradistrettuali degli uffici requirenti e giudicanti che ricomprendono tutti i magistrati, ad eccezione dei capi degli uffici, assegnati al singolo ufficio giudiziario incluso nella medesima tabella infradistrettuale. 
+ 3-ter. Il Consiglio superiore della magistratura individua gli uffici giudiziari che rientrano nella medesima tabella infradistrettuale e ne da' immediata comunicazione al Ministro di grazia e giustizia per la emanazione del relativo decreto. 
+ 3-quater. L'individuazione delle sedi da ricomprendere nella medesima tabella infradistrettuale e' operata sulla base dei seguenti criteri: 
+ a) l'organico complessivo degli uffici ricompresi non deve essere inferiore alle quindici unita' per gli uffici giudicanti; 
+ b) le tabelle infradistrettuali dovranno essere formate privilegiando l'accorpamento tra loro degli uffici con organico fino ad otto unita' se giudicanti e fino a quattro unita' se requirenti; 
+ c) nelle esigenze di funzionalita' degli uffici si deve tener conto delle cause di incompatibilita' funzionali dei magistrati, con particolare riferimento alla competenza collegiale del giudice per la indagini preliminari; 
+ d) si deve tener conto delle caratteristiche geomorfologiche dei luoghi e dei collegamenti viari, in modo da determinare il minor onere per l'erario. 
+ 3-quinquies. Il magistrato puo' essere assegnato anche a piu' uffici aventi la medesima attribuzione o competenza, ma la sede di servizio principale, ad ogni effetto giuridico ed economico, e' l'ufficio del cui organico il magistrato fa parte. La supplenza infradistrettuale non opera per le assenze o impedimenti di durata inferiore a sette giorni. 
+ 3-sexies. Per la formazione ed approvazione delle tabelle di cui al comma 3-bis, si osservano le procedure previste dai commi da 1-bis a 2.5.» 
+ «Art. 7-ter (Criteri per l'assegnazione degli affari e la sostituzione dei giudici impediti). - 1.
+ L'assegnazione degli affari alle singole sezioni ed ai singoli collegi e giudici e' effettuata, rispettivamente, dal dirigente dell'ufficio e dal presidente della sezione o dal magistrato che la dirige, secondo criteri obiettivi e predeterminati, indicati in via generale dal Consiglio superiore della magistratura ed approvati contestualmente alle tabelle degli uffici e con la medesima procedura. Nel determinare i criteri per l'assegnazione degli affari penali al giudice per le indagini preliminari, il Consiglio superiore della magistratura stabilisce la concentrazione, ove possibile, in capo allo stesso giudice dei provvedimenti relativi al medesimo procedimento e la designazione di un giudice diverso per lo svolgimento delle funzioni di giudice dell'udienza preliminare e prevede, in ogni caso, la costituzione di un collegio per i provvedimenti di applicazione della misura della custodia cautelare in carcere, anche nell'ambito delle tabelle infradistrettuali di cui all'art. 7-bis, comma 3-bis.
+ Qualora il dirigente dell'ufficio o il presidente della sezione revochino la precedente assegnazione ad una sezione o ad un collegio o ad un giudice, copia del relativo provvedimento motivato viene comunicata al presidente della sezione e al magistrato interessato. 
+ 2. Il Consiglio superiore della magistratura stabilisce altresi' i criteri per la sostituzione del giudice astenuto, ricusato o impedito. 
+ 2-bis. Il dirigente dell'ufficio deve verificare che la distribuzione dei ruoli e dei carichi di lavoro garantisca obiettivi di funzionalita' e di efficienza dell'ufficio e assicuri costantemente l'equita' tra tutti i magistrati dell'ufficio, delle sezioni e dei collegi. 
+ 3.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Aumento del ruolo organico 
+ del personale di magistratura ordinaria</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>A decorrere dal 1° luglio 2025 il ruolo organico della magistratura ordinaria e' aumentato di duecentocinquanta unita', da destinare alle funzioni giudicanti di primo grado. Conseguentemente la tabella B allegata alla <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/legge/stato/1991-03-05/71/!main" ns39:target="olf:it/legge/stato/1991/71" ns39:relation="amends">legge 5 marzo 1991, n. 71</ref>, e' sostituita dalla tabella B di cui all'allegato 1 alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il Ministero della giustizia e' autorizzato a bandire nel corso dell'anno 2024, in aggiunta alle ordinarie facolta' assunzionali, le procedure concorsuali di reclutamento finalizzate all'assunzione, nell'anno 2025, delle unita' di personale di magistratura di cui al comma 1. Per la gestione delle predette procedure concorsuali e' autorizzata la spesa di euro 1.291.000 per l'anno 2024. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Per l'attuazione delle disposizioni di cui al comma 1 e' autorizzata la spesa di euro 9.981.853 per l'anno 2025, euro 20.299.158 per l'anno 2026, euro 24.893.578 per l'anno 2027, euro 24.893.578 per l'anno 2028, euro 29.070.178 per l'anno 2029, euro 32.327.551 per l'anno 2030, euro 32.354.564 per l'anno 2031, euro 33.514.488 per l'anno 2032, euro 33.611.149 per l'anno 2033 ed euro 34.771.074 annui a decorrere dall'anno 2034. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_5" placement="bottom">
+                                <p> Note all'<ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/legge/stato/1991-03-05/71/!main#art_5" ns40:target="olf:it/legge/stato/1991/71/art_5" ns40:relation="amends">art. 5: 
+ - La legge 5 marzo 1991 n. 71</ref>, recante: «Dirigenza delle procure della Repubblica presso le preture circondariali», e' pubblicata nella G.U. 9 marzo 1991, n. 58. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Norma di interpretazione autentica dell'articolo 9 
+ della legge 10 aprile 1951, n. 287</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/legge/stato/1951-04-10/287/!main#art_9-letc" ns41:target="olf:it/legge/stato/1951/287/art_9-letc" ns41:relation="amends">lettera c) dell'articolo 9 della legge 10 aprile 1951, n. 287</ref>, si interpreta nel senso che il requisito dell'eta' non superiore ai 65 anni deve essere riferito esclusivamente al momento in cui il giudice popolare viene chiamato a prestare servizio nel collegio ai sensi dell'articolo 25 della medesima legge. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_6" placement="bottom">
+                                <p> Note all'art. 6: 
+ - Si riportano gli <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/legge/stato/1951-04-10/287/!main#art_9" ns42:target="olf:it/legge/stato/1951/287/art_9" ns42:relation="amends">articoli 9</ref> e <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/legge/stato/1951-04-10/287/!main#art_25" ns43:target="olf:it/legge/stato/1951/287/art_25" ns43:relation="amends">25 della legge 10 aprile 1951, n. 287</ref> (Riordinamento dei giudizi di assise): 
+ «Art. 9 (Requisiti dei giudici popolari delle Corti di assise). - I giudici popolari per le Corti di assise devono essere in possesso dei seguenti requisiti: 
+ a) cittadinanza italiana e godimento dei diritti civili e politici; 
+ b) buona condotta morale; 
+ c) eta' non inferiore ai 30 e non superiore ai 65 anni; 
+ d) titolo finale di studi di scuola media di primo grado, di qualsiasi tipo.». 
+ «Art. 25 (Giudici popolari della sessione). - 1.
+ Quindici giorni prima della conclusione della sessione della Corte di assise o della Corte di assise di appello, il presidente in seduta pubblica, da tenersi nella sede in cui si svolgera' la sessione, con l'assistenza dell'ausiliario, alla presenza del pubblico ministero, estrae dall'urna dei giudici popolari ordinari un numero di schede almeno pari alla meta' di quelle in essa contenute e comunque non superiore a cinquanta. 
+ 2. Dell'ordine di estrazione e' compilato processo verbale sottoscritto dal presidente e dell'ausiliario. 
+ 3. Il presidente fissa il giorno e l'ora per la presentazione davanti a se' in seduta pubblica di tutti i giudici estratti, da tenersi non oltre il quinto giorno successivo, dandone avviso al pubblico ministero. I giudici popolari estratti sono convocati anche oralmente a mezzo di agenti della forza pubblica. 
+ 4. Nel giorno fissato il presidente dispensa i giudici popolari che ne fanno richiesta e risultano legittimamente impediti. Successivamente il presidente chiama a prestare servizio, nell'ordine di estrazione a sorte, tanti giudici popolari quanti ne occorrono per formare il collegio. 
+ 5. Se uno o piu' dei giudici convocati per la seduta pubblica di cui al comma 4 non si presentano o sono dispensati, il presidente, senza ritardo e fino al terzo giorno anteriore a quello di inizio della sessione, procede alle ulteriori estrazioni necessarie per raggiungere, se possibile, il numero di giudici specificato nel comma 1 e provvede agli adempimenti previsti dai precedenti commi.». </p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Modifica al codice 
+ dell'ordinamento militare</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_34">All'<ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_1051-com2" ns44:target="olf:it/decreto-legislativo/stato/2010/66/art_1051-com2" ns44:relation="amends">articolo 1051, comma 2, del codice dell'ordinamento militare</ref>, di cui al <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_leta" ns45:target="olf:it/decreto-legislativo/stato/2010/66/art_leta" ns45:relation="amends">decreto legislativo 15 marzo 2010, n. 66, la lettera a)</ref> e' sostituita dalla seguente: 
+ «<quotedText eId="modNov_34_new_1">a) nei cui confronti sia stata emessa, per delitto non colposo, sentenza di condanna in primo grado ovvero sentenza di applicazione della pena su richiesta o decreto penale di condanna esecutivo, anche qualora la pena sia condizionalmente sospesa</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_7" placement="bottom">
+                                <p> Note all'art. 7: 
+ - Si riporta l'<ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_1051" ns46:target="olf:it/decreto-legislativo/stato/2010/66/art_1051" ns46:relation="amends">articolo 1051 del decreto legislativo 15 marzo 2010, n. 66</ref> (<ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns47:target="olf:it/decreto-legislativo/stato/2010/66" ns47:relation="amends">Codice dell'ordinamento militare</ref>), come modificato dalla presente legge: 
+ «Art. 1051 (Impedimenti, sospensione ed esclusione).
+ - 1. Non puo' essere valutato per l'avanzamento il militare che ricopra la carica di Ministro o di Sottosegretario di Stato. 
+ 2. Non puo' essere inserito nell'aliquota di avanzamento o valutato per l'avanzamento il personale militare: 
+ a) nei cui confronti sia stata emessa, per delitto non colposo, sentenza di condanna in primo grado ovvero sentenza di applicazione della pena su richiesta o decreto penale di condanna esecutivo, anche qualora la pena sia condizionalmente sospesa; 
+ b) sottoposto a procedimento disciplinare da cui puo' derivare una sanzione di stato; 
+ c) sospeso dall'impiego o dalle funzioni del grado; 
+ d) in aspettativa per qualsiasi motivo per una durata non inferiore a 60 giorni. 
+ 2-bis. Il personale dell'Arma dei carabinieri imputato in un procedimento penale per delitto non colposo e ammesso al prolungamento della ferma volontaria ai sensi dell'art. 950, non e' inserito nell'aliquota di avanzamento o valutato per l'avanzamento, fino all'ammissione in servizio permanente. 
+ 3. Se eccezionalmente le autorita' competenti ritengono di non poter addivenire alla pronuncia del giudizio sull'avanzamento, sospendono la valutazione, indicandone i motivi. 
+ 4. Se, durante i lavori della competente commissione d'avanzamento e prima della pubblicazione del quadro di avanzamento o della conclusione dei lavori di valutazione per gli Appuntati e Carabinieri, il personale militare si trova nelle situazioni previste dal comma 2, e' sospesa la valutazione o, se il quadro e' stato formato, il direttore generale del personale militare ne dispone la cancellazione. 
+ 5. Al militare e' data comunicazione della sospensione della valutazione e dei motivi che l'hanno determinata. 
+ 6. Nei riguardi del personale escluso dalle aliquote o dalla valutazione, per non aver maturato, per motivi di servizio o di salute, le condizioni di cui all'art. 1050, ovvero escluso ai sensi del comma 2 o sospeso ai sensi dei commi 3 e 4, e' apposta riserva fino al cessare delle cause impeditive. 
+ 7. Al venir meno delle predette cause, salvo che le stesse non comportino la cessazione dal servizio permanente, gli interessati sono inclusi nella prima aliquota utile per la valutazione o sono sottoposti a valutazione. 
+ 8. Il personale militare inserito nei ruoli del servizio permanente che e' stato condannato con sentenza definitiva a una pena non inferiore a due anni per delitto non colposo compiuto mediante comportamenti contrari ai doveri di fedelta' alle istituzioni ovvero lesivi del prestigio dell'amministrazione e dell'onore militare e' escluso da ogni procedura di avanzamento e dalla possibilita' di transito da un ruolo a un altro.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading> Disposizioni finanziarie</heading>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_8__para_1__intro_1">
+                            <p>Agli oneri di cui all'articolo 5, pari a euro 1.291.000 per l'anno 2024, euro 9.981.853 per l'anno 2025, euro 20.299.158 per l'anno 2026, euro 24.893.578 per l'anno 2027, euro 24.893.578 per l'anno 2028, euro 29.070.178 per l'anno 2029, euro 32.327.551 per l'anno 2030, euro 32.354.564 per l'anno 2031, euro 33.514.488 per l'anno 2032, euro 33.611.149 per l'anno 2033 ed euro 34.771.074 annui a decorrere dall'anno 2034, si provvede: 
+ </p>
+                        </intro>
+                        <point eId="art_8__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>quanto a euro 1.291.000 per l'anno 2024 e a euro 8.000.000 annui a decorrere dall'anno 2025, mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della giustizia; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_8__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>quanto a euro 1.981.853 per l'anno 2025, euro 12.299.158 per l'anno 2026, euro 16.893.578 per l'anno 2027, euro 16.893.578 per l'anno 2028, euro 21.070.178 per l'anno 2029, euro 24.327.551 per l'anno 2030, euro 24.354.564 per l'anno 2031, euro 25.514.488 per l'anno 2032, euro 25.611.149 per l'anno 2033 ed euro 26.771.074 annui a decorrere dall'anno 2034, mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns48:target="olf:it/legge/stato/2014/190/art_1-com200" ns48:relation="cites">articolo 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_8__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge, ad eccezione delle disposizioni di cui all'articolo 5, non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Le amministrazioni interessate provvedono ai relativi adempimenti nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_8" placement="bottom">
+                                <p> Note all'art. 8: 
+ - Si riporta il <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns49:target="olf:it/legge/stato/2014/190/art_1-com200" ns49:relation="cites">comma 200 dell'art. 1 della legge 23 dicembre 2014 n. 190</ref> (Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato): 
+ «200. Nello stato di previsione del Ministero dell'economia e delle finanze e' istituito un Fondo per far fronte ad esigenze indifferibili che si manifestano nel corso della gestione, con la dotazione di 27 milioni di euro per l'anno 2015 e di 25 milioni di euro annui a decorrere dall'anno 2016. Il Fondo e' ripartito annualmente con uno o piu' decreti del Presidente del Consiglio dei ministri su proposta del Ministro dell'economia e delle finanze. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare le occorrenti variazioni di bilancio.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_9">
+                <num>Art. 9.</num>
+                <heading> Decorrenza dell'efficacia 
+ di alcune disposizioni</heading>
+                <paragraph eId="art_9__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le disposizioni di cui all'articolo 2, comma 1, lettere e), numero 2), limitatamente al capoverso 1-quinquies, g), numero 2), h), l) e m), e di cui all'articolo 4 si applicano decorsi due anni dalla data di entrata in vigore della presente legge. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 9 agosto 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Nordio, Ministro della giustizia Crosetto, Ministro della difesa Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-09/114/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-09/114"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-08-09;114"/>
+                                <FRBRalias name="eli" value="eli/id/2024/08/10/24G00122/ORIGINAL"/>
+                                <FRBRdate date="2024-08-25" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-09/114/ita@2024-08-25/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-09/114/ita@2024-08-25"/>
+                                <FRBRdate date="2024-08-25" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-09/114/ita@2024-08-25/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-09/114/ita@2024-08-25.xml"/>
+                                <FRBRdate date="2024-08-09" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 1 
+ (articolo 5, comma 1) 
+ 
+ «Tabella B 
+ (articolo 1, comma 2) 
+ 
+ 
+ RUOLO ORGANICO DELLA MAGISTRATURA ORDINARIA 
+ </p>
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <p>A. Magistrato con funzioni direttive apicali giudicanti di legittimita': primo presidente della Corte di cassazione </p>
+                                        </th>
+                                        <th>
+                                            <p>  1 </p>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>B. Magistrato con funzioni direttive apicali requirenti di legittimita': procuratore generale presso la Corte di cassazione </p>
+                                        </td>
+                                        <td>
+                                            <p>  1 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>C. Magistrati con funzioni direttive superiori di legittimita': </p>
+                                        </td>
+                                        <td>
+                                            <p/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Presidente aggiunto della Corte di cassazione </p>
+                                        </td>
+                                        <td>
+                                            <p>1 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Procuratore generale aggiunto presso la Corte di cassazione </p>
+                                        </td>
+                                        <td>
+                                            <p> 1 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Presidente del Tribunale superiore delle acque pubbliche </p>
+                                        </td>
+                                        <td>
+                                            <p> 1 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>D. Magistrati con funzioni giudicanti e requirenti direttive di legittimita' </p>
+                                        </td>
+                                        <td>
+                                            <p> 65 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>E. Magistrati con funzioni giudicanti e requirenti di legittimita' nonche' magistrati destinati all'esercizio delle funzioni di procuratori europei delegati innanzi alla Corte di cassazione </p>
+                                        </td>
+                                        <td>
+                                            <p>   442 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>F. Magistrato con funzioni direttive requirenti di coordinamento nazionale: procuratore nazionale antimafia e antiterrorismo </p>
+                                        </td>
+                                        <td>
+                                            <p>  1 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>G. Magistrati con funzioni direttive di merito di secondo grado, giudicanti e requirenti </p>
+                                        </td>
+                                        <td>
+                                            <p> 52 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>H. Magistrati con funzioni direttive di merito di primo grado elevate, giudicanti e requirenti </p>
+                                        </td>
+                                        <td>
+                                            <p> 53 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>I. Magistrati con funzioni direttive di merito giudicanti e requirenti di primo grado </p>
+                                        </td>
+                                        <td>
+                                            <p> 314 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>L. Magistrati con funzioni giudicanti e requirenti di merito di primo e di secondo grado, di magistrato distrettuale, di coordinamento nazionale presso la Direzione nazionale antimafia e antiterrorismo e semidirettive di primo grado, di primo grado elevate e di secondo grado, magistrati destinati alle funzioni di procuratori europei delegati, nonche' magistrati destinati alle funzioni requirenti di membro nazionale, aggiunto e assistente presso l'Eurojust </p>
+                                        </td>
+                                        <td>
+                                            <p>         9.977 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>M. Magistrati destinati a funzioni non giudiziarie </p>
+                                        </td>
+                                        <td>
+                                            <p>194 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>   N. Magistrati ordinari in tirocinio </p>
+                                        </td>
+                                        <td>
+                                            <p>(numero pari a quello dei posti vacanti nell'organico) </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>TOTALE </p>
+                                        </td>
+                                        <td>
+                                            <p>11.103 </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p>
+ 
+ ». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
