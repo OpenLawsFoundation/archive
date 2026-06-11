@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-09-15/130/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-09-15/130"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-09-15;130"/>
+                    <FRBRalias name="eli" value="eli/id/2023/09/27/23G00140/ORIGINAL"/>
+                    <FRBRdate date="2023-09-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/09/27/23G00140/ORIGINAL" aknrelname="eli/id/2023/09/27/23G00140/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni concernenti la definizione di un programma diagnostico per l'individuazione del diabete di tipo 1 e della celiachia nella popolazione pediatrica. (23G00140)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00140" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-09-15" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-09-15/130/ita@2023-10-12/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-09-15/130/ita@2023-10-12"/>
+                    <FRBRdate date="2023-10-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/09/27/23G00140/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/09/27/23G00140/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/09/27/23G00140/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-09-15/130/ita@2023-10-12/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-09-15/130/ita@2023-10-12.xml"/>
+                    <FRBRdate date="2023-09-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/09/27/23G00140/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-09-27" name="" number="226" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-09-27" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2023-09-15" refersTo="#C.622"/>
+                <step by="#senato" date="2023-09-15" refersTo="#S.727"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-15;130#4"/>
+                        <destination href="urn:nir:stato:legge:2022-12-29;197#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1) la modifica dell'art. 1, comma 530.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-09-15/130/!main" showAs=""/>
+                <passiveRef eId="C.622" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;622" showAs=""/>
+                <passiveRef eId="S.727" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;727" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/09/27/23G00140/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni concernenti la definizione di un programma diagnostico per l'individuazione del diabete di tipo 1 e della celiachia nella popolazione pediatrica. (23G00140)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00140</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-09-15</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/09/27/23G00140/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/09/27/23G00140/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/09/27/23G00140/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/09/27/23G00140/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/130" nativeUrn="urn:nir:stato:legge:2023-09-15;130" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-09-27"><ns0:event type="enacted" date="2023-09-15"/><ns0:event type="published" date="2023-09-27"/><ns0:event type="commenced" date="2023-09-27"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/8792c8a0-115c-4668-8fcd-548aa99bd119" sourceSha256="f4e0445db93f7bcd74c27ec20983e7310eaf37f3001d530a691da3b7e810d026" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T21:17:16.964787Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-09-15">15 settembre 2023</docDate>
+                <docNumber>130</docNumber>
+                <docTitle>Disposizioni concernenti la definizione di un programma diagnostico per l'individuazione del diabete di tipo 1 e della celiachia nella popolazione pediatrica. (23G00140) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 12/10/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Programma di screening nazionale 
+ per diabete di tipo 1 e celiachia</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di prevenire l'insorgenza di chetoacidosi in soggetti affetti da diabete di tipo 1 e di rallentare la progressione della malattia mediante l'impiego delle terapie disponibili, nonche' di effettuare la diagnosi precoce della celiachia, con decreto del Ministro della salute, da emanare entro centoventi giorni dalla data di entrata in vigore della presente legge, previo parere della Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano e sentite le associazioni maggiormente rappresentative delle persone affette da diabete di tipo 1 e da celiachia e dei loro familiari e le fondazioni di rilevanza nazionale operanti in materia, e' adottato un programma pluriennale di screening su base nazionale nella popolazione pediatrica per l'individuazione degli anticorpi del diabete di tipo 1 e della celiachia, da avviare a decorrere dall'anno 2024. Lo schema di decreto di cui al primo periodo e' sottoposto al parere delle competenti Commissioni parlamentari, che si esprimono entro il termine di trenta giorni dalla data della sua trasmissione, decorso il quale il Ministro della salute puo' comunque procedere. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per l'attuazione del programma pluriennale di cui al comma 1 e' autorizzata la spesa di 3,85 milioni di euro per ciascuno degli anni 2024 e 2025 e di 2,85 milioni di euro annui a decorrere dall'anno 2026, a valere sulle risorse del fondo di cui al <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com530" ns1:target="olf:it/legge/stato/2022/197/art_1-com530" ns1:relation="amends">comma 530 dell'articolo 1 della legge 29 dicembre 2022, n. 197</ref>, come rifinanziato ai sensi dell'articolo 4 della presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo del <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com530" ns3:target="olf:it/legge/stato/2022/197/art_1-com530" ns3:relation="amends">comma 530 dell'articolo 1 della legge 29 dicembre 2022, n. 197</ref>, recante «Bilancio di previsione dello Stato per l'anno finanziario 2023 e bilancio pluriennale per il triennio 2023-2025», pubblicata nella Gazzetta Ufficiale del 29 dicembre 2022, n. 303, S.O.: 
+ «Omissis. 
+ 530. Per la realizzazione di un programma pluriennale di screening su base nazionale nella popolazione pediatrica per l'individuazione degli anticorpi del diabete di tipo 1 e della celiachia, nello stato di previsione del Ministero della salute e' istituito un fondo con una dotazione di 500.000 euro per l'anno 2023 e di 1 milione di euro per ciascuno degli anni 2024 e 2025. 
+ Omissis.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Osservatorio nazionale sul diabete di tipo 1 
+ e sulla celiachia</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>Presso il Ministero della salute e' istituito l'osservatorio nazionale sul diabete di tipo 1 e sulla celiachia, di seguito denominato «osservatorio», composto da tredici membri, nominati con decreto del Ministro della salute e di seguito individuati: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>un rappresentante del Ministero della salute, che assume le funzioni di presidente; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>due rappresentanti dell'Istituto superiore di sanita'; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>sei medici di comprovata esperienza specializzati nella diagnosi e nella cura del diabete di tipo 1 e della celiachia; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>due rappresentanti, per ciascuna patologia, delle associazioni maggiormente rappresentative delle persone affette da diabete di tipo 1 e da celiachia e dei loro familiari e delle fondazioni di rilevanza nazionale operanti in materia, anche in attuazione del titolo VII del codice del Terzo settore, di cui al <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns4:target="olf:it/decreto-legislativo/stato/2017/117" ns4:relation="cites">decreto legislativo 3 luglio 2017, n. 117</ref>. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>I membri dell'osservatorio durano in carica tre anni e il loro incarico puo' essere rinnovato una sola volta. La partecipazione all'osservatorio e' svolta in forma gratuita e ai componenti non spettano compensi, rimborsi di spese, gettoni di presenza o altri emolumenti comunque denominati. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>L'osservatorio studia ed elabora le risultanze dello screening di cui all'articolo 1 e pubblica annualmente una relazione nel sito internet istituzionale del Ministero della salute. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>All'attuazione del presente articolo si provvede con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta il titolo VII del codice del Terzo settore, di cui al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2017-07-03/117/!main" ns5:target="olf:it/decreto-legislativo/stato/2017/117" ns5:relation="cites">decreto legislativo 3 luglio 2017, n. 117</ref>, recante «Codice del Terzo settore, a norma dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2016-06-06/106/!main#art_1-com2-letb" ns6:target="olf:it/legge/stato/2016/106/art_1-com2-letb" ns6:relation="cites">articolo 1, comma 2, lettera b), della legge 6 giugno 2016, n. 106</ref>», pubblicato nella Gazzetta Ufficiale 2 agosto 2017, n. 179, S.O.: 
+ «Titolo VII - Dei rapporti con gli enti pubblici. 
+ Art. 55 (Coinvolgimento degli enti del Terzo settore).
+ - 1. In attuazione dei principi di sussidiarieta', cooperazione, efficacia, efficienza ed economicita', omogeneita', copertura finanziaria e patrimoniale, responsabilita' ed unicita' dell'amministrazione, autonomia organizzativa e regolamentare, le amministrazioni pubbliche di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_1-com2" ns7:target="olf:it/decreto-legislativo/stato/2001/165/art_1-com2" ns7:relation="cites">articolo 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165</ref>, nell'esercizio delle proprie funzioni di programmazione e organizzazione a livello territoriale degli interventi e dei servizi nei settori di attivita' di cui all'articolo 5, assicurano il coinvolgimento attivo degli enti del Terzo settore, attraverso forme di co-programmazione e co-progettazione e accreditamento, poste in essere nel rispetto dei principi della <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/1990-08-07/241/!main" ns8:target="olf:it/legge/stato/1990/241" ns8:relation="cites">legge 7 agosto 1990, n. 241</ref>, nonche' delle norme che disciplinano specifici procedimenti ed in particolare di quelle relative alla programmazione sociale di zona. 
+ 2. La co-programmazione e' finalizzata all'individuazione, da parte della pubblica amministrazione procedente, dei bisogni da soddisfare, degli interventi a tal fine necessari, delle modalita' di realizzazione degli stessi e delle risorse disponibili. 
+ 3. La co-progettazione e' finalizzata alla definizione ed eventualmente alla realizzazione di specifici progetti di servizio o di intervento finalizzati a soddisfare bisogni definiti, alla luce degli strumenti di programmazione di cui comma 2. 
+ 4. Ai fini di cui al comma 3, l'individuazione degli enti del Terzo settore con cui attivare il partenariato avviene anche mediante forme di accreditamento nel rispetto dei principi di trasparenza, imparzialita', partecipazione e parita' di trattamento, previa definizione, da parte della pubblica amministrazione procedente, degli obiettivi generali e specifici dell'intervento, della durata e delle caratteristiche essenziali dello stesso nonche' dei criteri e delle modalita' per l'individuazione degli enti partner. 
+ Art. 56 (Convenzioni). - 1. Le amministrazioni pubbliche di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_1-com2" ns9:target="olf:it/decreto-legislativo/stato/2001/165/art_1-com2" ns9:relation="cites">articolo 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165</ref>, possono sottoscrivere con le organizzazioni di volontariato e le associazioni di promozione sociale, iscritte da almeno sei mesi nel Registro unico nazionale del Terzo settore, convenzioni finalizzate allo svolgimento in favore di terzi di attivita' o servizi sociali di interesse generale, se piu' favorevoli rispetto al ricorso al mercato. 
+ 2. Le convenzioni di cui al comma 1 possono prevedere esclusivamente il rimborso alle organizzazioni di volontariato e alle associazioni di promozione sociale delle spese effettivamente sostenute e documentate. 
+ 3. L'individuazione delle organizzazioni di volontariato e delle associazioni di promozione sociale con cui stipulare la convenzione e' fatta nel rispetto dei principi di imparzialita', pubblicita', trasparenza, partecipazione e parita' di trattamento, mediante procedure comparative riservate alle medesime. Le organizzazioni di volontariato e le associazioni di promozione sociale devono essere in possesso dei requisiti di moralita' professionale, e dimostrare adeguata attitudine, da valutarsi in riferimento alla struttura, all'attivita' concretamente svolta, alle finalita' perseguite, al numero degli aderenti, alle risorse a disposizione e alla capacita' tecnica e professionale, intesa come concreta capacita' di operare e realizzare l'attivita' oggetto di convenzione, da valutarsi anche con riferimento all'esperienza maturata, all'organizzazione, alla formazione e all'aggiornamento dei volontari. 
+ 3-bis. Le amministrazioni procedenti pubblicano sui propri siti informatici gli atti di indizione dei procedimenti di cui al presente articolo e i relativi provvedimenti finali. I medesimi atti devono altresi' formare oggetto di pubblicazione da parte delle amministrazioni procedenti nella sezione "Amministrazione trasparente", con l'applicazione delle disposizioni di cui al <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegislativo/stato/2013-03-14/33/!main" ns10:target="olf:it/decreto-legislativo/stato/2013/33" ns10:relation="cites">decreto legislativo 14 marzo 2013, n. 33</ref>. 
+ 4. Le convenzioni devono contenere disposizioni dirette a garantire l'esistenza delle condizioni necessarie a svolgere con continuita' le attivita' oggetto della convenzione, nonche' il rispetto dei diritti e della dignita' degli utenti, e, ove previsti dalla normativa nazionale o regionale, degli standard organizzativi e strutturali di legge. Devono inoltre prevedere la durata del rapporto convenzionale, il contenuto e le modalita' dell'intervento volontario, il numero e l'eventuale qualifica professionale delle persone impegnate nelle attivita' convenzionate, le modalita' di coordinamento dei volontari e dei lavoratori con gli operatori dei servizi pubblici, le coperture assicurative di cui all'articolo 18, i rapporti finanziari riguardanti le spese da ammettere a rimborso fra le quali devono figurare necessariamente gli oneri relativi alla copertura assicurativa, le modalita' di risoluzione del rapporto, forme di verifica delle prestazioni e di controllo della loro qualita', la verifica dei reciproci adempimenti nonche' le modalita' di rimborso delle spese, nel rispetto del principio dell'effettivita' delle stesse, con esclusione di qualsiasi attribuzione a titolo di maggiorazione, accantonamento, ricarico o simili, e con la limitazione del rimborso dei costi indiretti alla quota parte imputabile direttamente all'attivita' oggetto della convenzione. 
+ Art. 57 (Servizio di trasporto sanitario di emergenza e urgenza). - 1. I servizi di trasporto sanitario di emergenza e urgenza possono essere, in via prioritaria, oggetto di affidamento in convenzione alle organizzazioni di volontariato, iscritte da almeno sei mesi nel Registro unico nazionale del Terzo settore, aderenti ad una rete associativa di cui all'articolo 41, comma 2, ed accreditate ai sensi della normativa regionale in materia, ove esistente, nelle ipotesi in cui, per la natura specifica del servizio, l'affidamento diretto garantisca l'espletamento del servizio di interesse generale, in un sistema di effettiva contribuzione a una finalita' sociale e di perseguimento degli obiettivi di solidarieta', in condizioni di efficienza economica e adeguatezza, nonche' nel rispetto dei principi di trasparenza e non discriminazione. 
+ 2. Alle convenzioni aventi ad oggetto i servizi di cui al comma 1 si applicano le disposizioni di cui ai commi 2, 3, 3-bis e 4 dell'articolo 56.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Campagne di sensibilizzazione</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Ministero della salute promuove campagne periodiche di informazione e sensibilizzazione sociale sull'importanza della diagnosi precoce in eta' pediatrica e per la conoscenza del programma di cui all'articolo 1. Per le finalita' di cui al presente articolo e' autorizzata la spesa di 150.000 euro annui a decorrere dall'anno 2024, a valere sulle risorse del fondo di cui al <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com530" ns11:target="olf:it/legge/stato/2022/197/art_1-com530" ns11:relation="amends">comma 530 dell'articolo 1 della legge 29 dicembre 2022, n. 197</ref>, come rifinanziato ai sensi dell'articolo 4 della presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Per il testo del <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com530" ns12:target="olf:it/legge/stato/2022/197/art_1-com530" ns12:relation="amends">comma 530 dell'articolo 1 della legge 29 dicembre 2022, n. 197</ref>, si veda nelle note all'articolo 1. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Disposizioni finanziarie</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il fondo di cui al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com530" ns13:target="olf:it/legge/stato/2022/197/art_1-com530" ns13:relation="amends">comma 530 dell'articolo 1 della legge 29 dicembre 2022, n. 197</ref>, e' rifinanziato nella misura di 3 milioni di euro annui a decorrere dall'anno 2024. Ai relativi oneri si provvede mediante corrispondente riduzione delle proiezioni dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2023-2025, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2023, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della salute. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Per il testo del <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2022-12-29/197/!main#art_1-com530" ns14:target="olf:it/legge/stato/2022/197/art_1-com530" ns14:relation="amends">comma 530 dell'articolo 1 della legge 29 dicembre 2022, n. 197</ref>, si veda nelle note all'articolo 1. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 15 settembre 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
