@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2024-01-19/5/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2024-01-19/5"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legge:2024-01-19;5"/>
+                    <FRBRalias name="eli" value="eli/id/2024/01/19/24G00015/CONSOLIDATED/20240320"/>
+                    <FRBRdate date="2024-01-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/01/19/24G00015/CONSOLIDATED/20240320" aknrelname="eli/id/2024/01/19/24G00015/CONSOLIDATED/20240320">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni urgenti per la realizzazione degli interventi infrastrutturali connessi con la presidenza italiana del G7. (24G00015)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00015" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                            <nrdfa:span content="2024-01-19" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20"/>
+                    <FRBRdate date="2024-03-20" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/01/19/24G00015/CONSOLIDATED/20240320/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/01/19/24G00015/CONSOLIDATED/20240320"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/01/19/24G00015/CONSOLIDATED/20240320/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2024-01-19/5/ita@2024-03-20.xml"/>
+                    <FRBRdate date="2024-01-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/01/19/24G00015/CONSOLIDATED/20240320/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-01-19" name="" number="15" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-01-19" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2024-03-19" eId="eventRef_1" source="rp1"/>
+            </lifecycle>
+            <analysis source="">
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((e per le attivita'))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_1" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_2"/>
+                        <new>
+                            <nakn:text>((delle strutture dell'Autorita' di sistema portuale del Mare Adriatico meridionale e))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_2" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_3"/>
+                        <new>
+                            <nakn:text>((, con il potere di coordinare l'attuazione degli interventi in corso o programmati sulle infrastrutture di interesse))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_3" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_4"/>
+                        <new>
+                            <nakn:text>((stabilito))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_4" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_5"/>
+                        <new>
+                            <nakn:text>((Commissario straordinario nominato ai sensi del comma 1))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_5" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_6"/>
+                        <new>
+                            <nakn:text>((della presidenza))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_6" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_7"/>
+                        <new>
+                            <nakn:text>((Commissario straordinario))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_7" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_8"/>
+                        <new>
+                            <nakn:text>((del codice di cui al decreto legislativo n. 36 del 2023))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_8" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_9"/>
+                        <new>
+                            <nakn:text>((dalla societa' ANAS S.p.a.))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_9" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_10"/>
+                        <new>
+                            <nakn:text>((stipulazione))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_10" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_11"/>
+                        <new>
+                            <nakn:text>((, di cui all'allegato 1 al decreto legislativo))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_11" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_12"/>
+                        <new>
+                            <nakn:text>((e l'affidamento delle attivita' di esecuzione dei lavori, servizi e forniture di cui al comma 1))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_12" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_13"/>
+                        <new>
+                            <nakn:text>((e delle misure di prevenzione,))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_13" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_14"/>
+                        <new>
+                            <nakn:text>((5-bis. Le disposizioni di cui ai commi 2, 3, 4 e 5 si applicano anche alle procedure di affidamento di lavori, servizi e forniture esperite dal Dipartimento della pubblica sicurezza del Ministero dell'interno per la realizzazione degli interventi di propria competenza necessari per il corretto svolgimento degli eventi connessi con la presidenza italiana del G7))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_14" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_15"/>
+                        <new>
+                            <nakn:text>((Per l'attuazione dell'articolo 1 e' autorizzata la spesa di euro 18.050.000 per l'anno 2024, dei quali euro 50.000 per il compenso del Commissario straordinario di cui al quarto periodo del comma 1 del citato articolo 1 ed euro 18.000.000 per la realizzazione degli interventi infrastrutturali e manutentivi di cui al medesimo articolo 1. Agli oneri))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_15" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_16"/>
+                        <new>
+                            <nakn:text>((, comma 397,))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_16" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_17"/>
+                        <new>
+                            <nakn:text>((ANAS S.p.a.))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO-LEGGE/stato/2024-01-19/5/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/LEGGE/stato/2024-03-13/30/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/01/19/24G00015/CONSOLIDATED/20240320">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni urgenti per la realizzazione degli interventi infrastrutturali connessi con la presidenza italiana del G7. (24G00015)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00015</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-01-19</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/01/19/24G00015/CONSOLIDATED/20240320/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/01/19/24G00015/CONSOLIDATED/20240320"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/01/19/24G00015/CONSOLIDATED/20240320/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/01/19/24G00015/CONSOLIDATED/20240320/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legge/stato/2024/5" nativeUrn="urn:nir:stato:decreto.legge:2024-01-19;5" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-01-19"><ns0:event type="enacted" date="2024-01-19"/><ns0:event type="published" date="2024-01-19"/><ns0:event type="commenced" date="2024-01-19"/><ns0:event type="amended" date="2024-03-19"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/7e64d414-d6ce-417d-b327-9827b88f4478" sourceSha256="50dccfb9d5264f148f95f1873617e6bc3bf25459ee742bfe34a4e5826ab6ec00" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:23:42.131890Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO-LEGGE</docType>
+                <docDate date="2024-01-19">19 gennaio 2024</docDate>
+                <docNumber>5</docNumber>
+                <docTitle>Disposizioni urgenti per la realizzazione degli interventi infrastrutturali connessi con la presidenza italiana del G7. (24G00015) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 20/01/2024
+
+Decreto-Legge convertito con modificazioni dalla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2024-03-13/30/!main" ns1:target="olf:it/legge/stato/2024/30" ns1:relation="cites">L. 13 marzo 2024, n. 30</ref> (in G.U. 19/03/2024, n. 66).</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visti gli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_77" ns2:target="olf:it/costituzione/stato/1947/const/art_77" ns2:relation="cites">articoli 77</ref> e <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87" ns3:target="olf:it/costituzione/stato/1947/const/art_87" ns3:relation="cites">87 della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <p>Ritenuta la straordinaria necessita' e l'urgenza di agevolare le procedure di realizzazione degli interventi infrastrutturali indispensabili alla buona riuscita degli eventi correlati alla presidenza italiana del G7, anche in relazione alle esigenze connesse al vertice dei Capi di Stato e di Governo che si svolgera' nei giorni dal 13 e al 15 giugno 2024;</p>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione del 16 gennaio 2024;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Presidente del Consiglio dei ministri, di concerto con il Ministro dell'economia e delle finanze e il Ministro delle infrastrutture e dei trasporti;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto-legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Interventi funzionali alla presidenza italiana del G7 nel 2024</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Con decreto del Presidente del Consiglio dei ministri, e' nominato un Commissario straordinario con il compito di procedere alla urgente realizzazione degli interventi infrastrutturali e manutentivi connessi con la presidenza italiana del G7 nel 2024 e con lo svolgimento in Italia del vertice dei Capi di Stato e di Governo in programma dal 13 al 15 giugno 2024. Per l'esercizio delle proprie funzioni <ins eId="ins_1">((e per le attivita'))</ins> connesse alla realizzazione degli interventi infrastrutturali, il Commissario straordinario puo' avvalersi, senza nuovi o maggiori oneri per la finanza pubblica, delle strutture delle amministrazioni locali e degli enti territoriali, delle strutture periferiche delle amministrazioni centrali dello Stato, nonche', nel limite di 100.000 euro per il 2024, <ins eId="ins_2">((delle strutture dell'Autorita' di sistema portuale del Mare Adriatico meridionale e))</ins> di societa' controllate direttamente o indirettamente dallo Stato, dalle regioni o da altri soggetti di cui all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_1-com2" ns4:target="olf:it/legge/stato/2009/196/art_1-com2" ns4:relation="cites">articolo 1, comma 2, della legge 31 dicembre 2009, n. 196</ref> <ins eId="ins_3">((, con il potere di coordinare l'attuazione degli interventi in corso o programmati sulle infrastrutture di interesse))</ins>; gli oneri relativi al supporto tecnico sono posti a carico dei quadri economici degli interventi con determina del Commissario di cui al presente comma, nel limite massimo del 3 per cento delle risorse disponibili. Per la gestione finanziaria connessa agli interventi di cui al presente comma, il Commissario puo' chiedere l'apertura di apposita contabilita' speciale. Con il decreto di cui al primo periodo e' altresi' <ins eId="ins_4">((stabilito))</ins> il compenso del Commissario, in misura non superiore a 50.000 euro, comprensivo degli oneri a carico dell'amministrazione, per l'anno 2024. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Agli appalti pubblici di lavori, servizi e forniture da aggiudicare da parte del <ins eId="ins_5">((Commissario straordinario nominato ai sensi del comma 1))</ins> si applica la procedura negoziata senza pubblicazione di un bando di gara, di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2006-04-12/163/!main#art_76" ns5:target="olf:it/decreto-legislativo/stato/2006/163/art_76" ns5:relation="cites">articolo 76 del codice dei contratti pubblici</ref>, di cui al <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2023-03-31/36/!main" ns6:target="olf:it/decreto-legislativo/stato/2023/36" ns6:relation="cites">decreto legislativo 31 marzo 2023, n. 36</ref>, anche per gli appalti di importo superiore alle soglie di rilevanza europea, sulla base di una motivazione che dia conto, per i singoli interventi, delle ragioni di urgenza e della necessita' di derogare all'ordinaria procedura di gara, per motivi strettamente correlati ai tempi di realizzazione degli stessi nei termini necessari a garantire l'operativita' delle strutture a supporto <ins eId="ins_6">((della presidenza))</ins> italiana del G7. Resta salvo il ricorso alle procedure di affidamento diretto di cui all'articolo 50, comma 1, lettere a) e b), del codice di cui al <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2023/36/!main" ns7:resolution="unresolved">decreto legislativo n. 36 del 2023</ref>. Per gli appalti di cui al primo periodo relativi agli interventi di messa in sicurezza delle infrastrutture stradali della rete statale, la selezione degli operatori economici da parte del <ins eId="ins_7">((Commissario straordinario))</ins> puo' avvenire anche nell'ambito degli accordi quadro di cui all'articolo 59 <ins eId="ins_8">((del codice di cui al decreto legislativo n. 36 del 2023))</ins> conclusi <ins eId="ins_9">((dalla societa' ANAS S.p.a.))</ins> e ancora efficaci alla data dell'affidamento. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Nei casi di cui al comma 2, si procede all'esecuzione anticipata del contratto, prima della <ins eId="ins_10">((stipulazione))</ins>. Alla verifica del rispetto delle prescrizioni imposte dalle disposizioni del codice delle leggi antimafia e delle misure di prevenzione, di cui al <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns8:target="olf:it/decreto-legislativo/stato/2011/159" ns8:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref>, si procede secondo le previsioni di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegge/stato/2020-07-16/76/!main#art_3" ns9:target="olf:it/decreto-legge/stato/2020/76/art_3" ns9:relation="cites">articolo 3 del decreto-legge 16 luglio 2020, n. 76</ref>, convertito, con modificazioni, dalla <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2020-09-11/120/!main" ns10:target="olf:it/legge/stato/2020/120" ns10:relation="cites">legge 11 settembre 2020, n. 120</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>In caso di impugnazione degli atti relativi alle procedure di affidamento di cui al comma 2 e nei giudizi che riguardano le procedure di progettazione, autorizzazione, approvazione e realizzazione delle opere si applica l'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2010-07-02/104/!main#art_125" ns11:target="olf:it/decreto-legislativo/stato/2010/104/art_125" ns11:relation="cites">articolo 125 del codice del processo amministrativo</ref> <ins eId="ins_11">((, di cui all'allegato 1 al decreto legislativo))</ins> 2 luglio 2010, n. 104. In sede di pronuncia del provvedimento cautelare si tiene conto della coerenza della misura adottata con la realizzazione degli obiettivi di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Per la realizzazione degli interventi infrastrutturali e manutentivi <ins eId="ins_12">((e l'affidamento delle attivita' di esecuzione dei lavori, servizi e forniture di cui al comma 1))</ins> si procede in deroga a ogni disposizione di legge diversa da quella penale, fatto salvo il rispetto dei principi generali dell'ordinamento, delle disposizioni del codice delle leggi antimafia <ins eId="ins_13">((e delle misure di prevenzione,))</ins> di cui al <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns12:target="olf:it/decreto-legislativo/stato/2011/159" ns12:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref>, nonche' dei vincoli inderogabili derivanti dall'appartenenza all'Unione europea. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>((5-bis. Le disposizioni di cui ai commi 2, 3, 4 e 5 si applicano anche alle procedure di affidamento di lavori, servizi e forniture esperite dal Dipartimento della pubblica sicurezza del Ministero dell'interno per la realizzazione degli interventi di propria competenza necessari per il corretto svolgimento degli eventi connessi con la presidenza italiana del G7))</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Disposizioni finanziarie</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>
+                                <ins eId="ins_15">((Per l'attuazione dell'articolo 1 e' autorizzata la spesa di euro 18.050.000 per l'anno 2024, dei quali euro 50.000 per il compenso del Commissario straordinario di cui al quarto periodo del comma 1 del citato articolo 1 ed euro 18.000.000 per la realizzazione degli interventi infrastrutturali e manutentivi di cui al medesimo articolo 1. Agli oneri))</ins> derivanti dall'attuazione del presente comma, pari ad euro 18.050.000 per l'anno 2024, si provvede: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>quanto a 5.350.000 euro, mediante corrispondente riduzione della dotazione del Fondo di cui all'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns13:target="olf:it/legge/stato/2014/190/art_1-com200" ns13:relation="cites">articolo 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>quanto a 2.200.000 euro, mediante corrispondente riduzione dello stanziamento del fondo speciale di conto capitale iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero degli affari esteri e della cooperazione internazionale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>quanto a 10.500.000 euro da destinare agli interventi di messa in sicurezza delle infrastrutture stradali della rete statale, mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'articolo 1 <ins eId="ins_16">((, comma 397,))</ins> della <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2021-12-30/234/!main" ns14:target="olf:it/legge/stato/2021/234" ns14:relation="cites">legge 30 dicembre 2021, n. 234</ref>, come rifinanziata dalla <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2022-12-29/197/!main" ns15:target="olf:it/legge/stato/2022/197" ns15:relation="cites">legge 29 dicembre 2022, n. 197</ref>, destinata al finanziamento del contratto di programma 2021-2025 tra il Ministero delle infrastrutture e dei trasporti e la societa' <ins eId="ins_17">((ANAS S.p.a.))</ins>. </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il presente decreto entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana e sara' presentato alle Camere per la conversione in legge. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 19 gennaio 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giorgetti, Ministro dell'economia e delle finanze Salvini, Ministro delle infrastrutture e dei trasporti Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
