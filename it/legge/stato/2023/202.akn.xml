@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-12-04/202/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-12-04/202"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-12-04;202"/>
+                    <FRBRalias name="eli" value="eli/id/2023/12/22/23G00211/ORIGINAL"/>
+                    <FRBRdate date="2023-12-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/22/23G00211/ORIGINAL" aknrelname="eli/id/2023/12/22/23G00211/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Istituzione di una Commissione parlamentare di inchiesta sulla scomparsa di Emanuela Orlandi e di Mirella Gregori. (23G00211)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00211" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-12-04" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-12-04/202/ita@2024-01-06/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-12-04/202/ita@2024-01-06"/>
+                    <FRBRdate date="2024-01-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/22/23G00211/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/12/22/23G00211/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/12/22/23G00211/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-12-04/202/ita@2024-01-06/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-12-04/202/ita@2024-01-06.xml"/>
+                    <FRBRdate date="2023-12-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/22/23G00211/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-12-22" name="" number="298" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-12-22" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2023-12-04" refersTo="#C.665"/>
+                <step by="#senato" date="2023-12-04" refersTo="#S.622"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-12-04/202/!main" showAs=""/>
+                <passiveRef eId="C.665" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;665" showAs=""/>
+                <passiveRef eId="S.622" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;622" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/12/22/23G00211/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Istituzione di una Commissione parlamentare di inchiesta sulla scomparsa di Emanuela Orlandi e di Mirella Gregori. (23G00211)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00211</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-12-04</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/12/22/23G00211/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/12/22/23G00211/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/12/22/23G00211/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/12/22/23G00211/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/202" nativeUrn="urn:nir:stato:legge:2023-12-04;202" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-12-22"><ns0:event type="enacted" date="2023-12-04"/><ns0:event type="published" date="2023-12-22"/><ns0:event type="commenced" date="2023-12-22"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/0e2b43ad-0c9c-41c5-8133-526d4ffb3328" sourceSha256="718469311d91533660fc87e649b4a239cb1eed70b5be7261c60f41640fe2e363" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T21:08:40.949140Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-12-04">04 dicembre 2023</docDate>
+                <docNumber>202</docNumber>
+                <docTitle>Istituzione di una Commissione parlamentare di inchiesta sulla scomparsa di Emanuela Orlandi e di Mirella Gregori. (23G00211) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 06/01/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Istituzione e compiti della Commissione 
+ parlamentare di inchiesta</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>E' istituita, ai sensi dell'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_82" ns1:target="olf:it/costituzione/stato/1947/const/art_82" ns1:relation="cites">articolo 82 della Costituzione</ref>, per la durata della XIX legislatura, una Commissione parlamentare di inchiesta sulla scomparsa di Emanuela Orlandi e di Mirella Gregori, di seguito denominata «Commissione». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_1__para_2__intro_1">
+                            <p>La Commissione ha i seguenti compiti: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>ricostruire e analizzare in maniera puntuale la dinamica della scomparsa di Emanuela Orlandi e quella della scomparsa di Mirella Gregori; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>verificare ed esaminare il materiale e i dati acquisiti attraverso le inchieste giudiziarie e le inchieste giornalistiche riguardanti la scomparsa di Emanuela Orlandi e quella di Mirella Gregori; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>esaminare e verificare fatti, atti e condotte commissive oppure omissive che possano avere costituito ostacolo o ritardo o avere portato ad allontanarsi dalla ricostruzione veritiera dei fatti necessaria all'accertamento giurisdizionale delle responsabilita' connesse agli eventi, anche promuovendo azioni presso Stati esteri, finalizzate ad ottenere documenti o altri elementi di prova in loro possesso che siano utili alla ricostruzione della vicenda; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>verificare, mediante l'analisi degli atti processuali e del materiale investigativo raccolto negli anni, quali criticita' e circostanze possano avere ostacolato il sistema giudiziario nell'accertamento dei fatti e delle responsabilita'. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La Commissione, al termine dei propri lavori, presenta alle Camere una relazione sulle risultanze dell'inchiesta. Sono ammesse relazioni di minoranza. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_82" ns3:target="olf:it/costituzione/stato/1947/const/art_82" ns3:relation="cites">art. 82 della Costituzione</ref> e' il seguente: 
+ «Art. 82. - Ciascuna Camera puo' disporre inchieste su materie di pubblico interesse. 
+ A tale scopo nomina fra i propri componenti una commissione formata in modo da rispecchiare la proporzione dei vari gruppi. 
+ La commissione d'inchiesta procede alle indagini e agli esami con gli stessi poteri e le stesse limitazioni dell'autorita' giudiziaria.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Composizione della Commissione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Commissione e' composta da venti senatori e da venti deputati, scelti rispettivamente dal Presidente del Senato della Repubblica e dal Presidente della Camera dei deputati in proporzione al numero dei componenti dei gruppi parlamentari, assicurando comunque la presenza di almeno un senatore per ciascun gruppo esistente al Senato della Repubblica e di almeno un deputato per ciascun gruppo esistente alla Camera dei deputati. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>I componenti della Commissione dichiarano alla Presidenza della Camera di appartenenza di non avere ricoperto o di non ricoprire ruoli nei procedimenti giudiziari relativi ai fatti oggetto dell'inchiesta. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Il Presidente del Senato della Repubblica e il Presidente della Camera dei deputati, d'intesa tra loro, convocano la Commissione, entro dieci giorni dalla nomina dei suoi componenti, per la costituzione dell'ufficio di presidenza. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>L'ufficio di presidenza, composto dal presidente, da due vicepresidenti e da due segretari, e' eletto a scrutinio segreto dalla Commissione tra i suoi componenti. Per l'elezione del presidente e' necessaria la maggioranza assoluta dei componenti della Commissione. Se nessuno riporta tale maggioranza, si procede al ballottaggio tra i due candidati che hanno ottenuto il maggior numero di voti; e' eletto il candidato che ottiene il maggior numero di voti. In caso di parita' di voti e' proclamato eletto o entra in ballottaggio il piu' anziano di eta'. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Per l'elezione, rispettivamente, dei due vicepresidenti e dei due segretari, ciascun componente della Commissione scrive sulla propria scheda un solo nome. Sono eletti coloro che hanno ottenuto il maggior numero di voti. In caso di parita' di voti si procede ai sensi del comma 4. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Le disposizioni dei commi 4 e 5 si applicano anche per le elezioni suppletive. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Audizioni a testimonianza</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per le audizioni a testimonianza davanti alla Commissione si applicano le disposizioni degli <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_366" ns4:target="olf:it/regio-decreto/stato/1930/1398/art_366" ns4:relation="cites">articoli 366</ref> e <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_372" ns5:target="olf:it/regio-decreto/stato/1930/1398/art_372" ns5:relation="cites">372 del codice penale</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per i fatti oggetto dell'inchiesta parlamentare non e' opponibile alla Commissione il segreto d'ufficio, professionale o bancario. E' sempre opponibile il segreto tra difensore e parte processuale nell'ambito del mandato. Per il segreto di Stato si applica quanto previsto dalla <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2007-08-03/124/!main" ns6:target="olf:it/legge/stato/2007/124" ns6:relation="cites">legge 3 agosto 2007, n. 124</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Il testo dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_366" ns7:target="olf:it/regio-decreto/stato/1930/1398/art_366" ns7:relation="cites">art. 366 del codice penale</ref> e' il seguente: 
+ «Art. 366. - Chiunque, nominato dall'Autorita' giudiziaria perito, interprete, ovvero custode di cose sottoposte a sequestro dal giudice penale, ottiene con mezzi fraudolenti l'esenzione dall'obbligo di comparire o di prestare il suo ufficio, e' punito con la reclusione fino a sei mesi o con la multa da lire trecento a cinquemila. 
+ Le stesse pene si applicano a chi, chiamato dinanzi all'Autorita' giudiziaria per adempiere ad alcuna delle predette funzioni, rifiuta di dare le proprie generalita', ovvero di prestare il giuramento richiesto, ovvero di assumere o di adempiere le funzioni medesime. 
+ Le disposizioni precedenti si applicano alla persona chiamata a deporre come testimonio dinanzi all'Autorita' giudiziaria e ad ogni altra persona chiamata ad esercitare una funzione giudiziaria. 
+ Se il colpevole e' un perito o un interprete, la condanna importa l'interdizione dalla professione o dall'arte.». 
+ - Il testo dell'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_372" ns8:target="olf:it/regio-decreto/stato/1930/1398/art_372" ns8:relation="cites">art. 372 del codice penale</ref> e' il seguente: 
+ «Art. 372. - Chiunque, deponendo come testimone innanzi all'Autorita' giudiziaria o alla Corte penale internazionale, afferma il falso o nega il vero, ovvero tace, in tutto o in parte, cio' che sa intorno ai fatti sui quali e' interrogato, e' punito con la reclusione da due a sei anni.». 
+ - La <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2007-08-03/124/!main" ns9:target="olf:it/legge/stato/2007/124" ns9:relation="cites">legge 3 agosto 2007, n. 124</ref>, recante: «Sistema di informazione per la sicurezza della Repubblica e nuova disciplina del segreto» e' stata pubblicata nella Gazzetta Ufficiale n. 187 del 24 agosto 2007. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Poteri e limiti della Commissione</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Commissione procede alle indagini e agli esami con gli stessi poteri e le stesse limitazioni dell'autorita' giudiziaria. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Commissione non puo' adottare provvedimenti attinenti alla liberta' e alla segretezza della corrispondenza e di ogni altra forma di comunicazione, nonche' alla liberta' personale, fatto salvo l'accompagnamento coattivo di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_133" ns10:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_133" ns10:relation="cites">articolo 133 del codice di procedura penale</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La Commissione ha facolta' di ottenere, nelle materie attinenti alle finalita' della presente legge, anche in deroga al divieto stabilito dall'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_329" ns11:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_329" ns11:relation="cites">articolo 329 del codice di procedura penale</ref>, copie di atti e di documenti relativi a procedimenti e inchieste in corso presso l'autorita' giudiziaria o altri organi inquirenti, nonche' copie di atti e di documenti relativi a indagini e inchieste parlamentari. L'autorita' giudiziaria puo' trasmettere copie di atti e di documenti anche di propria iniziativa. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>L'autorita' giudiziaria provvede tempestivamente e puo' ritardare la trasmissione di copia degli atti e dei documenti richiesti, con decreto motivato solo per ragioni di natura istruttoria. Il decreto ha efficacia per sei mesi e puo' essere rinnovato. Quando tali ragioni vengono meno, l'autorita' giudiziaria provvede senza ritardo a trasmettere quanto richiesto. Il decreto non puo' essere rinnovato o avere efficacia oltre la chiusura delle indagini preliminari. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>La Commissione garantisce il mantenimento del regime di segretezza fino a quando gli atti e i documenti trasmessi in copia ai sensi del comma 3 sono coperti da segreto. Devono in ogni caso essere coperti dal segreto gli atti e i documenti attinenti a procedimenti giudiziari nella fase delle indagini preliminari. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>La Commissione ha facolta' di acquisire da organi e uffici della pubblica amministrazione copie di atti e di documenti da essi custoditi, prodotti o comunque acquisiti nelle materie attinenti alle finalita' della presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Quando gli atti o i documenti siano stati assoggettati al vincolo di segreto funzionale da parte delle competenti Commissioni parlamentari di inchiesta, tale segreto non puo' essere opposto alla Commissione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Fermo restando quanto previsto dal comma 5, la Commissione stabilisce quali atti e documenti non devono essere divulgati, anche in relazione ad esigenze attinenti ad altre istruttorie o inchieste in corso. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_9">
+                    <num>9.</num>
+                    <content>
+                        <p>Ove occorra chiedere lo svolgimento di accertamenti o l'acquisizione di documenti fuori del territorio dello Stato, si applicano le pertinenti disposizioni del capo II del titolo III del libro XI del <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns12:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns12:relation="cites">codice di procedura penale</ref> e dei trattati internazionali. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Il testo dell'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_133" ns13:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_133" ns13:relation="cites">art. 133 del codice di procedura penale</ref> e' il seguente: 
+ «Art. 133. - 1. Se il testimone, il perito, la persona sottoposta all'esame del perito diversa dall'imputato, il consulente tecnico, l'interprete o il custode di cose sequestrate, regolarmente citati o convocati, omettono senza un legittimo impedimento di comparire nel luogo, giorno e ora stabiliti, il giudice puo' ordinarne l'accompagnamento coattivo e puo' altresi' condannarli, con ordinanza, al pagamento di una somma da lire centomila a lire un milione a favore della cassa delle ammende nonche' alle spese alle quali la mancata comparizione ha dato causa. 
+ 1-bis. La disposizione di cui al comma 1 non si applica in caso di mancata comparizione del querelante all'udienza in cui sia stato citato a comparire come testimone, limitatamente ai casi in cui la mancata comparizione del querelante integra remissione tacita di querela, nei casi in cui essa e' consentita. 
+ 2. Si applicano le disposizioni dell'art. 132.». 
+ - Il testo dell'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_329" ns14:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_329" ns14:relation="cites">art. 329 del codice di procedura penale</ref> e' il seguente: 
+ «Art. 329. - 1. Gli atti di indagine compiuti dal pubblico ministero e dalla polizia giudiziaria, le richieste del pubblico ministero di autorizzazione al compimento di atti di indagine e gli atti del giudice che provvedono su tali richieste sono coperti dal segreto fino a quando l'imputato non ne possa avere conoscenza e, comunque, non oltre la chiusura delle indagini preliminari. 
+ 2. Quando e' strettamente necessario per la prosecuzione delle indagini, il pubblico ministero puo', in deroga a quanto previsto dall'art. 114, consentire, con decreto motivato, la pubblicazione di singoli atti o di parti di essi. In tal caso, gli atti pubblicati sono depositati presso la segreteria del pubblico ministero. 
+ 3. Anche quando gli atti non sono piu' coperti dal segreto a norma del comma 1, il pubblico ministero, in caso di necessita' per la prosecuzione delle indagini, puo' disporre con decreto motivato: 
+ a) l'obbligo del segreto per singoli atti, quando l'imputato lo consente o quando la conoscenza dell'atto puo' ostacolare le indagini riguardanti altre persone; 
+ b) il divieto di pubblicare il contenuto di singoli atti o notizie specifiche relative a determinate operazioni.». 
+ - Il testo del Capo II del titolo III del libro XI del <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns15:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns15:relation="cites">codice di procedura penale</ref> reca: 
+ «Rogatorie all'estero». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Obbligo del segreto</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>I componenti della Commissione, i funzionari e il personale di qualsiasi ordine e grado addetti alla Commissione stessa e ogni altra persona che collabora con la Commissione o compie o concorre a compiere atti di inchiesta oppure ne viene a conoscenza per ragioni di ufficio o di servizio sono obbligati al segreto per tutto quanto riguarda gli atti e i documenti di cui all'articolo 4, commi 5 e 8. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Salvo che il fatto costituisca piu' grave reato, la violazione del segreto e' punita ai sensi dell'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_326" ns16:target="olf:it/regio-decreto/stato/1930/1398/art_326" ns16:relation="cites">articolo 326 del codice penale</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Salvo che il fatto costituisca piu' grave reato, le pene di cui al comma 2 si applicano a chiunque diffonde in tutto o in parte, anche per riassunto o informazione, atti o documenti del procedimento di inchiesta dei quali e' stata vietata la divulgazione. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'art. 5: 
+ - Il testo dell'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_326" ns17:target="olf:it/regio-decreto/stato/1930/1398/art_326" ns17:relation="cites">art. 326 del codice penale</ref> e' il seguente: 
+ «Art. 326. - Il pubblico ufficiale o la persona incaricata di un pubblico servizio, che, violando i doveri inerenti alle funzioni o al servizio, o comunque abusando della sua qualita', rivela notizie di ufficio, le quali debbano rimanere segrete, o ne agevola in qualsiasi modo la conoscenza, e' punito con la reclusione da sei mesi a tre anni. 
+ Se l'agevolazione e' soltanto colposa, si applica la reclusione fino a un anno. 
+ Il pubblico ufficiale o la persona incaricata di un pubblico servizio, che, per procurare a se' o ad altri un indebito profitto patrimoniale, si avvale illegittimamente di notizie di ufficio, le quali debbano rimanere segrete, e' punito con la reclusione da due a cinque anni. Se il fatto e' commesso al fine di procurare a se' o ad altri un ingiusto profitto non patrimoniale o di cagionare ad altri un danno ingiusto, si applica la pena della reclusione fino a due anni.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Organizzazione dei lavori</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>L'attivita' e il funzionamento della Commissione sono disciplinati da un regolamento interno approvato dalla Commissione stessa prima dell'inizio dei suoi lavori. Ciascun componente puo' proporre la modifica delle norme regolamentari. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le sedute della Commissione sono pubbliche. Tuttavia, la Commissione puo' deliberare di riunirsi in seduta segreta tutte le volte che lo ritenga opportuno. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La Commissione puo' avvalersi dell'opera di agenti e di ufficiali di polizia giudiziaria e di tutte le collaborazioni che ritiene necessarie. Con il regolamento interno di cui al comma 1 e' stabilito il numero massimo di collaborazioni di cui puo' avvalersi la Commissione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Per l'adempimento delle sue funzioni, la Commissione fruisce di personale, locali e strumenti operativi messi a disposizione dal Presidente del Senato della Repubblica e dal Presidente della Camera dei deputati, d'intesa tra loro. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>La Commissione cura l'informatizzazione dei documenti acquisiti e prodotti nel corso della propria attivita'. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Le spese per il funzionamento della Commissione, stabilite nel limite massimo di 50.000 euro annui, sono poste per meta' a carico del bilancio interno del Senato della Repubblica e per meta' a carico del bilancio interno della Camera dei deputati. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 4 dicembre 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
