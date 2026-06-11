@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-29/107/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-29/107"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-07-29;107"/>
+                    <FRBRalias name="eli" value="eli/id/2024/07/31/24G00125/ORIGINAL"/>
+                    <FRBRdate date="2024-07-29" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/31/24G00125/ORIGINAL" aknrelname="eli/id/2024/07/31/24G00125/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 7 giugno 2024, n. 73, recante misure urgenti per la riduzione dei tempi delle liste di attesa delle prestazioni sanitarie. (24G00125)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00125" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-07-29" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-29/107/ita@2024-08-01/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-29/107/ita@2024-08-01"/>
+                    <FRBRdate date="2024-08-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/31/24G00125/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/07/31/24G00125/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/07/31/24G00125/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-29/107/ita@2024-08-01/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-29/107/ita@2024-08-01.xml"/>
+                    <FRBRdate date="2024-07-29" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/31/24G00125/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-07-31" name="" number="178" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-07-31" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-07-29" refersTo="#S.1161"/>
+                <step by="#camera" date="2024-07-29" refersTo="#C.1975"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-29;107#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1999-12-21;517#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 7 giugno 2024, n. 73 (in G.U. 07/06/2024, n. 132).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-29;107#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-07;73#1"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, 2, 3, 4, 5, lettere c) e g), 6 e la soppressione della lettera e) dell'art. 1, comma 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-29;107#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-07;73#2"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-29;107#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-07;73#3"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, 3, 6, 7, 10, 11 e rubrica e l'introduzione dei commi 3-bis, 4-bis, 10-bis e 11-bis all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-29;107#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-07;73#4"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 1, 2 e rubrica e l'introduzione del comma 1-bis all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-29;107#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-07;73#5"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-29;107#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-07;73#6"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, comma 1, alinea e lettere b) e d) e l'introduzione del comma 1-bis all'art. 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-29;107#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-07;73#7"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, commi 5 e 6, lettere a), d) ed e).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-29;107#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-07;73#7 bis"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_1__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_1__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_1__para_3"/>
+                        <old href="#modNov_1_old_4"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_1__para_4"/>
+                        <old href="#modNov_1_old_5"/>
+                        <new href="#modNov_1_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_1__para_5__point_c"/>
+                        <old href="#modNov_1_old_6"/>
+                        <new href="#modNov_1_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_1__para_5__point_e"/>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_1__para_5__point_g"/>
+                        <old href="#modNov_1_old_8"/>
+                        <new href="#modNov_1_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_1__para_6"/>
+                        <new href="#modNov_1_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_2"/>
+                        <new href="#modNov_2_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_1"/>
+                        <new href="#modNov_3_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="repeal">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_3"/>
+                        <old href="#modNov_3_old_12"/>
+                        <new href="#modNov_3_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_3-bis"/>
+                        <new href="#modNov_3_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_10"/>
+                        <new href="#modNov_3_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_10"/>
+                        <old href="#modNov_3_old_15"/>
+                        <new href="#modNov_3_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_10-bis"/>
+                        <new href="#modNov_3_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_11"/>
+                        <new href="#modNov_3_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_11-bis"/>
+                        <new href="#modNov_3_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_4-bis"/>
+                        <new href="#modNov_3_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3__para_7"/>
+                        <new href="#modNov_3_new_22"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3"/>
+                        <new href="#modNov_3_new_23"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_3"/>
+                        <old href="#modNov_3_old_24"/>
+                        <new href="#modNov_3_new_24"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_4__para_2"/>
+                        <old href="#modNov_4_old_25"/>
+                        <new href="#modNov_4_new_25"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_4__para_1"/>
+                        <new href="#modNov_4_new_26"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_4__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_4__para_1-bis"/>
+                        <new href="#modNov_4_new_28"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_4__para_2"/>
+                        <new href="#modNov_4_new_29"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="repeal">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_4__para_2"/>
+                        <old href="#modNov_4_old_30"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_4"/>
+                        <new href="#modNov_4_new_31"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_5__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_5__para_1"/>
+                        <old href="#modNov_5_old_34"/>
+                        <new href="#modNov_5_new_34"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_5__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="repeal">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_6__para_1"/>
+                        <old href="#modNov_6_old_32"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_6__para_1"/>
+                        <old href="#modNov_6_old_36"/>
+                        <new href="#modNov_6_new_36"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_6__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_6__para_1__point_b"/>
+                        <old href="#modNov_6_old_38"/>
+                        <new href="#modNov_6_new_38"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_6__para_1__point_d"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_6__para_1__point_d"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_6__para_1-bis"/>
+                        <new href="#modNov_6_new_41"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_7__para_6__point_e"/>
+                        <old href="#modNov_7_old_42"/>
+                        <new href="#modNov_7_new_42"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="repeal">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_7__para_5"/>
+                        <old href="#modNov_7_old_43"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_7__para_6__point_a"/>
+                        <old href="#modNov_7_old_44"/>
+                        <new href="#modNov_7_new_44"/>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_7__para_6__point_d"/>
+                        <old href="#modNov_7_old_45"/>
+                        <new href="#modNov_7_new_45"/>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="insertion">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-07/73/ita@2024-08-01/!main/~art_7-bis"/>
+                        <new href="#modNov_8_new_46"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-07-29/107/!main" showAs=""/>
+                <passiveRef eId="S.1161" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1161" showAs=""/>
+                <passiveRef eId="C.1975" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1975" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/07/31/24G00125/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 7 giugno 2024, n. 73, recante misure urgenti per la riduzione dei tempi delle liste di attesa delle prestazioni sanitarie. (24G00125)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00125</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-07-29</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/07/31/24G00125/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/07/31/24G00125/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/07/31/24G00125/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/07/31/24G00125/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/107" nativeUrn="urn:nir:stato:legge:2024-07-29;107" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-07-31"><ns0:event type="enacted" date="2024-07-29"/><ns0:event type="published" date="2024-07-31"/><ns0:event type="commenced" date="2024-07-31"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/081e748e-deec-4092-b0b1-4edcf1df1bac" sourceSha256="cbd1fe3cb00498eae97b1f8f1f68a48a2d7f5c74836ac357c63d673bc6ced041" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:09:49.182074Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-07-29">29 luglio 2024</docDate>
+                <docNumber>107</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 7 giugno 2024, n. 73, recante misure urgenti per la riduzione dei tempi delle liste di attesa delle prestazioni sanitarie. (24G00125) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 01/08/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2024-06-07/73/!main" ns1:target="olf:it/decreto-legge/stato/2024/73" ns1:relation="repeals">decreto-legge 7 giugno 2024, n. 73</ref>, recante misure urgenti per la riduzione dei tempi delle liste di attesa delle prestazioni sanitarie, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2024-06-07/73/!main" ns2:target="olf:it/decreto-legge/stato/2024/73" ns2:relation="repeals">decreto-legge 7 giugno 2024, n. 73</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 132 del 7 giugno 2024. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 26. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 29 luglio 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Schillaci, Ministro della salute Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-07-29/107/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-07-29/107"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-07-29;107"/>
+                                <FRBRalias name="eli" value="eli/id/2024/07/31/24G00125/ORIGINAL"/>
+                                <FRBRdate date="2024-08-01" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-07-29/107/ita@2024-08-01/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-07-29/107/ita@2024-08-01"/>
+                                <FRBRdate date="2024-08-01" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-07-29/107/ita@2024-08-01/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-07-29/107/ita@2024-08-01.xml"/>
+                                <FRBRdate date="2024-07-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 7 GIUGNO 2024, N. 73 
+ 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1, dopo le parole: «le liste di attesa» sono inserite le seguenti: «delle prestazioni sanitarie» e dopo le parole: «Missione 6 - Salute» sono inserite le seguenti: «, componente 1,»;  al comma 2, le parole: «"Tessera Sanitaria - TS"» sono sostituite dalle seguenti: «del sistema Tessera sanitaria (TS)» e le parole: «ricetta SSN» sono sostituite dalle seguenti: «ricetta del Servizio sanitario nazionale (SSN)»; 
+ al comma 3, le parole: «<quotedText eId="modNov_1_old_4">i criteri di realizzazione, di funzionamento e di interoperabilita' tra la Piattaforma nazionale e le piattaforme regionali</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_4">i criteri di realizzazione e di funzionamento della Piattaforma nazionale di cui al comma 1 e i criteri di interoperabilita' tra la medesima Piattaforma e le piattaforme regionali</quotedText>»; 
+ al comma 4, le parole: «<quotedText eId="modNov_1_old_5">, della Missione 6 - Salute,</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_5">della Missione 6 - Salute, componente 1,</quotedText>»; 
+ al comma 5: 
+ alla lettera c), le parole: «<quotedText eId="modNov_1_old_6">del rispetto del divieto di sospensione o di chiusura delle attivita' di prenotazione</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_6">dei percorsi di tutela previsti dal Piano nazionale di governo delle liste di attesa</quotedText>»; 
+ la lettera e) e' soppressa; 
+ alla lettera g), le parole: «<quotedText eId="modNov_1_old_8">criteri Raggruppamenti Omogenei di Attesa</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_8">criteri dei Raggruppamenti di attesa omogenea</quotedText>»; 
+ al comma 6 e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_1_new_9">In relazione ai meccanismi di audit previsti al primo periodo, e' acquisito il preventivo parere della Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano</quotedText>».</mod>
+                                    <mod eId="modNov_2">L'articolo 2 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_2_new_10">Art. 2. (Organismo di verifica e controllo sull'assistenza sanitaria). - 1. Al fine di rafforzare le attivita' di controllo del Sistema nazionale di verifica e controllo sull'assistenza sanitaria (SiVeAS), di cui all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2005-12-23/266/!main#art_1-com288" ns4:target="olf:it/legge/stato/2005/266/art_1-com288" ns4:relation="cites">articolo 1, comma 288, della legge 23 dicembre 2005, n. 266</ref>, e' istituito presso il Ministero della salute l'Organismo di verifica e controllo sull'assistenza sanitaria, di seguito denominato "Organismo", che opera alle dirette dipendenze del Ministro della salute e svolge le funzioni gia' attribuite al predetto Sistema, assicurandone anche il relativo supporto tecnico, fatta eccezione per le funzioni di cui all'articolo 1, comma 3, lettere c), e), g), h) e l), del decreto del Ministro della salute 17 giugno 2006, pubblicato nella Gazzetta Ufficiale n. 189 del 16 agosto 2006, che continuano ad essere esercitate secondo quanto previsto dallo stesso decreto. Le attivita' dell'Organismo sono realizzate con programmi annuali secondo quanto previsto dall'articolo 2 del decreto di cui al primo periodo. 
+ 2. Al fine di promuovere e assicurare la piena ed efficace tutela degli interessi dei cittadini al corretto utilizzo dei finanziamenti erogati e di superare le divergenze esistenti nei differenti sistemi sanitari regionali, l'Organismo puo' esercitare il potere di accesso presso le aziende e gli enti del Servizio sanitario nazionale (SSN), presso le aziende ospedaliere universitarie e i policlinici universitari, presso gli erogatori privati accreditati nonche' presso tutti gli istituti di ricovero e cura a carattere scientifico, anche se trasformati in fondazioni, per verificare e analizzare le disfunzioni emergenti a seguito del controllo delle agende di prenotazione, nei limiti di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2004-12-30/311/!main#art_1-com172" ns5:target="olf:it/legge/stato/2004/311/art_1-com172" ns5:relation="cites">articolo 1, comma 172, della legge 30 dicembre 2004, n. 311</ref>, e dei relativi provvedimenti attuativi. Le risultanze dei controlli effettuati sono comunicate al Responsabile unico regionale dell'assistenza sanitaria (RUAS) di cui al comma 5, che provvede a valutare i conseguenti interventi. Nello svolgimento delle suddette funzioni, l'Organismo puo' avvalersi anche del supporto del Comando Carabinieri per la tutela della salute, senza ulteriori oneri a carico della finanza pubblica. 
+ 3. L'Organismo e' costituito da un ufficio dirigenziale di livello generale e quattro uffici di livello dirigenziale non generale, di cui tre di struttura complessa. Conseguentemente, la dotazione organica del Ministero della salute e' incrementata, a decorrere dal 1° luglio 2024, di un dirigente di livello generale e di quattro dirigenti di livello non generale, di cui tre da imputare all'aliquota sanitaria, alla cui copertura si provvede anche mediante l'indizione di nuove procedure concorsuali pubbliche. In sede di prima applicazione, gli incarichi dirigenziali di cui al primo periodo possono essere conferiti anche in deroga alle percentuali di cui all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_19-com6" ns6:target="olf:it/decreto-legislativo/stato/2001/165/art_19-com6" ns6:relation="cites">articolo 19, comma 6, del decreto legislativo 30 marzo 2001, n. 165</ref>. Per le medesime finalita', il Ministero della salute e' autorizzato a reclutare, nel biennio 2024-2025, con contratto di lavoro subordinato a tempo indeterminato, un contingente di 20 unita' di personale non dirigenziale, nell'ambito della dotazione organica, appartenenti all'area dei funzionari del vigente contratto collettivo nazionale - Comparto funzioni centrali, mediante procedure di passaggio diretto di personale tra amministrazioni pubbliche ai sensi dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2001/165/!main#art_30" ns7:resolution="unresolved">articolo 30 del decreto legislativo n. 165 del 2001</ref>, scorrimento di vigenti graduatorie di concorsi pubblici o avvio di nuove procedure concorsuali pubbliche. Le assunzioni sono effettuate in deroga alle ordinarie facolta' assunzionali. Nelle more dell'attuazione delle disposizioni di cui al quarto periodo, il Ministero della salute si avvale di un contingente fino a un massimo di 20 unita' di personale non dirigenziale, appartenenti all'area dei funzionari del Comparto funzioni centrali, scelto tra il personale delle amministrazioni pubbliche. Detto personale e' posto, ai sensi dell'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/1997-05-15/127/!main#art_17-com14" ns8:target="olf:it/legge/stato/1997/127/art_17-com14" ns8:relation="cites">articolo 17, comma 14, della legge 15 maggio 1997, n. 127</ref>, in posizione di comando, distacco o fuori ruolo o altro analogo istituto previsto dai rispettivi ordinamenti, ad esclusione del personale docente, educativo, amministrativo, tecnico e ausiliario delle istituzioni scolastiche. All'atto del collocamento fuori ruolo e' reso indisponibile, nella dotazione organica dell'amministrazione di provenienza, per tutta la durata del collocamento fuori ruolo, un numero di posti equivalente dal punto di vista finanziario. Per l'attuazione del presente comma e' autorizzata la spesa di euro 1.001.930 per l'anno 2024 e di euro 2.003.859 annui a decorrere dall'anno 2025 per le assunzioni a tempo indeterminato, di euro 160.000 per l'anno 2024 e di euro 250.000 annui a decorrere dall'anno 2025 per le spese di funzionamento, di euro 59.747 per l'anno 2024 e di euro 109.536 annui a decorrere dall'anno 2025 per il compenso del lavoro straordinario, nonche' di euro 23.100 per l'anno 2024 e di euro 46.200 annui a decorrere dall'anno 2025 per i buoni pasto. 
+ 4. Per le spese di missione di cui al comma 2 e' autorizzata la spesa di euro 125.000 per l'anno 2024 ed euro 250.000 annui a decorrere dall'anno 2025. 
+ 5. Le regioni e le province autonome di Trento e di Bolzano, entro sessanta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, istituiscono con specifica disposizione regionale l'Unita' centrale di gestione dell'assistenza sanitaria e dei tempi e delle liste di attesa, presieduta e coordinata dall'assessore alla sanita' e composta da professionisti di area sanitaria e amministrativa coinvolti nella funzione, che provvede, entro novanta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, a individuare il RUAS, a cui sono attribuiti le funzioni e gli obiettivi tematici e temporali in termini di efficacia ed efficienza dell'assistenza sanitaria e quelli contenuti nel Piano regionale sulle liste di attesa, da adottare con validita' annuale, e al quale non spettano compensi, gettoni di presenza, rimborsi di spesa o altri emolumenti comunque denominati. Il RUAS e' responsabile in ordine al rispetto dei criteri di efficienza nell'erogazione dei servizi e delle prestazioni sanitarie e sul corretto funzionamento del sistema di gestione delle liste di attesa e dei piani operativi per il recupero delle liste medesime nonche' dell'attuazione e del raggiungimento degli obiettivi contenuti nel Piano regionale sulle liste di attesa e provvede al controllo sull'avvenuto adempimento. Il RUAS verifica i volumi, i tempi di attesa e ogni altro dato necessario al monitoraggio da effettuare ai sensi del primo periodo e segnala le strutture che non rispettano i predetti termini per le finalita' di cui al presente comma, in tema di regolazione contrattuale degli erogatori. Con cadenza trimestrale, il RUAS redige e invia all'Organismo un rapporto di monitoraggio delle prestazioni critiche e delle liste di attesa in ambito aziendale, segnalando le eventuali criticita' e indicando le azioni correttive eventualmente poste in essere. Il RUAS procede alla definizione di interventi formativi che garantiscono che l'accoglienza dei pazienti e la comunicazione sulla permanenza nelle liste di attesa siano gestite con competenze adeguate da parte degli operatori incaricati. 
+ 6. In caso di mancata individuazione del RUAS entro il termine di cui al primo periodo del comma 5 o nel caso di ripetute inadempienze rispetto agli obiettivi di cui al presente decreto, l'Organismo puo' esercitare i poteri sostitutivi in relazione ai compiti affidati, ai sensi del presente decreto, alle regioni e al RUAS. Tali poteri sostitutivi sono attivati previo contraddittorio e con le modalita' e le procedure individuate con decreto del Presidente del Consiglio dei ministri, da adottare previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, entro trenta giorni dalla data di entrata in vigore della legge di conversione del presente decreto. Nell'esercizio dei poteri sostitutivi, l'Organismo puo' svolgere verifiche presso le aziende e gli enti del SSN, presso le aziende ospedaliere universitarie e i policlinici universitari, presso gli erogatori privati accreditati nonche' presso tutti gli istituti di ricovero e cura a carattere scientifico, anche se trasformati in fondazioni, sul rispetto dei criteri di efficienza e di appropriatezza nell'erogazione dei servizi e delle prestazioni sanitarie e sul corretto funzionamento del sistema di gestione delle liste di attesa e dei piani operativi per il recupero delle liste medesime. A tali fini, l'Organismo si avvale anche dei dati forniti dall'AGENAS, derivanti dall'utilizzo della Piattaforma nazionale di cui all'articolo 1 e dalle attivita' di audit svolte dalla stessa Agenzia ai sensi del comma 6 del medesimo articolo 1. 
+ 7. Dall'attuazione del presente articolo, ad eccezione dei commi 3 e 4, non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Agli oneri derivanti dai commi 3 e 4, pari a euro 1.369.777 per l'anno 2024 e a euro 2.659.595 annui a decorrere dall'anno 2025, si provvede, per l'anno 2024, mediante corrispondente riduzione dell'autorizzazione di spesa di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2007-12-24/244/!main#art_2-com361" ns9:target="olf:it/legge/stato/2007/244/art_2-com361" ns9:relation="cites">articolo 2, comma 361, della legge 24 dicembre 2007, n. 244</ref>, e, a decorrere dall'anno 2025, mediante corrispondente riduzione delle proiezioni dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della salute</quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 3: 
+ al comma 1 sono aggiunte<quotedText eId="modNov_3_new_18">,</quotedText> in fine, le seguenti parole: «<quotedText eId="modNov_3_new_3">, secondo le seguenti modalita' di accesso alle prestazioni: 
+ a) presa in carico della cronicita' e della fragilita' conseguenti a malattie croniche e degenerative e a malattie rare, con programmazione diretta e senza intermediazione dell'assistito o chi per esso degli accessi alle prestazioni coerenti con il piano personalizzato di assistenza; 
+ b) prenotazione al CUP unico a valenza regionale da parte dell'assistito o chi per esso di prestazioni necessitate da sintomi, segni ed eventi di tipo acuto che richiedono un approfondimento diagnostico o terapeutico; 
+ c) accesso diretto per la malattia mentale e da dipendenze patologiche e per le prestazioni di assistenza consultoriale; 
+ d) accesso a chiamata all'interno di progetti di screening su popolazione bersaglio per la diagnosi precoce di patologie oncologiche o di altra natura cronico-degenerativa</quotedText>»; 
+ al comma 3, la parola: «<quotedText eId="modNov_3_old_12">autorizzate</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_3_new_12">accreditate</quotedText>» e dopo le parole: «del 1992» il segno di interpunzione «,» e' soppresso; 
+ dopo il comma 3 e' inserito il seguente: 
+ «<quotedText eId="modNov_3_new_13">3-bis. Le regioni e le province autonome di Trento e di Bolzano possono riconoscere un punteggio aggiuntivo, nelle procedure concorsuali per l'assunzione presso le predette amministrazioni, a favore del personale che ha prestato servizio per la realizzazione delle attivita' di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegge/stato/2020-10-28/137/!main#art_20" ns10:target="olf:it/decreto-legge/stato/2020/137/art_20" ns10:relation="cites">articolo 20 del decreto-legge 28 ottobre 2020, n. 137</ref>, convertito, con modificazioni, dalla <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2020-12-18/176/!main" ns11:target="olf:it/legge/stato/2020/176" ns11:relation="cites">legge 18 dicembre 2020, n. 176</ref>
+                                        </quotedText>»; 
+ dopo il comma 4 e' inserito il seguente: 
+ «<quotedText eId="modNov_3_new_20">4-bis. Gli erogatori pubblici e gli erogatori privati accreditati ospedalieri e ambulatoriali devono garantire la piena trasparenza delle agende in ordine alle prenotazioni effettuate e ai relativi posti a disposizione per le singole prestazioni sanitarie.
+Tale adempimento costituisce elemento contrattuale qualificante</quotedText>»; 
+ al comma 6, secondo periodo, le parole: «del decreto» sono sostituite dalle seguenti: «del codice di cui al decreto»; 
+ il comma 7 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_3_new_22">7. Nelle Linee di indirizzo di cui al comma 5 sono altresi' disciplinate le ipotesi in cui l'assistito, anche se esente, che non si presenta nel giorno previsto senza giustificata disdetta, salvi i casi di forza maggiore e impossibilita' sopravvenuta, e' tenuto al pagamento all'erogatore pubblico o privato accreditato della quota ordinaria di partecipazione al costo, stabilita dalle norme vigenti alla data dell'appuntamento, per la prestazione prenotata e non usufruita</quotedText>»; 
+ al comma 10, dopo le parole: «liste di attesa» sono inserite le seguenti: «<quotedText eId="modNov_3_new_14">per il triennio</quotedText>» e le parole: «<quotedText eId="modNov_3_old_15">aggiuntive, o</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_15">aggiuntive o</quotedText>»; 
+ dopo il comma 10 e' inserito il seguente: 
+ «<quotedText eId="modNov_3_new_16">10-bis. Ai fini dell'attuazione delle disposizioni del comma 10, anche allo scopo di esplicitare le modalita' applicative degli interventi ivi previsti, nonche' nel limite di spesa di cui al medesimo comma 10, le misure da adottare in caso di superamento dei tempi massimi stabiliti, senza oneri aggiuntivi a carico degli assistiti, se non quelli dovuti come eventuale quota di partecipazione alla spesa sanitaria, possono consistere in: 
+ a) ridefinizione qualitativa e quantitativa dei volumi di attivita' e della tipologia delle prestazioni delle strutture pubbliche e private accreditate, mediante rivisitazione dell'accordo contrattuale ai sensi dell'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/1992-12-30/502/!main#art_8quinquies" ns12:target="olf:it/decreto-legislativo/stato/1992/502/art_8quinquies" ns12:relation="cites">articolo 8-quinquies del decreto legislativo 30 dicembre 1992, n. 502</ref>; 
+ b) riprogrammazione delle ore di medicina specialistica ambulatoriale interna; 
+ c) richiesta di prestazioni, in via eccezionale e temporanea, ad integrazione dell'attivita' istituzionale, da parte delle aziende ai propri dirigenti allo scopo di ridurre le liste di attesa o di acquisire prestazioni aggiuntive, soprattutto in presenza di carenza di organico e impossibilita' anche momentanea di coprire i relativi posti con personale in possesso dei requisiti di legge, in accordo con le equipe interessate; 
+ d) incremento delle ore a specialisti ambulatoriali interni gia' in servizio o attivazione di nuove ore di specialistica ambulatoriale interna con stipulazione di rapporti convenzionali finalizzati alla riduzione dei tempi di attesa</quotedText>»; 
+ al comma 11, le parole: «criteri e direttive convenute» sono sostituite dalle seguenti: «criteri e direttive convenuti», dopo le parole: «delle finanze» e' inserito il seguente segno di interpunzione: «,» e le parole: «e Bolzano» sono sostituite dalle seguenti: «e di Bolzano»; 
+ dopo il comma 11 e' inserito il seguente: 
+ «<quotedText eId="modNov_3_new_19">11-bis. All'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/1999-12-21/517/!main#art_5-com15" ns13:target="olf:it/decreto-legislativo/stato/1999/517/art_5-com15" ns13:relation="amends">articolo 5, comma 15, del decreto legislativo 21 dicembre 1999, n. 517</ref>, le parole: "possono stipulare, nel rispetto delle disposizioni vigenti in materia di spesa per il personale, contratti di lavoro a tempo determinato, di durata non superiore a 4 anni, non rinnovabili, con personale medico o sanitario laureato assunto con le modalita' previste per il corrispondente personale del Servizio sanitario nazionale" sono sostituite dalle seguenti: "possono assumere dirigenti medici e sanitari, nel rispetto delle vigenti disposizioni in materia di spesa di personale degli enti del Servizio sanitario nazionale, della disciplina prevista dagli <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/1992-12-30/502/!main#art_15" ns14:target="olf:it/decreto-legislativo/stato/1992/502/art_15" ns14:relation="cites">articoli da 15</ref> <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/1992-12-30/502/!main#art_15sexies" ns15:target="olf:it/decreto-legislativo/stato/1992/502/art_15sexies" ns15:relation="cites">a 15-sexies del decreto legislativo 30 dicembre 1992, n. 502</ref>, e della contrattazione collettiva nazionale dell'Area sanita'" e le parole: "Detto personale e' assoggettato alla disciplina sul rapporto di lavoro esclusivo di cui all'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/1992-12-30/502/!main#art_15quinquies" ns16:target="olf:it/decreto-legislativo/stato/1992/502/art_15quinquies" ns16:relation="cites">articolo 15-quinquies del decreto legislativo 30 dicembre 1992, n. 502</ref>" sono soppresse</quotedText>»; 
+ alla rubrica, la parola: «<quotedText eId="modNov_3_old_24">implementazione</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_3_new_24">adeguamento</quotedText>» e sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_3_new_23">e norme in materia di assunzioni</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 4: 
+ al comma 1<quotedText eId="modNov_4_old_30">,</quotedText> le parole: «della tempistica» sono sostituite dalle seguenti: «dei tempi», dopo le parole: «per gli esami diagnostici,» sono inserite le seguenti: «<quotedText eId="modNov_4_new_26">nel limite massimo delle risorse disponibili di cui al comma 3,</quotedText>» e la parola: «report» e' sostituita dalla seguente: «rapporto»; 
+ dopo il comma 1 e' inserito il seguente: 
+ «<quotedText eId="modNov_4_new_28">1-bis. Al fine di garantire l'autosufficienza per il fabbisogno di sangue e dei suoi derivati e di implementare l'operativita' dei centri trasfusionali, le aziende e gli enti del SSN, anche supportati dalle associazioni e dalle federazioni di donatori convenzionate ai sensi dell'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2005-10-21/219/!main#art_6-com1-letb" ns17:target="olf:it/legge/stato/2005/219/art_6-com1-letb" ns17:relation="cites">articolo 6, comma 1, lettera b), della legge 21 ottobre 2005, n. 219</ref>, fino al raggiungimento del fabbisogno nazionale di sangue e di plasma, possono provvedere, nei limiti delle risorse disponibili a legislazione vigente, all'apertura straordinaria dei centri trasfusionali nelle ore pomeridiane e nei giorni festivi</quotedText>»; 
+ al comma 2, dopo la parola: «ospedaliera» il segno di interpunzione «,» e' soppresso, dopo le parole: «per ciascun dipendente» sono inserite le seguenti: «<quotedText eId="modNov_4_new_29">e per ciascun professore e ricercatore universitario inserito in assistenza</quotedText>» e le parole: «<quotedText eId="modNov_4_old_25">In tal senso</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_25">A tale fine</quotedText>»; 
+ alla rubrica sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_4_new_31">e aperture straordinarie dei centri trasfusionali</quotedText>».</mod>
+                                    <mod eId="modNov_5">All'articolo 5: 
+ al comma 1, al primo periodo, le parole: «<quotedText eId="modNov_5_old_34">con legge</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_34">dalla legge</quotedText>» e, al secondo periodo, alle parole: «previa verifica» e' premesso il seguente segno di interpunzione: «,» e dopo le parole: «di personale» e' inserito il seguente segno di interpunzione: «,»; 
+ al comma 2, le parole: «dal 2025» sono sostituite dalle seguenti: «dall'anno 2025» e le parole: «e Bolzano» sono sostituite dalle seguenti: «e di Bolzano».</mod>
+                                    <mod eId="modNov_6">All'articolo 6: 
+ al comma 1: 
+ all'alinea<quotedText eId="modNov_6_old_32">,</quotedText> secondo periodo, le parole: «<quotedText eId="modNov_6_old_36">in coerenza dello stesso</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_36">in coerenza con lo stesso</quotedText>» e dopo la parola: «ambulatoriale» il segno di interpunzione «,» e' soppresso; 
+ alla lettera b), dopo la parola: «mentale» e' inserito il seguente segno di interpunzione: «,» e le parole: «<quotedText eId="modNov_6_old_38">Punti screening</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_38">Punti per gli screening oncologici</quotedText>»; 
+ alla lettera d): 
+ al numero 1), le parole: «terapeutico riabilitativo» sono sostituite dalla seguente: «terapeutico-riabilitativi» e le parole: «coi i» sono sostituite dalle seguenti: «con i»; 
+ al numero 2), le parole: «diagnostico terapeutici» sono sostituite dalla seguente: «diagnostico-terapeutici»; 
+ al numero 3), dopo la parola: «screening» e' inserito il seguente segno di interpunzione: «,» e le parole: «vulnerabilita' socio-economico» sono sostituite dalle seguenti: «vulnerabilita' socio-economica»; 
+ dopo il comma 1 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_6_new_41">1-bis. Al fine di rafforzare la capacita' di erogazione dei servizi sanitari e incrementare l'utilizzo dei servizi sanitari e sociosanitari sul territorio, nonche' per garantire il processo di efficientamento del servizio sanitario regionale, agevolando il percorso finalizzato al superamento del commissariamento, la regione Calabria e' autorizzata a riprogrammare la quota residua delle risorse economiche assegnatele ai sensi dell'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/1988-03-11/67/!main#art_20" ns18:target="olf:it/legge/stato/1988/67/art_20" ns18:relation="cites">articolo 20 della legge 11 marzo 1988, n. 67</ref>, prima fase, di cui alla deliberazione del Comitato interministeriale per la programmazione economica del 3 agosto 1990, pubblicata nella Gazzetta Ufficiale n. 201 del 29 agosto 1990, nel limite massimo di euro 19.732.858,87, derivante dalle economie registrate a valere sui quadri economici dei singoli progetti afferenti alla realizzazione delle opere finanziate dal programma di cui alla citata deliberazione</quotedText>».</mod>
+                                    <mod eId="modNov_7">All'articolo 7: 
+ al comma 5<quotedText eId="modNov_7_old_43">,</quotedText> dopo la parola: «contenzioso» il segno di interpunzione «,» e' soppresso; 
+ al comma 6: 
+ alla lettera a), le parole: «<quotedText eId="modNov_7_old_44">12 milioni</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_44">5 milioni</quotedText>»; 
+ alla lettera d), le parole: «<quotedText eId="modNov_7_old_45">25 milioni</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_45">32 milioni</quotedText>»; 
+ alla lettera e), le parole: «<quotedText eId="modNov_7_old_42">2027 mediante</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_42">2027, mediante</quotedText>».</mod>
+                                    <mod eId="modNov_8">Dopo l'articolo 7 e' inserito il seguente: 
+ «<quotedText eId="modNov_8_new_46">Art. 7-bis (Clausola di salvaguardia). - Le regioni a statuto speciale e le province autonome di Trento e di Bolzano applicano le misure di cui al presente decreto compatibilmente con i propri statuti di autonomia e con le relative norme di attuazione, nel rispetto dei livelli essenziali di assistenza sull'intero territorio nazionale</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
