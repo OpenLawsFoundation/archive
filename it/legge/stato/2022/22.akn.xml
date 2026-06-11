@@ -1,0 +1,762 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-03-09/22/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-03-09/22"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-03-09;22"/>
+                    <FRBRalias name="eli" value="eli/id/2022/03/22/22G00030/ORIGINAL"/>
+                    <FRBRdate date="2022-03-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/03/22/22G00030/ORIGINAL" aknrelname="eli/id/2022/03/22/22G00030/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni in materia di reati contro il patrimonio culturale. (22G00030)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00030" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2022-03-09" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-03-09/22/ita@2022-03-23/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-03-09/22/ita@2022-03-23"/>
+                    <FRBRdate date="2022-03-23" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/03/22/22G00030/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/03/22/22G00030/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/03/22/22G00030/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-03-09/22/ita@2022-03-23/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-03-09/22/ita@2022-03-23.xml"/>
+                    <FRBRdate date="2022-03-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/03/22/22G00030/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-03-22" name="" number="68" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-03-22" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2022-03-09" refersTo="#C.893"/>
+                <step by="#senato" date="2022-03-09" refersTo="#S.882"/>
+                <step by="#camera" date="2022-03-09" refersTo="#C.893-B"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione nel Libro II del seguente Titolo VIII-bis: "DEI DELITTI CONTRO IL PATRIMONIO CULTURALE" (comprendente gli artt. da 518-bis a 518-undevicies).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 240 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera a)) la modifica dell'art. 240-bis, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 quinquies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-quinquies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 sexies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-sexies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 septies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-septies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 octies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-octies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 novies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-novies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 decies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-decies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 undecies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-undecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 duodecies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-duodecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 terdecies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-terdecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 quaterdecies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-quaterdecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 quinquiesdecies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-quinquiesdecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 sexiesdecies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-sexiesdecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 septiesdecies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-septiesdecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 duodevicies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-duodevicies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 518 undevicies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione dell'art. 518-undevicies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 707 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera c)) l'introduzione dell'art. 707-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#2"/>
+                        <destination href="urn:nir:stato:legge:2006-03-16;146#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1) l'introduzione della lettera b-bis) all'art. 9, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#3"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2001-06-08;231#25 septies decies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1) l'introduzione dell'art. 25-septiesdecies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#3"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2001-06-08;231#25 duodevicies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1) l'introduzione dell'art. 25-duodevicies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#4"/>
+                        <destination href="urn:nir:stato:legge:1991-12-06;394#30"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1) la modifica dell'art. 30, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#5"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 635"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 1) la modifica dell'art. 635, comma 2, numero 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#5"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 639"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 2, lettera a)) la modifica dell'art. 639, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#5"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2004-01-22;42#170"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 2, lettera b)) l'abrogazione dell'art. 170.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#5"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2004-01-22;42#173"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 2, lettera b)) l'abrogazione dell'art. 173.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#5"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2004-01-22;42#174"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 2, lettera b)) l'abrogazione dell'art. 174.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#5"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2004-01-22;42#176"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 2, lettera b)) l'abrogazione dell'art. 176.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#5"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2004-01-22;42#177"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 2, lettera b)) l'abrogazione dell'art. 177.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#5"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2004-01-22;42#178"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 2, lettera b)) l'abrogazione dell'art. 178.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-03-09;22#5"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2004-01-22;42#179"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 2, lettera b)) l'abrogazione dell'art. 179.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2022-03-23/!main/~art_240-bis__para_1"/>
+                        <old href="#modNov_1_old_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2022-03-23/!main"/>
+                        <new href="#modNov_2_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2022-03-23/!main/~art_707-bis"/>
+                        <new href="#modNov_3_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/legge/stato/2006-03-16/146/ita@2022-03-23/!main/~art_9__para_1__point_b-bis"/>
+                        <new href="#modNov_4_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2001-06-08/231/ita@2022-03-23/!main"/>
+                        <new href="#modNov_5_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/legge/stato/1991-12-06/394/ita@2022-03-23/!main/~art_30__para_3"/>
+                        <new href="#modNov_6_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="repeal">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2022-03-23/!main/~art_635__para_2__point_1"/>
+                        <old href="#modNov_7_old_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="repeal">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2022-03-23/!main/~art_639__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="repeal">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2004-01-22/42/ita@2022-03-23/!main/~art_170"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="repeal">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2004-01-22/42/ita@2022-03-23/!main/~art_173"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="repeal">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2004-01-22/42/ita@2022-03-23/!main/~art_174"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="repeal">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2004-01-22/42/ita@2022-03-23/!main/~art_176"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="repeal">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2004-01-22/42/ita@2022-03-23/!main/~art_177"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="repeal">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2004-01-22/42/ita@2022-03-23/!main/~art_178"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="repeal">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2004-01-22/42/ita@2022-03-23/!main/~art_179"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2022-03-09/22/!main" showAs=""/>
+                <passiveRef eId="C.893" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;893" showAs=""/>
+                <passiveRef eId="S.882" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;882" showAs=""/>
+                <passiveRef eId="C.893-B" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;893-B" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/03/22/22G00030/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni in materia di reati contro il patrimonio culturale. (22G00030)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00030</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-03-09</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/03/22/22G00030/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/03/22/22G00030/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/03/22/22G00030/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/03/22/22G00030/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2022/22" nativeUrn="urn:nir:stato:legge:2022-03-09;22" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-03-22"><ns0:event type="enacted" date="2022-03-09"/><ns0:event type="published" date="2022-03-22"/><ns0:event type="commenced" date="2022-03-22"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/42ee44e9-2064-4f24-86dd-89038fb0255e" sourceSha256="4c0857951707fadda2c8be8fbfda209f60f6d2d00159f5ca965375b6c00eb63f" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T23:22:30.429793Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2022-03-09">09 marzo 2022</docDate>
+                <docNumber>22</docNumber>
+                <docTitle>Disposizioni in materia di reati contro il patrimonio culturale. (22G00030) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 23/03/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Modifiche al codice penale</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_1__para_1__intro_1">
+                            <p>Al <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns1:target="olf:it/regio-decreto/stato/1930/1398" ns1:relation="repeals">codice penale</ref> sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_1">all'articolo 240-bis, primo comma, le parole: « <quotedText eId="modNov_1_old_1">e 517-quater</quotedText> » sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_1">, 517-quater, 518-quater, 518-quinquies, 518-sexies e 518-septies</quotedText> »;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_2">dopo il titolo VIII del libro secondo e' inserito il seguente: 
+ 
+ «<quotedText eId="modNov_2_new_2">TITOLO VIII-bis 
+ DEI DELITTI CONTRO 
+ IL PATRIMONIO CULTURALE 
+ 
+ Art. 518-bis (Furto di beni culturali). - Chiunque si impossessa di un bene culturale mobile altrui, sottraendolo a chi lo detiene, al fine di trarne profitto, per se' o per altri, o si impossessa di beni culturali appartenenti allo Stato, in quanto rinvenuti nel sottosuolo o nei fondali marini, e' punito con la reclusione da due a sei anni e con la multa da euro 927 a euro 1.500. 
+ La pena e' della reclusione da quattro a dieci anni e della multa da euro 927 a euro 2.000 se il reato e' aggravato da una o piu' delle circostanze previste nel primo comma dell'articolo 625 o se il furto di beni culturali appartenenti allo Stato, in quanto rinvenuti nel sottosuolo o nei fondali marini, e' commesso da chi abbia ottenuto la concessione di ricerca prevista dalla legge. 
+ Art. 518-ter (Appropriazione indebita di beni culturali). - Chiunque, per procurare a se' o ad altri un ingiusto profitto, si appropria di un bene culturale altrui di cui abbia, a qualsiasi titolo, il possesso e' punito con la reclusione da uno a quattro anni e con la multa da euro 516 a euro 1.500. 
+ Se il fatto e' commesso su cose possedute a titolo di deposito necessario, la pena e' aumentata. 
+ Art. 518-quater (Ricettazione di beni culturali). - Fuori dei casi di concorso nel reato, chi, al fine di procurare a se' o ad altri un profitto, acquista, riceve od occulta beni culturali provenienti da un qualsiasi delitto, o comunque si intromette nel farli acquistare, ricevere od occultare, e' punito con la reclusione da quattro a dieci anni e con la multa da euro 1.032 a euro 15.000. 
+ La pena e' aumentata quando il fatto riguarda beni culturali provenienti dai delitti di rapina aggravata ai sensi dell'articolo 628, terzo comma, e di estorsione aggravata ai sensi dell'articolo 629, secondo comma. 
+ Le disposizioni del presente articolo si applicano anche quando l'autore del delitto da cui i beni culturali provengono non e' imputabile o non e' punibile ovvero quando manca una condizione di procedibilita' riferita a tale delitto. 
+ Art. 518-quinquies (Impiego di beni culturali provenienti da delitto). - Chiunque, fuori dei casi di concorso nel reato e dei casi previsti dagli articoli 518-quater e 518-sexies, impiega in attivita' economiche o finanziarie beni culturali provenienti da delitto e' punito con la reclusione da cinque a tredici anni e con la multa da euro 6.000 a euro 30.000. 
+ Le disposizioni del presente articolo si applicano anche quando l'autore del delitto da cui i beni culturali provengono non e' imputabile o non e' punibile ovvero quando manca una condizione di procedibilita' riferita a tale delitto. 
+ Art. 518-sexies (Riciclaggio di beni culturali). - Fuori dei casi di concorso nel reato, chiunque sostituisce o trasferisce beni culturali provenienti da delitto non colposo, ovvero compie in relazione ad essi altre operazioni, in modo da ostacolare l'identificazione della loro provenienza delittuosa, e' punito con la reclusione da cinque a quattordici anni e con la multa da euro 6.000 a euro 30.000. 
+ La pena e' diminuita se i beni culturali provengono da delitto per il quale e' stabilita la pena della reclusione inferiore nel massimo a cinque anni. 
+ Le disposizioni del presente articolo si applicano anche quando l'autore del delitto da cui i beni culturali provengono non e' imputabile o non e' punibile ovvero quando manca una condizione di procedibilita' riferita a tale delitto. 
+ Art. 518-septies (Autoriciclaggio di beni culturali). - Chiunque, avendo commesso o concorso a commettere un delitto non colposo, impiega, sostituisce, trasferisce, in attivita' economiche, finanziarie, imprenditoriali o speculative, beni culturali provenienti dalla commissione di tale delitto, in modo da ostacolare concretamente l'identificazione della loro provenienza delittuosa, e' punito con la reclusione da tre a dieci anni e con la multa da euro 6.000 a euro 30.000. 
+ Se i beni culturali provengono dalla commissione di un delitto non colposo, punito con la reclusione inferiore nel massimo a cinque anni, si applicano la reclusione da due a cinque anni e la multa da euro 3.000 a euro 15.000. 
+ Fuori dei casi di cui ai commi primo e secondo, non sono punibili le condotte per cui i beni vengono destinati alla mera utilizzazione o al godimento personale. 
+ Si applica il terzo comma dell'articolo 518-quater. 
+ Art. 518-octies (Falsificazione in scrittura privata relativa a beni culturali). - Chiunque forma, in tutto o in parte, una scrittura privata falsa o, in tutto o in parte, altera, distrugge, sopprime od occulta una scrittura privata vera, in relazione a beni culturali mobili, al fine di farne apparire lecita la provenienza, e' punito con la reclusione da uno a quattro anni. 
+ Chiunque fa uso della scrittura privata di cui al primo comma, senza aver concorso nella sua formazione o alterazione, e' punito con la reclusione da otto mesi a due anni e otto mesi. 
+ Art. 518-novies (Violazioni in materia di alienazione di beni culturali). - E' punito con la reclusione da sei mesi a due anni e con la multa da euro 2.000 a euro 80.000: 
+ 1) chiunque, senza la prescritta autorizzazione, aliena o immette sul mercato beni culturali; 
+ 2) chiunque, essendovi tenuto, non presenta, nel termine di trenta giorni, la denuncia degli atti di trasferimento della proprieta' o della detenzione di beni culturali; 
+ 3) l'alienante di un bene culturale soggetto a prelazione che effettua la consegna della cosa in pendenza del termine di sessanta giorni dalla data di ricezione della denuncia di trasferimento. 
+ Art. 518-decies (Importazione illecita di beni culturali). - Chiunque, fuori dei casi di concorso nei reati previsti dagli articoli 518-quater, 518-quinquies, 518-sexies e 518-septies, importa beni culturali provenienti da delitto ovvero rinvenuti a seguito di ricerche svolte senza autorizzazione, ove prevista dall'ordinamento dello Stato in cui il rinvenimento ha avuto luogo, ovvero esportati da un altro Stato in violazione della legge in materia di protezione del patrimonio culturale di quello Stato, e' punito con la reclusione da due a sei anni e con la multa da euro 258 a euro 5.165. 
+ Art. 518-undecies (Uscita o esportazione illecite di beni culturali). - Chiunque trasferisce all'estero beni culturali, cose di interesse artistico, storico, archeologico, etnoantropologico, bibliografico, documentale o archivistico o altre cose oggetto di specifiche disposizioni di tutela ai sensi della normativa sui beni culturali, senza attestato di libera circolazione o licenza di esportazione, e' punito con la reclusione da due a otto anni e con la multa fino a euro 80.000. 
+ La pena prevista al primo comma si applica altresi' nei confronti di chiunque non fa rientrare nel territorio nazionale, alla scadenza del termine, beni culturali, cose di interesse artistico, storico, archeologico, etnoantropologico, bibliografico, documentale o archivistico o altre cose oggetto di specifiche disposizioni di tutela ai sensi della normativa sui beni culturali, per i quali siano state autorizzate l'uscita o l'esportazione temporanee, nonche' nei confronti di chiunque rende dichiarazioni mendaci al fine di comprovare al competente ufficio di esportazione, ai sensi di legge, la non assoggettabilita' di cose di interesse culturale ad autorizzazione all'uscita dal territorio nazionale. 
+ Art. 518-duodecies (Distruzione, dispersione, deterioramento, deturpamento, imbrattamento e uso illecito di beni culturali o paesaggistici). - Chiunque distrugge, disperde, deteriora o rende in tutto o in parte inservibili o non fruibili beni culturali o paesaggistici propri o altrui e' punito con la reclusione da due a cinque anni e con la multa da euro 2.500 a euro 15.000. 
+ Chiunque, fuori dei casi di cui al primo comma, deturpa o imbratta beni culturali o paesaggistici propri o altrui, ovvero destina beni culturali a un uso incompatibile con il loro carattere storico o artistico ovvero pregiudizievole per la loro conservazione o integrita', e' punito con la reclusione da sei mesi a tre anni e con la multa da euro 1.500 a euro 10.000. 
+ La sospensione condizionale della pena e' subordinata al ripristino dello stato dei luoghi o all'eliminazione delle conseguenze dannose o pericolose del reato ovvero alla prestazione di attivita' non retribuita a favore della collettivita' per un tempo determinato, comunque non superiore alla durata della pena sospesa, secondo le modalita' indicate dal giudice nella sentenza di condanna. 
+ Art. 518-terdecies (Devastazione e saccheggio di beni culturali e paesaggistici). - Chiunque, fuori dei casi previsti dall'articolo 285, commette fatti di devastazione o di saccheggio aventi ad oggetto beni culturali o paesaggistici ovvero istituti e luoghi della cultura e' punito con la reclusione da dieci a sedici anni. 
+ Art. 518-quaterdecies (Contraffazione di opere d'arte). - E' punito con la reclusione da uno a cinque anni e con la multa da euro 3.000 a euro 10.000: 
+ 1) chiunque, al fine di trarne profitto, contraffa', altera o riproduce un'opera di pittura, scultura o grafica ovvero un oggetto di antichita' o di interesse storico o archeologico; 
+ 2) chiunque, anche senza aver concorso nella contraffazione, alterazione o riproduzione, pone in commercio, detiene per farne commercio, introduce a questo fine nel territorio dello Stato o comunque pone in circolazione, come autentici, esemplari contraffatti, alterati o riprodotti di opere di pittura, scultura o grafica, di oggetti di antichita' o di oggetti di interesse storico o archeologico; 
+ 3) chiunque, conoscendone la falsita', autentica opere od oggetti indicati ai numeri 1) e 2) contraffatti, alterati o riprodotti; 
+ 4) chiunque, mediante altre dichiarazioni, perizie, pubblicazioni, apposizione di timbri o etichette o con qualsiasi altro mezzo, accredita o contribuisce ad accreditare, conoscendone la falsita', come autentici opere od oggetti indicati ai numeri 1) e 2) contraffatti, alterati o riprodotti. 
+ E' sempre ordinata la confisca degli esemplari contraffatti, alterati o riprodotti delle opere o degli oggetti indicati nel primo comma, salvo che si tratti di cose appartenenti a persone estranee al reato. Delle cose confiscate e' vietata, senza limiti di tempo, la vendita nelle aste dei corpi di reato. 
+ Art. 518-quinquiesdecies (Casi di non punibilita'). - Le disposizioni dell'articolo 518-quaterdecies non si applicano a chi riproduce, detiene, pone in vendita o altrimenti diffonde copie di opere di pittura, di scultura o di grafica, ovvero copie o imitazioni di oggetti di antichita' o di interesse storico o archeologico, dichiarate espressamente non autentiche, mediante annotazione scritta sull'opera o sull'oggetto o, quando cio' non sia possibile per la natura o le dimensioni della copia o dell'imitazione, mediante dichiarazione rilasciata all'atto dell'esposizione o della vendita.
+Non si applicano del pari ai restauri artistici che non abbiano ricostruito in modo determinante l'opera originale. 
+ Art. 518-sexiesdecies (Circostanze aggravanti). - La pena e' aumentata da un terzo alla meta' quando un reato previsto dal presente titolo: 
+ 1) cagiona un danno di rilevante gravita'; 
+ 2) e' commesso nell'esercizio di un'attivita' professionale, commerciale, bancaria o finanziaria; 
+ 3) e' commesso da un pubblico ufficiale o da un incaricato di pubblico servizio, preposto alla conservazione o alla tutela di beni culturali mobili o immobili; 
+ 4) e' commesso nell'ambito dell'associazione per delinquere di cui all'articolo 416. 
+ Se i reati previsti dal presente titolo sono commessi nell'esercizio di un'attivita' professionale o commerciale, si applicano la pena accessoria di cui all'articolo 30 e la pubblicazione della sentenza penale di condanna ai sensi dell'articolo 36. 
+ Art. 518-septiesdecies (Circostanze attenuanti). - La pena e' diminuita di un terzo quando un reato previsto dal presente titolo cagioni un danno di speciale tenuita' ovvero comporti un lucro di speciale tenuita' quando anche l'evento dannoso o pericoloso sia di speciale tenuita'. 
+ La pena e' diminuita da un terzo a due terzi nei confronti di chi abbia consentito l'individuazione dei correi o abbia fatto assicurare le prove del reato o si sia efficacemente adoperato per evitare che l'attivita' delittuosa fosse portata a conseguenze ulteriori o abbia recuperato o fatto recuperare i beni culturali oggetto del delitto. 
+ Art. 518-duodevicies (Confisca). - Il giudice dispone in ogni caso la confisca delle cose indicate all'articolo 518-undecies, che hanno costituito l'oggetto del reato, salvo che queste appartengano a persona estranea al reato. In caso di estinzione del reato, il giudice procede a norma dell'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_666" ns2:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_666" ns2:relation="cites">articolo 666 del codice di procedura penale</ref>. La confisca ha luogo in conformita' alle norme della legge doganale relative alle cose oggetto di contrabbando. 
+ Nel caso di condanna o di applicazione della pena su richiesta delle parti, a norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_444" ns3:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_444" ns3:relation="cites">articolo 444 del codice di procedura penale</ref>, per uno dei delitti previsti dal presente titolo, e' sempre ordinata la confisca delle cose che servirono o furono destinate a commettere il reato e delle cose che ne costituiscono il prodotto, il profitto o il prezzo, salvo che appartengano a persone estranee al reato. 
+ Quando non e' possibile procedere alla confisca di cui al secondo comma, il giudice ordina la confisca del denaro, dei beni o delle altre utilita' delle quali il reo ha la disponibilita', anche per interposta persona, per un valore corrispondente al profitto o al prodotto del reato. 
+ Le navi, le imbarcazioni, i natanti e gli aeromobili, le autovetture e i motocicli sequestrati nel corso di operazioni di polizia giudiziaria a tutela dei beni culturali sono affidati dall'autorita' giudiziaria in custodia giudiziale agli organi di polizia che ne facciano richiesta per l'impiego in attivita' di tutela dei beni medesimi. 
+ Art. 518-undevicies (Fatto commesso all'estero). - Le disposizioni del presente titolo si applicano altresi' quando il fatto e' commesso all'estero in danno del patrimonio culturale nazionale</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_3">dopo l'articolo 707 e' inserito il seguente: 
+ «<quotedText eId="modNov_3_new_3">Art. 707-bis (Possesso ingiustificato di strumenti per il sondaggio del terreno o di apparecchiature per la rilevazione dei metalli). - E' punito con l'arresto fino a due anni e con l'ammenda da euro 500 a euro 2.000 chi e' colto in possesso di strumenti per il sondaggio del terreno o di apparecchiature per la rilevazione dei metalli, dei quali non giustifichi l'attuale destinazione, all'interno di aree e parchi archeologici, di zone di interesse archeologico, se delimitate con apposito atto dell'amministrazione competente, o di aree nelle quali sono in corso lavori sottoposti alle procedure di verifica preventiva dell'interesse archeologico secondo quanto previsto dalla legge</quotedText> ».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'articolo 10, commi 2 e 3 del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns4:target="olf:it/dpr/stato/1985/1092" ns4:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_240bis" ns5:target="olf:it/regio-decreto/stato/1930/1398/art_240bis" ns5:relation="repeals">art. 240-bis del codice penale</ref>, come modificato dalla presente legge: 
+ «Art. 240-bis (Confisca in casi particolari). - Nei casi di condanna o di applicazione della pena su richiesta a norma dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_444" ns6:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_444" ns6:relation="cites">articolo 444 del codice di procedura penale</ref>, per taluno dei delitti previsti dall'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_51-com3bis" ns7:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_51-com3bis" ns7:relation="cites">articolo 51, comma 3-bis, del codice di procedura penale</ref>, dagli articoli 314, 316, 316-bis, 316-ter, 317, 318, 319, 319-ter, 319-quater, 320, 322, 322-bis, 325, 416, realizzato allo scopo di commettere delitti previsti dagli articoli 453, 454, 455, 460, 461, 517-ter , 517-quater, 518-quater, 518-quinquies, 518-sexies e 518-septies , nonche' dagli articoli 452-quater, 452-octies, primo comma, 493-ter, 512-bis, 600-bis, primo comma, 600-ter, primo e secondo comma, 600-quater.1, relativamente alla condotta di produzione o commercio di materiale pornografico, 600-quinquies, 603-bis, 629, 640, secondo comma, n. 1, con l'esclusione dell'ipotesi in cui il fatto e' commesso col pretesto di far esonerare taluno dal servizio militare, 640-bis, 640, secondo comma, n. 1, con l'esclusione dell'ipotesi in cui il fatto e' commesso col pretesto di far esonerare taluno dal servizio militare, 640-bis, 644, 648, esclusa la fattispecie di cui al quarto comma, 648-bis, 648-ter e 648-ter.1, dall'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2635" ns8:target="olf:it/codice-civile/stato/1942/262/art_2635" ns8:relation="cites">articolo 2635 del codice civile</ref>, o per taluno dei delitti commessi per finalita' di terrorismo, anche internazionale, o di eversione dell'ordine costituzionale, e' sempre disposta la confisca del denaro, dei beni o delle altre utilita' di cui il condannato non puo' giustificare la provenienza e di cui, anche per interposta persona fisica o giuridica, risulta essere titolare o avere la disponibilita' a qualsiasi titolo in valore sproporzionato al proprio reddito, dichiarato ai fini delle imposte sul reddito, o alla propria attivita' economica. In ogni caso il condannato non puo' giustificare la legittima provenienza dei beni sul presupposto che il denaro utilizzato per acquistarli sia provento o reimpiego dell'evasione fiscale, salvo che l'obbligazione tributaria sia stata estinta mediante adempimento nelle forme di legge. La confisca ai sensi delle disposizioni che precedono e' ordinata in caso di condanna o di applicazione della pena su richiesta per i reati di cui agli articoli 617-quinquies, 617-sexies, 635-bis, 635-ter, 635-quater, 635-quinquies quando le condotte ivi descritte riguardano tre o piu' sistemi. 
+ Nei casi previsti dal primo comma, quando non e' possibile procedere alla confisca del denaro, dei beni e delle altre utilita' di cui allo stesso comma, il giudice ordina la confisca di altre somme di denaro, di beni e altre utilita' di legittima provenienza per un valore equivalente, delle quali il reo ha la disponibilita', anche per interposta persona.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading>Modifica all'articolo 9, comma 1, della legge 16 marzo 2006, n. 146, in materia di operazioni sotto copertura</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_4">All'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2006-03-16/146/!main#art_9-com1" ns9:target="olf:it/legge/stato/2006/146/art_9-com1" ns9:relation="amends">articolo 9, comma 1, della legge 16 marzo 2006, n. 146</ref>, dopo la lettera b) e' aggiunta la seguente: 
+ «<quotedText eId="modNov_4_new_1">b-bis) gli ufficiali di polizia giudiziaria degli organismi specializzati nel settore dei beni culturali, nell'attivita' di contrasto dei delitti di cui agli <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518sexies" ns10:target="olf:it/regio-decreto/stato/1930/1398/art_518sexies" ns10:relation="repeals">articoli 518-sexies</ref> e <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518septies" ns11:target="olf:it/regio-decreto/stato/1930/1398/art_518septies" ns11:relation="repeals">518-septies del codice penale</ref>, i quali nel corso di specifiche operazioni di polizia e, comunque, al solo fine di acquisire elementi di prova, anche per interposta persona, compiono le attivita' di cui alla lettera a)</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta il testo dell'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2006-03-16/146/!main#art_9" ns12:target="olf:it/legge/stato/2006/146/art_9" ns12:relation="amends">art. 9 della legge 16 marzo 2006, n. 146</ref> (Ratifica ed esecuzione della Convenzione e dei Protocolli delle Nazioni Unite contro il crimine organizzato transnazionale, adottati dall'Assemblea generale il 15 novembre 2000 ed il 31 maggio 2001), come modificato dalla presente legge: 
+ «Art. 9 (Operazioni sotto copertura). - 1. Fermo quanto disposto dall'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_51" ns13:target="olf:it/regio-decreto/stato/1930/1398/art_51" ns13:relation="repeals">articolo 51 del codice penale</ref>, non sono punibili: 
+ a) gli ufficiali di polizia giudiziaria della Polizia di Stato, dell'Arma dei carabinieri e del Corpo della guardia di finanza, appartenenti alle strutture specializzate o alla Direzione investigativa antimafia, nei limiti delle proprie competenze, i quali, nel corso di specifiche operazioni di polizia e, comunque, al solo fine di acquisire elementi di prova in ordine ai delitti previsti dagli articoli 317, 318, 319, 319-bis, 319-ter, 319-quater, primo comma, 320, 321, 322, 322-bis, 346-bis, 353, 353-bis, 452-quaterdecies, 453, 454, 455, 460, 461, 473, 474, 629, 630, 644, 648-bis e 648-ter, nonche' nel libro secondo, titolo XII, capo III, sezione I, del <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns14:target="olf:it/regio-decreto/stato/1930/1398" ns14:relation="repeals">codice penale</ref>, ai delitti concernenti armi, munizioni, esplosivi, ai delitti previsti dall'articolo 12, commi 1, 3, 3-bis e 3-ter, del testo unico delle disposizioni concernenti la disciplina dell'immigrazione e norme sulla condizione dello straniero, di cui al <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/1998-07-25/286/!main" ns15:target="olf:it/decreto-legislativo/stato/1998/286" ns15:relation="cites">decreto legislativo 25 luglio 1998, n. 286</ref>, nonche' ai delitti previsti dal testo unico delle leggi in materia di disciplina degli stupefacenti e sostanze psicotrope, prevenzione, cura e riabilitazione dei relativi stati di tossicodipendenza, di cui al <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1990-10-09/309/!main#art_3" ns16:target="olf:it/dpr/stato/1990/309/art_3" ns16:relation="cites">decreto del Presidente della Repubblica 9 ottobre 1990, n. 309, e dall'articolo 3</ref> della <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/1958-02-20/75/!main" ns17:target="olf:it/legge/stato/1958/75" ns17:relation="cites">legge 20 febbraio 1958, n. 75</ref>, anche per interposta persona, danno rifugio o comunque prestano assistenza agli associati, acquistano, ricevono, sostituiscono od occultano denaro o altra utilita', armi, documenti, sostanze stupefacenti o psicotrope, beni ovvero cose che sono oggetto, prodotto, profitto, prezzo o mezzo per commettere il reato o ne accettano l'offerta o la promessa o altrimenti ostacolano l'individuazione della loro provenienza o ne consentono l'impiego ovvero corrispondono denaro o altra utilita' in esecuzione di un accordo illecito gia' concluso da altri, promettono o danno denaro o altra utilita' richiesti da un pubblico ufficiale o da un incaricato di un pubblico servizio o sollecitati come prezzo della mediazione illecita verso un pubblico ufficiale o un incaricato di un pubblico servizio o per remunerarlo o compiono attivita' prodromiche e strumentali; 
+ b) gli ufficiali di polizia giudiziaria appartenenti agli organismi investigativi della Polizia di Stato e dell'Arma dei carabinieri specializzati nell'attivita' di contrasto al terrorismo e all'eversione e del Corpo della guardia di finanza competenti nelle attivita' di contrasto al finanziamento del terrorismo, i quali, nel corso di specifiche operazioni di polizia e, comunque, al solo fine di acquisire elementi di prova in ordine ai delitti commessi con finalita' di terrorismo o di eversione, anche per interposta persona, compiono le attivita' di cui alla lettera a); 
+ b-bis) gli ufficiali di polizia giudiziaria degli organismi specializzati nel settore dei beni culturali, nell'attivita' di contrasto dei delitti di cui agli <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518sexies" ns18:target="olf:it/regio-decreto/stato/1930/1398/art_518sexies" ns18:relation="repeals">articoli 518-sexies</ref> e <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518septies" ns19:target="olf:it/regio-decreto/stato/1930/1398/art_518septies" ns19:relation="repeals">518-septies del codice penale</ref>, i quali nel corso di specifiche operazioni di polizia e, comunque, al solo fine di acquisire elementi di prova, anche per interposta persona, compiono le attivita' di cui alla lettera a). 
+ 1-bis. La causa di giustificazione di cui al comma 1 si applica agli ufficiali e agenti di polizia giudiziaria e agli ausiliari che operano sotto copertura quando le attivita' sono condotte in attuazione di operazioni autorizzate e documentate ai sensi del presente articolo.
+ La disposizione di cui al precedente periodo si applica anche alle interposte persone che compiono gli atti di cui al comma 1. 
+ 2. Negli stessi casi previsti dal comma 1, gli ufficiali e gli agenti di polizia giudiziaria possono utilizzare documenti, identita' o indicazioni di copertura, rilasciati dagli organismi competenti secondo le modalita' stabilite dal decreto di cui al comma 5, anche per attivare o entrare in contatto con soggetti e siti nelle reti di comunicazione, informandone il pubblico ministero al piu' presto e comunque entro le quarantotto ore dall'inizio delle attivita'. 
+ 3. L'esecuzione delle operazioni di cui ai commi 1 e 2 e' disposta dagli organi di vertice ovvero, per loro delega, dai rispettivi responsabili di livello almeno provinciale, secondo l'appartenenza del personale di polizia giudiziaria impiegato, d'intesa con la Direzione centrale dell'immigrazione e della polizia delle frontiere per i delitti previsti dall'articolo 12, commi 1, 3, 3-bis e 3-ter, del testo unico di cui aldecreto legislativo 25 luglio 1998, n. 286, e successive modificazioni.
+ L'esecuzione delle operazioni di cui ai commi 1 e 2 in relazione ai delitti previsti dal testo unico di cui aldecreto del <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act//presidente.repubblica/1990-10-09/309/!main" ns20:target="olf:it//presidente-repubblica/1990/309" ns20:relation="cites">Presidente della Repubblica 9 ottobre 1990, n. 309</ref>, di seguito denominate «attivita' antidroga», e' specificatamente disposta dalla Direzione centrale per i servizi antidroga o, sempre d'intesa con questa, dagli organi di vertice ovvero, per loro delega, dai rispettivi responsabili di livello almeno provinciale, secondo l'appartenenza del personale di polizia giudiziaria impiegato. 
+ 4. L'organo che dispone l'esecuzione delle operazioni di cui ai commi 1 e 2 deve dare preventiva comunicazione all'autorita' giudiziaria competente per le indagini.
+ Dell'esecuzione delle attivita' antidroga e' data immediata e dettagliata comunicazione alla Direzione centrale per i servizi antidroga e al pubblico ministero competente per le indagini. Se necessario o se richiesto dal pubblico ministero e, per le attivita' antidroga, anche dalla Direzione centrale per i servizi antidroga, e' indicato il nominativo dell'ufficiale di polizia giudiziaria responsabile dell'operazione, nonche' quelli degli eventuali ausiliari e interposte persone impiegati. Il pubblico ministero deve comunque essere informato senza ritardo, a cura del medesimo organo, nel corso dell'operazione, delle modalita' e dei soggetti che vi partecipano, nonche' dei risultati della stessa. 
+ 5. Per l'esecuzione delle operazioni di cui ai commi 1 e 2, gli ufficiali di polizia giudiziaria possono avvalersi di agenti di polizia giudiziaria, di ausiliari e di interposte persone, ai quali si estende la causa di non punibilita' prevista per i medesimi casi. Per l'esecuzione delle operazioni puo' essere autorizzata l'utilizzazione temporanea di beni mobili ed immobili, di documenti di copertura, l'attivazione di siti nelle reti, la realizzazione e la gestione di aree di comunicazione o scambio su reti o sistemi informatici, secondo le modalita' stabilite con decreto del Ministro dell'interno, di concerto con il Ministro della giustizia e con gli altri Ministri interessati. Con il medesimo decreto sono stabilite altresi' le forme e le modalita' per il coordinamento, anche in ambito internazionale, a fini informativi e operativi tra gli organismi investigativi. 
+ 6. Quando e' necessario per acquisire rilevanti elementi probatori ovvero per l'individuazione o la cattura dei responsabili dei delitti previsti dal comma 1, per i delitti di cui al <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1990-10-09/309/!main" ns21:target="olf:it/dpr/stato/1990/309" ns21:relation="cites">decreto del Presidente della Repubblica 9 ottobre 1990, n. 309</ref>, limitatamente ai casi previsti agli articoli 70, commi 4, 6 e 10, 73 e 74, gli ufficiali di polizia giudiziaria, nell'ambito delle rispettive attribuzioni, e le autorita' doganali, limitatamente ai citati articoli 70, commi 4, 6 e 10, 73 e 74 del testo unico di cui aldecreto del <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act//presidente.repubblica/1990/309/!main" ns22:resolution="unresolved">Presidente della Repubblica n. 309 del 1990</ref>, e successive modificazioni, possono omettere o ritardare gli atti di propria competenza, dandone immediato avviso, anche oralmente, al pubblico ministero, che puo' disporre diversamente, e trasmettendo allo stesso pubblico ministero motivato rapporto entro le successive quarantotto ore. Per le attivita' antidroga, il medesimo immediato avviso deve pervenire alla Direzione centrale per i servizi antidroga per il necessario coordinamento anche in ambito internazionale. 
+ 6-bis. Quando e' necessario per acquisire rilevanti elementi probatori, ovvero per l'individuazione o la cattura dei responsabili dei delitti di cui all'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_630" ns23:target="olf:it/regio-decreto/stato/1930/1398/art_630" ns23:relation="repeals">articolo 630 del codice penale</ref>, il pubblico ministero puo' richiedere che sia autorizzata la disposizione di beni, denaro o altra utilita' per l'esecuzione di operazioni controllate per il pagamento del riscatto, indicandone le modalita'. Il giudice provvede con decreto motivato. 
+ 7. Per gli stessi motivi di cui al comma 6, il pubblico ministero puo', con decreto motivato, ritardare l'esecuzione dei provvedimenti che applicano una misura cautelare, del fermo dell'indiziato di delitto, dell'ordine di esecuzione di pene detentive o del sequestro. Nei casi di urgenza, il ritardo dell'esecuzione dei predetti provvedimenti puo' essere disposto anche oralmente, ma il relativo decreto deve essere emesso entro le successive quarantotto ore. Il pubblico ministero impartisce alla polizia giudiziaria le disposizioni necessarie al controllo degli sviluppi dell'attivita' criminosa, comunicando i provvedimenti adottati all'autorita' giudiziaria competente per il luogo in cui l'operazione deve concludersi ovvero attraverso il quale si prevede sia effettuato il transito in uscita dal territorio dello Stato ovvero in entrata nel territorio dello Stato delle cose che sono oggetto, prodotto, profitto o mezzo per commettere i delitti nonche' delle sostanze stupefacenti o psicotrope e di quelle di cui all'articolo 70 del testo unico di cui aldecreto del <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act//presidente.repubblica/1990-10-09/309/!main" ns24:target="olf:it//presidente-repubblica/1990/309" ns24:relation="cites">Presidente della Repubblica 9 ottobre 1990, n. 309</ref>, e successive modificazioni. 
+ 8. Le comunicazioni di cui ai commi 4, 6 e 6-bis e i provvedimenti adottati dal pubblico ministero ai sensi del comma 7 sono senza ritardo trasmessi, a cura del medesimo pubblico ministero, al procuratore generale presso la corte d'appello. Per i delitti indicati all'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_51-com3bis" ns25:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_51-com3bis" ns25:relation="cites">articolo 51, comma 3-bis, del codice di procedura penale</ref>, la comunicazione e' trasmessa al procuratore nazionale antimafia e antiterrorismo. 
+ 9. L'autorita' giudiziaria puo' affidare il materiale o i beni sequestrati in custodia giudiziale, con facolta' d'uso, agli organi di polizia giudiziaria che ne facciano richiesta per l'impiego nelle attivita' di contrasto di cui al presente articolo ovvero per lo svolgimento dei compiti d'istituto. 
+ 9-bis. I beni informatici o telematici confiscati in quanto utilizzati per la commissione dei delitti di cui al libro II, titolo XII, capo III, sezione I, del <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns26:target="olf:it/regio-decreto/stato/1930/1398" ns26:relation="repeals">codice penale</ref> sono assegnati agli organi di polizia giudiziaria che ne abbiano avuto l'uso ai sensi del comma 9. 
+ 10. Chiunque indebitamente rivela ovvero divulga i nomi degli ufficiali o agenti di polizia giudiziaria che effettuano le operazioni di cui al presente articolo e' punito, salvo che il fatto costituisca piu' grave reato, con la reclusione da due a sei anni. 
+ 11. Sono abrogati: 
+ a) l'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegge/stato/1991-12-31/419/!main#art_10" ns27:target="olf:it/decreto-legge/stato/1991/419/art_10" ns27:relation="cites">articolo 10 del decreto-legge 31 dicembre 1991, n. 419</ref>, convertito, con modificazioni, dalla <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/1992-02-18/172/!main" ns28:target="olf:it/legge/stato/1992/172" ns28:relation="cites">legge 18 febbraio 1992, n. 172</ref>, e successive modificazioni; 
+ b) l'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoLegge/stato/1992-06-08/306/!main#art_12quater" ns29:target="olf:it/decreto-legge/stato/1992/306/art_12quater" ns29:relation="cites">articolo 12-quater del decreto-legge 8 giugno 1992, n. 306</ref>, convertito, con modificazioni, dallalegge 7 agosto 1992, n. 356; 
+ c) l'articolo 12, comma 3-septies, del testo unico di cui al <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decretoLegislativo/stato/1998-07-25/286/!main" ns30:target="olf:it/decreto-legislativo/stato/1998/286" ns30:relation="cites">decreto legislativo 25 luglio 1998, n. 286</ref>; 
+ d) l'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/1998-08-03/269/!main#art_14-com4" ns31:target="olf:it/legge/stato/1998/269/art_14-com4" ns31:relation="cites">articolo 14, comma 4, della legge 3 agosto 1998, n. 269</ref>; 
+ e) l'articolo 4del <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegge/stato/2001-10-18/374/!main" ns32:target="olf:it/decreto-legge/stato/2001/374" ns32:relation="cites">decreto-legge 18 ottobre 2001, n. 374</ref>, convertito, con modificazioni, dalla <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2001-12-15/438/!main" ns33:target="olf:it/legge/stato/2001/438" ns33:relation="cites">legge 15 dicembre 2001, n. 438</ref>; 
+ f) l'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/2003-08-11/228/!main#art_10" ns34:target="olf:it/legge/stato/2003/228/art_10" ns34:relation="cites">articolo 10 della legge 11 agosto 2003, n. 228</ref>; 
+ f-bis) l'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoLegge/stato/1991-01-15/8/!main#art_7" ns35:target="olf:it/decreto-legge/stato/1991/8/art_7" ns35:relation="cites">articolo 7 del decreto-legge 15 gennaio 1991, n. 8</ref>, convertito, con modificazioni, dalla <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/legge/stato/1991-03-15/82/!main" ns36:target="olf:it/legge/stato/1991/82" ns36:relation="amends">legge 15 marzo 1991, n. 82</ref>, e successive modificazioni.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Modifica al <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/decretoLegislativo/stato/2001-06-08/231/!main" ns37:target="olf:it/decreto-legislativo/stato/2001/231" ns37:relation="amends">decreto legislativo 8 giugno 2001, n. 231</ref>, in materia di responsabilita' delle persone giuridiche 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_5">Dopo l'<ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegislativo/stato/2001-06-08/231/!main#art_25sexdecies" ns38:target="olf:it/decreto-legislativo/stato/2001/231/art_25sexdecies" ns38:relation="amends">articolo 25-sexiesdecies del decreto legislativo 8 giugno 2001, n. 231</ref>, sono inseriti i seguenti: 
+ «<quotedText eId="modNov_5_new_1">Art. 25-septiesdecies (Delitti contro il patrimonio culturale). - 1. In relazione alla commissione del delitto previsto dall'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518novies" ns39:target="olf:it/regio-decreto/stato/1930/1398/art_518novies" ns39:relation="repeals">articolo 518-novies del codice penale</ref>, si applica all'ente la sanzione pecuniaria da cento a quattrocento quote. 
+ 2. In relazione alla commissione dei delitti previsti dagli <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518ter" ns40:target="olf:it/regio-decreto/stato/1930/1398/art_518ter" ns40:relation="repeals">articoli 518-ter</ref>, <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518decies" ns41:target="olf:it/regio-decreto/stato/1930/1398/art_518decies" ns41:relation="repeals">518-decies</ref> e <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518undecies" ns42:target="olf:it/regio-decreto/stato/1930/1398/art_518undecies" ns42:relation="repeals">518-undecies del codice penale</ref>, si applica all'ente la sanzione pecuniaria da duecento a cinquecento quote. 
+ 3. In relazione alla commissione dei delitti previsti dagli <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518duodecies" ns43:target="olf:it/regio-decreto/stato/1930/1398/art_518duodecies" ns43:relation="repeals">articoli 518-duodecies</ref> e <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518quaterdecies" ns44:target="olf:it/regio-decreto/stato/1930/1398/art_518quaterdecies" ns44:relation="repeals">518-quaterdecies del codice penale</ref>, si applica all'ente la sanzione pecuniaria da trecento a settecento quote. 
+ 4. In relazione alla commissione dei delitti previsti dagli <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518bis" ns45:target="olf:it/regio-decreto/stato/1930/1398/art_518bis" ns45:relation="repeals">articoli 518-bis</ref>, <ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518quater" ns46:target="olf:it/regio-decreto/stato/1930/1398/art_518quater" ns46:relation="repeals">518-quater</ref> e <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518octies" ns47:target="olf:it/regio-decreto/stato/1930/1398/art_518octies" ns47:relation="repeals">518-octies del codice penale</ref>, si applica all'ente la sanzione pecuniaria da quattrocento a novecento quote. 
+ 5. Nel caso di condanna per i delitti di cui ai commi da 1 a 4, si applicano all'ente le sanzioni interdittive previste dall'articolo 9, comma 2, per una durata non superiore a due anni. 
+ Art. 25-duodevicies (Riciclaggio di beni culturali e devastazione e saccheggio di beni culturali e paesaggistici). - 1. In relazione alla commissione dei delitti previsti dagli <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518sexies" ns48:target="olf:it/regio-decreto/stato/1930/1398/art_518sexies" ns48:relation="repeals">articoli 518-sexies</ref> e <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_518terdecies" ns49:target="olf:it/regio-decreto/stato/1930/1398/art_518terdecies" ns49:relation="repeals">518-terdecies del codice penale</ref>, si applica all'ente la sanzione pecuniaria da cinquecento a mille quote. 
+ 2. Se l'ente o una sua unita' organizzativa viene stabilmente utilizzato allo scopo unico o prevalente di consentire o agevolare la commissione dei delitti indicati al comma 1, si applica la sanzione dell'interdizione definitiva dall'esercizio dell'attivita' ai sensi dell'articolo 16, comma 3</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'<ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/decretoLegislativo/stato/2001-06-08/231/!main#art_3" ns50:target="olf:it/decreto-legislativo/stato/2001/231/art_3" ns50:relation="amends">art. 3: 
+ - Il decreto legislativo 8 giugno 2001, n. 231</ref>, recante «Disciplina della responsabilita' amministrativa delle persone giuridiche, delle societa' e delle associazioni anche prive di personalita' giuridica, a norma dell'<ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/legge/stato/2000-09-29/300/!main#art_11" ns51:target="olf:it/legge/stato/2000/300/art_11" ns51:relation="cites">articolo 11 della legge 29 settembre 2000, n. 300</ref>», e' pubblicato nella Gazzetta Ufficiale 19 giugno 2001, n. 140. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Modifica alla legge 6 dicembre 1991, 
+ n. 394, in materia di aree protette</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_6">Il <ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/legge/stato/1991-12-06/394/!main#art_30-com3" ns52:target="olf:it/legge/stato/1991/394/art_30-com3" ns52:relation="amends">comma 3 dell'articolo 30 della legge 6 dicembre 1991, n. 394</ref>, e' sostituito dal seguente: 
+ «<quotedText eId="modNov_6_new_1">3.In caso di violazioni costituenti ipotesi di reati perseguiti ai sensi del titolo VIII-bis del libro secondo o dell'<ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_733bis" ns53:target="olf:it/regio-decreto/stato/1930/1398/art_733bis" ns53:relation="repeals">articolo 733-bis del codice penale</ref>, il sequestro di quanto adoperato per commettere gli illeciti ad essi relativi puo' essere disposto, in caso di flagranza, anche dagli addetti alla sorveglianza dell'area protetta, al fine di evitare l'aggravamento o la continuazione del reato. Il responsabile e' obbligato a provvedere alla riduzione in pristino dell'area danneggiata, ove possibile, e comunque e' tenuto al risarcimento del danno</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Si riporta il testo dell'<ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/legge/stato/1991-12-06/394/!main#art_30" ns54:target="olf:it/legge/stato/1991/394/art_30" ns54:relation="amends">articolo 30 della legge 6 dicembre 1991, n. 394</ref> (Legge quadro sulle aree protette), come modificato dalla presente legge: 
+ «Art. 30 (Sanzioni). - 1. Chiunque viola le disposizioni di cui agli articoli 6 e 13 e' punito con l'arresto fino a dodici mesi e con l'ammenda da lire duecentomila a lire cinquantamilioni. Chiunque viola le disposizioni di cui agli articoli 11, comma 3, e 19, comma 3, e' punito con l'arresto fino a sei mesi o con l'ammenda da lire duecentomila a lire venticinquemilioni. Le pene sono raddoppiate in caso di recidiva. 
+ 1-bis. Qualora l'area protetta marina non sia segnalata con i mezzi e gli strumenti di cui all'articolo 2, comma 9-bis, chiunque, al comando o alla conduzione di un'unita' da diporto, che comunque non sia a conoscenza dei vincoli relativi a tale area, violi il divieto di navigazione a motore di cui all'articolo 19, comma 3, lettera e), e' soggetto alla sanzione amministrativa del pagamento di una somma da 200 euro a 1.000 euro. 
+ 2. La violazione delle disposizioni emanate dagli organismi di gestione delle aree protette e' altresi' punita con la sanzione amministrativa del pagamento di una somma da lire cinquantamila a lire duemilioni. Tali sanzioni sono irrogate, nel rispetto delle disposizioni di cui allalegge 24 novembre 1981, n. 689, dal legale rappresentante dell'organismo di gestione dell'area protetta. 
+ 2-bis. La sanzione amministrativa pecuniaria di cui al comma 2 e' determinata in misura compresa tra 25 euro e 500 euro, qualora l'area protetta marina non sia segnalata con i mezzi e gli strumenti di cui all'articolo 2, comma 9-bis, e la persona al comando o alla conduzione dell'unita' da diporto non sia comunque a conoscenza dei vincoli relativi a tale area. 
+ 3. In caso di violazioni costituenti ipotesi di reati perseguiti ai sensi del titolo VIII-bis del libro secondo o dell'<ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_733bis" ns55:target="olf:it/regio-decreto/stato/1930/1398/art_733bis" ns55:relation="repeals">articolo 733-bis del codice penale</ref>, il sequestro di quanto adoperato per commettere gli illeciti ad essi relativi puo' essere disposto, in caso di flagranza, anche dagli addetti alla sorveglianza dell'area protetta, al fine di evitare l'aggravamento o la continuazione del reato. Il responsabile e' obbligato a provvedere alla riduzione in pristino dell'area danneggiata, ove possibile, e comunque e' tenuto al risarcimento del danno. 
+ 4. Nelle sentenze di condanna il giudice puo' disporre, nei casi di particolare gravita', la confisca delle cose utilizzate per la consumazione dell'illecito. 
+ 5. Si applicano le disposizioni di cui alla <ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/legge/stato/1981-11-24/689/!main" ns56:target="olf:it/legge/stato/1981/689" ns56:relation="cites">legge 24 novembre 1981, n. 689</ref>, in quanto non in contrasto con il presente articolo. 
+ 6. In ogni caso trovano applicazione le norme dell'<ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/legge/stato/1986-07-08/349/!main#art_18" ns57:target="olf:it/legge/stato/1986/349/art_18" ns57:relation="cites">articolo18 della legge 8 luglio 1986, n. 349</ref>, sul diritto al risarcimento del danno ambientale da parte dell'organismo di gestione dell'area protetta. 
+ 7. Le sanzioni penali previste dal comma 1 si applicano anche nel caso di violazione dei regolamenti e delle misure di salvaguardia delle riserve naturali statali. 
+ 8. Le sanzioni penali previste dal comma 1 si applicano anche in relazione alla violazione alle disposizioni di leggi regionali che prevedono misure di salvaguardia in vista della istituzione di aree protette e con riguardo alla trasgressione di regolamenti di parchi naturali regionali. 
+ 9. Nell'area protetta dei monti Cervati, non si applicano, fino alla costituzione del parco nazionale, i divieti di cui all'articolo 17, comma 2.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Abrogazioni</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_7">All'<ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_635-com2-num1" ns58:target="olf:it/regio-decreto/stato/1930/1398/art_635-com2-num1" ns58:relation="repeals">articolo 635, secondo comma, numero 1, del codice penale</ref>, le parole: «<quotedText eId="modNov_7_old_1">o cose di interesse storico o artistico ovunque siano ubicate</quotedText>» sono soppresse.</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_5__para_2__intro_1">
+                            <p>Sono abrogate le seguenti disposizioni: 
+ </p>
+                        </intro>
+                        <point eId="art_5__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_8">il secondo periodo del <ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_639-com2" ns59:target="olf:it/regio-decreto/stato/1930/1398/art_639-com2" ns59:relation="repeals">secondo comma dell'articolo 639 del codice penale</ref>;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_5__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_9">gli <ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_170" ns60:target="olf:it/decreto-legislativo/stato/2004/42/art_170" ns60:relation="repeals">articoli 170</ref>, <ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_173" ns61:target="olf:it/decreto-legislativo/stato/2004/42/art_173" ns61:relation="repeals">173</ref>, <ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_174" ns62:target="olf:it/decreto-legislativo/stato/2004/42/art_174" ns62:relation="repeals">174</ref>, <ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_176" ns63:target="olf:it/decreto-legislativo/stato/2004/42/art_176" ns63:relation="repeals">176</ref>, <ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_177" ns64:target="olf:it/decreto-legislativo/stato/2004/42/art_177" ns64:relation="repeals">177</ref>, <ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_178" ns65:target="olf:it/decreto-legislativo/stato/2004/42/art_178" ns65:relation="repeals">178</ref> e <ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_179" ns66:target="olf:it/decreto-legislativo/stato/2004/42/art_179" ns66:relation="repeals">179 del codice dei beni culturali e del paesaggio</ref>, di cui al <ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns67:target="olf:it/decreto-legislativo/stato/2004/42" ns67:relation="repeals">decreto legislativo 22 gennaio 2004, n. 42</ref>.</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_5" placement="bottom">
+                                <p> Note all'art. 5: 
+ - Si riporta il testo degli <ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_635" ns68:target="olf:it/regio-decreto/stato/1930/1398/art_635" ns68:relation="repeals">articoli 635</ref> e <ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_639" ns69:target="olf:it/regio-decreto/stato/1930/1398/art_639" ns69:relation="repeals">639 del codice penale</ref>, come modificato dalla presente legge: 
+ «Art. 635 (Danneggiamento). - Chiunque distrugge, disperde, deteriora o rende, in tutto o in parte, inservibili cose mobili o immobili altrui con violenza alla persona o con minaccia ovvero in occasione del delitto previstodall'articolo 331, e' punito con la reclusione da sei mesi a tre anni. 
+ Alla stessa pena soggiace chiunque distrugge, disperde, deteriora o rende, in tutto o in parte, inservibili le seguenti cose altrui: 
+ 1. edifici pubblici o destinati a uso pubblico o all'esercizio di un culto o immobili compresi nel perimetro dei centri storici, ovvero immobili i cui lavori di costruzione, di ristrutturazione, di recupero o di risanamento sono in corso o risultano ultimati o altre delle cose indicate nel numero 7) dell'articolo 625; 
+ 2. opere destinate all'irrigazione; 
+ 3. piantate di viti, di alberi o arbusti fruttiferi, o boschi, selve o foreste, ovvero vivai forestali destinati al rimboschimento; 
+ 4. attrezzature e impianti sportivi al fine di impedire o interrompere lo svolgimento di manifestazioni sportive. 
+ Chiunque distrugge, disperde, deteriora o rende, in tutto o in parte, inservibili cose mobili o immobili altrui in occasione di manifestazioni che si svolgono in luogo pubblico o aperto al pubblico e' punito con la reclusione da uno a cinque anni. 
+ Per i reati di cui ai commi precedenti, la sospensione condizionale della pena e' subordinata all'eliminazione delle conseguenze dannose o pericolose del reato, ovvero, se il condannato non si oppone, alla prestazione di attivita' non retribuita a favore della collettivita' per un tempo determinato, comunque non superiore alla durata della pena sospesa, secondo le modalita' indicate dal giudice nella sentenza di condanna.» 
+ «Art.639 (Deturpamento e imbrattamento di cose altrui).
+ - Chiunque, fuori dei casi preveduti dall'articolo 635, deturpa o imbratta cose mobilialtrui e' punito, a querela della persona offesa, con la multa fino a euro 103. 
+ Se il fatto e' commesso su beni immobili o su mezzi di trasporto pubblici o privati, si applica la pena della reclusione da uno a sei mesi o della multa da 300 a 1.000 euro. 
+ Nei casi di recidiva per le ipotesi di cui al secondo comma si applica la pena della reclusione da tre mesi a due anni e della multa fino a 10.000 euro. 
+ Nei casi previsti dal secondo comma si procede d'ufficio. 
+ Con la sentenza di condanna per i reati di cui al secondo e terzo comma il giudice, ai fini di cui all'articolo 165, primo comma, puo' disporre l'obbligo di ripristino e di ripulitura dei luoghi ovvero, qualora cio' non sia possibile, l'obbligo di sostenerne le spese o di rimborsare quelle a tal fine sostenute, ovvero, se il condannato non si oppone, la prestazione di attivita' non retribuita a favore della collettivita' per un tempo determinato comunque non superiore alla durata della pena sospesa, secondo le modalita' indicate nella sentenza di condanna.». 
+ - Il <ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns70:target="olf:it/decreto-legislativo/stato/2004/42" ns70:relation="repeals">decreto legislativo 22 gennaio 2004, n. 42</ref>, recante «<ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns71:target="olf:it/decreto-legislativo/stato/2004/42" ns71:relation="repeals">Codice dei beni culturali e del paesaggio</ref>, ai sensi dell'<ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/legge/stato/2002-07-06/137/!main#art_10" ns72:target="olf:it/legge/stato/2002/137/art_10" ns72:relation="cites">art. 10 della legge 6 luglio 2002, n. 137</ref>», e' pubblicato nella Gazzetta Ufficiale 24 febbraio 2004, n. 45, S.O. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le amministrazioni interessate provvedono all'attuazione delle disposizioni della presente legge con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri per la finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 9 marzo 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
