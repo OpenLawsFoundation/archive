@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-06-30/84/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-06-30/84"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-06-30;84"/>
+                    <FRBRalias name="eli" value="eli/id/2022/07/02/22G00092/ORIGINAL"/>
+                    <FRBRdate date="2022-06-30" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/07/02/22G00092/ORIGINAL" aknrelname="eli/id/2022/07/02/22G00092/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 4 maggio 2022, n. 41, recante disposizioni urgenti per lo svolgimento contestuale delle elezioni amministrative e dei referendum previsti dall'articolo 75 della Costituzione da tenersi nell'anno 2022, nonche' per l'applicazione di modalita' operative, precauzionali e di sicurezza ai fini della raccolta del voto. (22G00092)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00092" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2022-06-30" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-06-30/84/ita@2022-07-03/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-06-30/84/ita@2022-07-03"/>
+                    <FRBRdate date="2022-07-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/07/02/22G00092/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/07/02/22G00092/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/07/02/22G00092/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-06-30/84/ita@2022-07-03/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-06-30/84/ita@2022-07-03.xml"/>
+                    <FRBRdate date="2022-06-30" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/07/02/22G00092/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-07-02" name="" number="153" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-07-02" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2022-06-30" refersTo="#C.3591"/>
+                <step by="#senato" date="2022-06-30" refersTo="#S.2653"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1957-03-30;361#Testo Unico delle leggi recanti norme per la elezione della Camera dei deputati-art. 18 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 4 maggio 2022, n. 41 (in G.U. 04/05/2022, n 103).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2000-08-18;267#71"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 4 maggio 2022, n. 41 (in G.U. 04/05/2022, n 103).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:legge:2001-12-27;459#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 4 maggio 2022, n. 41 (in G.U. 04/05/2022, n 103).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2003-04-02;104#19"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 4 maggio 2022, n. 41 (in G.U. 04/05/2022, n 103).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:legge:2019-12-27;160#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 4 maggio 2022, n. 41 (in G.U. 04/05/2022, n 103).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-04;41#2"/>
+                        <new>
+                            <nakn:text>,di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-04;41#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 2, 4, 5 e 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-04;41#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, comma 4, alinea.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-04;41#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-04;41#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, commi 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-04;41#6 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-04;41#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, commi 1, 6, lettera b) e 8. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2022-06-30;84#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-05-04;41#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, commi 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2022-06-30/84/!main" showAs=""/>
+                <passiveRef eId="C.3591" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3591" showAs=""/>
+                <passiveRef eId="S.2653" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2653" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/07/02/22G00092/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 4 maggio 2022, n. 41, recante disposizioni urgenti per lo svolgimento contestuale delle elezioni amministrative e dei referendum previsti dall'articolo 75 della Costituzione da tenersi nell'anno 2022, nonche' per l'applicazione di modalita' operative, precauzionali e di sicurezza ai fini della raccolta del voto. (22G00092)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00092</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-06-30</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/07/02/22G00092/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/07/02/22G00092/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/07/02/22G00092/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/07/02/22G00092/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2022/84" nativeUrn="urn:nir:stato:legge:2022-06-30;84" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-07-02"><ns0:event type="enacted" date="2022-06-30"/><ns0:event type="published" date="2022-07-02"/><ns0:event type="commenced" date="2022-07-02"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/060107a9-28a5-4c07-bf72-3c787f641bb3" sourceSha256="368b3bbd9deca6663c413e04b6d8a385536e45da6a8710cb0595a7d71ab0aaa7" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T23:14:58.855785Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2022-06-30">30 giugno 2022</docDate>
+                <docNumber>84</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 4 maggio 2022, n. 41, recante disposizioni urgenti per lo svolgimento contestuale delle elezioni amministrative e dei referendum previsti dall'articolo 75 della Costituzione da tenersi nell'anno 2022, nonche' per l'applicazione di modalita' operative, precauzionali e di sicurezza ai fini della raccolta del voto. (22G00092) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 03/07/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2022-05-04/41/!main" ns1:target="olf:it/decreto-legge/stato/2022/41" ns1:relation="amends">decreto-legge 4 maggio 2022, n. 41</ref>, recante disposizioni urgenti per lo svolgimento contestuale delle elezioni amministrative e dei referendum previsti dall'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_75" ns2:target="olf:it/costituzione/stato/1947/const/art_75" ns2:relation="cites">articolo 75 della Costituzione</ref> da tenersi nell'anno 2022, nonche' per l'applicazione di modalita' operative, precauzionali e di sicurezza ai fini della raccolta del voto, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegge/stato/2022-05-04/41/!main" ns3:target="olf:it/decreto-legge/stato/2022/41" ns3:relation="amends">decreto-legge 4 maggio 2022, n. 41</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 103 del 4 maggio 2022. 
+ A norma dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns4:target="olf:it/legge/stato/1988/400/art_15-com5" ns4:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 23. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 30 giugno 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-06-30/84/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-06-30/84"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-06-30;84"/>
+                                <FRBRalias name="eli" value="eli/id/2022/07/02/22G00092/ORIGINAL"/>
+                                <FRBRdate date="2022-07-03" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-06-30/84/ita@2022-07-03/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-06-30/84/ita@2022-07-03"/>
+                                <FRBRdate date="2022-07-03" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-06-30/84/ita@2022-07-03/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-06-30/84/ita@2022-07-03.xml"/>
+                                <FRBRdate date="2022-06-30" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ MODIFICAZIONI APPORTATE IN SEDE 
+ DI CONVERSIONE AL DECRETO-LEGGE 
+ 4 MAGGIO 2022, N. 41 
+ 
+ All'articolo 2: 
+ al comma 1: 
+ al secondo periodo, dopo le parole: «in cui si svolgono anche le» sono inserite le seguenti: «votazioni per le»; 
+ al quarto periodo, le parole: «, dando la precedenza alle» sono sostituite dalle seguenti: «ed e' effettuato iniziando dalle schede per le» e le parole: «e poi a quelle» sono sostituite dalle seguenti: «e passando poi a quelle per le elezioni»; 
+ al quinto periodo, le parole: «rispettive consultazioni» sono sostituite dalle seguenti: «consultazioni di rispettiva pertinenza». 
+ All'articolo 3: 
+ al comma 2: 
+ al primo periodo, le parole: «impossibilita' alla» sono sostituite dalle seguenti: «impossibilita' di»; 
+ al quarto periodo, le parole: «di suoi delegati quali presidente e componenti, compresi nelle liste elettorali del comune» sono sostituite dalle seguenti: «di propri delegati, compresi nelle liste elettorali del comune, quali presidente e componenti del seggio»; 
+ al comma 4, primo periodo, sono aggiunte, in fine, le seguenti parole: «del presente articolo»; 
+ al comma 5, le parole: «impossibilita' alla» sono sostituite dalle seguenti: «impossibilita' di» e la parola: «comunque» e' soppressa; 
+ al comma 6, dopo le parole: «comma 1-sexies,» sono inserite le seguenti: «primo periodo,». 
+ All'articolo 4: 
+ al comma 4, alinea, le parole: «e non oltre» sono soppresse. 
+ All'articolo 5: 
+ al comma 2, secondo periodo, le parole: «contrasto alla pandemia» sono sostituite dalle seguenti: «contrasto della pandemia» e sono aggiunte, in fine, le seguenti parole: «, convertito, con modificazioni, dalla <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2022-05-19/52/!main" ns5:target="olf:it/legge/stato/2022/52" ns5:relation="cites">legge 19 maggio 2022, n. 52</ref>». 
+ All'articolo 6: 
+ al comma 2: 
+ al primo periodo, dopo le parole: «nei comuni» sono inserite le seguenti: «con popolazione»; 
+ al terzo periodo, le parole: «che non esercitano» sono sostituite dalle seguenti: «che non abbiano esercitato»; 
+ al comma 3, primo periodo, sono aggiunte, in fine, le seguenti parole: «alle elezioni politiche». 
+ Dopo l'articolo 6 e' inserito il seguente: 
+ «Art. 6-bis (Disposizioni in materia di elezioni politiche). - 1.
+Le disposizioni dell'articolo 18-bis, comma 2, primo periodo, del testo unico delle leggi recanti norme per la elezione della Camera dei deputati, di cui al <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1957-03-30/361/!main" ns6:target="olf:it/dpr/stato/1957/361" ns6:relation="amends">decreto del Presidente della Repubblica 30 marzo 1957, n. 361</ref>, si applicano, per le prime elezioni della Camera dei deputati e del Senato della Repubblica successive alla data di entrata in vigore della legge di conversione del presente decreto, anche ai partiti o gruppi politici costituiti in gruppo parlamentare in almeno una delle due Camere al 31 dicembre 2021 o che abbiano presentato candidature con proprio contrassegno alle ultime elezioni della Camera dei deputati o alle ultime elezioni dei membri del Parlamento europeo spettanti all'Italia in almeno due terzi delle circoscrizioni e abbiano ottenuto almeno un seggio assegnato in ragione proporzionale o abbiano concorso alla determinazione della cifra elettorale nazionale di coalizione avendo conseguito, sul piano nazionale, un numero di voti validi superiore all'1 per cento del totale». 
+ All'articolo 7: 
+ al comma 1: 
+ al capoverso 1-ter, la parola: «individuati» e' sostituita dalla seguente: «individuato»; 
+ al capoverso 1-quinquies, primo periodo, le parole: «e il Ministro» sono sostituite dalle seguenti: «e con il Ministro»; 
+ al comma 6, lettera b): 
+ al numero 2), le parole da: «dopo le parole "Ufficio territoriale» fino alla fine del numero sono sostituite dalle seguenti: «le parole: "all'Ufficio territoriale del Governo di Roma e al Comune di Roma" sono sostituite dalle seguenti: "agli Uffici territoriali del Governo di Roma, Milano, Bologna, Firenze e Napoli e ai rispettivi comuni"»; 
+ al numero 5), le parole: «le parole "di Roma" sono soppresse,» sono sostituite dalle seguenti: «le parole: ", da parte del Comune di Roma," sono sostituite dalle seguenti: "da parte del competente comune"»; 
+ al comma 8, secondo periodo, la parola: «provvedimento» e' sostituita dalla seguente: «decreto» e le parole: «presente decreto» sono sostituite dalle seguenti: «presente articolo». 
+ All'articolo 8: 
+ al comma 2 sono aggiunte, in fine, le seguenti parole: «, convertito, con modificazioni, dalla <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2012-12-17/221/!main" ns7:target="olf:it/legge/stato/2012/221" ns7:relation="cites">legge 17 dicembre 2012, n. 221</ref>»; 
+ al comma 3, le parole: «pari euro» sono sostituite dalle seguenti: «pari a euro» e le parole: «Programma Fondi di riserva e speciali» sono sostituite dalle seguenti: «programma "Fondi di riserva e speciali"». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
