@@ -1,0 +1,721 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/117/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/117"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-08-08;117"/>
+                    <FRBRalias name="eli" value="eli/id/2024/08/14/24G00134/ORIGINAL"/>
+                    <FRBRdate date="2024-08-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/14/24G00134/ORIGINAL" aknrelname="eli/id/2024/08/14/24G00134/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Rendiconto generale dell'Amministrazione dello Stato per l'esercizio finanziario 2023. (24G00134)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00134" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-08-08" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29"/>
+                    <FRBRdate date="2024-08-29" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/14/24G00134/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/08/14/24G00134/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/08/14/24G00134/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29.xml"/>
+                    <FRBRdate date="2024-08-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/14/24G00134/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-08-14" name="" number="190" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-08-14" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2024-08-08" refersTo="#C.1951"/>
+                <step by="#senato" date="2024-08-08" refersTo="#S.1200"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-08-08/117/!main" showAs=""/>
+                <passiveRef eId="C.1951" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1951" showAs=""/>
+                <passiveRef eId="S.1200" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1200" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/08/14/24G00134/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Rendiconto generale dell'Amministrazione dello Stato per l'esercizio finanziario 2023. (24G00134)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00134</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-08-08</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/08/14/24G00134/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/08/14/24G00134/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/08/14/24G00134/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/08/14/24G00134/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/117" nativeUrn="urn:nir:stato:legge:2024-08-08;117" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-08-14"><ns0:event type="enacted" date="2024-08-08"/><ns0:event type="published" date="2024-08-14"/><ns0:event type="commenced" date="2024-08-14"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/efa7d92a-22e6-4410-bc6f-fe1cc20b08cc" sourceSha256="bd1694f0e294f7c32c66ba92ed2aeb17bef772fba821785a9cf9698612283358" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:08:56.248008Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-08-08">08 agosto 2024</docDate>
+                <docNumber>117</docNumber>
+                <docTitle>Rendiconto generale dell'Amministrazione dello Stato per l'esercizio finanziario 2023. (24G00134) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 29/08/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <chapter eId="chp_I">
+                <num>Titolo I</num>
+                <heading>RENDICONTO GENERALE DELLO STATO Capo I Conto del bilancio</heading>
+                <article eId="art_1">
+                    <num>Art. 1.</num>
+                    <heading> Entrate</heading>
+                    <paragraph eId="art_1__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Le entrate tributarie, extratributarie, per alienazione e ammortamento di beni patrimoniali e riscossione di crediti nonche' per accensione di prestiti, accertate nell'esercizio finanziario 2023 per la competenza propria dell'esercizio, risultano stabilite in euro 1.112.621.812.359,73. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_1__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>I residui attivi delle Amministrazioni centrali dello Stato, determinati alla chiusura dell'esercizio 2022 in euro 235.337.876.465,31, non hanno subito modifiche nel corso della gestione 2023. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_1__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>I residui attivi al 31 dicembre 2023 ammontano complessivamente a euro 251.305.669.966,40, cosi' risultanti: 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                        </content>
+                    </paragraph>
+                    <section>
+                        <content>
+                            <p>
+                                <authorialNote eId="authorialNote_1" placement="bottom">
+                                    <p> NOTE 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns1:target="olf:it/dpr/stato/1985/1092" ns1:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+</p>
+                                </authorialNote>
+                            </p>
+                        </content>
+                    </section>
+                </article>
+                <article eId="art_2">
+                    <num>Art. 2.</num>
+                    <heading> Spese</heading>
+                    <paragraph eId="art_2__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Le spese correnti, in conto capitale e per rimborso di passivita' finanziarie, impegnate nell'esercizio finanziario 2023 per la competenza propria dell'esercizio, risultano stabilite in euro 1.144.118.066.948,64. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_2__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>I residui passivi delle Amministrazioni centrali dello Stato, determinati alla chiusura dell'esercizio 2022 in euro 193.495.158.260,26, non hanno subito modifiche nel corso della gestione 2023. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_2__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>I residui passivi al 31 dicembre 2023 ammontano complessivamente a euro 198.768.657.431,10, cosi' risultanti: 
+ 
+ </p>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p> 
+=====================================================================
+|      |    Somme pagate    |  Somme rimaste   |       Totale       |
+|      |                    |    da pagare     |                    |
++======+====================+==================+====================+
+|      |                          (in euro)                         |
++------+--------------------+------------------+--------------------+
+|Impe- |                    |                  |                    |
+|gni   |1.086.514.799.880,13| 57.603.267.068,51|1.144.118.066.948,64|
++------+--------------------+------------------+--------------------+
+|Resi- |                    |                  |                    |
+|dui   |                    |                  |                    |
+|pas-  |                    |                  |                    |
+|sivi  |                    |                  |                    |
+|del-  |                    |                  |                    |
+|l'e-  |   42.232.646.251,35|141.165.390.362,59|  183.398.036.613,94|
+|ser-  |                    |                  |                    |
+|cizio |                    |                  |                    |
+|2022  |                    |                  |                    |
++------+--------------------+------------------+--------------------+
+|      |                    |198.768.657.431,10|                    |
++------+--------------------+------------------+--------------------+
+</p>
+                                    </td>
+                                </tr> </table>
+                            <p/>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_3">
+                    <num>Art. 3.</num>
+                    <heading> Disavanzo della gestione di competenza</heading>
+                    <paragraph eId="art_3__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Il disavanzo della gestione di competenza dell'esercizio finanziario 2023, di euro 31.496.254.588,91, risulta stabilito come segue: 
+ 
+ (in euro) 
+ </p>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <p>Entrate tributarie </p>
+                                    </th>
+                                    <th>
+                                        <p>618.500.883.131,71 </p>
+                                    </th>
+                                    <th>
+                                        <p/>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Entrate extra-tributarie </p>
+                                    </td>
+                                    <td>
+                                        <p>119.655.510.196,23 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Entrate provenienti dall'alienazione ed ammortamento di beni patrimoniali e dalla riscossione di crediti </p>
+                                    </td>
+                                    <td>
+                                        <p>  3.457.393.274,41   </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Accensione di prestiti </p>
+                                    </td>
+                                    <td>
+                                        <p>371.008.025.757,38 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Totale entrate </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p>1.112.621.812.359,73 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Spese correnti </p>
+                                    </td>
+                                    <td>
+                                        <p>695.266.561.406,97 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Spese in conto capitale </p>
+                                    </td>
+                                    <td>
+                                        <p>170.896.382.778,00 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Rimborso di passivita' finanziarie </p>
+                                    </td>
+                                    <td>
+                                        <p> 277.955.122.763,67 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Totale spese </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p>1.144.118.066.948,64 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Disavanzo della gestione di competenza </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p> 31.496.254.588,91 </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <p/>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_4">
+                    <num>Art. 4.</num>
+                    <heading> Situazione finanziaria</heading>
+                    <paragraph eId="art_4__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Il disavanzo finanziario del conto del Tesoro alla fine dell'esercizio 2023, di euro 462.171.145.931,15, risulta stabilito come segue: 
+ 
+ (euro) 
+ </p>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p> 
+=====================================================================
+|Disavanzo della gestione di competenza          | 31.496.254.588,91|
++-----------------------------+------------------+------------------+
+|Disavanzo finanziario del    |                  |                  |
+|conto del Tesoro             |441.369.194.672,49|                  |
+|dell'esercizio 2022          |                  |                  |
++----------+------------------+------------------+------------------+
+|Aumento nei residui attivi   |                  |                  |
+|lasciati dall'esercizio 2022:|                  |                  |
++----------+------------------+------------------+------------------+
+|Accertati:|                  |                  |                  |
++----------+------------------+------------------+------------------+
+|al 1° gen-|                  |                  |                  |
+|naio 2023 |235.337.867.465,31|                  |                  |
++----------+------------------+------------------+------------------+
+|al 31 di- |                  |                  |                  |
+|cembre    |251.305.669.966,40|                  |                  |
+|2023      |                  |                  |                  |
++----------+------------------+------------------+------------------+
+|          |                  | 15.967.802.501,09|                  |
++----------+------------------+------------------+------------------+
+|Diminuzione nei residui      |                  |                  |
+|passivi lasciati             |                  |                  |
+|dall'esercizio 2022:         |                  |                  |
++----------+------------------+------------------+------------------+
+|Accertati:|                  |                  |                  |
++----------+------------------+------------------+------------------+
+|al 1° gen-|                  |                  |                  |
+|naio 2023 |193.495.158.260,26|                  |                  |
++----------+------------------+------------------+------------------+
+|al 31 di- |                  |                  |                  |
+|cembre    |198.768.657.431,10|                  |                  |
+|2023      |                  |                  |                  |
++----------+------------------+------------------+------------------+
+|          |                  |  5.273.499.170,84|                  |
++----------+------------------+------------------+------------------+
+|Disavanzo |                  |                  |                  |
+|al 31 di- |                  |                  |                  |
+|cembre    |                  |                  |430.674.891.342,24|
+|2023      |                  |                  |                  |
++----------+------------------+------------------+------------------+
+|Disavanzo |                  |                  |                  |
+|finanzia- |                  |                  |                  |
+|rio al 31 |                  |                  |462.171.145.931,15|
+|dicembre  |                  |                  |                  |
+|2023      |                  |                  |                  |
++----------+------------------+------------------+------------------+
+</p>
+                                    </td>
+                                </tr> </table>
+                            <p/>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_5">
+                    <num>Art. 5.</num>
+                    <heading> Allegati</heading>
+                    <paragraph eId="art_5__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Sono approvati l'Allegato n. 1, annesso alla presente legge, previsto dall'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_28-com4" ns2:target="olf:it/legge/stato/2009/196/art_28-com4" ns2:relation="cites">articolo 28, comma 4, della legge 31 dicembre 2009, n. 196</ref>, nonche' l'Allegato n. 2 relativo alle eccedenze di impegni risultati in sede di consuntivo per l'esercizio 2023 sul conto della competenza, relative alle unita' di voto degli stati di previsione della spesa del Ministero delle infrastrutture e dei trasporti e del Ministero della difesa. 
+</p>
+                        </content>
+                    </paragraph>
+                    <section>
+                        <content>
+                            <p>
+                                <authorialNote eId="authorialNote_2" placement="bottom">
+                                    <p> Note all'art. 5: 
+ - Si riporta il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_28" ns3:target="olf:it/legge/stato/2009/196/art_28" ns3:relation="cites">articolo 28, della legge 31 dicembre 2009, n. 196</ref> (Legge di contabilita' e finanza pubblica): 
+ «Art. 28 (Fondo di riserva per le spese impreviste).
+ - 1. Nello stato di previsione del Ministero dell'economia e delle finanze e' istituito, nella parte corrente, un "fondo di riserva per le spese impreviste" per provvedere alle eventuali deficienze delle assegnazioni di bilancio, che non riguardino le spese di cui all'articolo 26 e che, comunque, non impegnino i bilanci futuri con carattere di continuita'. 
+ 2. Il trasferimento di somme dal fondo di cui al comma 1 e la loro corrispondente iscrizione alle unita' elementari di bilancio, ai fini della gestione e della rendicontazione, di bilancio hanno luogo mediante decreti del Ministro dell'economia e delle finanze, da registrare alla Corte dei conti, e riguardano sia le dotazioni di competenza sia quelle di cassa delle unita' elementari di bilancio interessate. 
+ 3. Allo stato di previsione della spesa del Ministero dell'economia e delle finanze e' allegato un elenco da approvare, con apposito articolo, con la legge del bilancio, delle spese per le quali si puo' esercitare la facolta' di cui al comma 2. 
+ 4. Alla legge di approvazione del rendiconto generale dello Stato e' allegato un elenco dei decreti di cui al comma 2, con le indicazioni dei motivi per i quali si e' proceduto ai prelevamenti dal fondo di cui al presente articolo.» 
+</p>
+                                </authorialNote>
+                            </p>
+                        </content>
+                    </section>
+                </article>
+            </chapter>
+            <chapter eId="chp_II">
+                <num>Capo II</num>
+                <heading>Conto generale del patrimonio</heading>
+                <article eId="art_6">
+                    <num>Art. 6.</num>
+                    <heading> Risultati generali della gestione patrimoniale</heading>
+                    <paragraph eId="art_6__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>La situazione patrimoniale dell'Amministrazione dello Stato, al 31 dicembre 2023, resta stabilita come segue: 
+ 
+ (in euro) 
+ </p>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <p>Attivita' </p>
+                                    </th>
+                                    <th>
+                                        <p/>
+                                    </th>
+                                    <th>
+                                        <p/>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Attivita' finanziarie </p>
+                                    </td>
+                                    <td>
+                                        <p>697.405.227.989,05 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Attivita' non finanziarie prodotte </p>
+                                    </td>
+                                    <td>
+                                        <p> 346.834.400.728,00 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Attivita' non finanziarie non prodotte </p>
+                                    </td>
+                                    <td>
+                                        <p> 4.340.359.675,02 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p>1.048.579.988.392,07 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Passivita' </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Passivita' finanziarie </p>
+                                    </td>
+                                    <td>
+                                        <p>3.806.370.055.554,88 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p>3.806.370.055.554,88 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Eccedenza passiva al 31 dicembre 2023 </p>
+                                    </td>
+                                    <td>
+                                        <p> 2.757.790.067.162,81 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                            </table>
+                            <p/>
+                        </content>
+                    </paragraph>
+                </article>
+            </chapter>
+            <chapter eId="chp_III">
+                <num>Titolo II</num>
+                <heading>APPROVAZIONE DEL RENDICONTO</heading>
+                <article eId="art_7">
+                    <num>Art. 7.</num>
+                    <heading> Rendiconto</heading>
+                    <paragraph eId="art_7__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Il rendiconto generale dell'Amministrazione dello Stato per l'esercizio 2023 e' approvato nelle risultanze di cui ai precedenti articoli. 
+ </p>
+                        </content>
+                    </paragraph>
+                </article>
+            </chapter>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 8 agosto 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Giorgetti, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato n. 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/117/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/117"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-08-08;117"/>
+                                <FRBRalias name="eli" value="eli/id/2024/08/14/24G00134/ORIGINAL"/>
+                                <FRBRdate date="2024-08-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29"/>
+                                <FRBRdate date="2024-08-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29.xml"/>
+                                <FRBRdate date="2024-08-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato n. 1 
+ 
+PRELEVAMENTI DAL FONDO DI RISERVA PER LE SPESE IMPREVISTE EFFETTUATI NELL'ANNO 2023 
+ (<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_28-com4" ns4:target="olf:it/legge/stato/2009/196/art_28-com4" ns4:relation="cites">articolo 28, comma 4, della legge 31 dicembre 2009, n. 196</ref>) 
+ 
+ Per l'anno finanziario 2023, nello stato di previsione del Ministero dell'economia e delle finanze, al programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» (Oneri comuni di parte corrente) di pertinenza del centro di responsabilita' «Ragioneria generale dello Stato» e' iscritto il capitolo n. 3001, con uno stanziamento iniziale di euro 500.000.000 in conto competenza e in conto cassa. 
+ Nel corso dell'anno finanziario 2023 sono stati disposti, a carico del suddetto fondo, prelevamenti in termini di competenza e cassa con i seguenti decreti del Ministro dell'economia e delle finanze: 
+ 
+ 1. <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decreto/ministero.economia.finanze/2023-05-18/108779/!main" ns5:target="olf:it/decreto/ministero-economia-finanze/2023/108779" ns5:relation="cites">Decreto del Ministro dell'economia e delle finanze n. 108779 del 18 maggio 2023</ref>, registrato alla Corte dei conti il 5 giugno 2023, registrazione n. 825, ufficio n. 1 
+ 60.000.000,00 
+ (60.000.000,00) 
+ 
+ 2. <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decreto/ministero.economia.finanze/2023-08-01/208021/!main" ns6:target="olf:it/decreto/ministero-economia-finanze/2023/208021" ns6:relation="cites">Decreto del Ministro dell'economia e delle finanze n. 208021 del 1° agosto 2023</ref>, registrato alla Corte dei conti il 7 agosto 2023, registrazione n. 1067, ufficio n. 1 
+ 80.000.000,00 
+ (80.000.000,00) 
+ 
+ 3. <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decreto/ministero.economia.finanze/2023-10-13/236578/!main" ns7:target="olf:it/decreto/ministero-economia-finanze/2023/236578" ns7:relation="cites">Decreto del Ministro dell'economia e delle finanze n. 236578 del 13 ottobre 2023</ref>, registrato alla Corte dei conti il 24 ottobre 2023, registrazione n. 1387, ufficio n. 1 
+ 3.250.000,00 
+ (3.250.000,00) 
+ 
+ 4. <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decreto/ministero.economia.finanze/2023-11-24/265911/!main" ns8:target="olf:it/decreto/ministero-economia-finanze/2023/265911" ns8:relation="cites">Decreto del Ministro dell'economia e delle finanze n. 265911 del 24 novembre 2023</ref>, registrato alla Corte dei conti il 1° dicembre 2023, registrazione n. 1578, ufficio n. 1 
+ 50.000.000,00 
+ (50.000.000,00) 
+ 
+I Prelevamento (decreto del Ministro dell'economia e delle finanze 18 maggio 2023) 
+ 
+ L'assegnazione ha riguardato il programma di seguito specificato per provvedere alla necessita' di integrare gli stanziamenti di bilancio del Ministero dell'economia e delle finanze, riferiti a spese aventi le caratteristiche definite dalle disposizioni legislative medesime. 
+ 
+MINISTERO DELL'ECONOMIA E DELLE FINANZE 
+ 
+ - Programma «Sicurezza democratica» della missione «Ordine pubblico e sicurezza» di pertinenza del centro di responsabilita' «Dipartimento del Tesoro» per euro 60.000.000,00. 
+ 
+II Prelevamento (decreto del Ministro dell'economia e delle finanze 1° agosto 2023) 
+ 
+ L'assegnazione ha riguardato il programma di seguito specificato per provvedere alla necessita' di integrare gli stanziamenti di bilancio del Ministero dell'economia e delle finanze, riferiti a spese aventi le caratteristiche definite dalle disposizioni legislative medesime. 
+ 
+MINISTERO DELL'ECONOMIA E DELLE FINANZE 
+ 
+ - Programma «Sicurezza democratica» della missione «Ordine pubblico e sicurezza» di pertinenza del centro di responsabilita' «Dipartimento del Tesoro» per euro 80.000.000,00. 
+ 
+III Prelevamento (decreto del Ministro dell'economia e delle finanze 13 ottobre 2023) 
+ 
+ L'assegnazione ha riguardato il programma di seguito specificato per provvedere alla necessita' di integrare gli stanziamenti di bilancio del Ministero delle infrastrutture e dei trasporti, riferiti a spese aventi le caratteristiche definite dalle disposizioni legislative medesime. 
+ 
+MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI 
+ 
+ - Programma «Sicurezza e controllo nei mari, nei porti e sulle coste» della missione «Ordine pubblico e sicurezza» di pertinenza del centro di responsabilita' «Capitanerie di porto» per euro 3.250.000,00. 
+ 
+IV Prelevamento (decreto del Ministro dell'economia e delle finanze 24 novembre 2023) 
+ 
+ L'assegnazione ha riguardato il programma di seguito specificato per provvedere alla necessita' di integrare gli stanziamenti di bilancio del Ministero dell'economia e delle finanze, riferiti a spese aventi le caratteristiche definite dalle disposizioni legislative medesime. 
+ 
+MINISTERO DELL'ECONOMIA E DELLE FINANZE 
+ 
+ - Programma «Sicurezza democratica» della missione «Ordine pubblico e sicurezza» di pertinenza del centro di responsabilita' «Dipartimento del Tesoro» per euro 50.000.000,00. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato n. 2">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/117/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/117"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-08-08;117"/>
+                                <FRBRalias name="eli" value="eli/id/2024/08/14/24G00134/ORIGINAL"/>
+                                <FRBRdate date="2024-08-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29"/>
+                                <FRBRdate date="2024-08-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/117/ita@2024-08-29.xml"/>
+                                <FRBRdate date="2024-08-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato n. 2 
+ 
+ ECCEDENZE 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
