@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-05-19;67"/>
+                    <FRBRalias name="eli" value="eli/id/2022/06/16/22G00075/ORIGINAL"/>
+                    <FRBRdate date="2022-05-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/06/16/22G00075/ORIGINAL" aknrelname="eli/id/2022/06/16/22G00075/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Ratifica ed esecuzione del Protocollo alla Convenzione relativa alla costruzione e all'esercizio di un impianto laser europeo a elettroni liberi a raggi X riguardante l'adesione del Governo del Regno Unito di Gran Bretagna e Irlanda del Nord, con Allegati, fatto a Berlino il 19 marzo 2018. (22G00075)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00075" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2022-05-19" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17"/>
+                    <FRBRdate date="2022-06-17" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/06/16/22G00075/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/06/16/22G00075/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/06/16/22G00075/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17.xml"/>
+                    <FRBRdate date="2022-05-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/06/16/22G00075/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-06-16" name="" number="139" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-06-16" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2022-05-19" refersTo="#S.1378"/>
+                <step by="#camera" date="2022-05-19" refersTo="#C.3323"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2022-05-19/67/!main" showAs=""/>
+                <passiveRef eId="S.1378" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;1378" showAs=""/>
+                <passiveRef eId="C.3323" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3323" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/06/16/22G00075/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Ratifica ed esecuzione del Protocollo alla Convenzione relativa alla costruzione e all'esercizio di un impianto laser europeo a elettroni liberi a raggi X riguardante l'adesione del Governo del Regno Unito di Gran Bretagna e Irlanda del Nord, con Allegati, fatto a Berlino il 19 marzo 2018. (22G00075)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00075</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-05-19</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/06/16/22G00075/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/06/16/22G00075/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/06/16/22G00075/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/06/16/22G00075/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2022/67" nativeUrn="urn:nir:stato:legge:2022-05-19;67" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-06-16"><ns0:event type="enacted" date="2022-05-19"/><ns0:event type="published" date="2022-06-16"/><ns0:event type="commenced" date="2022-06-16"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/fee35442-d9a3-45e8-8a02-350772e3e0c2" sourceSha256="1eef1da3269780d7179cc97af9743fb0201598b5b72326434cb7fcabe73d9b98" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T23:16:40.890208Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2022-05-19">19 maggio 2022</docDate>
+                <docNumber>67</docNumber>
+                <docTitle>Ratifica ed esecuzione del Protocollo alla Convenzione relativa alla costruzione e all'esercizio di un impianto laser europeo a elettroni liberi a raggi X riguardante l'adesione del Governo del Regno Unito di Gran Bretagna e Irlanda del Nord, con Allegati, fatto a Berlino il 19 marzo 2018. (22G00075) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 17/06/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Autorizzazione alla ratifica</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Presidente della Repubblica e' autorizzato a ratificare il Protocollo alla Convenzione relativa alla costruzione e all'esercizio di un impianto laser europeo a elettroni liberi a raggi X riguardante l'adesione del Governo del Regno Unito di Gran Bretagna e Irlanda del nord, con allegati, fatto a Berlino il 19 marzo 2018. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Ordine di esecuzione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Piena ed intera esecuzione e' data al Protocollo di cui all'articolo 1, a decorrere dalla data della sua entrata in vigore, in conformita' a quanto disposto dall'articolo 3 del Protocollo stesso. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le amministrazioni interessate svolgono le attivita' previste dalla presente legge con le risorse umane, finanziarie e strumentali disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 19 maggio 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Di Maio, Ministro degli affari esteri e della cooperazione internazionale Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Protocollo-art. 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-05-19;67"/>
+                                <FRBRalias name="eli" value="eli/id/2022/06/16/22G00075/ORIGINAL"/>
+                                <FRBRdate date="2022-06-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17"/>
+                                <FRBRdate date="2022-06-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17.xml"/>
+                                <FRBRdate date="2022-05-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Protocollo 
+ alla Convenzione relativa alla costruzione e all'esercizio 
+ di 
+ un Impianto laser europeo a elettroni liberi a raggi X 
+ riguardante l'adesione del 
+ Governo del Regno Unito di Gran Bretagna e Irlanda del Nord 
+ 
+ 
+I Governi 
+ 
+del Regno di Danimarca, 
+della Repubblica Ellenica, 
+della Repubblica Francese, 
+della Repubblica Federale di Germania, 
+della Repubblica Italiana, 
+della Repubblica di Polonia, 
+della Federazione Russa, 
+della Repubblica Slovacca, 
+del Regno di Svezia, 
+della Confederazione Svizzera, 
+dell'Ungheria, 
+ 
+di seguito denominati "precedenti Parti contraenti", 
+ 
+che hanno firmato la Convenzione relativa alla costruzione e all'esercizio di un Impianto laser europeo a elettroni liberi a raggi X (di seguito denominata "Convenzione") il 30 novembre 2009 ad Amburgo e (nel caso del Governo della Repubblica Francese) il 4 febbraio 2010 a Parigi, e il Protocollo alla Convenzione relativa alla costruzione e all'esercizio di un Impianto laser europeo a elettroni liberi a raggi X riguardante l'adesione del Governo del Regno di Spagna il 6 ottobre 2011 a Berlino, 
+ 
+da una parte, 
+ 
+e 
+ 
+il Governo del Regno Unito di Gran Bretagna e Irlanda del Nord, 
+ 
+dall'altra, 
+ 
+prendendo atto che il Governo del Regno Unito di Gran Bretagna e Irlanda del Nord ha firmato il Protocollo d'intesa concernente la fase preparatoria dell'Impianto laser europeo a elettroni liberi a raggi X (Memorandum of Understanding on the Preparatory Phase of the European X-Ray Free-Electron Laser Facility), stipulato a Berlino il 23 settembre 2004; 
+ 
+prendendo atto che i rappresentanti del Regno Unito di Gran Bretagna e Irlanda del Nord hanno partecipato ai lavori preparatori oggetto del Protocollo d'intesa; 
+ 
+prendendo atto che i Governi che hanno firmato la Convenzione nel preambolo della stessa hanno espresso l'auspicio che altri Stati partecipino alle attivita' comuni oggetto della Convenzione; 
+ 
+prendendo atto che il 27 aprile 2017 l'assemblea della societa' European XFEL GmbH, costituita ai sensi della Convenzione, ha raccomandato all'unanimita' 
+ 
+ - che venisse offerto al Governo del Regno Unito di Gran Bretagna e Irlanda del Nord di aderire alla Convenzione alle stesse condizioni concesse alle precedenti Parti contraenti e 
+ 
+ - di accettare l'impegno del Governo del Regno Unito di Gran Bretagna e Irlanda del Nord di contribuire ai costi di costruzione con un importo pari a € 26 241 142 (prezzi di riferimento del 2005); 
+ 
+conformemente all'articolo 14 comma 1 della Convenzione hanno convenuto quanto segue: 
+ 
+ 
+ Articolo 1 
+ 
+ Il Governo del Regno Unito di Gran Bretagna e Irlanda del Nord aderisce alla Convenzione in qualita' di Parte contraente. L'adesione avviene alle stesse condizioni concesse alle precedenti Parti contraenti. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo-art. 2">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-05-19;67"/>
+                                <FRBRalias name="eli" value="eli/id/2022/06/16/22G00075/ORIGINAL"/>
+                                <FRBRdate date="2022-06-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17"/>
+                                <FRBRdate date="2022-06-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17.xml"/>
+                                <FRBRdate date="2022-05-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 2 
+ 
+ In deroga all'articolo 5 comma 3 della Convenzione, il Regno Unito di Gran Bretagna e Irlanda del Nord contribuisce ai costi di costruzione con un importo pari a € 26 241 142 (prezzi di riferimento del 2005). 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo-art. 3">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-05-19;67"/>
+                                <FRBRalias name="eli" value="eli/id/2022/06/16/22G00075/ORIGINAL"/>
+                                <FRBRdate date="2022-06-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17"/>
+                                <FRBRdate date="2022-06-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main/annesso_3.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17.xml"/>
+                                <FRBRdate date="2022-05-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 3 
+ 
+ Il presente Protocollo entrera' in vigore il primo giorno del secondo mese successivo all'avvenuta notifica al Governo della Repubblica Federale di Germania, depositaria della presente Convenzione, della conclusione della procedura nazionale di approvazione del presente Protocollo da parte di tutti i Governi citati nel preambolo del presente Protocollo. 
+ 
+ I Governi citati nel preambolo del presente Protocollo convengono che a partire dal 19 marzo 2018 le clausole del Protocollo siano applicate in via provvisoria, fermo restandoche l'entrata in vigore del Protocollo e' soggetta all'espletamento delle pertinentiprocedure costituzionali in ognuno degli Stati contraenti e firmatari nonche' all'entrata in vigore della Convenzione del 30 novembre 2009, concernente la costruzione e l'esercizio di un Impianto laser europeo a elettroni liberi a raggi X. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo-art. 4">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-05-19;67"/>
+                                <FRBRalias name="eli" value="eli/id/2022/06/16/22G00075/ORIGINAL"/>
+                                <FRBRdate date="2022-06-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17"/>
+                                <FRBRdate date="2022-06-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main/annesso_4.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17.xml"/>
+                                <FRBRdate date="2022-05-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 4 
+ 
+ Il Governo del Regno Unito di Gran Bretagna e Irlanda del Nord approva le disposizioni contenute nell'Atto finale della Conferenza dei Plenipotenziari per la realizzazione di un Impianto laser europeo a elettroni liberi a raggi X, firmato ad Amburgo il 30 novembre 2009. 
+ 
+ La Conferenza dei Plenipotenziari, riunitasi per la firma del presente Protocollo, ha preso atto dell'allegata Dichiarazione del Governo del Regno Unito di Gran Bretagna e Irlanda del Nord. 
+ 
+ 
+ Fatto a Berlino il 19 marzo 2018 nelle lingue francese, inglese, italiana, russa e tedesca, tutti i testi facenti egualmente fede, in un unico esemplare originale depositato presso gli archivi del Governo della Repubblica Federale di Germania, il quale ne trasmettera' copia conforme a tutti i Governi firmatari del presente Protocollo nonche' ai Governi che diventano Parti contraenti della Convenzione. 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo-Dichiarazione">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-05-19;67"/>
+                                <FRBRalias name="eli" value="eli/id/2022/06/16/22G00075/ORIGINAL"/>
+                                <FRBRdate date="2022-06-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17"/>
+                                <FRBRdate date="2022-06-17" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17/!main/annesso_5.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2022-05-19/67/ita@2022-06-17.xml"/>
+                                <FRBRdate date="2022-05-19" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> DICHIARAZIONE DEL GOVERNO DEL REGNO UNITO DI 
+ GRAN BRETAGNA E IRLANDA DEL NORD 
+ 
+LA CONFERENZA 
+ 
+PRENDE ATTO della Dichiarazione del Governo del Regno Unito di Gran Bretagna e Irlanda del Nord cosi' formulata: 
+ 
+In qualita' di Stato partecipante, il Regno Unito di Gran Bretagna e Irlanda del Nord intende contribuire alla realizzazione e all'utilizzo dell'Impianto europeo XFEL. Tuttavia. firmando il Protocollo di adesione alla Convenzione relativa alla costruzione e all'esercizio di un Impianto laser europeo a elettroni liberi a raggi X, il Regno Unito di Gran Bretagna e Irlanda del Nord contrae i seguenti obblighi: 
+ 
+1. La presente Dichiarazione sostituira' qualsiasi Dichiarazione precedente del Regno Unito di Gran Bretagna e Irlanda del Nord ("UK"). 
+ 
+2. Il contributo dell'UK ai costi di costruzione dell'Impianto XFEL non dovra' superare l'importo fissato nel presente Protocollo alla Convenzione e il contributo dell'UK ai costi di esercizio antecedenti il suo primo riesame non dovra' superare i 3,3 milioni di euro all'anno. 
+ 
+3. L'UK partecipera' all'XFEL in conformita' con l'articolo 15 della Convenzione. Ciononostante, l'UK riesaminera' la sua partecipazione attiva e il suo contributo annuale e, a seguito di tale riesame, potra' esercitare il diritto di recesso il 31 marzo 2020, senza incorrere in penali, dopo averne dato disdetta scritta con un anno di preavviso. Comunque, in caso di uso significativamente eccessivo dell'impianto europeo XFEL da parte della comunita' scientifica dell'UK (in rapporto alla quota UK nell'ambito del budget di esercizio) nei tre anni precedenti il ritiro dell'UK, si stipulera' un accordo su un'adeguata compensazione. 
+ 
+4. Nel caso in cuiil primo riesame dell'UK raccomandi la continuazione della partecipazione al progetto, l'UK adempira' integralmente agli oneri di dismissione ai sensi della Convenzione.. Qualora, invece, l'UK decida di ritirare la partecipazione in seguito al suo primo riesame, corrispondera' il cinquanta per cento della sua quota sui costi di dismissione come previsto dalla Convenzione. 
+ 
+5. L'articolo 24 sulla riservatezza dello Statuto (Allegato alla Convenzione) va interpretato come segue al fine di soddisfare i requisiti del Freedom of Information Act del 2000 dell'UK: il socio UK della societa' European XFEL GmbH non violera' l'articolo 24 nel caso in cui (i) sia costretto a rivelare informazioni riservate in risposta ad una richiesta ai sensi del Freedom of Information Act del 2000, (ii) non siano, in seguito a consultazioni con l'European XFEL GmbH, applicabili le eccezioni previste da tale legge rispetto all'informazione riservata richiesta e (iii) un rifiuto di rivelare l'informazione richiesta comporti una violazione del Freedom of Information Act 2000 da parte dell'autorita' dell'UK che funge da socio UK. 
+ 
+6. Nel caso di conflitto tra le clausole contenute nei documenti relativi alla partecipazione dell'UK all'XFEL, sara' applicato il seguente ordine di precedenza: 1. la presente Dichiarazione, 2. il Protocollo alla Convenzione relativa alla costruzione e all'esercizio di un Impianto laser europeo a elettroni liberi a raggi X, riguardante l'adesione del Governo del Regno Unito di Gran Bretagna e Irlanda del Nord, 3. la Convenzione, 4. lo Statuto di European XFEL GmbH. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
