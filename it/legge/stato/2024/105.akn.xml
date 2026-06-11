@@ -1,0 +1,618 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-24/105/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-24/105"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-07-24;105"/>
+                    <FRBRalias name="eli" value="eli/id/2024/07/27/24G00124/ORIGINAL"/>
+                    <FRBRdate date="2024-07-24" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/27/24G00124/ORIGINAL" aknrelname="eli/id/2024/07/27/24G00124/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 29 maggio 2024, n. 69, recante disposizioni urgenti in materia di semplificazione edilizia e urbanistica. (24G00124)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00124" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-07-24" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-24/105/ita@2024-07-28/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-24/105/ita@2024-07-28"/>
+                    <FRBRdate date="2024-07-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/27/24G00124/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/07/27/24G00124/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/07/27/24G00124/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-07-24/105/ita@2024-07-28/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-07-24/105/ita@2024-07-28.xml"/>
+                    <FRBRdate date="2024-07-24" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/07/27/24G00124/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-07-27" name="" number="175" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-07-27" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2024-07-24" refersTo="#C.1896"/>
+                <step by="#senato" date="2024-07-24" refersTo="#S.1197"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#2 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124). </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#9 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124). 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#23 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124). 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#24"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124). 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#31"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124). 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#32"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124). 
+</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#34 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#34 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#36"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#36 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380#37"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 29 maggio 2024, n. 69 (in G.U. 29/05/2024, n. 124).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-05-29;69#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, lettere a), b), c), d), f), g), h) e i) e l'introduzione delle lettere 0a), b-bis), b-ter), c-bis), c-ter), d-bis) e f-bis) all'art. 1, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-05-29;69#2"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1, 2, 3, 4, 5 e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-05-29;69#2 bis"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-07-24;105#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-05-29;69#3"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1 e 2 e l'introduzione del comma 4-bis all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_0a"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1"/>
+                        <new href="#modNov_1_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_a"/>
+                        <new href="#modNov_1_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_b"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_c"/>
+                        <new href="#modNov_1_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_c"/>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_c"/>
+                        <old href="#modNov_1_old_8"/>
+                        <new href="#modNov_1_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_d"/>
+                        <old href="#modNov_1_old_9"/>
+                        <new href="#modNov_1_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_d-bis"/>
+                        <new href="#modNov_1_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_f"/>
+                        <new href="#modNov_1_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_f"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_f"/>
+                        <old href="#modNov_1_old_13"/>
+                        <new href="#modNov_1_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_f-bis"/>
+                        <new href="#modNov_1_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_g"/>
+                        <old href="#modNov_1_old_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_g"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_h"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_i"/>
+                        <new href="#modNov_1_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_i"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_f)"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_2__para_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_h"/>
+                        <old href="#modNov_1_old_24"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_2__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_2__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_1__para_1__point_h"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_2__para_2"/>
+                        <new href="#modNov_1_new_28"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_2__para_3"/>
+                        <new href="#modNov_1_new_29"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_2__para_4"/>
+                        <old href="#modNov_1_old_30"/>
+                        <new href="#modNov_1_new_30"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_3__para_4-bis"/>
+                        <new href="#modNov_1_new_31"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_3__para_2"/>
+                        <old href="#modNov_1_old_32"/>
+                        <new href="#modNov_1_new_32"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_2"/>
+                        <old href="#modNov_1_old_33"/>
+                        <new href="#modNov_1_new_33"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_2-bis"/>
+                        <new href="#modNov_1_new_34"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-05-29/69/ita@2024-07-28/!main/~art_3__para_1"/>
+                        <new href="#modNov_1_new_35"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-07-24/105/!main" showAs=""/>
+                <passiveRef eId="C.1896" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1896" showAs=""/>
+                <passiveRef eId="S.1197" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1197" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/07/27/24G00124/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 29 maggio 2024, n. 69, recante disposizioni urgenti in materia di semplificazione edilizia e urbanistica. (24G00124)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00124</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-07-24</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/07/27/24G00124/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/07/27/24G00124/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/07/27/24G00124/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/07/27/24G00124/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/105" nativeUrn="urn:nir:stato:legge:2024-07-24;105" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-07-27"><ns0:event type="enacted" date="2024-07-24"/><ns0:event type="published" date="2024-07-27"/><ns0:event type="commenced" date="2024-07-27"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/b2810188-afc3-4bf2-8ef8-5e34ee56b7de" sourceSha256="f2eeeb8cadaa9fdeecfd8c7d411c8b38186c4809652a0ae3196eac9dfd64436b" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:09:57.789440Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-07-24">24 luglio 2024</docDate>
+                <docNumber>105</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 29 maggio 2024, n. 69, recante disposizioni urgenti in materia di semplificazione edilizia e urbanistica. (24G00124) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 28/07/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2024-05-29/69/!main" ns1:target="olf:it/decreto-legge/stato/2024/69" ns1:relation="repeals">decreto-legge 29 maggio 2024, n. 69</ref>, recante disposizioni urgenti in materia di semplificazione edilizia e urbanistica, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2024-05-29/69/!main" ns2:target="olf:it/decreto-legge/stato/2024/69" ns2:relation="repeals">decreto-legge 29 maggio 2024, n. 69</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 124 del 29 maggio 2024. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 44. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 24 luglio 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Salvini, Ministro delle infrastrutture e dei trasporti Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-07-24/105/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-07-24/105"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-07-24;105"/>
+                                <FRBRalias name="eli" value="eli/id/2024/07/27/24G00124/ORIGINAL"/>
+                                <FRBRdate date="2024-07-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-07-24/105/ita@2024-07-28/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-07-24/105/ita@2024-07-28"/>
+                                <FRBRdate date="2024-07-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-07-24/105/ita@2024-07-28/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-07-24/105/ita@2024-07-28.xml"/>
+                                <FRBRdate date="2024-07-24" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 29 MAGGIO 2024, N. 69 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1: 
+ alla lettera a) e' premessa la seguente: 
+ «<quotedText eId="modNov_1_new_1">0a) all'articolo 2-bis e' aggiunto, in fine, il seguente comma: 
+ "1-quater. Al fine di incentivare l'ampliamento dell'offerta abitativa limitando il consumo di nuovo suolo, gli interventi di recupero dei sottotetti sono comunque consentiti, nei limiti e secondo le procedure previsti dalla legge regionale, anche quando l'intervento di recupero non consenta il rispetto delle distanze minime tra gli edifici e dai confini, a condizione che siano rispettati i limiti di distanza vigenti all'epoca della realizzazione dell'edificio, che non siano apportate modifiche, nella forma e nella superficie, all'area del sottotetto, come delimitata dalle pareti perimetrali, e che sia rispettata l'altezza massima dell'edificio assentita dal titolo che ne ha previsto la costruzione. Resta fermo quanto previsto dalle leggi regionali piu' favorevoli"</quotedText>»; 
+ alla lettera a): 
+ il numero 1) e' sostituito dal seguente: 
+ «<quotedText eId="modNov_1_new_3">1) alla lettera b-bis), primo periodo, le parole: "o di logge rientranti all'interno dell'edificio" sono sostituite dalle seguenti: ", di logge rientranti all'interno dell'edificio o di porticati, a eccezione dei porticati gravati, in tutto o in parte, da diritti di uso pubblico o collocati nei fronti esterni dell'edificio prospicienti aree pubbliche"</quotedText>»; 
+ al numero 2), capoverso b-ter), le parole: «tende a pergola con telo retrattile» sono sostituite dalle seguenti: «tende a pergola, anche bioclimatiche, con telo retrattile,» e le parole: «tende a pergola con elementi» sono sostituite dalle seguenti: «ovvero con elementi»; 
+ alla lettera b): 
+ al numero 1), dopo le parole: «la stessa o da quello» sono inserite le seguenti: «<quotedText eId="modNov_1_new_4">, rilasciato o assentito,</quotedText>», le parole: «o unita' immobiliare» sono sostituite dalle seguenti: «o unita' immobiliare,» e le parole: «rilasciato all'esito di un procedimento idoneo a verificare l'esistenza del titolo abilitativo che ne ha previsto la costruzione o che ne ha legittimato la stessa» sono sostituite dalle seguenti: «a condizione che l'amministrazione competente, in sede di rilascio del medesimo, abbia verificato la legittimita' dei titoli pregressi»; 
+ al numero 2), le parole: «previsioni di cui agli articoli» sono sostituite dalle seguenti: «disposizioni di cui agli articoli 34-ter,», la parola: «concorre» e' sostituita dalla seguente: «concorrono» e le parole: «37, commi 1, 3, 4, 5 e 6» sono sostituite dalle seguenti: «37, commi 1, 3, 5 e 6»; 
+ al numero 3) sono aggiunte, in fine, le seguenti parole: «e le parole: "non sia disponibile copia" sono sostituite dalle seguenti: "non siano disponibili la copia o gli estremi"»; 
+ dopo la lettera b) sono inserite le seguenti: 
+ «<quotedText eId="modNov_1_new_2">b-bis) all'articolo 9-bis e' aggiunto, in fine, il seguente comma: 
+ "1-ter. Ai fini della dimostrazione dello stato legittimo delle singole unita' immobiliari non rilevano le difformita' insistenti sulle parti comuni dell'edificio, di cui all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_1117" ns4:target="olf:it/codice-civile/stato/1942/262/art_1117" ns4:relation="cites">articolo 1117 del codice civile</ref>. Ai fini della dimostrazione dello stato legittimo dell'edificio non rilevano le difformita' insistenti sulle singole unita' immobiliari dello stesso"; 
+ b-ter) all'articolo 10, comma 2, sono premesse le seguenti parole: "Fermo restando quanto previsto dall'articolo 23-ter, comma 1-quinquies,"</quotedText>»; 
+ alla lettera c): 
+ al numero 1) e' premesso il seguente: 
+ «<quotedText eId="modNov_1_new_6">01) al comma 1 e' premesso il seguente periodo: "Ai fini del presente articolo, il mutamento della destinazione d'uso di un immobile o di una singola unita' immobiliare si considera senza opere se non comporta l'esecuzione di opere edilizie ovvero se le opere da eseguire sono riconducibili agli interventi di cui all'articolo 6"</quotedText>»;  al numero 1): 
+ ai capoversi 1-bis e 1-ter, le parole: «senza opere» sono soppresse; 
+ al capoverso 1-quater: 
+ al primo periodo, le parole: «<quotedText eId="modNov_1_old_8">qualora il mutamento sia finalizzato alla forma di utilizzo</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_8">inclusa la finalizzazione del mutamento alla forma di utilizzo</quotedText>»; 
+ al secondo periodo, le parole: «Il mutamento» sono sostituite dalle seguenti: «Nei casi di cui al comma 1-ter, il mutamento di destinazione d'uso», dopo le parole: «n. 1444» e' inserito il seguente segno d'interpunzione: «,» e le parole: «dei parcheggi» sono sostituite dalle seguenti: «di parcheggi»; 
+ dopo il secondo periodo e' inserito il seguente: «Resta fermo, nei limiti di quanto stabilito dalla legislazione regionale, ove previsto, il pagamento del contributo richiesto per gli oneri di urbanizzazione secondaria»; 
+ il terzo periodo e' sostituito dal seguente: «Per le unita' immobiliari poste al primo piano fuori terra o seminterrate il cambio di destinazione d'uso e' disciplinato dalla legislazione regionale, che prevede i casi in cui gli strumenti urbanistici comunali possono individuare specifiche zone nelle quali le disposizioni dei commi da 1-ter a 1-quinquies si applicano anche alle unita' immobiliari poste al primo piano fuori terra o seminterrate»; 
+ il capoverso 1-quinquies e' sostituito dal seguente: 
+ «1-quinquies. Ai fini di cui ai commi 1-bis e 1-ter, il mutamento di destinazione d'uso e' soggetto al rilascio dei seguenti titoli: 
+ a) nei casi di cui al primo periodo del comma 1, la segnalazione certificata di inizio attivita' di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/1990-08-07/241/!main#art_19" ns5:target="olf:it/legge/stato/1990/241/art_19" ns5:relation="cites">articolo 19 della legge 7 agosto 1990, n. 241</ref>; 
+ b) nei restanti casi, il titolo richiesto per l'esecuzione delle opere necessarie al mutamento di destinazione d'uso, fermo restando che, per i mutamenti accompagnati dall'esecuzione di opere riconducibili all'articolo 6-bis, si procede ai sensi della lettera a)»; 
+ il numero 2) e' sostituito dal seguente: 
+ «2) al comma 3: 
+ 2.1) il primo e il secondo periodo sono sostituiti dal seguente: "Le regioni adeguano la propria legislazione ai principi di cui al presente articolo, che trovano in ogni caso applicazione diretta, fatta salva la possibilita' per le regioni medesime di prevedere livelli ulteriori di semplificazione"; 
+ 2.2) al terzo periodo, dopo le parole: "il mutamento della destinazione d'uso" sono inserite le seguenti: "di un intero immobile" e le parole: "sempre consentito" sono sostituite dalle seguenti: "consentito subordinatamente al rilascio dei titoli di cui al comma 1-quinquies"»; 
+ dopo la lettera c) sono inserite le seguenti: 
+ «c-bis) all'articolo 24, dopo il comma 5 sono inseriti i seguenti: 
+ "5-bis. Nelle more della definizione dei requisiti di cui all'articolo 20, comma 1-bis, ai fini della certificazione delle condizioni di cui al comma 1 del presente articolo e dell'acquisizione dell'assenso da parte dell'amministrazione competente, fermo restando il rispetto degli altri requisiti igienico-sanitari previsti dalla normativa vigente, il progettista abilitato e' autorizzato ad asseverare la conformita' del progetto alle norme igienico-sanitarie nelle seguenti ipotesi: 
+ a) locali con un'altezza minima interna inferiore a 2,70 metri fino al limite massimo di 2,40 metri; 
+ b) alloggio monostanza, con una superficie minima, comprensiva dei servizi, inferiore a 28 metri quadrati, fino al limite massimo di 20 metri quadrati, per una persona, e inferiore a 38 metri quadrati, fino al limite massimo di 28 metri quadrati, per due persone. 
+ 5-ter. L'asseverazione di cui al comma 5-bis puo' essere resa ove sia soddisfatto il requisito dell'adattabilita', in relazione alle specifiche funzionali e dimensionali, previsto dal regolamento di cui al <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decreto/ministero.lavori.pubblici/1989-06-14/236/!main" ns6:target="olf:it/decreto/ministero-lavori-pubblici/1989/236" ns6:relation="cites">decreto del Ministro dei lavori pubblici 14 giugno 1989, n. 236</ref>, e sia soddisfatta almeno una delle seguenti condizioni: 
+ a) i locali siano situati in edifici sottoposti a interventi di recupero edilizio e di miglioramento delle caratteristiche igienico-sanitarie; 
+ b) sia contestualmente presentato un progetto di ristrutturazione con soluzioni alternative atte a garantire, in relazione al numero degli occupanti, idonee condizioni igienico-sanitarie dell'alloggio, ottenibili prevedendo una maggiore superficie dell'alloggio e dei vani abitabili ovvero la possibilita' di un'adeguata ventilazione naturale favorita dalla dimensione e tipologia delle finestre, dai riscontri d'aria trasversali e dall'impiego di mezzi di ventilazione naturale ausiliari. 
+ 5-quater. Restano ferme le deroghe ai limiti di altezza minima e superficie minima dei locali previste a legislazione vigente"; 
+ c-ter) all'articolo 31, comma 3, e' aggiunto, in fine, il seguente periodo: "Il termine di cui al primo periodo puo' essere prorogato con atto motivato del comune fino a un massimo di duecentoquaranta giorni nei casi di serie e comprovate esigenze di salute dei soggetti residenti nell'immobile all'epoca di adozione dell'ingiunzione o di assoluto bisogno o di gravi situazioni di disagio socio-economico, che rendano inesigibile il rispetto di tale termine"»; 
+ alla lettera d): 
+ al numero 1), le parole: «<quotedText eId="modNov_1_old_9">previo parere</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_9">previa acquisizione degli assensi, concerti o nulla osta comunque denominati</quotedText>»; 
+ al numero 2), le parole: «previo parere» sono sostituite dalle seguenti: «previa acquisizione degli assensi, concerti o nulla osta comunque denominati», le parole: «da parte dell'acquirente delle opere abusive» sono sostituite dalle seguenti: «delle opere abusive da parte dell'acquirente» e le parole: «dall'agenzia del territorio» sono sostituite dalle seguenti: «dai competenti uffici dell'Agenzia delle entrate»; 
+ dopo la lettera d) e' inserita la seguente: 
+ «<quotedText eId="modNov_1_new_10">d-bis) all'articolo 32, comma 3, il secondo periodo e' soppresso</quotedText>»; 
+ alla lettera f): 
+ al numero 1): 
+ al capoverso 1-bis: 
+ alla lettera a), le parole: «<quotedText eId="modNov_1_old_13">dal titolo abilitativo</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_13">nel titolo abilitativo</quotedText>»; 
+ dopo la lettera d) e' aggiunta la seguente: 
+ «<quotedText eId="modNov_1_new_11">d-bis) del 6 per cento delle misure previste nel titolo abilitativo per le unita' immobiliari con superficie utile inferiore ai 60 metri quadrati</quotedText>»; 
+ al capoverso 1-ter e' aggiunto, in fine, il seguente periodo: «Gli scostamenti di cui al comma 1 rispetto alle misure progettuali valgono anche per le misure minime individuate dalle disposizioni in materia di distanze e di requisiti igienico-sanitari»; 
+ al numero 4): 
+ al capoverso 3-bis, secondo periodo, dopo le parole: «Tale attestazione,» sono inserite le seguenti: «riferita al rispetto delle norme tecniche per le costruzioni vigenti al momento della realizzazione dell'intervento, fermo restando quanto previsto dall'articolo 36-bis, comma 2,», le parole: «corredata dalla documentazione» sono sostituite dalle seguenti: «corredata della documentazione», la parola: «previsto» e' sostituita dalla seguente: «previste» e la parola: «costituiscano» e' sostituita dalla seguente: «costituiscono»; 
+ al capoverso 3-ter, i periodi secondo, terzo e quarto sono soppressi; 
+ dopo la lettera f) e' inserita la seguente: 
+ «<quotedText eId="modNov_1_new_14">f-bis) dopo l'articolo 34-bis e' inserito il seguente: 
+ "Art. 34-ter (L) - (Casi particolari di interventi eseguiti in parziale difformita' dal titolo). - 1. Gli interventi realizzati come varianti in corso d'opera che costituiscono parziale difformita' dal titolo rilasciato prima della data di entrata in vigore della <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/1977-01-28/10/!main" ns7:target="olf:it/legge/stato/1977/10" ns7:relation="cites">legge 28 gennaio 1977, n. 10</ref>, e che non sono riconducibili ai casi di cui all'articolo 34-bis possono essere regolarizzati con le modalita' di cui ai commi 2 e 3, sentite le amministrazioni competenti secondo la normativa di settore. 
+ 2. L'epoca di realizzazione delle varianti di cui al comma 1 e' provata mediante la documentazione di cui all'articolo 9-bis, comma 1-bis, quarto e quinto periodo. Nei casi in cui sia impossibile accertare l'epoca di realizzazione della variante mediante la documentazione indicata nel primo periodo, il tecnico incaricato attesta la data di realizzazione con propria dichiarazione e sotto la propria responsabilita'. In caso di dichiarazione falsa o mendace si applicano le sanzioni penali, comprese quelle previste dal capo VI del <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2000-12-28/445/!main" ns8:target="olf:it/dpr/stato/2000/445" ns8:relation="cites">testo unico delle disposizioni legislative e regolamentari in materia di documentazione amministrativa</ref>, di cui al <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2000-12-28/445/!main" ns9:target="olf:it/dpr/stato/2000/445" ns9:relation="cites">decreto del Presidente della Repubblica 28 dicembre 2000, n. 445</ref>. 
+ 3. Nei casi di cui al comma 1, il responsabile dell'abuso o il proprietario dell'immobile possono regolarizzare l'intervento mediante presentazione di una segnalazione certificata di inizio attivita' e il pagamento, a titolo di oblazione, di una somma determinata ai sensi dell'articolo 36-bis, comma 5. L'amministrazione competente adotta i provvedimenti di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/1990-08-07/241/!main#art_19-com3" ns10:target="olf:it/legge/stato/1990/241/art_19-com3" ns10:relation="cites">articolo 19, comma 3, della legge 7 agosto 1990, n. 241</ref>, anche nel caso in cui accerti l'interesse pubblico concreto e attuale alla rimozione delle opere.
+Si applicano le disposizioni di cui all'articolo 36-bis, commi 4 e 6.
+Per gli interventi di cui al comma 1 eseguiti in assenza o difformita' dall'autorizzazione paesaggistica resta fermo quanto previsto dall'articolo 36-bis, comma 5-bis. 
+ 4. Le parziali difformita', realizzate durante l'esecuzione dei lavori oggetto di un titolo abilitativo, accertate all'esito di sopralluogo o ispezione dai funzionari incaricati di effettuare verifiche di conformita' edilizia, rispetto alle quali non sia seguito un ordine di demolizione o di riduzione in pristino e sia stata rilasciata la certificazione di abitabilita' o di agibilita' nelle forme previste dalla legge, non annullabile ai sensi dell'articolo 21-nonies della <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/1990-08-07/241/!main" ns11:target="olf:it/legge/stato/1990/241" ns11:relation="cites">legge 7 agosto 1990, n. 241</ref>, sono soggette, in deroga a quanto previsto dall'articolo 34, alla disciplina delle tolleranze costruttive di cui all'articolo 34-bis"</quotedText>»; 
+ alla lettera g): 
+ al numero 1), le parole da: «, in totale difformita' o con variazioni essenziali» fino alla fine del numero sono sostituite dalle seguenti: «o in totale difformita' nelle ipotesi di cui all'articolo 31 ovvero in assenza di segnalazione certificata di inizio attivita' nelle ipotesi di cui all'articolo 23, comma 01, o in totale difformita' da essa" e le parole: "<quotedText eId="modNov_1_old_15">34, comma 1,</quotedText>" sono soppresse»; 
+ al numero 3), le parole: «, totale difformita' o variazioni essenziali» sono sostituite dalle seguenti: «o totale difformita'»;  alla lettera h), capoverso «Art. 36-bis»: 
+ al comma 1, dopo le parole: «di cui all'articolo 34, comma 1» e' inserito il seguente segno d'interpunzione: «,», le parole: «, o l'attuale proprietario dell'immobile,» sono sostituite dalle seguenti: «o l'attuale proprietario dell'immobile» ed e' aggiunto, in fine, il seguente periodo: «Le disposizioni del presente articolo si applicano anche alle variazioni essenziali di cui all'articolo 32»;  al comma 2: 
+ al primo periodo sono aggiunte, in fine, le seguenti parole: 
+ «del presente comma»; 
+ al secondo periodo, le parole: «<quotedText eId="modNov_1_old_24">, igiene, salubrita', efficienza energetica degli edifici e degli impianti negli stessi installati, al superamento delle barriere architettoniche</quotedText>» sono soppresse; 
+ al terzo periodo, dopo le parole: «di cui al secondo periodo» sono inserite le seguenti: «del presente comma»; 
+ al comma 3: 
+ al primo periodo, la parola: «attesti» e' sostituita dalla seguente: «attesta»; 
+ al terzo periodo, le parole: «secondo e terzo» sono sostituite dalle seguenti: «quarto e quinto»; 
+ al quarto periodo, dopo le parole: «nel terzo periodo» sono inserite le seguenti: «del presente comma» e le parole: «la sua responsabilita'» sono sostituite dalle seguenti: «la propria responsabilita'»; 
+ dopo il comma 3 e' inserito il seguente: 
+ «3-bis. Per gli immobili ubicati nelle zone sismiche di cui all'articolo 83, ad eccezione di quelle a bassa sismicita' all'uopo indicate nei decreti di cui al medesimo articolo 83, si applicano, in quanto compatibili, le disposizioni dell'articolo 34-bis, comma 3-bis»; 
+ al comma 4: 
+ al primo periodo sono aggiunte, in fine, le seguenti parole: 
+ «, anche in caso di lavori che abbiano determinato la creazione di superfici utili o volumi ovvero l'aumento di quelli legittimamente realizzati»; 
+ al terzo periodo, dopo le parole: «secondo periodo,» sono inserite le seguenti: «si intende formato il silenzio-assenso e»; 
+ e' aggiunto, in fine, il seguente periodo: «Le disposizioni del presente comma si applicano anche nei casi in cui gli interventi di cui al comma 1 risultino incompatibili con il vincolo paesaggistico apposto in data successiva alla loro realizzazione»; 
+ al comma 5, le parole da: «una somma pari al doppio dell'aumento del valore venale dell'immobile» fino alla fine del comma sono sostituite dalle seguenti: «un importo: 
+ a) pari al doppio del contributo di costruzione ovvero, in caso di gratuita' a norma di legge, determinato in misura pari a quella prevista dall'articolo 16, incrementato del 20 per cento in caso di interventi realizzati in parziale difformita' dal permesso di costruire, nelle ipotesi di cui all'articolo 34, e in caso di variazioni essenziali ai sensi dell'articolo 32. Non si applica l'incremento del 20 per cento nei casi in cui l'intervento risulti conforme alla disciplina urbanistica ed edilizia vigente sia al momento della realizzazione dello stesso, sia al momento della presentazione della domanda; 
+ b) pari al doppio dell'aumento del valore venale dell'immobile valutato dai competenti uffici dell'Agenzia delle entrate, in una misura, determinata dal responsabile del procedimento, non inferiore a 1.032 euro e non superiore a 10.328 euro ove l'intervento sia eseguito in assenza della segnalazione certificata di inizio attivita' o in difformita' da essa, nei casi di cui all'articolo 37, e in misura non inferiore a 516 euro e non superiore a 5.164 euro ove l'intervento risulti conforme alla disciplina urbanistica ed edilizia vigente sia al momento della realizzazione dello stesso, sia al momento della presentazione della domanda»; 
+ dopo il comma 5 e' inserito il seguente: 
+ «5-bis. Nelle ipotesi di cui al comma 4, qualora sia accertata la compatibilita' paesaggistica, si applica altresi' una sanzione determinata previa perizia di stima ed equivalente al maggiore importo tra il danno arrecato e il profitto conseguito mediante la trasgressione; in caso di rigetto della domanda si applica la sanzione demolitoria di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_167-com1" ns12:target="olf:it/decreto-legislativo/stato/2004/42/art_167-com1" ns12:relation="cites">articolo 167, comma 1, del codice dei beni culturali e del paesaggio</ref>, di cui al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns13:target="olf:it/decreto-legislativo/stato/2004/42" ns13:relation="cites">decreto legislativo 22 gennaio 2004, n. 42</ref>»; 
+ al comma 6: 
+ al secondo periodo, le parole: «del comma 1, si applica» sono sostituite dalle seguenti: «del comma 1 si applica»; 
+ al terzo periodo, dopo le parole: «al primo e secondo periodo» sono inserite le seguenti: «del presente comma»; 
+ dopo il quinto periodo sono inseriti i seguenti: «Nei casi di cui al presente comma, l'amministrazione e' tenuta a rilasciare, in via telematica, su richiesta del privato, un'attestazione circa il decorso dei termini del procedimento e dell'intervenuta formazione dei titoli abilitativi. Decorsi inutilmente dieci giorni dalla richiesta, l'istante puo' esercitare l'azione prevista dall'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/2010-07-02/104/!main#art_31" ns14:target="olf:it/decreto-legislativo/stato/2010/104/art_31" ns14:relation="cites">articolo 31 del codice del processo amministrativo</ref>, di cui all'allegato 1 annesso al <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/2010-07-02/104/!main" ns15:target="olf:it/decreto-legislativo/stato/2010/104" ns15:relation="cites">decreto legislativo 2 luglio 2010, n. 104</ref>»; 
+ al sesto periodo, la parola: «prevista» e' sostituita dalla seguente: «previste»; 
+ la rubrica e' sostituita dalla seguente: «Accertamento di conformita' nelle ipotesi di parziali difformita' e di variazioni essenziali»; 
+ alla lettera i): 
+ al numero 1) e' premesso il seguente: 
+ «<quotedText eId="modNov_1_new_18">01) al comma 1, la parola: "doppio" e' sostituita dalla seguente: "triplo" e le parole: "516 euro" sono sostituite dalle seguenti: "l.032 euro"</quotedText>»; 
+ al numero 3), le parole: «in conformita'» sono sostituite dalle seguenti: «di conformita'»; 
+ al comma 2, le parole: «ultimo periodo» sono sostituite dalle seguenti: «secondo e quarto periodo, all'articolo 34-ter», le parole: 
+ «comma 5, primo periodo» sono sostituite dalle seguenti: «commi 5 e 5-bis», dopo le parole: «fatta salva la ripetizione delle spese nei confronti del responsabile,» sono inserite le seguenti: «per il completamento o la demolizione delle opere pubbliche comunali incompiute di cui all'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegge/stato/2011-12-06/201/!main#art_44bis" ns16:target="olf:it/decreto-legge/stato/2011/201/art_44bis" ns16:relation="cites">articolo 44-bis del decreto-legge 6 dicembre 2011, n. 201</ref>, convertito, con modificazioni, dalla <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2011-12-22/214/!main" ns17:target="olf:it/legge/stato/2011/214" ns17:relation="cites">legge 22 dicembre 2011, n. 214</ref>, tenendo conto dei criteri di cui al medesimo articolo 44-bis, comma 5,», dopo le parole: «rigenerazione urbana,» sono inserite le seguenti: «anche finalizzati all'incremento dell'offerta abitativa,» e sono aggiunte, in fine, le seguenti parole: «ovvero per il consolidamento di immobili per la prevenzione del rischio idrogeologico». 
+ All'articolo 2: 
+ al comma 1, la parola: «, educative» e' sostituita dalle seguenti: 
+ «o educative», la parola: «<quotedText eId="modNov_1_old_33">Covid-19</quotedText>» e' sostituita dalle seguenti: «del <quotedText eId="modNov_1_new_33">COVID-19</quotedText>» e le parole: «n. 380 del 2001» sono sostituite dalle seguenti: «6 giugno 2001, n. 380»; 
+ al comma 2, secondo periodo, la parola: «richiederne» e' sostituita dalla seguente: «richiedere», dopo le parole: «la rimozione» sono inserite le seguenti: «<quotedText eId="modNov_1_new_28">delle strutture</quotedText>» e le parole: «con le prescrizioni e i requisiti» sono sostituite dalle seguenti: «alle prescrizioni e ai requisiti»; 
+ al comma 3, dopo le parole: «Nella comunicazione» sono inserite le seguenti: «<quotedText eId="modNov_1_new_29">di cui al comma 2, primo periodo,</quotedText>»; 
+ al comma 4, secondo periodo, le parole: «<quotedText eId="modNov_1_old_30">la sua responsabilita'</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_30">la propria responsabilita'</quotedText>»; 
+ al comma 5: 
+ al secondo periodo, le parole: «Dalle medesime disposizioni» sono sostituite dalle seguenti: «Dall'attuazione delle medesime disposizioni»; 
+ il terzo periodo e' sostituito dal seguente: «Le amministrazioni pubbliche provvedono al mantenimento delle strutture di loro proprieta' nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente»; 
+ alla rubrica, la parola: «Covid-19» e' sostituita dalla seguente: «COVID-19». 
+ Dopo l'articolo 2 e' inserito il seguente: 
+ «<quotedText eId="modNov_1_new_34">Art. 2-bis (Disposizioni in favore delle zone devastate dalla catastrofe del Vajont del 9 ottobre 1963). - 1. Per le unita' immobiliari e gli edifici pubblici assistiti dai benefici previsti dalla <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/1963-11-04/1457/!main" ns18:target="olf:it/legge/stato/1963/1457" ns18:relation="cites">legge 4 novembre 1963, n. 1457</ref>, il rilascio del certificato di collaudo o di regolare esecuzione ovvero l'accertamento dello stato dei lavori sulla base dei quali e' stata erogata la rata di saldo del contributo tiene luogo, a tutti gli effetti, del certificato di abitabilita' o di agibilita', ferma restando la conformita' delle opere realizzate alla disciplina edilizia e urbanistica vigente al momento della realizzazione dell'intervento edilizio</quotedText>». 
+ All'articolo 3: 
+ al comma 1, dopo le parole: «all'articolo 2, comma 1, del» sono inserite le seguenti: «<quotedText eId="modNov_1_new_35">regolamento di cui al</quotedText>»; 
+ al comma 2, primo periodo, le parole: «<quotedText eId="modNov_1_old_32">del comma 5</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_32">dei commi 5 e 5-bis</quotedText>»; 
+ dopo il comma 4 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_1_new_31">4-bis. Le disposizioni dei commi 4, 5, 5-bis e 6 dell'articolo 36-bis del testo unico di cui al <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-06/380/!main" ns19:target="olf:it/dpr/stato/2001/380" ns19:relation="amends">decreto del Presidente della Repubblica 6 giugno 2001, n. 380</ref>, introdotto dall'articolo 1 del presente decreto, si applicano anche agli interventi realizzati entro l'11 maggio 2006 per i quali il titolo che ne ha previsto la realizzazione e' stato rilasciato dagli enti locali senza previo accertamento della compatibilita' paesaggistica. La disposizione del primo periodo del presente comma non si applica agli interventi per i quali e' stato conseguito un titolo abilitativo in sanatoria, a qualsiasi titolo rilasciato o assentito</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
