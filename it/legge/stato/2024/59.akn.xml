@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-04-19/59/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-04-19/59"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-04-19;59"/>
+                    <FRBRalias name="eli" value="eli/id/2024/05/06/24G00075/ORIGINAL"/>
+                    <FRBRdate date="2024-04-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/05/06/24G00075/ORIGINAL" aknrelname="eli/id/2024/05/06/24G00075/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Istituzione del premio di «Maestro dell'arte della cucina italiana». (24G00075)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00075" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-04-19" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-04-19/59/ita@2024-05-21/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-04-19/59/ita@2024-05-21"/>
+                    <FRBRdate date="2024-05-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/05/06/24G00075/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/05/06/24G00075/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/05/06/24G00075/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-04-19/59/ita@2024-05-21/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-04-19/59/ita@2024-05-21.xml"/>
+                    <FRBRdate date="2024-04-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/05/06/24G00075/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-05-06" name="" number="104" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-05-06" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2024-04-19" refersTo="#C.1419"/>
+                <step by="#senato" date="2024-04-19" refersTo="#S.1010"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-04-19/59/!main" showAs=""/>
+                <passiveRef eId="C.1419" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1419" showAs=""/>
+                <passiveRef eId="S.1010" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1010" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/05/06/24G00075/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Istituzione del premio di «Maestro dell'arte della cucina italiana». (24G00075)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00075</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-04-19</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/05/06/24G00075/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/05/06/24G00075/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/05/06/24G00075/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/05/06/24G00075/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/59" nativeUrn="urn:nir:stato:legge:2024-04-19;59" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-05-06"><ns0:event type="enacted" date="2024-04-19"/><ns0:event type="published" date="2024-05-06"/><ns0:event type="commenced" date="2024-05-06"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/758068f1-67be-45af-ab16-c6978904e416" sourceSha256="479d496ca88a67eb9a2bac6e1ac25c9c9176cfad73f42c8c6da5fa78470c9880" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:14:48.523834Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-04-19">19 aprile 2024</docDate>
+                <docNumber>59</docNumber>
+                <docTitle>Istituzione del premio di «Maestro dell'arte della cucina italiana». (24G00075) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 21/05/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Finalita' 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>L'arte culinaria, nelle sue espressioni, rappresenta un'eccellenza italiana che coniuga artigianalita' e creativita'. Il Ministero dell'agricoltura, della sovranita' alimentare e delle foreste ne sostiene e ne promuove lo sviluppo, orientando la propria azione al recupero delle tradizioni e alla valorizzazione delle relative professionalita'. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ - Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'articolo 10, comma 3 del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns1:target="olf:it/dpr/stato/1985/1092" ns1:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Istituzione del premio di «Maestro 
+ dell'arte della cucina italiana» 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>E' istituito presso la Presidenza del Consiglio dei ministri il premio di «Maestro dell'arte della cucina italiana», di seguito denominato «premio», conferito ai cittadini italiani che si siano in maniera encomiabile distinti nel campo della gastronomia e, con la loro opera, abbiano esaltato il prestigio della cucina italiana, illustrando la Patria e contribuendo a valorizzare l'eccellenza nazionale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Presso la Presidenza del Consiglio dei ministri e' altresi' istituito un registro ove sono iscritti i nomi di coloro ai quali e' stato conferito il premio. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Conferimento del premio</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_3__para_1__intro_1">
+                            <p>Il premio e' conferito annualmente dal Presidente del Consiglio dei ministri, nel limite di uno per ciascuna delle seguenti categorie di merito: 
+ </p>
+                        </intro>
+                        <point eId="art_3__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>gelateria; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>pasticceria; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>cucina; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>vitivinicoltura; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>olivicoltura; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>arte casearia. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>L'elenco delle categorie di merito di cui al comma 1 puo' essere integrato con decreto del Ministro dell'agricoltura, della sovranita' alimentare e delle foreste. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Decorazione</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_4__para_1__intro_1">
+                            <p>Il premio e' costituito da una medaglia di bronzo che presenta, da un lato, l'emblema della Repubblica italiana e, dall'altro lato, in ragione dell'appartenenza a una delle categorie di merito di cui all'articolo 3, una delle seguenti diciture: 
+ </p>
+                        </intro>
+                        <point eId="art_4__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>«Maestro dell'arte della gelateria italiana»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>«Maestro dell'arte della pasticceria italiana»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>«Maestro dell'arte della cucina italiana»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>«Maestro dell'arte vitivinicola italiana»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>«Maestro dell'arte olivicola italiana»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_1.__point_f">
+                            <num>f)</num>
+                            <content>
+                                <p>«Maestro dell'arte casearia italiana». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Requisiti dei candidati</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_5__para_1__intro_1">
+                            <p>Per la candidatura al premio e' richiesto il possesso dei seguenti requisiti: 
+ </p>
+                        </intro>
+                        <point eId="art_5__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>avere concluso un percorso formativo pluriennale nel settore di riferimento; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_5__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>avere maturato almeno quindici anni di comprovata e riconosciuta esperienza nel settore di riferimento; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_5__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>avere tenuto una condotta civile e sociale irreprensibile; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_5__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>avere adempiuto agli obblighi tributari e previdenziali. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Presentazione delle candidature</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le candidature per il conferimento del premio sono proposte dal Ministro dell'agricoltura, della sovranita' alimentare e delle foreste. Le associazioni di categoria possono presentare segnalazioni al Ministro dell'agricoltura, della sovranita' alimentare e delle foreste. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le candidature sono inviate alla Presidenza del Consiglio dei ministri entro il 30 aprile di ciascun anno. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_3">
+                    <num>3.</num>
+                    <list>
+                        <intro eId="art_6__para_3__intro_1">
+                            <p>A ciascuna candidatura sono allegati i seguenti atti: 
+ </p>
+                        </intro>
+                        <point eId="art_6__para_3.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>documento d'identita'; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_6__para_3.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>codice fiscale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_6__para_3.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>curriculum vitae; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_6__para_3.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>estratto del casellario giudiziario e certificato dei carichi pendenti. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Comitato di selezione</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le candidature sono esaminate da un comitato istituito presso la Presidenza del Consiglio dei ministri. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_7__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_7__para_2__intro_1">
+                            <p>Il comitato di cui al comma 1 e' composto da: 
+ </p>
+                        </intro>
+                        <point eId="art_7__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>un rappresentante della Presidenza del Consiglio dei ministri, che lo presiede; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>un rappresentante del Ministero dell'agricoltura, della sovranita' alimentare e delle foreste; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>un rappresentante del Ministero delle imprese e del made in Italy; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>un rappresentante del Ministero dell'istruzione e del merito; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_7__para_2.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>un rappresentante di ciascuna delle categorie di merito di cui all'articolo 3, che si esprime limitatamente alle candidature relative alla categoria di appartenenza. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_7__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>I componenti del comitato di cui al comma 2 sono nominati con decreto del Presidente del Consiglio dei ministri, su designazione, per ciascuno dei componenti di cui alle lettere b), c) e d), del Ministro rispettivamente competente e, per i componenti di cui alla lettera e), del Ministro dell'agricoltura, della sovranita' alimentare e delle foreste. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_7__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Ai componenti del comitato, che durano in carica tre anni, non spettano compensi, gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading> Fase istruttoria</heading>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il comitato di cui all'articolo 7 svolge un'istruttoria preordinata ad accertare che i candidati in possesso dei requisiti di cui all'articolo 5 si siano resi singolarmente benemeriti nel raggiungere livelli di eccellenza nell'esercizio della propria attivita' in una delle categorie di merito di cui all'articolo 3. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>L'istruttoria e' condotta con modalita' che assicurino una valutazione approfondita del livello di eccellenza dei candidati. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_9">
+                <num>Art. 9.</num>
+                <heading> Affidamento di incarichi di esperto negli istituti professionali</heading>
+                <paragraph eId="art_9__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Agli insigniti del premio possono essere conferiti incarichi di esperto negli istituti professionali per l'enogastronomia e l'ospitalita' alberghiera in deroga ai requisiti previsti dall'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_7-com6" ns2:target="olf:it/decreto-legislativo/stato/2001/165/art_7-com6" ns2:relation="cites">articolo 7, comma 6, del decreto legislativo 30 marzo 2001, n. 165</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 9: 
+ - Si riporta il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_7-com6" ns3:target="olf:it/decreto-legislativo/stato/2001/165/art_7-com6" ns3:relation="cites">articolo 7, comma 6, del decreto legislativo 30 marzo 2001, n. 165</ref>, recante «Norme generali sull'ordinamento del lavoro alle dipendenze delle amministrazioni pubbliche», pubblicato nella Gazzetta Ufficiale 9 maggio 2001, n. 106, S.O.: 
+ Art. 7 (Gestione delle risorse umane (<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/1993/29/!main#art_7" ns4:resolution="unresolved">Art. 7 del d.lgs n. 29 del 1993</ref>, come sostituito prima dall'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/1993/546/!main#art_5" ns5:resolution="unresolved">art. 5 del d.lgs n. 546 del 1993</ref>e poi modificato dall'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/1998/387/!main#art_3" ns6:resolution="unresolved">art. 3 del d.lgs n. 387 del 1998</ref>)). - Omissis. 
+ 6. Fermo restando quanto previsto dal comma 5-bis, per specifiche esigenze cui non possono far fronte con personale in servizio, le amministrazioni pubbliche possono conferire esclusivamente incarichi individuali, con contratti di lavoro autonomo, ad esperti di particolare e comprovata specializzazione anche universitaria, in presenza dei seguenti presupposti di legittimita': 
+ a) l'oggetto della prestazione deve corrispondere alle competenze attribuite dall'ordinamento all'amministrazione conferente, ad obiettivi e progetti specifici e determinati e deve risultare coerente con le esigenze di funzionalita' dell'amministrazione conferente; 
+ b) l'amministrazione deve avere preliminarmente accertato l'impossibilita' oggettiva di utilizzare le risorse umane disponibili al suo interno; 
+ c) la prestazione deve essere di natura temporanea e altamente qualificata; non e' ammesso il rinnovo; l'eventuale proroga dell'incarico originario e' consentita, in via eccezionale, al solo fine di completare il progetto e per ritardi non imputabili al collaboratore, ferma restando la misura del compenso pattuito in sede di affidamento dell'incarico; 
+ d) devono essere preventivamente determinati durata, oggetto e compenso della collaborazione. 
+ Si prescinde dal requisito della comprovata specializzazione universitaria in caso di stipulazione di contratti di collaborazione per attivita' che debbano essere svolte da professionisti iscritti in ordini o albi o con soggetti che operino nel campo dell'arte, dello spettacolo , dei mestieri artigianali o dell'attivita' informatica nonche' a supporto dell'attivita' didattica e di ricerca, per i servizi di orientamento, compreso il collocamento, e di certificazione dei contratti di lavoro di cui aldecreto legislativo 10 settembre 2003, n. 276, purche' senza nuovi o maggiori oneri a carico della finanza pubblica , ferma restando la necessita' di accertare la maturata esperienza nel settore. 
+ Il ricorso ai contratti di cui al presente comma per lo svolgimento di funzioni ordinarie o l'utilizzo dei soggetti incaricati ai sensi del medesimo comma come lavoratori subordinati e' causa di responsabilita' amministrativa per il dirigente che ha stipulato i contratti. Il secondo periodo dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegge/stato/2004-07-12/168/!main#art_1-com9" ns7:target="olf:it/decreto-legge/stato/2004/168/art_1-com9" ns7:relation="cites">articolo 1, comma 9, del decreto-legge 12 luglio 2004, n. 168</ref>, convertito, con modificazioni, dallalegge 30 luglio 2004, n. 191, e' soppresso. Si applicano le disposizioni previste dall'articolo 36, comma 3, del presente decreto e, in caso di violazione delle disposizioni di cui al presente comma, fermo restando il divieto di costituzione di rapporti di lavoro a tempo indeterminato, si applica quanto previsto dal citato articolo 36, comma 5-quater. 
+ Omissis.» 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_10">
+                <num>Art. 10.</num>
+                <heading> Revoca del premio</heading>
+                <paragraph eId="art_10__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Incorre nella perdita del premio l'insignito che se ne renda indegno. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_10__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La revoca del premio puo' essere proposta da ciascuno dei Ministri rappresentati nel comitato di cui all'articolo 7. La proposta di revoca e' presentata al comitato, che, previa sommaria delibazione, la comunica all'interessato. Entro il termine di trenta giorni dal ricevimento della comunicazione, l'interessato ha diritto di presentare per iscritto le proprie osservazioni. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_10__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Entro il termine di sessanta giorni dalla presentazione delle osservazioni da parte dell'interessato ovvero, in caso di mancata presentazione, dalla scadenza del termine di cui al comma 2 del presente articolo, il comitato di cui all'articolo 7 decide sulla proposta di revoca del premio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_10__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>La revoca del premio e' disposta con decreto del Presidente del Consiglio dei ministri. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_11">
+                <num>Art. 11.</num>
+                <heading> Disposizioni transitorie</heading>
+                <paragraph eId="art_11__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>In sede di prima applicazione, il Presidente del Consiglio dei ministri, entro sessanta giorni dalla data di entrata in vigore della presente legge, conferisce sei premi di Maestro dell'arte della cucina italiana, uno per ciascuna delle categorie di merito indicate all'articolo 3. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_11__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>I Maestri di cui al comma 1 costituiscono il comitato di selezione di cui all'articolo 7 per il primo triennio di applicazione della presente legge. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_12">
+                <num>Art. 12.</num>
+                <heading> Disposizioni finanziarie</heading>
+                <paragraph eId="art_12__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per l'attuazione delle disposizioni degli articoli 2, 3 e 4 e' autorizzata la spesa di 2.000 euro annui a decorrere dall'anno 2024.
+Le risorse di cui al primo periodo sono trasferite al bilancio autonomo della Presidenza del Consiglio dei ministri. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_12__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Agli oneri di cui al comma 1, pari a 2.000 euro annui a decorrere dall'anno 2024, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'agricoltura, della sovranita' alimentare e delle foreste. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_12__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio. 
+ La presente legge, munita del sigillo dello stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. 
+ 
+ Data a Roma, addi' 19 aprile 2024 
+ 
+ MATTARELLA 
+ 
+ Meloni, Presidente del Consiglio dei ministri 
+ 
+ Lollobrigida, Ministro dell'agricoltura, della sovranita' alimentare e delle foreste 
+ 
+Visto, il Guardasigilli: Nordio 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+    </act>
+</akomaNtoso>
