@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-09-24/142/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-09-24/142"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-09-24;142"/>
+                    <FRBRalias name="eli" value="eli/id/2024/10/07/24G00160/ORIGINAL"/>
+                    <FRBRdate date="2024-09-24" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/10/07/24G00160/ORIGINAL" aknrelname="eli/id/2024/10/07/24G00160/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni in favore dell'Associazione Arena Sferisterio - Teatro di tradizione, per l'organizzazione del Macerata Opera Festival. (24G00160)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00160" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-09-24" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-09-24/142/ita@2024-10-22/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-09-24/142/ita@2024-10-22"/>
+                    <FRBRdate date="2024-10-22" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/10/07/24G00160/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/10/07/24G00160/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/10/07/24G00160/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-09-24/142/ita@2024-10-22/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-09-24/142/ita@2024-10-22.xml"/>
+                    <FRBRdate date="2024-09-24" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/10/07/24G00160/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-10-07" name="" number="235" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-10-07" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2024-09-24" refersTo="#C.1127"/>
+                <step by="#camera" date="2024-09-24" refersTo="#C.1289"/>
+                <step by="#senato" date="2024-09-24" refersTo="#S.1151"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-09-24;142#1"/>
+                        <destination href="urn:nir:stato:legge:2012-12-20;238#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/2012-12-20/238/ita@2024-10-22/!main/~art_2__para_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-09-24/142/!main" showAs=""/>
+                <passiveRef eId="C.1127" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1127" showAs=""/>
+                <passiveRef eId="C.1289" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1289" showAs=""/>
+                <passiveRef eId="S.1151" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1151" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/10/07/24G00160/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni in favore dell'Associazione Arena Sferisterio - Teatro di tradizione, per l'organizzazione del Macerata Opera Festival. (24G00160)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00160</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-09-24</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/10/07/24G00160/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/10/07/24G00160/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/10/07/24G00160/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/10/07/24G00160/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/142" nativeUrn="urn:nir:stato:legge:2024-09-24;142" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-10-07"><ns0:event type="enacted" date="2024-09-24"/><ns0:event type="published" date="2024-10-07"/><ns0:event type="commenced" date="2024-10-07"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/1dee1120-3411-49fe-9ff3-1038ee5ffe69" sourceSha256="7a0be01ea0bae3d98f64a0a120635125f8db1927982f625723c481a996ba708e" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:04:43.635877Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-09-24">24 settembre 2024</docDate>
+                <docNumber>142</docNumber>
+                <docTitle>Disposizioni in favore dell'Associazione Arena Sferisterio - Teatro di tradizione, per l'organizzazione del Macerata Opera Festival. (24G00160) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 22/10/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Contributo a favore dell'Associazione 
+ Arena Sferisterio - Teatro di tradizione</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">Al <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2012-12-20/238/!main#art_2-com1" ns1:target="olf:it/legge/stato/2012/238/art_2-com1" ns1:relation="amends">comma 1 dell'articolo 2 della legge 20 dicembre 2012, n. 238</ref>, sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_1_new_1">, nonche', a decorrere dall'anno 2024, un contributo di 400.000 euro annui a favore dell'Associazione Arena Sferisterio - Teatro di tradizione, per l'organizzazione del Macerata Opera Festival</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il contributo all'Associazione Arena Sferisterio - Teatro di tradizione, di cui al comma 1, e' concesso subordinatamente alla previsione, nel relativo statuto, della nomina di un componente del consiglio di amministrazione da parte del Ministro della cultura. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2012-12-20/238/!main#art_2" ns3:target="olf:it/legge/stato/2012/238/art_2" ns3:relation="amends">art. 2 della legge 20 dicembre 2012, n. 238</ref>, recante «Disposizioni per il sostegno e la valorizzazione dei festival musicali ed operistici italiani e delle orchestre giovanili italiane di assoluto prestigio internazionale.», pubblicata nella Gazzetta Ufficiale del 9 gennaio 2013, n. 7, come modificato dalla presente legge: 
+ «Art. 2 (Contributo straordinario). - 1. Al fine di sostenere e valorizzare i festival musicali e operistici italiani e le orchestre giovanili italiane di assoluto prestigio internazionale e' assegnato, a decorrere dal 2013, un contributo di un milione di euro ciascuna a favore della Fondazione Rossini Opera Festival, della Fondazione Festival dei due Mondi, della Fondazione Ravenna Manifestazioni e della Fondazione Festival Pucciniano Torre del Lago nonche', a decorrere dal 2017, un contributo di un milione di euro ciascuna a favore della Fondazione Teatro Regio di Parma per la realizzazione del Festival Verdi di Parma e Busseto, della Fondazione Romaeuropa Arte e Cultura per la realizzazione del Romaeuropa Festival e della Fondazione di partecipazione "Umbria Jazz" nonche', a decorrere dall'anno 2021, un contributo di un milione di euro a favore della Fondazione Orchestra giovanile Luigi Cherubini e, per ciascuno degli anni 2022 e 2023, un contributo di 0,5 milioni di euro complessivi da suddividere in misura proporzionale tra l'Associazione Senzaspine, l'Associazione Musicale Gasparo da Salo', societa' cooperativa Soundiff - Diffrazioni Sonore, l'Associazione culturale musicale I Filarmonici di Benevento, l'Ensemble Mare Nostrum, l'Associazione la Filharmonie e l'Orchestra dei Giovani Europei nonche', a decorrere dall'anno 2024, un contributo di 250.000 euro annui a favore del comune di Pistoia per la realizzazione del Pistoia Blues Festival e un contributo di 250.000 euro annui a favore del comune di Berchidda per la realizzazione del Festival Internazionale Time in Jazz, nonche', a decorrere dall'anno 2024, un contributo di 400.000 euro annui a favore dell'Associazione Arena Sferisterio - Teatro di tradizione, per l'organizzazione del Macerata Opera Festival. 
+ 1-bis. E' assegnato un contributo di 500.000 euro per ciascuno degli anni 2018 e 2019, di 1 milione di euro per ciascuno degli anni 2020 e 2021 e di 2 milioni di euro per l'anno 2022 a favore della Fondazione Teatro Donizetti di Bergamo per la realizzazione del Festival Donizetti Opera. 
+ 1-ter. E' assegnato un contributo di 250.000 euro per ciascuno degli anni 2020 e 2021 a favore del comune di Pistoia per la realizzazione del Pistoia Blues Festival. 
+ 1-quater. Per la realizzazione del Festival internazionale della musica MITO e' assegnato un contributo complessivo pari a 1 milione di euro per l'anno 2022 in favore della Fondazione I Pomeriggi Musicali e della Fondazione per la Cultura Torino. 
+ 1-quinquies. E' assegnato un contributo di un milione di euro per ciascuno degli anni 2024, 2025 e 2026 a favore della Fondazione Teatro Amilcare Ponchielli di Cremona per la realizzazione del Monteverdi Festival di Cremona. 
+ 1-sexies. Agli oneri derivanti dall'attuazione del comma 1-quinquies, pari a un milione di euro per ciascuno degli anni 2024, 2025 e 2026, si provvede mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2017-12-27/205/!main#art_1-com369" ns4:target="olf:it/legge/stato/2017/205/art_1-com369" ns4:relation="cites">articolo 1, comma 369, della legge 27 dicembre 2017, n. 205</ref>.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Copertura finanziaria</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Agli oneri derivanti dall'articolo 1 della presente legge, pari a 400.000 euro annui a decorrere dall'anno 2024, si provvede mediante corrispondente riduzione del Fondo per interventi strutturali di politica economica, di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegge/stato/2004-11-29/282/!main#art_10-com5" ns5:target="olf:it/decreto-legge/stato/2004/282/art_10-com5" ns5:relation="cites">articolo 10, comma 5, del decreto-legge 29 novembre 2004, n. 282</ref>, convertito, con modificazioni, dalla <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2004-12-27/307/!main" ns6:target="olf:it/legge/stato/2004/307" ns6:relation="cites">legge 27 dicembre 2004, n. 307</ref>. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Il testo dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegge/stato/2004-11-29/282/!main#art_10-com5" ns7:target="olf:it/decreto-legge/stato/2004/282/art_10-com5" ns7:relation="cites">art. 10, comma 5, del decreto-legge 29 novembre 2004, n. 282</ref> (Disposizioni urgenti in materia fiscale e di finanza pubblica), convertito, con modificazioni, dalla <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2004-12-27/307/!main" ns8:target="olf:it/legge/stato/2004/307" ns8:relation="cites">legge 27 dicembre 2004, n. 307</ref>, pubblicata nella Gazzetta Ufficiale del 7 dicembre 2004, n. 302, e' il seguente: 
+ «Art. 10 (Proroga di termini in materia di definizione di illeciti edilizi). - 1. - 4. (omissis). 
+ 5. Al fine di agevolare il perseguimento degli obiettivi di finanza pubblica, anche mediante interventi volti alla riduzione della pressione fiscale, nello stato di previsione del Ministero dell'economia e delle finanze e' istituito un apposito "Fondo per interventi strutturali di politica economica", alla cui costituzione concorrono le maggiori entrate, valutate in 2.215,5 milioni di euro per l'anno 2005, derivanti dal comma 1.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 24 settembre 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
