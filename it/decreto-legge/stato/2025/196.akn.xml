@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2025-12-27/196/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2025-12-27/196"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legge:2025-12-27;196"/>
+                    <FRBRalias name="eli" value="eli/id/2025/12/27/25G00210/CONSOLIDATED/20260214"/>
+                    <FRBRdate date="2025-12-27" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/12/27/25G00210/CONSOLIDATED/20260214" aknrelname="eli/id/2025/12/27/25G00210/CONSOLIDATED/20260214">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni urgenti per le consultazioni elettorali e referendarie dell'anno 2026. (25G00210)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00210" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                            <nrdfa:span content="2025-12-27" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2025-12-27/196/ita@2026-02-14/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2025-12-27/196/ita@2026-02-14"/>
+                    <FRBRdate date="2026-02-14" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/12/27/25G00210/CONSOLIDATED/20260214/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/12/27/25G00210/CONSOLIDATED/20260214"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/12/27/25G00210/CONSOLIDATED/20260214/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2025-12-27/196/ita@2026-02-14/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2025-12-27/196/ita@2026-02-14.xml"/>
+                    <FRBRdate date="2025-12-27" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/12/27/25G00210/CONSOLIDATED/20260214/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-12-27" name="" number="299" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-12-27" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2026-02-13" eId="eventRef_1" source="rp1"/>
+            </lifecycle>
+            <analysis source="">
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((spettano gli))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_1" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_2"/>
+                        <new>
+                            <nakn:text>((lettere a ) e c) ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_2" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_3"/>
+                        <new>
+                            <nakn:text>((dei component))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_3" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_4"/>
+                        <new>
+                            <nakn:text>((In caso di contemporaneo svolgimento, nell'anno 2026, di consultazioni referendarie di cui all'articolo 138 della Costituzione e di un turno di votazione delle elezioni amministrative, anche quando disciplinate da norme regionali, la composizione degli uffici elettorali di sezione interessati all'abbinamento e' determinata dalla normativa per le elezioni amministrative. Si applicano le disposizioni previste per i referendum relativamente ai compensi dei componenti degli uffici elettorali di sezione e dei seggi speciali di cui all'articolo 9 della legge 23 aprile 1976, n. 136, ferma restando l'entita' delle maggiorazioni previste dall'articolo 1, comma 3, della legge 13 marzo 1980, n. 70. Appena completate le operazioni di votazione e quelle di riscontro dei votanti per ogni consultazione, si procede, nell'ordine, allo scrutinio relativo alle consultazioni referendarie e successivamente, senza interruzioni, a quello relativo alle elezioni amministrative))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_4" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_5"/>
+                        <new>
+                            <nakn:text>((In relazione a quanto previsto dal presente articolo, il Fondo da ripartire per fronteggiare le spese derivanti dalle elezioni politiche, amministrative, del Parlamento europeo e dall'attuazione dei referendum, iscritto nello stato di previsione del Ministero dell'economia e delle finanze, e' incrementato di 6.117.690 euro per l'anno 2026. Ai conseguenti oneri, pari a 6.117.690 euro per l'anno 2026, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2026-2028, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2026, allo scopo parzialmente utilizzando, quanto a 6.107.690 euro, l'accantonamento relativo al medesimo Ministero e, quanto a 10.000 euro, l'accantonamento relativo al Ministero dell'interno))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_5" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_6"/>
+                        <new>
+                            <nakn:text>(( (Disposizioni per la validita' delle elezioni amministrative che si svolgono nell'anno 2026 nei comuni con popolazione fino a 15.000 abitanti in caso di ammissione di una sola lista).))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_6" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_7"/>
+                        <new>
+                            <nakn:text>((Limitatamente all'anno 2026, per l'elezione del sindaco e del consiglio comunale nei comuni con popolazione fino a 15.000 abitanti, in deroga a quanto previsto dall'articolo 71, comma 10, del testo unico delle leggi sull'ordinamento degli enti locali, di cui al decreto legislativo 18 agosto 2000, n. 267, ove sia stata ammessa e votata una sola lista, sono eletti tutti i candidati compresi nella lista e il candidato a sindaco collegato, purche' essa abbia riportato un numero di voti validi non inferiore al 50 per cento dei votanti e il numero dei votanti non sia stato inferiore al 40 per cento degli elettori iscritti nelle liste elettorali del comune.
+Qualora non siano raggiunte tali percentuali, l'elezione e' nulla.
+Per la determinazione del numero degli elettori iscritti nelle liste elettorali del comune non si tiene conto degli elettori iscritti all'Anagrafe degli italiani residenti all'estero che non abbiano esercitato il diritto di voto))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO-LEGGE/stato/2025-12-27/196/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/LEGGE/stato/2026-02-13/18/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/12/27/25G00210/CONSOLIDATED/20260214">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni urgenti per le consultazioni elettorali e referendarie dell'anno 2026. (25G00210)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00210</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-12-27</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/12/27/25G00210/CONSOLIDATED/20260214/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/12/27/25G00210/CONSOLIDATED/20260214"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/12/27/25G00210/CONSOLIDATED/20260214/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/12/27/25G00210/CONSOLIDATED/20260214/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legge/stato/2025/196" nativeUrn="urn:nir:stato:decreto.legge:2025-12-27;196" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-12-27"><ns0:event type="enacted" date="2025-12-27"/><ns0:event type="published" date="2025-12-27"/><ns0:event type="commenced" date="2025-12-27"/><ns0:event type="amended" date="2026-02-13"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/b8d412fb-7419-402c-bac6-179248cbe0c6" sourceSha256="2ee05cadef2300a6c819510f463b636f5e15890e9407090e6fb396daffc2ad56" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T18:08:55.482107Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO-LEGGE</docType>
+                <docDate date="2025-12-27">27 dicembre 2025</docDate>
+                <docNumber>196</docNumber>
+                <docTitle>Disposizioni urgenti per le consultazioni elettorali e referendarie dell'anno 2026. (25G00210) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 28/12/2025
+
+Decreto-Legge convertito con modificazioni dalla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2026-02-13/18/!main" ns1:target="olf:it/legge/stato/2026/18" ns1:relation="cites">L. 13 febbraio 2026, n. 18</ref> (in G.U. 13/02/2026, n. 36)
+</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visti gli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_77" ns2:target="olf:it/costituzione/stato/1947/const/art_77" ns2:relation="cites">articoli 77</ref> e <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87" ns3:target="olf:it/costituzione/stato/1947/const/art_87" ns3:relation="cites">87 della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Visti gli <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_48" ns4:target="olf:it/costituzione/stato/1947/const/art_48" ns4:relation="cites">articoli 48</ref> e <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_5" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_75" ns5:target="olf:it/costituzione/stato/1947/const/art_75" ns5:relation="cites">75 della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Vista la <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_6" href="/akn/it/act/legge/stato/1988-08-23/400/!main" ns6:target="olf:it/legge/stato/1988/400" ns6:relation="cites">legge 23 agosto 1988, n. 400</ref>, recante «Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri» e, in particolare, l'articolo 15;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_4">
+                <citation eId="cits_4__cit_1">
+                    <p>Visto il <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_7" href="/akn/it/act/decretoLegge/stato/2011-07-06/98/!main" ns7:target="olf:it/decreto-legge/stato/2011/98" ns7:relation="cites">decreto-legge 6 luglio 2011, n. 98</ref>, convertito, con modificazioni, dalla <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_8" href="/akn/it/act/legge/stato/2011-07-15/111/!main" ns8:target="olf:it/legge/stato/2011/111" ns8:relation="cites">legge 15 luglio 2011, n. 111</ref>, recante «Disposizioni urgenti per la stabilizzazione finanziaria» e, in particolare, l'articolo 7;</p>
+                </citation>
+            </citations>
+            <p>Considerata la necessita' di favorire la partecipazione degli elettori mediante il prolungamento delle operazioni di votazione in occasione delle consultazioni elettorali e referendarie previste nell'anno 2026;</p>
+            <p>Ritenuta la conseguente necessita' e urgenza di consentire il tempestivo avvio del procedimento elettorale preparatorio e di adottare misure per il coordinamento normativo e la funzionalita' dei procedimenti elettorali e referendari in caso di svolgimento contestuale, per quanto concerne in particolare le operazioni di voto e di scrutinio;</p>
+            <p>Considerata, altresi', la necessita' e l'urgenza di adeguare i compensi forfettari spettanti ai componenti degli uffici elettorali di sezione al predetto prolungamento delle operazioni di votazione;</p>
+            <citations eId="cits_5">
+                <citation eId="cits_5__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione del 22 dicembre 2025;</p>
+                </citation>
+            </citations>
+            <formula name="formulaFinalePreambolo">
+                <p>Sulla proposta del Presidente del Consiglio dei ministri e del Ministro dell'interno, di concerto con i Ministri per gli affari regionali e le autonomie, per la pubblica amministrazione, per le riforme istituzionali e la semplificazione normativa, della giustizia e dell'economia e delle finanze; Emana il seguente decreto-legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading>Disposizioni per il prolungamento delle operazioni di votazione per le consultazioni elettorali e referendarie relative all'anno 2026 e per il loro eventuale abbinamento</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le operazioni di votazione per le consultazioni elettorali e referendarie relative all'anno 2026 si svolgono, in deroga a quanto previsto dall'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2013-12-27/147/!main#art_1-com399" ns9:target="olf:it/legge/stato/2013/147/art_1-com399" ns9:relation="cites">articolo 1, comma 399, della legge 27 dicembre 2013, n. 147</ref>, nella giornata di domenica, dalle ore 7 alle ore 23, e nella giornata di lunedi', dalle ore 7 alle ore 15. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>In ragione del prolungamento delle operazioni di votazione di cui al comma 1, ai componenti degli uffici elettorali di sezione e dei seggi speciali di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/1976-04-23/136/!main#art_9" ns10:target="olf:it/legge/stato/1976/136/art_9" ns10:relation="cites">articolo 9 della legge 23 aprile 1976, n. 136</ref>, <ins eId="ins_1">((spettano gli))</ins> onorari fissi forfettari di cui all'articolo 1, commi 1, 2, 4 e 5, <ins eId="ins_2">((lettere a ) e c) ))</ins>, della <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/1980-03-13/70/!main" ns11:target="olf:it/legge/stato/1980/70" ns11:relation="cites">legge 13 marzo 1980, n. 70</ref>, aumentati del 15 per cento, ferme restando le maggiorazioni previste per la contemporanea effettuazione di piu' consultazioni. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>In caso di contemporaneo svolgimento, nell'anno 2026, di consultazioni referendarie ed elezioni suppletive in collegi uninominali della Camera dei deputati o del Senato della Repubblica, si applicano le disposizioni previste per le elezioni politiche suppletive relativamente agli adempimenti comuni, compresi quelli concernenti la composizione, il funzionamento e i compensi <ins eId="ins_3">((dei component))</ins> degli uffici elettorali di sezione e dei seggi speciali di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/1976-04-23/136/!main#art_9" ns12:target="olf:it/legge/stato/1976/136/art_9" ns12:relation="cites">articolo 9 della legge 23 aprile 1976, n. 136</ref>. Appena completate le operazioni di votazione e quelle di riscontro dei votanti per ogni consultazione, si procede, nell'ordine, allo scrutinio relativo alle consultazioni referendarie e successivamente, senza interruzioni, a quello relativo alle elezioni politiche suppletive. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>In caso di contemporaneo svolgimento, nell'anno 2026, di elezioni suppletive in collegi uninominali della Camera dei deputati o del Senato della Repubblica e di un turno di elezioni amministrative, anche quando disciplinate da norme regionali, appena completate le operazioni di votazione e quelle di riscontro dei votanti per ogni consultazione, si procede alle operazioni di scrutinio delle elezioni suppletive e successivamente, senza interruzioni, a quelle relative alle elezioni amministrative. Lo scrutinio relativo alle elezioni circoscrizionali e' rinviato alle ore 9 del martedi'. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4-bis">
+                    <num>4-bis.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_4">((In caso di contemporaneo svolgimento, nell'anno 2026, di consultazioni referendarie di cui all'articolo 138 della Costituzione e di un turno di votazione delle elezioni amministrative, anche quando disciplinate da norme regionali, la composizione degli uffici elettorali di sezione interessati all'abbinamento e' determinata dalla normativa per le elezioni amministrative. Si applicano le disposizioni previste per i referendum relativamente ai compensi dei componenti degli uffici elettorali di sezione e dei seggi speciali di cui all'articolo 9 della legge 23 aprile 1976, n. 136, ferma restando l'entita' delle maggiorazioni previste dall'articolo 1, comma 3, della legge 13 marzo 1980, n. 70. Appena completate le operazioni di votazione e quelle di riscontro dei votanti per ogni consultazione, si procede, nell'ordine, allo scrutinio relativo alle consultazioni referendarie e successivamente, senza interruzioni, a quello relativo alle elezioni amministrative))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_5">((In relazione a quanto previsto dal presente articolo, il Fondo da ripartire per fronteggiare le spese derivanti dalle elezioni politiche, amministrative, del Parlamento europeo e dall'attuazione dei referendum, iscritto nello stato di previsione del Ministero dell'economia e delle finanze, e' incrementato di 6.117.690 euro per l'anno 2026. Ai conseguenti oneri, pari a 6.117.690 euro per l'anno 2026, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2026-2028, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2026, allo scopo parzialmente utilizzando, quanto a 6.107.690 euro, l'accantonamento relativo al medesimo Ministero e, quanto a 10.000 euro, l'accantonamento relativo al Ministero dell'interno))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_1-bis">
+                <num>Art. 1-bis.</num>
+                <heading>
+                    <ins eId="ins_6">(( (Disposizioni per la validita' delle elezioni amministrative che si svolgono nell'anno 2026 nei comuni con popolazione fino a 15.000 abitanti in caso di ammissione di una sola lista).))</ins>
+                </heading>
+                <paragraph eId="art_1-bis__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_7">((Limitatamente all'anno 2026, per l'elezione del sindaco e del consiglio comunale nei comuni con popolazione fino a 15.000 abitanti, in deroga a quanto previsto dall'articolo 71, comma 10, del testo unico delle leggi sull'ordinamento degli enti locali, di cui al decreto legislativo 18 agosto 2000, n. 267, ove sia stata ammessa e votata una sola lista, sono eletti tutti i candidati compresi nella lista e il candidato a sindaco collegato, purche' essa abbia riportato un numero di voti validi non inferiore al 50 per cento dei votanti e il numero dei votanti non sia stato inferiore al 40 per cento degli elettori iscritti nelle liste elettorali del comune.
+Qualora non siano raggiunte tali percentuali, l'elezione e' nulla.
+Per la determinazione del numero degli elettori iscritti nelle liste elettorali del comune non si tiene conto degli elettori iscritti all'Anagrafe degli italiani residenti all'estero che non abbiano esercitato il diritto di voto))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il presente decreto entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana e sara' presentato alle Camere per la conversione in legge. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 27 dicembre 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Piantedosi, Ministro dell'interno Calderoli, Ministro per gli affari regionali e le autonomie Zangrillo, Ministro per la pubblica amministrazione Alberti Casellati, Ministro per le riforme istituzionali e la semplificazione normativa Nordio, Ministro della giustizia Giorgetti, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
