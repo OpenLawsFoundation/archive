@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-09-26/138/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-09-26/138"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-09-26;138"/>
+                    <FRBRalias name="eli" value="eli/id/2023/10/10/23G00146/ORIGINAL"/>
+                    <FRBRdate date="2023-09-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/10/23G00146/ORIGINAL" aknrelname="eli/id/2023/10/10/23G00146/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Introduzione del reato di omicidio nautico e del reato di lesioni personali nautiche. (23G00146)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00146" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-09-26" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-09-26/138/ita@2023-10-25/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-09-26/138/ita@2023-10-25"/>
+                    <FRBRdate date="2023-10-25" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/10/23G00146/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/10/10/23G00146/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/10/10/23G00146/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-09-26/138/ita@2023-10-25/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-09-26/138/ita@2023-10-25.xml"/>
+                    <FRBRdate date="2023-09-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/10/23G00146/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-10-10" name="" number="237" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-10-10" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2023-09-26" refersTo="#S.340"/>
+                <step by="#camera" date="2023-09-26" refersTo="#C.911"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-26;138#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 589 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la modifica dell'art. 589-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-26;138#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 589 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) la modifica dell'art. 589-ter, rubrica. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-26;138#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 590 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 3) la modifica dell'art. 590-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-26;138#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 590 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 4) la modifica dell'art. 590-ter, rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-26;138#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#380"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1) la modifica dell'art. 380, comma 2, lettera m-quater).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-09-26;138#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#381"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 2) la modifica dell'art. 381, comma 2, lettera m-quinquies).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2023-10-25/!main/~art_589-bis"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2023-10-25/!main/~art_589-ter"/>
+                        <new href="#modNov_2_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2023-10-25/!main/~art_590-bis"/>
+                        <new href="#modNov_3_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2023-10-25/!main/~art_590-ter"/>
+                        <new href="#modNov_4_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2023-10-25/!main/~art_380__para_2__point_m-quater"/>
+                        <new href="#modNov_5_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2023-10-25/!main/~art_381__para_2__point_m-quinquies"/>
+                        <new href="#modNov_6_new_2"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-09-26/138/!main" showAs=""/>
+                <passiveRef eId="S.340" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;340" showAs=""/>
+                <passiveRef eId="C.911" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;911" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/10/10/23G00146/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Introduzione del reato di omicidio nautico e del reato di lesioni personali nautiche. (23G00146)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00146</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-09-26</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/10/10/23G00146/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/10/10/23G00146/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/10/10/23G00146/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/10/10/23G00146/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/138" nativeUrn="urn:nir:stato:legge:2023-09-26;138" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-10-10"><ns0:event type="enacted" date="2023-09-26"/><ns0:event type="published" date="2023-10-10"/><ns0:event type="commenced" date="2023-10-10"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/d88b7cda-2b55-495c-bfe6-38245ba05fd2" sourceSha256="98f7fdf036377cf59a310262a44c3384c27fa458e319b1e464b8f04e0919de65" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T21:16:34.399911Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-09-26">26 settembre 2023</docDate>
+                <docNumber>138</docNumber>
+                <docTitle>Introduzione del reato di omicidio nautico e del reato di lesioni personali nautiche. (23G00146) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 25/10/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">L'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_589bis" ns1:target="olf:it/regio-decreto/stato/1930/1398/art_589bis" ns1:relation="amends">articolo 589-bis del codice penale</ref> e' sostituito dal seguente: 
+ «<quotedText eId="modNov_1_new_1">Art. 589-bis (Omicidio stradale o nautico). - Chiunque cagioni per colpa la morte di una persona con violazione delle norme sulla disciplina della circolazione stradale o della navigazione marittima o interna e' punito con la reclusione da due a sette anni. 
+ Chiunque, ponendosi alla guida di un veicolo a motore o di una delle unita' da diporto di cui all'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main#art_3" ns2:target="olf:it/decreto-legislativo/stato/2005/171/art_3" ns2:relation="cites">articolo 3 del codice della nautica da diporto</ref>, di cui al <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main" ns3:target="olf:it/decreto-legislativo/stato/2005/171" ns3:relation="cites">decreto legislativo 18 luglio 2005, n. 171</ref>, in stato di ebbrezza alcolica o di alterazione psicofisica conseguente all'assunzione di sostanze stupefacenti o psicotrope ai sensi rispettivamente degli articoli 186, comma 2, lettera c), e 187 del <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main" ns4:target="olf:it/decreto-legislativo/stato/1992/285" ns4:relation="cites">codice della strada</ref>, di cui al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_53bis-com2-letc" ns5:target="olf:it/decreto-legislativo/stato/1992/285/art_53bis-com2-letc" ns5:relation="cites">decreto legislativo 30 aprile 1992, n. 285, nonche' degli articoli 53-bis, comma 2, lettera c)</ref>, e 53-quater del <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main" ns6:target="olf:it/decreto-legislativo/stato/2005/171" ns6:relation="cites">codice della nautica da diporto</ref>, di cui al <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main" ns7:target="olf:it/decreto-legislativo/stato/2005/171" ns7:relation="cites">decreto legislativo 18 luglio 2005, n. 171</ref>, cagioni per colpa la morte di una persona, e' punito con la reclusione da otto a dodici anni. 
+ La stessa pena si applica al conducente di un veicolo a motore di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_186bis-com1-letb" ns8:target="olf:it/decreto-legislativo/stato/1992/285/art_186bis-com1-letb" ns8:relation="cites">articolo 186-bis, comma 1, lettere b)</ref>, <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_186bis-com1-letc" ns9:target="olf:it/decreto-legislativo/stato/1992/285/art_186bis-com1-letc" ns9:relation="cites">c)</ref> e <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_186bis-com1-letd" ns10:target="olf:it/decreto-legislativo/stato/1992/285/art_186bis-com1-letd" ns10:relation="cites">d), del decreto legislativo 30 aprile 1992, n. 285</ref>, o di un'unita' da diporto di cui all'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main#art_53ter-com1-letb" ns11:target="olf:it/decreto-legislativo/stato/2005/171/art_53ter-com1-letb" ns11:relation="cites">articolo 53-ter, comma 1, lettera b), del decreto legislativo 18 luglio 2005, n. 171</ref>, il quale, in stato di ebbrezza alcolica ai sensi rispettivamente degli <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_186-com2-letb" ns12:target="olf:it/decreto-legislativo/stato/1992/285/art_186-com2-letb" ns12:relation="cites">articoli 186, comma 2, lettera b), del decreto legislativo 30 aprile 1992, n. 285</ref>, e 53-bis, <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main#art_com2-letb" ns13:target="olf:it/decreto-legislativo/stato/2005/171/art_com2-letb" ns13:relation="cites">comma 2, lettera b), del decreto legislativo 18 luglio 2005, n. 171</ref>, cagioni per colpa la morte di una persona. 
+ Salvo quanto previsto dal terzo comma, chiunque, ponendosi alla guida di un veicolo a motore o di una delle unita' da diporto di cui all'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main#art_3" ns14:target="olf:it/decreto-legislativo/stato/2005/171/art_3" ns14:relation="cites">articolo 3 del decreto legislativo 18 luglio 2005, n. 171</ref>, in stato di ebbrezza alcolica ai sensi rispettivamente degli <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_186-com2-letb" ns15:target="olf:it/decreto-legislativo/stato/1992/285/art_186-com2-letb" ns15:relation="cites">articoli 186, comma 2, lettera b), del decreto legislativo 30 aprile 1992, n. 285</ref>, e 53-bis, <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main#art_com2-letb" ns16:target="olf:it/decreto-legislativo/stato/2005/171/art_com2-letb" ns16:relation="cites">comma 2, lettera b), del decreto legislativo 18 luglio 2005, n. 171</ref>, cagioni per colpa la morte di una persona, e' punito con la reclusione da cinque a dieci anni. 
+ La pena di cui al quarto comma si applica altresi': 
+ 1) al conducente di un veicolo a motore che, procedendo in un centro urbano ad una velocita' pari o superiore al doppio di quella consentita e comunque non inferiore a 70 km/h, ovvero su strade extraurbane ad una velocita' superiore di almeno 50 km/h rispetto a quella massima consentita, cagioni per colpa la morte di una persona; 
+ 2) al conducente di un veicolo a motore che, attraversando un'intersezione con il semaforo disposto al rosso ovvero circolando contromano, cagioni per colpa la morte di una persona; 
+ 3) al conducente di un veicolo a motore che, a seguito di manovra di inversione del senso di marcia in prossimita' o in corrispondenza di intersezioni, curve o dossi o a seguito di sorpasso di un altro mezzo in corrispondenza di un attraversamento pedonale o di linea continua, cagioni per colpa la morte di una persona. 
+ Nelle ipotesi di cui ai commi precedenti la pena e' aumentata se il fatto e' commesso da persona non munita di patente di guida o, ad eccezione delle ipotesi di cui al quinto comma, di patente nautica, ove prescritta, o con patente sospesa o revocata, ovvero nel caso in cui il veicolo a motore o l'unita' da diporto sia di proprieta' dell'autore del fatto e tale veicolo o unita' da diporto sia sprovvisto di assicurazione obbligatoria. 
+ Nelle ipotesi di cui ai commi precedenti, qualora l'evento non sia esclusiva conseguenza dell'azione o dell'omissione del colpevole, la pena e' diminuita fino alla meta'. 
+ Nelle ipotesi di cui ai commi precedenti, qualora il conducente del veicolo o dell'unita' da diporto cagioni la morte di piu' persone, ovvero la morte di una o piu' persone e lesioni a una o piu' persone, si applica la pena che dovrebbe infliggersi per la piu' grave delle violazioni commesse aumentata fino al triplo, ma la pena non puo' superare gli anni diciotto</quotedText> ».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_2">Alla rubrica dell'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_589ter" ns17:target="olf:it/regio-decreto/stato/1930/1398/art_589ter" ns17:relation="amends">articolo 589-ter del codice penale</ref> sono aggiunte, in fine, le seguenti parole: « <quotedText eId="modNov_2_new_2">e nautico</quotedText> ».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_3">L'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_590bis" ns18:target="olf:it/regio-decreto/stato/1930/1398/art_590bis" ns18:relation="amends">articolo 590-bis del codice penale</ref> e' sostituito dal seguente: 
+ «<quotedText eId="modNov_3_new_3">Art. 590-bis (Lesioni personali stradali o nautiche gravi o gravissime). - Chiunque cagioni per colpa ad altri una lesione personale con violazione delle norme sulla disciplina della circolazione stradale o della navigazione marittima o interna e' punito con la reclusione da tre mesi a un anno per le lesioni gravi e da uno a tre anni per le lesioni gravissime. 
+ Chiunque, ponendosi alla guida di un veicolo a motore o di una delle unita' da diporto di cui all'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main#art_3" ns19:target="olf:it/decreto-legislativo/stato/2005/171/art_3" ns19:relation="cites">articolo 3 del codice della nautica da diporto</ref>, di cui al <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main" ns20:target="olf:it/decreto-legislativo/stato/2005/171" ns20:relation="cites">decreto legislativo 18 luglio 2005, n. 171</ref>, in stato di ebbrezza alcolica o di alterazione psicofisica conseguente all'assunzione di sostanze stupefacenti o psicotrope ai sensi rispettivamente degli articoli 186, comma 2, lettera c), e 187 del <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main" ns21:target="olf:it/decreto-legislativo/stato/1992/285" ns21:relation="cites">codice della strada</ref>, di cui al <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_53bis-com2-letc" ns22:target="olf:it/decreto-legislativo/stato/1992/285/art_53bis-com2-letc" ns22:relation="cites">decreto legislativo 30 aprile 1992, n. 285, nonche' degli articoli 53-bis, comma 2, lettera c)</ref>, e 53-quater del <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main" ns23:target="olf:it/decreto-legislativo/stato/2005/171" ns23:relation="cites">codice della nautica da diporto</ref>, di cui al <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main" ns24:target="olf:it/decreto-legislativo/stato/2005/171" ns24:relation="cites">decreto legislativo 18 luglio 2005, n. 171</ref>, cagioni per colpa a taluno una lesione personale, e' punito con la reclusione da tre a cinque anni per le lesioni gravi e da quattro a sette anni per le lesioni gravissime. 
+ La stessa pena si applica al conducente di un veicolo a motore di cui all'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_186bis-com1-letb" ns25:target="olf:it/decreto-legislativo/stato/1992/285/art_186bis-com1-letb" ns25:relation="cites">articolo 186-bis, comma 1, lettere b)</ref>, <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_186bis-com1-letc" ns26:target="olf:it/decreto-legislativo/stato/1992/285/art_186bis-com1-letc" ns26:relation="cites">c)</ref> e <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_186bis-com1-letd" ns27:target="olf:it/decreto-legislativo/stato/1992/285/art_186bis-com1-letd" ns27:relation="cites">d), del decreto legislativo 30 aprile 1992, n. 285</ref>, o di un'unita' da diporto di cui all'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main#art_53ter-com1-letb" ns28:target="olf:it/decreto-legislativo/stato/2005/171/art_53ter-com1-letb" ns28:relation="cites">articolo 53-ter, comma 1, lettera b), del decreto legislativo 18 luglio 2005, n. 171</ref>, il quale, in stato di ebbrezza alcolica ai sensi rispettivamente degli <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_186-com2-letb" ns29:target="olf:it/decreto-legislativo/stato/1992/285/art_186-com2-letb" ns29:relation="cites">articoli 186, comma 2, lettera b), del decreto legislativo 30 aprile 1992, n. 285</ref>, e 53-bis, <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main#art_com2-letb" ns30:target="olf:it/decreto-legislativo/stato/2005/171/art_com2-letb" ns30:relation="cites">comma 2, lettera b), del decreto legislativo 18 luglio 2005, n. 171</ref>, cagioni per colpa a taluno lesioni personali gravi o gravissime. 
+ Salvo quanto previsto dal terzo comma, chiunque, ponendosi alla guida di un veicolo a motore o di una delle unita' da diporto di cui all'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main#art_3" ns31:target="olf:it/decreto-legislativo/stato/2005/171/art_3" ns31:relation="cites">articolo 3 del decreto legislativo 18 luglio 2005, n. 171</ref>, in stato di ebbrezza alcolica ai sensi rispettivamente degli <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_186-com2-letb" ns32:target="olf:it/decreto-legislativo/stato/1992/285/art_186-com2-letb" ns32:relation="cites">articoli 186, comma 2, lettera b), del decreto legislativo 30 aprile 1992, n. 285</ref>, e 53-bis, <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2005-07-18/171/!main#art_com2-letb" ns33:target="olf:it/decreto-legislativo/stato/2005/171/art_com2-letb" ns33:relation="cites">comma 2, lettera b), del decreto legislativo 18 luglio 2005, n. 171</ref>, cagioni per colpa a taluno lesioni personali, e' punito con la reclusione da un anno e sei mesi a tre anni per le lesioni gravi e da due a quattro anni per le lesioni gravissime. 
+ Le pene di cui al quarto comma si applicano altresi': 
+ 1) al conducente di un veicolo a motore che, procedendo in un centro urbano ad una velocita' pari o superiore al doppio di quella consentita e comunque non inferiore a 70 km/h, ovvero su strade extraurbane ad una velocita' superiore di almeno 50 km/h rispetto a quella massima consentita, cagioni per colpa a taluno lesioni personali gravi o gravissime; 
+ 2) al conducente di un veicolo a motore che, attraversando un'intersezione con il semaforo disposto al rosso ovvero circolando contromano, cagioni per colpa a taluno lesioni personali gravi o gravissime; 
+ 3) al conducente di un veicolo a motore che, a seguito di manovra di inversione del senso di marcia in prossimita' o in corrispondenza di intersezioni, curve o dossi o a seguito di sorpasso di un altro mezzo in corrispondenza di un attraversamento pedonale o di linea continua, cagioni per colpa a taluno lesioni personali gravi o gravissime. 
+ Nelle ipotesi di cui ai commi precedenti la pena e' aumentata se il fatto e' commesso da persona non munita di patente di guida o, ad eccezione delle ipotesi di cui al quinto comma, di patente nautica, ove prescritta, o con patente sospesa o revocata, ovvero nel caso in cui il veicolo a motore o l'unita' da diporto sia di proprieta' dell'autore del fatto e tale veicolo o unita' da diporto sia sprovvisto di assicurazione obbligatoria. 
+ Nelle ipotesi di cui ai commi precedenti, qualora l'evento non sia esclusiva conseguenza dell'azione o dell'omissione del colpevole, la pena e' diminuita fino alla meta'. 
+ Nelle ipotesi di cui ai commi precedenti, qualora il conducente del veicolo o dell'unita' da diporto cagioni lesioni a piu' persone, si applica la pena che dovrebbe infliggersi per la piu' grave delle violazioni commesse aumentata fino al triplo, ma la pena non puo' superare gli anni sette. 
+ Il delitto e' punibile a querela della persona offesa se non ricorre alcuna delle circostanze aggravanti previste dal presente articolo.</quotedText>
+                            </mod> 
+ 4. <mod eId="modNov_4">Alla rubrica dell'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_590ter" ns34:target="olf:it/regio-decreto/stato/1930/1398/art_590ter" ns34:relation="amends">articolo 590-ter del codice penale</ref> sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_4_new_4">e nautiche</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art.10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns35:target="olf:it/dpr/stato/1985/1092" ns35:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n.1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ Per le direttive CEE vengono forniti gli estremi di pubblicazione nella Gazzetta Ufficiale delle Comunita' europee (GUUE). 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo degli <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_589ter" ns36:target="olf:it/regio-decreto/stato/1930/1398/art_589ter" ns36:relation="amends">articoli 589-ter</ref> e <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_590ter" ns37:target="olf:it/regio-decreto/stato/1930/1398/art_590ter" ns37:relation="amends">590-ter del Codice penale</ref>, come modificato dalla presente legge: 
+ «Art. 589-ter. (Fuga del conducente in caso di omicidio stradale e nautico). - Nel caso di cui all'articolo 589-bis, se il conducente si da' alla fuga, la pena e' aumentata da un terzo a due terzi e comunque non puo' essere inferiore a cinque anni.» 
+ «Art. 590-ter. (Fuga del conducente in caso di lesioni personali stradali e nautiche). - Nel caso di cui all'articolo 590-bis, se il conducente si da' alla fuga, la pena e' aumentata da un terzo a due terzi e comunque non puo' essere inferiore a tre anni.". 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading/>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_5">All'<ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_380-com2" ns38:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_380-com2" ns38:relation="cites">articolo 380, comma 2, del codice di procedura penale</ref>, la lettera m-quater) e' sostituita dalla seguente: 
+ «<quotedText eId="modNov_5_new_1">m-quater) delitto di omicidio colposo stradale o nautico previsto dall'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_589bis-com2" ns39:target="olf:it/regio-decreto/stato/1930/1398/art_589bis-com2" ns39:relation="amends">articolo 589-bis, secondo</ref> e <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_589bis-com3" ns40:target="olf:it/regio-decreto/stato/1930/1398/art_589bis-com3" ns40:relation="amends">terzo comma, del codice penale</ref>, salvo che il conducente si sia immediatamente fermato, adoperandosi per prestare o attivare i soccorsi, e si sia messo immediatamente a disposizione degli organi di polizia giudiziaria</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_6">All'<ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_381-com2-letmquinquies" ns41:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_381-com2-letmquinquies" ns41:relation="cites">articolo 381, comma 2, lettera m-quinquies), del codice di procedura penale</ref>, dopo le parole: «lesioni colpose stradali» sono inserite le seguenti: «<quotedText eId="modNov_6_new_2">o nautiche</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta il testo degli <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_380" ns42:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_380" ns42:relation="cites">articoli 380</ref> e <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_381" ns43:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_381" ns43:relation="cites">381 del codice di procedura penale</ref>, come modificato dalla presente legge: 
+ «Art. 380. (Arresto obbligatorio in flagranza). - 1.
+ Gli ufficiali e gli agenti di polizia giudiziaria procedono all'arresto di chiunque e' colto in flagranza di un delitto non colposo, consumato o tentato, per il quale la legge stabilisce la pena dell'ergastolo o della reclusione non inferiore nel minimo a cinque anni e nel massimo a venti anni. 
+ 2. Anche fuori dei casi previsti dal comma 1, gli ufficiali e gli agenti di polizia giudiziaria procedono all'arresto di chiunque e' colto in flagranza di uno dei seguenti delitti non colposi, consumati o tentati: 
+ a) delitti contro la personalita' dello Stato previsti nel titolo I del libro II del <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns44:target="olf:it/regio-decreto/stato/1930/1398" ns44:relation="amends">codice penale</ref> per i quali e' stabilita la pena della reclusione non inferiore nel minimo a cinque anni o nel massimo a dieci anni; 
+ a-bis) delitto di violenza o minaccia ad un Corpo politico, amministrativo o giudiziario o ai suoi singoli componenti previsto dall'<ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_338" ns45:target="olf:it/regio-decreto/stato/1930/1398/art_338" ns45:relation="amends">articolo 338 del codice penale</ref>; 
+ b) delitto di devastazione e saccheggio previsto dall'<ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_419" ns46:target="olf:it/regio-decreto/stato/1930/1398/art_419" ns46:relation="amends">articolo 419 del codice penale</ref>; 
+ c) delitti contro l'incolumita' pubblica previsti nel titolo VI del libro II del <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns47:target="olf:it/regio-decreto/stato/1930/1398" ns47:relation="amends">codice penale</ref> per i quali e' stabilita la pena della reclusione non inferiore nel minimo a tre anni o nel massimo a dieci anni; 
+ d) delitto di riduzione in schiavitu' previsto dall'articolo 600, delitto di prostituzione minorile previsto dall'articolo 600-bis, primo comma, delitto di pornografia minorile previsto dall'articolo 600-ter, commi primo e secondo, anche se relativo al materiale pornografico di cui all'articolo 600-quater.1, e delitto di iniziative turistiche volte allo sfruttamento della prostituzione minorile previsto dall'<ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_600quinquies" ns48:target="olf:it/regio-decreto/stato/1930/1398/art_600quinquies" ns48:relation="amends">articolo 600-quinquies del codice penale</ref>; 
+ d.1) delitti di intermediazione illecita e sfruttamento del lavoro previsti dall'<ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_603bis-com2" ns49:target="olf:it/regio-decreto/stato/1930/1398/art_603bis-com2" ns49:relation="amends">articolo 603-bis, secondo comma, del codice penale</ref>; 
+ d-bis) delitto di violenza sessuale previsto dall'articolo 609-bis, escluso il caso previsto dal terzo comma, e delitto di violenza sessuale di gruppo previsto dall'<ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_609octies" ns50:target="olf:it/regio-decreto/stato/1930/1398/art_609octies" ns50:relation="amends">articolo 609-octies del codice penale</ref>; 
+ d-ter) delitto di atti sessuali con minorenne di cui all'<ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_609quater-com1" ns51:target="olf:it/regio-decreto/stato/1930/1398/art_609quater-com1" ns51:relation="amends">articolo 609-quater, primo</ref> e <ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_609quater-com2" ns52:target="olf:it/regio-decreto/stato/1930/1398/art_609quater-com2" ns52:relation="amends">secondo comma, del codice penale</ref>; 
+ e) delitto di furto quando ricorre la circostanza aggravante prevista dall'<ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/legge/stato/1977-08-08/533/!main#art_4" ns53:target="olf:it/legge/stato/1977/533/art_4" ns53:relation="cites">articolo 4 della legge 8 agosto 1977, n. 533</ref>, o taluna delle circostanze aggravanti previste dall'articolo 625 , primo comma, numeri 2), prima ipotesi, 3) e 5), nonche' 7-bis), del <ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns54:target="olf:it/regio-decreto/stato/1930/1398" ns54:relation="amends">codice penale</ref>, salvo che ricorra, in questi ultimi casi, la circostanza attenuante di cui all'<ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_62-com1-num4" ns55:target="olf:it/regio-decreto/stato/1930/1398/art_62-com1-num4" ns55:relation="amends">articolo 62, primo comma, numero 4), del codice penale</ref>; 
+ e-bis) delitti di furto previsti dall'<ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_624bis" ns56:target="olf:it/regio-decreto/stato/1930/1398/art_624bis" ns56:relation="amends">articolo 624-bis del codice penale</ref>, salvo che ricorra la circostanza attenuante di cui all'<ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_62-com1-num4" ns57:target="olf:it/regio-decreto/stato/1930/1398/art_62-com1-num4" ns57:relation="amends">articolo 62, primo comma, numero 4), del codice penale</ref>; 
+ f) delitto di rapina previsto dall'<ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_628" ns58:target="olf:it/regio-decreto/stato/1930/1398/art_628" ns58:relation="amends">articolo 628 del codice penale</ref> e di estorsione previsto dall'<ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_629" ns59:target="olf:it/regio-decreto/stato/1930/1398/art_629" ns59:relation="amends">articolo 629 del codice penale</ref>; 
+ f-bis) delitto di ricettazione, nell'ipotesi aggravata di cui all'articolo 648 , primo comma, secondo periodo, del <ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns60:target="olf:it/regio-decreto/stato/1930/1398" ns60:relation="amends">codice penale</ref>; 
+ g) delitti di illegale fabbricazione, introduzione nello Stato, messa in vendita, cessione, detenzione e porto in luogo pubblico o aperto al pubblico di armi da guerra o tipo guerra o parti di esse, di esplosivi, di armi clandestine nonche' di piu' armi comuni da sparo escluse quelle previste dall'<ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/legge/stato/1975-04-18/110/!main#art_2-com3" ns61:target="olf:it/legge/stato/1975/110/art_2-com3" ns61:relation="cites">articolo 2, comma terzo, della legge 18 aprile 1975, n. 110</ref>; 
+ h) delitti concernenti sostanze stupefacenti o psicotrope puniti a norma dell'art. 73 del testo unico approvato con <ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1990-10-09/309/!main" ns62:target="olf:it/dpr/stato/1990/309" ns62:relation="cites">D.P.R. 9 ottobre 1990, n. 309</ref>, salvo che per i delitti di cui al comma 5 del medesimo articolo; 
+ i) delitti commessi per finalita' di terrorismo o di eversione dell'ordine costituzionale per i quali la legge stabilisce la pena della reclusione non inferiore nel minimo a quattro anni o nel massimo a dieci anni; 
+ l) delitti di promozione, costituzione, direzione e organizzazione delle associazioni segrete previste dall'<ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/legge/stato/1982-01-25/17/!main#art_1" ns63:target="olf:it/legge/stato/1982/17/art_1" ns63:relation="cites">articolo 1 della legge 25 gennaio 1982, n. 17</ref> [della associazione di tipo mafioso prevista dall'<ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416bis-com2" ns64:target="olf:it/regio-decreto/stato/1930/1398/art_416bis-com2" ns64:relation="amends">articolo 416-bis comma 2 del codice penale</ref>], delle associazioni di carattere militare previste dall'<ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/legge/stato/1956-04-17/561/!main#art_1" ns65:target="olf:it/legge/stato/1956/561/art_1" ns65:relation="cites">articolo 1 della legge 17 aprile 1956, n. 561</ref>, delle associazioni, dei movimenti o dei gruppi previsti dagli <ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/legge/stato/1952-06-20/645/!main#art_1" ns66:target="olf:it/legge/stato/1952/645/art_1" ns66:relation="cites">articoli 1</ref> e <ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/legge/stato/1952-06-20/645/!main#art_2" ns67:target="olf:it/legge/stato/1952/645/art_2" ns67:relation="cites">2, della legge 20 giugno 1952, n. 645</ref>, delle organizzazioni, associazioni, movimenti o gruppi di cui all'<ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/legge/stato/1975-10-13/654/!main#art_3-com3" ns68:target="olf:it/legge/stato/1975/654/art_3-com3" ns68:relation="cites">art. 3, comma 3, della L. 13 ottobre 1975, n. 654</ref>; 
+ l-bis) delitti di partecipazione, promozione, direzione e organizzazione della associazione di tipo mafioso prevista dall'<ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416bis" ns69:target="olf:it/regio-decreto/stato/1930/1398/art_416bis" ns69:relation="amends">articolo 416-bis del codice penale</ref>; 
+ l-ter) delitti di violazione dei provvedimenti di allontanamento dalla casa familiare e del divieto di avvicinamento ai luoghi frequentati dalla persona offesa, di maltrattamenti contro familiari e conviventi e di atti persecutori, previsti dagli <ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_387bis" ns70:target="olf:it/regio-decreto/stato/1930/1398/art_387bis" ns70:relation="amends">articoli 387-bis</ref>, <ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_572" ns71:target="olf:it/regio-decreto/stato/1930/1398/art_572" ns71:relation="amends">572</ref> e <ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_612bis" ns72:target="olf:it/regio-decreto/stato/1930/1398/art_612bis" ns72:relation="amends">612-bis del codice penale</ref>; 
+ m) delitti di promozione, direzione, costituzione e organizzazione della associazione per delinquere prevista dall'<ref xmlns:ns73="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_73" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416-com1" ns73:target="olf:it/regio-decreto/stato/1930/1398/art_416-com1" ns73:relation="amends">articolo 416 commi 1</ref> e <ref xmlns:ns74="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_74" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_416-com3" ns74:target="olf:it/regio-decreto/stato/1930/1398/art_416-com3" ns74:relation="amends">3 del codice penale</ref>, se l'associazione e' diretta alla commissione di piu' delitti fra quelli previsti dal comma 1 o dalle lettere a), b), c), d), f), g), i) del presente comma; 
+ m-bis) delitti di fabbricazione, detenzione o uso di documento di identificazione falso previsti dall'<ref xmlns:ns75="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_75" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_497bis" ns75:target="olf:it/regio-decreto/stato/1930/1398/art_497bis" ns75:relation="amends">articolo 497-bis del codice penale</ref>; 
+ m-ter) delitti di promozione, direzione, organizzazione, finanziamento o effettuazione di trasporto di persone ai fini dell'ingresso illegale nel territorio dello Stato, di cui all'articolo 12, commi 1 e 3, del testo unico delle disposizioni concernenti la disciplina dell'immigrazione e norme sulla condizione dello straniero, di cui al <ref xmlns:ns76="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_76" href="/akn/it/act/decretoLegislativo/stato/1998-07-25/286/!main" ns76:target="olf:it/decreto-legislativo/stato/1998/286" ns76:relation="cites">decreto legislativo 25 luglio 1998, n. 286</ref>, e successive modificazioni; 
+ m-quater) delitto di omicidio colposo stradale o nautico previsto dall'<ref xmlns:ns77="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_77" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_589bis-com2" ns77:target="olf:it/regio-decreto/stato/1930/1398/art_589bis-com2" ns77:relation="amends">articolo 589-bis, secondo</ref> e <ref xmlns:ns78="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_78" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_589bis-com3" ns78:target="olf:it/regio-decreto/stato/1930/1398/art_589bis-com3" ns78:relation="amends">terzo comma, del codice penale</ref>, salvo che il conducente si sia immediatamente fermato, adoperandosi per prestare o attivare i soccorsi, e si sia messo immediatamente a disposizione degli organi di polizia giudiziaria; 
+ m-quinquies) delitto di resistenza o di violenza contro una nave da guerra, previsto dall'<ref xmlns:ns79="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_79" href="/akn/it/act/regio.decreto/stato/1942-03-30/327/!main#art_1100" ns79:target="olf:it/regio-decreto/stato/1942/327/art_1100" ns79:relation="cites">articolo 1100 del codice della navigazione</ref>. 
+ 3. Se si tratta di delitto perseguibile a querela e la querela non e' contestualmente proposta, quando la persona offesa non e' prontamente rintracciabile, l'arresto in flagranza, nei casi di cui ai commi 1 e 2, e' eseguito anche in mancanza della querela che puo' ancora sopravvenire. In questo caso, se la querela non e' proposta nel termine di quarantotto ore dall'arresto oppure se l'avente diritto dichiara di rinunciarvi o rimette la querela proposta, l'arrestato e' posto immediatamente in liberta'. Gli ufficiali e gli agenti di polizia giudiziaria che hanno proceduto all'arresto effettuano tempestivamente ogni utile ricerca della persona offesa. 
+ Quando la persona offesa e' presente o e' rintracciata ai sensi dei periodi precedenti, la querela puo' essere proposta anche con dichiarazione resa oralmente all'ufficiale o all'agente di polizia giudiziaria, ferma restando la necessita' di rendere alla persona offesa, anche con atto successivo, le informazioni di cui all'articolo 90-bis.» 
+ «Art. 381. (Arresto facoltativo in flagranza). - 1. Gli ufficiali e gli agenti di polizia giudiziaria hanno facolta' di arrestare chiunque e' colto in flagranza di un delitto non colposo, consumato o tentato, per il quale la legge stabilisce la pena della reclusione superiore nel massimo a tre anni ovvero di un delitto colposo per il quale la legge stabilisce la pena della reclusione non inferiore nel massimo a cinque anni. 
+ 2. Gli ufficiali e gli agenti di polizia giudiziaria hanno altresi' facolta' di arrestare chiunque e' colto in flagranza di uno dei seguenti delitti: 
+ a) peculato mediante profitto dell'errore altrui previsto dall'<ref xmlns:ns80="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_80" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_316" ns80:target="olf:it/regio-decreto/stato/1930/1398/art_316" ns80:relation="amends">articolo 316 del codice penale</ref>; 
+ b) corruzione per un atto contrario ai doveri d'ufficio prevista dagli <ref xmlns:ns81="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_81" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_319-com4" ns81:target="olf:it/regio-decreto/stato/1930/1398/art_319-com4" ns81:relation="amends">articoli 319 comma 4</ref> e <ref xmlns:ns82="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_82" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_319-com321" ns82:target="olf:it/regio-decreto/stato/1930/1398/art_319-com321" ns82:relation="amends">321 del codice penale</ref>; 
+ c) violenza o minaccia a un pubblico ufficiale prevista dall'<ref xmlns:ns83="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_83" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_336-com2" ns83:target="olf:it/regio-decreto/stato/1930/1398/art_336-com2" ns83:relation="amends">articolo 336 comma 2 del codice penale</ref>; 
+ d) commercio e somministrazione di medicinali guasti e di sostanze alimentari nocive previsti dagli <ref xmlns:ns84="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_84" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_443" ns84:target="olf:it/regio-decreto/stato/1930/1398/art_443" ns84:relation="amends">articoli 443</ref> e <ref xmlns:ns85="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_85" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_444" ns85:target="olf:it/regio-decreto/stato/1930/1398/art_444" ns85:relation="amends">444 del codice penale</ref>; 
+ e) corruzione di minorenni prevista dall'<ref xmlns:ns86="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_86" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_530" ns86:target="olf:it/regio-decreto/stato/1930/1398/art_530" ns86:relation="amends">articolo 530 del codice penale</ref>; 
+ f) lesione personale prevista dall'<ref xmlns:ns87="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_87" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_582" ns87:target="olf:it/regio-decreto/stato/1930/1398/art_582" ns87:relation="amends">articolo 582 del codice penale</ref>; 
+ f-bis) violazione di domicilio prevista dall'<ref xmlns:ns88="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_88" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_614-com1" ns88:target="olf:it/regio-decreto/stato/1930/1398/art_614-com1" ns88:relation="amends">articolo 614 , primo</ref> e <ref xmlns:ns89="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_89" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_614-com2" ns89:target="olf:it/regio-decreto/stato/1930/1398/art_614-com2" ns89:relation="amends">secondo comma, del codice penale</ref>; 
+ g) furto previsto dall'<ref xmlns:ns90="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_90" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_624" ns90:target="olf:it/regio-decreto/stato/1930/1398/art_624" ns90:relation="amends">articolo 624 del codice penale</ref>; 
+ h) danneggiamento aggravato a norma dell'<ref xmlns:ns91="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_91" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_635-com2" ns91:target="olf:it/regio-decreto/stato/1930/1398/art_635-com2" ns91:relation="amends">articolo 635 comma 2 del codice penale</ref>; 
+ i) truffa prevista dall'<ref xmlns:ns92="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_92" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_640" ns92:target="olf:it/regio-decreto/stato/1930/1398/art_640" ns92:relation="amends">articolo 640 del codice penale</ref>; 
+ l) appropriazione indebita prevista dall'<ref xmlns:ns93="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_93" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_646" ns93:target="olf:it/regio-decreto/stato/1930/1398/art_646" ns93:relation="amends">articolo 646 del codice penale</ref>; 
+ l-bis) offerta, cessione o detenzione di materiale pornografico previste dagli articoli 600-ter, quarto comma, e 600-quater del <ref xmlns:ns94="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_94" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns94:target="olf:it/regio-decreto/stato/1930/1398" ns94:relation="amends">codice penale</ref>, anche se relative al materiale pornografico di cui all'articolo 600-quater.1 del medesimo codice; 
+ m) alterazione di armi e fabbricazione di esplosivi non riconosciuti previste dagli <ref xmlns:ns95="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_95" href="/akn/it/act/legge/stato/1975-04-18/110/!main#art_3" ns95:target="olf:it/legge/stato/1975/110/art_3" ns95:relation="cites">articoli 3</ref> e <ref xmlns:ns96="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_96" href="/akn/it/act/legge/stato/1975-04-18/110/!main#art_24-com1" ns96:target="olf:it/legge/stato/1975/110/art_24-com1" ns96:relation="cites">24 comma 1 della legge 18 aprile 1975, n. 110</ref>; 
+ m-bis); 
+ m-ter) falsa attestazione o dichiarazione a un pubblico ufficiale sulla identita' o su qualita' personali proprie o di altri, prevista dall'<ref xmlns:ns97="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_97" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_495" ns97:target="olf:it/regio-decreto/stato/1930/1398/art_495" ns97:relation="amends">articolo 495 del codice penale</ref>; 
+ m-quater) fraudolente alterazioni per impedire l'identificazione o l'accertamento di qualita' personali, previste dall'<ref xmlns:ns98="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_98" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_495ter" ns98:target="olf:it/regio-decreto/stato/1930/1398/art_495ter" ns98:relation="amends">articolo 495-ter del codice penale</ref>; 
+ m-quinquies) delitto di lesioni colpose stradali o nautiche gravi o gravissime previsto dall'<ref xmlns:ns99="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_99" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_590bis-com2" ns99:target="olf:it/regio-decreto/stato/1930/1398/art_590bis-com2" ns99:relation="amends">articolo 590-bis, secondo</ref>, <ref xmlns:ns100="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_100" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_590bis-com3" ns100:target="olf:it/regio-decreto/stato/1930/1398/art_590bis-com3" ns100:relation="amends">terzo</ref>, <ref xmlns:ns101="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_101" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_590bis-com4" ns101:target="olf:it/regio-decreto/stato/1930/1398/art_590bis-com4" ns101:relation="amends">quarto</ref> e <ref xmlns:ns102="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_102" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_590bis-com5" ns102:target="olf:it/regio-decreto/stato/1930/1398/art_590bis-com5" ns102:relation="amends">quinto comma, del codice penale</ref>. 
+ 3. Se si tratta di delitto perseguibile a querela, l'arresto in flagranza puo' essere eseguito se la querela viene proposta, anche con dichiarazione resa oralmente all'ufficiale o all'agente di polizia giudiziaria presente nel luogo, ferma restando la necessita' di rendere alla persona offesa, anche con atto successivo, le informazioni di cui all'articolo 90-bis. Se l'avente diritto dichiara di rimettere la querela, l'arrestato e' posto immediatamente in liberta'. 
+ 4. Nelle ipotesi previste dal presente articolo si procede all'arresto in flagranza soltanto se la misura e' giustificata dalla gravita' del fatto ovvero dalla pericolosita' del soggetto desunta dalla sua personalita' o dalle circostanze del fatto. 
+ 4-bis. Non e' consentito l'arresto della persona richiesta di fornire informazioni dalla polizia giudiziaria o dal pubblico ministero per reati concernenti il contenuto delle informazioni o il rifiuto di fornirle.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 26 settembre 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
