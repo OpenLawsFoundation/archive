@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-05-15;62"/>
+                    <FRBRalias name="eli" value="eli/id/2023/06/05/23G00064/CONSOLIDATED/20240902"/>
+                    <FRBRdate date="2023-05-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/06/05/23G00064/CONSOLIDATED/20240902" aknrelname="eli/id/2023/06/05/23G00064/CONSOLIDATED/20240902">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Ratifica ed esecuzione dell'Accordo tra la Repubblica italiana e la Repubblica di Croazia sulla delimitazione delle zone economiche esclusive, fatto a Roma il 24 maggio 2022. (23G00064)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00064" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-05-15" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06"/>
+                    <FRBRdate date="2023-06-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/06/05/23G00064/CONSOLIDATED/20240902/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/06/05/23G00064/CONSOLIDATED/20240902"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/06/05/23G00064/CONSOLIDATED/20240902/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06.xml"/>
+                    <FRBRdate date="2023-05-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/06/05/23G00064/CONSOLIDATED/20240902/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-06-05" name="" number="129" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-06-05" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2024-09-02" eId="eventRef_1" source="rp1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2023-05-15" refersTo="#C.770"/>
+                <step by="#senato" date="2023-05-15" refersTo="#S.639"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-05-15/62/!main" showAs=""/>
+                <passiveRef eId="rp1" href="" showAs=""/>
+                <passiveRef eId="C.770" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;770" showAs=""/>
+                <passiveRef eId="S.639" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;639" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/06/05/23G00064/CONSOLIDATED/20240902">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Ratifica ed esecuzione dell'Accordo tra la Repubblica italiana e la Repubblica di Croazia sulla delimitazione delle zone economiche esclusive, fatto a Roma il 24 maggio 2022. (23G00064)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00064</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-05-15</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/06/05/23G00064/CONSOLIDATED/20240902/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/06/05/23G00064/CONSOLIDATED/20240902"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/06/05/23G00064/CONSOLIDATED/20240902/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/06/05/23G00064/CONSOLIDATED/20240902/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/62" nativeUrn="urn:nir:stato:legge:2023-05-15;62" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-06-05"><ns0:event type="enacted" date="2023-05-15"/><ns0:event type="published" date="2023-06-05"/><ns0:event type="commenced" date="2023-06-05"/><ns0:event type="amended" date="2024-09-02"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/242fc3ea-0bac-4e51-a123-49f2a235d870" sourceSha256="76b5f7e1134afec94a497bddddad6812a50659f220e366d7c382a064764de540" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T22:07:32.494237Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-05-15">15 maggio 2023</docDate>
+                <docNumber>62</docNumber>
+                <docTitle>Ratifica ed esecuzione dell'Accordo tra la Repubblica italiana e la Repubblica di Croazia sulla delimitazione delle zone economiche esclusive, fatto a Roma il 24 maggio 2022. (23G00064) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 06/06/2023
+Vigenza internazionale dell'accordo per l'Italia: dal 15 aprile 2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Autorizzazione alla ratifica</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Presidente della Repubblica e' autorizzato a ratificare l'Accordo tra la Repubblica italiana e la Repubblica di Croazia sulla delimitazione delle zone economiche esclusive, fatto a Roma il 24 maggio 2022. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Ordine di esecuzione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Piena ed intera esecuzione e' data all'Accordo di cui all'articolo 1, a decorrere dalla data della sua entrata in vigore, in conformita' a quanto disposto dall'articolo 4 dell'Accordo stesso. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le amministrazioni competenti provvedono all'adempimento dei compiti derivanti dalla presente legge con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Agli eventuali oneri derivanti dall'articolo 3 dell'Accordo di cui all'articolo 1 della presente legge si fara' fronte con apposito provvedimento legislativo. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 15 maggio 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Tajani, Ministro degli affari esteri e della cooperazione internazionale Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Agreement">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-05-15;62"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/05/23G00064/CONSOLIDATED/20240902"/>
+                                <FRBRdate date="2023-06-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06"/>
+                                <FRBRdate date="2023-06-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06.xml"/>
+                                <FRBRdate date="2023-05-15" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+Agreement between the Italian Republic and the Republic of Croatia on the delimitation of the exclusive economic zones 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-05-15;62"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/05/23G00064/CONSOLIDATED/20240902"/>
+                                <FRBRdate date="2023-06-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06"/>
+                                <FRBRdate date="2023-06-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06.xml"/>
+                                <FRBRdate date="2023-05-15" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Accordo tra la Repubblica Italiana 
+ e la Repubblica di Croazia 
+ sulla delimitazione delle zone economiche esclusive 
+ 
+ La Repubblica italiana e la Repubblica di Croazia (di seguito denominate le «Parti»); 
+ Desiderando rafforzare i legami di buon vicinato e cooperazione tra le Parti; 
+ Prendendo atto della Dichiarazione congiunta sulle risorse nell'Adriatico firmata a Roma il 24 maggio 2022; 
+ Consapevoli della necessita' di delimitare esattamente le zone marittime sulle quali i due Stati hanno titolo a esercitare, rispettivamente, i propri diritti sovrani e la propria giurisdizione nel rispetto del diritto internazionale; 
+ Tenendo conto delle pertinenti disposizioni della Convenzione delle Nazioni Unite sul diritto del mare, fatta a Montego Bay il 10 dicembre 1982, di cui la Repubblica Italiana e la Repubblica di Croazia sono Parte; 
+ Richiamando le disposizioni dell'Accordo tra il Governo della Repubblica italiana e il Governo della Repubblica Socialista Federativa di Jugoslavia sulla delimitazione della piattaforma continentale tra i due Paesi fatto a Roma l'8 gennaio 1968, in vigore tra la Repubblica italiana e la Repubblica di Croazia (di seguito «l'Accordo del 1968»), nonche' l'Accordo tra il Governo della Repubblica italiana e il Governo della Repubblica di Croazia sulla puntuale determinazione della linea di delimitazione della piattaforma continentale tra la Repubblica italiana e la Repubblica di Croazia, fatto a Roma il 22 e 29 luglio 2005 ed entrato in vigore il 2 agosto 2005 (di seguito «Accordo per la correzione tecnica del 2005»); 
+ Hanno concordato quanto segue: 
+ 
+ Articolo 1 
+ 
+ 1. La linea di confine delle zone economiche esclusive su cui le Parti hanno diritto ad esercitare, rispettivamente, i propri diritti sovrani e la propria giurisdizione ai sensi del diritto internazionale coincide con il confine della piattaforma continentale tra le Parti in conformita' all'Accordo del 1968 e all'Accordo per la correzione tecnica del 2005. 
+ 2. Le coordinate della linea di confine qui definite tra le Parti ed espresse nel sistema cartografico. WGS-84 sono le seguenti: 
+ 
+ Parte di provvedimento in formato grafico
+ 
+ 3. Dal punto 42 di cui al comma precedente, la linea di delimitazione prosegue fino ad un punto che sara' concordato con lo Stato terzo interessato. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 2">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-05-15;62"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/05/23G00064/CONSOLIDATED/20240902"/>
+                                <FRBRdate date="2023-06-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06"/>
+                                <FRBRdate date="2023-06-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main/annesso_3.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06.xml"/>
+                                <FRBRdate date="2023-05-15" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 2 
+ 
+ Il presente Accordo non pregiudica: 
+ a. le attivita' di pesca condotte in conformita' alle vigenti norme e regolamenti dell'Unione europea in materia; 
+ b. i diritti sovrani e la giurisdizione esercitati da ciascuna Parte nella propria zona economica esclusiva in conformita' all'art. 56 della Convenzione delle Nazioni Unite sul diritto del mare; 
+ c. le disposizioni di cui all'art. 58 della Convenzione delle Nazioni Unite sul diritto del mare in materia di diritti, liberta' e doveri degli altri Stati nella zona economica esclusiva delle Parti.  
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 3">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-05-15;62"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/05/23G00064/CONSOLIDATED/20240902"/>
+                                <FRBRdate date="2023-06-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06"/>
+                                <FRBRdate date="2023-06-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main/annesso_4.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06.xml"/>
+                                <FRBRdate date="2023-05-15" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 3 
+ 
+ 1. Le Parti si impegnano a risolvere, attraverso consultazioni e negoziazioni dirette, qualsiasi controversia che dovesse insorgere in merito all'interpretazione o all'applicazione del presente Accordo. 
+ 2. Se tale controversia non viene risolta entro quattro mesi (4) dalla data in cui una delle Parti abbia notificato all'altra la sua intenzione di avviare la procedura prevista nel precedente comma, ciascuna Parte puo' sottoporre tale controversia al Tribunale Internazionale del diritto del mare, alla Corte Internazionale di Giustizia o ad un tribunale arbitrale costituito ai sensi dell'Allegato VII della Convenzione delle Nazioni Unite sul diritto del mare. 
+ 3. Per l'individuazione della corte o del tribunale cui potra' essere sottoposta la controversia ai sensi del comma precedente, si applicano mutatis mutandis l'articolo 287 della Convenzione delle Nazioni Unite sul diritto del mare e le Dichiarazioni rese ai sensi del medesimo articolo dalle Parti. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 4">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-05-15;62"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/05/23G00064/CONSOLIDATED/20240902"/>
+                                <FRBRdate date="2023-06-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06"/>
+                                <FRBRdate date="2023-06-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06/!main/annesso_5.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-15/62/ita@2023-06-06.xml"/>
+                                <FRBRdate date="2023-05-15" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 4 
+ 
+ Il presente Accordo entra in vigore alla data di ricezione dell'ultima notifica scritta con la quale le Parti si sono reciprocamente notificate, attraverso i canali diplomatici, l'espletamento delle procedure interne necessarie per la sua entrata in vigore. 
+ In fede di che i sottoscritti, debitamente autorizzati, hanno firmato il presente Accordo. 
+ Fatto a Roma il 24 maggio 2022, in due originali, ciascuno in lingua italiana, croata e inglese, tutti i testi facenti ugualmente fede. In caso di divergenza nell'interpretazione del presente Accordo, prevale il testo in lingua inglese. 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
