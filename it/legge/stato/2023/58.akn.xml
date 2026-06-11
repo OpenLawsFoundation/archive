@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-26/58/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-26/58"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-05-26;58"/>
+                    <FRBRalias name="eli" value="eli/id/2023/05/30/23G00069/ORIGINAL"/>
+                    <FRBRdate date="2023-05-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/30/23G00069/ORIGINAL" aknrelname="eli/id/2023/05/30/23G00069/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 31 marzo 2023, n. 35, recante disposizioni urgenti per la realizzazione del collegamento stabile tra la Sicilia e la Calabria. (23G00069)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00069" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-05-26" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-26/58/ita@2023-05-31/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-26/58/ita@2023-05-31"/>
+                    <FRBRdate date="2023-05-31" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/30/23G00069/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/05/30/23G00069/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/05/30/23G00069/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-05-26/58/ita@2023-05-31/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-05-26/58/ita@2023-05-31.xml"/>
+                    <FRBRdate date="2023-05-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/05/30/23G00069/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-05-30" name="" number="125" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-05-30" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2023-05-26" refersTo="#C.1067"/>
+                <step by="#senato" date="2023-05-26" refersTo="#S.705"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-26;58#1"/>
+                        <destination href="urn:nir:stato:legge:1971-12-17;1158#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 31 marzo 2023, n. 35 (in G.U. 31/03/2023, n. 77).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-26;58#1"/>
+                        <destination href="urn:nir:stato:legge:1971-12-17;1158#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 31 marzo 2023, n. 35 (in G.U. 31/03/2023, n. 77).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-26;58#1"/>
+                        <destination href="urn:nir:stato:legge:1971-12-17;1158#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 31 marzo 2023, n. 35 (in G.U. 31/03/2023, n. 77).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-26;58#1"/>
+                        <destination href="urn:nir:stato:legge:1971-12-17;1158#3 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 31 marzo 2023, n. 35 (in G.U. 31/03/2023, n. 77).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-26;58#1"/>
+                        <destination href="urn:nir:stato:legge:1971-12-17;1158#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione con modificazioni del D.L. 31 marzo 2023, n. 35 (in G.U. 31/03/2023, n. 77).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-26;58#1"/>
+                        <destination href="urn:nir:stato:legge:2022-12-29;197#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 31 marzo 2023, n. 35 (in G.U. 31/03/2023, n. 77).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-26;58#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-31;35#1"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 1, lettere a), b), c), d), e) e l'introduzione della lettera a-bis) all'art. 1, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-26;58#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-31;35#2"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1, 3, 4, 5, 6, 7, 8, lettera c) e l'introduzione dei commi 8-bis, 8-ter, 8-quater e 8-quinquies all'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-26;58#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-31;35#3"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 2, lettere a), c), f), 3, 4, 5, 7, alinea, lettere a), d), 9 e 11.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-26;58#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-31;35#3 bis"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-05-26;58#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-03-31;35#4"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 1, 3, alinea, lettera a), 4, lettera a), 6, 7, 8, 9 e l'introduzione delle lettere b-bis) e b-ter) all'art. 4, comma 4 e l'introduzione dei commi 7-bis, 7-ter, 7-quater, 8-bis, 9-bis, 9-ter, 9-quater e 9-quinquies all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_1__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_1__para_1__point_a-bis"/>
+                        <new href="#modNov_1_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_1__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_1__para_1__point_c"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_1__para_1__point_c"/>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_1__para_1__point_d"/>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_1__para_1__point_d"/>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_1__para_1__point_e"/>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_2__para_8__point_c"/>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_2"/>
+                        <new href="#modNov_2_new_17"/>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_2__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_2__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_2__para_4"/>
+                        <old href="#modNov_2_old_11"/>
+                        <new href="#modNov_2_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_2__para_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_2__para_6"/>
+                        <new href="#modNov_2_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_2__para_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_2__para_7"/>
+                        <old href="#modNov_2_old_15"/>
+                        <new href="#modNov_2_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_11"/>
+                        <new href="#modNov_3_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_2__point_a"/>
+                        <old href="#modNov_3_old_19"/>
+                        <new href="#modNov_3_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_2__point_a"/>
+                        <new href="#modNov_3_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_2__point_c"/>
+                        <old href="#modNov_3_old_21"/>
+                        <new href="#modNov_3_new_21"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_4"/>
+                        <old href="#modNov_3_old_22"/>
+                        <new href="#modNov_3_new_22"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_2__point_f"/>
+                        <old href="#modNov_3_old_23"/>
+                        <new href="#modNov_3_new_23"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_3"/>
+                        <old href="#modNov_3_old_24"/>
+                        <new href="#modNov_3_new_24"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_4"/>
+                        <new href="#modNov_3_new_25"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_7__point_a"/>
+                        <old href="#modNov_3_old_28"/>
+                        <new href="#modNov_3_new_28"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_7__point_d"/>
+                        <old href="#modNov_3_old_29"/>
+                        <new href="#modNov_3_new_29"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3__para_9"/>
+                        <new href="#modNov_3_new_30"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_3-bis"/>
+                        <new href="#modNov_4_new_31"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_3__point_a"/>
+                        <new href="#modNov_5_new_32"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_1"/>
+                        <old href="#modNov_5_old_33"/>
+                        <new href="#modNov_5_new_33"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_3"/>
+                        <old href="#modNov_5_old_35"/>
+                        <new href="#modNov_5_new_35"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_3__point_a"/>
+                        <old href="#modNov_5_old_36"/>
+                        <new href="#modNov_5_new_36"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_4__point_a"/>
+                        <old href="#modNov_5_old_37"/>
+                        <new href="#modNov_5_new_37"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_6"/>
+                        <old href="#modNov_5_old_38"/>
+                        <new href="#modNov_5_new_38"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_8"/>
+                        <old href="#modNov_5_old_41"/>
+                        <new href="#modNov_5_new_41"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_8-bis"/>
+                        <new href="#modNov_5_new_42"/>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4__para_9"/>
+                        <old href="#modNov_5_old_43"/>
+                        <new href="#modNov_5_new_43"/>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-03-31/35/ita@2023-05-31/!main/~art_4"/>
+                        <new href="#modNov_5_new_44"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-05-26/58/!main" showAs=""/>
+                <passiveRef eId="C.1067" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1067" showAs=""/>
+                <passiveRef eId="S.705" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;705" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/05/30/23G00069/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 31 marzo 2023, n. 35, recante disposizioni urgenti per la realizzazione del collegamento stabile tra la Sicilia e la Calabria. (23G00069)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00069</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-05-26</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/05/30/23G00069/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/05/30/23G00069/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/05/30/23G00069/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/05/30/23G00069/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/58" nativeUrn="urn:nir:stato:legge:2023-05-26;58" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-05-30"><ns0:event type="enacted" date="2023-05-26"/><ns0:event type="published" date="2023-05-30"/><ns0:event type="commenced" date="2023-05-30"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/024c2c13-a3c0-49dd-9592-58350f057967" sourceSha256="7922c8834ca957ec61964e7a3b30ea12c62efb69b6f59d4dd228f8e8c3372149" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T22:06:32.641009Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-05-26">26 maggio 2023</docDate>
+                <docNumber>58</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 31 marzo 2023, n. 35, recante disposizioni urgenti per la realizzazione del collegamento stabile tra la Sicilia e la Calabria. (23G00069) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 31/05/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2023-03-31/35/!main" ns1:target="olf:it/decreto-legge/stato/2023/35" ns1:relation="amends">decreto-legge 31 marzo 2023, n. 35</ref>, recante disposizioni urgenti per la realizzazione del collegamento stabile tra la Sicilia e la Calabria, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2023-03-31/35/!main" ns2:target="olf:it/decreto-legge/stato/2023/35" ns2:relation="amends">decreto-legge 31 marzo 2023, n. 35</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 77 del 31 marzo 2023. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 26. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 26 maggio 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Salvini, Ministro delle infrastrutture e dei trasporti Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-26/58/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-26/58"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-05-26;58"/>
+                                <FRBRalias name="eli" value="eli/id/2023/05/30/23G00069/ORIGINAL"/>
+                                <FRBRdate date="2023-05-31" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-26/58/ita@2023-05-31/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-26/58/ita@2023-05-31"/>
+                                <FRBRdate date="2023-05-31" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-05-26/58/ita@2023-05-31/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-05-26/58/ita@2023-05-31.xml"/>
+                                <FRBRdate date="2023-05-26" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 31 MARZO 2023, N. 35 
+ 
+ <mod eId="modNov_1">All'articolo 1<quotedText eId="modNov_1_new_4">,</quotedText> comma 1: 
+ alla lettera a), numero 1), le parole: «R.F.I. S.p.a.,» sono sostituite dalle seguenti: «le societa' R.F.I. S.p.a. e» e le parole: «le Regioni Sicilia e Calabria» sono sostituite dalle seguenti: «la Regione siciliana e la Regione Calabria»; 
+ dopo la lettera a) e' inserita la seguente: 
+ «<quotedText eId="modNov_1_new_2">a-bis) all'articolo 1, terzo comma, le parole: "delle Ferrovie dello Stato e dell'ANAS" sono sostituite dalle seguenti: "delle societa' R.F.I. S.p.a. e ANAS S.p.a."</quotedText>»; 
+ alla lettera b), numero 1), capoverso, al primo e al terzo periodo, le parole: «Regione Sicilia» sono sostituite dalle seguenti: «Regione siciliana» e le parole: «da R.F.I. S.p.a.» sono sostituite dalle seguenti: «dalle societa' R.F.I. S.p.a.»; 
+ alla lettera c): 
+ al numero 1), le parole: «a R.F.I.» sono sostituite dalle seguenti: «alla societa' R.F.I.»; 
+ al numero 2), le parole: «"ad eccezione» sono sostituite dalle seguenti: «", ad eccezione», dopo la parola: «ferroviari» e' inserito il seguente segno d'interpunzione: «,» e le parole: «di R.F.I.» sono sostituite dalle seguenti: «della societa' R.F.I.»; 
+ alla lettera d), capoverso Art. 3-bis: 
+ al comma 1, dopo le parole: «dell'articolo 16 del» sono inserite le seguenti: «testo unico in materia di societa' a partecipazione pubblica, di cui al»; 
+ al comma 4: 
+ al primo periodo, dopo le parole: «lettera c), del» sono inserite le seguenti: «testo unico di cui al»; 
+ al secondo periodo, le parole: «del decreto legislativo» sono sostituite dalle seguenti: «, del <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/2006-04-12/163/!main" ns4:target="olf:it/decreto-legislativo/stato/2006/163" ns4:relation="cites">codice dei contratti pubblici</ref>, di cui al decreto legislativo»; 
+ al terzo periodo, le parole: «e i trasporti» sono sostituite dalle seguenti: «e dei trasporti» e le parole: «del decreto del Presidente della Repubblica 30 gennaio 2020» sono sostituite dalle seguenti: «dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2012-11-06/190/!main#art_1-com7" ns5:target="olf:it/legge/stato/2012/190/art_1-com7" ns5:relation="cites">articolo 1, comma 7, della legge 6 novembre 2012, n. 190</ref>»; 
+ al quarto periodo, le parole: «della finanza pubblica.".» sono sostituite dalle seguenti: «della finanza pubblica.»; 
+ al comma 5, secondo periodo, le parole: «, e il medesimo opera» sono sostituite dalle seguenti: «. Il commissario opera» e dopo le parole: «terzo e quarto periodo» e' inserito il seguente segno d'interpunzione: «,»; 
+ alla lettera e), capoverso 6: 
+ al primo periodo, dopo la parola: «concessionaria,» sono inserite le seguenti: «nel limite massimo di 500.000 euro annui,»; 
+ al terzo periodo, dopo la parola: «scelti» sono inserite le seguenti: «, d'intesa con la Regione siciliana e la Regione Calabria,»; 
+ e' aggiunto, in fine, il seguente periodo: «La Regione Calabria e la Regione siciliana si esprimono entro quindici giorni dalla richiesta dell'intesa di cui al terzo periodo; decorso tale termine, l'intesa si intende acquisita».</mod>
+                                    <mod eId="modNov_2">All'articolo 2: 
+ al comma 1, le parole: «di seguito "societa'» sono sostituite dalle seguenti: «di seguito denominata: "societa'», la parola: «riprende» e' sostituita dalle seguenti: «riacquista efficacia» e le parole: «di seguito "opera"» sono sostituite dalle seguenti: «di seguito denominato: "opera"»; 
+ al comma 3, al primo periodo, le parole: «A.N.A.S. S.p.a.» sono sostituite dalle seguenti: «La societa' A.N.A.S. S.p.a.» e, al terzo periodo, la parola: «provvedera'» e' sostituita dalla seguente: «provvede»; 
+ al comma 4, le parole: «<quotedText eId="modNov_2_old_11">, d'intesa con il Ministero delle infrastrutture e dei trasporti, e' autorizzato a sottoscrivere</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_11">e' autorizzato a sottoscrivere, d'intesa con il Ministero delle infrastrutture e dei trasporti,</quotedText>»; 
+ al comma 5, le parole: «"Le societa'» sono sostituite dalle seguenti: «"le societa'» e la parola: «partecipazione"» e' sostituita dalla seguente: «partecipazione,"»; 
+ al comma 6, secondo periodo, sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_2_new_13">, come sostituito dall'articolo 1 del presente decreto</quotedText>»; 
+ al comma 7, dopo le parole: «n. 1158» sono inserite le seguenti: «, come sostituito dall'articolo 1 del presente decreto» e le parole: «<quotedText eId="modNov_2_old_15">di cui all'articolo 1, comma 2, della medesima legge</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_15">di cui all'articolo 1, primo comma, della medesima <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/1971/1158/!main" ns6:resolution="unresolved">legge n. 1158 del 1971</ref>, come modificato dall'articolo 1 del presente decreto</quotedText>»; 
+ al comma 8, lettera c): 
+ all'alinea, le parole: «piano economico finanziario» sono sostituite dalle seguenti: «piano economico-finanziario»; 
+ al numero 2), la parola: «pedaggiamento» e' sostituita dalla seguente: «pedaggio»; 
+ al numero 3), le parole: «riscosso da R.F.I. S.p.a.» sono sostituite dalle seguenti: «riscosso dalla societa' R.F.I. S.p.a.,» e le parole: «sostenuti da R.F.I. S.p.a.» sono sostituite dalle seguenti: «sostenuti dalla societa' R.F.I. S.p.a.»; 
+ al numero 5), le parole: «dell'opera, e le» sono sostituite dalle seguenti: «dell'opera e le»; 
+ dopo il comma 8 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_2_new_17">8-bis. Il costo complessivo dell'opera di cui al comma 8, lettera c), numero 5), nel limite massimo dell'importo indicato nell'Allegato infrastrutture al Documento di economia e finanza ai sensi dell'articolo 3, comma 1, e' rideterminato, escludendo gli oneri finanziari funzionali alla remunerazione dei capitali apportati dall'investitore privato, in quanto non previsti nell'impianto finanziario di cui al presente decreto, e gli oneri funzionali all'adeguamento del progetto esecutivo alle prescrizioni di cui all'articolo 3, comma 2, che sono previsti nell'aggiornamento complessivo del costo del progetto, e comprendendo l'aggiornamento dei prezzi dei contratti caducati ai sensi dell'articolo 34-decies, comma 3, secondo periodo, del <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegge/stato/2012-10-18/179/!main" ns7:target="olf:it/decreto-legge/stato/2012/179" ns7:relation="cites">decreto-legge 18 ottobre 2012, n. 179</ref>, convertito, con modificazioni, dalla <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2012-12-17/221/!main" ns8:target="olf:it/legge/stato/2012/221" ns8:relation="cites">legge 17 dicembre 2012, n. 221</ref>, ai sensi del presente comma nonche' dei commi 8-ter, 8-quater e 8-quinquies. A tal fine, fino al 31 dicembre 2021 sono applicati ai prezzi del contratto con il contraente generale, in conformita' all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/direttivaUe/eu/2014/24/!main" ns9:resolution="unresolved">articolo 72, paragrafo 1, lettera a), della direttiva 2014/24/UE del Parlamento europeo e del Consiglio, del 26 febbraio 2014</ref>, gli indici di rivalutazione monetaria previsti dagli stessi contratti caducati. A decorrere dal 1° gennaio 2022 e nei limiti di cui ai commi 8-ter, 8-quater e 8-quinquies del presente articolo, e' riconosciuto l'adeguamento dei prezzi ai corrispettivi del contraente generale per le attivita' diverse dall'acquisizione a qualsiasi titolo degli immobili necessari all'esecuzione dell'opera, la cui spettanza e' subordinata alla stipulazione degli atti aggiuntivi di cui all'articolo 4, comma 3, per far fronte all'eccezionale aumento dei prezzi dell'energia e dei materiali da costruzione registrato a partire dall'anno 2022, in conformita' all'articolo 72, paragrafo 1, lettera c), della citata <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/direttivaUe/eu/2014/24/!main" ns10:resolution="unresolved">direttiva 2014/24/UE</ref>. 
+ 8-ter. A decorrere dal 1° gennaio 2022 fino alla data della deliberazione di approvazione del progetto definitivo ai sensi dell'articolo 3, commi 7 e 8, l'adeguamento dei prezzi spettante al contraente generale in caso di stipulazione degli atti aggiuntivi di cui all'articolo 4, comma 3, e' pari all'indice di conservazione dell'equilibrio contrattuale di cui ai commi 8-quater e 8-quinquies del presente articolo. 
+ 8-quater. Ai fini di cui al comma 8-ter, l'indice di conservazione dell'equilibrio contrattuale e' calcolato come media delle variazioni percentuali del valore dei primi quattro progetti infrastrutturali banditi dalle societa' R.F.I. S.p.a. e ANAS S.p.a. nell'anno 2022, secondo l'ordine di priorita' determinato dall'importo a base di gara. Ai fini della determinazione della variazione percentuale del valore di ciascuno dei progetti di cui al primo periodo si procede calcolando il rapporto tra: 
+ a) il valore ottenuto applicando alle quantita' previste nel progetto a base di gara i prezzi delle tariffe vigenti nell'anno 2023; 
+ b) il valore ottenuto applicando alle quantita' previste nel progetto a base di gara i prezzi delle tariffe vigenti al 31 dicembre 2021. 
+ 8-quinquies. All'indice di conservazione dell'equilibrio contrattuale di cui al comma 8-quater si applica una decurtazione pari alla media delle percentuali di ribasso registrate in esito all'aggiudicazione delle gare relative ai quattro progetti di cui al predetto comma 8-quater</quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 3: 
+ al comma 2: 
+ alla lettera a), le parole: «<quotedText eId="modNov_3_old_19">norme tecniche di costruzione NTC2018</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_19">norme tecniche per le costruzioni NTC2018, di cui al decreto del Ministro delle infrastrutture e dei trasporti 17 gennaio 2018, pubblicato nel supplemento ordinario n. 8 alla Gazzetta Ufficiale n. 42 del 20 febbraio 2018,</quotedText>» e dopo la parola: «modifiche» sono inserite le seguenti: «<quotedText eId="modNov_3_new_20">alla modellazione geologica e</quotedText>»; 
+ alla lettera c), la parola: «<quotedText eId="modNov_3_old_21">salvo</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_3_new_21">salve</quotedText>»; 
+ alla lettera f), le parole: «<quotedText eId="modNov_3_old_23">n. 1158 del 1971</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_23">17 dicembre 1971, n. 1158,</quotedText>»; 
+ al comma 3, le parole: «<quotedText eId="modNov_3_old_24">corredata dagli</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_24">corredata degli</quotedText>»; 
+ al comma 4, secondo periodo, le parole: «<quotedText eId="modNov_3_old_22">del medesimo articolo</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_22">del medesimo comma</quotedText>» e sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_3_new_25">del presente articolo</quotedText>»; 
+ al comma 5: 
+ al quinto periodo, le parole: «di adeguamento, le» sono sostituite dalle seguenti: «di adeguamento e le» e le parole: «gia' espresse» sono sostituite dalle seguenti: «gia' espressi»; 
+ al settimo periodo, le parole: «e trasporti» sono sostituite dalle seguenti: «e dei trasporti»; 
+ al comma 7: 
+ all'alinea, al primo periodo, le parole: «di cui al» sono sostituite dalle seguenti: «ai sensi del» e, al secondo periodo, le parole: «Comitato Interministeriale per la Programmazione Economica e lo Sviluppo Sostenibile, di seguito CIPESS,» sono sostituite dalle seguenti: «Comitato interministeriale per la programmazione economica e lo sviluppo sostenibile (CIPESS)»; 
+ alla lettera a), la parola: «<quotedText eId="modNov_3_old_28">ritenuti</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_3_new_28">ritenute</quotedText>»; 
+ alla lettera d), le parole: «<quotedText eId="modNov_3_old_29">piano economico finanziario</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_29">piano economico-finanziario</quotedText>»; 
+ al comma 9, secondo periodo, sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_3_new_30">, convertito, con modificazioni, dalla <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2023-04-21/41/!main" ns11:target="olf:it/legge/stato/2023/41" ns11:relation="cites">legge 21 aprile 2023, n. 41</ref>
+                                        </quotedText>»; 
+ al comma 11, dopo le parole: «del progetto esecutivo» sono inserite le seguenti: «<quotedText eId="modNov_3_new_18">e delle relative varianti</quotedText>».</mod>
+                                    <mod eId="modNov_4">Dopo l'articolo 3 e' inserito il seguente: 
+ «<quotedText eId="modNov_4_new_31">Art. 3-bis (Procedure espropriative relative all'opera). - 1.
+Con riguardo alle procedure espropriative previste dal <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns12:target="olf:it/dpr/stato/2001/327" ns12:relation="cites">testo unico delle disposizioni legislative e regolamentari in materia di espropriazione per pubblica utilita'</ref>, di cui al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns13:target="olf:it/dpr/stato/2001/327" ns13:relation="cites">decreto del Presidente della Repubblica 8 giugno 2001, n. 327</ref>, relative alle opere di realizzazione del collegamento stabile tra la Sicilia e la Calabria, l'autorita' espropriante costituisce uno spazio internet ad accesso riservato, denominato "cassetto virtuale", finalizzato a dematerializzare lo scambio diretto di comunicazioni e documenti con i destinatari delle procedure, favorendo l'accesso agli atti, nonche' uno spazio internet a libero accesso, denominato "fascicolo virtuale", finalizzato a incrementare la pubblicita' e la trasparenza delle procedure e ad ospitare le comunicazioni indirette. 
+ 2. Le modalita' operative di attivazione del cassetto virtuale e le modalita' di deposito degli atti di cui all'articolo 12 del testo unico di cui al <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns14:target="olf:it/dpr/stato/2001/327" ns14:relation="cites">decreto del Presidente della Repubblica 8 giugno 2001, n. 327, e del decreto</ref> di esproprio, nonche' il flusso informativo fra l'autorita' espropriante e i soggetti destinatari della procedura espropriativa, anche ai fini della notificazione degli atti ai sensi degli <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/codice.procedura.civile/stato/1940-10-28/1443/!main#art_137" ns15:target="olf:it/codice-procedura-civile/stato/1940/1443/art_137" ns15:relation="cites">articoli 137 e seguenti del codice di procedura civile</ref>, sono stabiliti con decreto del Ministro delle infrastrutture e dei trasporti, da adottare entro il termine di trenta giorni dalla data di entrata in vigore della legge di conversione del presente decreto. 
+ 3. Nel fascicolo virtuale sono pubblicati: 
+ a) l'identificazione dei soggetti attivi dell'espropriazione ai sensi dell'articolo 3 del citato testo unico di cui al <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns16:target="olf:it/dpr/stato/2001/327" ns16:relation="cites">decreto del Presidente della Repubblica 8 giugno 2001, n. 327</ref>, con allegazione degli eventuali atti di delega dei poteri espropriativi e dei provvedimenti di designazione del dirigente dell'ufficio per le espropriazioni e del responsabile del procedimento espropriativo di cui all'articolo 6 del medesimo testo unico di cui al <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001-06-08/327/!main" ns17:target="olf:it/dpr/stato/2001/327" ns17:relation="cites">decreto del Presidente della Repubblica 8 giugno 2001, n. 327</ref>; 
+ b) i provvedimenti di apposizione del vincolo preordinato all'esproprio e di dichiarazione della pubblica utilita'; 
+ c) il piano particellare di esproprio, completo di parte grafica e descrittiva; 
+ d) i documenti di cui all'articolo 16, commi 1 e 2, del citato testo unico di cui al <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001/327/!main" ns18:resolution="unresolved">decreto del Presidente della Repubblica n. 327 del 2001</ref>; 
+ e) una relazione con i criteri di quantificazione degli oneri, diretti e indiretti, di esproprio e occupazione; 
+ f) le comunicazioni di avvio del procedimento; 
+ g) i decreti di accesso, occupazione ed esproprio; 
+ h) le ordinanze di pagamento e di deposito, ai sensi dell'articolo 26 del citato testo unico di cui al <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2001/327/!main" ns19:resolution="unresolved">decreto del Presidente della Repubblica n. 327 del 2001</ref>
+                                        </quotedText>».</mod>
+                                    <mod eId="modNov_5">All'articolo 4: 
+ al comma 1<quotedText eId="modNov_5_new_32">,</quotedText> le parole: «<quotedText eId="modNov_5_old_33">n. 1158 del 1971</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_33">17 dicembre 1971, n. 1158,</quotedText>»; 
+ al comma 3: 
+ all'alinea, le parole: «<quotedText eId="modNov_5_old_35">generale, nonche'</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_35">generale nonche'</quotedText>», dopo le parole: «commi 7 e 8» e' inserito il seguente segno d'interpunzione: «,» e dopo la parola: «rinunzie» sono aggiunte le seguenti: «e condizioni»; 
+ alla lettera a), dopo le parole: «nei giudizi pendenti» e' inserito il seguente segno d'interpunzione: «,» e la parola: «<quotedText eId="modNov_5_old_36">maturata</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_5_new_36">maturati</quotedText>»; 
+ dopo la lettera b) sono aggiunte le seguenti: 
+ «<quotedText eId="modNov_5_new_44">b-bis) l'accettazione espressa e incondizionata, da parte del contraente generale, dei criteri di aggiornamento dei prezzi di cui all'articolo 2, commi 8-bis, 8-ter, 8-quater e 8-quinquies; 
+ b-ter) l'accettazione espressa e incondizionata, da parte del contraente generale e degli altri soggetti affidatari dei servizi connessi alla realizzazione dell'opera, delle anticipazioni e delle clausole di revisione dei prezzi, da inserire negli atti aggiuntivi come unica modalita' di aggiornamento e adeguamento dei corrispettivi in corso di esecuzione, in conformita' alle vigenti disposizioni di legge</quotedText>»; 
+ al comma 4, lettera a), le parole: «<quotedText eId="modNov_5_old_37">corredata dagli</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_37">corredata degli</quotedText>»; 
+ al comma 6, le parole: «<quotedText eId="modNov_5_old_38">piano economico finanziario</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_38">piano economico-finanziario</quotedText>»; 
+ al comma 7, le parole: «con RFI S.p.a.» sono sostituite dalle seguenti: «con la societa' R.F.I. S.p.a.» e le parole: «con ANAS S.p.a.» sono sostituite dalle seguenti: «con la societa' ANAS S.p.a.»; 
+ dopo il comma 7 sono inseriti i seguenti: 
+ «7-bis. Coerentemente con quanto previsto dal comma 7, al fine di consentire il celere completamento del piano di adeguamento e riqualificazione dell'autostrada A19 Palermo-Catania quale intervento funzionale alla completa operativita' dell'opera, con decreto del Presidente del Consiglio dei ministri, su proposta del Ministro delle infrastrutture e dei trasporti, di concerto con il Ministro dell'economia e delle finanze, da adottare entro trenta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, e' nominato un Commissario straordinario per il coordinamento degli interventi indicati nel piano di adeguamento e riqualificazione dell'autostrada A19 Palermo-Catania, con i poteri e le funzioni di cui all'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegge/stato/2019-04-18/32/!main#art_4-com2" ns20:target="olf:it/decreto-legge/stato/2019/32/art_4-com2" ns20:relation="cites">articolo 4, commi 2</ref> e <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegge/stato/2019-04-18/32/!main#art_4-com3" ns21:target="olf:it/decreto-legge/stato/2019/32/art_4-com3" ns21:relation="cites">3, del decreto-legge 18 aprile 2019, n. 32</ref>, convertito, con modificazioni, dalla <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2019-06-14/55/!main" ns22:target="olf:it/legge/stato/2019/55" ns22:relation="cites">legge 14 giugno 2019, n. 55</ref>. Per il coordinamento e la realizzazione degli interventi e delle opere di cui al primo periodo, il Commissario straordinario puo' nominare fino a due subcommissari, responsabili di uno o piu' interventi. Al Commissario straordinario e agli eventuali subcommissari nominati non spettano compensi, gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati. Per l'esercizio dei compiti assegnati, il Commissario straordinario e gli eventuali subcommissari nominati possono avvalersi delle strutture della societa' ANAS S.p.a. senza nuovi o maggiori oneri per la finanza pubblica. 
+ 7-ter. Entro sessanta giorni dall'approvazione del progetto definitivo di cui all'articolo 3, comma 7, la Regione siciliana e la regione Calabria adottano, sentiti gli enti locali interessati, un Piano integrato condiviso finalizzato ad adeguare il sistema del trasporto pubblico locale e regionale nell'area dello Stretto di Messina alle esigenze di mobilita' derivanti dalla realizzazione del collegamento stabile tra la Sicilia e la Calabria e delle relative opere a terra e ad assicurare adeguati livelli di servizio del trasporto pubblico locale e regionale in considerazione delle esigenze logistiche e trasportistiche dei cantieri previsti per la realizzazione dell'opera. Le amministrazioni interessate provvedono all'attuazione delle disposizioni di cui al presente comma nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+ 7-quater. L'Autorita' di sistema portuale dello Stretto individua i progetti prioritari necessari all'adeguamento delle infrastrutture e avvia un percorso di rifunzionalizzazione delle stesse, anche al fine di rendere coerenti i progetti con la nuova configurazione determinata dalla realizzazione del collegamento stabile tra la Sicilia e la Calabria. A tal fine la medesima Autorita' di sistema portuale individua, nell'ambito delle risorse disponibili a legislazione vigente, ad eccezione di quelle finanziate nell'ambito del Piano nazionale di ripresa e resilienza e del Piano nazionale complementare, le infrastrutture che possono essere oggetto della rifunzionalizzazione di cui al primo periodo»; 
+ al comma 8: 
+ al primo periodo, le parole: «<quotedText eId="modNov_5_old_41">di R.F.I. S.p.a. e Anas S.p.a.</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_41">delle societa' R.F.I. S.p.a. e ANAS S.p.a.</quotedText>»; 
+ al secondo periodo, dopo le parole: «comma 491» e' inserito il seguente segno d'interpunzione: «,» e dopo le parole: «al primo periodo» sono inserite le seguenti: «del presente comma»; 
+ e' aggiunto, in fine, il seguente periodo: «La societa' concessionaria, con oneri a proprio carico, puo' altresi' stipulare accordi con le amministrazioni di cui all'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_1-com2" ns23:target="olf:it/decreto-legislativo/stato/2001/165/art_1-com2" ns23:relation="cites">articolo 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165</ref>, ai fini di cui all'articolo 23-bis del medesimo decreto legislativo»; 
+ dopo il comma 8 e' inserito il seguente: 
+ «<quotedText eId="modNov_5_new_42">8-bis. Il monitoraggio della realizzazione dell'opera per la prevenzione e la repressione di tentativi di infiltrazione mafiosa e' attuato con le modalita' e le procedure di cui all'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegislativo/stato/2006-04-12/163/!main#art_39-com9" ns24:target="olf:it/decreto-legislativo/stato/2006/163/art_39-com9" ns24:relation="cites">articolo 39, comma 9, del codice dei contratti pubblici</ref>, di cui al <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegislativo/stato/2023-03-31/36/!main" ns25:target="olf:it/decreto-legislativo/stato/2023/36" ns25:relation="cites">decreto legislativo 31 marzo 2023, n. 36</ref>
+                                        </quotedText>»; 
+ al comma 9, le parole <quotedText eId="modNov_5_old_43">da: «Agli oneri» fino a: «complessivi»</quotedText> sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_43">Agli oneri derivanti dalle disposizioni dell'articolo 2, comma 3, nel limite massimo di 320 milioni di euro complessivi per l'anno 2023, si provvede» e le parole: «delle finanze, delle» sono sostituite dalle seguenti: «delle finanze delle</quotedText>»; 
+ dopo il comma 9 sono aggiunti i seguenti: 
+ «9-bis. La societa' concessionaria sottoscrive apposita convenzione con i comuni di Messina e di Villa San Giovanni per l'adozione di un "Piano di comunicazione per la realizzazione del Ponte sullo Stretto" volto ad assicurare l'attuazione di iniziative permanenti di informazione e di sensibilizzazione rivolte alla cittadinanza sullo stato di avanzamento dell'opera, da svolgere in collaborazione con i competenti enti territoriali. La convenzione di cui al primo periodo individua le modalita' attuative per lo svolgimento delle citate iniziative e ne garantisce l'attuazione a partire dall'anno 2024 durante tutta la fase di realizzazione dell'opera fino al collaudo della stessa, comunque non oltre l'anno 2030. A tal fine e' autorizzata la spesa di 1 milione di euro per ciascuno degli anni dal 2024 al 2030. 
+ 9-ter. Agli oneri derivanti dall'attuazione del comma 9-bis, pari a 1 milione di euro per ciascuno degli anni dal 2024 al 2030, si provvede mediante corrispondente riduzione delle proiezioni dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2023-2025, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2023, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero delle infrastrutture e dei trasporti. 
+ 9-quater. Per le attivita' di cui all'articolo 3-bis e' autorizzata la spesa di 150.000 euro per l'anno 2024, alla cui copertura si provvede mediante corrispondente riduzione delle proiezioni dello stanziamento del fondo speciale di conto capitale iscritto, ai fini del bilancio triennale 2023-2025, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2023, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero delle infrastrutture e dei trasporti. 
+ 9-quinquies. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
