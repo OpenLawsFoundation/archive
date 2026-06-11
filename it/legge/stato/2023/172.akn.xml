@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-12-01/172/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-12-01/172"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-12-01;172"/>
+                    <FRBRalias name="eli" value="eli/id/2023/12/01/23G00188/ORIGINAL"/>
+                    <FRBRdate date="2023-12-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/01/23G00188/ORIGINAL" aknrelname="eli/id/2023/12/01/23G00188/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni in materia di divieto di produzione e di immissione sul mercato di alimenti e mangimi costituiti, isolati o prodotti a partire da colture cellulari o di tessuti derivanti da animali vertebrati nonche' di divieto della denominazione di carne per prodotti trasformati contenenti proteine vegetali. (23G00188)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00188" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-12-01" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-12-01/172/ita@2023-12-16/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-12-01/172/ita@2023-12-16"/>
+                    <FRBRdate date="2023-12-16" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/01/23G00188/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/12/01/23G00188/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/12/01/23G00188/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-12-01/172/ita@2023-12-16/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-12-01/172/ita@2023-12-16.xml"/>
+                    <FRBRdate date="2023-12-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/01/23G00188/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-12-01" name="" number="281" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-12-01" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2023-12-01" refersTo="#S.651"/>
+                <step by="#camera" date="2023-12-01" refersTo="#C.1324"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-12-01/172/!main" showAs=""/>
+                <passiveRef eId="S.651" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;651" showAs=""/>
+                <passiveRef eId="C.1324" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1324" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/12/01/23G00188/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni in materia di divieto di produzione e di immissione sul mercato di alimenti e mangimi costituiti, isolati o prodotti a partire da colture cellulari o di tessuti derivanti da animali vertebrati nonche' di divieto della denominazione di carne per prodotti trasformati contenenti proteine vegetali. (23G00188)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00188</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-12-01</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/12/01/23G00188/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/12/01/23G00188/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/12/01/23G00188/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/12/01/23G00188/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/172" nativeUrn="urn:nir:stato:legge:2023-12-01;172" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-12-01"><ns0:event type="enacted" date="2023-12-01"/><ns0:event type="published" date="2023-12-01"/><ns0:event type="commenced" date="2023-12-01"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/b0f84dea-0060-4202-bf9a-f3e51137d801" sourceSha256="a36f2a94404e630039f03e2658da0fd0dc906790923b2ce3bf691686a2115555" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T21:12:08.160188Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-12-01">01 dicembre 2023</docDate>
+                <docNumber>172</docNumber>
+                <docTitle>Disposizioni in materia di divieto di produzione e di immissione sul mercato di alimenti e mangimi costituiti, isolati o prodotti a partire da colture cellulari o di tessuti derivanti da animali vertebrati nonche' di divieto della denominazione di carne per prodotti trasformati contenenti proteine vegetali. (23G00188) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 16/12/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno apprvato:</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Finalita' e definizioni 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge reca disposizioni dirette ad assicurare la tutela della salute umana e degli interessi dei cittadini nonche' a preservare il patrimonio agroalimentare, quale insieme di prodotti espressione del processo di evoluzione socio-economica e culturale dell'Italia, di rilevanza strategica per l'interesse nazionale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Ai fini della presente legge si applicano le definizioni di cui agli <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act///2002-01-28/178/!main#art_2" ns1:target="olf:it///2002/178/art_2" ns1:relation="cites">articoli 2</ref> e 3 del regolamento (CE) n. 178/2002 del Parlamento europeo e del Consiglio, del 28 gennaio 2002, nonche' le disposizioni dell'Unione europea e nazionali in materia di denominazione degli alimenti e dei mangimi e di etichettatura degli stessi. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'articolo 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ Per le direttive CEE vengono forniti gli estremi di pubblicazione nella Gazzetta Ufficiale delle Comunita' europee (GUUE). 
+ 
+ Note all'art. 1: 
+ - Il regolamento (CE) 28 gennaio 2002, n. 178/2002/CE, recante «Regolamento del Parlamento europeo e del Consiglio che stabilisce i principi e i requisiti generali della legislazione alimentare, istituisce l'Autorita' europea per la sicurezza alimentare e fissa procedure nel campo della sicurezza alimentare», e' pubblicato nella G.U.C.E. 1° febbraio 2002, n. L 31. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading>Divieto di produzione e commercializzazione di alimenti e mangimi costituiti, isolati o prodotti a partire da colture cellulari o di tessuti derivanti da animali vertebrati</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Sulla base del principio di precauzione di cui all'articolo 7 del regolamento (CE) n. 178/2002 del Parlamento europeo e del Consiglio, del 28 gennaio 2002, e' vietato agli operatori del settore alimentare e agli operatori del settore dei mangimi impiegare nella preparazione di alimenti, bevande e mangimi, vendere, detenere per vendere, importare, produrre per esportare, somministrare o distribuire per il consumo alimentare ovvero promuovere ai suddetti fini alimenti o mangimi costituiti, isolati o prodotti a partire da colture cellulari o di tessuti derivanti da animali vertebrati. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Per il regolamento (CE) 28 gennaio 2002, n. 178/2002/CE, si veda nella nota all'art. 1. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading>Divieto della denominazione di carne per prodotti trasformati contenenti proteine vegetali</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_3__para_1__intro_1">
+                            <p>Al fine di tutelare il patrimonio zootecnico nazionale, riconoscendo il suo elevato valore culturale, socio-economico e ambientale, nonche' un adeguato sostegno alla sua valorizzazione, assicurando nel contempo un elevato livello di tutela della salute umana e degli interessi dei cittadini che consumano e il loro diritto all'informazione, per la produzione e la commercializzazione sul territorio nazionale di prodotti trasformati contenenti esclusivamente proteine vegetali e' vietato l'uso di: 
+ </p>
+                        </intro>
+                        <point eId="art_3__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>denominazioni legali, usuali e descrittive, riferite alla carne, ad una produzione a base di carne o a prodotti ottenuti in prevalenza da carne; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>riferimenti alle specie animali o a gruppi di specie animali o a una morfologia animale o un'anatomia animale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>terminologie specifiche della macelleria, della salumeria o della pescheria; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>nomi di alimenti di origine animale rappresentativi degli usi commerciali. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le disposizioni di cui al comma 1 non precludono l'aggiunta di proteine vegetali, aromi o ingredienti ai prodotti di origine animale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Le disposizioni di cui al comma 1 non si applicano quando le proteine animali sono prevalentemente presenti nel prodotto contenente proteine vegetali e purche' non si induca in errore il cittadino che consuma sulla composizione dell'alimento. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Le disposizioni del presente articolo non si applicano alle combinazioni di prodotti alimentari di origine animale con altri tipi di prodotti alimentari che non sostituiscono ne' sono alternativi a quelli di origine animale, ma sono aggiunti ad essi nell'ambito di tali combinazioni. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Con decreto del Ministro dell'agricoltura, della sovranita' alimentare e delle foreste, da adottare entro sessanta giorni dalla data di entrata in vigore della presente legge, e' adottato un elenco delle denominazioni di vendita degli alimenti che, se ricondotte a prodotti vegetali, possono indurre il cittadino che consuma in errore sulla composizione dell'alimento. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Autorita' per i controlli e modalita' di applicazione delle sanzioni  
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Ministero della salute, le regioni, le province autonome di Trento e di Bolzano, le aziende sanitarie locali, il Comando carabinieri per la tutela della salute, attra verso i Nuclei antisofisticazione e sanita' dipendenti, il Comando unita' forestali, ambientali e agroalimentari dell'Arma dei carabinieri (CUFA), attraverso i Comandi dipendenti, il Dipartimento dell'Ispettorato centrale della tutela della qualita' e repressione frodi dei prodotti agroalimentari (ICQRF) del Ministero dell'agricoltura, della sovranita' alimentare e delle foreste, il Corpo della Guardia di finanza e l'Agenzia delle dogane e dei monopoli, nonche', per i prodotti della filiera ittica, il Corpo delle Capitanerie di porto - Guardia costiera, ognuno per i profili di rispettiva competenza, svolgono i controlli sull'applicazione della presente legge. Le autorita' di cui al primo periodo svolgono le verifiche di rispettiva competenza con il supporto, ove necessario, del personale specializzato del Ministero della salute, del Comando carabinieri per la tutela della salute e delle aziende sanitarie locali in possesso di specifiche attribuzioni in tema di controlli qualitativi e tecnico-biologici di natura sanitaria, in relazione ai potenziali rischi per la salute umana sulla base del principio di precauzione di cui all'articolo 7 del regolamento (CE) n. 178/2002 del Parlamento europeo e del Consiglio, del 28 gennaio 2002. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per l'accertamento delle violazioni e l'irrogazione delle sanzioni previste dalla presente legge si applicano le disposizioni di cui al capo I, sezioni I e II, della <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1981-11-24/689/!main" ns3:target="olf:it/legge/stato/1981/689" ns3:relation="cites">legge 24 novembre 1981, n. 689</ref>. Non e' ammesso il pagamento in misura ridotta di cui all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/1981/689/!main#art_16" ns4:resolution="unresolved">articolo 16 della legge n. 689 del 1981</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Per le violazioni di cui agli articoli 2 e 3 della presente legge, le autorita' competenti a ricevere il rapporto di cuI all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/1981/689/!main#art_17" ns5:resolution="unresolved">articolo 17 della legge n. 689 del 1981</ref> sono quelle di cui all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2021-02-02/27/!main#art_2-com1" ns6:target="olf:it/decreto-legislativo/stato/2021/27/art_2-com1" ns6:relation="cites">articolo 2, commi 1</ref> e <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2021-02-02/27/!main#art_2-com3" ns7:target="olf:it/decreto-legislativo/stato/2021/27/art_2-com3" ns7:relation="cites">3, del decreto legislativo 2 febbraio 2021, n. 27</ref>, secondo i rispettivi profili di competenza territoriale e per materia. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Per il regolamento (CE) 28 gennaio 2002, n. 178/2002/CE, si veda nella nota all'art. 1. 
+ Le sezioni I e II del Capo I (Le sanzioni amministrative) della <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/1981-11-24/689/!main" ns8:target="olf:it/legge/stato/1981/689" ns8:relation="cites">legge 24 novembre 1981, n. 689</ref> recante «Modifiche al sistema penale», pubblicata nella Gazzetta Ufficiale del 30 novembre 1981, n. 329, S.O., recano rispettivamente: «Principi generale» e «Applicazione». 
+ - Si riporta il testo degli <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/1981-11-24/689/!main#art_16" ns9:target="olf:it/legge/stato/1981/689/art_16" ns9:relation="cites">articoli 16</ref> e <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/1981-11-24/689/!main#art_17" ns10:target="olf:it/legge/stato/1981/689/art_17" ns10:relation="cites">17 della legge 24 novembre 1981, n. 689</ref>: 
+ «Art. 16 (Pagamento in misura ridotta). - E' ammesso il pagamento di una somma in misura ridotta pari alla terza parte del massimo della sanzione prevista per la violazione commessa, o, se piu' favorevole e qualora sia stabilito il minimo della sanzione edittale, pari al doppio del relativo importo oltre alle spese del procedimento, entro il termine di sessanta giorni dalla contestazione immediata o, se questa non vi e' stata, dalla notificazione degli estremi della violazione. 
+ Per le violazioni ai regolamenti ed alle ordinanze comunali e provinciali, la Giunta comunale o provinciale, all'interno del limite edittale minimo e massimo della sanzione prevista, puo' stabilire un diverso importo del pagamento in misura ridotta, in deroga alle disposizioni del primo comma. 
+ Il pagamento in misura ridotta e' ammesso anche nei casi in cui le norme antecedenti all'entrata in vigore della presente legge non consentivano l'oblazione.» 
+ «Art. 17 (Obbligo del rapporto). - Qualora non sia stato effettuato il pagamento in misura ridotta, il funzionario o l'agente che ha accertato la violazione, salvo che ricorra l'ipotesi prevista nell'art. 24, deve presentare rapporto, con la prova delle eseguite contestazioni o notificazioni, all'ufficio periferico cui sono demandati attribuzioni e compiti del Ministero nella cui competenza rientra la materia alla quale si riferisce la violazione o, in mancanza, al prefetto. 
+ Deve essere presentato al prefetto il rapporto relativo alle violazioni previste dal <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-01-18/54/!main" ns11:target="olf:it/dpr/stato/2002/54" ns11:relation="cites">testo unico delle norme sulla circolazione</ref> stradale, approvato con <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1959-06-15/393/!main" ns12:target="olf:it/dpr/stato/1959/393" ns12:relation="cites">D.P.R. 15 giugno 1959, n. 393</ref>, dal testo unico per la tutela delle strade, approvato con <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/regio.decreto/stato/1933-12-08/1740/!main" ns13:target="olf:it/regio-decreto/stato/1933/1740" ns13:relation="cites">R.D. 8 dicembre 1933, n. 1740</ref>, e dalla <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/1935-06-20/1349/!main" ns14:target="olf:it/legge/stato/1935/1349" ns14:relation="cites">legge 20 giugno 1935, n. 1349</ref>, sui servizi di trasporto merci. 
+ Nelle materie di competenza delle regioni e negli altri casi, per le funzioni amministrative ad esse delegate, il rapporto e' presentato all'ufficio regionale competente. 
+ Per le violazioni dei regolamenti provinciali e comunali il rapporto e' presentato, rispettivamente, al presidente della giunta provinciale o al sindaco. 
+ L'ufficio territorialmente competente e' quello del luogo in cui e' stata commessa la violazione. 
+ Il funzionario o l'agente che ha proceduto al sequestro previsto dall'art. 13 deve immediatamente informare l'autorita' amministrativa competente a norma dei precedenti commi, inviandole il processo verbale di sequestro. 
+ Con decreto del Presidente della Repubblica, su proposta del Presidente del Consiglio dei ministri, da emanare entro centottanta giorni dalla pubblicazione della presente legge, in sostituzione del <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1976-05-13/407/!main" ns15:target="olf:it/dpr/stato/1976/407" ns15:relation="cites">D.P.R. 13 maggio 1976, n. 407</ref>, saranno indicati gli uffici periferici dei singoli Ministeri, previsti nel primo comma, anche per i casi in cui leggi precedenti abbiano regolato diversamente la competenza. 
+ Con il decreto indicato nel comma precedente saranno stabilite le modalita' relative all'esecuzione del sequestro previsto dall'art. 13, al trasporto ed alla consegna delle cose sequestrate, alla custodia ed alla eventuale alienazione o distruzione delle stesse; sara' altresi' stabilita la destinazione delle cose confiscate.
+ Le regioni, per le materie di loro competenza, provvederanno con legge nel termine previsto dal comma precedente.» 
+ - Il testo dell'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2021-02-02/27/!main#art_2-com1" ns16:target="olf:it/decreto-legislativo/stato/2021/27/art_2-com1" ns16:relation="cites">articolo 2, commi 1</ref> e <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/2021-02-02/27/!main#art_2-com3" ns17:target="olf:it/decreto-legislativo/stato/2021/27/art_2-com3" ns17:relation="cites">3, del decreto legislativo 2 febbraio 2021, n. 27</ref>, recante «Disposizioni per l'adeguamento della normativa nazionale alle disposizioni del <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/regolamento//2017/625/!main" ns18:resolution="unresolved">regolamento (UE) 2017/625</ref> ai sensi dell'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2019-10-04/117/!main#art_12-leta" ns19:target="olf:it/legge/stato/2019/117/art_12-leta" ns19:relation="cites">articolo 12, lettere a)</ref>, <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2019-10-04/117/!main#art_12-letb" ns20:target="olf:it/legge/stato/2019/117/art_12-letb" ns20:relation="cites">b)</ref>, <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/2019-10-04/117/!main#art_12-letc" ns21:target="olf:it/legge/stato/2019/117/art_12-letc" ns21:relation="cites">c)</ref>, <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2019-10-04/117/!main#art_12-letd" ns22:target="olf:it/legge/stato/2019/117/art_12-letd" ns22:relation="cites">d)</ref> ed <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2019-10-04/117/!main#art_12-lete" ns23:target="olf:it/legge/stato/2019/117/art_12-lete" ns23:relation="cites">e) della legge 4 ottobre 2019, n. 117</ref>», pubblicato nella Gazzetta Ufficiale 11 marzo 2021, n. 60, e' il seguente: 
+ «Art. 2 (Autorita' competenti e altro personale afferente alle autorita' competenti). - 1. Il Ministero della salute, le regioni, le Provincie autonome di Trento e Bolzano, le Aziende sanitarie locali, nell'ambito delle rispettive competenze, sono le Autorita' competenti designate, ai sensi dell'articolo 4 del Regolamento, a pianificare, programmare, eseguire, monitorare e rendicontare i controlli ufficiali e le altre attivita' ufficiali nonche' procedere all'adozione delle azioni esecutive previste dagli articoli 137 e 138 del Regolamento, e ad accertare e contestare le relative sanzioni amministrative nei seguenti settori: 
+ a) alimenti, inclusi i nuovi alimenti, e la sicurezza alimentare, in tutte le fasi della produzione, della trasformazione e della distribuzione di alimenti comprese le norme relative alle indicazioni nutrizionali e il loro coinvolgimento nel mantenimento dello stato di salute fornite sui prodotti alimentari, anche con riferimento ad alimenti contenenti allergeni e alimenti costituiti, contenenti o derivati da OGM, nonche' la fabbricazione e l'uso di materiali e oggetti destinati a venire a contatto con gli alimenti; 
+ b) mangimi e sicurezza dei mangimi in qualsiasi fase della produzione, della trasformazione, della distribuzione e dell'uso, anche con riferimento a mangimi costituiti, contenenti o derivati da OGM; 
+ c) salute animale; 
+ d) sottoprodotti di origine animale e prodotti derivati ai fini della prevenzione e della riduzione al minimo dei rischi sanitari per l'uomo e per gli animali; 
+ e) benessere degli animali; 
+ f) prescrizioni per l'immissione in commercio e l'uso di prodotti fitosanitari, dell'utilizzo sostenibile dei pesticidi, ad eccezione dell'attrezzatura per l'applicazione dei pesticidi. 
+ 2. Le autorita' competenti garantiscono il rispetto di quanto previsto dall'articolo 5 del Regolamento. In particolare, il Ministero della salute, le regioni, le Province autonome di Trento e Bolzano e le Aziende sanitarie locali procedono ad uniformare le competenze ed i profili professionali del personale, anche in modo da favorirne l'interscambio. 
+ 3. Il Ministero delle politiche agricole alimentari e forestali e' Autorita' competente ai sensi dell'articolo 4 del Regolamento nei seguenti settori: 
+ a) alimenti, relativamente alle norme volte a garantire pratiche commerciali leali e a tutelare gli interessi e l'informazione dei consumatori, comprese le norme di etichettatura, per i profili privi di impatto sulla sicurezza degli alimenti, e per i controlli effettuati a norma dell'articolo 89 del regolamento (UE) n. 1306/2013 del Parlamento europeo e del Consiglio, del 17 dicembre 2013; 
+ b) mangimi, relativamente alle norme volte a tutelare gli aspetti qualitativi e merceologici, compresa l'etichettatura, per i profili privi di impatto sulla sicurezza dei mangimi, ma che possono incidere sulla correttezza e trasparenza delle transazioni commerciali; 
+ c) misure di protezione contro gli organismi nocivi per le piante; 
+ d) produzione biologica ed etichettatura dei prodotti biologici; 
+ e) uso ed etichettatura delle denominazioni di origine protette, delle indicazioni geografiche protette e delle specialita' tradizionali garantite. 
+ 4. Il Ministero delle politiche agricole alimentari e forestali e' organo di collegamento per lo scambio di comunicazioni tra le autorita' competenti degli Stati membri, ai sensi degli articoli da 102 a 107 del Regolamento, nei settori di competenza come individuati nel comma 2. 
+ 5. Il Ministero della salute, e' l'autorita' unica, ai sensi dell'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2019-10-04/117/!main#art_12-com3-letb" ns24:target="olf:it/legge/stato/2019/117/art_12-com3-letb" ns24:relation="cites">articolo 12, comma 3, lettere b)</ref> e <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/2019-10-04/117/!main#art_12-com3-letd" ns25:target="olf:it/legge/stato/2019/117/art_12-com3-letd" ns25:relation="cites">d) della legge 4 ottobre 2019, n. 117</ref>, per coordinare la collaborazione e i contatti con la Commissione europea e gli altri Stati membri in relazione ai controlli ufficiali e alle altre attivita' ufficiali nei settori di cui al comma 1. 
+ 6. Il Ministero della salute, e' l'organo di collegamento, ai sensi dell'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/legge/stato/2019-10-04/117/!main#art_12-com3-letc" ns26:target="olf:it/legge/stato/2019/117/art_12-com3-letc" ns26:relation="cites">articolo 12, comma 3, lettera c) della legge 4 ottobre 2019, n. 117</ref>, responsabile di agevolare lo scambio di comunicazioni tra le Autorita' competenti in relazione ai controlli ufficiali e alle altre attivita' ufficiali nei settori di cui al comma 1. 
+ 7. Con riferimento al settore di cui al comma 1, lettere c) ed e), il Ministero della salute, ai sensi dell'articolo 4, punto 55) del <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/regolamento//2016/429/!main" ns27:resolution="unresolved">regolamento (UE) 2016/429</ref>, e' l'Autorita' centrale responsabile dell'organizzazione e del coordinamento dei controlli ufficiali e delle altre attivita' ufficiali per la prevenzione e il controllo delle malattie animali trasmissibili. 
+ 8. Con riferimento ai settori di cui al comma 1, il Ministero della difesa e' Autorita' competente per i controlli ufficiali e le altre attivita' di controllo ufficiale condotte nelle strutture delle Forze armate, comprese quelle connesse alle attivita' dei contingenti impiegati nelle missioni internazionali. Esso puo' procedere anche a effettuare controlli ufficiali negli stabilimenti siti al di fuori delle strutture militari che forniscono merce per le Forze Armate, previo coordinamento con l'Azienda sanitaria locale competente sullo stabilimento oggetto di controllo, la quale sara' destinataria anche dell'esito di tali controlli. Restano ferme le competenze e le attribuzioni del servizio sanitario del Corpo della Guardia di finanza, come stabilite dall'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegislativo/stato/2001-03-19/69/!main#art_64" ns28:target="olf:it/decreto-legislativo/stato/2001/69/art_64" ns28:relation="cites">articolo 64 del decreto legislativo 19 marzo 2001, n. 69</ref>, nelle strutture che si trovano nella disponibilita' del medesimo corpo. 
+ 9. Nei settori di cui al comma 1, il Ministero della salute, nel rispetto del riparto costituzionale delle competenze legislative dello Stato, delle Regioni e delle Province autonome di Trento e Bolzano, garantisce il coordinamento, l'uniformita', l'efficacia e l'efficienza dei controlli ufficiali e delle altre attivita' ufficiali tra tutte le Autorita' competenti sul territorio nazionale attraverso l'adozione di piani nazionali di controllo pianificati secondo i principi del presente decreto e del Regolamento. 
+ 10. Il Ministero della salute, in qualita' di Autorita' competente, puo' avvalersi del Comando carabinieri per la tutela della salute, garantendone il coordinamento delle attivita' di accertamento con le attivita' di controllo svolte dalle altre Autorita' territorialmente competenti.
+ Il personale afferente al Comando dei carabinieri per la tutela della salute, nel caso rilevi la presenza di non conformita' nei settori di cui al comma 1 del presente articolo, informa l'Autorita' competente dei provvedimenti adottati. 
+ 11. Al personale delle Autorita' competenti di cui al comma 1, addetto ai controlli ufficiali e alle altre attivita' ufficiali, e' attribuita la qualifica di Ufficiale o Agente di Polizia Giudiziaria nei limiti del servizio cui e' destinato e secondo le attribuzioni ad esso conferite. Tale personale possiede la qualifica di pubblico ufficiale e puo' in ogni caso richiedere, ove occorra, l'assistenza della forza pubblica. 
+ 12. Il personale e le forze di polizia afferenti ad altre Istituzioni che, nell'ambito dello svolgimento dei controlli condotti per la propria attivita' istituzionale, sospettino la presenza di non conformita' nei settori di cui al comma 1, ne danno tempestiva segnalazione alle Autorita' competenti. 
+ 13. L'autorita' giudiziaria che, nell'ambito di indagini investigative o programmi di repressione degli illeciti nelle materie di cui al comma 1, rilevi profili di minaccia alla salute pubblica, informa le autorita' competenti al fine di contenere il rischio.» 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Sanzioni</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Salvo che il fatto costituisca reato, gli operatori del settore alimentare e gli operatori del settore dei mangimi che violino le disposizioni di cui agli articoli 2 e 3 sono soggetti alla sanzione amministrativa pecuniaria da un minimo di euro 10.000 fino ad un massimo di euro 60.000 o del 10 per cento del fatturato totale annuo realizzato nell'ultimo esercizio chiuso anteriormente all'accertamento della violazione, quando tale importo e' superiore a euro 60.000. La sanzione massima non puo' eccedere comunque euro 150.000. Alla violazione conseguono la confisca del prodotto illecito, l'applicazione delle sanzioni amministrative del divieto di accesso a contributi, finanziamenti o agevolazioni o altre erogazioni dello stesso tipo, comunque denomi-nate, concessi o erogati da parte dello Stato, da altri enti pubblici o dall'Unione europea per lo svolgimento di attivita' imprenditoriali, per un periodo minimo di un anno e massimo di tre anni, nonche' la chiusura dello stabilimento di produzione, per lo stesso periodo. Alle medesime sanzioni e' soggetto chiunque abbia finanziato, promosso o agevolato in qualunque modo le condotte di cui agli articoli 2 e 3. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per la determinazione delle sanzioni amministrative pecuniarie previste dalla pre-sente legge, l'autorita' competente tiene conto della gravita' del fatto, della durata della violazione, dell'opera svolta dall'agente per l'eliminazione o l'attenuazione delle conseguenze della violazione nonche' delle condizioni economiche dello stesso. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Rinvio alla <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/1981/689/!main" ns29:resolution="unresolved">legge n. 689 del 1981</ref> e modalita' di aggiornamento delle sanzioni 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per quanto non previsto dalla pre-sente legge si applicano le disposizioni di cui alla <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/1981-11-24/689/!main" ns30:target="olf:it/legge/stato/1981/689" ns30:relation="cites">legge 24 novembre 1981, n. 689</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>L'entita' delle sanzioni amministrative pecuniarie previste dalla presente legge e' aggiornata ogni due anni, sulla base delle variazioni dell'indice nazionale dei prezzi al consumo per l'intera collettivita', rilevato dall'Istituto nazionale di statistica (ISTAT), mediante decreto del Ministro dell'economia e delle finanze, di concerto con i Ministri della salute e dell'agricoltura, della sovranita' alimentare e delle foreste. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/1981-11-24/689/!main#art_6" ns31:target="olf:it/legge/stato/1981/689/art_6" ns31:relation="cites">art. 6: 
+ - Per la legge 24 novembre 1981, n. 689</ref> si veda la nota all'art. 2. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_7__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le amministrazioni interessate svolgono le attivita' previste dalla presente legge con le risorse umane, finanziarie e strumentali disponibili a legislazione vigente. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara', inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 1° dicembre 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Lollobrigida, Ministro dell'agricoltura, della sovranita' alimentare e delle forest Schillaci, Ministro della salute Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
