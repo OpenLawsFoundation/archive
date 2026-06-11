@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-08-31/140/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-08-31/140"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2022-08-31;140"/>
+                    <FRBRalias name="eli" value="eli/id/2022/09/15/22G00149/CONSOLIDATED/20230811"/>
+                    <FRBRdate date="2022-08-31" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/09/15/22G00149/CONSOLIDATED/20230811" aknrelname="eli/id/2022/09/15/22G00149/CONSOLIDATED/20230811">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni per la celebrazione dell'ottavo centenario della morte di San Francesco d'Assisi. (22G00149)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00149" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2022-08-31" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-08-31/140/ita@2023-08-11/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-08-31/140/ita@2023-08-11"/>
+                    <FRBRdate date="2023-08-11" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/09/15/22G00149/CONSOLIDATED/20230811/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/09/15/22G00149/CONSOLIDATED/20230811"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/09/15/22G00149/CONSOLIDATED/20230811/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2022-08-31/140/ita@2023-08-11/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2022-08-31/140/ita@2023-08-11.xml"/>
+                    <FRBRdate date="2022-08-31" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/09/15/22G00149/CONSOLIDATED/20230811/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-09-15" name="" number="216" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-09-15" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2023-08-10" eId="eventRef_1" source="rp1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2022-08-31" refersTo="#S.2414"/>
+                <step by="#camera" date="2022-08-31" refersTo="#C.3580"/>
+            </workflow>
+            <analysis source="">
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((COMMA ABROGATO DAL D.L. 10 AGOSTO 2023, N. 105))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2022-08-31/140/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/DECRETO-LEGGE/stato/2023-08-10/105/!main" showAs=""/>
+                <passiveRef eId="S.2414" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2414" showAs=""/>
+                <passiveRef eId="C.3580" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3580" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/09/15/22G00149/CONSOLIDATED/20230811">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni per la celebrazione dell'ottavo centenario della morte di San Francesco d'Assisi. (22G00149)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00149</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-08-31</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/09/15/22G00149/CONSOLIDATED/20230811/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/09/15/22G00149/CONSOLIDATED/20230811"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/09/15/22G00149/CONSOLIDATED/20230811/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/09/15/22G00149/CONSOLIDATED/20230811/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2022/140" nativeUrn="urn:nir:stato:legge:2022-08-31;140" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-09-15"><ns0:event type="enacted" date="2022-08-31"/><ns0:event type="published" date="2022-09-15"/><ns0:event type="commenced" date="2022-09-15"/><ns0:event type="amended" date="2023-08-10"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/15a2f892-5f4f-439d-b294-1da8f356da74" sourceSha256="74148083deabdf9a0900c23d93f5915401986879a53a1ec9801b288740aa55dc" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T22:27:07.205817Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2022-08-31">31 agosto 2022</docDate>
+                <docNumber>140</docNumber>
+                <docTitle>Disposizioni per la celebrazione dell'ottavo centenario della morte di San Francesco d'Assisi. (22G00149) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 30/09/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Finalita' 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Repubblica, nell'ambito delle finalita' di promozione dello sviluppo della cultura e della ricerca scientifica, nonche' di valorizzazione e di tutela del patrimonio storico e artistico della Nazione, a essa attribuite dalla Costituzione, celebra la figura di San Francesco d'Assisi nella ricorrenza dell'ottavo centenario della morte, che cade nell'anno 2026. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente in materia, ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns1:target="olf:it/dpr/stato/1985/1092" ns1:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge, alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Istituzione e finanziamento del Comitato nazionale</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per le finalita' di cui all'articolo 1 e' istituito il Comitato nazionale per la celebrazione dell'ottavo centenario della morte di San Francesco d'Assisi, di seguito denominato «Comitato nazionale», a cui e' attribuito un contributo di 4.510.000 euro per gli anni dal 2022 al 2028. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il contributo di cui al comma 1 e' autorizzato nella misura di 200.000 euro per l'anno 2022, 500.000 euro per l'anno 2023, 500.000 euro per l'anno 2024, 1 milione di euro per l'anno 2025, 2 milioni di euro per l'anno 2026, 300.000 euro per l'anno 2027 e 10.000 euro per l'anno 2028. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_1">((COMMA ABROGATO DAL D.L. 10 AGOSTO 2023, N. 105))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Al Comitato nazionale possono altresi' essere destinati contributi di enti pubblici e privati, lasciti, donazioni e liberalita' di ogni altro tipo. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Composizione e funzionamento del Comitato nazionale</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Comitato nazionale e' formato da venti componenti nominati con decreto del Presidente del Consiglio dei ministri, da adottare entro sessanta giorni dalla data di entrata in vigore della presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il presidente del Comitato nazionale e' nominato dal Presidente del Consiglio dei ministri. Gli altri componenti sono designati: due dal Ministro della cultura, due dal Ministro del turismo, tre dal Ministro dell'istruzione e dal Ministro dell'universita' e della ricerca d'intesa tra loro, uno dal Ministro degli affari esteri e della cooperazione internazionale, due dalla Conferenza unificata di cui all'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns2:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns2:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>, due dalla regione Umbria, due dal comune di Assisi, uno dal vescovo della diocesi di Assisi-Nocera Umbra-Gualdo Tadino, due dalla Conferenza dei ministri generali del primo ordine francescano e del terzo ordine regolare e uno dalla Societa' internazionale di studi francescani associazione di promozione sociale, con sede in Assisi.
+Del Comitato nazionale e' altresi' componente di diritto il sindaco del comune di Assisi. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>I componenti del Comitato nazionale sono scelti tra esponenti della cultura italiana e internazionale aventi comprovata competenza e conoscenza della vita e delle opere di San Francesco d'Assisi, nonche' tra rappresentanti di enti pubblici, privati ed ecclesiastici con personalita' giuridica nell'ordinamento della Chiesa cattolica che, per le finalita' statutarie o per l'attivita' culturale o di culto svolta, abbiano maturato una specifica competenza e conoscenza della figura da celebrare o che siano particolarmente coinvolti nella celebrazione per l'ambito territoriale, turistico o istituzionale in cui agiscono. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Il decreto di cui al comma 1 determina, altresi', le modalita' di funzionamento e di scioglimento del Comitato nazionale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Con decreto del Presidente del Consiglio dei ministri, su proposta del Ministro della cultura, di concerto con il Ministro del turismo, sentita la Conferenza unificata di cui all'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns3:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns3:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>, possono essere nominati ulteriori componenti del Comitato nazionale, fino a un numero massimo di tre, nel rispetto di quanto stabilito dal comma 3. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Ai componenti del Comitato nazionale non e' corrisposto alcun compenso, gettone di presenza o altro emolumento comunque denominato.
+Essi hanno diritto al solo rimborso delle spese effettivamente sostenute e documentate per le attivita' strettamente connesse al funzionamento del Comitato, secondo la normativa vigente. Le spese per il funzionamento sono poste a carico del contributo di cui all'articolo 2. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Il Comitato nazionale e' sottoposto alla vigilanza del Ministero della cultura. A tale fine, il Comitato elabora e trasmette al Ministero, con cadenza annuale, rendiconti sull'utilizzo del finanziamento ricevuto, nonche' l'ulteriore documentazione eventualmente richiesta dal medesimo Ministero. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Il Comitato nazionale opera presso il Ministero della cultura.
+Esso assicura l'integrazione e la coerenza del programma culturale di cui all'articolo 4, comma 2, con le attivita' del Comitato per gli anniversari di interesse nazionale, istituito presso la Presidenza del Consiglio dei ministri. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Per il testo dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns4:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns4:relation="cites">art. 8, del decreto legislativo 28 agosto 1997, n. 281</ref>, si veda nelle note all'art. 2. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Durata e compiti del Comitato nazionale</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Comitato nazionale opera a decorrere dalla data di adozione del decreto di nomina di cui all'articolo 3, comma 1, e resta in carica fino alla data del 30 aprile 2028. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_4__para_2__intro_1">
+                            <p>Il Comitato nazionale ha il compito di elaborare un programma culturale relativo alla vita, all'opera e ai luoghi legati alla figura di San Francesco d'Assisi, comprendente attivita' di restauro di cose mobili o immobili sottoposte a tutela ai sensi del <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns5:target="olf:it/decreto-legislativo/stato/2004/42" ns5:relation="cites">codice dei beni culturali e del paesaggio</ref>, di cui al <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns6:target="olf:it/decreto-legislativo/stato/2004/42" ns6:relation="cites">decreto legislativo 22 gennaio 2004, n. 42</ref>, nonche' attivita' di ricerca, editoriali, formative, espositive e di organizzazione e gestione di manifestazioni in ambito culturale, storico, letterario, scientifico e artistico di elevato valore, in una prospettiva di internazionalizzazione, di promozione turistica e di innovazione tecnologica nonche' di attenzione agli aspetti del messaggio francescano riguardanti il rispetto e la cura dell'ambiente, il dialogo tra le religioni e la pacifica convivenza tra i popoli, al fine di divulgare in Italia e all'estero, anche mediante piattaforme digitali, la conoscenza del pensiero, dell'opera, della cultura e dell'eredita' del personaggio. In particolare, il Comitato nazionale ha il compito di: 
+ </p>
+                        </intro>
+                        <point eId="art_4__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>elaborare il piano delle iniziative culturali per la divulgazione e la diffusione della conoscenza della vita e dell'opera di San Francesco d'Assisi, anche con riferimento ai settori della formazione scolastica, dell'alta formazione artistica, musicale e coreutica, dell'universita' e della ricerca, tenendo conto degli eventuali riflessi della sua opera in ambito internazionale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>predisporre il piano economico sulla base delle risorse finanziarie assegnate dalla presente legge e tenendo conto degli eventuali contributi, lasciti, donazioni e liberalita' di cui all'articolo 2, comma 4; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>elaborare programmi volti a promuovere attivita' culturali connesse alla celebrazione, da realizzare attraverso il coinvolgimento di enti pubblici o privati, dotati di comprovata esperienza, capaci di apportare ogni utile contributo o risorsa economica; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>predisporre programmi intesi a favorire processi di sviluppo culturale nel territorio, nonche' di valorizzazione e promozione turistica dei luoghi e dei cammini francescani e di promozione commerciale in ambito culturale connessi alla celebrazione. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <list>
+                        <intro eId="art_4__para_3__intro_1">
+                            <p>Nell'ambito dei programmi di cui al comma 2, lettera c), sono ricomprese: 
+ </p>
+                        </intro>
+                        <point eId="art_4__para_3.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>la pubblicazione dell'edizione delle fonti sulla vita e sull'opera di San Francesco d'Assisi e sulle origini dell'Ordine francescano fino al XIV secolo, a cura della Societa' internazionale di studi francescani associazione di promozione sociale, con sede in Assisi, che vi provvede in coordinamento con l'Edizione nazionale delle fonti francescane, di cui al decreto del Ministro per i beni e le attivita' culturali del 2 agosto 2007; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_3.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>la pubblicazione del catalogo dei codici medievali del Fondo antico comunale e la catalogazione del Fondo antico dei libri a stampa della Biblioteca comunale conservati presso il Sacro Convento in Assisi, a cura della Societa' internazionale di studi francescani, in collaborazione con il medesimo Sacro Convento. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_4__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>I piani di cui alle lettere a) e b) e i programmi di cui alle lettere c) e d) del comma 2 sono sottoposti all'approvazione del Ministero della cultura e del Ministero del turismo. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Disposizioni finanziarie</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Agli oneri derivanti dall'articolo 2, comma 2, pari a 200.000 euro per l'anno 2022, 500.000 euro per l'anno 2023, 500.000 euro per l'anno 2024, 1 milione di euro per l'anno 2025, 2 milioni di euro per l'anno 2026, 300.000 euro per l'anno 2027 e 10.000 euro per l'anno 2028, si provvede mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns7:target="olf:it/legge/stato/2014/190/art_1-com200" ns7:relation="cites">articolo 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 5: 
+ - Si riporta il testo dell'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns8:target="olf:it/legge/stato/2014/190/art_1-com200" ns8:relation="cites">art. 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>, recante «Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato (legge di stabilita' 2015)»: 
+ «Omissis. 
+ 200. Nello stato di previsione del Ministero dell'economia e delle finanze e' istituito un Fondo per far fronte ad esigenze indifferibili che si manifestano nel corso della gestione, con la dotazione di 27 milioni di euro per l'anno 2015 e di 25 milioni di euro annui a decorrere dall'anno 2016. Il Fondo e' ripartito annualmente con uno o piu' decreti del Presidente del Consiglio dei ministri su proposta del Ministro dell'economia e delle finanze. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare le occorrenti variazioni di bilancio». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 31 agosto 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Franceschini, Ministro della cultura Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
