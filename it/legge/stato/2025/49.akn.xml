@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-01/49/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-01/49"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-04-01;49"/>
+                    <FRBRalias name="eli" value="eli/id/2025/04/12/25G00058/ORIGINAL"/>
+                    <FRBRdate date="2025-04-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/12/25G00058/ORIGINAL" aknrelname="eli/id/2025/04/12/25G00058/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Istituzione della Giornata nazionale per la prevenzione veterinaria. (25G00058)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00058" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-04-01" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-01/49/ita@2025-04-27/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-01/49/ita@2025-04-27"/>
+                    <FRBRdate date="2025-04-27" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/12/25G00058/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/04/12/25G00058/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/04/12/25G00058/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-01/49/ita@2025-04-27/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-01/49/ita@2025-04-27.xml"/>
+                    <FRBRdate date="2025-04-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/12/25G00058/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-04-12" name="" number="86" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-04-12" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2025-04-01" refersTo="#S.226"/>
+                <step by="#camera" date="2025-04-01" refersTo="#C.1305"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-04-01/49/!main" showAs=""/>
+                <passiveRef eId="S.226" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;226" showAs=""/>
+                <passiveRef eId="C.1305" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1305" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/04/12/25G00058/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Istituzione della Giornata nazionale per la prevenzione veterinaria. (25G00058)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00058</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-04-01</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/04/12/25G00058/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/04/12/25G00058/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/04/12/25G00058/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/04/12/25G00058/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/49" nativeUrn="urn:nir:stato:legge:2025-04-01;49" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-04-12"><ns0:event type="enacted" date="2025-04-01"/><ns0:event type="published" date="2025-04-12"/><ns0:event type="commenced" date="2025-04-12"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/cc76723a-14b5-4728-92bf-7265c6404756" sourceSha256="8bf43d3f15f4c8ab1251f7b44a50e113acddce6da714f89f269abd6afb7183d2" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:04:58.034107Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-04-01">01 aprile 2025</docDate>
+                <docNumber>49</docNumber>
+                <docTitle>Istituzione della Giornata nazionale per la prevenzione veterinaria. (25G00058) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 27/04/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Istituzione della Giornata nazionale per la prevenzione veterinaria </heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Repubblica riconosce il 25 gennaio di ciascun anno quale Giornata nazionale per la prevenzione veterinaria, di seguito denominata «Giornata nazionale», e sostiene ogni iniziativa utile a sensibilizzare i cittadini sull'importanza della prevenzione veterinaria e della medicina preventiva veterinaria, secondo l'approccio integrato «One Health» per la salute delle persone, degli animali e dell'ambiente, al fine di promuovere salute e benessere degli animali nonche' benessere e longevita' sana nella popolazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Giornata nazionale non determina gli effetti civili di cui alla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/1949-05-27/260/!main" ns1:target="olf:it/legge/stato/1949/260" ns1:relation="cites">legge 27 maggio 1949, n. 260</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ Avvertenza: 
+ Il testo della nota qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'articolo 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura della disposizione di legge alla quale e' operato il rinvio e della quale restano invariati il valore e l'efficacia. 
+ 
+ Note all'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1949-05-27/260/!main#art_1" ns3:target="olf:it/legge/stato/1949/260/art_1" ns3:relation="cites">art. 1: 
+ - La legge 27 maggio 1949, n. 260</ref>, recante: «Disposizioni in materia di ricorrenze festive» e' pubblicata nella Gazzetta Ufficiale n. 124 del 31 maggio 1949. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Iniziative per la celebrazione della Giornata nazionale</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>In occasione della Giornata nazionale possono essere previste iniziative nel settore privato e presso gli enti e le strutture del Servizio sanitario nazionale per sostenere l'importanza della prevenzione veterinaria con approccio integrato «One Health» per la salute delle persone, degli animali e dell'ambiente e possono essere organizzati incontri, dibattiti, conferenze e altri momenti di informazione e comunicazione, anche a carattere internazionale, promossi dallo Stato, dalle regioni e dalle province autonome di Trento e di Bolzano, dalle province, dalle citta' metropolitane, dai comuni e dagli altri enti pubblici e privati interessati. In particolare possono essere valorizzate le attivita' professionali veterinarie e le iniziative di prevenzione veterinaria e promozione della salute umana e degli animali, rivolte alle giovani generazioni, e di contrasto alle malattie infettive a rilevanza endemica e pandemica e a carattere zoonotico, al fine di orientare i comportamenti al benessere individuale e collettivo, alla salute e al benessere degli animali e al raggiungimento di una longevita' sana nella popolazione. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading>Celebrazione della Giornata nazionale negli istituti scolastici di ogni ordine e grado</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Nella Giornata nazionale, le istituzioni scolastiche di ogni ordine e grado possono promuovere, nel rispetto dell'autonomia scolastica e nel quadro delle indicazioni nazionali e linee guida specifiche per i diversi gradi di istruzione in materia di educazione e promozione della salute, l'importanza dell'appropriata alimentazione e della prevenzione e del contrasto delle malattie infettive a rilevanza endemica e pandemica a carattere zoonotico, in collaborazione con le aziende sanitarie locali territorialmente competenti ed anche coinvolgendo l'Ordine dei medici veterinari e le organizzazioni dei medesimi maggiormente rappresentative a livello territoriale, nonche' promuovere iniziative civiche, percorsi di studio ed eventi dedicati alla comprensione e all'apprendimento dei principi fondanti la prevenzione veterinaria nell'ambito dell'approccio integrato «One Health» per la salute delle persone, degli animali e dell'ambiente, al fine di educare alla prevenzione e al contrasto dei rischi sanitari interdipendenti, su cui possono incidere i comportamenti e le azioni degli individui e della collettivita'. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading>Informazione radiofonica, televisiva e multimediale nella Giornata nazionale</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La societa' concessionaria del servizio pubblico radiofonico, televisivo e multimediale, secondo le disposizioni previste dal contratto di servizio e d'intesa con il Ministero della salute, puo' dedicare adeguati spazi ai temi connessi alla Giornata nazionale nell'ambito della programmazione televisiva pubblica nazionale e regionale, mediante iniziative di informazione che possono prevedere il coinvolgimento di medici veterinari di provata esperienza e competenza, anche in collaborazione con l'Ordine dei medici veterinari e le organizzazioni dei medesimi maggiormente rappresentative a livello territoriale, finalizzate a sensibilizzare la popolazione in tema di prevenzione veterinaria, sicurezza alimentare, educazione e promozione della salute secondo l'approccio integrato «One Health» nelle interrelazioni fra le persone, gli animali e l'ambiente, con particolare riferimento ai rischi relativi alla diffusione degli agenti zoonotici e dei microrganismi antibiotico-resistenti e alle azioni e misure di marginalizzazione e contrasto dei medesimi rischi a cura dei singoli e della collettivita'. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le amministrazioni interessate provvedono all'attuazione della presente legge con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri per la finanza pubblica. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 1° aprile 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
