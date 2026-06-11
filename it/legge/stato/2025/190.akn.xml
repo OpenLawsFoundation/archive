@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-12-18/190/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-12-18/190"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-12-18;190"/>
+                    <FRBRalias name="eli" value="eli/id/2025/12/19/25G00198/CONSOLIDATED/20260421"/>
+                    <FRBRdate date="2025-12-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/12/19/25G00198/CONSOLIDATED/20260421" aknrelname="eli/id/2025/12/19/25G00198/CONSOLIDATED/20260421">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Legge annuale per il mercato e la concorrenza 2025. (25G00198)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00198" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-12-18" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-12-18/190/ita@2026-04-21/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-12-18/190/ita@2026-04-21"/>
+                    <FRBRdate date="2026-04-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/12/19/25G00198/CONSOLIDATED/20260421/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/12/19/25G00198/CONSOLIDATED/20260421"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/12/19/25G00198/CONSOLIDATED/20260421/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-12-18/190/ita@2026-04-21/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-12-18/190/ita@2026-04-21.xml"/>
+                    <FRBRdate date="2025-12-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/12/19/25G00198/CONSOLIDATED/20260421/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-12-19" name="" number="294" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-12-19" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2026-02-19" eId="eventRef_1" source="rp1"/>
+                <eventRef date="2026-04-20" eId="eventRef_2" source="rp2"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2025-12-18" refersTo="#S.1578"/>
+                <step by="#camera" date="2025-12-18" refersTo="#C.2682"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1998-10-06;392#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 11) l'abrogazione delle lettere d), e) e f) dell'art. 1, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:legge:2011-11-12;183#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 24) la modifica dell'art. 10, comma 4, lettera b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2012-01-24;1#76"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 8) la modifica dell'art. 76, comma 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2015-12-04;204#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 9, lettera a)) l'introduzione del comma 1-bis all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2015-12-04;204#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 9, lettera b)) la modifica dell'art. 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2015-12-04;204#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 9, lettera c)) la modifica dell'art. 10, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2015-12-04;204#13"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 9, lettera d)) l'introduzione dei commi 1-bis e 1-ter all'art. 13.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2017-04-24;50#48"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 4) l'introduzione del comma 4-bis all'art. 48.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-05-19;34#42"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 15) la modifica dell'art. 42, comma 5; (con l'art. 1, comma 23) l'abrogazione del comma 4 dell'art. 42.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-07-16;76#57"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 3, lettere a) e b)) la modifica dell'art. 57, comma 8.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2021-11-02;179#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 10, lettera a)) l'introduzione del comma 2-bis all'art. 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2021-11-02;179#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 10, lettera b)) la modifica dell'art. 4, comma 1. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2021-11-02;179#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 10, lettera b)) la modifica dell'art. 5, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2021-11-02;179#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 10, lettera b)) la modifica dell'art. 6, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2021-11-02;179#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 10, lettera b)) la modifica dell'art. 7, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2021-11-02;179#14"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 10, lettera c)) l'introduzione del comma 1-bis all'art. 14.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:legge:2022-08-05;118#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 5, lettera a)) l'introduzione del comma 1-bis all'art. 9; (con l'art. 1, comma 5, lettera b) la modifica dell'art. 9, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-12-23;201#30"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) l'introduzione dei commi 1-bis, 1-ter e 1-quater all'art. 30.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-12-23;201#31 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'introduzione dell'art. 31-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-12-18;190#1"/>
+                        <destination href="urn:nir:stato:legge:2024-12-16;193#36"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 12) l'introduzione del comma 1-bis all'art. 36.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((entro il 30 giugno 2026))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-12-18/190/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/DECRETO-LEGGE/stato/2026-02-19/19/!main" showAs=""/>
+                <passiveRef eId="rp2" href="/akn/it/act/LEGGE/stato/2026-04-20/50/!main" showAs=""/>
+                <passiveRef eId="S.1578" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1578" showAs=""/>
+                <passiveRef eId="C.2682" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2682" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/12/19/25G00198/CONSOLIDATED/20260421">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Legge annuale per il mercato e la concorrenza 2025. (25G00198)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00198</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-12-18</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/12/19/25G00198/CONSOLIDATED/20260421/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/12/19/25G00198/CONSOLIDATED/20260421"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/12/19/25G00198/CONSOLIDATED/20260421/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/12/19/25G00198/CONSOLIDATED/20260421/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/190" nativeUrn="urn:nir:stato:legge:2025-12-18;190" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-12-19"><ns0:event type="enacted" date="2025-12-18"/><ns0:event type="published" date="2025-12-19"/><ns0:event type="commenced" date="2025-12-19"/><ns0:event type="amended" date="2026-02-19"/><ns0:event type="amended" date="2026-04-20"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/2ab90c91-df0c-44b1-94e0-4f5c8be7737b" sourceSha256="d44b9f4de406c590604e507fe2eaea79365ac19de5bfffccad625ef49fc17b9f" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T18:07:27.695814Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-12-18">18 dicembre 2025</docDate>
+                <docNumber>190</docNumber>
+                <docTitle>Legge annuale per il mercato e la concorrenza 2025. (25G00198) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 03/01/2026</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato:</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di rafforzare la vigilanza e i controlli degli enti locali, all'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegislativo/stato/2022-12-23/201/!main#art_30" ns1:target="olf:it/decreto-legislativo/stato/2022/201/art_30" ns1:relation="amends">articolo 30 del decreto legislativo 23 dicembre 2022, n. 201</ref>, dopo il comma 1 sono inseriti i seguenti: 
+ «1-bis. Nella ricognizione di cui al comma 1 l'ente, tenendo conto delle valutazioni conclusive sull'andamento della gestione di ciascun servizio affidato, individua le possibili cause dell'eventuale andamento negativo. Se da tali valutazioni emerge un andamento gestionale insoddisfacente per cause dipendenti dall'attivita' del gestore, l'ente adotta un atto di indirizzo, allegato alla ricognizione, con cui impone al gestore di elaborare, entro il termine massimo di tre mesi, un piano per intraprendere le necessarie misure correttive, che include un cronoprogramma di azioni per il ripristino e il miglioramento della qualita' del servizio, per efficientare i costi e per ripianare le eventuali perdite. L'atto di indirizzo e il piano sono trasmessi all'Autorita' nazionale anticorruzione (ANAC) che provvede a pubblicarli sul portale telematico di cui all'articolo 31, comma 2. L'Autorita' garante della concorrenza e del mercato effettua un'attivita' di monitoraggio sugli atti di indirizzo e sull'efficacia delle misure correttive previste e predispone annualmente una relazione al Governo e alle Camere. 
+ 1-ter. L'andamento si considera insoddisfacente ai sensi del comma 1-bis quando: 
+ a) il gestore ha registrato perdite significative negli ultimi due esercizi tali da compromettere le condizioni di equilibrio economico-finanziario; 
+ b) i risultati gestionali risultano significativamente insufficienti rispetto agli obiettivi contrattuali prefissati; 
+ c) almeno due indicatori di qualita' del servizio erogato risultano significativamente inferiori agli indicatori e ai livelli minimi di qualita' dei servizi individuati ai sensi degli articoli 7 e 8. 
+ 1-quater. In caso di grave inadempimento da parte del gestore nell'attuazione del piano di cui al comma 1-bis, si applica l'articolo 27, comma 3». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Nel titolo V del <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/2022-12-23/201/!main" ns2:target="olf:it/decreto-legislativo/stato/2022/201" ns2:relation="amends">decreto legislativo 23 dicembre 2022, n. 201</ref>, dopo l'articolo 31 e' aggiunto il seguente: 
+ «Art. 31-bis (Sanzioni). - 1. L'ANAC applica la sanzione amministrativa pecuniaria prevista dall'articolo 20, comma 7, del testo unico in materia di societa' a partecipazione pubblica, di cui al <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegislativo/stato/2016-08-19/175/!main" ns3:target="olf:it/decreto-legislativo/stato/2016/175" ns3:relation="cites">decreto legislativo 19 agosto 2016, n. 175</ref>, in caso di: 
+ a) mancata adozione da parte dell'ente locale della relazione di cui all'articolo 30, comma 2; 
+ b) mancata pubblicazione della relazione di cui all'articolo 30, comma 2, nel sito internet istituzionale dell'ente affidante ai sensi dell'articolo 31, comma 2; 
+ c) mancata adozione da parte dell'ente locale dell'atto di indirizzo ai sensi dell'articolo 30, comma 1-bis. 
+ 2. In caso di incompletezza della relazione di cui all'articolo 30, comma 2, tale da non consentirne una compiuta valutazione, l'ANAC comunica all'ente locale interessato il termine perentorio, non superiore a trenta giorni, per le integrazioni ritenute necessarie.
+Decorso il termine di cui al primo periodo, l'ANAC applica la sanzione amministrativa pecuniaria di cui al comma 1 del presente articolo». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <list>
+                        <intro eId="art_1__para_3__intro_1">
+                            <p>Per garantire uno sviluppo efficiente del mercato della mobilita' elettrica e assicurare agli utenti condizioni concorrenziali nell'ambito dei servizi offerti dalle infrastrutture di ricarica, in modo da incoraggiare la pluralita' degli operatori, all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2020-07-16/76/!main#art_57-com8" ns4:target="olf:it/decreto-legge/stato/2020/76/art_57-com8" ns4:relation="amends">articolo 57, comma 8, del decreto-legge 16 luglio 2020, n. 76</ref>, convertito, con modificazioni, dalla <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2020-09-11/120/!main" ns5:target="olf:it/legge/stato/2020/120" ns5:relation="cites">legge 11 settembre 2020, n. 120</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_3.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>dopo il primo periodo e' inserito il seguente: «Tali procedure sono strutturate in modo da favorire, a parita' di altre condizioni, la presenza di una pluralita' di soggetti attivi nella gestione delle infrastrutture di ricarica nel territorio comunale»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_3.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>e' aggiunto, in fine, il seguente periodo: «A fronte di richieste di autorizzazione con caratteristiche comparabili, il comune da' priorita' alle istanze provenienti da soggetti che detengono meno del 40 per cento del totale delle infrastrutture di ricarica installate o gia' autorizzate all'installazione nel territorio comunale». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Al fine di rafforzare l'efficienza del servizio pubblico di trasporto ferroviario e su gomma di competenza regionale e di rendere trasparenti le modalita' di gestione dello stesso, all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2017-04-24/50/!main#art_48" ns6:target="olf:it/decreto-legge/stato/2017/50/art_48" ns6:relation="amends">articolo 48 del decreto-legge 24 aprile 2017, n. 50</ref>, convertito, con modificazioni, dalla <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2017-06-21/96/!main" ns7:target="olf:it/legge/stato/2017/96" ns7:relation="cites">legge 21 giugno 2017, n. 96</ref>, dopo il comma 4 e' inserito il seguente: 
+ «4-bis. Agli affidamenti dei servizi di trasporto pubblico regionale si applicano le disposizioni di cui agli articoli 14, commi 2 e 3, 17, 30, 31 e 31-bis del <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2022-12-23/201/!main" ns8:target="olf:it/decreto-legislativo/stato/2022/201" ns8:relation="amends">decreto legislativo 23 dicembre 2022, n. 201</ref>». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <list>
+                        <intro eId="art_1__para_5__intro_1">
+                            <p>Al fine di garantire massima trasparenza sull'affidamento dei servizi di trasporto pubblico ferroviario regionale mediante procedure ad evidenza pubblica, all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2022-08-05/118/!main#art_9" ns9:target="olf:it/legge/stato/2022/118/art_9" ns9:relation="amends">articolo 9 della legge 5 agosto 2022, n. 118</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_5.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>dopo il comma 1 e' inserito il seguente: 
+ «1-bis. Le regioni a statuto ordinario, le regioni a statuto speciale e le province autonome di Trento e di Bolzano trasmettono all'Osservatorio di cui all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2007-12-24/244/!main#art_1-com300" ns10:target="olf:it/legge/stato/2007/244/art_1-com300" ns10:relation="cites">articolo 1, comma 300, della legge 24 dicembre 2007, n. 244</ref>, i calendari delle procedure ad evidenza pubblica programmate per i servizi di trasporto ferroviario regionale sul proprio territorio relativi ai contratti in scadenza, secondo il modello definito con decreto direttoriale del Ministero delle infrastrutture e dei trasporti. I calendari di cui al primo periodo, trasmessi entro il 31 maggio di ciascun anno contestualmente alle attestazioni di cui al comma 1, sono pubblicati nel sito internet istituzionale del Ministero delle infrastrutture e dei trasporti entro i successivi due mesi. In sede di prima applicazione della presente disposizione, i calendari recano evidenza dell'elenco degli affidamenti programmati fino al 2033; all'aggiornamento dei predetti calendari si provvede con le comunicazioni annuali di cui al primo periodo. All'attuazione del presente comma si provvede nell'ambito delle risorse umane, strumentali e finanziarie previste a legislazione vigente e, comunque, senza nuovi o maggiori oneri per la finanza pubblica»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_5.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>al comma 2 e' aggiunto, in fine, il seguente periodo: «Le medesime disposizioni si applicano nel caso di omessa o ritardata trasmissione dei calendari di cui al comma 1-bis nonche' nel caso di incompletezza del loro contenuto». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Entro il 31 dicembre 2026, l'Autorita' di regolazione dei trasporti adotta, ai sensi dell'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegge/stato/2011-12-06/201/!main#art_37-com2-leta" ns11:target="olf:it/decreto-legge/stato/2011/201/art_37-com2-leta" ns11:relation="cites">articolo 37, comma 2, lettere a)</ref> e <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegge/stato/2011-12-06/201/!main#art_37-com2-letf" ns12:target="olf:it/decreto-legge/stato/2011/201/art_37-com2-letf" ns12:relation="cites">f), del decreto-legge 6 dicembre 2011, n. 201</ref>, convertito, con modificazioni, dalla <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2011-12-22/214/!main" ns13:target="olf:it/legge/stato/2011/214" ns13:relation="amends">legge 22 dicembre 2011, n. 214</ref>, specifiche linee guida nel settore dei servizi di trasporto pubblico regionale, volte a migliorare la qualita' dell'affidamento, redatte nel rispetto del regolamento (CE) n. 1370/2007 del Parlamento europeo e del Consiglio, del 23 ottobre 2007. Per le finalita' di cui al primo periodo, l'Autorita' di regolazione dei trasporti avvia entro il 30 giugno 2026 una consultazione pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>All'attuazione dei commi 4, 5 e 6 del presente articolo si provvede nell'ambito delle risorse umane, strumentali e finanziare disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Al fine di semplificare gli oneri amministrativi per i gestori di aeroporti minori, all'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegge/stato/2012-01-24/1/!main#art_76-com6" ns14:target="olf:it/decreto-legge/stato/2012/1/art_76-com6" ns14:relation="amends">articolo 76, comma 6, del decreto-legge 24 gennaio 2012, n. 1</ref>, convertito, con modificazioni, dalla <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2012-03-24/27/!main" ns15:target="olf:it/legge/stato/2012/27" ns15:relation="cites">legge 24 marzo 2012, n. 27</ref>, le parole: «pari o inferiore al milione» sono sostituite dalle seguenti: «inferiore a 5 milioni». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_9">
+                    <num>9.</num>
+                    <list>
+                        <intro eId="art_1__para_9__intro_1">
+                            <p>Al <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2015-12-04/204/!main" ns16:target="olf:it/decreto-legislativo/stato/2015/204" ns16:relation="amends">decreto legislativo 4 dicembre 2015, n. 204</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_9.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>all'articolo 3, dopo il comma 1 e' inserito il seguente: 
+ «1-bis. Alla stessa pena di cui al comma 1 soggiace chiunque fa un impiego professionale di un cosmetico con modalita' difformi dalle indicazioni presenti nella relativa etichettatura, in modo che ne derivi un pericolo alla salute»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_9.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>L'articolo 5 e' sostituito dal seguente: 
+ «Art. 5 (Violazione degli obblighi derivanti dall'articolo 6 del regolamento in materia di obblighi dei distributori e sanzioni in materia di impiego professionale di cosmetici). - 1. Al distributore che non effettua le verifiche di cui all'articolo 6, paragrafo 2, del regolamento, si applica la sanzione amministrativa da euro 10.000 a euro 50.000. La stessa sanzione si applica al distributore che, essendo venuto a conoscenza di uno o piu' fatti specifici dai quali si desume il verificarsi di una delle circostanze indicate dall'articolo 6, paragrafo 3, primo comma, del regolamento, non ottempera agli obblighi ivi previsti, nonche' al distributore che non ottempera agli obblighi previsti dal paragrafo 3, secondo comma, e dai paragrafi 4 e 5 del medesimo articolo 6. 
+ 2. La medesima sanzione amministrativa prevista dal comma 1 si applica a chiunque, al di fuori dei casi previsti dall'articolo 3, faccia un impiego professionale di un cosmetico con modalita' difformi dalle indicazioni presenti nella relativa etichettatura»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_9.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>all'articolo 10, comma 1, le parole: 
+ «Salvo che i fatti costituiscano i piu' gravi reati previsti dall'articolo 3, chiunque» sono sostituite dalle seguenti: «Salvo che i fatti costituiscano una delle fattispecie di cui all'articolo 3 e salvo che i fatti costituiscano piu' gravi reati, chiunque» e le parole: «di cui all'allegato II del regolamento e' punito» sono sostituite dalle seguenti: «di cui all'allegato II del regolamento o chiunque immette in commercio un cosmetico fabbricato con le medesime sostanze e' punito»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_9.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>all'articolo 13, dopo il comma 1 sono inseriti i seguenti: 
+ «1-bis. Salvo che il fatto costituisca piu' grave reato, la persona responsabile di cui all'articolo 4 del regolamento che immette sul mercato un prodotto cosmetico con etichettatura vantante attivita' biocida ai sensi del regolamento (UE) n. 528/2012 del Parlamento europeo e del Consiglio, del 22 maggio 2012, non correlata alla definizione di prodotto cosmetico di cui all'articolo 2, paragrafo 1, lettera a), del regolamento, e' punito con l'arresto fino a tre mesi e con l'ammenda da euro 1.000 a euro 5.000. 
+ 1-ter. Salvo che il fatto costituisca piu' grave reato, la persona responsabile di cui all'articolo 4 del regolamento, che immette sul mercato un prodotto presentato come cosmetico con etichettatura vantante attivita' terapeutica o di profilassi, e' punita con l'arresto fino a un anno e con l'ammenda da euro 1.000 a euro 5.000». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_10">
+                    <num>10.</num>
+                    <list>
+                        <intro eId="art_1__para_10__intro_1">
+                            <p>Al <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/2021-11-02/179/!main" ns17:target="olf:it/decreto-legislativo/stato/2021/179" ns17:relation="amends">decreto legislativo 2 novembre 2021, n. 179</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_10.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>all'articolo 3 e' aggiunto, in fine, il seguente comma: 
+ «2-bis. E' punito con la stessa pena di cui al comma 1 l'utilizzatore non professionale ne' industriale che impiega, in violazione delle relative condizioni di utilizzo indicate nell'autorizzazione, un prodotto biocida autorizzato, o che impiega un prodotto biocida non autorizzato, quando ne derivi il pericolo di contaminazione di persone, di specie animali non bersaglio o dell'ambiente»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_10.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>agli articoli 4, comma 1, 5, comma 1, 6, comma 1, e 7, comma 1, le parole: 
+ «l'ammenda da euro 1.000,00 a euro 10.000,00» sono sostituite dalle seguenti: 
+ «la sanzione amministrativa pecuniaria da euro 5.000 a euro 30.000»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_10.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>all'articolo 14, dopo il comma 1 e' inserito il seguente: 
+ «1-bis. E' punito con la stessa pena di cui al comma 1 l'utilizzatore non professionale ne' industriale che impiega, in violazione delle relative condizioni di utilizzo indicate nell'autorizzazione, un presidio medico-chirurgico autorizzato o impiega un presidio medico-chirurgico non autorizzato, quando ne derivi il pericolo di contaminazione di persone, di specie animali non bersaglio o dell'ambiente». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_11">
+                    <num>11.</num>
+                    <content>
+                        <p>All'articolo 1, comma 1, del regolamento di cui al <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1998-10-06/392/!main#art_letd" ns18:target="olf:it/dpr/stato/1998/392/art_letd" ns18:relation="amends">decreto del Presidente della Repubblica 6 ottobre 1998, n. 392, le lettere d)</ref>, <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1998-10-06/392/!main#art_lete" ns19:target="olf:it/dpr/stato/1998/392/art_lete" ns19:relation="amends">e)</ref> e <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1998-10-06/392/!main#art_letf" ns20:target="olf:it/dpr/stato/1998/392/art_letf" ns20:relation="amends">f)</ref> sono abrogate. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_12">
+                    <num>12.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/2024-12-16/193/!main#art_36" ns21:target="olf:it/legge/stato/2024/193/art_36" ns21:relation="amends">articolo 36 della legge 16 dicembre 2024, n. 193</ref>, dopo il comma 1 e' aggiunto il seguente: 
+ «1-bis. La revisione di cui al comma 1 deve tenere conto, salvaguardando la concorrenza, anche dell'esigenza di garantire la continuita' assistenziale articolata per tipologia di paziente o assistito e relativa fragilita', differenziando, con diverse procedure ad evidenza pubblica, la valutazione tra il rinnovo e le nuove richieste volte alla stipula degli accordi contrattuali di cui all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/1992-12-30/502/!main#art_8quinquies-com1bis" ns22:target="olf:it/decreto-legislativo/stato/1992/502/art_8quinquies-com1bis" ns22:relation="cites">articolo 8-quinquies, comma 1-bis, del decreto legislativo 30 dicembre 1992, n. 502</ref>». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_13">
+                    <num>13.</num>
+                    <content>
+                        <p>Al fine di favorire il trasferimento tecnologico e contribuire alla trasformazione tecnologica delle filiere produttive nazionali, assicurando sinergia di azione tra i soggetti dotati di specifica competenza, sono adottate le misure di finanziamento e di coordinamento previste dai commi da 14 a 23 del presente articolo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_14">
+                    <num>14.</num>
+                    <content>
+                        <p>Il Ministero delle imprese e del made in Italy e il Ministero dell'universita' e della ricerca elaborano congiuntamente, sentita la Conferenza delle regioni e delle province autonome, <ins eId="ins_1">((entro il 30 giugno 2026))</ins>, e successivamente ogni tre anni, un atto di indirizzo strategico in materia di valorizzazione delle conoscenze e di trasferimento tecnologico, con specifiche indicazioni volte a razionalizzare, rafforzare e rendere piu' efficienti gli uffici per il trasferimento tecnologico. La proposta di atto di indirizzo strategico, sottoposta a consultazione pubblica dei soggetti istituzionali competenti e dei portatori di interesse, e' approvata con decreto dei predetti Ministri. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_15">
+                    <num>15.</num>
+                    <content>
+                        <p>In attuazione dell'atto di indirizzo strategico di cui al comma 14, la Fondazione Enea Tech e Biomedical, istituita ai sensi dell'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_42-com5" ns23:target="olf:it/decreto-legge/stato/2020/34/art_42-com5" ns23:relation="amends">articolo 42, comma 5, del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns24:target="olf:it/legge/stato/2020/77" ns24:relation="cites">legge 17 luglio 2020, n. 77</ref>, e' ridenominata «Fondazione Tech e Biomedical» secondo quanto previsto dal comma 20 del presente articolo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_16">
+                    <num>16.</num>
+                    <content>
+                        <p>Per le finalita' di cui ai commi da 13 a 23, le somme giacenti nel conto di tesoreria intestato all'Agenzia nazionale per le nuove tecnologie, l'energia e lo sviluppo economico sostenibile (ENEA), destinate agli interventi del Fondo per il trasferimento tecnologico di cui all'articolo 42, comma l, del citato <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegge/stato/2020/34/!main" ns25:resolution="unresolved">decreto-legge n. 34 del 2020</ref>, disponibili alla data di entrata in vigore della presente legge, nel limite di 250 milioni di euro, sono trasferite alla Fondazione Tech e Biomedical e accreditate sul conto infruttifero aperto presso la Tesoreria dello Stato, intestato alla stessa Fondazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_17">
+                    <num>17.</num>
+                    <content>
+                        <p>Ai fini del raggiungimento dell'obiettivo del trasferimento tecnologico sulla base dell'atto di indirizzo di cui al comma 14, possono concorrere tutte le fondazioni previste dalla legge che hanno competenze, finali o strumentali, connesse o accessorie, i centri di competenza ad alta specializzazione di cui all'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/legge/stato/2016-12-11/232/!main#art_1-com115" ns26:target="olf:it/legge/stato/2016/232/art_1-com115" ns26:relation="cites">articolo 1, comma 115, della legge 11 dicembre 2016, n. 232</ref>, nonche' l'ente nazionale di ricerca e sperimentazione di cui all'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegislativo/stato/1999-10-29/454/!main#art_1" ns27:target="olf:it/decreto-legislativo/stato/1999/454/art_1" ns27:relation="cites">articolo 1 del decreto legislativo 29 ottobre 1999, n. 454</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_18">
+                    <num>18.</num>
+                    <content>
+                        <p>I soggetti di cui al comma 17 possono elaborare specifiche progettualita' da sottoporre alla Fondazione Tech e Biomedical.
+Quest'ultima, valutata la fattibilita' dei progetti e la coerenza con l'atto di indirizzo strategico, propone al Ministero delle imprese e del made in Italy l'assegnazione di un budget per la realizzazione dei progetti ritenuti idonei, nel limite delle risorse di cui al comma 16. La Fondazione Tech e Biomedical, previo assenso del Ministero delle imprese e del made in Italy, eroga le risorse ai soggetti beneficiari per stati di avanzamento del progetto e cura e monitora la realizzazione dello stesso sulla base di una distinta convenzione che prevede, in caso di inadempimento, la revoca immediata delle risorse. Le attivita' di cui al presente comma sono regolate da apposita convenzione a titolo gratuito tra la Fondazione Tech e Biomedical e il Ministero delle imprese e del made in Italy. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_19">
+                    <num>19.</num>
+                    <content>
+                        <p>La Fondazione Tech e Biomedical verifica i risultati annuali concernenti i progetti di pertinenza e gli obiettivi di performance conseguiti dai singoli soggetti in relazione alla gestione del budget assegnato e ne tiene conto, ove possibile, secondo criteri basati sulla qualita' della ricerca, sui risultati del trasferimento tecnologico, sul numero di spin off generati e secondo criteri di managerialita' e premialita', nella ripartizione del budget per le annualita' successive. La relazione annuale sull'attivita' di monitoraggio e verifica dei risultati e' trasmessa al Ministero delle imprese e del made in Italy, al Ministero dell'universita' e della ricerca, al Ministero dell'economia e delle finanze e alle altre amministrazioni interessate. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_20">
+                    <num>20.</num>
+                    <list>
+                        <intro eId="art_1__para_20__intro_1">
+                            <p>A decorrere dalla data di entrata in vigore della presente legge, in ragione dei mutati compiti di cui ai commi 15, 17, 18 e 19, la Fondazione Enea Tech e Biomedical assume la nuova denominazione di «Fondazione Tech e Biomedical» e, conseguentemente, ogni richiamo alla Fondazione Enea Tech e Biomedical contenuto in disposizioni normative vigenti deve intendersi riferito alla Fondazione Tech e Biomedical. La composizione degli organi di governo e' modificata come segue: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_20.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>il presidente, che presiede il consiglio direttivo e ha la rappresentanza legale dell'ente, designato dal Ministro delle imprese e del made in Italy, di concerto con il Ministro della salute e con il Ministro dell'universita' e della ricerca; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_20.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>il consiglio direttivo, formato dal presidente, nominato ai sensi della lettera a), e da tre membri, uno nominato su proposta del Ministro delle imprese e del made in Italy, uno nominato su proposta del Ministro della salute e uno nominato su proposta del Ministro dell'universita' e della ricerca. In caso di parita' di voti all'interno del consiglio direttivo, prevale il voto del presidente.
+Il presidente e i membri del consiglio direttivo sono scelti tra soggetti dotati di requisiti di onorabilita' e indipendenza nonche' di specifica competenza professionale in campo economico, medico-scientifico e istituzionale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_20.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>il collegio dei revisori dei conti, composto da tre membri effettivi e da tre supplenti nominati, rispettivamente, dal Ministro dell'economia e delle finanze, con funzioni di presidente, dal Ministro delle imprese e del made in Italy e dal Ministro della salute. Con le medesime modalita' sono nominati i membri supplenti. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_21">
+                    <num>21.</num>
+                    <content>
+                        <p>Lo statuto della Fondazione Tech e Biomedical prevede la costituzione di strutture dedicate per la realizzazione dei programmi di cui ai commi da 13 a 20. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_22">
+                    <num>22.</num>
+                    <content>
+                        <p>Alle nomine dei componenti degli organi di cui al comma 20 si procede con decreto del Presidente del Consiglio dei ministri. Gli organi della Fondazione Enea Tech e Biomedical nominati prima della data di entrata in vigore della presente legge decadono e restano in carica per i soli atti di ordinaria amministrazione fino alla nomina dei nuovi organi. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_23">
+                    <num>23.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_42" ns28:target="olf:it/decreto-legge/stato/2020/34/art_42" ns28:relation="amends">articolo 42 del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/2020-07-17/77/!main#art_com4" ns29:target="olf:it/legge/stato/2020/77/art_com4" ns29:relation="cites">legge 17 luglio 2020, n. 77, il comma 4</ref> e' abrogato. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_24">
+                    <num>24.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/2011-11-12/183/!main#art_10-com4-letb" ns30:target="olf:it/legge/stato/2011/183/art_10-com4-letb" ns30:relation="amends">articolo 10, comma 4, lettera b), della legge 12 novembre 2011, n. 183</ref>, il secondo periodo e' sostituito dai seguenti: «In ogni caso il numero dei soci professionisti ovvero, in alternativa, la partecipazione al capitale sociale dei professionisti deve essere tale da determinare la maggioranza di due terzi nelle deliberazioni o decisioni dei soci, tenuto conto delle regole stabilite per il modello societario prescelto. A tal fine nessun rilievo hanno i patti sociali o parasociali che derogano alle regole predette. Il venir meno della condizione costituisce causa di scioglimento della societa' e il consiglio dell'ordine o collegio professionale presso il quale e' iscritta la societa' procede alla cancellazione della stessa dall'albo, salvo che la societa' non abbia provveduto a ripristinarla nel termine perentorio di sei mesi. Sono fatte salve le disposizioni speciali previste negli ordinamenti di singole professioni». 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 18 dicembre 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Urso, Ministro delle imprese e del made in Italy Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
