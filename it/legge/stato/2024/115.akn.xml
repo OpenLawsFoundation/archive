@@ -1,0 +1,757 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/115/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/115"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-08-08;115"/>
+                    <FRBRalias name="eli" value="eli/id/2024/08/13/24G00131/ORIGINAL"/>
+                    <FRBRdate date="2024-08-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/13/24G00131/ORIGINAL" aknrelname="eli/id/2024/08/13/24G00131/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 25 giugno 2024, n. 84, recante disposizioni urgenti sulle materie prime critiche di interesse strategico. (24G00131)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00131" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-08-08" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/115/ita@2024-08-14/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/115/ita@2024-08-14"/>
+                    <FRBRdate date="2024-08-14" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/13/24G00131/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/08/13/24G00131/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/08/13/24G00131/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/115/ita@2024-08-14/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/115/ita@2024-08-14.xml"/>
+                    <FRBRdate date="2024-08-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/13/24G00131/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-08-13" name="" number="189" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-08-13" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2024-08-08" refersTo="#C.1930"/>
+                <step by="#senato" date="2024-08-08" refersTo="#S.1207"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#57 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 25 giugno 2024, n. 84 (in G.U. 25/06/2024, n. 147).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2008-05-30;117#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 25 giugno 2024, n. 84 (in G.U. 25/06/2024, n. 147).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2008-05-30;117#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 25 giugno 2024, n. 84 (in G.U. 25/06/2024, n. 147).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2008-05-30;117#5 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 25 giugno 2024, n. 84 (in G.U. 25/06/2024, n. 147).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2011-07-06;98#33"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 25 giugno 2024, n. 84 (in G.U. 25/06/2024, n. 147).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2014-03-14;49#10"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 25 giugno 2024, n. 84 (in G.U. 25/06/2024, n. 147).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2014-03-14;49#24 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 25 giugno 2024, n. 84 (in G.U. 25/06/2024, n. 147).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-03-21;21#30"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 25 giugno 2024, n. 84 (in G.U. 25/06/2024, n. 147).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#1"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#2"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#3"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 3, 5, 6, 7 e 9. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#4"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 3 e 6 e l'introduzione dei commi 7-bis e 7-ter all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#5"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, commi 1, 2 e 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#6"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, commi 2, 3, lettere c), e), f), 4, 5, 6, 7 e 8.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#7"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, commi 1, lettera d), 2, 3 e l'introduzione della lettera h-bis) all'art. 7, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#8"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, commi 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#9"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9, commi 1 e 2, lettere a), b) e c).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#9 bis"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 9-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#10"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, commi 1, 2, 3, alinea, 6, 7 e 8.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#11"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 11, commi 2 e 4. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#13"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 13, comma 2. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#14"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 14, comma 1, lettere a), b) e l'introduzione della lettera a-bis) all'art. 14, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#14 bis"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 14-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#15"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 15, comma 1, lettera b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;115#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2024-06-25;84#16"/>
+                        <new>
+                            <nakn:text>, di conversione ha disposto (con l'art. 1, comma 1) la modifica dell'art. 16, comma 1, lettera b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_1__para_1"/>
+                        <old href="#modNov_1_old_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_2__para_1"/>
+                        <new href="#modNov_2_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_3__para_3"/>
+                        <old href="#modNov_3_old_20"/>
+                        <new href="#modNov_3_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_3__para_5"/>
+                        <old href="#modNov_3_old_25"/>
+                        <new href="#modNov_3_new_25"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_3__para_6"/>
+                        <new href="#modNov_3_new_26"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_3__para_6"/>
+                        <old href="#modNov_3_old_27"/>
+                        <new href="#modNov_3_new_27"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_3__para_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_3__para_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_4__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_4__para_6"/>
+                        <old href="#modNov_4_old_22"/>
+                        <new href="#modNov_4_new_22"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_4"/>
+                        <new href="#modNov_4_new_23"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_5__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_5__para_1"/>
+                        <old href="#modNov_5_old_30"/>
+                        <new href="#modNov_5_new_30"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_5__para_5"/>
+                        <old href="#modNov_5_old_31"/>
+                        <new href="#modNov_5_new_31"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_6__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_6__para_8"/>
+                        <new href="#modNov_6_new_33"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_6__para_3__point_c"/>
+                        <old href="#modNov_6_old_34"/>
+                        <new href="#modNov_6_new_34"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_6__para_3__point_e"/>
+                        <old href="#modNov_6_old_35"/>
+                        <new href="#modNov_6_new_35"/>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_6__para_3__point_f"/>
+                        <old href="#modNov_6_old_36"/>
+                        <new href="#modNov_6_new_36"/>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_6__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_6__para_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_6__para_6"/>
+                        <old href="#modNov_6_old_39"/>
+                        <new href="#modNov_6_new_39"/>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_6__para_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_7__para_3"/>
+                        <old href="#modNov_7_old_49"/>
+                        <new href="#modNov_7_new_49"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_7__para_1__point_d"/>
+                        <old href="#modNov_7_old_42"/>
+                        <new href="#modNov_7_new_42"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_7__para_1__point_h-bis"/>
+                        <new href="#modNov_7_new_43"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_7__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_7__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_8__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="insertion">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_8__para_2"/>
+                        <new href="#modNov_8_new_46"/>
+                    </textualMod>
+                    <textualMod eId="amod_55" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_8__para_2"/>
+                        <old href="#modNov_8_old_47"/>
+                        <new href="#modNov_8_new_47"/>
+                    </textualMod>
+                    <textualMod eId="amod_56" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_9__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_57" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_9__para_2__point_b"/>
+                        <old href="#modNov_9_old_51"/>
+                        <new href="#modNov_9_new_51"/>
+                    </textualMod>
+                    <textualMod eId="amod_58" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_9__para_2__point_c"/>
+                        <old href="#modNov_9_old_52"/>
+                        <new href="#modNov_9_new_52"/>
+                    </textualMod>
+                    <textualMod eId="amod_59" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_9__para_2__point_a"/>
+                        <old href="#modNov_9_old_41"/>
+                        <new href="#modNov_9_new_41"/>
+                    </textualMod>
+                    <textualMod eId="amod_60" type="insertion">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_9-bis"/>
+                        <new href="#modNov_10_new_53"/>
+                    </textualMod>
+                    <textualMod eId="amod_61" type="insertion">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_10__para_1"/>
+                        <new href="#modNov_11_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_62" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_10__para_2"/>
+                        <old href="#modNov_11_old_3"/>
+                        <new href="#modNov_11_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_63" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_10__para_3"/>
+                        <old href="#modNov_11_old_5"/>
+                        <new href="#modNov_11_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_64" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_10__para_6"/>
+                        <new href="#modNov_11_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_65" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_10__para_7"/>
+                        <old href="#modNov_11_old_7"/>
+                        <new href="#modNov_11_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_66" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_10__para_8"/>
+                        <old href="#modNov_11_old_8"/>
+                        <new href="#modNov_11_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_67" type="insertion">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_10__para_8"/>
+                        <new href="#modNov_11_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_68" type="substitution">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_11__para_4"/>
+                        <old href="#modNov_12_old_4"/>
+                        <new href="#modNov_12_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_69" type="substitution">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_11__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_70" type="substitution">
+                        <source href="#modNov_13"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_13__para_2"/>
+                        <old href="#modNov_13_old_11"/>
+                        <new href="#modNov_13_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_71" type="substitution">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_14__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_72" type="insertion">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_14__para_1__point_a-bis"/>
+                        <new href="#modNov_14_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_73" type="substitution">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_14__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_74" type="insertion">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_14-bis"/>
+                        <new href="#modNov_15_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_75" type="insertion">
+                        <source href="#modNov_16"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_15__para_1__point_b"/>
+                        <new href="#modNov_16_new_17"/>
+                    </textualMod>
+                    <textualMod eId="amod_76" type="substitution">
+                        <source href="#modNov_16"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_15__para_1__point_b"/>
+                        <old href="#modNov_16_old_12"/>
+                        <new href="#modNov_16_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_77" type="insertion">
+                        <source href="#modNov_17"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2024-06-25/84/ita@2024-08-14/!main/~art_16__para_1__point_b"/>
+                        <new href="#modNov_17_new_18"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-08-08/115/!main" showAs=""/>
+                <passiveRef eId="C.1930" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1930" showAs=""/>
+                <passiveRef eId="S.1207" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1207" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/08/13/24G00131/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 25 giugno 2024, n. 84, recante disposizioni urgenti sulle materie prime critiche di interesse strategico. (24G00131)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00131</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-08-08</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/08/13/24G00131/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/08/13/24G00131/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/08/13/24G00131/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/08/13/24G00131/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/115" nativeUrn="urn:nir:stato:legge:2024-08-08;115" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-08-13"><ns0:event type="enacted" date="2024-08-08"/><ns0:event type="published" date="2024-08-13"/><ns0:event type="commenced" date="2024-08-13"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/37846630-d96c-44a6-b6c7-85f05620c535" sourceSha256="96091e094f7e40bc6ed67d69459fa2b353545f081e09f96cbb8fb4a5a7343682" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:09:05.279190Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-08-08">08 agosto 2024</docDate>
+                <docNumber>115</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 25 giugno 2024, n. 84, recante disposizioni urgenti sulle materie prime critiche di interesse strategico. (24G00131) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 14/08/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2024-06-25/84/!main" ns1:target="olf:it/decreto-legge/stato/2024/84" ns1:relation="amends">decreto-legge 25 giugno 2024, n. 84</ref>, recante disposizioni urgenti sulle materie prime critiche di interesse strategico, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2024-06-25/84/!main" ns2:target="olf:it/decreto-legge/stato/2024/84" ns2:relation="amends">decreto-legge 25 giugno 2024, n. 84</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 147 del 25 giugno 2024. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. xxx. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 8 agosto 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Urso, Ministro delle imprese e del made in Italy Pichetto Fratin, Ministro dell'ambiente e della sicurezza energetica Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/115/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/115"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-08-08;115"/>
+                                <FRBRalias name="eli" value="eli/id/2024/08/13/24G00131/ORIGINAL"/>
+                                <FRBRdate date="2024-08-14" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/115/ita@2024-08-14/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/115/ita@2024-08-14"/>
+                                <FRBRdate date="2024-08-14" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/115/ita@2024-08-14/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/115/ita@2024-08-14.xml"/>
+                                <FRBRdate date="2024-08-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ MODIFICAZIONI APPORTATE 
+ IN SEDE DI CONVERSIONE 
+ AL DECRETO-LEGGE 25 GIUGNO 2024, N. 84 
+ 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1, le parole: «<quotedText eId="modNov_1_old_1">
+                                            <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/regolamento//2024/1252/!main" ns4:resolution="unresolved">regolamento (UE) 2024/1252</ref>, del</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_1">
+                                            <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/regolamento//2024/1252/!main" ns5:resolution="unresolved">regolamento (UE) 2024/1252</ref> del</quotedText>».</mod>
+                                    <mod eId="modNov_2">All'articolo 2: 
+ al comma 1, dopo le parole: «dal Ministro della difesa» sono inserite le seguenti: «<quotedText eId="modNov_2_new_19">, dall'Autorita' delegata di cui all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2007-08-03/124/!main#art_3" ns6:target="olf:it/legge/stato/2007/124/art_3" ns6:relation="cites">articolo 3 della legge 3 agosto 2007, n. 124</ref>, ove istituita,</quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 3: 
+ al comma 3, secondo periodo, le parole: «<quotedText eId="modNov_3_old_20">secondo comma</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_20">primo comma, secondo periodo</quotedText>»; 
+ al comma 5, le parole: «<quotedText eId="modNov_3_old_25">un massimo di</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_25">non piu' di</quotedText>»; 
+ al comma 6, le parole: <quotedText eId="modNov_3_old_27">«programmi lavori</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_27">programmi dei lavori</quotedText>» e dopo le parole: «previsti dal» sono inserite le seguenti: «<quotedText eId="modNov_3_new_26">regolamento di cui al</quotedText>»; 
+ al comma 7: 
+ al primo periodo, le parole: «la elaborazione» sono sostituite dalle seguenti: «il trattamento» e le parole: «della miniera, sono» sono sostituite dalle seguenti: «della miniera sono»;  al secondo periodo, la parola: «vincolo» e' sostituita dalle seguenti: «il vincolo»; 
+ al comma 9: 
+ al primo periodo, dopo le parole: «ai sensi» sono inserite le seguenti: «del <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1959-04-09/128/!main" ns7:target="olf:it/dpr/stato/1959/128" ns7:relation="cites">decreto del Presidente della Repubblica 9 aprile 1959, n. 128</ref>, del <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/1996-11-25/624/!main" ns8:target="olf:it/decreto-legislativo/stato/1996/624" ns8:relation="cites">decreto legislativo 25 novembre 1996, n. 624</ref>, e»; 
+ al secondo periodo, dopo le parole: «n. 1443, e al» sono inserite le seguenti: «regolamento di cui al».</mod>
+                                    <mod eId="modNov_4">All'articolo 4: 
+ al comma 3: 
+ al secondo periodo, le parole: «secondo comma» sono sostituite dalle seguenti: «primo comma, secondo periodo»; 
+ al terzo periodo, le parole: «che non supera» sono sostituite dalle seguenti: «la cui durata massima non supera»; 
+ al comma 6, la parola: «<quotedText eId="modNov_4_old_22">ricompresa</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_4_new_22">compresa,</quotedText>»; 
+ dopo il comma 7 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_4_new_23">7-bis. Per lo svolgimento delle funzioni amministrative di cui al presente decreto, il Ministero dell'ambiente e della sicurezza energetica e' autorizzato a indire procedure concorsuali pubbliche, anche tramite scorrimento di vigenti graduatorie di concorsi pubblici, e ad assumere, in deroga alle ordinarie facolta' assunzionali e nell'ambito della vigente dotazione organica, nel biennio 2024-2025, con contratto di lavoro subordinato a tempo indeterminato, un contingente di venti unita' di personale da inquadrare nell'area dei funzionari del contratto collettivo nazionale di lavoro 2019-2021 - Comparto funzioni centrali. Nelle more della conclusione delle procedure concorsuali di cui al primo periodo, il Ministero dell'ambiente e della sicurezza energetica puo' avvalersi di un contingente di venti unita' di personale dell'area dei funzionari, in posizione di comando, proveniente da altre pubbliche amministrazioni, a esclusione del personale docente, educativo, amministrativo, tecnico e ausiliario delle istituzioni scolastiche. Per l'attuazione del presente comma sono autorizzate la spesa di 336.049 euro per l'anno 2024 e di 1.008.146 euro annui a decorrere dall'anno 2025 per gli oneri di personale nonche' la spesa di 10.267 euro per l'anno 2024 e di 30.800 euro annui a decorrere dall'anno 2025 per l'erogazione di buoni pasto. Per lo svolgimento delle procedure concorsuali pubbliche di cui al presente comma e' autorizzata la spesa di 72.100 euro per l'anno 2024. Per le maggiori spese di funzionamento connesse all'assunzione del personale di cui al presente comma e' autorizzata la spesa di 42.600 euro per l'anno 2024. 
+ 7-ter. Agli oneri derivanti dal comma 7-bis, pari a 461.016 euro per l'anno 2024 e a 1.038.946 euro annui a decorrere dall'anno 2025, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'ambiente e della sicurezza energetica</quotedText>».</mod>
+                                    <mod eId="modNov_5">All'articolo 5: 
+ al comma 1, secondo periodo, le parole: «<quotedText eId="modNov_5_old_30">punto di contatto unico</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_30">punto unico di contatto</quotedText>»; 
+ al comma 2, al terzo periodo, dopo le parole: «e nulla osta» e' inserito il seguente segno d'interpunzione: «,» e, al sesto periodo, dopo le parole: «comma 6» e' inserito il seguente segno d'interpunzione: «,»; 
+ al comma 5, secondo periodo, la parola: «<quotedText eId="modNov_5_old_31">interessata</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_5_new_31">competente</quotedText>».</mod>
+                                    <mod eId="modNov_6">All'articolo 6: 
+ al comma 2<quotedText eId="modNov_6_new_33">,</quotedText> la parola: «indicate» e' sostituita dalla seguente: «indicati» e le parole: «disponibili, nonche'» sono sostituite dalle seguenti: «disponibili nonche'»; 
+ al comma 3: 
+ alla lettera c), le parole: «<quotedText eId="modNov_6_old_34">di vulnerabilita', di cui all'articolo 11, comma 1, e resilienza</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_34">di vulnerabilita' e resilienza, di cui all'articolo 11, comma 1,</quotedText>»; 
+ alla lettera e), le parole: «<quotedText eId="modNov_6_old_35">e di monitoraggio</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_35">e del monitoraggio</quotedText>»; 
+ alla lettera f), le parole: «<quotedText eId="modNov_6_old_36">o l'aumento</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_36">o all'aumento</quotedText>»; 
+ al comma 4, la parola: «ossia,» e' sostituita dalla seguente: «ossia»; 
+ al comma 5, al primo periodo, la parola: «ciascuno» e' sostituita dalle seguenti: «per ciascuno» e, al secondo periodo, le parole: «due rappresentanti della Conferenza unificata di cui uno nominato dalle regioni» sono sostituite dalle seguenti: «e tre rappresentanti della Conferenza unificata, di cui due nominati dalle regioni e dalle province autonome di Trento e di Bolzano tra i rappresentanti delle stesse»; 
+ al comma 6, le parole: «<quotedText eId="modNov_6_old_39">di spesa</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_39">di spese</quotedText>»; 
+ al comma 7, quarto periodo, le parole: «e' autorizzata» sono sostituite dalle seguenti: «sono autorizzate» e le parole: «e di euro» sono sostituite dalle seguenti: «e una spesa di euro»; 
+ al comma 8, dopo le parole: «dall'anno 2025» e' inserito il seguente segno d'interpunzione: «,».</mod>
+                                    <mod eId="modNov_7">All'articolo 7: 
+ al comma 1: 
+ alla lettera d), le parole: «<quotedText eId="modNov_7_old_42">tunnel o cave</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_42">gallerie o aree minerarie</quotedText>»; 
+ dopo la lettera h) e' aggiunta la seguente: 
+ «<quotedText eId="modNov_7_new_43">h-bis) campionamento e analisi del contenuto minerale di fluidi geotermici in pozzi e perforazioni esistenti, tramite utilizzo delle migliori tecniche disponibili</quotedText>»; 
+ al comma 2: 
+ al primo periodo, le parole: «punto di contatto» sono sostituite dalle seguenti: «punto unico di contatto»; 
+ il terzo periodo e' sostituito dal seguente: «Le funzioni di vigilanza e di controllo sui progetti di ricerca di cui al comma 1 e sul rispetto dei requisiti ivi previsti sono svolte dagli enti territoriali competenti in materia di attivita' estrattive, dall'ISPRA e dalla Sovrintendenza territorialmente competente, ciascuno per i profili di rispettiva competenza»; 
+ al quarto periodo, la parola: «inosservanza» e' sostituita dalla seguente: «inosservanze» e le parole: «l'adozione del relativo provvedimento» sono sostituite dalle seguenti: «l'adozione del provvedimento di decadenza del permesso di ricerca di cui al medesimo comma 1»; 
+ al comma 3: 
+ al primo periodo, le parole: «<quotedText eId="modNov_7_old_49">dell'Ambiente</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_49">dell'ambiente</quotedText>» e dopo la parola: «finanze» sono inserite le seguenti: «, da adottare entro novanta giorni dalla data di entrata in vigore della legge di conversione del presente decreto,»; 
+ e' aggiunto, in fine, il seguente periodo: «Gli enti territorialmente competenti in materia di attivita' estrattive svolgono le funzioni di cui al comma 2 con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente».</mod>
+                                    <mod eId="modNov_8">All'articolo 8: 
+ al comma 2<quotedText eId="modNov_8_new_46">,</quotedText> le parole: «<quotedText eId="modNov_8_old_47">di intesa con la</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_8_new_47">previa intesa in sede di</quotedText>» e dopo le parole: «secondo periodo» e' inserito il seguente segno d'interpunzione: «,»; 
+ al comma 3, primo periodo, le parole: «al momento della data» sono sostituite dalle seguenti: «alla data» e la parola: «previste» e' sostituita dalla seguente: «previsti».</mod>
+                                    <mod eId="modNov_9">All'articolo 9: 
+ al comma 1, primo periodo, le parole: «regolamento (UE) 1252/ 2024» sono sostituite dalle seguenti: «<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/regolamento//2024/1252/!main" ns9:resolution="unresolved">regolamento (UE) 2024/1252</ref>» e la parola: «<quotedText eId="modNov_9_old_52">incluse</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_9_new_52">comprese</quotedText>»; 
+ al comma 2: 
+ alla lettera a), le parole: «<quotedText eId="modNov_9_old_41">dopo le parole: "lettera d)" sono aggiunte le seguenti: "e d-bis)"</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_9_new_41">le parole: "lettera d)" sono sostituite dalle seguenti: "lettere d) e d-bis)"</quotedText>»; 
+ alla lettera b), numero 1), lettera d-bis), le parole: «<quotedText eId="modNov_9_old_51">del presente decreto</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_9_new_51">della presente disposizione</quotedText>»; 
+ alla lettera c), capoverso Art. 5-bis, comma 4, la parola: «incluse» e' sostituita dalla seguente: «comprese».</mod>
+                                    <mod eId="modNov_10">Dopo l'articolo 9 e' inserito il seguente: 
+ «<quotedText eId="modNov_10_new_53">Art. 9-bis (Norme in materia di corretta gestione del fine vita dei pannelli fotovoltaici incentivati). - 1. Al fine del raggiungimento degli obiettivi per il 2030 fissati dal regolamento (UE) 2024/1252 del Parlamento europeo e del Consiglio, dell'11 aprile 2024, in tema di riciclo anche attraverso l'integrazione della copertura della quota di consumo di materie prime strategiche con le materie prime secondarie, al <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegislativo/stato/2014-03-14/49/!main" ns10:target="olf:it/decreto-legislativo/stato/2014/49" ns10:relation="amends">decreto legislativo 14 marzo 2014, n. 49</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 10, dopo il comma 10 e' inserito il seguente: 
+ "10.1. Per la vigilanza e il controllo sulle attivita' di cui ai commi da 3 a 10 dei sistemi collettivi che gestiscono rifiuti di pannelli fotovoltaici, i Ministeri di riferimento possono avvalersi del Gestore dei servizi energetici - GSE S.p.A."; 
+ b) all'articolo 24-bis, comma 1: 
+ 1) al quarto periodo, le parole: "30 giugno 2024" sono sostituite dalle seguenti: "31 dicembre 2024"; 
+ 2) dopo il nono periodo sono inseriti i seguenti: "A decorrere dal 1° gennaio 2025, il GSE prevede, nell'ambito delle istruzioni operative, due finestre temporali annuali di durata pari a sessanta giorni, entro le quali i soggetti responsabili degli impianti possono comunicare allo stesso GSE la scelta di partecipare a un sistema collettivo. Le procedure per l'invio della documentazione di adesione ai sistemi collettivi sono indicate nelle stesse istruzioni operative". 
+ 2. Le attivita' derivanti dalle disposizioni di cui al comma 1 sono svolte dal Gestore dei servizi energetici - GSE S.p.A., nell'ambito di quelle allo stesso gia' attribuite, con le risorse umane, strumentali e finanziarie destinate allo scopo a legislazione vigente</quotedText>».</mod>
+                                    <mod eId="modNov_11">All'articolo 10: 
+ al comma 1<quotedText eId="modNov_11_new_9">,</quotedText> dopo le parole: «e la ricerca ambientale» e' inserita la seguente: «<quotedText eId="modNov_11_new_2">(ISPRA)</quotedText>»; 
+ al comma 2, le parole: <quotedText eId="modNov_11_old_3">«milestone e target</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_11_new_3">obiettivi intermedi e finali</quotedText>»; 
+ al comma 3, alinea, la parola: «<quotedText eId="modNov_11_old_5">include</quotedText>» e' sostituita dalle seguenti: «<quotedText eId="modNov_11_new_5">comprende le seguenti attivita'</quotedText>»; 
+ al comma 6, le parole da: «sul sito internet» fino alla fine del comma sono sostituite dalle seguenti: «<quotedText eId="modNov_11_new_6">nei siti internet istituzionali del Ministero delle imprese e del made in Italy, del Ministero dell'ambiente e della sicurezza energetica nonche' delle regioni e delle province autonome di Trento e di Bolzano territorialmente interessate</quotedText>»; 
+ al comma 7, primo periodo, le parole: «<quotedText eId="modNov_11_old_7">e' pubblicata sul sito internet di ISPRA</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_11_new_7">, e' pubblicata nel sito internet dell'ISPRA</quotedText>»; 
+ al comma 8, la parola: «<quotedText eId="modNov_11_old_8">inclusi</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_11_new_8">, compresi</quotedText>» e dopo le parole: «vettori di materie prime critiche» e' inserito il seguente segno d'interpunzione: «,».</mod>
+                                    <mod eId="modNov_12">All'articolo 11: 
+ al comma 2: 
+ al secondo periodo, la parola: «definite» e' sostituita dalla seguente: «definiti» e le parole: «la tempistica» sono sostituite dalle seguenti: «i tempi»; 
+ al terzo periodo, le parole: «rottami ferrosi» sono sostituite dalle seguenti: «rottami metallici» e le parole: «le tempistiche indicate» sono sostituite dalle seguenti: «i tempi indicati»; 
+ al comma 4, secondo periodo, le parole: «<quotedText eId="modNov_12_old_4">si provvede, mediante</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_12_new_4">si provvede mediante</quotedText>».</mod>
+                                    <mod eId="modNov_13">All'articolo 13: 
+ al comma 2, capoverso 8-septies, alinea, le parole: «<quotedText eId="modNov_13_old_11">dell'articolo</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_13_new_11">di cui all'articolo</quotedText>».</mod>
+                                    <mod eId="modNov_14">All'articolo 14: 
+ al comma 1: 
+ alla lettera a), le parole: «dopo le parole: "I rottami ferrosi" sono inserite le seguenti: "ricompresi nel codice 7204"» sono sostituite dalle seguenti: «le parole: "I rottami ferrosi" sono sostituite dalle seguenti: "I rottami metallici compresi nei codici 7204, 7404, 7602 e 7902"» e la parola: «comune,» e' sostituita dalla seguente: «comune»; 
+ dopo la lettera a) e' inserita la seguente: 
+ «<quotedText eId="modNov_14_new_14">a-bis) al comma 1 e' aggiunto, in fine, il seguente periodo: "Con il medesimo procedimento di cui al primo periodo possono essere indicate, in deroga ai periodi secondo e terzo, le quantita' di cui ai codici 7404, 7602 e 7902 che devono essere oggetto di notifica ai sensi del comma 2"</quotedText>»; 
+ alla lettera b), capoverso 3-ter, le parole: «a compensi» sono sostituite dalle seguenti: «all'erogazione di compensi» e le parole: «rimborsi spese» sono sostituite dalle seguenti: «rimborsi di spese».</mod>
+                                    <mod eId="modNov_15">Dopo l'articolo 14 e' inserito il seguente: 
+ «<quotedText eId="modNov_15_new_16">Art. 14-bis (Disposizioni per l'approvvigionamento urgente di ulteriori materie prime). - 1. Per consentire l'approvvigionamento urgente delle materie prime necessarie alle filiere produttive del made in Italy, non comprese nel regolamento (UE) 2024/1252 del Parlamento europeo e del Consiglio, dell'11 aprile 2024, il CITE, integrato ai sensi dell'articolo 2, comma 1, del presente decreto, su proposta del Comitato tecnico di cui all'articolo 6, sentita la Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, puo' individuare progetti minerari di interesse strategico nazionale per i quali si applicano le disposizioni procedimentali di semplificazione e i poteri sostitutivi di cui al comma 3 del presente articolo. 
+ 2. La valutazione dell'interesse strategico nazionale dei progetti minerari di cui al comma 1 tiene conto dell'effettiva sussistenza di un fabbisogno nazionale della materia prima oggetto dei progetti stessi, che devono essere correlati a filiere strategiche del made in Italy, e dell'estensione dell'ambito di applicazione dei progetti di estrazione anche alle fasi, da svolgere nel territorio nazionale, della raffinazione e della trasformazione. 
+ 3. Al procedimento di rilascio dei titoli autorizzativi relativi ai progetti minerari di cui al comma 1 si applicano i termini massimi di cui agli articoli 3, comma 3, 4, comma 3, e 5, comma 2. 
+ 4. In caso di inerzia o di ritardo degli organi competenti al rilascio degli atti concessori o autorizzativi relativi ai progetti di cui al comma 1, il proponente puo' darne segnalazione al Comitato tecnico di cui all'articolo 6. Il Comitato tecnico, attraverso l'Unita' di missione di cui all'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegge/stato/2022-05-17/50/!main#art_30-com1bis" ns11:target="olf:it/decreto-legge/stato/2022/50/art_30-com1bis" ns11:relation="amends">articolo 30, comma 1-bis, del decreto-legge 17 maggio 2022, n. 50</ref>, convertito, con modificazioni, dalla <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2022-07-15/91/!main" ns12:target="olf:it/legge/stato/2022/91" ns12:relation="cites">legge 15 luglio 2022, n. 91</ref>, assegna all'organo competente un termine massimo pari a quindici giorni per provvedere. In caso di perdurante inerzia, il Comitato tecnico trasmette gli atti al punto unico di contatto, di cui agli articoli 3, 4 o 5 del presente decreto, competente per la categoria alla quale appartiene il progetto. Il punto unico di contatto competente provvede in sostituzione dell'organo inadempiente entro i successivi sessanta giorni. 
+ 5. Le amministrazioni competenti provvedono all'attuazione del presente articolo nei limiti delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente e, comunque, senza nuovi o maggiori oneri a carico della finanza pubblica. 
+ 6. Ai progetti minerari di cui al comma 1 del presente articolo si applicano gli articoli 8 e 12</quotedText>».</mod>
+                                    <mod eId="modNov_16">All'articolo 15: 
+ al comma 1, lettera b), capoverso 2-bis, dopo la parola: «CITE» sono inserite le seguenti: «<quotedText eId="modNov_16_new_17">, sentite le regioni e le province autonome di Trento e di Bolzano interessate,</quotedText>» e le parole: «<quotedText eId="modNov_16_old_12">regolamento (UE) 1252/ 2024</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_16_new_12">
+                                            <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/regolamento//2024/1252/!main" ns13:resolution="unresolved">regolamento (UE) 2024/1252</ref>
+                                        </quotedText>».</mod>
+                                    <mod eId="modNov_17">All'articolo 16: 
+ al comma 1, lettera b), alinea, dopo le parole: «e' aggiunto» sono inserite le seguenti: «<quotedText eId="modNov_17_new_18">, in fine,</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
