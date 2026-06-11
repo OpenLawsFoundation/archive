@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-12-07/183/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-12-07/183"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-12-07;183"/>
+                    <FRBRalias name="eli" value="eli/id/2023/12/11/23G00193/ORIGINAL"/>
+                    <FRBRdate date="2023-12-07" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/11/23G00193/ORIGINAL" aknrelname="eli/id/2023/12/11/23G00193/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 12 ottobre 2023, n. 140, recante misure urgenti di prevenzione del rischio sismico connesso al fenomeno bradisismico nell'area dei Campi Flegrei. (23G00193)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00193" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-12-07" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-12-07/183/ita@2023-12-12/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-12-07/183/ita@2023-12-12"/>
+                    <FRBRdate date="2023-12-12" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/11/23G00193/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/12/11/23G00193/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/12/11/23G00193/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-12-07/183/ita@2023-12-12/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-12-07/183/ita@2023-12-12.xml"/>
+                    <FRBRdate date="2023-12-07" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/11/23G00193/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-12-11" name="" number="288" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-12-11" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2023-12-07" refersTo="#C.1474"/>
+                <step by="#senato" date="2023-12-07" refersTo="#S.952"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-12-07;183#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-10-12;140#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1, alinea e lettere a), b) e c), 2, 3, lettere b) e d) e 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-12-07;183#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-10-12;140#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-12-07;183#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-10-12;140#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-12-07;183#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-10-12;140#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 1 e l'introduzione del comma 2-bis all'art. 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-12-07;183#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-10-12;140#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, commi 1, lettere a) e c), 2, 3, 4 e 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-12-07;183#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-10-12;140#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_2__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_2__para_1__point_a"/>
+                        <new href="#modNov_1_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_2__para_1__point_b"/>
+                        <old href="#modNov_1_old_3"/>
+                        <new href="#modNov_1_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_2__para_1__point_c"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_2__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_2__para_3__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_2__para_3__point_d"/>
+                        <old href="#modNov_1_old_7"/>
+                        <new href="#modNov_1_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_2__para_4"/>
+                        <new href="#modNov_1_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_2__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_3__para_1"/>
+                        <new href="#modNov_2_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_3__para_2"/>
+                        <old href="#modNov_2_old_11"/>
+                        <new href="#modNov_2_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_3__para_3"/>
+                        <old href="#modNov_2_old_12"/>
+                        <new href="#modNov_2_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_4__para_1"/>
+                        <old href="#modNov_3_old_13"/>
+                        <new href="#modNov_3_new_13"/>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_4__para_2"/>
+                        <old href="#modNov_3_old_14"/>
+                        <new href="#modNov_3_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_5__para_1"/>
+                        <old href="#modNov_4_old_16"/>
+                        <new href="#modNov_4_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_5__para_2-bis"/>
+                        <new href="#modNov_4_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_6__para_1__point_a"/>
+                        <new href="#modNov_5_new_17"/>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_6__para_1__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_6__para_1__point_c"/>
+                        <new href="#modNov_5_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_6__para_2"/>
+                        <old href="#modNov_5_old_21"/>
+                        <new href="#modNov_5_new_21"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_6__para_3"/>
+                        <new href="#modNov_5_new_22"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_6__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_6__para_4"/>
+                        <new href="#modNov_5_new_24"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="repeal">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_6__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_6__para_5"/>
+                        <new href="#modNov_5_new_27"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_6__para_1__point_c"/>
+                        <old href="#modNov_5_old_15"/>
+                        <new href="#modNov_5_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_7__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-10-12/140/ita@2023-12-12/!main/~art_7__para_1"/>
+                        <new href="#modNov_6_new_28"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-12-07/183/!main" showAs=""/>
+                <passiveRef eId="C.1474" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1474" showAs=""/>
+                <passiveRef eId="S.952" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;952" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/12/11/23G00193/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 12 ottobre 2023, n. 140, recante misure urgenti di prevenzione del rischio sismico connesso al fenomeno bradisismico nell'area dei Campi Flegrei. (23G00193)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00193</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-12-07</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/12/11/23G00193/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/12/11/23G00193/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/12/11/23G00193/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/12/11/23G00193/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/183" nativeUrn="urn:nir:stato:legge:2023-12-07;183" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-12-11"><ns0:event type="enacted" date="2023-12-07"/><ns0:event type="published" date="2023-12-11"/><ns0:event type="commenced" date="2023-12-11"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/38363a85-4f2c-486d-9c2c-e52cd96456e4" sourceSha256="9406c8f27022ea51fddad441a4062cdd0ff2910ae0d37bde05c8d44cad973e1e" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T21:09:50.464628Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-12-07">07 dicembre 2023</docDate>
+                <docNumber>183</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 12 ottobre 2023, n. 140, recante misure urgenti di prevenzione del rischio sismico connesso al fenomeno bradisismico nell'area dei Campi Flegrei. (23G00193) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 12/12/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2023-10-12/140/!main" ns1:target="olf:it/decreto-legge/stato/2023/140" ns1:relation="repeals">decreto-legge 12 ottobre 2023, n. 140</ref>, recante misure urgenti di prevenzione del rischio sismico connesso al fenomeno bradisismico nell'area dei Campi Flegrei, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2023-10-12/140/!main" ns2:target="olf:it/decreto-legge/stato/2023/140" ns2:relation="repeals">decreto-legge 12 ottobre 2023, n. 140</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 239 del 12 ottobre 2023. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 47. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 7 dicembre 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Musumeci, Ministro per la protezione civile e le politiche del mare Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-12-07/183/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-12-07/183"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-12-07;183"/>
+                                <FRBRalias name="eli" value="eli/id/2023/12/11/23G00193/ORIGINAL"/>
+                                <FRBRdate date="2023-12-12" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-12-07/183/ita@2023-12-12/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-12-07/183/ita@2023-12-12"/>
+                                <FRBRdate date="2023-12-12" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-12-07/183/ita@2023-12-12/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-12-07/183/ita@2023-12-12.xml"/>
+                                <FRBRdate date="2023-12-07" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ MODIFICAZIONI APPORTATE IN SEDE DI 
+ CONVERSIONE AL DECRETO-LEGGE 12 OTTOBRE 2023, N. 140 
+ 
+ <mod eId="modNov_1">All'articolo 2: 
+ al comma 1: 
+ all'alinea<quotedText eId="modNov_1_new_8">,</quotedText> primo periodo, le parole: «Codice della protezione civile» sono sostituite dalle seguenti: «codice della protezione civile,» e le parole: «idrogeologica vulcanica» sono sostituite dalle seguenti: «idrogeologica, vulcanica»; 
+ alla lettera a) sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_1_new_2">di livello 3, come definita negli "Indirizzi e criteri per la microzonazione sismica" approvati dalla Conferenza delle regioni e delle province autonome il 13 novembre 2008</quotedText>»; 
+ alla lettera b), la parola: «<quotedText eId="modNov_1_old_3">finalizzato</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_1_new_3">finalizzata</quotedText>»; 
+ alla lettera c) sono aggiunte, in fine, le seguenti parole:
+«<quotedText eId="modNov_1_new_4">. L'istruttoria tecnica ed economica dell'analisi della vulnerabilita' e del piano di misure puo' essere svolta anche con il supporto dei centri di competenza di cui all'alinea del presente comma, che ne garantiscono l'omogeneita'</quotedText>»; 
+ al comma 2, secondo periodo, le parole: «centri competenza» sono sostituite dalle seguenti: «centri di competenza»; 
+ al comma 3: 
+ alla lettera b), le parole: «pubblicato nella Gazzetta Ufficiale» sono sostituite dalle seguenti: «pubblicato nel supplemento ordinario n. 8 alla Gazzetta Ufficiale», le parole: «, e' pubblicata» sono sostituite dalle seguenti: «ed e' pubblicata» e le parole: «ed e' resa pubblica ai sensi di quanto previsto» sono sostituite dalle seguenti: «nell'osservanza di quanto previsto»; 
+ alla lettera d), le parole: «<quotedText eId="modNov_1_old_7">in ordinario</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_7">in regime ordinario</quotedText>»; 
+ al comma 4: 
+ al primo periodo, dopo le parole: «e le politiche del mare» e' inserito il seguente segno d'interpunzione: «,»; 
+ al terzo periodo, le parole: «una dirigenziale» sono sostituite dalle seguenti: «una di personale dirigenziale», le parole: «unita' di personale non dirigenziale, selezionati» sono sostituite dalle seguenti: «di personale non dirigenziale, selezionate» e le parole: «ad un massimo» sono sostituite dalle seguenti: «al numero massimo»; 
+ al nono periodo, le parole: «oltre le» sono sostituite dalle seguenti: «cui possono aggiungersi le».</mod>
+                                    <mod eId="modNov_2">All'articolo 3: 
+ al comma 1 e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_2_new_10">Il piano di comunicazione di cui al presente comma e' attuato in raccordo con i comuni ubicati nella zona rossa di cui all'allegato 1 annesso al decreto del Presidente del Consiglio dei ministri 24 giugno 2016, pubblicato nella Gazzetta Ufficiale n. 193 del 19 agosto 2016</quotedText>»; 
+ al comma 2, la parola: «<quotedText eId="modNov_2_old_11">Volontariato</quotedText>» e' sostituita dalla seguente: «<quotedText eId="modNov_2_new_11">volontariato</quotedText>»; 
+ al comma 3, primo periodo, la parola: «<quotedText eId="modNov_2_old_12">euro</quotedText>» e sostituita dalle seguenti: «<quotedText eId="modNov_2_new_12">di euro</quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 4: 
+ al comma 1, primo periodo, le parole: «<quotedText eId="modNov_3_old_13">conoscenze di pericolosita' elaborate dai Centri</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_13">conoscenze relative alla pericolosita' elaborate dai centri</quotedText>»; 
+ al comma 2, primo periodo, le parole: «<quotedText eId="modNov_3_old_14">e strumentali vigenti</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_14">, finanziarie e strumentali disponibili a legislazione vigente e, comunque</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 5: 
+ al comma 1, le parole: «<quotedText eId="modNov_4_old_16">Campania, coordina</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_4_new_16">Campania coordina</quotedText>»; 
+ dopo il comma 2 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_4_new_20">2-bis. Il commissario straordinario di cui all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/1984-12-22/887/!main#art_11-com18" ns4:target="olf:it/legge/stato/1984/887/art_11-com18" ns4:relation="cites">articolo 11, diciottesimo comma, della legge 22 dicembre 1984, n. 887</ref>, entro trenta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, trasmette al Governo e alle Camere una relazione sullo stato di attuazione del programma di adeguamento del sistema di trasporto intermodale nelle zone interessate dal fenomeno bradisismico, comprendente l'indicazione delle risorse disponibili, impegnate ed erogate, anche al fine di individuare eventuali ulteriori misure di accelerazione e semplificazione da applicare ai relativi interventi di adeguamento. La regione Campania, con provvedimento da trasmettere al Ministero delle infrastrutture e dei trasporti, individua le risorse, nell'ambito di quelle che risultano disponibili in esito alle attivita' di cui al primo periodo, da destinare al comune di Pozzuoli come contributo per l'apertura al transito delle gallerie di collegamento tra il porto di Pozzuoli e la viabilita' di accesso alla tangenziale di Napoli e per la manutenzione delle medesime gallerie per l'anno 2024. Per l'esecuzione delle attivita' di cui al secondo periodo, il comune di Pozzuoli puo' avvalersi, anche mediante sottoscrizione di apposita convenzione, della societa' ANAS Spa, alla quale e' dovuto esclusivamente il recupero degli oneri effettivamente sostenuti per lo svolgimento delle predette attivita', nel limite delle risorse disponibili</quotedText>».</mod>
+                                    <mod eId="modNov_5">All'articolo 6: 
+ al comma 1: 
+ alla lettera a), dopo le parole: «di personale a tempo determinato» sono inserite le seguenti: «<quotedText eId="modNov_5_new_17">, comprese figure professionali specialistiche in materia di rischio sismico e vulcanico</quotedText>», le parole: «per un periodo di dodici mesi» sono sostituite dalle seguenti: «per un periodo di ventiquattro mesi» e la parola: «aperta» e' sostituita dalla seguente: «funzionante»; 
+ alla lettera c), le parole: «<quotedText eId="modNov_5_old_15">alla popolazione</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_15">della popolazione</quotedText>» e sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_5_new_19">, anche al di fuori del territorio della Citta' metropolitana di Napoli</quotedText>»; 
+ al comma 2, le parole: «<quotedText eId="modNov_5_old_21">4 milioni di euro</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_21">6,8 milioni di euro</quotedText>»; 
+ al comma 3, le parole: «in termini» sono sostituite dalle seguenti: «con procedure», le parole: «di quanto previsto dall'articolo 140 del» sono sostituite dalle seguenti: «dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2006-04-12/163/!main#art_140" ns5:target="olf:it/decreto-legislativo/stato/2006/163/art_140" ns5:relation="cites">articolo 140 del codice dei contratti pubblici</ref>, di cui al» ed e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_5_new_22">Per l'allestimento di aree e strutture temporanee per l'accoglienza della popolazione, i comuni interessati possono provvedere anche in deroga alle destinazioni d'uso previste dai vigenti strumenti urbanistici</quotedText>»; 
+ al comma 4, al primo periodo sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_5_new_24">, entro il limite massimo complessivo di 50.000 euro</quotedText>» e, al secondo periodo, le parole: «, entro il limite massimo complessivo di 50.000 euro» sono soppresse; 
+ al comma 5, il primo periodo e' sostituito dal seguente: «<quotedText eId="modNov_5_new_27">Per l'attuazione di quanto previsto dal presente articolo e' autorizzata la spesa complessiva di 4.050.000 euro per l'anno 2023, di 467.000 euro per l'anno 2024 e di 2.333.000 euro per l'anno 2025, che sono trasferiti, sulla base del piano di cui al comma 2, per l'importo di 4 milioni di euro per l'anno 2023, di 467.000 euro per l'anno 2024 e di 2.333.000 euro per l'anno 2025, direttamente ai comuni interessati nella misura spettante ai sensi di quanto previsto dal medesimo comma 2 e, per l'importo di 50.000 euro per l'anno 2023, alla regione Campania ai sensi di quanto previsto dal comma 4</quotedText>».</mod>
+                                    <mod eId="modNov_6">All'articolo 7: 
+ il comma 1 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_6_new_28">1. Agli oneri di parte corrente derivanti dall'attuazione di quanto previsto dall'articolo 2, commi 3, lettere a), b) e c), relativamente all'analisi di vulnerabilita', e 4, nonche' dagli articoli 3, 4, 5 e 6, pari a euro 14.142.858 per l'anno 2023, a euro 1.324.142 per l'anno 2024 e a euro 2.333.000 per l'anno 2025, si provvede: 
+ a) quanto a euro 14.142.858 per l'anno 2023 e a euro 857.142 per l'anno 2024, a valere sul bilancio autonomo della Presidenza del Consiglio dei ministri; 
+ b) quanto a euro 467.000 per l'anno 2024 e a euro 2.333.000 per l'anno 2025, mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns6:target="olf:it/legge/stato/2014/190/art_1-com200" ns6:relation="cites">articolo 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>
+                                        </quotedText>»; 
+ al comma 2, le parole: «di parte capitale» sono sostituite dalle seguenti: «di conto capitale» e le parole: «relativamente alle misure di mitigazione» sono sostituite dalle seguenti: «, relativamente alle misure di mitigazione,».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
