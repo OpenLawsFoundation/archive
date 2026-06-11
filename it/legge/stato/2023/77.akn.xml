@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-06-08;77"/>
+                    <FRBRalias name="eli" value="eli/id/2023/06/27/23G00084/CONSOLIDATED/20240430"/>
+                    <FRBRdate date="2023-06-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/06/27/23G00084/CONSOLIDATED/20240430" aknrelname="eli/id/2023/06/27/23G00084/CONSOLIDATED/20240430">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Adesione al Protocollo addizionale alla Carta europea dell'autonomia locale sul diritto di partecipare agli affari delle collettivita' locali, fatto a Utrecht il 16 novembre 2009. (23G00084)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00084" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-06-08" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28"/>
+                    <FRBRdate date="2023-06-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/06/27/23G00084/CONSOLIDATED/20240430/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/06/27/23G00084/CONSOLIDATED/20240430"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/06/27/23G00084/CONSOLIDATED/20240430/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28.xml"/>
+                    <FRBRdate date="2023-06-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/06/27/23G00084/CONSOLIDATED/20240430/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-06-27" name="" number="148" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-06-27" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2024-04-30" eId="eventRef_1" source="rp1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2023-06-08" refersTo="#S.332"/>
+                <step by="#camera" date="2023-06-08" refersTo="#C.916"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-06-08/77/!main" showAs=""/>
+                <passiveRef eId="rp1" href="" showAs=""/>
+                <passiveRef eId="S.332" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;332" showAs=""/>
+                <passiveRef eId="C.916" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;916" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/06/27/23G00084/CONSOLIDATED/20240430">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Adesione al Protocollo addizionale alla Carta europea dell'autonomia locale sul diritto di partecipare agli affari delle collettivita' locali, fatto a Utrecht il 16 novembre 2009. (23G00084)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00084</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-06-08</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/06/27/23G00084/CONSOLIDATED/20240430/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/06/27/23G00084/CONSOLIDATED/20240430"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/06/27/23G00084/CONSOLIDATED/20240430/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/06/27/23G00084/CONSOLIDATED/20240430/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/77" nativeUrn="urn:nir:stato:legge:2023-06-08;77" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-06-27"><ns0:event type="enacted" date="2023-06-08"/><ns0:event type="published" date="2023-06-27"/><ns0:event type="commenced" date="2023-06-27"/><ns0:event type="amended" date="2024-04-30"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/043ede61-aec8-48d3-b4b4-fbd733faa85a" sourceSha256="4fb30616ba4edab18684d6f325555dc4d8d1c9759eef576f3c44c50b1af5b4f9" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T22:06:59.525187Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-06-08">08 giugno 2023</docDate>
+                <docNumber>77</docNumber>
+                <docTitle>Adesione al Protocollo addizionale alla Carta europea dell'autonomia locale sul diritto di partecipare agli affari delle collettivita' locali, fatto a Utrecht il 16 novembre 2009. (23G00084) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 28/06/2023
+
+Vigenza internazionale del protocollo per l'Italia: dal 1° febbraio 2024. </p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Autorizzazione alla ratifica</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Presidente della Repubblica e' autorizzato ad aderire al Protocollo addizionale alla Carta europea dell'autonomia locale sul diritto di partecipare agli affari delle collettivita' locali, fatto a Utrecht il 16 novembre 2009. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Ordine di esecuzione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Piena ed intera esecuzione e' data al Protocollo di cui all'articolo 1 della presente legge, a decorrere dalla data della sua entrata in vigore, in conformita' a quanto disposto dall'articolo 5 del Protocollo stesso. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le amministrazioni interessate svolgono le attivita' previste dalla presente legge nell'ambito delle risorse umane, finanziarie e strumentali disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 8 giugno 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Additional Protocol">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-06-08;77"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/27/23G00084/CONSOLIDATED/20240430"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28.xml"/>
+                                <FRBRdate date="2023-06-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p>Additional Protocol to the European Charter of Local Self-Government on the right to participate in the affairs of a local authority 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-06-08;77"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/27/23G00084/CONSOLIDATED/20240430"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28.xml"/>
+                                <FRBRdate date="2023-06-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Traduzione 
+ 
+ Protocollo addizionale alla Carta europea dell'autonomia locale 
+ sul diritto di partecipare agli affari delle collettivita' locali  
+ Preambolo 
+ 
+ Gli Stati membri del Consiglio d'Europa firmatari del presente Protocollo addizionale alla Carta europea dell'autonomia locale (di seguito denominata «Carta»), 
+ considerato che il fine del Consiglio d'Europa e' di realizzare un'unione piu' stretta tra i suoi membri, per salvaguardare e promuovere gli ideali ed i principi che sono il loro patrimonio comune; 
+ considerato che il diritto dei cittadini di partecipare alla gestione degli affari pubblici fa parte dei principi democratici comuni a tutti gli Stati membri del Consiglio d'Europa; 
+ considerato che l'evoluzione negli Stati membri ha mostrato l'importanza capitale di tale principio per l'autonomia locale; 
+ considerato che sarebbe opportuno arricchire la Carta con disposizioni che garantiscano il diritto di partecipare alla gestione degli affari pubblici delle collettivita' locali; 
+ tenuto conto della Convenzione del Consiglio d'Europa sull'accesso ai documenti ufficiali approvata dal Consiglio dei ministri il 27 novembre 2008; 
+ tenuto conto della Dichiarazione e del Piano d'azione adottati al terzo Vertice dei Capi di Stato e di Governo del Consiglio d'Europa (Varsavia, 16 e 17 maggio 2005), 
+ 
+ hanno convenuto quanto segue: 
+ 
+ Art. 1. 
+ 
+ Diritto di partecipare agli affari delle collettivita' locali 
+ 
+ 1. Le Parti contraenti garantiscono a ogni persona sottoposta alla loro giurisdizione il diritto di partecipare agli affari di una collettivita' locale. 
+ 2. Il diritto di partecipare agli affari di una collettivita' locale consiste nel diritto di adoperarsi per determinare o influenzare l'esercizio delle competenze di una collettivita' locale. 
+ 3. La legge stabilisce le misure per facilitare l'esercizio di questo diritto. Senza discriminare in maniera ingiustificata persone o gruppi, la legge puo' prevedere misure specifiche adeguate a determinate situazioni o categorie di persone. In accordo con gli obblighi costituzionali e internazionali dello Stato contraente, la legge puo' in particolare prevedere misure specifiche riservate ai soli elettori. 
+ 4.1 Ciascuna Parte contraente riconosce per legge ai suoi cittadini il diritto di partecipare, in qualita' di elettori o candidati, all'elezione di membri del consiglio o dell'assemblea della collettivita' locale in cui risiedono. 
+ 4.2 La legge riconosce inoltre il diritto di partecipare anche ad altre persone, nella misura in cui la Parte contraente lo decide conformemente al proprio ordinamento costituzionale o ai propri obblighi giuridici internazionali. 
+ 5.1 Formalita', condizioni o restrizioni all'esercizio del diritto di partecipare agli affari di una collettivita' locale devono essere previste dalla legge ed essere compatibili con gli obblighi giuridici internazionali della Parte contraente. 
+ 5.2 La legge stabilisce le formalita', le condizioni e le restrizioni necessarie a garantire che l'esercizio del diritto di partecipare non comprometta l'integrita' etica e la trasparenza nell'esercizio delle competenze delle collettivita' locali. 
+ 5.3 Qualsiasi altra formalita', condizione o restrizione deve essere necessaria al funzionamento di un regime politico davvero democratico, al mantenimento della sicurezza pubblica in una societa' democratica o al rispetto delle esigenze degli obblighi internazionali della Parte contraente. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 2">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-06-08;77"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/27/23G00084/CONSOLIDATED/20240430"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_3.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28.xml"/>
+                                <FRBRdate date="2023-06-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 2. 
+ 
+ Misure per l'attuazione del diritto di partecipare 
+ 
+ 1. Le Parti contraenti adottano tutte le misure necessarie a permettere l'esercizio effettivo del diritto di partecipare agli affari delle collettivita' locali. 
+ 2. Le misure riguardanti il diritto di partecipare includono: 
+ i. il conferimento alle collettivita' locali della competenza di permettere, promuovere e facilitare l'esercizio del diritto di partecipare enunciato nel presente Protocollo; 
+ ii. l'effettiva definizione di: 
+ a) procedure di partecipazione della popolazione che possono includere procedure di consultazione, referendum locali e petizioni e, se la collettivita' locale e' fortemente popolata o geograficamente molto estesa, misure per una partecipazione di prossimita', 
+ b) procedure, conformi all'ordine costituzionale e agli obblighi giuridici internazionali della Parte contraente, per l'accesso ai documenti ufficiali che si trovano presso le collettivita' locali, 
+ c) misure per tenere conto dei bisogni delle categorie di persone che incontrano particolari ostacoli alla partecipazione, e 
+ d) meccanismi e procedure per il trattamento e la risposta a reclami e suggerimenti in merito al funzionamento delle collettivita' locali e dei servizi pubblici locali; 
+ iii. l'utilizzo di tecnologie dell'informazione e della comunicazione per la promozione e l'esercizio del diritto di partecipare enunciato nel presente Protocollo. 
+ 3. Le procedure, le misure e i meccanismi possono differire in base al tipo di collettivita' locale, a seconda delle dimensioni e delle competenze. 
+ 4. Le collettivita' locali sono consultate per quanto possibile, in tempo utile ed in maniera appropriata, nel corso dei processi di pianificazione e di decisione riguardanti le misure da adottare per permettere l'esercizio effettivo del diritto di partecipare agli affari di una collettivita' locale. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 3">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-06-08;77"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/27/23G00084/CONSOLIDATED/20240430"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_4.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28.xml"/>
+                                <FRBRdate date="2023-06-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 3. 
+ 
+ Collettivita' a cui si applica il Protocollo 
+ 
+ Il presente Protocollo si applica a tutte le categorie di collettivita' locali sul territorio della Parte contraente. Tuttavia, ciascuna Parte contraente, al momento del deposito del suo strumento di ratifica, di accettazione o di approvazione, puo' designare le categorie di collettivita' locali e regionali alle quali intende limitare il campo di applicazione o che intende escludere dal campo di applicazione del presente Protocollo. Essa puo' anche includere altre categorie di collettivita' locali o regionali nel campo di applicazione del Protocollo, mediante ulteriore notifica al Segretario Generale del Consiglio d'Europa. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 4">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-06-08;77"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/27/23G00084/CONSOLIDATED/20240430"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_5.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28.xml"/>
+                                <FRBRdate date="2023-06-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 4. 
+ 
+ Applicazione territoriale 
+ 
+ 1. Ciascuno Stato puo', al momento della firma o del deposito del proprio strumento di ratifica, di accettazione o di approvazione, indicare il o i territori in cui si applica il presente Protocollo. 
+ 2. Ciascuna Parte contraente puo', in qualsiasi altro momento successivo, mediante dichiarazione indirizzata al Segretario Generale del Consiglio d'Europa, estendere l'applicazione del presente Protocollo a ogni altro territorio designato nella dichiarazione. Il Protocollo entra in vigore in tale territorio il primo giorno del mese successivo allo scadere di un periodo di tre mesi dopo la data di ricevimento della dichiarazione da parte del Segretario Generale. 
+ 3. Ogni dichiarazione resa in virtu' del paragrafo 1 o 2 puo' essere ritirata, per quanto riguarda i territori indicati in tale dichiarazione, mediante notifica inviata al Segretario Generale del Consiglio d'Europa. Il ritiro ha effetto il primo giorno del mese successivo allo scadere di un periodo di sei mesi dopo la data di ricevimento della notifica da parte del Segretario Generale. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 5">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/!main/annesso_6"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-06-08;77"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/27/23G00084/CONSOLIDATED/20240430"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_6"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_6.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28.xml"/>
+                                <FRBRdate date="2023-06-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 5. 
+ 
+ Firma ed entrata in vigore 
+ 
+ 1. Il presente Protocollo e' aperto alla firma degli Stati membri del Consiglio d'Europa firmatari della Carta. E' sottoposto a ratifica, accettazione e approvazione. Uno Stato membro del Consiglio d'Europa puo' ratificare, accettare o approvare il presente Protocollo soltanto se ha precedentemente o contemporaneamente ratificato, accettato o approvato la Carta. Gli strumenti di ratifica, di accettazione o di approvazione sono depositati presso il Segretario Generale del Consiglio d'Europa. 
+ 2. Il presente Protocollo entra in vigore il primo giorno del mese successivo allo scadere di un periodo di tre mesi dopo la data alla quale otto Stati membri del Consiglio d'Europa abbiano espresso il loro consenso a essere vincolati dal Protocollo, in conformita' alle norme del paragrafo precedente. 
+ 3. Per ogni Stato membro che esprima successivamente il suo consenso ad essere vincolato dal Protocollo, questo entra in vigore il primo giorno del mese successivo allo scadere di un periodo di tre mesi dopo la data del deposito dello strumento di ratifica, di accettazione o di approvazione. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 6">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/!main/annesso_7"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-06-08;77"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/27/23G00084/CONSOLIDATED/20240430"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_7"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_7.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28.xml"/>
+                                <FRBRdate date="2023-06-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 6. 
+ 
+ Denuncia 
+ 
+ 1. Ogni Parte contraente puo' denunciare in qualsiasi momento il presente Protocollo mediante notifica indirizzata al Segretario generale del Consiglio d'Europa. 
+ 2. La denuncia ha effetto il primo giorno del mese successivo allo scadere di un periodo di sei mesi dopo la data di ricevimento della notifica da parte del Segretario generale. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 7">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/!main/annesso_8"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-06-08;77"/>
+                                <FRBRalias name="eli" value="eli/id/2023/06/27/23G00084/CONSOLIDATED/20240430"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_8"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28"/>
+                                <FRBRdate date="2023-06-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28/!main/annesso_8.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-06-08/77/ita@2023-06-28.xml"/>
+                                <FRBRdate date="2023-06-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 7. 
+ 
+ Notifiche 
+ 
+ Il Segretario Generale del Consiglio d'Europa notifica agli Stati membri del Consiglio d'Europa: 
+ a) ogni firma; 
+ b) ogni deposito di uno strumento di ratifica, di accettazione o di approvazione; 
+ c) ogni data di entrata in vigore del presente Protocollo, in conformita' all'articolo 5; 
+ d) ogni notifica ricevuta in applicazione delle disposizioni dell'articolo 3; 
+ e) ogni altro atto, notifica o comunicazione in relazione al presente Protocollo. 
+ In fede di che, i sottoscritti, debitamente autorizzati a tale scopo, hanno firmato il presente Protocollo. 
+ Fatto a Utrecht il 16 novembre 2009, in francese e in inglese, i due testi facenti ugualmente fede, in un unico esemplare, depositato negli archivi del Consiglio d'Europa. Il Segretario Generale del Consiglio d'Europa ne invia copia autenticata conforme a ciascuno degli Stati membri del Consiglio d'Europa. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
