@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-03-11;34"/>
+                    <FRBRalias name="eli" value="eli/id/2025/03/27/25G00037/ORIGINAL"/>
+                    <FRBRdate date="2025-03-11" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/03/27/25G00037/ORIGINAL" aknrelname="eli/id/2025/03/27/25G00037/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Ratifica ed esecuzione dell'Accordo tra il Governo della Repubblica italiana e il Sovrano Militare Ordine Ospedaliero di San Giovanni di Gerusalemme di Rodi e di Malta, detto Sovrano Militare Ordine di Malta - SMOM, fatto a Roma il 23 ottobre 2023. (25G00037)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00037" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-03-11" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28"/>
+                    <FRBRdate date="2025-03-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/03/27/25G00037/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/03/27/25G00037/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/03/27/25G00037/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28.xml"/>
+                    <FRBRdate date="2025-03-11" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/03/27/25G00037/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-03-27" name="" number="72" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-03-27" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2025-03-11" refersTo="#C.1703"/>
+                <step by="#senato" date="2025-03-11" refersTo="#S.1339"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-03-11/34/!main" showAs=""/>
+                <passiveRef eId="C.1703" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1703" showAs=""/>
+                <passiveRef eId="S.1339" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1339" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/03/27/25G00037/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Ratifica ed esecuzione dell'Accordo tra il Governo della Repubblica italiana e il Sovrano Militare Ordine Ospedaliero di San Giovanni di Gerusalemme di Rodi e di Malta, detto Sovrano Militare Ordine di Malta - SMOM, fatto a Roma il 23 ottobre 2023. (25G00037)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00037</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-03-11</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/03/27/25G00037/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/03/27/25G00037/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/03/27/25G00037/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/03/27/25G00037/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/34" nativeUrn="urn:nir:stato:legge:2025-03-11;34" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-03-27"><ns0:event type="enacted" date="2025-03-11"/><ns0:event type="published" date="2025-03-27"/><ns0:event type="commenced" date="2025-03-27"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/60c50724-68a4-4278-b1bd-0470d4a84598" sourceSha256="546b5e63121791acd3e8777a327f0576f2004b4f359fd0a04e8f95cd620c8504" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:09:26.180188Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-03-11">11 marzo 2025</docDate>
+                <docNumber>34</docNumber>
+                <docTitle>Ratifica ed esecuzione dell'Accordo tra il Governo della Repubblica italiana e il Sovrano Militare Ordine Ospedaliero di San Giovanni di Gerusalemme di Rodi e di Malta, detto Sovrano Militare Ordine di Malta - SMOM, fatto a Roma il 23 ottobre 2023. (25G00037) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 28/03/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Autorizzazione alla ratifica</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Presidente della Repubblica e' autorizzato a ratificare l'Accordo tra il Governo della Repubblica italiana e il Sovrano Militare Ordine Ospedaliero di San Giovanni di Gerusalemme di Rodi e di Malta, detto Sovrano Militare Ordine di Malta - SMOM, fatto a Roma il 23 ottobre 2023. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Ordine di esecuzione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Piena ed intera esecuzione e' data all'Accordo di cui all'articolo 1, a decorrere dalla data della sua entrata in vigore, in conformita' a quanto disposto dall'articolo 5 dell'Accordo stesso. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le amministrazioni competenti provvedono all'attuazione dei compiti derivanti dalla presente legge con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 11 marzo 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Tajani, Ministro degli affari esteri e della cooperazione internazionale Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Accordo-art. 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-03-11;34"/>
+                                <FRBRalias name="eli" value="eli/id/2025/03/27/25G00037/ORIGINAL"/>
+                                <FRBRdate date="2025-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28"/>
+                                <FRBRdate date="2025-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28.xml"/>
+                                <FRBRdate date="2025-03-11" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> ACCORDO TRA 
+ IL GOVERNO DELLA REPUBBLICA ITALIANA 
+ E IL SOVRANO MILITARE ORDINE OSPEDALIERO DI SAN GIOVANNI 
+ DI GERUSALEMME DI RODI E DI MALTA, 
+ DETTO SOVRANO MILITARE ORDINE DI MALTA - SMOM 
+ 
+ Il Governo della Repubblica Italiana e il Sovrano Militare Ordine di Malta (di seguito, anche SMOM), di seguito denominati le «Parti»,  Premesso che: 
+ le relazioni bilaterali tra la Repubblica Italiana ed il Sovrano Militare Ordine di Malta sono regolate dall'Accordo concernente l'aggiornamento dello Scambio di Note dell'11 gennaio del 1960 per la regolamentazione dei reciproci rapporti bilaterali, con Protocollo attuativo dell'art. 5, fatto in Roma il 17 maggio 2012 (d'ora innanzi Protocollo attuativo); 
+ la Repubblica Italiana e il Sovrano Militare Ordine di Malta intrattengono relazioni diplomatiche fin dal 1956 e dal 1980 a livello di Ambasciate (<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1980-12-15/1055/!main" ns1:target="olf:it/dpr/stato/1980/1055" ns1:relation="cites">d.P.R. 15 dicembre 1980 n. 1055</ref>), con applicazione della Convenzione sulle relazioni diplomatiche, fatta a Vienna il 18 aprile 1961, richiamata dal Protocollo attuativo; 
+ la Repubblica Italiana e il Sovrano Militare Ordine di Malta intrattengono proficue relazioni a livello governativo e a questo fine si scambiano con regolarita' visite ufficiali al piu' alto livello; 
+ il Sovrano Militare Ordine di Malta svolge la sua meritoria opera a favore delle fasce piu' deboli della popolazione in numerosi Paesi ed intrattiene relazioni diplomatiche con 113 Stati; 
+ l'Accordo tra il Governo della Repubblica Italiana e il Sovrano Militare Ordine di Malta volto a codificare lo stato delle relazioni bilaterali, fatto a Roma il 17 maggio 2012 ratificato in Italia con Decreto del Presidente della Repubblica ed entrato in vigore in data 11 ottobre 2012, all'articolo 8 prevede che l'Italia riconosce la personalita' giuridica delle istituzioni dello SMOM quali enti di diritto pubblico melitense, appartenenti all'ordinamento giuridico dello stesso SMOM; 
+ il Sovrano Militare Ordine di Malta opera anche in Italia in favore della popolazione italiana per le attivita' di interesse generale, parallelamente a quanto previsto dall'articolo 5 del Codice del Terzo settore italiano (<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decreto.legislativo.luogotenenziale/stato/2017-07-03/117/!main" ns2:target="olf:it/decreto-legislativo-luogotenenziale/stato/2017/117" ns2:relation="cites">d.lgt. 3 luglio 2017, n. 117</ref>) tramite il Corpo Italiano di Soccorso dell'Ordine di Malta (di seguito, C.I.S.O.M.), ente di diritto pubblico melitense di tipo fondativo; 
+ in particolare il C.I.S.O.M. opera in virtu' sia dell'Accordo tra la Repubblica Italiana e il Sovrano Militare Ordine di Malta in materia di assistenza in caso di gravi emergenze determinate da eventi naturali o dovute all'attivita' dell'uomo, fatto a Roma il 28 gennaio 1991, sia dell'Accordo tra la Repubblica Italiana e il Sovrano Militare Ordine di Malta in materia di assistenza nelle attivita' di salvaguardia della vita umana in mare, fatto a Roma il 29 settembre 2020; 
+ la Repubblica Italiana riafferma l'alto valore delle attivita' di interesse generale svolte dal Sovrano Militare Ordine di Malta anche in favore della popolazione italiana e quindi, nell'interesse della popolazione stessa, conclude accordi volti a favorire la collaborazione in detto campo; 
+hanno convenuto quanto segue: 
+ 
+ Art. 1. 
+ 
+ 
+ Iscrizione al Registro unico nazionale del Terzo settore italiano  
+ 1. Il C.I.S.O.M. e' iscritto di diritto, su domanda, nel Registro unico nazionale italiano del Terzo settore. 
+ 2. A tal fine, il C.I.S.O.M. adotta un regolamento, in forma di atto pubblico o di scrittura privata autenticata, che, ove non diversamente previsto e in ogni caso nel rispetto della struttura e della finalita' dell'ente, recepisce le norme del Codice del Terzo settore italiano ed e' depositato nel Registro unico nazionale del Terzo settore (di seguito, RUNTS). Il regolamento, in coerenza con lo statuto del C.I.S.O.M., individua le attivita' di cui agli articoli 5 e 6 del Codice del Terzo settore italiano da assoggettare alle norme del Codice medesimo e ne disciplina la gestione. Per lo svolgimento di tali attivita', il regolamento medesimo deve individuare il patrimonio destinato e le fonti di finanziamento; con riferimento ad esse devono essere tenute separatamente le scritture contabili di cui all'articolo 13 del Codice del Terzo settore italiano. Qualora il patrimonio destinato indicato nel regolamento sia costituito da denaro o da beni diversi dal denaro conferiti dal Sovrano Militare Ordine di Malta, l'articolo 9 del Codice del Terzo settore italiano si applica limitatamente all'incremento patrimoniale realizzato negli esercizi in cui il C.I.S.O.M. e' stato iscritto nel RUNTS. 
+ 3. Non si applicano al C.I.S.O.M. le disposizioni di cui agli articoli 12, 15, comma 3, 22, 26, commi 1-5 e 7-8, 29, 30, 31 e 90 del Codice del Terzo settore italiano. 
+ 4. Il C.I.S.O.M., iscrivendosi nel RUNTS, mantiene il proprio status giuridico di ente di diritto pubblico melitense. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 2">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-03-11;34"/>
+                                <FRBRalias name="eli" value="eli/id/2025/03/27/25G00037/ORIGINAL"/>
+                                <FRBRdate date="2025-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28"/>
+                                <FRBRdate date="2025-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28.xml"/>
+                                <FRBRdate date="2025-03-11" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 2. 
+ 
+ 
+ Assenza di oneri di spesa 
+ 
+ Il presente Accordo non comporta nuovi o maggiori oneri di spesa per le Parti. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 3">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-03-11;34"/>
+                                <FRBRalias name="eli" value="eli/id/2025/03/27/25G00037/ORIGINAL"/>
+                                <FRBRdate date="2025-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28"/>
+                                <FRBRdate date="2025-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main/annesso_3.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28.xml"/>
+                                <FRBRdate date="2025-03-11" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 3. 
+ 
+ 
+ Controversie 
+ 
+ Le controversie eventualmente derivanti dall'interpretazione e/o dall'applicazione del presente Accordo saranno composte amichevolmente mediante consultazioni e negoziati diretti tra le Parti. Se le divergenze permangono, esse saranno regolate sul piano diplomatico. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 4">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-03-11;34"/>
+                                <FRBRalias name="eli" value="eli/id/2025/03/27/25G00037/ORIGINAL"/>
+                                <FRBRdate date="2025-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28"/>
+                                <FRBRdate date="2025-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main/annesso_4.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28.xml"/>
+                                <FRBRdate date="2025-03-11" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 4. 
+ 
+ 
+ Diritto applicabile 
+ 
+ Il presente Accordo sara' attuato nel rispetto del diritto internazionale applicabile e, per quanto riguarda la Parte italiana, degli obblighi derivanti dalla sua appartenenza all'Unione Europea.  
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 5">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-03-11;34"/>
+                                <FRBRalias name="eli" value="eli/id/2025/03/27/25G00037/ORIGINAL"/>
+                                <FRBRdate date="2025-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28"/>
+                                <FRBRdate date="2025-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28/!main/annesso_5.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2025-03-11/34/ita@2025-03-28.xml"/>
+                                <FRBRdate date="2025-03-11" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 5. 
+ 
+ 
+ Entrata in vigore 
+ 
+ 1. Il presente Accordo entrera' in vigore alla data di ricezione della seconda delle due notifiche con cui le Parti si saranno comunicate reciprocamente il completamento delle procedure interne necessarie per la sua entrata in vigore. 
+ 2. Le Parti possono emendare il presente Accordo per iscritto di comune intesa. L'Accordo emendativo entrera' in vigore secondo le stesse procedure stabilite dal Paragrafo 1 del presente articolo. 
+ 3. Eventuali emendamenti volti alla sostituzione o integrazione delle norme di diritto interno italiano menzionate all'Articolo 1 del presente Accordo potranno essere effettuati tramite successivi accordi in forma semplificata, che entreranno in vigore alla data di firma. 
+ In fede di che i sottoscritti, debitamente autorizzati, hanno firmato questo Accordo. 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
