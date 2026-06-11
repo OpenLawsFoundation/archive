@@ -1,0 +1,828 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-02-25/14/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-02-25/14"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legge:2022-02-25;14"/>
+                    <FRBRalias name="eli" value="eli/id/2022/02/25/22G00024/CONSOLIDATED/20260301"/>
+                    <FRBRdate date="2022-02-25" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/02/25/22G00024/CONSOLIDATED/20260301" aknrelname="eli/id/2022/02/25/22G00024/CONSOLIDATED/20260301">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni urgenti sulla crisi in Ucraina. (22G00024)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00024" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                            <nrdfa:span content="2022-02-25" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-02-25/14/ita@2026-03-01/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-02-25/14/ita@2026-03-01"/>
+                    <FRBRdate date="2026-03-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/02/25/22G00024/CONSOLIDATED/20260301/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/02/25/22G00024/CONSOLIDATED/20260301"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/02/25/22G00024/CONSOLIDATED/20260301/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2022-02-25/14/ita@2026-03-01/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2022-02-25/14/ita@2026-03-01.xml"/>
+                    <FRBRdate date="2022-02-25" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/02/25/22G00024/CONSOLIDATED/20260301/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-02-25" name="" number="47" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-02-25" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2022-03-21" eId="eventRef_1" source="rp1"/>
+                <eventRef date="2022-04-13" eId="eventRef_2" source="rp2"/>
+                <eventRef date="2022-05-17" eId="eventRef_3" source="rp3"/>
+                <eventRef date="2022-05-20" eId="eventRef_4" source="rp4"/>
+                <eventRef date="2022-07-15" eId="eventRef_5" source="rp5"/>
+                <eventRef date="2022-11-08" eId="eventRef_6" source="rp6"/>
+                <eventRef date="2022-11-18" eId="eventRef_7" source="rp7"/>
+                <eventRef date="2022-12-02" eId="eventRef_8" source="rp8"/>
+                <eventRef date="2022-12-29" eId="eventRef_9" source="rp9"/>
+                <eventRef date="2022-12-29" eId="eventRef_10" source="rp10"/>
+                <eventRef date="2023-01-17" eId="eventRef_11" source="rp11"/>
+                <eventRef date="2023-02-24" eId="eventRef_12" source="rp12"/>
+                <eventRef date="2023-02-27" eId="eventRef_13" source="rp13"/>
+                <eventRef date="2023-04-21" eId="eventRef_14" source="rp14"/>
+                <eventRef date="2023-10-18" eId="eventRef_15" source="rp15"/>
+                <eventRef date="2023-12-21" eId="eventRef_16" source="rp16"/>
+                <eventRef date="2023-12-30" eId="eventRef_17" source="rp17"/>
+                <eventRef date="2024-12-27" eId="eventRef_18" source="rp18"/>
+                <eventRef date="2024-12-27" eId="eventRef_19" source="rp19"/>
+                <eventRef date="2025-12-31" eId="eventRef_20" source="rp20"/>
+                <eventRef date="2026-02-28" eId="eventRef_21" source="rp21"/>
+            </lifecycle>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2022-02-25;14#5 quater"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-10-08;139#7"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 5 aprile 2022, n. 28 (in G.U. 13/04/2022, n. 87), ha disposto (con l'art. 5-quater, comma 4) la modifica dell'art. 7, comma 1; (con l'art. 5-quater, comma 5) l'introduzione del comma 1-bis all'art. 7.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2022-02-25;14#5 quater"/>
+                        <destination href="urn:nir:stato:legge:2021-12-30;234#"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 5 aprile 2022, n. 28 (in G.U. 13/04/2022, n. 87), ha disposto (con l'art. 5-quater, comma 6) la modifica dell'art. 1, comma 390.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((6))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_1" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_2"/>
+                        <new>
+                            <nakn:text>((20))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_2" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_3"/>
+                        <new>
+                            <nakn:text>(( (Vendita di materiali di autodifesa a giornalisti e fotoreporter nell'ambito del conflitto tra Russia e Ucraina). ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_3" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_4"/>
+                        <new>
+                            <nakn:text>((1. Fino al 31 dicembre 2022 le persone fisiche iscritte all'albo dei giornalisti, in qualita' di professionisti o di pubblicisti, nonche' coloro che svolgono la professione di fotoreporter o videoperatore, in deroga a quanto previsto dall'articolo 28 del testo unico delle leggi di pubblica sicurezza, di cui al regio decreto 18 giugno 1931, n. 773, possono acquistare, previo nulla osta del questore competente per il luogo di residenza, giubbotti antiproiettile ed elmetti per esigenze di autodifesa nell'esercizio delle rispettive professioni nel territorio ucraino. 
+ 2. Il nulla osta rilasciato dal questore deve essere esibito alle competenti autorita' doganali e di frontiera all'atto dell'uscita e del rientro nel territorio dello Stato. 
+ 3. Il nulla osta abilita al trasporto dei predetti materiali nei trasferimenti che i soggetti di cui al comma 1 devono effettuare per raggiungere la frontiera dello Stato e in quelli dalla frontiera stessa al luogo di residenza. 
+ 4. Resta vietato il porto del materiale di cui al comma 1 da parte dei giornalisti professionisti e dei pubblicisti nonche' di coloro che svolgono la professione di fotoreporter o videoperatore nel territorio dello Stato))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_4" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_5"/>
+                        <new>
+                            <nakn:text>((, informando le Commissioni parlamentari competenti,))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_5" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_6"/>
+                        <new>
+                            <nakn:text>((, di 2,2 milioni di euro per l'anno 2024 e di 2,34 milioni di euro per l'anno 2025))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_6" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_7"/>
+                        <new>
+                            <nakn:text>((1,5 milioni))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_7" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_8"/>
+                        <new>
+                            <nakn:text>((all'articolo 24, comma 4, del decreto-legge 16 luglio 2020, n. 76, convertito, con modificazioni, dalla legge 11 settembre 2020, n. 120))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_8" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_9"/>
+                        <new>
+                            <nakn:text>((nonche' impianti alimentati da biomassa solida, prevedendo per i soli impianti alimentati da bioliquidi sostenibili))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_9" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_10"/>
+                        <new>
+                            <nakn:text>((fino al 30 giugno 2024))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_10" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_11"/>
+                        <new>
+                            <nakn:text>((2))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_11" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_12"/>
+                        <new>
+                            <nakn:text>(( (Misure a sostegno degli studenti, dei ricercatori e dei docenti di nazionalita' ucraina che svolgono attivita' di studio o ricerca presso le universita', le istituzioni di alta formazione artistica, musicale e coreutica e gli enti di ricerca). ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_12" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_13"/>
+                        <new>
+                            <nakn:text>((1. Al fine di promuovere iniziative di sostegno in favore degli studenti di nazionalita' ucraina iscritti, ovvero aderenti al programma Erasmus, presso le universita', anche non statali, legalmente riconosciute, ammesse al contributo di cui alla legge 29 luglio 1991, n. 243, e le istituzioni di alta formazione artistica, musicale e coreutica, di cui all'articolo 1 della legge 21 dicembre 1999, n. 508, nonche' dei dottorandi, dei ricercatori e dei professori di nazionalita' ucraina che partecipano, a qualsiasi titolo, alle attivita' delle predette universita' e istituzioni di alta formazione artistica, musicale e coreutica o degli enti di ricerca vigilati dal Ministero dell'universita' e della ricerca, e' istituito, nello stato di previsione del Ministero dell'universita' e della ricerca, un apposito fondo con una dotazione di 1 milione di euro per l'anno 2022. Il fondo di cui al primo periodo e' destinato, per le iniziative ivi indicate, anche in favore dei soggetti di cui all'articolo 1, comma 390, della legge 30 dicembre 2021, n. 234, come modificato dall'articolo 5-quater del presente decreto, nonche' dei soggetti ai quali, in conseguenza della crisi politica e militare in atto in Ucraina, sia stata concessa la protezione internazionale, anche temporanea. Con decreto del Ministro dell'universita' e della ricerca, da adottare entro sessanta giorni dalla data di entrata in vigore del decreto-legge 28 febbraio 2022, n. 16, sono definite la ripartizione tra le universita', le istituzioni e gli enti di cui al primo periodo nonche' le modalita' di utilizzazione delle risorse di cui al primo periodo, anche attraverso la previsione di borse di studio ovvero di altri strumenti e servizi di diritto allo studio.
+Agli oneri derivanti dall'attuazione del presente articolo, pari a 1 milione di euro per l'anno 2022, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2022-2024, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2022, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'universita' e della ricerca))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_13" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_14"/>
+                        <new>
+                            <nakn:text>((euro 179.181.253))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_14" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_15"/>
+                        <new>
+                            <nakn:text>((c-bis) quanto a 1,5 milioni di euro per l'anno 2022, mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2022-2024, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2022, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero degli affari esteri e della cooperazione internazionale))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO-LEGGE/stato/2022-02-25/14/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/DECRETO-LEGGE/stato/2022-03-21/21/!main" showAs=""/>
+                <passiveRef eId="rp2" href="/akn/it/act/LEGGE/stato/2022-04-05/28/!main" showAs=""/>
+                <passiveRef eId="rp3" href="/akn/it/act/DECRETO-LEGGE/stato/2022-05-17/50/!main" showAs=""/>
+                <passiveRef eId="rp4" href="/akn/it/act/LEGGE/stato/2022-05-20/51/!main" showAs=""/>
+                <passiveRef eId="rp5" href="/akn/it/act/LEGGE/stato/2022-07-15/91/!main" showAs=""/>
+                <passiveRef eId="rp6" href="/akn/it/act/DECRETO-LEGGE/stato/2022-11-08/169/!main" showAs=""/>
+                <passiveRef eId="rp7" href="/akn/it/act/DECRETO-LEGGE/stato/2022-11-18/176/!main" showAs=""/>
+                <passiveRef eId="rp8" href="/akn/it/act/DECRETO-LEGGE/stato/2022-12-02/185/!main" showAs=""/>
+                <passiveRef eId="rp9" href="/akn/it/act/LEGGE/stato/2022-12-29/197/!main" showAs=""/>
+                <passiveRef eId="rp10" href="/akn/it/act/DECRETO-LEGGE/stato/2022-12-29/198/!main" showAs=""/>
+                <passiveRef eId="rp11" href="/akn/it/act/LEGGE/stato/2023-01-13/6/!main" showAs=""/>
+                <passiveRef eId="rp12" href="/akn/it/act/DECRETO-LEGGE/stato/2023-02-24/13/!main" showAs=""/>
+                <passiveRef eId="rp13" href="/akn/it/act/LEGGE/stato/2023-02-24/14/!main" showAs=""/>
+                <passiveRef eId="rp14" href="/akn/it/act/LEGGE/stato/2023-04-21/41/!main" showAs=""/>
+                <passiveRef eId="rp15" href="/akn/it/act/DECRETO-LEGGE/stato/2023-10-18/145/!main" showAs=""/>
+                <passiveRef eId="rp16" href="/akn/it/act/DECRETO-LEGGE/stato/2023-12-21/200/!main" showAs=""/>
+                <passiveRef eId="rp17" href="/akn/it/act/DECRETO-LEGGE/stato/2023-12-30/215/!main" showAs=""/>
+                <passiveRef eId="rp18" href="/akn/it/act/DECRETO-LEGGE/stato/2024-12-27/200/!main" showAs=""/>
+                <passiveRef eId="rp19" href="/akn/it/act/DECRETO-LEGGE/stato/2024-12-27/202/!main" showAs=""/>
+                <passiveRef eId="rp20" href="/akn/it/act/DECRETO-LEGGE/stato/2025-12-31/201/!main" showAs=""/>
+                <passiveRef eId="rp21" href="/akn/it/act/LEGGE/stato/2026-02-27/27/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/02/25/22G00024/CONSOLIDATED/20260301">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni urgenti sulla crisi in Ucraina. (22G00024)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00024</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-02-25</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/02/25/22G00024/CONSOLIDATED/20260301/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/02/25/22G00024/CONSOLIDATED/20260301"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/02/25/22G00024/CONSOLIDATED/20260301/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/02/25/22G00024/CONSOLIDATED/20260301/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legge/stato/2022/14" nativeUrn="urn:nir:stato:decreto.legge:2022-02-25;14" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-02-25"><ns0:event type="enacted" date="2022-02-25"/><ns0:event type="published" date="2022-02-25"/><ns0:event type="commenced" date="2022-02-25"/><ns0:event type="amended" date="2022-03-21"/><ns0:event type="amended" date="2022-04-13"/><ns0:event type="amended" date="2022-05-17"/><ns0:event type="amended" date="2022-05-20"/><ns0:event type="amended" date="2022-07-15"/><ns0:event type="amended" date="2022-11-08"/><ns0:event type="amended" date="2022-11-18"/><ns0:event type="amended" date="2022-12-02"/><ns0:event type="amended" date="2022-12-29"/><ns0:event type="amended" date="2023-01-17"/><ns0:event type="amended" date="2023-02-24"/><ns0:event type="amended" date="2023-02-27"/><ns0:event type="amended" date="2023-04-21"/><ns0:event type="amended" date="2023-10-18"/><ns0:event type="amended" date="2023-12-21"/><ns0:event type="amended" date="2023-12-30"/><ns0:event type="amended" date="2024-12-27"/><ns0:event type="amended" date="2025-12-31"/><ns0:event type="amended" date="2026-02-28"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/c7e054ed-dad8-4d61-b894-edb3304341b5" sourceSha256="fdfdde8b50b77f63e8be3680c0ca1438c8c473c7e5e77c3f240b3324eea58c7c" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T23:26:09.883887Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO-LEGGE</docType>
+                <docDate date="2022-02-25">25 febbraio 2022</docDate>
+                <docNumber>14</docNumber>
+                <docTitle>Disposizioni urgenti sulla crisi in Ucraina. (22G00024) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 25/02/2022
+Decreto-Legge convertito con modificazioni dalla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2022-04-05/28/!main" ns1:target="olf:it/legge/stato/2022/28" ns1:relation="cites">L. 5 aprile 2022, n. 28</ref> (in G.U. 13/04/2022, n. 87).</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visti gli <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_77" ns2:target="olf:it/costituzione/stato/1947/const/art_77" ns2:relation="cites">articoli 77</ref> e <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87" ns3:target="olf:it/costituzione/stato/1947/const/art_87" ns3:relation="cites">87 della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Visti gli articoli 3 e 4 del Trattato del Nord-Atlantico, ratificato con <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/legge/stato/1949-08-01/465/!main" ns4:target="olf:it/legge/stato/1949/465" ns4:relation="cites">legge 1° agosto 1949, n. 465</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Vista la <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_5" href="/akn/it/act/legge/stato/2016-07-21/145/!main" ns5:target="olf:it/legge/stato/2016/145" ns5:relation="cites">legge 21 luglio 2016, n. 145</ref>, recante «Disposizioni concernenti la partecipazione dell'Italia alle missioni internazionali»;</p>
+                </citation>
+            </citations>
+            <p>Ritenuta la straordinaria necessita' e urgenza, connessa alla grave crisi internazionale in atto in Ucraina, di emanare disposizioni in deroga alla predetta <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_6" href="/akn/it/act/legge/stato/2016-07-21/145/!main" ns6:target="olf:it/legge/stato/2016/145" ns6:relation="cites">legge 21 luglio 2016, n. 145</ref> per assicurare la partecipazione di personale militare alle iniziative della NATO per l'impiego della forza ad elevata prontezza, denominata Very High Readiness Joint Task Force (VJTF);</p>
+            <citations eId="cits_4">
+                <citation eId="cits_4__cit_1">
+                    <p>Viste le risoluzioni della Camera dei deputati (6-00194) e del Senato della Repubblica (Doc. XXIV, n. 48) approvate, rispettivamente, in data 15 luglio 2021 e 4 agosto 2021, nelle parti in cui autorizzano la prosecuzione, per l'anno 2021, della partecipazione di personale militare al potenziamento dei dispositivi della NATO previsti dalle schede 36/2021, 37/2021, 38/2021 e 40/2021, contenute nell'allegato 1 alla deliberazione del Consiglio dei Ministri del 17 giugno 2021, adottata ai sensi dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_7" href="/akn/it/act/legge/stato/2016-07-21/145/!main#art_3-com1" ns7:target="olf:it/legge/stato/2016/145/art_3-com1" ns7:relation="cites">articolo 3, comma 1, della legge 21 luglio 2016, n. 145</ref>;</p>
+                </citation>
+            </citations>
+            <p>Ritenuta la straordinaria necessita' e urgenza di emanare disposizioni, in deroga alla predetta <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_8" href="/akn/it/act/legge/stato/2016-07-21/145/!main" ns8:target="olf:it/legge/stato/2016/145" ns8:relation="cites">legge 21 luglio 2016, n. 145</ref>, per assicurare la prosecuzione, per l'anno 2022, della partecipazione di personale militare al potenziamento dei citati dispositivi della NATO;</p>
+            <p>Ritenuta la straordinaria necessita' e urgenza di emanare disposizioni per la cessione di mezzi e materiali di equipaggiamento militari alle autorita' governative dell'Ucraina e per semplificare le procedure di erogazione di aiuti alle autorita' e alla popolazione del medesimo Paese;</p>
+            <p>Ritenuta la straordinaria necessita' e urgenza di potenziare la sicurezza e la funzionalita' degli uffici all'estero e le misure di tutela degli interessi italiani e dei cittadini all'estero;</p>
+            <citations eId="cits_5">
+                <citation eId="cits_5__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei Ministri, adottata nella riunione del 25 febbraio 2022;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Presidente del Consiglio dei ministri e dei Ministri degli affari esteri e della cooperazione internazionale e della difesa;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto-legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading>Partecipazione di personale militare al potenziamento di dispositivi della NATO</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>E' autorizzata, fino al 30 settembre 2022, la partecipazione di personale militare alle iniziative della NATO per l'impiego della forza ad elevata prontezza, denominata Very High Readiness Joint Task Force (VJTF). <ins eId="ins_1">((6))</ins>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_1__para_2__intro_1">
+                            <p>E' autorizzata, per l'anno 2022, la prosecuzione della partecipazione di personale militare al potenziamento dei seguenti dispositivi della NATO: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>dispositivo per la sorveglianza dello spazio aereo dell'Alleanza; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>dispositivo per la sorveglianza navale nell'area sud dell'Alleanza; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>presenza in Lettonia (Enhanced Forward Presence); 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_2.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>Air Policing per la sorveglianza dello spazio aereo dell'Alleanza. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Si applicano le disposizioni di cui ai capi III, IV e V della <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2016-07-21/145/!main" ns9:target="olf:it/legge/stato/2016/145" ns9:relation="cites">legge 21 luglio 2016, n. 145</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Per le finalita' di cui al comma 1, e' autorizzata la spesa di euro 86.129.645 per l'anno 2022. Per le finalita' di cui al comma 2, e' autorizzata la spesa di euro 67.451.608 per l'anno 2022 e di euro 21.000.000 per l'anno 2023. 
+ 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>-------------</p>
+                        <p>AGGIORNAMENTO (6)</p>
+                        <p>
+ Il <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="10" href="/akn/it/act/decretoLegge/stato/2022-11-08/169/!main" ns10:target="olf:it/decreto-legge/stato/2022/169" ns10:relation="cites">D.L. 8 novembre 2022, n. 169</ref>, ha disposto (con l'art. 1, comma 1) che "E' autorizzata, fino al 31 dicembre 2022, la proroga della partecipazione di personale militare alle iniziative della NATO per l'impiego della forza ad elevata prontezza, denominata Very High Readiness Joint Task Force (VJTF), di cui all'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="11" href="/akn/it/act/decretoLegge/stato/2022-02-25/14/!main#art_1-com1" ns11:target="olf:it/decreto-legge/stato/2022/14/art_1-com1" ns11:relation="cites">articolo 1, comma 1, del decreto-legge 25 febbraio 2022, n. 14</ref>, convertito, con modificazioni, dalla <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="12" href="/akn/it/act/legge/stato/2022-04-05/28/!main" ns12:target="olf:it/legge/stato/2022/28" ns12:relation="cites">legge 5 aprile 2022, n. 28</ref>". </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading>Cessione di mezzi ed equipaggiamenti militari non letali di protezione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>E' autorizzata, per l'anno 2022, la spesa di euro 12.000.000 per la cessione, a titolo gratuito, di mezzi e materiali di equipaggiamento militari non letali di protezione alle autorita' governative dell'Ucraina. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2-bis">
+                <num>Art. 2-bis.</num>
+                <heading>(Cessione di mezzi, materiali ed equipaggiamenti militari)</heading>
+                <paragraph eId="art_2-bis__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Fino al 31 dicembre 2022, previo atto di indirizzo delle Camere, e' autorizzata la cessione di mezzi, materiali ed equipaggiamenti militari in favore delle autorita' governative dell'Ucraina, in deroga alle disposizioni di cui alla <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/1990-07-09/185/!main#art_310" ns13:target="olf:it/legge/stato/1990/185/art_310" ns13:relation="cites">legge 9 luglio 1990, n. 185, agli articoli 310</ref> e <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/1990-07-09/185/!main#art_311" ns14:target="olf:it/legge/stato/1990/185/art_311" ns14:relation="cites">311</ref> del <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns15:target="olf:it/decreto-legislativo/stato/2010/66" ns15:relation="cites">codice dell'ordinamento militare</ref>, di cui al <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns16:target="olf:it/decreto-legislativo/stato/2010/66" ns16:relation="cites">decreto legislativo 15 marzo 2010, n. 66</ref>, e alle connesse disposizioni attuative. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-bis__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Con uno o piu' decreti del Ministro della difesa, di concerto con il Ministro degli affari esteri e della cooperazione internazionale e con il Ministro dell'economia e delle finanze, sono definiti l'elenco dei mezzi, materiali ed equipaggiamenti militari oggetto della cessione di cui al comma 1 nonche' le modalita' di realizzazione della stessa, anche ai fini dello scarico contabile. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-bis__para_2-bis">
+                    <num>2-bis.</num>
+                    <content>
+                        <p>Le somme in entrata per effetto dei decreti di cui al comma 2 sono riassegnate integralmente sui pertinenti capitoli dello stato di previsione del Ministero della difesa. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-bis__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Il Ministro della difesa e il Ministro degli affari esteri e della cooperazione internazionale, con cadenza almeno trimestrale, riferiscono alle Camere sull'evoluzione della situazione in atto anche alla luce di quanto disposto dai commi 1 e 2 del presente articolo. 
+ 
+ (7) (16) (18) <ins eId="ins_2">((20))</ins>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>---------------</p>
+                        <p>AGGIORNAMENTO (7)</p>
+                        <p>
+ Il <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="17" href="/akn/it/act/decretoLegge/stato/2022-12-02/185/!main" ns17:target="olf:it/decreto-legge/stato/2022/185" ns17:relation="cites">D.L. 2 dicembre 2022, n. 185</ref> ha disposto (con l'art. 1, comma 1) che "E' prorogata, fino al 31 dicembre 2023, previo atto di indirizzo delle Camere, l'autorizzazione alla cessione di mezzi, materiali ed equipaggiamenti militari in favore delle autorita' governative dell'Ucraina, di cui all'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="18" href="/akn/it/act/decretoLegge/stato/2022-02-25/14/!main#art_2bis" ns18:target="olf:it/decreto-legge/stato/2022/14/art_2bis" ns18:relation="cites">articolo 2-bis del decreto-legge 25 febbraio 2022, n. 14</ref>, convertito, con modificazioni, dalla <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="19" href="/akn/it/act/legge/stato/2022-04-05/28/!main" ns19:target="olf:it/legge/stato/2022/28" ns19:relation="cites">legge 5 aprile 2022, n. 28</ref>, nei termini e con le modalita' ivi stabilite". </p>
+                        <p>---------------</p>
+                        <p>AGGIORNAMENTO (16)</p>
+                        <p>
+ Il <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="20" href="/akn/it/act/decretoLegge/stato/2023-12-21/200/!main" ns20:target="olf:it/decreto-legge/stato/2023/200" ns20:relation="cites">D.L. 21 dicembre 2023, n. 200</ref> ha disposto (con l'art. 1, comma 1) che "E' prorogata, fino al 31 dicembre 2024, previo atto di indirizzo delle Camere, l'autorizzazione alla cessione di mezzi, materiali ed equipaggiamenti militari in favore delle autorita' governative dell'Ucraina, di cui all'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="21" href="/akn/it/act/decretoLegge/stato/2022-02-25/14/!main#art_2bis" ns21:target="olf:it/decreto-legge/stato/2022/14/art_2bis" ns21:relation="cites">articolo 2-bis del decreto-legge 25 febbraio 2022, n. 14</ref>, convertito con modificazioni dalla <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="22" href="/akn/it/act/legge/stato/2022-04-05/28/!main" ns22:target="olf:it/legge/stato/2022/28" ns22:relation="cites">legge 5 aprile 2022, n. 28</ref>, nei termini e con le modalita' ivi stabilite". </p>
+                        <p>---------------</p>
+                        <p>AGGIORNAMENTO (18)</p>
+                        <p>
+ Il <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="23" href="/akn/it/act/decretoLegge/stato/2024-12-27/200/!main" ns23:target="olf:it/decreto-legge/stato/2024/200" ns23:relation="cites">D.L. 27 dicembre 2024, n. 200</ref>, ha disposto (con l'art. 1, comma 1) che "E' prorogata, fino al 31 dicembre 2025, previo atto di indirizzo delle Camere, l'autorizzazione alla cessione di mezzi, materiali ed equipaggiamenti militari in favore delle autorita' governative dell'Ucraina, di cui all'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="24" href="/akn/it/act/decretoLegge/stato/2022-02-25/14/!main#art_2bis" ns24:target="olf:it/decreto-legge/stato/2022/14/art_2bis" ns24:relation="cites">articolo 2-bis del decreto-legge 25 febbraio 2022, n. 14</ref>, convertito, con modificazioni, dalla <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="25" href="/akn/it/act/legge/stato/2022-04-05/28/!main" ns25:target="olf:it/legge/stato/2022/28" ns25:relation="cites">legge 5 aprile 2022, n. 28</ref>, nei termini e con le modalita' ivi stabilite". </p>
+                        <p>---------------</p>
+                        <p>AGGIORNAMENTO (20)</p>
+                        <p>
+ Il <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="26" href="/akn/it/act/decretoLegge/stato/2025-12-31/201/!main" ns26:target="olf:it/decreto-legge/stato/2025/201" ns26:relation="cites">D.L. 31 dicembre 2025, n. 201</ref>, convertito con modificazioni dalla <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="27" href="/akn/it/act/legge/stato/2026-02-27/27/!main" ns27:target="olf:it/legge/stato/2026/27" ns27:relation="cites">L. 27 febbraio 2026, n. 27</ref>, ha disposto (con l'art. 1, comma 1) che "E' prorogata, fino al 31 dicembre 2026, previo atto di indirizzo delle Camere, l'autorizzazione alla cessione di mezzi, materiali ed equipaggiamenti militari e di difesa civile, con priorita' per quelli logistici, sanitari, ad uso civile e di protezione dagli attacchi aerei, missilistici, con droni e cibernetici, in favore delle autorita' governative dell'Ucraina, di cui all'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="28" href="/akn/it/act/decretoLegge/stato/2022-02-25/14/!main#art_2bis" ns28:target="olf:it/decreto-legge/stato/2022/14/art_2bis" ns28:relation="cites">articolo 2-bis del decreto-legge 25 febbraio 2022, n. 14</ref>, convertito, con modificazioni, dalla <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="29" href="/akn/it/act/legge/stato/2022-04-05/28/!main" ns29:target="olf:it/legge/stato/2022/28" ns29:relation="cites">legge 5 aprile 2022, n. 28</ref>, nei termini e con le modalita' ivi stabiliti". </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2-ter">
+                <num>Art. 2-ter.</num>
+                <heading>
+                    <ins eId="ins_3">(( (Vendita di materiali di autodifesa a giornalisti e fotoreporter nell'ambito del conflitto tra Russia e Ucraina). ))</ins>
+                </heading>
+                <paragraph>
+                    <content>
+                        <p>((</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-ter__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Fino al 31 dicembre 2022 le persone fisiche iscritte all'albo dei giornalisti, in qualita' di professionisti o di pubblicisti, nonche' coloro che svolgono la professione di fotoreporter o videoperatore, in deroga a quanto previsto dall'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/regio.decreto/stato/1931-06-18/773/!main#art_28" ns30:target="olf:it/regio-decreto/stato/1931/773/art_28" ns30:relation="cites">articolo 28 del testo unico delle leggi di pubblica sicurezza</ref>, di cui al <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/regio.decreto/stato/1931-06-18/773/!main" ns31:target="olf:it/regio-decreto/stato/1931/773" ns31:relation="cites">regio decreto 18 giugno 1931, n. 773</ref>, possono acquistare, previo nulla osta del questore competente per il luogo di residenza, giubbotti antiproiettile ed elmetti per esigenze di autodifesa nell'esercizio delle rispettive professioni nel territorio ucraino. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-ter__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il nulla osta rilasciato dal questore deve essere esibito alle competenti autorita' doganali e di frontiera all'atto dell'uscita e del rientro nel territorio dello Stato. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-ter__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Il nulla osta abilita al trasporto dei predetti materiali nei trasferimenti che i soggetti di cui al comma 1 devono effettuare per raggiungere la frontiera dello Stato e in quelli dalla frontiera stessa al luogo di residenza. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p> 4. Resta vietato il porto del materiale di cui al comma 1 da parte dei giornalisti professionisti e dei pubblicisti nonche' di coloro che svolgono la professione di fotoreporter o videoperatore nel territorio dello Stato))</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading>Disposizioni urgenti di semplificazione delle procedure per gli interventi di assistenza o di cooperazione in favore dell'Ucraina </heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per gli interventi di assistenza o di cooperazione in favore delle autorita' e della popolazione dell'Ucraina, fino al 31 dicembre 2022, il Ministero degli affari esteri e della cooperazione internazionale e l'Agenzia italiana per la cooperazione allo sviluppo sono autorizzati a procedere in deroga alla <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/legge/stato/2014-08-11/125/!main" ns32:target="olf:it/legge/stato/2014/125" ns32:relation="cites">legge 11 agosto 2014, n. 125</ref>, alle relative disposizioni attuative e a ogni disposizione di legge diversa da quella penale, fatto salvo il rispetto del codice delle leggi antimafia e delle misure di prevenzione di cui al <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns33:target="olf:it/decreto-legislativo/stato/2011/159" ns33:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref>, nonche' dei vincoli inderogabili derivanti dall'appartenenza all'Unione europea. Gli interventi di cui al presente articolo sono deliberati <ins eId="ins_5">((, informando le Commissioni parlamentari competenti,))</ins> dal Ministro degli affari esteri e della cooperazione internazionale o dal Vice Ministro delegato ai sensi dell'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/2014-08-11/125/!main#art_11-com3" ns34:target="olf:it/legge/stato/2014/125/art_11-com3" ns34:relation="cites">articolo 11, comma 3, della legge 11 agosto 2014, n. 125</ref>. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Disposizioni urgenti per la funzionalita' e la sicurezza degli uffici e del personale all'estero 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per il potenziamento della protezione degli uffici all'estero e del relativo personale e degli interventi a tutela dei cittadini e interessi italiani realizzati dai medesimi uffici, la dotazione finanziaria delle ambasciate e degli uffici consolari di prima categoria e' incrementata di 10 milioni di euro per l'anno 2022. Nei limiti dell'importo di cui al primo periodo, il Ministero degli affari esteri e della cooperazione internazionale e' autorizzato a provvedere alle spese per il vitto e per l'alloggio del personale e dei cittadini, che, per ragioni di sicurezza, sono alloggiati in locali indicati dal Ministero o dal capo della rappresentanza diplomatica o dell'ufficio consolare. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>E' autorizzata la spesa di 2 milioni di euro per ciascuno degli anni 2022 e 2023 <ins eId="ins_6">((, di 2,2 milioni di euro per l'anno 2024 e di 2,34 milioni di euro per l'anno 2025))</ins> per l'invio di militari dell'Arma dei carabinieri ai sensi dell'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main#art_158" ns35:target="olf:it/decreto-legislativo/stato/2010/66/art_158" ns35:relation="cites">articolo 158 del decreto legislativo 15 marzo 2010, n. 66</ref>, a tutela degli uffici all'estero maggiormente esposti e del relativo personale in servizio. Ai predetti militari si applica il trattamento economico di cui all'<ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1967-01-05/18/!main#art_170-com5" ns36:target="olf:it/dpr/stato/1967/18/art_170-com5" ns36:relation="cites">articolo 170, quinto comma, del decreto del Presidente della Repubblica 5 gennaio 1967, n. 18</ref>. Nelle more dell'istituzione dei posti di organico, il Ministero degli affari esteri e della cooperazione internazionale e' autorizzato a corrispondere anticipazioni per l'intero ammontare spettante ai sensi del secondo periodo. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Disposizioni urgenti per l'Unita' di crisi del Ministero degli affari esteri e della cooperazione internazionale 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per il potenziamento delle attivita' realizzate dall'Unita' di crisi del Ministero degli affari esteri e della cooperazione internazionale a tutela degli interessi italiani e della sicurezza dei connazionali all'estero in situazioni di emergenza, e' autorizzata la spesa di euro <ins eId="ins_7">((1,5 milioni))</ins> per l'anno 2022. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>L'autorizzazione di spesa di cui all'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/decretoLegge/stato/2005-05-31/90/!main#art_9" ns37:target="olf:it/decreto-legge/stato/2005/90/art_9" ns37:relation="cites">articolo 9 del decreto-legge 31 maggio 2005, n. 90</ref>, convertito, con modificazioni, dalla <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/legge/stato/2005-07-26/152/!main" ns38:target="olf:it/legge/stato/2005/152" ns38:relation="cites">legge 26 luglio 2005, n. 152</ref>, e' incrementata di euro 100.000 per l'anno 2022. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Per l'Unita' di crisi del Ministero degli affari esteri e della cooperazione internazionale i termini di cui <ins eId="ins_8">((all'articolo 24, comma 4, del decreto-legge 16 luglio 2020, n. 76, convertito, con modificazioni, dalla legge 11 settembre 2020, n. 120))</ins>, sono differiti rispettivamente al 31 dicembre 2022 e al 31 marzo 2023. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5-bis">
+                <num>Art. 5-bis.</num>
+                <heading>(Disposizioni per l'adozione di misure preventive necessarie alla sicurezza del sistema nazionale del gas naturale)</heading>
+                <paragraph eId="art_5-bis__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di fronteggiare l'eccezionale instabilita' del sistema nazionale del gas naturale derivante dalla guerra in Ucraina e di consentire il riempimento degli stoccaggi di gas per l'anno termico 2022-2023, possono essere adottate le misure finalizzate all'aumento della disponibilita' di gas e alla riduzione programmata dei consumi di gas previste dal piano di emergenza del sistema italiano del gas naturale, di cui al decreto del Ministro dello sviluppo economico 18 dicembre 2019, adottato ai sensi dell'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/decretoLegislativo/stato/2011-06-01/93/!main#art_8-com1" ns39:target="olf:it/decreto-legislativo/stato/2011/93/art_8-com1" ns39:relation="cites">articolo 8, comma 1, del decreto legislativo 1° giugno 2011, n. 93</ref>, a prescindere dalla dichiarazione del livello di emergenza. Le misure di cui al primo periodo sono adottate mediante provvedimenti e atti di indirizzo del Ministro della transizione ecologica. Delle predette misure e' data comunicazione nella prima riunione del Consiglio dei ministri successiva all'adozione delle misure medesime. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-bis__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>In caso di adozione delle misure finalizzate a ridurre il consumo di gas naturale nel settore termoelettrico ai sensi del comma 1, la societa' Terna Spa predispone un programma di massimizzazione dell'impiego degli impianti di generazione di energia elettrica con potenza termica nominale superiore a 300 MW che utilizzino carbone o olio combustibile in condizioni di regolare esercizio, per il periodo stimato di durata dell'emergenza, fermo restando il contributo degli impianti alimentati a energie rinnovabili. La societa' Terna Spa trasmette con periodicita' settimanale al Ministero della transizione ecologica e all'Autorita' di regolazione per energia, reti e ambiente un programma di utilizzo degli impianti di cui al primo periodo ed effettua il dispacciamento degli impianti medesimi, nel rispetto dei vincoli di sicurezza della rete, in modo da massimizzarne l'utilizzo.
+L'Autorita' di regolazione per energia, reti e ambiente definisce i corrispettivi a reintegrazione degli eventuali maggiori costi sostenuti dai predetti impianti. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-bis__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Tenuto conto della finalita' di cui al comma 1 e della situazione di eccezionalita' che giustifica la massimizzazione dell'impiego degli impianti di cui al comma 2, i gestori degli impianti medesimi comunicano all'autorita' competente al rilascio dell'autorizzazione integrata ambientale di cui al Titolo III-bis della Parte Seconda del <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoLegislativo/stato/2006-04-03/152/!main" ns40:target="olf:it/decreto-legislativo/stato/2006/152" ns40:relation="cites">decreto legislativo 3 aprile 2006, n. 152</ref>, le deroghe necessarie alle condizioni autorizzative, per un periodo di sei mesi dalla notifica di cui al comma 3-bis. Alla scadenza del termine di sei mesi, qualora la situazione di eccezionalita' permanga, i gestori comunicano all'autorita' competente le nuove deroghe necessarie alle condizioni autorizzative, indicando il periodo di durata delle stesse che, in ogni caso, non e' superiore a sei mesi dalla data della nuova notifica ai sensi del comma 3-bis.
+Con le medesime comunicazioni di cui al primo e secondo periodo, i gestori indicano le motivazioni tecniche che rendono necessaria l'attuazione delle deroghe e le condizioni autorizzative temporanee.
+I valori limite in deroga non possono in ogni caso eccedere, per ciascun impianto, i riferimenti derivanti dai piani di qualita' dell'ambiente e dalla normativa unionale, nonche' i valori meno stringenti dei BAT-AEL indicati nelle conclusioni sulle BAT di cui all'articolo 3, punto 12), della <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/direttivaUe/eu/2010/75/!main" ns41:resolution="unresolved">direttiva 2010/75/UE del Parlamento europeo e del Consiglio, del 24 novembre 2010</ref> e forniscono i dati necessari per effettuare il confronto rispetto alle condizioni dell'autorizzazione integrata ambientale e ai livelli di emissione associati alle migliori tecniche disponibili nonche' i risultati del controllo delle emissioni ai fini degli accertamenti di cui all'articolo 29-decies, comma 3, del citato <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/decretoLegislativo/stato/2006/152/!main" ns42:resolution="unresolved">decreto legislativo n. 152 del 2006</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-bis__para_3-bis">
+                    <num>3-bis.</num>
+                    <content>
+                        <p>Le autorita' competenti al rilascio dell'autorizzazione integrata ambientale trasmettono le comunicazioni di cui al comma 3 al Ministero della transizione ecologica e predispongono idonee misure di controllo nel rispetto di quanto previsto dall'<ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/decretoLegislativo/stato/2006/152/!main#art_29decies" ns43:resolution="unresolved">articolo 29-decies del decreto legislativo n. 152 del 2006</ref>, adeguando, ove necessario, il piano di monitoraggio e controllo contenuto nell'autorizzazione integrata ambientale. Il Ministero della transizione ecologica notifica le predette comunicazioni alla Commissione europea, al fine di consentire la valutazione dell'impatto complessivo dei regimi derogatori straordinari di cui al comma 3, informando l'Autorita' competente e il gestore dell'impianto interessato. Tale notifica determina la modifica delle autorizzazioni vigenti per il periodo di cui al comma 3. L'autorita' competente assicura adeguata pubblicita' alle comunicazioni di cui al comma 3 e agli esiti dei relativi controlli. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-bis__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Il programma di cui al comma 2 puo' comprendere l'utilizzo degli impianti di produzione di energia elettrica alimentati da bioliquidi sostenibili <ins eId="ins_9">((nonche' impianti alimentati da biomassa solida, prevedendo per i soli impianti alimentati da bioliquidi sostenibili))</ins>, esclusivamente durante il periodo emergenziale e comunque almeno fino al 31 marzo 2024, anche l'alimentazione tramite combustibile convenzionale, in deroga alle disposizioni di cui all'<ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/decretoLegislativo/stato/2003-12-29/387/!main#art_12" ns44:target="olf:it/decreto-legislativo/stato/2003/387/art_12" ns44:relation="cites">articolo 12 del decreto legislativo 29 dicembre 2003, n. 387</ref>, fermo restando quanto disposto dal comma 3 del presente articolo. La deroga di cui al primo periodo e' concessa nell'ambito dei provvedimenti di cui al comma 1 esclusivamente qualora risulti che l'alimentazione a biocombustibili non sia economicamente sostenibile rispetto all'alimentazione a combustibile tradizionale e non consenta l'esercizio degli impianti, considerando la disponibilita' e i prezzi dei biocombustibili e l'attuale livello degli incentivi. Fermo restando che l'erogazione dei predetti incentivi e' sospesa per il periodo emergenziale di alimentazione a combustibile tradizionale, l'Autorita' di regolazione per energia, reti e ambiente definisce i corrispettivi a reintegrazione degli eventuali maggiori costi rispetto ai proventi derivanti dalla vendita di energia sul mercato elettrico, strettamente necessari per sostenere l'esercizio dei predetti impianti nel periodo emergenziale ed effettivamente sostenuti a partire dalla data di entrata in vigore dei provvedimenti di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-bis__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Nelle ipotesi di cui al comma 2, il Ministro della transizione ecologica adotta le necessarie misure per incentivare l'uso delle fonti rinnovabili. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-bis__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Sino all'adozione dei provvedimenti e degli atti di indirizzo di cui al comma 1 non e' riconosciuto alcun corrispettivo a reintegrazione degli eventuali maggiori costi di gestione e di stoccaggio sostenuti dagli impianti di produzione di energia elettrica alimentati con i combustibili di cui al presente articolo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-bis__para_6-bis">
+                    <num>6-bis.</num>
+                    <content>
+                        <p>Al fine di fronteggiare l'eccezionale instabilita' del sistema nazionale del gas naturale derivante dalla guerra in Ucraina e di consentire il riempimento degli stoccaggi di gas per l'anno termico 2022-2023, nonche' di massimizzare l'impiego di impianti alimentati con combustibili diversi dal gas naturale, esclusivamente fino al 31 marzo 2024, la sostituzione del gas naturale con combustibili alternativi, compreso il combustibile solido secondario, e le relative modifiche tecnico-impiantistiche ai fini del soddisfacimento del fabbisogno energetico degli impianti industriali sono da qualificarsi come modifiche non sostanziali. Si applicano i limiti di emissione nell'atmosfera previsti dalla normativa dell'Unione europea o, in mancanza, quelli previsti dalle norme nazionali o regionali per le sostanze indicate nella predetta normativa. I gestori degli impianti industriali comunicano a tal fine all'autorita' competente al rilascio della valutazione di impatto ambientale, ove prevista, e dell'autorizzazione integrata ambientale le deroghe necessarie alle condizioni autorizzative e la tipologia di combustibile diverso dal gas naturale ai fini del soddisfacimento del relativo fabbisogno energetico. Decorsi trenta giorni dalla comunicazione, il gestore dell'impianto avvia la sostituzione con il combustibile diverso dal gas naturale in assenza di un provvedimento di diniego motivato da parte dell'autorita' competente rilasciato entro tale termine. L'autorita' competente puo' assumere determinazioni in via di autotutela, ai sensi degli articoli 21-quinquies e 21-nonies della <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/legge/stato/1990-08-07/241/!main" ns45:target="olf:it/legge/stato/1990/241" ns45:relation="cites">legge 7 agosto 1990, n. 241</ref>. Le deroghe alle condizioni autorizzative valgono per un periodo di sei mesi dalla comunicazione di cui al presente comma. Alla scadenza del termine di sei mesi, qualora la situazione di eccezionalita' permanga, i gestori comunicano all'autorita' competente le nuove deroghe necessarie alle condizioni autorizzative ai sensi del presente comma. Sono fatte salve le disposizioni in materia di sicurezza antincendio. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5-ter">
+                <num>Art. 5-ter.</num>
+                <heading>(Misure a favore di imprese che esportano o hanno filiali o partecipate in Ucraina, nella Federazione russa o in Bielorussia)</heading>
+                <paragraph eId="art_5-ter__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_5-ter__para_1__intro_1">
+                            <p>Alle domande di finanziamento per il sostegno a operazioni di patrimonializzazione, presentate ai sensi dell'<ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/decretoLegge/stato/1981-05-28/251/!main#art_2-com1" ns46:target="olf:it/decreto-legge/stato/1981/251/art_2-com1" ns46:relation="cites">articolo 2, primo comma, del decreto-legge 28 maggio 1981, n. 251</ref>, convertito, con modificazioni, dalla <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/legge/stato/1981-07-29/394/!main" ns47:target="olf:it/legge/stato/1981/394" ns47:relation="cites">legge 29 luglio 1981, n. 394</ref>, da imprese che hanno realizzato, nei bilanci 2020 e 2021 depositati, un fatturato medio, derivante da operazioni di esportazione verso l'Ucraina, la Federazione russa e la Bielorussia, pari almeno al 10 per cento del fatturato estero complessivo aziendale, si applicano le seguenti disposizioni: 
+ </p>
+                        </intro>
+                        <point eId="art_5-ter__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>in deroga all'articolo 11, comma 2, secondo periodo, del <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/decretoLegge/stato/2021-05-25/73/!main" ns48:target="olf:it/decreto-legge/stato/2021/73" ns48:relation="amends">decreto-legge 25 maggio 2021, n. 73</ref>, convertito, con modificazioni, dalla <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/legge/stato/2021-07-23/106/!main" ns49:target="olf:it/legge/stato/2021/106" ns49:relation="amends">legge 23 luglio 2021, n. 106</ref>, e' ammesso il cofinanziamento a fondo perduto di cui all'<ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/decretoLegge/stato/2020-03-17/18/!main#art_72-com1-letd" ns50:target="olf:it/decreto-legge/stato/2020/18/art_72-com1-letd" ns50:relation="cites">articolo 72, comma 1, lettera d), del decreto-legge 17 marzo 2020, n. 18</ref>, convertito, con modificazioni, dalla <ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/legge/stato/2020-04-24/27/!main" ns51:target="olf:it/legge/stato/2020/27" ns51:relation="cites">legge 24 aprile 2020, n. 27</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_5-ter__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>la percentuale di cofinanziamento a fondo perduto di cui alla lettera a) non e' superiore al 40 per cento dell'intervento complessivo di sostegno. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_5-ter__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per i finanziamenti agevolati concessi ai sensi dell'<ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/decretoLegge/stato/1981-05-28/251/!main#art_2" ns52:target="olf:it/decreto-legge/stato/1981/251/art_2" ns52:relation="cites">articolo 2 del decreto-legge 28 maggio 1981, n. 251</ref>, convertito, con modificazioni, dalla <ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/legge/stato/1981-07-29/394/!main" ns53:target="olf:it/legge/stato/1981/394" ns53:relation="cites">legge 29 luglio 1981, n. 394</ref>, in favore delle imprese di cui al comma 1 del presente articolo nonche' di quelle che hanno filiali operative o partecipate dirette in Ucraina, nella Federazione russa o in Bielorussia puo' essere disposta una sospensione fino a dodici mesi del pagamento della quota capitale e degli interessi delle rate in scadenza nel corso dell'anno 2022, con conseguente traslazione del piano di ammortamento per un periodo corrispondente. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-ter__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Le misure di cui ai commi 1 e 2 si applicano <ins eId="ins_10">((fino al 30 giugno 2024))</ins>, secondo condizioni e modalita' stabilite con una o piu' deliberazioni del Comitato agevolazioni di cui all'<ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/legge/stato/2017-12-27/205/!main#art_1-com270" ns54:target="olf:it/legge/stato/2017/205/art_1-com270" ns54:relation="cites">articolo 1, comma 270, della legge 27 dicembre 2017, n. 205</ref>, tenuto conto delle risorse disponibili e dell'ammontare complessivo delle domande presentate.
+L'efficacia del presente articolo e' subordinata all'autorizzazione della Commissione europea ai sensi dell'articolo 108 del Trattato sul funzionamento dell'Unione europea. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5-quater">
+                <num>Art. 5-quater.</num>
+                <heading>(Accoglienza dei profughi provenienti dall'Ucraina)</heading>
+                <paragraph eId="art_5-quater__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per far fronte alle eccezionali esigenze di accoglienza dei cittadini ucraini in conseguenza del conflitto bellico in atto in quel Paese, le risorse iscritte nello stato di previsione del Ministero dell'interno relative all'attivazione, alla locazione e alla gestione dei centri di trattenimento e di accoglienza sono incrementate di 54.162.000 euro per l'anno 2022. <ins eId="ins_11">((2))</ins>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-quater__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le risorse di cui al comma 1 sono utilizzate in via prioritaria per la copertura delle spese necessarie per l'accoglienza delle persone vulnerabili di cui all'<ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/decretoLegislativo/stato/2015-08-18/142/!main#art_17-com1" ns55:target="olf:it/decreto-legislativo/stato/2015/142/art_17-com1" ns55:relation="cites">articolo 17, comma 1, del decreto legislativo 18 agosto 2015, n. 142</ref>, provenienti dall'Ucraina. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-quater__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Per le medesime finalita' di cui al comma 1 e' autorizzata l'attivazione di ulteriori 3.000 posti nel Sistema di accoglienza e integrazione, di cui all'<ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/decretoLegge/stato/1989-12-30/416/!main#art_1sexies" ns56:target="olf:it/decreto-legge/stato/1989/416/art_1sexies" ns56:relation="cites">articolo 1-sexies del decreto-legge 30 dicembre 1989, n. 416</ref>, convertito, con modificazioni, dalla <ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/legge/stato/1990-02-28/39/!main" ns57:target="olf:it/legge/stato/1990/39" ns57:relation="cites">legge 28 febbraio 1990, n. 39</ref>. Ai fini dell'attuazione del presente comma e' destinata quota parte del Fondo nazionale per le politiche e i servizi dell'asilo, di cui all'articolo 1-septies del citato <ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/decretoLegge/stato/1989/416/!main" ns58:resolution="unresolved">decreto-legge n. 416 del 1989</ref>, nella misura di euro 37.702.260 per l'anno 2022 e di euro 44.971.650 per ciascuno degli anni 2023 e 2024. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-quater__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/decretoLegge/stato/2021-10-08/139/!main#art_7-com1" ns59:target="olf:it/decreto-legge/stato/2021/139/art_7-com1" ns59:relation="amends">articolo 7, comma 1, del decreto-legge 8 ottobre 2021, n. 139</ref>, convertito, con modificazioni, dalla <ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/legge/stato/2021-12-03/205/!main" ns60:target="olf:it/legge/stato/2021/205" ns60:relation="amends">legge 3 dicembre 2021, n. 205</ref>, le parole da: "richiedenti asilo" fino a: "medesimi richiedenti" sono sostituite dalle seguenti: "profughi provenienti dall'Afghanistan e dall'Ucraina in conseguenza delle crisi politiche e militari in atto, al fine di consentire per i medesimi". 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-quater__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/decretoLegge/stato/2021-10-08/139/!main#art_7" ns61:target="olf:it/decreto-legge/stato/2021/139/art_7" ns61:relation="amends">articolo 7 del decreto-legge 8 ottobre 2021, n. 139</ref>, convertito, con modificazioni, dalla <ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/legge/stato/2021-12-03/205/!main" ns62:target="olf:it/legge/stato/2021/205" ns62:relation="amends">legge 3 dicembre 2021, n. 205</ref>, dopo il comma 1 e' inserito il seguente: 
+ "1-bis. Con la progressiva attivazione dei posti di cui al comma 1, si provvede, fatte salve sopraggiunte esigenze, al trasferimento dei beneficiari dalle strutture di cui agli <ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/decretoLegislativo/stato/2015-08-18/142/!main#art_9" ns63:target="olf:it/decreto-legislativo/stato/2015/142/art_9" ns63:relation="cites">articoli 9</ref> e <ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/decretoLegislativo/stato/2015-08-18/142/!main#art_11" ns64:target="olf:it/decreto-legislativo/stato/2015/142/art_11" ns64:relation="cites">11 del decreto legislativo 18 agosto 2015, n. 142</ref>, alle strutture del SAI, nel limite dei posti disponibili". 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-quater__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/legge/stato/2021-12-30/234/!main#art_1-com390" ns65:target="olf:it/legge/stato/2021/234/art_1-com390" ns65:relation="amends">articolo 1, comma 390, della legge 30 dicembre 2021, n. 234</ref>, le parole da: "dei richiedenti asilo" fino a: "Afghanistan" sono sostituite dalle seguenti: "dei richiedenti asilo e delle persone in fuga dalle crisi politiche e militari in atto in Afghanistan e in Ucraina". 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-quater__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>I cittadini ucraini di cui al comma 1 possono essere accolti, a decorrere dall'inizio del conflitto bellico, nelle strutture di cui agli <ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/decretoLegislativo/stato/2015-08-18/142/!main#art_9" ns66:target="olf:it/decreto-legislativo/stato/2015/142/art_9" ns66:relation="cites">articoli 9</ref> e <ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/decretoLegislativo/stato/2015-08-18/142/!main#art_11" ns67:target="olf:it/decreto-legislativo/stato/2015/142/art_11" ns67:relation="cites">11 del decreto legislativo 18 agosto 2015, n. 142</ref>, nonche' nel Sistema di accoglienza e integrazione, di cui all'<ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/decretoLegge/stato/1989-12-30/416/!main#art_1sexies" ns68:target="olf:it/decreto-legge/stato/1989/416/art_1sexies" ns68:relation="cites">articolo 1-sexies del decreto-legge 30 dicembre 1989, n. 416</ref>, convertito, con modificazioni, dalla <ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/legge/stato/1990-02-28/39/!main" ns69:target="olf:it/legge/stato/1990/39" ns69:relation="cites">legge 28 febbraio 1990, n. 39</ref>, anche se non in possesso della qualita' di richiedente protezione internazionale o degli altri titoli di accesso previsti dalla normativa vigente. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-quater__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Per l'anno 2022 non si applica l'articolo 1, comma 767, secondo periodo, della <ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/legge/stato/2018-12-30/145/!main" ns70:target="olf:it/legge/stato/2018/145" ns70:relation="cites">legge 30 dicembre 2018, n. 145</ref>. Al fine di provvedere al soddisfacimento di eventuali ulteriori esigenze rispetto a quanto indicato al comma 1, per l'anno 2022 sono autorizzate variazioni compensative tra gli stanziamenti dei capitoli di bilancio iscritti nello stato di previsione del Ministero dell'interno, nell'ambito del programma "Flussi migratori, interventi per lo sviluppo della coesione sociale, garanzia dei diritti, rapporti con le confessioni religiose" della missione "Immigrazione, accoglienza e garanzia dei diritti", da adottare ai sensi dell'<ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_33-com4" ns71:target="olf:it/legge/stato/2009/196/art_33-com4" ns71:relation="cites">articolo 33, comma 4, della legge 31 dicembre 2009, n. 196</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5-quater__para_9">
+                    <num>9.</num>
+                    <content>
+                        <p>Agli oneri derivanti dal comma 1, pari ad euro 54.162.000 per l'anno 2022, si provvede mediante corrispondente riduzione del Fondo per interventi strutturali di politica economica, di cui all'<ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/decretoLegge/stato/2004-11-29/282/!main#art_10-com5" ns72:target="olf:it/decreto-legge/stato/2004/282/art_10-com5" ns72:relation="cites">articolo 10, comma 5, del decreto-legge 29 novembre 2004, n. 282</ref>, convertito, con modificazioni, dalla <ref xmlns:ns73="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_73" href="/akn/it/act/legge/stato/2004-12-27/307/!main" ns73:target="olf:it/legge/stato/2004/307" ns73:relation="cites">legge 27 dicembre 2004, n. 307</ref>. 
+ 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>------------</p>
+                        <p>AGGIORNAMENTO (2)</p>
+                        <p>
+ Il <ref xmlns:ns74="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="74" href="/akn/it/act/decretoLegge/stato/2022-05-17/50/!main" ns74:target="olf:it/decreto-legge/stato/2022/50" ns74:relation="cites">D.L. 17 maggio 2022, n. 50</ref> ha disposto (con l'art. 44, comma 3) che "Per far fronte alle eccezionali esigenze di accoglienza in conseguenza del conflitto bellico in atto in Ucraina, le risorse di cui all'<ref xmlns:ns75="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="75" href="/akn/it/act/decretoLegge/stato/2022-02-25/14/!main#art_5quater-com1" ns75:target="olf:it/decreto-legge/stato/2022/14/art_5quater-com1" ns75:relation="cites">articolo 5-quater, comma 1, del decreto-legge 25 febbraio 2022, n. 14</ref>, convertito, con modificazioni, dalla <ref xmlns:ns76="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="76" href="/akn/it/act/legge/stato/2022-04-05/28/!main" ns76:target="olf:it/legge/stato/2022/28" ns76:relation="cites">legge 5 aprile 2022, n. 28</ref>, sono incrementate di euro 112.749.000 per l'anno 2022".</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5-quinquies">
+                <num>Art. 5-quinquies.</num>
+                <heading>
+                    <ins eId="ins_12">(( (Misure a sostegno degli studenti, dei ricercatori e dei docenti di nazionalita' ucraina che svolgono attivita' di studio o ricerca presso le universita', le istituzioni di alta formazione artistica, musicale e coreutica e gli enti di ricerca). ))</ins>
+                </heading>
+                <paragraph>
+                    <content>
+                        <p>
+                            <ins eId="ins_13">((1. Al fine di promuovere iniziative di sostegno in favore degli studenti di nazionalita' ucraina iscritti, ovvero aderenti al programma Erasmus, presso le universita', anche non statali, legalmente riconosciute, ammesse al contributo di cui alla legge 29 luglio 1991, n. 243, e le istituzioni di alta formazione artistica, musicale e coreutica, di cui all'articolo 1 della legge 21 dicembre 1999, n. 508, nonche' dei dottorandi, dei ricercatori e dei professori di nazionalita' ucraina che partecipano, a qualsiasi titolo, alle attivita' delle predette universita' e istituzioni di alta formazione artistica, musicale e coreutica o degli enti di ricerca vigilati dal Ministero dell'universita' e della ricerca, e' istituito, nello stato di previsione del Ministero dell'universita' e della ricerca, un apposito fondo con una dotazione di 1 milione di euro per l'anno 2022. Il fondo di cui al primo periodo e' destinato, per le iniziative ivi indicate, anche in favore dei soggetti di cui all'articolo 1, comma 390, della legge 30 dicembre 2021, n. 234, come modificato dall'articolo 5-quater del presente decreto, nonche' dei soggetti ai quali, in conseguenza della crisi politica e militare in atto in Ucraina, sia stata concessa la protezione internazionale, anche temporanea. Con decreto del Ministro dell'universita' e della ricerca, da adottare entro sessanta giorni dalla data di entrata in vigore del decreto-legge 28 febbraio 2022, n. 16, sono definite la ripartizione tra le universita', le istituzioni e gli enti di cui al primo periodo nonche' le modalita' di utilizzazione delle risorse di cui al primo periodo, anche attraverso la previsione di borse di studio ovvero di altri strumenti e servizi di diritto allo studio.
+Agli oneri derivanti dall'attuazione del presente articolo, pari a 1 milione di euro per l'anno 2022, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2022-2024, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2022, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'universita' e della ricerca))</ins>
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Disposizioni finanziarie</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_6__para_1__intro_1">
+                            <p>Agli oneri derivanti dall'attuazione degli articoli 1, 2, 4 e 5, commi 1 e 2, pari a <ins eId="ins_14">((euro 179.181.253))</ins> per l'anno 2022 e a euro 21.000.000 per l'anno 2023, si provvede: 
+ </p>
+                        </intro>
+                        <point eId="art_6__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>quanto a 165.681.253 euro per l'anno 2022 e a 21.000.000 euro per l'anno 2023, mediante corrispondente riduzione delle risorse del fondo di cui all'<ref xmlns:ns77="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_77" href="/akn/it/act/legge/stato/2016-07-21/145/!main#art_4" ns77:target="olf:it/legge/stato/2016/145/art_4" ns77:relation="cites">articolo 4 della legge 21 luglio 2016, n. 145</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_6__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>quanto a 6 milioni di euro per l'anno 2022, mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns78="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_78" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns78:target="olf:it/legge/stato/2014/190/art_1-com200" ns78:relation="cites">articolo 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_6__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>quanto a 6 milioni di euro per l'anno 2022, mediante le maggiori entrate derivanti dalla restituzione da parte delle competenti organizzazioni internazionali dei contributi per il sostegno alle forze armate e di sicurezza afghane, gia' erogati alle predette organizzazioni in applicazione dei provvedimenti di autorizzazione delle missioni internazionali adottati fino all'anno 2020, che sono versate all'entrata del bilancio dello Stato e sono acquisite all'erario; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_6__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>quanto a 19.355.333 euro per l'anno 2022, in termini di fabbisogno e indebitamento netto, mediante utilizzo di quota parte delle maggiori entrate derivanti dagli articoli 1, commi 1 e 2, 4, comma 2, e 5, comma 2. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Entro dieci giorni dalla data di entrata in vigore del presente decreto, il Ministro dell'economia e delle finanze, su richiesta delle amministrazioni interessate, dispone l'anticipazione di una somma non superiore al settantacinque per cento della spesa quantificata nella relativa relazione tecnica, a valere sugli stanziamenti di cui al presente articolo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Ai fini dell'immediata attuazione delle disposizioni recate dal presente decreto, il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio. Il Ministero dell'economia e delle finanze, ove necessario, puo' disporre il ricorso ad anticipazioni di tesoreria, la cui regolarizzazione e' effettuata con l'emissione di ordini di pagamento sui pertinenti capitoli di spesa. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il presente decreto entra in vigore il giorno stesso della sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana e sara' presentato alle Camere per la conversione in legge. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 25 febbraio 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Di Maio, Ministro degli affari esteri e della cooperazione internazionale Guerini, Ministro della difesa Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
