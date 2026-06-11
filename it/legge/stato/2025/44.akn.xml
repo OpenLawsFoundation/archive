@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-04/44/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-04/44"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-04-04;44"/>
+                    <FRBRalias name="eli" value="eli/id/2025/04/07/25G00057/ORIGINAL"/>
+                    <FRBRdate date="2025-04-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/07/25G00057/ORIGINAL" aknrelname="eli/id/2025/04/07/25G00057/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifiche alla disciplina della Fondazione Ordine costantiniano di San Giorgio di Parma. (25G00057)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00057" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-04-04" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-04/44/ita@2025-04-22/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-04/44/ita@2025-04-22"/>
+                    <FRBRdate date="2025-04-22" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/07/25G00057/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/04/07/25G00057/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/04/07/25G00057/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-04/44/ita@2025-04-22/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-04/44/ita@2025-04-22.xml"/>
+                    <FRBRdate date="2025-04-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/07/25G00057/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-04-07" name="" number="81" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-04-07" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2025-04-04" refersTo="#C.2034"/>
+                <step by="#senato" date="2025-04-04" refersTo="#S.1379"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-04-04/44/!main" showAs=""/>
+                <passiveRef eId="C.2034" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2034" showAs=""/>
+                <passiveRef eId="S.1379" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1379" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/04/07/25G00057/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifiche alla disciplina della Fondazione Ordine costantiniano di San Giorgio di Parma. (25G00057)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00057</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-04-04</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/04/07/25G00057/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/04/07/25G00057/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/04/07/25G00057/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/04/07/25G00057/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/44" nativeUrn="urn:nir:stato:legge:2025-04-04;44" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-04-07"><ns0:event type="enacted" date="2025-04-04"/><ns0:event type="published" date="2025-04-07"/><ns0:event type="commenced" date="2025-04-07"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/fcbc1f34-03ce-4ee6-8466-b3ebfd4f1f89" sourceSha256="be68ecb33d3129479bff676d669e3b9958634077875967314219ea21135912bd" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:07:47.899770Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-04-04">04 aprile 2025</docDate>
+                <docNumber>44</docNumber>
+                <docTitle>Modifiche alla disciplina della Fondazione Ordine costantiniano di San Giorgio di Parma. (25G00057) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 22/04/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+Continuita' dell'Ordine costantiniano di San Giorgio di Parma e obbligo di adeguamento dello statuto 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>L'Ordine costantiniano di San Giorgio di Parma, istituito in ente giuridico autonomo dal <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/regio.decreto/stato/1922-02-05/186/!main" ns1:target="olf:it/regio-decreto/stato/1922/186" ns1:relation="cites">regio decreto 5 febbraio 1922, n. 186</ref>, conservato negli scopi e nella personalita' giuridica dal decreto del Capo provvisorio dello Stato 6 settembre 1946, iscritto quale fondazione di diritto privato nel registro delle persone giuridiche presso la prefettura-ufficio territoriale del Governo di Parma, e' ordinato in conformita' alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Fondazione Ordine costantiniano di San Giorgio di Parma, di seguito denominata «Fondazione», adegua il proprio statuto alle disposizioni della presente legge secondo le modalita' previste dall'articolo 6 e lo sottopone all'approvazione del Presidente del Consiglio dei ministri, che vi provvede con decreto, sentiti il Ministro dell'interno e il Ministro della cultura. Il medesimo procedimento di approvazione si osserva per le successive modifiche statutarie, ferme restando le disposizioni dell'articolo 5. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art.10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">D.P.R. 28 dicembre 1985, n.1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/regio.decreto/stato/1922-02-05/186/!main#art_1" ns3:target="olf:it/regio-decreto/stato/1922/186/art_1" ns3:relation="cites">art. 1: 
+ - Il Regio decreto 5 febbraio 1922, n. 186</ref>, «Concernente la costituzione di una nuova Amministrazione dell'Ordine Costantiniano di San Giorgio di Parma», e' pubblicato nella Gazzetta Ufficiale- serie generale- n. 52 del 3 marzo 1922. 
+ - Il decreto legislativo del Capo provvisorio dello Stato 6 settembre 1946, recante «Equiparazione, a tutti gli effetti, dei partigiani combattenti ai militari volontari che hanno operato con le unita' regolari delle Forze armate nella guerra di liberazione.», e' pubblicato nella Gazzetta Ufficiale Serie Generale n. 210 del 17 settembre 1946. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Scopi, durata e assenza di fini di lucro della Fondazione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>Scopi principali della Fondazione, perseguiti senza ingerenza nei servizi di culto, sono: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>la conservazione della basilica di Santa Maria della Steccata in Parma, di seguito denominata «Basilica», quale luogo insigne di esercizio del culto cattolico; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>la tutela, in ambito nazionale e internazionale, del patrimonio storico, culturale e religioso rappresentato dalla Basilica, nell'unitario insieme delle sue componenti materiali e immateriali; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>la valorizzazione degli altri elementi del suo patrimonio. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Scopo accessorio della Fondazione e' l'attuazione di iniziative di utilita' sociale, culturali e filantropiche. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La Fondazione ha durata illimitata, opera senza fini di lucro e non effettua distribuzioni o assegnazioni di utili o utilita', neppure in forma indiretta. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Il patrimonio della Fondazione e' destinato agli scopi di cui ai commi 1 e 2. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Organi della Fondazione</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_3__para_1__intro_1">
+                            <p>Sono organi della Fondazione: 
+ </p>
+                        </intro>
+                        <point eId="art_3__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>il presidente; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>il consiglio generale; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>il collegio dei revisori dei conti. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il presidente e' il rappresentante legale della Fondazione e presiede il consiglio generale. E' nominato con decreto del Presidente del Consiglio dei ministri, di concerto con il Ministro dell'interno e con il Ministro della cultura, sentito il vescovo della diocesi di Parma, per un periodo di cinque anni, rinnovabile una sola volta per ulteriori cinque anni. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Il consiglio generale e' l'organo di indirizzo della Fondazione ed e' composto dal presidente e dagli ulteriori otto membri di cui ai commi 4 e 5. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_4">
+                    <num>4.</num>
+                    <list>
+                        <intro eId="art_3__para_4__intro_1">
+                            <p>Sono membri di diritto del consiglio generale, in ragione del loro ufficio e per la durata della relativa funzione: 
+ </p>
+                        </intro>
+                        <point eId="art_3__para_4.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>il vescovo della diocesi di Parma; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_4.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>il sindaco di Parma; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_4.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>il presidente della provincia di Parma; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_4.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>il rettore dell'universita' degli studi di Parma. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_3__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Quattro membri del consiglio generale sono nominati con decreto del Presidente del Consiglio dei ministri, di concerto con il Ministro dell'interno e con il Ministro della cultura. Essi durano in carica cinque anni, salvo rinnovo; in caso di loro sostituzione nel corso del mandato, la nomina del sostituto e' disposta fino alla scadenza quinquennale dell'incarico del membro sostituito. I membri di cui al presente comma che, in assenza di cause di forza maggiore, non partecipano a tre riunioni consecutive del consiglio generale decadono di diritto dall'ufficio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Il consiglio generale puo' attribuire ad uno dei membri di cui al comma 5 le funzioni di segretario generale, con compiti di coordinamento della gestione amministrativa della Fondazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Il collegio dei revisori dei conti svolge le funzioni di cui agli <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2403" ns4:target="olf:it/codice-civile/stato/1942/262/art_2403" ns4:relation="cites">articoli 2403</ref> e <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2409bis-com2" ns5:target="olf:it/codice-civile/stato/1942/262/art_2409bis-com2" ns5:relation="cites">2409-bis, secondo comma, del codice civile</ref>. Il collegio e' composto da tre membri, iscritti nel registro dei revisori legali, nominati con decreto del Presidente del Consiglio dei ministri. Il presidente del collegio e' designato dal Ministro dell'interno; gli altri due revisori sono designati, rispettivamente, dal vescovo della diocesi di Parma e dal sindaco di Parma. I revisori durano in carica quattro anni, salvo rinnovo. In caso di sostituzione di un componente nel corso del mandato, il sostituto resta in carica fino alla scadenza dell'intero collegio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Non possono essere nominati alle cariche di cui ai commi 2, 5 e 7 coloro i quali si trovano in una delle condizioni di cui all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2382" ns6:target="olf:it/codice-civile/stato/1942/262/art_2382" ns6:relation="cites">articolo 2382 del codice civile</ref>. Se la condizione si verifica dopo la nomina, comporta la decadenza dalla carica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_9">
+                    <num>9.</num>
+                    <content>
+                        <p>La partecipazione agli organi della Fondazione da' diritto soltanto agli eventuali emolumenti che il consiglio generale deliberi di riconoscere, con oneri a carico della Fondazione stessa, ferme restando le disposizioni dell'articolo 2, comma 3. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Si riportano gli <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2382" ns7:target="olf:it/codice-civile/stato/1942/262/art_2382" ns7:relation="cites">artt. 2382</ref>, <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2403" ns8:target="olf:it/codice-civile/stato/1942/262/art_2403" ns8:relation="cites">2403</ref> e <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2409bis" ns9:target="olf:it/codice-civile/stato/1942/262/art_2409bis" ns9:relation="cites">2409-bis del Codice civile</ref>: 
+ «Art. 2382 (Cause di ineleggibilita' e di decadenza).
+ - Non puo' essere nominato amministratore, e se nominato decade dal suo ufficio, l'interdetto, l'inabilitato, il fallito, o chi e' stato condannato ad una pena che importa l'interdizione, anche temporanea, dai pubblici uffici o l'incapacita' ad esercitare uffici direttivi.» 
+ «Art. 2403 (Doveri del collegio sindacale). - Il collegio sindacale vigila sull'osservanza della legge e dello statuto, sul rispetto dei principi di corretta amministrazione ed in particolare sull'adeguatezza dell'assetto organizzativo, amministrativo e contabile adottato dalla societa' e sul suo concreto funzionamento. 
+ Esercita inoltre il controllo contabile nel caso previsto dall'articolo 2409-bis, terzo comma.» 
+ «Art. 2409-bis (Revisione legale dei conti). - La revisione legale dei conti sulla societa' e' esercitata da un revisore legale dei conti o da una societa' di revisione legale iscritti nell'apposito registro. 
+ Lo statuto delle societa' che non siano tenute alla redazione del bilancio consolidato puo' prevedere che la revisione legale dei conti sia esercitata dal collegio sindacale. In tal caso il collegio sindacale e' costituito da revisori legali iscritti nell'apposito registro.» 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Continuita' dell'esercizio del culto cattolico 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Fondazione agisce nel rispetto dei vincoli riguardanti la destinazione al culto della Basilica e dei beni in essa contenuti, come regolato dalla diocesi di Parma. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Basilica e i beni di proprieta' della Fondazione in essa contenuti non possono essere distolti dalla destinazione al culto fino a che la destinazione stessa non sia cessata in conformita' al diritto canonico. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Restano ferme le disposizioni del <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns10:target="olf:it/decreto-legislativo/stato/2004/42" ns10:relation="cites">codice dei beni culturali e del paesaggio</ref>, di cui al <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns11:target="olf:it/decreto-legislativo/stato/2004/42" ns11:relation="cites">decreto legislativo 22 gennaio 2004, n. 42</ref>, applicabili ai beni di cui ai commi 1 e 2 del presente articolo. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main#art_4" ns12:target="olf:it/decreto-legislativo/stato/2004/42/art_4" ns12:relation="cites">art. 4: 
+ - Il decreto legislativo 22 gennaio 2004, n. 42</ref>, recante «<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/2004-01-22/42/!main" ns13:target="olf:it/decreto-legislativo/stato/2004/42" ns13:relation="cites">Codice dei beni culturali e del paesaggio</ref>, ai sensi dell'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2002-07-06/137/!main#art_10" ns14:target="olf:it/legge/stato/2002/137/art_10" ns14:relation="cites">articolo 10 della legge 6 luglio 2002, n. 137</ref>.», e' pubblicato nella Gazzetta Ufficiale 24 febbraio 2004, n. 45, S.O. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Controllo sull'amministrazione della Fondazione</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il controllo sull'amministrazione della Fondazione e' svolto ai sensi e per gli effetti dell'<ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_25" ns15:target="olf:it/codice-civile/stato/1942/262/art_25" ns15:relation="cites">articolo 25 del codice civile</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'art. 5: 
+ - Si riporta il testo dell'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_25" ns16:target="olf:it/codice-civile/stato/1942/262/art_25" ns16:relation="cites">art. 25 del Codice civile</ref>: 
+ «Art. 25 (Controllo sull'amministrazione delle fondazioni). - L'autorita' governativa 1 esercita il controllo e la vigilanza sull'amministrazione delle fondazioni; provvede alla nomina e alla sostituzione degli amministratori o dei rappresentanti, quando le disposizioni contenute nell'atto di fondazione non possono attuarsi; annulla, sentiti gli amministratori, con provvedimento definitivo, le deliberazioni contrarie a norme imperative, all'atto di fondazione, all'ordine pubblico o al buon costume; puo' sciogliere l'amministrazione e nominare un commissario straordinario, qualora gli amministratori non agiscano in conformita' dello statuto o dello scopo della fondazione o della legge. 
+ L'annullamento della deliberazione non pregiudica i diritti acquistati dai terzi di buona fede in base ad atti compiuti in esecuzione della deliberazione medesima. 
+ Le azioni contro gli amministratori per fatti riguardanti la loro responsabilita' devono essere autorizzate dall'autorita' governativa e sono esercitate dal commissario straordinario, dai liquidatori o dai nuovi amministratori». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Disposizioni transitorie e finali</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>In sede di prima applicazione, le nomine, previste dall'articolo 3, del presidente della Fondazione, dei componenti del consiglio generale di designazione governativa e dei componenti del collegio dei revisori dei conti sono disposte con un unico decreto del Presidente del Consiglio dei ministri, adottato entro trenta giorni dalla data di entrata in vigore della presente legge. Alla data di entrata in vigore del decreto di cui al primo periodo cessano di avere effetto le nomine a vita disposte ai sensi del decreto del Capo provvisorio dello Stato 6 settembre 1946 e decade il collegio dei revisori in carica fino a tale data. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Entro trenta giorni dalla data di entrata in vigore del decreto di cui al comma 1, primo periodo, il consiglio generale approva, con la maggioranza dei due terzi dei suoi componenti, le modifiche statutarie da sottoporre all'approvazione del Presidente del Consiglio dei ministri ai sensi dell'articolo 1, comma 2. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>A decorrere dalla data di entrata in vigore del decreto del Presidente del Consiglio dei ministri che approva le modifiche statutarie di cui al comma 2, e' abrogato il decreto del Capo provvisorio dello Stato 6 settembre 1946. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_5" placement="bottom">
+                                <p> Note all'art. 6: 
+ - Per i riferimenti del decreto legislativo del Capo provvisorio dello Stato 6 settembre 1946, si veda la nota all'art. 1. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione delle disposizioni della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_7__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le amministrazioni competenti provvedono alle attivita' previste dalla presente legge nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 4 aprile 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
