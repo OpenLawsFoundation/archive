@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-02-19/22/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-02-19/22"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-02-19;22"/>
+                    <FRBRalias name="eli" value="eli/id/2025/03/05/25G00029/ORIGINAL"/>
+                    <FRBRdate date="2025-02-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/03/05/25G00029/ORIGINAL" aknrelname="eli/id/2025/03/05/25G00029/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Introduzione dello sviluppo di competenze non cognitive e trasversali nei percorsi delle istituzioni scolastiche e dei centri provinciali per l'istruzione degli adulti nonche' nei percorsi di istruzione e formazione professionale. (25G00029)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00029" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-02-19" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-02-19/22/ita@2025-03-20/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-02-19/22/ita@2025-03-20"/>
+                    <FRBRdate date="2025-03-20" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/03/05/25G00029/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/03/05/25G00029/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/03/05/25G00029/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-02-19/22/ita@2025-03-20/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-02-19/22/ita@2025-03-20.xml"/>
+                    <FRBRdate date="2025-02-19" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/03/05/25G00029/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-03-05" name="" number="53" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-03-05" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2025-02-19" refersTo="#C.418"/>
+                <step by="#senato" date="2025-02-19" refersTo="#S.845"/>
+                <step by="#camera" date="2025-02-19" refersTo="#C.418-B"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-02-19/22/!main" showAs=""/>
+                <passiveRef eId="C.418" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;418" showAs=""/>
+                <passiveRef eId="S.845" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;845" showAs=""/>
+                <passiveRef eId="C.418-B" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;418-B" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/03/05/25G00029/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Introduzione dello sviluppo di competenze non cognitive e trasversali nei percorsi delle istituzioni scolastiche e dei centri provinciali per l'istruzione degli adulti nonche' nei percorsi di istruzione e formazione professionale. (25G00029)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00029</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-02-19</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/03/05/25G00029/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/03/05/25G00029/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/03/05/25G00029/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/03/05/25G00029/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/22" nativeUrn="urn:nir:stato:legge:2025-02-19;22" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-03-05"><ns0:event type="enacted" date="2025-02-19"/><ns0:event type="published" date="2025-03-05"/><ns0:event type="commenced" date="2025-03-05"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/85dec5d4-7ec6-4888-8b40-e858b14c4145" sourceSha256="12e1c80695afb6c83e7508c910013b04095e5000f1cc512e0e17d528c4f8a8d1" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:10:48.895174Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-02-19">19 febbraio 2025</docDate>
+                <docNumber>22</docNumber>
+                <docTitle>Introduzione dello sviluppo di competenze non cognitive e trasversali nei percorsi delle istituzioni scolastiche e dei centri provinciali per l'istruzione degli adulti nonche' nei percorsi di istruzione e formazione professionale. (25G00029) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 20/03/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Sostegno allo sviluppo di competenze non cognitive e 
+ trasversali nei percorsi scolastici</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di promuovere lo sviluppo armonico e integrale della persona, delle sue potenzialita' e dei suoi talenti, la cultura della competenza, di integrare i saperi disciplinari e le relative abilita' fondamentali e di migliorare il successo formativo prevenendo analfabetismi funzionali, poverta' educativa e dispersione scolastica, il Ministero dell'istruzione e del merito, a decorrere dall'anno scolastico successivo a quello in corso alla data di entrata in vigore della presente legge, favorisce iniziative finalizzate allo sviluppo delle competenze non cognitive e trasversali nelle attivita' educative e didattiche delle istituzioni scolastiche statali e paritarie di ogni ordine e grado, nel rispetto delle prerogative del collegio dei docenti. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>All'esito della valutazione positiva del Comitato tecnico-scientifico di cui all'articolo 4, comma 5, con decreto del Ministro dell'istruzione e del merito sono adottate le linee guida per lo sviluppo delle competenze non cognitive e trasversali di cui al comma 1, che definiscono indicazioni metodologico-didattiche in coerenza con le indicazioni nazionali per il curricolo della scuola dell'infanzia e del primo ciclo di istruzione e con il documento «Indicazioni nazionali e nuovi scenari», con le indicazioni nazionali per i licei e con le linee guida per gli istituti tecnici e professionali vigenti. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns1:target="olf:it/dpr/stato/1985/1092" ns1:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Mappatura delle esperienze e dei progetti gia' esistenti 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Ministero dell'istruzione e del merito, entro trenta giorni dalla data di entrata in vigore della presente legge, attiva una mappatura delle esperienze e dei progetti, gia' esistenti negli istituti scolastici italiani, inerenti alla lotta contro la dispersione scolastica e la poverta' educativa. La mappatura e' corredata di un'analisi dell'impatto dei progetti e dei risultati prodotti. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Formazione dei docenti per lo sviluppo di competenze 
+ non cognitive e trasversali nei percorsi scolastici</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per favorire lo sviluppo delle competenze non cognitive e trasversali nelle attivita' educative e didattiche, il Ministero dell'istruzione e del merito, entro quattro mesi dalla data di entrata in vigore della presente legge, predispone un Piano straordinario di azioni formative, di durata triennale, rivolto ai docenti delle scuole di ogni ordine e grado, da attuare a decorrere dall'anno scolastico successivo a quello in corso alla data di entrata in vigore della presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La formazione dei docenti e' organizzata dal Ministero dell'istruzione e del merito con la collaborazione dell'Istituto nazionale di documentazione, innovazione e ricerca educativa, delle istituzioni scolastiche nonche' delle universita', degli enti accreditati per la formazione, delle scuole superiori di mediazione linguistica e dei consorzi universitari con comprovata esperienza nello studio o nella ricerca delle competenze non cognitive e trasversali. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Sperimentazione per lo sviluppo di competenze non 
+ cognitive e trasversali nei percorsi scolastici</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Con decreto del Ministro dell'istruzione e del merito, da adottare entro sei mesi dalla data di entrata in vigore della presente legge, sentito il Consiglio superiore della pubblica istruzione, sono stabiliti i criteri generali per lo svolgimento, per un triennio decorrente dall'anno scolastico successivo a quello in corso alla data di entrata in vigore della presente legge, di una sperimentazione nazionale ai sensi dell'articolo 11 del regolamento di cui al <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1999-03-08/275/!main" ns2:target="olf:it/dpr/stato/1999/275" ns2:relation="cites">decreto del Presidente della Repubblica 8 marzo 1999, n. 275</ref>, finalizzata allo sviluppo delle competenze non cognitive e trasversali nei percorsi scolastici, nel rispetto delle prerogative del collegio dei docenti delle istituzioni scolastiche coinvolte. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il decreto di cui al comma 1 definisce i requisiti e le modalita' della partecipazione alla sperimentazione nazionale nonche' le procedure e i criteri di selezione delle proposte progettuali presentate dalle istituzioni scolastiche, singolarmente o in rete, con la partecipazione di universita', scuole superiori di mediazione linguistica, consorzi universitari ed enti accreditati per la formazione che siano in possesso di comprovata esperienza nel campo dello studio o della ricerca sulle competenze caratteriali. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <list>
+                        <intro eId="art_4__para_3__intro_1">
+                            <p>La sperimentazione di cui al comma 1 e' finalizzata: 
+ </p>
+                        </intro>
+                        <point eId="art_4__para_3.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>all'individuazione delle competenze non cognitive e trasversali il cui sviluppo e' piu' funzionale al successo formativo degli alunni e degli studenti, garantendo che tali competenze siano accessibili a tutti gli studenti, compresi quelli con disabilita' e bisogni educativi speciali, al fine di promuovere un'educazione realmente inclusiva ed equa; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_3.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>all'individuazione di buone pratiche relative a metodologie e a processi di insegnamento che favoriscano lo sviluppo delle competenze non cognitive e trasversali, nonche' dei criteri e degli strumenti per la loro rilevazione e valutazione, in coerenza con la certificazione delle competenze e con le competenze chiave europee per l'apprendimento permanente; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_3.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>all'individuazione di percorsi formativi basati su metodologie didattiche innovative che valorizzino potenzialita', motivazioni e talenti degli studenti, contribuendo alla riduzione della dispersione scolastica, sia manifesta sia implicita, anche attraverso percorsi per le competenze trasversali e per l'orientamento e partenariati con organizzazioni del Terzo settore e del volontariato; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_4__para_3.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>alla verifica degli effetti dello sviluppo delle competenze non cognitive e trasversali sul miglioramento del successo formativo e sulla riduzione della dispersione scolastica e della poverta' educativa. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_4__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>La partecipazione delle istituzioni scolastiche alla sperimentazione di cui al comma 1 e' autorizzata, a seguito di positiva valutazione dei progetti presentati, con decreto del Ministro dell'istruzione e del merito. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Con decreto del Ministro dell'istruzione e del merito e' costituito presso il Ministero dell'istruzione e del merito il Comitato tecnico-scientifico per il monitoraggio e la valutazione complessiva della sperimentazione e sono stabiliti i criteri sulla base dei quali il medesimo Comitato svolge le sue funzioni. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Ai componenti del Comitato tecnico-scientifico non spettano compensi, gettoni di presenza, rimborsi di spese o altri emolumenti comunque denominati. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Al termine dei tre anni di sperimentazione di cui al comma 1 il Ministro dell'istruzione e del merito presenta alle Camere una relazione sugli esiti della stessa. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Per l'attuazione della sperimentazione di cui al presente articolo, le istituzioni scolastiche utilizzano le risorse dell'organico dell'autonomia, senza la previsione di ore di insegnamento eccedenti rispetto all'orario obbligatorio previsto dagli ordinamenti vigenti. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 4: 
+ - Si riporta il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1999-03-08/275/!main#art_11" ns3:target="olf:it/dpr/stato/1999/275/art_11" ns3:relation="cites">articolo 11 del decreto del Presidente della Repubblica 8 marzo 1999, n. 275</ref>, recante: «Regolamento recante norme in materia di autonomia delle istituzioni scolastiche, ai sensi dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/1997-03-15/59/!main#art_21" ns4:target="olf:it/legge/stato/1997/59/art_21" ns4:relation="cites">art. 21 della L. 15 marzo 1997, n. 59</ref>», pubblicato nella Gazzetta Ufficiale n. 186 del 10 agosto 1999, S.O. n. 152: 
+ «Art. 11 (Iniziative finalizzate all'innovazione). - 1.
+ Il Ministro della pubblica istruzione, anche su proposta del Consiglio nazionale della pubblica istruzione, del Servizio nazionale per la qualita' dell'istruzione, di una o piu' istituzioni scolastiche, di uno o piu' Istituti regionali di ricerca, sperimentazione e aggiornamenti educativi, di una o piu' Regioni o enti locali, promuove, eventualmente sostenendoli con appositi finanziamenti disponibili negli ordinari stanziamenti di bilancio, progetti in ambito nazionale, regionale e locale, volti a esplorare possibili innovazioni riguardanti gli ordinamenti degli studi, la loro articolazione e durata, l'integrazione fra sistemi formativi, i processi di continuita' e orientamento. Riconosce altresi' progetti di iniziative innovative delle singole istituzioni scolastiche riguardanti gli ordinamenti degli studi quali disciplinati ai sensi dell'articolo 8. Sui progetti esprime il proprio parere il Consiglio nazionale della pubblica istruzione. 
+ 2. I progetti devono avere una durata predefinita e devono indicare con chiarezza gli obiettivi; quelli attuati devono essere sottoposti a valutazione dei risultati, sulla base dei quali possono essere definiti nuovi curricoli e nuove scansioni degli ordinamenti degli studi, con le procedure di cui all'articolo 8. Possono anche essere riconosciute istituzioni scolastiche che si caratterizzano per l'innovazione nella didattica e nell'organizzazione. 
+ 3. Le iniziative di cui al comma 1 possono essere elaborate e attuate anche nel quadro di accordi adottati a norma dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/1996-12-23/662/!main#art_2-com203" ns5:target="olf:it/legge/stato/1996/662/art_2-com203" ns5:relation="cites">articolo 2, commi 203 e seguenti, della legge 23 dicembre 1996, n. 662</ref>. 
+ 4. E' riconosciuta piena validita' agli studi compiuti dagli alunni nell'ambito delle iniziative di cui al comma 1, secondo criteri di corrispondenza fissati con decreto del Ministro della pubblica istruzione che promuove o riconosce le iniziative stesse. 
+ 5. Sono fatte salve, fermo restando il potere di revoca dei relativi decreti, le specificita' ordinamentali e organizzative delle scuole riconosciute ai sensi dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/1994-04-16/297/!main#art_278-com5" ns6:target="olf:it/decreto-legislativo/stato/1994/297/art_278-com5" ns6:relation="cites">articolo 278, comma 5, del decreto legislativo 16 aprile 1994, n. 297</ref>.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading>Sperimentazione per lo sviluppo di competenze non cognitive e trasversali nei percorsi dei centri provinciali per l'istruzione degli adulti e nei percorsi di istruzione e formazione professionale</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Con il decreto di cui all'articolo 4, comma 1, sono stabiliti i criteri generali per lo svolgimento della sperimentazione avente le finalita' di cui all'articolo 4, comma 3, anche nell'ambito dei percorsi dei centri provinciali per l'istruzione degli adulti, nonche' le modalita' di partecipazione alla sperimentazione, i requisiti dei soggetti ammessi alla presentazione di progetti e le procedure di valutazione dei progetti medesimi. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Con decreto del Ministro dell'istruzione e del merito, di concerto con il Ministro del lavoro e delle politiche sociali, previa intesa in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano, ai sensi dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_3" ns7:target="olf:it/decreto-legislativo/stato/1997/281/art_3" ns7:relation="cites">articolo 3 del decreto legislativo 28 agosto 1997, n. 281</ref>, da adottare entro otto mesi dalla data di entrata in vigore della presente legge, sono stabiliti i criteri generali per lo svolgimento della sperimentazione avente le finalita' di cui all'articolo 4, comma 3, nell'ambito dei percorsi di istruzione e formazione professionale. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 5: 
+ - Si riporta il testo dell'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_3" ns8:target="olf:it/decreto-legislativo/stato/1997/281/art_3" ns8:relation="cites">articolo 3 del decreto legislativo 28 agosto 1997, n. 281</ref>, recante: «Definizione ed ampliamento delle attribuzioni della Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e Bolzano ed unificazione, per le materie ed i compiti di interesse comune delle regioni, delle province e dei comuni, con la Conferenza Stato-citta' ed autonomie locali», pubblicato nella Gazzetta Ufficiale n. 202 del 30 agosto 1997: 
+ «Art. 3 (Intese). - 1. Le disposizioni del presente articolo si applicano a tutti i procedimenti in cui la legislazione vigente prevede un'intesa nella Conferenza Stato-regioni. 
+ 2. Le intese si perfezionano con l'espressione dell'assenso del Governo e dei presidenti delle regioni e delle province autonome di Trento e di Bolzano. 
+ 3. Quando un'intesa espressamente prevista dalla legge non e' raggiunta entro trenta giorni dalla prima seduta della Conferenza Stato-regioni in cui l'oggetto e' posto all'ordine del giorno, il Consiglio dei ministri provvede con deliberazione motivata. 
+ 4. In caso di motivata urgenza il Consiglio dei ministri puo' provvedere senza l'osservanza delle disposizioni del presente articolo. I provvedimenti adottati sono sottoposti all'esame della Conferenza Stato-regioni nei successivi quindici giorni. Il Consiglio dei ministri e' tenuto ad esaminare le osservazioni della Conferenza Stato-regioni ai fini di eventuali deliberazioni successive.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni competenti provvedono agli adempimenti ivi previsti con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 19 febbraio 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
