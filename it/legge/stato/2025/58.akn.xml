@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-09/58/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-09/58"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-04-09;58"/>
+                    <FRBRalias name="eli" value="eli/id/2025/04/28/25G00062/ORIGINAL"/>
+                    <FRBRdate date="2025-04-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/28/25G00062/ORIGINAL" aknrelname="eli/id/2025/04/28/25G00062/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifiche all'articolo 9 del codice della strada, di cui al decreto legislativo 30 aprile 1992, n. 285, in materia di semplificazione delle procedure per il rilascio delle autorizzazioni per le competizioni sportive su strada. (25G00062)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00062" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-04-09" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-09/58/ita@2025-05-13/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-09/58/ita@2025-05-13"/>
+                    <FRBRdate date="2025-05-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/28/25G00062/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/04/28/25G00062/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/04/28/25G00062/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-04-09/58/ita@2025-05-13/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-04-09/58/ita@2025-05-13.xml"/>
+                    <FRBRdate date="2025-04-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/04/28/25G00062/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-04-28" name="" number="97" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-04-28" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2025-04-09" refersTo="#C.1976"/>
+                <step by="#senato" date="2025-04-09" refersTo="#S.1414"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-04-09;58#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1992-04-30;285#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera a)) la modifica dell'art. 9, comma 1; (con l'art. 1, comma 1, lettera b)) la modifica dell'art. 9, comma 2; (con l'art. 1, comma 1, lettera c)) la modifica dell'art. 9, comma 7-bis; (con l'art. 1, comma 1, lettera d)) la modifica dell'art. 9, comma 9.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1992-04-30/285/ita@2025-05-13/!main/~art_9__para_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="repeal">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1992-04-30/285/ita@2025-05-13/!main/~art_9__para_2"/>
+                        <old href="#modNov_2_old_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="repeal">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1992-04-30/285/ita@2025-05-13/!main/~art_9__para_7-bis"/>
+                        <old href="#modNov_3_old_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1992-04-30/285/ita@2025-05-13/!main/~art_9__para_7-bis"/>
+                        <new href="#modNov_4_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1992-04-30/285/ita@2025-05-13/!main/~art_9__para_9"/>
+                        <new href="#modNov_5_new_5"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-04-09/58/!main" showAs=""/>
+                <passiveRef eId="C.1976" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1976" showAs=""/>
+                <passiveRef eId="S.1414" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1414" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/04/28/25G00062/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifiche all'articolo 9 del codice della strada, di cui al decreto legislativo 30 aprile 1992, n. 285, in materia di semplificazione delle procedure per il rilascio delle autorizzazioni per le competizioni sportive su strada. (25G00062)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00062</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-04-09</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/04/28/25G00062/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/04/28/25G00062/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/04/28/25G00062/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/04/28/25G00062/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/58" nativeUrn="urn:nir:stato:legge:2025-04-09;58" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-04-28"><ns0:event type="enacted" date="2025-04-09"/><ns0:event type="published" date="2025-04-28"/><ns0:event type="commenced" date="2025-04-28"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/afdbe613-49aa-49b4-b9db-d33e8752b6e0" sourceSha256="84ad1d4964ca32d03a8847d2ab2c81e6102d12c23798c84390e51d2ee41335b9" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:06:11.334704Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-04-09">09 aprile 2025</docDate>
+                <docNumber>58</docNumber>
+                <docTitle>Modifiche all'articolo 9 del codice della strada, di cui al decreto legislativo 30 aprile 1992, n. 285, in materia di semplificazione delle procedure per il rilascio delle autorizzazioni per le competizioni sportive su strada. (25G00062) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 13/05/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_1__para_1__intro_1">
+                            <p>All'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_9" ns1:target="olf:it/decreto-legislativo/stato/1992/285/art_9" ns1:relation="repeals">articolo 9 del codice della strada</ref>, di cui al <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main" ns2:target="olf:it/decreto-legislativo/stato/1992/285" ns2:relation="repeals">decreto legislativo 30 aprile 1992, n. 285</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_1">il comma 1 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_1_new_1">1. Sulle strade ed aree pubbliche sono permesse le competizioni sportive con veicoli o animali e quelle atletiche, nei limiti e alle condizioni previsti dalla legge. Al fine di garantire la sicurezza pubblica e il buon funzionamento del servizio di trasporto pubblico nonche' del traffico ordinario, le competizioni sportive con veicoli o animali e quelle atletiche devono essere autorizzate. L'autorizzazione e' rilasciata dal comune in cui devono avere luogo le gare atletiche o ciclistiche e le gare con animali o con veicoli a trazione animale. Essa e' rilasciata dalla regione o dalla provincia autonoma di Trento o di Bolzano per le gare atletiche o ciclistiche e per le gare con animali o con veicoli a trazione animale che interessano piu' comuni. Per le gare atletiche o ciclistiche e per le gare con animali o con veicoli a trazione animale che interessano il territorio di piu' regioni, l'autorizzazione e' rilasciata dalla regione o dalla provincia autonoma del luogo di partenza, d'intesa con le altre regioni interessate, che devono rilasciare il nulla osta entro il termine di venti giorni antecedenti alla data di effettuazione della gara. Per le gare con veicoli a motore l'autorizzazione e' rilasciata, sentite le federazioni nazionali sportive competenti e dandone tempestiva informazione all'autorita' di pubblica sicurezza: dalla regione o dalla provincia autonoma di Trento o di Bolzano per le strade che costituiscono la rete di interesse nazionale; dalla regione per le strade regionali; dalle province e dalle citta' metropolitane per le strade provinciali; dai comuni per le strade comunali. Nelle autorizzazioni sono precisate le prescrizioni alle quali le gare sono subordinate. Qualora, per i diversi interessi pubblici coinvolti, sia necessario acquisire le autorizzazioni di piu' enti, puo' essere indetta una conferenza di servizi ai sensi della legge 7 agosto 1990, n. 241</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_2">al comma 2, le parole: «<quotedText eId="modNov_2_old_2">e possono essere concesse previo nulla osta dell'ente proprietario della strada</quotedText>» sono soppresse;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>al comma 7-bis: 
+ 1) <mod eId="modNov_3">le parole: «<quotedText eId="modNov_3_old_4">ai sensi dell'articolo 6, comma 1, ovvero, se trattasi di centro abitato, dell'articolo 7, comma 1</quotedText>» sono soppresse;</mod> 
+ 2) <mod eId="modNov_4">e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_4_new_3">La sospensione temporanea e' disposta, per le competizioni che si svolgono interamente nel territorio di un solo comune, dal sindaco e, negli altri casi, dal prefetto</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_5">al comma 9 e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_5_new_5">In caso di violazione del provvedimento di sospensione temporanea della circolazione di cui al comma 7-bis, si applicano le sanzioni amministrative previste dall'articolo 6, comma 12</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo della nota qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'articolo 10, comma 2, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns3:target="olf:it/dpr/stato/1985/1092" ns3:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura della disposizione di legge modificata e della quale restano invariati il valore e l'efficacia. 
+ 
+ Note all'art. 1: 
+ Si riporta il testo dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main#art_9" ns4:target="olf:it/decreto-legislativo/stato/1992/285/art_9" ns4:relation="repeals">articolo 9 del decreto legislativo 30 aprile 1992, n. 285</ref>, recante: «Nuovo <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/1992-04-30/285/!main" ns5:target="olf:it/decreto-legislativo/stato/1992/285" ns5:relation="repeals">codice della strada</ref>», pubblicata nella Gazzetta Ufficiale n. 114 del 18 maggio 1992, come modificato dalla presente legge: 
+ «Art. 9 (Competizioni sportive su strada). - 1. Sulle strade ed aree pubbliche sono permesse le competizioni sportive con veicoli o animali e quelle atletiche, nei limiti e alle condizioni previsti dalla legge. Al fine di garantire la sicurezza pubblica, il buon funzionamento del servizio di trasporto pubblico nonche' del traffico ordinario, le competizioni sportive con veicoli o animali e quelle atletiche devono essere autorizzate.
+ L'autorizzazione e' rilasciata dal comune in cui devono avere luogo le gare atletiche o ciclistiche e le gare con animali o con veicoli a trazione animale. Essa e' rilasciata dalla regione o dalla provincia autonoma di Trento o di Bolzano per le gare atletiche o ciclistiche e per le gare con animali o con veicoli a trazione animale che interessano piu' comuni. Per le gare atletiche o ciclistiche e per le gare con animali o con veicoli a trazione animale che interessano il territorio di piu' regioni, l'autorizzazione e' rilasciata dalla regione o dalla provincia autonoma del luogo di partenza, d'intesa con le altre regioni interessate, che devono rilasciare il nulla osta entro il termine di venti giorni antecedenti alla data di effettuazione della gara. Per le gare con veicoli a motore l'autorizzazione e' rilasciata, sentite le federazioni nazionali sportive competenti e dandone tempestiva informazione all'autorita' di pubblica sicurezza: dalla regione o dalla provincia autonoma di Trento o di Bolzano per le strade che costituiscono la rete di interesse nazionale; dalla regione per le strade regionali; dalle province e dalle citta' metropolitane per le strade provinciali; dai comuni per le strade comunali.
+ Nelle autorizzazioni sono precisate le prescrizioni alle quali le gare sono subordinate. Qualora, per i diversi interessi pubblici coinvolti, sia necessario acquisire le autorizzazioni di piu' enti, puo' essere indetta una conferenza di servizi ai sensi della <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/1990-08-07/241/!main" ns6:target="olf:it/legge/stato/1990/241" ns6:relation="cites">legge 7 agosto 1990, n. 241</ref>. 
+ 2. Le autorizzazioni di cui al comma 1 devono essere richieste dai promotori almeno quindici giorni prima della manifestazione per quelle di competenza del sindaco e almeno trenta giorni prima per le altre. 
+ 3. Per le autorizzazioni relative alle competizioni motoristiche i promotori devono richiedere il nulla osta per la loro effettuazione al Ministero delle infrastrutture e dei trasporti, allegando il preventivo parere del C.O.N.I. Per consentire la formulazione del programma delle competizioni da svolgere nel corso dell'anno, qualora venga riconosciuto il carattere sportivo delle stesse e non si creino gravi limitazioni al servizio di trasporto pubblico, nonche' al traffico ordinario, i promotori devono avanzare le loro richieste entro il trentuno dicembre dell'anno precedente. Il preventivo parere del C.O.N.I. non e' richiesto per le manifestazioni di regolarita' a cui partecipano i veicoli di cui all'articolo 60, purche' la velocita' imposta sia per tutto il percorso inferiore a 40 km/h e la manifestazione sia organizzata in conformita' alle norme tecnico sportive della federazione di competenza. 
+ 4. L'autorizzazione per l'effettuazione delle competizioni previste dal programma di cui al comma 3 deve essere richiesta, almeno trenta giorni prima della data fissata per la competizione, ed e' subordinata al rispetto delle norme tecnico-sportive e di sicurezza vigenti e all'esito favorevole del collaudo del percorso di gara e delle attrezzature relative, effettuato da un tecnico dell'ente proprietario della strada, assistito dai rappresentanti dei Ministeri dell'interno, delle infrastrutture e dei trasporti, unitamente ai rappresentanti degli organi sportivi competenti e dei promotori. Tale collaudo puo' essere omesso quando, anziche' di gare di velocita', si tratti di gare di regolarita' per le quali non sia ammessa una velocita' media eccedente 50 km/h sulle tratte da svolgersi sulle strade aperte al traffico e 80 km/h sulle tratte da svolgersi sulle strade chiuse al traffico; il collaudo stesso e' sempre necessario per le tratte in cui siano consentite velocita' superiori ai detti limiti. 
+ 4-bis. Fermo restando quanto disposto dall'articolo 193, i veicoli che partecipano alle competizioni motoristiche sportive di cui al presente articolo possono circolare, limitatamente agli spostamenti all'interno del percorso della competizione e per il tempo strettamente necessario per gli stessi, in deroga alle disposizioni di cui all'articolo 78. 
+ 5. Nei casi in cui, per motivate necessita', si debba inserire una competizione non prevista nel programma, i promotori, prima di chiedere l'autorizzazione di cui al comma 4, devono richiedere al Ministero delle infrastrutture e dei trasporti il nulla osta di cui al comma 3 almeno sessanta giorni prima della competizione.
+ L'autorita' competente puo' concedere l'autorizzazione a spostare la data di effettuazione indicata nel programma quando gli organi sportivi competenti lo richiedano per motivate necessita', dandone comunicazione al Ministero delle infrastrutture e dei trasporti. 
+ 6. Per tutte le competizioni sportive su strada, l'autorizzazione e' altresi' subordinata alla stipula, da parte dei promotori, di un contratto di assicurazione per la responsabilita' civile di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2005-09-07/209/!main#art_124" ns7:target="olf:it/decreto-legislativo/stato/2005/209/art_124" ns7:relation="cites">articolo 124 del codice delle assicurazioni private</ref> di cui al <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegislativo/stato/2005-09-07/209/!main" ns8:target="olf:it/decreto-legislativo/stato/2005/209" ns8:relation="cites">decreto legislativo 7 settembre 2005, n. 209</ref>. L'assicurazione deve coprire altresi' la responsabilita' dell'organizzazione degli altri obbligati per i danni comunque causati alle strade e alle relative attrezzature. I limiti di garanzia sono previsti dalla normativa vigente. 
+ 6-bis. Quando la sicurezza della circolazione lo renda necessario, nel provvedimento di autorizzazione di competizioni ciclistiche su strada, puo' essere imposta la scorta da parte di uno degli organi di cui all'articolo 12, comma 1, ovvero, in loro vece o in loro ausilio, di una scorta tecnica effettuata da persone munite di apposita abilitazione. Qualora sia prescritta la scorta di polizia, l'organo adito puo' autorizzare gli organizzatori ad avvalersi, in sua vece o in suo ausilio, della scorta tecnica effettuata a cura di personale abilitato, fissandone le modalita' ed imponendo le relative prescrizioni. 
+ 6-ter. Con disciplinare tecnico, approvato con provvedimento dirigenziale del Ministero delle infrastrutture e dei trasporti, di concerto con il Ministero dell'interno, sono stabiliti i requisiti e le modalita' di abilitazione delle persone autorizzate ad eseguire la scorta tecnica ai sensi del comma 6-bis, i dispositivi e le caratteristiche dei veicoli adibiti al servizio di scorta nonche' le relative modalita' di svolgimento. L'abilitazione e' rilasciata dal Ministero dell'interno. 
+ 6-quater. Per le competizioni ciclistiche o podistiche, ovvero con altri veicoli non a motore o con pattini, che si svolgono all'interno del territorio comunale, o di comuni limitrofi, tra i quali vi sia preventivo accordo, la scorta puo' essere effettuata dalla polizia municipale coadiuvata, se necessario, da scorta tecnica con personale abilitato ai sensi del comma 6-ter. 
+ 7. Al termine di ogni competizione il prefetto comunica tempestivamente al Ministero delle infrastrutture e dei trasporti, ai fini della predisposizione del programma per l'anno successivo, le risultanze della competizione precisando le eventuali inadempienze rispetto alla autorizzazione e l'eventuale verificarsi di inconvenienti o incidenti. 
+ 7-bis Salvo che, per particolari esigenze connesse all'andamento plano-altimetrico del percorso, ovvero al numero dei partecipanti, sia necessaria la chiusura della strada, la validita' dell'autorizzazione e' subordinata, ove necessario, all'esistenza di un provvedimento di sospensione temporanea della circolazione in occasione del transito dei partecipanti. La sospensione temporanea e' disposta, per le competizioni che si svolgono interamente nel territorio di un solo comune, dal sindaco e, negli altri casi, dal prefetto. 
+ 8. Fuori dei casi previsti dal comma 8-bis, chiunque organizza una competizione sportiva indicata nel presente articolo senza esserne autorizzato nei modi previsti e' soggetto alla sanzione amministrativa del pagamento di una somma da euro 173 ad euro 694, se si tratta di competizione sportiva atletica, ciclistica o con animali, ovvero di una somma da euro 866 ad euro 3.464, se si tratta di competizione sportiva con veicoli a motore. In ogni caso l'autorita' amministrativa dispone l'immediato divieto di effettuare la competizione, secondo le norme di cui al capo I, sezione II, del titolo VI. 
+ 8-bis. 
+ 9. Chiunque non ottemperi agli obblighi, divieti o limitazioni a cui il presente articolo subordina l'effettuazione di una competizione sportiva, e risultanti dalla relativa autorizzazione, e' soggetto alla sanzione amministrativa del pagamento di una somma da euro 87 ad euro 344, se si tratta di competizione sportiva atletica, ciclistica o con animali, ovvero di una somma da euro 173 ad euro 694, se si tratta di competizione sportiva con veicoli a motore. In caso di violazione del provvedimento di sospensione temporanea della circolazione di cui al comma 7-bis, si applicano le sanzioni amministrative previste dall'articolo 6, comma 12.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 9 aprile 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
