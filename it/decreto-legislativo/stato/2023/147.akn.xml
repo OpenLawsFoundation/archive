@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2023-09-26/147/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2023-09-26/147"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legislativo:2023-09-26;147"/>
+                    <FRBRalias name="eli" value="eli/id/2023/10/19/23G00155/ORIGINAL"/>
+                    <FRBRdate date="2023-09-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/19/23G00155/ORIGINAL" aknrelname="eli/id/2023/10/19/23G00155/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Norme di attuazione dello Statuto speciale per il Trentino-Alto Adige/Südtirol recante modifiche al decreto del Presidente della Repubblica 28 marzo 1975, n. 475, in materia di attivita' sportive e ricreative con i relativi impianti ed attrezzature. (23G00155)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00155" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO LEGISLATIVO"/>
+                            <nrdfa:span content="2023-09-26" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2023-09-26/147/ita@2023-11-03/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2023-09-26/147/ita@2023-11-03"/>
+                    <FRBRdate date="2023-11-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/19/23G00155/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/10/19/23G00155/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/10/19/23G00155/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2023-09-26/147/ita@2023-11-03/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2023-09-26/147/ita@2023-11-03.xml"/>
+                    <FRBRdate date="2023-09-26" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/19/23G00155/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-10-19" name="" number="245" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-10-19" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:decreto.legislativo:2023-09-26;147#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1975-03-28;475#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) l'introduzione di tre nuovi commi dopo il primo comma all'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:decreto.legislativo:2023-09-26;147#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1975-03-28;475#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) la modifica dell'art. 3, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1975-03-28/475/ita@2023-11-03/!main/~art_2"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1975-03-28/475/ita@2023-11-03/!main/~art_3__para_1"/>
+                        <new href="#modNov_2_new_2"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO_LEGISLATIVO/stato/2023-09-26/147/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/10/19/23G00155/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Norme di attuazione dello Statuto speciale per il Trentino-Alto Adige/Südtirol recante modifiche al decreto del Presidente della Repubblica 28 marzo 1975, n. 475, in materia di attivita' sportive e ricreative con i relativi impianti ed attrezzature. (23G00155)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00155</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO LEGISLATIVO"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-09-26</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/10/19/23G00155/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/10/19/23G00155/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/10/19/23G00155/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/10/19/23G00155/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legislativo/stato/2023/147" nativeUrn="urn:nir:stato:decreto.legislativo:2023-09-26;147" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-10-19"><ns0:event type="enacted" date="2023-09-26"/><ns0:event type="published" date="2023-10-19"/><ns0:event type="commenced" date="2023-10-19"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/95a66a9c-85df-4b5e-8517-84d595a8ede6" sourceSha256="69b38e57ba07df55855052910c4fc38f30648cda6390af337960b4e4bf6a0cc4" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T21:15:59.636214Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO LEGISLATIVO</docType>
+                <docDate date="2023-09-26">26 settembre 2023</docDate>
+                <docNumber>147</docNumber>
+                <docTitle>Norme di attuazione dello Statuto speciale per il Trentino-Alto Adige/Südtirol recante modifiche al decreto del Presidente della Repubblica 28 marzo 1975, n. 475, in materia di attivita' sportive e ricreative con i relativi impianti ed attrezzature. (23G00155) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 03/11/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visto l'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns1:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns1:relation="cites">articolo 87, quinto comma, della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Visto il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main" ns2:target="olf:it/dpr/stato/1972/670" ns2:relation="cites">decreto del Presidente della Repubblica 31 agosto 1972, n. 670</ref>, e successive modificazioni, recante «Approvazione del testo unico delle leggi costituzionali concernenti lo statuto speciale per il Trentino-Alto Adige» e, in particolare, gli articoli 9 e 16;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Visto il <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1975-03-28/475/!main" ns3:target="olf:it/dpr/stato/1975/475" ns3:relation="amends">decreto del Presidente della Repubblica 28 marzo 1975, n. 475</ref> recante «Norme di attuazione dello statuto per la Regione Trentino-Alto Adige in materia di attivita' sportive e ricreative con i relativi impianti ed attrezzature» e, in particolare, gli articoli 2 e 3;</p>
+                </citation>
+            </citations>
+            <p>Sentita la Commissione paritetica per le norme di attuazione, prevista dall'articolo 107, secondo comma, del citato <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main" ns4:target="olf:it/dpr/stato/1972/670" ns4:relation="cites">decreto del Presidente della Repubblica 31 agosto 1972, n. 670</ref>;</p>
+            <citations eId="cits_4">
+                <citation eId="cits_4__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione del 18 settembre 2023;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Presidente del Consiglio dei ministri e del Ministro per gli affari regionali e le autonomie, di concerto con i Ministri per lo sport e i giovani, dell'interno, dell'economia e delle finanze e per la pubblica amministrazione;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto legislativo:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading>Modifiche al decreto del Presidente della Repubblica 28 marzo 1975, n. 475</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">All'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1975-03-28/475/!main#art_2" ns5:target="olf:it/dpr/stato/1975/475/art_2" ns5:relation="amends">articolo 2 del decreto del Presidente della Repubblica 28 marzo 1975, n. 475</ref>, dopo il primo comma sono inseriti i seguenti: 
+ «<quotedText eId="modNov_1_new_1">Nella propria articolazione territoriale il C.O.N.I. tiene conto delle specificita' linguistiche dei territori. 
+ Le specificita' linguistiche dei territori sono altresi' prese in considerazione dalle federazioni sportive nazionali (FSN), dalle discipline sportive associate (DSA) e dagli enti di promozione sportiva (EPS) nella propria articolazione territoriale. 
+ In ragione delle specificita' linguistiche il Verband der sportvereine südtirol (VSS) e l'Unione delle societa' sportive altoatesine (USSA) possono essere riconosciuti quali enti di promozione sportiva (EPS), in deroga ai requisiti territoriali, se in possesso degli altri requisiti previsti dall'ordinamento sportivo.</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_2">All'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1975-03-28/475/!main#art_3-com1" ns6:target="olf:it/dpr/stato/1975/475/art_3-com1" ns6:relation="amends">articolo 3, primo comma, del decreto del Presidente della Repubblica 28 marzo 1975, n. 475</ref>, e' aggiunto, in fine, il seguente periodo: «<quotedText eId="modNov_2_new_2">La Provincia di Bolzano esercita, inoltre, le funzioni di controllo degli enti di cui all'articolo 2, quarto comma.</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art.10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns7:target="olf:it/dpr/stato/1985/1092" ns7:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ Note alle premesse: 
+ - L'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns8:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns8:relation="cites">art. 87, quinto comma, della Costituzione</ref>, conferisce al Presidente della Repubblica il potere di promulgare le leggi e di emanare i decreti aventi valore di legge ed i regolamenti. 
+ - Si riporta il testo degli <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main#art_9" ns9:target="olf:it/dpr/stato/1972/670/art_9" ns9:relation="cites">articoli 9</ref> e <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main#art_16" ns10:target="olf:it/dpr/stato/1972/670/art_16" ns10:relation="cites">16 del decreto del Presidente della Repubblica 31 agosto 1972, n. 670</ref>, recante «Approvazione del testo unico delle leggi costituzionali concernenti lo statuto speciale per il Trentino-Alto Adige», pubblicato nella Gazzetta Ufficiale 20 novembre 1972, n. 301: 
+ «Art. 9. Le province emanano norme legislative nelle seguenti materie nei limiti indicati dall'art. 5: 
+ 1) polizia locale urbana e rurale; 
+ 2) istruzione elementare e secondaria (media, classica, scientifica, magistrale, tecnica, professionale e artistica); 
+ 3) commercio; 
+ 4) apprendistato; libretti di lavoro; categorie e qualifiche dei lavoratori; 
+ 5) costituzione e funzionamento di commissioni comunali e provinciali di controllo sul collocamento; 
+ 6) spettacoli pubblici per quanto attiene alla pubblica sicurezza; 
+ 7) esercizi pubblici, fermi restando i requisiti soggettivi richiesti dalle leggi dello Stato per ottenere le licenze, i poteri di vigilanza dello Stato, ai fini della pubblica sicurezza, la facolta' del Ministero dell'interno di annullare d'ufficio, ai sensi della legislazione statale, i provvedimenti adottati nella materia, anche se definitivi. La disciplina dei ricorsi ordinari avverso i provvedimenti stessi e' attuata nell'ambito dell'autonomia provinciale; 
+ 8) incremento della produzione industriale; 
+ 9) utilizzazione delle acque pubbliche, escluse le grandi derivazioni a scopo idroelettrico; 
+ 10) igiene e sanita', ivi compresa l'assistenza sanitaria e ospedaliera; 
+ 11) attivita' sportive e ricreative con i relativi impianti ed attrezzature.» 
+ «Art. 16 - Nelle materie e nei limiti entro cui la regione o la provincia puo' emanare norme legislative, le relative potesta' amministrative, che in base all'ordinamento preesistente erano attribuite allo Stato sono esercitate rispettivamente dalla regione e dalla provincia. 
+ Restano ferme le attribuzioni delle province ai sensi delle leggi in vigore, in quanto compatibili con il presente statuto. 
+ Lo Stato puo' inoltre delegare, con legge, alla regione, alla provincia e ad altri enti pubblici locali funzioni proprie della sua amministrazione. In tal caso l'onere delle spese per l'esercizio delle funzioni stesse resta a carico dello Stato. 
+ La delega di funzioni amministrative dello Stato, anche se conferita con la presente legge, potra' essere modificata o revocata con legge ordinaria della Repubblica.». 
+ - Il <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1975-03-28/475/!main" ns11:target="olf:it/dpr/stato/1975/475" ns11:relation="amends">decreto del Presidente della Repubblica 28 marzo 1975, n. 475</ref>, recante «Norme di attuazione dello statuto per la regione Trentino-Alto Adige in materia di attivita' sportive e ricreative con i relativi impianti ed attrezzature» e' pubblicato nella Gazzetta Ufficiale 20 settembre 1975, n. 252. 
+ - Il testo dell'articolo 107 del citato <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1972-08-31/670/!main" ns12:target="olf:it/dpr/stato/1972/670" ns12:relation="cites">decreto del Presidente della Repubblica 31 agosto 1972, n. 670</ref>, e' il seguente: 
+ «Art. 107 - Con decreti legislativi saranno emanate le norme di attuazione del presente statuto, sentita una commissione paritetica composta di dodici membri di cui sei in rappresentanza dello Stato, due del Consiglio regionale, due del Consiglio provinciale di Trento e due di quello di Bolzano. Tre componenti devono appartenere al gruppo linguistico tedesco o ladino. 
+ In seno alla commissione di cui al precedente comma e' istituita una speciale commissione per le norme di attuazione relative alle materie attribuite alla competenza della provincia di Bolzano, composta di sei membri, di cui tre in rappresentanza dello Stato e tre della provincia.
+ Uno dei membri in rappresentanza dello Stato deve appartenere al gruppo linguistico tedesco o ladino; uno di quelli in rappresentanza della provincia deve appartenere al gruppo linguistico italiano. La maggioranza dei consiglieri provinciali del gruppo linguistico tedesco o italiano puo' rinunciare alla designazione di un proprio rappresentante in favore di un appartenente al gruppo linguistico ladino.» 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo dell'articolo 2 e dell'articolo 3, primo comma, del citato <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1975-03-28/475/!main" ns13:target="olf:it/dpr/stato/1975/475" ns13:relation="amends">decreto del Presidente della Repubblica 28 marzo 1975, n. 475</ref>, come modificato dal presente decreto: 
+ «Art. 2 - Resta ferma la competenza del C.O.N.I. e delle relative federazioni sportive affiliate alle federazioni internazionali limitatamente alle attivita' competitive programmate che sono disciplinate dall'ordinamento sportivo internazionale. 
+ Nella propria articolazione territoriale il C.O.N.I. tiene conto delle specificita' linguistiche dei territori.
+ Le specificita' linguistiche dei territori sono altresi' prese in considerazione dalle federazioni sportive nazionali (FSN), dalle discipline sportive associate (DSA) e dagli enti di promozione sportiva (EPS) nella propria articolazione territoriale. In ragione delle specificita' linguistiche il Verband der sportvereine düdtirols (VSS) e l'Unione delle Societa' Sportive Altoatesine (USSA) possono essere riconosciuti quali enti di promozione sportiva (EPS), in deroga ai requisiti territoriali, se in possesso degli altri requisiti previsti dall'ordinamento sportivo. 
+ Al fine di rendere razionale l'impiego dei mezzi finanziari destinati alle attivita' sportive ed ai relativi impianti ed attrezzature, il C.O.N.I. e le Province di Trento e di Bolzano coordinano periodicamente in un programma gli interventi di rispettiva competenza. 
+ Il C.O.N.I. fissa annualmente d'intesa con le province di Trento e di Bolzano l'ammontare del suo intervento finanziario da erogare alle province stesse tenendo conto delle esigenze concernenti le attivita' sportive e relativi impianti ed attrezzature di loro competenza. 
+ L'Istituto per il credito sportivo fissa annualmente d'intesa con le Province di Trento e di Bolzano, l'ammontare complessivo e la destinazione dei mutui da concedere nell'ambito del rispettivo territorio provinciale.» 
+ «Art. 3 - Le province di Trento e di Bolzano esercitano le funzioni amministrative degli organi dello Stato in ordine agli altri enti, istituzioni ed organizzazioni locali operanti nelle materie di cui all'art. 1 del presente decreto. La Provincia di Bolzano esercita, inoltre, le funzioni di controllo degli enti di cui all'articolo 2, quarto comma. 
+ In caso di soppressione con legge provinciale degli enti previsti nel precedente comma il personale dipendente e' trasferito a domanda alle province conservando integralmente la posizione giuridico-economica acquisita. I beni immobili ed immobili sono trasferiti al patrimonio delle province.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 26 settembre 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Calderoli, Ministro per gli affari regionali e le autonomie Abodi, Ministro per lo sport e i giovani Piantedosi, Ministro dell'interno Giorgetti, Ministro dell'economia e delle finanze Zangrillo, Ministro per la pubblica amministrazione Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
