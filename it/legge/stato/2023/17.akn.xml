@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-03-03/17/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-03-03/17"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-03-03;17"/>
+                    <FRBRalias name="eli" value="eli/id/2023/03/06/23G00026/ORIGINAL"/>
+                    <FRBRdate date="2023-03-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/03/06/23G00026/ORIGINAL" aknrelname="eli/id/2023/03/06/23G00026/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 5 gennaio 2023, n. 2, recante misure urgenti per impianti di interesse strategico nazionale. (23G00026)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00026" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-03-03" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-03-03/17/ita@2023-03-07/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-03-03/17/ita@2023-03-07"/>
+                    <FRBRdate date="2023-03-07" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/03/06/23G00026/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/03/06/23G00026/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/03/06/23G00026/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-03-03/17/ita@2023-03-07/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-03-03/17/ita@2023-03-07.xml"/>
+                    <FRBRdate date="2023-03-03" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/03/06/23G00026/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-03-06" name="" number="55" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-03-06" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2023-03-03" refersTo="#S.455"/>
+                <step by="#camera" date="2023-03-03" refersTo="#C.908"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1989-07-28;271#Norme-art. 104 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 5 gennaio 2023, n. 2 (in G.U. 5/1/2023, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1999-07-08;270#45"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 5 gennaio 2023, n. 2 (in G.U. 5/1/2023, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1999-07-08;270#47"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 5 gennaio 2023, n. 2 (in G.U. 5/1/2023, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2001-06-08;231#45"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 5 gennaio 2023, n. 2 (in G.U. 5/1/2023, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2001-06-08;231#53"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 5 gennaio 2023, n. 2 (in G.U. 5/1/2023, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2003-12-23;347#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 5 gennaio 2023, n. 2 (in G.U. 5/1/2023, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2010-02-04;14#8"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 5 gennaio 2023, n. 2 (in G.U. 5/1/2023, n. 4).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2019-12-16;142#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 5 gennaio 2023, n. 2 (in G.U. 5/1/2023, n. 4). </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-05;2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) che la rubrica del Capo I "Disposizioni relative al settore siderurgico" è sostituita dalla seguente: "Disposizioni relative al settore siderurgico, al settore aeronautico e alle aree di crisi industriale
+complessa".</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-05;2#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 1, lettere a) e b) e l'introduzione del comma 1-bis all'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-05;2#1 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-05;2#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-05;2#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 1, lettere a) e b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-05;2#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, comma 1 e l'introduzione del comma 1-bis all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-05;2#4 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 4-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-05;2#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 1, lettere c) e d).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-03-03;17#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-01-05;2#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_1__para_1__point_a"/>
+                        <old href="#modNov_1_old_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_1__para_1__point_b"/>
+                        <old href="#modNov_1_old_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_1__para_1__point_b"/>
+                        <old href="#modNov_1_old_3"/>
+                        <new href="#modNov_1_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_1__para_1-bis"/>
+                        <new href="#modNov_1_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_1-bis"/>
+                        <new href="#modNov_2_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_2__para_1"/>
+                        <new href="#modNov_3_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_3__para_1__point_a"/>
+                        <new href="#modNov_4_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_3__para_1__point_b"/>
+                        <new href="#modNov_4_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_3__para_1__point_b"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_4__para_1"/>
+                        <old href="#modNov_5_old_10"/>
+                        <new href="#modNov_5_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_4__para_1-bis"/>
+                        <new href="#modNov_5_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_4-bis"/>
+                        <new href="#modNov_6_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main"/>
+                        <new href="#modNov_7_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_5__para_1__point_d"/>
+                        <new href="#modNov_8_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="repeal">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_5__para_1__point_d"/>
+                        <old href="#modNov_8_old_17"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_5__para_1__point_d"/>
+                        <old href="#modNov_8_old_18"/>
+                        <new href="#modNov_8_new_18"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_5__para_1__point_c"/>
+                        <old href="#modNov_8_old_12"/>
+                        <new href="#modNov_8_new_12"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-01-05/2/ita@2023-03-07/!main/~art_6__para_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-03-03/17/!main" showAs=""/>
+                <passiveRef eId="S.455" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;455" showAs=""/>
+                <passiveRef eId="C.908" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;908" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/03/06/23G00026/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 5 gennaio 2023, n. 2, recante misure urgenti per impianti di interesse strategico nazionale. (23G00026)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00026</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-03-03</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/03/06/23G00026/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/03/06/23G00026/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/03/06/23G00026/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/03/06/23G00026/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/17" nativeUrn="urn:nir:stato:legge:2023-03-03;17" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-03-06"><ns0:event type="enacted" date="2023-03-03"/><ns0:event type="published" date="2023-03-06"/><ns0:event type="commenced" date="2023-03-06"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/a816b764-5f0d-46eb-a02c-3bfea7ebf007" sourceSha256="401d8a61c9375e6e707728e00c302aa39866fd24e30b63d1bb7b674a81ce988e" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T22:12:41.083569Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-03-03">03 marzo 2023</docDate>
+                <docNumber>17</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 5 gennaio 2023, n. 2, recante misure urgenti per impianti di interesse strategico nazionale. (23G00026) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 07/03/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2023-01-05/2/!main" ns1:target="olf:it/decreto-legge/stato/2023/2" ns1:relation="repeals">decreto-legge 5 gennaio 2023, n. 2</ref>, recante misure urgenti per impianti di interesse strategico nazionale, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2023-01-05/2/!main" ns2:target="olf:it/decreto-legge/stato/2023/2" ns2:relation="repeals">decreto-legge 5 gennaio 2023, n. 2</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 4 del 5 gennaio 2023. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 116. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 3 marzo 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Urso, Ministro delle imprese e del made in Italy Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-03-03/17/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-03-03/17"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-03-03;17"/>
+                                <FRBRalias name="eli" value="eli/id/2023/03/06/23G00026/ORIGINAL"/>
+                                <FRBRdate date="2023-03-07" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-03-03/17/ita@2023-03-07/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-03-03/17/ita@2023-03-07"/>
+                                <FRBRdate date="2023-03-07" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-03-03/17/ita@2023-03-07/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-03-03/17/ita@2023-03-07.xml"/>
+                                <FRBRdate date="2023-03-03" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 5 GENNAIO 2023, N. 2 
+ 
+ <mod eId="modNov_1">All'articolo 1: 
+ al comma 1: 
+ alla lettera a), le parole: «<quotedText eId="modNov_1_old_1">da convertire</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_1">che si convertono</quotedText>»; 
+ alla lettera b), dopo le parole: «autorizzata a sottoscrivere» il segno di interpunzione: <quotedText eId="modNov_1_old_2">«,»</quotedText> e' soppresso e le parole: «<quotedText eId="modNov_1_old_3">aumenti di capitale sociale o finanziamento</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_3">aumenti di capitale sociale o a erogare finanziamenti</quotedText>»; 
+ dopo il comma 1 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_1_new_4">1-bis. Al fine di garantire la continuita' del funzionamento produttivo degli stabilimenti industriali nell'area di Taranto, ai sensi del <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2015-01-05/1/!main" ns4:target="olf:it/decreto-legge/stato/2015/1" ns4:relation="cites">decreto-legge 5 gennaio 2015, n. 1</ref>, convertito, con modificazioni, dalla <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2015-03-04/20/!main" ns5:target="olf:it/legge/stato/2015/20" ns5:relation="cites">legge 4 marzo 2015, n. 20</ref>, per le imprese che svolgono attivita' industriale di rilevanza strategica per il sistema di difesa e sicurezza nazionale nel settore aeronautico, alle quali nel 2022 e' stata erogata l'ultima quota del finanziamento concesso, ai sensi dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/1985-12-24/808/!main#art_3-com1-leta" ns6:target="olf:it/legge/stato/1985/808/art_3-com1-leta" ns6:relation="cites">articolo 3, primo comma, lettera a), della legge 24 dicembre 1985, n. 808</ref>, per la partecipazione ai progetti internazionali sulla base di accordi di collaborazione industriale, i versamenti dei diritti di regia precedentemente maturati e suddivisi in quattro quote uguali, in scadenza nel 2023, nel 2024, nel 2025 e nel 2026, sono effettuati senza applicazione di interessi e sanzioni rispettivamente entro il 31 dicembre 2026, entro il 31 dicembre 2027, entro il 31 dicembre 2028 ed entro il 31 dicembre 2029</quotedText>».</mod>
+                                    <mod eId="modNov_2">Dopo l'articolo 1 e' inserito il seguente: 
+ «<quotedText eId="modNov_2_new_5">Art. 1-bis (Continuita' produttiva delle aree di crisi industriale complessa). - 1. Al fine di sostenere la competitivita' del sistema produttivo nazionale, nonche' al fine della salvaguardia dei livelli occupazionali nei casi di situazioni di crisi industriali complesse con impatto significativo sulla politica industriale nazionale, con particolare riferimento al territorio della Regione siciliana, ai lavoratori di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2018-12-30/145/!main#art_1-com251bis" ns7:target="olf:it/legge/stato/2018/145/art_1-com251bis" ns7:relation="cites">articolo 1, comma 251-bis, della legge 30 dicembre 2018, n. 145</ref>, che nell'anno 2020 hanno presentato richiesta per la concessione dell'indennita' di cui all'articolo 1, comma 251, della medesima <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2018/145/!main" ns8:resolution="unresolved">legge n. 145 del 2018</ref>, la stessa indennita' puo' essere concessa in continuita' fino al 31 dicembre 2023. 
+ 2. Agli oneri derivanti dall'attuazione del comma 1, valutati in 993.000 euro per l'anno 2023, si provvede mediante corrispondente riduzione del Fondo per interventi strutturali di politica economica, di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegge/stato/2004-11-29/282/!main#art_10-com5" ns9:target="olf:it/decreto-legge/stato/2004/282/art_10-com5" ns9:relation="cites">articolo 10, comma 5, del decreto-legge 29 novembre 2004, n. 282</ref>, convertito, con modificazioni, dalla <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2004-12-27/307/!main" ns10:target="olf:it/legge/stato/2004/307" ns10:relation="cites">legge 27 dicembre 2004, n. 307</ref>
+                                        </quotedText>».</mod>
+                                    <mod eId="modNov_3">All'articolo 2: 
+ al comma 1, dopo le parole: «che detenga» sono inserite le seguenti: «<quotedText eId="modNov_3_new_6">, direttamente o indirettamente,</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 3: 
+ al comma 1: 
+ la lettera a) e' sostituita dalla seguente: 
+ «<quotedText eId="modNov_4_new_7">a) alla lettera b), dopo le parole: "parametrato al fatturato dell'impresa" sono inserite le seguenti: ", solo ove la gestione commissariale nell'esercizio d'impresa sia caratterizzata almeno dal pareggio tra ricavi e costi, con esclusione, quanto a questi ultimi, di quelli riferiti alle spese legali correlate alla rappresentanza in giudizio del commissario straordinario nell'ambito del contenzioso afferente agli interessi coinvolti nella procedura e agli adempimenti previsti dal presente decreto"</quotedText>»; 
+ alla lettera b): 
+ al capoverso b-ter), le parole: «e in particolare per il 10 per cento avendo riguardo a» sono sostituite dalle seguenti: «e in particolare, per il 15 per cento di tale compenso, avendo riguardo alle seguenti attivita'» e le parole: «per il rimanente 15 per cento al completamento del programma senza il beneficio di alcuna proroga, anche se disposta per effetto di legge, salvo diversa previsione della stessa.» sono sostituite dalle seguenti: «per il rimanente 10 per cento, avendo riguardo all'avvenuta chiusura dell'esercizio di impresa entro i due anni successivi all'ammissione dell'impresa all'amministrazione straordinaria ai sensi del presente decreto, ovvero entro i tre anni successivi per le imprese di cui al <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegge/stato/2003-12-23/347/!main" ns11:target="olf:it/decreto-legge/stato/2003/347" ns11:relation="amends">decreto-legge 23 dicembre 2003, n. 347</ref>, convertito, con modificazioni, dalla <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2004-02-18/39/!main" ns12:target="olf:it/legge/stato/2004/39" ns12:relation="cites">legge 18 febbraio 2004, n. 39</ref>»; 
+ dopo il capoverso b-ter) sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_4_new_8">b-quater) riduzione del 10 per cento del compenso, qualora la chiusura dell'esercizio di impresa avvenga dopo tre anni dall'apertura dell'amministrazione straordinaria per le imprese di cui al presente decreto, e dopo quattro anni per le imprese di cui al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegge/stato/2003-12-23/347/!main" ns13:target="olf:it/decreto-legge/stato/2003/347" ns13:relation="amends">decreto-legge 23 dicembre 2003, n. 347</ref>, convertito, con modificazioni, dalla <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2004-02-18/39/!main" ns14:target="olf:it/legge/stato/2004/39" ns14:relation="cites">legge 18 febbraio 2004, n. 39</ref>; 
+ b-quinquies) incremento del 10 per cento del compenso, ove all'atto della chiusura dell'amministrazione straordinaria sia accertato il ritorno in bonis dell'imprenditore, in ragione dell'avvenuta soddisfazione integrale dello stato passivo</quotedText>».</mod>
+                                    <mod eId="modNov_5">All'articolo 4: 
+ al comma 1, capoverso 2-bis, le parole: «<quotedText eId="modNov_5_old_10">In ogni caso gli esiti liquidatori derivanti dall'applicazione di cui ai commi 1 e 2 non possono eccedere</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_5_new_10">Nei casi riguardanti le grandi imprese per le quali trova applicazione il <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/1999-07-08/270/!main" ns15:target="olf:it/decreto-legislativo/stato/1999/270" ns15:relation="amends">decreto legislativo 8 luglio 1999, n. 270</ref>, all'esito delle liquidazioni derivanti dall'applicazione del regolamento di cui ai commi 1 e 2, i compensi degli amministratori giudiziari non possono comunque eccedere</quotedText>»; 
+ dopo il comma 1 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_5_new_11">1-bis. Le previsioni di cui all'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2010-02-04/14/!main#art_8-com2bis" ns16:target="olf:it/decreto-legislativo/stato/2010/14/art_8-com2bis" ns16:relation="amends">articolo 8, comma 2-bis, del decreto legislativo 4 febbraio 2010, n. 14</ref>, come introdotto dal comma 1 del presente articolo, si applicano agli incarichi conferiti dopo la data di entrata in vigore della legge di conversione del presente decreto</quotedText>».</mod>
+                                    <mod eId="modNov_6">Nel capo I, dopo l'articolo 4 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_6_new_14">Art. 4-bis (Disposizioni relative al comitato di sorveglianza). - 1. All'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/1999-07-08/270/!main#art_45" ns17:target="olf:it/decreto-legislativo/stato/1999/270/art_45" ns17:relation="amends">articolo 45 del decreto legislativo 8 luglio 1999, n. 270</ref>, dopo il comma 2 e' inserito il seguente: 
+ "2-bis. I membri del comitato durano in carica tre anni, rinnovabili sino all'estinzione della procedura. Possono essere nominati solo esperti che non risultino gia' membri di un comitato". 
+ 2. I soggetti gia' nominati come membri del comitato di sorveglianza di cui all'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/1999-07-08/270/!main#art_45" ns18:target="olf:it/decreto-legislativo/stato/1999/270/art_45" ns18:relation="amends">articolo 45 del decreto legislativo 8 luglio 1999, n. 270</ref>, senza fissazione del termine massimo di durata della carica, di cui al comma 2-bis del predetto articolo 45, come introdotto dal comma 1 del presente articolo, decadono, salvo rinnovo, decorsi centoventi giorni dalla data di entrata in vigore della legge di conversione del presente decreto. Con decreto del Ministro delle imprese e del made in Italy, da adottare entro novanta giorni dalla data di entrata in vigore della legge di conversione del presente decreto, sono disciplinati i poteri del presidente del comitato di sorveglianza, l'esercizio delle funzioni assegnate al comitato, le modalita' di svolgimento delle adunanze e di adozione delle deliberazioni e le informazioni che, periodicamente, devono essere trasmesse al Ministero delle imprese e del made in Italy</quotedText>».</mod>
+                                    <mod eId="modNov_7">Alla rubrica del capo I sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_7_new_15">, al settore aeronautico e alle aree di crisi industriale complessa</quotedText>».</mod>
+                                    <mod eId="modNov_8">All'articolo 5: 
+ al comma 1: 
+ alla lettera c), le parole: «<quotedText eId="modNov_8_old_12">in luogo dell'applicazione cautelare della misura interdittiva</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_8_new_12">in luogo della misura cautelare interdittiva</quotedText>»; 
+ alla lettera d), capoverso 1-ter, dopo le parole: «stabilimenti industriali» sono inserite le seguenti: «<quotedText eId="modNov_8_new_16">o parti di essi</quotedText>», le parole: «<quotedText eId="modNov_8_old_17">o loro parti,</quotedText>» sono soppresse e le parole: «<quotedText eId="modNov_8_old_18">del decreto legislativo</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_8_new_18">delle norme di attuazione, di coordinamento e transitorie del <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns19:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns19:relation="cites">codice di procedura penale</ref>, di cui al decreto legislativo</quotedText>».</mod>
+                                    <mod eId="modNov_9">All'articolo 6: 
+ al comma 1: 
+ all'alinea, le parole: «delle disposizioni di attuazione» sono sostituite dalle seguenti: «delle norme di attuazione, di coordinamento e transitorie»; 
+ al capoverso 1-bis.1, al terzo periodo, le parole: «giudice detta le prescrizioni» sono sostituite dalle seguenti: «il giudice detta le prescrizioni» e, al sesto periodo, le parole: «il provvedimento di cui ai periodi precedenti, anche se negativo, e' trasmesso» sono sostituite dalle seguenti: «i provvedimenti emessi dal giudice ai sensi dei periodi precedenti, anche se negativi, sono trasmessi».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
