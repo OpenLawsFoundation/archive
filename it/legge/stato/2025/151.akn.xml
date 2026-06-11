@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-10-08/151/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-10-08/151"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-10-08;151"/>
+                    <FRBRalias name="eli" value="eli/id/2025/10/10/25G00153/ORIGINAL"/>
+                    <FRBRdate date="2025-10-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/10/10/25G00153/ORIGINAL" aknrelname="eli/id/2025/10/10/25G00153/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Istituzione della festa nazionale di San Francesco d'Assisi. (25G00153)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00153" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-10-08" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-10-08/151/ita@2026-01-01/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-10-08/151/ita@2026-01-01"/>
+                    <FRBRdate date="2026-01-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/10/10/25G00153/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/10/10/25G00153/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/10/10/25G00153/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-10-08/151/ita@2026-01-01/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-10-08/151/ita@2026-01-01.xml"/>
+                    <FRBRdate date="2025-10-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/10/10/25G00153/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-10-10" name="" number="236" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-10-10" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2025-10-08" refersTo="#C.2097"/>
+                <step by="#senato" date="2025-10-08" refersTo="#S.1653"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-10-08;151#1"/>
+                        <destination href="urn:nir:stato:legge:1949-05-27;260#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) la modifica dell'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-10-08;151#1"/>
+                        <destination href="urn:nir:stato:legge:1958-03-04;132"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 3, lettera b)) la seguente modifica al titolo: Ricorrenza festiva del 4 ottobre in onore ((della Santa Patrona d'Italia)) Santa Caterina da Siena.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-10-08;151#1"/>
+                        <destination href="urn:nir:stato:legge:1958-03-04;132#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 3, lettera a)) la modifica dell'art. 1, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/1949-05-27/260/ita@2026-01-01/!main/~art_2"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/legge/stato/1958-03-04/132/ita@2026-01-01/!main/~art_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/legge/stato/1958-03-04/132/ita@2026-01-01/!main"/>
+                        <old href="#modNov_3_old_3"/>
+                        <new href="#modNov_3_new_3"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-10-08/151/!main" showAs=""/>
+                <passiveRef eId="C.2097" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;2097" showAs=""/>
+                <passiveRef eId="S.1653" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1653" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/10/10/25G00153/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Istituzione della festa nazionale di San Francesco d'Assisi. (25G00153)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00153</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-10-08</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/10/10/25G00153/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/10/10/25G00153/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/10/10/25G00153/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/10/10/25G00153/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/151" nativeUrn="urn:nir:stato:legge:2025-10-08;151" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-10-10"><ns0:event type="enacted" date="2025-10-08"/><ns0:event type="published" date="2025-10-10"/><ns0:event type="commenced" date="2025-10-10"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/abeb9b02-513d-4817-a194-ce79290a2232" sourceSha256="ce2934b6e95897db890baf972b73c68773db5be1f767ecd310df3e66562eabcb" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T18:12:20.641723Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-10-08">08 ottobre 2025</docDate>
+                <docNumber>151</docNumber>
+                <docTitle>Istituzione della festa nazionale di San Francesco d'Assisi. (25G00153) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 01/01/2026</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Istituzione della festa nazionale 
+ di San Francesco d'Assisi</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di celebrare e di promuovere i valori della pace, della fratellanza, della tutela dell'ambiente e della solidarieta', incarnati dalla figura di San Francesco d'Assisi, patrono d'Italia, e' istituita la festa nazionale di San Francesco d'Assisi, da celebrare il 4 ottobre di ogni anno. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">All'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/1949-05-27/260/!main#art_2" ns1:target="olf:it/legge/stato/1949/260/art_2" ns1:relation="amends">articolo 2 della legge 27 maggio 1949, n. 260</ref>, dopo le parole: «il giorno dell'Assunzione della B. V. Maria;» e' inserito il seguente capoverso: 
+ «<quotedText eId="modNov_1_new_1">il 4 ottobre: festa nazionale di San Francesco d'Assisi, patrono d'Italia;</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <list>
+                        <intro eId="art_1__para_3__intro_1">
+                            <p>Alla <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/legge/stato/1958-03-04/132/!main" ns2:target="olf:it/legge/stato/1958/132" ns2:relation="amends">legge 4 marzo 1958, n. 132</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_3.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_2">all'articolo 1, al primo comma, le parole: «dei Santi Patroni speciali d'Italia San Francesco d'Assisi e» sono sostituite dalle seguenti: «della Santa Patrona d'Italia» e, al secondo comma, le parole: «i Santi Patroni speciali d'Italia sono» sono sostituite dalle seguenti: «la Santa Patrona d'Italia e'»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_3.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_3">nel titolo, le parole: «<quotedText eId="modNov_3_old_3">dei Patroni speciali d'Italia San Francesco d'Assisi e</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_3">della Santa Patrona d'Italia</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'art. 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns3:target="olf:it/dpr/stato/1985/1092" ns3:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/1949-05-27/260/!main#art_2" ns4:target="olf:it/legge/stato/1949/260/art_2" ns4:relation="amends">art. 2 della legge 27 maggio 1949, n. 260</ref> recante: «Disposizioni in materia di ricorrenze festive», come modificato dalla presente legge: 
+ «Art. 2 
+ Sono considerati giorni festivi, agli effetti della osservanza del completo orario festivo e del divieto di compiere determinati atti giuridici, oltre al giorno della festa nazionale, i giorni seguenti: 
+ tutte le domeniche; 
+ il primo giorno dell'anno; 
+ il giorno dell'Epifania; 
+ il giorno della festa, di San Giuseppe; 
+ il 25 aprile: Anniversario della Liberazione; 
+ il giorno di lunedi' dopo Pasqua; 
+ il giorno dell'Ascensione; 
+ il giorno del Corpus Domini; 
+ il 1° maggio: Festa del Lavoro; 
+ il giorno della festa dei santi Apostoli Pietro e Paolo; 
+ il giorno dell'Assunzione della B. V. Maria; 
+ il 4 ottobre: festa nazionale di San Francesco d'Assisi, patrono d'Italia; 
+ il giorno di Ognissanti; 
+ il 4 novembre: giorno dell'unita' nazionale; 
+ il giorno della festa dell'Immacolata Concezione;  il giorno di Natale; 
+ il giorno 26 dicembre.». 
+ - Si riporta il testo dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/1958-03-04/132/!main#art_1" ns5:target="olf:it/legge/stato/1958/132/art_1" ns5:relation="amends">art. 1 della legge 4 marzo 1958, n. 132</ref> recante: «Ricorrenza festiva del 4 ottobre in onore della Santa Patrona d'Italia Santa Caterina da Siena», come modificato dalla presente legge: 
+ «Art. 1 
+ Il 4 ottobre e' considerato solennita' civile e giornata della pace, della fraternita' e del dialogo tra appartenenti a culture e religioni diverse, in onore della Santa Patrona d'Italia Santa Caterina da Siena, ai sensi dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/1949-05-27/260/!main#art_3" ns6:target="olf:it/legge/stato/1949/260/art_3" ns6:relation="amends">art. 3 della legge 27 maggio 1949, n. 260</ref>. 
+ In occasione della solennita' civile del 4 ottobre sono organizzate cerimonie, iniziative, incontri, in particolare nelle scuole di ogni ordine e grado, dedicati ai valori universali indicati al primo comma di cui la Santa Patrona d'Italia e' espressione.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Celebrazioni istituzionali</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>In occasione della giornata del 4 ottobre di ciascun anno, le scuole, le amministrazioni pubbliche e gli enti del Terzo settore possono favorire l'organizzazione di eventi, di manifestazioni e di celebrazioni che promuovano i principi e gli insegnamenti di San Francesco d'Assisi. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le istituzioni pubbliche a livello nazionale, regionale e locale possono promuovere, in collaborazione con gli enti locali e con le associazioni culturali e religiose, iniziative culturali, sociali ed educative, con particolare riguardo ai temi della pace, della fraternita' tra i popoli, dell'inclusione sociale e della tutela dell'ambiente. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Le scuole di ogni ordine e grado possono promuovere, nell'ambito della propria autonomia, la realizzazione di attivita' didattiche e di progetti educativi dedicati alla figura di San Francesco d'Assisi, alla sua storia e ai valori dallo stesso rappresentati. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni competenti provvedono ai relativi adempimenti nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Disposizioni finanziarie 
+ e finali</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per l'attuazione delle disposizioni di cui all'articolo 1, e' autorizzata la spesa di 10.684.044 euro annui a decorrere dall'anno 2027, di cui 8.793.880 euro annui destinati al comparto del Servizio sanitario nazionale. Conseguentemente il livello del finanziamento del fabbisogno sanitario nazionale standard cui concorre lo Stato e' incrementato di 8.793.880 euro annui a decorrere dall'anno 2027. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Agli oneri derivanti dal comma 1, pari a 10.684.044 euro annui a decorrere dall'anno 2027, si provvede mediante corrispondente riduzione del fondo di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns7:target="olf:it/legge/stato/2014/190/art_1-com200" ns7:relation="cites">articolo 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Le disposizioni della presente legge entrano in vigore il 1° gennaio 2026. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Si riporta il testo del <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns8:target="olf:it/legge/stato/2014/190/art_1-com200" ns8:relation="cites">comma 200, dell'art. 1, della legge 23 dicembre 2014, n. 190</ref> recante: «Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato legge di stabilita' 2015»: 
+ «200. Nello stato di previsione del Ministero dell'economia e delle finanze e' istituito un Fondo per far fronte ad esigenze indifferibili che si manifestano nel corso della gestione, con la dotazione di 27 milioni di euro per l'anno 2015 e di 25 milioni di euro annui a decorrere dall'anno 2016. Il Fondo e' ripartito annualmente con uno o piu' decreti del Presidente del Consiglio dei ministri su proposta del Ministro dell'economia e delle finanze. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare le occorrenti variazioni di bilancio.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 8 ottobre 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
