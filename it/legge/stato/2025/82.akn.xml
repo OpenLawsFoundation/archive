@@ -1,0 +1,927 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-06-06/82/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-06-06/82"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2025-06-06;82"/>
+                    <FRBRalias name="eli" value="eli/id/2025/06/16/25G00089/ORIGINAL"/>
+                    <FRBRdate date="2025-06-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/06/16/25G00089/ORIGINAL" aknrelname="eli/id/2025/06/16/25G00089/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Modifiche al codice penale, al codice di procedura penale e altre disposizioni per l'integrazione e l'armonizzazione della disciplina in materia di reati contro gli animali. (25G00089)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="25G00089" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2025-06-06" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-06-06/82/ita@2025-07-01/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-06-06/82/ita@2025-07-01"/>
+                    <FRBRdate date="2025-07-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/06/16/25G00089/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2025/06/16/25G00089/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2025/06/16/25G00089/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2025-06-06/82/ita@2025-07-01/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2025-06-06/82/ita@2025-07-01.xml"/>
+                    <FRBRdate date="2025-06-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2025/06/16/25G00089/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2025-06-16" name="" number="137" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2025-06-16" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2025-06-06" refersTo="#C.30"/>
+                <step by="#senato" date="2025-06-06" refersTo="#S.1308"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) che la rubrica del titolo IX-bis del libro secondo "Dei delitti contro il sentimento per gli animali" è sostituita dalla seguente "Dei delitti contro gli animali".</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#2"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 544 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1) la modifica dell'art. 544-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#3"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 544 quinquies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1, lettera a)) la modifica dell'art. 544-quinquies, comma 1; (con l'art. 3, comma 1, lettera b)) la modifica dell'art. 544-quinquies, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#4"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 544 septies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 1) l'introduzione dell'art. 544-septies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#5"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 544 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 1, lettera a)) la modifica dell'art. 544-bis; (con l'art. 5, comma 1, lettera b)) l'introduzione di un comma in fine all'art. 544-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#5"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 544 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 2, lettera a)) la modifica dell'art. 544-ter, comma 1; (con l'art. 5, comma 2, lettera b)) la modifica dell'art. 544-ter, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#5"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 638"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 3) la modifica dell'art. 638.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#5"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 727"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 5, comma 4) la modifica dell'art. 727.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#6"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#257"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 6, comma 1, lettera a)) la modifica dell'art. 257, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#6"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#260 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 6, comma 1, lettera b)) l'introduzione dell'art. 260-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#6"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#322"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 6, comma 1, lettera a)) la modifica dell'art. 322, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#6"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#322 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 6, comma 1, lettera a)) la modifica dell'art. 322-bis, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#6"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#325"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 6, comma 1, lettera a)) la modifica dell'art. 325, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#6"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#355"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 6, comma 1, lettera a)) la modifica dell'art. 355, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#7"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 544 sexies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 7, comma 1) l'introduzione di un comma in fine all'art. 544-sexies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#8"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2001-06-08;231#25 undevicies"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 8, comma 1) l'introduzione dell'art. 25-undevicies.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#9"/>
+                        <destination href="urn:nir:stato:legge:2010-11-04;201#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 9, comma 1, lettera a)) la modifica dell'art. 4, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#9"/>
+                        <destination href="urn:nir:stato:legge:2010-11-04;201#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 9, comma 1, lettera b)) la modifica dell'art. 5, commi 1, 2 e 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#9"/>
+                        <destination href="urn:nir:stato:legge:2010-11-04;201#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 9, comma 1, lettera c)) la modifica dell'art. 6, commi 1, 2 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#11"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2022-08-05;134#20"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 11, comma 1) l'introduzione del comma 1-bis all'art. 20.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#12"/>
+                        <destination href="urn:nir:stato:legge:2004-07-20;189#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 12, comma 1) la modifica dell'art. 6, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#13"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 727 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 13, comma 1) la modifica dell'art. 727-bis, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#13"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 733 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 13, comma 2) la modifica dell'art. 733-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2025-06-06;82#14"/>
+                        <destination href="urn:nir:stato:legge:2004-07-20;189#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 14, comma 1) la modifica dell'art. 2, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1930-10-19/1398/ita@2025-07-01/!main"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2025-07-01/!main/~art_257__para_1"/>
+                        <new href="#modNov_2_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2025-07-01/!main/~art_322__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2025-07-01/!main/~art_322-bis__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2025-07-01/!main/~art_325__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2025-07-01/!main/~art_355__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2025-07-01/!main/~art_260-bis"/>
+                        <new href="#modNov_3_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2001-06-08/231/ita@2025-07-01/!main/~art_25-undevicies"/>
+                        <new href="#modNov_4_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/legge/stato/2010-11-04/201/ita@2025-07-01/!main/~art_4__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/legge/stato/2010-11-04/201/ita@2025-07-01/!main/~art_5__para_1"/>
+                        <old href="#modNov_6_old_2"/>
+                        <new href="#modNov_6_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="substitution">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/legge/stato/2010-11-04/201/ita@2025-07-01/!main/~art_5__para_2"/>
+                        <old href="#modNov_7_old_3"/>
+                        <new href="#modNov_7_new_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/legge/stato/2010-11-04/201/ita@2025-07-01/!main/~art_5__para_4"/>
+                        <old href="#modNov_8_old_4"/>
+                        <new href="#modNov_8_new_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="substitution">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/legge/stato/2010-11-04/201/ita@2025-07-01/!main/~art_6__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/legge/stato/2010-11-04/201/ita@2025-07-01/!main/~art_6__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/legge/stato/2010-11-04/201/ita@2025-07-01/!main/~art_6__para_3"/>
+                        <old href="#modNov_11_old_8"/>
+                        <new href="#modNov_11_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/legge/stato/2010-11-04/201/ita@2025-07-01/!main/~art_6__para_3"/>
+                        <new href="#modNov_12_new_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="#modNov_13"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/2022-08-05/134/ita@2025-07-01/!main/~art_20__para_1-bis"/>
+                        <new href="#modNov_13_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/legge/stato/2004-07-20/189/ita@2025-07-01/!main/~art_6__para_1"/>
+                        <new href="#modNov_14_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="insertion">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/legge/stato/2004-07-20/189/ita@2025-07-01/!main/~art_2__para_1"/>
+                        <new href="#modNov_15_new_1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2025-06-06/82/!main" showAs=""/>
+                <passiveRef eId="C.30" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;30" showAs=""/>
+                <passiveRef eId="S.1308" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;1308" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2025/06/16/25G00089/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Modifiche al codice penale, al codice di procedura penale e altre disposizioni per l'integrazione e l'armonizzazione della disciplina in materia di reati contro gli animali. (25G00089)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>25G00089</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2025-06-06</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/06/16/25G00089/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2025/06/16/25G00089/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2025/06/16/25G00089/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2025/06/16/25G00089/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2025/82" nativeUrn="urn:nir:stato:legge:2025-06-06;82" jurisdiction="it"/><ns0:lifecycle inForceFrom="2025-06-16"><ns0:event type="enacted" date="2025-06-06"/><ns0:event type="published" date="2025-06-16"/><ns0:event type="commenced" date="2025-06-16"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/dbff9d69-ae7c-49c8-b7ba-ef384bfb6df5" sourceSha256="62d7d6805b9dd1c2cdf8198c7c16193df00237f6485aa508ac01fcd38fbcf088" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:02:40.499536Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2025-06-06">06 giugno 2025</docDate>
+                <docNumber>82</docNumber>
+                <docTitle>Modifiche al codice penale, al codice di procedura penale e altre disposizioni per l'integrazione e l'armonizzazione della disciplina in materia di reati contro gli animali. (25G00089) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 01/07/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Modifica al titolo IX-bis 
+ del libro secondo del codice penale</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">La rubrica del titolo IX-bis del libro secondo del <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns1:target="olf:it/regio-decreto/stato/1930/1398" ns1:relation="amends">codice penale</ref> e' sostituita dalla seguente: «<quotedText eId="modNov_1_new_1">Dei delitti contro gli animali</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'Amministrazione competente per materia, ai sensi dell'art. 10, commi 2 e 3 del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Spettacoli o manifestazioni vietati</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quater-com1" ns3:target="olf:it/regio-decreto/stato/1930/1398/art_544quater-com1" ns3:relation="amends">articolo 544-quater, primo comma, del codice penale</ref>, le parole: «la multa da 3.000 a 15.000 euro» sono sostituite dalle seguenti: «la multa da 15.000 a 30.000 euro». 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta il testo dell'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quater" ns4:target="olf:it/regio-decreto/stato/1930/1398/art_544quater" ns4:relation="amends">articolo 544-quater del codice penale</ref>, come modificato dalla presente legge: 
+ «Art. 544-quater (Spettacoli o manifestazioni vietati). - Salvo che il fatto costituisca piu' grave reato, chiunque organizza o promuove spettacoli o manifestazioni che comportino sevizie o strazio per gli animali e' punito con la reclusione da quattro mesi a due anni e con la multa da 15.000 a 30.000 euro. 
+ La pena e' aumentata da un terzo alla meta' se i fatti di cui al primo comma sono commessi in relazione all'esercizio di scommesse clandestine o al fine di trarne profitto per se' od altri ovvero se ne deriva la morte dell'animale.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Divieto di combattimenti tra animali</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_3__para_1__intro_1">
+                            <p>All'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quinquies" ns5:target="olf:it/regio-decreto/stato/1930/1398/art_544quinquies" ns5:relation="amends">articolo 544-quinquies del codice penale</ref> sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_3__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>al primo comma, le parole: «da uno a tre anni» sono sostituite dalle seguenti: «da due a quattro anni»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>al terzo comma sono aggiunte, in fine, le seguenti parole: «, e a chiunque partecipa a qualsiasi titolo ai combattimenti o alle competizioni di cui al primo comma». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Si riporta il testo dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quinquies" ns6:target="olf:it/regio-decreto/stato/1930/1398/art_544quinquies" ns6:relation="amends">articolo 544-quinquies del codice penale</ref>, come modificato dalla presente legge: 
+ «Art. 544-quinquies (Divieto di combattimenti tra animali). - Chiunque promuove, organizza o dirige combattimenti o competizioni non autorizzate tra animali che possono metterne in pericolo l'integrita' fisica e' punito con la reclusione da due a quattro anni e con la multa da 50.000 a 160.000 euro. 
+ La pena e' aumentata da un terzo alla meta': 
+ 1) se le predette attivita' sono compiute in concorso con minorenni o da persone armate; 
+ 2) se le predette attivita' sono promosse utilizzando videoriproduzioni o materiale di qualsiasi tipo contenente scene o immagini dei combattimenti o delle competizioni; 
+ 3) se il colpevole cura la ripresa o la registrazione in qualsiasi forma dei combattimenti o delle competizioni. 
+ Chiunque, fuori dei casi di concorso nel reato, allevando o addestrando animali li destina sotto qualsiasi forma e anche per il tramite di terzi alla loro partecipazione ai combattimenti di cui al primo comma e' punito con la reclusione da tre mesi a due anni e con la multa da 5.000 a 30.000 euro. La stessa pena si applica anche ai proprietari o ai detentori degli animali impiegati nei combattimenti e nelle competizioni di cui al primo comma, se consenzienti, e a chiunque partecipa a qualsiasi titolo ai combattimenti o alle competizioni di cui al primo comma. 
+ Chiunque, anche se non presente sul luogo del reato, fuori dei casi di concorso nel medesimo, organizza o effettua scommesse sui combattimenti e sulle competizioni di cui al primo comma e' punito con la reclusione da tre mesi a due anni e con la multa da 5.000 a 30.000 euro.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Circostanze aggravanti nei reati contro gli animali</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al titolo IX-bis del libro secondo del <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns7:target="olf:it/regio-decreto/stato/1930/1398" ns7:relation="amends">codice penale</ref> e' aggiunto, in fine, il seguente articolo: 
+ «Art. 544-septies (Circostanze aggravanti). - Le pene previste dagli articoli 544-bis, 544-ter, 544-quater, 544-quinquies e 638 sono aumentate: 
+ a) se i fatti sono commessi alla presenza di minori; 
+ b) se i fatti sono commessi nei confronti di piu' animali; 
+ c) se l'autore diffonde, attraverso strumenti informatici o telematici, immagini, video o altre rappresentazioni del fatto commesso». 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Modifiche agli articoli 544-bis, 544-ter, 
+ 638 e 727 del codice penale</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_5__para_1__intro_1">
+                            <p>All'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544bis" ns8:target="olf:it/regio-decreto/stato/1930/1398/art_544bis" ns8:relation="amends">articolo 544-bis del codice penale</ref> sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_5__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>le parole: «da quattro mesi a due anni» sono sostituite dalle seguenti: «da sei mesi a tre anni e con la multa da euro 5.000 a euro 30.000»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_5__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>e' aggiunto, in fine, il seguente comma: 
+ «Se il fatto e' commesso adoperando sevizie o prolungando volutamente le sofferenze dell'animale, la pena e' della reclusione da uno a quattro anni e della multa da euro 10.000 a euro 60.000». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_5__para_2__intro_1">
+                            <p>All'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544ter" ns9:target="olf:it/regio-decreto/stato/1930/1398/art_544ter" ns9:relation="amends">articolo 544-ter del codice penale</ref> sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_5__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>al primo comma, le parole: «da tre a diciotto mesi o» sono sostituite dalle seguenti: «da sei mesi a due anni e»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_5__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>al terzo comma, dopo le parole: «al primo» sono inserite le seguenti: «e al secondo». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_5__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>L'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_638" ns10:target="olf:it/regio-decreto/stato/1930/1398/art_638" ns10:relation="amends">articolo 638 del codice penale</ref> e' sostituito dal seguente: 
+ «Art. 638 (Uccisione o danneggiamento di animali altrui). - Chiunque senza necessita' uccide o rende inservibili o comunque deteriora tre o piu' animali raccolti in gregge o in mandria, ovvero compie il fatto su animali bovini o equini, anche non raccolti in mandria, e' punito con la reclusione da uno a quattro anni». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_727-com1" ns11:target="olf:it/regio-decreto/stato/1930/1398/art_727-com1" ns11:relation="amends">articolo 727, primo comma, del codice penale</ref>, le parole: «da 1.000 a 10.000 euro» sono sostituite dalle seguenti: «da euro 5.000 a euro 10.000». 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'art. 5: 
+ - Si riporta il testo degli articoli 544-bis e 544-ter e 727 del <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns12:target="olf:it/regio-decreto/stato/1930/1398" ns12:relation="amends">codice penale</ref>, come modificato dalla presente legge: 
+ «Art. 544-bis (Uccisione di animali). - Chiunque, per crudelta' o senza necessita', cagiona la morte di un animale e' punito con la reclusione da sei mesi a tre anni e con la multa da euro 5.000 a euro 30.000. 
+ Se il fatto e' commesso adoperando sevizie o prolungando volutamente le sofferenze dell'animale, la pena e' della reclusione da uno a quattro anni e della multa da euro 10.000 a euro 60.000. 
+ Art. 544-ter (Maltrattamento di animali). - Chiunque, per crudelta' o senza necessita', cagiona una lesione ad un animale ovvero lo sottopone a sevizie o a comportamenti o a fatiche o a lavori insopportabili per le sue caratteristiche etologiche e' punito con la reclusione da sei mesi a due anni e con la multa da 5.000 a 30.000 euro. 
+ La stessa pena si applica a chiunque somministra agli animali sostanze stupefacenti o vietate ovvero li sottopone a trattamenti che procurano un danno alla salute degli stessi. 
+ La pena e' aumentata della meta' se dai fatti di cui al primo comma e al secondo comma deriva la morte dell'animale.». 
+ «Art. 727 (Abbandono di animali). - Chiunque abbandona animali domestici o che abbiano acquisito abitudini della cattivita' e' punito con l'arresto fino ad un anno o con l'ammenda da euro 5.000 a euro 10.000 euro.
+ Quando il fatto di cui al primo periodo avviene su strada o nelle relative pertinenze, la pena e' aumentata di un terzo. 
+ Alla stessa pena soggiace chiunque detiene animali in condizioni incompatibili con la loro natura, e produttive di gravi sofferenze. 
+ All'accertamento del reato di cui al primo comma consegue in ogni caso, ove il fatto sia commesso mediante l'uso di veicoli, la sanzione amministrativa accessoria della sospensione della patente di guida da sei mesi a un anno.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Modifiche al codice di procedura penale</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_6__para_1__intro_1">
+                            <p>Al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns13:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns13:relation="cites">codice di procedura penale</ref> sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_6__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_2">agli articoli 257, comma 1, 322, comma 1, 322-bis, comma 1, 325, comma 1, e 355, comma 3, dopo la parola: «restituzione» sono inserite le seguenti: «<quotedText eId="modNov_2_new_1">nonche' le associazioni e gli enti di cui all'articolo 19-quater delle disposizioni di coordinamento e transitorie per il <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns14:target="olf:it/regio-decreto/stato/1930/1398" ns14:relation="amends">codice penale</ref>
+                                        </quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_6__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_3">dopo l'articolo 260 e' inserito il seguente: 
+ «<quotedText eId="modNov_3_new_6">Art. 260-bis (Affido definitivo dell'animale oggetto di sequestro o confisca). - 1. L'autorita' giudiziaria, nell'ambito dei procedimenti per i reati di cui agli <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544bis" ns15:target="olf:it/regio-decreto/stato/1930/1398/art_544bis" ns15:relation="amends">articoli 544-bis</ref>, <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544ter" ns16:target="olf:it/regio-decreto/stato/1930/1398/art_544ter" ns16:relation="amends">544-ter</ref>, <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quater" ns17:target="olf:it/regio-decreto/stato/1930/1398/art_544quater" ns17:relation="amends">544-quater</ref> e <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quinquies" ns18:target="olf:it/regio-decreto/stato/1930/1398/art_544quinquies" ns18:relation="amends">544-quinquies del codice penale</ref> nonche' all'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2010-11-04/201/!main#art_4" ns19:target="olf:it/legge/stato/2010/201/art_4" ns19:relation="amends">articolo 4 della legge 4 novembre 2010, n. 201</ref>, consumati o tentati, quando dispone il sequestro o la confisca di animali vivi al fine di garantire la loro effettiva protezione e il mantenimento in condizioni di salute adeguate, puo', anche su istanza della persona offesa o dell'associazione di cui all'articolo 19-quater delle disposizioni di coordinamento e transitorie per il <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns20:target="olf:it/regio-decreto/stato/1930/1398" ns20:relation="amends">codice penale</ref>, con decreto motivato, affidare gli stessi, in via definitiva, alle associazioni di cui al medesimo articolo 19-quater o a loro subaffidatari previo versamento, da parte dell'associazione interessata, di una cauzione per ciascun animale affidato. Il provvedimento di rigetto dell'istanza dei soggetti indicati e' impugnabile nel termine di trenta giorni. 
+ 2. L'importo della cauzione di cui al comma 1 e' stabilito dall'autorita' giudiziaria tenendo conto della tipologia dell'animale e dello stato sanitario dello stesso nonche' delle cure e dei costi che la gestione dell'animale richiede nel lungo periodo a seguito dell'affidamento definitivo. Il versamento della cauzione e' condizione di efficacia del decreto di affidamento definitivo. 
+ 3. Le associazioni di cui all'articolo 19-quater delle disposizioni di coordinamento e transitorie per il <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns21:target="olf:it/regio-decreto/stato/1930/1398" ns21:relation="amends">codice penale</ref>, previa autorizzazione dell'autorita' giudiziaria procedente, possono individuare singole persone fisiche o enti e associazioni a cui affidare gli animali. In tali casi e sempre previo versamento della cauzione, il decreto di affidamento definitivo e' emesso nei riguardi dell'affidatario individuato. 
+ 4. La cauzione e' versata mediante bonifico bancario al Fondo unico giustizia. La cauzione complessiva versata rimane a disposizione dell'autorita' giudiziaria fino alla sentenza definitiva. In caso di sentenza definitiva di condanna, la cauzione e' versata all'entrata del bilancio dello Stato e resta acquisita all'erario. 
+ 5. La documentazione relativa al versamento della cauzione e' inserita, in originale, nel fascicolo del procedimento. 
+ 6. Il decreto di affidamento definitivo costituisce titolo ai fini dell'esecuzione delle variazioni anagrafiche, ove previste, relative agli animali affidati e si estende anche a eventuali cuccioli nati nelle more del sequestro o della confisca</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le misure di prevenzione previste dal libro I, titoli I e II, del codice delle leggi antimafia e delle misure di prevenzione, di cui al <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns22:target="olf:it/decreto-legislativo/stato/2011/159" ns22:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref>, si applicano anche a coloro che debbano ritenersi, ai sensi degli <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_102" ns23:target="olf:it/regio-decreto/stato/1930/1398/art_102" ns23:relation="amends">articoli 102</ref> e <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_103" ns24:target="olf:it/regio-decreto/stato/1930/1398/art_103" ns24:relation="amends">103 del codice penale</ref>, abitualmente dediti alla consumazione dei delitti di cui agli <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quater" ns25:target="olf:it/regio-decreto/stato/1930/1398/art_544quater" ns25:relation="amends">articoli 544-quater</ref> e <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quinquies" ns26:target="olf:it/regio-decreto/stato/1930/1398/art_544quinquies" ns26:relation="amends">544-quinquies del codice penale</ref> o dei delitti previsti dalla <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2010-11-04/201/!main" ns27:target="olf:it/legge/stato/2010/201" ns27:relation="amends">legge 4 novembre 2010, n. 201</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_5" placement="bottom">
+                                <p> Note all'art. 6: 
+ - Si riporta il testo degli <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_257" ns28:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_257" ns28:relation="cites">articoli 257</ref>, <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_322" ns29:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_322" ns29:relation="cites">322</ref>, <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_322bis" ns30:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_322bis" ns30:relation="cites">322-bis</ref>, <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_325" ns31:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_325" ns31:relation="cites">325</ref> e <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_355" ns32:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_355" ns32:relation="cites">355 del codice di procedura penale</ref>, come modificato dalla presente legge: 
+ «Art. 257 (Riesame del decreto di sequestro). - 1.
+ Contro il decreto di sequestro l'imputato, la persona alla quale le cose sono state sequestrate e quella che avrebbe diritto alla loro restituzione nonche' le associazioni e gli enti di cui all'articolo 19-quater delle disposizioni di coordinamento e transitorie per il <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns33:target="olf:it/regio-decreto/stato/1930/1398" ns33:relation="amends">codice penale</ref> possono proporre richiesta di riesame, anche nel merito, a norma dell'articolo 324. 
+ 2. La richiesta di riesame non sospende l'esecuzione del provvedimento.» 
+ «Art. 322 (Riesame del decreto di sequestro preventivo). - 1. Contro il decreto di sequestro emesso dal giudice 1 l'imputato e il suo difensore, la persona alla quale le cose sono state sequestrate e quella che avrebbe diritto alla loro restituzione nonche' le associazioni e gli enti di cui all'articolo 19-quater delle disposizioni di coordinamento e transitorie per il <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns34:target="olf:it/regio-decreto/stato/1930/1398" ns34:relation="amends">codice penale</ref> possono proporre richiesta di riesame, anche nel merito, a norma dell'articolo 324. 
+ 2. La richiesta di riesame non sospende l'esecuzione del provvedimento.» 
+ «Art. 322-bis (Appello). - 1. Fuori dei casi previsti dall'articolo 322, il pubblico ministero, l'imputato e il suo difensore, la persona alla quale le cose sono state sequestrate e quella che avrebbe diritto alla loro restituzione nonche' le associazioni e gli enti di cui all'articolo 19-quater delle disposizioni di coordinamento e transitorie per il <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns35:target="olf:it/regio-decreto/stato/1930/1398" ns35:relation="amends">codice penale</ref>, possono proporre appello contro le ordinanze in materia di sequestro preventivo e contro il decreto di revoca del sequestro emesso dal pubblico ministero. 
+ 1-bis. Sull'appello decide, in composizione collegiale, il tribunale del capoluogo della provincia nella quale ha sede l'ufficio che ha emesso il provvedimento 2. 
+ 2. L'appello non sospende l'esecuzione del provvedimento. Si applicano, in quanto compatibili, le disposizioni dell'articolo 310.» 
+ «Art. 325 (Ricorso per cassazione). - 1. Contro le ordinanze emesse a norma degli articoli 322-bis e 324, il pubblico ministero, l'imputato e il suo difensore, la persona alla quale le cose sono state sequestrate e quella che avrebbe diritto alla loro restituzione nonche' le associazioni e gli enti di cui all'articolo 19-quater delle disposizioni di coordinamento e transitorie per il <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns36:target="olf:it/regio-decreto/stato/1930/1398" ns36:relation="amends">codice penale</ref> possono proporre ricorso per cassazione per violazione di legge. 
+ 2. Entro il termine previsto dell'articolo 324 comma 1, contro il decreto di sequestro emesso dal giudice puo' essere proposto direttamente [<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns37:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns37:relation="cites">c.p.p.</ref> 569] ricorso per cassazione. La proposizione del ricorso rende inammissibile la richiesta di riesame 2. 
+ 3. Si applicano le disposizioni dell'articolo 311 commi 3, 4 e 5 3. 
+ 4. Il ricorso non sospende l'esecuzione della ordinanza.» 
+ «Art. 355 (Convalida del sequestro e suo riesame). - 1. Nel caso in cui abbia proceduto a sequestro, la polizia giudiziaria enuncia nel relativo verbale il motivo del provvedimento e ne consegna copia alla persona alla quale le cose sono state sequestrate. Il verbale e' trasmesso senza ritardo, e comunque non oltre le quarantotto ore, al pubblico ministero del luogo dove il sequestro e' stato eseguito. 
+ 2. Il pubblico ministero, nelle quarantotto ore successive, con decreto motivato convalida il sequestro se ne ricorrono i presupposti ovvero dispone la restituzione delle cose sequestrate. Copia del decreto di convalida e' immediatamente notificata alla persona alla quale le cose sono state sequestrate. 
+ 3. Contro il decreto di convalida, la persona nei cui confronti vengono svolte le indagini e il suo difensore, la persona alla quale le cose sono state sequestrate e quella che avrebbe diritto alla loro restituzione nonche' le associazioni e gli enti di cui all'articolo 19-quater delle disposizioni di coordinamento e transitorie per il <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns38:target="olf:it/regio-decreto/stato/1930/1398" ns38:relation="amends">codice penale</ref> possono proporre, entro dieci giorni dalla notifica del decreto ovvero dalla diversa data in cui l'interessato ha avuto conoscenza dell'avvenuto sequestro, richiesta di riesame, anche nel merito, a norma dell'articolo 324. 
+ 4. La richiesta di riesame non sospende l'esecuzione del provvedimento.». 
+ - Il libro I, i titoli I e II del <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns39:target="olf:it/decreto-legislativo/stato/2011/159" ns39:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref> recante: «Codice delle leggi antimafia e delle misure di prevenzione, nonche' nuove disposizioni in materia di documentazione antimafia, a norma degli <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/legge/stato/2010-08-13/136/!main#art_1" ns40:target="olf:it/legge/stato/2010/136/art_1" ns40:relation="amends">articoli 1</ref> e <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/legge/stato/2010-08-13/136/!main#art_2" ns41:target="olf:it/legge/stato/2010/136/art_2" ns41:relation="amends">2 della legge 13 agosto 2010, n. 136</ref>», pubblicato nella Gazzetta Ufficiale n. 226 del 28 settembre 2011 recano rispettivamente: «Le misure di prevenzione», «Le misure di prevenzione personali» e «Le misure di prevenzione patrimoniali.». 
+ - Si riporta il testo degli <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_102" ns42:target="olf:it/regio-decreto/stato/1930/1398/art_102" ns42:relation="amends">articoli 102</ref> e <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_103" ns43:target="olf:it/regio-decreto/stato/1930/1398/art_103" ns43:relation="amends">103 del codice penale</ref>: 
+ «Art. 102 (Abitualita' presunta dalla legge). - E' dichiarato delinquente abituale chi, dopo essere stato condannato alla reclusione in misura superiore complessivamente a cinque anni per tre delitti non colposi, della stessa indole, commessi entro dieci anni, e non contestualmente, riporta un'altra condanna per un delitto, non colposo, della stessa indole, e commesso entro dieci anni successivi all'ultimo dei delitti precedenti. 
+ Nei dieci anni indicati nella disposizione precedente non si computa il tempo in cui il condannato ha scontato pene detentive o e' stato sottoposto a misure di sicurezza detentive. 
+ Art. 103 (Abitualita' ritenuta dal giudice). - Fuori del caso indicato nell'articolo precedente, la dichiarazione di abitualita' nel delitto e' pronunciata anche contro chi, dopo essere stato condannato per due delitti non colposi, riporta un'altra condanna per delitto non colposo, se il giudice, tenuto conto della specie e gravita' dei reati, del tempo entro il quale sono stati commessi, della condotta e del genere di vita del colpevole e delle altre circostanze indicate nel capoverso dell'articolo 133, ritiene che il colpevole sia dedito al delitto.». 
+ - Per i riferimenti agli <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quater" ns44:target="olf:it/regio-decreto/stato/1930/1398/art_544quater" ns44:relation="amends">articoli 544-quater</ref> e <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quinquies" ns45:target="olf:it/regio-decreto/stato/1930/1398/art_544quinquies" ns45:relation="amends">544-quinquies del codice penale</ref> si vedano rispettivamente le note agli articoli 2 e 3 della presente legge. 
+ - La <ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/legge/stato/2010-11-04/201/!main" ns46:target="olf:it/legge/stato/2010/201" ns46:relation="amends">legge 4 novembre 2010, n. 201</ref>, recante: «Ratifica ed esecuzione della Convenzione europea per la protezione degli animali da compagnia, fatta a Strasburgo il 13 novembre 1987, nonche' norme di adeguamento dell'ordinamento interno», e' pubblicata nella Gazzetta Ufficiale n. 283 del 3 dicembre 2010. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Divieto di abbattimento o alienazione degli animali 
+ nelle more delle indagini e del dibattimento</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544sexies" ns47:target="olf:it/regio-decreto/stato/1930/1398/art_544sexies" ns47:relation="amends">articolo 544-sexies del codice penale</ref> e' aggiunto, in fine, il seguente comma: 
+ «Fatto salvo quanto disposto dall'autorita' giudiziaria ai sensi dell'<ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_260bis" ns48:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_260bis" ns48:relation="cites">articolo 260-bis del codice di procedura penale</ref>, quando si procede per i delitti di cui agli articoli 544-bis, 544-ter, 544-quater, 544-quinquies e 638 del presente codice e di cui all'<ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/legge/stato/2010-11-04/201/!main#art_4" ns49:target="olf:it/legge/stato/2010/201/art_4" ns49:relation="amends">articolo 4 della legge 4 novembre 2010, n. 201</ref>, consumati o tentati, all'indagato, imputato o proprietario e' vietato abbattere o alienare a terzi gli animali, anche qualora sugli stessi non sussista il vincolo cautelare del sequestro, fino alla sentenza definitiva». </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_6" placement="bottom">
+                                <p> Note all'art. 7: 
+ - Si riporta il testo dell'<ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544sexies" ns50:target="olf:it/regio-decreto/stato/1930/1398/art_544sexies" ns50:relation="amends">articolo 544-sexies del codice penale</ref>, come modificato dalla presente legge: 
+ «Art. 544-sexies (Confisca e pene accessorie). - Nel caso di condanna, o di applicazione della pena su richiesta delle parti a norma dell'<ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_444" ns51:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_444" ns51:relation="cites">articolo 444 del codice di procedura penale</ref>, per i delitti previsti dagli articoli 544-ter, 544-quater e 544-quinquies, e' sempre ordinata la confisca dell'animale, salvo che appartenga a persona estranea al reato. E' altresi' disposta la sospensione da tre mesi a tre anni dell'attivita' di trasporto, di commercio o di allevamento degli animali se la sentenza di condanna o di applicazione della pena su richiesta e' pronunciata nei confronti di chi svolge le predette attivita'. In caso di recidiva e' disposta l'interdizione dall'esercizio delle attivita' medesime. 
+ Fatto salvo quanto disposto dall'autorita' giudiziaria ai sensi dell'<ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_260bis" ns52:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_260bis" ns52:relation="cites">articolo 260-bis del codice di procedura penale</ref>, quando si procede per i delitti di cui agli articoli 544-bis, 544-ter, 544-quater, 544-quinquies e 638 del presente codice e di cui all'<ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/legge/stato/2010-11-04/201/!main#art_4" ns53:target="olf:it/legge/stato/2010/201/art_4" ns53:relation="amends">articolo 4 della legge 4 novembre 2010, n. 201</ref>, consumati o tentati, all'indagato, imputato o proprietario e' vietato abbattere o alienare a terzi gli animali, anche qualora sugli stessi non sussista il vincolo cautelare del sequestro, fino alla sentenza definitiva.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading> Introduzione dell'art. 25-undevicies 
+ del decreto legislativo 8 giugno 2001, n. 231</heading>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_4">Dopo l'articolo 25-duodevicies del <ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/decretoLegislativo/stato/2001-06-08/231/!main" ns54:target="olf:it/decreto-legislativo/stato/2001/231" ns54:relation="amends">decreto legislativo 8 giugno 2001, n. 231</ref>, e' inserito il seguente: 
+ «<quotedText eId="modNov_4_new_1">Art. 25-undevicies (Delitti contro gli animali). - 1. In relazione alla commissione dei delitti previsti dagli <ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544bis" ns55:target="olf:it/regio-decreto/stato/1930/1398/art_544bis" ns55:relation="amends">articoli 544-bis</ref>, <ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544ter" ns56:target="olf:it/regio-decreto/stato/1930/1398/art_544ter" ns56:relation="amends">544-ter</ref>, <ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quater" ns57:target="olf:it/regio-decreto/stato/1930/1398/art_544quater" ns57:relation="amends">544-quater</ref>, <ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_544quinquies" ns58:target="olf:it/regio-decreto/stato/1930/1398/art_544quinquies" ns58:relation="amends">544-quinquies</ref> e <ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_638" ns59:target="olf:it/regio-decreto/stato/1930/1398/art_638" ns59:relation="amends">638 del codice penale</ref>, si applica all'ente la sanzione pecuniaria fino a cinquecento quote. 
+ 2. Nel caso di condanna o di applicazione della pena su richiesta delle parti, a norma dell'<ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_444" ns60:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_444" ns60:relation="cites">articolo 444 del codice di procedura penale</ref>, o di decreto penale di condanna, ai sensi dell'<ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_459" ns61:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_459" ns61:relation="cites">articolo 459 del codice di procedura penale</ref>, per i delitti di cui al comma 1 del presente articolo, si applicano all'ente le sanzioni interdittive previste dall'articolo 9, comma 2, del presente decreto per una durata non superiore a due anni. 
+ 3. I commi 1 e 2 non si applicano ai casi previsti dall'articolo 19-ter delle disposizioni di coordinamento e transitorie per il <ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns62:target="olf:it/regio-decreto/stato/1930/1398" ns62:relation="amends">codice penale</ref>
+                                </quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_9">
+                <num>Art. 9.</num>
+                <heading>Modifiche alla legge 4 novembre 2010, n. 201, in materia di protezione degli animali di affezione e da compagnia</heading>
+                <paragraph eId="art_9__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_9__para_1__intro_1">
+                            <p>Alla <ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/legge/stato/2010-11-04/201/!main" ns63:target="olf:it/legge/stato/2010/201" ns63:relation="amends">legge 4 novembre 2010, n. 201</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_9__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_5">all'articolo 4, comma 1, le parole: «e delle necessarie certificazioni sanitarie e non muniti, ove richiesto, di passaporto individuale» sono sostituite dalle seguenti: «o delle necessarie certificazioni sanitarie o non muniti, ove richiesto, di passaporto individuale» e le parole: «con la reclusione da tre mesi a un anno e con la multa da euro 3.000 a euro 15.000» sono sostituite dalle seguenti: «con la reclusione da quattro a diciotto mesi e con la multa da euro 6.000 a euro 30.000»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_9__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>all'articolo 5: 
+ 1) <mod eId="modNov_6">al comma 1, le parole: «<quotedText eId="modNov_6_old_2">da euro 100 a euro 1.000 per ogni animale introdotto</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_2">da euro 200 a euro 2.000 per ogni animale introdotto</quotedText>»;</mod> 
+ 2) <mod eId="modNov_7">al comma 2, primo periodo, le parole: «<quotedText eId="modNov_7_old_3">da euro 500 a euro 1.000 per ogni animale introdotto</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_7_new_3">da euro 1.000 a euro 1.500 per ogni animale introdotto</quotedText>»;</mod> 
+ 3) <mod eId="modNov_8">al comma 4, le parole: «<quotedText eId="modNov_8_old_4">da euro 1.000 a euro 2.000 per ogni animale introdotto</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_8_new_4">da euro 1.500 a euro 3.000 per ogni animale introdotto</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_9__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>all'articolo 6: 
+ 1) <mod eId="modNov_9">al comma 1, primo periodo, le parole: «commette tre violazioni» sono sostituite dalle seguenti: «commette due violazioni» e le parole: «da uno a tre mesi» sono sostituite dalle seguenti: «da due a sei mesi»;</mod> 
+ 2) <mod eId="modNov_10">al comma 2, primo periodo, le parole: «commette tre violazioni» sono sostituite dalle seguenti: «commette due violazioni» e le parole: «da uno a tre mesi» sono sostituite dalle seguenti: «da due a sei mesi»;</mod> 
+ 3) <mod eId="modNov_11">al comma 3, le parole: «<quotedText eId="modNov_11_old_8">commette cinque violazioni</quotedText>», ovunque ricorrono, sono sostituite dalle seguenti: «<quotedText eId="modNov_11_new_8">commette tre violazioni</quotedText>»</mod>
+                                    <mod eId="modNov_12">e sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_12_new_7">, senza possibilita' di conseguirla nuovamente</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_7" placement="bottom">
+                                <p> Note all'art. 9: 
+ - Si riporta il testo degli articoli 4, 5 e 6 della citata <ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/legge/stato/2010-11-04/201/!main" ns64:target="olf:it/legge/stato/2010/201" ns64:relation="amends">legge 4 novembre 2010, n. 201</ref>, come modificato dalla presente legge: 
+ «Art. 4 (Traffico illecito di animali da compagnia).
+ - 1. Chiunque, al fine di procurare a se' o ad altri un profitto, reiteratamente o tramite attivita' organizzate, introduce nel territorio nazionale animali da compagnia di cui all'allegato I, parte A, del regolamento (CE) n. 998/2003 del Parlamento europeo e del Consiglio, del 26 maggio 2003, privi di sistemi per l'identificazione individuale o delle necessarie certificazioni sanitarie o non muniti, ove richiesto, di passaporto individuale, e' punito con la reclusione da quattro a diciotto mesi e con la multa da euro 6.000 a euro 30.000. 
+ 2. La pena di cui al comma 1 si applica altresi' a chiunque, al fine di procurare a se' o ad altri un profitto, trasporta, cede o riceve a qualunque titolo animali da compagnia di cui all'allegato I, parte A, del regolamento (CE) n. 998/2003 del Parlamento europeo e del Consiglio, del 26 maggio 2003, introdotti nel territorio nazionale in violazione del citato comma 1. 
+ 3. La pena e' aumentata se gli animali di cui al comma 1 hanno un'eta' accertata inferiore a dodici settimane o se provengono da zone sottoposte a misure restrittive di polizia veterinaria adottate per contrastare la diffusione di malattie trasmissibili proprie della specie. 
+ 4. Nel caso di condanna o di applicazione della pena su richiesta delle parti ai sensi dell'<ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_444" ns65:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_444" ns65:relation="cites">articolo 444 del codice di procedura penale</ref> per i delitti previsti dai commi 1 e 2 del presente articolo, e' sempre ordinata la confisca dell'animale, salvo che appartenga a persona estranea al reato. E' altresi' disposta la sospensione da tre mesi a tre anni dell'attivita' di trasporto, di commercio o di allevamento degli animali se la sentenza di condanna o di applicazione della pena su richiesta delle parti e' pronunciata nei confronti di chi svolge le predette attivita'. In caso di recidiva e' disposta l'interdizione dall'esercizio delle attivita' medesime. 
+ 5. Gli animali oggetto di provvedimento di sequestro o di confisca sono affidati alle associazioni o agli enti indicati nel decreto del Ministro della salute, adottato ai sensi dell'articolo 19-quater delle disposizioni di coordinamento e transitorie per il <ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns66:target="olf:it/regio-decreto/stato/1930/1398" ns66:relation="amends">codice penale</ref>, di cui al <ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/regio.decreto/stato/1931-05-28/601/!main" ns67:target="olf:it/regio-decreto/stato/1931/601" ns67:relation="cites">regio decreto 28 maggio 1931, n. 601</ref>, che ne fanno richiesta, salvo che vi ostino esigenze processuali. 
+ 6. Gli animali acquisiti dallo Stato a seguito di provvedimento definitivo di confisca sono assegnati, a richiesta, alle associazioni o agli enti ai quali sono stati affidati ai sensi del comma 5. 
+ 7. Le entrate derivanti dall'applicazione delle sanzioni pecuniarie previste dalla presente legge affluiscono all'entrata del bilancio dello Stato per essere riassegnate allo stato di previsione del Ministero della salute e sono destinate alle associazioni o agli enti di cui al comma 5 del presente articolo, con le modalita' di cui all'<ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/legge/stato/2004-07-20/189/!main#art_8" ns68:target="olf:it/legge/stato/2004/189/art_8" ns68:relation="amends">articolo 8 della legge 20 luglio 2004, n. 189</ref>. 
+ Art. 5 (Introduzione illecita di animali da compagnia). - 1. Salvo che il fatto costituisca reato, chiunque introduce nel territorio nazionale animali da compagnia di cui all'allegato I, parte A, del regolamento (CE) n. 998/2003 Reg. (CE) 26/05/2003, n. 998/2003, Allegato I del Parlamento europeo e del Consiglio, del 26 maggio 2003, privi di sistemi per l'identificazione individuale, e' soggetto alla sanzione amministrativa del pagamento di una somma da euro 200 a euro 2.000 per ogni animale introdotto. 
+ 2. Salvo che il fatto costituisca reato, chiunque introduce nel territorio nazionale animali da compagnia di cui all'allegato I, parte A, del regolamento (CE) n. 998/2003 del Parlamento europeo e del Consiglio, del 26 maggio 2003, in violazione dei requisiti previsti dalla legislazione vigente, e' soggetto alla sanzione amministrativa del pagamento di una somma da euro 1.000 a euro 1.500 per ogni animale introdotto. La sanzione non si applica se le violazioni sono regolarizzate nel rispetto di quanto disposto dalla legislazione vigente. 
+ 3. Salvo che il fatto costituisca reato, alla sanzione di cui al comma 2 e' altresi' soggetto chiunque trasporta o cede, a qualunque titolo, animali introdotti nel territorio nazionale in violazione di quanto previsto dai commi 1 e 2. 
+ 4. Si applica la sanzione amministrativa del pagamento di una somma da euro 1.500 a euro 3.000 per ogni animale introdotto se gli animali di cui ai commi 1, 2 e 3 hanno un'eta' accertata inferiore a dodici settimane o se provengono da zone sottoposte a misure restrittive di polizia veterinaria adottate per contrastare la diffusione di malattie trasmissibili proprie della specie. 
+ Art. 6 (Sanzioni amministrative accessorie). - 1. Il trasportatore o il titolare di un'azienda commerciale che, nel periodo di tre anni, commette due violazioni delle disposizioni previste dall'articolo 5, accertate in modo definitivo, e' soggetto alla sospensione dell'autorizzazione per l'esercizio dell'attivita' per un periodo da due a sei mesi. Se il periodo intercorrente tra le due violazioni e' inferiore a tre mesi, e' applicata la durata massima della sospensione. 
+ 2. Il titolare di un'azienda commerciale che, nel periodo di tre anni, commette due violazioni delle disposizioni previste dall'<ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/decretoLegislativo/stato/1993-01-30/28/!main#art_13bis-com3" ns69:target="olf:it/decreto-legislativo/stato/1993/28/art_13bis-com3" ns69:relation="cites">articolo 13-bis, comma 3, del decreto legislativo 30 gennaio 1993, n. 28</ref>, accertate in modo definitivo, e' soggetto alla sospensione dell'autorizzazione per l'esercizio dell'attivita' per un periodo da due a sei mesi. Se il periodo intercorrente tra le due violazioni e' inferiore a tre mesi, e' applicata la durata massima della sospensione. 
+ 3. Il trasportatore che, nel periodo di tre anni, commette tre violazioni delle disposizioni previste dall'articolo 5 della presente legge, o il titolare di un'azienda commerciale che, nel periodo di tre anni, commette tre violazioni delle disposizioni previste dal medesimo articolo 5 della presente legge o dall'<ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/decretoLegislativo/stato/1993-01-30/28/!main#art_13bis-com3" ns70:target="olf:it/decreto-legislativo/stato/1993/28/art_13bis-com3" ns70:relation="cites">articolo 13-bis, comma 3, del decreto legislativo 30 gennaio 1993, n. 28</ref>, accertate in modo definitivo, e' soggetto alla revoca dell'autorizzazione per l'esercizio dell'attivita', senza possibilita' di conseguirla nuovamente. 
+ 4. Il trasportatore o il titolare di un'azienda commerciale nei cui confronti e' stata disposta la revoca dell'autorizzazione, ai sensi del comma 3, non puo' conseguire un'altra autorizzazione per l'esercizio della medesima attivita' prima di dodici mesi. 
+ 5. I soggetti che hanno accertato una violazione che prevede l'applicazione della sospensione o della revoca dell'autorizzazione del trasportatore o del titolare di un'azienda commerciale trasmettono all'autorita' che l'ha rilasciata copia del verbale di contestazione e ogni altro documento utile all'adozione dei provvedimenti di sospensione o di revoca.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_10">
+                <num>Art. 10.</num>
+                <heading> Divieto di detenzione di animali di affezione alla catena</heading>
+                <paragraph eId="art_10__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al proprietario o al detentore, anche temporaneo, di animali di affezione e' fatto divieto di custodirli nel luogo di detenzione e dimora tenendoli legati con la catena o con altro strumento di contenzione similare che ne impedisca il movimento, salvo che cio' sia imposto da documentate ragioni sanitarie o da temporanee esigenze di sicurezza. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_10__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Salvo che il fatto costituisca reato, a chiunque viola il divieto di cui al comma 1 si applica la sanzione amministrativa del pagamento di una somma da 500 euro a 5.000 euro. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_11">
+                <num>Art. 11.</num>
+                <heading> Modifica all'articolo 20 del decreto legislativo 5 agosto 
+ 2022, n. 134, in materia di sanzioni amministrative</heading>
+                <paragraph eId="art_11__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_13">Dopo il <ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/decretoLegislativo/stato/2022-08-05/134/!main#art_20-com1" ns71:target="olf:it/decreto-legislativo/stato/2022/134/art_20-com1" ns71:relation="amends">comma 1 dell'articolo 20 del decreto legislativo 5 agosto 2022, n. 134</ref>, e' inserito il seguente: 
+ «<quotedText eId="modNov_13_new_1">1-bis. Il pagamento della sanzione amministrativa pecuniaria di cui al comma 1 non e' dovuto nelle ipotesi in cui il proprietario, il detentore o l'operatore di un animale da compagnia adempia volontariamente all'obbligo di identificazione previsto all'articolo 16, comma 1, sempreche' la violazione non sia stata gia' constatata</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_8" placement="bottom">
+                                <p> Note all'art. 11: 
+ - Si riporta il testo dell'<ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/decretoLegislativo/stato/2022-08-05/134/!main#art_20" ns72:target="olf:it/decreto-legislativo/stato/2022/134/art_20" ns72:relation="amends">articolo 20 del decreto legislativo 5 agosto 2022, n. 134</ref> recante: «Disposizioni in materia di sistema di identificazione e registrazione degli operatori, degli stabilimenti e degli animali per l'adeguamento della normativa nazionale alle disposizioni del <ref xmlns:ns73="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_73" href="/akn/it/act/regolamento//2016/429/!main" ns73:resolution="unresolved">regolamento (UE) 2016/429</ref>, ai sensi dell'<ref xmlns:ns74="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_74" href="/akn/it/act/legge/stato/2021-04-22/53/!main#art_14-com2-leta" ns74:target="olf:it/legge/stato/2021/53/art_14-com2-leta" ns74:relation="cites">articolo 14, comma 2, lettere a)</ref>, <ref xmlns:ns75="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_75" href="/akn/it/act/legge/stato/2021-04-22/53/!main#art_14-com2-letb" ns75:target="olf:it/legge/stato/2021/53/art_14-com2-letb" ns75:relation="cites">b)</ref>, <ref xmlns:ns76="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_76" href="/akn/it/act/legge/stato/2021-04-22/53/!main#art_14-com2-letg" ns76:target="olf:it/legge/stato/2021/53/art_14-com2-letg" ns76:relation="cites">g)</ref>, <ref xmlns:ns77="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_77" href="/akn/it/act/legge/stato/2021-04-22/53/!main#art_14-com2-leth" ns77:target="olf:it/legge/stato/2021/53/art_14-com2-leth" ns77:relation="cites">h)</ref>, <ref xmlns:ns78="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_78" href="/akn/it/act/legge/stato/2021-04-22/53/!main#art_14-com2-leti" ns78:target="olf:it/legge/stato/2021/53/art_14-com2-leti" ns78:relation="cites">i)</ref> e <ref xmlns:ns79="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_79" href="/akn/it/act/legge/stato/2021-04-22/53/!main#art_14-com2-letp" ns79:target="olf:it/legge/stato/2021/53/art_14-com2-letp" ns79:relation="cites">p), della legge 22 aprile 2021, n. 53</ref>», pubblicato nella Gazzetta Ufficiale n. 213 del 12 settembre 2022, come modificato dalla presente legge: 
+ «Art. 20 (Sanzioni amministrative pecuniarie per le violazioni all'articolo 16). - 1. Salvo che il fatto costituisca reato, il proprietario, il detentore o l'operatore di un animale da compagnia che non adempie agli obblighi previsti all'articolo 16, comma 1, e' soggetto al pagamento della sanzione amministrativa pecuniaria da 150 euro a 900 euro per ciascun animale cui l'inadempimento si riferisce. Nel caso in cui non vengano comunicate le variazioni delle suddette informazioni ai fini del loro aggiornamento e salvo che il fatto costituisca reato, il proprietario, il detentore o l'operatore di un animale da compagnia e' soggetto al pagamento della sanzione amministrativa pecuniaria da 50 euro a 500 euro per ciascun animale cui l'inadempimento si riferisce. 
+ 1-bis. Il pagamento della sanzione amministrativa pecuniaria di cui al comma 1 non e' dovuto nelle ipotesi in cui il proprietario, il detentore o l'operatore di un animale da compagnia adempia volontariamente all'obbligo di identificazione previsto all'articolo 16, comma 1, sempreche' la violazione non sia stata gia' constatata. 
+ 2. Salvo che il fatto costituisca reato, l'operatore delle attivita' di cui all'articolo 2, comma 3, che non adempie agli obblighi di competenza previsti dal presente decreto e suo manuale operativo ed alle disposizioni di cui all'articolo 16, comma 3, e' soggetto al pagamento della sanzione amministrativa pecuniaria da 150 euro a 900 euro, per ciascuna irregolarita'.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_12">
+                <num>Art. 12.</num>
+                <heading> Disposizioni in materia di funzioni di polizia giudiziaria 
+ per i reati contro gli animali</heading>
+                <paragraph eId="art_12__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_14">All'<ref xmlns:ns80="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_80" href="/akn/it/act/legge/stato/2004-07-20/189/!main#art_6-com1" ns80:target="olf:it/legge/stato/2004/189/art_6-com1" ns80:relation="amends">articolo 6, comma 1, della legge 20 luglio 2004, n. 189</ref>, dopo la parola: «sentiti» sono inserite le seguenti: «<quotedText eId="modNov_14_new_1">il Ministro dell'ambiente e della sicurezza energetica,</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_9" placement="bottom">
+                                <p> Note all'art. 12: 
+ - Si riporta il testo dell'<ref xmlns:ns81="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_81" href="/akn/it/act/legge/stato/2004-07-20/189/!main#art_6" ns81:target="olf:it/legge/stato/2004/189/art_6" ns81:relation="amends">articolo 6 della legge 20 luglio 2004, n. 189</ref> recante: «Disposizioni concernenti il divieto di maltrattamento degli animali, nonche' di impiego degli stessi in combattimenti clandestini o competizioni non autorizzate», pubblicato nella Gazzetta Ufficiale n. 178 del 31 luglio 2004, come modificato dalla presente legge: 
+ «Art. 6 (Vigilanza). - 1. Al fine di prevenire e contrastare i reati previsti dalla presente legge, con decreto del Ministro dell'interno, sentiti il Ministro dell'ambiente e della sicurezza energetica, il Ministro delle politiche agricole e forestali e il Ministro della salute, adottato entro tre mesi dalla data di entrata in vigore della presente legge, sono stabilite le modalita' di coordinamento dell'attivita' della Polizia di Stato, dell'Arma dei carabinieri, del Corpo della guardia di finanza, del Corpo forestale dello Stato e dei Corpi di polizia municipale e provinciale. 
+ 2. La vigilanza sul rispetto della presente legge e delle altre norme relative alla protezione degli animali e' affidata anche, con riguardo agli animali di affezione, nei limiti dei compiti attribuiti dai rispettivi decreti prefettizi di nomina, ai sensi degli <ref xmlns:ns82="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_82" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_55" ns82:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_55" ns82:relation="cites">articoli 55</ref> e <ref xmlns:ns83="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_83" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_57" ns83:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_57" ns83:relation="cites">57 del codice di procedura penale</ref>, alle guardie particolari giurate delle associazioni protezionistiche e zoofile riconosciute. 
+ 3. Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri per lo Stato e gli enti locali.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_13">
+                <num>Art. 13.</num>
+                <heading> Modifiche agli articoli 727-bis e 733-bis 
+ del codice penale</heading>
+                <paragraph eId="art_13__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns84="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_84" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_727bis-com1" ns84:target="olf:it/regio-decreto/stato/1930/1398/art_727bis-com1" ns84:relation="amends">articolo 727-bis, primo comma, del codice penale</ref>, le parole: «da uno a sei mesi o con l'ammenda fino a 4.000 euro» sono sostituite dalle seguenti: «da tre mesi a un anno e con l'ammenda fino a 8.000 euro». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_13__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns85="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_85" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_733bis" ns85:target="olf:it/regio-decreto/stato/1930/1398/art_733bis" ns85:relation="amends">articolo 733-bis del codice penale</ref>, le parole: «fino a diciotto mesi e con l'ammenda non inferiore a 3.000 euro» sono sostituite dalle seguenti: «da tre mesi a due anni e con l'ammenda non inferiore a 6.000 euro». 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_10" placement="bottom">
+                                <p> Note all'art. 13: 
+ - Si riporta il testo degli <ref xmlns:ns86="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_86" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_727bis" ns86:target="olf:it/regio-decreto/stato/1930/1398/art_727bis" ns86:relation="amends">articoli 727-bis</ref> e <ref xmlns:ns87="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_87" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_733bis" ns87:target="olf:it/regio-decreto/stato/1930/1398/art_733bis" ns87:relation="amends">733-bis del codice penale</ref>, come modificato dalla presente legge: 
+ «Art. 727-bis (Uccisione, distruzione, cattura, prelievo, detenzione e commercio di esemplari di specie animali o vegetali selvatiche protette). - Salvo che il fatto costituisca piu' grave reato, chiunque, fuori dai casi consentiti, uccide, cattura o detiene esemplari appartenenti ad una specie animale selvatica protetta e' punito con l'arresto da tre mesi a un anno e con l'ammenda fino a 8.000 euro, salvo i casi in cui l'azione riguardi una quantita' trascurabile di tali esemplari e abbia un impatto trascurabile sullo stato di conservazione della specie. 
+ Chiunque, fuori dai casi consentiti, distrugge, preleva o detiene esemplari appartenenti ad una specie vegetale selvatica protetta e' punito con l'ammenda fino a 4.000 euro, salvo i casi in cui l'azione riguardi una quantita' trascurabile di tali esemplari e abbia un impatto trascurabile sullo stato di conservazione della specie. 
+ Salvo che il fatto costituisca piu' grave reato, chiunque, fuori dai casi consentiti, viola i divieti di commercializzazione di cui all'<ref xmlns:ns88="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_88" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1997-09-08/357/!main#art_8-com2" ns88:target="olf:it/dpr/stato/1997/357/art_8-com2" ns88:relation="cites">articolo 8, comma 2, del decreto del Presidente della Repubblica 8 settembre 1997, n. 357</ref>, e' punito con l'arresto da due a otto mesi e con l'ammenda fino a 10.000 euro 3.». 
+ «Art. 733-bis (Distruzione o deterioramento di habitat all'interno di un sito protetto). - Chiunque, fuori dai casi consentiti, distrugge un habitat all'interno di un sito protetto o comunque lo deteriora compromettendone lo stato di conservazione, e' punito con l'arresto da tre mesi a due anni e con l'ammenda non inferiore a 6000 euro.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_14">
+                <num>Art. 14.</num>
+                <heading> Modifica all'articolo 2 
+ della legge 20 luglio 2004, n. 189</heading>
+                <paragraph eId="art_14__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_15">All'<ref xmlns:ns89="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_89" href="/akn/it/act/legge/stato/2004-07-20/189/!main#art_2-com1" ns89:target="olf:it/legge/stato/2004/189/art_2-com1" ns89:relation="amends">articolo 2, comma 1, della legge 20 luglio 2004, n. 189</ref>, dopo le parole: «felis silvestris» sono inserite le seguenti: «<quotedText eId="modNov_15_new_1">e felis catus</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_11" placement="bottom">
+                                <p> Note all'art. 14: 
+ - Si riporta il testo dell'articolo 2 della citata <ref xmlns:ns90="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_90" href="/akn/it/act/legge/stato/2004-07-20/189/!main" ns90:target="olf:it/legge/stato/2004/189" ns90:relation="amends">legge 20 luglio 2004, n. 189</ref>, come modificato dalla presente legge: 
+ «Art. 2 (Divieto di utilizzo a fini commerciali di pelli e pellicce e disposizioni sanzionatorie sul commercio dei prodotti derivati dalla foca). - 1. E' vietato utilizzare cani (Canis lupus familiaris) e gatti (felis silvestris e felis catus) per la produzione o il confezionamento di pelli, pellicce, capi di abbigliamento e articoli di pelletteria costituiti od ottenuti, in tutto o in parte, dalle pelli o dalle pellicce dei medesimi, nonche' commercializzare, esportare o introdurre le stesse nel territorio nazionale. 
+ 2. La violazione delle disposizioni di cui al comma 1 e' punita con l'arresto da tre mesi ad un anno o con l'ammenda da 5.000 a 100.000 euro. 
+ 2-bis. Chiunque produce, commercializza, esporta o introduce nel territorio nazionale qualunque prodotto derivato dalla foca, in violazione dell'articolo 3 del regolamento (CE) n. 1007/2009 del Parlamento europeo e del Consiglio, del 16 settembre 2009, e' punito con l'arresto da tre mesi a un anno o con l'ammenda da 5.000 a 100.000 euro. 
+ 3. Alla condanna, o all'applicazione della pena su richiesta delle parti a norma dell'<ref xmlns:ns91="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_91" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_444" ns91:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_444" ns91:relation="cites">articolo 444 del codice di procedura penale</ref>, o all'applicazione della pena su richiesta delle parti a norma dell'<ref xmlns:ns92="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_92" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_444" ns92:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_444" ns92:relation="cites">articolo 444 del codice di procedura penale</ref> consegue in ogni caso la confisca e la distruzione del materiale di cui ai commi 1 e 2-bis. 
+ 3-bis. In caso di condanna o di applicazione della pena su richiesta delle parti a norma dell'<ref xmlns:ns93="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_93" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_444" ns93:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_444" ns93:relation="cites">articolo 444 del codice di procedura penale</ref> per i reati previsti dai commi 1 e 2-bis, il giudice con la sentenza o con il decreto penale di condanna applica la sanzione amministrativa accessoria della sospensione della licenza per un periodo da tre mesi ad un anno, e, in caso di reiterazione della violazione, la sanzione amministrativa accessoria del ritiro della stessa. 
+ 3-ter. Al fine dell'esecuzione delle sanzioni amministrative accessorie, la sentenza o il decreto penale di condanna divenuti irrevocabili sono trasmessi senza ritardo, a cura del cancelliere, all'autorita' amministrativa competente per l'adozione dei conseguenti provvedimenti.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_15">
+                <num>Art. 15.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_15__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni competenti provvedono alle attivita' ivi previste nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 6 giugno 2025 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
