@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-09/220/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-09/220"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-09;220"/>
+                    <FRBRalias name="eli" value="eli/id/2021/12/22/21G00243/CONSOLIDATED/20220820"/>
+                    <FRBRdate date="2021-12-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/22/21G00243/CONSOLIDATED/20220820" aknrelname="eli/id/2021/12/22/21G00243/CONSOLIDATED/20220820">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Misure per contrastare il finanziamento delle imprese produttrici di mine antipersona, di munizioni e submunizioni a grappolo. (21G00243) " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00243" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-12-09" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-09/220/ita@2022-08-20/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-09/220/ita@2022-08-20"/>
+                    <FRBRdate date="2022-08-20" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/22/21G00243/CONSOLIDATED/20220820/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/12/22/21G00243/CONSOLIDATED/20220820"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/12/22/21G00243/CONSOLIDATED/20220820/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-09/220/ita@2022-08-20/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-09/220/ita@2022-08-20.xml"/>
+                    <FRBRdate date="2021-12-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/12/22/21G00243/CONSOLIDATED/20220820/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-12-22" name="" number="303" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-12-22" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2022-06-21" eId="eventRef_1" source="rp1"/>
+                <eventRef date="2022-08-19" eId="eventRef_2" source="rp2"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2021-12-09" refersTo="#S.1"/>
+                <step by="#camera" date="2021-12-09" refersTo="#C.1813"/>
+            </workflow>
+            <analysis source="">
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((a) 'intermediari abilitati': le societa' di intermediazione mobiliare (SIM) italiane, le banche italiane, i gestori italiani, gli istituti di moneta elettronica italiani, gli istituti di pagamento italiani, i soggetti iscritti nell'elenco di cui all'articolo 111 del testo unico di cui al decreto legislativo 1° settembre 1993, n. 385, gli intermediari finanziari iscritti nell'albo di cui all'articolo 106 del medesimo testo unico, ivi compresi i confidi, la societa' Poste italiane S.p.A. per l'attivita' di bancoposta, la societa' Cassa depositi e prestiti S.p.A., le succursali insediate in. Italia di SIM, gestori, banche, istituti di moneta elettronica e istituti di pagamento aventi sede legale in un altro Paese dell'Unione europea o in un Paese terzo, le imprese di assicurazione, le imprese di riassicurazione e le sedi secondarie insediate in Italia delle imprese di assicurazione e delle imprese di riassicurazione aventi sede legale e amministrazione centrale in un altro Paese dell'Unione europea o in un Paese terzo, gli agenti di cambio, le fondazioni di origine bancaria e i fondi pensione))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_1" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_2"/>
+                        <new>
+                            <nakn:text>((Entro il 31 dicembre 2022, gli organismi))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_2" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_3"/>
+                        <new>
+                            <nakn:text>((PERIODO SOPPRESSO DAL D.L. 21 GIUGNO 2022, N. 73, CONVERTITO CON MODIFICAZIONI DALLA L. 4 AGOSTO 2022, N. 122))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_3" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_4"/>
+                        <new>
+                            <nakn:text>(( (Compiti degli intermediari). ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_4" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_5"/>
+                        <new>
+                            <nakn:text>((1. Per assicurare il rispetto del divieto di finanziamento delle societa' di cui all'articolo 1, comma 1, gli intermediari abilitati adottano, entro il 31 dicembre 2022, idonei presidi procedurali e consultano almeno gli elenchi pubblicamente disponibili di societa' che producono mine antipersona e munizioni e submunizioni a grappolo))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_5" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_6"/>
+                        <new>
+                            <nakn:text>((e delle istruzioni emanate ai sensi dell'articolo 3, comma 1, gli organismi di vigilanza, secondo le rispettive competenze, possono))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_6" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_7"/>
+                        <new>
+                            <nakn:text>((possono effettuare ispezioni))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_7" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_8"/>
+                        <new>
+                            <nakn:text>(( (Sanzioni). ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_8" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_9"/>
+                        <new>
+                            <nakn:text>((1. Agli intermediari abilitati i quali non osservino i divieti di cui all'articolo 1 e le istruzioni emanate ai sensi dell'articolo 3, comma 1, si applica la sanzione amministrativa pecuniaria da euro 150.000 a euro 1.500.000, per i casi di cui all'articolo 5 del decreto legislativo 8 giugno 2001, n. 231. 
+ 2. Salvo che il fatto costituisca reato, ai soggetti che svolgono funzioni di amministrazione, direzione e controllo degli intermediari abilitati i quali non osservino i divieti di cui all'articolo 1 e le istruzioni emanate ai sensi dell'articolo 3, comma 1, si applica la sanzione amministrativa pecuniaria da euro 50.000 a euro 250.000. 
+ 3. L'applicazione delle sanzioni amministrative pecuniarie previste dal presente articolo comporta la cessazione temporanea dei requisiti di onorabilita' necessari a svolgere funzioni di amministrazione, direzione e controllo presso gli intermediari abilitati, per un periodo non inferiore a due mesi e non superiore a tre anni, nonche', per i revisori e i promotori finanziari e per i rappresentanti legali di societa' quotate, l'incapacita' temporanea di assumere incarichi di amministrazione, direzione e controllo nell'ambito di societa' quotate e di societa' appartenenti al medesimo gruppo di societa'. 
+ 4. All'applicazione delle sanzioni di cui al presente articolo provvedono gli organismi di vigilanza in relazione agli intermediari abilitati da essi vigilati, secondo le rispettive procedure sanzionatorie. Le sanzioni di competenza della Banca d'Italia sono irrogate secondo la procedura sanzionatoria di cui all'articolo 145 del testo unico di cui al decreto legislativo 1° settembre 1993, n. 385))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-12-09/220/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/DECRETO-LEGGE/stato/2022-06-21/73/!main" showAs=""/>
+                <passiveRef eId="rp2" href="/akn/it/act/LEGGE/stato/2022-08-04/122/!main" showAs=""/>
+                <passiveRef eId="S.1" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;1" showAs=""/>
+                <passiveRef eId="C.1813" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;1813" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/12/22/21G00243/CONSOLIDATED/20220820">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Misure per contrastare il finanziamento delle imprese produttrici di mine antipersona, di munizioni e submunizioni a grappolo. (21G00243) </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00243</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-12-09</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/12/22/21G00243/CONSOLIDATED/20220820/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/12/22/21G00243/CONSOLIDATED/20220820"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/12/22/21G00243/CONSOLIDATED/20220820/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/12/22/21G00243/CONSOLIDATED/20220820/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/220" nativeUrn="urn:nir:stato:legge:2021-12-09;220" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-12-22"><ns0:event type="enacted" date="2021-12-09"/><ns0:event type="published" date="2021-12-22"/><ns0:event type="commenced" date="2021-12-22"/><ns0:event type="amended" date="2022-06-21"/><ns0:event type="amended" date="2022-08-19"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/6e960a93-eaca-4f95-9700-8201c7006d60" sourceSha256="aeff80aa7cebdccf1cc6850d06b9ea68269edb257b18ab85bfb12042dbd60943" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T23:30:34.897543Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-12-09">09 dicembre 2021</docDate>
+                <docNumber>220</docNumber>
+                <docTitle>Misure per contrastare il finanziamento delle imprese produttrici di mine antipersona, di munizioni e submunizioni a grappolo. (21G00243) </docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 23/12/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Finalita' 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge introduce il divieto totale al finanziamento di societa' in qualsiasi forma giuridica costituite, aventi sede in Italia o all'estero, che, direttamente o tramite societa' controllate o collegate, ai sensi dell'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2359" ns1:target="olf:it/codice-civile/stato/1942/262/art_2359" ns1:relation="cites">articolo 2359 del codice civile</ref>, svolgano attivita' di costruzione, produzione, sviluppo, assemblaggio, riparazione, conservazione, impiego, utilizzo, immagazzinaggio, stoccaggio, detenzione, promozione, vendita, distribuzione, importazione, esportazione, trasferimento o trasporto delle mine antipersona, delle munizioni e submunizioni cluster, di qualunque natura o composizione, o di parti di esse. E' altresi' fatto divieto di svolgere ricerca tecnologica, fabbricazione, vendita e cessione, a qualsiasi titolo, esportazione, importazione e detenzione di munizioni e submunizioni cluster, di qualunque natura o composizione, o di parti di esse. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le disposizioni del comma 1 non si applicano alle attivita' espressamente consentite dalla Convenzione sul divieto d'impiego, di stoccaggio, di produzione e di trasferimento delle mine antipersona e sulla loro distruzione, firmata a Ottawa il 3 dicembre 1997, ratificata e resa esecutiva ai sensi della <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/legge/stato/1999-03-26/106/!main" ns2:target="olf:it/legge/stato/1999/106" ns2:relation="cites">legge 26 marzo 1999, n. 106</ref>, e dalla Convenzione di Oslo sulla messa al bando delle munizioni a grappolo, fatta a Dublino il 30 maggio 2008, ratificata e resa esecutiva ai sensi della <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2011-06-14/95/!main" ns3:target="olf:it/legge/stato/2011/95" ns3:relation="cites">legge 14 giugno 2011, n. 95</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Alle societa' di cui al comma 1 e' preclusa la partecipazione ad ogni bando o programma di finanziamento pubblico. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>I divieti di cui al comma 1 valgono per tutti gli intermediari abilitati come definiti dall'articolo 2, comma 1, lettera a). E' altresi' fatto divieto alle fondazioni e ai fondi pensione di investire il proprio patrimonio nelle attivita' di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns4:target="olf:it/dpr/stato/1985/1092" ns4:relation="cites">D.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Il testo dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main#art_2359" ns5:target="olf:it/codice-civile/stato/1942/262/art_2359" ns5:relation="cites">art. 2359 del codice civile</ref>, e' il seguente: 
+ «Art. 2359 (Societa' controllate e societa' collegate).
+ - Sono considerate societa' controllate: 
+ 1) le societa' in cui un'altra societa' dispone della maggioranza dei voti esercitabili nell'assemblea ordinaria; 
+ 2) le societa' in cui un'altra societa' dispone di voti sufficienti per esercitare un'influenza dominante nell'assemblea ordinaria; 
+ 3) le societa' che sono sotto influenza dominante di un'altra societa' in virtu' di particolari vincoli contrattuali con essa. 
+ Ai fini dell'applicazione dei numeri 1) e 2) del primo comma si computano anche i voti spettanti a societa' controllate, a societa' fiduciarie e a persona interposta: non si computano i voti spettanti per conto di terzi. 
+ Sono considerate collegate le societa' sulle quali un'altra societa' esercita un'influenza notevole.
+ L'influenza si presume quando nell'assemblea ordinaria puo' essere esercitato almeno un quinto dei voti ovvero un decimo se la societa' ha azioni quotate in mercati regolamentati.». 
+ - La <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/1999-03-26/106/!main" ns6:target="olf:it/legge/stato/1999/106" ns6:relation="cites">legge 26 marzo 1999, n. 106</ref>, reca: «Ratifica ed esecuzione della convenzione sul divieto d'impiego, di stoccaggio, di produzione e di trasferimento delle mine antipersona e sulla loro distruzione, firmata ad Ottawa il 3 dicembre 1997. Modifiche alla <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/1997-10-29/374/!main" ns7:target="olf:it/legge/stato/1997/374" ns7:relation="cites">legge 29 ottobre 1997, n. 374</ref>, riguardante la disciplina della messa al bando delle mine antipersona» ed e' stata pubblicata sul Supplemento ordinario alla Gazzetta Ufficiale n. 94 del 23 aprile 1999. 
+ - La <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2011-06-14/95/!main" ns8:target="olf:it/legge/stato/2011/95" ns8:relation="cites">legge 14 giugno 2011, n. 95</ref>, reca: «Ratifica ed esecuzione della Convenzione di Oslo sulla messa al bando delle munizioni a grappolo, fatta a Dublino il 30 maggio 2008, nonche' norme di adeguamento dell'ordinamento interno», ed e' stata pubblicata nella Gazzetta Ufficiale n. 153 del 4 luglio 2011. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Definizioni</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Ai fini della presente legge si intende per: 
+ <ins eId="ins_1">((a) 'intermediari abilitati': le societa' di intermediazione mobiliare (SIM) italiane, le banche italiane, i gestori italiani, gli istituti di moneta elettronica italiani, gli istituti di pagamento italiani, i soggetti iscritti nell'elenco di cui all'articolo 111 del testo unico di cui al decreto legislativo 1° settembre 1993, n. 385, gli intermediari finanziari iscritti nell'albo di cui all'articolo 106 del medesimo testo unico, ivi compresi i confidi, la societa' Poste italiane S.p.A. per l'attivita' di bancoposta, la societa' Cassa depositi e prestiti S.p.A., le succursali insediate in. Italia di SIM, gestori, banche, istituti di moneta elettronica e istituti di pagamento aventi sede legale in un altro Paese dell'Unione europea o in un Paese terzo, le imprese di assicurazione, le imprese di riassicurazione e le sedi secondarie insediate in Italia delle imprese di assicurazione e delle imprese di riassicurazione aventi sede legale e amministrazione centrale in un altro Paese dell'Unione europea o in un Paese terzo, gli agenti di cambio, le fondazioni di origine bancaria e i fondi pensione))</ins>; 
+ b) «finanziamento»: ogni forma di supporto finanziario effettuato anche attraverso societa' controllate, aventi sede in Italia o all'estero, tra cui, a titolo esemplificativo e non esaustivo, la concessione di credito sotto qualsiasi forma, il rilascio di garanzie finanziarie, l'assunzione di partecipazioni, l'acquisto o la sottoscrizione di strumenti finanziari emessi dalle societa' di cui al presente articolo; 
+ c) «mina antipersona»: ai sensi dell'articolo 2, commi 1 e 2, della Convenzione sul divieto d'impiego, di stoccaggio, di produzione e di trasferimento delle mine antipersona e sulla loro distruzione, firmata a Ottawa il 3 dicembre 1997, di cui alla <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/1999-03-26/106/!main" ns9:target="olf:it/legge/stato/1999/106" ns9:relation="cites">legge 26 marzo 1999, n. 106</ref>, una mina progettata in modo tale da esplodere a causa della presenza, prossimita' o contatto di una persona e tale da incapacitare, ferire o uccidere una o piu' persone. Le mine progettate per essere detonate dalla presenza, prossimita' o contatto di un veicolo, invece che di una persona, e dotate di dispositivi di anti manipolazione, non sono considerate mine antipersona per il solo fatto di essere cosi' congegnate; 
+ d) «mina»: una munizione progettata per essere posta sotto, sopra o presso il terreno o qualsiasi altra superficie, e per essere fatta esplodere dalla presenza, prossimita' o contatto di una persona o veicolo; 
+ e) «munizioni e submunizioni cluster»: ai sensi dell'articolo 2 della Convenzione di Oslo sulla messa al bando delle munizioni a grappolo, fatta a Dublino il 30 maggio 2008, di cui alla <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2011-06-14/95/!main" ns10:target="olf:it/legge/stato/2011/95" ns10:relation="cites">legge 14 giugno 2011, n. 95</ref>, ogni munizione convenzionale idonea a disperdere o rilasciare submunizioni esplosive ciascuna di peso inferiore a 20 chilogrammi, fatte salve le specifiche di esclusione indicate dalle lettere a), b) e c) del comma 2 del medesimo articolo 2 della Convenzione; 
+ f) «organismi di vigilanza»: la Banca d'Italia, l'Istituto per la vigilanza sulle assicurazioni (IVASS), la Commissione di vigilanza sui fondi pensione (Covip) e gli eventuali altri soggetti cui sia attribuita in forza della normativa vigente la vigilanza sull'operato degli intermediari abilitati di cui alla lettera a). 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Compiti degli organismi di vigilanza</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_2">((Entro il 31 dicembre 2022, gli organismi))</ins> di vigilanza emanano, di concerto tra loro, apposite istruzioni per l'esercizio di controlli rafforzati sull'operato degli intermediari abilitati onde contrastare il finanziamento della produzione, utilizzo, assemblaggio, riparazione, promozione, vendita, distribuzione, importazione, esportazione, stoccaggio, detenzione o trasporto delle mine antipersona, delle munizioni e submunizioni cluster e di loro singoli componenti. <ins eId="ins_3">((PERIODO SOPPRESSO DAL D.L. 21 GIUGNO 2022, N. 73, CONVERTITO CON MODIFICAZIONI DALLA L. 4 AGOSTO 2022, N. 122))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Nell'ambito dei compiti riguardanti l'Unita' di informazione finanziaria per l'Italia (UIF), istituita presso la Banca d'Italia dal <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2007-11-21/231/!main" ns11:target="olf:it/decreto-legislativo/stato/2007/231" ns11:relation="cites">decreto legislativo 21 novembre 2007, n. 231</ref>, i controlli dei flussi finanziari sono estesi alle imprese e alle societa' di cui all'articolo 1, comma 1. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading>
+                    <ins eId="ins_4">(( (Compiti degli intermediari). ))</ins>
+                </heading>
+                <paragraph>
+                    <content/>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Verifiche</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di verificare il rispetto dei divieti di cui all'articolo 1 <ins eId="ins_6">((e delle istruzioni emanate ai sensi dell'articolo 3, comma 1, gli organismi di vigilanza, secondo le rispettive competenze, possono))</ins> richiedere dati, notizie, atti e documenti agli intermediari abilitati di cui all'articolo 2, comma 1, lettera a), e, se necessario, <ins eId="ins_7">((possono effettuare ispezioni))</ins> presso la sede degli stessi. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Gli organismi di vigilanza provvedono, nell'ambito delle ispezioni e dei controlli a carico dei soggetti vigilati, anche a controlli specifici di valutazione dell'attivita' connessa alla funzione di compliance in relazione ai divieti di cui alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading>
+                    <ins eId="ins_8">(( (Sanzioni). ))</ins>
+                </heading>
+                <paragraph>
+                    <content>
+                        <p>((</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Agli intermediari abilitati i quali non osservino i divieti di cui all'articolo 1 e le istruzioni emanate ai sensi dell'articolo 3, comma 1, si applica la sanzione amministrativa pecuniaria da euro 150.000 a euro 1.500.000, per i casi di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2001-06-08/231/!main#art_5" ns12:target="olf:it/decreto-legislativo/stato/2001/231/art_5" ns12:relation="cites">articolo 5 del decreto legislativo 8 giugno 2001, n. 231</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Salvo che il fatto costituisca reato, ai soggetti che svolgono funzioni di amministrazione, direzione e controllo degli intermediari abilitati i quali non osservino i divieti di cui all'articolo 1 e le istruzioni emanate ai sensi dell'articolo 3, comma 1, si applica la sanzione amministrativa pecuniaria da euro 50.000 a euro 250.000. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>L'applicazione delle sanzioni amministrative pecuniarie previste dal presente articolo comporta la cessazione temporanea dei requisiti di onorabilita' necessari a svolgere funzioni di amministrazione, direzione e controllo presso gli intermediari abilitati, per un periodo non inferiore a due mesi e non superiore a tre anni, nonche', per i revisori e i promotori finanziari e per i rappresentanti legali di societa' quotate, l'incapacita' temporanea di assumere incarichi di amministrazione, direzione e controllo nell'ambito di societa' quotate e di societa' appartenenti al medesimo gruppo di societa'. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p> 4. All'applicazione delle sanzioni di cui al presente articolo provvedono gli organismi di vigilanza in relazione agli intermediari abilitati da essi vigilati, secondo le rispettive procedure sanzionatorie. Le sanzioni di competenza della Banca d'Italia sono irrogate secondo la procedura sanzionatoria di cui all'articolo 145 del testo unico di cui al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns13:target="olf:it/decreto-legislativo/stato/1993/385" ns13:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>))</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 9 dicembre 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
