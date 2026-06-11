@@ -1,0 +1,1847 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                    <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                    <FRBRdate date="2021-12-29" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/01/20/22G00005/ORIGINAL" aknrelname="eli/id/2022/01/20/22G00005/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Norme per la regolazione dei rapporti tra lo Stato e l'Associazione «Chiesa d'Inghilterra», in attuazione dell'articolo 8, terzo comma, della Costituzione. (22G00005)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00005" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-12-29" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                    <FRBRdate date="2022-02-04" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/01/20/22G00005/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/01/20/22G00005/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/01/20/22G00005/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                    <FRBRdate date="2021-12-29" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/01/20/22G00005/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-01-20" name="" number="15" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-01-20" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2021-12-29" refersTo="#S.2060"/>
+                <step by="#camera" date="2021-12-29" refersTo="#C.3319"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-29;240#19"/>
+                        <destination href="urn:nir:stato:legge:1929-06-24;1159"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 19, comma 1) che &amp;quot;Con l'entrata in vigore della presente legge, le disposizioni
+della legge 24 giugno 1929, n. 1159, e del regio decreto 28 febbraio 1930, n. 289, non trovano piu' applicazione nei confronti dell'Associazione «Chiesa d'Inghilterra» e degli enti confessionali
+che ne fanno parte&amp;quot;.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-12-29;240#19"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-02-28;289"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 19, comma 1) che &amp;quot;Con l'entrata in vigore della presente legge, le disposizioni della legge 24 giugno 1929, n. 1159, e del regio decreto 28 febbraio 1930, n. 289, non trovano piu' applicazione nei confronti dell'Associazione «Chiesa d'Inghilterra» e degli enti confessionali che ne fanno parte&amp;quot;.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-12-29/240/!main" showAs=""/>
+                <passiveRef eId="S.2060" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2060" showAs=""/>
+                <passiveRef eId="C.3319" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3319" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/01/20/22G00005/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Norme per la regolazione dei rapporti tra lo Stato e l'Associazione «Chiesa d'Inghilterra», in attuazione dell'articolo 8, terzo comma, della Costituzione. (22G00005)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00005</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-12-29</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/01/20/22G00005/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/01/20/22G00005/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/01/20/22G00005/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/01/20/22G00005/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/240" nativeUrn="urn:nir:stato:legge:2021-12-29;240" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-01-20"><ns0:event type="enacted" date="2021-12-29"/><ns0:event type="published" date="2022-01-20"/><ns0:event type="commenced" date="2022-01-20"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/17902fbd-9e7c-4bc6-88e6-ac31ca2ad1bd" sourceSha256="c2a87dceb8a707480ed1130d6d341baa1bb5a45c48a9933425823412dea30f68" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T23:27:35.400049Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-12-29">29 dicembre 2021</docDate>
+                <docNumber>240</docNumber>
+                <docTitle>Norme per la regolazione dei rapporti tra lo Stato e l'Associazione «Chiesa d'Inghilterra», in attuazione dell'articolo 8, terzo comma, della Costituzione. (22G00005) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 04/02/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Rapporti tra lo Stato e l'Associazione 
+ «Chiesa d'Inghilterra» 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>I rapporti tra lo Stato e l'Associazione « Chiesa d'Inghilterra » sono regolati dalle disposizioni della presente legge, sulla base dell'allegata intesa stipulata il 30 luglio 2019. </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia ai sensi dell'articolo 10, comma 3 del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns1:target="olf:it/dpr/stato/1985/1092" ns1:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ Nota al titolo: 
+ - Si riporta il testo dell'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_8-com3" ns2:target="olf:it/costituzione/stato/1947/const/art_8-com3" ns2:relation="cites">articolo 8, terzo comma, della Costituzione</ref>: 
+ «1. -2- Omissis. 
+ I loro rapporti con lo Stato sono regolati per legge sulla base di intese con le relative rappresentanze.». 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Autonomia e liberta' confessionale 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Repubblica, in conformita' ai principi della Costituzione, riconosce che le nomine dei ministri di culto effettuate secondo lo statuto dell'Associazione « Chiesa d'Inghilterra » (presbiteri, cappellani e diaconi), l'esercizio del culto, l'organizzazione ecclesiastica e gli atti in materia spirituale e disciplinare si svolgono senza alcuna ingerenza statale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>E' garantita ai singoli fedeli e alle organizzazioni e associazioni in Italia appartenenti all'Associazione « Chiesa d'Inghilterra » piena liberta' di professione e pratica religiosa, di propaganda e di esercizio del culto in pubblico e in privato, nonche' di riunione e di manifestazione del pensiero con la parola, lo scritto e ogni altro mezzo di diffusione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Le affissioni e la distribuzione di pubblicazioni e stampati relativi alla vita confessionale dell'Associazione « Chiesa d'Inghilterra », effettuate all'interno ed all'ingresso dei luoghi di culto, nonche' le collette ai fini ecclesiastici, avvengono senza autorizzazione ne' altra ingerenza da parte degli organi dello Stato. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Ministri di culto</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>I ministri di culto, liberamente nominati in base allo statuto dell'Associazione « Chiesa d'Inghilterra », compresi in un elenco comunicato al Ministero dell'interno, godono del libero esercizio del loro ministero. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Essi non sono tenuti a dare ai magistrati o ad altre autorita' informazioni su persone o materie di cui siano venuti a conoscenza per ragione del loro ministero. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Nel caso di ripristino del servizio obbligatorio di leva, i ministri di culto hanno diritto, su loro richiesta, ad essere esonerati dal servizio militare o, nel rispetto delle norme sull'obiezione di coscienza, a essere assegnati al servizio civile. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Ai fini dell'applicazione del presente articolo e degli articoli 4 e 18 della presente legge il rappresentante legale dell'Associazione « Chiesa d'Inghilterra » rilascia apposita certificazione della qualifica dei ministri di culto. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Ai soli fini dell'applicazione dell'articolo 4 della presente legge il rappresentante legale dell'Associazione « Chiesa d'Inghilterra » rilascia apposita certificazione della qualifica dei religiosi. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Assistenza spirituale</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>L'appartenenza alle Forze armate, alle Forze di polizia o ad altri servizi assimilati, la degenza in strutture sanitarie, socio-sanitarie e sociali, la permanenza negli istituti penitenziari non possono dar luogo ad alcun impedimento in ordine alla fruizione dell'assistenza spirituale. In caso di decesso di un fedele che si trovi in una delle summenzionate situazioni, le autorita' competenti assicurano, laddove possibile, su richiesta di un familiare o su una dichiarazione del deceduto, l'officiatura o la presenza alle esequie di un ministro di culto della Chiesa d'Inghilterra. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>I militari italiani fedeli della Chiesa d'Inghilterra hanno diritto di partecipare, nel rispetto delle esigenze di servizio, alle attivita' religiose che si svolgono nelle localita' dove si trovano per ragioni del summenzionato servizio; in mancanza di chiese nelle predette localita', potranno comunque ottenere il permesso di frequentare la chiesa piu' vicina, compatibilmente con le ragioni di servizio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>L'assistenza spirituale ai militari italiani fedeli della Chiesa d'Inghilterra e' assicurata dai ministri di culto e dai religiosi a tal fine designati dall'Associazione « Chiesa d'Inghilterra » e inclusi in apposito elenco trasmesso al Ministero della difesa. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Negli istituti penitenziari e' assicurata l'assistenza spirituale dai ministri di culto e dai religiosi designati a tal fine dall'Associazione « Chiesa d'Inghilterra ». A tal fine questa trasmette al Ministero della giustizia l'elenco dei ministri di culto, nonche', unicamente a tali fini, dei religiosi responsabili dell'assistenza spirituale nei predetti istituti. Tali ministri e tali religiosi sono compresi tra coloro che possono accedere agli istituti penitenziari senza particolare autorizzazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>L'assistenza spirituale e' svolta negli istituti di cui al comma 4 a richiesta dei detenuti o per iniziativa dei ministri di culto, accettata dal detenuto, in locali idonei messi a disposizione dal direttore dell'istituto penitenziario. Il direttore dell'istituto informa di ogni richiesta proveniente dai detenuti il ministro di culto responsabile competente per il territorio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Gli oneri finanziari per lo svolgimento dell'assistenza spirituale di cui al presente articolo sono a carico dell'Associazione « Chiesa d'Inghilterra ». 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Istruzione religiosa nelle scuole</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Repubblica, nel garantire la liberta' di coscienza di tutti, riconosce agli alunni delle scuole pubbliche non universitarie il diritto di avvalersi o non avvalersi di insegnamenti religiosi. Tale diritto e' esercitato, ai sensi delle leggi dello Stato, dagli alunni stessi o da coloro cui compete la responsabilita' genitoriale su di essi. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>L'insegnamento religioso e' impartito con forme e modalita' che non abbiano per gli alunni effetti discriminanti. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>La Repubblica, nel garantire il carattere pluralistico della scuola pubblica, assicura agli incaricati designati dall'Associazione « Chiesa d'Inghilterra » il diritto di corrispondere alle richieste provenienti dagli alunni o dalle loro famiglie o dagli organi scolastici, in ordine allo studio del fatto religioso e delle sue implicazioni. Tale attivita', da svolgersi in orario extrascolastico, s'inserisce, senza oneri per lo Stato, nell'ambito di quelle extracurriculari. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading> Scuole</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Repubblica, in conformita' al principio della liberta' della scuola e dell'insegnamento e nei termini previsti dalla Costituzione, garantisce all'Associazione « Chiesa d'Inghilterra » il diritto d'istituire liberamente scuole di ogni ordine e grado e istituti di educazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Alle scuole di cui al comma 1, cui sia riconosciuta la parita', e' assicurata piena liberta', nel rispetto delle norme generali sull'istruzione e di quanto previsto dalla <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2000-03-10/62/!main" ns3:target="olf:it/legge/stato/2000/62" ns3:relation="cites">legge 10 marzo 2000, n. 62</ref>, e ai loro alunni un trattamento scolastico equipollente a quello degli alunni delle scuole dello Stato e degli altri enti territoriali, anche per quanto concerne gli esami di Stato conclusivi del primo e del secondo ciclo di istruzione. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2000-03-10/62/!main#art_6" ns4:target="olf:it/legge/stato/2000/62/art_6" ns4:relation="cites">art. 6: 
+ - La legge 10 marzo 2000, n. 62</ref> (Norme per la parita' scolastica e disposizioni sul diritto allo studio e all'istruzione), e' pubblicata nella Gazzetta Ufficiale 21 marzo 2000, n. 67. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading> Diplomi e titoli accademici</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Su richiesta degli interessati in possesso del titolo di studio di scuola secondaria di secondo grado, possono essere riconosciuti dalla Repubblica i titoli di primo e secondo ciclo della Chiesa d'Inghilterra, in teologia e nelle altre discipline ecclesiastiche, rilasciati da Istituti accademici con personalita' giuridica, operanti sul territorio italiano e riconosciuti dalla Chiesa d'Inghilterra, previa comunicazione al Ministero dell'universita' e della ricerca dell'atto di riconoscimento dell'Istituto accademico e del regolamento del corso di studi. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_7__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il riconoscimento dei titoli accademici e' disposto dal Ministero dell'universita' e della ricerca, previo accertamento del conseguimento da parte degli interessati di un numero di crediti formativi previsti dalla normativa vigente, ai fini del riconoscimento dei titoli di primo e secondo ciclo di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Festivita' 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Ai fedeli della Chiesa d'Inghilterra in Italia dipendenti da enti pubblici o privati, o che esercitano attivita' autonoma, e' assicurato il diritto di astenersi dall'attivita' lavorativa, nel quadro della flessibilita' dell'organizzazione del lavoro, nel giorno del Venerdi' Santo, con l'obbligo di recupero delle relative ore lavorative e senza diritto ad alcun compenso straordinario. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Nella giornata del Venerdi' Santo si considera giustificata l'assenza dalla scuola degli alunni appartenenti alla Chiesa d'Inghilterra su richiesta di loro stessi se maggiorenni o di coloro cui compete la responsabilita' genitoriale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Restano comunque salve le imprescindibili esigenze dei servizi pubblici essenziali previsti dalla legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_9">
+                <num>Art. 9.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ Enti dell'Associazione «Chiesa d'Inghilterra» 
+ 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_9__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Sono civilmente riconosciuti quali enti ecclesiastici, previo deposito degli statuti e subordinatamente alla loro verifica di conformita' con l'ordinamento italiano da parte del Ministero dell'interno, le seguenti Cappellanie e le Congregazioni:
+Congregazione di Assisi (PG), Congregazione di Bari, Congregazione di Bologna, Congregazione di Bordighera (Imperia), Cappellania di Cadenabbia (Como), Congregazione di Citta' della Pieve (PG), Cappellania di Firenze, Cappellania di Genova, Congregazione di Macerata, Cappellania di Milano, Cappellania di Napoli, Congregazione di Padova, Cappellania di Palermo, Cappellania di Roma, Cappellania di Siena, Congregazione di Sorrento (NA), Congregazione di Taormina (Messina), Congregazione di Trieste, Congregazione di Varese e Cappellania di Venezia. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_9__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>L'acquisto della personalita' giuridica per gli enti ecclesiastici facenti parte dell'Associazione « Chiesa d'Inghilterra » diversi da quelli di cui al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_com1" ns5:target="olf:it/costituzione/stato/1947/const/art_com1" ns5:relation="cites">comma 1, la costituzione</ref> in enti ecclesiastici con personalita' giuridica di nuove cappellanie e congregazioni, le modifiche territoriali, l'unificazione o l'estinzione di quelle esistenti, sono concessi con decreto del Ministro dell'interno, subordinatamente alla verifica della corrispondenza dell'ente o delle modifiche statutarie al carattere confessionale e al vigente ordinamento giuridico italiano, su domanda del legale rappresentante dell'Associazione « Chiesa d'Inghilterra » e previa delibera motivata dell'assemblea degli associati. Alla domanda sono allegati lo statuto dell'ente stesso, la delibera dell'assemblea degli associati e ogni altra utile documentazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_9__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Si considerano enti ecclesiastici quelli che svolgono prevalentemente attivita' di religione o di culto. Gli stessi possono svolgere attivita' diverse, secondo le leggi vigenti. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_9__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Ai fini della presente legge si considerano attivita' di religione o di culto quelle dirette all'esercizio del culto e alla cura pastorale, alla formazione dei ministri di culto, dei religiosi e dei catechisti, a scopi missionari e di evangelizzazione, e all'educazione cristiana, come catechesi o cultura religiosa. Si considerano attivita' diverse da quelle di religione o di culto quelle di assistenza e beneficenza, istruzione, educazione e cultura, e, in ogni caso, le attivita' commerciali o a scopo di lucro. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_9__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Agli effetti tributari, gli enti dell'Associazione « Chiesa d'Inghilterra » civilmente riconosciuti, aventi fine di religione o di culto, sono equiparati a quelli aventi fine di beneficenza o di istruzione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_9__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>I mutamenti sostanziali nel fine, nella destinazione del patrimonio e nel modo di esistere di un ente di cui al presente articolo acquistano efficacia mediante riconoscimento con decreto del Ministro dell'interno. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_9__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Il legale rappresentante dell'Associazione « Chiesa d'Inghilterra » segnala tempestivamente al Ministero dell'interno l'eventuale mutamento nel fine, nella destinazione del patrimonio e nel modo di esistere di un ente. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_9__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Il legale rappresentante dell'Associazione « Chiesa d'Inghilterra » e' tenuto a segnalare al Ministero dell'interno ogni mutamento che faccia perdere all'ente uno dei requisiti prescritti per il suo riconoscimento, al fine di consentire al Ministero dell'interno l'adozione del conseguente atto di revoca. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_9__para_9">
+                    <num>9.</num>
+                    <content>
+                        <p>La devoluzione dei beni di un ente dell'Associazione « Chiesa d'Inghilterra » soppresso o estinto avviene secondo quanto prevede il provvedimento del Consiglio direttivo dell'Associazione « Chiesa d'Inghilterra », salvi comunque la volonta' dei disponenti, i diritti dei terzi e le disposizioni statutarie, nonche' secondo la vigente normativa in materia di acquisti delle persone giuridiche. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_10">
+                <num>Art. 10.</num>
+                <heading> Iscrizione nel registro delle persone giuridiche</heading>
+                <paragraph eId="art_10__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Gli enti dell'Associazione « Chiesa d'Inghilterra » civilmente riconosciuti devono iscriversi nel registro delle persone giuridiche. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_10__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Nel registro, oltre alle indicazioni prescritte dalle norme vigenti in materia, devono risultare le norme di funzionamento e i poteri degli organi di rappresentanza dell'ente. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_10__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>L'Associazione « Chiesa d'Inghilterra » e gli enti civilmente riconosciuti dell'Associazione « Chiesa d'Inghilterra » devono, ai sensi della normativa vigente, chiedere l'iscrizione nel registro delle persone giuridiche entro due anni dalla data di entrata in vigore della presente legge. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_11">
+                <num>Art. 11.</num>
+                <heading> Patrimonio culturale</heading>
+                <paragraph eId="art_11__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Repubblica e l'Associazione « Chiesa d'Inghilterra » s'impegnano a collaborare per la tutela e la valorizzazione dei beni afferenti al patrimonio culturale della Chiesa d'Inghilterra e dei soggetti di cui all'articolo 9, eventualmente anche istituendo a tal fine, senza oneri per lo Stato, un'apposita Commissione mista. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_12">
+                <num>Art. 12.</num>
+                <heading> Edifici di culto</heading>
+                <paragraph eId="art_12__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Gli edifici della Chiesa d'Inghilterra ubicati sul territorio italiano e destinati all'esercizio del culto pubblico non possono essere occupati, requisiti, espropriati o demoliti se non per gravi motivi o previo accordo con il responsabile dell'edificio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_12__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Salvo i casi di urgente necessita', la forza pubblica non puo' entrare per l'esercizio delle sue funzioni negli edifici di cui al comma 1, senza averne dato avviso e senza avere sentito il responsabile dell'edificio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_12__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Agli edifici di culto e alle relative pertinenze si applicano le norme vigenti in materia di esenzioni, agevolazioni tributarie, contributi e concessioni. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_12__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>L'autorita' civile tiene conto delle esigenze religiose fatte presenti dall'Associazione « Chiesa d'Inghilterra » per quanto concerne la costruzione di nuovi edifici di culto. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_13">
+                <num>Art. 13.</num>
+                <heading> Cimiteri</heading>
+                <paragraph eId="art_13__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Ove possibile, sono previste nei cimiteri pubblici aree riservate ai fedeli della Chiesa d'Inghilterra, ai sensi della vigente normativa. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_14">
+                <num>Art. 14.</num>
+                <heading> Contributi deducibili agli effetti IRPEF</heading>
+                <paragraph eId="art_14__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La Repubblica prende atto che l'Associazione « Chiesa d'Inghilterra » si sostiene finanziariamente mediante offerte volontarie. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_14__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>A decorrere dal periodo d'imposta in corso alla data di entrata in vigore della presente legge, le persone fisiche possono dedurre dal proprio reddito complessivo, agli effetti dell'imposta sul reddito delle persone fisiche, le erogazioni liberali in denaro, fino all'importo di euro 1.032,91, a favore dell'Associazione « Chiesa d'Inghilterra », degli enti da essa controllati e delle comunita' locali, per i fini di culto, istruzione, assistenza e beneficenza. Le modalita' per la deduzione sono determinate con decreto del Ministro dell'economia e delle finanze. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_15">
+                <num>Art. 15.</num>
+                <heading> Ripartizione della quota dell'otto per mille 
+ del gettito IRPEF</heading>
+                <paragraph eId="art_15__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>A decorrere dal periodo d'imposta in corso alla data di entrata in vigore della presente legge, l'Associazione « Chiesa d'Inghilterra » concorre con i soggetti e secondo le modalita' previste dalla normativa vigente alla ripartizione della quota, pari all'otto per mille dell'imposta sul reddito delle persone fisiche. La Repubblica prende atto che l'Associazione « Chiesa d'Inghilterra » utilizzera' le somme devolute a tale titolo dallo Stato oltre che ai fini di cui all'articolo 14, comma 2, anche per il mantenimento dei ministri di culto, per la realizzazione e manutenzione degli edifici di culto e di monasteri, per scopi filantropici, assistenziali e culturali da realizzarsi anche in Paesi esteri. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_15__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>L'attribuzione delle somme di cui al comma 1 e' effettuata sulla base delle scelte espresse dai contribuenti in sede di dichiarazione annuale dei redditi, nel cui modulo l'Associazione « Chiesa d'Inghilterra » e' indicata con la denominazione « Associazione "Chiesa d'Inghilterra" in Italia ». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_15__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Per quanto riguarda le quote relative alle scelte non espresse dai contribuenti l'Associazione « Chiesa d'Inghilterra » dichiara di partecipare alla loro ripartizione in proporzione alle scelte espresse, destinando le relative somme esclusivamente per le iniziative di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_15__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>A decorrere dal terzo anno successivo a quello di cui al comma 1, lo Stato corrisponde annualmente, entro il mese di giugno, all'Associazione « Chiesa d'Inghilterra », la somma risultante dall'applicazione del medesimo comma 1, determinata ai sensi dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/1998-12-23/448/!main#art_45-com7" ns6:target="olf:it/legge/stato/1998/448/art_45-com7" ns6:relation="cites">articolo 45, comma 7, della legge 23 dicembre 1998, n. 448</ref>, sulla base delle dichiarazioni annuali relative al terzo periodo d'imposta precedente con destinazione alla stessa Associazione « Chiesa d'Inghilterra ». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_15__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>L'Associazione « Chiesa d'Inghilterra » trasmette annualmente al Ministero dell'interno, entro il mese di luglio dell'anno successivo a quello di esercizio, un rendiconto relativo all'utilizzazione delle somme di cui al comma 1 nonche' delle erogazioni liberali di cui all'articolo 14, e ne diffonde adeguata informazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_15__para_6">
+                    <num>6.</num>
+                    <list>
+                        <intro eId="art_15__para_6__intro_1">
+                            <p>Il rendiconto di cui al comma 5 deve comunque precisare: 
+ </p>
+                        </intro>
+                        <point eId="art_15__para_6.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>il numero dei ministri di culto cui e' stata assicurata l'intera remunerazione e di quelli ai quali e' stata assicurata un'integrazione; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_15__para_6.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>l'ammontare complessivo delle somme di cui al comma 1 destinate al sostentamento dei ministri di culto, nonche' l'ammontare delle ritenute fiscali su tali somme; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_15__para_6.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>gli interventi operati per altre finalita' previste dal comma 1. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_15__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Il Ministro dell'interno, entro trenta giorni dal ricevimento del rendiconto di cui al comma 5, ne trasmette copia, con propria relazione, al Ministro dell'economia e delle finanze. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 15: 
+ - Si riporta il testo dell'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/1998-12-23/448/!main#art_45-com7" ns7:target="olf:it/legge/stato/1998/448/art_45-com7" ns7:relation="cites">art. 45, comma 7, della legge 23 dicembre 1998, n. 448</ref> (Misure di finanza pubblica per la stabilizzazione e lo sviluppo), pubblicata nella Gazzetta Ufficiale 29 dicembre 1998, n. 302, S.O. n. 210: 
+ «Art. 45 (Disposizioni e interventi vari di razionalizzazione). - 1. - 6. Omissis. 
+ 7. La quota dell'otto per mille dell'IRPEF, di cui al <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/1985-05-20/222/!main#art_47-com2" ns8:target="olf:it/legge/stato/1985/222/art_47-com2" ns8:relation="cites">secondo comma dell'articolo 47 della legge 20 maggio 1985, n. 222</ref>, e la somma di cui all'ultimo comma dell'articolo medesimo sono determinate sulla base degli incassi in conto competenza relativi all'IRPEF, risultanti dal rendiconto generale dello Stato. La medesima procedura e' adottata per le quote spettanti alle Confessioni acattoliche aventi diritto. Con le medesime modalita' sono determinate la quota dell'otto per mille dell'IRPEF e la somma corrisposta a titolo di anticipo di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/1988-11-22/516/!main#art_30" ns9:target="olf:it/legge/stato/1988/516/art_30" ns9:relation="cites">articolo 30 della legge 22 novembre 1988, n. 516</ref>; all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/1988-11-22/517/!main#art_23" ns10:target="olf:it/legge/stato/1988/517/art_23" ns10:relation="cites">articolo 23 della legge 22 novembre 1988, n. 517</ref>; all'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/1993-10-05/409/!main#art_4" ns11:target="olf:it/legge/stato/1993/409/art_4" ns11:relation="cites">articolo 4 della legge 5 ottobre 1993, n. 409</ref>; all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/1995-11-29/520/!main#art_27" ns12:target="olf:it/legge/stato/1995/520/art_27" ns12:relation="cites">articolo 27 della legge 29 novembre 1995, n. 520</ref>; all'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/1996-12-20/638/!main#art_2" ns13:target="olf:it/legge/stato/1996/638/art_2" ns13:relation="cites">articolo 2 della legge 20 dicembre 1996, n. 638</ref>. 
+ 8.-34. Omissis.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_16">
+                <num>Art. 16.</num>
+                <heading> Commissione paritetica</heading>
+                <paragraph eId="art_16__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Su richiesta di una delle parti, al fine di predisporre eventuali modifiche, si potra' procedere, ad opera di un'apposita Commissione paritetica nominata dall'autorita' governativa e dall'Associazione « Chiesa d'Inghilterra », alla verifica dell'attuazione degli articoli 14 e 15. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_17">
+                <num>Art. 17.</num>
+                <heading> Assegni ai ministri di culto</heading>
+                <paragraph eId="art_17__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Gli assegni corrisposti dall'Associazione « Chiesa d'Inghilterra », dalle cappellanie e dalle congregazioni per il sostentamento totale o parziale dei ministri di culto di cui all'articolo 3 sono equiparati, ai soli fini fiscali, al reddito da lavoro dipendente. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_17__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>L'Associazione « Chiesa d'Inghilterra », le cappellanie e le congregazioni provvedono ad operare su tali assegni le ritenute fiscali secondo le disposizioni tributarie in materia. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_17__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>L'Associazione « Chiesa d'Inghilterra », le cappellanie e le congregazioni provvedono altresi', per i ministri di culto che vi siano tenuti, al versamento dei contributi assistenziali e previdenziali previsti dalle leggi vigenti. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_18">
+                <num>Art. 18.</num>
+                <heading> Matrimonio</heading>
+                <paragraph eId="art_18__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Sono riconosciuti gli effetti civili ai matrimoni celebrati in Italia secondo il rito anglicano davanti ad uno dei ministri di culto di cui all'articolo 3, in possesso della cittadinanza italiana e residenti o domiciliati in Italia, a condizione che il relativo atto sia trascritto nei registri dello stato civile, previe pubblicazioni nella casa comunale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_18__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Coloro che intendono celebrare il matrimonio ai sensi del comma 1 devono comunicare tale intenzione all'ufficiale dello stato civile al quale richiedono le pubblicazioni. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_18__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>L'ufficiale dello stato civile, dopo aver proceduto alle pubblicazioni richieste dai nubendi, accerta che nulla si oppone alla celebrazione del matrimonio secondo le vigenti norme di legge e ne da' attestazione in un nulla osta che rilascia in duplice originale ai nubendi. Il nulla osta deve precisare che la celebrazione nuziale seguira' secondo la previsione del comma 1 e nel comune suindicato dai nubendi. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_18__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Nel corso della celebrazione del matrimonio religioso il ministro di culto, ai fini degli effetti civili, spiega ai coniugi i diritti e i doveri dando ad essi lettura dei relativi articoli del <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main" ns14:target="olf:it/codice-civile/stato/1942/262" ns14:relation="cites">codice civile</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_18__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>I coniugi potranno altresi' rendere le dichiarazioni che la legge consente siano rese nell'atto di matrimonio. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_18__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Il ministro di culto davanti al quale ha luogo la celebrazione nuziale allega il nulla osta rilasciato dall'ufficiale di stato civile all'atto di matrimonio che egli redige in duplice originale subito dopo la celebrazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_18__para_7">
+                    <num>7.</num>
+                    <list>
+                        <intro eId="art_18__para_7__intro_1">
+                            <p>Dall'atto di matrimonio, oltre le indicazioni richieste dalla legge civile, devono risultare: 
+ </p>
+                        </intro>
+                        <point eId="art_18__para_7.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>il nome ed il cognome del ministro di culto dinnanzi al quale e' stato celebrato il matrimonio; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_18__para_7.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>la menzione dell'avvenuta lettura degli articoli del <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main" ns15:target="olf:it/codice-civile/stato/1942/262" ns15:relation="cites">codice civile</ref> riguardanti i diritti e i doveri dei coniugi; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_18__para_7.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>le dichiarazioni di cui al comma 5 eventualmente rese dai coniugi. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_18__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Entro cinque giorni da quello della celebrazione, il ministro di culto davanti al quale e' avvenuta la celebrazione trasmette per la trascrizione un originale dell'atto di matrimonio insieme al nulla osta all'ufficiale di stato civile del comune dove e' avvenuta la celebrazione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_18__para_9">
+                    <num>9.</num>
+                    <content>
+                        <p>L'ufficiale dello stato civile, constatata la regolarita' dell'atto e l'autenticita' del nulla osta allegato, effettua la trascrizione nei registri dello stato civile entro le ventiquattro ore successive alla ricezione, e ne da' notizia al ministro di culto. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_18__para_10">
+                    <num>10.</num>
+                    <content>
+                        <p>Il matrimonio ha effetti civili dal momento della celebrazione, anche se l'ufficiale dello stato civile che ha ricevuto l'atto abbia omesso di effettuarne la trascrizione nel termine prescritto. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_18__para_11">
+                    <num>11.</num>
+                    <content>
+                        <p>Resta ferma la facolta' di celebrare e sciogliere matrimoni religiosi senza alcun effetto o rilevanza civile. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_19">
+                <num>Art. 19.</num>
+                <heading> Normativa sui culti ammessi e norme contrastanti</heading>
+                <paragraph eId="art_19__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Con l'entrata in vigore della presente legge, le disposizioni della <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/1929-06-24/1159/!main" ns16:target="olf:it/legge/stato/1929/1159" ns16:relation="amends">legge 24 giugno 1929, n. 1159</ref>, e del <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/regio.decreto/stato/1930-02-28/289/!main" ns17:target="olf:it/regio-decreto/stato/1930/289" ns17:relation="amends">regio decreto 28 febbraio 1930, n. 289</ref>, non trovano piu' applicazione nei confronti dell'Associazione « Chiesa d'Inghilterra » e degli enti confessionali che ne fanno parte. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_19__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Ogni norma contrastante con quelle recate dalla presente legge cessa di avere efficacia nei confronti dei soggetti di cui al comma 1. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_4" placement="bottom">
+                                <p> Note all'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/1929-06-24/1159/!main#art_19" ns18:target="olf:it/legge/stato/1929/1159/art_19" ns18:relation="amends">art. 19: 
+ - La legge 24 giugno 1929, n. 1159</ref> (Disposizioni sull'esercizio dei culti ammessi nello Stato e sul matrimonio celebrato davanti ai ministri dei culti medesimi), e' pubblicata nella Gazzetta Ufficiale 16 luglio 1929, n. 164. 
+ - Il <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/regio.decreto/stato/1930-02-28/289/!main" ns19:target="olf:it/regio-decreto/stato/1930/289" ns19:relation="amends">regio decreto 28 febbraio 1930, n. 289</ref> (Norme per l'attuazione della <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/1929-06-24/1159/!main" ns20:target="olf:it/legge/stato/1929/1159" ns20:relation="amends">L. 24 giugno 1929, n. 1159</ref>, sui culti ammessi nello Stato e per coordinamento di essa con le altre leggi dello Stato), e' pubblicata nella Gazzetta Ufficiale 12 aprile 1930, n. 87. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_20">
+                <num>Art. 20.</num>
+                <heading> Ulteriori intese</heading>
+                <paragraph eId="art_20__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Ove una delle parti ravvisi l'opportunita' di apportare modifiche al testo dell'allegata intesa, le parti tornano a convocarsi a tal fine. Alle modifiche si procede con la stipulazione di una nuova intesa e con la conseguente presentazione al Parlamento di apposito disegno di legge di approvazione, ai sensi dell'articolo 8, terzo comma, della Costituzione. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_20__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>In occasione della presentazione di disegni di legge relativi a materie che coinvolgano rapporti dell'Associazione « Chiesa d'Inghilterra » con lo Stato, sono promosse previamente, in conformita' all'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_8" ns21:target="olf:it/costituzione/stato/1947/const/art_8" ns21:relation="cites">articolo 8 della Costituzione</ref>, le intese del caso. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_5" placement="bottom">
+                                <p> Note all'art. 20: 
+ - Per il testo dell'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_8-com3" ns22:target="olf:it/costituzione/stato/1947/const/art_8-com3" ns22:relation="cites">articolo 8, terzo comma, della Costituzione</ref>, si rinvia alla nota al titolo. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_21">
+                <num>Art. 21.</num>
+                <heading> Modifiche statutarie</heading>
+                <paragraph eId="art_21__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Ogni eventuale modifica dello statuto dell'Associazione « Chiesa d'Inghilterra » e' tempestivamente comunicata alla Presidenza del Consiglio dei ministri e al Ministero dell'interno. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_22">
+                <num>Art. 22.</num>
+                <heading> Disposizioni finanziarie</heading>
+                <paragraph eId="art_22__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge, fatta eccezione per l'articolo 14, non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono all'attuazione delle disposizioni di cui alla presente legge nei limiti delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_22__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Agli oneri derivanti dall'articolo 14 della presente legge, valutati in 143.000 euro per l'anno 2022 e in 84.000 euro annui a decorrere dall'anno 2023, si provvede mediante corrispondente riduzione delle proiezioni dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2021-2023, nell'ambito del programma « Fondi di riserva e speciali » della missione « Fondi da ripartire » dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2021, allo scopo parzialmente utilizzando l'accantonamento relativo al medesimo Ministero. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 29 dicembre 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato-art. 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+INTESA TRA LA REPUBBLICA ITALIANA E L'ASSOCIAZIONE «CHIESA D'INGHILTERRA» 
+ 
+Preambolo. 
+ La Repubblica e l'Associazione «Chiesa d'Inghilterra», che rappresenta in Italia la Confessione Anglicana Church of England (di seguito Chiesa d'Inghilterra), richiamandosi ai principi di liberta' religiosa sanciti dalla Costituzione e ai diritti di liberta' di coscienza e di religione garantiti dalla Dichiarazione Universale dei Diritti dell'Uomo e dai successivi documenti di diritto internazionale e sovranazionale deputati al riconoscimento e alla protezione dei diritti fondamentali della persona umana; 
+ Considerato che, in forza dell'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_8-com2" ns23:target="olf:it/costituzione/stato/1947/const/art_8-com2" ns23:relation="cites">articolo 8, commi secondo</ref> e <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_8-com3" ns24:target="olf:it/costituzione/stato/1947/const/art_8-com3" ns24:relation="cites">terzo, della Costituzione</ref>, le Confessioni religiose hanno diritto di organizzarsi secondo i propri statuti in quanto non contrastino con l'ordinamento giuridico italiano, e che i loro rapporti con lo Stato possono essere regolati per legge sulla base di intese con le relative rappresentanze; 
+ Riconosciuta l'opportunita' di addivenire alla predetta intesa; 
+ Convengono che la legge di approvazione, ai sensi dell'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_8" ns25:target="olf:it/costituzione/stato/1947/const/art_8" ns25:relation="cites">articolo 8 della Costituzione</ref>, della presente intesa sostituisce ad ogni effetto, nei confronti dell'Associazione «Chiesa d'Inghilterra», la legislazione sui culti ammessi. 
+ Nell'addivenire alla presente intesa, la Repubblica prende atto che: 
+ Difensore della Fede e Supremo Governatore della Chiesa d'Inghilterra e' il Sovrano del Regno Unito, Primate religioso e' l'Arcivescovo di Canterbury; 
+ la Diocesi in Europa comprende anche l'Arcidiaconato d'Italia e Malta, dal quale dipendono le Cappellanie e le Congregazioni, rette dai presbiteri, che hanno la responsabilita' della vita liturgica e cultuale dei fedeli, e dai laici che cooperano negli aspetti amministrativi; 
+ la Chiesa d'Inghilterra ha come missione quella di diffondere l'Evangelo di Gesu' Cristo in conformita' alla confessione anglicana e alla tradizione, e di promuovere ogni opportuna attivita' liturgico-cultuale, di fede e d'assistenza sociale; 
+ la Chiesa d'Inghilterra attribuisce un valore peculiare della sua presenza in Italia ai seguenti beni: la chiesa St. George's Church (Venezia); il Bordighera British Cemetery (Bordighera, Imperia); la Chiesa All Saints' Church (Roma); la chiesa Church of The Ascension (Cadenabbia, Como); la Chiesa Christ Church (Napoli); la chiesa Holy Cross Church (Palermo); 
+ la Chiesa d'Inghilterra condivide da sempre le medesime festivita' religiose della Chiesa cattolica romana. 
+ 
+ Art. 1. 
+ Autonomia e liberta' confessionale 
+ 
+ 1. La Repubblica, in conformita' ai principi della Costituzione, riconosce che le nomine dei ministri di culto effettuate secondo lo Statuto dell'Associazione «Chiesa d'Inghilterra» (presbiteri, cappellani e diaconi), l'esercizio del culto, l'organizzazione ecclesiastica e gli atti in materia spirituale e disciplinare si svolgono senza alcuna ingerenza statale. 
+ 2. E' garantita ai singoli fedeli e alle organizzazioni e associazioni in Italia appartenenti all'Associazione «Chiesa d'Inghilterra» piena liberta' di professione e pratica religiosa, di propaganda e di esercizio del culto in pubblico e in privato, nonche' di riunione e di manifestazione del pensiero con la parola, lo scritto e ogni altro mezzo di diffusione. 
+ 3. Le affissioni e la distribuzione di pubblicazioni e stampati relativi alla vita confessionale dell'Associazione «Chiesa d'Inghilterra», effettuate all'interno ed all'ingresso dei luoghi di culto, nonche' le collette ai fini ecclesiastici, avvengono senza autorizzazione ne' altra ingerenza da parte degli organi dello Stato. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 2">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 2. 
+ Ministri di culto 
+ 
+ 1. I ministri di culto, liberamente nominati in base allo statuto dell'Associazione «Chiesa d'Inghilterra», compresi in un elenco comunicato al Ministero dell'interno, godono del libero esercizio del loro ministero. 
+ 2. Essi non sono tenuti a dare ai magistrati o altre autorita' informazioni su persone o materie di cui siano venuti a conoscenza per ragione del loro ministero. 
+ 3. Nel caso di ripristino del servizio obbligatorio di leva, i ministri di culto hanno diritto, su loro richiesta, ad essere esonerati dal servizio militare o, nel rispetto delle norme sull'obiezione di coscienza, a essere assegnati al servizio civile. 
+ 4. Ai fini dell'applicazione del presente articolo, e degli articoli 3 e 17 il rappresentante legale dell'Associazione «Chiesa d'Inghilterra» rilascia apposita certificazione della qualifica dei ministri di culto. 
+ 5. Ai soli fini dell'applicazione dell'articolo 3 il rappresentante legale dell'Associazione «Chiesa d'Inghilterra» rilascia apposita certificazione della qualifica dei religiosi. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 3">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_3.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 3. 
+ Assistenza spirituale 
+ 
+ 1. L'appartenenza alle Forze armate, alle Forze di polizia o ad altri servizi assimilati, la degenza in strutture sanitarie, socio-sanitarie e sociali, la permanenza negli istituti penitenziari non possono dar luogo ad alcun impedimento in ordine alla fruizione dell'assistenza spirituale. In caso di decesso di un fedele che si trovi in una delle summenzionate situazioni, le autorita' competenti assicureranno, laddove possibile, su richiesta di un familiare o su una dichiarazione del deceduto, l'officiatura o la presenza alle esequie di un ministro di culto della Chiesa d'Inghilterra. 
+ 2. I militari italiani fedeli della Chiesa d'Inghilterra hanno diritto di partecipare, nel rispetto delle esigenze di servizio, alle attivita' religiose che si svolgono nelle localita' dove si trovano per ragioni del summenzionato servizio; in mancanza di chiese nelle predette localita', potranno comunque ottenere il permesso di frequentare la chiesa piu' vicina, compatibilmente con le ragioni di servizio. 
+ 3. L'assistenza spirituale ai militari italiani fedeli della Chiesa d'Inghilterra e' assicurata dai ministri di culto e dai religiosi a tal fine designati dall'Associazione «Chiesa d'Inghilterra» ed inclusi in apposito elenco trasmesso al Ministero della difesa. 
+ 4. Negli istituti penitenziari e' assicurata l'assistenza spirituale dai ministri di culto e dai religiosi designati a tal fine dall'Associazione «Chiesa d'Inghilterra». A tal fine questa trasmette al Ministero della giustizia l'elenco dei ministri di culto, nonche' unicamente a tali fini, dei religiosi responsabili dell'assistenza spirituale nei predetti istituti. Tali ministri e tali religiosi sono compresi tra coloro che possono accedere agli istituti penitenziari senza particolare autorizzazione. 
+ 5. L'assistenza spirituale e' svolta negli istituti di cui al comma 4 a richiesta dei detenuti o per iniziativa dei ministri di culto, accettata dal detenuto, in locali idonei messi a disposizione dal direttore dell'istituto penitenziario. Il direttore dell'istituto informa di ogni richiesta proveniente dai detenuti il ministro di culto responsabile competente nel territorio. 
+ 6. Gli oneri finanziari per lo svolgimento dell'assistenza spirituale di cui ai precedenti commi sono a carico dell'Associazione «Chiesa d'Inghilterra». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 4">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_4.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 4. 
+ Istruzione religiosa nelle scuole 
+ 
+ 1. La Repubblica, nel garantire la liberta' di coscienza di tutti, riconosce agli alunni delle scuole pubbliche non universitarie il diritto di avvalersi o non avvalersi di insegnamenti religiosi.
+Tale diritto e' esercitato, ai sensi delle leggi dello Stato, dagli alunni stessi o da coloro cui compete la responsabilita' genitoriale su di essi. 
+ 2. L'insegnamento religioso e' impartito con forme e modalita' che non abbiano per gli alunni effetti discriminanti. 
+ 3. La Repubblica nel garantire il carattere pluralistico della scuola pubblica, assicura agli incaricati designati dall'Associazione «Chiesa d'Inghilterra», il diritto di corrispondere alle richieste provenienti dagli alunni o dalle loro famiglie o dagli organi scolastici, in ordine allo studio del fatto religioso e delle sue implicazioni. Tale attivita', da svolgersi in orario extrascolastico, s'inserisce, senza oneri per lo Stato, nell'ambito di quelle extracurriculari. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 5">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_5.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 5. 
+ Scuole 
+ 
+ 1. La Repubblica, in conformita' al principio della liberta' della scuola e dell'insegnamento e nei termini previsti dalla Costituzione, garantisce all'Associazione «Chiesa d'Inghilterra» il diritto d'istituire liberamente scuole di ogni ordine e grado e istituti di educazione. 
+ 2. Alle scuole di cui al comma 1, cui sia riconosciuta la parita', e' assicurata piena liberta', nel rispetto delle norme generali sull'istruzione e di quanto previsto dalla <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/legge/stato/2000-03-10/62/!main" ns26:target="olf:it/legge/stato/2000/62" ns26:relation="cites">legge 10 marzo 2000, n. 62</ref> e successive modificazioni, ed ai loro alunni un trattamento scolastico equipollente a quello degli alunni delle scuole dello Stato e degli altri enti territoriali, anche per quanto concerne gli esami di Stato conclusivi del primo e del secondo ciclo di istruzione. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 6">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_6"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_6"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_6.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 6. 
+ Diplomi e titoli accademici 
+ 
+ 1. Su richiesta degli interessati, in possesso del titolo di studio di scuola secondaria di secondo grado, possono essere riconosciute dalla Repubblica le lauree e le lauree magistrali in teologia, e nelle altre discipline ecclesiastiche, rilasciate da Istituti accademici con personalita' giuridica, operanti sul territorio italiano e riconosciuti dalla Chiesa d'Inghilterra, previa comunicazione al Ministero dell'istruzione, dell'universita' e della ricerca dell'atto di riconoscimento dell'Istituto accademico e del regolamento del corso di studi. 
+ 2. Il riconoscimento dei titoli accademici e' disposto dal Ministero dell'istruzione, dell'universita' e della ricerca, previo accertamento del conseguimento da parte degli interessati di un numero di crediti formativi, previsti dalla normativa vigente, per i titoli da riconoscere come laurea e per i titoli da riconoscere, come laurea magistrale, agli interessati che dispongono della laurea. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 7">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_7"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_7"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_7.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 7. 
+ Festivita' 
+ 
+ 1. Ai fedeli della Chiesa d'Inghilterra in Italia dipendenti da enti pubblici o privati, o che esercitano attivita' autonoma, e' assicurato il diritto di astenersi dall'attivita' lavorativa, nel quadro della flessibilita' dell'organizzazione del lavoro, nel giorno del Venerdi' Santo, con l'obbligo di recupero delle relative ore lavorative e senza diritto ad alcun compenso straordinario. 
+ 2. Nella giornata del Venerdi' Santo si considera giustificata l'assenza dalla scuola degli alunni appartenenti alla Chiesa d'Inghilterra su richiesta di loro stessi se maggiorenni o di coloro cui compete la responsabilita' genitoriale. 
+ 3. Restano comunque salve le imprescindibili esigenze dei servizi pubblici essenziali previsti dalla legislazione vigente. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 8">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_8"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_8"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_8.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 8. 
+ Enti dell'Associazione Chiesa d'Inghilterra 
+ 
+ 1. Con l'entrata in vigore della legge di approvazione della presente intesa, sono civilmente riconosciuti quali enti ecclesiastici, previo deposito degli statuti e subordinatamente alla loro verifica di conformita' con l'ordinamento italiano da parte del Ministero dell'interno, le seguenti Cappellanie e le Congregazioni:
+Congregazione di Assisi (PG), Congregazione di Bari, Congregazione di Bologna, Congregazione di Bordighera (Imperia), Cappellania di Cadenabbia (Como), Congregazione di Citta' della Pieve (PG), Cappellania di Firenze, Cappellania di Genova, Congregazione di Macerata, Cappellania di Milano, Cappellania di Napoli, Congregazione di Padova, Cappellania di Palermo, Cappellania di Roma, Cappellania di Siena, Congregazione di Sorrento (NA), Congregazione di Taormina (Messina), Congregazione di Trieste, Congregazione di Varese e Cappellania di Venezia. 
+ 2. L'acquisto della personalita' giuridica per gli enti ecclesiastici facenti parte dell'Associazione «Chiesa d'Inghilterra», diversi da quelli di cui al <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_com1" ns27:target="olf:it/costituzione/stato/1947/const/art_com1" ns27:relation="cites">comma 1, la costituzione</ref> in enti ecclesiastici con personalita' giuridica di nuove cappellanie e congregazioni, le modifiche territoriali, l'unificazione o l'estinzione di quelle esistenti, sono concessi con decreto del Ministro dell'interno subordinatamente alla verifica della corrispondenza dell'ente o delle modifiche statutarie al carattere confessionale e al vigente ordinamento giuridico italiano, su domanda del legale rappresentante dell'Associazione «Chiesa d'Inghilterra» e previa delibera motivata dell'assemblea degli associati. Alla domanda devono essere allegati lo statuto dell'ente stesso, la delibera dell'assemblea degli associati e ogni altra utile documentazione. 
+ 3. Si considerano enti ecclesiastici quelli che svolgono prevalentemente attivita' di religione o di culto. Gli stessi possono svolgere attivita' diverse, secondo le leggi vigenti. 
+ 4. Ai fini della presente intesa si considerano attivita' di religione o di culto quelle dirette all'esercizio del culto e alla cura pastorale, alla formazione dei ministri di culto, dei religiosi e dei catechisti, a scopi missionari e di evangelizzazione, e all'educazione cristiana, come catechesi o cultura religiosa. Si considerano attivita' diverse da quelle di religione o di culto quelle di assistenza e/o beneficenza, istruzione, educazione e cultura, e, in ogni caso, le attivita' commerciali o a scopo di lucro. 
+ 5. Agli effetti tributari gli enti dell'Associazione «Chiesa d'Inghilterra» civilmente riconosciuti, aventi fine di religione o di culto, sono equiparati a quelli aventi fine di beneficenza o di istruzione. 
+ 6. I mutamenti sostanziali nel fine, nella destinazione del patrimonio e nel modo di esistere di un ente di cui ai commi precedenti acquistano efficacia mediante riconoscimento con decreto del Ministro dell'interno. 
+ 7. Il legale rappresentante dell'Associazione «Chiesa d'Inghilterra» segnala tempestivamente al Ministero dell'interno l'eventuale mutamento nel fine, nella destinazione del patrimonio e nel modo di esistere di un ente. 
+ 8. Il legale rappresentante dell'Associazione «Chiesa d'Inghilterra» e' tenuto a segnalare al Ministero dell'interno ogni mutamento che faccia perdere all'ente uno dei requisiti prescritti per il suo riconoscimento, al fine di consentire al Ministero dell'interno l'adozione del conseguente atto di revoca. 
+ 9. La devoluzione dei beni di un ente dell'Associazione «Chiesa d'Inghilterra» soppresso o estinto avviene secondo quanto prevede il provvedimento del Consiglio Direttivo dell'Associazione «Chiesa d'Inghilterra», salvi comunque la volonta' dei disponenti, i diritti dei terzi e le disposizioni statutarie, nonche' secondo la vigente normativa in materia di acquisti delle persone giuridiche. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 9">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_9"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_9"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_9.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 9. 
+ Iscrizione nel registro delle persone giuridiche 
+ 
+ 1. Gli enti dell'Associazione «Chiesa d'Inghilterra» civilmente riconosciuti devono iscriversi nel registro delle persone giuridiche. 
+ 2. Nel registro, oltre alle indicazioni prescritte dalle norme vigenti in materia, devono risultare le norme di funzionamento e i poteri degli organi di rappresentanza dell'ente. 
+ 3. L'Associazione «Chiesa d'Inghilterra» e gli enti civilmente riconosciuti dell'Associazione «Chiesa d'Inghilterra» devono, ai sensi della legge, chiedere l'iscrizione nel registro delle persone giuridiche entro due anni dalla data di entrata in vigore della legge di approvazione della presente intesa. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 10">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_10"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_10"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_10.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 10. 
+ Patrimonio culturale 
+ 
+ 1. La Repubblica e l'Associazione «Chiesa d'Inghilterra» s'impegnano a collaborare per la tutela e la valorizzazione dei beni afferenti al patrimonio culturale della Chiesa d'Inghilterra e dei soggetti di cui all'articolo 8, anche eventualmente istituendo, senza oneri per lo Stato, a tal fine un'apposita Commissione mista. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 11">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_11"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_11"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_11.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 11. 
+ Edifici di culto 
+ 
+ 1. Gli edifici della Chiesa d'Inghilterra ubicati sul territorio italiano destinati all'esercizio del culto pubblico non possono essere occupati, requisiti, espropriati o demoliti, se non per gravi motivi o previo accordo con il responsabile dell'edificio. 
+ 2. Salvo i casi di urgente necessita', la forza pubblica non puo' entrare per l'esercizio delle sue funzioni negli edifici di cui al comma 1, senza avere dato avviso e sentito il responsabile dell'edificio. 
+ 3. Agli edifici di culto e alle relative pertinenze si applicano le norme vigenti in materia di esenzioni, agevolazioni tributarie, contributi e concessioni. 
+ 4. L'autorita' civile tiene conto delle esigenze religiose fatte presenti dall'Associazione «Chiesa d'Inghilterra» per quanto concerne la costruzione di nuovi edifici di culto. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 12">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_12"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_12"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_12.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 12. 
+ Cimiteri 
+ 
+ 1. Ove possibile, sono previste nei cimiteri pubblici aree riservate ai sensi della vigente normativa. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 13">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_13"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_13"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_13.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 13. 
+ Contributi deducibili agli effetti IRPEF 
+ 
+ 1. La Repubblica prende atto che l'Associazione «Chiesa d'Inghilterra» si sostiene finanziariamente mediante offerte volontarie. 
+ 2. A decorrere dal periodo d'imposta in corso alla data di entrata in vigore della legge di approvazione della presente intesa, le persone fisiche possono dedurre dal proprio reddito complessivo, agli effetti dell'imposta sul reddito delle persone fisiche, le erogazioni liberali in denaro, fino all'importo di euro 1.032,91, a favore dell'Associazione «Chiesa d'Inghilterra», degli enti da essa controllati e delle comunita' locali, per i fini di culto, istruzione, assistenza e beneficenza. Le modalita' per la deduzione sono determinate con decreto del Ministro dell'economia e delle finanze. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 14">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_14"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_14"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_14.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 14. 
+ Ripartizione della quota dell'otto per mille del gettito IRPEF 
+ 
+ 1. A decorrere dal periodo d'imposta in corso alla data di entrata in vigore della legge di approvazione della presente intesa, l'Associazione «Chiesa d'Inghilterra» concorre con i soggetti e secondo le modalita' previste dalla normativa vigente alla ripartizione della quota, pari all'otto per mille dell'imposta sul reddito delle persone fisiche. La Repubblica prende atto che l'Associazione «Chiesa d'Inghilterra» utilizzera' le somme devolute a tale titolo dallo Stato oltre che ai fini di cui all'articolo 13, comma 2, anche per il mantenimento dei ministri di culto, per la realizzazione e manutenzione degli edifici di culto e di monasteri, per scopi filantropici, assistenziali e culturali da realizzarsi anche in paesi esteri. 
+ 2. L'attribuzione delle somme di cui al comma 1 e' effettuata sulla base delle scelte espresse dai contribuenti in sede di dichiarazione annuale dei redditi, nel cui modulo l'Associazione «Chiesa d'Inghilterra» e' indicata con la denominazione «Associazione "Chiesa d'Inghilterra" in Italia». 
+ 3. Per quanto riguarda le quote relative alle scelte non espresse dai contribuenti l'Associazione «Chiesa d'Inghilterra» dichiara di partecipare alla loro ripartizione in proporzione alle scelte espresse, destinando le relative somme esclusivamente per iniziative di cui al comma 1. 
+ 4. A decorrere dal terzo anno successivo a quello di cui al comma 1, lo Stato corrisponde annualmente, entro il mese di giugno, all'Associazione «Chiesa d'Inghilterra», la somma risultante dall'applicazione del comma 1 stesso, determinata ai sensi dell'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/1998-12-23/448/!main#art_45-com7" ns28:target="olf:it/legge/stato/1998/448/art_45-com7" ns28:relation="cites">articolo 45, comma 7, della legge 23 dicembre 1998, n. 448</ref>, sulla base delle dichiarazioni annuali relative al terzo periodo d'imposta precedente con destinazione alla stessa Associazione «Chiesa d'Inghilterra». 
+ 5. L'Associazione «Chiesa d'Inghilterra» trasmette annualmente, entro il mese di luglio dell'anno successivo a quello di esercizio, al Ministero dell'interno, un rendiconto relativo all'utilizzazione delle somme di cui al comma 1 del presente articolo nonche' delle erogazioni liberali di cui all'articolo 13 e ne diffonde adeguata informazione. 
+ 6. Il rendiconto di cui al comma 5 deve comunque precisare: 
+ a) il numero dei ministri di culto cui e' stata assicurata l'intera remunerazione e di quelli ai quali e' stata assicurata un'integrazione; 
+ b) l'ammontare complessivo delle somme di cui al comma 1 destinate al sostentamento dei ministri di culto, nonche' l'ammontare delle ritenute fiscali su tali somme; 
+ c) gli interventi operati per altre finalita' previste dal comma 1 del presente articolo. 
+ 7. Il Ministro dell'interno, entro trenta giorni dal ricevimento del rendiconto di cui al comma 5, ne trasmette copia, con propria relazione, al Ministro dell'economia e delle finanze. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 15">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_15"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_15"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_15.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 15. 
+ Commissione paritetica 
+ 
+ 1. Su richiesta di una delle parti, al fine di predisporre eventuali modifiche, si potra' procedere, ad opera di un'apposita Commissione paritetica nominata dall'autorita' governativa e dall'Associazione «Chiesa d'Inghilterra», alla verifica dell'attuazione degli articoli 13 e 14. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 16">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_16"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_16"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_16.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 16. 
+ Assegni ai ministri di culto 
+ 
+ 1. Gli assegni corrisposti dall'Associazione «Chiesa d'Inghilterra», dalle cappellanie e dalle congregazioni per il sostentamento totale o parziale dei ministri di culto di cui all'articolo 2 sono equiparati, ai soli fini fiscali, al reddito da lavoro dipendente. 
+ 2. L'Associazione «Chiesa d'Inghilterra», le cappellanie e le congregazioni provvedono ad operare su tali assegni le ritenute fiscali secondo le disposizioni tributarie in materia. 
+ 3. L'Associazione «Chiesa d'Inghilterra», le cappellanie e le congregazioni provvedono altresi' per i ministri di culto che vi siano tenuti al versamento dei contributi assistenziali e previdenziali previsti dalle leggi vigenti. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 17">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_17"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_17"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_17.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 17. 
+ Matrimonio 
+ 
+ 1. Sono riconosciuti gli effetti civili ai matrimoni celebrati in Italia secondo il rito anglicano davanti ad uno dei ministri di culto di cui all'articolo 2, in possesso della cittadinanza italiana e residenti o domiciliati in Italia, a condizione che il relativo atto sia trascritto nei registri dello stato civile, previe pubblicazioni nella casa comunale. 
+ 2. Coloro che intendono celebrare il matrimonio ai sensi del precedente comma devono comunicare tale intenzione all'ufficiale di stato civile al quale richiedono le pubblicazioni. 
+ 3. L'ufficiale dello stato civile, dopo aver proceduto alle pubblicazioni richieste dai nubendi, accerta che nulla si oppone alla celebrazione del matrimonio secondo le vigenti norme di legge e ne da' attestazione in un nulla osta che rilascia in duplice originale ai nubendi. Il nulla osta, deve precisare che la celebrazione iniziale seguira' secondo la previsione del primo comma e nel comune suindicato dai nubendi. 
+ 4. Nel corso della celebrazione del matrimonio religioso il ministro di culto, ai fini degli effetti civili, spiega ai coniugi i diritti e i doveri dando ad essi lettura degli articoli del <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main" ns29:target="olf:it/codice-civile/stato/1942/262" ns29:relation="cites">codice civile</ref> al riguardo. 
+ 5. I coniugi potranno altresi' rendere le dichiarazioni che la legge consente siano rese nell'atto di matrimonio. 
+ 6. Il ministro di culto davanti al quale ha luogo la celebrazione nuziale allega il nulla osta rilasciato dall'ufficiale di stato civile all'atto di matrimonio che egli redige in duplice originale subito dopo la celebrazione. 
+ 7. Dall'atto di matrimonio oltre le indicazioni richieste dalla legge civile devono risultare: il nome ed il cognome del ministro di culto dinnanzi al quale e' stato celebrato il matrimonio; la menzione dell'avvenuta lettura degli articoli di <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/codice.civile/stato/1942-03-16/262/!main" ns30:target="olf:it/codice-civile/stato/1942/262" ns30:relation="cites">codice civile</ref> riguardanti i diritti e i doveri dei coniugi; le dichiarazioni di cui al quinto comma eventualmente rese dai coniugi. 
+ 8. Entro cinque giorni da quello della celebrazione, il ministro di culto, davanti al quale e' avvenuta la celebrazione, trasmette per la trascrizione un originale dell'atto di matrimonio insieme al nulla osta all'ufficiale di stato civile del comune dove e' avvenuta la celebrazione. 
+ 9. L'ufficiale dello stato civile, constatata la regolarita' dell'atto e l'autenticita' del nulla osta allegato, effettua la trascrizione nei registri dello stato civile entro le 24 ore successive al ricevimento, e ne da' notizia al ministro di culto. 
+ 10. Il matrimonio ha effetti civili dal momento della celebrazione, anche se l'ufficiale dello stato civile che ha ricevuto l'atto abbia omesso di effettuarne la trascrizione nel termine prescritto. 
+ 11. Resta ferma la facolta' di celebrare e sciogliere matrimoni religiosi, senza alcun effetto o rilevanza civile. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 18">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_18"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_18"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_18.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 18. 
+ Normativa sui culti ammessi e norme contrastanti 
+ 
+ 1. Con l'entrata in vigore della legge di approvazione della presente intesa, le disposizioni della <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/1929-06-24/1159/!main" ns31:target="olf:it/legge/stato/1929/1159" ns31:relation="amends">legge 24 giugno 1929, n. 1159</ref>, e del <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/regio.decreto/stato/1930-02-28/289/!main" ns32:target="olf:it/regio-decreto/stato/1930/289" ns32:relation="amends">regio decreto 28 febbraio 1930, n. 289</ref>, non trovano piu' applicazione nei confronti dell'Associazione «Chiesa d'Inghilterra» e degli enti confessionali che ne fanno parte. 
+ 2. Ogni norma contrastante con la presente intesa cessa di avere efficacia nei confronti dei soggetti di cui al comma l, dalla data di entrata in vigore della legge di approvazione, ai sensi dell'<ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_8" ns33:target="olf:it/costituzione/stato/1947/const/art_8" ns33:relation="cites">articolo 8 della Costituzione</ref>, dell'intesa stessa. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 19">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_19"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_19"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_19.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 19. 
+ Ulteriori intese 
+ 
+ 1. Ove una delle parti ravvisasse l'opportunita' di apportare modifiche al testo della presente intesa, le parti torneranno a convocarsi a tal fine. Alle modifiche si procedera' con la stipulazione di una nuova intesa e con la conseguente presentazione al Parlamento di apposito disegno di legge di approvazione, ai sensi dell'articolo 8, terzo comma, della Costituzione. 
+ 2. In occasione della presentazione di disegni di legge relativi a materie che coinvolgano rapporti dell'Associazione «Chiesa d'Inghilterra» con lo Stato, saranno promosse previamente, in conformita' all'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_8" ns34:target="olf:it/costituzione/stato/1947/const/art_8" ns34:relation="cites">articolo 8 della Costituzione</ref>, le intese del caso. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 20">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_20"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_20"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_20.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 20. 
+ Modifiche statutarie 
+ 
+ 1. Ogni eventuale modifica dello statuto dell'Associazione «Chiesa d'Inghilterra» deve essere tempestivamente comunicata alla Presidenza del Consiglio dei ministri e al Ministero dell'interno. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato-art. 21">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/!main/annesso_21"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-12-29;240"/>
+                                <FRBRalias name="eli" value="eli/id/2022/01/20/22G00005/ORIGINAL"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_21"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04"/>
+                                <FRBRdate date="2022-02-04" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04/!main/annesso_21.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-12-29/240/ita@2022-02-04.xml"/>
+                                <FRBRdate date="2021-12-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Art. 21. 
+ Legge di approvazione dell'intesa 
+ 
+ 1. Il Governo della Repubblica presentera' al Parlamento, ai sensi dell'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_8" ns35:target="olf:it/costituzione/stato/1947/const/art_8" ns35:relation="cites">articolo 8 della Costituzione</ref>, apposito disegno di legge di approvazione della presente intesa, al quale sara' allegato il testo dell'intesa stessa. 
+ Roma, 30 luglio 2019 
+ 
+ Il Presidente 
+ del Consiglio dei ministri 
+ Conte 
+Il Presidente dell'Associazione 
+ «Chiesa d'Inghilterra» 
+ Vickie Lela Sims 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
