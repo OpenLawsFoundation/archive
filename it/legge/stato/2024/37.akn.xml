@@ -1,0 +1,962 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                    <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                    <FRBRdate date="2024-03-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/03/27/24G00053/ORIGINAL" aknrelname="eli/id/2024/03/27/24G00053/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Adesione della Repubblica italiana al Protocollo addizionale alla Convenzione sul contratto di trasporto internazionale di merci su strada (CMR) concernente la lettera di vettura elettronica, fatto a Ginevra il 20 febbraio 2008. (24G00053)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00053" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-03-08" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                    <FRBRdate date="2024-03-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/03/27/24G00053/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/03/27/24G00053/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/03/27/24G00053/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                    <FRBRdate date="2024-03-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/03/27/24G00053/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-03-27" name="" number="73" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-03-27" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-03-08" refersTo="#S.715"/>
+                <step by="#camera" date="2024-03-08" refersTo="#C.1261"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-03-08/37/!main" showAs=""/>
+                <passiveRef eId="S.715" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;715" showAs=""/>
+                <passiveRef eId="C.1261" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1261" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/03/27/24G00053/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Adesione della Repubblica italiana al Protocollo addizionale alla Convenzione sul contratto di trasporto internazionale di merci su strada (CMR) concernente la lettera di vettura elettronica, fatto a Ginevra il 20 febbraio 2008. (24G00053)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00053</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-03-08</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/03/27/24G00053/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/03/27/24G00053/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/03/27/24G00053/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/03/27/24G00053/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/37" nativeUrn="urn:nir:stato:legge:2024-03-08;37" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-03-27"><ns0:event type="enacted" date="2024-03-08"/><ns0:event type="published" date="2024-03-27"/><ns0:event type="commenced" date="2024-03-27"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/d42faf58-c9b1-4f91-9a95-7db0060448a1" sourceSha256="e25a4b8c1daa3e11e68d894393d915b94256e14d4bd0dd794025951bae181615" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:19:32.518313Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-03-08">08 marzo 2024</docDate>
+                <docNumber>37</docNumber>
+                <docTitle>Adesione della Repubblica italiana al Protocollo addizionale alla Convenzione sul contratto di trasporto internazionale di merci su strada (CMR) concernente la lettera di vettura elettronica, fatto a Ginevra il 20 febbraio 2008. (24G00053) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 28/03/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Autorizzazione all'adesione</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Presidente della Repubblica e' autorizzato ad aderire al Protocollo addizionale alla Convenzione sul contratto di trasporto internazionale di merci su strada (CMR) concernente la lettera di vettura elettronica, fatto a Ginevra il 20 febbraio 2008. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Ordine di esecuzione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Piena ed intera esecuzione e' data al Protocollo addizionale alla Convenzione, di cui all'articolo 1, a decorrere dalla data della sua entrata in vigore, in conformita' a quanto disposto dall'articolo 8 del Protocollo stesso. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le amministrazioni interessate provvedono all'adempimento dei compiti derivanti dall'attuazione della presente legge con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 8 marzo 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Tajani, Ministro degli affari esteri e della cooperazione internazionale Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Additional protocol">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> ADDITIONAL PROTOCOL TO THE CONVENTION ON 
+ THE CONTRACT FOR THE INTERNATIONAL 
+ CARRIAGE OF GOODS BY ROAD (CMR) CONCERNING 
+ THE ELECTRONIC CONSIGNMENT NOTE 
+ 
+ __________ 
+ 
+ PROTOCOLE ADDITIONNEL A' LA CONVENTION 
+ RELATIVE AU CONTRAT DE TRANSPORT 
+ INTERNATIONAL DE MARCHANDISES PAR 
+ ROUTE (CMR) CONCERNANT LA LETTRE DE 
+ VOITURE ELECTRONIQUE 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Traduzione non ufficiale 
+ 
+ PROTOCOLLO ADDIZIONALE ALLA CONVENZIONE RELATIVA 
+ AL TRASPORTO INTERNAZIONALE DI MERCI SU STRADA, CONCERNENTE 
+ LA LETTERA DI VETTURA ELETTRONICA 
+ 
+ Le parti di questo protocollo, 
+ in qualita' di parti della Convenzione sul contratto per il trasporto internazionale di merci su strada (CMR) fatto a Ginevra il 19 maggio 1956, 
+ Desiderando integrare la Convenzione allo scopo di facilitare la redazione facoltativa della lettera di vettura attraverso procedure utilizzate per la registrazione e la gestione elettronica dei dati,  Hanno concordato quanto segue: 
+ 
+ Articolo 1. 
+ Definizioni 
+ 
+ Per gli scopi del presente Protocollo, si intende: 
+ per «Convenzione» la Convenzione per il contratto di trasporto internazionale di merci su strada (CMR); 
+ per «Comunicazione elettronica» ogni comunicazione generata, inviata, ricevuta o conservata attraverso strumenti elettronici, ottici, digitali o simili, col risultato che l'informazione comunicata risulti accessibile per successive utilizzazioni; 
+ per «lettera di vettura elettronica», una lettera di vettura emessa mediante una comunicazione elettronica dal vettore, dal mittente o da qualsiasi altra parte interessata all'esecuzione di un contratto di trasporto al quale si applica la Convenzione, comprese le indicazioni logicamente associate alla comunicazione elettronica sotto forma di dati allegati o altrimenti connessi a tale comunicazione elettronica al momento della sua elaborazione o in una fase ulteriore, in modo da risultarne parte integrante; 
+ per «firma elettronica», i dati in forma elettronica, allegati oppure connessi tramite associazione logica ad altri dati elettronici, utilizzati come metodo di autenticazione. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 2">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_3.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 2. 
+ Campo d'applicazione e portata della lettera di vettura elettronica  
+ 1. Fatte salve le disposizioni del presente Protocollo, la lettera di vettura di cui alla Convenzione come pure qualsiasi domanda, dichiarazione, istruzione, ordine, riserva o altra comunicazione concernente l'esecuzione di un contratto di trasporto cui si applica la Convenzione possono essere compilati mediante comunicazione elettronica. 
+ 2. Una lettera di vettura conforme al presente Protocollo sara' considerata equivalente alla lettera di vettura di cui alla Convenzione e pertanto avra' la stessa forza probante e produrra' gli stessi effetti di quest'ultima. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 3">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_4.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 3. 
+ Autenticazione della lettera di vettura elettronica 
+ 
+ 1. La lettera di vettura elettronica e' autenticata dalle parti del contratto di trasporto per mezzo di una firma elettronica affidabile che offre garanzie riguardo alla sua connessione con la lettera di vettura elettronica. L'affidabilita' della firma elettronica e' data, fino a prova contraria, se la firma elettronica: 
+ a. e' connessa esclusivamente al firmatario; 
+ b. permette di identificare il firmatario; 
+ c. e' stata creata con mezzi sui quali il firmatario puo' conservare un controllo esclusivo; e 
+ d. e' collegata ai dati ai quali si riferisce in modo da consentire di rilevare se i dati stessi siano stati successivamente modificati. 
+ 2. La lettera di vettura elettronica puo' altresi' essere autenticata mediante qualsiasi processo di autenticazione elettronica ammesso dalla legislazione del Paese in cui la lettera di vettura elettronica e' stata compilata. 
+ 3. Le indicazioni che vi sono iscritte devono essere accessibili a tutti coloro che sono abilitati a questo scopo. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 4">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_5.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 4. 
+ Condizioni per la compilazione della lettera di vettura elettronica  
+ 1. La lettera di vettura elettronica contiene le stesse indicazioni della lettera di vettura di cui alla Convenzione. 
+ 2. Il procedimento impiegato per compilare la lettera di vettura elettronica deve garantire l'integrita' delle indicazioni che essa contiene a partire dal momento in cui e' stata compilata per la prima volta nella sua forma definitiva. L'integrita' delle indicazioni e' garantita se queste ultime rimangono complete e non sono alterate, ad eccezione di ogni aggiunta e modifica effettuata nel corso normale della comunicazione, conservazione e consultazione. 
+ 3. Le indicazioni contenute nella lettera di vettura elettronica possono essere completate o modificate nei casi ammessi dalla Convenzione. 
+ 4. La procedura impiegata per completare o modificare la lettera di vettura elettronica deve permettere di rilevare qualsiasi complemento o modifica e assicurare la conservazione delle indicazioni originali della lettera di vettura elettronica. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 5">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_6"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_6"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_6.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 5. 
+ Attuazione della lettera di vettura elettronica 
+ 
+ 1. Le parti interessate all'esecuzione del contratto di trasporto stabiliscono di comune accordo le procedure e la loro attuazione al fine di conformarsi alle disposizioni del presente Protocollo e della Convenzione, segnatamente per quanto concerne: 
+ a. il metodo per compilare e consegnare la lettera di vettura elettronica alla parte abilitata; 
+ b. l'assicurazione che la lettera di vettura elettronica mantiene la sua integrita'; 
+ c. il modo in cui il titolare dei diritti derivanti dalla lettera di vettura elettronica puo' dimostrare che ne e' effettivamente il titolare; 
+ d. il modo in cui e' data conferma che la riconsegna al destinatario ha avuto luogo; 
+ e. le procedure che permettono di completare o di modificare la lettera di vettura elettronica; e 
+ f. le procedure che permettono un'eventuale sostituzione della lettera di vettura elettronica con una lettera di vettura compilata con altri mezzi. 
+ 2. Le procedure di cui al paragrafo 1 devono essere menzionate nella lettera di vettura elettronica e poter essere facilmente verificate. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 6">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_7"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_7"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_7.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 6. 
+ Documenti che completano la lettera di vettura elettronica 
+ 
+ 1. Il vettore rilascia al mittente, su domanda di quest'ultimo, una ricevuta delle merci e qualsiasi indicazione necessaria per identificare la spedizione e per accedere alla lettera di vettura elettronica di cui al presente Protocollo. 
+ 2. I documenti di cui all'articolo 6, paragrafo 2, lettera g e all'articolo 11 della Convenzione possono essere forniti dal mittente al vettore sotto forma di comunicazione elettronica se esistono in tale forma e se le parti hanno convenuto le procedure atte a stabilire una connessione tra questi documenti e la lettera di vettura elettronica di cui al presente Protocollo, in modo da garantirne l'integrita'. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 7">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_8"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_8"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_8.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 7. 
+ Firma, ratifica, adesione 
+ 
+ 1. Il presente Protocollo e' aperto alla firma dei Paesi firmatari della Convenzione, o Parti contraenti della medesima, che sono Paesi membri della Commissione economica per l'Europa oppure che sono ammessi alla Commissione a titolo consultivo in conformita' del paragrafo 8 del mandato di questa Commissione. 
+ 2. Il presente Protocollo e' aperto alla firma a Ginevra dal 27 al 30 maggio 2008 compresi e, dopo questa data, nella sede delle Nazioni Unite a New York fino al 30 giugno 2009 compreso. 
+ 3. Il presente Protocollo e' sottoposto a ratifica da parte dei Paesi firmatari ed e' aperto all'adesione dei Paesi non firmatari, di cui al paragrafo 1 del presente articolo, che sono Parti contraenti della Convenzione. 
+ 4. I Paesi in grado di partecipare a taluni lavori della Commissione economica per l'Europa, in applicazione del paragrafo 11 del mandato di detta Commissione, e che hanno aderito alla Convenzione possono divenire Parti del presente Protocollo aderendovi dopo la sua entrata in vigore. 
+ 5. La ratifica o l'adesione ha luogo con il deposito di uno strumento presso Il Segretario generale dell'Organizzazione delle Nazioni Unite. 
+ 6. Ogni strumento di ratifica o di adesione, depositato dopo l'entrata in vigore di un emendamento al presente Protocollo adottato conformemente alle disposizioni dell'articolo 13 riportato qui di seguito, si applica al testo del Protocollo come modificato dall'emendamento. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 8">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_9"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_9"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_9.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 8. 
+ Entrata in vigore 
+ 
+ 1. Il presente Protocollo entra in vigore il novantesimo giorno dopo che cinque dei Paesi menzionati al paragrafo 3 dell'articolo 7 del presente Protocollo hanno depositato i loro strumenti di ratifica o di adesione. 
+ 2. Per ogni Paese che lo ratifichi o vi aderisca dopo che cinque Paesi hanno depositato i loro strumenti di ratifica o di adesione, il presente Protocollo entra in vigore il novantesimo giorno successivo al deposito dello strumento di ratifica o di adesione di detto Paese. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 9">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_10"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_10"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_10.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 9. 
+ Denuncia 
+ 
+ 1. Ogni Parte contraente puo' denunciare il presente Protocollo mediante notificazione indirizzata al segretario generale dell'Organizzazione delle Nazioni Unite. 
+ 2. La denuncia ha effetto dodici mesi dopo la data in cui Il Segretario generale ha ricevuto la notificazione. 
+ 3. Ogni Paese che cessa di essere Parte contraente della Convenzione cessa alla stessa data di essere Parte contraente del presente Protocollo. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 10">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_11"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_11"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_11.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 10. 
+ Abrogazione 
+ 
+ Ove, dopo l'entrata in vigore del presente Protocollo, in seguito a denuncia il numero delle Parti contraenti divenga inferiore a cinque, il presente Protocollo cessa di essere in vigore a decorrere dalla data in cui abbia effetto l'ultima di tali denunce. Il Protocollo cessa parimenti di essere in vigore a decorrere dalla data in cui la Convenzione stessa cessa di essere in vigore. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 11">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_12"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_12"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_12.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 11. 
+ Controversie 
+ 
+ Qualsiasi controversia fra due o piu' Parti contraenti sull'interpretazione o l'applicazione del presente Protocollo, che le Parti non abbiano potuto regolare mediante negoziati o in altro modo, puo', a richiesta d'una delle Parti contraenti interessate, essere portata avanti la Corte internazionale di giustizia per essere risolta dalla stessa. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 12">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_13"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_13"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_13.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 12. 
+ Riserve 
+ 
+ 1. Al momento di firmare o di ratificare il presente Protocollo o di aderirvi, ogni Paese puo' dichiarare, mediante notificazione indirizzata al segretario generale dell'Organizzazione delle Nazioni Unite, di non considerarsi vincolato dall'articolo 11 del presente Protocollo. Le altre Parti contraenti non sono vincolate dall'articolo 11 del presente Protocollo nei confronti di una Parte contraente che abbia formulato tale riserva. 
+ 2. La dichiarazione di cui al paragrafo 1 del presente articolo puo' essere revocata in qualsiasi momento mediante notificazione indirizzata al segretario generale dell'Organizzazione delle Nazioni Unite. 
+ 3. Non sara' ammessa alcuna altra riserva al presente Protocollo. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 13">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_14"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_14"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_14.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 13. 
+ Emendamenti 
+ 
+ 1. Una volta entrato in vigore, il presente Protocollo puo' essere emendato secondo la procedura definita nel presente articolo. 
+ 2. Qualsiasi proposta di emendamento del presente Protocollo presentata da una Parte contraente del Protocollo stesso e' sottoposta al Gruppo di lavoro dei trasporti stradali della Commissione economica per l'Europa delle Nazioni Unite (UNECE) che la esaminera' e decidera' in merito. 
+ 3. Le Parti contraenti del presente Protocollo si adoperano al meglio delle loro possibilita' per raggiungere un consenso. Qualora, malgrado i loro sforzi, non si raggiunga un consenso sull'emendamento proposto, l'adozione di quest'ultimo necessitera', in ultima istanza, una maggioranza di due terzi delle Parti contraenti presenti e votanti. La proposta di emendamento adottata sia per consenso sia dalla maggioranza di due terzi delle Parti contraenti e' sottoposta dalla segreteria della Commissione economica per l'Europa delle Nazioni Unite al segretario generale, che la comunica per accettazione a tutte le Parti contraenti del presente Protocollo come pure ai Paesi firmatari. 
+ 4. Entro nove mesi a decorrere dalla data della comunicazione del segretario generale concernente la proposta di emendamento, ogni Parte contraente puo' rendere note al segretario generale eventuali obiezioni all'emendamento proposto. 
+ 5. L'emendamento proposto e' considerato accettato se, una volta scaduto il termine di nove mesi previsto al paragrafo precedente, non e' stata notificata alcuna obiezione da una delle Parti contraenti del presente Protocollo. Se viene formulata un'obiezione, l'emendamento proposto rimane senza effetto. 
+ 6. Nel caso in cui un Paese sia divenuto Parte contraente del presente Protocollo nel periodo compreso tra il momento della notificazione di una proposta di emendamento e la scadenza del termine di nove mesi di cui al paragrafo 4 del presente articolo, la segreteria del Gruppo di lavoro dei trasporti stradali della Commissione economica per l'Europa notifica appena possibile l'emendamento proposto al nuovo Paese divenuto Parte contraente.
+Quest'ultimo puo' rendere note al segretario generale, prima della scadenza del termine di nove mesi, eventuali obiezioni all'emendamento proposto. 
+ 7. Il Segretario generale notifica quanto prima a tutte le Parti contraenti del presente Protocollo le obiezioni formulate in applicazione dei paragrafi 4 e 6 del presente articolo e tutti gli emendamenti accettati conformemente al paragrafo 5 sopra riportato. 
+ 8. Qualsiasi emendamento che e' considerato accettato entra in vigore sei mesi dopo la data della sua notificazione alle Parti contraenti da parte del segretario generale. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 14">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_15"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_15"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_15.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 14. 
+ Convocazione di una conferenza diplomatica 
+ 
+ 1. Dopo che il presente Protocollo e' entrato in vigore, ogni Parte contraente puo', mediante notificazione indirizzata al segretario generale dell'Organizzazione delle Nazioni Unite, domandare la convocazione di una conferenza allo scopo di rivedere il presente Protocollo. Il Segretario generale notifica tale domanda a tutte le Parti contraenti e, qualora nel termine di quattro mesi dalla sua notificazione almeno un quarto delle Parti contraenti gli abbia comunicato il proprio consenso a tale richiesta, convoca una conferenza per la revisione. 
+ 2. Se una conferenza e' convocata in conformita' del paragrafo precedente, Il Segretario generale ne da' avviso a tutte le Parti contraenti e le invita a presentare, nel termine di tre mesi, le proposte che esse desiderano che siano esaminate dalla conferenza. Il Segretario generale comunica a tutte le Parti contraenti l'ordine del giorno provvisorio della conferenza, come pure il testo delle proposte, almeno tre mesi prima della data di apertura della conferenza. 
+ 3. Ad ogni conferenza convocata in conformita' del presente articolo, Il Segretario generale invita tutti i Paesi di cui ai paragrafi 1, 3 e 4 dell'articolo 7 del presente Protocollo. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 15">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_16"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_16"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_16.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 15. 
+ Notificazioni ai Paesi 
+ 
+ Oltre alle notificazioni previste negli articoli 13 e 14, Il Segretario generale dell'Organizzazione delle Nazioni Unite notifica ai Paesi previsti nel paragrafo 1 dell'articolo 7 di cui sopra, come pure ai Paesi divenuti Parti contraenti del presente Protocollo in virtu' dei paragrafi 3 e 4 dell'articolo 7: 
+ a. le ratifiche e adesioni in virtu' dell'articolo 7; 
+ b. le date di entrata in vigore del presente Protocollo conformemente all'articolo 8; 
+ c. le denunce in virtu' dell'articolo 9; 
+ d. l'abrogazione del presente Protocollo conformemente all'articolo 10; 
+ e. le dichiarazioni e notificazioni ricevute conformemente ai paragrafi 1 e 2 dell'articolo 12. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Protocollo addizionale-art. 16">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/!main/annesso_17"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-03-08;37"/>
+                                <FRBRalias name="eli" value="eli/id/2024/03/27/24G00053/ORIGINAL"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_17"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28"/>
+                                <FRBRdate date="2024-03-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28/!main/annesso_17.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2024-03-08/37/ita@2024-03-28.xml"/>
+                                <FRBRdate date="2024-03-08" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Articolo 16. 
+ Depositario 
+ 
+ L'originale del presente Protocollo e' depositato presso Il Segretario generale dell'Organizzazione delle Nazioni Unite che ne invia copia autenticata a ognuno dei Paesi di cui ai paragrafi 1, 3 e 4 dell'articolo 7 del presente Protocollo. 
+ Fatto a Ginevra il venti febbraio duemilaeotto, in un solo esemplare, nelle lingue inglese e francese, i due testi facenti ugualmente fede. 
+ Firme 
+ In fede di che, i sottoscritti, debitamente autorizzati, hanno firmato il presente Protocollo. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
