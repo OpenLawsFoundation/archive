@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto_del_presidente_della_repubblica/stato/2022-07-21/96/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_del_presidente_della_repubblica/stato/2022-07-21/96"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.del.presidente.della.repubblica:2022-07-21;96"/>
+                    <FRBRalias name="eli" value="eli/id/2022/07/21/22G00106/ORIGINAL"/>
+                    <FRBRdate date="2022-07-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/07/21/22G00106/ORIGINAL" aknrelname="eli/id/2022/07/21/22G00106/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Scioglimento del Senato della Repubblica e della Camera dei deputati. (22G00106)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="22G00106" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO DEL PRESIDENTE DELLA REPUBBLICA"/>
+                            <nrdfa:span content="2022-07-21" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto_del_presidente_della_repubblica/stato/2022-07-21/96/ita@2022-07-21/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_del_presidente_della_repubblica/stato/2022-07-21/96/ita@2022-07-21"/>
+                    <FRBRdate date="2022-07-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/07/21/22G00106/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2022/07/21/22G00106/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2022/07/21/22G00106/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto_del_presidente_della_repubblica/stato/2022-07-21/96/ita@2022-07-21/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto_del_presidente_della_repubblica/stato/2022-07-21/96/ita@2022-07-21.xml"/>
+                    <FRBRdate date="2022-07-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2022/07/21/22G00106/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2022-07-21" name="" number="169" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2022-07-21" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO_DEL_PRESIDENTE_DELLA_REPUBBLICA/stato/2022-07-21/96/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2022/07/21/22G00106/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Scioglimento del Senato della Repubblica e della Camera dei deputati. (22G00106)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>22G00106</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO DEL PRESIDENTE DELLA REPUBBLICA"/>
+                        <eli:date_document rdf:datatype="xsd:date">2022-07-21</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/07/21/22G00106/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2022/07/21/22G00106/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2022/07/21/22G00106/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2022/07/21/22G00106/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/dpr/stato/2022/96" nativeUrn="urn:nir:stato:decreto.del.presidente.della.repubblica:2022-07-21;96" jurisdiction="it"/><ns0:lifecycle inForceFrom="2022-07-21"><ns0:event type="enacted" date="2022-07-21"/><ns0:event type="published" date="2022-07-21"/><ns0:event type="commenced" date="2022-07-21"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/0d9e24dc-1a7b-431e-b6c9-345adbc8b2f0" sourceSha256="1e3a1fcb75251f8c4ccb5fa3194bc298c6c08997906d7468191b5ecbcc8b4262" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T23:12:03.621894Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO DEL PRESIDENTE DELLA REPUBBLICA</docType>
+                <docDate date="2022-07-21">21 luglio 2022</docDate>
+                <docNumber>96</docNumber>
+                <docTitle>Scioglimento del Senato della Repubblica e della Camera dei deputati. (22G00106) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 21/07/2022</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p/>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p/>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p> 
+ IL PRESIDENTE DELLA REPUBBLICA 
+ 
+ Visto l'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_88" ns1:target="olf:it/costituzione/stato/1947/const/art_88" ns1:relation="cites">articolo 88 della Costituzione</ref>; 
+ Sentiti i Presidenti del Senato della Repubblica e della Camera dei deputati; 
+ 
+ Decreta: 
+ 
+ Il Senato della Repubblica e la Camera dei deputati sono sciolti. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 21 luglio 2022 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
