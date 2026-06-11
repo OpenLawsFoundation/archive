@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2024-12-10/198/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2024-12-10/198"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legislativo:2024-12-10;198"/>
+                    <FRBRalias name="eli" value="eli/id/2024/12/23/24G00216/ORIGINAL"/>
+                    <FRBRdate date="2024-12-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/23/24G00216/ORIGINAL" aknrelname="eli/id/2024/12/23/24G00216/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni per il compiuto adeguamento della normativa nazionale alle disposizioni della direttiva (UE) 2016/343 del Parlamento europeo e del Consiglio, del 9 marzo 2016, sul rafforzamento di alcuni aspetti della presunzione di innocenza e del diritto di presenziare al processo nei procedimenti penali. (24G00216)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00216" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO LEGISLATIVO"/>
+                            <nrdfa:span content="2024-12-10" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2024-12-10/198/ita@2025-01-07/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2024-12-10/198/ita@2025-01-07"/>
+                    <FRBRdate date="2025-01-07" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/23/24G00216/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/12/23/24G00216/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/12/23/24G00216/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto_legislativo/stato/2024-12-10/198/ita@2025-01-07/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto_legislativo/stato/2024-12-10/198/ita@2025-01-07.xml"/>
+                    <FRBRdate date="2024-12-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/12/23/24G00216/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-12-23" name="" number="300" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-12-23" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:decreto.legislativo:2024-12-10;198#2"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#114"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera a)) la modifica dell'art. 114, comma 2; (con l'art. 2, comma 1, lettera b)) l'introduzione del comma 6-ter all'art. 114.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="repeal">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2025-01-07/!main/~art_114__para_2"/>
+                        <old href="#modNov_1_old_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto_del_presidente_della_repubblica/stato/1988-09-22/447/ita@2025-01-07/!main/~art_114__para_6-ter"/>
+                        <new href="#modNov_2_new_2"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO_LEGISLATIVO/stato/2024-12-10/198/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/12/23/24G00216/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni per il compiuto adeguamento della normativa nazionale alle disposizioni della direttiva (UE) 2016/343 del Parlamento europeo e del Consiglio, del 9 marzo 2016, sul rafforzamento di alcuni aspetti della presunzione di innocenza e del diritto di presenziare al processo nei procedimenti penali. (24G00216)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00216</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO LEGISLATIVO"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-12-10</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/12/23/24G00216/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/12/23/24G00216/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/12/23/24G00216/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/12/23/24G00216/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legislativo/stato/2024/198" nativeUrn="urn:nir:stato:decreto.legislativo:2024-12-10;198" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-12-23"><ns0:event type="enacted" date="2024-12-10"/><ns0:event type="published" date="2024-12-23"/><ns0:event type="commenced" date="2024-12-23"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/a49ed1ec-b3ac-4ed9-a227-17547e171176" sourceSha256="b37ff81b0436d5dc9469d8b6c5ca20951ebad9d83f23d7a40f4f92baa5f0dcde" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T19:15:48.002144Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO LEGISLATIVO</docType>
+                <docDate date="2024-12-10">10 dicembre 2024</docDate>
+                <docNumber>198</docNumber>
+                <docTitle>Disposizioni per il compiuto adeguamento della normativa nazionale alle disposizioni della direttiva (UE) 2016/343 del Parlamento europeo e del Consiglio, del 9 marzo 2016, sul rafforzamento di alcuni aspetti della presunzione di innocenza e del diritto di presenziare al processo nei procedimenti penali. (24G00216) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 07/01/2025</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <citations eId="cits_1">
+                <citation eId="cits_1__cit_1">
+                    <p>Visti gli <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_1" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_76" ns1:target="olf:it/costituzione/stato/1947/const/art_76" ns1:relation="cites">articoli 76</ref> e <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_2" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns2:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns2:relation="cites">87, quinto comma, della Costituzione</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_2">
+                <citation eId="cits_2__cit_1">
+                    <p>Visto l'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_14" ns3:target="olf:it/legge/stato/1988/400/art_14" ns3:relation="cites">articolo 14 della legge 23 agosto 1988, n. 400</ref>;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_3">
+                <citation eId="cits_3__cit_1">
+                    <p>Vista la <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_4" href="/akn/it/act/legge/stato/2024-02-21/15/!main" ns4:target="olf:it/legge/stato/2024/15" ns4:relation="cites">legge 21 febbraio 2024, n. 15</ref>, recante delega al Governo per il recepimento delle direttive europee e l'attuazione di altri atti dell'Unione europea - Legge di delegazione europea 2022 - 2023, e, in particolare, l'articolo 4;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_4">
+                <citation eId="cits_4__cit_1">
+                    <p>Vista la <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_5" href="/akn/it/act/legge/stato/2012-12-24/234/!main" ns5:target="olf:it/legge/stato/2012/234" ns5:relation="cites">legge 24 dicembre 2012, n. 234</ref>, recante norme generali sulla partecipazione dell'Italia alla formazione e all'attuazione della normativa e delle politiche dell'Unione europea;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_5">
+                <citation eId="cits_5__cit_1">
+                    <p>Vista la <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="ref_6" href="/akn/it/act/direttivaUe/eu/2016/343/!main" ns6:resolution="unresolved">direttiva (UE) 2016/343 del Parlamento europeo e del Consiglio, del 9 marzo 2016</ref>, sul rafforzamento di alcuni aspetti della presunzione di innocenza e del diritto di presenziare al processo nei procedimenti penali;</p>
+                </citation>
+            </citations>
+            <citations eId="cits_6">
+                <citation eId="cits_6__cit_1">
+                    <p>Vista la deliberazione preliminare del Consiglio dei ministri, adottata nella riunione del 4 settembre 2024;</p>
+                </citation>
+            </citations>
+            <p>Acquisiti i pareri delle competenti Commissioni parlamentari della Camera dei deputati e del Senato della Repubblica e viste le osservazioni svolte, che sono state accolte solo in riferimento all'ampliamento del contenuto della norma, ma non all'introduzione di un nuovo apparato sanzionatorio;</p>
+            <citations eId="cits_7">
+                <citation eId="cits_7__cit_1">
+                    <p>Vista la deliberazione del Consiglio dei ministri, adottata nella riunione del 9 dicembre 2024;</p>
+                </citation>
+            </citations>
+            <p>Sulla proposta del Ministro per gli affari europei, il PNRR e le politiche di coesione e del Ministro della giustizia, di concerto con i Ministri degli affari esteri e della cooperazione internazionale e dell'economia e delle finanze;</p>
+            <formula name="formulaFinalePreambolo">
+                <p>Emana il seguente decreto legislativo:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Oggetto</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il presente decreto reca disposizioni integrative per il rafforzamento di alcuni aspetti della presunzione di innocenza delle persone fisiche sottoposte a indagini o imputate in un procedimento penale in attuazione della <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/direttivaUe/eu/2016/343/!main" ns7:resolution="unresolved">direttiva (UE) 2016/343 del Parlamento europeo e del Consiglio, del 9 marzo 2016</ref>, sul rafforzamento di alcuni aspetti della presunzione di innocenza e del diritto di presenziare al processo nei procedimenti penali. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> NOTE 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto ai sensi dell'articolo 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns8:target="olf:it/dpr/stato/1985/1092" ns8:relation="cites">d.P.R. 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge, modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ Per le direttive CEE vengono forniti gli estremi di pubblicazione nella Gazzetta Ufficiale delle Comunita' europee (GUUE). 
+ 
+ Note alle premesse: 
+ - L'art. 76. della Costituzione stabilisce che l'esercizio della funzione legislativa non puo' essere delegato al Governo se non con determinazione di principi e criteri direttivi e soltanto per tempo limitato e per oggetti definiti. 
+ - L'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_87-com5" ns9:target="olf:it/costituzione/stato/1947/const/art_87-com5" ns9:relation="cites">art. 87, quinto comma, della Costituzione</ref> conferisce al Presidente della Repubblica il potere di promulgare le leggi ed emanare i decreti aventi valore di legge e i regolamenti. 
+ - Si riporta l'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_14" ns10:target="olf:it/legge/stato/1988/400/art_14" ns10:relation="cites">articolo 14 della legge 23 agosto 1988, n. 400</ref> recante: «Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri», pubblicata nella Gazzetta Ufficiale 12 settembre 1988, n. 214, S.O. n. 86: 
+ «Art. 14 (Decreti legislativi). - 1. I decreti legislativi adottati dal Governo ai sensi dell'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_76" ns11:target="olf:it/costituzione/stato/1947/const/art_76" ns11:relation="cites">articolo 76 della Costituzione</ref> sono emanati dal Presidente della Repubblica con la denominazione di "decreto legislativo" e con l'indicazione, nel preambolo, della legge di delegazione, della deliberazione del Consiglio dei ministri e degli altri adempimenti del procedimento prescritti dalla legge di delegazione. 
+ 2. L'emanazione del decreto legislativo deve avvenire entro il termine fissato dalla legge di delegazione; il testo del decreto legislativo adottato dal Governo e' trasmesso al Presidente della Repubblica, per la emanazione, almeno venti giorni prima della scadenza. 
+ 3. Se la delega legislativa si riferisce ad una pluralita' di oggetti distinti suscettibili di separata disciplina, il Governo puo' esercitarla mediante piu' atti successivi per uno o piu' degli oggetti predetti. In relazione al termine finale stabilito dalla legge di delegazione, il Governo informa periodicamente le Camere sui criteri che segue nell'organizzazione dell'esercizio della delega. 
+ 4. In ogni caso, qualora il termine previsto per l'esercizio della delega ecceda in due anni, il Governo e' tenuto a richiedere il parere delle Camere sugli schemi dei decreti delegati. Il parere e' espresso dalle Commissioni permanenti delle due Camere competenti per materia entro sessanta giorni, indicando specificamente le eventuali disposizioni non ritenute corrispondenti alle direttive della legge di delegazione. Il Governo, nei trenta giorni successivi, esaminato il parere, ritrasmette, con le sue osservazioni e con eventuali modificazioni, i testi alle Commissioni per il parere definitivo che deve essere espresso entro trenta giorni.». 
+ - Si riporta l'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2024-02-21/15/!main#art_4" ns12:target="olf:it/legge/stato/2024/15/art_4" ns12:relation="cites">articolo 4 della legge 21 febbraio 2024, n. 15</ref>, recante: «Delega al Governo per il recepimento delle direttive europee e l'attuazione di altri atti dell'Unione europea - Legge di delegazione europea 2022-2023», pubblicata nella Gazzetta Ufficiale n. 46 del 24 febbraio 2024: 
+ «Art. 4 (Delega al Governo per l'integrazione delle norme nazionali di recepimento della <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/direttivaUe/eu/2016/343/!main" ns13:resolution="unresolved">direttiva (UE) 2016/343</ref> sul rafforzamento di alcuni aspetti della presunzione di innocenza e del diritto di presenziare al processo nei procedimenti penali). - 1. Al fine di garantire l'integrale e compiuto adeguamento alla <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/direttivaUe/eu/2016/343/!main" ns14:resolution="unresolved">direttiva (UE) 2016/343 del Parlamento europeo e del Consiglio, del 9 marzo 2016</ref>, anche al fine di integrare quanto disposto dal <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/2021-11-08/188/!main" ns15:target="olf:it/decreto-legislativo/stato/2021/188" ns15:relation="cites">decreto legislativo 8 novembre 2021, n. 188</ref>, nonche' di assicurare l'effettivo rispetto dell'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_27-com2" ns16:target="olf:it/costituzione/stato/1947/const/art_27-com2" ns16:relation="cites">articolo 27, secondo comma, della Costituzione</ref>, il Governo e' delegato ad adottare uno o piu' decreti legislativi, entro sei mesi dalla data di entrata in vigore della presente legge, con le procedure di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_31" ns17:target="olf:it/legge/stato/2012/234/art_31" ns17:relation="cites">articolo 31 della legge 24 dicembre 2012, n. 234</ref>, acquisito il parere delle competenti Commissioni parlamentari. 
+ 2. I decreti legislativi di cui al comma 1 sono adottati su proposta del Ministro per gli affari europei, il Sud, le politiche di coesione e il PNRR e del Ministro della giustizia. 
+ 3. Nell'esercizio della delega di cui al comma 1, il Governo e' tenuto a osservare, oltre ai principi e criteri direttivi generali di cui all'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2012-12-24/234/!main#art_32" ns18:target="olf:it/legge/stato/2012/234/art_32" ns18:relation="cites">articolo 32 della legge 24 dicembre 2012, n. 234</ref>, anche il seguente principio e criterio direttivo specifico: modificare l'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_114" ns19:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_114" ns19:relation="cites">articolo 114 del codice di procedura penale</ref> prevedendo, nel rispetto dell'<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_21" ns20:target="olf:it/costituzione/stato/1947/const/art_21" ns20:relation="cites">articolo 21 della Costituzione</ref> e in attuazione dei principi e diritti sanciti dagli <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_24" ns21:target="olf:it/costituzione/stato/1947/const/art_24" ns21:relation="cites">articoli 24</ref> e <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/costituzione/stato/1947-12-27/const/!main#art_27" ns22:target="olf:it/costituzione/stato/1947/const/art_27" ns22:relation="cites">27 della Costituzione</ref>, il divieto di pubblicazione integrale o per estratto del testo dell'ordinanza di custodia cautelare finche' non siano concluse le indagini preliminari ovvero fino al termine dell'udienza preliminare, in coerenza con quanto disposto dagli <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act///2016/343/!main#art_3" ns23:resolution="unresolved">articoli 3</ref> e <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/direttivaUe/eu/2016/343/!main" ns24:resolution="unresolved">4 della direttiva (UE) 2016/343</ref>.». 
+ - La <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/2012-12-24/234/!main" ns25:target="olf:it/legge/stato/2012/234" ns25:relation="cites">legge 24 dicembre 2012, n. 234</ref>, recante: "Norme generali sulla partecipazione dell'Italia alla formazione e all'attuazione della normativa e delle politiche dell'Unione europea" e' pubblicata nella Gazzetta Ufficiale n. 3 del 4 gennaio 2013. 
+ - La <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/direttivaUe/eu/2016/343/!main" ns26:resolution="unresolved">direttiva (UE) 2016/343 del Parlamento europeo e del Consiglio, del 9 marzo 2016</ref>, sul rafforzamento di alcuni aspetti della presunzione di innocenza e del diritto di presenziare al processo nei procedimenti penali, e' pubblicata nella G.U.U.E. 11 marzo 2016, n. L 65. 
+ 
+ Note all'art. 1: 
+ - Per i riferimenti alla <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/direttivaUe/eu/2016/343/!main" ns27:resolution="unresolved">direttiva (UE) 2016/343 del Parlamento europeo e del Consiglio, del 9 marzo 2016</ref>, si veda nelle note alle premesse. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Modifiche al codice di procedura penale</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>All'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_114" ns28:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_114" ns28:relation="cites">articolo 114 del codice di procedura penale</ref> sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_1">al comma 2, le parole «<quotedText eId="modNov_1_old_1">, fatta eccezione per l'ordinanza indicata dall'articolo 292</quotedText>» sono soppresse;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_2">dopo il comma 6-bis, e' aggiunto il seguente: 
+ «<quotedText eId="modNov_2_new_2">6-ter. Fermo quanto disposto dal comma 7, e' vietata la pubblicazione delle ordinanze che applicano misure cautelari personali fino a che non siano concluse le indagini preliminari ovvero fino al termine dell'udienza preliminare.</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta il testo dell'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_114" ns29:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_114" ns29:relation="cites">articolo 114 del codice di procedura penale</ref>, come modificato dal presente decreto: 
+ «Art. 114 (Divieto di pubblicazione di atti e di immagini). - 1. E' vietata la pubblicazione, anche parziale o per riassunto, con il mezzo della stampa o con altro mezzo di diffusione, degli atti coperti dal segreto o anche solo del loro contenuto. 
+ 2. E' vietata la pubblicazione, anche parziale, degli atti non piu' coperti dal segreto fino a che non siano concluse le indagini preliminari ovvero fino al termine dell'udienza preliminare. 
+ 2-bis. E' sempre vietata la pubblicazione, anche parziale, del contenuto delle intercettazioni se non e' riprodotto dal giudice nella motivazione di un provvedimento o utilizzato nel corso del dibattimento. 
+ 3. Se si procede al dibattimento, non e' consentita la pubblicazione, anche parziale, degli atti del fascicolo per il dibattimento, se non dopo la pronuncia della sentenza di primo grado, e di quelli del fascicolo del pubblico ministero, se non dopo la pronuncia della sentenza in grado di appello. E' sempre consentita la pubblicazione degli atti utilizzati per le contestazioni. 
+ 4. E' vietata la pubblicazione, anche parziale, degli atti del dibattimento celebrato a porte chiuse nei casi previsti dall'articolo 472 commi 1 e 2. In tali casi il giudice, sentite le parti, puo' disporre il divieto di pubblicazione anche degli atti o di parte degli atti utilizzati per le contestazioni. Il divieto di pubblicazione cessa comunque quando sono trascorsi i termini stabiliti dalla legge sugli archivi di Stato ovvero e' trascorso il termine di dieci anni dalla sentenza irrevocabile e la pubblicazione e' autorizzata dal ministro di grazia e giustizia. 
+ 5. Se non si procede al dibattimento, il giudice, sentite le parti, puo' disporre il divieto di pubblicazione di atti o di parte di atti quando la pubblicazione di essi puo' offendere il buon costume o comportare la diffusione di notizie sulle quali la legge prescrive di mantenere il segreto nell'interesse dello Stato ovvero causare pregiudizio alla riservatezza dei testimoni o delle parti private. Si applica la disposizione dell'ultimo periodo del comma 4. 
+ 6. E' vietata la pubblicazione delle generalita' e dell'immagine dei minorenni testimoni, persone offese o danneggiati dal reato fino a quando non sono divenuti maggiorenni. E' altresi' vietata la pubblicazione di elementi che anche indirettamente possano comunque portare alla identificazione dei suddetti minorenni. Il tribunale per i minorenni, nell'interesse esclusivo del minorenne, o il minorenne che ha compiuto i sedici anni, puo' consentire la pubblicazione. 
+ 6-bis. E' vietata la pubblicazione dell'immagine di persona privata della liberta' personale ripresa mentre la stessa si trova sottoposta all'uso di manette ai polsi ovvero ad altro mezzo di coercizione fisica, salvo che la persona vi consenta. 
+ 6-ter. Fermo quanto disposto dal comma 7, e' vietata la pubblicazione delle ordinanze che applicano misure cautelari personali fino a che non siano concluse le indagini preliminari ovvero fino al termine dell'udienza preliminare. 
+ 7. E' sempre consentita la pubblicazione del contenuto di atti non coperti dal segreto.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione del presente decreto non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono alle attivita' previste dal medesimo decreto mediante le risorse umane, strumentali e finanziarie disponibili a legislazione vigente. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 10 dicembre 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Foti, Ministro per gli affari europei, il PNRR e le politiche di coesione Nordio, Ministro della giustizia Tajani, Ministro degli affari esteri e della cooperazione internazionale Giorgetti, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
