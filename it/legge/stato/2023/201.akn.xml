@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-11-28/201/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-11-28/201"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-11-28;201"/>
+                    <FRBRalias name="eli" value="eli/id/2023/12/22/23G00210/ORIGINAL"/>
+                    <FRBRdate date="2023-11-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/22/23G00210/ORIGINAL" aknrelname="eli/id/2023/12/22/23G00210/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Disposizioni in materia di associazioni professionali a carattere sindacale tra militari, delega al Governo per la revisione dello strumento militare nazionale, nonche' disposizioni in materia di termini legislativi. (23G00210)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00210" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-11-28" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-11-28/201/ita@2024-01-06/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-11-28/201/ita@2024-01-06"/>
+                    <FRBRdate date="2024-01-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/22/23G00210/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/12/22/23G00210/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/12/22/23G00210/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-11-28/201/ita@2024-01-06/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-11-28/201/ita@2024-01-06.xml"/>
+                    <FRBRdate date="2023-11-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/12/22/23G00210/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-12-22" name="" number="298" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-12-22" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2023-11-28" refersTo="#S.825"/>
+                <step by="#camera" date="2023-11-28" refersTo="#C.1538"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-11-28;201#1"/>
+                        <destination href="urn:nir:stato:legge:2022-04-28;46#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9, comma 15.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-11-28;201#3"/>
+                        <destination href="urn:nir:stato:legge:2022-08-05;118#26"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1, lettera a)) la modifica dell'art. 26, comma 4; (con l'art. 3, comma 1, lettera b)) la modifica dell'art. 26, comma 7.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/legge/stato/2022-04-28/46/ita@2024-01-06/!main/~art_9__para_15"/>
+                        <old href="#modNov_1_old_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/legge/stato/2022-08-05/118/ita@2024-01-06/!main/~art_26__para_4"/>
+                        <old href="#modNov_2_old_1"/>
+                        <new href="#modNov_2_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="substitution">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/legge/stato/2022-08-05/118/ita@2024-01-06/!main/~art_26__para_7"/>
+                        <old href="#modNov_3_old_2"/>
+                        <new href="#modNov_3_new_2"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-11-28/201/!main" showAs=""/>
+                <passiveRef eId="S.825" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;825" showAs=""/>
+                <passiveRef eId="C.1538" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1538" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/12/22/23G00210/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Disposizioni in materia di associazioni professionali a carattere sindacale tra militari, delega al Governo per la revisione dello strumento militare nazionale, nonche' disposizioni in materia di termini legislativi. (23G00210)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00210</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-11-28</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/12/22/23G00210/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/12/22/23G00210/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/12/22/23G00210/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/12/22/23G00210/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/201" nativeUrn="urn:nir:stato:legge:2023-11-28;201" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-12-22"><ns0:event type="enacted" date="2023-11-28"/><ns0:event type="published" date="2023-12-22"/><ns0:event type="commenced" date="2023-12-22"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/76ae1226-ce12-471b-b22b-909fdb736332" sourceSha256="73614523787234e96fe1268063aa0e86832c9fa900f01a5b35b56ea1e92e8e71" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T21:08:45.251973Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-11-28">28 novembre 2023</docDate>
+                <docNumber>201</docNumber>
+                <docTitle>Disposizioni in materia di associazioni professionali a carattere sindacale tra militari, delega al Governo per la revisione dello strumento militare nazionale, nonche' disposizioni in materia di termini legislativi. (23G00210) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 06/01/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Disposizioni in materia di associazioni professionali 
+ a carattere sindacale tra militari</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">All'<ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2022-04-28/46/!main#art_9-com15" ns1:target="olf:it/legge/stato/2022/46/art_9-com15" ns1:relation="amends">articolo 9, comma 15, della legge 28 aprile 2022, n. 46</ref>, le parole: «<quotedText eId="modNov_1_old_1">diciotto mesi</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_1_new_1">trenta mesi</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'Amministrazione competente per materia, ai sensi dell'articolo 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns2:target="olf:it/dpr/stato/1985/1092" ns2:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'art. 1: 
+ - Si riporta il testo del <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2022-04-28/46/!main#art_9-com15" ns3:target="olf:it/legge/stato/2022/46/art_9-com15" ns3:relation="amends">comma 15 dell'articolo 9 della legge 28 aprile 2022, n. 46</ref>, recante: «Norme sull'esercizio della liberta' sindacale del personale delle Forze armate e delle Forze di polizia a ordinamento militare, nonche' delega al Governo per il coordinamento normativo», pubblicata nella Gazzetta Ufficiale del 12 maggio 2022, n. 110, come modificato dalla presente legge: 
+ «Art. 9 (Svolgimento dell'attivita' di carattere sindacale e delega al Governo per la disciplina dell'esercizio dei diritti sindacali da parte del personale impiegato in luogo di operazioni). - 1.-14. (omissis) 
+ 15. Il Governo e' delegato ad adottare, entro trenta mesi dalla data di entrata in vigore della presente legge, un decreto legislativo per disciplinare le particolari limitazioni all'esercizio dell'attivita' di carattere sindacale da parte del personale impiegato in attivita' operativa, addestrativa, formativa ed esercitativa, anche fuori del territorio nazionale, inquadrato in contingenti o a bordo di unita' navali ovvero distaccato individualmente, secondo il seguente principio e criterio direttivo: consentire l'esercizio e la tutela dei diritti sindacali del personale militare salvaguardando le preminenti esigenze di funzionalita', sicurezza e prontezza operativa correlate alle specifiche operazioni militari. 
+ 16.-18. (omissis).». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Delega al Governo per la revisione 
+ dello strumento militare nazionale</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Governo e' delegato ad adottare, entro ventiquattro mesi dalla data di entrata in vigore della presente legge, uno o piu' decreti legislativi per la revisione dello strumento militare nazionale, disciplinato dal <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns4:target="olf:it/decreto-legislativo/stato/2010/66" ns4:relation="cites">codice dell'ordinamento militare</ref>, di cui al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns5:target="olf:it/decreto-legislativo/stato/2010/66" ns5:relation="cites">decreto legislativo 15 marzo 2010, n. 66</ref>, nel rispetto dei principi e criteri direttivi stabiliti dall'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_9-com1-letb" ns6:target="olf:it/legge/stato/2022/119/art_9-com1-letb" ns6:relation="amends">articolo 9, comma 1, lettere b)</ref>, <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_9-com1-letd" ns7:target="olf:it/legge/stato/2022/119/art_9-com1-letd" ns7:relation="amends">d)</ref>, <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_9-com1-lete" ns8:target="olf:it/legge/stato/2022/119/art_9-com1-lete" ns8:relation="amends">e)</ref>, <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_9-com1-letf" ns9:target="olf:it/legge/stato/2022/119/art_9-com1-letf" ns9:relation="amends">f)</ref>, <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_9-com1-letg" ns10:target="olf:it/legge/stato/2022/119/art_9-com1-letg" ns10:relation="amends">g)</ref> e <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_9-com1-leth" ns11:target="olf:it/legge/stato/2022/119/art_9-com1-leth" ns11:relation="amends">h), della legge 5 agosto 2022, n. 119</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>I decreti legislativi di cui al comma 1 sono adottati su proposta del Presidente del Consiglio dei ministri e del Ministro della difesa, di concerto con il Ministro per la pubblica amministrazione e con il Ministro dell'economia e delle finanze nonche', per i profili di rispettiva competenza, con il Ministro della salute, con il Ministro dell'istruzione e del merito e con il Ministro del lavoro e delle politiche sociali, previa acquisizione dell'intesa in sede di Conferenza unificata di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns12:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns12:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>, relativamente all'attuazione dei principi e criteri direttivi di cui all'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_9-com1-letd" ns13:target="olf:it/legge/stato/2022/119/art_9-com1-letd" ns13:relation="amends">articolo 9, comma 1, lettere d)</ref>, <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_9-com1-letf" ns14:target="olf:it/legge/stato/2022/119/art_9-com1-letf" ns14:relation="amends">f)</ref>, <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_9-com1-letg" ns15:target="olf:it/legge/stato/2022/119/art_9-com1-letg" ns15:relation="amends">g)</ref> e <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_9-com1-leth" ns16:target="olf:it/legge/stato/2022/119/art_9-com1-leth" ns16:relation="amends">h), della legge 5 agosto 2022, n. 119, e del parere</ref> del Consiglio di Stato, sentito, per le sole materie di sua competenza, il Consiglio centrale di rappresentanza militare. Gli schemi dei decreti legislativi, corredati di relazione tecnica che da' conto della neutralita' finanziaria dei medesimi ovvero dei nuovi o maggiori oneri da essi derivanti e dei corrispondenti mezzi di copertura, sono trasmessi alle Camere per l'espressione del parere delle Commissioni parlamentari competenti per materia e per i profili finanziari, le quali si pronunciano entro sessanta giorni dalla data della trasmissione; decorso tale termine, i decreti possono essere adottati anche in mancanza del parere. Se il termine per l'espressione del parere parlamentare scade nei trenta giorni che precedono la scadenza del termine previsto dal comma 1 o successivamente, quest'ultimo termine e' prorogato di novanta giorni. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Entro due anni dalla data di entrata in vigore di ciascuno dei decreti legislativi di cui al comma 1, il Governo puo' adottare disposizioni integrative e correttive, con le modalita' e nel rispetto dei principi e criteri direttivi di cui al presente articolo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>In conformita' all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_17-com2" ns17:target="olf:it/legge/stato/2009/196/art_17-com2" ns17:relation="cites">articolo 17, comma 2, della legge 31 dicembre 2009, n. 196</ref>, qualora uno o piu' decreti legislativi adottati ai sensi del presente articolo, in particolare quelli attuativi dei principi e criteri direttivi di cui alle <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/legge/stato/2022/119/!main#art_9-com1-letb" ns18:resolution="unresolved">lettere b)</ref>, <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2022/119/!main#art_9-com1-letd" ns19:resolution="unresolved">d)</ref> e <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2022/119/!main#art_9-com1-letg" ns20:resolution="unresolved">g) del comma 1 dell'articolo 9 della legge n. 119 del 2022</ref>, determinino nuovi o maggiori oneri che non trovino compensazione al loro interno, essi sono emanati solo successivamente o contestualmente all'entrata in vigore dei provvedimenti legislativi che stanzino le occorrenti risorse finanziarie. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Gli interventi normativi previsti dalle disposizioni dei decreti legislativi adottati ai sensi del presente articolo sono effettuati apportando le necessarie modificazioni al codice di cui al <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns21:target="olf:it/decreto-legislativo/stato/2010/66" ns21:relation="cites">decreto legislativo 15 marzo 2010, n. 66</ref>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Il Governo apporta al <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/90/!main" ns22:target="olf:it/dpr/stato/2010/90" ns22:relation="cites">testo unico delle disposizioni regolamentari in materia di ordinamento militare</ref>, di cui al <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/90/!main" ns23:target="olf:it/dpr/stato/2010/90" ns23:relation="cites">decreto del Presidente della Repubblica 15 marzo 2010, n. 90</ref>, le modificazioni occorrenti per l'adeguamento ai decreti legislativi adottati ai sensi del presente articolo. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'<ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegislativo/stato/2010-03-16/66/!main#art_2" ns24:target="olf:it/decreto-legislativo/stato/2010/66/art_2" ns24:relation="cites">art. 2: 
+ - Il decreto legislativo 16 marzo 2010, n. 66</ref>, recante: «<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns25:target="olf:it/decreto-legislativo/stato/2010/66" ns25:relation="cites">Codice dell'ordinamento militare</ref>», e' pubblicato nel Supplemento ordinario n. 84 della Gazzetta Ufficiale dell'8 maggio 2010, n. 106. 
+ - Si riporta il <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_com1-letb" ns26:target="olf:it/legge/stato/2022/119/art_com1-letb" ns26:relation="amends">comma 1, lettere b)</ref>, <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_com1-letd" ns27:target="olf:it/legge/stato/2022/119/art_com1-letd" ns27:relation="amends">d)</ref>, <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_com1-lete" ns28:target="olf:it/legge/stato/2022/119/art_com1-lete" ns28:relation="amends">e)</ref>, <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_com1-letf" ns29:target="olf:it/legge/stato/2022/119/art_com1-letf" ns29:relation="amends">f)</ref>, <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_com1-letg" ns30:target="olf:it/legge/stato/2022/119/art_com1-letg" ns30:relation="amends">g)</ref> e <ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/legge/stato/2022-08-05/119/!main#art_9-com1-leth" ns31:target="olf:it/legge/stato/2022/119/art_9-com1-leth" ns31:relation="amends">h) dell'articolo 9 della legge 5 agosto 2022, n. 119</ref>, recante: «Disposizioni di revisione del modello di Forze armate interamente professionali, di proroga del termine per la riduzione delle dotazioni dell'Esercito italiano, della Marina militare, escluso il Corpo delle capitanerie di porto, e dell'Aeronautica militare, nonche' in materia di avanzamento degli ufficiali. Delega al Governo per la revisione dello strumento militare nazionale», pubblicata nella Gazzetta Ufficiale del 13 agosto 2022, n. 189: 
+ «Art. 9 (Delega legislativa per la revisione dello strumento militare nazionale). - 1. Il Governo e' delegato ad adottare, entro dodici mesi dalla data di entrata in vigore della presente legge, uno o piu' decreti legislativi per la revisione dello strumento militare nazionale, disciplinato dal codice di cui al <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns32:target="olf:it/decreto-legislativo/stato/2010/66" ns32:relation="cites">decreto legislativo 15 marzo 2010, n. 66</ref>, nel rispetto dei seguenti principi e criteri direttivi: 
+ a) (omissis); 
+ b) revisione, secondo criteri di efficienza e organicita', degli strumenti finalizzati al progressivo raggiungimento, entro il 2033, delle dotazioni organiche complessive del personale militare dell'Esercito italiano, della Marina militare, escluso il Corpo delle capitanerie di porto, e dell'Aeronautica militare, di cui all'articolo 798, comma 1, del codice di cui al <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2010/66/!main" ns33:resolution="unresolved">decreto legislativo n. 66 del 2010</ref>; 
+ c) (omissis); 
+ d) istituzione di una riserva ausiliaria dello Stato, non superiore a 10.000 unita' di personale volontario, ripartito in nuclei operativi di livello regionale posti alle dipendenze delle autorita' militari individuate con decreto del Ministro della difesa, impiegabile nei casi previsti dall'articolo 887, comma 2, del codice di cui al <ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decretoLegislativo/stato/2010/66/!main#art_24" ns34:resolution="unresolved">decreto legislativo n. 66 del 2010 e dall'articolo 24</ref> del codice della protezione civile, di cui al <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoLegislativo/stato/2018-01-02/1/!main" ns35:target="olf:it/decreto-legislativo/stato/2018/1" ns35:relation="cites">decreto legislativo 2 gennaio 2018, n. 1</ref>, ovvero in forma complementare e in attivita' in campo logistico nonche' di cooperazione civile-militare, disciplinandone la struttura organizzativa, le modalita' di funzionamento, nonche' lo stato giuridico militare e le modalita' di reclutamento, addestramento, collocamento in congedo e richiamo in servizio del relativo personale; 
+ e) previsione della possibilita', per i volontari in ferma prefissata, di partecipare ai concorsi per il reclutamento nelle altre categorie di personale delle Forze armate ovvero introduzione o incremento delle riserve di posti a loro favore nei medesimi concorsi; 
+ f) previsione di iniziative, nell'ambito delle risorse umane e strumentali assegnate a legislazione vigente, per ridefinire la formazione dei volontari in ferma prefissata triennale, associando all'addestramento militare di base e specialistico, compreso quello relativo a operazioni cibernetiche, attivita' di studio e di qualificazione professionale volte all'acquisizione di competenze polifunzionali utilizzabili anche nel mercato del lavoro, nonche' mediante l'ottimizzazione dell'offerta formativa del catalogo dei corsi della Difesa; 
+ g) revisione della struttura organizzativa e ordinativa del Servizio sanitario militare secondo criteri interforze e di specializzazione, prevedendo: 
+ 1) l'adeguamento delle strutture e delle risorse strumentali anche per l'utilizzazione a supporto del Servizio sanitario nazionale, definendone le modalita'; 
+ 2) la possibilita', per i medici militari e il personale militare delle professioni sanitarie, di esercitare l'attivita' libero-professionale intramuraria sulla base di convenzioni stipulate tra il Ministero della difesa, il Ministero della salute, il Ministero dell'economia e delle finanze e le regioni; 
+ h) istituzione di fascicoli sanitari relativi agli accertamenti sanitari effettuati nell'ambito di una procedura concorsuale di qualsiasi Forza armata, prevedendo che ad essi sia riconosciuta validita' in riferimento a ulteriori procedure concorsuali della stessa o di altra Forza armata, per un arco temporale prestabilito, nel rispetto della normativa in materia di protezione dei dati personali e senza alcuna esplicita richiesta da parte dell'interessato.». 
+ - Si riporta l'<ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns36:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns36:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>, recante: «Definizione ed ampliamento delle attribuzioni della Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e Bolzano ed unificazione, per le materie ed i compiti di interesse comune delle regioni, delle province e dei comuni, con la Conferenza Stato - citta' ed autonomie locali», pubblicato nella Gazzetta Ufficiale n. 202 del 30 agosto 1997: 
+ «Art. 8 (Conferenza Stato - citta' ed autonomie locali e Conferenza unificata). - 1. La Conferenza Stato - citta' ed autonomie locali e' unificata per le materie ed i compiti di interesse comune delle regioni, delle province, dei comuni e delle comunita' montane, con la Conferenza Stato - regioni. 
+ 2. La Conferenza Stato - citta' ed autonomie locali e' presieduta dal Presidente del Consiglio dei Ministri o, per sua delega, dal Ministro dell'interno o dal Ministro per gli affari regionali nella materia di rispettiva competenza; ne fanno parte altresi' il Ministro del tesoro e del bilancio e della programmazione economica, il Ministro delle finanze, il Ministro dei lavori pubblici, il Ministro della sanita', il presidente dell'Associazione nazionale dei comuni d'Italia - ANCI, il presidente dell'Unione province d'Italia - UPI ed il presidente dell'Unione nazionale comuni, comunita' ed enti montani - UNCEM. Ne fanno parte inoltre quattordici sindaci designati dall'ANCI e sei presidenti di provincia designati dall'UPI.
+ Dei quattordici sindaci designati dall'ANCI cinque rappresentano le citta' individuate dall'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/1990-06-08/142/!main#art_17" ns37:target="olf:it/legge/stato/1990/142/art_17" ns37:relation="cites">articolo 17 della legge 8 giugno 1990, n. 142</ref>. Alle riunioni possono essere invitati altri membri del Governo, nonche' rappresentanti di amministrazioni statali, locali o di enti pubblici. 
+ 3. La Conferenza Stato - citta' ed autonomie locali e' convocata almeno ogni tre mesi, e comunque in tutti i casi il presidente ne ravvisi la necessita' o qualora ne faccia richiesta il presidente dell'ANCI, dell'UPI o dell'UNCEM. 
+ 4. La Conferenza unificata di cui al comma 1 e' convocata dal Presidente del Consiglio dei Ministri. Le sedute sono presiedute dal Presidente del Consiglio dei Ministri o, su sua delega, dal Ministro per gli affari regionali o, se tale incarico non e' conferito, dal Ministro dell'interno.». 
+ - Si riporta il <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_17-com2" ns38:target="olf:it/legge/stato/2009/196/art_17-com2" ns38:relation="cites">comma 2 dell'articolo 17 della legge 31 dicembre 2009, n. 196</ref>, recante: «Legge di contabilita' e finanza pubblica», pubblicata nel Supplemento ordinario n. 245 della Gazzetta Ufficiale n. 303 del 31 dicembre 2009: 
+ «Art. 17 (Copertura finanziaria delle leggi). - 1. (omissis) 
+ 2. Le leggi di delega comportanti oneri recano i mezzi di copertura necessari per l'adozione dei relativi decreti legislativi. Qualora, in sede di conferimento della delega, per la complessita' della materia trattata, non sia possibile procedere alla determinazione degli effetti finanziari derivanti dai decreti legislativi, la quantificazione degli stessi e' effettuata al momento dell'adozione dei singoli decreti legislativi. I decreti legislativi dai quali derivano nuovi o maggiori oneri sono emanati solo successivamente all'entrata in vigore dei provvedimenti legislativi che stanzino le occorrenti risorse finanziarie. A ciascuno schema di decreto legislativo e' allegata una relazione tecnica, predisposta ai sensi del comma 3, che da' conto della neutralita' finanziaria del medesimo decreto ovvero dei nuovi o maggiori oneri da esso derivanti e dei corrispondenti mezzi di copertura.». 
+ - Il <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/90/!main" ns39:target="olf:it/dpr/stato/2010/90" ns39:relation="cites">decreto del Presidente della Repubblica 15 marzo 2010, n. 90</ref> «<ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/90/!main" ns40:target="olf:it/dpr/stato/2010/90" ns40:relation="cites">Testo unico delle disposizioni regolamentari in materia di ordinamento militare</ref>, a norma dell'<ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/legge/stato/2005-11-28/246/!main#art_14" ns41:target="olf:it/legge/stato/2005/246/art_14" ns41:relation="cites">articolo 14 della legge 28 novembre 2005, n. 246</ref>», e' pubblicato nel Supplemento ordinario n. 131 della Gazzetta Ufficiale n. 140 del 18 giugno 2010. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Disposizioni in materia di termini legislativi</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_3__para_1__intro_1">
+                            <p>All'<ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/legge/stato/2022-08-05/118/!main#art_26" ns42:target="olf:it/legge/stato/2022/118/art_26" ns42:relation="amends">articolo 26 della legge 5 agosto 2022, n. 118</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_3__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_2">al comma 4, le parole: «<quotedText eId="modNov_2_old_1">sedici mesi</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_1">ventiquattro mesi</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_3__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>a<mod eId="modNov_3">l comma 7, le parole: «<quotedText eId="modNov_3_old_2">e del Ministro della transizione ecologica</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_3_new_2">, del Ministro per le riforme istituzionali e la semplificazione normativa e del Ministro dell'ambiente e della sicurezza energetica</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_3" placement="bottom">
+                                <p> Note all'art. 3: 
+ - Si riporta il testo dell'<ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/legge/stato/2022-08-05/118/!main#art_26" ns43:target="olf:it/legge/stato/2022/118/art_26" ns43:relation="amends">articolo 26 della legge 5 agosto 2022, n. 118</ref> (Legge annuale per il mercato e la concorrenza 2021), pubblicato nella Gazzetta Ufficiale n.188 del 12 agosto 2022, come modificato dalla presente legge: 
+ «Art. 26 (Delega al Governo per la revisione dei procedimenti amministrativi in funzione di sostegno alla concorrenza e per la semplificazione in materia di fonti energetiche rinnovabili). - 1.-3. (omissis) 
+ 4. Il Governo e' delegato, altresi', ad adottare, entro ventiquattro mesi dalla data di entrata in vigore della presente legge, uno o piu' decreti legislativi in materia di fonti energetiche rinnovabili, anche ai fini dell'adeguamento della normativa vigente al diritto dell'Unione europea, della razionalizzazione, del riordino e della semplificazione della medesima normativa, della riduzione degli oneri regolatori a carico dei cittadini e delle imprese e della crescita di competitivita' del Paese. 
+ 5.-6. (omissis) 
+ 7. I decreti legislativi di cui al comma 4 sono adottati su proposta del Presidente del Consiglio dei ministri, del Ministro per la pubblica amministrazione, del Ministro per le riforme istituzionali e la semplificazione normativa e del Ministro dell'ambiente e della sicurezza energetica, di concerto con il Ministro dell'economia e delle finanze e con il Ministro della cultura, previa intesa in sede di Conferenza unificata di cui all'<ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns44:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns44:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>, e previa acquisizione del parere del Consiglio di Stato, che e' reso nel termine di trenta giorni dalla data di trasmissione di ciascuno schema di decreto legislativo, decorso il quale il Governo puo' comunque procedere. Gli schemi dei decreti legislativi sono trasmessi alle Camere per l'espressione dei pareri da parte della Commissione parlamentare per la semplificazione e delle Commissioni parlamentari competenti per materia e per i profili finanziari, che si pronunciano nel termine di trenta giorni dalla data di trasmissione, decorso il quale i decreti legislativi possono essere comunque adottati. Qualora il termine previsto per l'espressione del parere delle Commissioni parlamentari scada nei trenta giorni che precedono la scadenza del termine di delega previsto dal comma 4, o successivamente, quest'ultimo e' prorogato di novanta giorni. 
+ 8.- 13. (omissis).». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 28 novembre 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Crosetto, Ministro della difesa Pichetto Fratin, Ministro dell'ambiente e della sicurezza energetica Zangrillo, Ministro per la pubblica amministrazione Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
