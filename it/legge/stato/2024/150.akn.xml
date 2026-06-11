@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-10-01/150/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-10-01/150"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-10-01;150"/>
+                    <FRBRalias name="eli" value="eli/id/2024/10/16/24G00168/CONSOLIDATED/20251106"/>
+                    <FRBRdate date="2024-10-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/10/16/24G00168/CONSOLIDATED/20251106" aknrelname="eli/id/2024/10/16/24G00168/CONSOLIDATED/20251106">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Revisione della disciplina in materia di valutazione delle studentesse e degli studenti, di tutela dell'autorevolezza del personale scolastico nonche' di indirizzi scolastici differenziati. (24G00168)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00168" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-10-01" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-10-01/150/ita@2025-11-06/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-10-01/150/ita@2025-11-06"/>
+                    <FRBRdate date="2025-11-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/10/16/24G00168/CONSOLIDATED/20251106/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/10/16/24G00168/CONSOLIDATED/20251106"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/10/16/24G00168/CONSOLIDATED/20251106/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-10-01/150/ita@2025-11-06/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-10-01/150/ita@2025-11-06.xml"/>
+                    <FRBRdate date="2024-10-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/10/16/24G00168/CONSOLIDATED/20251106/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-10-16" name="" number="243" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-10-16" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2025-09-09" eId="eventRef_1" source="rp1"/>
+                <eventRef date="2025-11-05" eId="eventRef_2" source="rp2"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-10-01" refersTo="#S.924"/>
+                <step by="#senato" date="2024-10-01" refersTo="#S.924-bis"/>
+                <step by="#camera" date="2024-10-01" refersTo="#C.1830"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-10-01;150#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-04-13;62#2"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera a)) la modifica dell'art. 2, commi 1 e 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-10-01;150#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-04-13;62#6"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera b)) l'introduzione del comma 2-bis all'art. 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-10-01;150#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-04-13;62#13"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera c)) la modifica dell'art. 13, comma 2, lettera d).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-10-01;150#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-04-13;62#15"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1, lettera d)) l'introduzione del comma 2-bis all'art. 15.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-10-01;150#1"/>
+                        <destination href="urn:nir:stato:legge:2019-08-20;92#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 3) la modifica dell'art. 3, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-10-01;150#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-04-08;22#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 2) l'abrogazione del comma 2-bis dell'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-10-01;150#2"/>
+                        <destination href="urn:nir:stato:regio.decreto:1928-02-05;577#Testo Unico-art. 46"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 12) l'abrogazione dell'art. 46.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-10-01;150#2"/>
+                        <destination href="urn:nir:stato:regio.decreto:1928-02-05;577#Testo Unico-art. 47"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 12) l'abrogazione dell'art. 47.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-10-01;150#2"/>
+                        <destination href="urn:nir:stato:regio.decreto:1928-02-05;577#Testo Unico-art. 48"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 12) l'abrogazione dell'art. 48.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-10-01;150#2"/>
+                        <destination href="urn:nir:stato:regio.decreto:1928-02-05;577#Testo Unico-art. 49"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 12) l'abrogazione dell'art. 49.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-10-01;150#2"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1994-04-16;297#142"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1, lettera a)) la modifica dell'art. 142, comma 1; (con l'art. 2, comma 1, lettera b)) la modifica dell'art. 142, comma 3; (con l'art. 2, comma 1, lettera c)) la modifica dell'art. 142, comma 4; (con l'art. 2, comma 1, lettera d)) l'introduzione del comma 4-bis all'art. 142.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="substitution">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1994-04-16/297/ita@2024-10-31/!main/~art_142__para_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="repeal">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1994-04-16/297/ita@2024-10-31/!main/~art_142__para_3"/>
+                        <old href="#modNov_2_old_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1994-04-16/297/ita@2024-10-31/!main/~art_142__para_3"/>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="repeal">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1994-04-16/297/ita@2024-10-31/!main/~art_142__para_4"/>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto_legislativo/stato/1994-04-16/297/ita@2024-10-31/!main/~art_142__para_4-bis"/>
+                        <new href="#modNov_4_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="repeal">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1928-02-05/577/ita@2024-10-31/!main/~art_46"/>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="repeal">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1928-02-05/577/ita@2024-10-31/!main/~art_47"/>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="repeal">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1928-02-05/577/ita@2024-10-31/!main/~art_48"/>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="repeal">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/regio_decreto/stato/1928-02-05/577/ita@2024-10-31/!main/~art_49"/>
+                    </textualMod>
+                </activeModifications>
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((regolamento di cui al))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-10-01/150/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/DECRETO-LEGGE/stato/2025-09-09/127/!main" showAs=""/>
+                <passiveRef eId="rp2" href="/akn/it/act/LEGGE/stato/2025-10-30/164/!main" showAs=""/>
+                <passiveRef eId="S.924" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;924" showAs=""/>
+                <passiveRef eId="S.924-bis" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;924-bis" showAs=""/>
+                <passiveRef eId="C.1830" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1830" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/10/16/24G00168/CONSOLIDATED/20251106">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Revisione della disciplina in materia di valutazione delle studentesse e degli studenti, di tutela dell'autorevolezza del personale scolastico nonche' di indirizzi scolastici differenziati. (24G00168)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00168</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-10-01</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/10/16/24G00168/CONSOLIDATED/20251106/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/10/16/24G00168/CONSOLIDATED/20251106"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/10/16/24G00168/CONSOLIDATED/20251106/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/10/16/24G00168/CONSOLIDATED/20251106/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/150" nativeUrn="urn:nir:stato:legge:2024-10-01;150" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-10-16"><ns0:event type="enacted" date="2024-10-01"/><ns0:event type="published" date="2024-10-16"/><ns0:event type="commenced" date="2024-10-16"/><ns0:event type="amended" date="2025-09-09"/><ns0:event type="amended" date="2025-11-05"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/1589f417-cd9e-41e1-b5f9-32ffcd10e82f" sourceSha256="492a9d1cf6f914899cb81b70e973e1e65e319d6fb5f51c44eae9d0075b947baf" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:03:32.801740Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-10-01">01 ottobre 2024</docDate>
+                <docNumber>150</docNumber>
+                <docTitle>Revisione della disciplina in materia di valutazione delle studentesse e degli studenti, di tutela dell'autorevolezza del personale scolastico nonche' di indirizzi scolastici differenziati. (24G00168) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 31/10/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading>Disposizioni in materia di valutazione delle studentesse e degli studenti</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_1__para_1__intro_1">
+                            <p>Al <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/62/!main" ns1:target="olf:it/decreto-legislativo/stato/2017/62" ns1:relation="amends">decreto legislativo 13 aprile 2017, n. 62</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>all'articolo 2: 
+ 1) al comma 1, le parole: «nel primo ciclo» sono sostituite dalle seguenti: «nella scuola secondaria di primo grado» e sono aggiunti, in fine, i seguenti periodi: «A decorrere dall'anno scolastico 2024/2025, la valutazione periodica e finale degli apprendimenti, ivi compreso l'insegnamento di educazione civica, delle alunne e degli alunni delle classi della scuola primaria e' espressa con giudizi sintetici correlati alla descrizione dei livelli di apprendimento raggiunti. Le modalita' della valutazione di cui al primo e al secondo periodo sono definite con ordinanza del Ministro dell'istruzione e del merito»; 
+ 2) il comma 5 e' sostituito dal seguente: 
+ «5. La valutazione del comportamento dell'alunna e dell'alunno della scuola primaria e' espressa collegialmente dai docenti con un giudizio sintetico riportato nel documento di valutazione, secondo quanto previsto dall'articolo 1, commi 3 e 4.
+Per le alunne e gli alunni della scuola secondaria di primo grado, la valutazione del comportamento e' espressa in decimi, fermo restando quanto previsto dal regolamento di cui al <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1998-06-24/249/!main" ns2:target="olf:it/dpr/stato/1998/249" ns2:relation="cites">decreto del Presidente della Repubblica 24 giugno 1998, n. 249</ref>»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>all'articolo 6, dopo il comma 2 e' inserito il seguente: 
+ «2-bis. Se la valutazione del comportamento e' inferiore a sei decimi, il consiglio di classe delibera la non ammissione alla classe successiva o all'esame di Stato conclusivo del percorso di studi»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>all'articolo 13, comma 2, lettera d): 
+ 1) dopo il primo periodo e' inserito il seguente: «Nel caso di valutazione del comportamento pari a sei decimi, il consiglio di classe assegna un elaborato critico in materia di cittadinanza attiva e solidale da trattare in sede di colloquio dell'esame conclusivo del secondo ciclo»; 
+ 2) e' aggiunto, in fine, il seguente periodo: «Nel caso di valutazione del comportamento inferiore a sei decimi, il consiglio di classe delibera la non ammissione all'esame di Stato conclusivo del percorso di studi»; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>all'articolo 15, dopo il comma 2 e' inserito il seguente: 
+ «2-bis. Il punteggio piu' alto nell'ambito della fascia di attribuzione del credito scolastico spettante sulla base della media dei voti riportata nello scrutinio finale puo' essere attribuito se il voto di comportamento assegnato e' pari o superiore a nove decimi». 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegge/stato/2020-04-08/22/!main#art_1" ns3:target="olf:it/decreto-legge/stato/2020/22/art_1" ns3:relation="amends">articolo 1 del decreto-legge 8 aprile 2020, n. 22</ref>, convertito, con modificazioni, dalla <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2020-06-06/41/!main#art_com2bis" ns4:target="olf:it/legge/stato/2020/41/art_com2bis" ns4:relation="cites">legge 6 giugno 2020, n. 41, il comma 2-bis</ref> e' abrogato. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>All'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2019-08-20/92/!main#art_3-com2" ns5:target="olf:it/legge/stato/2019/92/art_3-com2" ns5:relation="amends">articolo 3, comma 2, della legge 20 agosto 2019, n. 92</ref>, dopo la parola: «attiva» sono inserite le seguenti: «e solidale». 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Al fine di ripristinare la cultura del rispetto, di affermare l'autorevolezza dei docenti delle istituzioni scolastiche secondarie di primo e secondo grado del sistema nazionale di istruzione e formazione, di rimettere al centro il principio della responsabilita' e di restituire piena serenita' al contesto lavorativo degli insegnanti e del personale scolastico, nonche' al percorso formativo delle studentesse e degli studenti, con uno o piu' regolamenti adottati ai sensi dell'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_17-com1" ns6:target="olf:it/legge/stato/1988/400/art_17-com1" ns6:relation="cites">articolo 17, comma 1, della legge 23 agosto 1988, n. 400</ref>, entro centottanta giorni dalla data di entrata in vigore della presente legge, si provvede alla revisione della disciplina in materia di valutazione del comportamento delle studentesse e degli studenti. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <list>
+                        <intro eId="art_1__para_5__intro_1">
+                            <p>I regolamenti di cui al comma 4 sono adottati nel rispetto dell'autonomia scolastica nonche' nel rispetto dei seguenti principi: 
+ </p>
+                        </intro>
+                        <point eId="art_1__para_5.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>apportare modifiche al regolamento di cui al <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1998-06-24/249/!main" ns7:target="olf:it/dpr/stato/1998/249" ns7:relation="cites">decreto del Presidente della Repubblica 24 giugno 1998, n. 249</ref>, al fine di riformare l'istituto dell'allontanamento della studentessa e dello studente dalla scuola per un periodo non superiore a quindici giorni, in modo che: 
+ 1) l'allontanamento dalla scuola, fino a un massimo di due giorni, comporti il coinvolgimento della studentessa e dello studente in attivita' di approfondimento sulle conseguenze dei comportamenti che hanno determinato il provvedimento disciplinare; 
+ 2) l'allontanamento dalla scuola di durata superiore a due giorni comporti lo svolgimento, da parte della studentessa e dello studente, di attivita' di cittadinanza solidale presso strutture convenzionate con le istituzioni scolastiche e individuate nell'ambito degli elenchi predisposti dall'amministrazione periferica del Ministero dell'istruzione e del merito. Tali attivita', se deliberate dal consiglio di classe, possono proseguire anche dopo il rientro in classe della studentessa e dello studente, secondo principi di temporaneita', gradualita' e proporzionalita'; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_5.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>apportare modifiche al regolamento di cui al <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2009-06-22/122/!main" ns8:target="olf:it/dpr/stato/2009/122" ns8:relation="cites">decreto del Presidente della Repubblica 22 giugno 2009, n. 122</ref>, in modo da: 
+ 1) prevedere che l'attribuzione del voto di comportamento inferiore a sei decimi e la conseguente non ammissione alla classe successiva e all'esame di Stato avvengano anche a fronte di comportamenti che configurano mancanze disciplinari gravi e reiterate, anche con riferimento alle violazioni previste dal regolamento di istituto; 
+ 2) prevedere che l'attribuzione del voto di comportamento inferiore a sei decimi in fase di valutazione periodica comporti il coinvolgimento della studentessa e dello studente oggetto della valutazione in attivita' di approfondimento in materia di cittadinanza attiva e solidale, finalizzate alla comprensione delle ragioni e delle conseguenze dei comportamenti che hanno determinato tale voto; 
+ 3) conferire maggiore peso al voto di comportamento della studentessa e dello studente nella valutazione complessiva, riferito all'intero anno scolastico, in particolar modo in presenza di atti violenti o di aggressione nei confronti del personale scolastico nonche' delle studentesse e degli studenti; 
+ 4) prevedere che, per le studentesse e gli studenti delle scuole secondarie di secondo grado che abbiano riportato una valutazione pari a sei decimi nel comportamento, il consiglio di classe, in sede di valutazione finale, sospenda il giudizio senza riportare immediatamente un giudizio di ammissione alla classe successiva e assegni alle studentesse e agli studenti un elaborato critico in materia di cittadinanza attiva e solidale; la mancata presentazione dell'elaborato prima dell'inizio dell'anno scolastico successivo o la valutazione non sufficiente da parte del consiglio di classe comportano la non ammissione della studentessa e dello studente all'anno scolastico successivo; 
+ 5) prevedere la votazione in decimi per la valutazione periodica e per quella finale degli apprendimenti delle studentesse e degli studenti del secondo ciclo di istruzione, in ciascuna delle discipline di studio previste dalle Indicazioni nazionali per i licei, adottate ai sensi dell'articolo 13, comma 10, lettera a), del regolamento di cui al <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/89/!main" ns9:target="olf:it/dpr/stato/2010/89" ns9:relation="cites">decreto del Presidente della Repubblica 15 marzo 2010, n. 89</ref>, e dalle Linee guida per gli istituti tecnici e professionali, adottate, rispettivamente, ai sensi dell'articolo 8, comma 3, del regolamento di cui al <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2010-03-15/88/!main#art_3-com3" ns10:target="olf:it/dpr/stato/2010/88/art_3-com3" ns10:relation="cites">decreto del Presidente della Repubblica 15 marzo 2010, n. 88, e dell'articolo 3, comma 3</ref>, del <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/61/!main" ns11:target="olf:it/decreto-legislativo/stato/2017/61" ns11:relation="amends">decreto legislativo 13 aprile 2017, n. 61</ref>. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_5-bis">
+                    <num>5-bis.</num>
+                    <content>
+                        <p>L'elaborato critico in materia di cittadinanza attiva e solidale e' discusso dalla studentessa o dallo studente in sede di accertamento del recupero delle carenze formative di cui all'articolo 4, comma 6, del <ins eId="ins_1">((regolamento di cui al))</ins> <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2009-06-22/122/!main" ns12:target="olf:it/dpr/stato/2009/122" ns12:relation="cites">decreto del Presidente della Repubblica 22 giugno 2009, n. 122</ref>. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Disposizioni in merito alle sezioni 
+ a metodo didattico differenziato</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>In riconoscimento della centralita' ed efficacia della metodologia montessoriana nello sviluppo dell'autonomia personale, del senso di responsabilita' e della consapevolezza dei diritti e doveri reciproci, all'articolo 142 del testo unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado, di cui al <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/1994-04-16/297/!main" ns13:target="olf:it/decreto-legislativo/stato/1994/297" ns13:relation="repeals">decreto legislativo 16 aprile 1994, n. 297</ref>, sono apportate le seguenti modificazioni: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_1">il comma 1 e' sostituito dal seguente: 
+ «<quotedText eId="modNov_1_new_1">1. Le sezioni di scuola dell'infanzia e le classi di scuola primaria gia' gestite dall'Opera nazionale Montessori in Roma, poi statizzate, continuano a funzionare con il metodo di differenziazione didattica Montessori</quotedText>»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_2">al comma 3, le parole: «alla sperimentazione dell'insegnamento con» sono sostituite dalle seguenti: «alle istituzioni scolastiche statali della scuola dell'infanzia e del primo ciclo di istruzione ove e' praticato l'insegnamento con», le parole: «<quotedText eId="modNov_2_old_2">da attuare nelle sezioni di scuola materna e nelle classi elementari statali</quotedText>» sono soppresse e le parole: «in quelle gestite da enti pubblici e privati, da associazioni e da privati» sono sostituite dalle seguenti: «alle scuole paritarie a gestione pubblica e privata»;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_3">al comma 4, le parole: «di scuola materna» e le parole: «di scuola elementare» sono soppresse;</mod>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>
+                                    <mod eId="modNov_4">dopo il comma 4 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_4_new_5">4-bis. L'istituzione e il funzionamento delle sezioni a metodo Montessori nelle istituzioni scolastiche del primo ciclo di istruzione del sistema nazionale d'istruzione nonche' l'ordinamento dei corsi di differenziazione didattica finalizzati alla specializzazione di cui al comma 4 e i relativi requisiti di accesso sono disciplinati con decreto del Ministro dell'istruzione e del merito, sentita l'Opera nazionale Montessori</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>A partire dall'anno scolastico 2025/2026, le istituzioni scolastiche del primo ciclo di istruzione possono richiedere l'istituzione di classi di scuola secondaria di primo grado a metodo Montessori secondo i principi e i criteri metodologici adottati nella sperimentazione nazionale triennale autorizzata con decreto del Ministro dell'istruzione n. 237 del 30 luglio 2021. A tal fine il Ministero dell'istruzione e del merito, nelle more dell'adozione del decreto di cui al comma 4-bis dell'articolo 142 del testo unico di cui al <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/1994-04-16/297/!main" ns14:target="olf:it/decreto-legislativo/stato/1994/297" ns14:relation="repeals">decreto legislativo 16 aprile 1994, n. 297</ref>, introdotto dal comma 1 del presente articolo, mette a disposizione delle istituzioni scolastiche interessate un documento tecnico elaborato dal Comitato tecnico-scientifico nazionale di cui all'articolo 10 del decreto di cui al primo periodo. L'istituzione delle classi e' autorizzata con decreto del dirigente preposto all'ufficio scolastico territorialmente competente, nei limiti delle risorse finanziarie, strumentali nonche' di organico assegnate a livello regionale e tenuto conto del documento elaborato dal Comitato tecnico-scientifico nazionale, la cui attivita', al fine di garantire la necessaria fase di accompagnamento dei percorsi di cui al presente articolo, e' prorogata sino al 31 agosto 2026. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <list>
+                        <intro eId="art_2__para_3__intro_1">
+                            <p>L'attivazione delle classi di scuola secondaria di primo grado a metodo Montessori puo' essere disposta, nei limiti dell'organico assegnato all'ufficio scolastico territorialmente competente, al verificarsi delle seguenti condizioni: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_3.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>presenza contemporanea di un ciclo completo di scuola primaria a metodo Montessori; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_3.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>tempo scuola corrispondente al tempo prolungato, di cui all'articolo 5, comma 1, secondo periodo, del regolamento di cui al <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2009-03-20/89/!main" ns15:target="olf:it/dpr/stato/2009/89" ns15:relation="cites">decreto del Presidente della Repubblica 20 marzo 2009, n. 89</ref>; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_3.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>servizio di refezione scolastica; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_3.__point_d">
+                            <num>d)</num>
+                            <content>
+                                <p>laboratori, ambienti e materiali didattici adatti a favorire l'apprendimento secondo i principi montessoriani; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_3.__point_e">
+                            <num>e)</num>
+                            <content>
+                                <p>quote di organico aggiuntive corrispondenti a nove ore aggiuntive settimanali per classe attivata e assegnate dall'ufficio scolastico territorialmente competente. 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_2__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Il dirigente scolastico, in sede di determinazione dell'organico di diritto, quantifica le esigenze necessarie al funzionamento delle sezioni a metodo Montessori. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Alle classi a metodo Montessori di scuola secondaria di primo grado sono assegnati, per ciascuna classe di abilitazione, docenti in possesso di uno specifico titolo di specializzazione in differenziazione didattica nel metodo Montessori per l'insegnamento nella scuola secondaria di primo grado conseguito in esito al corso di differenziazione didattica di cui all'articolo 142, comma 4-bis, del testo unico di cui al <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/1994-04-16/297/!main" ns16:target="olf:it/decreto-legislativo/stato/1994/297" ns16:relation="repeals">decreto legislativo 16 aprile 1994, n. 297</ref>, introdotto dal comma 1 del presente articolo. I suddetti docenti sono collocati, a domanda, in appositi elenchi a cui attingere per l'attribuzione dei contratti a tempo indeterminato e determinato, in analogia con quanto disposto per la scuola dell'infanzia e la scuola primaria. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Salvo il caso di contraria deliberazione delle istituzioni scolastiche interessate ovvero di motivato parere negativo degli uffici scolastici territorialmente competenti, le sezioni che abbiano avviato la sperimentazione in base a quanto previsto dal decreto del Ministro dell'istruzione n. 237 del 30 luglio 2021 completano la fase sperimentale e sono disciplinate a regime. La predetta sperimentazione si intende autorizzata anche per l'anno scolastico 2024/2025. Ai docenti di scuola secondaria di primo grado che abbiano gia' concluso i percorsi di formazione sul metodo Montessori di cui all'articolo 5 del decreto del Ministro dell'istruzione n. 237 del 30 luglio 2021, a seguito del superamento di specifico esame, e' riconosciuto il titolo di specializzazione in differenziazione didattica nel metodo Montessori. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Al fine di garantire un elevato e omogeneo standard formativo, i soggetti che erogano i corsi di differenziazione didattica nelle scuole dell'infanzia e del primo ciclo di istruzione sono autorizzati, sulla base di quanto disposto dall'articolo 142, comma 4-bis, del testo unico di cui al <ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/1994-04-16/297/!main" ns17:target="olf:it/decreto-legislativo/stato/1994/297" ns17:relation="repeals">decreto legislativo 16 aprile 1994, n. 297</ref>, introdotto dal comma 1 del presente articolo, con apposito decreto del Ministro dell'istruzione e del merito. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>La vigilanza sul regolare svolgimento dei corsi e delle prove d'esame e' svolta dagli uffici scolastici territorialmente competenti e dalle competenti amministrazioni provinciali di Trento e di Bolzano. Il rilascio dei diplomi e' subordinato allo svolgimento delle attivita' di controllo dei soggetti incaricati della vigilanza. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_9">
+                    <num>9.</num>
+                    <content>
+                        <p>Per le finalita' di cui al presente articolo, da attuare nei limiti delle risorse finanziarie e strumentali disponibili a legislazione vigente, a decorrere dall'anno 2025, le quote aggiuntive di organico dei docenti sono reperite nei limiti dei contingenti regionali di organico annualmente assegnati agli uffici scolastici territorialmente competenti, nell'ambito dell'organico dell'autonomia. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_10">
+                    <num>10.</num>
+                    <content>
+                        <p>Il Ministero dell'istruzione e del merito puo' autorizzare lo svolgimento, presso universita' ed enti di formazione, di corsi annuali di differenziazione didattica a metodo Agazzi per le scuole dell'infanzia e a metodo Pizzigoni per le scuole primarie. I corsi sono indetti dal Ministero dell'istruzione e del merito con decreto, che stabilisce la durata, gli orari, i programmi, le modalita' di partecipazione, i modi di vigilanza e le prove finali d'esame per il rilascio del titolo. I costi dei corsi sono posti a carico dei partecipanti. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_11">
+                    <num>11.</num>
+                    <content>
+                        <p>Il titolo rilasciato alla fine dei corsi di cui al comma 10 consente l'iscrizione, a domanda, in appositi elenchi a cui attingere per l'attribuzione dei contratti a tempo indeterminato e determinato per le sezioni delle scuole dell'infanzia a metodo Agazzi e per le classi di scuola primaria a metodo Pizzigoni autorizzate al funzionamento dagli uffici scolastici territorialmente competenti. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_12">
+                    <num>12.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_5">Gli articoli 46, 47, 48 e 49 del testo unico di cui al <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/regio.decreto/stato/1928-02-05/577/!main" ns18:target="olf:it/regio-decreto/stato/1928/577" ns18:relation="repeals">regio decreto 5 febbraio 1928, n. 577</ref>, sono abrogati.</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_13">
+                    <num>13.</num>
+                    <content>
+                        <p>Dall'attuazione del presente articolo non devono derivare nuovi o maggiori oneri per la finanza pubblica ne' esuberi di personale docente in una o piu' classi di concorso. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Note all'art. 2: 
+ - Si riporta l'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegislativo/stato/1994-04-16/297/!main#art_142" ns19:target="olf:it/decreto-legislativo/stato/1994/297/art_142" ns19:relation="repeals">articolo 142 del decreto legislativo 16 aprile 1994, n. 297</ref> «Approvazione del testo unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado», pubblicato nella Gazzetta Ufficiale n.115 del 19 maggio 1994, S.O., come modificato dalla presente legge: 
+ «Art. 142 (Sezioni e classi ad indirizzo didattico differenziato). - 1. Le sezioni di scuola dell'infanzia e le classi di scuola primaria gia' gestite dall'Opera nazionale Montessori in Roma, poi statizzate, continuano a funzionare con il metodo di differenziazione didattica Montessori. 
+ 2. Gli arredi e le attrezzature didattiche in dotazione alle sezioni e classi, rimangono destinate al loro funzionamento. 
+ 3. L'Opera nazionale Montessori presta la propria assistenza tecnica alle istituzioni scolastiche statali della scuola dell'infanzia e del primo ciclo di istruzione ove e' praticato l'insegnamento con il metodo Montessori, secondo quanto previsto in apposita convenzione da stipulare tra il Ministero della pubblica istruzione e l'Opera, e alle scuole paritarie a gestione pubblica e privata secondo quanto previsto in apposite convenzioni da stipulare tra il gestore e l'Opera. 
+ 4. Il personale docente da assegnare alle sezioni ed alle classi di che attuano il metodo Montessori deve essere in possesso dell'apposita specializzazione. 
+ 4-bis. L'istituzione e il funzionamento delle sezioni a metodo Montessori nelle istituzioni scolastiche del primo ciclo di istruzione del sistema nazionale d'istruzione nonche' l'ordinamento dei corsi di differenziazione didattica finalizzati alla specializzazione di cui al comma 4 e i relativi requisiti di accesso sono disciplinati con decreto del Ministro dell'istruzione e del merito, sentita l'Opera nazionale Montessori.». 
+ - Il decreto del Ministro dell'istruzione del 30 luglio 2021 «Autorizzazione del progetto di sperimentazione di un corso di scuola secondaria di primo grado ispirato ai principi del metodo Montessori» e' pubblicato sul sito del Ministero dell'istruzione e del Merito. 
+ - Si riporta l'articolo 5, comma 1, del decreto del <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2009-03-20/89/!main" ns20:target="olf:it/dpr/stato/2009/89" ns20:relation="cites">decreto del Presidente della Repubblica 20 marzo 2009, n. 89</ref>, «Revisione dell'assetto ordinamentale, organizzativo e didattico della scuola dell'infanzia e del primo ciclo di istruzione ai sensi dell'<ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegge/stato/2008-06-25/112/!main#art_64-com4" ns21:target="olf:it/decreto-legge/stato/2008/112/art_64-com4" ns21:relation="cites">articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112</ref>, convertito, con modificazioni, dalla <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2008-08-06/133/!main" ns22:target="olf:it/legge/stato/2008/133" ns22:relation="cites">legge 6 agosto 2008, n. 133</ref>», pubblicato nella Gazzetta Ufficiale n. 162 del 15 luglio 2009: 
+ «Art. 5 (Scuola secondaria di I grado). - 1. L'orario annuale obbligatorio delle lezioni nella scuola secondaria di I grado e' di complessive 990 ore, corrispondente a 29 ore settimanali, piu' 33 ore annuali da destinare ad attivita' di approfondimento riferita agli insegnamenti di materie letterarie. Nel tempo prolungato il monte ore e' determinato mediamente in 36 ore settimanali, elevabili fino a 40, comprensive delle ore destinate agli insegnamenti e alle attivita' e al tempo dedicato alla mensa. Gli orari di cui ai periodi precedenti sono comprensivi della quota riservata alle regioni, alle istituzioni scolastiche autonome e all'insegnamento della religione cattolica in conformita' all'Accordo modificativo del Concordato lateranense e relativo Protocollo addizionale, reso esecutivo con <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/1985-03-25/121/!main" ns23:target="olf:it/legge/stato/1985/121" ns23:relation="cites">legge 25 marzo 1985, n. 121</ref>, ed alle conseguenti intese. 
+ (Omissis).». 
+ - Il <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/regio.decreto/stato/1928-02-05/577/!main" ns24:target="olf:it/regio-decreto/stato/1928/577" ns24:relation="repeals">regio decreto 5 febbraio 1928, n. 577</ref> recante: «Approvazione del testo unico delle leggi e delle norme giuridiche emanate in virtu' dell'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/legge/stato/1926-01-31/100/!main#art_1-num3" ns25:target="olf:it/legge/stato/1926/100/art_1-num3" ns25:relation="cites">art. 1, n. 3, della L. 31 gennaio 1926, n. 100</ref>, sull'istruzione elementare, post-elementare e sulle opere di integrazione», e' pubblicato nella Gazzetta Ufficiale n. 95 del 23 aprile 1928. 
+ - Si riporta l'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegislativo/stato/2016-01-15/7/!main#art_5" ns26:target="olf:it/decreto-legislativo/stato/2016/7/art_5" ns26:relation="cites">articolo 5 del decreto legislativo 15 gennaio 2016, n. 7</ref> «Disposizioni in materia di abrogazione di reati e introduzione di illeciti con sanzioni pecuniarie civili, a norma dell'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2014-04-28/67/!main#art_2-com3" ns27:target="olf:it/legge/stato/2014/67/art_2-com3" ns27:relation="cites">articolo 2, comma 3, della legge 28 aprile 2014, n. 67</ref>», pubblicato nella Gazzetta Ufficiale n.17 del 22 gennaio 2016. 
+ «Art. 5 (Criteri di commisurazione delle sanzioni pecuniarie). - 1. L'importo della sanzione pecuniaria civile e' determinato dal giudice tenuto conto dei seguenti criteri: 
+ a) gravita' della violazione; 
+ b) reiterazione dell'illecito; 
+ c) arricchimento del soggetto responsabile; 
+ d) opera svolta dall'agente per l'eliminazione o attenuazione delle conseguenze dell'illecito; 
+ e) personalita' dell'agente; 
+ f) condizioni economiche dell'agente.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Misure a tutela dell'autorevolezza e del 
+ decoro delle istituzioni e del personale scolastici</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Con la sentenza di condanna per i reati commessi in danno di un dirigente scolastico o di un membro del personale docente, educativo, amministrativo, tecnico o ausiliario della scuola, a causa o nell'esercizio del suo ufficio o delle sue funzioni, e' sempre ordinato, oltre all'eventuale risarcimento dei danni, il pagamento di una somma da euro 500 a euro 10.000 a titolo di riparazione pecuniaria in favore dell'istituzione scolastica di appartenenza della persona offesa. L'importo della somma di cui al primo periodo e' determinato dal giudice, tenuto conto dei criteri di cui all'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegislativo/stato/2016-01-15/7/!main#art_5" ns28:target="olf:it/decreto-legislativo/stato/2016/7/art_5" ns28:relation="cites">articolo 5 del decreto legislativo 15 gennaio 2016, n. 7</ref>. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 1° ottobre 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Valditara, Ministro dell'istruzione e del merito Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
