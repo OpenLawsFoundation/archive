@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/121/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/121"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2024-08-08;121"/>
+                    <FRBRalias name="eli" value="eli/id/2024/08/22/24G00139/CONSOLIDATED/20250607"/>
+                    <FRBRdate date="2024-08-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/22/24G00139/CONSOLIDATED/20250607" aknrelname="eli/id/2024/08/22/24G00139/CONSOLIDATED/20250607">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Istituzione della filiera formativa tecnologico-professionale. (24G00139)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="24G00139" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2024-08-08" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/121/ita@2025-06-07/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/121/ita@2025-06-07"/>
+                    <FRBRdate date="2025-06-07" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/22/24G00139/CONSOLIDATED/20250607/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2024/08/22/24G00139/CONSOLIDATED/20250607"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2024/08/22/24G00139/CONSOLIDATED/20250607/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2024-08-08/121/ita@2025-06-07/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2024-08-08/121/ita@2025-06-07.xml"/>
+                    <FRBRdate date="2024-08-08" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2024/08/22/24G00139/CONSOLIDATED/20250607/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2024-08-22" name="" number="196" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2024-08-22" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2024-12-31" eId="eventRef_1" source="rp1"/>
+                <eventRef date="2025-04-07" eId="eventRef_2" source="rp2"/>
+                <eventRef date="2025-06-06" eId="eventRef_3" source="rp3"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2024-08-08" refersTo="#S.924"/>
+                <step by="#camera" date="2024-08-08" refersTo="#C.1691"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2024-08-08;121#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-09-23;144#25 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 25-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2022-09-23/144/ita@2024-09-06/!main/~art_25-bis"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                </activeModifications>
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>((sono assegnati un dirigente di livello non generale, con incarico conferito ai sensi dell'articolo 19 del decreto legislativo n. 165 del 2001, con corrispondente incremento della dotazione organica dirigenziale del Ministero dell'istruzione e del merito, e))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_1" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_2"/>
+                        <new>
+                            <nakn:text>((, ovvero da personale scolastico ricompreso nell'ambito del contingente previsto dall'articolo 26, comma 8, della legge 23 dicembre 1998, n. 448))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_2" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_3"/>
+                        <new>
+                            <nakn:text>((La struttura tecnica opera in raccordo con il competente Dipartimento del Ministero dell'istruzione e del merito. Nelle more della riorganizzazione del Ministero dell'istruzione e del merito, l'organizzazione e il funzionamento della struttura tecnica nonche' gli uffici del Ministero di cui la citata struttura si puo' avvalere sono definiti con decreto del Ministro dell'istruzione e del merito))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_3" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_4"/>
+                        <new>
+                            <nakn:text>((Per l'attuazione delle disposizioni di cui al presente articolo e' autorizzata la spesa di 735.972 euro per l'anno 2024, 752.363 euro per l'anno 2025 e 825.119 euro annui a decorrere dall'anno 2026))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_4" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_5"/>
+                        <new>
+                            <nakn:text>((e per la))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_5" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_6"/>
+                        <new>
+                            <nakn:text>((, di 5 milioni di euro per l'anno 2025 e di 20 milioni di euro per l'anno 2026))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_6" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_7"/>
+                        <new>
+                            <nakn:text>((Ai fini dell'assegnazione delle risorse del Fondo di cui al comma 1, le candidature per la realizzazione di interventi infrastrutturali correlati agli accordi istitutivi dei campus di cui all'articolo 25-bis, comma 3, del decreto-legge 23 settembre 2022, n. 144, convertito, con modificazioni, dalla legge 17 novembre 2022, n. 175, devono prevedere la partecipazione a tali accordi degli Istituti tecnologici superiori (ITS Academy), delle universita' o delle istituzioni di alta formazione artistica, musicale e coreutica e di altri soggetti privati finanziatori e devono indicare la disponibilita' dell'area ove realizzare i relativi interventi. Per la valutazione delle candidature di cui al primo periodo, da presentare entro il 31 marzo 2025, il Ministero dell'istruzione e del merito costituisce una commissione paritetica, composta da tre componenti designati dal Ministro dell'istruzione e del merito e da tre componenti designati dalla Conferenza delle regioni e delle province autonome. Ai componenti della commissione paritetica non spettano compensi, indennita', emolumenti, gettoni di presenza, rimborsi di spese o altre utilita', comunque denominate. Le risorse del Fondo di cui al comma 1 sono assegnate dal Ministero dell'istruzione e del merito alle regioni e sono destinate a sostenere i costi della progettazione di fattibilita' tecnico-economica e a fornire un contributo statale all'avvio della realizzazione degli interventi infrastrutturali di cui al primo periodo))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2024-08-08/121/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/LEGGE/stato/2024-12-30/207/!main" showAs=""/>
+                <passiveRef eId="rp2" href="/akn/it/act/DECRETO-LEGGE/stato/2025-04-07/45/!main" showAs=""/>
+                <passiveRef eId="rp3" href="/akn/it/act/LEGGE/stato/2025-06-05/79/!main" showAs=""/>
+                <passiveRef eId="S.924" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;924" showAs=""/>
+                <passiveRef eId="C.1691" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1691" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2024/08/22/24G00139/CONSOLIDATED/20250607">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Istituzione della filiera formativa tecnologico-professionale. (24G00139)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>24G00139</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2024-08-08</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/08/22/24G00139/CONSOLIDATED/20250607/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2024/08/22/24G00139/CONSOLIDATED/20250607"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2024/08/22/24G00139/CONSOLIDATED/20250607/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2024/08/22/24G00139/CONSOLIDATED/20250607/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2024/121" nativeUrn="urn:nir:stato:legge:2024-08-08;121" jurisdiction="it"/><ns0:lifecycle inForceFrom="2024-08-22"><ns0:event type="enacted" date="2024-08-08"/><ns0:event type="published" date="2024-08-22"/><ns0:event type="commenced" date="2024-08-22"/><ns0:event type="amended" date="2024-12-31"/><ns0:event type="amended" date="2025-04-07"/><ns0:event type="amended" date="2025-06-06"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/1f323659-a99d-412a-9f28-8f6347b34579" sourceSha256="80099d9e1e755408eb27ea38667ea0a890e36374907ca1427052925bc53a28d7" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T20:06:54.854898Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2024-08-08">08 agosto 2024</docDate>
+                <docNumber>121</docNumber>
+                <docTitle>Istituzione della filiera formativa tecnologico-professionale. (24G00139) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 06/09/2024</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Istituzione della filiera formativa 
+ tecnologico-professionale</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>
+                            <mod eId="modNov_1">Nella sezione III del capo III del <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2022-09-23/144/!main" ns1:target="olf:it/decreto-legge/stato/2022/144" ns1:relation="amends">decreto-legge 23 settembre 2022, n. 144</ref>, convertito, con modificazioni, dalla <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/legge/stato/2022-11-17/175/!main#art_26" ns2:target="olf:it/legge/stato/2022/175/art_26" ns2:relation="cites">legge 17 novembre 2022, n. 175, all'articolo 26</ref> e' premesso il seguente: 
+ «<quotedText eId="modNov_1_new_1">Art. 25-bis (Misure per lo sviluppo della filiera formativa tecnologico-professionale). - 1. Al fine di rispondere alle esigenze educative, culturali e professionali delle giovani generazioni e alle esigenze del settore produttivo nazionale secondo gli obiettivi del Piano nazionale "Industria 4.0", e' istituita, a decorrere dall'anno scolastico e formativo 2024/2025, la filiera formativa tecnologico-professionale, costituita dai percorsi sperimentali del secondo ciclo di istruzione di cui al comma 2 del presente articolo, dai percorsi formativi degli Istituti tecnologici superiori (ITS Academy), di cui alla <ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2022-07-15/99/!main" ns3:target="olf:it/legge/stato/2022/99" ns3:relation="cites">legge 15 luglio 2022, n. 99</ref>, dai percorsi di istruzione e formazione professionale, di cui al capo III del <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main" ns4:target="olf:it/decreto-legislativo/stato/2005/226" ns4:relation="cites">decreto legislativo 17 ottobre 2005, n. 226</ref>, e dai percorsi di istruzione e formazione tecnica superiore (IFTS), di cui al decreto del Presidente del Consiglio dei ministri 25 gennaio 2008, pubblicato nella Gazzetta Ufficiale n. 86 dell'11 aprile 2008. Le regioni, attraverso gli accordi di cui al comma 3, possono aderire alla filiera formativa tecnologico-professionale di cui al primo periodo, assicurando la programmazione dei percorsi della filiera medesima, e ne definiscono le modalita' realizzative, operando nell'ambito delle risorse umane, finanziarie e strumentali previste a legislazione vigente, ferme restando le competenze statali in materia di istruzione di cui all'articolo 117 della Costituzione. 
+ 2. Nell'ambito della filiera formativa tecnologico-professionale di cui al comma 1 del presente articolo, sono attivati percorsi quadriennali sperimentali di istruzione secondaria di secondo grado, ai sensi dell'articolo 11 del regolamento di cui al decreto del Presidente della Repubblica 8 marzo 1999, n.  275, e nel rispetto delle funzioni delle regioni ai sensi dell'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegislativo/stato/1998-03-31/112/!main#art_138" ns5:target="olf:it/decreto-legislativo/stato/1998/112/art_138" ns5:relation="cites">articolo 138 del decreto legislativo 31 marzo 1998, n. 112</ref>, in materia di programmazione dell'offerta formativa integrata tra istruzione e formazione professionale, assicurando agli studenti il conseguimento delle competenze di cui al profilo educativo, culturale e professionale dei percorsi di istruzione secondaria di secondo grado, nonche' delle conoscenze e delle abilita' previste dall'indirizzo di studi di riferimento. Salvo quanto previsto dal comma 5 del presente articolo, restano ferme le disposizioni vigenti in materia di esame di Stato conclusivo del secondo ciclo di istruzione e di rilascio dei titoli di studio finali, di cui al <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/62/!main" ns6:target="olf:it/decreto-legislativo/stato/2017/62" ns6:relation="cites">decreto legislativo 13 aprile 2017, n. 62</ref>. All'attuazione del presente comma si provvede ad invarianza delle dotazioni organiche del percorso quinquennale e, comunque, in assenza di esuberi di personale. 
+ 3. Ferme restando le funzioni delle regioni in materia di programmazione dell'offerta formativa integrata tra istruzione e formazione professionale, nell'ambito della filiera formativa tecnologico-professionale di cui al comma 1, le regioni e gli uffici scolastici regionali possono stipulare accordi, anche con la partecipazione degli ITS Academy, delle universita', delle istituzioni di alta formazione artistica, musicale e coreutica e di altri soggetti pubblici e privati, individuati con il decreto di cui al comma 8, per integrare e ampliare l'offerta formativa dei percorsi sperimentali di cui al comma 2 e dei percorsi di istruzione e formazione professionale di cui al capo III del <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main" ns7:target="olf:it/decreto-legislativo/stato/2005/226" ns7:relation="cites">decreto legislativo 17 ottobre 2005, n. 226</ref>, in funzione delle esigenze specifiche dei territori. Gli accordi di cui al primo periodo possono prevedere altresi' l'istituzione di reti, denominate "campus", eventualmente afferenti ai poli tecnico-professionali, laddove presenti sul territorio, di cui possono far parte i soggetti che erogano percorsi di istruzione e formazione professionale e percorsi di IFTS, gli ITS Academy, gli istituti che erogano i percorsi sperimentali di cui al comma 2, le altre istituzioni scolastiche secondarie di secondo grado, le universita', le istituzioni di alta formazione artistica, musicale e coreutica e i predetti altri soggetti pubblici e privati, nonche' le modalita' di integrazione dell'offerta formativa, condivisa e integrata, erogata dai campus stessi, anche in raccordo con i campus multiregionali e multisettoriali, di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2022-07-15/99/!main#art_10-com2-letf" ns8:target="olf:it/legge/stato/2022/99/art_10-com2-letf" ns8:relation="cites">articolo 10, comma 2, lettera f), della legge 15 luglio 2022, n. 99</ref>. 
+ 4. Le studentesse e gli studenti che hanno conseguito il diploma professionale al termine dei percorsi di istruzione e formazione professionale di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main#art_17-com1-letb" ns9:target="olf:it/decreto-legislativo/stato/2005/226/art_17-com1-letb" ns9:relation="cites">articolo 17, comma 1, lettera b), del decreto legislativo 17 ottobre 2005, n. 226</ref>, possono accedere ai percorsi formativi degli ITS Academy, in deroga a quanto previsto all'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/2022-07-15/99/!main#art_1-com2" ns10:target="olf:it/legge/stato/2022/99/art_1-com2" ns10:relation="cites">articolo 1, comma 2, della legge 15 luglio 2022, n. 99</ref>, in caso di: 
+ a) adesione alla filiera formativa tecnologico-professionale di cui al comma 1 da parte delle istituzioni formative regionali che erogano i predetti percorsi; 
+ b) validazione dei percorsi di cui al citato articolo 17, comma 1, lettera b), attraverso un sistema di valutazione dell'offerta formativa erogata dagli istituti regionali, basato sugli esiti delle rilevazioni degli apprendimenti predisposte dall'Istituto nazionale per la valutazione del sistema educativo di istruzione e di formazione (INVALSI), istituito con decreto del Ministro dell'istruzione e del merito, di concerto con il Ministro del lavoro e delle politiche sociali, previa intesa in sede di Conferenza unificata di cui all'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns11:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns11:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>. 
+ 5. I soggetti che hanno concluso i percorsi quadriennali di cui all'<ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main#art_17-com1-letb" ns12:target="olf:it/decreto-legislativo/stato/2005/226/art_17-com1-letb" ns12:relation="cites">articolo 17, comma 1, lettera b), del decreto legislativo 17 ottobre 2005, n. 226</ref>, validati ai sensi del comma 4, lettera b), del presente articolo possono sostenere l'esame di Stato presso l'istituto professionale, statale o paritario, assegnato dall'ufficio scolastico regionale territorialmente competente, in deroga al sostenimento dell'esame preliminare di cui all'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/62/!main#art_14-com2" ns13:target="olf:it/decreto-legislativo/stato/2017/62/art_14-com2" ns13:relation="cites">articolo 14, comma 2, del decreto legislativo 13 aprile 2017, n. 62</ref>, e alla previa frequenza dell'apposito corso annuale di cui all'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main#art_15-com6" ns14:target="olf:it/decreto-legislativo/stato/2005/226/art_15-com6" ns14:relation="cites">articolo 15, comma 6, del decreto legislativo 17 ottobre 2005, n. 226</ref>. 
+ 6. Ferme restando le competenze delle regioni in materia di istruzione e formazione professionale, le sperimentazioni di cui al comma 2 e gli accordi di cui al comma 3, ove stipulati, prevedono: 
+ a) l'adeguamento e l'ampliamento dell'offerta formativa, con particolare riferimento alle competenze linguistiche e logico-matematiche e alle discipline di base, ai nuovi percorsi sperimentali, funzionali alle esigenze specifiche dei territori, anche attraverso gli accordi di partenariato di cui al comma 7, lettera b), nei limiti della quota di flessibilita' didattica e organizzativa dei soggetti partecipanti alla filiera e nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente; 
+ b) la promozione dei passaggi fra percorsi diversi, anche attraverso l'orientamento individualizzato di studentesse e studenti; 
+ c) la quadriennalita' del percorso di istruzione secondaria di secondo grado; 
+ d) il ricorso alla flessibilita' didattica e organizzativa, alla didattica laboratoriale, all'adozione di metodologie innovative e al rafforzamento dell'utilizzo in rete di tutte le risorse professionali, logistiche e strumentali disponibili; 
+ e) la stipula di contratti di prestazione d'opera per attivita' di insegnamento e di formazione nonche' di addestramento nell'ambito delle attivita' laboratoriali e dei percorsi per le competenze trasversali e per l'orientamento (PCTO) con soggetti del sistema delle imprese e delle professioni; 
+ f) la certificazione delle competenze trasversali e tecniche, al fine di orientare gli studenti nei percorsi sperimentali e di favorire il loro inserimento in contesti lavorativi, anche attraverso i servizi di collocamento mirato per studentesse e studenti con disabilita'. 
+ 7. Le sperimentazioni di cui al comma 2 e gli accordi di cui al comma 3, ove stipulati, possono, altresi', prevedere: 
+ a) l'introduzione nelle istituzioni scolastiche dell'apprendimento integrato dei contenuti delle attivita' formative programmate in lingua straniera veicolare (CLIL-Content and Language Integrated Learning) e di compresenze con il conversatore di lingua straniera nell'ambito delle attivita' di indirizzo, oltre che nell'insegnamento della lingua straniera, senza nuovi o maggiori oneri a carico della finanza pubblica e ferma restando la possibilita' di finanziamenti da parte di soggetti pubblici e privati; 
+ b) la promozione di accordi di partenariato, volti a definire le modalita' di co-progettazione per la realizzazione dell'offerta formativa, di attuazione dei PCTO nel rispetto delle norme di sicurezza previste dalla normativa vigente e di stipula dei contratti di apprendistato di cui agli <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegislativo/stato/2015-06-15/81/!main#art_43" ns15:target="olf:it/decreto-legislativo/stato/2015/81/art_43" ns15:relation="cites">articoli 43</ref> e <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2015-06-15/81/!main#art_45" ns16:target="olf:it/decreto-legislativo/stato/2015/81/art_45" ns16:relation="cites">45 del decreto legislativo 15 giugno 2015, n. 81</ref>; 
+ c) la valorizzazione delle opere dell'ingegno e dei prodotti oggetto, rispettivamente, di diritto d'autore e di proprieta' industriale, realizzati all'interno dei percorsi formativi della filiera formativa tecnologico-professionale nonche' il trasferimento tecnologico verso le imprese. 
+ 8. Con decreto del Ministro dell'istruzione e del merito, di concerto con i Ministri dell'economia e delle finanze, del lavoro e delle politiche sociali e dell'universita' e della ricerca, previa intesa in sede di Conferenza unificata di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/1997-08-28/281/!main#art_8" ns17:target="olf:it/decreto-legislativo/stato/1997/281/art_8" ns17:relation="cites">articolo 8 del decreto legislativo 28 agosto 1997, n. 281</ref>, sono definiti i criteri di stipula degli accordi, le modalita' di adesione alle reti di cui al comma 3 del presente articolo e le relative condizioni di avvio, le modalita' di integrazione e di ampliamento dell'offerta formativa di cui agli accordi previsti dal medesimo comma 3 e le relative attivita' di monitoraggio e valutazione, l'individuazione del numero massimo di istituzioni scolastiche secondarie di secondo grado, istituzioni che erogano percorsi di istruzione tecnica e professionale e istituzioni formative accreditate dalle regioni a norma del capo III del <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main" ns18:target="olf:it/decreto-legislativo/stato/2005/226" ns18:relation="cites">decreto legislativo 17 ottobre 2005, n. 226</ref>, rispetto a quelle attive sul territorio regionale, coinvolte nella sperimentazione di cui al comma 2 ovvero negli accordi di cui al comma 3, nonche', fermo restando quanto previsto dagli <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2022-07-15/99/!main#art_6" ns19:target="olf:it/legge/stato/2022/99/art_6" ns19:relation="cites">articoli 6</ref> e <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2022-07-15/99/!main#art_8" ns20:target="olf:it/legge/stato/2022/99/art_8" ns20:relation="cites">8 della legge 15 luglio 2022, n. 99</ref>, e, con riferimento ai requisiti di accesso ai percorsi universitari, quanto previsto dall'articolo 6 del regolamento di cui al <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decreto/ministero.istruzione.universita.ricerca/2004-10-22/270/!main" ns21:target="olf:it/decreto/ministero-istruzione-universita-ricerca/2004/270" ns21:relation="cites">decreto del Ministro dell'istruzione, dell'universita' e della ricerca 22 ottobre 2004, n. 270</ref>, i raccordi tra i percorsi della filiera formativa tecnologico-professionale, il sistema universitario e le istituzioni di alta formazione artistica, musicale e coreutica. 
+ 9. All'attuazione delle disposizioni del presente articolo si provvede nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri a carico della finanza pubblica</quotedText>».</mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il decreto di cui all'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegge/stato/2022-09-23/144/!main#art_25bis-com8" ns22:target="olf:it/decreto-legge/stato/2022/144/art_25bis-com8" ns22:relation="amends">articolo 25-bis, comma 8, del decreto-legge 23 settembre 2022, n. 144</ref>, convertito, con modificazioni, dalla <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2022-11-17/175/!main" ns23:target="olf:it/legge/stato/2022/175" ns23:relation="cites">legge 17 novembre 2022, n. 175</ref>, introdotto dal comma 1 del presente articolo, e' adottato entro trenta giorni dalla data di entrata in vigore della presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>In sede di prima applicazione, le disposizioni di cui ai <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegge/stato/2022-09-23/144/!main#art_25bis-com4" ns24:target="olf:it/decreto-legge/stato/2022/144/art_25bis-com4" ns24:relation="amends">commi 4</ref> e <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegge/stato/2022-09-23/144/!main#art_25bis-com5" ns25:target="olf:it/decreto-legge/stato/2022/144/art_25bis-com5" ns25:relation="amends">5 dell'articolo 25-bis del decreto-legge 23 settembre 2022, n. 144</ref>, convertito, con modificazioni, dalla <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/legge/stato/2022-11-17/175/!main" ns26:target="olf:it/legge/stato/2022/175" ns26:relation="cites">legge 17 novembre 2022, n. 175</ref>, introdotto dal comma 1 del presente articolo, possono essere applicate ai percorsi quadriennali di cui all'<ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main#art_17-com1-letb" ns27:target="olf:it/decreto-legislativo/stato/2005/226/art_17-com1-letb" ns27:relation="cites">articolo 17, comma 1, lettera b), del decreto legislativo 17 ottobre 2005, n. 226</ref>, gia' attivati nell'ambito del progetto nazionale di sperimentazione relativo all'istituzione della filiera formativa tecnologico-professionale attivato per l'anno scolastico 2024/2025 dal Ministero dell'istruzione e del merito. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> N O T E 
+ 
+ Avvertenza: 
+ Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, commi 2 e 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns28:target="olf:it/dpr/stato/1985/1092" ns28:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+ Note all'<ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/decretoLegge/stato/2022-09-23/144/!main#art_1" ns29:target="olf:it/decreto-legge/stato/2022/144/art_1" ns29:relation="amends">art. 1: 
+ - Il decreto-legge 23 settembre 2022, n. 144</ref>, convertito, con modificazioni, dalla <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/2022-11-17/175/!main" ns30:target="olf:it/legge/stato/2022/175" ns30:relation="cites">legge 17 novembre 2022, n. 175</ref>, come modificato dalla presente legge con l'introduzione dell'art. 25-bis, e' pubblicato nella Gazzetta Ufficiale n. 269 del 17 novembre 2022. 
+ - Si riporta l'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decretoLegislativo/stato/2005-10-17/226/!main#art_17-com1-letb" ns31:target="olf:it/decreto-legislativo/stato/2005/226/art_17-com1-letb" ns31:relation="cites">art. 17, comma 1, lettera b) del decreto legislativo 17 ottobre 2005, n. 226</ref>, recante «Norme generali e livelli essenziali delle prestazioni relativi al secondo ciclo del sistema educativo di istruzione e formazione, a norma dell'<ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/legge/stato/2003-03-28/53/!main#art_2" ns32:target="olf:it/legge/stato/2003/53/art_2" ns32:relation="cites">art. 2 della legge 28 marzo 2003, n. 53</ref>», pubblicato nella Gazzetta Ufficiale n. 257 del 4 novembre 2005, S.O. n. 175: 
+ «Art. 17 (Livelli essenziali dell'orario minimo annuale e dell'articolazione dei percorsi formativi). - 1.
+ Le Regioni assicurano, quali livelli essenziali dell'orario minimo annuale e dell'articolazione dei percorsi formativi, un orario complessivo obbligatorio dei percorsi formativi di almeno 990 ore annue. Le Regioni assicurano inoltre, agli stessi fini, l'articolazione dei percorsi formativi nelle seguenti tipologie: 
+ a) omissis 
+ b) percorsi di durata almeno quadriennale, che si concludono con il conseguimento di un titolo di diploma professionale. 
+ 2. Omissis.». 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading>Struttura tecnica per la promozione della filiera formativa tecnologico-professionale</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2__para_1__intro_1">
+                            <p>E' istituita, a decorrere dal 1° gennaio 2024, presso il Ministero dell'istruzione e del merito, una struttura tecnica di missione di livello dirigenziale generale, denominata «Struttura tecnica per la promozione della filiera formativa tecnologico-professionale», che svolge le seguenti funzioni: 
+ </p>
+                        </intro>
+                        <point eId="art_2__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>promuovere le sinergie tra la filiera formativa tecnologico-professionale, costituita dagli istituti tecnici, dagli istituti professionali e dagli Istituti tecnologici superiori (ITS Academy), e il settore imprenditoriale, industriale e scientifico-tecnologico; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>migliorare e ampliare la progettazione, nel rispetto dell'autonomia scolastica, di percorsi didattici finalizzati alla formazione delle professionalita' innovative necessarie allo sviluppo del Paese e connesse alla valorizzazione delle opere dell'ingegno e dei prodotti oggetto, rispettivamente, di diritto d'autore e di proprieta' industriale, realizzati all'interno dei percorsi formativi della filiera formativa tecnologico-professionale, e al trasferimento tecnologico verso le imprese, l'orientamento professionale e i percorsi per le competenze trasversali e per l'orientamento (PCTO), nonche' agevolare l'accesso al sistema delle imprese; 
+</p>
+                            </content>
+                        </point>
+                        <point eId="art_2__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>favorire una progressiva adesione del sistema di istruzione e formazione professionale al sistema nazionale di valutazione coordinato dall'Istituto nazionale per la valutazione del sistema educativo di istruzione e di formazione (INVALSI). 
+</p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_2__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Alla struttura tecnica di cui al comma 1 e' preposto un coordinatore con incarico dirigenziale di livello generale, nominato con decreto del Presidente del Consiglio dei ministri, su proposta del Ministro dell'istruzione e del merito, individuato tra i dirigenti di ruolo del medesimo Ministero o di altre amministrazioni pubbliche ovvero in deroga ai limiti di cui all'<ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_19-com6" ns33:target="olf:it/decreto-legislativo/stato/2001/165/art_19-com6" ns33:relation="cites">articolo 19, comma 6, del decreto legislativo 30 marzo 2001, n. 165</ref>, con corrispondente incremento della dotazione organica dirigenziale del suddetto Ministero. Alla predetta struttura <ins eId="ins_1">((sono assegnati un dirigente di livello non generale, con incarico conferito ai sensi dell'articolo 19 del decreto legislativo n. 165 del 2001, con corrispondente incremento della dotazione organica dirigenziale del Ministero dell'istruzione e del merito, e))</ins> un contingente costituito da personale in servizio presso il Ministero dell'istruzione e del merito, nonche' da un massimo di otto esperti, incaricati ai sensi dell'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_7-com6" ns34:target="olf:it/decreto-legislativo/stato/2001/165/art_7-com6" ns34:relation="cites">articolo 7, comma 6, del decreto legislativo 30 marzo 2001, n. 165</ref>, cui spettano compensi omnicomprensivi lordi annui nell'ambito di un importo complessivo non superiore a euro 400.000 e per un importo pro capite annuo lordo non superiore a 50.000 euro <ins eId="ins_2">((, ovvero da personale scolastico ricompreso nell'ambito del contingente previsto dall'articolo 26, comma 8, della legge 23 dicembre 1998, n. 448))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_2-bis">
+                    <num>2-bis.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_3">((La struttura tecnica opera in raccordo con il competente Dipartimento del Ministero dell'istruzione e del merito. Nelle more della riorganizzazione del Ministero dell'istruzione e del merito, l'organizzazione e il funzionamento della struttura tecnica nonche' gli uffici del Ministero di cui la citata struttura si puo' avvalere sono definiti con decreto del Ministro dell'istruzione e del merito))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_4">((Per l'attuazione delle disposizioni di cui al presente articolo e' autorizzata la spesa di 735.972 euro per l'anno 2024, 752.363 euro per l'anno 2025 e 825.119 euro annui a decorrere dall'anno 2026))</ins>. Ai relativi oneri si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'istruzione e del merito. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading>Comitato di monitoraggio nazionale per la filiera formativa tecnologico-professionale</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Con decreto del Ministro dell'istruzione e del merito, da adottare entro novanta giorni dalla data di entrata in vigore della presente legge, e' istituito, presso la Struttura tecnica di cui all'articolo 2, il Comitato di monitoraggio nazionale per la filiera formativa tecnologico-professionale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il Comitato di cui al comma 1, presieduto dal coordinatore della Struttura tecnica di cui all'articolo 2, comma 2, e' composto da rappresentanti del Ministero dell'istruzione e del merito, delle regioni, delle organizzazioni datoriali e sindacali maggiormente rappresentative, dell'INVALSI e dell'Istituto nazionale di documentazione, innovazione e ricerca educativa (INDIRE). 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Il Comitato di cui al comma 1, sulla base degli esiti del monitoraggio, puo' proporre l'aggiornamento dei profili di uscita e dei risultati di apprendimento dei percorsi sperimentali della filiera formativa tecnologico-professionale di cui all'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoLegge/stato/2022-09-23/144/!main#art_25bis" ns35:target="olf:it/decreto-legge/stato/2022/144/art_25bis" ns35:relation="amends">articolo 25-bis del decreto-legge 23 settembre 2022, n. 144</ref>, convertito, con modificazioni, dalla <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/legge/stato/2022-11-17/175/!main" ns36:target="olf:it/legge/stato/2022/175" ns36:relation="cites">legge 17 novembre 2022, n. 175</ref>, introdotto dall'articolo 1 della presente legge, anche in relazione ai mutamenti del sistema delle imprese e in funzione delle esigenze specifiche dei territori. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>All'attuazione delle disposizioni del presente articolo si provvede nell'ambito delle risorse umane, strumentali e finanziarie disponibili a legislazione vigente, senza nuovi o maggiori oneri a carico della finanza pubblica. La partecipazione ai lavori del Comitato di cui al comma 1 non da' diritto ad alcun compenso, indennita', gettone di presenza, rimborso di spese o altro emolumento comunque denominato. 
+</p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_2" placement="bottom">
+                                <p> Note all'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/decretoLegge/stato/2022-09-23/144/!main#art_3" ns37:target="olf:it/decreto-legge/stato/2022/144/art_3" ns37:relation="amends">art. 3</ref>: 
+ - L'<ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegge/stato/2022-09-23/144/!main#art_25bis" ns38:target="olf:it/decreto-legge/stato/2022/144/art_25bis" ns38:relation="amends">art. 25-bis del decreto-legge 23 settembre 2022, n. 144</ref>, convertito, con modificazioni, dalla <ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/legge/stato/2022-11-17/175/!main" ns39:target="olf:it/legge/stato/2022/175" ns39:relation="cites">legge 17 novembre 2022, n. 175</ref>, e' inserito dall'art. 1 della presente legge. 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading>Ulteriori misure per la promozione della filiera formativa tecnologico-professionale</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di promuovere l'istituzione dei campus di cui all'articolo 25-bis, comma 3, del decreto-legge 23 settembre 2022, n. 144, convertito, con modificazioni, dalla legge 17 novembre 2022, n. 175, introdotto dall'articolo 1 della presente legge, attraverso l'integrazione, anche infrastrutturale, dei soggetti che vi aderiscono, e' istituito, nello stato di previsione del Ministero dell'istruzione e del merito, il «Fondo per la promozione dei campus della filiera formativa tecnologico-professionale» per la progettazione di fattibilita' tecnico-economica <ins eId="ins_5">((e per la))</ins> realizzazione degli interventi infrastrutturali, con una dotazione di 10 milioni di euro per l'anno 2024 <ins eId="ins_6">((, di 5 milioni di euro per l'anno 2025 e di 20 milioni di euro per l'anno 2026))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_7">((Ai fini dell'assegnazione delle risorse del Fondo di cui al comma 1, le candidature per la realizzazione di interventi infrastrutturali correlati agli accordi istitutivi dei campus di cui all'articolo 25-bis, comma 3, del decreto-legge 23 settembre 2022, n. 144, convertito, con modificazioni, dalla legge 17 novembre 2022, n. 175, devono prevedere la partecipazione a tali accordi degli Istituti tecnologici superiori (ITS Academy), delle universita' o delle istituzioni di alta formazione artistica, musicale e coreutica e di altri soggetti privati finanziatori e devono indicare la disponibilita' dell'area ove realizzare i relativi interventi. Per la valutazione delle candidature di cui al primo periodo, da presentare entro il 31 marzo 2025, il Ministero dell'istruzione e del merito costituisce una commissione paritetica, composta da tre componenti designati dal Ministro dell'istruzione e del merito e da tre componenti designati dalla Conferenza delle regioni e delle province autonome. Ai componenti della commissione paritetica non spettano compensi, indennita', emolumenti, gettoni di presenza, rimborsi di spese o altre utilita', comunque denominate. Le risorse del Fondo di cui al comma 1 sono assegnate dal Ministero dell'istruzione e del merito alle regioni e sono destinate a sostenere i costi della progettazione di fattibilita' tecnico-economica e a fornire un contributo statale all'avvio della realizzazione degli interventi infrastrutturali di cui al primo periodo))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>All'onere derivante dall'attuazione delle disposizioni di cui al comma 1, pari a 10 milioni di euro per l'anno 2024 e a 5 milioni di euro per ciascuno degli anni 2025 e 2026, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di conto capitale iscritto, ai fini del bilancio triennale 2024-2026, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2024, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero dell'istruzione e del merito. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 8 agosto 2024 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Valditara, Ministro dell'istruzione e del merito Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
