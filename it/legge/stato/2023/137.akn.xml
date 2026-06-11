@@ -1,0 +1,886 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-10-09/137/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-10-09/137"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-10-09;137"/>
+                    <FRBRalias name="eli" value="eli/id/2023/10/09/23G00149/ORIGINAL"/>
+                    <FRBRdate date="2023-10-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/09/23G00149/ORIGINAL" aknrelname="eli/id/2023/10/09/23G00149/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 10 agosto 2023, n. 105, recante disposizioni urgenti in materia di processo penale, di processo civile, di contrasto agli incendi boschivi, di recupero dalle tossicodipendenze, di salute e di cultura, nonche' in materia di personale della magistratura e della pubblica amministrazione. (23G00149)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="23G00149" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2023-10-09" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-10-09/137/ita@2023-10-10/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-10-09/137/ita@2023-10-10"/>
+                    <FRBRdate date="2023-10-10" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/09/23G00149/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2023/10/09/23G00149/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2023/10/09/23G00149/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2023-10-09/137/ita@2023-10-10/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2023-10-09/137/ita@2023-10-10.xml"/>
+                    <FRBRdate date="2023-10-09" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2023/10/09/23G00149/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2023-10-09" name="" number="236" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2023-10-09" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2023-10-09" refersTo="#C.1373"/>
+                <step by="#senato" date="2023-10-09" refersTo="#S.897"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 32 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 240 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 423 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 423 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 452 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:regio.decreto:1930-10-19;1398#Codice Penale-art. 452 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#54 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#267"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#268"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#270"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#371 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#724"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:1988-09-22;447#727"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:legge:1992-02-11;157#30"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:1999-07-30;300#53"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2001-06-08;231#24"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2001-06-08;231#25 octies.1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.del.presidente.della.repubblica:2002-05-30;115#168 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-01-30;26#26 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-02-15;63#Tabella A"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:legge:2006-03-16;146#9"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2006-04-03;152#255"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2013-12-23;146#3"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2014-05-31;83#14"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2016-02-15;35#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2017-06-21;108#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#13"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_27" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-06-14;82#7"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_28" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-06-14;82#17"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_29" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2022-03-24;24#13"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_30" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-06-22;75#28"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 10 agosto 2023, n. 105 (in G.U. 10/08/2023, n. 186).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_31" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) che la rubrica del Capo IV "Disposizioni in materia di contrasto agli incendi boschivi" e' sostituita dalla seguente: "Disposizioni
+concernenti reati in materia ambientale e altre disposizioni in materia di sanzioni penali e responsabilita' delle persone giuridiche".</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_32" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dei commi 2-bis, 2-ter, 2-quater e 2-quinquies all'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_33" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 3, 4, 5, 6, 7, 8, 10 alinea e lettera a), rubrica e l'introduzione del comma 9-bis all'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_34" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#2 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_35" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_36" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, comma 1, lettera a) e l'introduzione del comma 1-bis all'art. 4.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_37" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#5"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 1 e rubrica e l'introduzione del comma 2-bis all'art. 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_38" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#5 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 5-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_39" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, comma 1, lettera a) e rubrica e l'introduzione dei commi 1-bis e 1-ter all'art. 6.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_40" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#6 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_41" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#6 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 6-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_42" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 7, commi 1, 2 e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_43" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, comma 2 e rubrica.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_44" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#9"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9, commi 1, lettera b) e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_45" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#10"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, commi 1, lettera a), 2 e l'introduzione del comma 5-bis all'art. 10.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_46" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#11"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 11, commi 1, 2, 3 e l'introduzione del comma 3-bis all'art. 11.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_47" type="insertion">
+                        <source href="urn:nir:stato:legge:2023-10-09;137#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2023-08-10;105#12"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 12, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_48" type="insertion">
+                        <source href="#modNov_1"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_1"/>
+                        <new href="#modNov_1_new_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_49" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2__para_4"/>
+                        <old href="#modNov_2_old_16"/>
+                        <new href="#modNov_2_new_16"/>
+                    </textualMod>
+                    <textualMod eId="amod_50" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2__para_6"/>
+                        <old href="#modNov_2_old_17"/>
+                        <new href="#modNov_2_new_17"/>
+                    </textualMod>
+                    <textualMod eId="amod_51" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2__para_7"/>
+                    </textualMod>
+                    <textualMod eId="amod_52" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2__para_8"/>
+                        <old href="#modNov_2_old_19"/>
+                        <new href="#modNov_2_new_19"/>
+                    </textualMod>
+                    <textualMod eId="amod_53" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2__para_9-bis"/>
+                        <new href="#modNov_2_new_20"/>
+                    </textualMod>
+                    <textualMod eId="amod_54" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2"/>
+                        <new href="#modNov_2_new_21"/>
+                    </textualMod>
+                    <textualMod eId="amod_55" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2__para_5"/>
+                        <old href="#modNov_2_old_11"/>
+                        <new href="#modNov_2_new_11"/>
+                    </textualMod>
+                    <textualMod eId="amod_56" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2__para_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_57" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2__para_10__point_a"/>
+                    </textualMod>
+                    <textualMod eId="amod_58" type="substitution">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2__para_3"/>
+                        <old href="#modNov_2_old_14"/>
+                        <new href="#modNov_2_new_14"/>
+                    </textualMod>
+                    <textualMod eId="amod_59" type="insertion">
+                        <source href="#modNov_2"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2__para_4"/>
+                        <new href="#modNov_2_new_15"/>
+                    </textualMod>
+                    <textualMod eId="amod_60" type="insertion">
+                        <source href="#modNov_3"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_2-bis"/>
+                        <new href="#modNov_3_new_22"/>
+                    </textualMod>
+                    <textualMod eId="amod_61" type="substitution">
+                        <source href="#modNov_4"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_3__para_1"/>
+                    </textualMod>
+                    <textualMod eId="amod_62" type="substitution">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_4__para_1__point_a"/>
+                        <old href="#modNov_5_old_24"/>
+                        <new href="#modNov_5_new_24"/>
+                    </textualMod>
+                    <textualMod eId="amod_63" type="insertion">
+                        <source href="#modNov_5"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_4__para_1-bis"/>
+                        <new href="#modNov_5_new_26"/>
+                    </textualMod>
+                    <textualMod eId="amod_64" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_5"/>
+                        <old href="#modNov_6_old_25"/>
+                        <new href="#modNov_6_new_25"/>
+                    </textualMod>
+                    <textualMod eId="amod_65" type="substitution">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_5__para_1"/>
+                        <old href="#modNov_6_old_27"/>
+                        <new href="#modNov_6_new_27"/>
+                    </textualMod>
+                    <textualMod eId="amod_66" type="insertion">
+                        <source href="#modNov_6"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_5__para_2-bis"/>
+                        <new href="#modNov_6_new_28"/>
+                    </textualMod>
+                    <textualMod eId="amod_67" type="insertion">
+                        <source href="#modNov_7"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_5-bis"/>
+                        <new href="#modNov_7_new_29"/>
+                    </textualMod>
+                    <textualMod eId="amod_68" type="substitution">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_6"/>
+                        <old href="#modNov_8_old_32"/>
+                        <new href="#modNov_8_new_32"/>
+                    </textualMod>
+                    <textualMod eId="amod_69" type="insertion">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_6__para_1__point_a"/>
+                        <new href="#modNov_8_new_30"/>
+                    </textualMod>
+                    <textualMod eId="amod_70" type="insertion">
+                        <source href="#modNov_8"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_6"/>
+                        <new href="#modNov_8_new_31"/>
+                    </textualMod>
+                    <textualMod eId="amod_71" type="insertion">
+                        <source href="#modNov_9"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main"/>
+                        <new href="#modNov_9_new_37"/>
+                    </textualMod>
+                    <textualMod eId="amod_72" type="substitution">
+                        <source href="#modNov_10"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main"/>
+                        <new href="#modNov_10_new_38"/>
+                    </textualMod>
+                    <textualMod eId="amod_73" type="insertion">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_7__para_1"/>
+                        <new href="#modNov_11_new_39"/>
+                    </textualMod>
+                    <textualMod eId="amod_74" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_7__para_1"/>
+                        <old href="#modNov_11_old_40"/>
+                        <new href="#modNov_11_new_40"/>
+                    </textualMod>
+                    <textualMod eId="amod_75" type="insertion">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_7__para_2"/>
+                        <new href="#modNov_11_new_41"/>
+                    </textualMod>
+                    <textualMod eId="amod_76" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_7__para_2"/>
+                        <old href="#modNov_11_old_42"/>
+                        <new href="#modNov_11_new_42"/>
+                    </textualMod>
+                    <textualMod eId="amod_77" type="substitution">
+                        <source href="#modNov_11"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_7"/>
+                        <old href="#modNov_11_old_43"/>
+                        <new href="#modNov_11_new_43"/>
+                    </textualMod>
+                    <textualMod eId="amod_78" type="substitution">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_8__para_2"/>
+                        <old href="#modNov_12_old_33"/>
+                        <new href="#modNov_12_new_33"/>
+                    </textualMod>
+                    <textualMod eId="amod_79" type="substitution">
+                        <source href="#modNov_12"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_8"/>
+                        <old href="#modNov_12_old_34"/>
+                        <new href="#modNov_12_new_34"/>
+                    </textualMod>
+                    <textualMod eId="amod_80" type="substitution">
+                        <source href="#modNov_13"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_9__para_1__point_b"/>
+                        <old href="#modNov_13_old_35"/>
+                        <new href="#modNov_13_new_35"/>
+                    </textualMod>
+                    <textualMod eId="amod_81" type="substitution">
+                        <source href="#modNov_13"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_9__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_82" type="insertion">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_10__para_1__point_a"/>
+                        <new href="#modNov_14_new_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_83" type="insertion">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_10__para_2"/>
+                        <new href="#modNov_14_new_5"/>
+                    </textualMod>
+                    <textualMod eId="amod_84" type="substitution">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_10__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_85" type="insertion">
+                        <source href="#modNov_14"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_10__para_5-bis"/>
+                        <new href="#modNov_14_new_9"/>
+                    </textualMod>
+                    <textualMod eId="amod_86" type="substitution">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_11__para_2"/>
+                    </textualMod>
+                    <textualMod eId="amod_87" type="insertion">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_11__para_3-bis"/>
+                        <new href="#modNov_15_new_6"/>
+                    </textualMod>
+                    <textualMod eId="amod_88" type="insertion">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_11__para_3"/>
+                        <new href="#modNov_15_new_8"/>
+                    </textualMod>
+                    <textualMod eId="amod_89" type="insertion">
+                        <source href="#modNov_15"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_11__para_1"/>
+                        <new href="#modNov_15_new_10"/>
+                    </textualMod>
+                    <textualMod eId="amod_90" type="insertion">
+                        <source href="#modNov_16"/>
+                        <destination href="/akn/it/act/decreto-legge/stato/2023-08-10/105/ita@2023-10-10/!main/~art_12__para_1"/>
+                        <new href="#modNov_16_new_4"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2023-10-09/137/!main" showAs=""/>
+                <passiveRef eId="C.1373" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;1373" showAs=""/>
+                <passiveRef eId="S.897" href="/akn/it/senato-it:parl:ddl:senato;19.legislatura;897" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2023/10/09/23G00149/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 10 agosto 2023, n. 105, recante disposizioni urgenti in materia di processo penale, di processo civile, di contrasto agli incendi boschivi, di recupero dalle tossicodipendenze, di salute e di cultura, nonche' in materia di personale della magistratura e della pubblica amministrazione. (23G00149)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>23G00149</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2023-10-09</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/10/09/23G00149/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2023/10/09/23G00149/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2023/10/09/23G00149/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2023/10/09/23G00149/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2023/137" nativeUrn="urn:nir:stato:legge:2023-10-09;137" jurisdiction="it"/><ns0:lifecycle inForceFrom="2023-10-09"><ns0:event type="enacted" date="2023-10-09"/><ns0:event type="published" date="2023-10-09"/><ns0:event type="commenced" date="2023-10-09"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/f911f7c1-37bb-4e78-9d45-b537f7ec479d" sourceSha256="a66ea0764481d55771bbc10e31f76cb937aa228aaf241b67a949c0bcc3741d10" adapter="normattiva-it@0.2.0" generatedAt="2026-06-11T21:16:38.750357Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2023-10-09">09 ottobre 2023</docDate>
+                <docNumber>137</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 10 agosto 2023, n. 105, recante disposizioni urgenti in materia di processo penale, di processo civile, di contrasto agli incendi boschivi, di recupero dalle tossicodipendenze, di salute e di cultura, nonche' in materia di personale della magistratura e della pubblica amministrazione. (23G00149) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 10/10/2023</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2023-08-10/105/!main" ns1:target="olf:it/decreto-legge/stato/2023/105" ns1:relation="amends">decreto-legge 10 agosto 2023, n. 105</ref>, recante disposizioni urgenti in materia di processo penale, di processo civile, di contrasto agli incendi boschivi, di recupero dalle tossicodipendenze, di salute e di cultura, nonche' in materia di personale della magistratura e della pubblica amministrazione, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2023-08-10/105/!main" ns2:target="olf:it/decreto-legge/stato/2023/105" ns2:relation="amends">decreto-legge 10 agosto 2023, n. 105</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 186 del 10 agosto 2023. 
+ 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 130. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 9 ottobre 2023 </p>
+            <p>MATTARELLA Meloni, Presidente del Consiglio dei ministri Visto, il Guardasigilli: Nordio</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-10-09/137/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-10-09/137"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2023-10-09;137"/>
+                                <FRBRalias name="eli" value="eli/id/2023/10/09/23G00149/ORIGINAL"/>
+                                <FRBRdate date="2023-10-10" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-10-09/137/ita@2023-10-10/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-10-09/137/ita@2023-10-10"/>
+                                <FRBRdate date="2023-10-10" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2023-10-09/137/ita@2023-10-10/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2023-10-09/137/ita@2023-10-10.xml"/>
+                                <FRBRdate date="2023-10-09" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE 
+ AL DECRETO-LEGGE 10 AGOSTO 2023, N. 105 
+ 
+ <mod eId="modNov_1">All'articolo 1: 
+ dopo il comma 2 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_1_new_1">2-bis. Al terzo periodo del <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_267-com1" ns4:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_267-com1" ns4:relation="cites">comma 1 dell'articolo 267 del codice di procedura penale</ref>, la parola: "indica" e' sostituita dalle seguenti: "espone con autonoma valutazione" e dopo la parola: "necessaria" sono inserite le seguenti: ", in concreto,". 
+ 2-ter. All'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_268" ns5:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_268" ns5:relation="cites">articolo 268 del codice di procedura penale</ref> sono apportate le seguenti modificazioni: 
+ a) il comma 2 e' sostituito dal seguente: 
+ "2. Nel verbale e' trascritto, anche sommariamente, soltanto il contenuto delle comunicazioni intercettate rilevante ai fini delle indagini, anche a favore della persona sottoposta ad indagine. Il contenuto non rilevante ai fini delle indagini non e' trascritto neppure sommariamente e nessuna menzione ne viene riportata nei verbali e nelle annotazioni della polizia giudiziaria, nei quali e' apposta l'espressa dicitura: 'La conversazione omessa non e' utile alle indagini'"; 
+ b) al comma 2-bis, le parole: "affinche' nei verbali" sono sostituite dalle seguenti: "affinche' i verbali siano redatti in conformita' a quanto previsto dal comma 2 e negli stessi" e le parole: "dati personali definiti sensibili dalla legge" sono sostituite dalle seguenti: "fatti e circostanze afferenti alla vita privata degli interlocutori". 
+ 2-quater. All'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_270-com1" ns6:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_270-com1" ns6:relation="cites">articolo 270, comma 1, del codice di procedura penale</ref>, le parole: "e dei reati di cui all'articolo 266, comma 1" sono soppresse. 
+ 2-quinquies. La disposizione di cui al comma 2-quater si applica ai procedimenti iscritti successivamente alla data di entrata in vigore della legge di conversione del presente decreto</quotedText>».</mod>
+                                    <mod eId="modNov_2">All'articolo 2: 
+ al comma 3, le parole: «<quotedText eId="modNov_2_old_14">che assicurano</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_14">che assicurino</quotedText>»; 
+ al comma 4: 
+ al primo periodo, le parole: «<quotedText eId="modNov_2_old_16">l'autonomia delle funzioni del procuratore della Repubblica</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_16">l'autonomia del procuratore della Repubblica nell'esercizio delle funzioni</quotedText>»; 
+ al secondo periodo, dopo la parola: «Fermi» e' inserita la seguente: «<quotedText eId="modNov_2_new_15">restando</quotedText>»; 
+ al comma 5, le parole: «<quotedText eId="modNov_2_old_11">
+                                            <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/1989-07-28/271/!main" ns7:target="olf:it/decreto-legislativo/stato/1989/271" ns7:relation="cites">disposizioni di attuazione del codice di procedura penale</ref>
+                                        </quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_11">norme di attuazione, di coordinamento e transitorie del <ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns8:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns8:relation="cites">codice di procedura penale</ref>, di cui al <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/1989-07-28/271/!main" ns9:target="olf:it/decreto-legislativo/stato/1989/271" ns9:relation="cites">decreto legislativo 28 luglio 1989, n. 271</ref>
+                                        </quotedText>»; 
+ al comma 6, primo periodo, le parole: «<quotedText eId="modNov_2_old_17">e' autorizzata</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_17">sono autorizzati</quotedText>»; 
+ al comma 7, le parole: «<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegislativo/stato/1989-07-28/271/!main" ns10:target="olf:it/decreto-legislativo/stato/1989/271" ns10:relation="cites">disposizioni di attuazione del codice di procedura penale</ref>» sono sostituite dalle seguenti: «norme di attuazione, di coordinamento e transitorie del <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns11:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns11:relation="cites">codice di procedura penale</ref>, di cui al <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/1989-07-28/271/!main" ns12:target="olf:it/decreto-legislativo/stato/1989/271" ns12:relation="cites">decreto legislativo 28 luglio 1989, n. 271</ref>,»; 
+ al comma 8, le parole: «<quotedText eId="modNov_2_old_19">infrastrutture digitali cui</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_2_new_19">infrastrutture digitali di cui</quotedText>»; 
+ dopo il comma 9 e' inserito il seguente: 
+ «<quotedText eId="modNov_2_new_20">9-bis. Dopo il <ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main#art_168bis-com3" ns13:target="olf:it/dpr/stato/2002/115/art_168bis-com3" ns13:relation="amends">comma 3 dell'articolo 168-bis del testo unico delle disposizioni legislative e regolamentari in materia di spese di giustizia</ref>, di cui al <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2002-05-30/115/!main" ns14:target="olf:it/dpr/stato/2002/115" ns14:relation="amends">decreto del Presidente della Repubblica 30 maggio 2002, n. 115</ref>, e' aggiunto il seguente: 
+ "3-bis. L'importo delle spese relative alle operazioni di intercettazione e' specificamente annotato nel foglio delle notizie di cui all'articolo 280"</quotedText>»; 
+ al comma 10, all'alinea e alla lettera a), le parole: «50 milioni di euro annui» sono sostituite dalle seguenti: «50 milioni di euro»;  alla rubrica sono aggiunte, in fine, le seguenti parole: «<quotedText eId="modNov_2_new_21">nonche' modifica alla disciplina in materia di registrazione delle spese per intercettazioni</quotedText>».</mod>
+                                    <mod eId="modNov_3">Nel capo I, dopo l'articolo 2 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_3_new_22">Art. 2-bis (Disposizioni urgenti in materia di contrasto della criminalita' informatica e di cybersicurezza). - 1. Per la medesima finalita', di cui all'articolo 2, comma 1, del presente decreto, di assicurare i piu' elevati e uniformi livelli di sicurezza, aggiornamento tecnologico, efficienza ed economicita' dei sistemi informativi, nonche' a fini di contrasto della criminalita' informatica, dopo il <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegge/stato/2021-06-14/82/!main#art_17-com4" ns15:target="olf:it/decreto-legge/stato/2021/82/art_17-com4" ns15:relation="amends">comma 4 dell'articolo 17 del decreto-legge 14 giugno 2021, n. 82</ref>, convertito, con modificazioni, dalla <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2021-08-04/109/!main" ns16:target="olf:it/legge/stato/2021/109" ns16:relation="cites">legge 4 agosto 2021, n. 109</ref>, e' inserito il seguente: 
+ "4-bis. Fermo restando quanto previsto dal comma 4, l'Agenzia trasmette al procuratore nazionale antimafia e antiterrorismo i dati, le notizie e le informazioni rilevanti per l'esercizio delle funzioni di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_371bis" ns17:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_371bis" ns17:relation="cites">articolo 371-bis del codice di procedura penale</ref>". 
+ 2. All'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegge/stato/2021-06-14/82/!main#art_7-com1" ns18:target="olf:it/decreto-legge/stato/2021/82/art_7-com1" ns18:relation="amends">articolo 7, comma 1, del decreto-legge 14 giugno 2021, n. 82</ref>, convertito, con modificazioni, dalla <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2021-08-04/109/!main" ns19:target="olf:it/legge/stato/2021/109" ns19:relation="cites">legge 4 agosto 2021, n. 109</ref>, dopo la lettera n) e' inserita la seguente: 
+ "n-bis) nell'ambito delle funzioni di cui al primo periodo della lettera n), svolge ogni attivita' diretta all'analisi e al supporto per il contenimento e il ripristino dell'operativita' dei sistemi compromessi, con la collaborazione dei soggetti pubblici o privati che hanno subito incidenti di sicurezza informatica o attacchi informatici. La mancata collaborazione di cui al primo periodo e' valutata ai fini dell'applicazione delle sanzioni previste dall'articolo 1, commi 10 e 14, del decreto-legge perimetro, per i soggetti di cui all'articolo 1, comma 2-bis, del medesimo decreto-legge perimetro, di cui all'articolo 3, comma 1, lettere g) e i), del decreto legislativo NIS e di cui all'articolo 40, comma 3, alinea, del <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegislativo/stato/2003-08-01/259/!main" ns20:target="olf:it/decreto-legislativo/stato/2003/259" ns20:relation="cites">codice delle comunicazioni elettroniche</ref>, di cui al <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/2003-08-01/259/!main" ns21:target="olf:it/decreto-legislativo/stato/2003/259" ns21:relation="cites">decreto legislativo 1° agosto 2003, n. 259</ref>; restano esclusi gli organi dello Stato preposti alla prevenzione, all'accertamento e alla repressione dei reati, alla tutela dell'ordine e della sicurezza pubblica e alla difesa e sicurezza militare dello Stato, nonche' gli organismi di informazione per la sicurezza di cui agli <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/2007-08-03/124/!main#art_4" ns22:target="olf:it/legge/stato/2007/124/art_4" ns22:relation="cites">articoli 4</ref>, <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2007-08-03/124/!main#art_6" ns23:target="olf:it/legge/stato/2007/124/art_6" ns23:relation="cites">6</ref> e <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/2007-08-03/124/!main#art_7" ns24:target="olf:it/legge/stato/2007/124/art_7" ns24:relation="cites">7 della legge 3 agosto 2007, n. 124</ref>". 
+ 3. Al <ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main" ns25:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447" ns25:relation="cites">codice di procedura penale</ref> sono apportate le seguenti modificazioni: 
+ a) all'articolo 54-ter, comma 1, le parole: "nell'articolo 51, commi 3-bis e 3-quater," sono sostituite dalle seguenti: "negli articoli 51, commi 3-bis e 3-quater, e 371-bis, comma 4-bis,"; 
+ b) all'articolo 371-bis e' aggiunto, in fine, il seguente comma: 
+ "4-bis. Il procuratore nazionale antimafia e antiterrorismo esercita le funzioni di impulso di cui al comma 2 anche in relazione ai procedimenti per i delitti di cui agli articoli 615-ter, terzo comma, 635-ter e 635-quinquies del <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns26:target="olf:it/regio-decreto/stato/1930/1398" ns26:relation="amends">codice penale</ref> nonche', quando i fatti sono commessi in danno di un sistema informatico o telematico utilizzato dallo Stato o da altro ente pubblico o da impresa esercente servizi pubblici o di pubblica necessita', in relazione ai procedimenti per i delitti di cui agli <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_617quater" ns27:target="olf:it/regio-decreto/stato/1930/1398/art_617quater" ns27:relation="amends">articoli 617-quater</ref>, <ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_617quinquies" ns28:target="olf:it/regio-decreto/stato/1930/1398/art_617quinquies" ns28:relation="amends">617-quinquies</ref> e <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_617sexies" ns29:target="olf:it/regio-decreto/stato/1930/1398/art_617sexies" ns29:relation="amends">617-sexies del codice penale</ref>. Si applicano altresi' le disposizioni dei commi 3 e 4 del presente articolo"; 
+ c) all'articolo 724, comma 9, le parole: "all'articolo 51, commi 3-bis e 3-quater" sono sostituite dalle seguenti: "agli articoli 51, commi 3-bis e 3-quater, e 371-bis, comma 4-bis"; 
+ d) all'articolo 727, comma 8, le parole: "all'articolo 51, commi 3-bis e 3-quater," sono sostituite dalle seguenti: "agli articoli 51, commi 3-bis e 3-quater, e 371-bis, comma 4-bis,". 
+ 4. All'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/2006-03-16/146/!main#art_9" ns30:target="olf:it/legge/stato/2006/146/art_9" ns30:relation="amends">articolo 9 della legge 16 marzo 2006, n. 146</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 1: 
+ 1) alla lettera b) sono aggiunte, in fine, le seguenti parole: "ovvero si introducono all'interno di un sistema informatico o telematico, danneggiano, deteriorano, cancellano, alterano o comunque intervengono su un sistema informatico o telematico ovvero su informazioni, dati e programmi in esso contenuti, attivano identita', anche digitali, domini e spazi informatici comunque denominati, anche attraverso il trattamento di dati personali di terzi, ovvero assumono il controllo o comunque si avvalgono dell'altrui dominio e spazio informatico comunque denominato o compiono attivita' prodromiche o strumentali"; 
+ 2) dopo la lettera b-bis) e' aggiunta la seguente: 
+ "b-ter) gli ufficiali di polizia giudiziaria dell'organo del Ministero dell'interno per la sicurezza e la regolarita' dei servizi di telecomunicazione di cui all'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decretoLegge/stato/2005-07-27/144/!main#art_7bis" ns31:target="olf:it/decreto-legge/stato/2005/144/art_7bis" ns31:relation="cites">articolo 7-bis del decreto-legge 27 luglio 2005, n. 144</ref>, convertito, con modificazioni, dalla <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/legge/stato/2005-07-31/155/!main" ns32:target="olf:it/legge/stato/2005/155" ns32:relation="cites">legge 31 luglio 2005, n. 155</ref>, i quali, nel corso di specifiche operazioni di polizia finalizzate al contrasto dei reati informatici commessi ai danni delle infrastrutture critiche informatizzate individuate dalla normativa nazionale e internazionale e, comunque, al solo fine di acquisire elementi di prova, anche per interposta persona, compiono le attivita' di cui alla lettera a) ovvero si introducono all'interno di un sistema informatico o telematico, danneggiano, deteriorano, cancellano, alterano o comunque intervengono su un sistema informatico o telematico ovvero su informazioni, dati e programmi in esso contenuti, attivano identita', anche digitali, domini e spazi informatici comunque denominati, anche attraverso il trattamento di dati personali di terzi, ovvero assumono il controllo o comunque si avvalgono dell'altrui dominio e spazio informatico comunque denominato o compiono attivita' prodromiche o strumentali"; 
+ b) al comma 4, primo periodo, sono aggiunte, in fine, le seguenti parole: "nonche', nei casi di cui agli articoli 51, commi 3-bis e 3-quater, e 371-bis, <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/codice.procedura.penale/presidente.repubblica/1988-09-22/447/!main#art_com4bis" ns33:target="olf:it/codice-procedura-penale/presidente-repubblica/1988/447/art_com4bis" ns33:relation="cites">comma 4-bis, del codice di procedura penale</ref>, al procuratore nazionale antimafia e antiterrorismo"; 
+ c) al comma 8, secondo periodo, le parole: "all'articolo 51, comma 3-bis" sono sostituite dalle seguenti: "agli articoli 51, commi 3-bis e 3-quater, e 371-bis, comma 4-bis". 
+ 5. All'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decretoLegislativo/stato/2016-02-15/35/!main#art_5-com3" ns34:target="olf:it/decreto-legislativo/stato/2016/35/art_5-com3" ns34:relation="amends">articolo 5, comma 3, del decreto legislativo 15 febbraio 2016, n. 35</ref>, le parole: "all'articolo 51, commi 3-bis e 3-quater" sono sostituite dalle seguenti: "agli articoli 51, commi 3-bis e 3-quater, e 371-bis, comma 4-bis,". 
+ 6. All'articolo 4, comma 1, secondo periodo, del <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoLegislativo/stato/2017-06-21/108/!main" ns35:target="olf:it/decreto-legislativo/stato/2017/108" ns35:relation="amends">decreto legislativo 21 giugno 2017, n. 108</ref>, le parole: "all'articolo 51, commi 3-bis e 3-quater," sono sostituite dalle seguenti: "agli articoli 51, commi 3-bis e 3-quater, e 371-bis, comma 4-bis,"</quotedText>».</mod>
+                                    <mod eId="modNov_4">All'articolo 3: 
+ al comma 1: 
+ al primo periodo, le parole: «al 31 dicembre 2023» sono sostituite dalle seguenti: «al 30 aprile 2024»; 
+ al secondo periodo, le parole: «compone il collegio» sono sostituite dalle seguenti: «fa parte del collegio».</mod>
+                                    <mod eId="modNov_5">All'articolo 4: 
+ al comma 1, lettera a), numero 2), capoverso, la parola: «<quotedText eId="modNov_5_old_24">"Possono</quotedText>» e' sostituita dalle seguenti: «<quotedText eId="modNov_5_new_24">"5. Possono</quotedText>»; 
+ dopo il comma 1 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_5_new_26">1-bis. Le disposizioni di cui al comma 1 si applicano anche alle procedure per il conferimento di incarichi direttivi e semidirettivi bandite a decorrere dal 21 giugno 2022 e non ancora concluse</quotedText>».</mod>
+                                    <mod eId="modNov_6">All'articolo 5: 
+ al comma 1, le parole: «<quotedText eId="modNov_6_old_27">dall'articolo 3, del</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_27">dall'articolo 3 del</quotedText>»; 
+ dopo il comma 2 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_6_new_28">2-bis. Il <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/decretoLegge/stato/2013-12-23/146/!main#art_3-com1bis" ns36:target="olf:it/decreto-legge/stato/2013/146/art_3-com1bis" ns36:relation="amends">comma 1-bis dell'articolo 3 del decreto-legge 23 dicembre 2013, n. 146</ref>, convertito, con modificazioni, dalla <ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/2014-02-21/10/!main" ns37:target="olf:it/legge/stato/2014/10" ns37:relation="cites">legge 21 febbraio 2014, n. 10</ref>, e' abrogato</quotedText>»; 
+ alla rubrica, le parole: «<quotedText eId="modNov_6_old_25">ruoli EPE e IPM</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_6_new_25">ruoli di esecuzione penale esterna e di istituto penale minorile</quotedText>».</mod>
+                                    <mod eId="modNov_7">Nel capo III, dopo l'articolo 5 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_7_new_29">Art. 5-bis (Disposizioni urgenti in materia di dirigenza penitenziaria). - 1. Alla tabella A allegata al <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegislativo/stato/2006-02-15/63/!main" ns38:target="olf:it/decreto-legislativo/stato/2006/63" ns38:relation="amends">decreto legislativo 15 febbraio 2006, n. 63</ref>, sezione II Ruolo dei dirigenti di istituto penitenziario, colonna "Dotazione organica", la cifra: "45" e' sostituita dalla seguente: "70". 
+ 2. In conseguenza di quanto disposto dal comma 1 del presente articolo, con decreto del Ministro della giustizia, in conformita' a quanto previsto all'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/decretoLegislativo/stato/2006-02-15/63/!main#art_9-com2" ns39:target="olf:it/decreto-legislativo/stato/2006/63/art_9-com2" ns39:relation="amends">articolo 9, comma 2, del decreto legislativo 15 febbraio 2006, n. 63</ref>, si provvede all'adeguamento della tabella C allegata al decreto del Ministro della giustizia 22 settembre 2016, concernente l'individuazione, ai sensi dell'<ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoLegislativo/stato/2006-02-15/63/!main#art_9-com1" ns40:target="olf:it/decreto-legislativo/stato/2006/63/art_9-com1" ns40:relation="amends">articolo 9, comma 1, del decreto legislativo 15 febbraio 2006, n. 63</ref>, dei posti di funzione che possono essere conferiti ai dirigenti penitenziari e ai dirigenti con incarico superiore nell'ambito degli uffici centrali e degli uffici territoriali dell'amministrazione penitenziaria e la definizione, ai sensi dell'articolo 9, comma 2, del predetto decreto legislativo, della diversa rilevanza dei medesimi uffici di livello dirigenziale non generale, pubblicato nel Bollettino Ufficiale del <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act//ministero.giustizia/2016-10-31/20/!main" ns41:target="olf:it//ministero-giustizia/2016/20" ns41:relation="cites">Ministero della giustizia n. 20 del 31 ottobre 2016</ref>. 
+ 3. Per l'attuazione delle disposizioni di cui ai commi 1 e 2, ai fini della corresponsione dell'indennita' di cui all'<ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/decretoLegge/stato/2023-06-22/75/!main#art_14-com1-leta" ns42:target="olf:it/decreto-legge/stato/2023/75/art_14-com1-leta" ns42:relation="amends">articolo 14, comma 1, lettera a), del decreto-legge 22 giugno 2023, n. 75</ref>, convertito, con modificazioni, dalla <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/legge/stato/2023-08-10/112/!main" ns43:target="olf:it/legge/stato/2023/112" ns43:relation="cites">legge 10 agosto 2023, n. 112</ref>, e' autorizzata la spesa di euro 5.209 per l'anno 2023 e di euro 62.502 annui a decorrere dall'anno 2024, cui si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2023-2025, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2023, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della giustizia. 
+ 4. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio</quotedText>».</mod>
+                                    <mod eId="modNov_8">All'articolo 6: 
+ al comma 1, lettera a), dopo le parole: «primo comma,» sono inserite le seguenti: «<quotedText eId="modNov_8_new_30">le parole: "o foreste" sono sostituite dalle seguenti: ", foreste o zone di interfaccia urbano-rurale" e</quotedText>»; 
+ dopo il comma 1 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_8_new_31">1-bis. All'<ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_423ter-com2" ns44:target="olf:it/regio-decreto/stato/1930/1398/art_423ter-com2" ns44:relation="amends">articolo 423-ter, secondo comma, del codice penale</ref> sono aggiunte, in fine, le seguenti parole: "nonche' l'interdizione dai pubblici uffici e l'incapacita' di contrattare con la pubblica amministrazione, salvo che per ottenere prestazioni di un pubblico servizio, per la durata di cinque anni". 
+ 1-ter. All'<ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_32quater" ns45:target="olf:it/regio-decreto/stato/1930/1398/art_32quater" ns45:relation="amends">articolo 32-quater del codice penale</ref>, le parole: "423-bis, primo comma," sono soppresse</quotedText>»; 
+ alla rubrica, le parole: «<quotedText eId="modNov_8_old_32">all'articolo 423-bis</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_8_new_32">agli articoli 32-quater, 423-bis e 423-ter</quotedText>».</mod>
+                                    <mod eId="modNov_9">Nel capo IV, dopo l'articolo 6 sono aggiunti i seguenti: 
+ «<quotedText eId="modNov_9_new_37">Art. 6-bis (Modifica all'<ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/legge/stato/1992-02-11/157/!main#art_30" ns46:target="olf:it/legge/stato/1992/157/art_30" ns46:relation="amends">articolo 30 della legge 11 febbraio 1992, n. 157</ref>). - 1. Dopo la <ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_47" href="/akn/it/act/legge/stato/1992-02-11/157/!main#art_30-com1-letc" ns47:target="olf:it/legge/stato/1992/157/art_30-com1-letc" ns47:relation="amends">lettera c) del comma 1 dell'articolo 30 della legge 11 febbraio 1992, n. 157</ref>, e' inserita la seguente: 
+ "c-bis) l'arresto da sei mesi a due anni e l'ammenda da euro 4.000 a euro 10.000 per chi abbatte, cattura o detiene esemplari di orso bruno marsicano (Ursus arctos marsicanus)". 
+ Art. 6-ter (Modifiche al <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_48" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns48:target="olf:it/regio-decreto/stato/1930/1398" ns48:relation="amends">codice penale</ref>, al <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_49" href="/akn/it/act/decretoLegislativo/stato/2006-04-03/152/!main" ns49:target="olf:it/decreto-legislativo/stato/2006/152" ns49:relation="amends">decreto legislativo 3 aprile 2006, n. 152</ref>, nonche' al <ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_50" href="/akn/it/act/decretoLegislativo/stato/2001-06-08/231/!main" ns50:target="olf:it/decreto-legislativo/stato/2001/231" ns50:relation="amends">decreto legislativo 8 giugno 2001, n. 231</ref>). - 1. Il <ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/decretoLegislativo/stato/2006-04-03/152/!main#art_255-com1" ns51:target="olf:it/decreto-legislativo/stato/2006/152/art_255-com1" ns51:relation="amends">comma 1 dell'articolo 255 del decreto legislativo 3 aprile 2006, n. 152</ref>, e' sostituito dal seguente: 
+ "1. Fatto salvo quanto disposto dall'articolo 256, comma 2, chiunque, in violazione delle disposizioni degli articoli 192, commi 1 e 2, 226, comma 2, e 231, commi 1 e 2, abbandona o deposita rifiuti ovvero li immette nelle acque superficiali o sotterranee e' punito con l'ammenda da mille euro a diecimila euro. Se l'abbandono riguarda rifiuti pericolosi, la pena e' aumentata fino al doppio". 
+ 2. Al <ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/decretoLegislativo/stato/2001-06-08/231/!main" ns52:target="olf:it/decreto-legislativo/stato/2001/231" ns52:relation="amends">decreto legislativo 8 giugno 2001, n. 231</ref>, sono apportate le seguenti modificazioni: 
+ a) all'articolo 24, comma 1, dopo le parole: "di cui agli articoli 316-bis, 316-ter," sono inserite le seguenti: "353, 353-bis,"; 
+ b) all'articolo 25-octies.1: 
+ 1) dopo il comma 2 e' inserito il seguente: 
+ "2-bis. In relazione alla commissione del delitto di cui all'<ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_512bis" ns53:target="olf:it/regio-decreto/stato/1930/1398/art_512bis" ns53:relation="amends">articolo 512-bis del codice penale</ref>, si applica all'ente la sanzione pecuniaria da 250 a 600 quote"; 
+ 2) al comma 3, le parole: "commi 1 e 2" sono sostituite dalle seguenti: "commi 1, 2 e 2-bis"; 
+ 3) alla rubrica sono aggiunte, in fine, le seguenti parole: "e trasferimento fraudolento di valori". 
+ 3. Al <ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main" ns54:target="olf:it/regio-decreto/stato/1930/1398" ns54:relation="amends">codice penale</ref> sono apportate le seguenti modificazioni: 
+ a) all'articolo 240-bis, primo comma, le parole: "dagli articoli 452-quater, 452-octies, primo comma" sono sostituite dalle seguenti: "dagli articoli 452-bis, 452-ter, 452-quater, 452-sexies, 452-octies, primo comma, 452-quaterdecies"; 
+ b) all'articolo 452-bis, il secondo comma e' sostituito dal seguente: 
+ "Quando l'inquinamento e' prodotto in un'area naturale protetta o sottoposta a vincolo paesaggistico, ambientale, storico, artistico, architettonico o archeologico, ovvero in danno di specie animali o vegetali protette, la pena e' aumentata da un terzo alla meta'. Nel caso in cui l'inquinamento causi deterioramento, compromissione o distruzione di un habitat all'interno di un'area naturale protetta o sottoposta a vincolo paesaggistico, ambientale, storico, artistico, architettonico o archeologico, la pena e' aumentata da un terzo a due terzi"; 
+ c) all'articolo 452-quater, il secondo comma e' sostituito dal seguente: 
+ "Quando il disastro e' prodotto in un'area naturale protetta o sottoposta a vincolo paesaggistico, ambientale, storico, artistico, architettonico o archeologico, ovvero in danno di specie animali o vegetali protette, la pena e' aumentata da un terzo alla meta'"</quotedText>».</mod>
+                                    <mod eId="modNov_10">La rubrica del capo IV e' sostituita dalla seguente: «<quotedText eId="modNov_10_new_38">Disposizioni concernenti reati in materia ambientale e altre disposizioni in materia di sanzioni penali e responsabilita' delle persone giuridiche</quotedText>».</mod>
+                                    <mod eId="modNov_11">All'articolo 7: 
+ al comma 1<quotedText eId="modNov_11_new_39">,</quotedText> le parole: «<quotedText eId="modNov_11_old_40">all'articolo 47, della legge</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_11_new_40">all'articolo 47 della legge</quotedText>» e dopo le parole: «entro il 31 ottobre 2023» e' inserito il seguente segno d'interpunzione: «,»; 
+ al comma 2: 
+ al primo periodo, le parole: «<quotedText eId="modNov_11_old_42">e da cinque rappresentanti delle amministrazioni statali competenti per materia</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_11_new_42">, da cinque rappresentanti delle amministrazioni statali competenti per materia e da due rappresentanti designati dalla Conferenza permanente per i rapporti tra lo Stato, le regioni e le province autonome di Trento e di Bolzano</quotedText>»; 
+ al secondo periodo, dopo le parole: «del Presidente del Consiglio» sono inserite le seguenti: «<quotedText eId="modNov_11_new_41">dei ministri</quotedText>»; 
+ alla rubrica, le parole: «<quotedText eId="modNov_11_old_43">della quota Irpef dell'otto per mille</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_11_new_43">della quota dell'otto per mille dell'imposta sul reddito delle persone fisiche</quotedText>».</mod>
+                                    <mod eId="modNov_12">All'articolo 8: 
+ al comma 2, le parole: «<quotedText eId="modNov_12_old_33">producono effetti, con riferimento</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_12_new_33">producono effetti con riferimento</quotedText>»; 
+ alla rubrica, le parole: «<quotedText eId="modNov_12_old_34">della quota Irpef dell'otto per mille</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_12_new_34">della quota dell'otto per mille dell'imposta sul reddito delle persone fisiche</quotedText>».</mod>
+                                    <mod eId="modNov_13">All'articolo 9: 
+ al comma 1, lettera b), le parole: «<quotedText eId="modNov_13_old_35">10-ter, comma 2</quotedText>» sono sostituite dalle seguenti: «<quotedText eId="modNov_13_new_35">, 10-ter, comma 2,</quotedText>»; 
+ al comma 2, le parole: «del Ministero della salute.» sono sostituite dalle seguenti: «del Ministero della salute» e le parole: «dall'articolo 32, comma 1,» sono sostituite dalle seguenti: «dall'articolo 32, primo comma,».</mod>
+                                    <mod eId="modNov_14">All'articolo 10: 
+ al comma 1, lettera a), capoverso Art. 53, comma 1, dopo la lettera i) e' aggiunta la seguente: 
+ «<quotedText eId="modNov_14_new_2">i-bis) vigilanza sull'Istituto per il credito sportivo e culturale Spa, per quanto di competenza</quotedText>»; 
+ al comma 2: 
+ al primo periodo, le parole: «e' fatto salvo» sono sostituite dalle seguenti: «continua ad applicarsi»; 
+ al terzo periodo, le parole: «del PNRR» sono sostituite dalle seguenti: «del Piano nazionale di ripresa e resilienza» e dopo le parole: «<ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/decretoLegge/stato/2023-02-24/13/!main" ns55:target="olf:it/decreto-legge/stato/2023/13" ns55:relation="amends">decreto-legge 24 febbraio 2023, n. 13</ref>,» sono inserite le seguenti: «<quotedText eId="modNov_14_new_5">convertito, con modificazioni, dalla <ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/legge/stato/2023-04-21/41/!main" ns56:target="olf:it/legge/stato/2023/41" ns56:relation="cites">legge 21 aprile 2023, n. 41</ref>,</quotedText>»; 
+ dopo il comma 5 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_14_new_9">5-bis. Al <ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/decretoLegge/stato/2014-05-31/83/!main#art_14-com2bis" ns57:target="olf:it/decreto-legge/stato/2014/83/art_14-com2bis" ns57:relation="amends">comma 2-bis dell'articolo 14 del decreto-legge 31 maggio 2014, n. 83</ref>, convertito, con modificazioni, dalla <ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/legge/stato/2014-07-29/106/!main" ns58:target="olf:it/legge/stato/2014/106" ns58:relation="cites">legge 29 luglio 2014, n. 106</ref>, il secondo periodo e' sostituito dai seguenti: "I relativi incarichi possono essere conferiti, con procedure di selezione pubblica, per una durata da tre a cinque anni, a persone di particolare e comprovata qualificazione professionale, in possesso di una documentata esperienza di elevato livello nella gestione e valorizzazione del patrimonio culturale, nella gestione di istituti e luoghi della cultura o nella gestione di strutture, enti, organismi pubblici e privati, nonche' a esperti di riconosciuta fama nelle materie afferenti allo specifico istituto o luogo della cultura o in materie attinenti alla gestione del patrimonio culturale, anche in deroga ai contingenti di cui all'<ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_19-com6" ns59:target="olf:it/decreto-legislativo/stato/2001/165/art_19-com6" ns59:relation="amends">articolo 19, comma 6, del decreto legislativo 30 marzo 2001, n. 165</ref>, comunque nei limiti delle dotazioni finanziarie destinate a legislazione vigente al personale dirigenziale del Ministero della cultura. Resta fermo quanto previsto dall'<ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/decretoLegge/stato/2017-04-24/50/!main#art_22-com7" ns60:target="olf:it/decreto-legge/stato/2017/50/art_22-com7" ns60:relation="cites">articolo 22, comma 7, del decreto-legge 24 aprile 2017, n. 50</ref>, convertito, con modificazioni, dalla <ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/legge/stato/2017-06-21/96/!main" ns61:target="olf:it/legge/stato/2017/96" ns61:relation="cites">legge 21 giugno 2017, n. 96</ref>"</quotedText>».</mod>
+                                    <mod eId="modNov_15">All'articolo 11: 
+ al comma 1<quotedText eId="modNov_15_new_8">,</quotedText> dopo le parole: «31 dicembre 2026,» sono inserite le seguenti: «<quotedText eId="modNov_15_new_10">nei limiti delle facolta' assunzionali previste a legislazione vigente,</quotedText>»; 
+ al comma 2, primo periodo, le parole: «, dell'articolo 1,» sono sostituite dalle seguenti: «dell'articolo 1»; 
+ al comma 3, secondo periodo, dopo le parole: «<ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/legge/stato/2013-12-27/147/!main" ns62:target="olf:it/legge/stato/2013/147" ns62:relation="cites">legge 27 dicembre 2013, n. 147</ref>» e' inserito il seguente segno d'interpunzione: «,»; 
+ dopo il comma 3 e' aggiunto il seguente: 
+ «<quotedText eId="modNov_15_new_6">3-bis. All'<ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/decretoLegge/stato/2023-06-22/75/!main#art_28-com1bis" ns63:target="olf:it/decreto-legge/stato/2023/75/art_28-com1bis" ns63:relation="amends">articolo 28, comma 1-bis, del decreto-legge 22 giugno 2023, n. 75</ref>, convertito, con modificazioni, dalla <ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/legge/stato/2023-08-10/112/!main" ns64:target="olf:it/legge/stato/2023/112" ns64:relation="cites">legge 10 agosto 2023, n. 112</ref>, le parole: "I comuni" sono sostituite dalle seguenti: "Gli enti locali"</quotedText>».</mod>
+                                    <mod eId="modNov_16">All'articolo 12: 
+ al comma 1, primo periodo, dopo le parole: «agli articoli 2» e' inserita la seguente: «<quotedText eId="modNov_16_new_4">, 5-bis</quotedText>».</mod>
+                                </p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
