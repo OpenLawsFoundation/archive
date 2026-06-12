@@ -1,0 +1,856 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                    <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                    <FRBRdate date="2021-04-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/05/17/21G00073/ORIGINAL" aknrelname="eli/id/2021/05/17/21G00073/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Ratifica ed esecuzione dell'Accordo di cooperazione nel settore della difesa tra il Governo della Repubblica italiana e il Governo della Repubblica argentina, fatto a Roma il 12 settembre 2016. (21G00073) " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00073" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-04-21" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                    <FRBRdate date="2021-05-18" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/05/17/21G00073/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/05/17/21G00073/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/05/17/21G00073/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                    <FRBRdate date="2021-04-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/05/17/21G00073/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-05-17" name="" number="116" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-05-17" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2021-04-21" refersTo="#S.1086"/>
+                <step by="#camera" date="2021-04-21" refersTo="#C.2631"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-04-21/63/!main" showAs=""/>
+                <passiveRef eId="S.1086" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;1086" showAs=""/>
+                <passiveRef eId="C.2631" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;2631" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/05/17/21G00073/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Ratifica ed esecuzione dell'Accordo di cooperazione nel settore della difesa tra il Governo della Repubblica italiana e il Governo della Repubblica argentina, fatto a Roma il 12 settembre 2016. (21G00073) </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00073</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-04-21</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/05/17/21G00073/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/05/17/21G00073/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/05/17/21G00073/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/05/17/21G00073/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/63" nativeUrn="urn:nir:stato:legge:2021-04-21;63" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-05-17"><ns0:event type="enacted" date="2021-04-21"/><ns0:event type="published" date="2021-05-17"/><ns0:event type="commenced" date="2021-05-17"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/9afa7552-f294-4780-853e-e18f241560eb" sourceSha256="07eb85a393d703a28cd1639f9bb9dfdd295b838ab88428453a954f89f48a6199" adapter="normattiva-it@0.2.0" generatedAt="2026-06-12T00:36:07.728922Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-04-21">21 aprile 2021</docDate>
+                <docNumber>63</docNumber>
+                <docTitle>Ratifica ed esecuzione dell'Accordo di cooperazione nel settore della difesa tra il Governo della Repubblica italiana e il Governo della Repubblica argentina, fatto a Roma il 12 settembre 2016. (21G00073) </docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 18/05/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Autorizzazione alla ratifica</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Presidente della Repubblica e' autorizzato a ratificare l'Accordo di cooperazione nel settore della difesa tra il Governo della Repubblica italiana e il Governo della Repubblica argentina, fatto a Roma il 12 settembre 2016. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Ordine di esecuzione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Piena ed intera esecuzione e' data dall'Accordo di cui all'articolo 1 a decorrere dalla data della sua entrata in vigore, in conformita' a quanto disposto dall'articolo 10 dell'Accordo stesso. </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Copertura finanziaria</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>All'onere derivante dall'articolo 2 dell'Accordo di cui all'articolo 1 della presente legge, valutato in euro 5.504 annui ad anni alterni a decorrere dall'anno 2020, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2020-2022, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2020, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero degli affari esteri e della cooperazione internazionale. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio. </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Clausole finanziarie</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dalle disposizioni dell'Accordo di cui all'articolo 1, ad esclusione dell'articolo 2 dell'Accordo stesso, non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Agli eventuali oneri relativi agli articoli 5 e 11 dell'Accordo di cui all'articolo 1 si fa fronte con apposito provvedimento legislativo. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 21 aprile 2021 </p>
+            <p>MATTARELLA Di Maio, Ministro degli affari esteri e della cooperazione internazionale Guerini, Ministro della difesa Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Accordo-art. 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p>ACCORDO DI COOPERAZIONE NEL SETTORE DELLA DIFESA TRA IL GOVERNO DELLA REPUBBLICA ITALIANA E IL GOVERNO DELLA REPUBBLICA ARGENTINA 
+ 
+ Preambolo 
+ 
+ Il Governo della Repubblica italiana ed il Governo della Repubblica Argentina (denominati in seguito «le Parti» o «la Parte»): 
+ convinti che il mantenimento della pace e della stabilita' internazionale, la diffusione di nuove forme di convivenza e l'affermazione di un ordine internazionale piu' sicuro e stabile, possano ricevere un contributo significativo attraverso l'identificazione e l'esempio di modelli originali di collaborazione tra i paesi appartenenti a diverse aree geografiche; 
+ riaffermando l'impegno di entrambi i Paesi per la non proliferazione delle armi di distruzione di massa che minacciano seriamente la pace e la sicurezza internazionale; 
+ confermando il loro impegno nei confronti della Carta delle Nazioni Unite; 
+ desiderosi di accrescere la cooperazione tra i rispettivi Ministeri della difesa; 
+ accomunati dalla condivisa valutazione che la cooperazione reciproca nel settore della difesa rafforzera' le relazioni esistenti tra le Parti, 
+ 
+ hanno concordato quanto segue: 
+ 
+ Articolo 1 
+ Principi e scopi 
+ 
+ La cooperazione tra le Parti, regolata dai principi di reciprocita', uguaglianza ed interesse reciproco, avverra' in conformita' con i rispettivi ordinamenti giuridici e con gli impegni internazionali, nonche', per la Parte italiana, con gli obblighi derivanti dalla propria appartenenza all'Unione europea e per la Parte argentina con gli impegni derivanti dall'appartenenza all'Unione delle Nazioni sudamericane, al fine di incoraggiare, facilitare e sviluppare la cooperazione nel campo della difesa. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 2">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 2 
+ Cooperazione generale 
+ 
+1. Attuazione 
+ a. Sulla base del presente Accordo, le Parti potranno elaborare piani annuali e pluriennali di cooperazione bilaterale nel settore della difesa che prevedranno i luoghi, le date, il numero dei partecipanti e le modalita' di attuazione delle attivita' di cooperazione. 
+ b. I Piani di cooperazione annuali e pluriennali potranno essere sottoscritti, di comune accordo, dai Rappresentanti autorizzati dal Ministro della difesa di ognuna delle Parti. 
+ c. Le concrete attivita' di cooperazione nel campo della difesa saranno realizzate e condotte dal Ministero della difesa della Repubblica italiana e dal Ministero della difesa della Repubblica argentina. 
+ d. Le consultazioni dei Rappresentanti delle Parti si terranno alternativamente in Italia e in Argentina, allo scopo di elaborare ed approvare, ove opportuno e previo consenso tra le Parti, Accordi specifici ad integrazione e completamento del presente Accordo, nonche' eventuali programmi di cooperazione tra le Forze armate italiane e le Forze armate argentine. 
+ 
+2. Campi 
+ La cooperazione tra le Parti potra' includere i seguenti campi: 
+ a. sicurezza comune e politica di difesa; 
+ b. ricerca e sviluppo, supporto logistico e acquisizione di prodotti e servizi per la difesa; 
+ c. operazioni di mantenimento della pace stabilite da risoluzione del Consiglio di Sicurezza delle Nazioni Unite; 
+ d. organizzazione ed impiego delle Forze armate, nonche' strutture ed equipaggiamento di unita' militari e gestione del personale; 
+ e. formazione ed addestramento in campo militare; 
+ f. sanita' militare; 
+ g. storia militare; 
+ h. sport militare; 
+ i. altri settori militari di comune interesse per entrambe le Parti. 
+ Questo elenco non e' tassativo, ma indicativo. 
+ 
+3. Modalita' 
+ La cooperazione tra le Parti potra' avvenire mediante le seguenti modalita': 
+ a. visite reciproche di delegazioni di enti civili e militari; 
+ b. scambio di esperienze tra esperti delle Parti; 
+ c. incontri tra Rappresentanti delle Istituzioni della difesa; 
+ d. scambio di relatori e di studenti di Istituzioni militari ed anche di fasi di formazione del personale militare; 
+ e. partecipazione a corsi teorici e pratici, periodi di orientamento, seminari, conferenze, dibattiti e simposi, organizzati presso enti civili e militari della difesa; 
+ f. partecipazione ad esercitazioni militari; 
+ g. partecipazione ad operazioni di mantenimento della pace stabilite da risoluzione del Consiglio di Sicurezza delle Nazioni Unite; 
+ h. visite di navi ed aeromobili militari; 
+ i. scambio nel campo degli eventi culturali e sportivi; 
+ j. supporto alle iniziative commerciali relative ai materiali ed ai servizi della difesa; 
+ k. eventuali altre modalita' da concordare tra le Parti. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 3">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_3"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_3.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 3 
+ Aspetti finanziari 
+ 
+ 1. Ciascuna Parte sosterra' le spese di propria competenza relative all'esecuzione del presente Accordo, ivi incluse: 
+ a. le spese di viaggio, vitto ed alloggio, gli stipendi, l'assicurazione per la malattia e gli infortuni, nonche' gli oneri relativi ad ogni altra indennita' dovuta al proprio personale in conformita' alle propria normativa; 
+ b. le spese mediche ed odontoiatriche, nonche' le spese derivanti dalla rimozione o dalla evacuazione di proprio personale malato, infortunato o deceduto. 
+ 2. Ferme restando le disposizioni del punto b. di cui sopra, la Parte ospitante fornira' cure d'urgenza, presso infrastrutture sanitarie militari, a tutto il personale della Parte inviante che possa avere bisogno di assistenza sanitaria d'urgenza durante l'esecuzione delle attivita' di cooperazione bilaterale previste dal presente Accordo e, ove necessario, presso altre strutture sanitarie, a condizione che la Parte inviante ne sostenga le spese. 
+ 3. Tutte le attivita' condotte ai sensi del presente Accordo saranno subordinate alla disponibilita' di fondi di bilancio delle Parti. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 4">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_4"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_4.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 4 
+ Giurisdizione 
+ 
+ 1. Le Autorita' dello Stato ospitante hanno il diritto di esercitare la loro giurisdizione sul personale militare e civile ospitato per quanto riguarda i reati commessi sul proprio territorio e puniti in base alla legislazione di detto Stato. 
+ 2. Tuttavia, le Autorita' dello Stato inviante hanno il diritto di esercitare la propria giurisdizione sui membri delle proprie Forze armate e sul personale civile - laddove questo ultimo sia soggetto alla legislazione dello Stato inviante - per quanto riguarda i seguenti reati: 
+ a. che minacciano la sicurezza o i beni dello Stato inviante; 
+ b. risultanti da qualsiasi atto o omissione - commessi intenzionalmente o per negligenza - in relazione all'attivita' di servizio. 
+ 3. Qualora il personale ospitato sia coinvolto in eventi per i quali la legislazione dello Stato ospitante preveda l'applicazione della pena capitale e/o di altre sanzioni in contrasto con i principi fondamentali e l'ordinamento giuridico dello Stato inviante, tali pene e/o sanzioni non saranno pronunciate e, se esse sono state gia' pronunciate, non saranno eseguite. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 5">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_5"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_5.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 5 
+ Risarcimento dei danni 
+ 
+ 1. Il risarcimento dei danni provocati alla Parte ospitante da un membro della Parte inviante, durante o in relazione alla propria missione/esercitazione nell'ambito del presente Accordo, sara', previo accordo tra le Parti, a carico di quest'ultima. 
+ 2. Qualora le Parti saranno congiuntamente responsabili di perdite o di danni causati nello svolgimento delle attivita' nell'ambito del presente Accordo, le medesime Parti, previa intesa, rimborseranno tale perdita o danno. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 6">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_6"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_6"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_6.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 6 
+ Cooperazione nel settore 
+ dei prodotti per la difesa 
+ 
+1. Categorie di armamenti 
+ Ai sensi dei rispettivi ordinamenti giuridici nazionali ed allo scopo di regolare le attivita' relative agli equipaggiamenti della difesa, le Parti si potranno accordare per fornirsi reciproca cooperazione nelle seguenti categorie di armamenti: 
+ a. navi e relativi equipaggiamenti appositamente costruiti per uso militare; 
+ b. aeromobili, elicotteri militari, sistemi aerospaziali e relativi equipaggiamenti; 
+ c. carri e veicoli appositamente costruiti per uso militare; 
+ d. armi da fuoco automatiche e relativo munizionamento; 
+ e. armamento di medio e grosso calibro e relativo munizionamento; 
+ f. bombe, mine (fatta eccezione per le mine anti-uomo), razzi, missili, siluri e relativo equipaggiamento di controllo; 
+ g. polveri, esplosivi e propellenti appositamente costruiti per uso militare; 
+ h. sistemi elettronici, elettro-ottici e fotografici e relativo equipaggiamento appositamente costruiti per uso militare; 
+ i. materiali speciali blindati appositamente costruiti per uso militare; 
+ j. materiali specifici per l'addestramento militare; 
+ k. macchine ed equipaggiamento costruiti per la fabbricazione, il collaudo ed il controllo delle armi e delle munizioni; 
+ l. equipaggiamento speciale appositamente costruito per uso militare. 
+ Il reciproco equipaggiamento dei prodotti d'interesse delle rispettive Forze armate sara' sviluppato nell'ambito del presente Accordo e potra' essere attuato attraverso operazioni dirette da Stato a Stato, oppure tramite societa' pubbliche e/o private autorizzate dai rispettivi Governi. 
+ I rispettivi Governi s'impegneranno a non riesportare i prodotti acquisiti a Paesi terzi senza il preventivo benestare della Parte cedente. 
+ 
+2. Modalita' 
+ Le attivita' di cooperazione legate all'industria della difesa e della politica degli approvvigionamenti, della ricerca, dello sviluppo degli armamenti e delle apparecchiature militari potranno assumere le seguenti modalita': 
+ a. ricerca scientifica, test e progettazione; 
+ b. scambio di esperienze nel campo tecnico; 
+ c. reciproca produzione, modernizzazione e scambio di servizi tecnici nei settori stabiliti dalle Parti; 
+ d. sostegno all'industrie della difesa ed agli organi di Governo al fine di intraprendere la cooperazione nell'ambito dei prodotti militari. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 7">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_7"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_7"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_7.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 7 
+ Proprieta' intellettuale 
+ 
+ Le Parti s'impegneranno ad attuare le procedure necessarie per garantire la protezione della proprieta' intellettuale, inclusi i brevetti derivanti da attivita' condotte in conformita' con il presente Accordo, ed ai sensi delle rispettive legislazioni interne e degli Accordi internazionali in materia sottoscritti dalle medesime Parti. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 8">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_8"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_8"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_8.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 8 
+ Sicurezza delle informazioni classificate 
+ 
+ 1. Per «informazione classificata» si intende ogni informazione, atto, attivita', documento, materiale o cosa su cui sia stata apposta delle Parti una classifica di segretezza. 
+ 2. Tutte le informazioni classificate scambiate o generate nell'ambito del presente Accordo saranno utilizzate, trasmesse, conservate, trattate e salvaguardate in conformita' alla legislazione interna di ciascuna delle Parti. 
+ 3. Le informazioni classificate saranno trasferite solo attraverso i canali governativi approvati dalla Competente Autorita' per la Sicurezza o altra Autorita' designata dalle Parti. 
+ 4. La corrispondenza delle classifiche di segretezza e' la seguente: 
+ </p>
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <p>Per la Repubblica italiana </p>
+                                        </th>
+                                        <th>
+                                            <p>Corrispondenza (in Inglese)  </p>
+                                        </th>
+                                        <th>
+                                            <p>Per la Repubblica argentina </p>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> SEGRETISSIMO </p>
+                                        </td>
+                                        <td>
+                                            <p> TOP SECRET </p>
+                                        </td>
+                                        <td>
+                                            <p>ESTRICTAMENTE SECRETO Y CONFIDENCIAL </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>SEGRETO </p>
+                                        </td>
+                                        <td>
+                                            <p>SECRET </p>
+                                        </td>
+                                        <td>
+                                            <p>SECRETO </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>RISERVATISSIMO </p>
+                                        </td>
+                                        <td>
+                                            <p>CONFIDENTIAL </p>
+                                        </td>
+                                        <td>
+                                            <p>CONFIDENCIAL </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>RISERVATO </p>
+                                        </td>
+                                        <td>
+                                            <p>RESTRICTED </p>
+                                        </td>
+                                        <td>
+                                            <p>RESERVADO </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p>
+ 
+ 5. L'accesso alle informazioni classificate, scambiate in virtu' del presente Accordo, e' consentito al personale delle Parti che ha necessita' di conoscerle e sia in possesso di una adeguata abilitazione di sicurezza in conformita' alle disposizioni legislative e regolamentari nazionali. 
+ 6. Le informazioni classificate scambiate saranno utilizzate solo per gli scopi ai quali sono state specificamente destinate, nell'ambito e con le finalita' del presente Accordo. 
+ 7. Il trasferimento a terze Parti o ad Organizzazioni internazionali di informazioni classificate, acquisite nel contesto della cooperazione nel campo dei materiali per la difesa prevista dal presente Accordo, e' soggetto alla preventiva approvazione scritta delle rispettive Autorita' competenti. 
+ 8. Ferma restando l'immediata vigenza delle clausole contenute nel presente articolo, ulteriori aspetti di sicurezza concernenti le informazioni classificate, non contenuti nel presente Accordo, saranno regolati da uno specifico Accordo sulla sicurezza che verra' stipulato dalle rispettive competenti Autorita' per la sicurezza o da Autorita' designate a tale scopo dalle Parti. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 9">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_9"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_9"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_9.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 9 
+ Risoluzione delle controversie 
+ 
+ Qualunque controversia riguardante l'interpretazione o l'attuazione del presente Accordo sara' risolta mediante consultazioni e negoziazioni dirette tra le Parti e attraverso i rispettivi canali diplomatici. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 10">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_10"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_10"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_10.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 10 
+ Entrata in vigore 
+ 
+ 1. Il presente Accordo entrera' in vigore alla data di ricezione dell'ultima delle due notifiche scritte con cui ciascuna Parte informera' l'altra, attraverso i canali diplomatici, dell'espletamento delle rispettive procedure nazionali prescritte per l'entrata in vigore del presente Accordo. 
+ 2. Il presente Accordo sostituira', al momento della sua entrata in vigore, l'Accordo di cooperazione in materia di difesa tra il Governo della Repubblica italiana ed il Governo della Repubblica argentina, sottoscritto a Roma il 6 ottobre 1992 ed entrato in vigore il 21 luglio 1997 a durata indeterminata. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 11">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_11"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_11"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_11.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 11 
+ Protocolli aggiuntivi, emendamenti, 
+ revisioni e programmi 
+ 
+ 1. Con il consenso di entrambe le Parti, sara' possibile stipulare Protocolli aggiuntivi in ambiti specifici della cooperazione in materia di difesa che coinvolgano organi militari e civili. 
+ 2. I Protocolli aggiuntivi negoziati tra le Parti saranno redatti in conformita' alle procedure nazionali e saranno limitati agli scopi del presente Accordo. 
+ 3. Il personale debitamente autorizzato dal Ministero della difesa della Repubblica italiana e dal Ministero della difesa della Repubblica argentina verifichera', sviluppera' ed eseguira' i Programmi di sviluppo che consentiranno di attuare il presente Accordo o i relativi Protocolli aggiuntivi, su basi d'interesse reciproco, in stretto coordinamento con il Ministero degli affari esteri di entrambi i Paesi, per gli aspetti di pertinenza e con le competenti Autorita' per la Sicurezza, per gli aspetti riguardanti le informazioni classificate. 
+ 4. Il presente Accordo potra' essere emendato o rivisto con il reciproco consenso delle Parti, tramite uno Scambio di Note, attraverso i rispettivi canali diplomatici. 
+ 5. I Protocolli aggiuntivi, gli emendamenti e le revisioni entreranno in vigore secondo le modalita' indicate nell'articolo 10 (entrata in vigore) del presente Accordo. 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Accordo-art. 12">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/!main/annesso_12"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-21;63"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/17/21G00073/ORIGINAL"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_12"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18"/>
+                                <FRBRdate date="2021-05-18" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18/!main/annesso_12.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-21/63/ita@2021-05-18.xml"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Articolo 12 
+ Durata e termine 
+ 
+ 1. Il presente Accordo restera' in vigore fino a quando una delle Parti decida, in qualsiasi momento, di denunciarlo. 
+ 2. La Parte che intende denunciare l'Accordo notifichera' all'altra Parte per iscritto la propria decisione attraverso i rispettivi canali diplomatici. La denuncia entrera' in vigore novanta giorni dopo che l'altra Parte ne abbia ricevuto notifica. 
+ 3. La risoluzione del presente Accordo non influira' sui programmi e le attivita' in corso previste nell'ambito del medesimo Accordo, se non diversamente concordato tra le Parti. 
+ In fede di che, i sottoscritti, debitamente autorizzati a tal fine dai rispettivi Governi, hanno sottoscritto il presente Accordo. 
+ Fatto a Roma il 12 settembre 2016 in due originali, entrambi nella lingua italiana e spagnola, tutti i testi facenti egualmente fede. 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
