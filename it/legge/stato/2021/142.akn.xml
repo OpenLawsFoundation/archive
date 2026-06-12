@@ -1,0 +1,658 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-09-24/142/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-09-24/142"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-09-24;142"/>
+                    <FRBRalias name="eli" value="eli/id/2021/10/14/21G00149/ORIGINAL"/>
+                    <FRBRdate date="2021-09-24" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/10/14/21G00149/ORIGINAL" aknrelname="eli/id/2021/10/14/21G00149/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Rendiconto generale dell'Amministrazione dello Stato per l'esercizio finanziario 2020. (21G00149)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00149" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-09-24" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29"/>
+                    <FRBRdate date="2021-10-29" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/10/14/21G00149/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/10/14/21G00149/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/10/14/21G00149/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29.xml"/>
+                    <FRBRdate date="2021-09-24" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/10/14/21G00149/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-10-14" name="" number="246" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-10-14" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2021-09-24" refersTo="#S.2308"/>
+                <step by="#camera" date="2021-09-24" refersTo="#C.3258"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-09-24/142/!main" showAs=""/>
+                <passiveRef eId="S.2308" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2308" showAs=""/>
+                <passiveRef eId="C.3258" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3258" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/10/14/21G00149/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Rendiconto generale dell'Amministrazione dello Stato per l'esercizio finanziario 2020. (21G00149)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00149</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-09-24</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/10/14/21G00149/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/10/14/21G00149/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/10/14/21G00149/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/10/14/21G00149/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/142" nativeUrn="urn:nir:stato:legge:2021-09-24;142" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-10-14"><ns0:event type="enacted" date="2021-09-24"/><ns0:event type="published" date="2021-10-14"/><ns0:event type="commenced" date="2021-10-14"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/8a531603-9910-4c57-9f94-925350e98c13" sourceSha256="1c72eed17c68a98980948207f44e6d9089c9e43e9232ddb4083419a53854e485" adapter="normattiva-it@0.2.0" generatedAt="2026-06-12T00:21:43.388411Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-09-24">24 settembre 2021</docDate>
+                <docNumber>142</docNumber>
+                <docTitle>Rendiconto generale dell'Amministrazione dello Stato per l'esercizio finanziario 2020. (21G00149) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 29/10/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <chapter eId="chp_I">
+                <num>Titolo I</num>
+                <heading>RENDICONTO GENERALE DELLO STATO   Capo I   Conto del bilancio</heading>
+                <article eId="art_1">
+                    <num>Art. 1.</num>
+                    <heading> Entrate</heading>
+                    <paragraph eId="art_1__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Le entrate tributarie, extratributarie, per alienazione e ammortamento di beni patrimoniali e riscossione di crediti, nonche' per accensione di prestiti, accertate nell'esercizio finanziario 2020 per la competenza propria dell'esercizio, risultano stabilite in euro 943.492.341.507,37. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_1__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>I residui attivi delle Amministrazioni centrali dello Stato, determinati alla chiusura dell'esercizio 2019 in euro 216.161.040.889,69, non hanno subito modifiche nel corso della gestione 2020. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_1__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>I residui attivi al 31 dicembre 2020 ammontano complessivamente a euro 211.181.898.810,79 cosi' risultanti: 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                        </content>
+                    </paragraph>
+                    <section>
+                        <content>
+                            <p>
+                                <authorialNote eId="authorialNote_1" placement="bottom">
+                                    <p> NOTE 
+ 
+ Avvertenza: 
+ - Il testo delle note qui pubblicato e' stato redatto dall'amministrazione competente per materia, ai sensi dell'art. 10, comma 3, del testo unico delle disposizioni sulla promulgazione delle leggi, sull'emanazione dei decreti del Presidente della Repubblica e sulle pubblicazioni ufficiali della Repubblica italiana, approvato con <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/1985-12-28/1092/!main" ns1:target="olf:it/dpr/stato/1985/1092" ns1:relation="cites">decreto del Presidente della Repubblica 28 dicembre 1985, n. 1092</ref>, al solo fine di facilitare la lettura delle disposizioni di legge modificate o alle quali e' operato il rinvio. Restano invariati il valore e l'efficacia degli atti legislativi qui trascritti. 
+ 
+</p>
+                                </authorialNote>
+                            </p>
+                        </content>
+                    </section>
+                </article>
+                <article eId="art_2">
+                    <num>Art. 2.</num>
+                    <heading> Spese</heading>
+                    <paragraph eId="art_2__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Le spese correnti, in conto capitale e per rimborso di passivita' finanziarie, impegnate nell'esercizio finanziario 2020 per la competenza propria dell'esercizio, risultano stabilite in euro 1.076.085.913.801,20. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_2__para_2">
+                        <num>2.</num>
+                        <content>
+                            <p>I residui passivi delle Amministrazioni centrali dello Stato, determinati alla chiusura dell'esercizio 2019 in euro 114.014.253.456,81, non hanno subito modifiche nel corso della gestione 2020. 
+</p>
+                        </content>
+                    </paragraph>
+                    <paragraph eId="art_2__para_3">
+                        <num>3.</num>
+                        <content>
+                            <p>I residui passivi al 31 dicembre 2020 ammontano complessivamente a euro 196.916.533.981,17 cosi' risultanti: 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_3">
+                    <num>Art. 3.</num>
+                    <heading> Disavanzo della gestione di competenza</heading>
+                    <paragraph eId="art_3__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Il disavanzo della gestione di competenza dell'esercizio finanziario 2020, di euro 132.593.572.293,83, risulta stabilito come segue: 
+ 
+ (in euro) 
+ </p>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <p>Entrate tributarie </p>
+                                    </th>
+                                    <th>
+                                        <p>480.774.444.812,76 </p>
+                                    </th>
+                                    <th>
+                                        <p>  </p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Entrate extra-tributarie </p>
+                                    </td>
+                                    <td>
+                                        <p>84.672.569.320,43 </p>
+                                    </td>
+                                    <td>
+                                        <p>  </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Entrate provenienti dall'alienazione ed ammortamento di beni patrimoniali e dalla riscossione di crediti </p>
+                                    </td>
+                                    <td>
+                                        <p>    3.760.894.724,32 </p>
+                                    </td>
+                                    <td>
+                                        <p>      </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Accensione di prestiti </p>
+                                    </td>
+                                    <td>
+                                        <p>374.284.432.649,86 </p>
+                                    </td>
+                                    <td>
+                                        <p>  </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Totale entrate </p>
+                                    </td>
+                                    <td>
+                                        <p>943.492.341.507,37  </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Spese correnti </p>
+                                    </td>
+                                    <td>
+                                        <p>670.870.066.399,51 </p>
+                                    </td>
+                                    <td>
+                                        <p>  </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Spese in conto capitale </p>
+                                    </td>
+                                    <td>
+                                        <p>169.204.410.618,95 </p>
+                                    </td>
+                                    <td>
+                                        <p>  </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Rimborso di passivita' finanziarie </p>
+                                    </td>
+                                    <td>
+                                        <p> 236.011.436.782,76 </p>
+                                    </td>
+                                    <td>
+                                        <p>   </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Totale spese </p>
+                                    </td>
+                                    <td>
+                                        <p>1.076.085.913.801,20 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Disavanzo della gestione di competenza </p>
+                                    </td>
+                                    <td>
+                                        <p>   </p>
+                                    </td>
+                                    <td>
+                                        <p> 132.593.572.293,83 </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <p/>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_4">
+                    <num>Art. 4.</num>
+                    <heading> Situazione finanziaria</heading>
+                    <paragraph eId="art_4__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Il disavanzo finanziario del conto del Tesoro alla fine dell'esercizio 2020 di euro 324.242.790.623,97 risulta stabilito come segue: 
+ 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                        </content>
+                    </paragraph>
+                </article>
+                <article eId="art_5">
+                    <num>Art. 5.</num>
+                    <heading> Allegati</heading>
+                    <paragraph eId="art_5__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Sono approvati l'allegato n. 1, annesso alla presente legge, previsto dall'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_28-com4" ns2:target="olf:it/legge/stato/2009/196/art_28-com4" ns2:relation="cites">articolo 28, comma 4, della legge 31 dicembre 2009, n. 196</ref>, nonche' l'allegato n. 2 relativo alle eccedenze di impegni risultate in sede di consuntivo per l'esercizio 2020 sul conto della competenza, relative alle unita' di voto degli stati di previsione della spesa dei Ministeri. 
+</p>
+                        </content>
+                    </paragraph>
+                    <section>
+                        <content>
+                            <p>
+                                <authorialNote eId="authorialNote_2" placement="bottom">
+                                    <p> Note all'art. 5: 
+ - Si riporta il testo dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_28" ns3:target="olf:it/legge/stato/2009/196/art_28" ns3:relation="cites">articolo 28 della legge 31 dicembre 2009, n. 196</ref> (Legge di contabilita' e finanza pubblica): 
+ «Art. 28 (Fondo di riserva per le spese impreviste). - 1. Nello stato di previsione del Ministero dell'economia e delle finanze e' istituito, nella parte corrente, un «fondo di riserva per le spese impreviste» per provvedere alle eventuali deficienze delle assegnazioni di bilancio, che non riguardino le spese di cui all'articolo 26 e che, comunque, non impegnino i bilanci futuri con carattere di continuita'. 
+ 2. Il trasferimento di somme dal fondo di cui al comma 1 e la loro corrispondente iscrizione alle unita' elementari di bilancio, ai fini della gestione e della rendicontazione, di bilancio hanno luogo mediante decreti del Ministro dell'economia e delle finanze, da registrare alla Corte dei conti, e riguardano sia le dotazioni di competenza sia quelle di cassa delle unita' elementari di bilancio interessate. 
+ 3. Allo stato di previsione della spesa del Ministero dell'economia e delle finanze e' allegato un elenco da approvare, con apposito articolo, con la legge del bilancio, delle spese per le quali si puo' esercitare la facolta' di cui al comma 2. 
+ 4. Alla legge di approvazione del rendiconto generale dello Stato e' allegato un elenco dei decreti di cui al comma 2, con le indicazioni dei motivi per i quali si e' proceduto ai prelevamenti dal fondo di cui al presente articolo.». 
+</p>
+                                </authorialNote>
+                            </p>
+                        </content>
+                    </section>
+                </article>
+            </chapter>
+            <chapter eId="chp_II">
+                <num>Capo II</num>
+                <heading>Conto generale del patrimonio</heading>
+                <article eId="art_6">
+                    <num>Art. 6.</num>
+                    <heading> Risultati generali della gestione patrimoniale</heading>
+                    <paragraph eId="art_6__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>La situazione patrimoniale dell'Amministrazione dello Stato, al 31 dicembre 2020, resta stabilita come segue: 
+ 
+ (in euro) 
+ 
+ </p>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <p>Attivita' </p>
+                                    </th>
+                                    <th>
+                                        <p/>
+                                    </th>
+                                    <th>
+                                        <p/>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Attivita' finanziarie </p>
+                                    </td>
+                                    <td>
+                                        <p> 671.530.436.457,18 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Attivita' non finanziarie prodotte </p>
+                                    </td>
+                                    <td>
+                                        <p>  328.503.253.754,06 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Attivita' non finanziarie non prodotte </p>
+                                    </td>
+                                    <td>
+                                        <p>  4.048.435.685,02 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p>1.004.082.125.896,26 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Passivita' </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Passivita' finanziarie </p>
+                                    </td>
+                                    <td>
+                                        <p> 3.219.388.069.562,11 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                    <td>
+                                        <p>3.219.388.069.562,11 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Eccedenza passiva al 31 dicembre 2020 </p>
+                                    </td>
+                                    <td>
+                                        <p>  2.215.305.943.665,85 </p>
+                                    </td>
+                                    <td>
+                                        <p/>
+                                    </td>
+                                </tr>
+                            </table>
+                            <p/>
+                        </content>
+                    </paragraph>
+                </article>
+            </chapter>
+            <chapter eId="chp_III">
+                <num>Titolo II</num>
+                <heading>APPROVAZIONE DEL RENDICONTO</heading>
+                <article eId="art_7">
+                    <num>Art. 7.</num>
+                    <heading> Rendiconto</heading>
+                    <paragraph eId="art_7__para_1">
+                        <num>1.</num>
+                        <content>
+                            <p>Il rendiconto generale delle Amministrazioni dello Stato per l'esercizio 2020 e' approvato nelle risultanze di cui ai precedenti articoli. 
+ </p>
+                        </content>
+                    </paragraph>
+                </article>
+            </chapter>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 24 settembre 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Franco, Ministro dell'economia e delle finanze Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato 1">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-09-24/142/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-09-24/142"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-09-24;142"/>
+                                <FRBRalias name="eli" value="eli/id/2021/10/14/21G00149/ORIGINAL"/>
+                                <FRBRdate date="2021-10-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29"/>
+                                <FRBRdate date="2021-10-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29.xml"/>
+                                <FRBRdate date="2021-09-24" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 1 
+ 
+ Prelevamenti dal Fondo di riserva per le spese 
+ impreviste effettuati nell'anno 2020 
+ (<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/legge/stato/2009-12-31/196/!main#art_28-com4" ns4:target="olf:it/legge/stato/2009/196/art_28-com4" ns4:relation="cites">articolo 28, comma 4, della legge 31 dicembre 2009, n. 196</ref>, 
+ e successive modificazioni) 
+ 
+ Per l'anno finanziario 2020, nello stato di previsione del Ministero dell'economia e delle finanze, al programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" (Oneri comuni di parte corrente) di pertinenza del Centro di responsabilita' "Ragioneria generale dello Stato" e' iscritto il capitolo n. 3001, con uno stanziamento iniziale di euro 400.000.000,00 in conto competenza e in conto cassa. 
+ Nel corso dell'anno finanziario 2020 sono stati disposti, a carico del suddetto fondo, prelevamenti in termini di competenza e cassa con i seguenti decreti del Ministro dell'economia e delle finanze: 
+ 
+1) <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decreto/ministero.economia.finanze/2020-06-19/65090/!main" ns5:target="olf:it/decreto/ministero-economia-finanze/2020/65090" ns5:relation="cites">Decreto del Ministro dell'economia e delle finanze, n. 65090 del 19 giugno 2020</ref>, registrato alla Corte dei conti il 23 giugno 2020, registrazione n. 827, ufficio n. 1 
+ 2.500.000,00  (2.500.000,00) 
+2) <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decreto/ministero.economia.finanze/2020-10-15/201098/!main" ns6:target="olf:it/decreto/ministero-economia-finanze/2020/201098" ns6:relation="cites">Decreto del Ministro dell'economia e delle finanze, n. 201098 del 15 ottobre 2020</ref>, registrato alla Corte dei conti il 20 ottobre 2020, registrazione n. 1257, ufficio n. 1 
+ 181.000.000,00  (181.000.000,00) 
+3) <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decreto/ministero.economia.finanze/2020-11-16/216953/!main" ns7:target="olf:it/decreto/ministero-economia-finanze/2020/216953" ns7:relation="cites">Decreto del Ministro dell'economia e delle finanze, n. 216953 del 16 novembre 2020</ref>, registrato alla Corte dei conti il 17 novembre 2020, registrazione n. 1397, ufficio n. 1 
+ 94.039.176,00  (94.039.176,00) 
+ 
+I Prelevamento (decreto del Ministro dell'economia e delle finanze 19 giugno 2020) 
+ 
+L'assegnazione ha riguardato i programmi di seguito specificati per provvedere alla necessita' di integrare gli stanziamenti di bilancio del Ministero dell'economia e delle finanze, riferiti a spese aventi le caratteristiche definite dalle disposizioni legislative medesime. 
+ 
+MINISTERO DELL'ECONOMIA E DELLE FINANZE 
+ - Programma - "Regolazione e coordinamento del sistema della fiscalita'" della missione "Politiche economico-finanziarie e di bilancio e tutela della finanza pubblica" di pertinenza del CDR "Dipartimento delle Finanze" per € 100.000,00; -Programma -"Analisi e programmazione economico-finanziaria e gestione del debito e degli interventi finanziari" della missione "Politiche economico-finanziarie e di bilancio e tutela della finanza pubblica" di pertinenza del CDR "Dipartimento del Tesoro" per € 175.000,00; -Programma - "Analisi, monitoraggio e controllo della finanza pubblica e politiche di bilancio della missione "Politiche economico-finanziarie e di bilancio e tutela della finanza pubblica" di pertinenza del CDR "Dipartimento della Ragioneria Generale dello Stato" per € 370.000,00; -Programma - "Supporto all'azione di controllo, vigilanza e amministrazione generale della Ragioneria generale dello Stato sul territorio" della missione "Politiche economico-finanziarie e di bilancio e tutela della finanza pubblica" di pertinenza del CDR "Dipartimento della Ragioneria Generale dello Stato" per € 885.000,00; 
+ - Programma - "Giustizia tributaria" della missione "Giustizia" di pertinenza del CDR "Dipartimento delle Finanze" per € 400.000,00; 
+ - Programma - "Indirizzo politico" della missione "Servizi istituzionali e generali delle amministrazioni pubbliche" di pertinenza del: 
+ - CDR "Gabinetto e uffici di diretta collaborazione all'opera del Ministro" per € 40.000,00; 
+ - CDR "Dipartimento dell'Amministrazione generale, del personale e dei servizi" per € 530.000,00 
+ 
+II Prelevamento (decreto del Ministro dell'Economia e delle Finanze 15 ottobre 2020) 
+ 
+L'assegnazione ha riguardato i programmi di seguito specificati per provvedere alla necessita' di integrare gli stanziamenti di bilancio di talune amministrazioni, riferiti a spese aventi le caratteristiche definite dalle disposizioni legislative medesime. 
+ 
+MINISTERO DELL'ECONOMIA E DELLE FINANZE 
+ - Programma - "Protezione civile" della missione "Soccorso civile" di pertinenza del CDR "Dipartimento del Tesoro" per € 175.000.000,00. 
+ 
+MINISTERO PER I BENI E LE ATTIVITA' CULTURALI E PER IL TURISMO 
+ - Programma - "Sostegno, valorizzazione e tutela del settore dello spettacolo dal vivo" della missione "Tutela e valorizzazione dei beni e attivita' culturali e paesaggistici" di pertinenza del CDR "Direzione generale dello spettacolo" per € 19.007,00; 
+ - Programma - "Tutela dei beni archeologici" della missione "Tutela e valorizzazione dei beni e attivita' culturali e paesaggistici" di pertinenza del CDR "Direzione generale archeologia, belle arti e paesaggio" per € 598.040,00; 
+ - Programma - "Tutela e valorizzazione dei beni archivistici" della missione "Tutela e valorizzazione dei beni e attivita' culturali e paesaggistici" di pertinenza del CDR "Direzione generale archivi" per € 2.132.546,00; 
+ - Programma - "Tutela e valorizzazione dei beni librari, promozione e sostegno del libro e dell'editoria" della missione "Tutela e valorizzazione dei beni e attivita' culturali e paesaggistici" di pertinenza del CDR "Direzione generale biblioteche e diritto d'autore" per € 633.798,00; 
+ - Programma - "Valorizzazione del patrimonio culturale e coordinamento del sistema museale" della missione "Tutela e valorizzazione dei beni e attivita' culturali e paesaggistici" di pertinenza del CDR "Direzione generale musei" per € 927.194,00; 
+ - Programma - "Tutela del patrimonio culturale" della missione "Tutela e valorizzazione dei beni e attivita' culturali e paesaggistici" di pertinenza del CDR "Direzione generale bilancio" per € 488.000,00; 
+ - Programma - "Tutela e promozione dell'arte e dell'architettura contemporanea e delle periferie urbane" della missione "Tutela e valorizzazione dei beni e attivita' culturali e paesaggistici" di pertinenza del CDR "Direzione generale creativita' contemporanea" per € 55.632,00; 
+ - Programma - "Realizzazione attivita' di tutela in ambito territoriale" della missione "Tutela e valorizzazione dei beni e attivita' culturali e paesaggistici" di pertinenza del CDR "Segretariato generale" per € 245.706,00; 
+ - Programma - "Coordinamento e attuazione interventi per la sicurezza del patrimonio culturale e per le emergenze" della missione "Tutela e valorizzazione dei beni e attivita' culturali e paesaggistici" di pertinenza del CDR "Direzione generale sicurezza del patrimonio culturale" per € 5.000,00; 
+ - Programma - "Ricerca educazione e formazione in materia di beni e attivita' culturali" della missione "Ricerca e innovazione" di pertinenza del CDR "Direzione generale educazione, ricerca e istituti culturali" per € 380.000,00; 
+ - Programma - "Sviluppo e competitivita' del turismo" della missione "Turismo" di pertinenza del CDR "Direzione generale del turismo" per € 51.479,00; 
+ - Programma - "Servizi e affari generali per le amministrazioni di competenza" della missione "Servizi istituzionale e generali delle amministrazioni pubbliche" di pertinenza del CDR "Direzione generale organizzazione" per € 463.598,00. 
+ 
+III Prelevamento (decreto del Ministro dell'Economia e delle Finanze 16 novembre 2020) 
+ 
+L'assegnazione ha riguardato il programma di seguito specificato per provvedere alla necessita' di integrare gli stanziamenti di bilancio del Ministero dell'economia e delle finanze, riferiti a spese aventi le caratteristiche definite dalle disposizioni legislative medesime. 
+ 
+MINISTERO DELL'ECONOMIA E DELLE FINANZE 
+ - Programma - "Protezione civile" della missione "Soccorso civile" di pertinenza del CDR "Dipartimento del Tesoro" per € 94.039.176,00. 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Allegato 2">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-09-24/142/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-09-24/142"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-09-24;142"/>
+                                <FRBRalias name="eli" value="eli/id/2021/10/14/21G00149/ORIGINAL"/>
+                                <FRBRdate date="2021-10-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29"/>
+                                <FRBRdate date="2021-10-29" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-09-24/142/ita@2021-10-29.xml"/>
+                                <FRBRdate date="2021-09-24" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 2 
+ 
+ Eccedenze 
+ 
+
+ UNITA' DI VOTO COMPETENZA RESIDUI CASSA 
+ MINISTERO DELL'INTERNO
+
+ 3 Ordine pubblico e sicurezza (7)
+
+3.1 Contrasto al crimine, tutela del-
+ l'ordine e della sicurezza
+ pubblica (7.8) +19.072.344,21 - - 
+ TOTALE AMMINISTRAZIONE +19.072.344,21 - - 
+ MINISTERO DELLA SALUTE
+
+ 2 Ricerca e innovazione (17)
+
+2.2 Ricerca per il settore
+ zooprofilattico (17.21) + 35.788,61 - - 
+ TOTALE AMMINISTRAZIONE + 35.788,61 - - 
+ 
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
