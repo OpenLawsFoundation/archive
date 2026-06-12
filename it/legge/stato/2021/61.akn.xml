@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-05-06/61/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-05-06/61"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-05-06;61"/>
+                    <FRBRalias name="eli" value="eli/id/2021/05/12/21G00071/ORIGINAL"/>
+                    <FRBRdate date="2021-05-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/05/12/21G00071/ORIGINAL" aknrelname="eli/id/2021/05/12/21G00071/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 13 marzo 2021, n. 30, recante misure urgenti per fronteggiare la diffusione del COVID-19 e interventi di sostegno per lavoratori con figli minori in didattica a distanza o in quarantena. (21G00071)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00071" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-05-06" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-05-06/61/ita@2021-05-13/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-05-06/61/ita@2021-05-13"/>
+                    <FRBRdate date="2021-05-13" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/05/12/21G00071/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/05/12/21G00071/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/05/12/21G00071/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-05-06/61/ita@2021-05-13/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-05-06/61/ita@2021-05-13.xml"/>
+                    <FRBRdate date="2021-05-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/05/12/21G00071/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-05-12" name="" number="112" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-05-12" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2021-05-06" refersTo="#C.2945"/>
+                <step by="#senato" date="2021-05-06" refersTo="#S.2191"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-06;61#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2014-09-12;133#16"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni del D.L. 13 marzo 2021, n. 30 (in G.U. 13/03/2021, n. 62).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-06;61#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-08-14;104#21 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni del D.L. 13 marzo 2021, n. 30 (in G.U. 13/03/2021, n. 62). </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-06;61#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-12-31;183#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni del D.L. 13 marzo 2021, n. 30 (in G.U. 13/03/2021, n. 62). </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-06;61#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;30#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dei commi 7-bis, 7-ter, 7-quater e 7-quinquies all'art. 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-06;61#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;30#1 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-06;61#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;30#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1, 2, 3, 4, 6, 8, 10, 11 e rubrica e l'introduzione dei commi 1-bis, 1-ter e 8-bis all'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-06;61#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;30#2 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-06;61#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;30#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1, 2, alinea, lettere a) e b), 4 e l'introduzione della lettera b-bis) all'art. 3, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-05-06/61/!main" showAs=""/>
+                <passiveRef eId="C.2945" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;2945" showAs=""/>
+                <passiveRef eId="S.2191" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2191" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/05/12/21G00071/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 13 marzo 2021, n. 30, recante misure urgenti per fronteggiare la diffusione del COVID-19 e interventi di sostegno per lavoratori con figli minori in didattica a distanza o in quarantena. (21G00071)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00071</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-05-06</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/05/12/21G00071/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/05/12/21G00071/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/05/12/21G00071/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/05/12/21G00071/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/61" nativeUrn="urn:nir:stato:legge:2021-05-06;61" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-05-12"><ns0:event type="enacted" date="2021-05-06"/><ns0:event type="published" date="2021-05-12"/><ns0:event type="commenced" date="2021-05-12"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/cd4de860-782c-4c5f-b5e3-ae0adc78e75d" sourceSha256="be65a1f70cd7bcbab96a432466ac1d27706cac9275bba7d6e9bc4b869b7c4d35" adapter="normattiva-it@0.2.0" generatedAt="2026-06-12T00:36:17.254279Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-05-06">06 maggio 2021</docDate>
+                <docNumber>61</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 13 marzo 2021, n. 30, recante misure urgenti per fronteggiare la diffusione del COVID-19 e interventi di sostegno per lavoratori con figli minori in didattica a distanza o in quarantena. (21G00071) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 13/05/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2021-03-13/30/!main" ns1:target="olf:it/decreto-legge/stato/2021/30" ns1:relation="amends">decreto-legge 13 marzo 2021, n. 30</ref>, recante misure urgenti per fronteggiare la diffusione del COVID-19 e interventi di sostegno per lavoratori con figli minori in didattica a distanza o in quarantena, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2021-03-13/30/!main" ns2:target="olf:it/decreto-legge/stato/2021/30" ns2:relation="amends">decreto-legge 13 marzo 2021, n. 30</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 62 del 13 marzo 2021. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 76. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 6 maggio 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Speranza, Ministro della salute Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-05-06/61/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-05-06/61"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-05-06;61"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/12/21G00071/ORIGINAL"/>
+                                <FRBRdate date="2021-05-13" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-05-06/61/ita@2021-05-13/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-05-06/61/ita@2021-05-13"/>
+                                <FRBRdate date="2021-05-13" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-05-06/61/ita@2021-05-13/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-05-06/61/ita@2021-05-13.xml"/>
+                                <FRBRdate date="2021-05-06" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+ MODIFICAZIONI APPORTATE IN SEDE 
+ DI CONVERSIONE AL DECRETO-LEGGE 13 MARZO 2021, N. 30 
+ 
+ All'articolo 1: 
+ dopo il comma 7 sono aggiunti i seguenti: 
+ «7-bis. Nell'ambito delle ulteriori misure per contenere e contrastare l'emergenza epidemiologica da COVID-19, allo scopo di assicurare l'operativita' del nuovo ospedale e centro di ricerca applicata "Mater Olbia", per la regione Sardegna, nel periodo 2021-2026, ai fini del rispetto dei parametri del numero di posti letto per mille abitanti previsti dall'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2012-07-06/95/!main#art_15-com13-letc" ns4:target="olf:it/decreto-legge/stato/2012/95/art_15-com13-letc" ns4:relation="cites">articolo 15, comma 13, lettera c), del decreto-legge 6 luglio 2012, n. 95</ref>, convertito, con modificazioni, dalla <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/legge/stato/2012-08-07/135/!main" ns5:target="olf:it/legge/stato/2012/135" ns5:relation="cites">legge 7 agosto 2012, n. 135</ref>, non si tiene conto dei posti letto accreditati per tale struttura. La regione Sardegna assicura, mediante la trasmissione della necessaria documentazione al Ministero della salute, l'approvazione di un programma di riorganizzazione della rete ospedaliera il quale garantisca che, a decorrere dal 1° gennaio 2027, i predetti parametri siano rispettati includendo nel computo dei posti letto anche quelli accreditati nella citata struttura. 
+ 7-ter. In considerazione di quanto previsto al comma 7-bis del presente articolo, all'<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/decretoLegge/stato/2020-12-31/183/!main#art_4-com8bis" ns6:target="olf:it/decreto-legge/stato/2020/183/art_4-com8bis" ns6:relation="amends">articolo 4, comma 8-bis, del decreto-legge 31 dicembre 2020, n. 183</ref>, convertito, con modificazioni, dalla <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/2021-02-26/21/!main" ns7:target="olf:it/legge/stato/2021/21" ns7:relation="cites">legge 26 febbraio 2021, n. 21</ref>, le parole: "31 dicembre 2023" sono sostituite dalle seguenti: "31 dicembre 2026". 
+ 7-quater. E' consentito alla regione Sardegna riconoscere per un biennio al predetto ospedale "Mater Olbia" i costi di funzionamento, al netto dei ricavi ottenuti dalle prestazioni, nelle more della piena operativita' della medesima struttura. La regione Sardegna assicura annualmente la copertura dei maggiori oneri nell'ambito del bilancio regionale, ai sensi dell'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2006-12-27/296/!main#art_1-com836" ns8:target="olf:it/legge/stato/2006/296/art_1-com836" ns8:relation="cites">articolo 1, comma 836, della legge 27 dicembre 2006, n. 296</ref>. Il riconoscimento di cui al presente comma e' effettuato in deroga all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/decretoLegislativo/stato/1992-12-30/502/!main#art_8sexies" ns9:target="olf:it/decreto-legislativo/stato/1992/502/art_8sexies" ns9:relation="cites">articolo 8-sexies del decreto legislativo 30 dicembre 1992, n. 502</ref>. 
+ 7-quinquies. Il Ministero della salute e la regione Sardegna assicurano il monitoraggio relativamente alle attivita' assistenziali poste in essere con l'ospedale e centro di ricerca applicata "Mater Olbia", alla qualita' dell'offerta clinica, alla piena integrazione dell'ospedale con la rete sanitaria pubblica nonche' al recupero della mobilita' sanitaria passiva e alla mobilita' sanitaria attiva realizzata. Il Ministero della salute redige annualmente una relazione sul monitoraggio effettuato ai sensi del presente comma e la trasmette alla regione Sardegna, alla Presidenza del Consiglio dei ministri e alle Camere». 
+ Dopo l'articolo 1 e' inserito il seguente: 
+ «Art. 1-bis (Disposizioni in materia di visite alle persone detenute). - 1. Gli spostamenti per lo svolgimento dei colloqui con i congiunti o con altre persone cui hanno diritto i detenuti, gli internati e gli imputati ai sensi dell'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/1975-07-26/354/!main#art_18" ns10:target="olf:it/legge/stato/1975/354/art_18" ns10:relation="cites">articolo 18 della legge 26 luglio 1975, n. 354</ref>, dell'articolo 37 del regolamento di cui al <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2000-06-30/230/!main#art_19" ns11:target="olf:it/dpr/stato/2000/230/art_19" ns11:relation="cites">decreto del Presidente della Repubblica 30 giugno 2000, n. 230, e dell'articolo 19</ref> del <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoLegislativo/stato/2018-10-02/121/!main" ns12:target="olf:it/decreto-legislativo/stato/2018/121" ns12:relation="cites">decreto legislativo 2 ottobre 2018, n. 121</ref>, sono consentiti anche in deroga alla normativa adottata al fine del contenimento dell'emergenza epidemiologica da COVID-19 quando i medesimi colloqui sono necessari per salvaguardare la salute fisica o psichica delle stesse persone detenute o internate ». 
+ All'articolo 2: 
+ al comma 1, le parole: «Il genitore di figlio convivente minore di anni sedici, lavoratore dipendente,» sono sostituite dalle seguenti: «Il lavoratore dipendente genitore di figlio minore di anni sedici,», dopo le parole: «attivita' didattica» sono inserite le seguenti: «o educativa» e le parole: «SARS Covid-19» sono sostituite dalla seguente: «SARS-CoV-2»; 
+ dopo il comma 1 sono inseriti i seguenti: 
+ «1-bis. Il beneficio di cui al comma 1 del presente articolo e' riconosciuto a entrambi i genitori di figli di ogni eta' con disabilita' accertata ai sensi dell'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/1992-02-05/104/!main#art_3-com1" ns13:target="olf:it/legge/stato/1992/104/art_3-com1" ns13:relation="cites">articolo 3, commi 1</ref> e <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/1992-02-05/104/!main#art_3-com3" ns14:target="olf:it/legge/stato/1992/104/art_3-com3" ns14:relation="cites">3, della legge 5 febbraio 1992, n. 104</ref>, con disturbi specifici dell'apprendimento riconosciuti ai sensi della <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/legge/stato/2010-10-08/170/!main" ns15:target="olf:it/legge/stato/2010/170" ns15:relation="cites">legge 8 ottobre 2010, n. 170</ref>, o con bisogni educativi speciali, in coerenza con quanto previsto dalla direttiva del Ministro dell'istruzione, dell'universita' e della ricerca 27 dicembre 2012, in materia di strumenti d'intervento per alunni con bisogni educativi speciali e organizzazione territoriale per l'inclusione scolastica, in tutti i casi previsti dal comma l del presente articolo ovvero nel caso in cui i figli frequentino centri diurni a carattere assistenziale dei quali sia stata disposta la chiusura. 
+ 1-ter. Ferma restando, per il pubblico impiego, la disciplina degli istituti del lavoro agile stabilita dai contratti collettivi nazionali, e' riconosciuto al lavoratore che svolge l'attivita' in modalita' agile il diritto alla disconnessione dalle strumentazioni tecnologiche e dalle piattaforme informatiche, nel rispetto degli eventuali accordi sottoscritti dalle parti e fatti salvi eventuali periodi di reperibilita' concordati. L'esercizio del diritto alla disconnessione, necessario per tutelare i tempi di riposo e la salute del lavoratore, non puo' avere ripercussioni sul rapporto di lavoro o sui trattamenti retributivi»; 
+ al comma 2: 
+ al primo periodo, le parole: «il genitore lavoratore dipendente di figlio convivente» sono sostituite dalle seguenti: «il lavoratore dipendente genitore di figlio convivente», dopo le parole: «attivita' didattica» sono inserite le seguenti: «o educativa» e le parole: «SARS Covid-19» sono sostituite dalla seguente: «SARS-CoV-2»; 
+ il secondo periodo e' sostituito dal seguente: «Il beneficio di cui al presente comma e' riconosciuto ai genitori di figli con disabilita' in situazione di gravita' accertata ai sensi dell'<ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/1992-02-05/104/!main#art_3-com3" ns16:target="olf:it/legge/stato/1992/104/art_3-com3" ns16:relation="cites">articolo 3, comma 3, della legge 5 febbraio 1992, n. 104</ref>, a prescindere dall'eta' del figlio, per la durata dell'infezione da SARS-CoV-2 del figlio, nonche' per la durata della quarantena del figlio ovvero nel caso in cui sia stata disposta la sospensione dell'attivita' didattica o educativa in presenza o il figlio frequenti centri diurni a carattere assistenziale dei quali sia stata disposta la chiusura»; 
+ e' aggiunto, in fine, il seguente periodo: «Il congedo di cui al presente comma puo' essere fruito in forma giornaliera od oraria»; 
+ al comma 3, primo periodo, le parole: «e, nei limiti» sono sostituite dalle seguenti: «, nel limite»; 
+ al comma 4, dopo le parole: «articoli 32 e 33 del» sono inserite le seguenti: «testo unico di cui al», le parole: «, e fino» sono sostituite dalla seguente: «fino», dopo le parole: «attivita' didattica» sono inserite le seguenti: «o educativa» e le parole: «SARS Covid-19» sono sostituite dalla seguente: «SARS-CoV-2»; 
+ al comma 6: 
+ al primo periodo, le parole: «gestione separata INPS,» sono sostituite dalle seguenti: «Gestione separata presso l'Istituto nazionale della previdenza sociale (INPS), di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/legge/stato/1995-08-08/335/!main#art_2-com26" ns17:target="olf:it/legge/stato/1995/335/art_2-com26" ns17:relation="cites">articolo 2, comma 26, della legge 8 agosto 1995, n. 335</ref>,», dopo le parole: «soccorso pubblico» sono inserite le seguenti: «e della polizia locale», le parole: «appartenenti alla categoria dei medici, degli infermieri, dei tecnici di laboratorio biomedico, dei tecnici di radiologia medica e degli operatori socio-sanitari» sono sostituite dalle seguenti: «appartenenti alle categorie degli esercenti le professioni sanitarie, degli esercenti la professione di assistente sociale e degli operatori socio-sanitari» e le parole: «possono scegliere» sono sostituite dalle seguenti: «possono chiedere»; 
+ al terzo periodo, dopo le parole: «per la comprovata iscrizione» sono inserite le seguenti: «dei figli»; 
+ al quinto periodo, dopo le parole: «comma 355,» e' inserita la seguente: «della»; 
+ al sesto periodo, le parole: «e 4» sono sostituite dalle seguenti: «e 5»; 
+ al comma 8: 
+ al primo periodo, le parole: «282,8 milioni» sono sostituite dalle seguenti: «299,3 milioni»; 
+ al quarto periodo, dopo le parole: «al monitoraggio del» sono inserite le seguenti: «rispetto del»; 
+ al quinto periodo, le parole: «che e' stato raggiunto anche in via prospettica il limite di spesa» sono sostituite dalle seguenti: «il raggiungimento, anche in via prospettica, del limite di spesa»;  dopo il comma 8 e' inserito il seguente: 
+ «8-bis. All'<ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegge/stato/2020-08-14/104/!main#art_21ter-com1" ns18:target="olf:it/decreto-legge/stato/2020/104/art_21ter-com1" ns18:relation="amends">articolo 21-ter, comma 1, del decreto-legge 14 agosto 2020, n. 104</ref>, convertito, con modificazioni, dalla <ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/legge/stato/2020-10-13/126/!main" ns19:target="olf:it/legge/stato/2020/126" ns19:relation="cites">legge 13 ottobre 2020, n. 126</ref>, dopo le parole: "lavoratori dipendenti" sono inserite le seguenti: "pubblici e" e dopo le parole: "<ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/1992-02-05/104/!main" ns20:target="olf:it/legge/stato/1992/104" ns20:relation="cites">legge 5 febbraio 1992, n. 104</ref>," sono inserite le seguenti: "o figli con bisogni educativi speciali (BES),"»; 
+ al comma 10, le parole: «commi 1, 2, 3» sono sostituite dalle seguenti: «commi 1, 1-bis, 2, 3»; 
+ al comma 11, le parole: «293 milioni» sono sostituite dalle seguenti: «309,5 milioni»; 
+ alla rubrica, la parola: «Congedi» e' sostituita dalle seguenti: «Lavoro agile, congedi». 
+ Dopo l'articolo 2 e' inserito il seguente: 
+ «Art. 2-bis (Clausola di salvaguardia). - 1. Le disposizioni del presente decreto sono applicabili nelle regioni a statuto speciale e nelle province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti e le relative norme di attuazione». 
+ All'articolo 3: 
+ al comma 1, le parole: «di cui al comma 3» sono sostituite dalle seguenti: «di cui al comma 2» e le parole: «indebitamento netto, in» sono sostituite dalle seguenti: «indebitamento netto, a»;  al comma 2: 
+ all'alinea, le parole: «293,14 milioni» sono sostituite dalle seguenti: «309,64 milioni» e le parole: «indebitamento netto, in» sono sostituite dalle seguenti: «indebitamento netto, a»; 
+ alla lettera a), le parole: «e fabbisogno di» sono sostituite dalle seguenti: «e fabbisogno, a»; 
+ alla lettera b), le parole: «fabbisogno, mediante utilizzo» sono sostituite dalle seguenti: «fabbisogno per l'anno 2021, mediante corrispondente utilizzo»; 
+ dopo la lettera b) e' aggiunta la seguente: 
+ «b-bis) quanto a 16,5 milioni di euro per l'anno 2021, mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2021-2023, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2021, allo scopo parzialmente utilizzando, quanto a 12,5 milioni di euro, l'accantonamento relativo al Ministero del lavoro e delle politiche sociali e, quanto a 4 milioni di euro, l'accantonamento relativo al Ministero della salute»; 
+ al comma 4, dopo le parole: «dal presente» e' inserita la seguente: «decreto». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
