@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-06-01/90/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-06-01/90"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-06-01;90"/>
+                    <FRBRalias name="eli" value="eli/id/2021/06/23/21G00097/ORIGINAL"/>
+                    <FRBRdate date="2021-06-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/06/23/21G00097/ORIGINAL" aknrelname="eli/id/2021/06/23/21G00097/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Ratifica ed esecuzione degli Emendamenti all'Accordo sulla conservazione dei cetacei del Mar Nero, del Mar Mediterraneo e dell'area atlantica contigua, con Annessi e Atto finale, fatto a Monaco il 24 novembre 1996, adottati a Monaco il 12 novembre 2010. (21G00097)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00097" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-06-01" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24"/>
+                    <FRBRdate date="2021-06-24" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/06/23/21G00097/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/06/23/21G00097/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/06/23/21G00097/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24.xml"/>
+                    <FRBRdate date="2021-06-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/06/23/21G00097/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-06-23" name="" number="148" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-06-23" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#camera" date="2021-06-01" refersTo="#C.1704"/>
+                <step by="#senato" date="2021-06-01" refersTo="#S.2006"/>
+            </workflow>
+            <analysis source=""/>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-06-01/90/!main" showAs=""/>
+                <passiveRef eId="C.1704" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;1704" showAs=""/>
+                <passiveRef eId="S.2006" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2006" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/06/23/21G00097/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Ratifica ed esecuzione degli Emendamenti all'Accordo sulla conservazione dei cetacei del Mar Nero, del Mar Mediterraneo e dell'area atlantica contigua, con Annessi e Atto finale, fatto a Monaco il 24 novembre 1996, adottati a Monaco il 12 novembre 2010. (21G00097)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00097</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-06-01</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/06/23/21G00097/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/06/23/21G00097/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/06/23/21G00097/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/06/23/21G00097/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/90" nativeUrn="urn:nir:stato:legge:2021-06-01;90" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-06-23"><ns0:event type="enacted" date="2021-06-01"/><ns0:event type="published" date="2021-06-23"/><ns0:event type="commenced" date="2021-06-23"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/65e911dc-4c3a-4bef-9a33-c67644992981" sourceSha256="c002d984a6ba0c058d5836b1916a3ce72a8210a440ae7a10743d73723ffd568c" adapter="normattiva-it@0.2.0" generatedAt="2026-06-12T00:29:40.002877Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-06-01">01 giugno 2021</docDate>
+                <docNumber>90</docNumber>
+                <docTitle>Ratifica ed esecuzione degli Emendamenti all'Accordo sulla conservazione dei cetacei del Mar Nero, del Mar Mediterraneo e dell'area atlantica contigua, con Annessi e Atto finale, fatto a Monaco il 24 novembre 1996, adottati a Monaco il 12 novembre 2010. (21G00097) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 24/06/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera del deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading> Autorizzazione alla ratifica</heading>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il Presidente della Repubblica e' autorizzato a ratificare gli Emendamenti all'Accordo sulla conservazione dei cetacei del Mar Nero, del Mar Mediterraneo e dell'area atlantica contigua, con Annessi e Atto finale, fatto a Monaco il 24 novembre 1996, di seguito denominato «Accordo», adottati a Monaco il 12 novembre 2010. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading> Ordine di esecuzione</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Piena ed intera esecuzione e' data agli Emendamenti di cui all'articolo 1, a decorrere dalla data della loro entrata in vigore, in conformita' a quanto previsto dall'articolo X, paragrafo 3, dell'Accordo. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading> Clausola di invarianza finanziaria</heading>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le amministrazioni interessate svolgono le attivita' previste dalla presente legge con le risorse umane, finanziarie e strumentali disponibili a legislazione vigente. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading> Entrata in vigore</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 1° giugno 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Di Maio, Ministro degli affari esteri e della cooperazione internazionale Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Resolution">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-06-01/90/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-06-01/90"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-06-01;90"/>
+                                <FRBRalias name="eli" value="eli/id/2021/06/23/21G00097/ORIGINAL"/>
+                                <FRBRdate date="2021-06-24" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24"/>
+                                <FRBRdate date="2021-06-24" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24.xml"/>
+                                <FRBRdate date="2021-06-01" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Parte di provvedimento in formato grafico
+ 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+            <attachment>
+                <doc name="Risoluzione">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-06-01/90/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-06-01/90"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-06-01;90"/>
+                                <FRBRalias name="eli" value="eli/id/2021/06/23/21G00097/ORIGINAL"/>
+                                <FRBRdate date="2021-06-24" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24/!main/annesso_2"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24"/>
+                                <FRBRdate date="2021-06-24" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24/!main/annesso_2.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-06-01/90/ita@2021-06-24.xml"/>
+                                <FRBRdate date="2021-06-01" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> 
+ Risoluzione A / 4.1 
+ EMENDAMENTI: 
+ ESTENSIONE DEL CAMPO DI APPLICAZIONE GEOGRAFICO di ACCOBAMS 
+ La riunione delle parti dell'Accordo sulla conservazione dei cetacei del Mar Nero, del Mediterraneo e dell'Area atlantica contigua (ACCOBAMS): 
+ Notando che le popolazioni di cetacei presenti nei mari del nord di Portogallo, Galizia e Cantabria sono collegate, come dimostrato dai piu' recenti studi scientifici, 
+ Notando che la <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/direttivaUe/eu/2008/56/!main" ns1:resolution="unresolved">Direttiva Europea 2008/56/CE</ref>, che stabilisce una cornice per l'azione dell'Unione Europea nel campo della politica ambientale marina (Direttiva Quadro sulla Strategia Marina), e la Convenzione OSPAR per la protezione dell'ambiente marino dell'Atlantico nord-orientale, creano la sub-regione "Golfo di Biscaglia e la Costa Iberica", al fine di dare attuazione agli obblighi da esse derivanti, 
+ Notando che gli ambiti di applicazione dell'accordo ACCOBAMS e dell'Accordo sulla Conservazione dei Piccoli Cetacei del Mar Baltico, dell'Atlantico nord-orientale, del Mare del Nord e del mare irlandese (ASCOBANS) sono leggermente diversi, laddove il primo comprende tutte le specie di cetacei, e il secondo si concentra solo sui piccoli cetacei, 
+ Riconoscendo che l'attuazione degli strumenti internazionali sopra citati insieme all'accordo ACCOBAMS sarebbe coerente, 
+ Affermando la loro volonta' di rafforzare la loro collaborazione con le parti di ASCOBANS e il Segretariato, al fine di creare sinergie tra gli argomenti e le attivita' di interesse comune, 
+ Riconoscendo che l'attuazione delle misure di conservazione e di gestione per tutte le popolazioni di cetacei lungo le acque marine soggette alla sovranita' o alla giurisdizione sia del Portogallo che della Spagna beneficerebbe dell'inclusione di tutte le specie e di tutte le popolazioni all'interno di un unico accordo, 
+ 1. Sostituisce il nome dell'accordo con: "Accordo sulla conservazione dei cetacei del Mar Nero, del Mar Mediterraneo e dell'Area Atlantica vicina"; 
+ 2. Sostituisce l'articolo 1. a) con: 
+ "1. a) L'ambito geografico del presente Accordo, di seguito denominato "zona dell'Accordo", e' costituita da tutte le acque marittime del Mar Nero e del Mediterraneo e dai loro golfi e mari, dalle acque interne connesse o interconnesse a queste acque marittime, e della vicina zona atlantica ad ovest dello stretto di Gibilterra. Ai fini del presente accordo: 
+ - il Mar Nero e' delimitato a sud-ovest dalla linea che collega i Capi Kelaga e Dalyan (Turchia); 
+ - il Mar Mediterraneo e' delimitato ad est dal confine meridionale dello stretto dei Dardanelli tra i fari di Mehmetcik e Kumkale (Turchia) e ad ovest dal meridiano che passa per il faro di Capo Spartel, all'entrata dello stretto di Gibilterra; e 
+ - la vicina area atlantica ad ovest dello stretto di Gibilterra e' delimitata ad est dal meridiano che passa per il faro di Capo Spartel (Marocco); ad ovest dalla linea congiungente i fari di Casablanca (Marocco) e di Capo di San Vincenzo (Portogallo) fino a che questa linea raggiunge il parallelo di latitudine 36° N, poi dal parallelo di latitudine 36° N fino a raggiungere il limite esterno delle acque marine soggette alla sovranita' o alla giurisdizione del Portogallo, poi dal limite esterno delle acque marine soggette alla sovranita' o alla giurisdizione del Portogallo e della Spagna fino alla frontiera terrestre tra Spagna e Francia." 
+ 3. Sostituisce l'articolo I, paragrafo 3. j) con: 
+ " "Sub-regione", a seconda del particolare contesto, significa sia la regione comprendente gli Stati costieri del Mar Nero sia la regione comprendente gli Stati costieri del Mar Mediterraneo e la vicina zona Atlantica; ogni riferimento nell'accordo agli Stati di una particolare sub-regione deve essere inteso nel senso di Stati che hanno una parte delle loro acque territoriali all'interno di quella sub-regione e Stati le cui navi che battono la loro bandiera sono impegnati in attivita' suscettibili di pregiudicare la conservazione dei cetacei in quella sub-regione;" 
+ 4. Sostituisce l'articolo XIV (entrata in vigore), paragrafo 1, con: 
+ "Il presente Accordo entra in vigore il primo giorno del terzo mese successivo alla data in cui almeno sette Stati costieri dell'area dell'Accordo o organizzazioni di integrazione economica regionale, di cui almeno due della sub-regione del Mar Nero ed almeno cinque dalla sub-regione del Mar Mediterraneo e dell'Area Atlantica vicina, hanno firmato senza riserva di ratifica, di accettazione o di approvazione, o hanno depositato i loro strumenti di ratifica, accettazione o approvazione ai sensi dell'articolo XIII del presente Accordo"; 
+ 5. Sostituisce il titolo della seconda parte dell'Annesso 1 con: 
+ "Lista indicativa dei cetacei del Mar Mediterraneo e dell'Area Atlantica vicina a cui si applica il presente Accordo"; 
+ 6. Sostituisce il paragrafo 3 dell'Annesso 2 (Piano di conservazione) con: "3. Protezione degli habitat. 
+ Le Parti si sforzano di creare e gestire aree specialmente protette per i cetacei corrispondenti alle aree che costituiscono l'habitat di cetacei e/o che forniscono importanti risorse alimentari per loro.
+Tali aree particolarmente protette dovrebbero essere istituite nel quadro delle Convenzioni Marittime Regionali (OSPAR, Barcellona e Bucharest), o nel quadro di altri strumenti appropriati". 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
