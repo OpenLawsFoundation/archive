@@ -1,0 +1,995 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2021-08-06/111/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2021-08-06/111"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:decreto.legge:2021-08-06;111"/>
+                    <FRBRalias name="eli" value="eli/id/2021/08/06/21G00125/CONSOLIDATED/20220325"/>
+                    <FRBRdate date="2021-08-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/08/06/21G00125/CONSOLIDATED/20220325" aknrelname="eli/id/2021/08/06/21G00125/CONSOLIDATED/20220325">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Misure urgenti per l'esercizio in sicurezza delle attivita' scolastiche, universitarie, sociali e in materia di trasporti. (21G00125)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00125" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                            <nrdfa:span content="2021-08-06" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2021-08-06/111/ita@2022-03-25/!main"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2021-08-06/111/ita@2022-03-25"/>
+                    <FRBRdate date="2022-03-25" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/08/06/21G00125/CONSOLIDATED/20220325/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/08/06/21G00125/CONSOLIDATED/20220325"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/08/06/21G00125/CONSOLIDATED/20220325/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/decreto-legge/stato/2021-08-06/111/ita@2022-03-25/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/decreto-legge/stato/2021-08-06/111/ita@2022-03-25.xml"/>
+                    <FRBRdate date="2021-08-06" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/08/06/21G00125/CONSOLIDATED/20220325/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-08-06" name="" number="187" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-08-06" eId="eventRef_0" source="ro1"/>
+                <eventRef date="2021-10-01" eId="eventRef_1" source="rp1"/>
+                <eventRef date="2021-10-08" eId="eventRef_2" source="rp2"/>
+                <eventRef date="2021-10-21" eId="eventRef_3" source="rp3"/>
+                <eventRef date="2021-12-20" eId="eventRef_4" source="rp4"/>
+                <eventRef date="2021-12-24" eId="eventRef_5" source="rp5"/>
+                <eventRef date="2021-12-30" eId="eventRef_6" source="rp6"/>
+                <eventRef date="2022-01-07" eId="eventRef_7" source="rp7"/>
+                <eventRef date="2022-02-28" eId="eventRef_8" source="rp8"/>
+                <eventRef date="2022-03-08" eId="eventRef_9" source="rp9"/>
+                <eventRef date="2022-03-24" eId="eventRef_10" source="rp10"/>
+            </lifecycle>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#01"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), ha disposto (con l'art. 01, comma 1) la modifica dell'art. 9, comma 5.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 6) l'introduzione dell'art. 9-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 ter"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), ha disposto (con l'art. 1, comma 6) la modifica dell'art. 9-ter, commi 1, 2, 3, 4 e 5 e l'introduzione dei commi 1-bis, 1-ter e 5-bis all'art. 9-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 ter.1"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), ha disposto (con l'art. 1, comma 6) l'introduzione dell'art. 9-ter.1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 ter.2"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), ha disposto (con l'art. 1, comma 6) l'introduzione dell'art. 9-ter. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#2"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 quater"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 2, comma 1) l'introduzione dell'art. 9-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#2"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9 quater"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), ha disposto (con l'art. 2, comma 1) la modifica dell'art. 9-quater, comma 1, lettera b) e l'introduzione della lettera e-bis) e del comma 3-bis all'art. 9-quater. </nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#2 bis"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#4 bis"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), ha disposto (con l'art. 2-bis, comma 1) l'introduzione dell'art. 4-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#2 ter"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-03-17;18#26"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), nel modificare l'art. 1, comma 481 della L. 30 dicembre 2020, n. 178 (in S.O. n. 46 relativo alla G.U. 30/12/2020, n. 322) ha conseguentemente disposto (con l'art. 2-ter, comma 1, lettera a)) la modifica dell'art. 26, commi 2 e 2-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#2 ter"/>
+                        <destination href="urn:nir:stato:legge:2020-12-30;178#"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), ha disposto (con l'art. 2-ter, comma 1, lettera a)) la modifica dell'art. 1, comma 481; (con l'art. 2-ter, comma 1, lettera b)) la modifica dell'art. 1, comma 482 e (con l'art. 2-ter, comma 1, lettera c)) la modifica dell'art. 1, comma 483.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#3"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-05-16;33#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 3, comma 1) la modifica dell'art. 1, comma 16-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#4"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#5"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 4, comma 2) la modifica dell'art. 5, comma 2; (con l'art. 4, comma 3) la modifica dell'art. 5, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#5 bis"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-22;52#9"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), ha disposto (con l'art. 5-bis, comma 1) la modifica dell'art. 9, comma 1, lettera b).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#8"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2010-03-15;66#1053"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), ha disposto (con l'art. 8, comma 4-bis, lettera a)) la modifica dell'art. 1053, comma 1, alinea.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#8"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2010-03-15;66#1242"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), ha disposto (con l'art. 8, comma 4-bis, lettera a)) la modifica dell'art. 1242, comma 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#8"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2010-03-15;66#2233 quater"/>
+                        <new>
+                            <nakn:text>, convertito con modificazioni dalla L. 24 settembre 2021, n. 133 (in G.U. 01/10/2021, n. 235), ha disposto (con l'art. 8, comma 4-bis, lettera b)) l'introduzione del comma 3-ter all'art. 2233-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:decreto.legge:2021-08-06;111#8"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-05-19;34#22"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 8, comma 1) la modifica dell'art. 22, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+                <passiveModifications>
+                    <textualMod eId="pmod_0" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_1"/>
+                        <new>
+                            <nakn:text>(( (Modifica all'articolo 9 del decreto-legge 22 aprile 2021, n. 52, in materia di validita' della certificazione verde COVID-19). ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_1" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_2"/>
+                        <new>
+                            <nakn:text>((1. All'articolo 9, comma 5, del decreto-legge 22 aprile 2021, n. 52, convertito, con modificazioni, dalla legge 17 giugno 2021, n. 87, dopo le parole: "dall'esecuzione del test" sono inserite le seguenti: "antigenico rapido e di settantadue ore dall'esecuzione del test molecolare"))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_2" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_3"/>
+                        <new>
+                            <nakn:text>((10))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_3" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_4"/>
+                        <new>
+                            <nakn:text>((10))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_4" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_5"/>
+                        <new>
+                            <nakn:text>((10))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_5" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_6"/>
+                        <new>
+                            <nakn:text>(( (Accesso ai servizi sociali). ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_6" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_7"/>
+                        <new>
+                            <nakn:text>((1. Per garantire l'accesso alle mense e ai servizi sociali ai cittadini dell'Unione europea e dei Paesi terzi, senza fissa dimora, in possesso, rispettivamente, dei codici ENI (Europeo non iscritto) e STP (Straniero temporaneamente presente) nonche' dei codici fiscali numerici provvisori, sottoposti alla profilassi vaccinale anti SARS-CoV-2 nel rispetto delle circolari del Ministero della salute, sono assegnati, ove possibile, una certificazione verde COVID-19 provvisoria o, in alternativa, un codice a barre personale in modo da garantire l'identificazione univoca della persona vaccinata anche mediante mezzi informatici))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_7" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_8"/>
+                        <new>
+                            <nakn:text>((e di quelli impiegati nei collegamenti marittimi da e per l'arcipelago delle Isole Tremiti))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_8" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_9"/>
+                        <new>
+                            <nakn:text>((e-bis) funivie, cabinovie e seggiovie, qualora utilizzate con la chiusura delle cupole paravento, con finalita' turistico-commerciale e anche ove ubicate in comprensori sciistici, senza limitazioni alla vendita dei titoli di viaggio))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_9" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_10"/>
+                        <new>
+                            <nakn:text>((3-bis. Fermo restando quanto previsto dall'articolo 4 del decreto-legge 25 marzo 2020, n. 19, convertito, con modificazioni, dalla legge 22 maggio 2020, n. 35, le misure di contenimento e di contrasto dei rischi sanitari derivanti dalla diffusione del COVID-19, come definite dalle linee guida e dai protocolli di cui all'articolo 10-bis del presente decreto, integrano, senza nuovi o maggiori oneri per la finanza pubblica, ad ogni effetto di legge e fino al 31 dicembre 2021, termine di cessazione dello stato di emergenza nazionale, il contenuto degli obblighi di servizio pubblico gravanti sui vettori e sui gestori di infrastrutture o di stazioni destinati all'erogazione ovvero alla fruizione di servizi di trasporto pubblico di persone e di merci, automobilistico, ferroviario, aereo, marittimo, nelle acque interne, anche non di linea, regolati da atti, autorizzazioni, licenze, permessi, nulla osta, contratti, convenzioni, disciplinari, appalti o concessioni))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_10" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_11"/>
+                        <new>
+                            <nakn:text>(( (Estensione dell'obbligo vaccinale in strutture residenziali, socio-assistenziali e socio-sanitarie). ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_11" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_12"/>
+                        <new>
+                            <nakn:text>((1. Dopo l'articolo 4 del decreto-legge 1° aprile 2021, n. 44, convertito, con modificazioni, dalla legge 28 maggio 2021, n. 76, e' inserito il seguente: 
+ 
+"Art. 4-bis (Estensione dell'obbligo vaccinale ai lavoratori impiegati in strutture residenziali, socio-assistenziali e socio-sanitarie). - 1. Dal 10 ottobre 2021 al 31 dicembre 2021, termine di cessazione dello stato di emergenza, l'obbligo vaccinale previsto dall'articolo 4, comma 1, si applica altresi' a tutti i soggetti, anche esterni, che svolgono, a qualsiasi titolo, la propria attivita' lavorativa nelle strutture di cui all'articolo 1-bis, incluse le strutture semiresidenziali e le strutture che, a qualsiasi titolo, ospitano persone in situazione di fragilita'. 
+ 
+2. Le disposizioni del comma 1 non si applicano ai soggetti esenti dalla campagna vaccinale sulla base di idonea certificazione medica rilasciata secondo i criteri definiti con circolare del Ministero della salute. 
+ 
+3. I responsabili delle strutture di cui all'articolo 1-bis, incluse le strutture semiresidenziali e le strutture che, a qualsiasi titolo, ospitano persone in situazione di fragilita', e i datori di lavoro dei soggetti che, a qualunque titolo, svolgono nelle predette strutture attivita' lavorativa sulla base di contratti esterni assicurano il rispetto dell'obbligo di cui al comma 1 del presente articolo. Fermo restando quanto previsto dall'articolo 17-bis del decreto-legge 17 marzo 2020, n. 18, convertito, con modificazioni, dalla legge 24 aprile 2020, n. 27, per la finalita' di cui al primo periodo del presente comma i responsabili e i datori di lavoro possono verificare l'adempimento dell'obbligo acquisendo le informazioni necessarie secondo le modalita' definite con decreto del Presidente del Consiglio dei ministri, adottato di concerto con i Ministri della salute, per l'innovazione tecnologica e la transizione digitale e dell'economia e delle finanze, sentito il Garante per la protezione dei dati personali. 
+ 
+4. Agli esercenti le professioni sanitarie e agli operatori di interesse sanitario nonche' ai lavoratori dipendenti delle strutture di cui all'articolo 1-bis, incluse le strutture semiresidenziali e le strutture che, a qualsiasi titolo, ospitano persone in situazione di fragilita', si applicano le disposizioni dell'articolo 4, a eccezione del comma 8. La sospensione della prestazione lavorativa comporta che non sono dovuti la retribuzione ne' altro compenso o emolumento, comunque denominato, e mantiene efficacia fino all'assolvimento dell'obbligo vaccinale o, in mancanza, fino al completamento del piano vaccinale nazionale e comunque non oltre il 31 dicembre 2021, fermo restando quanto previsto dall'articolo 4, comma 10. 
+ 
+5. L'accesso alle strutture di cui all'articolo 1-bis, incluse le strutture semiresidenziali e le strutture che, a qualsiasi titolo, ospitano persone in situazione di fragilita', in violazione delle disposizioni del comma 1 del presente articolo nonche' la violazione delle disposizioni del primo periodo del comma 3 del presente articolo sono sanzionati ai sensi dell'articolo 4, commi 1, 3, 5 e 9, del decreto-legge 25 marzo 2020, n. 19, convertito, con modificazioni, dalla legge 22 maggio 2020, n. 35. Resta fermo quanto previsto dall'articolo 2, comma 2-bis, del decreto-legge 16 maggio 2020, n. 33, convertito, con modificazioni, dalla legge 14 luglio 2020, n. 74"))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_12" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_13"/>
+                        <new>
+                            <nakn:text>(( (Disposizioni di proroga in materia di lavoratori fragili). ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_13" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_14"/>
+                        <new>
+                            <nakn:text>((1. All'articolo 1 della legge 30 dicembre 2020, n. 178, sono apportate le seguenti modificazioni: 
+a) al comma 481, le parole: "30 giugno 2021" sono sostituite dalle seguenti: "31 dicembre 2021"; 
+b) al comma 482, le parole: "282,1 milioni di euro per l'anno 2021" sono sostituite dalle seguenti: "396 milioni di euro per l'anno 2021"; 
+c) al comma 483, le parole: "173,95 milioni di euro per l'anno 2021" sono sostituite dalle seguenti: "195,15 milioni di euro per l'anno 2021". 
+ 
+2. Agli oneri derivanti dal comma 1, pari a 135,1 milioni di euro per l'anno 2021, si provvede: 
+a) quanto a 100 milioni di euro, mediante corrispondente riduzione del fondo di cui all'articolo 13-duodecies del decreto-legge 28 ottobre 2020, n. 137, convertito, con modificazioni, dalla legge 18 dicembre 2020, n. 176; 
+b) quanto a 35,1 milioni di euro, mediante corrispondente riduzione del Fondo sociale per occupazione e formazione, di cui all'articolo 18, comma 1, lettera a), del decreto-legge 29 novembre 2008, n. 185, convertito, con modificazioni, dalla legge 28 gennaio 2009, n. 2))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_14" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_15"/>
+                        <new>
+                            <nakn:text>((Modifica))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_15" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_16"/>
+                        <new>
+                            <nakn:text>((COMMA ABROGATO DAL D.L. 8 OTTOBRE 2021, N. 139))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_16" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_17"/>
+                        <new>
+                            <nakn:text>((COMMA ABROGATO DAL D.L. 8 OTTOBRE 2021, N. 139))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_17" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_18"/>
+                        <new>
+                            <nakn:text>((, 9-ter.1, 9-ter.2))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_18" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_19"/>
+                        <new>
+                            <nakn:text>((Commissario straordinario per l'attuazione e il coordinamento delle misure di contenimento e contrasto dell'emergenza epidemiologica COVID-19 e per l'esecuzione della campagna vaccinale nazionale,))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_19" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_20"/>
+                        <new>
+                            <nakn:text>(( (Modifica all'articolo 9 del decreto-legge 22 aprile 2021, n. 52, in materia di vaccinazioni equivalenti). ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_20" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_21"/>
+                        <new>
+                            <nakn:text>((1. All'articolo 9, comma 1, lettera b), del decreto-legge 22 aprile 2021, n. 52, convertito, con modificazioni, dalla legge 17 giugno 2021, n. 87, dopo le parole: "da SARS-CoV-2" sono aggiunte le seguenti: "e le vaccinazioni riconosciute come equivalenti con circolare del Ministero della salute, somministrate dalle autorita' sanitarie competenti per territorio"))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_21" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_22"/>
+                        <new>
+                            <nakn:text>((31 marzo 2022))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_22" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_23"/>
+                        <new>
+                            <nakn:text>((,))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_23" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_24"/>
+                        <new>
+                            <nakn:text>((1-bis. In considerazione dei danni conseguenti all'attacco subito dai sistemi informatici di cui al comma 1, la regione Lazio puo' chiedere agli istituti finanziatori, per i mutui concessi nel corso dell'anno 2021, esclusi quelli concessi dal Ministero dell'economia e delle finanze, una proroga del termine di scadenza dei pagamenti dovuti entro il 31 dicembre 2021. Alla compensazione degli effetti finanziari in termini di indebitamento netto e fabbisogno, pari a 20 milioni di euro per l'anno 2021, si provvede mediante corrispondente riduzione del Fondo per la compensazione degli effetti finanziari non previsti a legislazione vigente conseguenti all'attualizzazione di contributi pluriennali, di cui all'articolo 6, comma 2, del decreto-legge 7 ottobre 2008, n. 154, convertito, con modificazioni, dalla legge 4 dicembre 2008, n. 189))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_24" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_25"/>
+                        <new>
+                            <nakn:text>((dei siti internet istituzionali))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_25" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_26"/>
+                        <new>
+                            <nakn:text>((4-bis. Al codice dell'ordinamento militare, di cui al decreto legislativo 15 marzo 2010, n. 66, sono apportate le seguenti modificazioni: 
+a) agli articoli 1053, comma 1, e 1242, comma 2, le parole: "31 ottobre" sono sostituite dalle seguenti: "15 settembre"; 
+b) all'articolo 2233-quater, dopo il comma 3-bis e' aggiunto il seguente: 
+"3-ter. Per gli anni 2021 e 2022, le aliquote di valutazione degli ufficiali sono formate alla data del 15 ottobre"))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_26" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_27"/>
+                        <new>
+                            <nakn:text>(( (Clausola di salvaguardia).) ))</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="pmod_27" type="insertion">
+                        <source href="#"/>
+                        <destination href="#ins_28"/>
+                        <new>
+                            <nakn:text>((1. Le disposizioni del presente decreto sono applicabili nelle regioni a statuto speciale e nelle province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti e le relative norme di attuazione))</nakn:text>
+                        </new>
+                    </textualMod>
+                </passiveModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/DECRETO-LEGGE/stato/2021-08-06/111/!main" showAs=""/>
+                <passiveRef eId="rp1" href="/akn/it/act/LEGGE/stato/2021-09-24/133/!main" showAs=""/>
+                <passiveRef eId="rp2" href="/akn/it/act/DECRETO-LEGGE/stato/2021-10-08/139/!main" showAs=""/>
+                <passiveRef eId="rp3" href="/akn/it/act/DECRETO-LEGGE/stato/2021-10-21/146/!main" showAs=""/>
+                <passiveRef eId="rp4" href="/akn/it/act/LEGGE/stato/2021-12-17/215/!main" showAs=""/>
+                <passiveRef eId="rp5" href="/akn/it/act/DECRETO-LEGGE/stato/2021-12-24/221/!main" showAs=""/>
+                <passiveRef eId="rp6" href="/akn/it/act/DECRETO-LEGGE/stato/2021-12-30/228/!main" showAs=""/>
+                <passiveRef eId="rp7" href="/akn/it/act/DECRETO-LEGGE/stato/2022-01-07/1/!main" showAs=""/>
+                <passiveRef eId="rp8" href="/akn/it/act/LEGGE/stato/2022-02-25/15/!main" showAs=""/>
+                <passiveRef eId="rp9" href="/akn/it/act/LEGGE/stato/2022-03-04/18/!main" showAs=""/>
+                <passiveRef eId="rp10" href="/akn/it/act/DECRETO-LEGGE/stato/2022-03-24/24/!main" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/08/06/21G00125/CONSOLIDATED/20220325">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Misure urgenti per l'esercizio in sicurezza delle attivita' scolastiche, universitarie, sociali e in materia di trasporti. (21G00125)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00125</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#DECRETO-LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-08-06</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/08/06/21G00125/CONSOLIDATED/20220325/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/08/06/21G00125/CONSOLIDATED/20220325"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/08/06/21G00125/CONSOLIDATED/20220325/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/08/06/21G00125/CONSOLIDATED/20220325/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/decreto-legge/stato/2021/111" nativeUrn="urn:nir:stato:decreto.legge:2021-08-06;111" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-08-06"><ns0:event type="enacted" date="2021-08-06"/><ns0:event type="published" date="2021-08-06"/><ns0:event type="commenced" date="2021-08-06"/><ns0:event type="amended" date="2021-10-01"/><ns0:event type="amended" date="2021-10-08"/><ns0:event type="amended" date="2021-10-21"/><ns0:event type="amended" date="2021-12-20"/><ns0:event type="amended" date="2021-12-24"/><ns0:event type="amended" date="2021-12-30"/><ns0:event type="amended" date="2022-01-07"/><ns0:event type="amended" date="2022-02-28"/><ns0:event type="amended" date="2022-03-08"/><ns0:event type="amended" date="2022-03-24"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/a76baf43-5b24-4a51-a16a-1fb477686971" sourceSha256="913c0a7301ee528a0d9fb0871fb28d51c3ec742b34357ca9fe9dc6d7c8b56458" adapter="normattiva-it@0.2.0" generatedAt="2026-06-12T00:28:36.092509Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>DECRETO-LEGGE</docType>
+                <docDate date="2021-08-06">06 agosto 2021</docDate>
+                <docNumber>111</docNumber>
+                <docTitle>Misure urgenti per l'esercizio in sicurezza delle attivita' scolastiche, universitarie, sociali e in materia di trasporti. (21G00125) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 07/08/2021
+Decreto-Legge convertito con modificazioni dalla <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/legge/stato/2021-09-24/133/!main" ns1:target="olf:it/legge/stato/2021/133" ns1:relation="cites">L. 24 settembre 2021, n. 133</ref> (in G.U. 01/10/2021, n. 235).</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="formulaInizialePreambolo">
+                <p/>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p/>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_01">
+                <num>Art. 01.</num>
+                <heading>
+                    <ins eId="ins_1">(( (Modifica all'articolo 9 del decreto-legge 22 aprile 2021, n. 52, in materia di validita' della certificazione verde COVID-19). ))</ins>
+                </heading>
+                <paragraph>
+                    <content/>
+                </paragraph>
+            </article>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+(Disposizioni urgenti per l'anno scolastico 2021/2022 e misure per prevenire il contagio da SARS-CoV-2 nelle istituzioni educative, scolastiche e universitarie ) 
+ 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Nell'anno scolastico 2021-2022, al fine di assicurare il valore della scuola come comunita' e di tutelare la sfera sociale e psico-affettiva della popolazione scolastica, sull'intero territorio nazionale, i servizi educativi per l'infanzia di cui all'<ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/65/!main#art_2" ns2:target="olf:it/decreto-legislativo/stato/2017/65/art_2" ns2:relation="cites">articolo 2 del decreto legislativo 13 aprile 2017, n. 65</ref>, e l'attivita' scolastica e didattica della scuola dell'infanzia, della scuola primaria e della scuola secondaria di primo e secondo grado sono svolti in presenza. Nell'anno accademico 2021-2022, le attivita' didattiche e curriculari delle universita' sono svolte prioritariamente in presenza. Sono svolte prioritariamente in presenza, altresi', le attivita' formative e di tirocinio dei percorsi formativi degli istituti tecnici superiori. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <list>
+                        <intro eId="art_1__para_2__intro_1">
+                            <p>Per consentire lo svolgimento in presenza dei servizi e delle attivita' di cui al comma 1 e per prevenire la diffusione dell'infezione da SARS-CoV-2, fino al 31 dicembre 2021, termine di cessazione dello stato di emergenza, sono adottate, in tutte le istituzioni educative, scolastiche e universitarie, le seguenti misure minime di sicurezza: 
+</p>
+                        </intro>
+                        <point eId="art_1__para_2.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>e' fatto obbligo di utilizzo dei dispositivi di protezione delle vie respiratorie, fatta eccezione per i bambini che frequentano i servizi educativi per l'infanzia di cui all'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/65/!main#art_2" ns3:target="olf:it/decreto-legislativo/stato/2017/65/art_2" ns3:relation="cites">articolo 2 del decreto legislativo 13 aprile 2017, n. 65</ref>, e la scuola dell'infanzia, per i soggetti con patologie o disabilita' incompatibili con l'uso dei predetti dispositivi e per lo svolgimento delle attivita' sportive;<ins eId="ins_3">((10))</ins>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_2.__point_a-bis">
+                            <num>a-bis)</num>
+                            <content>
+                                <p>sulla base della valutazione del rischio e al fine di prevenire la diffusione dell'infezione da SARS-CoV-2, al personale preposto alle attivita' scolastiche e didattiche nei servizi educativi per l'infanzia, nelle scuole dell'infanzia e nelle scuole di ogni ordine e grado, dove sono presenti bambini e alunni esonerati dall'obbligo di utilizzo dei dispositivi di protezione delle vie respiratorie, e' assicurata la fornitura di mascherine di tipo FFP2 o FFP3, in ottemperanza a quanto disposto dai <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2021-05-25/73/!main#art_58-com4" ns4:target="olf:it/decreto-legge/stato/2021/73/art_58-com4" ns4:relation="amends">commi 4</ref> e <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegge/stato/2021-05-25/73/!main#art_58-com4bis" ns5:target="olf:it/decreto-legge/stato/2021/73/art_58-com4bis" ns5:relation="amends">4-bis dell'articolo 58 del decreto-legge 25 maggio 2021, n. 73</ref>, convertito, con modificazioni, dalla <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/legge/stato/2021-07-23/106/!main" ns6:target="olf:it/legge/stato/2021/106" ns6:relation="cites">legge 23 luglio 2021, n. 106</ref>; </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_2.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>e' raccomandato il rispetto di una distanza di sicurezza interpersonale di almeno un metro salvo che le condizioni strutturali-logistiche degli edifici non lo consentano; <ins eId="ins_4">((10))</ins>
+                                </p>
+                            </content>
+                        </point>
+                        <point eId="art_1__para_2.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>e' fatto divieto di accedere o permanere nei locali scolastici e universitari ai soggetti con sintomatologia respiratoria o temperatura corporea superiore a 37,5°. (5) <ins eId="ins_5">((10))</ins>
+                                </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph eId="art_1__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>In presenza di soggetti risultati positivi all'infezione da SARS-CoV-2 o di casi sospetti, nei servizi educativi per l'infanzia di cui all'<ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/65/!main#art_2" ns7:target="olf:it/decreto-legislativo/stato/2017/65/art_2" ns7:relation="cites">articolo 2 del decreto legislativo 13 aprile 2017, n. 65</ref>, e nelle istituzioni del sistema nazionale di istruzione e formazione nonche' nelle universita', si applicano le linee guida e i protocolli adottati ai sensi dell'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/decretoLegge/stato/2020-05-16/33/!main#art_1-com14" ns8:target="olf:it/decreto-legge/stato/2020/33/art_1-com14" ns8:relation="amends">articolo 1, comma 14, del decreto-legge 16 maggio 2020, n. 33</ref>, convertito con modificazioni, dalla <ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/2020-07-14/74/!main" ns9:target="olf:it/legge/stato/2020/74" ns9:relation="amends">legge 14 luglio 2020, n. 74</ref>, nonche' ai sensi dell'<ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_10bis" ns10:target="olf:it/decreto-legge/stato/2021/52/art_10bis" ns10:relation="amends">articolo 10-bis del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns11:target="olf:it/legge/stato/2021/87" ns11:relation="cites">legge 17 giugno 2021, n. 87</ref>. I protocolli e le linee guida possono disciplinare ogni altro aspetto concernente le condizioni di sicurezza relative allo svolgimento delle attivita' didattiche e scolastiche, ivi inclusa la deroga alle disposizioni di cui al comma 2, lettera a), per le classi composte da studenti che abbiano tutti completato il ciclo vaccinale o abbiano un certificato di guarigione in corso di validita', nonche' per le classi formate da alunni che per ragioni anagrafiche sono esclusi dalla campagna vaccinale.
+PERIODO SOPPRESSO DALLA <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/legge/stato/2021-09-24/133/!main" ns12:target="olf:it/legge/stato/2021/133" ns12:relation="cites">L. 24 SETTEMBRE 2021, N. 133</ref>. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Fino al 31 dicembre 2021, termine di cessazione dello stato di emergenza, i Presidenti delle regioni e delle province autonome di Trento e di Bolzano e i Sindaci possono derogare, per specifiche aree del territorio o per singoli istituti, alle disposizioni di cui al comma 1 esclusivamente in zona rossa e in circostanze di eccezionale e straordinaria necessita' dovuta all'insorgenza di focolai o al rischio estremamente elevato di diffusione del virus SARS-CoV-2 o di sue varianti nella popolazione scolastica. I provvedimenti di cui al primo periodo sono motivatamente adottati sentite le competenti autorita' sanitarie e nel rispetto dei principi di adeguatezza e proporzionalita', in particolare con riferimento al loro ambito di applicazione. Laddove siano adottati i predetti provvedimenti di deroga, resta sempre garantita la possibilita' di svolgere attivita' in presenza qualora sia necessario l'uso di laboratori o per mantenere una relazione educativa che realizzi l'effettiva inclusione scolastica degli alunni con disabilita' e con bisogni educativi speciali. (5) 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_5">
+                    <num>5.</num>
+                    <content>
+                        <p>Ai fini della tutela contro il rischio di contagio da COVID-19, al personale scolastico e universitario si applica l'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/decretoLegge/stato/2020-04-08/23/!main#art_29bis" ns13:target="olf:it/decreto-legge/stato/2020/23/art_29bis" ns13:relation="amends">articolo 29-bis del decreto-legge 8 aprile 2020, n. 23</ref>, convertito, con modificazioni, dalla <ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/legge/stato/2020-06-05/40/!main" ns14:target="olf:it/legge/stato/2020/40" ns14:relation="amends">legge 5 giugno 2020, n. 40</ref>, quando sono rispettate le prescrizioni previste dal presente decreto, nonche' dalle linee guida e dai protocolli di cui al comma 3. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_6">
+                    <num>6.</num>
+                    <content>
+                        <p>Al <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main" ns15:target="olf:it/decreto-legge/stato/2021/52" ns15:relation="amends">decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns16:target="olf:it/legge/stato/2021/87" ns16:relation="cites">legge 17 giugno 2021, n. 87</ref>, dopo l'articolo 9-bis sono inseriti i seguenti: 
+ 
+ "ART. 9-ter 
+ 
+(Impiego delle certificazioni verdi COVID-19 in ambito scolastico e universitario) 
+ 
+1. Dal 1° settembre 2021 e fino al 31 dicembre 2021, termine di cessazione dello stato di emergenza, al fine di tutelare la salute pubblica e mantenere adeguate condizioni di sicurezza nell'erogazione in presenza del servizio essenziale di istruzione, tutto il personale scolastico del sistema nazionale di istruzione e delle scuole non paritarie e quello universitario, nonche' gli studenti universitari, devono possedere e sono tenuti a esibire la certificazione verde COVID-19 di cui all'articolo 9, comma 2. 
+ 
+1-bis. Le disposizioni del comma 1 si applicano anche al personale dei servizi educativi per l'infanzia di cui all'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/2017-04-13/65/!main#art_2" ns17:target="olf:it/decreto-legislativo/stato/2017/65/art_2" ns17:relation="cites">articolo 2 del decreto legislativo 13 aprile 2017, n. 65</ref>, dei centri provinciali per l'istruzione degli adulti, dei sistemi regionali di istruzione e formazione professionale, dei sistemi regionali che realizzano i percorsi di istruzione e formazione tecnica superiore e degli istituti tecnici superiori. Le verifiche di cui al comma 4 sono effettuate dai dirigenti scolastici e dai responsabili delle istituzioni di cui al primo periodo del presente comma. Le disposizioni del presente comma si applicano dalla data di entrata in vigore del <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegge/stato/2021-08-06/111/!main" ns18:target="olf:it/decreto-legge/stato/2021/111" ns18:relation="amends">decreto-legge 6 agosto 2021, n. 111</ref>. 
+ 
+1-ter. Nei casi in cui la certificazione verde COVID-19 di cui all'articolo 9 non sia stata generata e non sia stata rilasciata all'avente diritto in formato cartaceo o digitale, le disposizioni di cui al comma 1 del presente articolo si intendono comunque rispettate a seguito della presentazione da parte dell'interessato di un certificato rilasciato dalla struttura sanitaria ovvero dall'esercente la professione sanitaria che ha effettuato la vaccinazione o dal medico di medicina generale dell'interessato, che attesta che il soggetto soddisfa una delle condizioni di cui al citato articolo 9, comma 2. 
+ 
+2. Il mancato rispetto delle disposizioni di cui al comma 1 da parte del personale delle istituzioni di cui ai commi 1 e 1-bis e' considerato assenza ingiustificata e non sono corrisposti la retribuzione ne' altro compenso o emolumento, comunque denominato. A decorrere dal quinto giorno di assenza ingiustificata il rapporto di lavoro e' sospeso. La sospensione del rapporto di lavoro e' disposta dai dirigenti scolastici e dai responsabili delle istituzioni di cui ai commi 1 e 1-bis e mantiene efficacia fino al conseguimento della condizione di cui al comma 1 e alla scadenza del contratto attribuito per la sostituzione che non supera i quindici giorni. 
+ 
+3. Le disposizioni di cui ai commi 1 e 1-bis non si applicano ai soggetti esenti dalla campagna vaccinale sulla base di idonea certificazione medica rilasciata secondo i criteri definiti con circolare del Ministero della salute. 
+ 
+4 I dirigenti scolastici, o altro personale dell'istituzione scolastica da questi a tal fine delegato, e i responsabili dei servizi educativi dell'infanzia e delle altre istituzioni di cui al comma 1-bis nonche' delle scuole paritarie e non paritarie e delle universita' sono tenuti a verificare il rispetto delle prescrizioni di cui ai commi 1 e 1-bis. Le verifiche delle certificazioni verdi COVID-19 sono effettuate con le modalita' indicate dal decreto del Presidente del Consiglio dei ministri adottato ai sensi dell'articolo 9, comma 10. Con circolare del Ministro dell'istruzione possono essere stabilite ulteriori modalita' di verifica. Con riferimento al rispetto delle prescrizioni di cui al comma 1 da parte degli studenti universitari, le verifiche di cui al presente comma sono svolte a campione con le modalita' individuate dalle universita' e si applicano le sanzioni di cui al comma 5, primo, secondo e terzo periodo. 
+ 
+5. La violazione delle disposizioni del comma 4 del presente articolo e' sanzionata ai sensi dell'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegge/stato/2020-03-25/19/!main#art_4-com1" ns19:target="olf:it/decreto-legge/stato/2020/19/art_4-com1" ns19:relation="amends">articolo 4, commi 1</ref> e <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/decretoLegge/stato/2020-03-25/19/!main#art_4-com5" ns20:target="olf:it/decreto-legge/stato/2020/19/art_4-com5" ns20:relation="amends">5, del decreto-legge 25 marzo 2020, n. 19</ref>, convertito, con modificazioni, dalla <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/legge/stato/2020-05-22/35/!main" ns21:target="olf:it/legge/stato/2020/35" ns21:relation="amends">legge 22 maggio 2020, n. 35</ref>. Resta fermo quanto previsto dall'<ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/decretoLegge/stato/2020-05-16/33/!main#art_2-com2bis" ns22:target="olf:it/decreto-legge/stato/2020/33/art_2-com2bis" ns22:relation="amends">articolo 2, comma 2-bis, del decreto-legge 16 maggio 2020, n. 33</ref>, convertito, con modificazioni, dalla <ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/legge/stato/2020-07-14/74/!main" ns23:target="olf:it/legge/stato/2020/74" ns23:relation="amends">legge 14 luglio 2020, n. 74</ref>.
+La sanzione e' irrogata dal prefetto e si applicano, per quanto non stabilito dal presente comma, le disposizioni delle sezioni I e II del capo I della <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/legge/stato/1981-11-24/689/!main" ns24:target="olf:it/legge/stato/1981/689" ns24:relation="cites">legge 24 novembre 1981, n. 689</ref>, in quanto compatibili. L'accertamento della violazione dell'obbligo di cui al comma 4 da parte dei dirigenti scolastici e dei responsabili delle scuole paritarie spetta ai direttori degli uffici scolastici regionali territorialmente competenti. L'accertamento della violazione dell'obbligo di cui al comma 4 da parte dei responsabili delle altre istituzioni di cui al comma 1-bis spetta alle autorita' degli enti locali e regionali territorialmente competenti. 
+ 
+5-bis. Per le finalita' di cui al presente articolo, le universita' e le istituzioni di alta formazione artistica, musicale e coreutica possono verificare il rispetto delle disposizioni di cui al comma 1 attraverso modalita' di controllo delle certificazioni verdi COVID-19 che non consentono la visibilita' delle informazioni che ne hanno determinato l'emissione, compreso l'utilizzo dell'applicazione mobile prevista dall'articolo 13 del decreto del Presidente del Consiglio dei ministri 17 giugno 2021, pubblicato nella Gazzetta Ufficiale n. 143 del 17 giugno 2021. Per le medesime finalita', le universita' e le istituzioni di alta formazione artistica, musicale e coreutica sono autorizzate alla raccolta e alla conservazione dei dati strettamente necessari per la verifica del rispetto delle disposizioni di cui al comma 1. 
+ 
+ Art. 9-ter.1 
+ 
+(Impiego delle certificazioni verdi COVID-19 per l'accesso in ambito scolastico, educativo e formativo). 
+ 
+1. Fino al 31 dicembre 2021, termine di cessazione dello stato di emergenza, al fine di tutelare la salute pubblica, chiunque accede alle strutture delle istituzioni scolastiche, educative e formative di cui all'articolo 9-ter, commi 1 e 1-bis, deve possedere ed e' tenuto a esibire la certificazione verde COVID-19 di cui all'articolo 9, comma 2. Le disposizioni del primo periodo non si applicano ai bambini, agli alunni e agli studenti nonche' a coloro che frequentano i sistemi regionali di formazione, a eccezione di coloro che prendono parte ai percorsi formativi degli istituti tecnici superiori e degli istituti di istruzione e formazione tecnica superiore. 
+ 
+2. Le disposizioni del comma 1 non si applicano ai soggetti esenti dalla campagna vaccinale sulla base di idonea certificazione medica rilasciata secondo i criteri definiti con circolare del Ministero della salute. 
+ 
+3. I dirigenti scolastici e i responsabili delle istituzioni scolastiche, educative e formative di cui al comma 1 o loro delegati sono tenuti a verificare il rispetto delle disposizioni del medesimo comma 1. Nel caso in cui l'accesso alle strutture sia motivato da ragioni di servizio o di lavoro, la verifica del rispetto delle disposizioni del comma 1, oltre che, a campione, dai soggetti di cui al primo periodo del presente comma, deve essere effettuata anche dai rispettivi datori di lavoro o dai loro delegati. Le verifiche delle certificazioni verdi COVID-19 sono effettuate con le modalita' indicate dal decreto del Presidente del Consiglio dei ministri adottato ai sensi dell'articolo 9, comma 10. Con circolare del Ministro dell'istruzione possono essere stabilite ulteriori modalita' di verifica. 
+ 
+4. La violazione delle disposizioni dei commi 1 e 3 del presente articolo e' sanzionata ai sensi dell'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegge/stato/2020-03-25/19/!main#art_4-com1" ns25:target="olf:it/decreto-legge/stato/2020/19/art_4-com1" ns25:relation="amends">articolo 4, commi 1</ref> e <ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegge/stato/2020-03-25/19/!main#art_4-com5" ns26:target="olf:it/decreto-legge/stato/2020/19/art_4-com5" ns26:relation="amends">5, del decreto-legge 25 marzo 2020, n. 19</ref>, convertito, con modificazioni, dalla <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2020-05-22/35/!main" ns27:target="olf:it/legge/stato/2020/35" ns27:relation="amends">legge 22 maggio 2020, n. 35</ref>. Resta fermo quanto previsto dall'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegge/stato/2020-05-16/33/!main#art_2-com2bis" ns28:target="olf:it/decreto-legge/stato/2020/33/art_2-com2bis" ns28:relation="amends">articolo 2, comma 2-bis, del decreto-legge 16 maggio 2020, n. 33</ref>, convertito, con modificazioni, dalla <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/2020-07-14/74/!main" ns29:target="olf:it/legge/stato/2020/74" ns29:relation="amends">legge 14 luglio 2020, n. 74</ref>.
+La sanzione e' irrogata dal prefetto e si applicano, per quanto non stabilito dal presente comma, le disposizioni delle sezioni I e II del capo I della <ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/legge/stato/1981-11-24/689/!main" ns30:target="olf:it/legge/stato/1981/689" ns30:relation="cites">legge 24 novembre 1981, n. 689</ref>, in quanto compatibili. L'accertamento della violazione dell'obbligo di cui al comma 1 e dell'obbligo di cui al comma 3, con esclusivo riferimento al datore di lavoro, spetta ai dirigenti scolastici e ai responsabili delle istituzioni scolastiche, educative e formative di cui al medesimo comma 1. L'accertamento della violazione dell'obbligo di cui al comma 3 da parte dei dirigenti scolastici e dei responsabili delle scuole paritarie spetta ai direttori degli uffici scolastici regionali territorialmente competenti. L'accertamento della violazione dell'obbligo di cui al comma 3 da parte dei responsabili delle altre istituzioni di cui al comma 1 spetta alle autorita' degli enti locali e regionali territorialmente competenti. 
+ 
+ Art. 9-ter.2 
+ 
+(Impiego delle certificazioni verdi COVID-19 per l'accesso alle strutture della formazione superiore). 
+ 
+1. Fermo restando quanto previsto dall'articolo 9-ter, fino al 31 dicembre 2021, termine di cessazione dello stato di emergenza, al fine di tutelare la salute pubblica, chiunque accede alle strutture appartenenti alle istituzioni universitarie e di alta formazione artistica, musicale e coreutica, nonche' alle altre istituzioni di alta formazione collegate alle universita', deve possedere ed e' tenuto a esibire la certificazione verde COVID-19 di cui all'articolo 9, comma 2. 
+ 
+2. Le disposizioni del comma 1 non si applicano ai soggetti esenti dalla campagna vaccinale sulla base di idonea certificazione medica rilasciata secondo i criteri definiti con circolare del Ministero della salute. 
+ 
+3. I responsabili delle istituzioni di cui al comma 1 sono tenuti a verificare il rispetto delle disposizioni del medesimo comma 1, secondo modalita' a campione individuate dalle istituzioni stesse.
+Nel caso in cui l'accesso alle strutture sia motivato da ragioni di servizio o di lavoro, la verifica del rispetto delle disposizioni del comma 1, oltre che, a campione, dai soggetti di cui al primo periodo del presente comma, deve essere effettuata anche dai rispettivi datori di lavoro o dai loro delegati. Le verifiche delle certificazioni verdi COVID-19 sono effettuate con le modalita' indicate dal decreto del Presidente del Consiglio dei ministri adottato ai sensi dell'articolo 9, comma 10. 
+ 
+4. La violazione delle disposizioni dei commi 1 e 3 del presente articolo e' sanzionata ai sensi dell'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decretoLegge/stato/2020-03-25/19/!main#art_4-com1" ns31:target="olf:it/decreto-legge/stato/2020/19/art_4-com1" ns31:relation="amends">articolo 4, commi 1</ref> e <ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/decretoLegge/stato/2020-03-25/19/!main#art_4-com5" ns32:target="olf:it/decreto-legge/stato/2020/19/art_4-com5" ns32:relation="amends">5, del decreto-legge 25 marzo 2020, n. 19</ref>, convertito, con modificazioni, dalla <ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2020-05-22/35/!main" ns33:target="olf:it/legge/stato/2020/35" ns33:relation="amends">legge 22 maggio 2020, n. 35</ref>. Resta fermo quanto previsto dall'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/decretoLegge/stato/2020-05-16/33/!main#art_2-com2bis" ns34:target="olf:it/decreto-legge/stato/2020/33/art_2-com2bis" ns34:relation="amends">articolo 2, comma 2-bis, del decreto-legge 16 maggio 2020, n. 33</ref>, convertito, con modificazioni, dalla <ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/legge/stato/2020-07-14/74/!main" ns35:target="olf:it/legge/stato/2020/74" ns35:relation="amends">legge 14 luglio 2020, n. 74</ref>.
+La sanzione e' irrogata dal prefetto e si applicano, per quanto non stabilito dal presente comma, le disposizioni delle sezioni I e II del capo I della <ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/legge/stato/1981-11-24/689/!main" ns36:target="olf:it/legge/stato/1981/689" ns36:relation="cites">legge 24 novembre 1981, n. 689</ref>, in quanto compatibili. L'accertamento della violazione dell'obbligo di cui al comma 1 e dell'obbligo di cui al comma 3, con esclusivo riferimento al datore di lavoro, spetta ai responsabili delle istituzioni di cui al medesimo comma 1.". 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_7">
+                    <num>7.</num>
+                    <content>
+                        <p>Le disposizioni di cui al presente articolo si applicano, per quanto compatibili, anche ai sistemi regionali di istruzione e formazione professionale, ai sistemi regionali che realizzano i percorsi di istruzione e formazione tecnica superiore, agli istituti tecnici superiori, alle Istituzioni di alta formazione artistica, musicale e coreutica, nonche' alle attivita' delle altre istituzioni di alta formazione collegate alle universita'. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_8">
+                    <num>8.</num>
+                    <content>
+                        <p>Le amministrazioni interessate provvedono alle attivita' di cui ai commi 6 e 7 con le risorse umane, finanziarie e strumentali disponibili a legislazione vigente e senza nuovi o maggiori oneri a carico della finanza pubblica. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_9">
+                    <num>9.</num>
+                    <content>
+                        <p>Il Commissario straordinario per l'attuazione e il coordinamento delle misure di contenimento e contrasto dell'emergenza epidemiologica COVID-19 e per l'esecuzione della campagna vaccinale nazionale predispone e attua un piano di screening della popolazione scolastica. A tal fine e' autorizzata la spesa di euro 100 milioni, a valere sulle risorse disponibili sulla contabilita' speciale di cui all'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/decretoLegge/stato/2020-03-17/18/!main#art_122-com9" ns37:target="olf:it/decreto-legge/stato/2020/18/art_122-com9" ns37:relation="amends">articolo 122, comma 9, del decreto-legge 17 marzo 2020, n. 18</ref>, convertito, con modificazioni, dalla <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/legge/stato/2020-04-24/27/!main" ns38:target="olf:it/legge/stato/2020/27" ns38:relation="amends">legge 24 aprile 2020, n. 27</ref> 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_10">
+                    <num>10.</num>
+                    <content>
+                        <p>Al fine di consentire il tempestivo pagamento delle competenze al personale supplente chiamato per la sostituzione del personale assente ingiustificato, e' autorizzata la spesa di 70 milioni di euro per l'anno 2021. Ai relativi oneri si provvede, per il medesimo anno, mediante utilizzo delle risorse disponibili di cui all'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_231bis-com1-letb" ns39:target="olf:it/decreto-legge/stato/2020/34/art_231bis-com1-letb" ns39:relation="amends">articolo 231-bis, comma 1, lettera b) del decreto-legge 19 maggio 2020 n. 34</ref>, convertito con modificazioni dalla <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns40:target="olf:it/legge/stato/2020/77" ns40:relation="amends">legge 17 luglio 2020, n. 77</ref>. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_10-bis">
+                    <num>10-bis.</num>
+                    <content>
+                        <p>Al fine di consentire il pagamento tempestivo dei supplenti brevi e saltuari e dei docenti temporanei delle istituzioni scolastiche statali, e' autorizzata la spesa di 288 milioni di euro per l'anno 2021. Ai relativi oneri si provvede, per il medesimo anno, mediante utilizzo delle risorse disponibili di cui all'<ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_231bis-com1-letb" ns41:target="olf:it/decreto-legge/stato/2020/34/art_231bis-com1-letb" ns41:relation="amends">articolo 231-bis, comma 1, lettera b), del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns42:target="olf:it/legge/stato/2020/77" ns42:relation="amends">legge 17 luglio 2020, n. 77</ref>. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_11">
+                    <num>11.</num>
+                    <content>
+                        <p>Il Ministero dell'istruzione provvede al monitoraggio delle giornate di assenza ingiustificata del personale scolastico di cui al comma 6, capoverso articolo 9-ter, comma 2, e dei conseguenti eventuali risparmi e trasmette gli esiti al Ministero dell'economia e delle finanze -Dipartimento della Ragioneria generale dello Stato, al fine di adottare le opportune variazioni compensative di bilancio per la copertura di eventuali ulteriori oneri derivanti dalla sostituzione del personale ovvero per il reintegro delle disponibilita' di cui all'<ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_231bis-com1-letb" ns43:target="olf:it/decreto-legge/stato/2020/34/art_231bis-com1-letb" ns43:relation="amends">articolo 231-bis, comma 1, lettera b) del decreto-legge 19 maggio 2020 n. 34</ref>, convertito con modificazioni dalla <ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns44:target="olf:it/legge/stato/2020/77" ns44:relation="amends">legge 17 luglio 2020, n. 77</ref>. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_11-bis">
+                    <num>11-bis.</num>
+                    <content>
+                        <p>Le somme versate dalle regioni, comprese quelle a statuto speciale, all'entrata del bilancio dello Stato per il cofinanziamento di contratti di supplenza sia breve e saltuaria sia fino al termine delle attivita' didattiche, stipulati dalle istituzioni scolastiche statali del territorio regionale per assumere personale scolastico aggiuntivo rispetto all'organico assegnato dall'ufficio scolastico regionale, sono riassegnate ai pertinenti capitoli di spesa dello stato di previsione del Ministero dell'istruzione in quanto necessarie al pagamento dei contratti medesimi. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_12">
+                    <num>12.</num>
+                    <content>
+                        <p>Ai fini dell'immediata attuazione del presente articolo, il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio. 
+ 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>--------------</p>
+                        <p>AGGIORNAMENTO (5)</p>
+                        <p>
+ Il <ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="45" href="/akn/it/act/decretoLegge/stato/2021-12-24/221/!main" ns45:target="olf:it/decreto-legge/stato/2021/221" ns45:relation="amends">D.L. 24 dicembre 2021, n. 221</ref> ha disposto (con l'art. 16, comma 1) che i termini previsti dai commi 2 e 4 del presente articolo sono prorogati fino al 31 marzo 2022. </p>
+                        <p>---------------</p>
+                        <p>AGGIORNAMENTO (10)</p>
+                        <p>
+ Il <ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="46" href="/akn/it/act/decretoLegge/stato/2022-03-24/24/!main" ns46:target="olf:it/decreto-legge/stato/2022/24" ns46:relation="cites">D.L. 24 marzo 2022, n. 24</ref> ha disposto (con l'art. 10, comma 3) che "Fino al 30 aprile 2022 continuano ad applicarsi alle istituzioni universitarie, alle Istituzioni di alta formazione artistica, musicale e coreutica, nonche' alle attivita' delle altre istituzioni di alta formazione collegate alle universita', le disposizioni di cui all'<ref xmlns:ns47="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="47" href="/akn/it/act/decretoLegge/stato/2021-08-06/111/!main#art_1-com2-leta" ns47:target="olf:it/decreto-legge/stato/2021/111/art_1-com2-leta" ns47:relation="amends">articolo 1, comma 2, lettere a)</ref>, <ref xmlns:ns48="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="48" href="/akn/it/act/decretoLegge/stato/2021-08-06/111/!main#art_1-com2-letb" ns48:target="olf:it/decreto-legge/stato/2021/111/art_1-com2-letb" ns48:relation="amends">b)</ref> e <ref xmlns:ns49="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="49" href="/akn/it/act/decretoLegge/stato/2021-08-06/111/!main#art_1-com2-letc" ns49:target="olf:it/decreto-legge/stato/2021/111/art_1-com2-letc" ns49:relation="amends">c), del decreto-legge 6 agosto 2021, n. 111</ref>, convertito, con modificazioni, dalla <ref xmlns:ns50="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="50" href="/akn/it/act/legge/stato/2021-09-24/133/!main" ns50:target="olf:it/legge/stato/2021/133" ns50:relation="cites">legge 24 settembre 2021, n. 133</ref>". </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_1-bis">
+                <num>Art. 1-bis.</num>
+                <heading>
+                    <ins eId="ins_6">(( (Accesso ai servizi sociali). ))</ins>
+                </heading>
+                <paragraph>
+                    <content/>
+                </paragraph>
+            </article>
+            <article eId="art_2">
+                <num>Art. 2.</num>
+                <heading>(Impiego delle certificazioni verdi COVID-19 nei mezzi di trasporto)</heading>
+                <paragraph eId="art_2__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al <ref xmlns:ns51="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_51" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main" ns51:target="olf:it/decreto-legge/stato/2021/52" ns51:relation="amends">decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns52="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_52" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns52:target="olf:it/legge/stato/2021/87" ns52:relation="cites">legge 17 giugno 2021, n. 87</ref>, dopo l'articolo 9-ter, come introdotto dall'articolo 1 del presente decreto, e' inserito il seguente: 
+ 
+ "ART. 9-quater 
+ 
+(Impiego delle certificazioni verdi COVID-19 nei mezzi di trasporto)  
+1. A far data dal 1° settembre 2021 e fino al 31 dicembre 2021, termine di cessazione dello stato di emergenza, e' consentito esclusivamente ai soggetti muniti di una delle certificazioni verdi COVID-19, di cui all'articolo 9, comma 2, l'accesso ai seguenti mezzi di trasporto e il loro utilizzo: 
+a) aeromobili adibiti a servizi commerciali di trasporto di persone; 
+b) navi e traghetti adibiti a servizi di trasporto interregionale, ad esclusione di quelli impiegati per i collegamenti marittimi nello Stretto di Messina <ins eId="ins_8">((e di quelli impiegati nei collegamenti marittimi da e per l'arcipelago delle Isole Tremiti))</ins>; 
+c) treni impiegati nei servizi di trasporto ferroviario passeggeri di tipo Intercity, Intercity Notte e Alta Velocita'; 
+d) autobus adibiti a servizi di trasporto di persone, ad offerta indifferenziata, effettuati su strada in modo continuativo o periodico su un percorso che collega piu' di due regioni ed aventi itinerari, orari, frequenze e prezzi prestabiliti; 
+e) autobus adibiti a servizi di noleggio con conducente, ad esclusione di quelli impiegati nei servizi aggiuntivi di trasporto pubblico locale e regionale. 
+<ins eId="ins_9">((e-bis) funivie, cabinovie e seggiovie, qualora utilizzate con la chiusura delle cupole paravento, con finalita' turistico-commerciale e anche ove ubicate in comprensori sciistici, senza limitazioni alla vendita dei titoli di viaggio))</ins>. 
+ 
+2. Le disposizioni di cui al comma 1 non si applicano ai soggetti esclusi per eta' dalla campagna vaccinale e ai soggetti esenti sulla base di idonea certificazione medica rilasciata secondo i criteri definiti con circolare del Ministero della salute. 
+ 
+3. I vettori aerei, marittimi e terrestri, nonche' i loro delegati, sono tenuti a verificare che l'utilizzo dei servizi di cui al comma 1 avvenga nel rispetto delle prescrizioni di cui al medesimo comma 1.
+Le verifiche delle certificazioni verdi COVID-19 sono effettuate con le modalita' indicate dal decreto del Presidente del Consiglio dei ministri adottato ai sensi dell'articolo 9, comma 10. 
+ 
+<ins eId="ins_10">((3-bis. Fermo restando quanto previsto dall'articolo 4 del decreto-legge 25 marzo 2020, n. 19, convertito, con modificazioni, dalla legge 22 maggio 2020, n. 35, le misure di contenimento e di contrasto dei rischi sanitari derivanti dalla diffusione del COVID-19, come definite dalle linee guida e dai protocolli di cui all'articolo 10-bis del presente decreto, integrano, senza nuovi o maggiori oneri per la finanza pubblica, ad ogni effetto di legge e fino al 31 dicembre 2021, termine di cessazione dello stato di emergenza nazionale, il contenuto degli obblighi di servizio pubblico gravanti sui vettori e sui gestori di infrastrutture o di stazioni destinati all'erogazione ovvero alla fruizione di servizi di trasporto pubblico di persone e di merci, automobilistico, ferroviario, aereo, marittimo, nelle acque interne, anche non di linea, regolati da atti, autorizzazioni, licenze, permessi, nulla osta, contratti, convenzioni, disciplinari, appalti o concessioni))</ins>.  
+4.-La violazione delle disposizioni di cui ai commi 1 e 3 e' sanzionata ai sensi dell'<ref xmlns:ns53="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_53" href="/akn/it/act/decretoLegge/stato/2020-03-25/19/!main#art_4" ns53:target="olf:it/decreto-legge/stato/2020/19/art_4" ns53:relation="amends">articolo 4 del decreto-legge 25 marzo 2020, n. 19</ref>, convertito, con modificazioni, dalla <ref xmlns:ns54="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_54" href="/akn/it/act/legge/stato/2020-05-22/35/!main" ns54:target="olf:it/legge/stato/2020/35" ns54:relation="amends">legge 22 maggio 2020, n. 35</ref>. Resta fermo quanto previsto dall'<ref xmlns:ns55="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_55" href="/akn/it/act/decretoLegge/stato/2020-05-16/33/!main#art_2-com2bis" ns55:target="olf:it/decreto-legge/stato/2020/33/art_2-com2bis" ns55:relation="amends">articolo 2, comma 2-bis, del decreto-legge 16 maggio 2020, n. 33</ref>, convertito, con modificazioni, dalla <ref xmlns:ns56="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_56" href="/akn/it/act/legge/stato/2020-07-14/74/!main" ns56:target="olf:it/legge/stato/2020/74" ns56:relation="amends">legge 14 luglio 2020, n. 74</ref>.". 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_2-bis">
+                <num>Art. 2-bis.</num>
+                <heading>
+                    <ins eId="ins_11">(( (Estensione dell'obbligo vaccinale in strutture residenziali, socio-assistenziali e socio-sanitarie). ))</ins>
+                </heading>
+                <paragraph>
+                    <content/>
+                </paragraph>
+            </article>
+            <article eId="art_2-ter">
+                <num>Art. 2-ter.</num>
+                <heading>
+                    <ins eId="ins_13">(( (Disposizioni di proroga in materia di lavoratori fragili). ))</ins>
+                </heading>
+                <paragraph>
+                    <content>
+                        <p>((</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_2-ter__para_1">
+                    <num>1.</num>
+                    <list>
+                        <intro eId="art_2-ter__para_1__intro_1">
+                            <p>All'<ref xmlns:ns57="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_57" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1" ns57:target="olf:it/legge/stato/2020/178/art_1" ns57:relation="amends">articolo 1 della legge 30 dicembre 2020, n. 178</ref>, sono apportate le seguenti modificazioni: 
+</p>
+                        </intro>
+                        <point eId="art_2-ter__para_1.__point_a">
+                            <num>a)</num>
+                            <content>
+                                <p>al comma 481, le parole: "30 giugno 2021" sono sostituite dalle seguenti: "31 dicembre 2021"; </p>
+                            </content>
+                        </point>
+                        <point eId="art_2-ter__para_1.__point_b">
+                            <num>b)</num>
+                            <content>
+                                <p>al comma 482, le parole: "282,1 milioni di euro per l'anno 2021" sono sostituite dalle seguenti: "396 milioni di euro per l'anno 2021"; </p>
+                            </content>
+                        </point>
+                        <point eId="art_2-ter__para_1.__point_c">
+                            <num>c)</num>
+                            <content>
+                                <p>al comma 483, le parole: "173,95 milioni di euro per l'anno 2021" sono sostituite dalle seguenti: "195,15 milioni di euro per l'anno 2021". 
+ </p>
+                            </content>
+                        </point>
+                    </list>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+2. Agli oneri derivanti dal comma 1, pari a 135,1 milioni di euro per l'anno 2021, si provvede: 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content/>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+b) quanto a 35,1 milioni di euro, mediante corrispondente riduzione del Fondo sociale per occupazione e formazione, di cui all'<ref xmlns:ns58="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_58" href="/akn/it/act/decretoLegge/stato/2008-11-29/185/!main#art_18-com1-leta" ns58:target="olf:it/decreto-legge/stato/2008/185/art_18-com1-leta" ns58:relation="cites">articolo 18, comma 1, lettera a), del decreto-legge 29 novembre 2008, n. 185</ref>, convertito, con modificazioni, dalla <ref xmlns:ns59="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_59" href="/akn/it/act/legge/stato/2009-01-28/2/!main" ns59:target="olf:it/legge/stato/2009/2" ns59:relation="cites">legge 28 gennaio 2009, n. 2</ref>))</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_3">
+                <num>Art. 3.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ ( <ins eId="ins_15">((Modifica))</ins> al <ref xmlns:ns60="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_60" href="/akn/it/act/decretoLegge/stato/2020/33/!main" ns60:resolution="unresolved">decreto-legge n. 33 del 2020</ref>) 
+ 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_3__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>All'articolo 1, comma 16-bis, secondo periodo, del <ref xmlns:ns61="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_61" href="/akn/it/act/decretoLegge/stato/2020-05-16/33/!main" ns61:target="olf:it/decreto-legge/stato/2020/33" ns61:relation="amends">decreto-legge 16 maggio 2020, n. 33</ref>, convertito, con modificazioni, dalla <ref xmlns:ns62="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_62" href="/akn/it/act/legge/stato/2020-07-14/74/!main" ns62:target="olf:it/legge/stato/2020/74" ns62:relation="amends">legge 14 luglio 2020, n. 74</ref>, le parole "altresi' sui dati monitorati" sono sostituite dalle seguenti: ", ove ritenuto necessario,". 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_4">
+                <num>Art. 4.</num>
+                <heading>(Disposizioni urgenti in materia di eventi sportivi e in materia di spettacoli aperti al pubblico)</heading>
+                <paragraph eId="art_4__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Per la partecipazione del pubblico agli eventi e alle competizioni sportivi all'aperto, con le linee guida di cui all'<ref xmlns:ns63="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_63" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_5-com2" ns63:target="olf:it/decreto-legge/stato/2021/52/art_5-com2" ns63:relation="amends">articolo 5, commi 2</ref> e <ref xmlns:ns64="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_64" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_5-com3" ns64:target="olf:it/decreto-legge/stato/2021/52/art_5-com3" ns64:relation="amends">3, del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns65="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_65" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns65:target="olf:it/legge/stato/2021/87" ns65:relation="cites">legge 17 giugno 2021, n. 87</ref>, e' possibile prevedere modalita' di assegnazione dei posti alternative al distanziamento interpersonale di almeno un metro. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_16">((COMMA ABROGATO DAL D.L. 8 OTTOBRE 2021, N. 139))</ins>. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_4__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>
+                            <ins eId="ins_17">((COMMA ABROGATO DAL D.L. 8 OTTOBRE 2021, N. 139))</ins>. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5">
+                <num>Art. 5.</num>
+                <heading>(Disposizioni di coordinamento)</heading>
+                <paragraph eId="art_5__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Le certificazioni verdi COVID-19 di cui all'<ref xmlns:ns66="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_66" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_9-com2" ns66:target="olf:it/decreto-legge/stato/2021/52/art_9-com2" ns66:relation="amends">articolo 9, comma 2, decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns67="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_67" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns67:target="olf:it/legge/stato/2021/87" ns67:relation="cites">legge 17 giugno 2021, n. 87</ref>, possono essere utilizzate, oltre che per i fini indicati dall'articolo 9, comma 10-bis, del predetto <ref xmlns:ns68="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_68" href="/akn/it/act/decretoLegge/stato/2021/52/!main" ns68:resolution="unresolved">decreto-legge n. 52 del 2021</ref>, anche per quelli di cui agli articoli 9-ter <ins eId="ins_18">((, 9-ter.1, 9-ter.2))</ins> e 9-quater del medesimo <ref xmlns:ns69="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_69" href="/akn/it/act/decretoLegge/stato/2021/52/!main" ns69:resolution="unresolved">decreto-legge n. 52 del 2021</ref>, introdotti dal presente decreto. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_5__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Le somme confluite sul conto corrente di tesoreria della Presidenza del Consiglio dei ministri ai sensi degli <ref xmlns:ns70="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_70" href="/akn/it/act/decretoLegge/stato/2021-03-22/41/!main#art_40" ns70:target="olf:it/decreto-legge/stato/2021/41/art_40" ns70:relation="amends">articoli 40</ref> e <ref xmlns:ns71="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_71" href="/akn/it/act/decretoLegge/stato/2021-03-22/41/!main#art_42-com11" ns71:target="olf:it/decreto-legge/stato/2021/41/art_42-com11" ns71:relation="amends">42, comma 11, del decreto-legge 22 marzo 2021, n.41</ref>, convertito, con modificazioni, dalla <ref xmlns:ns72="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_72" href="/akn/it/act/legge/stato/2021-05-21/69/!main" ns72:target="olf:it/legge/stato/2021/69" ns72:relation="cites">legge 21 maggio 2021, n. 69</ref>, sono trasferite, per le finalita' di cui al suddetto articolo 40 e fermi rimanendo gli obblighi di rendicontazione previsti, alla contabilita' speciale del <ins eId="ins_19">((Commissario straordinario per l'attuazione e il coordinamento delle misure di contenimento e contrasto dell'emergenza epidemiologica COVID-19 e per l'esecuzione della campagna vaccinale nazionale,))</ins> previa iscrizione sul fondo per le emergenze nazionali nell'ambito del bilancio autonomo della Presidenza del consiglio dei ministri. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_5-bis">
+                <num>Art. 5-bis.</num>
+                <heading>
+                    <ins eId="ins_20">(( (Modifica all'articolo 9 del decreto-legge 22 aprile 2021, n. 52, in materia di vaccinazioni equivalenti). ))</ins>
+                </heading>
+                <paragraph>
+                    <content/>
+                </paragraph>
+            </article>
+            <article eId="art_6">
+                <num>Art. 6.</num>
+                <heading>(Disposizioni urgenti per la Repubblica di San Marino)</heading>
+                <paragraph eId="art_6__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Ai soggetti in possesso di un certificato di vaccinazione anti SARS-CoV-2 rilasciato dalle competenti autorita' sanitarie della Repubblica di San Marino, la certificazione verde COVID-19 di cui all'<ref xmlns:ns73="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_73" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_9-com1-letb" ns73:target="olf:it/decreto-legge/stato/2021/52/art_9-com1-letb" ns73:relation="amends">articolo 9, comma 1, lettera b), del decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns74="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_74" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns74:target="olf:it/legge/stato/2021/87" ns74:relation="cites">legge 17 giugno 2021, n. 87</ref>, e' rilasciata nel rispetto delle indicazioni fornite con circolare del Ministero della salute che definisce le modalita' di vaccinazione in coerenza con le indicazioni dell'Agenzia europea per i medicinali. Fino al 31 marzo 2022 le disposizioni di cui agli articoli 9-bis, 9-ter, 9-ter.1, 9-ter.2, 9-quater, 9-quinquies, 9-sexies e 9-septies del <ref xmlns:ns75="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_75" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main" ns75:target="olf:it/decreto-legge/stato/2021/52" ns75:relation="amends">decreto-legge 22 aprile 2021, n. 52</ref>, convertito, con modificazioni, dalla <ref xmlns:ns76="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_76" href="/akn/it/act/legge/stato/2021-06-17/87/!main" ns76:target="olf:it/legge/stato/2021/87" ns76:relation="cites">legge 17 giugno 2021, n. 87</ref>, non si applicano ai soggetti di cui al primo periodo. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_6__para_1-bis">
+                    <num>1-bis.</num>
+                    <content>
+                        <p>Fino al <ins eId="ins_22">((31 marzo 2022))</ins>, ai soggetti di cui al comma 1 non si applicano altresi' le disposizioni di cui all'<ref xmlns:ns77="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_77" href="/akn/it/act/decretoLegge/stato/2021-04-01/44/!main#art_4quinquies" ns77:target="olf:it/decreto-legge/stato/2021/44/art_4quinquies" ns77:relation="amends">articolo 4-quinquies del decreto-legge 1° aprile 2021, n. 44</ref>, convertito, con modificazioni, dalla <ref xmlns:ns78="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_78" href="/akn/it/act/legge/stato/2021-05-28/76/!main" ns78:target="olf:it/legge/stato/2021/76" ns78:relation="cites">legge 28 maggio 2021, n. 76</ref> <ins eId="ins_23">((,))</ins> e all'<ref xmlns:ns79="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_79" href="/akn/it/act/decretoLegge/stato/2021-12-30/229/!main#art_1" ns79:target="olf:it/decreto-legge/stato/2021/229/art_1" ns79:relation="amends">articolo 1 del decreto-legge 30 dicembre 2021, n. 229</ref>. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_7">
+                <num>Art. 7.</num>
+                <heading>(Sospensione dei termini nei procedimenti amministrativi ed effetti degli atti amministrativi in scadenza gestiti dalla Regione Lazio)</heading>
+                <paragraph eId="art_7__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>In considerazione dell'attacco subito dai sistemi informatici della Regione Lazio, ai fini del computo dei termini ordinatori o perentori, propedeutici, endoprocedimentali, finali ed esecutivi, relativi allo svolgimento di procedimenti amministrativi pendenti alla data del 1° agosto 2021 o iniziati successivamente a tale data, gestiti tramite le strutture informatiche, dalla Regione e dai suoi enti strumentali, non si tiene conto del periodo compreso tra la medesima data e quella del 15 settembre 2021. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>((1-bis. In considerazione dei danni conseguenti all'attacco subito dai sistemi informatici di cui al comma 1, la regione Lazio puo' chiedere agli istituti finanziatori, per i mutui concessi nel corso dell'anno 2021, esclusi quelli concessi dal Ministero dell'economia e delle finanze, una proroga del termine di scadenza dei pagamenti dovuti entro il 31 dicembre 2021. Alla compensazione degli effetti finanziari in termini di indebitamento netto e fabbisogno, pari a 20 milioni di euro per l'anno 2021, si provvede mediante corrispondente riduzione del Fondo per la compensazione degli effetti finanziari non previsti a legislazione vigente conseguenti all'attualizzazione di contributi pluriennali, di cui all'<ref xmlns:ns80="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_80" href="/akn/it/act/decretoLegge/stato/2008-10-07/154/!main#art_6-com2" ns80:target="olf:it/decreto-legge/stato/2008/154/art_6-com2" ns80:relation="cites">articolo 6, comma 2, del decreto-legge 7 ottobre 2008, n. 154</ref>, convertito, con modificazioni, dalla <ref xmlns:ns81="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_81" href="/akn/it/act/legge/stato/2008-12-04/189/!main" ns81:target="olf:it/legge/stato/2008/189" ns81:relation="cites">legge 4 dicembre 2008, n. 189</ref>))</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_7__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La Regione Lazio e i suoi enti strumentali adottano ogni misura organizzativa idonea ad assicurare comunque la ragionevole durata e la celere conclusione dei procedimenti di cui al comma 1, con priorita' per quelli da considerare urgenti, anche sulla base di motivate istanze degli interessati. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_7__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>In caso di inoperativita' <ins eId="ins_25">((dei siti internet istituzionali))</ins> della Regione Lazio e dei suoi enti strumentali, per il medesimo periodo di cui al comma 1, sono sospesi gli obblighi di pubblicita' di cui al <ref xmlns:ns82="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_82" href="/akn/it/act/decretoLegislativo/stato/2013-03-14/33/!main" ns82:target="olf:it/decreto-legislativo/stato/2013/33" ns82:relation="cites">decreto legislativo 14 marzo 2013, n. 33</ref>. 
+</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_8">
+                <num>Art. 8.</num>
+                <heading/>
+                <paragraph>
+                    <content>
+                        <p>
+ 
+ (Proroga del contingente "Strade sicure") 
+ 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Al fine di garantire e sostenere la prosecuzione, da parte delle Forze armate, dello svolgimento dei maggiori compiti connessi al contenimento della diffusione del virus SARS-CoV-2, l'incremento delle 753 unita' di personale di cui all'<ref xmlns:ns83="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_83" href="/akn/it/act/decretoLegge/stato/2020-05-19/34/!main#art_22-com1" ns83:target="olf:it/decreto-legge/stato/2020/34/art_22-com1" ns83:relation="amends">articolo 22, comma 1, del decreto-legge 19 maggio 2020, n. 34</ref>, convertito, con modificazioni, dalla <ref xmlns:ns84="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_84" href="/akn/it/act/legge/stato/2020-07-17/77/!main" ns84:target="olf:it/legge/stato/2020/77" ns84:relation="amends">legge 17 luglio 2020, n. 77</ref>, e' ulteriormente prorogato fino al 31 ottobre 2021. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>Per l'attuazione delle disposizioni del comma 1 e' autorizzata, per l'anno 2021, la spesa complessiva di euro 7.626.780, di cui euro 1.875.015 per il pagamento delle prestazioni di lavoro straordinario ed euro 5.751.765 per gli altri oneri connessi all'impiego del personale. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_3">
+                    <num>3.</num>
+                    <content>
+                        <p>Alla copertura degli oneri derivanti dal presente articolo, pari a euro 7.626.780 per l'anno 2021, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2021-2023, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2021, allo scopo parzialmente utilizzando l'accantonamento relativo al medesimo Ministero. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_8__para_4">
+                    <num>4.</num>
+                    <content>
+                        <p>Ai fini dell'immediata attuazione del presente articolo, il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio. 
+ </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>((4-bis. Al <ref xmlns:ns85="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_85" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns85:target="olf:it/decreto-legislativo/stato/2010/66" ns85:relation="amends">codice dell'ordinamento militare</ref>, di cui al <ref xmlns:ns86="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_86" href="/akn/it/act/decretoLegislativo/stato/2010-03-15/66/!main" ns86:target="olf:it/decreto-legislativo/stato/2010/66" ns86:relation="amends">decreto legislativo 15 marzo 2010, n. 66</ref>, sono apportate le seguenti modificazioni: 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content/>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+b) all'articolo 2233-quater, dopo il comma 3-bis e' aggiunto il seguente: 
+"3-ter. Per gli anni 2021 e 2022, le aliquote di valutazione degli ufficiali sono formate alla data del 15 ottobre"))</p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art_9-bis">
+                <num>Art. 9-bis.</num>
+                <heading>
+                    <ins eId="ins_27">(( (Clausola di salvaguardia).) ))</ins>
+                </heading>
+                <paragraph>
+                    <content/>
+                </paragraph>
+            </article>
+            <article eId="art_10">
+                <num>Art. 10.</num>
+                <heading>(Entrata in vigore)</heading>
+                <paragraph eId="art_10__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il presente decreto entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale della Repubblica Italiana e sara' presentato alle Camere per la conversione in legge. 
+ 
+ </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>Il presente decreto, munito del sigillo dello Stato, sara' inserito nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarlo e di farlo osservare. </p>
+            </formula>
+            <p> Dato a Roma, addi' 6 agosto 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Bianchi, Ministro dell'istruzione Giovannini, Ministro delle infrastrutture e della mobilita' sostenibili Speranza, Ministro della salute Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+    </act>
+</akomaNtoso>
