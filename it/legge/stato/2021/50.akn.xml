@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-04-15/50/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-04-15/50"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-15;50"/>
+                    <FRBRalias name="eli" value="eli/id/2021/04/20/21G00062/ORIGINAL"/>
+                    <FRBRdate date="2021-04-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/04/20/21G00062/ORIGINAL" aknrelname="eli/id/2021/04/20/21G00062/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 13 marzo 2021, n. 31, recante misure urgenti in materia di svolgimento dell'esame di Stato per l'abilitazione all'esercizio della professione di avvocato durante l'emergenza epidemiologica da COVID-19. (21G00062)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00062" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-04-15" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-04-15/50/ita@2021-04-21/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-04-15/50/ita@2021-04-21"/>
+                    <FRBRdate date="2021-04-21" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/04/20/21G00062/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/04/20/21G00062/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/04/20/21G00062/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-04-15/50/ita@2021-04-21/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-04-15/50/ita@2021-04-21.xml"/>
+                    <FRBRdate date="2021-04-15" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/04/20/21G00062/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-04-20" name="" number="94" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-04-20" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2021-04-15" refersTo="#S.2133"/>
+                <step by="#camera" date="2021-04-15" refersTo="#C.2989"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-04-15;50#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;31#1"/>
+                        <new>
+                            <nakn:text>di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-04-15;50#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;31#2"/>
+                        <new>
+                            <nakn:text>di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 4 e 7, lettera a) e l'introduzione del comma 1-bis all'art. 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-04-15;50#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;31#3"/>
+                        <new>
+                            <nakn:text>di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, commi 1 e 2.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-04-15;50#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;31#4"/>
+                        <new>
+                            <nakn:text>di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 2 e 7.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-04-15;50#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;31#5"/>
+                        <new>
+                            <nakn:text>di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 5, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-04-15;50#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-03-13;31#6"/>
+                        <new>
+                            <nakn:text>di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-04-15/50/!main" showAs=""/>
+                <passiveRef eId="S.2133" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2133" showAs=""/>
+                <passiveRef eId="C.2989" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;2989" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/04/20/21G00062/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 13 marzo 2021, n. 31, recante misure urgenti in materia di svolgimento dell'esame di Stato per l'abilitazione all'esercizio della professione di avvocato durante l'emergenza epidemiologica da COVID-19. (21G00062)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00062</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-04-15</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/04/20/21G00062/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/04/20/21G00062/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/04/20/21G00062/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/04/20/21G00062/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/50" nativeUrn="urn:nir:stato:legge:2021-04-15;50" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-04-20"><ns0:event type="enacted" date="2021-04-15"/><ns0:event type="published" date="2021-04-20"/><ns0:event type="commenced" date="2021-04-20"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/4e671d59-71ee-4a71-88af-acc0cc525ccb" sourceSha256="5077d36c88d922f75f8c66a46fd318e567a6d39cb12681d610ed2ef80b223a32" adapter="normattiva-it@0.2.0" generatedAt="2026-06-12T00:36:59.186095Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-04-15">15 aprile 2021</docDate>
+                <docNumber>50</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 13 marzo 2021, n. 31, recante misure urgenti in materia di svolgimento dell'esame di Stato per l'abilitazione all'esercizio della professione di avvocato durante l'emergenza epidemiologica da COVID-19. (21G00062) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 21/04/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2021-03-13/31/!main" ns1:target="olf:it/decreto-legge/stato/2021/31" ns1:relation="amends">decreto-legge 13 marzo 2021, n. 31</ref>, recante misure urgenti in materia di svolgimento dell'esame di Stato per l'abilitazione all'esercizio della professione di avvocato durante l'emergenza epidemiologica da COVID-19, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2021-03-13/31/!main" ns2:target="olf:it/decreto-legge/stato/2021/31" ns2:relation="amends">decreto-legge 13 marzo 2021, n. 31</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 62 del 13 marzo 2021. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 11. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 15 aprile 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Cartabia, Ministro della giustizia Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-15/50/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-15/50"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-04-15;50"/>
+                                <FRBRalias name="eli" value="eli/id/2021/04/20/21G00062/ORIGINAL"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-15/50/ita@2021-04-21/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-15/50/ita@2021-04-21"/>
+                                <FRBRdate date="2021-04-21" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-04-15/50/ita@2021-04-21/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-04-15/50/ita@2021-04-21.xml"/>
+                                <FRBRdate date="2021-04-15" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+Modificazioni apportate in sede di conversione al <ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2021-03-13/31/!main#art_1" ns4:target="olf:it/decreto-legge/stato/2021/31/art_1" ns4:relation="amends">decreto-legge 13 marzo 2021, n. 31 
+ 
+ All'articolo 1</ref>: 
+ al <ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegge/stato/2021-03-13/31/!main#art_com1" ns5:target="olf:it/decreto-legge/stato/2021/31/art_com1" ns5:relation="amends">comma 1</ref>, dopo le parole: «decreto del Ministro della giustizia 14 settembre 2020,» sono inserite le seguenti: «pubblicato nella Gazzetta Ufficiale, 4ª serie speciale, n. 72 del 15 settembre 2020,». 
+ All'articolo 2: 
+ dopo il comma 1 e' inserito il seguente: 
+ «1-bis. Il presidente di ciascuna Corte d'appello estrae a sorte la lettera dell'alfabeto che determina l'ordine di svolgimento per le due prove orali»; 
+ al comma 4, primo periodo, dopo le parole: «dal momento della» sono inserite le seguenti: «fine della» e le parole: «del quesito: trenta minuti» sono sostituite dalle seguenti: «del quesito, suddivisa in trenta minuti»; 
+ al comma 7, lettera a), primo periodo, le parole da: «tre tra le seguenti» fino a: «diritto ecclesiastico» sono sostituite dalle seguenti: «tre fra le seguenti: diritto civile, diritto penale, diritto costituzionale, diritto amministrativo, diritto tributario, diritto commerciale, diritto del lavoro, diritto dell'Unione europea, diritto internazionale privato, diritto ecclesiastico». 
+ All'articolo 3: 
+ al comma 1, dopo le parole: «<ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/regio.decreto.legge/stato/1933-11-27/1578/!main" ns6:target="olf:it/regio-decreto-legge/stato/1933/1578" ns6:relation="cites">regio decreto-legge 27 novembre 1933, n. 1578</ref>» sono inserite le seguenti: «, convertito, con modificazioni, dalla <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/legge/stato/1934-01-22/36/!main" ns7:target="olf:it/legge/stato/1934/36" ns7:relation="cites">legge 22 gennaio 1934, n. 36</ref>,» e le parole: «ed il residuo membro, effettivo e supplente, e' individuato» sono sostituite dalle seguenti: «e uno effettivo e uno supplente sono individuati»; 
+ al comma 2, secondo periodo, le parole: «materie scelte dal candidato per la seconda prova orale» sono sostituite dalle seguenti: «materie scelte dal candidato per la prima e la seconda prova orale». 
+ All'articolo 4: 
+ al comma 2, le parole: «del segretario della seduta» sono sostituite dalle seguenti: «del segretario della sottocommissione»;  al comma 7, primo periodo, le parole: «al virus COVID-19» sono sostituite dalle seguenti: «al COVID-19», le parole: «quarantena o isolamento fiduciario,» sono sostituite dalle seguenti: «di quarantena o di isolamento fiduciario,» e dopo le parole: «isolamento fiduciario,» sono inserite le seguenti: «oppure in caso di comprovati motivi di salute che impediscono al candidato di svolgere la prova d'esame,». 
+ All'articolo 5: 
+ al comma 1, le parole: «della materia prescelta dal candidato» sono sostituite dalle seguenti: «delle materie prescelte dal candidato». 
+ All'articolo 6: 
+ al comma 1, dopo le parole: «decreto del Ministro dell'universita' e della ricerca scientifica e tecnologica 15 ottobre 1999,» sono inserite le seguenti: «pubblicato nella Gazzetta Ufficiale n. 254 del 29 ottobre 1999,». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
