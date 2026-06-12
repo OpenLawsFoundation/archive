@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:eli="http://data.europa.eu/eli/ontology#" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:gu="http://www.gazzettaufficiale.it/eli/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:na="http://www.normattiva.it/eli/" xmlns:nakn="http://normattiva.it/akn/vocabulary" xmlns:nrdfa="http://www.normattiva.it/rdfa/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfa="http://www.w3.org/1999/xhtml#">
+    <act name="monovigente">
+        <meta>
+            <identification source="">
+                <FRBRWork>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-05-28/76/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-05-28/76"/>
+                    <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-05-28;76"/>
+                    <FRBRalias name="eli" value="eli/id/2021/05/31/21G00086/ORIGINAL"/>
+                    <FRBRdate date="2021-05-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/05/31/21G00086/ORIGINAL" aknrelname="eli/id/2021/05/31/21G00086/ORIGINAL">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalResource"/>
+                            <nrdfa:span content="Conversione in legge, con modificazioni, del decreto-legge 1° aprile 2021, n. 44, recante misure urgenti per il contenimento dell'epidemia da COVID-19, in materia di vaccinazioni anti SARS-CoV-2, di giustizia e di concorsi pubblici. (21G00086)  " lang="it" property="eli:title" xml:lang="it"/>
+                            <nrdfa:span content="http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}" property="eli:uri_schema"/>
+                            <nrdfa:span content="21G00086" property="eli:id_local"/>
+                            <nrdfa:span property="eli:type_document" resource="gu:tables/resource-type#LEGGE"/>
+                            <nrdfa:span content="2021-05-28" datatype="xsd:date" property="eli:date_document"/>
+                            <nrdfa:span property="eli:version" resource="gu:tables/versions#ORIGINAL"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRcountry value="it"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-05-28/76/ita@2021-06-01/!main"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-05-28/76/ita@2021-06-01"/>
+                    <FRBRdate date="2021-06-01" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/05/31/21G00086/ORIGINAL/ita">
+                            <nrdfa:span property="rdf:type" resource="eli:LegalExpression"/>
+                            <nrdfa:span property="eli:realizes" resource="na:id/2021/05/31/21G00086/ORIGINAL"/>
+                            <nrdfa:span property="eli:is_embodied_by" resource="na:id/2021/05/31/21G00086/ORIGINAL/ita/akn"/>
+                            <nrdfa:span property="eli:language" resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                            <nrdfa:span property="eli:publisher_agent" resource="http://www.ipzs.it"/>
+                        </nrdfa:eli>
+                    </preservation>
+                    <FRBRlanguage language="ita"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/it/act/legge/stato/2021-05-28/76/ita@2021-06-01/!main.xml"/>
+                    <FRBRuri value="/akn/it/act/legge/stato/2021-05-28/76/ita@2021-06-01.xml"/>
+                    <FRBRdate date="2021-05-28" name=""/>
+                    <FRBRauthor as="#author" href=""/>
+                    <preservation>
+                        <nrdfa:eli about="na:id/2021/05/31/21G00086/ORIGINAL/ita/akn">
+                            <nrdfa:span property="rdf:type" resource="eli:Format"/>
+                            <nrdfa:span property="eli:format" resource="http://www.iana.org/assignments/media-types/xml"/>
+                        </nrdfa:eli>
+                    </preservation>
+                </FRBRManifestation>
+            </identification>
+            <publication date="2021-05-31" name="" number="128" showAs=""/>
+            <lifecycle source="">
+                <eventRef date="2021-05-31" eId="eventRef_0" source="ro1"/>
+            </lifecycle>
+            <workflow source="">
+                <step by="#senato" date="2021-05-28" refersTo="#S.2167"/>
+                <step by="#camera" date="2021-05-28" refersTo="#C.3113"/>
+            </workflow>
+            <analysis source="">
+                <activeModifications>
+                    <textualMod eId="amod_0" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2000-10-05;334#4"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 1 aprile 2021, n. 44 (in G.U. 01/04/2021, n. 79).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_1" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2003-10-16;288#11"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 1 aprile 2021, n. 44 (in G.U. 01/04/2021, n. 79).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_2" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legislativo:2016-08-04;171#1"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 1 aprile 2021, n. 44 (in G.U. 01/04/2021, n. 79).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_3" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:legge:2018-12-30;145#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 1 aprile 2021, n. 44 (in G.U. 01/04/2021, n. 79).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_4" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:legge:2019-12-27;160#"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 1 aprile 2021, n. 44 (in G.U. 01/04/2021, n. 79).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_5" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-04-08;22#2 ter"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 1 aprile 2021, n. 44 (in G.U. 01/04/2021, n. 79).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_6" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2020-12-31;183#1 bis"/>
+                        <new>
+                            <nakn:text>ha disposto (con l'art. 1, comma 1) la conversione, con modificazioni, del D.L. 1 aprile 2021, n. 44 (in G.U. 01/04/2021, n. 79).</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_7" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) che la rubrica del capo III &amp;quot;Semplificazione delle procedure per i concorsi pubblici in ragione dell'emergenza epidemiologica da COVID-19&amp;quot; è sostituita dalla seguente: &amp;quot;Semplificazione delle procedure per i concorsi pubblici e dei corsi di formazione iniziale in ragione dell'emergenza epidemiologica da COVID-19 e altre disposizioni urgenti&amp;quot;.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_8" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#1"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 1, commi 1, 3, 5, alinea e 7.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_9" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#1 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 1-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_10" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#2"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 2, commi 1 e 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_11" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#3"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 3, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_12" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#3 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 3-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_13" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#4"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 4, commi 1, 3, 5, 6, 7 e 8.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_14" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#6"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 6, comma 3.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_15" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#7"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione del comma 1-bis all'art. 7.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_16" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#7 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 7-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_17" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#8"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 8, commi 1, 2, 3, rubrica e l'introduzione del comma 2-bis all'art. 8.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_18" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#9"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 9, comma 1.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_19" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#10"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 10, commi 1, alinea, lettera c), 2, 3, 4, 6, 8, 9, rubrica e l'introduzione della lettera c-bis) all'art 1 , comma 1 e dei commi 1-bis, 10-bis, 11- bis e 11-ter all'art. 10</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_20" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#10 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 10-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_21" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#10 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 10-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_22" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#10 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 10-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_23" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#11"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) la modifica dell'art. 11, commi 1, 4, 5, 6 e 8.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_24" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#11 bis"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 11-bis.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_25" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#11 ter"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 11-ter.</nakn:text>
+                        </new>
+                    </textualMod>
+                    <textualMod eId="amod_26" type="insertion">
+                        <source href="urn:nir:stato:legge:2021-05-28;76#1"/>
+                        <destination href="urn:nir:stato:decreto.legge:2021-04-01;44#11 quater"/>
+                        <new>
+                            <nakn:text>, di conversione, ha disposto (con l'art. 1, comma 1) l'introduzione dell'art. 11-quater.</nakn:text>
+                        </new>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+            <references source="">
+                <original eId="ro1" href="/akn/it/act/LEGGE/stato/2021-05-28/76/!main" showAs=""/>
+                <passiveRef eId="S.2167" href="/akn/it/senato-it:parl:ddl:senato;18.legislatura;2167" showAs=""/>
+                <passiveRef eId="C.3113" href="/akn/it/camera-it:parlamento:scheda.progetto.legge:camera;18.legislatura;3113" showAs=""/>
+            <TLCOrganization eId="openlawsfoundation" href="https://openlawsfoundation.org/" showAs="Open Laws Foundation"/></references>
+            <proprietary source="">
+                <rdf:RDF>
+                    <rdf:Description rdf:about="na:id/2021/05/31/21G00086/ORIGINAL">
+                        <rdf:type rdf:resource="eli:LegalResource"/>
+                        <eli:title xml:lang="it">Conversione in legge, con modificazioni, del decreto-legge 1° aprile 2021, n. 44, recante misure urgenti per il contenimento dell'epidemia da COVID-19, in materia di vaccinazioni anti SARS-CoV-2, di giustizia e di concorsi pubblici. (21G00086)  </eli:title>
+                        <eli:uri_schema>http://www.normattiva.it/eli/id/{yyyy}/{mm}/{dd}/{codiceRedazionale}/{tipoVersione}</eli:uri_schema>
+                        <eli:id_local>21G00086</eli:id_local>
+                        <eli:type_document rdf:resource="gu:tables/resource-type#LEGGE"/>
+                        <eli:date_document rdf:datatype="xsd:date">2021-05-28</eli:date_document>
+                        <eli:version rdf:resource="gu:tables/versions#ORIGINAL"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/05/31/21G00086/ORIGINAL/ita">
+                        <rdf:type rdf:resource="eli:LegalExpression"/>
+                        <eli:realizes rdf:resource="na:id/2021/05/31/21G00086/ORIGINAL"/>
+                        <eli:is_embodied_by rdf:resource="na:id/2021/05/31/21G00086/ORIGINAL/ita/akn"/>
+                        <eli:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+                        <eli:publisher_agent rdf:resource="http://www.ipzs.it"/>
+                    </rdf:Description>
+                    <rdf:Description rdf:about="na:id/2021/05/31/21G00086/ORIGINAL/ita/akn">
+                        <rdf:type rdf:resource="eli:format"/>
+                        <eli:format rdf:resource="http://www.iana.org/assignments/media-types/xml"/>
+                    </rdf:Description>
+                </rdf:RDF>
+            </proprietary>
+        <proprietary source="#openlawsfoundation"><ns0:meta xmlns:ns0="https://openlawsfoundation.org/ns/akn4olf/1.0"><ns0:identity olfId="olf:it/legge/stato/2021/76" nativeUrn="urn:nir:stato:legge:2021-05-28;76" jurisdiction="it"/><ns0:lifecycle inForceFrom="2021-05-31"><ns0:event type="enacted" date="2021-05-28"/><ns0:event type="published" date="2021-05-31"/><ns0:event type="commenced" date="2021-05-31"/></ns0:lifecycle><ns0:provenance sourceUrl="https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1/collections/download/collection-asincrona/14467b9d-0c3a-4f4d-89ab-74006d68ffbe" sourceSha256="97254fae341ff3db15b9ba3b491437fcc27413cb6c07770250eb4bdf2ca88372" adapter="normattiva-it@0.2.0" generatedAt="2026-06-12T00:32:16.150678Z"/></ns0:meta></proprietary></meta>
+        <preface>
+            <p>
+                <docType>LEGGE</docType>
+                <docDate date="2021-05-28">28 maggio 2021</docDate>
+                <docNumber>76</docNumber>
+                <docTitle>Conversione in legge, con modificazioni, del decreto-legge 1° aprile 2021, n. 44, recante misure urgenti per il contenimento dell'epidemia da COVID-19, in materia di vaccinazioni anti SARS-CoV-2, di giustizia e di concorsi pubblici. (21G00086) 
+</docTitle>
+            </p>
+            <p>
+                <authorialNote eId="atn1" placement="bottom">
+                    <p>Entrata in vigore del provvedimento: 01/06/2021</p>
+                </authorialNote>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="primaDiFormulaInizialePreambolo">
+                <p>La Camera dei deputati ed il Senato della Repubblica hanno approvato;</p>
+            </formula>
+            <formula name="formulaInizialePreambolo">
+                <p>IL PRESIDENTE DELLA REPUBBLICA</p>
+            </formula>
+            <formula name="formulaFinalePreambolo">
+                <p>Promulga la seguente legge:</p>
+            </formula>
+        </preamble>
+        <body>
+            <article eId="art_1">
+                <num>Art. 1.</num>
+                <heading/>
+                <paragraph eId="art_1__para_1">
+                    <num>1.</num>
+                    <content>
+                        <p>Il <ref xmlns:ns1="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_1" href="/akn/it/act/decretoLegge/stato/2021-04-01/44/!main" ns1:target="olf:it/decreto-legge/stato/2021/44" ns1:relation="amends">decreto-legge 1° aprile 2021, n. 44</ref>, recante misure urgenti per il contenimento dell'epidemia da COVID-19, in materia di vaccinazioni anti SARS-CoV-2, di giustizia e di concorsi pubblici, e' convertito in legge con le modificazioni riportate in allegato alla presente legge. 
+</p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art_1__para_2">
+                    <num>2.</num>
+                    <content>
+                        <p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 
+ </p>
+                    </content>
+                </paragraph>
+                <section>
+                    <content>
+                        <p>
+                            <authorialNote eId="authorialNote_1" placement="bottom">
+                                <p> Avvertenza: 
+ Il <ref xmlns:ns2="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_2" href="/akn/it/act/decretoLegge/stato/2021-04-01/44/!main" ns2:target="olf:it/decreto-legge/stato/2021/44" ns2:relation="amends">decreto-legge 1º aprile 2021, n. 44</ref>, e' stato pubblicato nella Gazzetta Ufficiale - Serie generale - n. 79 del 1º aprile 2021. 
+ A norma dell'<ref xmlns:ns3="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_3" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_15-com5" ns3:target="olf:it/legge/stato/1988/400/art_15-com5" ns3:relation="cites">art. 15, comma 5, della legge 23 agosto 1988, n. 400</ref> (Disciplina dell'attivita' di Governo e ordinamento della Presidenza del Consiglio dei ministri), le modifiche apportate dalla presente legge di conversione hanno efficacia dal giorno successivo a quello della sua pubblicazione. 
+ Il testo del decreto-legge coordinato con la legge di conversione e' pubblicato in questa stessa Gazzetta Ufficiale alla pag. 51. 
+ 
+</p>
+                            </authorialNote>
+                        </p>
+                    </content>
+                </section>
+            </article>
+        </body>
+        <conclusions>
+            <formula name="formulaFinaleConclusioni">
+                <p>La presente legge, munita del sigillo dello Stato, sara' inserita nella Raccolta ufficiale degli atti normativi della Repubblica italiana. E' fatto obbligo a chiunque spetti di osservarla e di farla osservare come legge dello Stato. </p>
+            </formula>
+            <p> Data a Roma, addi' 28 maggio 2021 </p>
+            <p>MATTARELLA Draghi, Presidente del Consiglio dei ministri Speranza, Ministro della salute Cartabia, Ministro della giustizia Brunetta, Ministro per la pubblica amministrazione Orlando, Ministro del lavoro e delle politiche sociali Visto, il Guardasigilli: Cartabia</p>
+        </conclusions>
+        <attachments>
+            <attachment>
+                <doc name="Allegato">
+                    <meta>
+                        <identification source="">
+                            <FRBRWork>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-05-28/76/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-05-28/76"/>
+                                <FRBRalias name="urn:nir" value="urn:nir:stato:legge:2021-05-28;76"/>
+                                <FRBRalias name="eli" value="eli/id/2021/05/31/21G00086/ORIGINAL"/>
+                                <FRBRdate date="2021-06-01" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRcountry value="it"/>
+                            </FRBRWork>
+                            <FRBRExpression>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-05-28/76/ita@2021-06-01/!main/annesso_1"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-05-28/76/ita@2021-06-01"/>
+                                <FRBRdate date="2021-06-01" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                                <FRBRlanguage language="ita"/>
+                            </FRBRExpression>
+                            <FRBRManifestation>
+                                <FRBRthis value="/akn/it/act/legge/stato/2021-05-28/76/ita@2021-06-01/!main/annesso_1.xml"/>
+                                <FRBRuri value="/akn/it/act/legge/stato/2021-05-28/76/ita@2021-06-01.xml"/>
+                                <FRBRdate date="2021-05-28" name=""/>
+                                <FRBRauthor as="#author" href=""/>
+                            </FRBRManifestation>
+                        </identification>
+                    </meta>
+                    <mainBody>
+                        <paragraph>
+                            <content>
+                                <p> Allegato 
+ 
+MODIFICAZIONI APPORTATE IN SEDE DI CONVERSIONE AL DECRETO-LEGGE 1° APRILE 2021, N. 44 
+ 
+ All'articolo 1: 
+ al comma 1, le parole: «di cui al provvedimento adottato in data 2 marzo 2021,» sono sostituite dalle seguenti: «di cui al decreto del Presidente del Consiglio dei ministri 2 marzo 2021, pubblicato nel supplemento ordinario alla Gazzetta Ufficiale n. 52 del 2 marzo 2021, adottato»; 
+ al comma 3, dopo le parole: «fatto salvo quanto previsto dall'articolo 2, comma 1,» sono inserite le seguenti: «del presente decreto,»; 
+ al comma 5, alinea, dopo le parole: «fatto salvo quanto previsto dall'articolo 2, comma 1» sono aggiunte le seguenti: «, del presente decreto»; 
+ al comma 7 e' aggiunto, in fine, il seguente periodo: «Resta fermo quanto previsto all'<ref xmlns:ns4="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_4" href="/akn/it/act/decretoLegge/stato/2020/33/!main#art_2-com2bis" ns4:resolution="unresolved">articolo 2, comma 2-bis, del decreto-legge n. 33 del 2020</ref>». 
+ Dopo l'articolo 1 e' inserito il seguente: 
+ «Art. 1-bis (Disposizioni per l'accesso dei visitatori a strutture residenziali, socio-assistenziali, sociosanitarie e hospice). - 1. Dalla data di entrata in vigore della legge di conversione del presente decreto e' ripristinato l'accesso, su tutto il territorio nazionale, di familiari e visitatori muniti delle certificazioni verdi COVID-19 di cui all'<ref xmlns:ns5="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_5" href="/akn/it/act/decretoLegge/stato/2021-04-22/52/!main#art_9" ns5:target="olf:it/decreto-legge/stato/2021/52/art_9" ns5:relation="amends">articolo 9 del decreto-legge 22 aprile 2021, n. 52</ref>, a strutture di ospitalita' e di lungodegenza, residenze sanitarie assistite (RSA), hospice, strutture riabilitative e strutture residenziali per anziani, anche non autosufficienti, e comunque in tutte le strutture residenziali di cui all'articolo 44 del decreto del Presidente del Consiglio dei ministri 12 gennaio 2017, pubblicato nel supplemento ordinario alla Gazzetta Ufficiale n. 65 del 18 marzo 2017, e in quelle socio-assistenziali, secondo le linee guida definite con l'ordinanza del Ministro della salute 8 maggio 2021, pubblicata nella Gazzetta Ufficiale n. 110 del 10 maggio 2021, cui le direzioni sanitarie delle predette strutture si conformano immediatamente, adottando le misure necessarie alla prevenzione del contagio da COVID -19». 
+ All'articolo 2: 
+ al comma 1, le parole: «. La predetta deroga e' consentita solo in casi» sono sostituite dalle seguenti: «, tranne che in casi»; 
+ al comma 3, le parole: «dal decreto del Ministro dell'istruzione» sono sostituite dalle seguenti: «dalle linee guida per la didattica digitale integrata, adottate con decreto del Ministro dell'istruzione». 
+ All'articolo 3: 
+ al comma 1, le parole: «pubblicate sul sito istituzionale» sono sostituite dalle seguenti: «pubblicate nel sito internet istituzionale». 
+ Dopo l'articolo 3 e' inserito il seguente: 
+ «Art. 3-bis (Responsabilita' colposa per morte o lesioni personali in ambito sanitario durante lo stato di emergenza epidemiologica da COVID-19). - 1. Durante lo stato di emergenza epidemiologica da COVID-19, dichiarato con delibera del Consiglio dei ministri del 31 gennaio 2020, e successive proroghe, i fatti di cui agli <ref xmlns:ns6="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_6" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_589" ns6:target="olf:it/regio-decreto/stato/1930/1398/art_589" ns6:relation="cites">articoli 589</ref> e <ref xmlns:ns7="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_7" href="/akn/it/act/regioDecreto/stato/1930-10-19/1398/!main#art_590" ns7:target="olf:it/regio-decreto/stato/1930/1398/art_590" ns7:relation="cites">590 del codice penale</ref>, commessi nell'esercizio di una professione sanitaria e che trovano causa nella situazione di emergenza, sono punibili solo nei casi di colpa grave. 
+ 2. Ai fini della valutazione del grado della colpa, il giudice tiene conto, tra i fattori che ne possono escludere la gravita', della limitatezza delle conoscenze scientifiche al momento del fatto sulle patologie da SARS-CoV-2 e sulle terapie appropriate, nonche' della scarsita' delle risorse umane e materiali concretamente disponibili in relazione al numero dei casi da trattare, oltre che del minor grado di esperienza e conoscenze tecniche possedute dal personale non specializzato impiegato per far fronte all'emergenza». 
+ All'articolo 4: 
+ al comma 1, al primo periodo, dopo le parole: «operatori di interesse sanitario» sono inserite le seguenti: «di cui all'<ref xmlns:ns8="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_8" href="/akn/it/act/legge/stato/2006-02-01/43/!main#art_1-com2" ns8:target="olf:it/legge/stato/2006/43/art_1-com2" ns8:relation="cites">articolo 1, comma 2, della legge 1° febbraio 2006, n. 43</ref>,» e le parole: «nelle farmacie, parafarmacie» sono sostituite dalle seguenti: «nelle farmacie, nelle parafarmacie» e, al secondo periodo, le parole: «prestazioni lavorative rese dai soggetti» sono sostituite dalle seguenti: «prestazioni lavorative dei soggetti»; 
+ al comma 3, secondo periodo, le parole: «sociosanitarie, socio-assistenziali» sono sostituite dalle seguenti: «sociosanitarie e socio-assistenziali», le parole: «nelle farmacie, parafarmacie» sono sostituite dalle seguenti: «nelle farmacie, nelle parafarmacie» e dopo le parole: «nel cui territorio operano» sono aggiunte le seguenti: «i medesimi dipendenti»; 
+ al comma 5, le parole: «l'effettuazione della vaccinazione, l'omissione» sono sostituite dalle seguenti: «l'effettuazione della vaccinazione o l'omissione»; 
+ al comma 6, dopo le parole: «Decorsi i termini» sono inserite le seguenti: «per l'attestazione dell'adempimento dell'obbligo vaccinale»; 
+ al comma 7, dopo le parole: «di cui al comma 6» il segno d'interpunzione: «, » e' soppresso; 
+ al comma 8, secondo periodo, le parole: «per il periodo di sospensione di cui al comma 9, non e' dovuta la retribuzione, altro compenso» sono sostituite dalle seguenti: «per il periodo di sospensione di cui al comma 9 non sono dovuti la retribuzione ne' altro compenso». 
+ All'articolo 6: 
+ al comma 3, le parole: «All'allegato 1» sono sostituite dalle seguenti: «Al codice della giustizia contabile, di cui all'allegato 1». 
+ All'articolo 7: 
+ e' aggiunto, in fine, il seguente comma: 
+ «1-bis. Le modalita' telematiche di cui al comma 1 sono tali da assicurare la liberta' del voto e la verifica della sua integrita'». 
+ Dopo l'articolo 7 e' inserito il seguente: 
+ «Art. 7-bis (Disposizioni per le elezioni dei componenti del consiglio degli avvocati e procuratori dello Stato dell'Avvocatura dello Stato). - 1. Per le elezioni dei componenti del consiglio degli avvocati e procuratori dello Stato dell'Avvocatura dello Stato di cui all'<ref xmlns:ns9="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_9" href="/akn/it/act/legge/stato/1979-04-03/103/!main#art_21-com1-letd" ns9:target="olf:it/legge/stato/1979/103/art_21-com1-letd" ns9:relation="cites">articolo 21, primo comma, lettera d), della legge 3 aprile 1979, n. 103</ref>, che si svolgono durante lo stato di emergenza dichiarato con delibera del Consiglio dei ministri del 31 gennaio 2020, e successive proroghe, gli elettori che prestano servizio presso le avvocature distrettuali dello Stato possono votare per corrispondenza secondo le determinazioni adottate dall'ufficio elettorale di cui all'articolo 22, primo comma, della citata <ref xmlns:ns10="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_10" href="/akn/it/act/legge/stato/1979/103/!main" ns10:resolution="unresolved">legge n. 103 del 1979</ref> e in conformita' alle modalita' previste dal presente articolo. 
+ 2. L'ufficio elettorale, nell'individuare i casi in cui e' ammessa la votazione per corrispondenza, emana le opportune istruzioni per lo svolgimento delle operazioni di voto con tale sistema, tenuto conto delle particolari esigenze degli uffici e della loro dislocazione, oltre che delle possibilita' di collegamento con l'ufficio elettorale, che provvede allo spoglio. Tali istruzioni devono garantire il carattere personale, diretto e segreto del voto. 
+ 3. Il voto per corrispondenza e' espresso mediante l'ordinaria scheda elettorale, che e' fatta pervenire all'elettore, in plico sigillato, dall'ufficio elettorale almeno tre giorni prima del termine di cui al comma 4, unitamente alla busta da utilizzare per la restituzione della scheda votata e all'indicazione del predetto termine di cui al comma 4. 
+ 4. L'elettore, dopo avere espresso il voto, provvede a chiudere nella busta la scheda piegata e incollata secondo le linee in essa tracciate e a indicare sul retro della busta il proprio cognome, nome e indirizzo. Il plico cosi' formato e' spedito, a mezzo di raccomandata di servizio, all'ufficio elettorale, il giorno feriale antecedente a quello stabilito per la votazione. Il timbro postale fa fede della tempestivita' dell'invio ». 
+ All'articolo 8: 
+ al comma 1, le parole: «31 maggio 2021» sono sostituite dalle seguenti: «31 luglio 2021»; 
+ al comma 2, le parole: «31 maggio 2021» sono sostituite dalle seguenti: «31 luglio 2021»; 
+ dopo il comma 2 e' inserito il seguente: 
+ «2-bis. Le assunzioni a tempo indeterminato relative ai lavoratori impegnati in attivita' di pubblica utilita', di cui all'<ref xmlns:ns11="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_11" href="/akn/it/act/legge/stato/2018-12-30/145/!main#art_1-com446" ns11:target="olf:it/legge/stato/2018/145/art_1-com446" ns11:relation="amends">articolo 1, comma 446, della legge 30 dicembre 2018, n. 145</ref>, sono effettuate anche in deroga, in qualita' di lavoratori sovrannumerari, alla dotazione organica e al piano di fabbisogno del personale, nei limiti delle risorse gia' disponibili a legislazione vigente presso le regioni»; 
+ al comma 3, le parole: «pari a 5 milioni di euro per l'anno 2021» sono sostituite dalle seguenti: «pari a 10 milioni di euro per l'anno 2021»; 
+ la rubrica e' sostituita dalla seguente: «Proroga di termini in materia di lavoro e di Terzo settore». 
+ All'articolo 9: 
+ al comma 1, le parole: «ovunque ricorra» sono sostituite dalle seguenti: «ovunque ricorre nel citato articolo 1, comma 174». 
+ All'articolo 10: 
+ al comma 1: 
+ all'alinea, dopo le parole: «9 maggio 1994, n. 487,» sono inserite le seguenti: «del regolamento di cui al <ref xmlns:ns12="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_12" href="/akn/it/act/decretoDelPresidenteDellaRepubblica/stato/2004-09-24/272/!main" ns12:target="olf:it/dpr/stato/2004/272" ns12:relation="cites">decreto del Presidente della Repubblica 24 settembre 2004, n. 272</ref>,»; 
+ la lettera c) e' sostituita dalle seguenti: 
+ «c) per i profili qualificati dalle amministrazioni, in sede di bando, ad elevata specializzazione tecnica, una fase di valutazione dei titoli legalmente riconosciuti e strettamente correlati alla natura e alle caratteristiche delle posizioni bandite, ai fini dell'ammissione a successive fasi concorsuali; 
+ c-bis) conformemente a quanto disposto dall'<ref xmlns:ns13="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_13" href="/akn/it/act/legge/stato/2019-06-19/56/!main#art_3-com6-letb-num7" ns13:target="olf:it/legge/stato/2019/56/art_3-com6-letb-num7" ns13:relation="amends">articolo 3, comma 6, lettera b), numero 7), della legge 19 giugno 2019, n. 56</ref>, i titoli e l'eventuale esperienza professionale, inclusi i titoli di servizio, possono concorrere, in misura non superiore a un terzo, alla formazione del punteggio finale»; 
+ dopo il comma 1 e' inserito il seguente: 
+ «1-bis. A decorrere dalla data di entrata in vigore della legge di conversione del presente decreto, ai fini della partecipazione alle procedure concorsuali per il reclutamento di personale delle amministrazioni di cui all'<ref xmlns:ns14="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_14" href="/akn/it/act/decretoLegislativo/stato/2001-05-30/165/!main#art_1-com2" ns14:target="olf:it/decreto-legislativo/stato/2001/165/art_1-com2" ns14:relation="cites">articolo 1, comma 2, del decreto legislativo 30 maggio 2001, n. 165</ref>, il possesso del titolo di laurea magistrale in scienze delle religioni (LM64), secondo la classificazione definita ai sensi del regolamento di cui al <ref xmlns:ns15="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_15" href="/akn/it/act/decreto/ministero.istruzione.universita.ricerca/2004-10-22/270/!main" ns15:target="olf:it/decreto/ministero-istruzione-universita-ricerca/2004/270" ns15:relation="cites">decreto del Ministro dell'istruzione, dell'universita' e della ricerca 22 ottobre 2004, n. 270</ref>, dispiega i medesimi effetti del possesso del titolo di laurea magistrale in scienze storiche (LM84), in scienze filosofiche (LM78) e in antropologia culturale ed etnologia (LM01)»;  al comma 2, dopo le parole: «ove necessario,» sono inserite le seguenti: «e in ogni caso fino al permanere dello stato di emergenza deliberato dal Consiglio dei ministri il 31 gennaio 2020, e successive proroghe,»; 
+ al comma 3, dopo le parole: «adottate per il bando e riaprendo» sono inserite le seguenti: «, per un periodo massimo di trenta giorni,»; 
+ al comma 4, quarto periodo, dopo le parole: «Il Dipartimento» sono inserite le seguenti: «della funzione pubblica»; 
+ al comma 6, il terzo periodo e' sostituito dai seguenti: «La commissione definisce in una seduta plenaria preparatoria procedure e criteri di valutazione omogenei e vincolanti per tutte le sottocommissioni. Tali procedure e criteri di valutazione sono pubblicati nel sito internet dell'amministrazione procedente contestualmente alla graduatoria finale»; 
+ al comma 8, dopo le parole: «n. 165» sono aggiunte le seguenti: «, fatto salvo quanto previsto al comma 11-bis»; 
+ al comma 9, dopo le parole: «dei concorsi banditi dalle pubbliche amministrazioni» sono inserite le seguenti: «e delle selezioni pubbliche ai sensi dell'articolo 19, comma 2, del testo unico in materia di societa' a partecipazione pubblica, di cui al <ref xmlns:ns16="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_16" href="/akn/it/act/decretoLegislativo/stato/2016-08-19/175/!main" ns16:target="olf:it/decreto-legislativo/stato/2016/175" ns16:relation="amends">decreto legislativo 19 agosto 2016, n. 175</ref>,»; 
+ dopo il comma 10 e' inserito il seguente: 
+ «10-bis. In deroga a quanto previsto dall'<ref xmlns:ns17="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_17" href="/akn/it/act/decretoLegislativo/stato/2000-10-05/334/!main#art_4-com1" ns17:target="olf:it/decreto-legislativo/stato/2000/334/art_4-com1" ns17:relation="amends">articolo 4, comma 1, del decreto legislativo 5 ottobre 2000, n. 334</ref>, il 110° corso e il 111° corso di formazione iniziale per l'accesso alla qualifica di commissario della Polizia di Stato hanno durata pari a quattordici mesi. I commissari che superano l'esame finale dei predetti corsi e sono dichiarati idonei al servizio di polizia sono confermati nel ruolo con la qualifica di commissario. Con la predetta qualifica essi svolgono, nell'ufficio o reparto di assegnazione, il tirocinio operativo, della durata di dieci mesi, secondo le modalita' previste in applicazione del decreto di cui al comma 6 del citato <ref xmlns:ns18="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_18" href="/akn/it/act/decretoLegislativo/stato/2000/334/!main#art_4" ns18:resolution="unresolved">articolo 4 del decreto legislativo n. 334 del 2000</ref>, e acquisiscono la qualifica di commissario capo previa valutazione positiva ai sensi del terzo periodo del comma 4 del medesimo articolo 4»; 
+ dopo il comma 11 sono aggiunti i seguenti: 
+ «11-bis. All'<ref xmlns:ns19="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_19" href="/akn/it/act/decretoLegge/stato/2020-12-31/183/!main#art_1bis-com2" ns19:target="olf:it/decreto-legge/stato/2020/183/art_1bis-com2" ns19:relation="amends">articolo 1-bis, comma 2, del decreto-legge 31 dicembre 2020, n. 183</ref>, convertito, con modificazioni, dalla <ref xmlns:ns20="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_20" href="/akn/it/act/legge/stato/2021-02-26/21/!main" ns20:target="olf:it/legge/stato/2021/21" ns20:relation="cites">legge 26 febbraio 2021, n. 21</ref>, sono apportate le seguenti modificazioni: 
+ a) al quinto periodo, le parole da: "con equiparazione" fino a: "F1," sono soppresse e la parola: "219.436" e' sostituita dalla seguente: "438.872"; 
+ b) al sesto periodo, le parole: "nel medesimo profilo professionale, di cui al secondo periodo" sono sostituite dalle seguenti: "di 10 unita' dell'Area III, posizione economica F1, ivi incluse le 5 unita' con particolare specializzazione professionale di cui al secondo periodo"; 
+ 11-ter. Al fine di ridurre i tempi di reclutamento del personale, le autorita' amministrative indipendenti, inclusi gli enti che svolgono la loro attivita' nelle materie contemplate dall'articolo 2 del testo unico delle leggi in materia bancaria e creditizia, di cui al <ref xmlns:ns21="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_21" href="/akn/it/act/decretoLegislativo/stato/1993-09-01/385/!main" ns21:target="olf:it/decreto-legislativo/stato/1993/385" ns21:relation="cites">decreto legislativo 1° settembre 1993, n. 385</ref>, e dalle <ref xmlns:ns22="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_22" href="/akn/it/act/legge/stato/1990-10-10/287/!main" ns22:target="olf:it/legge/stato/1990/287" ns22:relation="cites">leggi 4 giugno 1985, n. 281, e 10 ottobre 1990, n. 287</ref>, possono prevedere, secondo la specificita' del proprio ordinamento, modalita' semplificate di svolgimento delle prove ricorrendo a ciascuna ovvero a talune delle modalita' indicate al presente articolo, fermo restando l'obbligo di assicurare il profilo comparativo»; 
+ alla rubrica sono aggiunte, in fine, le seguenti parole: «e per la durata dei corsi di formazione iniziale». 
+ Dopo l'articolo 10 sono inseriti i seguenti: 
+ «Art. 10-bis (Disposizioni per i direttori scientifici degli istituti di ricovero e cura a carattere scientifico di diritto pubblico). - 1. L'<ref xmlns:ns23="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_23" href="/akn/it/act/decretoLegislativo/stato/2003-10-16/288/!main#art_11-com3" ns23:target="olf:it/decreto-legislativo/stato/2003/288/art_11-com3" ns23:relation="amends">articolo 11, comma 3, del decreto legislativo 16 ottobre 2003, n. 288</ref>, si interpreta nel senso che alle figure di direttore generale, direttore scientifico, direttore amministrativo e direttore sanitario degli istituti di ricovero e cura a carattere scientifico (IRCCS) si applicano, per quanto non disciplinato dal predetto <ref xmlns:ns24="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_24" href="/akn/it/act/decretoLegislativo/stato/2003/288/!main" ns24:resolution="unresolved">decreto legislativo n. 288 del 2003</ref>, le norme di cui all'<ref xmlns:ns25="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_25" href="/akn/it/act/decretoLegislativo/stato/1992-12-30/502/!main#art_3bis" ns25:target="olf:it/decreto-legislativo/stato/1992/502/art_3bis" ns25:relation="cites">articolo 3-bis del decreto legislativo 30 dicembre 1992, n. 502</ref>, ivi inclusi i commi 11 e 12 relativi al trattamento di quiescenza e di previdenza, anche con riferimento alla figura del direttore scientifico. 
+ 2. Agli oneri derivanti dal comma 1, pari ad euro 61.200 per il 2022, euro 262.500 per il 2023, euro 213.100 per il 2024, euro 334.400 per il 2025, euro 204.600 per il 2026, euro 219.600 per il 2027, euro 330.200 per il 2028, euro 302.900 per il 2029 ed euro 424.500 annui a decorrere dal 2030, si provvede mediante corrispondente riduzione dell'autorizzazione di spesa recata dall'<ref xmlns:ns26="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_26" href="/akn/it/act/decretoLegge/stato/2004-03-29/81/!main#art_1-com1-leta" ns26:target="olf:it/decreto-legge/stato/2004/81/art_1-com1-leta" ns26:relation="cites">articolo 1, comma 1, lettera a), del decreto-legge 29 marzo 2004, n. 81</ref>, convertito, con modificazioni, dalla <ref xmlns:ns27="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_27" href="/akn/it/act/legge/stato/2004-05-26/138/!main" ns27:target="olf:it/legge/stato/2004/138" ns27:relation="cites">legge 26 maggio 2004, n. 138</ref>. 
+ Art. 10-ter (Incarichi temporanei nelle scuole dell'infanzia paritarie comunali). - 1. All'<ref xmlns:ns28="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_28" href="/akn/it/act/decretoLegge/stato/2020-04-08/22/!main#art_2ter-com1" ns28:target="olf:it/decreto-legge/stato/2020/22/art_2ter-com1" ns28:relation="amends">articolo 2-ter, comma 1, del decreto-legge 8 aprile 2020, n. 22</ref>, convertito, con modificazioni, dalla <ref xmlns:ns29="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_29" href="/akn/it/act/legge/stato/2020-06-06/41/!main" ns29:target="olf:it/legge/stato/2020/41" ns29:relation="cites">legge 6 giugno 2020, n. 41</ref>, al primo periodo, dopo le parole: "per l'anno scolastico 2020/2021" sono inserite le seguenti: "e per l'anno scolastico 2021/ 2022". 
+ Art. 10-quater (Modifiche all'<ref xmlns:ns30="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_30" href="/akn/it/act/decretoLegislativo/stato/2016-08-04/171/!main#art_1" ns30:target="olf:it/decreto-legislativo/stato/2016/171/art_1" ns30:relation="amends">articolo 1 del decreto legislativo 4 agosto 2016, n. 171</ref>). - 1. All'<ref xmlns:ns31="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_31" href="/akn/it/act/decretoLegislativo/stato/2016-08-04/171/!main#art_1" ns31:target="olf:it/decreto-legislativo/stato/2016/171/art_1" ns31:relation="amends">articolo 1 del decreto legislativo 4 agosto 2016, n. 171</ref>, sono apportate le seguenti modificazioni: 
+ a) al comma 7-quater, alinea, dopo le parole: "negli ultimi sette anni" sono inserite le seguenti: "e, nelle regioni con popolazione inferiore a 500.000 abitanti, negli ultimi dieci anni"; 
+ b) al comma 7-quinquies, dopo le parole: "negli ultimi sette anni" sono inserite le seguenti: "e, nelle regioni con popolazione inferiore a 500.000 abitanti, negli ultimi dieci anni". 
+ 2. All'onere derivante dal presente articolo, pari a 75.000 euro per l'anno 2021, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di conto capitale iscritto, ai fini del bilancio triennale 2021-2023, nell'ambito del programma "Fondi di riserva e speciali" della missione "Fondi da ripartire" dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2021, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero della salute». 
+ All'articolo 11: 
+ al comma 1, dopo le parole: «pubblicato nella Gazzetta Ufficiale» sono inserite le seguenti: «, 4ª serie speciale,»; 
+ al comma 4, le parole: «i criteri per la valutazione dei testi» sono sostituite dalle seguenti: «i criteri per la consultazione dei testi»; 
+ al comma 5, le parole: «Quando la commissione definisce i criteri» sono sostituite dalle seguenti: «Nel definire i criteri» e le parole: «tiene conto» sono sostituite dalle seguenti: «la commissione tiene conto»; 
+ al comma 6, le parole: «fermi i restanti criteri» sono sostituite dalle seguenti: «fermi restando gli ulteriori criteri»; 
+ al comma 8, le parole: «del Programma Fondi di riserva e speciali» sono sostituite dalle seguenti: «del programma "Fondi di riserva e speciali"». 
+ Dopo l'articolo 11 sono inseriti i seguenti: 
+ «Art. 11-bis (Definizione dei soggetti ammessi alle agevolazioni di cui all'<ref xmlns:ns32="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_32" href="/akn/it/act/legge/stato/2019-12-27/160/!main#art_1-com412" ns32:target="olf:it/legge/stato/2019/160/art_1-com412" ns32:relation="amends">articolo 1, comma 412, della legge 27 dicembre 2019, n. 160</ref>). - 1. In considerazione del protrarsi dell'emergenza epidemiologica da COVID-19 e del relativo impatto sul sistema di istruzione tecnica superiore, fino al 31 dicembre 2021 sono ammissibili alle agevolazioni previste dal decreto del Ministro dello sviluppo economico 18 dicembre 2020, recante termini, modalita' e condizioni per la concessione delle risorse previste dall'<ref xmlns:ns33="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_33" href="/akn/it/act/legge/stato/2019-12-27/160/!main#art_1-com412" ns33:target="olf:it/legge/stato/2019/160/art_1-com412" ns33:relation="amends">articolo 1, comma 412, della legge 27 dicembre 2019, n. 160</ref>, con l'obiettivo di favorire la diffusione delle competenze nell'utilizzo delle tecnologie abilitanti nell'ambito della trasformazione 4.0, necessarie ad accompagnare e sostenere in modo sistematico le misure per lo sviluppo economico e la competitivita' del sistema produttivo, pubblicato nella Gazzetta Ufficiale n. 58 del 9 marzo 2021, gli istituti tecnici superiori che, alla data di presentazione della domanda, sono in possesso anche del solo requisito di cui all'articolo 3, comma 1, lettera e), del medesimo decreto ministeriale 18 dicembre 2020, per il quale sono esclusi i contributi erogati annualmente dal Ministero dell'istruzione in relazione ai progetti "I.T.S. 4.0", a valere sulle misure nazionali di sistema di cui all'articolo 12, comma 5, del decreto del Presidente del Consiglio dei ministri 25 gennaio 2008, pubblicato nella Gazzetta Ufficiale n. 86 dell'11 aprile 2008. 
+ Art. 11-ter (Misure urgenti per le baraccopoli di Messina). - 1.
+Al fine di attuare, in via d'urgenza, la demolizione, nonche' la rimozione, lo smaltimento e il conferimento in discarica dei materiali di risulta, il risanamento, la bonifica e la riqualificazione urbana e ambientale delle aree ove insistono le baraccopoli della citta' di Messina, anche in relazione all'emergenza epidemiologica da COVID-19, nonche' di assicurare gli investimenti necessari per il ricollocamento abitativo delle persone ivi residenti, entro dieci giorni dalla data di entrata in vigore della legge di conversione del presente decreto, il prefetto di Messina e' nominato Commissario straordinario del Governo, ai sensi dell'<ref xmlns:ns34="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_34" href="/akn/it/act/legge/stato/1988-08-23/400/!main#art_11" ns34:target="olf:it/legge/stato/1988/400/art_11" ns34:relation="cites">articolo 11 della legge 23 agosto 1988, n. 400</ref>, per l'espletamento delle attivita' necessarie. La durata dell'incarico del Commissario straordinario e' di dodici mesi e puo' essere prorogata o rinnovata non oltre il 31 dicembre 2023. L'incarico e' a titolo gratuito. 
+ 2. Con il decreto del Presidente della Repubblica di nomina del Commissario straordinario ai sensi del comma 1, si provvede alla definizione di una struttura di supporto per l'esercizio delle funzioni commissariali nei limiti di quanto previsto al comma 3, nonche' dei relativi compiti. 
+ 3. La struttura di supporto di cui al comma 2, posta alle dirette dipendenze del Commissario straordinario, e' composta da un contingente massimo di personale pari a sette unita' di personale non dirigenziale appartenenti ai ruoli delle amministrazioni pubbliche di cui all'<ref xmlns:ns35="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_35" href="/akn/it/act/decretoLegislativo/stato/2001-03-30/165/!main#art_1-com2" ns35:target="olf:it/decreto-legislativo/stato/2001/165/art_1-com2" ns35:relation="cites">articolo 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165</ref>, in possesso delle competenze e dei requisiti di professionalita' richiesti dal Commissario straordinario per l'espletamento delle proprie funzioni, con esclusione del personale docente, educativo e amministrativo, tecnico e ausiliario delle istituzioni scolastiche. Detto personale e' posto, ai sensi dell'<ref xmlns:ns36="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_36" href="/akn/it/act/legge/stato/1997-05-15/127/!main#art_17-com14" ns36:target="olf:it/legge/stato/1997/127/art_17-com14" ns36:relation="cites">articolo 17, comma 14, della legge 15 maggio 1997, n. 127</ref>, in posizione di comando, distacco, fuori ruolo o altro analogo istituto previsto dai rispettivi ordinamenti, conservando lo stato giuridico e il trattamento economico fondamentale dell'amministrazione di appartenenza, che resta a carico della medesima. Al personale della struttura e' riconosciuto il trattamento economico accessorio, ivi compresa l'indennita' di amministrazione, del personale non dirigenziale del comparto della Presidenza del Consiglio dei ministri. La struttura cessa alla scadenza dell'incarico del Commissario straordinario. Gli oneri relativi al trattamento economico accessorio sono a carico esclusivo della contabilita' speciale intestata al Commissario straordinario ai sensi del comma 10. 
+ 4. Per le attivita' strumentali agli interventi di demolizione e rigenerazione urbana, nonche' per ogni altra attivita' di carattere tecnico-amministrativo connessa alla progettazione, all'affidamento e all'esecuzione di lavori, servizi e forniture, il Commissario straordinario puo' avvalersi, anche in qualita' di soggetti attuatori, di uffici statali, nonche' di societa' a totale capitale dello Stato e di societa' da esse controllate, di strutture del comune di Messina e delle societa' controllate dal medesimo, nonche', previa intesa, degli uffici della Regione siciliana, in ogni caso senza nuovi o maggiori oneri, sulla base di appositi protocolli d'intesa nell'ambito delle risorse umane e finanziarie disponibili a legislazione vigente. 
+ 5. Il Commissario straordinario provvede, con ordinanza, entro sessanta giorni dalla sua nomina, alla esatta perimetrazione dell'area delle baraccopoli, anche ai fini della successiva individuazione delle strutture abitative da sottoporre a sgombero e demolizione, e alla predisposizione di un piano degli interventi previsti dal comma 1, da realizzare nei limiti delle risorse disponibili allo scopo. 
+ 6. Il piano di cui al comma 5 deve indicare, ai sensi dell'<ref xmlns:ns37="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_37" href="/akn/it/act/legge/stato/2003-01-16/3/!main#art_11" ns37:target="olf:it/legge/stato/2003/3/art_11" ns37:relation="cites">articolo 11 della legge 16 gennaio 2003, n. 3</ref>, i codici unici di progetto delle opere che si intende realizzare e il relativo cronoprogramma, in coerenza con il profilo di spesa autorizzato. Il monitoraggio degli interventi ai sensi del <ref xmlns:ns38="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_38" href="/akn/it/act/decretoLegislativo/stato/2011-12-29/229/!main" ns38:target="olf:it/decreto-legislativo/stato/2011/229" ns38:relation="cites">decreto legislativo 29 dicembre 2011, n. 229</ref>, e' effettuato dal soggetto che svolge le funzioni di stazione appaltante. Il piano deve altresi' stabilire i termini per l'assunzione di obbligazioni giuridicamente vincolanti, come desumibili dalle informazioni presenti nel sistema di monitoraggio in relazione all'approvazione della proposta di aggiudicazione, ai sensi dell'<ref xmlns:ns39="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_39" href="/akn/it/act/decretoLegislativo/stato/2006-04-12/163/!main#art_33-com1" ns39:target="olf:it/decreto-legislativo/stato/2006/163/art_33-com1" ns39:relation="cites">articolo 33, comma 1, del codice dei contratti pubblici</ref>, di cui al <ref xmlns:ns40="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_40" href="/akn/it/act/decretoLegislativo/stato/2016-04-18/50/!main" ns40:target="olf:it/decreto-legislativo/stato/2016/50" ns40:relation="amends">decreto legislativo 18 aprile 2016, n. 50</ref>. 
+ 7. Per la realizzazione degli interventi di cui al comma 1, il Commissario straordinario opera in deroga ad ogni disposizione di legge diversa da quella penale, fatto salvo il rispetto delle disposizioni del codice delle leggi antimafia e delle misure di prevenzione, di cui al <ref xmlns:ns41="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_41" href="/akn/it/act/decretoLegislativo/stato/2011-09-06/159/!main" ns41:target="olf:it/decreto-legislativo/stato/2011/159" ns41:relation="cites">decreto legislativo 6 settembre 2011, n. 159</ref>, nonche' dei vincoli inderogabili derivanti dall'appartenenza all'Unione europea. Il Commissario straordinario puo' assumere le funzioni di stazione appaltante. Si applica l'<ref xmlns:ns42="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_42" href="/akn/it/act/decretoLegge/stato/2019-04-18/32/!main#art_4-com3" ns42:target="olf:it/decreto-legge/stato/2019/32/art_4-com3" ns42:relation="cites">articolo 4, comma 3, del decreto-legge 18 aprile 2019, n. 32</ref>, convertito, con modificazioni, dalla <ref xmlns:ns43="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_43" href="/akn/it/act/legge/stato/2019-06-14/55/!main" ns43:target="olf:it/legge/stato/2019/55" ns43:relation="amends">legge 14 giugno 2019, n. 55</ref>. 
+ 8. Per la predisposizione del piano di cui al comma 5, il Commissario straordinario acquisisce, in fase consultiva, le proposte del comune di Messina, con le modalita' e nei termini stabiliti dal Commissario straordinario stesso, e comunque entro e non oltre dieci giorni dalla richiesta. Il Commissario straordinario, in raccordo con le strutture competenti per le politiche abitative, effettua gli investimenti utili al ricollocamento abitativo delle persone residenti nell'area perimetrata, ivi inclusi l'acquisto e il conferimento al patrimonio del comune di Messina di immobili da destinare a unita' abitative. 
+ 9. Il piano di cui al comma 5 garantisce la piena compatibilita' e il rispetto dei piani di evacuazione aggiornati a seguito della direttiva del Presidente del Consiglio dei ministri 14 febbraio 2014, pubblicata nella Gazzetta Ufficiale n. 108 del 12 maggio 2014. 
+ 10. Per le finalita' di cui al presente articolo e' autorizzata l'apertura di apposita contabilita' speciale intestata al Commissario straordinario, nella quale confluiscono le risorse autorizzate dal comma 11 nonche' le ulteriori risorse pubbliche allo scopo eventualmente destinate. 
+ 11. Per la realizzazione degli interventi previsti dal presente articolo e' autorizzata la spesa complessiva di 100 milioni di euro, di cui 75 milioni di euro per l'anno 2021, 20 milioni di euro per l'anno 2022 e 5 milioni di euro per l'anno 2023. Ai relativi oneri si provvede mediante corrispondente riduzione del Fondo per lo sviluppo e la coesione, periodo di programmazione 2021-2027, di cui all'<ref xmlns:ns44="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_44" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com177" ns44:target="olf:it/legge/stato/2020/178/art_1-com177" ns44:relation="cites">articolo 1, comma 177, della legge 30 dicembre 2020, n. 178</ref>. Agli oneri relativi alle spese di personale e di funzionamento della struttura si provvede, nel limite di 0,10 milioni di euro per l'anno 2021 e di 0,15 milioni di euro per ciascuno degli anni 2022 e 2023, mediante corrispondente riduzione del Fondo di cui all'<ref xmlns:ns45="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_45" href="/akn/it/act/legge/stato/2014-12-23/190/!main#art_1-com200" ns45:target="olf:it/legge/stato/2014/190/art_1-com200" ns45:relation="cites">articolo 1, comma 200, della legge 23 dicembre 2014, n. 190</ref>. 
+ 12. In caso di mancato rispetto dei termini per l'assunzione di obbligazioni giuridicamente vincolanti stabiliti dal piano di cui al comma 5, le risorse sono revocate con decreto del Presidente del Consiglio dei ministri, di concerto con il Ministro dell'economia e delle finanze, sulla base delle risultanze del monitoraggio di cui al comma 6, e sono versate all'entrata del bilancio dello Stato per la successiva riassegnazione al Fondo per lo sviluppo e la coesione, periodo di programmazione 2021-2027, di cui all'<ref xmlns:ns46="https://openlawsfoundation.org/ns/akn4olf/1.0" eId="content__ref_46" href="/akn/it/act/legge/stato/2020-12-30/178/!main#art_1-com177" ns46:target="olf:it/legge/stato/2020/178/art_1-com177" ns46:relation="cites">articolo 1, comma 177, della legge 30 dicembre 2020, n. 178</ref>. Il Ministro dell'economia e delle finanze e' autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio. 
+ Art. 11-quater (Clausola di salvaguardia). - 1. Le disposizioni del presente decreto si applicano nelle regioni a statuto speciale e nelle province autonome di Trento e di Bolzano compatibilmente con i rispettivi statuti e le relative norme di attuazione». 
+ Alla rubrica del capo III, dopo le parole: «semplificazione delle procedure per i concorsi pubblici» sono inserite le seguenti: «e dei corsi di formazione iniziale» e sono aggiunte, in fine, le seguenti parole: «e altre disposizioni urgenti». 
+</p>
+                            </content>
+                        </paragraph>
+                    </mainBody>
+                </doc>
+            </attachment>
+        </attachments>
+    </act>
+</akomaNtoso>
